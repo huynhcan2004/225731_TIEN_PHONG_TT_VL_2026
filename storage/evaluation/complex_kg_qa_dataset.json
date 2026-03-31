@@ -1,0 +1,1350 @@
+[
+  {
+    "entity": "VT_BUNG_BUC",
+    "id": 1,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bùng bục'})-[:CO_VI]->(t:TinhVi)",
+    "question": "Vị thuốc Bùng bục có những vị nào?",
+    "lead_in": "Theo y văn, vị thuốc Bùng bục có các vị sau:",
+    "expected_facts": [
+      "Vị ngọt",
+      "Vị nhạt"
+    ],
+    "expected_answer_full": "Vị ngọt, Vị nhạt"
+  },
+  {
+    "entity": "VT_HUONG_DIEP",
+    "id": 2,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Hương điệp'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Hương điệp có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Hương điệp chứa các hoạt chất:",
+    "expected_facts": [
+      "Ancol Amylic",
+      "Ancol Phenyletylic",
+      "Bocneola",
+      "Geraniola",
+      "I-Pinen"
+    ],
+    "expected_answer_full": "Ancol Amylic, Ancol Phenyletylic, Bocneola, Geraniola, I-Pinen"
+  },
+  {
+    "entity": "VT_NIET_GIO",
+    "id": 3,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Niệt gió'})-[:CO_CONG_NANG]->(t:CongNang)",
+    "question": "Vị thuốc Niệt gió có những công năng gì?",
+    "lead_in": "Trong Y học cổ truyền, Niệt gió có công năng:",
+    "expected_facts": [
+      "Công năng"
+    ],
+    "expected_answer_full": "Công năng"
+  },
+  {
+    "entity": "VT_RAY",
+    "id": 4,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ráy'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Ráy có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Ráy chứa các hoạt chất:",
+    "expected_facts": [
+      "Chất gây ngứa",
+      "Tinh bột"
+    ],
+    "expected_answer_full": "Chất gây ngứa, Tinh bột"
+  },
+  {
+    "entity": "VT_BAC_DEN",
+    "id": 5,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bắc đèn'})-[:CO_VI]->(t:TinhVi)",
+    "question": "Vị thuốc Bắc đèn có những vị nào?",
+    "lead_in": "Theo y văn, vị thuốc Bắc đèn có các vị sau:",
+    "expected_facts": [
+      "Vị ngọt"
+    ],
+    "expected_answer_full": "Vị ngọt"
+  },
+  {
+    "entity": "VT_TOI",
+    "id": 6,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tỏi'})-[:QUY_KINH]->(t:KinhMach)",
+    "question": "Vị thuốc Tỏi quy vào những kinh nào?",
+    "lead_in": "Theo y văn, vị thuốc Tỏi quy kinh:",
+    "expected_facts": [
+      "Kinh Can",
+      "Kinh vị"
+    ],
+    "expected_answer_full": "Kinh Can, Kinh vị"
+  },
+  {
+    "entity": "VT_CO_SUA_NHO_LA",
+    "id": 7,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Cỏ sữa nhỏ lá'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Cỏ sữa nhỏ lá có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Cỏ sữa nhỏ lá chứa các hoạt chất:",
+    "expected_facts": [
+      "Cosmosiin",
+      "Myrixyl Alcohol",
+      "Taraxerol",
+      "Tirucallol"
+    ],
+    "expected_answer_full": "Cosmosiin, Myrixyl Alcohol, Taraxerol, Tirucallol"
+  },
+  {
+    "entity": "VT_DON_TRANG_HE_MO",
+    "id": 8,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Đơn trắng (Hé mọ)'})-[:CO_TINH]->(t:TinhVi)",
+    "question": "Vị thuốc Đơn trắng (Hé mọ) có tính gì?",
+    "lead_in": "Theo y văn, vị thuốc Đơn trắng (Hé mọ) có tính:",
+    "expected_facts": [
+      "Tính Ôn"
+    ],
+    "expected_answer_full": "Tính Ôn"
+  },
+  {
+    "entity": "VT_VANG_DANG",
+    "id": 9,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Vàng đằng'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Vàng đằng có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Vàng đằng chứa các hoạt chất:",
+    "expected_facts": [
+      "Becberin"
+    ],
+    "expected_answer_full": "Becberin"
+  },
+  {
+    "entity": "VT_TO_MOC",
+    "id": 10,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tô mộc'})-[:CO_VI]->(t:TinhVi)",
+    "question": "Vị thuốc Tô mộc có những vị nào?",
+    "lead_in": "Theo y văn, vị thuốc Tô mộc có các vị sau:",
+    "expected_facts": [
+      "Vị ngọt"
+    ],
+    "expected_answer_full": "Vị ngọt"
+  },
+  {
+    "entity": "VT_TO_MOC",
+    "id": 11,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tô mộc'})-[:CO_CONG_NANG]->(t:CongNang)",
+    "question": "Vị thuốc Tô mộc có những công năng gì?",
+    "lead_in": "Trong Y học cổ truyền, Tô mộc có công năng:",
+    "expected_facts": [
+      "Chỉ thống",
+      "Cầm máu",
+      "Hành huyết",
+      "Khứ ứ",
+      "Săn da"
+    ],
+    "expected_answer_full": "Chỉ thống, Cầm máu, Hành huyết, Khứ ứ, Săn da"
+  },
+  {
+    "entity": "VT_DUA_CHUOT",
+    "id": 12,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Dưa chuột'})-[:QUY_KINH]->(t:KinhMach)",
+    "question": "Vị thuốc Dưa chuột quy vào những kinh nào?",
+    "lead_in": "Theo y văn, vị thuốc Dưa chuột quy kinh:",
+    "expected_facts": [
+      "Kinh vị"
+    ],
+    "expected_answer_full": "Kinh vị"
+  },
+  {
+    "entity": "VT_BACH_HAC",
+    "id": 13,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bạch hạc'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Bạch hạc có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Bạch hạc chứa các hoạt chất:",
+    "expected_facts": [
+      "Axit cryzophanic",
+      "Axit frangulic",
+      "Rinacantin"
+    ],
+    "expected_answer_full": "Axit cryzophanic, Axit frangulic, Rinacantin"
+  },
+  {
+    "entity": "VT_CON_BO",
+    "id": 14,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Côn bố'})-[:QUY_KINH]->(t:KinhMach)",
+    "question": "Vị thuốc Côn bố quy vào những kinh nào?",
+    "lead_in": "Theo y văn, vị thuốc Côn bố quy kinh:",
+    "expected_facts": [
+      "Kinh Can"
+    ],
+    "expected_answer_full": "Kinh Can"
+  },
+  {
+    "entity": "VT_TRAU_KHONG",
+    "id": 15,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Trầu không'})-[:CO_CONG_NANG]->(t:CongNang)",
+    "question": "Vị thuốc Trầu không có những công năng gì?",
+    "lead_in": "Trong Y học cổ truyền, Trầu không có công năng:",
+    "expected_facts": [
+      "Kích thích tiêu hóa",
+      "Sát trùng",
+      "Tiêu viêm",
+      "Trừ phong thấp"
+    ],
+    "expected_answer_full": "Kích thích tiêu hóa, Sát trùng, Tiêu viêm, Trừ phong thấp"
+  },
+  {
+    "entity": "VT_TAN_CUU_THANH_TAO",
+    "id": 16,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tân cửu (Thanh táo)'})-[:CO_CONG_NANG]->(t:CongNang)",
+    "question": "Vị thuốc Tân cửu (Thanh táo) có những công năng gì?",
+    "lead_in": "Trong Y học cổ truyền, Tân cửu (Thanh táo) có công năng:",
+    "expected_facts": [
+      "Hoạt huyết",
+      "Lợi đại tiện",
+      "Trấn thống"
+    ],
+    "expected_answer_full": "Hoạt huyết, Lợi đại tiện, Trấn thống"
+  },
+  {
+    "entity": "VT_TO_MOC",
+    "id": 17,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tô mộc'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Tô mộc có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Tô mộc chứa các hoạt chất:",
+    "expected_facts": [
+      "Acid 3,4-Dihydroxibenzoic",
+      "Acid Vanilic",
+      "Axit galic",
+      "Brasilein",
+      "Brasilin"
+    ],
+    "expected_answer_full": "Acid 3,4-Dihydroxibenzoic, Acid Vanilic, Axit galic, Brasilein, Brasilin"
+  },
+  {
+    "entity": "VT_PHU_DUNG",
+    "id": 18,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Phù dung'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Phù dung có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Phù dung chứa các hoạt chất:",
+    "expected_facts": [
+      "Anthoxyanozit",
+      "Axit Amin",
+      "Flavonoid",
+      "Hợp chất Phenol",
+      "Meratin"
+    ],
+    "expected_answer_full": "Anthoxyanozit, Axit Amin, Flavonoid, Hợp chất Phenol, Meratin"
+  },
+  {
+    "entity": "VT_KEO_NUOC_HOA",
+    "id": 19,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Keo nước hoa'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Keo nước hoa có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Keo nước hoa chứa các hoạt chất:",
+    "expected_facts": [
+      "Farnesola",
+      "Metyl Salixylat",
+      "Tanin"
+    ],
+    "expected_answer_full": "Farnesola, Metyl Salixylat, Tanin"
+  },
+  {
+    "entity": "VT_CHUA_ME_DAT_HOA_VANG",
+    "id": 20,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Chua me đất hoa vàng'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Chua me đất hoa vàng có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Chua me đất hoa vàng chứa các hoạt chất:",
+    "expected_facts": [
+      "Axit Oxalic",
+      "Oxalat axit kali"
+    ],
+    "expected_answer_full": "Axit Oxalic, Oxalat axit kali"
+  },
+  {
+    "entity": "VT_HONG_HOA",
+    "id": 21,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Hồng hoa'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Hồng hoa có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Hồng hoa chứa các hoạt chất:",
+    "expected_facts": [
+      "Cactamin",
+      "Carthamin",
+      "Carthamosid",
+      "Chất béo",
+      "Isocarthamin"
+    ],
+    "expected_answer_full": "Cactamin, Carthamin, Carthamosid, Chất béo, Isocarthamin"
+  },
+  {
+    "entity": "VT_BAN_HA",
+    "id": 22,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bán hạ'})-[:QUY_KINH]->(t:KinhMach)",
+    "question": "Vị thuốc Bán hạ quy vào những kinh nào?",
+    "lead_in": "Theo y văn, vị thuốc Bán hạ quy kinh:",
+    "expected_facts": [
+      "Kinh tỳ"
+    ],
+    "expected_answer_full": "Kinh tỳ"
+  },
+  {
+    "entity": "VT_NGAI_CUU",
+    "id": 23,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ngải Cứu'})-[:CO_CONG_NANG]->(t:CongNang)",
+    "question": "Vị thuốc Ngải Cứu có những công năng gì?",
+    "lead_in": "Trong Y học cổ truyền, Ngải Cứu có công năng:",
+    "expected_facts": [
+      "An thai",
+      "Khu hàn",
+      "Ôn khí huyết",
+      "Điều kinh"
+    ],
+    "expected_answer_full": "An thai, Khu hàn, Ôn khí huyết, Điều kinh"
+  },
+  {
+    "entity": "VT_CHUA_ME_LA_ME",
+    "id": 24,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Chua me lá me'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat)",
+    "question": "Vị thuốc Chua me lá me có chứa những hoạt chất nào?",
+    "lead_in": "Phân tích dược lý cho thấy Chua me lá me chứa các hoạt chất:",
+    "expected_facts": [
+      "Insulin",
+      "Kali oxalat"
+    ],
+    "expected_answer_full": "Insulin, Kali oxalat"
+  },
+  {
+    "entity": "VT_TRAU_KHONG",
+    "id": 25,
+    "pattern_type": "single_relation",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Trầu không'})-[:CO_VI]->(t:TinhVi)",
+    "question": "Vị thuốc Trầu không có những vị nào?",
+    "lead_in": "Theo y văn, vị thuốc Trầu không có các vị sau:",
+    "expected_facts": [
+      "Vị Cay"
+    ],
+    "expected_answer_full": "Vị Cay"
+  },
+  {
+    "entity": "VT_PHONG_PHONG",
+    "id": 26,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Phong Phong'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Phong Phong thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Phong Phong, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Nhức Đầu",
+      "Thiên Đầu Thống"
+    ],
+    "expected_answer_full": "Nhức Đầu, Thiên Đầu Thống"
+  },
+  {
+    "entity": "VT_DAU_DUA",
+    "id": 27,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Dầu dừa'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Dầu dừa thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Dầu dừa, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Sưng vú"
+    ],
+    "expected_answer_full": "Sưng vú"
+  },
+  {
+    "entity": "VT_THUONG_SON",
+    "id": 28,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thường sơn'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Thường sơn thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Thường sơn, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Sốt rét"
+    ],
+    "expected_answer_full": "Sốt rét"
+  },
+  {
+    "entity": "VT_TRUNG_GA",
+    "id": 29,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Trứng gà'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Trứng gà thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Trứng gà, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Bệnh giun kim",
+      "Bỏng",
+      "Lỵ trực trùng"
+    ],
+    "expected_answer_full": "Bệnh giun kim, Bỏng, Lỵ trực trùng"
+  },
+  {
+    "entity": "VT_THO_HOANG_LIEN",
+    "id": 30,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thổ hoàng liên'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Thổ hoàng liên thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Thổ hoàng liên, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Cam tích",
+      "Lỵ",
+      "Đau mắt đỏ"
+    ],
+    "expected_answer_full": "Cam tích, Lỵ, Đau mắt đỏ"
+  },
+  {
+    "entity": "VT_DUONG_QUY",
+    "id": 31,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Đương quy'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Đương quy thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Đương quy, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Bệnh trước và sau khi đẻ",
+      "Chảy máu cam",
+      "Duong Quy",
+      "Ho",
+      "Kinh nguyệt bế"
+    ],
+    "expected_answer_full": "Bệnh trước và sau khi đẻ, Chảy máu cam, Duong Quy, Ho, Kinh nguyệt bế"
+  },
+  {
+    "entity": "VT_BO_CONG_ANH_TRUNG_QUOC",
+    "id": 32,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bồ công anh Trung Quốc'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Bồ công anh Trung Quốc thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Bồ công anh Trung Quốc, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Mụn Nhọt",
+      "Sưng vú",
+      "Ít sữa"
+    ],
+    "expected_answer_full": "Mụn Nhọt, Sưng vú, Ít sữa"
+  },
+  {
+    "entity": "VT_TE_TAN",
+    "id": 33,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tế Tân'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Tế Tân thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Tế Tân, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Nhức Đầu",
+      "Thiên Đầu Thống"
+    ],
+    "expected_answer_full": "Nhức Đầu, Thiên Đầu Thống"
+  },
+  {
+    "entity": "VT_KE_HOA_DAO",
+    "id": 34,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ké hoa đào'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Ké hoa đào thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Ké hoa đào, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Lỵ",
+      "Rắn độc cắn",
+      "Sưng",
+      "Đau"
+    ],
+    "expected_answer_full": "Lỵ, Rắn độc cắn, Sưng, Đau"
+  },
+  {
+    "entity": "VT_BAY_LA_MOT_HOA",
+    "id": 35,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bảy lá một hoa'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Bảy lá một hoa thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Bảy lá một hoa, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Hen suyễn",
+      "Ho",
+      "Ho lao",
+      "Mụn Nhọt",
+      "Rắn độc cắn"
+    ],
+    "expected_answer_full": "Hen suyễn, Ho, Ho lao, Mụn Nhọt, Rắn độc cắn"
+  },
+  {
+    "entity": "VT_RAU_MA",
+    "id": 36,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Rau má'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Rau má thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Rau má, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Sót nhau"
+    ],
+    "expected_answer_full": "Sót nhau"
+  },
+  {
+    "entity": "VT_KHO_PHAN",
+    "id": 37,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Khô phàn'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Khô phàn thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Khô phàn, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Ho",
+      "Mụn Nhọt"
+    ],
+    "expected_answer_full": "Ho, Mụn Nhọt"
+  },
+  {
+    "entity": "VT_MIT",
+    "id": 38,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Mít'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Mít thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Mít, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Huyết áp cao",
+      "Táo bón",
+      "Ít sữa",
+      "Ỉa chảy"
+    ],
+    "expected_answer_full": "Huyết áp cao, Táo bón, Ít sữa, Ỉa chảy"
+  },
+  {
+    "entity": "VT_THO_PHUC_LINH",
+    "id": 39,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thổ phục linh'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Thổ phục linh thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Thổ phục linh, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Mụn ổ gà"
+    ],
+    "expected_answer_full": "Mụn ổ gà"
+  },
+  {
+    "entity": "VT_ICH_MAU",
+    "id": 40,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ích mẫu'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Ích mẫu thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Ích mẫu, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Bệnh về tuần hoàn cơ tim",
+      "Chốc Đầu",
+      "Huyết hôi ra không hết",
+      "Huyết áp cao",
+      "Kinh nguyệt không đều"
+    ],
+    "expected_answer_full": "Bệnh về tuần hoàn cơ tim, Chốc Đầu, Huyết hôi ra không hết, Huyết áp cao, Kinh nguyệt không đều"
+  },
+  {
+    "entity": "VT_THOC",
+    "id": 41,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thóc'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Thóc thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Thóc, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Suy dinh dưỡng"
+    ],
+    "expected_answer_full": "Suy dinh dưỡng"
+  },
+  {
+    "entity": "VT_LONG_NAO",
+    "id": 42,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Long Não'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Long Não thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Long Não, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Đau Nhức"
+    ],
+    "expected_answer_full": "Đau Nhức"
+  },
+  {
+    "entity": "VT_RAU_MA_NGO",
+    "id": 43,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Rau má ngọ'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Rau má ngọ thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Rau má ngọ, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Bệnh trĩ",
+      "Lỵ",
+      "Mụn Nhọt",
+      "Rắn cắn",
+      "Sốt"
+    ],
+    "expected_answer_full": "Bệnh trĩ, Lỵ, Mụn Nhọt, Rắn cắn, Sốt"
+  },
+  {
+    "entity": "VT_HA_THU_O",
+    "id": 44,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Hà thủ ô'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Hà thủ ô thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Hà thủ ô, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Sốt rét"
+    ],
+    "expected_answer_full": "Sốt rét"
+  },
+  {
+    "entity": "VT_NHA_DAM_TU",
+    "id": 45,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Nhả đam'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Nhả đam thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Nhả đam, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Viêm ruột",
+      "Ỉa lỏng"
+    ],
+    "expected_answer_full": "Viêm ruột, Ỉa lỏng"
+  },
+  {
+    "entity": "VT_XOAN",
+    "id": 46,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Xoan'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Xoan thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Xoan, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Sốt"
+    ],
+    "expected_answer_full": "Sốt"
+  },
+  {
+    "entity": "VT_GIAU",
+    "id": 47,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Giấu'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Giấu thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Giấu, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Mụn Nhọt",
+      "Thương Tích"
+    ],
+    "expected_answer_full": "Mụn Nhọt, Thương Tích"
+  },
+  {
+    "entity": "VT_DIEU_NHUOM",
+    "id": 48,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Điều nhuộm'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Điều nhuộm thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Điều nhuộm, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Lỵ",
+      "Sốt",
+      "Sốt rét"
+    ],
+    "expected_answer_full": "Lỵ, Sốt, Sốt rét"
+  },
+  {
+    "entity": "VT_CHE_TUOI",
+    "id": 49,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Chè tươi'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Chè tươi thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Chè tươi, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Lỵ trực trùng"
+    ],
+    "expected_answer_full": "Lỵ trực trùng"
+  },
+  {
+    "entity": "VT_RAU_MEO",
+    "id": 50,
+    "pattern_type": "multi_hop",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Râu mèo'})<-[:BAO_GOM_VI_THUOC]-(b:BaiThuoc)-[:CHU_TRI_BENH]->(benh:Benh)",
+    "question": "Bài thuốc chứa vị thuốc Râu mèo thì thường dùng để chữa bệnh gì?",
+    "lead_in": "Dựa trên các bài thuốc có chứa Râu mèo, vị thuốc này tham gia điều trị:",
+    "expected_facts": [
+      "Cúm",
+      "Phù",
+      "Sỏi thận",
+      "Sỏi túi mật",
+      "Sốt ban"
+    ],
+    "expected_answer_full": "Cúm, Phù, Sỏi thận, Sỏi túi mật, Sốt ban"
+  },
+  {
+    "entity": "VT_NGUU_TAT",
+    "id": 51,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ngưu tất'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Rhamnoza'})",
+    "question": "Vị thuốc Ngưu tất có chứa hoạt chất Rhamnoza không?",
+    "lead_in": "Xác nhận về thành phần của Ngưu tất:",
+    "expected_facts": [
+      "Có",
+      "Rhamnoza"
+    ],
+    "expected_answer_full": "Có, Rhamnoza"
+  },
+  {
+    "entity": "VT_CUU_LY_HUONG",
+    "id": 52,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Cửu lý hương'})-[:QUY_KINH]->(t:KinhMach {canonical_name: 'Kinh thận'})",
+    "question": "Vị thuốc Cửu lý hương có quy vào Kinh thận không?",
+    "lead_in": "Xác nhận về quy kinh của Cửu lý hương:",
+    "expected_facts": [
+      "Có",
+      "Kinh thận"
+    ],
+    "expected_answer_full": "Có, Kinh thận"
+  },
+  {
+    "entity": "VT_TO_MOC",
+    "id": 53,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tô mộc'})-[:QUY_KINH]->(t:KinhMach {canonical_name: 'Kinh tỳ'})",
+    "question": "Vị thuốc Tô mộc có quy vào Kinh tỳ không?",
+    "lead_in": "Xác nhận về quy kinh của Tô mộc:",
+    "expected_facts": [
+      "Có",
+      "Kinh tỳ"
+    ],
+    "expected_answer_full": "Có, Kinh tỳ"
+  },
+  {
+    "entity": "VT_DAU_RAI_TRANG",
+    "id": 54,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Dầu rái trắng'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Nhựa'})",
+    "question": "Vị thuốc Dầu rái trắng có chứa hoạt chất Nhựa không?",
+    "lead_in": "Xác nhận về thành phần của Dầu rái trắng:",
+    "expected_facts": [
+      "Có",
+      "Nhựa"
+    ],
+    "expected_answer_full": "Có, Nhựa"
+  },
+  {
+    "entity": "VT_MIT",
+    "id": 55,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Mít'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Artocarpin'})",
+    "question": "Vị thuốc Mít có chứa hoạt chất Artocarpin không?",
+    "lead_in": "Xác nhận về thành phần của Mít:",
+    "expected_facts": [
+      "Có",
+      "Artocarpin"
+    ],
+    "expected_answer_full": "Có, Artocarpin"
+  },
+  {
+    "entity": "VT_CO_TRANH",
+    "id": 56,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Cỏ tranh'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Glucoza'})",
+    "question": "Vị thuốc Cỏ tranh có chứa hoạt chất Glucoza không?",
+    "lead_in": "Xác nhận về thành phần của Cỏ tranh:",
+    "expected_facts": [
+      "Có",
+      "Glucoza"
+    ],
+    "expected_answer_full": "Có, Glucoza"
+  },
+  {
+    "entity": "VT_THACH_VI",
+    "id": 57,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thạch vĩ'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Tanin'})",
+    "question": "Vị thuốc Thạch vĩ có chứa hoạt chất Tanin không?",
+    "lead_in": "Xác nhận về thành phần của Thạch vĩ:",
+    "expected_facts": [
+      "Có",
+      "Tanin"
+    ],
+    "expected_answer_full": "Có, Tanin"
+  },
+  {
+    "entity": "VT_KE_HOA_DAO",
+    "id": 58,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ké hoa đào'})-[:CO_VI]->(t:TinhVi {canonical_name: 'Vị nhạt'})",
+    "question": "Vị thuốc Ké hoa đào có mang đặc điểm Vị nhạt không?",
+    "lead_in": "Xác nhận về tính vị của Ké hoa đào:",
+    "expected_facts": [
+      "Có",
+      "Vị nhạt"
+    ],
+    "expected_answer_full": "Có, Vị nhạt"
+  },
+  {
+    "entity": "VT_ICH_MAU",
+    "id": 59,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Ích mẫu'})-[:CO_TINH]->(t:TinhVi {canonical_name: 'Tính lương'})",
+    "question": "Vị thuốc Ích mẫu có mang đặc điểm Tính lương không?",
+    "lead_in": "Xác nhận về tính vị của Ích mẫu:",
+    "expected_facts": [
+      "Có",
+      "Tính lương"
+    ],
+    "expected_answer_full": "Có, Tính lương"
+  },
+  {
+    "entity": "VT_BONG",
+    "id": 60,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bỏng'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Axit p-Cumaric'})",
+    "question": "Vị thuốc Bỏng có chứa hoạt chất Axit p-Cumaric không?",
+    "lead_in": "Xác nhận về thành phần của Bỏng:",
+    "expected_facts": [
+      "Có",
+      "Axit p-Cumaric"
+    ],
+    "expected_answer_full": "Có, Axit p-Cumaric"
+  },
+  {
+    "entity": "VT_BEO_CAI",
+    "id": 61,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bèo cái'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Tro'})",
+    "question": "Vị thuốc Bèo cái có chứa hoạt chất Tro không?",
+    "lead_in": "Xác nhận về thành phần của Bèo cái:",
+    "expected_facts": [
+      "Có",
+      "Tro"
+    ],
+    "expected_answer_full": "Có, Tro"
+  },
+  {
+    "entity": "VT_MUI_TAY",
+    "id": 62,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Mùi tây'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Apiol'})",
+    "question": "Vị thuốc Mùi tây có chứa hoạt chất Apiol không?",
+    "lead_in": "Xác nhận về thành phần của Mùi tây:",
+    "expected_facts": [
+      "Có",
+      "Apiol"
+    ],
+    "expected_answer_full": "Có, Apiol"
+  },
+  {
+    "entity": "VT_CON_BO",
+    "id": 63,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Côn bố'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Protit'})",
+    "question": "Vị thuốc Côn bố có chứa hoạt chất Protit không?",
+    "lead_in": "Xác nhận về thành phần của Côn bố:",
+    "expected_facts": [
+      "Có",
+      "Protit"
+    ],
+    "expected_answer_full": "Có, Protit"
+  },
+  {
+    "entity": "VT_TOI_DO",
+    "id": 64,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tỏi đỏ'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Vitamin B1'})",
+    "question": "Vị thuốc Tỏi đỏ có chứa hoạt chất Vitamin B1 không?",
+    "lead_in": "Xác nhận về thành phần của Tỏi đỏ:",
+    "expected_facts": [
+      "Có",
+      "Vitamin B1"
+    ],
+    "expected_answer_full": "Có, Vitamin B1"
+  },
+  {
+    "entity": "VT_RAU_DANG",
+    "id": 65,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Rau đắng'})-[:QUY_KINH]->(t:KinhMach {canonical_name: 'Kinh vị'})",
+    "question": "Vị thuốc Rau đắng có quy vào Kinh vị không?",
+    "lead_in": "Xác nhận về quy kinh của Rau đắng:",
+    "expected_facts": [
+      "Có",
+      "Kinh vị"
+    ],
+    "expected_answer_full": "Có, Kinh vị"
+  },
+  {
+    "entity": "VT_BONG",
+    "id": 66,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bỏng'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Gossypola'})",
+    "question": "Vị thuốc Bỏng có chứa hoạt chất Gossypola không?",
+    "lead_in": "Xác nhận về thành phần của Bỏng:",
+    "expected_facts": [
+      "Có",
+      "Gossypola"
+    ],
+    "expected_answer_full": "Có, Gossypola"
+  },
+  {
+    "entity": "VT_CO_SUA_NHO_LA",
+    "id": 67,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Cỏ sữa nhỏ lá'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Myrixyl Alcohol'})",
+    "question": "Vị thuốc Cỏ sữa nhỏ lá có chứa hoạt chất Myrixyl Alcohol không?",
+    "lead_in": "Xác nhận về thành phần của Cỏ sữa nhỏ lá:",
+    "expected_facts": [
+      "Có",
+      "Myrixyl Alcohol"
+    ],
+    "expected_answer_full": "Có, Myrixyl Alcohol"
+  },
+  {
+    "entity": "VT_DAI_PHUC_BI",
+    "id": 68,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Đại phúc bì'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Guvacolin'})",
+    "question": "Vị thuốc Đại phúc bì có chứa hoạt chất Guvacolin không?",
+    "lead_in": "Xác nhận về thành phần của Đại phúc bì:",
+    "expected_facts": [
+      "Có",
+      "Guvacolin"
+    ],
+    "expected_answer_full": "Có, Guvacolin"
+  },
+  {
+    "entity": "VT_THUN_MUN",
+    "id": 69,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thừn mũn'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Axit embelic'})",
+    "question": "Vị thuốc Thừn mũn có chứa hoạt chất Axit embelic không?",
+    "lead_in": "Xác nhận về thành phần của Thừn mũn:",
+    "expected_facts": [
+      "Có",
+      "Axit embelic"
+    ],
+    "expected_answer_full": "Có, Axit embelic"
+  },
+  {
+    "entity": "VT_MUOP",
+    "id": 70,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Mướp'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Xylan'})",
+    "question": "Vị thuốc Mướp có chứa hoạt chất Xylan không?",
+    "lead_in": "Xác nhận về thành phần của Mướp:",
+    "expected_facts": [
+      "Có",
+      "Xylan"
+    ],
+    "expected_answer_full": "Có, Xylan"
+  },
+  {
+    "entity": "VT_BACH_BO",
+    "id": 71,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Bách Bộ'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Protostemonin'})",
+    "question": "Vị thuốc Bách Bộ có chứa hoạt chất Protostemonin không?",
+    "lead_in": "Xác nhận về thành phần của Bách Bộ:",
+    "expected_facts": [
+      "Có",
+      "Protostemonin"
+    ],
+    "expected_answer_full": "Có, Protostemonin"
+  },
+  {
+    "entity": "VT_THO_HOANG_LIEN",
+    "id": 72,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Thổ hoàng liên'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Panmatin'})",
+    "question": "Vị thuốc Thổ hoàng liên có chứa hoạt chất Panmatin không?",
+    "lead_in": "Xác nhận về thành phần của Thổ hoàng liên:",
+    "expected_facts": [
+      "Có",
+      "Panmatin"
+    ],
+    "expected_answer_full": "Có, Panmatin"
+  },
+  {
+    "entity": "VT_TOI",
+    "id": 73,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Tỏi'})-[:QUY_KINH]->(t:KinhMach {canonical_name: 'Kinh Can'})",
+    "question": "Vị thuốc Tỏi có quy vào Kinh Can không?",
+    "lead_in": "Xác nhận về quy kinh của Tỏi:",
+    "expected_facts": [
+      "Có",
+      "Kinh Can"
+    ],
+    "expected_answer_full": "Có, Kinh Can"
+  },
+  {
+    "entity": "VT_CHO_DE_RANG_CUA",
+    "id": 74,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Chó đẻ răng cưa'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Phyllathin'})",
+    "question": "Vị thuốc Chó đẻ răng cưa có chứa hoạt chất Phyllathin không?",
+    "lead_in": "Xác nhận về thành phần của Chó đẻ răng cưa:",
+    "expected_facts": [
+      "Có",
+      "Phyllathin"
+    ],
+    "expected_answer_full": "Có, Phyllathin"
+  },
+  {
+    "entity": "VT_RUM_NAO",
+    "id": 75,
+    "pattern_type": "reverse_search",
+    "cypher_pattern": "(v:ViThuoc {canonical_name: 'Rùm nao'})-[:CO_CHUA_HOAT_CHAT]->(t:HoatChat {canonical_name: 'Chất nhựa đỏ'})",
+    "question": "Vị thuốc Rùm nao có chứa hoạt chất Chất nhựa đỏ không?",
+    "lead_in": "Xác nhận về thành phần của Rùm nao:",
+    "expected_facts": [
+      "Có",
+      "Chất nhựa đỏ"
+    ],
+    "expected_answer_full": "Có, Chất nhựa đỏ"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_NGỌT_NHỨC_ĐẦU",
+    "id": 76,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị ngọt'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Nhức Đầu'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị ngọt, vừa có khả năng tham gia điều trị Nhức Đầu?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị ngọt và tham gia chữa Nhức Đầu) là:",
+    "expected_facts": [
+      "Phục linh",
+      "Đương quy"
+    ],
+    "expected_answer_full": "Phục linh, Đương quy"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_CAY_BẠCH_ĐỚI",
+    "id": 77,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị Cay'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Bạch đới'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị Cay, vừa có khả năng tham gia điều trị Bạch đới?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị Cay và tham gia chữa Bạch đới) là:",
+    "expected_facts": [
+      "Hương phụ",
+      "Xích thược"
+    ],
+    "expected_answer_full": "Hương phụ, Xích thược"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_HÀN_VIÊM_TỬ_CUNG",
+    "id": 78,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính hàn'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Viêm tử cung'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính hàn, vừa có khả năng tham gia điều trị Viêm tử cung?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính hàn và tham gia chữa Viêm tử cung) là:",
+    "expected_facts": [
+      "Cây Gai",
+      "Ích mẫu"
+    ],
+    "expected_answer_full": "Cây Gai, Ích mẫu"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_HÀN_VẾT_THƯƠNG",
+    "id": 79,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính hàn'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Vết thương'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính hàn, vừa có khả năng tham gia điều trị Vết thương?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính hàn và tham gia chữa Vết thương) là:",
+    "expected_facts": [
+      "Hoàng bá",
+      "Hạ khô thảo",
+      "Móng lưng rồng"
+    ],
+    "expected_answer_full": "Hoàng bá, Hạ khô thảo, Móng lưng rồng"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_NGỌT_THỔ_HUYẾT",
+    "id": 80,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị ngọt'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Thổ huyết'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị ngọt, vừa có khả năng tham gia điều trị Thổ huyết?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị ngọt và tham gia chữa Thổ huyết) là:",
+    "expected_facts": [
+      "Cỏ tranh",
+      "Ô rô"
+    ],
+    "expected_answer_full": "Cỏ tranh, Ô rô"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_CAY_ĐAU_BỤNG_KINH",
+    "id": 81,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị Cay'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Đau bụng kinh'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị Cay, vừa có khả năng tham gia điều trị Đau bụng kinh?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị Cay và tham gia chữa Đau bụng kinh) là:",
+    "expected_facts": [
+      "Duyên hồ sách",
+      "Hương phụ",
+      "Ích mẫu"
+    ],
+    "expected_answer_full": "Duyên hồ sách, Hương phụ, Ích mẫu"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_NGỌT_HO",
+    "id": 82,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị ngọt'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Ho'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị ngọt, vừa có khả năng tham gia điều trị Ho?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị ngọt và tham gia chữa Ho) là:",
+    "expected_facts": [
+      "Bảy lá một hoa",
+      "Sài đất",
+      "Thông thảo",
+      "Đương quy"
+    ],
+    "expected_answer_full": "Bảy lá một hoa, Sài đất, Thông thảo, Đương quy"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_TRÀNG_NHẠC",
+    "id": 83,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Tràng nhạc'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Tràng nhạc?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Tràng nhạc) là:",
+    "expected_facts": [
+      "Hạ khô thảo",
+      "Liên kiều"
+    ],
+    "expected_answer_full": "Hạ khô thảo, Liên kiều"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_LƯƠNG_VÀNG_DA",
+    "id": 84,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính lương'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Vàng da'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính lương, vừa có khả năng tham gia điều trị Vàng da?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính lương và tham gia chữa Vàng da) là:",
+    "expected_facts": [
+      "Cà chua",
+      "Móng lưng rồng"
+    ],
+    "expected_answer_full": "Cà chua, Móng lưng rồng"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_NGỌT_MỤN_NHỌT",
+    "id": 85,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị ngọt'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Mụn Nhọt'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị ngọt, vừa có khả năng tham gia điều trị Mụn Nhọt?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị ngọt và tham gia chữa Mụn Nhọt) là:",
+    "expected_facts": [
+      "Bùng bục",
+      "Bảy lá một hoa",
+      "Bắc đèn",
+      "Bồ công anh Trung Quốc",
+      "Cà chua"
+    ],
+    "expected_answer_full": "Bùng bục, Bảy lá một hoa, Bắc đèn, Bồ công anh Trung Quốc, Cà chua"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_PHÙ_NỀ",
+    "id": 86,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Phù nề'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Phù nề?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Phù nề) là:",
+    "expected_facts": [
+      "Dưa chuột",
+      "Thương lục"
+    ],
+    "expected_answer_full": "Dưa chuột, Thương lục"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_VẾT_THƯƠNG",
+    "id": 87,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Vết thương'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Vết thương?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Vết thương) là:",
+    "expected_facts": [
+      "Hoàng bá",
+      "Hạ khô thảo",
+      "Móng lưng rồng"
+    ],
+    "expected_answer_full": "Hoàng bá, Hạ khô thảo, Móng lưng rồng"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_NÔN_RA_MÁU",
+    "id": 88,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Nôn ra máu'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Nôn ra máu?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Nôn ra máu) là:",
+    "expected_facts": [
+      "Chỉ thiên",
+      "Móng lưng rồng"
+    ],
+    "expected_answer_full": "Chỉ thiên, Móng lưng rồng"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_SỐT_RÉT",
+    "id": 89,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Sốt rét'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Sốt rét?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Sốt rét) là:",
+    "expected_facts": [
+      "Hoàng liên ô rô",
+      "Hoàng đằng chân vịt",
+      "Sầu đâu rừng",
+      "Vọng cách"
+    ],
+    "expected_answer_full": "Hoàng liên ô rô, Hoàng đằng chân vịt, Sầu đâu rừng, Vọng cách"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_ÔN_NỘI_NHIỆT",
+    "id": 90,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính Ôn'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Nội Nhiệt'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính Ôn, vừa có khả năng tham gia điều trị Nội Nhiệt?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính Ôn và tham gia chữa Nội Nhiệt) là:",
+    "expected_facts": [
+      "Cỏ Chỉ",
+      "Cỏ tranh"
+    ],
+    "expected_answer_full": "Cỏ Chỉ, Cỏ tranh"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_HÀN_THỦY_THŨNG",
+    "id": 91,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính hàn'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Thủy thũng'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính hàn, vừa có khả năng tham gia điều trị Thủy thũng?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính hàn và tham gia chữa Thủy thũng) là:",
+    "expected_facts": [
+      "Bắc đèn",
+      "Mộc thông",
+      "Rong mơ"
+    ],
+    "expected_answer_full": "Bắc đèn, Mộc thông, Rong mơ"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_HUYẾT_ÁP_CAO",
+    "id": 92,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Huyết áp cao'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Huyết áp cao?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Huyết áp cao) là:",
+    "expected_facts": [
+      "Ngưu tất",
+      "Ích mẫu"
+    ],
+    "expected_answer_full": "Ngưu tất, Ích mẫu"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_LƯƠNG_LỞ_NGỨA",
+    "id": 93,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính lương'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Lở ngứa'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính lương, vừa có khả năng tham gia điều trị Lở ngứa?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính lương và tham gia chữa Lở ngứa) là:",
+    "expected_facts": [
+      "Săng lẻ",
+      "Vọng cách",
+      "Ích mẫu"
+    ],
+    "expected_answer_full": "Săng lẻ, Vọng cách, Ích mẫu"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_LƯƠNG_SỐT",
+    "id": 94,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính lương'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Sốt'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính lương, vừa có khả năng tham gia điều trị Sốt?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính lương và tham gia chữa Sốt) là:",
+    "expected_facts": [
+      "Chỉ thiên",
+      "Cà chua",
+      "Diếp cá"
+    ],
+    "expected_answer_full": "Chỉ thiên, Cà chua, Diếp cá"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_LƯƠNG_SỐT_RÉT",
+    "id": 95,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính lương'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Sốt rét'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính lương, vừa có khả năng tham gia điều trị Sốt rét?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính lương và tham gia chữa Sốt rét) là:",
+    "expected_facts": [
+      "Sài đất",
+      "Vọng cách"
+    ],
+    "expected_answer_full": "Sài đất, Vọng cách"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_HO",
+    "id": 96,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Ho'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Ho?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Ho) là:",
+    "expected_facts": [
+      "Duyên hồ sách",
+      "Nhội",
+      "Tân cửu (Thanh táo)",
+      "Vọng cách"
+    ],
+    "expected_answer_full": "Duyên hồ sách, Nhội, Tân cửu (Thanh táo), Vọng cách"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_LƯƠNG_SƯNG_ĐAU",
+    "id": 97,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính lương'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Sưng đau'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính lương, vừa có khả năng tham gia điều trị Sưng đau?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính lương và tham gia chữa Sưng đau) là:",
+    "expected_facts": [
+      "Cửu lý hương",
+      "Niệt gió"
+    ],
+    "expected_answer_full": "Cửu lý hương, Niệt gió"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_NGỌT_THỦY_THŨNG",
+    "id": 98,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị ngọt'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Thủy thũng'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị ngọt, vừa có khả năng tham gia điều trị Thủy thũng?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị ngọt và tham gia chữa Thủy thũng) là:",
+    "expected_facts": [
+      "Bắc đèn",
+      "Phục linh",
+      "Đậu Đỏ Nhỏ"
+    ],
+    "expected_answer_full": "Bắc đèn, Phục linh, Đậu Đỏ Nhỏ"
+  },
+  {
+    "entity": "GIAO_THOA_VỊ_ĐẮNG_MỤN_NHỌT",
+    "id": 99,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Vị đắng'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Mụn Nhọt'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Vị đắng, vừa có khả năng tham gia điều trị Mụn Nhọt?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Vị đắng và tham gia chữa Mụn Nhọt) là:",
+    "expected_facts": [
+      "Bồ công anh Trung Quốc",
+      "Chỉ thiên",
+      "Hoàng bá",
+      "Hoàng liên",
+      "Hoàng đằng chân vịt"
+    ],
+    "expected_answer_full": "Bồ công anh Trung Quốc, Chỉ thiên, Hoàng bá, Hoàng liên, Hoàng đằng chân vịt"
+  },
+  {
+    "entity": "GIAO_THOA_TÍNH_ÔN_ĐAU_KHI_THẤY_KINH",
+    "id": 100,
+    "pattern_type": "multi_relation",
+    "cypher_pattern": "MATCH (v:ViThuoc)-[]->(:{canonical_name: 'Tính Ôn'}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {canonical_name: 'Đau khi thấy kinh'})",
+    "question": "Những vị thuốc nào vừa có đặc điểm Tính Ôn, vừa có khả năng tham gia điều trị Đau khi thấy kinh?",
+    "lead_in": "Các vị thuốc đáp ứng cả 2 điều kiện (Tính Ôn và tham gia chữa Đau khi thấy kinh) là:",
+    "expected_facts": [
+      "Duyên hồ sách",
+      "Đương quy"
+    ],
+    "expected_answer_full": "Duyên hồ sách, Đương quy"
+  }
+]
