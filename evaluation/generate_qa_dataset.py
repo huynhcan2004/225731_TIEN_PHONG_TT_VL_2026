@@ -32,7 +32,7 @@ OUTPUT_FILE = os.path.join(OUTPUT_DIR, "complex_kg_qa_dataset.json")
 # ==========================================================
 # 2. HỆ THỐNG TẠO CÂU HỎI TỰ ĐỘNG (4 PATTERN NÂNG CAO)
 # ==========================================================
-def generate_complex_dataset(limit_per_pattern=25, limit_facts=5):
+def generate_complex_dataset(limit_per_pattern=25, limit_facts=50):
     """
     Hàm sinh dữ liệu mẫu với tính năng ĐỒNG BỘ HÓA CỨNG:
     - limit_per_pattern: Số lượng câu hỏi tạo ra cho mỗi loại Pattern.
@@ -189,6 +189,7 @@ def generate_complex_dataset(limit_per_pattern=25, limit_facts=5):
         if not thuocs: continue
 
         ten_dac_tinh = rec['TenDacTinh']
+        loai_dac_tinh = rec['LoaiDacTinh']
         ten_benh = rec['TenBenh']
         
         q_text = f"Những vị thuốc nào vừa có đặc điểm {ten_dac_tinh}, vừa có khả năng tham gia điều trị {ten_benh}?"
@@ -198,7 +199,7 @@ def generate_complex_dataset(limit_per_pattern=25, limit_facts=5):
             "entity": f"GIAO_THOA_{ten_dac_tinh.upper().replace(' ', '_')}_{ten_benh.upper().replace(' ', '_')}",
             "id": item_id,
             "pattern_type": "multi_relation",
-            "cypher_pattern": f"MATCH (v:ViThuoc)-[]->(:{{canonical_name: '{ten_dac_tinh}'}}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {{canonical_name: '{ten_benh}'}})",
+            "cypher_pattern": f"MATCH (v:ViThuoc)-[]->(:{loai_dac_tinh} {{canonical_name: '{ten_dac_tinh}'}}), (v)<-[]-(:BaiThuoc)-[]->(:Benh {{canonical_name: '{ten_benh}'}})",
             "question": q_text,
             "lead_in": l_text,
             "expected_facts": thuocs,

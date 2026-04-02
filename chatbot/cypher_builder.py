@@ -12,7 +12,7 @@ def clean_id(text):
     return no_accent.upper().replace(" ", "_")
 
 def build_cypher_template(intent, k1, k2="", use_vector=False):
-    k1_lower = k1.lower().strip().replace("'", "\\'")
+    k1_lower = unicodedata.normalize('NFC', k1.lower().strip()).replace("'", "\\'")
     k2_lower = k2.lower().strip().replace("'", "\\'") if k2 else ""
     k1_id = clean_id(k1_lower)
     k2_id = clean_id(k2_lower)

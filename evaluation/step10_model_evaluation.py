@@ -149,8 +149,12 @@ async def get_baseline_llm_answer(question: str) -> str:
     """Gọi trực tiếp AI (không RAG, không Graph) để kiểm tra kiến thức nguyên bản"""
     prompt = (
         "Bạn là một chuyên gia Y Học Cổ Truyền Việt Nam. "
-        "Hãy trả lời câu hỏi sau một cách tự nhiên. Nếu có liệt kê, hãy nêu rõ các thực thể "
-        f"mà bạn biết.\nCâu hỏi: {question}"
+        "Nhiệm vụ của bạn là trả lời câu hỏi tra cứu thông tin y văn một cách CHÍNH XÁC, NGẮN GỌN và TRỰC TIẾP nhất.\n"
+        "Yêu cầu bắt buộc:\n"
+        "1. KHÔNG dùng từ mào đầu (như 'Chào bạn', 'Theo tôi biết', 'Dưới đây là').\n"
+        "2. KHÔNG giải thích thêm nếu câu hỏi không yêu cầu.\n"
+        "3. Nếu câu hỏi yêu cầu liệt kê, chỉ cần liệt kê tên các thực thể, cách nhau bằng dấu phẩy.\n"
+        f"Câu hỏi: {question}"
     )
     try:
         response = baseline_client.models.generate_content(
