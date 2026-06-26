@@ -68,6 +68,13 @@ class SafeCursor:
     def fetchall(self):
         return self.cursor.fetchall()
 
+    def close(self):
+        try:
+            self.cursor.close()
+        except:
+            pass
+
+
     @property
     def lastrowid(self):
         if self.is_postgres:
@@ -277,10 +284,12 @@ class DatabaseManager:
         """)
         
         # Thêm cột transaction_type cho database đã tồn tại trước đó
-        try:
-            cursor.execute("ALTER TABLE payments ADD COLUMN transaction_type TEXT DEFAULT 'sepay'")
-        except Exception:
-            pass
+        if not self.is_postgres:
+            try:
+                cursor.execute("ALTER TABLE payments ADD COLUMN transaction_type TEXT DEFAULT 'sepay'")
+            except Exception:
+                pass
+
         
         
         # ✨ BẢNG MỚI: QUẢN LÝ PHIÊN ĐĂNG NHẬP HYBRID (CLOUD-SYNC POLLING)
