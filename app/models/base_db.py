@@ -95,9 +95,10 @@ class SafeCursor:
         return self.cursor.lastrowid
 
 class SafeConnection:
-    def __init__(self, raw_conn, is_postgres):
+    def __init__(self, raw_conn, is_postgres, pool=None):
         self.conn = raw_conn
         self.is_postgres = is_postgres
+        self.pool = pool
 
     def cursor(self):
         return SafeCursor(self.conn.cursor(), self.is_postgres)
@@ -106,13 +107,23 @@ class SafeConnection:
         self.conn.commit()
 
     def close(self):
-        self.conn.close()
+        if self.is_postgres and self.pool:
+            try:
+                self.pool.putconn(self.conn)
+            except:
+                try:
+                    self.conn.close()
+                except:
+                    pass
+        else:
+            self.conn.close()
 
     def rollback(self):
         try:
             self.conn.rollback()
         except:
             pass
+
 
 class DatabaseManager:
     """
@@ -131,6 +142,8 @@ class DatabaseManager:
 
         # 2. Kết nối Database (Hỗ trợ tự động chuyển đổi SQLite hoặc PostgreSQL)
         self.is_postgres = False
+        self._settings_cache = {}  # Khởi tạo cache local
+        
         if settings.DATABASE_URL and (settings.DATABASE_URL.startswith("postgres://") or settings.DATABASE_URL.startswith("postgresql://")):
             self.is_postgres = True
             print("[DB] Khoi chay voi PostgreSQL (Cloud).")
@@ -138,7 +151,23 @@ class DatabaseManager:
             self.sqlite_path = settings.SQLITE_DB_PATH # Định nghĩa trong config.py
             print("[DB] Khoi chay voi SQLite (Local).")
             
+        # Khởi tạo Connection Pool nếu dùng PostgreSQL
+        self.pg_pool = None
+        if self.is_postgres:
+            try:
+                from psycopg2.pool import ThreadedConnectionPool
+                # Tạo pool với tối thiểu 1 và tối đa 10 kết nối ấm
+                self.pg_pool = ThreadedConnectionPool(
+                    1, 10,
+                    settings.DATABASE_URL,
+                    cursor_factory=psycopg2.extras.DictCursor
+                )
+                print("[DB] Da khoi tao Connection Pool (ThreadedConnectionPool) cho PostgreSQL.")
+            except Exception as e:
+                print(f"[ERROR] [DB Error] Khong the khoi tao Connection Pool: {e}")
+                
         self._init_sqlite_tables()
+
 
 
     # ==========================================================
@@ -203,8 +232,15 @@ class DatabaseManager:
     # ==========================================================
 
     def _get_sqlite_conn(self):
-        """Tạo kết nối mới (hỗ trợ SQLite và PostgreSQL)."""
+        """Tạo kết nối mới hoặc lấy từ pool (hỗ trợ SQLite và PostgreSQL)."""
         if self.is_postgres:
+            if self.pg_pool:
+                try:
+                    raw_conn = self.pg_pool.getconn()
+                    return SafeConnection(raw_conn, True, pool=self.pg_pool)
+                except Exception as e:
+                    print(f"[WARNING] Pool getconn loi, fallback connect truc tiep: {e}")
+            
             raw_conn = psycopg2.connect(
                 settings.DATABASE_URL,
                 cursor_factory=psycopg2.extras.DictCursor
@@ -214,6 +250,7 @@ class DatabaseManager:
             raw_conn = sqlite3.connect(self.sqlite_path)
             raw_conn.row_factory = sqlite3.Row
             return SafeConnection(raw_conn, False)
+
 
     def _init_sqlite_tables(self):
         """Khởi tạo cấu trúc bảng cho người dùng, thanh toán, lịch sử và logs."""
