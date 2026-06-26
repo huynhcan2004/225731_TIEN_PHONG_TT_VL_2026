@@ -798,12 +798,14 @@ class DatabaseManager:
                     cursor.execute("INSERT INTO system_settings (key, value) VALUES (?, ?)", (key, def_val))
             conn.commit()
 
-            # Load tất cả settings từ DB lên để đồng bộ ra RAM/Env
+            # Load tất cả settings từ DB lên để đồng bộ ra RAM/Env/Cache
             cursor.execute("SELECT key, value FROM system_settings")
             rows = cursor.fetchall()
+            self._settings_cache = {}
             for r in rows:
                 k = r['key']
                 v = r['value']
+                self._settings_cache[k] = v
                 
                 # Đồng bộ ra os.environ (chữ hoa)
                 env_key = k.upper()
@@ -826,7 +828,16 @@ class DatabaseManager:
             conn.close()
 
     def get_setting(self, key: str, default: Any = None) -> Any:
-        """Lấy giá trị cấu hình từ CSDL SQLite."""
+        """Lấy giá trị cấu hình từ cache RAM (fallback CSDL nếu cache trống)."""
+        # Nếu cache có dữ liệu, trả về từ cache lập tức
+        if hasattr(self, '_settings_cache') and key in self._settings_cache:
+            val = self._settings_cache[key]
+            if isinstance(val, str):
+                val = val.strip()
+                if (val.startswith("'") and val.endswith("'")) or (val.startswith('"') and val.endswith('"')):
+                    val = val[1:-1].strip()
+            return val
+
         conn = self._get_sqlite_conn()
         cursor = conn.cursor()
         try:
@@ -834,6 +845,9 @@ class DatabaseManager:
             row = cursor.fetchone()
             if row is not None:
                 val = row['value']
+                if not hasattr(self, '_settings_cache'):
+                    self._settings_cache = {}
+                self._settings_cache[key] = val
                 # Tự động làm sạch nháy nếu có
                 if isinstance(val, str):
                     val = val.strip()
@@ -848,7 +862,7 @@ class DatabaseManager:
             conn.close()
 
     def set_setting(self, key: str, value: Any):
-        """Ghi giá trị cấu hình vào CSDL SQLite và đồng bộ ra RAM/Env."""
+        """Ghi giá trị cấu hình vào CSDL SQLite và đồng bộ ra RAM/Env/Cache."""
         conn = self._get_sqlite_conn()
         cursor = conn.cursor()
         try:
@@ -864,6 +878,11 @@ class DatabaseManager:
             else:
                 cursor.execute("UPDATE system_settings SET value = ? WHERE key = ?", (val_str, key))
             conn.commit()
+            
+            # Cập nhật cache local
+            if not hasattr(self, '_settings_cache'):
+                self._settings_cache = {}
+            self._settings_cache[key] = val_str
             
             # Đồng bộ ra os.environ
             env_key = key.upper()
