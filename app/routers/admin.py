@@ -83,13 +83,22 @@ async def get_dashboard_stats(days: int = 7, admin: dict = Depends(admin_require
         
         queries_by_day = {d: 0 for d in days_str}
         
-        # Truy vấn SQLite để lấy số lượng chat_history của 'user' theo ngày
-        cursor.execute("""
-            SELECT DATE(timestamp) as date_val, COUNT(id) as cnt 
-            FROM chat_history 
-            WHERE role = 'user' AND timestamp >= DATE('now', ?)
-            GROUP BY DATE(timestamp)
-        """, (f"-{days} days",))
+        # Truy vấn CSDL để lấy số lượng chat_history của 'user' theo ngày
+        if db.is_postgres:
+            cursor.execute("""
+                SELECT timestamp::date as date_val, COUNT(id) as cnt 
+                FROM chat_history 
+                WHERE role = 'user' AND timestamp >= CURRENT_DATE + CAST(%s AS INTERVAL)
+                GROUP BY timestamp::date
+            """, (f"-{days} days",))
+        else:
+            cursor.execute("""
+                SELECT DATE(timestamp) as date_val, COUNT(id) as cnt 
+                FROM chat_history 
+                WHERE role = 'user' AND timestamp >= DATE('now', ?)
+                GROUP BY DATE(timestamp)
+            """, (f"-{days} days",))
+
         
         for row in cursor.fetchall():
             d_val = row['date_val']
