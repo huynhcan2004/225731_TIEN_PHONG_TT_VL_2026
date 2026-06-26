@@ -47,6 +47,13 @@ class SafeCursor:
             query = query.replace('WHERE key = ?', 'WHERE "key" = %s')
             query = query.replace('WHERE key = %s', 'WHERE "key" = %s')
             
+            # Cải tiến hàm DATE của SQLite sang Postgres
+            query = query.replace('DATE(timestamp)', 'timestamp::date')
+            query = query.replace('date(timestamp)', 'timestamp::date')
+            query = query.replace("DATE('now', %s)", "(CURRENT_DATE + CAST(%s AS INTERVAL))")
+            query = query.replace("date('now', %s)", "(CURRENT_DATE + CAST(%s AS INTERVAL))")
+
+            
             # Cấu hình lại thời gian trễ trong deletion_requests
             if "datetime('now', ?)" in query or "datetime('now', %s)" in query:
                 query = query.replace("datetime('now', ?)", "NOW() + CAST(? AS INTERVAL)")
