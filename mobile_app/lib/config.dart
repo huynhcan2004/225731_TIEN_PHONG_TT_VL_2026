@@ -6,10 +6,11 @@
 class AppConfig {
   // ── BASE URLs ──────────────────────────────────────────────
   /// URL backend FastAPI (không có dấu / ở cuối)
-  static const String apiBaseUrl = "http://192.168.1.191:8000"; 
+  static const String apiBaseUrl = "https://225731-tien-phong-tt-vl-2026.onrender.com"; 
 
   /// URL frontend web (không có dấu / ở cuối)
-  static const String webBaseUrl = "https://nutmeg-frisk-saloon.ngrok-free.dev";
+  static const String webBaseUrl = "https://225731-tien-phong-tt-vl-2026.vercel.app";
+
 
   // ── OAUTH DEEP LINK ────────────────────────────────────────
   /// Scheme cho Deep Link callback sau Google OAuth
