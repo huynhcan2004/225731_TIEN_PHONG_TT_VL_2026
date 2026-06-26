@@ -41,6 +41,8 @@ class Settings(BaseSettings):
 
     # SQLite Database (Xác thực & Fintech)
     SQLITE_DB_PATH: str = "yhct_database.db"
+    DATABASE_URL: Optional[str] = None
+
 
     # Cấu hình SMTP Email (Hỗ trợ & Liên hệ)
     SMTP_HOST: str = "smtp.gmail.com"

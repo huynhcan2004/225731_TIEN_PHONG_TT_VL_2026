@@ -15,24 +15,117 @@ from langchain_neo4j import Neo4jGraph
 from app.config import settings
 import time
 
+try:
+    import psycopg2
+    import psycopg2.extras
+except ImportError:
+    psycopg2 = None
+
+class SafeCursor:
+    def __init__(self, raw_cursor, is_postgres):
+        self.cursor = raw_cursor
+        self.is_postgres = is_postgres
+
+    def execute(self, query: str, params: tuple = ()):
+        if self.is_postgres:
+            # 1. Thay thế placeholder ? của SQLite bằng %s của Postgres
+            query = query.replace('?', '%s')
+            
+            # 2. Thay thế kiểu dữ liệu tự tăng khi khởi tạo bảng
+            query = query.replace('INTEGER PRIMARY KEY AUTOINCREMENT', 'SERIAL PRIMARY KEY')
+            
+            # 3. Thay thế các hàm SQLite bằng hàm tương đương trên Postgres
+            query = query.replace('last_insert_rowid()', '(SELECT id FROM users ORDER BY id DESC LIMIT 1)')
+            query = query.replace("datetime('now')", "NOW()")
+            query = query.replace("datetime('now', '-10 minutes')", "NOW() - INTERVAL '10 minutes'")
+            
+            # Tránh lỗi reserved keyword 'key' trong Postgres
+            query = query.replace(' key ', ' "key" ')
+            query = query.replace(' key=', ' "key"=')
+            query = query.replace('(key,', '("key",')
+            query = query.replace('WHERE key =', 'WHERE "key" =')
+            query = query.replace('WHERE key = ?', 'WHERE "key" = %s')
+            query = query.replace('WHERE key = %s', 'WHERE "key" = %s')
+            
+            # Cấu hình lại thời gian trễ trong deletion_requests
+            if "datetime('now', ?)" in query or "datetime('now', %s)" in query:
+                query = query.replace("datetime('now', ?)", "NOW() + CAST(? AS INTERVAL)")
+                query = query.replace("datetime('now', %s)", "NOW() + CAST(%s AS INTERVAL)")
+                new_params = []
+                for p in params:
+                    if isinstance(p, str) and p.startswith("+") and "hours" in p:
+                        new_params.append(p[1:])
+                    else:
+                        new_params.append(p)
+                params = tuple(new_params)
+
+        self.cursor.execute(query, params)
+        return self
+
+    def fetchone(self):
+        return self.cursor.fetchone()
+
+    def fetchall(self):
+        return self.cursor.fetchall()
+
+    @property
+    def lastrowid(self):
+        if self.is_postgres:
+            # PostgreSQL không có lastrowid dạng thuộc tính, ta tự query hàng mới nhất của bảng support_messages
+            try:
+                self.cursor.execute('SELECT id FROM support_messages ORDER BY id DESC LIMIT 1')
+                row = self.cursor.fetchone()
+                return row[0] if row else None
+            except:
+                return None
+        return self.cursor.lastrowid
+
+class SafeConnection:
+    def __init__(self, raw_conn, is_postgres):
+        self.conn = raw_conn
+        self.is_postgres = is_postgres
+
+    def cursor(self):
+        return SafeCursor(self.conn.cursor(), self.is_postgres)
+
+    def commit(self):
+        self.conn.commit()
+
+    def close(self):
+        self.conn.close()
+
+    def rollback(self):
+        try:
+            self.conn.rollback()
+        except:
+            pass
+
 class DatabaseManager:
     """
     Lớp điều phối tập trung (Database Orchestrator).
-    Kết hợp Neo4j (Tri thức) và SQLite (Người dùng, Token, Lịch sử & Logs).
+    Kết hợp Neo4j (Tri thức) và SQLite/PostgreSQL (Người dùng, Token, Lịch sử & Logs).
     """
 
     def __init__(self):
         """
         Khởi tạo và thiết lập các kết nối cơ sở dữ liệu.
-        Tự động khởi tạo cấu trúc bảng SQLite nếu chưa tồn tại.
+        Tự động khởi tạo cấu trúc bảng nếu chưa tồn tại.
         """
         # 1. Kết nối Neo4j (Knowledge Graph)
         self.graph = self._connect_neo4j()
         # self._refresh_neo4j_schema()
 
-        # 2. Kết nối SQLite (Auth, Billing, Chat & Logs)
-        self.sqlite_path = settings.SQLITE_DB_PATH # Định nghĩa trong config.py
+        # 2. Kết nối Database (Hỗ trợ tự động chuyển đổi SQLite hoặc PostgreSQL)
+        self.is_postgres = False
+        if settings.DATABASE_URL and (settings.DATABASE_URL.startswith("postgres://") or settings.DATABASE_URL.startswith("postgresql://")):
+            self.is_postgres = True
+            print("[DB] Khoi chay voi PostgreSQL (Cloud).")
+        else:
+            self.sqlite_path = settings.SQLITE_DB_PATH # Định nghĩa trong config.py
+            print("[DB] Khoi chay voi SQLite (Local).")
+            
         self._init_sqlite_tables()
+
 
     # ==========================================================
     # 🌐 PHẦN 1: NEO4J (KNOWLEDGE GRAPH LOGIC)
@@ -96,15 +189,23 @@ class DatabaseManager:
     # ==========================================================
 
     def _get_sqlite_conn(self):
-        """Tạo kết nối SQLite mới (để tránh lỗi threading)."""
-        conn = sqlite3.connect(self.sqlite_path)
-        conn.row_factory = sqlite3.Row # Cho phép truy cập dữ liệu theo tên cột
-        return conn
+        """Tạo kết nối mới (hỗ trợ SQLite và PostgreSQL)."""
+        if self.is_postgres:
+            raw_conn = psycopg2.connect(
+                settings.DATABASE_URL,
+                cursor_factory=psycopg2.extras.DictCursor
+            )
+            return SafeConnection(raw_conn, True)
+        else:
+            raw_conn = sqlite3.connect(self.sqlite_path)
+            raw_conn.row_factory = sqlite3.Row
+            return SafeConnection(raw_conn, False)
 
     def _init_sqlite_tables(self):
-        """Khởi tạo cấu trúc bảng SQLite cho người dùng, thanh toán, lịch sử và logs."""
+        """Khởi tạo cấu trúc bảng cho người dùng, thanh toán, lịch sử và logs."""
         conn = self._get_sqlite_conn()
         cursor = conn.cursor()
+
         
         # Bảng Users: Quản lý định danh và số dư
         cursor.execute("""
@@ -178,7 +279,7 @@ class DatabaseManager:
         # Thêm cột transaction_type cho database đã tồn tại trước đó
         try:
             cursor.execute("ALTER TABLE payments ADD COLUMN transaction_type TEXT DEFAULT 'sepay'")
-        except sqlite3.OperationalError:
+        except Exception:
             pass
         
         
@@ -785,12 +886,20 @@ class DatabaseManager:
         conn = self._get_sqlite_conn()
         cursor = conn.cursor()
         try:
-            cursor.execute("""
+            sql = """
                 INSERT INTO support_messages (name, email, subject, message)
                 VALUES (?, ?, ?, ?)
-            """, (name, email, subject, message))
+            """
+            if self.is_postgres:
+                sql += " RETURNING id"
+                cursor.execute(sql, (name, email, subject, message))
+                rowid = cursor.fetchone()[0]
+            else:
+                cursor.execute(sql, (name, email, subject, message))
+                rowid = cursor.lastrowid
+                
             conn.commit()
-            return cursor.lastrowid
+            return rowid
         except Exception as e:
             print(f"[ERROR] [DB Error] Loi save_support_message: {e}")
             raise e
