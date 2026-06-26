@@ -137,11 +137,22 @@ async def get_all_users(admin: dict = Depends(admin_required)):
             ORDER BY created_at DESC
         """)
         users_list = [dict(row) for row in cursor.fetchall()]
+        
+        # Tối ưu hóa: Lấy email admin gốc một lần duy nhất từ cấu hình/cache
+        from app.config import settings
+        admin_email = getattr(settings, "ADMIN_EMAIL", None) or db.get_setting("root_admin_email", "")
+        if not admin_email:
+            cursor.execute("SELECT email FROM users WHERE role = 'admin' ORDER BY id ASC LIMIT 1")
+            row = cursor.fetchone()
+            admin_email = row['email'] if row else ""
+            
         for u in users_list:
-            u["is_root_admin"] = db.is_root_admin(u["id"])
+            u["is_root_admin"] = (u["role"] == "admin" and u["email"] == admin_email)
+            
         return users_list
     finally:
         conn.close()
+
 
 @router.post("/users/{user_id}/change-role")
 async def change_user_role(user_id: int, new_role: str = Body(..., embed=True), admin: dict = Depends(admin_required)):
