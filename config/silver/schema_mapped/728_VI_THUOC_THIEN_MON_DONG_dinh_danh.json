@@ -1,0 +1,142 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THIEN_MON_DONG",
+    "ten_raw": "Thiên môn đông",
+    "ten_khoa_hoc": "Asparagus cochinchinensis (Lour.) Merr. (Asparagus lucidus Lindl.); Raphanus sativus L.",
+    "ho_thuc_vat": "Họ Hành Asparagaceae; Họ Cải Brassicaceae",
+    "variants": [
+      "rau lú bú",
+      "củ cải",
+      "la bặc tử",
+      "lai phục tử"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ củ",
+      "thu_hai": "Mùa hoa tháng 3-5, mùa quả tháng 6-8.",
+      "phan_bo": "Thiên môn đông mọc hoang và được trồng ở nhiều tỉnh trong nước ta. Còn thấy mọc ở Lào, Campuchia, Malaixia, Inđônêxia, Philippin, Trung Quốc, Nhật Bản.",
+      "che_bien_tho": "rửa sạch đất cát, bỏ hết rễ con, đồ chín, bóc bỏ vỏ ngoài, lấy lõi, phơi hay sấy khô. Có khi người ta ngâm củ vào nước vo gạo 1 đêm, rồi đồ chín, bóc vỏ, bỏ lõi, thái mỏng, tẩm nước gừng, sao qua."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T728",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "728"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_THAN",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thiên môn đông là một loại cây sống lâu năm, leo bằng thân quấn. Thân mang nhiều cành nhỏ biến thành gai. Lá mọc thành cụm 2-3 lá, hình lưỡi liềm hơi cong. Rễ củ hình thoi, dài $3$-$10cm$, rộng $1$-$2cm$. Có thứ rễ rất to. Màu trắng ngà hay vàng nhạt, trong mờ. Mùa hoa tháng 3-5, mùa quả tháng 6-8.",
+        "thanh_phan_hoa_hoc": [
+          "Trong thiên môn có chất asparagin, đường, chất nhầy và một glucozit."
+        ],
+        "cach_dung_bao_che": "Người ta đào lấy củ vào mùa đông và mùa xuân, rửa sạch đất cát, bỏ hết rễ con, đồ chín, bóc bỏ vỏ ngoài, lấy lõi, phơi hay sấy khô. Có khi người ta ngâm củ vào nước vo gạo 1 đêm, rồi đồ chín, bóc vỏ, bỏ lõi, thái mỏng, tẩm nước gừng, sao qua."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, thận và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, thận và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, thận và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "HC_ASPARAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên môn có chất asparagin, đường, chất nhầy và một glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_MON_DONG",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên môn có chất asparagin, đường, chất nhầy và một glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T728"
+      }
+    }
+  ]
+}

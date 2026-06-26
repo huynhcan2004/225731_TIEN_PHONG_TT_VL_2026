@@ -1,0 +1,207 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DEN",
+    "ten_raw": "Cây dền",
+    "ten_khoa_hoc": "Amaranthus tricolor L.; Solanum dulcamara L. (Solanum lyratum Thunb.)",
+    "ho_thuc_vat": "Dền Amaranthaceae; Cà Solanaceae",
+    "variants": [
+      "dền tía",
+      "dền đỏ"
+    ],
+    "properties": {},
+    "display_name": "Cây dền"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T536",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "536"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Nhạt (Đạm)"
+        ],
+        "tinh": "Lương"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo, mọc hàng năm, cao $0,50-1m$. Thân mọng nước, màu đỏ tía hay màu lục. Lá mọc so le, hình trứng hay hình mác, dài $5-12cm$, rộng $3- 7cm$, gốc thuôn, đầu tù hay hơi nhọn, mép nguyên, màu đỏ tía hay màu lục, đôi khi có điểm màu khác nhau. Cụm hoa mọc ở ngọn thân hay ở kẽ lá thành bông dài, màu đỏ hay màu trắng. Quả bế hình trứng, nhẵn, mở bằng một nắp. Hạt nhỏ, hình thận, màu đen bóng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+        ],
+        "cach_dung_bao_che": "Có thể thu hái toàn cây quanh năm, dùng tươi hay phơi khô dùng dần."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_AMARANTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_BETANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_ISOBETANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_MUOI_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây dền tía có amarantin, betanin, isobetanin, vitamin C, muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLADUNXIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các glucoancaloit thuộc nhóm những spirosolanola chất quan trọng nhất gặp trong lá là một tetrozit của soladunxidin, (soladulcidin) thủy phân sẽ cho 1 phân tử xyloza, 1 phân tử galactoza, 2 phân tử glucoza và soladunxidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLADUNXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLAMARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_TOMATIEDENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLASONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLAMACGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    },
+    {
+      "from": "VI_THUOC_DEN",
+      "to": "HC_SOLASODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kèm theo có các soladunxin a, B và Y (genin là soladunxidin), các α, ẞ và y solamarin (genin là tomatiedenol), solasonin và solamacgin (solamargin) (genin là solasodin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T536"
+      }
+    }
+  ]
+}

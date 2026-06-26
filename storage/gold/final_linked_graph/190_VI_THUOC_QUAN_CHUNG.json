@@ -1,0 +1,907 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_QUAN_CHUNG",
+    "ten_raw": "Quán chúng",
+    "ten_khoa_hoc": "$Cyrtomium fortunei J. Sm.; Curtomium fortunei J. Sm., (polystichum fortunei Nakai); Dryopteris crassirhizoma Nakai; Athyrium acrostichoides (Sw.) Diels; Woodwardia unigemmata Nakai; Osmunda japonica Thunb.; Aspidium filix-mas Roth.$",
+    "ho_thuc_vat": "$họ Polypodiaceae; họ Aspidiaceae; họ Athyriaceae; họ Ô kim quyết Blechnaceae; họ Tử cơ Osmundaceae; họ Tàm kiển- Polypodiaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 6 đến $12g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Đông Bắc, Tứ Xuyên, Hồ Nam, Phúc Kiến"
+    },
+    "display_name": "Vị thuốc Quán chúng",
+    "canonical_name": "Vị thuốc Quán chúng"
+  },
+  "nodes": [
+    {
+      "id": "BT_BANG_HUYET_QUAN_CHUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Bàng Huyết Quán Chúng",
+        "aliases": [
+          "banghuyetquanchung",
+          "bang huyet quan chung",
+          "bàng huyết quán chúng"
+        ],
+        "search_vector_hint": "Bài thuốc Bàng Huyết Quán Chúng thuộc nhóm Bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "BT_LY_QUAN_CHUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lý Quán Chúng",
+        "aliases": [
+          "lý quán chúng",
+          "lyquanchung",
+          "ly quan chung"
+        ],
+        "search_vector_hint": "Bài thuốc Lý Quán Chúng thuộc nhóm Bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "BT_XICH_BACH_DAI_QUAN_CHUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Xích Bạch Đới Quán Chúng",
+        "aliases": [
+          "xichbachdoiquanchung",
+          "xich bach doi quan chung",
+          "xích bạch đới quán chúng"
+        ],
+        "search_vector_hint": "Bài thuốc Xích Bạch Đới Quán Chúng thuộc nhóm Bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_BANG_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Băng huyết",
+        "aliases": [
+          "xuathuyettucung",
+          "xuat huyet tu cung",
+          "băng huyết",
+          "bang huyet",
+          "banghuyet",
+          "xuất huyết tử cung"
+        ],
+        "search_vector_hint": "Bệnh Băng huyết thuộc nhóm Bệnh, thường liên quan đến xuất huyết tử cung bất thường."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_XICH_BACH_DAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Xích Bạch đới",
+        "aliases": [
+          "xich bach doi",
+          "xích bạch đới",
+          "xichbachdoi"
+        ],
+        "search_vector_hint": "Bệnh Xích Bạch đới thuộc nhóm Bệnh, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_DU_PHONG_BENH_THOI_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dự phòng bệnh thời khí",
+        "aliases": [
+          "dự phòng bệnh thời khí",
+          "duphongbenhthoikhi",
+          "du phong benh thoi khi"
+        ],
+        "search_vector_hint": "Công năng Dự phòng bệnh thời khí thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_ON_DICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ôn dịch",
+        "aliases": [
+          "on dich",
+          "ondich",
+          "ôn dịch"
+        ],
+        "search_vector_hint": "Công năng Ôn dịch thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TAN_U",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan ứ",
+        "aliases": [
+          "pha u",
+          "tan u",
+          "phau",
+          "tan ứ",
+          "tanu",
+          "phá ứ"
+        ],
+        "search_vector_hint": "Tan ứ thuộc nhóm Công năng, thường liên quan đến khả năng làm tan các khối tụ máu."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "HC_ALBASPIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Albaspidin",
+        "aliases": [
+          "albaspidin"
+        ],
+        "search_vector_hint": "Albaspidin thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_ASPIDINOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Aspidinola",
+        "aliases": [
+          "aspidinola"
+        ],
+        "search_vector_hint": "Aspidinola thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_AXIT_FILIXIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Filixic",
+        "aliases": [
+          "axit filixic",
+          "axitfilixic"
+        ],
+        "search_vector_hint": "Axit Filixic thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_AXIT_FILMARIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Filmaric",
+        "aliases": [
+          "axit filmaric",
+          "axitfilmaric"
+        ],
+        "search_vector_hint": "Axit Filmaric thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_CHAT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chất béo",
+        "aliases": [
+          "chatbeo",
+          "chất béo",
+          "chat beo"
+        ],
+        "search_vector_hint": "Hoạt chất Chất béo thuộc nhóm hoạt chất, thường liên quan đến thành phần dinh dưỡng."
+      }
+    },
+    {
+      "id": "HC_CHAT_SAP",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chất Sap",
+        "aliases": [
+          "chatsap",
+          "chất sap",
+          "chat sap"
+        ],
+        "search_vector_hint": "Chất Sap thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_FILIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Filixin",
+        "aliases": [
+          "filixin"
+        ],
+        "search_vector_hint": "Filixin thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_FILMARON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Filmaron",
+        "aliases": [
+          "filmaron"
+        ],
+        "search_vector_hint": "Filmaron thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_NHUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nhựa",
+        "aliases": [
+          "nhựa",
+          "nhua"
+        ],
+        "search_vector_hint": "Nhựa thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_TANIN_AXIT_FILICOTANNIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin Axit Filicotannic",
+        "aliases": [
+          "tanin axit filicotannic",
+          "taninaxitfilicotannic"
+        ],
+        "search_vector_hint": "Tanin Axit Filicotannic thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_KIM_NGAN_HOA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Kim ngân hoa",
+        "aliases": [
+          "kim ngan hoa",
+          "kim ngân hoa",
+          "kimnganhoa"
+        ],
+        "search_vector_hint": "Kim ngân hoa thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_QUAN_CHUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quán chúng",
+        "aliases": [
+          "quanchung",
+          "quan chung",
+          "quán chúng"
+        ],
+        "search_vector_hint": "Vị thuốc Quán chúng thuộc nhóm Vị thuốc, thường liên quan đến dược liệu có nguồn gốc thực vật.",
+        "bo_phan_dung": "rễ",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày dùng 6 đến $12g$.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Đông Bắc, Tứ Xuyên, Hồ Nam, Phúc Kiến",
+        "ten_khoa_hoc": "$Cyrtomium fortunei J. Sm.; Curtomium fortunei J. Sm., (polystichum fortunei Nakai); Dryopteris crassirhizoma Nakai; Athyrium acrostichoides (Sw.) Diels; Woodwardia unigemmata Nakai; Osmunda japonica Thunb.; Aspidium filix-mas Roth.$",
+        "ho_thuc_vat": "$họ Polypodiaceae; họ Aspidiaceae; họ Athyriaceae; họ Ô kim quyết Blechnaceae; họ Tử cơ Osmundaceae; họ Tàm kiển- Polypodiaceae$",
+        "hinh_thai_chi_tiet": "Quán là xâu, chuỗi: Chúng là nhiều, vì vị quán chúng trông giống như nhiều cành xâu vào gốc cây cho nên đặt tên như vậy. Trong sách vở, người ta mô tả, quán chúng là một thứ cây mọc ở khe núi, hình giống đuôi chim chả, da đen, thịt đỏ. Cây Curtomium fortunei J. Sm., (polystichum fortunei Nakai) có thân rễ mọc đứng, lá non mọc thành túp cuống dài $5$-$20cm$ khía sâu, có vảy. Phiến lá hình lông chim dài $15$-$35cm$, ổ tử nang phân phối đều từ gần chính đến mép các thùy của lá. Cây Dryopteris crassirhizoma Nakai (Thổ hành lân mao quyết) Cây này mới thấy ở Trung Quốc (Hắc Long Giang, Cát Lâm, Liêu Ninh). Cây Athyrium acrostichoides (Sw.) Diels mọc ở Hắc Long Giang, Cát Lâm, Liêu Ninh, Hà Bắc, An Huy, Vân Nam, Thiểm Tây, Cam Túc, Nội Mông (Trung Quốc) chưa thấy có ở nước ta. Woodwardia unigemmata Nakai có tên là đơn nha cẩu tích-quản trọng, cây này có mọc ở Sapa (Lào Cai). Cùng giống còn có Đông phương cẩu tích-Woodwardia orientalis Sw. và Woodwardia orientalis Sw.var.prolifera (Hook-et Am) Ching. Những loài này thấy và được dùng ở Triết Giang, Phúc Kiến, Đài Loan, Hồ Bắc, Tứ Xuyên, Cạm Túc, Hồ Nam, Phúc Kiến. Osmunda japonica Thunb. là cây tử cơ. Cây này mọc và được dùng ở Hồ Nam, Sơn Đông, An Huy, Giang Tô, Triết Giang, Phúc Kiến, Đài Loan, Quảng Đông, Quảng Tây, Giang Tây, Hồ Bắc, Tứ Xuyên, Quý Châu, Vân Nam, Thiểm Tây."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "190"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Quán là xâu, chuỗi: Chúng là nhiều, vì vị quán chúng trông giống như nhiều cành xâu vào gốc cây cho nên đặt tên như vậy. Trong sách vở, người ta mô tả, quán chúng là một thứ cây mọc ở khe núi, hình giống đuôi chim chả, da đen, thịt đỏ. Cây Curtomium fortunei J. Sm., (polystichum fortunei Nakai) có thân rễ mọc đứng, lá non mọc thành túp cuống dài $5$-$20cm$ khía sâu, có vảy. Phiến lá hình lông chim dài $15$-$35cm$, ổ tử nang phân phối đều từ gần chính đến mép các thùy của lá. Cây Dryopteris crassirhizoma Nakai (Thổ hành lân mao quyết) Cây này mới thấy ở Trung Quốc (Hắc Long Giang, Cát Lâm, Liêu Ninh). Cây Athyrium acrostichoides (Sw.) Diels mọc ở Hắc Long Giang, Cát Lâm, Liêu Ninh, Hà Bắc, An Huy, Vân Nam, Thiểm Tây, Cam Túc, Nội Mông (Trung Quốc) chưa thấy có ở nước ta. Woodwardia unigemmata Nakai có tên là đơn nha cẩu tích-quản trọng, cây này có mọc ở Sapa (Lào Cai). Cùng giống còn có Đông phương cẩu tích-Woodwardia orientalis Sw. và Woodwardia orientalis Sw.var.prolifera (Hook-et Am) Ching. Những loài này thấy và được dùng ở Triết Giang, Phúc Kiến, Đài Loan, Hồ Bắc, Tứ Xuyên, Cạm Túc, Hồ Nam, Phúc Kiến. Osmunda japonica Thunb. là cây tử cơ. Cây này mọc và được dùng ở Hồ Nam, Sơn Đông, An Huy, Giang Tô, Triết Giang, Phúc Kiến, Đài Loan, Quảng Đông, Quảng Tây, Giang Tây, Hồ Bắc, Tứ Xuyên, Quý Châu, Vân Nam, Thiểm Tây."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_FILIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_FILMARON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_ALBASPIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_AXIT_FILIXIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_ASPIDINOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_AXIT_FILMARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_TANIN_AXIT_FILICOTANNIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_CHAT_SAP",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_NHUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$filixin$, $filmaron$, $albaspidin$, $axit filixic$, $aspidinola$, $axit filmaric$, $tanin-axit filicotannic$, $chất béo$, $chất sáp$, $nhựa$, $tinh dầu$, $filixin$, $filmaron$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BANG_HUYET_QUAN_CHUNG",
+      "to": "VT_QUAN_CHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với rượu mà uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BANG_HUYET_QUAN_CHUNG",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc với rượu mà uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_XICH_BACH_DAI_QUAN_CHUNG",
+      "to": "VT_QUAN_CHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "1 củ",
+        "vai_tro": "Quân",
+        "cach_dung": "Tẩm dấm cho ướt, nướng thơm để nguội tán nhỏ. Ngày uống 2 lần, mỗi lần uống $6g$, dùng rượu mà chiêu thuốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_XICH_BACH_DAI_QUAN_CHUNG",
+      "to": "B_XICH_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tẩm dấm cho ướt, nướng thơm để nguội tán nhỏ. Ngày uống 2 lần, mỗi lần uống $6g$, dùng rượu mà chiêu thuốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_ON_DICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho vào bể nước ăn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_QUAN_CHUNG",
+      "to": "VT_QUAN_CHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_QUAN_CHUNG",
+      "to": "VT_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_QUAN_CHUNG",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_QUAN_CHUNG",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Trộn đều, mỗi lần uống $1-2g$, ngày uống 3-4 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T192"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng hoạt huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_TAN_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng tán ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUAN_CHUNG",
+      "to": "CN_DU_PHONG_BENH_THOI_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, hơi hàn, có tác dụng dự phòng bệnh thời khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T190",
+        "all_sources": [
+          "CT_VT_VN_T190"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 50.5,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

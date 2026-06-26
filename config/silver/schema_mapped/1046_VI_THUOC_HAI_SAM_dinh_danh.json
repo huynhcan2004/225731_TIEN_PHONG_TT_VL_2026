@@ -1,0 +1,132 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAI_SAM",
+    "ten_raw": "Hải sâm",
+    "ten_khoa_hoc": "Stichopus japonicus Selenka",
+    "ho_thuc_vat": "Họ Hải sâm Holothuridae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1046",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1046"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hải sâm là một loại động vật không xương sống, sống ở biển, chủ yếu hay gặp ở những vịnh và những nơi có nhiều đá ngắm ở biển khơi (Hình 770).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hải sâm có $21,45\\%$ protein, $0,27\\%$ lipit, $1,37\\%$ gluxit và $1,13\\%$ tro, trong tro chủ yếu gồm canxi $0,118$, photpho $0,22$, sắt $0,0014$, kali $0,07$. Thành phần chủ yếu trong protein là acginin và xystin. Kết quả nghiên cứu trên động vật thí nghiệm cho thấy các chất lipit tổng hợp lấy từ các tế bào của động vật không xương sống ở biển có công dụng lớn trong việc phòng và chữa bệnh xơ vữa"
+        ],
+        "cach_dung_bao_che": "Hải sâm phân bố ở nhiều nước, ngư dân đánh bắt được thường đem phơi hay sấy khô dùng làm thuốc hay thực phẩm. Loại tốt nhất có màu đen thịt quánh dinh, da có nhiều gai. Loại to mà mềm, da không có gai là loại kém."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_PROTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hải sâm có $21,45\\%$ protein"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_LIPIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hải sâm có $0,27\\%$ lipit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hải sâm có $1,37\\%$ gluxit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tro chủ yếu gồm canxi $0,118$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tro chủ yếu gồm photpho $0,22$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tro chủ yếu gồm sắt $0,0014$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tro chủ yếu gồm kali $0,07$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong protein là acginin và xystin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_SAM",
+      "to": "HC_XYSTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong protein là acginin và xystin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1046"
+      }
+    }
+  ]
+}

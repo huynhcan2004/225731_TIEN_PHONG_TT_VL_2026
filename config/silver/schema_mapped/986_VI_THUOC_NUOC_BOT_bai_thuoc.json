@@ -1,0 +1,256 @@
+{
+  "entity_hub": "VI_THUOC_NUOC_BOT",
+  "source": {
+    "source_id": "CT_VT_VN_T986",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "986"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VI_THUOC_NUOC_BOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị thong manh, quáng gà, mắt khô, mờ.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, lọc bỏ bã chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T987"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA_D",
+      "to": "VI_THUOC_NUOC_BOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị quáng gà trẻ em.",
+        "cach_dung": "Ngày uống 4 đến 6 viên, dùng nước cơm hay nước cháo để chiêu thuốc",
+        "ghi_chu": "CT_VT_VN_T987"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI_DD",
+      "to": "VI_THUOC_NUOC_BOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị tiểu tiện khó khăn.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T987"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "B_THONG_MANH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thong manh, quáng gà, mắt khô, mờ v.v...",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, lọc bỏ bã chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "B_QUANG_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thong manh, quáng gà, mắt khô, mờ v.v...",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, lọc bỏ bã chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "S_MAT_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thong manh, quáng gà, mắt khô, mờ v.v...",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, lọc bỏ bã chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "S_MO_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thong manh, quáng gà, mắt khô, mờ v.v...",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, lọc bỏ bã chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA_D",
+      "to": "B_QUANG_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con quảng gà",
+        "cach_dung": "Ngày uống 4 đến 6 viên, dùng nước cơm hay nước cháo để chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI_DD",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "3-5g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VT_DA_MINH_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dạ minh sa chủ trị các bệnh về mắt, kết hợp với các vị thuốc khác để tăng cường hiệu quả.",
+        "cach_dung": "$5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VT_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cốc tinh thảo giúp làm sáng mắt, hỗ trợ điều trị các bệnh về mắt.",
+        "cach_dung": "$6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VT_QUYET_MINH_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Quyết minh tử giúp thanh nhiệt, sáng mắt, hỗ trợ điều trị các bệnh về mắt.",
+        "cach_dung": "$10g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VT_MAT_MONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa giúp làm sáng mắt, giảm viêm, hỗ trợ điều trị các bệnh về mắt.",
+        "cach_dung": "$6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_THONG_MANH_DA_MINH_SA_CDQM",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, giảm tác dụng phụ.",
+        "cach_dung": "$3g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA_D",
+      "to": "VT_DA_MINH_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dạ minh sa chủ trị các bệnh về mắt, kết hợp với mật lợn để tăng cường hiệu quả.",
+        "cach_dung": "viên bằng hạt đậu xanh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA_D",
+      "to": "VT_MAT_LON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật lợn giúp thanh nhiệt, giải độc, hỗ trợ điều trị các bệnh về mắt.",
+        "cach_dung": "vừa đủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI_DD",
+      "to": "VT_DE_DUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dế dũi và dế mèn có tác dụng lợi tiểu, thông lâm, giúp điều trị tiểu tiện khó khăn.",
+        "cach_dung": "20-30 con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI_DD",
+      "to": "VT_DE_MEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dế dũi và dế mèn có tác dụng lợi tiểu, thông lâm, giúp điều trị tiểu tiện khó khăn.",
+        "cach_dung": "20-30 con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    }
+  ],
+  "metadata": {}
+}

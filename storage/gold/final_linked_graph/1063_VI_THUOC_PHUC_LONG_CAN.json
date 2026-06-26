@@ -1,0 +1,588 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHUC_LONG_CAN",
+    "ten_raw": "Phục long can",
+    "ten_khoa_hoc": "$Terra flava usta$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "đất lấy ở bếp do đun nhiều bị nung khô cứng",
+      "thu_hai": "không có",
+      "che_bien_tho": "không có",
+      "lieu_dung_chung": "Liều dùng hằng ngày, $20$ đến $40$g dưới dạng thuốc sắc, đợi thuốc lắng xuống, chắt lấy nước mà uống.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có",
+      "phan_bo": "ở đâu cũng có"
+    },
+    "display_name": "Vị thuốc Phục long can",
+    "canonical_name": "Vị thuốc Phục long can"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAI_DAM_PHUC_LONG_CAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đại Đảm Phục Long Can",
+        "aliases": [
+          "daidamphuclongcan",
+          "dai dam phuc long can",
+          "đại đảm phục long can"
+        ],
+        "search_vector_hint": "Bài thuốc Đại Đảm Phục Long Can thuộc nhóm bài thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "BT_NON_MUA_THAI_PHU_PHUC_LONG_CAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Nộn Mễ Thải Phụ Phục Long Can",
+        "aliases": [
+          "nonmethaiphuphuclongcan",
+          "nộn mễ thải phụ phục long can",
+          "non me thai phu phuc long can"
+        ],
+        "search_vector_hint": "Bài thuốc Nộn Mễ Thải Phụ Phục Long Can thuộc nhóm bài thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_BANG_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Băng huyết",
+        "aliases": [
+          "xuathuyettucung",
+          "xuat huyet tu cung",
+          "băng huyết",
+          "bang huyet",
+          "banghuyet",
+          "xuất huyết tử cung"
+        ],
+        "search_vector_hint": "Bệnh Băng huyết thuộc nhóm Bệnh, thường liên quan đến xuất huyết tử cung bất thường."
+      }
+    },
+    {
+      "id": "B_DAI_DAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đái dầm",
+        "aliases": [
+          "dai dam",
+          "đái són",
+          "tiểu dầm",
+          "dai son",
+          "đái dầm",
+          "daidam",
+          "tieu dam",
+          "daison",
+          "tieudam"
+        ],
+        "search_vector_hint": "Bệnh Đái dầm thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng bàng quang."
+      }
+    },
+    {
+      "id": "B_THO_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Bệnh Thổ huyết thuộc nhóm bệnh xuất huyết, thường liên quan đến tổn thương đường tiêu hóa."
+      }
+    },
+    {
+      "id": "B_UNG_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ung nhọt",
+        "aliases": [
+          "ung nhot",
+          "mun nhot",
+          "munnhot",
+          "ungnhot",
+          "mụn nhọt",
+          "ung nhọt"
+        ],
+        "search_vector_hint": "Bệnh Ung nhọt thuộc nhóm Bệnh, thường liên quan đến tình trạng viêm nhiễm da."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_CAM_NON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cấm nôn",
+        "aliases": [
+          "camnon",
+          "cấm nôn",
+          "cam non"
+        ],
+        "search_vector_hint": "Công năng Cấm nôn thuộc nhóm công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "CN_ON_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ôn trung",
+        "aliases": [
+          "ôn trung",
+          "ontrung",
+          "on trung"
+        ],
+        "search_vector_hint": "Công năng Ôn trung thuộc nhóm công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_RA_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiểu tiện ra máu",
+        "aliases": [
+          "tieutienramau",
+          "tieu tien ra mau",
+          "tiểu tiện ra máu"
+        ],
+        "search_vector_hint": "Công năng Tiểu tiện ra máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_CHU_SA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chu sa",
+        "aliases": [
+          "chusa",
+          "chu sa"
+        ],
+        "search_vector_hint": "Vị thuốc Chu sa thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_PHUC_LONG_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phục long can",
+        "aliases": [
+          "phục long can",
+          "phuc long can",
+          "phuclongcan"
+        ],
+        "search_vector_hint": "Vị thuốc Phục long can thuộc nhóm vị thuốc, thường liên quan đến điều trị các bệnh về tiêu hóa.",
+        "bo_phan_dung": "đất lấy ở bếp do đun nhiều bị nung khô cứng",
+        "thu_hai": "không có",
+        "che_bien_tho": "không có",
+        "lieu_dung_chung": "Liều dùng hằng ngày, $20$ đến $40$g dưới dạng thuốc sắc, đợi thuốc lắng xuống, chắt lấy nước mà uống.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không có",
+        "phan_bo": "ở đâu cũng có",
+        "ten_khoa_hoc": "$Terra flava usta$",
+        "ho_thuc_vat": "$Không có$",
+        "hinh_thai_chi_tiet": "Phục long can là đất lấy ở bếp do đun nhiều bị nung khô cứng mà có, màu đất phía ngoài đỏ, trong vàng hay tía.",
+        "lieu_dung_tong_quat": "một vị thuốc hay dùng trong đông y."
+      }
+    },
+    {
+      "id": "VT_XA_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xạ hương",
+        "aliases": [
+          "xạ hương",
+          "xahuong",
+          "xa huong"
+        ],
+        "search_vector_hint": "Xạ hương thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1063"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Phục long can là đất lấy ở bếp do đun nhiều bị nung khô cứng mà có, màu đất phía ngoài đỏ, trong vàng hay tía.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "một vị thuốc hay dùng trong đông y."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi nóng (ôn)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T1063"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T1063"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "CN_TIEU_TIEN_RA_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T1063"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAI_PHU_PHUC_LONG_CAN",
+      "to": "VT_PHUC_LONG_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với $300ml$ nước còn $20ml$, lọc lấy nước uống.",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAI_PHU_PHUC_LONG_CAN",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Phục long can $50g$, nước $300ml$",
+        "cach_dung": "Sắc còn $20ml$, để trong, lọc lấy nước cho uống làm nhiều lần",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_DAM_PHUC_LONG_CAN",
+      "to": "VT_PHUC_LONG_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_DAM_PHUC_LONG_CAN",
+      "to": "VT_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_DAM_PHUC_LONG_CAN",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$0,03g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_DAM_PHUC_LONG_CAN",
+      "to": "B_DAI_DAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Phục long can tán nhỏ $8g$, chu sa $4g$, xạ hương $0,03g$",
+        "cach_dung": "Tất cả tán nhỏ viên bằng hạt đậu xanh. Mỗi tối cho uống 2 đến 4 viên.",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "B_UNG_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hòa phục long can với dấm đắp vào",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "CN_CAM_NON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHUC_LONG_CAN",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.5,
+      "reliability_c_score": 0.7605,
+      "total_confidence_sum": 14.45
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

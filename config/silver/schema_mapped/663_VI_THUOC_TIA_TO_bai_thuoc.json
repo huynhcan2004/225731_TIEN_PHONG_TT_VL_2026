@@ -1,0 +1,58 @@
+{
+  "entity_hub": "VI_THUOC_TIA_TO",
+  "source": {
+    "source_id": "CT_VT_VN_T663",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "663"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SO_RET_CAT_CAN_CTN",
+      "to": "VI_THUOC_TIA_TO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc Thường sơn triệt ngược chữa sốt rét có Cát căn, có thể phối hợp thêm Tía tô để tăng hiệu quả giải biểu, tán hàn.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo kinh nghiệm hễ sốt rét nhiều rét ít thì người ta tăng liều cát căn lên tới $10g$, ngược lại nếu rét nhiều sốt ít hơn, thì người ta tăng liều thảo quả lên tới $3-4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    },
+    {
+      "from": "BT_SO_RET_THUONG_SON_CT",
+      "to": "VI_THUOC_TIA_TO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc Thường sơn chữa sốt rét có Cam thảo, có thể phối hợp thêm Tía tô để tăng hiệu quả giải biểu, tán hàn.",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày.",
+        "ghi_chu": "Đơn này dễ gây non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    },
+    {
+      "from": "BT_SO_RET_THUONG_SON_BMOCTS",
+      "to": "VI_THUOC_TIA_TO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc Cao thường sơn chữa sốt rét có Bình lang, Miết giáp, Ô mai, Táo đen, Cam thảo, Sinh khương, có thể phối hợp thêm Tía tô để tăng hiệu quả giải biểu, tán hàn.",
+        "cach_dung": "Người lớn ngày uống 1-2 lần, mỗi lần $3g$.",
+        "ghi_chu": "Toàn liều điều trị chừng $12-18g$ là khỏi. Không gây nên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    }
+  ],
+  "metadata": {}
+}

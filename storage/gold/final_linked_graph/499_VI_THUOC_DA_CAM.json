@@ -1,0 +1,765 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DA_CAM",
+    "ten_raw": "Cây dạ cẩm",
+    "ten_khoa_hoc": "$Oldenlandia capitellata Kuntze$",
+    "ho_thuc_vat": "$Cà phê Rubiaceae (Rubiaceae)$",
+    "variants": [
+      "Dạ cẩm"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá và ngọn",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống $10$ đến $25$g lá và ngọn khô. Uống trước khi ăn hoặc vào lúc đau.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mọc hoang tại Cao Bằng, Lạng Sơn, Thái Nguyên, Hà Giang..."
+    },
+    "display_name": "Vị thuốc Dạ cẩm",
+    "canonical_name": "Vị thuốc Dạ cẩm"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_DA_DAY_DA_CAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau dạ dày da cam",
+        "aliases": [
+          "dau da day da cam",
+          "đau dạ dày da cam",
+          "daudadaydacam"
+        ],
+        "search_vector_hint": "Đau dạ dày da cam thuộc nhóm bài thuốc, thường liên quan đến điều trị đau dạ dày."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_BINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bình",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Bình thuộc nhóm công năng, thường liên quan đến trạng thái cân bằng."
+      }
+    },
+    {
+      "id": "CN_DANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dáng",
+        "aliases": [
+          "dáng",
+          "dang"
+        ],
+        "search_vector_hint": "Dáng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_NGOT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Vị Ngọt",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Ngọt thuộc nhóm công năng, thường liên quan đến vị giác."
+      }
+    },
+    {
+      "id": "DL_GIAM_CHUA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giảm chua",
+        "aliases": [
+          "giảm chua",
+          "giamchua",
+          "giam chua"
+        ],
+        "search_vector_hint": "Giảm chua thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm vị chua."
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Giảm đau",
+        "aliases": [
+          "chỉ thống",
+          "chi thong",
+          "giamdau",
+          "chithong",
+          "giảm đau",
+          "giam dau"
+        ],
+        "search_vector_hint": "Giảm đau thuộc nhóm công năng, thường liên quan đến làm dịu cơn đau."
+      }
+    },
+    {
+      "id": "DL_SE_VET_LOET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Se vết loét",
+        "aliases": [
+          "se vết loét",
+          "sevetloet",
+          "se vet loet"
+        ],
+        "search_vector_hint": "Se vết loét thuộc nhóm dược lý, thường liên quan đến khả năng làm lành vết loét."
+      }
+    },
+    {
+      "id": "DL_TRUNG_HOA_AXIT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Trung hòa axit",
+        "aliases": [
+          "trung hòa axit",
+          "trunghoaaxit",
+          "trung hoa axit"
+        ],
+        "search_vector_hint": "Trung hòa axit thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm độ axit."
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ancaloit",
+        "aliases": [
+          "ancaloit"
+        ],
+        "search_vector_hint": "Hoạt chất Ancaloit thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_ANTHRA_GLUCOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Anthra-glucozit",
+        "aliases": [
+          "anthra-glucozit"
+        ],
+        "search_vector_hint": "Hoạt chất Anthra-glucozit thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "S_LOET_LUOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Loét lưỡi",
+        "aliases": [
+          "loet luoi",
+          "loét lưỡi",
+          "loetluoi"
+        ],
+        "search_vector_hint": "Triệu chứng Loét lưỡi thuộc nhóm Triệu chứng, thường liên quan đến viêm nhiễm lưỡi."
+      }
+    },
+    {
+      "id": "S_LOET_MOM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Loét mồm",
+        "aliases": [
+          "loét mồm",
+          "loetmom",
+          "nhietmieng",
+          "nhiet mieng",
+          "loet mom",
+          "nhiệt miệng"
+        ],
+        "search_vector_hint": "Triệu chứng Loét mồm thuộc nhóm Triệu chứng, thường liên quan đến viêm nhiễm niêm mạc miệng."
+      }
+    },
+    {
+      "id": "S_VIEM_HONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Viêm họng",
+        "aliases": [
+          "viem hong",
+          "viêm họng",
+          "viemhong"
+        ],
+        "search_vector_hint": "Viêm họng thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng hoặc kích ứng ở họng."
+      }
+    },
+    {
+      "id": "S_VIEM_LUOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Viêm lưỡi",
+        "aliases": [
+          "viemluoi",
+          "viem luoi",
+          "viêm lưỡi"
+        ],
+        "search_vector_hint": "Viêm lưỡi thuộc nhóm triệu chứng, thường liên quan đến viêm nhiễm hoặc kích ứng ở lưỡi."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_DA_CAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Dạ cẩm",
+        "aliases": [
+          "dạ cẩm",
+          "dacam",
+          "da cam",
+          "cây dạ cẩm",
+          "caydacam",
+          "cay da cam"
+        ],
+        "search_vector_hint": "Vị thuốc Dạ cẩm thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh dạ dày.",
+        "bo_phan_dung": "lá và ngọn",
+        "lieu_dung_chung": "Ngày uống $10$ đến $25$g lá và ngọn khô. Uống trước khi ăn hoặc vào lúc đau.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Mọc hoang tại Cao Bằng, Lạng Sơn, Thái Nguyên, Hà Giang...",
+        "ten_khoa_hoc": "$Oldenlandia capitellata Kuntze$",
+        "ho_thuc_vat": "$Cà phê Rubiaceae (Rubiaceae)$",
+        "hinh_thai_chi_tiet": "Cây bụi-trườn, thường cuốn vào cây khác, dài $1$-$2$m. Thân hình trụ, đốt phình to. Lá đơn mọc đối, hình bầu dục, đầu nhọn, dài $5$-$15$cm, rộng $3$-$6$cm. Cụm hoa xim phân đôi tụ thành hình cầu ở đầu cành, hoa hình ống nhỏ màu trắng. Quả rất nhỏ xếp thành hình cầu. Có 4 loại: thân tím hoặc thân xanh, chia ra loại nhiều lông hoặc ít lông.",
+        "thanh_phan_hoa_hoc": "['Chứa $tanin$, $ancaloit$, $saponin$.', 'Rễ có $anthra-glucozit$.']",
+        "ghi_chu_bo_sung": "Trừ bỏ rễ vì tác dụng kém hơn."
+      }
+    },
+    {
+      "id": "VT_VI_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Cam Thao"
+      }
+    },
+    {
+      "id": "VT_VI_DUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Duong"
+      }
+    },
+    {
+      "id": "VT_VI_DUONG_KINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Duong Kinh"
+      }
+    },
+    {
+      "id": "VT_VI_MAT_ONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Mat Ong"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "499"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bụi-trườn, thường cuốn vào cây khác, dài $1$-$2$m. Thân hình trụ, đốt phình to. Lá đơn mọc đối, hình bầu dục, đầu nhọn, dài $5$-$15$cm, rộng $3$-$6$cm. Cụm hoa xim phân đôi tụ thành hình cầu ở đầu cành, hoa hình ống nhỏ màu trắng. Quả rất nhỏ xếp thành hình cầu. Có 4 loại: thân tím hoặc thân xanh, chia ra loại nhiều lông hoặc ít lông.",
+        "thanh_phan_hoa_hoc": [
+          "Chứa $tanin$, $ancaloit$, $saponin$.",
+          "Rễ có $anthra-glucozit$."
+        ],
+        "ghi_chu_bo_sung": "Trừ bỏ rễ vì tác dụng kém hơn."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DA_CAM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $tanin$, $ancaloit$, $saponin$.",
+        "ghi_chu": "trong lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $tanin$, $ancaloit$, $saponin$.",
+        "ghi_chu": "trong lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $tanin$, $ancaloit$, $saponin$.",
+        "ghi_chu": "trong lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "HC_ANTHRA_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ có $anthra-glucozit$.",
+        "ghi_chu": "trong rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "S_LOET_MOM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Toàn cây dạ cẩm, lá và ngọn non",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm dân gian Lạng Sơn, Cao Bằng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "S_LOET_LUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Toàn cây dạ cẩm, lá và ngọn non | Lá dạ cẩm. Trẻ con dùng nước vắt của lá uống hoặc ngậm",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm dân gian Lạng Sơn, Cao Bằng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "S_VIEM_LUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lá dạ cẩm. Trẻ con dùng nước vắt của lá uống hoặc ngậm",
+        "ghi_chu": ""
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "S_VIEM_HONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lá dạ cẩm. Trẻ con dùng nước vắt của lá uống hoặc ngậm",
+        "ghi_chu": ""
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá và ngọn khô $10$-$25$g",
+        "cach_dung": "Sắc uống ngày $2$-$3$ lần, thêm đường cho đủ ngọt. Uống trước khi ăn",
+        "ghi_chu": ""
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "VT_DA_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$7$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "VT_VI_DUONG_KINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "VT_VI_MAT_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $2$-$3$ lần, mỗi lần $1$ thìa to ($10$-$15$g) | Người lớn $10$-$15$g, trẻ em $5$-$10$g",
+        "cach_dung": "Nấu thành cao chai $250$ml | Ngày uống $2$ lần trước khi ăn",
+        "ghi_chu": ""
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "VT_VI_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM",
+      "to": "VT_VI_DUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "CN_BINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "CN_NGOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "CN_DANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị hơi đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Giảm đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "DL_TRUNG_HOA_AXIT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trung hòa axit dạ dày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "DL_GIAM_CHUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bớt ợ chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA_CAM",
+      "to": "DL_SE_VET_LOET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm se vết loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T499",
+        "all_sources": [
+          "CT_VT_VN_T499"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 62.0,
+      "reliability_c_score": 0.7577,
+      "total_confidence_sum": 19.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

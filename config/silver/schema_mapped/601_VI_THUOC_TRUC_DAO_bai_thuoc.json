@@ -1,0 +1,91 @@
+{
+  "entity_hub": "VI_THUOC_TRUC_DAO",
+  "source": {
+    "source_id": "CT_VT_VN_T601",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "601"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "VI_THUOC_TRUC_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-2mg$ tevetin ($30-60$ giọt một ngày)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương chủ trị kém tim, tim đập loạn nhịp.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    },
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "B_KEM_TIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp kém tim, tim đập loạn nhịp, viêm tám cân, tim suy nhược sau khi mổ hay sau khi mắc bệnh nhiễm trùng, đau van tim, nhất là trường hợp bị tổn thương tăng.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    },
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "S_TIM_DAP_LOAN_NHIP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp kém tim, tim đập loạn nhịp, viêm tám cân, tim suy nhược sau khi mổ hay sau khi mắc bệnh nhiễm trùng, đau van tim, nhất là trường hợp bị tổn thương tăng.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    },
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "VI_THUOC_TRUC_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-2$ ống",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương chủ trị kém tim, tim đập loạn nhịp.",
+        "cach_dung": "Tiêm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    },
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "B_KEM_TIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp kém tim, tim đập loạn nhịp, viêm tám cân, tim suy nhược sau khi mổ hay sau khi mắc bệnh nhiễm trùng, đau van tim, nhất là trường hợp bị tổn thương tăng.",
+        "cach_dung": "Tiêm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    },
+    {
+      "from": "BT_KEM_TIM_TRUC_DAO_T",
+      "to": "S_TIM_DAP_LOAN_NHIP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp kém tim, tim đập loạn nhịp, viêm tám cân, tim suy nhược sau khi mổ hay sau khi mắc bệnh nhiễm trùng, đau van tim, nhất là trường hợp bị tổn thương tăng.",
+        "cach_dung": "Tiêm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T601"
+      }
+    }
+  ],
+  "metadata": {}
+}

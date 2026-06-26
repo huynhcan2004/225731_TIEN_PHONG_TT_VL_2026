@@ -1,0 +1,142 @@
+{
+  "entity_hub": "VI_THUOC_HOA_NHAI",
+  "source": {
+    "source_id": "CT_VT_VN_T806",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "806"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VI_THUOC_HOA_NHAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoa nhài giúp tăng cường tác dụng an thần của các vị thuốc khác.",
+        "ghi_chu": "Hoa nhài có thể được thêm vào để tăng tác dụng an thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VT_TOAN_TAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Toan táo nhân có tác dụng dưỡng tâm, an thần, là vị thuốc chính trong bài.",
+        "ghi_chu": "Sao đen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Phục linh giúp kiện tỳ, an thần, hỗ trợ tác dụng của toan táo nhân.",
+        "ghi_chu": " "
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xuyên khung giúp hoạt huyết, hành khí, giảm căng thẳng, hỗ trợ giấc ngủ.",
+        "ghi_chu": " "
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tri mẫu giúp thanh nhiệt, dưỡng âm, giảm bốc hỏa, cải thiện giấc ngủ.",
+        "ghi_chu": " "
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, giảm tác dụng phụ.",
+        "ghi_chu": " "
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_MAT_NGU_TOANTTTPXTC",
+      "to": "B_MAT_NGU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mất ngủ",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_HEN_HOA_NHAI_L",
+      "to": "VI_THUOC_HOA_NHAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$200-300g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị hen.",
+        "ghi_chu": "Lá táo sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    },
+    {
+      "from": "BT_HEN_HOA_NHAI_L",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen",
+        "cach_dung": "Sắc với 3 bát nước, còn 1 bát chia 2 lần uống vào trước bữa ăn 1 giờ, uống liên tục từ 1 tuần đến 2 tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T806"
+      }
+    }
+  ],
+  "metadata": {}
+}

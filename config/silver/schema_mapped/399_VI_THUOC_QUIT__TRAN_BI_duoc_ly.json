@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_QUIT_TRAN_BI",
+  "source": {
+    "source_id": "CT_VT_VN_T399",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "399"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "kiện tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "CN_LY_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "lý khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "táo thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "CN_HOA_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "hoá đờm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "DL_CHUA_NON_MUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa nôn mửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "DL_CHUA_SO_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa sốt rét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "DL_TRU_DOM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "trừ đờm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUIT__TRAN_BI",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa ăn uống không tiêu, ăn không ngon"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    }
+  ],
+  "metadata": {}
+}

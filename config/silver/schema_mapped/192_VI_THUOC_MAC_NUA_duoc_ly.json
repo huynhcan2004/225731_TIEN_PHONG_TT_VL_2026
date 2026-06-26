@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_MAC_NUA",
+  "source": {
+    "source_id": "CT_VT_VN_T192",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "192"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_TRU_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mặc nưa có tác dụng trừ giun đúng như kinh nghiệm nhân dân vẫn dùng. Tác dụng trừ giun này do chất diospyron."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mặc nưa còn có tác dụng kháng sinh nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,138 @@
+{
+  "entity_hub": "VI_THUOC_BACH_HAC",
+  "source": {
+    "source_id": "CT_VT_VN_T103",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "103"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_B",
+      "to": "VI_THUOC_BACH_HAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hạc là vị thuốc chính.",
+        "cach_dung": "Rễ tươi hay khô giã nhỏ, ngâm rượu hoặc ngâm dấm trong 7 đến 10 ngày. Rửa sạch các vết hắc lào rồi bôi thuốc này lên",
+        "ghi_chu": "Ngâm rượu hoặc dấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_B",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh hắc lào",
+        "cach_dung": "Rễ tươi hay khô giã nhỏ, ngâm rượu hoặc ngâm dấm trong 7 đến 10 ngày. Rửa sạch các vết hắc lào rồi bôi thuốc này lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_B",
+      "to": "B_CHOC_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh chốc lở (impetigo)",
+        "cach_dung": "Rễ tươi hay khô giã nhỏ, ngâm rượu hoặc ngâm dấm trong 7 đến 10 ngày. Rửa sạch các vết hắc lào rồi bôi thuốc này lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_B",
+      "to": "B_MUN_RO_P_LOANG_VONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh mụn rộp loang vòng (herpes circiné)",
+        "cach_dung": "Rễ tươi hay khô giã nhỏ, ngâm rượu hoặc ngâm dấm trong 7 đến 10 ngày. Rửa sạch các vết hắc lào rồi bôi thuốc này lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_B",
+      "to": "B_ECZEMA_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa eczema mãn tính",
+        "cach_dung": "Rễ tươi hay khô giã nhỏ, ngâm rượu hoặc ngâm dấm trong 7 đến 10 ngày. Rửa sạch các vết hắc lào rồi bôi thuốc này lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_C",
+      "to": "VI_THUOC_BACH_HAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hạc là vị thuốc chính.",
+        "cach_dung": "Nấu thành cao để dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_C",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh hắc lào",
+        "cach_dung": "Nấu thành cao để dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_C",
+      "to": "B_CHOC_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh chốc lở (impetigo)",
+        "cach_dung": "Nấu thành cao để dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_C",
+      "to": "B_MUN_RO_P_LOANG_VONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh mụn rộp loang vòng (herpes circiné)",
+        "cach_dung": "Nấu thành cao để dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_BACH_HAC_C",
+      "to": "B_ECZEMA_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa eczema mãn tính",
+        "cach_dung": "Nấu thành cao để dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103"
+      }
+    }
+  ],
+  "metadata": {}
+}

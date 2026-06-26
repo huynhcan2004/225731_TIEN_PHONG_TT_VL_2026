@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_HOA_HIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T255",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "255"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính mát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vú sưng đau, máu cam."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện ra sỏi, sạn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vàng da do rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "DL_TANG_PROTHROMBIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng nước sắc hoa hiên thời gian Quick giảm rõ rệt, nghĩa là làm tăng tỷ lệ protrombin toàn phần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "DL_CHONG_DICUMARIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cũng như vitamin K, nước sắc hoa hiện có tác dụng chống lại tác dụng của dicumarin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "DL_TANG_TIEU_CAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiểu cầu tăng, hồng cầu tăng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HIEN",
+      "to": "DL_CO_TUT_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tăng trương lực của tử cung và thành ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T255"
+      }
+    }
+  ],
+  "metadata": {}
+}

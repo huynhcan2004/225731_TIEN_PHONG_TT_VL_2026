@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_HOANG_LIEN_GAI",
+  "source": {
+    "source_id": "CT_VT_VN_T206",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "206"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_HOANG_LIEN_GAI_H",
+      "to": "VI_THUOC_HOANG_LIEN_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng liên gai là vị thuốc chính để chữa lỵ.",
+        "cach_dung": "Nước $150ml$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    },
+    {
+      "from": "BT_LY_HOANG_LIEN_GAI_H",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_LIEN_GAI_H",
+      "to": "VI_THUOC_HOANG_LIEN_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng liên gai là vị thuốc chính để chữa đau mắt.",
+        "cach_dung": "Sắc uống trong ngày. Có thể thêm ít đường vào cho dễ uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_LIEN_GAI_H",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt",
+        "cach_dung": "Sắc uống trong ngày. Có thể thêm ít đường vào cho dễ uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_HOANG_LIEN_GAI_H",
+      "to": "VI_THUOC_HOANG_LIEN_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng liên gai kết hợp với rượu trắng để chữa đau răng.",
+        "cach_dung": "Ngâm trong 7-10 ngày. Chấm vào nơi răng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_HOANG_LIEN_GAI_H",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng",
+        "cach_dung": "Ngâm trong 7-10 ngày. Chấm vào nơi răng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T206"
+      }
+    }
+  ],
+  "metadata": {}
+}

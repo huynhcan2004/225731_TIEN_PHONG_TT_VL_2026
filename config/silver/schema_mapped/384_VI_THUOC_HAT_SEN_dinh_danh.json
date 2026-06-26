@@ -1,0 +1,143 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAT_SEN",
+    "ten_raw": "Hạt sen",
+    "ten_khoa_hoc": "Zanthoxylum nitidum DC. (Fagara piperita Lour.); Piper nigri L.",
+    "ho_thuc_vat": "Cam Rutaceae (Rutaceae); Hồ tiêu (Piperaceae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Hạt sen hay hoa tiêu (Fructus Zanthoxyli) là quả phơi hay sấy khô của cây sưng hay cây hoàng lực.\n[CT_VT_VN_T385]: Mọc hoang khắp nơi ở nước ta, nhiều nhất tại\ncác tỉnh miền núi như Phú Thọ, Lào Cai, Yên Bái,\nBắc Cạn, Thái Nguyên, Lạng Sơn, Cao Bằng, Hà\nTĩnh, Nghệ An, Hòa Bình, Hà Tây. Còn mọc ở\nTrung Quốc (Hải Nam, Đài Loan, Quảng Đông,\nQuảng Tây)."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "384"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sưng có nhiều cành dài $1$-$2m$, có thể dài tới $15m$, đường kính thân có thể tới $15cm$, cành màu đỏ nhạt, trên cành và cuống lá có những gai ngắn, dẹt, quay về phía dưới. Lá kép lông chim lẻ, có $2$ đến $3$ đôi lá chét mọc đối. Mặt dưới và mặt trên của gân chính đều có gai, do đó đã có tên lưỡng diện chậm (hai mặt có gai). Hoa mọc thành chùm hay chùm xim đơm (glomérule) riêng lẻ hay tập trung ở kẽ lá. Quả có $1$ đến $5$ mảnh vỏ, thường là $2$ $3$ tụ họp ở quanh trục, mặt ngoài nhăn nheo, mặt trong nhẵn. Mỗi vỏ cứng có một hạt cứng, đen bóng ( Hình $277$, Hm $17,3$ ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt có $1\\%$ tinh dầu, với thành phần chủ yếu là limonen ($44\\%$), geranial ( $12,14\\%$), neral ($10,95\\%$), linalol ($6,84\\%$) (theo Nguyễn Xuân Dũng, PA Leclerq, Th. Nga, $1990$)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $1\\%$ tinh dầu, với thành phần chủ yếu là limonen ($44\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_GERANIAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $1\\%$ tinh dầu, với thành phần chủ yếu là limonen ($44\\%$), geranial ( $12,14\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_NERAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $1\\%$ tinh dầu, với thành phần chủ yếu là limonen ($44\\%$), geranial ( $12,14\\%$), neral ($10,95\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_LINALOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $1\\%$ tinh dầu, với thành phần chủ yếu là limonen ($44\\%$), geranial ( $12,14\\%$), neral ($10,95\\%$), linalol ($6,84\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    }
+  ]
+}

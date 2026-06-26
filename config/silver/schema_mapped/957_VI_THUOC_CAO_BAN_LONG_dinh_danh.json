@@ -1,0 +1,71 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAO_BAN_LONG",
+    "ten_raw": "Cao ban long",
+    "ten_khoa_hoc": "Cornu Cervi; Colla Cornus Cervi",
+    "ho_thuc_vat": "Không có thông tin",
+    "variants": [
+      "lộc thận",
+      "lộc tiên",
+      "lộc giác",
+      "lộc giác sương"
+    ],
+    "properties": {
+      "bo_phan_dung": "Gạc hươu nai",
+      "thu_hai": "Hàng năm vào cuối hạ, hươu nai cọ đầu vào cây cho sừng rụng.",
+      "che_bien_tho": "Gạc được cưa thành từng khúc ngắn, tẩm với mật sao vàng, tán nhỏ. Có khi người ta cưa thành khúc ngắn, dùng than đốt qua, tán nhỏ mới dùng."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T957",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "957"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Gạc hươu nai là nhung để già, cứng lên thành gạc hay sừng (xem mô tả con vật ở vị lộc nhung). Hàng năm vào cuối hạ, hươu nai cọ đầu vào cây cho sừng rụng. Trong gạc hươu nai, huyết đã khô kiệt, có khi còn da bọc, có khi hết cả da, chỉ còn trơ gạc sáng bóng, màu vàng hay hơi đỏ hoặc trắng ngà. Phần dưới to có nhiều u nhỏ tròn nổi lên, phần trên nhẵn và nhọn. Có người thường căn cứ vào số nhánh và kích thước, màu sắc để phân biệt gạc hươu với gạc nai: Gạc hươu có 3 hoặc 4 nhánh, dài $30-50cm$, đường kính chừng $3cm$, chất mịn và rắn, cứng chắc, u tròn cách nhau, màu gạc đỏ nâu. Gạc nai cũng giống gạc hươu nhưng thường to và dài hơn: đường kính chừng $3-6cm$, dài $50-60cm$, chia 3-6 nhánh, màu tro nâu hoặc tro vàng, u không rõ, thường chạy dài (Hình 713). Cả 2 loại, khi bẻ, vết bẻ màu trắng, giữa có màu tro, tủy hẹp. Nếu tủy rộng là gạc nhẹ, xấu."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAO_BAN_LONG",
+      "to": "HC_KERATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong gạc hươu nai có khoảng $25\\%$ chất keo (keratin) ,$50-60\\%$ canxi phophát, cacbonát, một ít chất đạm và ít nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN_LONG",
+      "to": "HC_CALCI_PHOSPHAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong gạc hươu nai có khoảng $25\\%$ chất keo (keratin) ,$50-60\\%$ canxi phophát, cacbonát, một ít chất đạm và ít nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN_LONG",
+      "to": "HC_CALCI_CARBONAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong gạc hươu nai có khoảng $25\\%$ chất keo (keratin) ,$50-60\\%$ canxi phophát, cacbonát, một ít chất đạm và ít nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_THAN_KHUC",
+  "source": {
+    "source_id": "CT_VT_VN_T373",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "373"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "CN_TIEU_THUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thực."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "CN_HANH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "CN_DUONG_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dưỡng vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    }
+  ],
+  "metadata": {}
+}

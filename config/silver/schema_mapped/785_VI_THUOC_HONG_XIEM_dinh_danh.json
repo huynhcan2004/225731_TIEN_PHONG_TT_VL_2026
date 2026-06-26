@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HONG_XIEM",
+    "ten_raw": "Hồng xiêm",
+    "ten_khoa_hoc": "Achras sapota L.; Sapota achras Mill.",
+    "ho_thuc_vat": "Họ Hồng xiêm Sapotaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "phan_bo": "Malaixia, Ấn Độ, tại nhiều vườn và bờ ruộng ở miền Bắc nước ta.",
+      "thu_hai": "Thu hái toàn bộ phận trên mặt đất vào lúc cây kết quả và gần chín.",
+      "che_bien_tho": "Thái nhỏ, phơi hay sấy khô."
+    },
+    "display_name": "Hồng xiêm"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "785"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to, cao. Cành và lá khi còn non được phủ lông tơ. Lá mọc so le, có cuống dài hình bầu dục, dai và tồn tại. Hoa đơn độc ở kẽ các lá trên, đều, lưỡng tính, thường mẫu 3, có khi mẫu 5. Quả mọng, hình trứng dẹt, màu nâu thẫm và bóng, rốn kéo dài màu nâu nhạt và nháp ( Hình 599).",
+        "thanh_phan_hoa_hoc": [
+          "Quả xanh và vỏ chứa chất gồm nhựa gọi là chicle. Chất gồm nhựa chicle này có $40\\%$ nhựa (résine), $1,7\\%$ hydrat cacbon, $35\\%$ nước và một số chất khác. Nhựa này gần giống chất gutta percha.",
+          "Vỏ cây còn non chứa một chất saponin và một ít ancaloit có tinh thể gọi là sapotin. Vỏ cây già chứa tanin.",
+          "Quả hồng xiêm chín có $0,4\\%$ protit, $9\\%$ gluxit, $2,3\\%$ xenluloza và $0,5\\%$ tro. Trong tro có $46,8\\%$ canxi, $21,6\\%$ P, ngoài ra hồng xiêm còn $7mg\\%$ vitamin C (Theo bảng Thành phần hoá học thức ăn Việt Nam-Nhà xuất bản y học, 1972).",
+          "Hạt chứa $23\\%$ dầu béo và axit xyanhydric."
+        ],
+        "cach_dung_bao_che": "Chích trên thân cây thành những hình chữ V (vết chích đừng quá sâu để khỏi tổn thương đến lớp libe) hứng lấy nhựa chảy ra (dùng bình hứng 2 lít rưỡi để ở đầu nhọn chữ V). Đun sôi nhựa và khuấy đều cho bốc bớt hơi nước. Còn đang nóng, nhựa được đổ vào chậu gỗ có bởi xà phòng để cho nhựa không dính chặt vào thành chậu. Khi nguội, dùng tay bôi xà phòng cho khỏi dính, nặn thành bánh 10-12kg. Tuỳ theo nhựa chích từ vỏ cây hay từ quả, người ta gọi tên khác nhau: Nhựa chích từ vỏ cây, được gọi là chicle covent, nhựa chích từ quả xanh gọi là chicle balance hay chicle vergen. Nhựa này được tiêu thụ rất nhiều ở Mỹ và Canada."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "HC_ISOTOMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ cây này người ta có thể chiết được một ancaloit gọi là isotomin có tác dụng gần như chất lobelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây còn non chứa một chất saponin và một ít ancaloit có tinh thể gọi là sapotin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "HC_AXIT_XYANHYDRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt chứa $23\\%$ dầu béo và axit xyanhydric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    }
+  ]
+}

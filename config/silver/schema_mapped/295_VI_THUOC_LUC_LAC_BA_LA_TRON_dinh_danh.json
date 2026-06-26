@@ -1,0 +1,148 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+    "ten_raw": "Lục lạc ba lá tròn",
+    "ten_khoa_hoc": "Crotalaria mucronata Desv.; Crotalaria trifoliata L.",
+    "ho_thuc_vat": "Cánh bướm Papilionaceae (Fabaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": "Lục lạc ba lá tròn"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T295",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "295"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bụi, cao khoảng $1m$ hay hơn, có cành hơi có lông rạp xuống. Lã có 3 lá chét, lá chét hình trái xoan ngược nhọn hay gần tù ở góc, tù hoặc có khía ở đỉnh, các lá bên nhỏ hơn, mặt trên nhẵn, mặt dưới có lông ngắn và rạp xuống. Hoa xếp thành chùm giống những vòng giả, có lông ngắn, màu vàng, rất cong. Quả hình trụ. Hạt nhiều, màu nâu nhạt hay vàng da cam, hình thận. Mùa hoa quả: Từ tháng 5-12 ( Hình 217). [CT_VT_VN_T296]: Cây nhỏ cao 30-50cm, có khi tới $1m$. Lá mọc so le, có 3 lá chét, lá chét hình trứng ngược, dài 2-4cm, rộng 1-2cm. Hoa màu vàng tươi, mọc thành chùm ở ngọn thân hay ở kẽ lá. Quả hình trụ, dài 25-30mm, rộng 5-6mm. Trong chứa 10-20 hạt hình thận.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt có $mucronatin$ C₂₅H₃₇ON₉ (Dược học học bảo, 1964, II, 207), $usaramin$ (C. A. 1968, 69, 36312s), $mucronatinin$ C₁₈H₂₅ON₇ (Tetrahedron, 1968, 24 6319), $retrorsin$ C₁₈H₂₅ON₇ và $nilgirin$ C₁₈H₂₃ON₇ (Tetrahedron Letters, 1968, 5605). Lá chứa $vitexin$ C₂₁H₂₀O₁₀, $vitexin$ 4'-O-xylozit C₂₆H₂₈O₁₄. Thân chứa $apigenin$ C₁₅H₁₀O₅ (Phytochemistry, 1970, 9, 2581)."
+        ],
+        "cach_dung_bao_che": "Làm thuốc người ta dùng hạt: Vào mùa thu, hái quả chín, phơi khô, đập lấy hạt phơi cho thật khô. Còn dùng toàn cây hái tươi."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_MUCRONATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $mucronatin$ C₂₅H₃₇ON₉ (Dược học học bảo, 1964, II, 207)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_USARAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$usaramin$ (C. A. 1968, 69, 36312s)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_MUCRONATININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$mucronatinin$ C₁₈H₂₅ON₇ (Tetrahedron, 1968, 24 6319)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_RETRORSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$retrorsin$ C₁₈H₂₅ON₇"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_NILGIRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$nilgirin$ C₁₈H₂₃ON₇ (Tetrahedron Letters, 1968, 5605)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_VITEXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa $vitexin$ C₂₁H₂₀O₁₀"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_VITEXIN_4_O_XYLOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$vitexin$ 4'-O-xylozit C₂₆H₂₈O₁₄."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_LAC_BA_LA_TRON",
+      "to": "HC_APIGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thân chứa $apigenin$ C₁₅H₁₀O₅ (Phytochemistry, 1970, 9, 2581)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T295"
+      }
+    }
+  ]
+}

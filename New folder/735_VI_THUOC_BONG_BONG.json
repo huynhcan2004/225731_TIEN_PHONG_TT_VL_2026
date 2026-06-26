@@ -1,0 +1,218 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BONG_BONG",
+    "ten_raw": "Cây bồng bồng",
+    "ten_khoa_hoc": "Calotropis gigantea R. Br.",
+    "ho_thuc_vat": "Thiên lý Asclepiadaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Không có thông tin",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang và được trồng nhiều nơi ở nước ta để làm hàng rào hay để lấy lá làm thuốc."
+    },
+    "display_name": "Cây bồng bồng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BONG_BONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bong Bong"
+      }
+    },
+    {
+      "id": "HC_CALOTROPIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Calotropin"
+      }
+    },
+    {
+      "id": "HC_CALOTROPAGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Calotropagenin"
+      }
+    },
+    {
+      "id": "BT_HEN_BONG_BONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Hen Bong Bong"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "DL_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tim Mach"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T735",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "735"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao 5-7m có thể cao hơn nếu để tự nhiên. Cành có lông trắng. Lá mọc đối dài 12-20cm rộng 5-11cm không có lá kèm. Góc phiến lá có tuyến trắng. Hoa mọc thành xim gồm nhiều tán đơn hay kép. Hoa lớn, đều đẹp, đường kính 5cm, màu trắng xám hoặc đốm hồng. Đài 5, tràng hợp hình bánh xe. 5 nhị liền nhau thành ống có $5phần$ phụ như 5 con rồng. (Mùa hoa gần quanh năm, chủ yếu từ tháng 12-1). Bao phấn hàn liền với đầu nhuỵ. Hạt phấn của mỗi ô họp thành 1 khối phấn có chuỗi và gót đính. 2 lá noãn rời nhau, bầu thượng, đầu nhuỵ dính liền với các bao phấn. Quả gồm 2 đại, nhiều hạt dài 23mm, trên hạt có chùm lồng (Hình 555).",
+        "thanh_phan_hoa_hoc": [
+          "$calotropin$, thuỷ phân cho $calotropagenin$"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "HC_CALOTROPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$calotropin$, thuỷ phân cho $calotropagenin$",
+        "ghi_chu": "Thuỷ phân cho calotropagenin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "HC_CALOTROPAGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$calotropin$, thuỷ phân cho $calotropagenin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "BT_HEN_BONG_BONG",
+      "to": "VI_THUOC_BONG_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "10 lá",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "BT_HEN_BONG_BONG",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Hái lá đem về, lấy khăn ướt lau sạch lông, thái nhỏ, sao qua cho héo. Ngày dùng sắc với $1bát$ rưỡi nước, cô còn $1bát$. Thêm đường vào, chia 3-4 lần trong một ngày. Nước hơi đắng và tanh, uống nhiều một lúc có thể gây nôn. Nên uống xa bữa cơm hoặc sau bữa cơm. Uống vào có thể thấy mỏi chân, tay, mình mẩy, đi ỉa lỏng (rất hiếm). Kết quả sau 2-3 ngày, có khi sau 7-8 ngày. Có trường hợp có kết quả sau 10 phút"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "DL_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chế phẩm của bồng bồng có những tác dụng điển hình của một glucozit chữa tim: Hoạt tính sinh vật trên mèo (theo Dược điển Liên Xô IX 1961 và Dược điển Việt Nam 1971) là $0,113$; hoạt tính sinh vật so sánh với bột lá Digitalis chuẩn Trung Quốc lá $73,44$\\%. | Trên tim ếch cô lập, với nồng độ $1:1$ triệu, $1:10$ triệu và $1:100$ triệu đều có tác dụng tăng trương lực tâm thu và làm giảm nhịp tim rõ rệt. Với liều độc: $1:100.000$ tim chết ở thì tâm thu. | Trên tim thỏ cô lập, với liều $0,008g$ và $0,004g$ liều điều trị chế phẩm bổng bằng có tác dụng tăng sức co bóp tim, làm giảm nhịp tim và tăng cường trương lực cơ tim, thời gian tâm trương kéo dài, với liều độc gây ngừng tim ở tâm thu. | Trên điện tâm đồ thỏ với liều $0,$3g$/kg$ tiêm tĩnh mạch và $1g/kg$ uống đã thể hiện khoảng RR dài ra, phức hệ QRS ngắn lại, biên độ sóng R tăng cao và khoảng T-P kéo dài ra rõ rệt. | Trên huyết áp mèo và thỏ, với liều điều trị chế phẩm bồng bồng có tác dụng làm tăng lực tâm thu, nhịp tim chậm và thời gian tâm trương kéo dài.",
+        "ghi_chu": "in vitro | in vivo, thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên hệ mạch tai thỏ với nồng độ $1:100$, $1:150$ có tác dụng dẫn mạch. Trên hệ mạch ếch, với nồng độ $1:100$, $1:150$ và $1:500$ đều có tác dụng dãn mạch. Ở nồng độ thấp hơn $1:1000$ có tác dụng gây co mạch.",
+        "ghi_chu": "in vitro"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều chết LD-50 đối với chuột nhắt trắng tính theo Perchin là $3,95g$.",
+        "ghi_chu": "LD50, chuột nhắt trắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên điện tâm đồ thỏ với liều độc, xuất hiện nhịp tim chậm lại quá mức dẫn đến hiện tượng bloc nhĩ thất.",
+        "ghi_chu": "in vivo, thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BONG",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên huyết áp mèo và thỏ, với liều độc, xuất hiện dấu hiệu ngộ độc, như huyết áp hạ dần, súc vật nôn, do hệ thần kinh phó giao cảm bị kích thích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T735"
+      }
+    }
+  ]
+}

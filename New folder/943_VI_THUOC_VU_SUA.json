@@ -1,0 +1,202 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VU_SUA",
+    "ten_raw": "Vú sữa",
+    "ten_khoa_hoc": "Chrysophyllum cainito L.",
+    "ho_thuc_vat": "Hồng xiêm Sapotaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "lieu_dung_chung": "Ngày uống $6-10g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Vú sữa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_VU_SUA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Vu Sua"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "HC_GLUXIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Gluxit"
+      }
+    },
+    {
+      "id": "HC_XENLULOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xenluloza"
+      }
+    },
+    {
+      "id": "HC_TRO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tro"
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi"
+      }
+    },
+    {
+      "id": "HC_PHOTPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Photpho"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_C",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin C"
+      }
+    },
+    {
+      "id": "S_SUY_NHUOC_CO_THE",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Suy Nhuoc Co The"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T943",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "943"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to, cao 10-15m, ngọn mang cành um tùm, thân nút kẽ trắng nhạt. Lá dày, cứng, mặt trên xanh đậm, mặt dưới có lông hung vàng. Hoa nhỏ ở kẽ lá màu trắng hồng. Quả mọng hình cầu, to bằng quả cam, da nhẵn, có loại trắng, có loại tím. Vú sữa trắng, khi còn non màu xanh bích ngọc, khi chín chuyển màu trắng nhạt, lớp vỏ mỏng, mịn, dưới lớp vỏ là phần thịt dày1-2 đốt ngón tay. Trong lớp thịt này có chất nước trắng, đục như sữa, thơm ngon, còn thịt ăn hơi có vị chát. Qua lớp thịt là lớp ruột màu trắng trong như lòng trắng trứng bọc lấy 5-9 hạt dẹt, màu đen, có nhân hơi đắng. Quả vú sữa tím hơi nhỏ hơn quả vú sữa trắng, nhưng khi chín chuyển sang tím sẫm phơn phớt hồng (Hình 700).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả sữa tươi có $0,08\\%$ protit, $7,3\\%$ gluxit, $1,8\\%$ xenluloza, $0,6\\%$ tro. Trong tro thành phần chủ yếu là canxi ($53mg\\%$), phôtpho ($25mg\\%$), Vitamin C ($4mg\\%)"
+        ],
+        "lieu_dung_tong_quat": "Nhân dân được dùng làm kẹo hoặc ép dầu.",
+        "cach_dung_bao_che": "Vú sữa vốn nguồn gốc ở đảo Ăngti, được di thực vào miền Nam nước ta từ lâu. Hiện cũng được trồng ở miền Bắc, chủ yếu để lấy quả ăn. Phải biết cách làm đúng thì ăn vũ sữa mới thấy thơm ngon: Trước hết phải đợi quả thật chín, vì nếu chưa chín, vú sữa có vị chát và có nhựa dính. Sau khi hái quả về, nắn cho quả mềm ra, khi ấy lớp thịt tiết ra chất sữa quyện vào lớp ruột. Sau đó bổ đôi hoặc bổ dọc thành miếng như múi cam, rồi dùng thìa xúc ăn. Có người nắn cho quả mềm ra rồi khoét một lỗ quanh cuống và hút. Cũng có người bổ đôi quả, khoét bỏ giữa, cho nước vắt quả cam vào. Vị chua và mùi thơm của cam làm tăng thêm vị thơm ngon của vú sữa."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $0,08\\%$ protit",
+        "ghi_chu": "trong quả tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $7,3\\%$ gluxit",
+        "ghi_chu": "trong quả tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_XENLULOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $1,8\\%$ xenluloza",
+        "ghi_chu": "trong quả tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_TRO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $0,6\\%$ tro",
+        "ghi_chu": "trong quả tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tro thành phần chủ yếu là canxi ($53mg\\%$)",
+        "ghi_chu": "trong tro"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tro thành phần chủ yếu là phôtpho ($25mg\\%$)",
+        "ghi_chu": "trong tro"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin C ($4mg\\%$)",
+        "ghi_chu": "trong quả tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "S_SUY_NHUOC_CO_THE",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Thuốc bổ và kích thích | Vỏ cây vú sữa | [Nguồn]: CT_VT_VN_T944"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    }
+  ]
+}

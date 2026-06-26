@@ -1,0 +1,836 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_MAT_GAU",
+    "ten_raw": "Mật gấu",
+    "ten_khoa_hoc": "$Fel Ursi; Selenarctos thibetanus; Ursus arctos lisiotus Gray$",
+    "ho_thuc_vat": "$Gấu Ursidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "túi mật phơi hay sấy khô",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày có thể uống từ $0,5$ đến $1$ hoặc $2g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Việt Nam"
+    },
+    "display_name": "Vị thuốc Mật gấu",
+    "canonical_name": "Vị thuốc Mật gấu"
+  },
+  "nodes": [
+    {
+      "id": "B_AC_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ác thương",
+        "aliases": [
+          "acthuong",
+          "ac thuong",
+          "ác thương"
+        ],
+        "search_vector_hint": "Ác thương thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DINH_NHI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đinh nhĩ",
+        "aliases": [
+          "dinh nhi",
+          "đinh nhĩ",
+          "dinhnhi"
+        ],
+        "search_vector_hint": "Đinh nhĩ thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_HOANG_DAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hoàng đản",
+        "aliases": [
+          "vangda",
+          "vang da",
+          "hoang dan",
+          "hoangdan",
+          "vàng da",
+          "hoàng đản"
+        ],
+        "search_vector_hint": "Bệnh Hoàng đản thuộc nhóm Bệnh, thường liên quan đến rối loạn chức năng gan."
+      }
+    },
+    {
+      "id": "B_LY_LAU_NGAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ lâu ngày",
+        "aliases": [
+          "lỵ mãn tính",
+          "lylaungay",
+          "lymantinh",
+          "ly lau ngay",
+          "ly man tinh",
+          "lỵ lâu ngày"
+        ],
+        "search_vector_hint": "Lỵ lâu ngày thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_THAP_NHIET_DA_VANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thấp nhiệt da vàng",
+        "aliases": [
+          "thap nhiet da vang",
+          "thấp nhiệt da vàng",
+          "thapnhietdavang"
+        ],
+        "search_vector_hint": "Thấp nhiệt da vàng thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "CN_CO_QUAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Co quắp",
+        "aliases": [
+          "co rut",
+          "chuotrut",
+          "chuot rut",
+          "co quắp",
+          "chuột rút",
+          "co quap",
+          "corut",
+          "co rút",
+          "coquap"
+        ],
+        "search_vector_hint": "Triệu chứng Co quắp thuộc nhóm triệu chứng, thường liên quan đến sự co cơ không tự chủ."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "HC_AXIT_CHENO_DESOXYCHOLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit cheno desoxycholic",
+        "aliases": [
+          "axit cheno desoxycholic",
+          "axitchenodesoxycholic"
+        ],
+        "search_vector_hint": "Axit cheno desoxycholic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_CHOLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit cholic",
+        "aliases": [
+          "axitcholic",
+          "axit cholic"
+        ],
+        "search_vector_hint": "Axit cholic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_URSO_DESOXYCHOLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit urso desoxycholic",
+        "aliases": [
+          "axit urso desoxycholic",
+          "axitursodesoxycholic"
+        ],
+        "search_vector_hint": "Axit urso desoxycholic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_BILIRUBIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Bilirubin",
+        "aliases": [
+          "bilirubin"
+        ],
+        "search_vector_hint": "Bilirubin thuộc nhóm hoạt chất, thường liên quan đến sắc tố mật."
+      }
+    },
+    {
+      "id": "HC_CHOLESTEROLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cholesterola",
+        "aliases": [
+          "cholesterola"
+        ],
+        "search_vector_hint": "Cholesterola thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_DAU_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau răng",
+        "aliases": [
+          "nhuc rang",
+          "nhức răng",
+          "đau răng",
+          "dau rang",
+          "daurang",
+          "nhucrang"
+        ],
+        "search_vector_hint": "Đau răng thuộc nhóm Triệu chứng, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "S_HOI_HOP_SO_HAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hồi hộp sợ hãi",
+        "aliases": [
+          "hồi hộp sợ hãi",
+          "hoihopsohai",
+          "hoi hop so hai"
+        ],
+        "search_vector_hint": "Hồi hộp sợ hãi thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_MAT_DO_CO_MANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mắt đỏ có màng",
+        "aliases": [
+          "mắt đỏ có màng",
+          "mat do co mang",
+          "matdocomang"
+        ],
+        "search_vector_hint": "Mắt đỏ có màng thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_MAT_SUNG_DO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mắt sưng đỏ",
+        "aliases": [
+          "sungdomat",
+          "matsungdo",
+          "sung do mat",
+          "sưng đỏ mắt",
+          "mat sung do",
+          "mắt sưng đỏ"
+        ],
+        "search_vector_hint": "Triệu chứng Mắt sưng đỏ thuộc nhóm Triệu chứng, thường liên quan đến các bệnh về mắt."
+      }
+    },
+    {
+      "id": "S_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng đau",
+        "aliases": [
+          "sưng đau",
+          "sung tay",
+          "sưng tấy",
+          "sungdau",
+          "dau nhuc",
+          "sungtay",
+          "sung dau",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng đau thuộc nhóm triệu chứng, thường liên quan đến viêm nhiễm hoặc tổn thương."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_MAT_GAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mật gấu",
+        "aliases": [
+          "matgau",
+          "mật gấu",
+          "mat gau"
+        ],
+        "search_vector_hint": "Mật gấu thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "túi mật phơi hay sấy khô",
+        "lieu_dung_chung": "Ngày có thể uống từ $0,5$ đến $1$ hoặc $2g$.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Việt Nam",
+        "ten_khoa_hoc": "$Fel Ursi; Selenarctos thibetanus; Ursus arctos lisiotus Gray$",
+        "ho_thuc_vat": "$Gấu Ursidae$",
+        "hinh_thai_chi_tiet": "Mật gấu còn nguyên thường là những túi được ép bẹp, có cuống dài. Khi ép bẹp chiều rộng có thể tới $5$-$6cm$, chiều dài $14$-$15cm$, chiều dày $1$-$2mm$, một mép phẳng, một mép cong trong giống lưỡi dao. Khi cắt túi mật sẽ thấy ở trong có chất đen nhánh, giữa đám đen có những hạt lổn nhổn màu vàng óng ánh như hổ phách. Nếm sẽ thấy vị đắng, sau ngọt, dính lưỡi. Ngậm lâu sẽ tan hết trong miệng. Ngửi có khi có mùi khói do ở một số nơi đem phơi trên gác bếp. Đốt không cháy.",
+        "thanh_phan_hoa_hoc": "['Trong mật gấu chủ yếu người ta đã phân tích được các chất sau đây: - Muối kim loại của các axit cholic. - $Cholesterola$. - Sắc tố mật như $bilirubin$. Các axit cholic trong mật gấu có $axit cholic$, $axit cheno desoxycholic$, $axit urso desoxycholic$. $Axit urso desoxycholic$ là một axit đặc biệt chỉ có trong mật gấu.']",
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Đầu năm 1983, Đỗ Khắc Hiếu, (Trung tâm Sinh lý-Hoá sinh, Viện khoa học Việt nam) đã nghiên cứu quy trình khai thác mật gấu thường kỳ mà không phải giết gấu: Cấu tạo một túi mật phụ (có màng bọc bằng chất liệu đặc biệt) rồi cấy vào dưới lớp da gấu. Túi mật phụ được nối thông với túi mật thật của gấu, chỉ việc dùng ống tiêm hút mật từ túi mật phụ, vẫn bảo đảm con vật vẫn sinh sống bình thường.",
+        "cach_dung_bao_che": "Không có thông tin"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "520"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_VI",
+          "K_CAN"
+        ],
+        "cong_nang": "thanh nhiệt sát trùng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mật gấu còn nguyên thường là những túi được ép bẹp, có cuống dài. Khi ép bẹp chiều rộng có thể tới $5$-$6cm$, chiều dài $14$-$15cm$, chiều dày $1$-$2mm$, một mép phẳng, một mép cong trong giống lưỡi dao. Khi cắt túi mật sẽ thấy ở trong có chất đen nhánh, giữa đám đen có những hạt lổn nhổn màu vàng óng ánh như hổ phách. Nếm sẽ thấy vị đắng, sau ngọt, dính lưỡi. Ngậm lâu sẽ tan hết trong miệng. Ngửi có khi có mùi khói do ở một số nơi đem phơi trên gác bếp. Đốt không cháy.",
+        "thanh_phan_hoa_hoc": [
+          "Trong mật gấu chủ yếu người ta đã phân tích được các chất sau đây: - Muối kim loại của các axit cholic. - $Cholesterola$. - Sắc tố mật như $bilirubin$. Các axit cholic trong mật gấu có $axit cholic$, $axit cheno desoxycholic$, $axit urso desoxycholic$. $Axit urso desoxycholic$ là một axit đặc biệt chỉ có trong mật gấu."
+        ],
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Đầu năm 1983, Đỗ Khắc Hiếu, (Trung tâm Sinh lý-Hoá sinh, Viện khoa học Việt nam) đã nghiên cứu quy trình khai thác mật gấu thường kỳ mà không phải giết gấu: Cấu tạo một túi mật phụ (có màng bọc bằng chất liệu đặc biệt) rồi cấy vào dưới lớp da gấu. Túi mật phụ được nối thông với túi mật thật của gấu, chỉ việc dùng ống tiêm hút mật từ túi mật phụ, vẫn bảo đảm con vật vẫn sinh sống bình thường.",
+        "cach_dung_bao_che": "Không có thông tin"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_MAT_GAU",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm, can và vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm, can và vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm, can và vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "HC_CHOLESTEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "- $Cholesterola$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "HC_BILIRUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "- Sắc tố mật như $bilirubin$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "HC_AXIT_CHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có $axit cholic$, $axit cheno desoxycholic$, $axit urso desoxycholic$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "HC_AXIT_CHENO_DESOXYCHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có $axit cholic$, $axit cheno desoxycholic$, $axit urso desoxycholic$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "HC_AXIT_URSO_DESOXYCHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có $axit cholic$, $axit cheno desoxycholic$, $axit urso desoxycholic$. $Axit urso desoxycholic$ là một axit đặc biệt chỉ có trong mật gấu.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      }
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_MAT_SUNG_DO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "một lượng bằng hạt gạo",
+        "cach_dung": "mài với nước đun sôi để nguội, nhỏ vào mắt",
+        "ghi_chu": "Chữa mắt sưng đỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$5$g",
+        "cach_dung": "hoà tan trong $100$ml rượu $35$",
+        "ghi_chu": "Dùng xoa bóp chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Đau dạ dày, đau nhức, giúp sự tiêu hoá, giải độc, hoàng đản"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Đau dạ dày, đau nhức, giúp sự tiêu hoá, giải độc, hoàng đản"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Đau dạ dày, đau nhức, giúp sự tiêu hoá, giải độc, hoàng đản"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_MAT_DO_CO_MANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Mắt đỏ có màng, đau răng, đinh nhĩ, ác thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Mắt đỏ có màng, đau răng, đinh nhĩ, ác thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_DINH_NHI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Mắt đỏ có màng, đau răng, đinh nhĩ, ác thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_AC_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Mắt đỏ có màng, đau răng, đinh nhĩ, ác thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_THAP_NHIET_DA_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Thấp nhiệt da vàng, lỵ lâu ngày, hồi hộp sợ hãi, co quắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "B_LY_LAU_NGAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Thấp nhiệt da vàng, lỵ lâu ngày, hồi hộp sợ hãi, co quắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "S_HOI_HOP_SO_HAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Thấp nhiệt da vàng, lỵ lâu ngày, hồi hộp sợ hãi, co quắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "CN_CO_QUAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Thấp nhiệt da vàng, lỵ lâu ngày, hồi hộp sợ hãi, co quắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật gấu có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAT_GAU",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật gấu có tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "all_sources": [
+          "CT_VT_VN_T520"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 70.0,
+      "reliability_c_score": 0.7577,
+      "total_confidence_sum": 19.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

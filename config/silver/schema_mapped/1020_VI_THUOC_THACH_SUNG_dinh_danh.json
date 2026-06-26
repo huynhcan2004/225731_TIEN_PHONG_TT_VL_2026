@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THACH_SUNG",
+    "ten_raw": "Thạch sùng",
+    "ten_khoa_hoc": "Gekko japonicus Dumeril et Bibron; Hemidactylus frenatus Schlegel",
+    "ho_thuc_vat": "Tắc kè Gekkonidae",
+    "variants": [
+      "Thạch sùng"
+    ],
+    "properties": {
+      "bo_phan_dung": "Tất cả những con có màu trắng bắt được trên tường và trần nhà.",
+      "phan_bo": "Người ta thường dùng tất cả những con có màu trắng bắt được trên tường và trần nhà. Thông thường nhất có con thạch sùng Hemidactylus frenatus Schlegel."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1020",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1020"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "kieng_ky_dac_biet": "hơi có độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thạch sùng là một loài bò sát nhỏ, dài chừng $12$-$13cm$ (kể cả đuôi). Đầu dẹt, thân dẹt, trên lưng có những hạt nhỏ tròn. Bàn chân có những phiến mỏng. Nhờ những phiến này mà thạch sùng có thể bò trên tường, trên trần nhà. Thạch sùng có màu xám tro. Hình 746. Tê giác hai sừng - Rhinoceros bicornis Thạch sùng có nhiều loại. Người ta thường dùng tất cả những con có màu trắng bắt được trên tường và trần nhà. Thông thường nhất có con thạch sùng Hemidactylus frenatus Schlegel. Con này toàn thân (cả đuôi) dài chừng $8$-$12cm$, trọng giống con tắc kè hay con thằn lằn nhưng nhỏ hơn, mắt dọc, lưỡi dài hay thè ra khỏi miệng để bắt những con sâu bọ nhỏ như ruồi, muỗi, nhện mà ăn. Thân nhẵn hay hơi có vảy rất nhỏ; lưng màu tro hay tro vàng, bụng màu trắng hay vàng trắng 4 chân có những màng dính để bám chắc trên tường mà đi; đuôi dài có thể đứt rồi lại mọc lại sau một thời gian (Hình 747)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_LEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_LYZOLEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_SPHINGOMYELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_XEPHALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_CARDIOLIPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_PHOTPHATIDYL_SERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_SUNG",
+      "to": "HC_PHOTPHATIDYLINONTOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có lexitin, lyzolexitin, sphin- gomyelin và xephalin, cardiolipin, photphatidyl serin và photphatidylinontola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    }
+  ]
+}

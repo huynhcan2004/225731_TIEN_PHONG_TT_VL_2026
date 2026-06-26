@@ -1,0 +1,390 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAC_NUA",
+    "ten_raw": "Mặc nưa",
+    "ten_khoa_hoc": "$Diospyros mollis Griff.; Diospyros mun H. Lec.; Brucea javanica (L.) Merr. (Brucea sumatrana Roxb.)$",
+    "ho_thuc_vat": "$Thị Ebenaceae; Thanh thất Simaroubaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mặc nưa được trồng chủ yếu ở miền Nam nước ta, nhiều nhất vùng Tân Châu, còn thấy trồng ở Cămpuchia, Lào, Thái Lan, Miến Điện."
+    },
+    "display_name": "Mặc nưa",
+    "canonical_name": "Mặc nưa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MAC_NUA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mac Nua"
+      }
+    },
+    {
+      "id": "HC_HYDROQUINON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hydroquinon"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "HC_STEROLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sterolic"
+      }
+    },
+    {
+      "id": "HC_AXIT_HUU_CO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Huu Co"
+      }
+    },
+    {
+      "id": "HC_INVEVTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Invevtin"
+      }
+    },
+    {
+      "id": "HC_EMUNSIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Emunsin"
+      }
+    },
+    {
+      "id": "B_GIUN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Giun"
+      }
+    },
+    {
+      "id": "DL_TRU_GIUN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tru Giun"
+      }
+    },
+    {
+      "id": "DL_KHANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Sinh"
+      }
+    },
+    {
+      "id": "DL_DIET_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Diet Trung"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_MAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Mau"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tieu Hoa"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "192"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sầu đâu rừng nhỏ, chỉ cao độ $1,60$ đến $2,5m$ là cùng, thân yếu không thành gỗ và không to như cây xoan làm nhà. Lá xẻ lông chim không đều, 4-6 đôi lá chét. Hoa nhỏ khác gốc, mọc thành chùm xim ( Hình 124, Hm 9,3 ).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Quả chín hái về phơi hay sấy khô. Loại bỏ tạp chất. Không phải chế biến gì khác."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_HYDROQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_STEROLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_AXIT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_INVEVTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_EMUNSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất $hydroquinon$, $tanin$ (khoảng $10\\%$ tanin catechic), hợp chất $sterolic$, $axit hữu cơ$, men $invectin$ và men $emunsin$, không có men oxydaza, cũng không có $ancaloit$ và $flavon$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "6-10 hạt",
+        "cach_dung": "Ăn trực tiếp mỗi ngày",
+        "ghi_chu": "CT_VT_VN_T193"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_TRU_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mặc nưa có tác dụng trừ giun đúng như kinh nghiệm nhân dân vẫn dùng. Tác dụng trừ giun này do chất $diospyron$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mặc nưa còn có tác dụng kháng sinh nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DIET_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất $kosamin$ có tác dụng diệt trùng rất rõ rệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ $kosamin$ gây nôn diệt giun sán, liều cao thì độc, làm tim đập chậm, nôn ra mật và máu, đi ỉa lỏng và có thể chết được. Máu người bị ngộ độc đen, không đông được, hồng cầu phồng lên, vón lại, ống tiêu hóa và màng não bị viêm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao $kosamin$ làm tim đập chậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DOC_TINH_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Máu người bị ngộ độc đen, không đông được, hồng cầu phồng lên, vón lại."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao $kosamin$ gây nôn ra mật và máu, đi ỉa lỏng, ống tiêu hóa bị viêm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Màng não bị viêm do ngộ độc $kosamin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "all_sources": [
+          "CT_VT_VN_T192"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.5,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TOI_DO",
+    "ten_raw": "Tôi đỏ",
+    "ten_khoa_hoc": "Eleutherine subaphylla Gagnep.",
+    "ho_thuc_vat": "La dơn (Iridaceae)",
+    "variants": [
+      "Tỏi đỏ",
+      "sâm cau"
+    ],
+    "properties": {
+      "bo_phan_dung": "dò (củ)"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T160",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "160"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tỏi đỏ là một loại cỏ sống lâu năm, cao từ $30$-$60cm$, dò (củ) hình trứng dài $4$-$5cm$, đường kính $2$-$3cm$ giống như củ hành nhưng dài hơn, ngoài phủ vảy màu đỏ nâu, phía trong màu nâu hồng đến đỏ nâu. Lá hình mác, gần lá song song, chạy dọc, trông giống như lá cau non, củ lại có tác dụng bổ cho nên có tên sâm cau (lá như lá cau, bổ như sâm); lá có thể dài $40$-$50cm$, rộng $3$-$5cm$. Từ củ mọc lên một cán mang hoa dài $30$-$40cm$, trên cán có một lá dài $15$-$25cm$, hoa mọc thành chùm 3 lá đài, 3 cánh tràng màu trắng hay vàng nhạt, 3 nhị màu vàng. Bầu hình trứng, 3 cạnh 3 ngăn dài $1mm$, vòi dài $2,5mm$, trên xẻ thành 3 trông như 3 mũi dùi.",
+        "thanh_phan_hoa_hoc": [
+          "Dựa theo thành phần hóa học đã được nghiên cứu của cây Eleutherine bulbosa Mill. Lê Văn Hồng và Nguyễn Văn Đàn (1973. Thông báo dược liệu 18) đã tiến hành nghiên cứu củ tỏi đỏ đã chiết và xác định được 4 chất là $eleutherin$ C, H, O, độ chảy $175°$, $izoeleutherin$"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TOI_DO",
+      "to": "HC_ELEUTHERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lê Văn Hồng và Nguyễn Văn Đàn (1973. Thông báo dược liệu 18) đã tiến hành nghiên cứu củ tỏi đỏ đã chiết và xác định được 4 chất là $eleutherin$ C, H, O, độ chảy $175°$, $izoeleutherin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T160"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI_DO",
+      "to": "HC_ISOELEUTHERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lê Văn Hồng và Nguyễn Văn Đàn (1973. Thông báo dược liệu 18) đã tiến hành nghiên cứu củ tỏi đỏ đã chiết và xác định được 4 chất là $eleutherin$ C, H, O, độ chảy $175°$, $izoeleutherin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T160"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "entity_hub": "VI_THUOC_SAM_RUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T839",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "839"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TANG_NUOC_TIEU_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sâm rừng có tác dụng lợi tiểu.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_SUNG_NUOC_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sâm rừng có tác dụng thông tiểu tiện và nhuận tràng.",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_SUNG_NUOC_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện và nhuận tràng dùng trong các bệnh sùng nước (hydropisie), chứng thũng toàn (anasaque), chúng bụng nước (ascite), các bệnh gan và lá lách",
+        "cach_dung": "Ngày dùng 2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_HO_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sâm rừng có tác dụng chữa ho.",
+        "cach_dung": "Dưới dạng thuốc bột, thuốc sắc, hoặc pha như pha chè",
+        "ghi_chu": "CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_HO_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Dưới dạng thuốc bột, thuốc sắc, hoặc pha như pha chè"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_LA_KBL",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa đau dạ dày.",
+        "cach_dung": "Uống liên tục trong $10$ ngày, lại nghỉ $3$ ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_LA_KBL",
+      "to": "VT_LA_KHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa đau dạ dày.",
+        "cach_dung": "Uống liên tục trong $10$ ngày, lại nghỉ $3$ ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_LA_KBL",
+      "to": "VT_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa đau dạ dày.",
+        "cach_dung": "Uống liên tục trong $10$ ngày, lại nghỉ $3$ ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_LA_KBL",
+      "to": "VT_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa đau dạ dày.",
+        "cach_dung": "Uống liên tục trong $10$ ngày, lại nghỉ $3$ ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_LA_KBL",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dạ dày",
+        "cach_dung": "Uống liên tục trong $10$ ngày, lại nghỉ $3$ ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_AN_NGON_SAM_RUNG_S",
+      "to": "VI_THUOC_SAM_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sâm rừng giúp ăn ngon cơm, giúp sự tiêu hoá.",
+        "cach_dung": "Sắc còn $1$ bát ($200ml$), chia $2$ hay $3$ lần uống trong ngày, $15$ phút đến nửa giờ trước khi ăn cơm.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    },
+    {
+      "from": "BT_AN_NGON_SAM_RUNG_S",
+      "to": "S_AN_NGON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Để ăn ngon cơm, giúp sự tiêu hoá",
+        "cach_dung": "Sắc còn $1$ bát ($200ml$), chia $2$ hay $3$ lần uống trong ngày, $15$ phút đến nửa giờ trước khi ăn cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T839"
+      }
+    }
+  ],
+  "metadata": {}
+}

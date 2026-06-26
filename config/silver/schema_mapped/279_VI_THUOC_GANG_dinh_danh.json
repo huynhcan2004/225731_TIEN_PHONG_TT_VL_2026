@@ -1,0 +1,50 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GANG",
+    "ten_raw": "Găng",
+    "ten_khoa_hoc": "Randia tomentosa (Blum. ex. DC.) Hookf. (Gardenia tomentosa Wall).",
+    "ho_thuc_vat": "Cà phê Rubiaceae",
+    "variants": [
+      "Găng trắng",
+      "lovieng"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá tươi",
+      "che_bien_tho": "Vò với nước sôi để nguội. Lọc nhanh. Để cho đông đặc."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T279",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "279"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao 4 đến $10m$, cành buông thông, phủ lông tơ, trên mặt có nhiều gai to dài $1-5cm$. Lá hình bầu dục đầu hơi nhọn hay tù, phiến lá dai mặt trên xanh lục, mặt dưới có lông tơ màu trắng nhạt hay hơi nâu, dài $2,5-13cm$, rộng $1,5-4,5cm$. Hoa đơn độc hầu như không cuống, màu trắng nhạt. Đài thường 6, tràng thường 8, nhị 5 đến 10. Quả thịt màu vàng, hình cầu hay hình trứng dài $2,5-4cm$, rộng $2-4cm$, hai ngăn. Hạt rất nhiều, dài $5mm$, rộng $3-4mm$, có cạnh, lưng tròn, hai bên dẹt, nhẵn, màu đen nhạt. Mùa hoa: tháng 3-5, mùa quả: tháng 4-7",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả chứa nhiều saponin tritecpenic. Các chất khác chưa thấy nghiên cứu."
+        ],
+        "cach_dung_bao_che": "Quả ngâm hoặc sắc lấy nước dùng gội đầu và giặt quần áo, nhất là những hàng tơ lụa có màu. Lá tươi dùng làm thuốc giải nhiệt, chữa tiểu vàng, đỏ, đái rắt, ngày dùng $20-30g$ lá vò với nước sôi để nguội. Lọc nhanh. Để cho đông đặc. Thêm đường vào mà ăn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GANG",
+      "to": "HC_SAPONIN_TRITECPENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chứa nhiều saponin tritecpenic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T279"
+      }
+    }
+  ]
+}

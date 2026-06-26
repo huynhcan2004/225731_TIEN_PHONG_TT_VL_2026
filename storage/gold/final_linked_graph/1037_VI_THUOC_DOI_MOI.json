@@ -1,0 +1,578 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DOI_MOI",
+    "ten_raw": "Đồi mồi",
+    "ten_khoa_hoc": "$Eretmochelys imbricata L.$",
+    "ho_thuc_vat": "$Rùa biển Chelonidae (Chelonidae)$",
+    "variants": [
+      "đại mạo",
+      "văn giáp"
+    ],
+    "properties": {
+      "bo_phan_dung": "vảy",
+      "thu_hai": "khoảng tháng 3-4",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Mỗi ngày dùng từ 4 đến 8$g$ dưới dạng thuốc sắc hay thuốc bột.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "những vùng biển ấm nhiệt đới và gần nhiệt đới. Ở nước ta đồi mồi có cả ở miền Bắc và miền Nam, nhưng miền Nam nhiều hơn. Còn thấy ở miền biển Trung Quốc (Đài Loan, Quảng Đông) Nhật Bản và Ấn Độ Dương"
+    },
+    "display_name": "Vị thuốc Đồi mồi",
+    "canonical_name": "Vị thuốc Đồi mồi"
+  },
+  "nodes": [
+    {
+      "id": "B_PHA_TICH_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phá tích huyết",
+        "aliases": [
+          "phá tích huyết",
+          "phatichhuyet",
+          "pha tich huyet"
+        ],
+        "search_vector_hint": "Bệnh Phá tích huyết thuộc nhóm Bệnh, thường liên quan đến rối loạn đông máu."
+      }
+    },
+    {
+      "id": "B_TRAN_TINH_TINH_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trấn tĩnh tinh thần",
+        "aliases": [
+          "an than",
+          "an thần",
+          "anthan",
+          "trantinhtinhthan",
+          "tran tinh tinh than",
+          "trấn tĩnh tinh thần"
+        ],
+        "search_vector_hint": "Bệnh Trấn tĩnh tinh thần thuộc nhóm Bệnh, thường liên quan đến rối loạn tâm thần."
+      }
+    },
+    {
+      "id": "B_UNG_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ung nhọt",
+        "aliases": [
+          "ung nhot",
+          "mun nhot",
+          "munnhot",
+          "ungnhot",
+          "mụn nhọt",
+          "ung nhọt"
+        ],
+        "search_vector_hint": "Bệnh Ung nhọt thuộc nhóm Bệnh, thường liên quan đến tình trạng viêm nhiễm da."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_TIEU_UNG_NHOT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu ung nhọt",
+        "aliases": [
+          "thoat mu",
+          "tieu ung nhot",
+          "tieuungnhot",
+          "tiêu ung nhọt",
+          "thoát mủ",
+          "giaidoc",
+          "thoatmu",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Công năng Tiêu ung nhọt thuộc nhóm Công năng, thường liên quan đến điều trị nhiễm trùng."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_KINH_GIAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kinh Đại tràng",
+        "aliases": [
+          "dai trang",
+          "daitrang",
+          "đại tràng"
+        ],
+        "search_vector_hint": "Kinh Đại tràng thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_ME_SANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mê sảng",
+        "aliases": [
+          "hon me",
+          "hôn mê",
+          "me sang",
+          "mesang",
+          "lulan",
+          "honme",
+          "lu lan",
+          "mê sảng",
+          "lú lẫn"
+        ],
+        "search_vector_hint": "Triệu chứng Mê sảng thuộc nhóm triệu chứng, thường liên quan đến rối loạn ý thức."
+      }
+    },
+    {
+      "id": "S_NHIET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhiệt",
+        "aliases": [
+          "nhiệt",
+          "sốt",
+          "sot",
+          "nong",
+          "nóng",
+          "nhiet"
+        ],
+        "search_vector_hint": "Triệu chứng Nhiệt thuộc nhóm triệu chứng, thường liên quan đến cảm giác nóng trong người."
+      }
+    },
+    {
+      "id": "S_NOT_DAU_HAM_DEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nốt đậu hàm đen",
+        "aliases": [
+          "nốt đậu hàm đen",
+          "not dau ham den",
+          "notdauhamden"
+        ],
+        "search_vector_hint": "Triệu chứng Nốt đậu hàm đen thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý da liễu."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_SUNG_TAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng tay",
+        "aliases": [
+          "sưng tay",
+          "sung tay",
+          "phutay",
+          "phu tay",
+          "phù tay",
+          "sungtay"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng tay thuộc nhóm Triệu chứng, thường liên quan đến viêm nhiễm hoặc chấn thương."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_DOI_MOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đồi mồi",
+        "aliases": [
+          "doi moi",
+          "doimoi",
+          "đồi mồi"
+        ],
+        "search_vector_hint": "Vị thuốc Đồi mồi thuộc nhóm vị thuốc, thường liên quan đến ... (cần thêm thông tin).",
+        "bo_phan_dung": "vảy",
+        "thu_hai": "khoảng tháng 3-4",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Mỗi ngày dùng từ 4 đến 8$g$ dưới dạng thuốc sắc hay thuốc bột.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "những vùng biển ấm nhiệt đới và gần nhiệt đới. Ở nước ta đồi mồi có cả ở miền Bắc và miền Nam, nhưng miền Nam nhiều hơn. Còn thấy ở miền biển Trung Quốc (Đài Loan, Quảng Đông) Nhật Bản và Ấn Độ Dương",
+        "ten_khoa_hoc": "$Eretmochelys imbricata L.$",
+        "ho_thuc_vat": "$Rùa biển Chelonidae (Chelonidae)$",
+        "hinh_thai_chi_tiet": "Đồi mồi là một loài rùa biển khá lớn, đường kính thân từ $60-80cm$, trên lưng phủ những vảy màu hung nâu điểm thêm những đốm vàng óng ánh, bên ngoài trơn bóng, tất cả 13 vảy chính 25 vảy ở dìa. Hàm trên quắp cong trùm lên hàm dưới, dìa hàm có răng nhỏ, bốn chân biến đổi thành bốn vây giống như hình cái bơi chèo, ngón chân ẩn sâu trong vây và không có vuốt. Chân trước lớn hơn chân sau. Con già có vảy dầy, màu tươi sáng, con non vảy mỏng màu xám tro. Thức ăn của đồi mồi là tôm cá và rong biển. Đến mùa sinh sản (khoảng tháng 3-4) đồi mồi đực và đồi mồi cái giao hợp ở tầng mặt nước biển, sau đó ban đêm con cái lên bãi cát tìm ổ đẻ ở những nơi kín đáo vắng người qua lại và thường xuyên có nước triều ngập khoảng vài giờ trong một ngày. Đồi mồi thường hay tìm đến các bãi đã đẻ cũ. đồi mồi dùng cái vây (chân) đào một hố sâu khoảng $50cm$ làm ổ, rồi đẻ trứng vào đó. Đẻ xong đồi mồi mẹ lấy cát phủ lên trên. Mỗi vụ đẻ, đồi mồi đẻ làm ba đợt: đợt 1: $60-80$ trúng, đợt 2: $50-60$ trứng, đợt 3: $45-60$ trúng. Trúng ở trong ổ được sưởi nóng bằng nhiệt lượng mặt trời, sau chừng một tháng thì nở thành đồi mồi con. Lúc này đồi mồi có đường kính thân khoảng $4-5cm$, chúng bỏ ổ trên cạn và bò xuống dưới biển. Khoảng 6 năm sau đồi mồi có thể bắt đầu sinh sản được (Hình 761).",
+        "ghi_chu_bo_sung": "Còn gọi là đại mạo, văn giáp.",
+        "cach_dung_bao_che": "Trong mỹ nghệ người ta nhúng vảy vào nước sôi cho mềm rồi gọt, cắt, mài và uốn cong thành những đồ dùng khác nhau như lược, dây đồng hồ v.v... Làm thuốc người ta đẽo thành từng lát mỏng rồi sắc uống hay tán bột mà uống hay làm thành viên mà uống."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1037"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đồi mồi là một loài rùa biển khá lớn, đường kính thân từ $60-80cm$, trên lưng phủ những vảy màu hung nâu điểm thêm những đốm vàng óng ánh, bên ngoài trơn bóng, tất cả 13 vảy chính 25 vảy ở dìa. Hàm trên quắp cong trùm lên hàm dưới, dìa hàm có răng nhỏ, bốn chân biến đổi thành bốn vây giống như hình cái bơi chèo, ngón chân ẩn sâu trong vây và không có vuốt. Chân trước lớn hơn chân sau. Con già có vảy dầy, màu tươi sáng, con non vảy mỏng màu xám tro. Thức ăn của đồi mồi là tôm cá và rong biển. Đến mùa sinh sản (khoảng tháng 3-4) đồi mồi đực và đồi mồi cái giao hợp ở tầng mặt nước biển, sau đó ban đêm con cái lên bãi cát tìm ổ đẻ ở những nơi kín đáo vắng người qua lại và thường xuyên có nước triều ngập khoảng vài giờ trong một ngày. Đồi mồi thường hay tìm đến các bãi đã đẻ cũ. đồi mồi dùng cái vây (chân) đào một hố sâu khoảng $50cm$ làm ổ, rồi đẻ trứng vào đó. Đẻ xong đồi mồi mẹ lấy cát phủ lên trên. Mỗi vụ đẻ, đồi mồi đẻ làm ba đợt: đợt 1: $60-80$ trúng, đợt 2: $50-60$ trứng, đợt 3: $45-60$ trúng. Trúng ở trong ổ được sưởi nóng bằng nhiệt lượng mặt trời, sau chừng một tháng thì nở thành đồi mồi con. Lúc này đồi mồi có đường kính thân khoảng $4-5cm$, chúng bỏ ổ trên cạn và bò xuống dưới biển. Khoảng 6 năm sau đồi mồi có thể bắt đầu sinh sản được (Hình 761).",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Còn gọi là đại mạo, văn giáp.",
+        "cach_dung_bao_che": "Trong mỹ nghệ người ta nhúng vảy vào nước sôi cho mềm rồi gọt, cắt, mài và uốn cong thành những đồ dùng khác nhau như lược, dây đồng hồ v.v... Làm thuốc người ta đẽo thành từng lát mỏng rồi sắc uống hay tán bột mà uống hay làm thành viên mà uống."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DOI_MOI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_NHIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_ME_SANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | $4-8g$",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_KINH_GIAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "B_UNG_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_SUNG_TAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_NOT_DAU_HAM_DEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "CN_TIEU_UNG_NHOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "B_PHA_TICH_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "B_TRAN_TINH_TINH_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Sắc uống hay tán bột mà uống hay làm thành viên mà uống.",
+        "ghi_chu": "CT_VT_VN_T1038"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì đại mạo (đồi mồi) có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DOI_MOI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì đại mạo (đồi mồi) có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1037",
+        "all_sources": [
+          "CT_VT_VN_T1037"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 53.5,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

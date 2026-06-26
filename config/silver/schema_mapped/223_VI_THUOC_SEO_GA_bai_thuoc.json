@@ -1,0 +1,151 @@
+{
+  "entity_hub": "VI_THUOC_SEO_GA",
+  "source": {
+    "source_id": "CT_VT_VN_T223",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "223"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_IA_CHAY_SEO_GA_S",
+      "to": "VI_THUOC_SEO_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Seo gà là vị thuốc chính trong bài thuốc trị ỉa chảy, ỉa ra máu và lỵ.",
+        "cach_dung": "Thuốc sắc hoặc thuốc ngâm rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_SEO_GA_S",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa chảy, ỉa ra máu, lỵ.",
+        "cach_dung": "Thuốc sắc hoặc thuốc ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_SEO_GA_SVD",
+      "to": "VI_THUOC_SEO_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Seo gà kết hợp dầu vừng giúp làm dịu và chữa lành các bệnh ngoài da ở trẻ em.",
+        "cach_dung": "Bôi ngoài da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_SEO_GA_SVD",
+      "to": "VT_DAU_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Seo gà kết hợp dầu vừng giúp làm dịu và chữa lành các bệnh ngoài da ở trẻ em.",
+        "cach_dung": "Bôi ngoài da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_SEO_GA_SVD",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa một số bệnh ngoài da của trẻ em.",
+        "cach_dung": "Bôi ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_KIET_LY_SEO_GA_S",
+      "to": "VI_THUOC_SEO_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Seo gà là vị thuốc chính trong bài thuốc trị kiết lỵ.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_KIET_LY_SEO_GA_S",
+      "to": "B_KIET_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kiết lỵ (trực trùng).",
+        "cach_dung": "Chia 2 hay 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_CHSG_CTS",
+      "to": "VI_THUOC_SEO_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chè tươi và seo gà phối hợp trị lỵ trực trùng.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_CHSG_CTS",
+      "to": "VT_CHE_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chè tươi và seo gà phối hợp trị lỵ trực trùng.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_CHSG_CTS",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ trực trùng.",
+        "cach_dung": "Chia hai hay ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T223"
+      }
+    }
+  ],
+  "metadata": {}
+}

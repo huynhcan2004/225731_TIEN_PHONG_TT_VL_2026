@@ -1,0 +1,281 @@
+{
+  "entity": {
+    "id": "VT_CAU",
+    "canonical_name": "Cau",
+    "ten_khoa_hoc": "Areca catechu L.",
+    "ho_thuc_vat": "Họ Cau (Palmae)",
+    "properties": {
+      "bo_phan_dung": "hạt cau hay binh lang, tân lang (Semen Arecae) là hạt phơi khô của cây cau.",
+      "thu_hai": "thường sau $5 - 6$ năm mới thu hoạch.",
+      "che_bien_tho": "hạt phơi khô",
+      "muc_do_doc": "Có độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CAU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $tanin$. Tỷ lệ tanin trong hạt non chừng $70%$ nhưng khi chín chỉ còn $15-20%$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_MYRISTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất mỡ ($14%$) với thành phần chủ yếu gồm: myristin $1/5$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_OLEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất mỡ ($14%$) với thành phần chủ yếu gồm: olein $1/4$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_LAURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất mỡ ($14%$) với thành phần chủ yếu gồm: laurin $1/2$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "các chất đường: sacaroza."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_MANNAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "các chất đường: mannan."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GALACTAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "các chất đường: galactan $2%$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_ARECOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là $4$ ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$. $Arecolin$ (hay CH3 arecaidin) chiếm chừng $0,1-5,0%$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_ARECAIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là $4$ ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GUVAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là $4$ ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GUVACOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là $4$ ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "S_GIUN_SAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun sán cho súc vật (chó)",
+        "lieu_luong": "Hạt cau $4g$",
+        "cach_dung": "Dùng làm thuốc tẩy giun sán"
+      }
+    },
+    {
+      "from": "BT_THUONG_SON_TRIET_NGUOC",
+      "to": "VT_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong đơn thuốc “Thường sơn triệt ngược”"
+      }
+    },
+    {
+      "from": "BT_THUONG_SON_TRIET_NGUOC",
+      "to": "VT_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong đơn thuốc “Thường sơn triệt ngược”"
+      }
+    },
+    {
+      "from": "BT_THUONG_SON_TRIET_NGUOC",
+      "to": "VT_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong đơn thuốc “Thường sơn triệt ngược”"
+      }
+    },
+    {
+      "from": "BT_THUONG_SON_TRIET_NGUOC",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sốt rét",
+        "cach_dung": "Dùng trong đơn thuốc “Thường sơn triệt ngược”"
+      }
+    },
+    {
+      "from": "BT_HAT_CAU_HAT_BI_NGO",
+      "to": "VT_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp với hạt bí ngô",
+        "lieu_luong": "Hạt cau $0,5$ đến $4g$"
+      }
+    },
+    {
+      "from": "BT_HAT_CAU_HAT_BI_NGO",
+      "to": "VT_HAT_BI_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp với hạt bí ngô"
+      }
+    },
+    {
+      "from": "BT_HAT_CAU_HAT_BI_NGO",
+      "to": "S_SAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sán",
+        "cach_dung": "Phối hợp với hạt bí ngô"
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm ruột",
+        "lieu_luong": "Mỗi ngày dùng"
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "lỵ",
+        "lieu_luong": "Mỗi ngày dùng"
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chốc đầu ở trẻ con",
+        "cach_dung": "mài thành bột phơi khô, Hòa với dầu mà bôi"
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_CHAY_NUOC_BOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "$Arecolin$ gây chảy nước bọt rất nhiều."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_TANG_BAI_TIET_DICH_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nó còn làm tăng bài tiết dịch vị, dịch tràng."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_TANG_BAI_TIET_DICH_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nó còn làm tăng bài tiết dịch vị, dịch tràng."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_CO_NHO_DONG_TU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "làm co nhỏ đồng tử. Dung dịch $1%$ arecolin bromhydrat làm co nhỏ đồng tử sau khi nhỏ từ $3$ đến $5$ phút. Sự co nhỏ đồng tử kéo dài từ nửa giờ đến $2$ giờ."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_GIAM_AP_NHAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có thể dùng làm giảm áp nhãn trong bệnh glôcôm."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_LAM_TIM_DAP_CHAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Areclin còn làm tim đập chậm trừ khi có mặt của canxi."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_TANG_NHU_DONG_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tăng nhu động ruột."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "liều nhỏ kích thích thần kinh."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_DOC_DOI_VOI_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch hạt cau có tác dụng độc đối với thần kinh của sán, làm cho tê bại các cơ trơn của sán, $20$ phút sau khi thuốc vào tới ruột, con sản bị tê liệt và không bám vào thành ruột được nữa."
+      }
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "liều lớn gây liệt thần kinh."
+      }
+    }
+  ]
+}

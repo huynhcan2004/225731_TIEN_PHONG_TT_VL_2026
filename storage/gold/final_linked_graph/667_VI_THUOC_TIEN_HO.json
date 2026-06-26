@@ -1,0 +1,915 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TIEN_HO",
+    "ten_raw": "Tiền hồ",
+    "ten_khoa_hoc": "$Peucedanum decursivum Maxim, Angelica decursiva Franch et Savat.$",
+    "ho_thuc_vat": "$Chưa rõ$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Liều dùng 9-15$g$ dưới dạng thuốc sắc chia làm 2-3 lần uống trong ngày.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Hiện nay mới phát hiện thấy có nhiều ở Đồng Đăng (Lạng Sơn). Ở đây người ta thu mua với tên Quy nam. Có người lại gọi nhầm nó là độc hoạt hay khương hoạt. Thực ra độc hoạt và khương hoạt là rễ những cây khác. Vào mùa thu, đông hay mùa xuân, đào lấy rễ về, rửa sạch đất, phơi hay sấy khô là được. Tại Trung Quốc, tiền hồ mọc ở Thiểm Tây, Quảng Châu, Hàng Châu, An Huy, Thiểm Tây, Hàng Châu được coi là nơi tiền hồ tốt nhất.",
+      "thu_hai": "vào mùa thu, đông hay mùa xuân, đào lấy rễ về",
+      "che_bien_tho": "rửa sạch đất, phơi hay sấy khô"
+    },
+    "display_name": "Vị thuốc Tiền hồ",
+    "canonical_name": "Vị thuốc Tiền hồ"
+  },
+  "nodes": [
+    {
+      "id": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đờm không tiết ra được Tiền hồ",
+        "aliases": [
+          "dom khong tiet ra duoc tien ho",
+          "domkhongtietraduoctienho",
+          "đờm không tiết ra được tiền hồ"
+        ],
+        "search_vector_hint": "Bài thuốc Đờm không tiết ra được Tiền hồ thuộc nhóm Bài thuốc, thường liên quan đến trị ho và long đờm."
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cảm mạo",
+        "aliases": [
+          "camcum",
+          "cam mao",
+          "sổ mũi",
+          "cảm mạo",
+          "somui",
+          "so mui",
+          "cammao",
+          "cảm cúm",
+          "cam cum"
+        ],
+        "search_vector_hint": "Bệnh Cảm mạo thuộc nhóm bệnh, thường liên quan đến hệ hô hấp."
+      }
+    },
+    {
+      "id": "B_VIEM_KHI_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh viêm khí quản",
+        "aliases": [
+          "viem khi quan",
+          "viemkhiquan",
+          "viêm khí quản"
+        ],
+        "search_vector_hint": "Bệnh viêm khí quản thuộc nhóm bệnh hô hấp, thường liên quan đến nhiễm trùng hoặc kích ứng."
+      }
+    },
+    {
+      "id": "CN_HA_KHI_CHI_HO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hạ khí chỉ ho",
+        "aliases": [
+          "ha khi chi ho",
+          "hakhichiho",
+          "hạ khí chỉ ho"
+        ],
+        "search_vector_hint": "Hạ khí chỉ ho thuộc nhóm công năng, thường liên quan đến điều trị ho và khó thở."
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu đờm",
+        "aliases": [
+          "tiêu đờm",
+          "tieu dom",
+          "hoa dam",
+          "tieudom",
+          "hoadam",
+          "khudam",
+          "khử đàm",
+          "khu dam",
+          "hóa đàm"
+        ],
+        "search_vector_hint": "Công năng Tiêu đờm thuộc nhóm Công năng, thường liên quan đến làm giảm lượng đờm trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_TUYEN_TAN_PHONG_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tuyên tán phong nhiệt",
+        "aliases": [
+          "tuyên tán phong nhiệt",
+          "tuyen tan phong nhiet",
+          "tuyentanphongnhiet"
+        ],
+        "search_vector_hint": "Tuyên tán phong nhiệt thuộc nhóm công năng, thường liên quan đến điều trị bệnh do phong nhiệt."
+      }
+    },
+    {
+      "id": "DL_KHONG_CHI_HO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Không chỉ ho",
+        "aliases": [
+          "không chỉ ho",
+          "khongchiho",
+          "khong chi ho"
+        ],
+        "search_vector_hint": "Không chỉ ho thuộc nhóm dược lý, thường liên quan đến tác dụng của thuốc."
+      }
+    },
+    {
+      "id": "DL_TRU_DOM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Trừ đờm",
+        "aliases": [
+          "tru dom",
+          "trừ đờm",
+          "trudom"
+        ],
+        "search_vector_hint": "Dược lý Trừ đờm thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm đờm."
+      }
+    },
+    {
+      "id": "HC_NODAKENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Nodakenin",
+        "aliases": [
+          "nodakenin"
+        ],
+        "search_vector_hint": "Hoạt chất Nodakenin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_DOM_DAC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đờm đặc",
+        "aliases": [
+          "domdac",
+          "đờm đặc",
+          "dom dac"
+        ],
+        "search_vector_hint": "Đờm đặc thuộc nhóm triệu chứng, thường liên quan đến các bệnh lý đường hô hấp."
+      }
+    },
+    {
+      "id": "S_DOM_KHONG_TIET_RA_DUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đờm không tiết ra được",
+        "aliases": [
+          "kho khac dom",
+          "domkhongtietraduoc",
+          "dom khong tiet ra duoc",
+          "dom tac nghen",
+          "đờm không tiết ra được",
+          "khó khạc đờm",
+          "đờm tắc nghẽn",
+          "domtacnghen",
+          "khokhacdom"
+        ],
+        "search_vector_hint": "Triệu chứng Đờm không tiết ra được thuộc nhóm Triệu chứng, thường liên quan đến bệnh đường hô hấp."
+      }
+    },
+    {
+      "id": "S_GIAM_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Giảm đau",
+        "aliases": [
+          "giảm đau",
+          "giamdau",
+          "giam dau"
+        ],
+        "search_vector_hint": "Triệu chứng Giảm đau thuộc nhóm triệu chứng, thường liên quan đến sự thuyên giảm của cơn đau."
+      }
+    },
+    {
+      "id": "S_PHONG_NHIET_SINH_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Phong nhiệt sinh ho",
+        "aliases": [
+          "phong nhiet sinh ho",
+          "phong nhiệt sinh ho",
+          "phongnhietsinhho"
+        ],
+        "search_vector_hint": "Phong nhiệt sinh ho thuộc nhóm triệu chứng, thường liên quan đến bệnh lý hô hấp do nhiệt."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_SOT_NONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt nóng",
+        "aliases": [
+          "sotnong",
+          "sot nong",
+          "sốt nóng"
+        ],
+        "search_vector_hint": "Sốt nóng thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_XUYEN_TUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Xuyễn tức",
+        "aliases": [
+          "xuyen tuc",
+          "xuyentuc",
+          "xuyễn tức"
+        ],
+        "search_vector_hint": "Xuyễn tức thuộc nhóm triệu chứng, thường liên quan đến khó thở và hen suyễn."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BOI_MAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bối mẫu",
+        "aliases": [
+          "bối mẫu",
+          "boimau",
+          "boi mau"
+        ],
+        "search_vector_hint": "Vị thuốc Bối mẫu thuộc nhóm Vị thuốc, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_CAT_CANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cát cánh",
+        "aliases": [
+          "cat canh",
+          "cát cánh",
+          "catcanh"
+        ],
+        "search_vector_hint": "Vị thuốc Cát cánh thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "VT_DAO_NHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đào nhân",
+        "aliases": [
+          "dao nhan",
+          "đào nhân",
+          "daonhan"
+        ],
+        "search_vector_hint": "Vị thuốc Đào nhân thuộc nhóm Vị thuốc, thường liên quan đến hoạt huyết, phá huyết."
+      }
+    },
+    {
+      "id": "VT_KHOAN_DONG_HOA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khoản đông hoa",
+        "aliases": [
+          "đông hoa",
+          "kimtranthao",
+          "khoan dong hoa",
+          "kim trản thảo",
+          "khoản đông hoa",
+          "dong hoa",
+          "donghoa",
+          "khoandonghoa",
+          "kim tran thao"
+        ],
+        "search_vector_hint": "Vị thuốc Khoản đông hoa thuộc nhóm Vị thuốc, thường liên quan đến trị ho và long đờm."
+      }
+    },
+    {
+      "id": "VT_TANG_BACH_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tang bạch bì",
+        "aliases": [
+          "tang bach bi",
+          "tang bạch bì",
+          "tangbachbi"
+        ],
+        "search_vector_hint": "Vị thuốc Tang bạch bì thuộc nhóm vị thuốc, thường liên quan đến trị ho, hạ sốt."
+      }
+    },
+    {
+      "id": "VT_TIEN_HO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tiền hồ",
+        "aliases": [
+          "bach tien",
+          "tien ho",
+          "bạch tiền",
+          "tienhobac",
+          "tiền hồ",
+          "bachtien",
+          "tien ho bac",
+          "tienho",
+          "tiền hồ bắc"
+        ],
+        "search_vector_hint": "Vị thuốc Tiền hồ thuộc nhóm Vị thuốc, thường liên quan đến trị ho và long đờm.",
+        "lieu_dung_chung": "Liều dùng 9-15$g$ dưới dạng thuốc sắc chia làm 2-3 lần uống trong ngày.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Hiện nay mới phát hiện thấy có nhiều ở Đồng Đăng (Lạng Sơn). Ở đây người ta thu mua với tên Quy nam. Có người lại gọi nhầm nó là độc hoạt hay khương hoạt. Thực ra độc hoạt và khương hoạt là rễ những cây khác. Vào mùa thu, đông hay mùa xuân, đào lấy rễ về, rửa sạch đất, phơi hay sấy khô là được. Tại Trung Quốc, tiền hồ mọc ở Thiểm Tây, Quảng Châu, Hàng Châu, An Huy, Thiểm Tây, Hàng Châu được coi là nơi tiền hồ tốt nhất.",
+        "thu_hai": "vào mùa thu, đông hay mùa xuân, đào lấy rễ về",
+        "che_bien_tho": "rửa sạch đất, phơi hay sấy khô",
+        "ten_khoa_hoc": "$Peucedanum decursivum Maxim, Angelica decursiva Franch et Savat.$",
+        "ho_thuc_vat": "$Chưa rõ$",
+        "hinh_thai_chi_tiet": "Cay thuộc thảo, cao $0,7-1,4m$, mọc thẳng đứng, trên có phân nhánh trên thân có khía dọc. Lá ở gốc cây lớn, 1-2 lần xẻ lông chim, cuống dài $14-30cm$, phiến lá chia thành thuỳ hình bầu dục có răng cưa to. Lá ở thân nhỏ, cuống ngắn có bẹ lá phồng và rộng. Lá ở phía không cuống hay thu lại còn bẹ lá. Cụm hoa tán kép. Hoa màu tín. Quả hình bầu dục, cụt ở hai đầu, $5-7mm$, rộng $3-5mm$. Phân liệt quả, có múi ở cạnh, khi chưa chín $2phân$ liệt quả dính chặt vào nhau. Khi chín phân liệt quả nở tung ra, có dìa rộng và hơi dày (Hình 502).",
+        "thanh_phan_hoa_hoc": "['Trong tiền hồ, người ta phân tích thấy có chất glucozit gọi là $nodakenin$, tinh dầu, tanin, spongosterola.']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "667"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HOI_HAN",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY"
+        ],
+        "cong_nang": "tuyên tán phong nhiệt, hạ khí chỉ họ, tiêu đờm"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cay thuộc thảo, cao $0,7-1,4m$, mọc thẳng đứng, trên có phân nhánh trên thân có khía dọc. Lá ở gốc cây lớn, 1-2 lần xẻ lông chim, cuống dài $14-30cm$, phiến lá chia thành thuỳ hình bầu dục có răng cưa to. Lá ở thân nhỏ, cuống ngắn có bẹ lá phồng và rộng. Lá ở phía không cuống hay thu lại còn bẹ lá. Cụm hoa tán kép. Hoa màu tín. Quả hình bầu dục, cụt ở hai đầu, $5-7mm$, rộng $3-5mm$. Phân liệt quả, có múi ở cạnh, khi chưa chín $2phân$ liệt quả dính chặt vào nhau. Khi chín phân liệt quả nở tung ra, có dìa rộng và hơi dày (Hình 502).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tiền hồ, người ta phân tích thấy có chất glucozit gọi là $nodakenin$, tinh dầu, tanin, spongosterola."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TIEN_HO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "HC_NODAKENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tiền hồ, người ta phân tích thấy có chất glucozit gọi là $nodakenin$, tinh dầu, tanin, spongosterola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_TIEN_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với nước $600ml$ còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_TANG_BACH_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_DAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "B_VIEM_KHI_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "S_DOM_KHONG_TIET_RA_DUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_PHONG_NHIET_SINH_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_DOM_DAC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_XUYEN_TUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_GIAM_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "CN_TUYEN_TAN_PHONG_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuyên tán phong nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "CN_HA_KHI_CHI_HO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ khí chỉ ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "DL_TRU_DOM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên mèo gây mê, tiền hồ có tác dụng trừ đờm.",
+        "ghi_chu": "Thí nghiệm của Cao ứng Đẩu và Chu Thọ Bành (1954)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TIEN_HO",
+      "to": "DL_KHONG_CHI_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên mèo bị gây ho bằng dung dịch $1\\%$ iột, uống nước sắc tiền hồ liều $0,$8-2g$/kg$ thể trọng, không thấy có tác dụng trừ ho rõ rệt.",
+        "ghi_chu": "Thí nghiệm của Hoàng Khánh Chương (1954). Cần thêm dữ liệu để xác minh tác dụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "all_sources": [
+          "CT_VT_VN_T667"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 68.0,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

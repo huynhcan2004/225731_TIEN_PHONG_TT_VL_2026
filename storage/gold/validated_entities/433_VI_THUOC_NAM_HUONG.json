@@ -1,0 +1,225 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NAM_HUONG",
+    "ten_raw": "Nấm hương",
+    "ten_khoa_hoc": "$Lentinus edodes (Berk.) Sing-; Agaricus rhinozerotis Berk.; Lentinus edodes (Berk.) Sing$",
+    "ho_thuc_vat": "$Nám tán Polyporaceae (Pleurotaceae)$",
+    "variants": [
+      "bioc hom",
+      "hoa thơm",
+      "lét lang",
+      "nấm thơm"
+    ],
+    "properties": {
+      "bo_phan_dung": "chân, mũ (chụp, tai nấm)",
+      "lieu_dung_chung": "Ngày dùng $4-6g$.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "các tỉnh miền núi cao như Lào Cai, Lai Châu, Lạng Sơn, Cao Bằng, Bắc Cạn, Thái Nguyên, Hà Giang, Tuyên Quang, Hà Tây, Hòa Bình",
+      "thu_hai": "thường vào 4 ngày trước và 4 ngày sau tiết đồng chí (khoảng 22 tháng 12 dương lịch)",
+      "che_bien_tho": "hái xong phơi nắng hay sấy trên bếp đun. nấm phơi nắng giữ được màu sắc và hương thơm tế nhị. nấm sấy trên bếp có màu sẫm hơn và có mùi khói."
+    },
+    "display_name": "Nấm hương",
+    "canonical_name": "Nấm hương"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NAM_HUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Nam Huong"
+      }
+    },
+    {
+      "id": "HC_CHAT_DAM",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Dam"
+      }
+    },
+    {
+      "id": "HC_CHAT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Beo"
+      }
+    },
+    {
+      "id": "HC_CHAT_DUONG",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Duong"
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi"
+      }
+    },
+    {
+      "id": "HC_LAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lan"
+      }
+    },
+    {
+      "id": "HC_SAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sat"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "433"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "tử của nấm hương hoang dại, trại đã nhân và phát triển giống nhanh, rẻ, chủ động. Trại cũng đã nghiên cứu những loại gỗ có thể dùng để cấy nấm, điều kiện tự nhiên, thời vụ và kỹ thuật cấy nấm. Theo báo cáo của Lào Cai thì trong năm 1973, hợp tác xã Xeo Mí tỉ của người Mèo huyện Sapa đã cấy $18.600m$ gỗ nấm với dự kiến xuân 1974 thu hoạch đợt đầu. Năm 1974, Sapa cấy 10 vạn mét gỗ nấm, để cùng với vùng cao huyện Bát xát năm 1974, toàn tỉnh thu khoảng 30 tấn nấm hương (tính trên khúc cây dài $1m$, một năm thu được $1kg$ nấm tươi).",
+        "thanh_phan_hoa_hoc": [
+          "Trong $100g$ nấm đã sấy khô trung bình có $12,5g$ chất đạm; $1,6g$ chất béo; $60g$ chất đường; $16mg$ canxi; $240mg$ lân và $3,9mg$ sắt. Những chất khác chưa rõ."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_DAM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $12,5g$ chất đạm",
+        "ghi_chu": "chất đạm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $1,6g$ chất béo",
+        "ghi_chu": "chất béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_DUONG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $60g$ chất đường",
+        "ghi_chu": "chất đường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $16mg$ canxi",
+        "ghi_chu": "canxi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_LAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $240mg$ lân",
+        "ghi_chu": "lân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ nấm đã sấy khô trung bình có $3,9mg$ sắt",
+        "ghi_chu": "sắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nấm hương tồn tính",
+        "ghi_chu": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "all_sources": [
+          "CT_VT_VN_T433"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 36.5,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

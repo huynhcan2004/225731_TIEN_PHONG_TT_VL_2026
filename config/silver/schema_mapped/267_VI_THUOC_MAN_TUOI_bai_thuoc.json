@@ -1,0 +1,199 @@
+{
+  "entity_hub": "VI_THUOC_MAN_TUOI",
+  "source": {
+    "source_id": "CT_VT_VN_T267",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "267"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHONG_MOT_DAU_XANH_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới được sử dụng để chống mọt cho đậu xanh, đậu đen và cau khô.",
+        "cach_dung": "Cho mần tưới vào hũ đựng đậu hay đựng cau.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_CHONG_MAT_GA_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới được sử dụng để chống mạt gà, bọ chét, bọ chó.",
+        "cach_dung": "Hái cả cành cho vào ổ chó hay ổ gà sau khi đã dọn sạch phân, rác cũ, cứ 3-4 ngày thay một lần cho đến khi hết.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_TRU_REP_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới được sử dụng để trừ rệp.",
+        "cach_dung": "Hái cành mần tưới trải xuống dưới chiếu hay cho xuống gầm giường.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới giúp hạ sốt và hỗ trợ tiêu hóa.",
+        "cach_dung": "Sắc mần tưới khô $20g$ với nước $600ml$ còn $20ml$, chia 2 lần uống trong ngày, uống trước 2 bữa ăn chính $15$ phút.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_MAN_TUOI_M",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, giúp sự tiêu hóa",
+        "cach_dung": "Sắc mần tưới khô $20g$ với nước $600ml$ còn $20ml$, chia 2 lần uống trong ngày, uống trước 2 bữa ăn chính $15$ phút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới được sử dụng để chữa viêm gan.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Liều dùng: $15-30g$ cây tươi hoặc $6-12g$ cây khô."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_MAN_TUOI_M",
+      "to": "B_VIEM_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm gan",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "VI_THUOC_MAN_TUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Mần tưới có tác dụng chữa sốt cao, mát máu, cầm máu và chữa mụn nhọt.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài",
+        "ghi_chu": "Liều dùng: $15-30g$ cây tươi hoặc $6-12g$ cây khô."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Sắc uống hoặc dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Sắc uống hoặc dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "S_TIEU_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Sắc uống hoặc dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Sắc uống hoặc dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Sắc uống hoặc dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_MAN_TUOI_M",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, làm mát máu, chữa chảy máu cam, tiểu tiện ra máu, ho ra máu, lỵ ra máu, dùng ngoài chữa mụn nhọt",
+        "cach_dung": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    }
+  ],
+  "metadata": {}
+}

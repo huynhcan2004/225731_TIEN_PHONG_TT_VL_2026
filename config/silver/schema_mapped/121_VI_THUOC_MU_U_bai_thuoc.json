@@ -1,0 +1,259 @@
+{
+  "entity_hub": "VI_THUOC_MU_U",
+  "source": {
+    "source_id": "CT_VT_VN_T121",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "121"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LO_LOET_MU_U_M",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mủ u có tác dụng làm lành vết thương, giảm viêm nhiễm.",
+        "cach_dung": "Rắc bột lên vết thương",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_MU_U_M",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mù u được dùng dưới dạng bột rắc lên các vết lở loét",
+        "cach_dung": "Rắc bột lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MU_U_M",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mủ u có tác dụng làm lành vết thương, giảm viêm nhiễm.",
+        "cach_dung": "Rắc bột lên vết thương",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MU_U_M",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mù u được dùng dưới dạng bột rắc lên các mụn nhọt",
+        "cach_dung": "Rắc bột lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_CO_MU_MU_U_M",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mủ u có tác dụng làm lành vết thương, giảm viêm nhiễm.",
+        "cach_dung": "Rắc bột lên vết thương",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_CO_MU_MU_U_M",
+      "to": "S_VIEM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mù u được dùng dưới dạng bột rắc lên các vết tai có mủ",
+        "cach_dung": "Rắc bột lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_GHE_MU_U_V",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu mù u kết hợp vôi có tác dụng sát khuẩn, làm lành da.",
+        "cach_dung": "Bôi vào",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_GHE_MU_U_V",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu mù u trộn đều với ít vôi đun lên rồi bôi vào chữa ghẻ",
+        "cach_dung": "Bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_GHE_MU_U_V",
+      "to": "VT_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu mù u kết hợp vôi có tác dụng sát khuẩn, làm lành da.",
+        "cach_dung": "Bôi vào",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_MU_U_V",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu mù u kết hợp vôi có tác dụng sát khuẩn, làm lành da.",
+        "cach_dung": "Bôi vào",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_MU_U_V",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu mù u trộn đều với ít vôi đun lên rồi bôi vào chữa bệnh ngoài da",
+        "cach_dung": "Bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_MU_U_V",
+      "to": "VT_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu mù u kết hợp vôi có tác dụng sát khuẩn, làm lành da.",
+        "cach_dung": "Bôi vào",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_VIEM_DAY_THAN_KINH_DO_HUI_MU_U_E",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Etylic của dầu mù u có tác dụng giảm đau, kháng viêm.",
+        "cach_dung": "Tiêm bắp thịt hoặc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_VIEM_DAY_THAN_KINH_DO_HUI_MU_U_E",
+      "to": "B_VIEM_DAY_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Este etylic của dầu mù u chữa chứng viêm dây thần kinh do hủi",
+        "cach_dung": "Tiêm bắp thịt sau hoặc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_MU_U_I",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu mù u có iốt có tác dụng sát khuẩn, giảm viêm.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_MU_U_I",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu mù u có iốt điều trị bệnh tràng nhạc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_MU_U_D",
+      "to": "VI_THUOC_MU_U",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu mù u có tác dụng giảm đau, kháng viêm.",
+        "cach_dung": "Xoa bóp",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_MU_U_D",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu mù u dùng xoa bóp chữa bệnh thấp khớp",
+        "cach_dung": "Xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T121"
+      }
+    }
+  ],
+  "metadata": {}
+}

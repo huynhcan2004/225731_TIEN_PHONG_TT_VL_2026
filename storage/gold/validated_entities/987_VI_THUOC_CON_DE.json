@@ -1,0 +1,423 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CON_DE",
+    "ten_raw": "Con dế",
+    "ten_khoa_hoc": "$Gryllotalpa unispinalpa Sauss; Gryllotalpa formosana; Gryllodes berthellus Sauss$",
+    "ho_thuc_vat": "$Dé (Gryllotalpidae)$",
+    "variants": [
+      "dế dũi",
+      "dế mèn",
+      "tất suất",
+      "súc chức"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn thân",
+      "lieu_dung_chung": "Ngày dùng $3$ đến $5g$ dưới hình thức thuốc sắc hay sao vàng tán nhỏ mà dùng.",
+      "muc_do_doc": "Có độc"
+    },
+    "display_name": "Con dế",
+    "canonical_name": "Con dế"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CON_DE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Con De"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Bang Quang"
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Dai Trang"
+      }
+    },
+    {
+      "id": "K_TIEU_TRANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tieu Trang"
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Tieu Tien Kho Khan De Dui"
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_KHO_KHAN_CON_DE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Tieu Tien Kho Khan Con De"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_KHO_KHAN_NGUOI_GIA_DE_MEN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Tieu Tien Kho Khan Nguoi Gia De Men"
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Loi Tieu Tien"
+      }
+    },
+    {
+      "id": "CN_THONG_DAI_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thong Dai Tien"
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Tien Kho Khan"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "987"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đồng ruộng, bãi cỏ ở đâu cũng có.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dế dũi có tính lạnh (hàn)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dế mèn có tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Dế dũi có vị mặn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Dế mèn có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh bàng quang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tiểu tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI",
+      "to": "VI_THUOC_CON_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20-30$",
+        "vai_tro": "Quân",
+        "cach_dung": "ngắt bỏ chân và cánh, tán nhỏ",
+        "ghi_chu": "dế mèn $20-30$ con cũng ngắt bỏ cánh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_DE_DUI",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_CON_DE",
+      "to": "VI_THUOC_CON_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_CON_DE",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_CON_DE",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "tất cả tán nhỏ trộn đều. Mỗi lần uống $1g$ bột này, mỗi ngày uống $2$ hay $3$ lần, dùng nước uống nóng chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_NGUOI_GIA_DE_MEN",
+      "to": "VI_THUOC_CON_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_NGUOI_GIA_DE_MEN",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_NGUOI_GIA_DE_MEN",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "ở người già"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "CN_LOI_TIEU_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lợi tiểu tiện (trục thủy tà) chữa thủy thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CON_DE",
+      "to": "CN_THONG_DAI_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn có tác dụng thông đại tiện, chữa khó đẻ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T987",
+        "all_sources": [
+          "CT_VT_VN_T987"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.0,
+      "reliability_c_score": 0.7611,
+      "total_confidence_sum": 13.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

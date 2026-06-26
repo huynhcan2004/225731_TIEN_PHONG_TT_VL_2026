@@ -1,0 +1,245 @@
+{
+  "entity": {
+    "id": "VT_HUYET_KIET",
+    "canonical_name": "Huyết kiệt",
+    "ten_khoa_hoc": "Calamus draco Willd.; Daemonorops draco Nred.; Dracaena cinnabari Balf.; Dracaena draco",
+    "ho_thuc_vat": "Dừa (Palmaceae); Hành tỏi (Liliaceae)",
+    "properties": {
+      "bo_phan_dung": "nhựa khô phủ trên mặt quả",
+      "thu_hai": "Hái quả về, cho quả vào trong túi gai mà vò. Chất nhựa dòn sẽ long ra, rây lấy riêng chất nhựa.",
+      "che_bien_tho": "Đem phơi nắng hay đun cách thủy cho nóng chảy đổ vào khuôn hình trụ, hoặc thành cục rồi gói trong những lá cây cọ, có khi người ta đóng thành từng bánh tròn đường kính $10cm$ dày $5cm$ hoặc thành bánh nặng mấy $kg$. Có nơi người ta đun quả với nước cho nhựa chảy ra rồi đồng thành bánh, nhưng những loại nhựa này chất lượng kém hơn.",
+      "lieu_dung_chung": "Ngày dùng $2$ đến $4g$ uống dưới dạng tán bột hay làm thành viên.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì huyết kiệt có vị ngọt, mặn, tính bình, không độc, vào hai kinh tâm bào và kinh can."
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì huyết kiệt có vị ngọt, mặn, tính bình, không độc, vào hai kinh tâm bào và kinh can."
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì huyết kiệt có vị ngọt, mặn, tính bình, không độc, vào hai kinh tâm bào và kinh can."
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì huyết kiệt có vị ngọt, mặn, tính bình, không độc, vào hai kinh tâm bào và kinh can."
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ thì huyết kiệt có vị ngọt, mặn, tính bình, không độc, vào hai kinh tâm bào và kinh can."
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_ETE_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ête benzoic$"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_BENZOYLAXETIC_CUA_DRACORESITANOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$benzoylaxetic của dracoresitanola$"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_AXIT_BENXOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một ít $axit benxoic$ tự do"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_AXIT_ALIATINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit aliatinic$"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_DRACOCACMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$dracocacmin$"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_DRACORUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$dracorubin$"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "S_VET_THUONG_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Tán huyết kiệt rắc vào"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM_TUC_THO",
+      "to": "VT_HUYET_KIET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM_TUC_THO",
+      "to": "VT_MOT_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM_TUC_THO",
+      "to": "S_NGHEN_O_TIM_TUC_THO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "hòa vào nước tiểu trẻ em mạnh khỏe mà uống"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM",
+      "to": "VT_HUYET_KIET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "bằng nhau"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM",
+      "to": "VT_BO_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "bằng nhau"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "tán nhỏ thổi vào mũi"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "S_MUN_NHOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt, vết thương chảy máu, huyết tích trong bụng thành cục",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "S_VET_THUONG_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt, vết thương chảy máu, huyết tích trong bụng thành cục",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "S_HUYET_TICH_TRONG_BUNG_THANH_CUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt, vết thương chảy máu, huyết tích trong bụng thành cục",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_TAN_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "sinh tân"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "hoạt huyết"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_LAM_HET_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "làm hết đau"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài cầm máu"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_THU_LIEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thu liễm"
+      }
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_TRU_TA_KHI_TRONG_NGU_TANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "trừ tà khí trong ngũ tạng"
+      }
+    }
+  ]
+}

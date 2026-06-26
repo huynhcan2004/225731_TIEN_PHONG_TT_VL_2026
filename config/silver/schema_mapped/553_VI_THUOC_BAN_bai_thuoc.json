@@ -1,0 +1,505 @@
+{
+  "entity_hub": "VI_THUOC_BAN",
+  "source": {
+    "source_id": "CT_VT_VN_T553",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "553"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_BAN_B",
+      "to": "VI_THUOC_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cây ban có tác dụng chữa mụn nhọt, lở loét.",
+        "cach_dung": "Đắp lên nơi mụn nhọt.",
+        "ghi_chu": "Không rõ liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BAN_B",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, lở loét.",
+        "cach_dung": "Đắp lên nơi mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAN_B",
+      "to": "VI_THUOC_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cây ban có tác dụng chữa rắn cắn.",
+        "cach_dung": "Đắp lên nơi rắn cắn.",
+        "ghi_chu": "Không rõ liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAN_B",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn.",
+        "cach_dung": "Đắp lên nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_KHOP_BAN_B",
+      "to": "VI_THUOC_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cây ban có tác dụng chữa đau nhức xương khớp.",
+        "cach_dung": "Ngâm rượu uống.",
+        "ghi_chu": "Không rõ liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_KHOP_BAN_B",
+      "to": "S_DAU_NHUC_XUONG_KHOP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức xương khớp.",
+        "cach_dung": "Ngâm rượu uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VI_THUOC_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_THO_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_KE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_GAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_DAU_VAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_LA_LOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_TAM_XUAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_BUOM_BAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_VONG_NEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "VT_TRAU_KHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "B_PHONG_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong hủi",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VI_THUOC_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_GAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_THO_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_KE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_DAU_VAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_BUOM_BAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_TAM_XUAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_LA_LOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_VONG_NEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "VT_TRAU_KHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phong hủi.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_CAO_BAN_GTKDBTLTV",
+      "to": "B_PHONG_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao Ban (chữa phong hủi)",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2 thìa canh ($30ml$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    },
+    {
+      "from": "BT_PHONG_HUI_BAN_TITYKDTBVCDT",
+      "to": "B_PHONG_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong hủi",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T553"
+      }
+    }
+  ],
+  "metadata": {}
+}

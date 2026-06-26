@@ -1,0 +1,408 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DA_MINH_SA",
+    "ten_raw": "Dạ minh sa",
+    "ten_khoa_hoc": "$Excrementum Vespertilii hay Faeces Vespertiliorum$",
+    "ho_thuc_vat": "$Không có thông tin$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "phân dơi",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng 3 đến 6$g$ dưới hình thức thuốc sắc hay thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "nhiều loài dơi. Thường ở nước ta có những loài Vespertilio superans The mas có lỗ mũi bán nguyệt, chi Kerevoula có lỗ mũi tròn, loài dơi nhà Pachyotus kuhli thuộc họ Vespertilionidae, loài Rhinolophus ferrum equinum Schreber thuộc họ Dơi có lá mũi Rhinolophidae. Tại Trung Quốc người ta còn dùng phân của loài dơi tai to Plecotus auritus L. thuộc họ Dơi tai to Vespertilionidae (Rhinlophidae). Tại những vùng không có hang dơi thiên nhiên, đặt biệt một số tỉnh đồng bằng sông Cửu Long"
+    },
+    "display_name": "Dạ minh sa",
+    "canonical_name": "Dạ minh sa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DA_MINH_SA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Da Minh Sa"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "HC_URE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ure"
+      }
+    },
+    {
+      "id": "HC_AXIT_URIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Uric"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin A"
+      }
+    },
+    {
+      "id": "BT_QUANG_GA_DA_MINH_SA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Quang Ga Da Minh Sa"
+      }
+    },
+    {
+      "id": "VI_THUOC_COC_TINH_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Coc Tinh Thao"
+      }
+    },
+    {
+      "id": "VI_THUOC_QUYET_MINH_TU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Quyet Minh Tu"
+      }
+    },
+    {
+      "id": "VI_THUOC_MAT_MONG_HOA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mat Mong Hoa"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cam Thao"
+      }
+    },
+    {
+      "id": "B_QUANG_GA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Quang Ga"
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hoat Huyet"
+      }
+    },
+    {
+      "id": "T_CO_TINH_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Co Tinh Han"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "986"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vì phân con dơi ban đêm trông nhấp nhánh như cát cho nên gọi là dạ minh sa (dạ là đêm, minh là sáng, sa là cát).",
+        "thanh_phan_hoa_hoc": [
+          "Trong dạ minh sa người ta đã phân tích thấy các chất như $urê$, $axit uric$ và một lượng nhỏ $vitamin A$."
+        ],
+        "lieu_dung_tong_quat": "Không đề cập",
+        "ghi_chu_bo_sung": "Không đề cập",
+        "cach_dung_bao_che": "Khi dùng người ta thường sao cho thơm."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay, hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào can kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "HC_URE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "ap_dung_cho_loai": "null",
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như $urê$, $axit uric$ và một lượng nhỏ $vitamin A$."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "HC_AXIT_URIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "ap_dung_cho_loai": "null",
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như $urê$, $axit uric$ và một lượng nhỏ $vitamin A$."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "ap_dung_cho_loai": "null",
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như $urê$, $axit uric$ và một lượng nhỏ $vitamin A$."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      }
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "VI_THUOC_DA_MINH_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "VI_THUOC_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "VI_THUOC_QUYET_MINH_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "VI_THUOC_MAT_MONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_QUANG_GA_DA_MINH_SA",
+      "to": "B_QUANG_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Sắc còn $200ml$, lọc bỏ bã chia $3$ lần uống trong ngày",
+        "ghi_chu": "Thong manh, quáng gà, mắt khô, mờ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "B_QUANG_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dạ minh sa sao vàng, nghiền nhỏ hòa với mật lợn, viên bằng hạt đậu xanh. Ngày uống $4$ đến $6$ viên, dùng nước cơm hay nước cháo để chiêu thuốc",
+        "ghi_chu": "Trẻ con quảng gà"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dạ minh sa có tác dụng hoạt huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "T_CO_TINH_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "all_sources": [
+          "CT_VT_VN_T986"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 49.0,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

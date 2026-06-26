@@ -1,0 +1,54 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SIM",
+    "ten_raw": "Sim",
+    "ten_khoa_hoc": "Rhodomyrtus tomentosa Wight; Myrtus Tomentosa Ait.; Myrtus canescens Lour.",
+    "ho_thuc_vat": "họ Sim Myrtaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Mọc hoang rất nhiều tại những vùng đồi trọc miền trung du nước ta.\nTại Trung Bộ và Nam Bộ cũng có.",
+      "che_bien_tho": "Ta dùng quả và búp sim tươi hay phơi khô làm thuốc."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T449",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "449"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sim là một cây nhỏ cao $1$-$2m$ có khi tới $3m$, cành 4 cạnh, vỏ thân róc thành từng mảng. Lá mọc đối, hình thuôn, hơi hẹp ở phía cuống, phía đầu tù, hơi rộng, dài $4$-$7cm$, rộng $2$-$4cm$, khi già thì nhẵn ở mặt trên, có lông mịn ở mặt dưới, phiến lá dày, mép hơi cong xuống, có 3 gân chính, cuống có lông mịn, dài $4$-$7mm$. Hoa màu hồng tím, mọc đơn độc hoặc từng 3 cái một ở kẽ lá. Quả mọng màu tím sẫm, mẫm. Hạt nhiều hình móng ngựa. [CT_VT_VN_T450]: gần khô, đường kính $6mm$, trên đỉnh có đài tồn tại. Nhiều hạt, hơi hình móng ngựa. Đường kính chừng $4mm$. Qua tài liệu nói trên, thì cây này rất phổ biến trong nước ta, nhưng cho đến nay chúng tôi chưa có dịp thấy lại."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SIM",
+      "to": "HC_ANTOXYANOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ mới thấy sắc tố antoxyanozit, tanin, đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "VI_THUOC_SIM",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả sim có vị ngọt chát, mùi thơm. Chưa được nghiên cứu. Sơ bộ mới thấy sắc tố antoxyanozit, tanin, đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    }
+  ]
+}

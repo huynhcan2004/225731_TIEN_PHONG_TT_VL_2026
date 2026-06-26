@@ -1,0 +1,95 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHO",
+    "ten_raw": "Chó",
+    "ten_khoa_hoc": "Canis familiaris L.",
+    "ho_thuc_vat": "họ Chó Canidae",
+    "variants": [
+      "Cẩu bảo-Calculus Canis"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1032",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1032"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Mặn (Hàm)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta hiện nay có thể có bốn giống chó. Giống chó thường có cỡ trung bình, bộ lông vàng tuyền, là gốc giống chó săn ở Việt nam, giống chó Mèo ở miền núi cao, có cỡ cao lớn, tai nhỏ và vểnh, giống chó Lào ở miền trung du và miền núi, có cỡ lớn bộ lông xồm màu hung và hai vết trắng trên mắt. Thường những giống đó lại lai với nhau. Tất cả đều có thể dùng làm thuốc (Hình 756).",
+        "thanh_phan_hoa_hoc": [
+          "Không thấy tài liệu nghiên cứu riêng về những bộ phận dùng làm thuốc của con chó, chỉ mới biết trong thịt chó có từ $13,5$ đến $20,9\\%$ protit, từ $13$ đến $28,6\\%$ lipit (theo Viện vệ sinh dịch tễ Hà Nội, 1972)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1032"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1032"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1032"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chỉ mới biết trong thịt chó có từ $13,5$ đến $20,9\\%$ protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1032"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "HC_LIPIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "từ $13$ đến $28,6\\%$ lipit (theo Viện vệ sinh dịch tễ Hà Nội, 1972)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1032"
+      }
+    }
+  ]
+}

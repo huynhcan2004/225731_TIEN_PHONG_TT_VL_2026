@@ -1,0 +1,69 @@
+{
+  "entity_hub": "VI_THUOC_DUA_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T276",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "276"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAI_DUI_DAI_D",
+      "to": "VI_THUOC_DUA_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $10g$ rễ, đọt non dùng với liều $15-20g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Đái dắt, đái ra sỏi, sạn",
+        "cach_dung": "Dùng làm thuốc thông tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "BT_LOI_DOM_DUA_DAI_D",
+      "to": "VI_THUOC_DUA_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Không kể liều lượng",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Lòi dom",
+        "cach_dung": "Đắp ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "BT_DAI_DUI_DAI_D",
+      "to": "B_DAI_DUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đái dắt, đái ra sỏi, sạn",
+        "cach_dung": "Dùng làm thuốc thông tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "BT_LOI_DOM_DUA_DAI_D",
+      "to": "B_LOI_DOM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lòi dom",
+        "cach_dung": "Đắp ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    }
+  ],
+  "metadata": {}
+}

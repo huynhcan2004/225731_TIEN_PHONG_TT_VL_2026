@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_CA_DAI_HOA_VANG",
+  "source": {
+    "source_id": "CT_VT_VN_T110",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "110"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_VANG",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu của cây có tác dụng tẩy như dầu thầu dầu với liều $2-4g$ hoặc $10$ đến $30$ giọt, không gây đau bụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_VANG",
+      "to": "DL_GAY_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại Ấn Độ hạt dược dùng làm thuốc gây nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_VANG",
+      "to": "DL_LAM_TE",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại đảo Máctinic, nhựa cây dùng chữa trai chân, mụn cơm, bệnh ngoài da, hình như nó có tác dụng làm tê."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    }
+  ],
+  "metadata": {}
+}

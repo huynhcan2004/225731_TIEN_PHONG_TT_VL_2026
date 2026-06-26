@@ -1,0 +1,145 @@
+{
+  "entity_hub": "VI_THUOC_BANG",
+  "source": {
+    "source_id": "CT_VT_VN_T216",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "216"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_IA_CHAY_BANG_B",
+      "to": "VI_THUOC_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bàng có tác dụng chữa lỵ và ỉa chảy.",
+        "cach_dung": "Sắc với $200ml$, thêm ít đường cho dễ uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_LY_IA_CHAY_BANG_B",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ, ỉa chảy",
+        "cach_dung": "Sắc với $200ml$, thêm ít đường cho dễ uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_LY_IA_CHAY_BANG_B",
+      "to": "S_IA_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ, ỉa chảy",
+        "cach_dung": "Sắc với $200ml$, thêm ít đường cho dễ uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_CAM_SO_BANG_L",
+      "to": "VI_THUOC_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá bàng có tác dụng làm ra mồ hôi, giúp chữa cảm sốt.",
+        "cach_dung": "Sắc uống làm cho ra mồ hôi.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_CAM_SO_BANG_L",
+      "to": "B_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt",
+        "cach_dung": "Sắc uống làm cho ra mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_CAM_SO_BANG_L",
+      "to": "S_SO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt",
+        "cach_dung": "Sắc uống làm cho ra mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_BANG_L",
+      "to": "VI_THUOC_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bàng có tác dụng giảm đau nhức.",
+        "cach_dung": "Đắp và chườm vào nơi đau nhức.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_BANG_L",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức",
+        "cach_dung": "Đắp và chườm vào nơi đau nhức."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_IA_RA_MAU_BANG_H",
+      "to": "VI_THUOC_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt bàng có tác dụng chữa ỉa ra máu.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "BT_IA_RA_MAU_BANG_H",
+      "to": "S_IA_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa ra máu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    }
+  ],
+  "metadata": {}
+}

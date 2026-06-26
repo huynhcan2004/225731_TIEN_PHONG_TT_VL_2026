@@ -1,0 +1,250 @@
+{
+  "entity_hub": "VI_THUOC_THIEN_NIEN_KIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T511",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "511"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_HY_THIEM_H",
+      "to": "VI_THUOC_THIEN_NIEN_KIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa bán thân bất toại, sử dụng Hy thiêm (sao vàng, tán bột) kết hợp với mật ong để tạo viên hoàn.",
+        "cach_dung": "Ngày uống $3-6g$ viên này, nếu uống được rượu thì nên dùng rượu để chiêu thuốc. Uống vào sau bữa ăn.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_HY_THIEM_H",
+      "to": "VT_HY_THIEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa bán thân bất toại, sử dụng Hy thiêm (sao vàng, tán bột) kết hợp với mật ong để tạo viên hoàn.",
+        "cach_dung": "Ngày uống $3-6g$ viên này, nếu uống được rượu thì nên dùng rượu để chiêu thuốc. Uống vào sau bữa ăn.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_HY_THIEM_H",
+      "to": "B_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bán thân bất toại, miệng mắt méo do cảm gió, mất tiếng.",
+        "cach_dung": "Ngày uống $3-6g$ viên này, nếu uống được rượu thì nên dùng rượu để chiêu thuốc. Uống vào sau bữa ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "VI_THUOC_THIEN_NIEN_KIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa phát bối, mọc mụn đầu đinh ở sau lưng, phối hợp các vị thuốc có tính năng giải độc, tiêu viêm.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "VT_HY_THIEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa phát bối, mọc mụn đầu đinh ở sau lưng, phối hợp các vị thuốc có tính năng giải độc, tiêu viêm.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "VT_NGU_TRAO_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phát bối, mọc mụn đầu đinh ở sau lưng, phối hợp các vị thuốc có tính năng giải độc, tiêu viêm.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "VT_TIEU_KE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phát bối, mọc mụn đầu đinh ở sau lưng, phối hợp các vị thuốc có tính năng giải độc, tiêu viêm.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "VT_DAI_TOAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa phát bối, mọc mụn đầu đinh ở sau lưng, phối hợp các vị thuốc có tính năng giải độc, tiêu viêm.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHAT_BOI_HY_THIEM_HNTD",
+      "to": "B_PHAT_BOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phát bối, mọc mụn đầu đinh ở sau lưng.",
+        "cach_dung": "Giã nát, dội chén rượu nóng vào, vắt lấy nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_NIEN_KIEN",
+      "to": "BT_PHONG_THAP_THIEN_NIEN_KIEN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên niên kiện dùng đơn độc để chữa phong thấp.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHONG_THAP_THIEN_NIEN_KIEN_T",
+      "to": "VI_THUOC_THIEN_NIEN_KIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên niên kiện dùng đơn độc để chữa phong thấp.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_PHONG_THAP_THIEN_NIEN_KIEN_T",
+      "to": "B_PHONG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong thấp, khớp xương đau nhức, co quắp, tê dại.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_NIEN_KIEN",
+      "to": "BT_DAU_NGUOI_THIEN_NIEN_KIEN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên niên kiện dùng đơn độc để chữa đau người.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_DAU_NGUOI_THIEN_NIEN_KIEN_T",
+      "to": "VI_THUOC_THIEN_NIEN_KIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên niên kiện dùng đơn độc để chữa đau người.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_DAU_NGUOI_THIEN_NIEN_KIEN_T",
+      "to": "S_DAU_NGUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh người già bị đau người, đau dạ dày, đau khớp xương.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_DAU_NGUOI_THIEN_NIEN_KIEN_T",
+      "to": "S_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh người già bị đau người, đau dạ dày, đau khớp xương.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    },
+    {
+      "from": "BT_DAU_NGUOI_THIEN_NIEN_KIEN_T",
+      "to": "S_DAU_KHOP_XUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh người già bị đau người, đau dạ dày, đau khớp xương.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hoặc ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T511"
+      }
+    }
+  ],
+  "metadata": {}
+}

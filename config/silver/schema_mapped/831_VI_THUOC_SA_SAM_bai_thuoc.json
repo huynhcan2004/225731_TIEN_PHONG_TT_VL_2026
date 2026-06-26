@@ -1,0 +1,346 @@
+{
+  "entity_hub": "VI_THUOC_SA_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T831",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "831"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_KHAN_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị ho khan.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_SA_SAM_S",
+      "to": "B_HO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho khan",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_SA_SAM_S",
+      "to": "S_SO_T",
+      "relation_type": "LIEN_QUAN_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt nóng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_SA_SAM_S",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "LIEN_QUAN_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị mồ hôi trộm.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_SA_SAM_S",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi trộm",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEN_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc thông tiểu tiện.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEN_SA_SAM_S",
+      "to": "S_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thông tiểu tiện",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị táo bón.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_SA_SAM_S",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị phù thũng.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_SA_SAM_S",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_BENH_PHOI_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị bệnh về phổi, tiêu hóa kém.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_BENH_PHOI_SA_SAM_S",
+      "to": "B_BENH_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về phổi",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_BENH_PHOI_SA_SAM_S",
+      "to": "S_TIEU_HOA_KEM",
+      "relation_type": "LIEN_QUAN_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu hoá kém",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_THIEU_SUA_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị sản phụ thiếu sữa.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_THIEU_SUA_SA_SAM_S",
+      "to": "S_THIEU_SUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sản phụ thiếu sữa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_BONG_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị bỏng.",
+        "cach_dung": "Đắp lên nơi bỏng",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_BONG_SA_SAM_S",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Đắp lên nơi bỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị mụn nhọt.",
+        "cach_dung": "Đắp lên mụn nhọt",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SA_SAM_S",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị viêm da.",
+        "cach_dung": "Đắp lên nơi viêm da",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_SA_SAM_S",
+      "to": "B_VIEM_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm da",
+        "cach_dung": "Đắp lên nơi viêm da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_SA_SAM_S",
+      "to": "VI_THUOC_SA_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sa sâm là vị thuốc chính trong bài thuốc trị vết thương.",
+        "cach_dung": "Đắp lên vết thương",
+        "ghi_chu": "Không có ghi chú đặc biệt nào cho bài thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_SA_SAM_S",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương",
+        "cach_dung": "Đắp lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T831"
+      }
+    }
+  ],
+  "metadata": {}
+}

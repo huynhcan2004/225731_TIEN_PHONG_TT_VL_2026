@@ -1,0 +1,114 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KE_NOI_KIM",
+    "ten_raw": "Kê nội kim",
+    "ten_khoa_hoc": "Corium Stomachichum Galli.",
+    "ho_thuc_vat": "họ Phasianidae",
+    "variants": [
+      "lớp màng màu vàng phủ mặt trong của mề hay dạ dày con gà"
+    ],
+    "properties": {
+      "bo_phan_dung": "lớp màng màu vàng phủ mặt trong của mề hay dạ dày con gà",
+      "thu_hai": "Quanh năm có thể thu hoạch",
+      "che_bien_tho": "mổ mề gà, bóc ngay lấy màng rồi mới rửa sạch phơi khô"
+    },
+    "display_name": "Kê nội kim"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "378"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Kê nội kim là lớp màng màu vàng phủ mặt trong của mề hay dạ dày con gà Gallus domesticus Brisson thuộc họ Phasianidae. Khi giết gà người ta lập tức mổ mề gà, bóc ngay lấy màng rồi mới rửa sạch phơi khô. Có người nói không rửa, nhưng thực tế phải rửa nhưng nhẹ tay để thức ăn còn sót lại trôi hết ( Hinhf 279 ). Màng tốt có màu vàng nâu, trên mặt có những vết nhãn dọc, chất dòn, dễ vỡ vụn, vết bẻ vụn có cạnh bóng. Toàn màng mề gà dài chừng $3,5cm$, rộng $3cm$, dày chừng $5mm$. Quanh năm có thể thu hoạch, dùng trong nước và xuất khẩu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong kê nội kim có chất prôtit và chất vị kích tố (ventriculin). Các chất khác chưa rõ."
+        ],
+        "lieu_dung_tong_quat": "null"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kê nội kim có chất prôtit và chất vị kích tố (ventriculin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "HC_VENTRICULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kê nội kim có chất prôtit và chất vị kích tố (ventriculin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    }
+  ]
+}

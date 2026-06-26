@@ -1,0 +1,286 @@
+{
+  "entity_hub": "VI_THUOC_THANH_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T128",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "128"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_LOI_RANG_THANH_DAI_BHTM",
+      "to": "VT_BACH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua sát khuẩn, thanh đại kháng viêm, hồng hoàng giải độc, băng phiến giảm đau, giúp chữa viêm lợi răng và chảy máu.",
+        "cach_dung": "Tất cả tán bột, đựng trong lọ kín. Trước khi dùng, rửa sạch răng miệng bằng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_LOI_RANG_THANH_DAI_BHTM",
+      "to": "VI_THUOC_THANH_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Phèn chua sát khuẩn, thanh đại kháng viêm, hồng hoàng giải độc, băng phiến giảm đau, giúp chữa viêm lợi răng và chảy máu.",
+        "cach_dung": "Tất cả tán bột, đựng trong lọ kín. Trước khi dùng, rửa sạch răng miệng bằng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_LOI_RANG_THANH_DAI_BHTM",
+      "to": "VT_HONG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua sát khuẩn, thanh đại kháng viêm, hồng hoàng giải độc, băng phiến giảm đau, giúp chữa viêm lợi răng và chảy máu.",
+        "cach_dung": "Tất cả tán bột, đựng trong lọ kín. Trước khi dùng, rửa sạch răng miệng bằng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_LOI_RANG_THANH_DAI_BHTM",
+      "to": "VT_MAI_HOA_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Phèn chua sát khuẩn, thanh đại kháng viêm, hồng hoàng giải độc, băng phiến giảm đau, giúp chữa viêm lợi răng và chảy máu.",
+        "cach_dung": "Tất cả tán bột, đựng trong lọ kín. Trước khi dùng, rửa sạch răng miệng bằng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_LOI_RANG_THANH_DAI_BHTM",
+      "to": "B_VIEM_LOI_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm lợi răng, chảy máu",
+        "cach_dung": "Tất cả tán bột, đựng trong lọ kín. Trước khi dùng, rửa sạch răng miệng bằng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$16g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VI_THUOC_THANH_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_DINH_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_DAI_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "VT_BACH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa cam tẩu mã với các vị hoàng bá, hoàng liên thanh nhiệt giải độc, đinh hương, đại hồi kháng viêm giảm đau, nhân trung bạch và phèn chua sát trùng, thanh đại kháng viêm.",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_THANH_DAI_HHHDNBP",
+      "to": "B_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc chữa cam tẩu mã",
+        "cach_dung": "Các vị hoàng liên, hoàng bả, đinh hương, đại hồi sấy khô, tán nhỏ, cuối cùng trộn nhân trung bạch và bạch phàn rồi thanh đại vào. Nếu bệnh nặng cần thêm ít xạ hương vào (chừng $1g$). Vì xạ hương chóng bay, cho nên chỉ nên trộn ít một vào bột khi dùng thôi. Để lâu kém tác dụng. Người lớn ngày đắp thuốc 3-4 lần, cách 3 giờ thay thuốc 1 lần. Trẻ con, trước khi đi ngủ đắp thuốc 1 lần, đêm dậy đắp lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "VI_THUOC_THANH_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thanh đại, hàn the giúp thanh nhiệt giải độc, tiêu viêm; tây ngưu hoàng và băng phiến giúp giảm đau, kháng viêm, thường dùng để chữa viêm hạch hạnh nhân, yết hầu.",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "VT_HAN_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Thanh đại, hàn the giúp thanh nhiệt giải độc, tiêu viêm; tây ngưu hoàng và băng phiến giúp giảm đau, kháng viêm, thường dùng để chữa viêm hạch hạnh nhân, yết hầu.",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "VT_TAY_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thanh đại, hàn the giúp thanh nhiệt giải độc, tiêu viêm; tây ngưu hoàng và băng phiến giúp giảm đau, kháng viêm, thường dùng để chữa viêm hạch hạnh nhân, yết hầu.",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "VT_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,5g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Thanh đại, hàn the giúp thanh nhiệt giải độc, tiêu viêm; tây ngưu hoàng và băng phiến giúp giảm đau, kháng viêm, thường dùng để chữa viêm hạch hạnh nhân, yết hầu.",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "B_VIEM_HACH_HANH_NHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm hạch hạnh nhân, yết hầu",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "BT_VIEM_HACH_HANH_NHAN_THANH_DAI_HTTB",
+      "to": "B_VIEM_YET_HAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm hạch hạnh nhân, yết hầu",
+        "cach_dung": "Tất cả tán nhỏ, khi dùng sức miệng sạch bởi thuốc vào chỗ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    }
+  ],
+  "metadata": {}
+}

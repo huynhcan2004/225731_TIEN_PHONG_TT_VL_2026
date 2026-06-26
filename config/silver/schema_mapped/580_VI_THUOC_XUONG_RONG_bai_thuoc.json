@@ -1,0 +1,100 @@
+{
+  "entity_hub": "VI_THUOC_XUONG_RONG",
+  "source": {
+    "source_id": "CT_VT_VN_T580",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "580"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HOC_XUONG_GA_XUONG_CA_HOLLD",
+      "to": "VT_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kết hợp các vị thuốc để làm mềm xương và giảm đau.",
+        "cach_dung": "Uống và ngậm nước sắc.",
+        "ghi_chu": "Ngày chỉ ngậm 1 liều, nặng có thể ngậm tới 3 liều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    },
+    {
+      "from": "BT_HOC_XUONG_GA_XUONG_CA_HOLLD",
+      "to": "VT_MANH_CONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Kết hợp các vị thuốc để làm mềm xương và giảm đau.",
+        "cach_dung": "Uống và ngậm nước sắc.",
+        "ghi_chu": "Ngày chỉ ngậm 1 liều, nặng có thể ngậm tới 3 liều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    },
+    {
+      "from": "BT_HOC_XUONG_GA_XUONG_CA_HOLLD",
+      "to": "VT_DUA_CHUOT_MA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Kết hợp các vị thuốc để làm mềm xương và giảm đau.",
+        "cach_dung": "Uống và ngậm nước sắc.",
+        "ghi_chu": "Ngày chỉ ngậm 1 liều, nặng có thể ngậm tới 3 liều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    },
+    {
+      "from": "BT_HOC_XUONG_GA_XUONG_CA_HOLLD",
+      "to": "B_HOC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hóc xương gà, xương cá.",
+        "cach_dung": "Uống một ít nhưng chủ yếu là ngậm. Ngày chỉ ngậm 1 liều trên. Nặng có thể ngậm tới 3 liều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    },
+    {
+      "from": "BT_RANG_DAU_XUONG_RONG_X",
+      "to": "VI_THUOC_XUONG_RONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$50$ cành",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Xương rồng có tác dụng giảm đau, kháng viêm.",
+        "cach_dung": "Ngậm một chốc, sau đó nhổ đi, ngày ngậm 3-4 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    },
+    {
+      "from": "BT_RANG_DAU_XUONG_RONG_X",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa răng đau.",
+        "cach_dung": "Mỗi lần dùng $1$ thìa cà phê ($15ml$) cho vào cốc nước, ngậm một chốc, sau đó nhổ đi, ngày ngậm 3-4 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T580"
+      }
+    }
+  ],
+  "metadata": {}
+}

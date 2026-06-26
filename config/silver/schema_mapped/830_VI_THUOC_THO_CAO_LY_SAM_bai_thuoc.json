@@ -1,0 +1,163 @@
+{
+  "entity_hub": "VI_THUOC_THO_CAO_LY_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T830",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "830"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "VI_THUOC_THO_CAO_LY_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sâm bố chính (Thổ cao ly sâm) được phối hợp với các vị thuốc khác để điều trị các chứng ho, sốt nóng, trong người khô, táo, khát nước, gầy còm.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T831"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng ho",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng sốt nóng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "S_KHO_TAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng trong người khô, táo",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_CAC_CHUNG_HO_THO_CAO_LY_SAM_TC",
+      "to": "S_GAY_COM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng gầy còm",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "VI_THUOC_THO_CAO_LY_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Sâm bố chính có công dụng bổ, thông tiểu tiện, điều kinh, chữa sốt, bệnh phổi và bạch đới.",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)",
+        "ghi_chu": "CT_VT_VN_T831"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "B_BENH_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh phổi",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "B_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "S_THONG_TIEU_TIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    },
+    {
+      "from": "BT_BO_THONG_TIEU_TIEN_THO_CAO_LY_SAM_T",
+      "to": "S_DIEU_KINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh",
+        "cach_dung": "Dùng $6-12g$ hay hơn (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T830"
+      }
+    }
+  ],
+  "metadata": {}
+}

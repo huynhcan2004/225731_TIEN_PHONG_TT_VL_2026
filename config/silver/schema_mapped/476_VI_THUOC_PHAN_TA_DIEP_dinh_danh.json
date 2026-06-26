@@ -1,0 +1,161 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHAN_TA_DIEP",
+    "ten_raw": "Phan tả diệp",
+    "ten_khoa_hoc": "Cassia angustifolia Vahl; Cassia acutifolia Delile",
+    "ho_thuc_vat": "Vang Caesalpiniaceae",
+    "variants": [
+      "Phan tả diệp (Folium sennae)",
+      "Phan tả diệp lá hẹp Cassia angustifolia Vahl",
+      "Phan tả diệp lá nhọn Cassia acutifolia Delile"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "mùa hoa tháng 9-12, mùa quả tháng 3 năm sau",
+      "che_bien_tho": "lá phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T476",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "476"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "tiêu tích trệ, thông đại tiện"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "là một cây nhỏ cao chừng $1m$. Lá kép lông chim chẵn, thường gồm 5 đến 8 đôi, cuống ngắn, phiến lá chét về phía cuống hơi không đối xứng. Hoa mọc thành chùm ở kẽ lá, gồm 6-14 hoa, cánh hoa màu vàng, 10 nhị: 3 nhị phía trên nhỏ và bất thụ, 4 nhị ở giữa cùng lớn, 3 nhị ở dưới cong queo. Quả đậu hình túi, dài 4-6cm, rộng 1-17cm, khi còn non có lông trắng mềm, về sau rụng đi, trong quả có 4-7 hạt. Tại những nơi cây mọc, mùa hoa tháng 9-12, mùa quả tháng 3 năm sau.",
+        "thanh_phan_hoa_hoc": [
+          "Hoạt chất của phan tả diệp là antraglucozit với tỷ lệ từ $1-1,5\\%$ antraglucozit toàn bộ, biểu thị bằng emodin trong đó trên $90\\%$ ở dạng kết hợp. Thành phần chủ yếu các antraglucozit đó là: $Xenozit A$ (sennozid A) và xenozit B tức là chất dihydro direin anthron glucozit. Ngoài ra, một chất thứ ba đã được xác định là aloe.emodin tự do và rein."
+        ],
+        "cach_dung_bao_che": "Những cây Phan tả diệp mọc hoang và được trồng ở các nước nhiệt đới châu Phi, Ấn Độ (tây bắc và nam). Thường người ta chia Phan tả diệp trên thị trường thế giới thành: 1. Phan tả diệp Alexandrie hay phan tả diệp Ai Cập hay Khactum, chủ yếu là loài Cassia acutifolia (lá nhọn). 2. Phan tả diệp Tinnevelly hay phan tả diệp Ấn Độ, chủ yếu là Cassia angustifolia (lá hẹp). Trong mỗi loại đều có trộn lẫn một số lá khác như loại phan tả diệp Ai Cập thường pha lẫn lá thảo quyết minh Cassia tora. Ngoài việc sử dụng lá, người ta còn dùng cả quả."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_XENOZIT_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu các antraglucozit đó là: $Xenozit A$ (sennozid A) và xenozit B tức là chất dihydro direin anthron glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_XENOZIT_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu các antraglucozit đó là: $Xenozit A$ (sennozid A) và xenozit B tức là chất dihydro direin anthron glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_ALOE_EMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, một chất thứ ba đã được xác định là aloe.emodin tự do và rein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_REIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, một chất thứ ba đã được xác định là aloe.emodin tự do và rein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_KAEMPFEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những chất khác là kaempferola $C₁₅H₁₀O₆(OH)₄$ và izoramnetin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "HC_IZORAMNETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những chất khác là kaempferola $C₁₅H₁₀O₆(OH)₄$ và izoramnetin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LA_MONG_TAY",
+    "ten_raw": "Lá móng tay",
+    "ten_khoa_hoc": "$Lawsonia inermis L.; Lawsonia spinosa L.$",
+    "ho_thuc_vat": "$Tử vi (Lythraceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá, thân, rễ, hoa",
+      "thu_hai": "chủ yếu người ta dùng lá phơi khô, để nguyên hay tán bột.",
+      "che_bien_tho": "lá phơi khô, để nguyên hay tán bột",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "null",
+      "phan_bo": "Mọc hoang và được trồng ở Việt Nam. Hiện nay ít trồng hơn và ít dùng. Có mọc ở khắp các nước nhiệt đới và á nhiệt đới."
+    },
+    "display_name": "Lá móng tay",
+    "canonical_name": "Lá móng tay"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_LA_MONG_TAY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc La Mong Tay"
+      }
+    },
+    {
+      "id": "HC_LAWSONE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lawsone"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "B_HAC_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hac Lao"
+      }
+    },
+    {
+      "id": "B_BENH_DA_VANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Da Vang"
+      }
+    },
+    {
+      "id": "B_BENH_HUI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Hui"
+      }
+    },
+    {
+      "id": "B_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "B_VIEM_KHI_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Khi Quan"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "DL_KHANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Sinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "120"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây lá móng tay là một cây nhỏ, cao chừng 3-4mét, thân nhẵn hoặc có gai ở đầu cành. Lá mọc đối, cuống ngắn, phiến là đơn, nhỏ, hình trứng, hai đầu bẹp, nhất là phía cuống, dài 2-3 cm, rộng 1-1,5 cm. Hoa trắng đỏ, mùi thơm, nhỏ, mọc thành chuỳ ở đầu cành. Quả nang hình cầu to bằng quả hạt tiêu, không nứt, phía cuống có đài bao bọc, có 4 cạnh dọc, 4 ngăn, trong chứa nhiều hạt nhỏ, có cạnh góc, vỏ hạt dai, rất dày phía dưới xốp.",
+        "thanh_phan_hoa_hoc": [
+          "Hoa có mùi thơm rất nồng. Từ hoa ngưới ta cất một thứ tinh dầu với tỷ lệ $0,02\\%$ dùng trong kỹ nghệ nước hoa, mỹ phẩm. Tinh dầu màu nâu sẫm rất thơm (theo Antia M.B và Kaushal, Ấn Độ, 1950).",
+          "Lá chứa một thuộc chất quinon gọi là $Lawsone$ có tác dụng kháng sinh mạnh. Ngoài ra, trước đây, người ta còn thấy trong lá móng tay có 7-8\\% $tanin$, $6\\%$ chất béo, $1,20\\%$ tinh dầu, $2-3\\%$ chất nhựa, $2\\%$ chất màu có tinh thể hình kim màu vàng da cam, chất màu này là một chất nhuộm có phản ứng axit, ra ánh sáng và không khí có màu đỏ, do đó bột có màu xanh nhạt ở giữa, màu đỏ xung quanh."
+        ],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "HC_LAWSONE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa một thuộc chất quinon gọi là $Lawsone$ có tác dụng kháng sinh mạnh.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, trước đây, người ta còn thấy trong lá móng tay có 7-8\\% $tanin$, $6\\%$ chất béo, $1,20\\%$ tinh dầu, $2-3\\%$ chất nhựa, $2\\%$ chất màu có tinh thể hình kim màu vàng da cam, chất màu này là một chất nhuộm có phản ứng axit, ra ánh sáng và không khí có màu đỏ, do đó bột có màu xanh nhạt ở giữa, màu đỏ xung quanh.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "B_BENH_DA_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "B_BENH_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "B_VIEM_KHI_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T121"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_MONG_TAY",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1961 Phòng đồng y thực nghiệm Viện vi trùng Việt nam đã thí nghiệm tác dụng kháng sinh của lá móng tay thấy tác dụng kháng sinh của lá rất mạnh. Nước sắc có tác dụng kháng sinh đối với Tụ cầu 209 P ($1cm$), Typhi ($1,2cm$), Flexneri ($0,8cm$), Shiga ($1,2cm$), Sonnei ($0,5cm$), Subtilis ($0,8$), trực trùng Coli gây bệnh ($0,5cm$), Coli bethesda ($0,4cm$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120",
+        "all_sources": [
+          "CT_VT_VN_T120"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 35.0,
+      "reliability_c_score": 0.77,
+      "total_confidence_sum": 7.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

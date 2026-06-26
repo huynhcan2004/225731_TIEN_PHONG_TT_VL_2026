@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_NGO_DONG",
+  "source": {
+    "source_id": "CT_VT_VN_T566",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "566"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    }
+  ],
+  "metadata": {}
+}

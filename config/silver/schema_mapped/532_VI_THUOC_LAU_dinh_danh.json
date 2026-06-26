@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LAU",
+    "ten_raw": "Lấu",
+    "ten_khoa_hoc": "Cocculus trilobus DC.; Phyllanthus distichus",
+    "ho_thuc_vat": "Tiết dê Menispermaceae; Thầu dầu Euphorbiaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T532",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "532"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tầm duột là một cây nhỏ, thân nhẵn. Cành có vỏ màu xám nhạt, trên có nhiều vết sẹo của lá cũ. Cành non màu xanh nhạt nhẵn. Lá mềm, mỏng, mặt trên màu xanh nhạt, mặt dưới màu nhạt hơn, dài $4$-$5cm$, rộng $18$-$20mm$, phía cuống tù hay hơi tròn, đầu phiến nhọn. Hoa mọc thành xim đơm nhị lệ trên những cành gầy nhỏ, dài $6$-$15cm$, tụ thành từng cụm $4$-$7$ hoa trên những mấu tròn, ở kẽ những lá đã rụng. Quả nang, $4$ mảnh, khi chín có màu đen nhạt, đường kính $5mm$ có đài hơi đồng trưởng, cuống quả dài chừng $7mm$ (",
+        "thanh_phan_hoa_hoc": [
+          "Trong mộc phòng kỷ có các ancaloit như trilobin $C_{36}H_{36}O_5N$ và isotrilobin $C_{36}H_{36}O_5N$. Trong quả có $89$-$91\\%$ nước, $0,73$-$0,90\\%$ chất protit, $0,61$-$0,76\\%$ chất lipit, $5,89$-$7,29\\%$ chất gluxit, độ chua biểu thị bằng axit axetic chừng $1,7\\%$. Độ tro chừng $0,52$-$0,84\\%$. Ngoài ra còn có chừng $40mg$ vitamin C trong $100g$ quả (gần như trong bưởi và chanh). Các bộ phận khác chưa thấy có tài liệu nghiên cứu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LAU",
+      "to": "HC_TRILOBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc phòng kỷ có các ancaloit như trilobin $C_{36}H_{36}O_5N$ và isotrilobin $C_{36}H_{36}O_5N$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T532"
+      }
+    },
+    {
+      "from": "VI_THUOC_LAU",
+      "to": "HC_ISOTRILOBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc phòng kỷ có các ancaloit như trilobin $C_{36}H_{36}O_5N$ và isotrilobin $C_{36}H_{36}O_5N$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T532"
+      }
+    },
+    {
+      "from": "VI_THUOC_LAU",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chừng $40mg$ vitamin C trong $100g$ quả (gần như trong bưởi và chanh)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T532"
+      }
+    }
+  ]
+}

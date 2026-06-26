@@ -1,0 +1,1452 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THACH_CAO",
+    "ten_raw": "Thạch cao",
+    "ten_khoa_hoc": "$Gypsum$",
+    "ho_thuc_vat": "$Không có thông tin$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống 10 đến $30g$ dưới dạng bột hay thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Vị thuốc Thạch cao",
+    "canonical_name": "Vị thuốc Thạch cao"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_NHUC_THACH_CAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau nhức Thạch cao",
+        "aliases": [
+          "dau nhuc thach cao",
+          "đau nhức thạch cao",
+          "daunhucthachcao"
+        ],
+        "search_vector_hint": "Đau nhức Thạch cao thuộc nhóm Bài thuốc, thường liên quan đến điều trị đau nhức."
+      }
+    },
+    {
+      "id": "BT_MACH_NHANH_THACH_CAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mạch nhanh Thạch cao",
+        "aliases": [
+          "machnhanhthachcao",
+          "mạch nhanh thạch cao",
+          "mach nhanh thach cao"
+        ],
+        "search_vector_hint": "Mạch nhanh Thạch cao thuộc nhóm Bài thuốc, thường liên quan đến điều trị mạch nhanh."
+      }
+    },
+    {
+      "id": "BT_SOT_CAO_DIEN_CUONG_THACH_CAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt cao điên cuồng Thạch cao",
+        "aliases": [
+          "sot cao dien cuong thach cao",
+          "sotcaodiencuongthachcao",
+          "sốt cao điên cuồng thạch cao"
+        ],
+        "search_vector_hint": "Sốt cao điên cuồng Thạch cao thuộc nhóm Bài thuốc, thường liên quan đến điều trị sốt cao."
+      }
+    },
+    {
+      "id": "BT_SOT_CAO_ME_SANG_THACH_CAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt cao mê sảng Thạch cao",
+        "aliases": [
+          "sốt cao mê sảng thạch cao",
+          "sotcaomesangthachcao",
+          "sot cao me sang thach cao"
+        ],
+        "search_vector_hint": "Sốt cao mê sảng Thạch cao thuộc nhóm Bài thuốc, thường liên quan đến điều trị sốt cao."
+      }
+    },
+    {
+      "id": "B_BENH_NHIET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Nhiệt",
+        "aliases": [
+          "nhiệt",
+          "nhiet"
+        ],
+        "search_vector_hint": "Bệnh Nhiệt thuộc nhóm bệnh, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_MAU_CAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "máu cam",
+          "chaymaucam",
+          "xuat huyet mui",
+          "maucam",
+          "chảy máu cam",
+          "chay mau cam",
+          "mau cam"
+        ],
+        "search_vector_hint": "Bệnh Máu cam thuộc nhóm bệnh xuất huyết, thường liên quan đến tổn thương mạch máu mũi."
+      }
+    },
+    {
+      "id": "B_PHOI_NHIET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phổi nhiệt",
+        "aliases": [
+          "phoi nhiet",
+          "phổi nhiệt",
+          "phoinhiet"
+        ],
+        "search_vector_hint": "Bệnh Phổi nhiệt thuộc nhóm bệnh, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "B_TRANG_NHIET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tràng nhiệt",
+        "aliases": [
+          "trangnhiet",
+          "trang nhiet",
+          "tràng nhiệt"
+        ],
+        "search_vector_hint": "Bệnh Tràng nhiệt thuộc nhóm bệnh, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_TRUNG_PHONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trúng phong",
+        "aliases": [
+          "trung phong",
+          "đột quỵ",
+          "dot quy",
+          "trúng phong",
+          "dotquy",
+          "trungphong"
+        ],
+        "search_vector_hint": "Bệnh Trúng phong thuộc nhóm bệnh, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_VI_HOA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm họng",
+        "aliases": [
+          "viem hong",
+          "viêm họng",
+          "viemhong"
+        ],
+        "search_vector_hint": "Viêm họng thuộc nhóm Bệnh, thường liên quan đến đường hô hấp trên."
+      }
+    },
+    {
+      "id": "CN_CHI_KHAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Chỉ khát",
+        "aliases": [
+          "chỉ khát",
+          "chikhat",
+          "chi khat"
+        ],
+        "search_vector_hint": "Chỉ khát thuộc nhóm Công năng, thường liên quan đến giảm khát nước."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_TRU_PHIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phiền",
+        "aliases": [
+          "trừ phiền",
+          "truphien",
+          "tru phien"
+        ],
+        "search_vector_hint": "Trừ phiền thuộc nhóm Công năng, thường liên quan đến giảm bồn chồn."
+      }
+    },
+    {
+      "id": "HC_CAO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cao",
+        "aliases": [
+          "cao"
+        ],
+        "search_vector_hint": "Hoạt chất Cao thuộc nhóm hoạt chất, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_HO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Hò",
+        "aliases": [
+          "ho",
+          "hò"
+        ],
+        "search_vector_hint": "Hoạt chất Hò thuộc nhóm hoạt chất, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_SO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sơ",
+        "aliases": [
+          "sơ",
+          "so"
+        ],
+        "search_vector_hint": "Hoạt chất Sơ thuộc nhóm hoạt chất, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tam tieu",
+          "tamtieu",
+          "tam tiêu"
+        ],
+        "search_vector_hint": "Kinh Tam tiêu thuộc nhóm kinh mạch, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_BUOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau buốt",
+        "aliases": [
+          "dau buot",
+          "đau buốt",
+          "daubuot"
+        ],
+        "search_vector_hint": "Triệu chứng Đau buốt thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_DAU_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau răng",
+        "aliases": [
+          "nhuc rang",
+          "nhức răng",
+          "đau răng",
+          "dau rang",
+          "daurang",
+          "nhucrang"
+        ],
+        "search_vector_hint": "Đau răng thuộc nhóm Triệu chứng, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "S_DIEN_CUONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Điên cuồng",
+        "aliases": [
+          "điên cuồng",
+          "diencuong",
+          "dien cuong"
+        ],
+        "search_vector_hint": "Điên cuồng thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tâm thần."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Khát nước",
+        "aliases": [
+          "haonuoc",
+          "khatnuoc",
+          "háo nước",
+          "khat nuoc",
+          "hao nuoc",
+          "khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Khát nước thuộc nhóm triệu chứng, thường liên quan đến mất nước hoặc bệnh lý nội tiết."
+      }
+    },
+    {
+      "id": "S_LUOI_KHO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Lưỡi khô",
+        "aliases": [
+          "lưỡi khô",
+          "luoikho",
+          "luoi kho"
+        ],
+        "search_vector_hint": "Triệu chứng Lưỡi khô thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_MACH_NHANH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mạch nhanh",
+        "aliases": [
+          "tim đập nhanh",
+          "mach nhanh",
+          "tim dap nhanh",
+          "machdapnhanh",
+          "mach dap nhanh",
+          "timdapnhanh",
+          "mạch nhanh",
+          "machnhanh",
+          "mạch đập nhanh"
+        ],
+        "search_vector_hint": "Mạch nhanh thuộc nhóm Triệu chứng, thường liên quan đến tim mạch."
+      }
+    },
+    {
+      "id": "S_ME_SANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mê sảng",
+        "aliases": [
+          "hon me",
+          "hôn mê",
+          "me sang",
+          "mesang",
+          "lulan",
+          "honme",
+          "lu lan",
+          "mê sảng",
+          "lú lẫn"
+        ],
+        "search_vector_hint": "Triệu chứng Mê sảng thuộc nhóm triệu chứng, thường liên quan đến rối loạn ý thức."
+      }
+    },
+    {
+      "id": "S_MIENG_KHO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Miệng khô",
+        "aliases": [
+          "miengkho",
+          "mieng kho",
+          "miệng khô"
+        ],
+        "search_vector_hint": "Triệu chứng Miệng khô thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi trộm",
+        "aliases": [
+          "domohoibandem",
+          "mo hoi trom",
+          "mồ hôi trộm",
+          "đổ mồ hôi ban đêm",
+          "mohoitrom",
+          "do mo hoi ban dem"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến rối loạn thần kinh thực vật."
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Nhức đầu thuộc nhóm triệu chứng, thường liên quan đến cảm giác đau ở đầu."
+      }
+    },
+    {
+      "id": "S_PHIEN_KHAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Phiền khát",
+        "aliases": [
+          "khát nước",
+          "khatnuoc",
+          "phiền khát",
+          "phienkhat",
+          "khat nuoc",
+          "phien khat"
+        ],
+        "search_vector_hint": "Triệu chứng Phiền khát thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_SOT_CAO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt cao",
+        "aliases": [
+          "sotcao",
+          "sotnong",
+          "sot nong",
+          "sốt cao",
+          "sot cao",
+          "sốt nóng"
+        ],
+        "search_vector_hint": "Sốt cao thuộc nhóm Triệu chứng, thường liên quan đến nhiễm trùng."
+      }
+    },
+    {
+      "id": "S_SOT_CAO_ME_SANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt cao mê sảng",
+        "aliases": [
+          "sốt cao mê sảng",
+          "sotcaomesang",
+          "sot cao me sang"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt cao mê sảng thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_SOT_NONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt nóng",
+        "aliases": [
+          "sotnong",
+          "sot nong",
+          "sốt nóng"
+        ],
+        "search_vector_hint": "Sốt nóng thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_SOT_QUA_PHAT_CUONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt quá phát cuồng",
+        "aliases": [
+          "sot qua phat cuong",
+          "sốt quá phát cuồng",
+          "sotquaphatcuong"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt quá phát cuồng thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_HOANG_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng liên",
+        "aliases": [
+          "hoàng liên",
+          "hoang lien",
+          "hoanglien"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng liên thuộc nhóm vị thuốc, thường liên quan đến tính kháng khuẩn."
+      }
+    },
+    {
+      "id": "VT_MAU_LE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mẫu lệ",
+        "aliases": [
+          "maule",
+          "mẫu lệ",
+          "mau le"
+        ],
+        "search_vector_hint": "Vị thuốc Mẫu lệ thuộc nhóm vị thuốc, thường liên quan đến trị các bệnh lý về xương khớp."
+      }
+    },
+    {
+      "id": "VT_NGANH_ME",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngạnh mễ",
+        "aliases": [
+          "ngạnh mễ",
+          "nganh me",
+          "nganhme"
+        ],
+        "search_vector_hint": "Ngạnh mễ thuộc nhóm Vị thuốc, thường liên quan đến bổ tỳ vị."
+      }
+    },
+    {
+      "id": "VT_THACH_CAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch cao",
+        "aliases": [
+          "thạch cao",
+          "thachcao",
+          "thach cao"
+        ],
+        "search_vector_hint": "Vị thuốc Thạch cao thuộc nhóm vị thuốc, thường liên quan đến ...",
+        "lieu_dung_chung": "Ngày uống 10 đến $30g$ dưới dạng bột hay thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Gypsum$",
+        "ho_thuc_vat": "$Không có thông tin$",
+        "hinh_thai_chi_tiet": "Thạch cao (Gypsum) là một loại khoáng vật có tinh thể tụ tập thành khối. Thạch cao dùng làm thuốc trong đông y là một muối can xi sunfat thiên nhiên có ngậm $2phân$ tử nước. Thạch cao thường là những cục màu trắng hay hơi hồng, gồm rất nhiều tinh thể không màu hơi hay vàng hoặc hơi hồng, thỉnh thoảng có những vết sắt. Thành phần chủ yếu của nó là $CaSO,.2H,O$. Trong đó có chừng $32,5\\%$ $CaO$; $46,6\\%$ $SO,$ và $20,9\\%$ $H,O$, thỉnh thoảng có lẫn ít đất sét, cát, chất hữu cơ, hợp chất sunfua, đôi khi có lẫn ít sắt và magiê.",
+        "lieu_dung_tong_quat": "Khi uống, thạch cao chỉ dùng sống nghĩa là rửa sạch tán nhỏ mà uống hoặc sắc uống.",
+        "cach_dung_bao_che": "Cần chú ý hết sức tới chế biến, vì nếu không cẩn thận, không nắm vững tính chất có thể gây nguy hiểm đến tính mạng của bệnh nhân. 1. Dùng uống: Khi uống, thạch cao chỉ dùng sống nghĩa là rửa sạch tán nhỏ mà uống hoặc sắc uống. 2. Thạch cao nung chỉ dùng ngoài, khi nung lên thạch cao sẽ mất bớt nước và chỉ còn $CaSO,1/2H,O$. Chất này nếu uống vào sẽ hút nước, nở ra có thể gây tắc ruột mà chết."
+      }
+    },
+    {
+      "id": "VT_TRI_MAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tri mẫu",
+        "aliases": [
+          "trimau",
+          "tri mẫu",
+          "tri mau"
+        ],
+        "search_vector_hint": "Tri mẫu thuộc nhóm Vị thuốc, thường liên quan đến thanh nhiệt giáng hỏa."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1064"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thạch cao (Gypsum) là một loại khoáng vật có tinh thể tụ tập thành khối. Thạch cao dùng làm thuốc trong đông y là một muối can xi sunfat thiên nhiên có ngậm $2phân$ tử nước. Thạch cao thường là những cục màu trắng hay hơi hồng, gồm rất nhiều tinh thể không màu hơi hay vàng hoặc hơi hồng, thỉnh thoảng có những vết sắt. Thành phần chủ yếu của nó là $CaSO,.2H,O$. Trong đó có chừng $32,5\\%$ $CaO$; $46,6\\%$ $SO,$ và $20,9\\%$ $H,O$, thỉnh thoảng có lẫn ít đất sét, cát, chất hữu cơ, hợp chất sunfua, đôi khi có lẫn ít sắt và magiê.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Khi uống, thạch cao chỉ dùng sống nghĩa là rửa sạch tán nhỏ mà uống hoặc sắc uống.",
+        "cach_dung_bao_che": "Cần chú ý hết sức tới chế biến, vì nếu không cẩn thận, không nắm vững tính chất có thể gây nguy hiểm đến tính mạng của bệnh nhân. 1. Dùng uống: Khi uống, thạch cao chỉ dùng sống nghĩa là rửa sạch tán nhỏ mà uống hoặc sắc uống. 2. Thạch cao nung chỉ dùng ngoài, khi nung lên thạch cao sẽ mất bớt nước và chỉ còn $CaSO,1/2H,O$. Chất này nếu uống vào sẽ hút nước, nở ra có thể gây tắc ruột mà chết."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THACH_CAO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tam tiêu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "HC_CAO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của nó là $CaSO,.2H,O$. Trong đó có chừng $32,5\\%$ $CaO$; $46,6\\%$ $SO,$ và $20,9\\%$ $H,O$, thỉnh thoảng có lẫn ít đất sét, cát, chất hữu cơ, hợp chất sunfua, đôi khi có lẫn ít sắt và magiê.",
+        "ghi_chu": "Thành phần chủ yếu của thạch cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "HC_SO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của nó là $CaSO,.2H,O$. Trong đó có chừng $32,5\\%$ $CaO$; $46,6\\%$ $SO,$ và $20,9\\%$ $H,O$, thỉnh thoảng có lẫn ít đất sét, cát, chất hữu cơ, hợp chất sunfua, đôi khi có lẫn ít sắt và magiê.",
+        "ghi_chu": "Thành phần chủ yếu của thạch cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "HC_HO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của nó là $CaSO,.2H,O$. Trong đó có chừng $32,5\\%$ $CaO$; $46,6\\%$ $SO,$ và $20,9\\%$ $H,O$, thỉnh thoảng có lẫn ít đất sét, cát, chất hữu cơ, hợp chất sunfua, đôi khi có lẫn ít sắt và magiê.",
+        "ghi_chu": "Thành phần chủ yếu của thạch cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_TRUNG_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_SOT_CAO_ME_SANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_DAU_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, sốt rét, trúng phong, sốt cao mê sảng, đầu buốt và nhức",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_BENH_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_TRANG_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_PHIEN_KHAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_MIENG_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_LUOI_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_SOT_QUA_PHAT_CUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_PHOI_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "B_VI_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bệnh nhiệt, tráng nhiệt, mồ hôi trộm, phiền khát, miệng khô, lưỡi khô, sốt quá phát cuồng, phổi nhiệt sinh họ, vị hỏa sinh nhức đầu, đau răng",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$16g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO",
+      "to": "VT_NGANH_ME",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO",
+      "to": "S_SOT_CAO_ME_SANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "S_ME_SANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MACH_NHANH_THACH_CAO",
+      "to": "S_MACH_NHANH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_DIEN_CUONG_THACH_CAO",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_DIEN_CUONG_THACH_CAO",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_DIEN_CUONG_THACH_CAO",
+      "to": "S_SOT_CAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_CAO_DIEN_CUONG_THACH_CAO",
+      "to": "S_DIEN_CUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_THACH_CAO",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_THACH_CAO",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_THACH_CAO",
+      "to": "B_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_THACH_CAO",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt giáng hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "CN_TRU_PHIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phiền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_CAO",
+      "to": "CN_CHI_KHAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ khát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "all_sources": [
+          "CT_VT_VN_T1064"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 60.0,
+      "reliability_c_score": 0.7539,
+      "total_confidence_sum": 38.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

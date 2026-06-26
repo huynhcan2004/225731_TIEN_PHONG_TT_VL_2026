@@ -1,0 +1,277 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAU_DEN",
+    "ten_raw": "Đậu đen",
+    "ten_khoa_hoc": "Vigna cylindrica Skeels; Dolichos catjang Burm. f.; Vigna catiang Endl. var.",
+    "ho_thuc_vat": "Cánh bướm Fabaceae (Papilionaceae)",
+    "variants": [
+      "Đậu đen trắng lòng",
+      "Đậu đen xanh lòng"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T254",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "254"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đậu đen là một loại cỏ mọc hằng năm, toàn thân không có lông. Lá kép gồm 3 lá chét mọc so le, có lá kèm nhỏ, lá chét giữa to và dài hơn là chét hai bên. Hoa màu tím nhạt. Quả giáp dài, tròn, trong chứa từ 7 đến 10 hạt màu đen. Ngay trong đậu đen, lại có loại đậu đen trắng lòng và đậu đen xanh lòng. Đậu đen xanh lòng có nhân màu xanh nhạt ( Hình 177 ).",
+        "thanh_phan_hoa_hoc": [
+          "Vỏ đậu đen có chất màu anthoxyanozit (Đỗ Tất Lợi, 1960). Trong hạt đậu đen có $24,2\\%$ protit, $1,7\\%$ chất béo, $53,3\\%$ gluxit, $2,8\\%$ tro. Hàm lượng muối khoáng là: $56mg\\%$ can xi; $354mg\\%$ P; $6,1mg\\%$ sắt; $0,06mg$ caroten; $0,51mg\\%$ vitamin B₁; $0,21mg\\%$ vitamin B₁; $1,8mg$ vitamin PP; $3mg\\%$ vitamin C. Hàm lượng các axit amin cần thiết trong đậu đen rất cao: Trong $100g$ đậu đen có $0,97g$ lysin, $0,31g$ metionin; $0,31g$ tryptophan; $1,16g$ phenylalanin; $1,09g$ alanin; $0,97g$ valin; $1,26g$ lenxin; $1,11g$ izoleuxin; $1,72g$ acginin và $0,75g$ histidin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_ANTHOXYANOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ đậu đen có chất màu anthoxyanozit (Đỗ Tất Lợi, 1960)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt đậu đen có $24,2\\%$ protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt đậu đen có $1,7\\%$ chất béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt đậu đen có $53,3\\%$ gluxit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_TRO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt đậu đen có $2,8\\%$ tro."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_CAN_XI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $56mg\\%$ can xi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_P",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $354mg\\%$ P"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $6,1mg\\%$ sắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_CAROTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $0,06mg$ caroten"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_VITAMIN_B1",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $0,51mg\\%$ vitamin B₁"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_VITAMIN_PP",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $1,8mg$ vitamin PP"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàm lượng muối khoáng là: $3mg\\%$ vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_LYSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $0,97g$ lysin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_METIONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $0,31g$ metionin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_TRYPTOPHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $0,31g$ tryptophan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_PHENYLALANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $1,16g$ phenylalanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_ALANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $1,09g$ alanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_VALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $0,97g$ valin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_LENXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $1,26g$ lenxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_IZOLEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $1,11g$ izoleuxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $1,72g$ acginin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DEN",
+      "to": "HC_HISTIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong $100g$ đậu đen có $0,75g$ histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T254"
+      }
+    }
+  ]
+}

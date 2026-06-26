@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_SONG_RAN",
+  "source": {
+    "source_id": "CT_VT_VN_T886",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "886"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_MAT_HOT_SONG_RAN_N",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị đau mắt.",
+        "cach_dung": "Giã nát $3$ đến $5$ hạt ngâm với $1$ lít nước, ngày nhỏ vào mắt $3$ lần.",
+        "ghi_chu": "Thuốc để lâu không có tác dụng, dùng đến đâu chế đến đó. Thuốc có độc, gây phù tẩy kết mạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOT_SONG_RAN_N",
+      "to": "B_DAU_MAT_HOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau mắt hột, đau mắt thường.",
+        "cach_dung": "Giã nát $3$ đến $5$ hạt ngâm với $1$ lít nước, ngày nhỏ vào mắt $3$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SONG_RAN_H",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị mụn nhọt.",
+        "cach_dung": "Giã hạt đắp lên mụn nhọt.",
+        "ghi_chu": "Giúp chóng vỡ mủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SONG_RAN_H",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt.",
+        "cach_dung": "Giã hạt đắp lên mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_SONG_RAN_H",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị nhức đầu.",
+        "cach_dung": "Giã hạt đắp lên.",
+        "ghi_chu": "Dùng ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_SONG_RAN_H",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhức đầu.",
+        "cach_dung": "Giã hạt đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_SONG_RAN_H",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị tê thấp.",
+        "cach_dung": "Giã hạt đắp lên.",
+        "ghi_chu": "Dùng ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_SONG_RAN_H",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê thấp.",
+        "cach_dung": "Giã hạt đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_SONG_RAN_L",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị tê thấp.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Dùng lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_SONG_RAN_L",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê thấp.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_BO_SONG_RAN_G",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn làm thuốc bổ.",
+        "cach_dung": "Theo chỉ định.",
+        "ghi_chu": "Dùng gỗ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_BO_SONG_RAN_G",
+      "to": "CO_CONG_NANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc bổ.",
+        "cach_dung": "Theo chỉ định."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_LY_SONG_RAN_V",
+      "to": "VI_THUOC_SONG_RAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sử dụng độc vị Sóng rắn để điều trị lỵ.",
+        "cach_dung": "Theo chỉ định.",
+        "ghi_chu": "Dùng vỏ cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "BT_LY_SONG_RAN_V",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lỵ.",
+        "cach_dung": "Theo chỉ định."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    }
+  ],
+  "metadata": {}
+}

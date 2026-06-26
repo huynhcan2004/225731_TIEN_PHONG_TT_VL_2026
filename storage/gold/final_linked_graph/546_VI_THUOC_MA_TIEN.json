@@ -1,0 +1,710 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_MA_TIEN",
+    "ten_raw": "Mã tiến",
+    "ten_khoa_hoc": "$Strychnos nuxvomica L.$",
+    "ho_thuc_vat": "$Mã tiền (Loganiaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Trong đông y mã tiền được dùng chữa ghẻ và những bệnh ngoài da khó chữa: Tán bột (sao vàng tán nhỏ), trộn với dầu vừng mà bôi lên nơi ghẻ, nơi lở loét, hủi. Dùng trong, mã tiền được xem như một vị thuốc chữa tê thấp, bại liệt, bán thân bất toại, chó dại cắn. Mã tiền dùng trong đông y phải chế biến như phần phân bố thu hái và chế biến đã giới thiệu. Mỗi ngày uống chừng $0,1$ đến $0,03$g $\\%$",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "miền Nam nước ta, Cao Bằng, Lạng Sơn, Hà Tây, Hoà Bình, Hà Giang, Tuyên Quang, Vĩnh Phúc, Phú Thọ, Bắc Giang, Bắc Ninh, Lào Cai, Yên Bái"
+    },
+    "display_name": "Vị thuốc Mã tiền",
+    "canonical_name": "Vị thuốc Mã tiền"
+  },
+  "nodes": [
+    {
+      "id": "BT_TE_THAP_MA_TIEN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tễ Thập Mã Tiền",
+        "aliases": [
+          "te thap ma tien",
+          "tễ thập mã tiền",
+          "tethapmatien"
+        ],
+        "search_vector_hint": "Bài thuốc Tễ Thập Mã Tiền thuộc nhóm bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_GHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ghẻ",
+        "aliases": [
+          "ghẻ",
+          "ghe"
+        ],
+        "search_vector_hint": "Bệnh Ghẻ thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng và các vấn đề về da."
+      }
+    },
+    {
+      "id": "B_TE_THAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tê thấp",
+        "aliases": [
+          "tethap",
+          "te thap",
+          "thấp khớp",
+          "thapkhop",
+          "thap khop",
+          "tê thấp"
+        ],
+        "search_vector_hint": "Bệnh Tê thấp thuộc nhóm Bệnh, thường liên quan đến các vấn đề về xương khớp và thần kinh."
+      }
+    },
+    {
+      "id": "DL_CO_GIAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Triệu chứng Co giật",
+        "aliases": [
+          "co giat",
+          "cogiat",
+          "co giật"
+        ],
+        "search_vector_hint": "Triệu chứng Co giật thuộc nhóm triệu chứng, thường liên quan đến bệnh lý thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tiêu hóa",
+        "aliases": [
+          "doc tinh tieu hoa",
+          "doctinhtieuhoa",
+          "độc tính tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tiêu hóa thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích thần kinh",
+        "aliases": [
+          "kích thích thần kinh",
+          "kich thich than kinh",
+          "kichthichthankinh"
+        ],
+        "search_vector_hint": "Dược lý Kích thích thần kinh thuộc nhóm Dược lý, thường liên quan đến hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_TANG_BAI_TIET_DICH_VI",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng bài tiết dịch vị",
+        "aliases": [
+          "tangbaitietdichvi",
+          "tăng bài tiết dịch vị",
+          "tang bai tiet dich vi"
+        ],
+        "search_vector_hint": "Dược lý Tăng bài tiết dịch vị thuộc nhóm dược lý, thường liên quan đến chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_TANG_CHUYEN_HOA_THUC_AN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Tăng chuyển hóa thức ăn",
+        "aliases": [
+          "tangchuyenhoathucan",
+          "kienty",
+          "kien ty",
+          "tang chuyen hoa thuc an",
+          "tăng chuyển hóa thức ăn",
+          "kiện tỳ",
+          "ich vi",
+          "ichvi",
+          "ích vị"
+        ],
+        "search_vector_hint": "Công năng Tăng chuyển hóa thức ăn thuộc nhóm công năng, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_TANG_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng huyết áp",
+        "aliases": [
+          "tang huyet ap",
+          "tanghuyetap",
+          "tăng huyết áp"
+        ],
+        "search_vector_hint": "Tăng huyết áp thuộc nhóm dược lý, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "HC_BRUXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Bruxin",
+        "aliases": [
+          "bruxin"
+        ],
+        "search_vector_hint": "Bruxin thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất hóa học."
+      }
+    },
+    {
+      "id": "HC_COLUBRIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Colubrin A",
+        "aliases": [
+          "colubrina",
+          "colubrin a"
+        ],
+        "search_vector_hint": "Hoạt chất Colubrin A thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_COLUBRIN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Colubrin B",
+        "aliases": [
+          "colubrinb",
+          "colubrin b"
+        ],
+        "search_vector_hint": "Hoạt chất Colubrin B thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_LOGANOSIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Loganosit",
+        "aliases": [
+          "loganosit"
+        ],
+        "search_vector_hint": "Hoạt chất Loganosit thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_STRUXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Struxin",
+        "aliases": [
+          "struxin"
+        ],
+        "search_vector_hint": "Hoạt chất Struxin thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_STRYCNIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Strycnin",
+        "aliases": [
+          "strycnin"
+        ],
+        "search_vector_hint": "Strycnin thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất hóa học."
+      }
+    },
+    {
+      "id": "HC_VOMIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vomixin",
+        "aliases": [
+          "vomixin"
+        ],
+        "search_vector_hint": "Hoạt chất Vomixin thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_DIA_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Địa liền",
+        "aliases": [
+          "thiền liền",
+          "tamnai",
+          "địa liền",
+          "tam nại",
+          "sonnai",
+          "son nai",
+          "thien lien",
+          "sơn nại",
+          "tam nai",
+          "thienlien",
+          "dia lien",
+          "dialien"
+        ],
+        "search_vector_hint": "Địa liền thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_HUONG_PHU_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hương phụ tử",
+        "aliases": [
+          "huongphu",
+          "hương phụ",
+          "hương phụ tử",
+          "huong phu",
+          "huongphutu",
+          "huong phu tu"
+        ],
+        "search_vector_hint": "Vị thuốc Hương phụ tử thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_MA_TIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mã tiền",
+        "aliases": [
+          "mã tiền",
+          "ma tien",
+          "matien"
+        ],
+        "search_vector_hint": "Mã tiền thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "hạt",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Trong đông y mã tiền được dùng chữa ghẻ và những bệnh ngoài da khó chữa: Tán bột (sao vàng tán nhỏ), trộn với dầu vừng mà bôi lên nơi ghẻ, nơi lở loét, hủi. Dùng trong, mã tiền được xem như một vị thuốc chữa tê thấp, bại liệt, bán thân bất toại, chó dại cắn. Mã tiền dùng trong đông y phải chế biến như phần phân bố thu hái và chế biến đã giới thiệu. Mỗi ngày uống chừng $0,1$ đến $0,03$g $\\%$",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "miền Nam nước ta, Cao Bằng, Lạng Sơn, Hà Tây, Hoà Bình, Hà Giang, Tuyên Quang, Vĩnh Phúc, Phú Thọ, Bắc Giang, Bắc Ninh, Lào Cai, Yên Bái",
+        "ten_khoa_hoc": "$Strychnos nuxvomica L.$",
+        "ho_thuc_vat": "$Mã tiền (Loganiaceae)$",
+        "hinh_thai_chi_tiet": "Cây mã tiền Strychnos nux-vomica L. là một cây nhỡ, mọc thẳng đứng có vỏ xám, cây non có gai. Lá mọc đối, có lá kèm, cuống ngắn, phiến lá hình bầu dục, hai đầu hơi nhọn, gân lá hình lông chim, nhưng mỗi bên gần chính có một đôi gân phụ chạy dọc theo lá và nổi ở mặt dưới. Hoa nhỏ, màu hồng, họp thành xim hình tán đều, lưỡng tính, tràng và đài có 5 cánh, đài hình phễu với 5 răng hình ba cạnh, tiền khai hoa hợp, trảng hình ống, hơi phình ở phía dưới, mặt trong có lông, trên đỉnh chia 5 thùy, so le với lá đài, trong nụ tiền khai hoa van. 5 nhị đính ở họng của ống tràng, chỉ nhị rất ngắn, mang bao phẩn có hai ngăn. Bầu có hai lá noãn, vòi đơn, quả mọng hình cầu, to bằng quả cam, có chứa cơm màu trắng, nhiều hạt hình khuy áo, phôi thẳng đứng, xung quanh có nội nhũ sừng.",
+        "thanh_phan_hoa_hoc": "['Trong hạt mã tiền có $15\\\\%$ manan, $85\\\\%$ galactan. $4-5\\\\%$ chất béo, một heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\\\%$), rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic). Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.', 'Tỷ lệ ancaloit toàn phần trong mã tiền thay đổi từ $2,5$ đến $5,5\\\\%$, trong đó strycnin chiếm $43-45\\\\%$. Mã tiền dùng làm thuốc phải chứa ít nhất $2$ đến $3\\\\%$ ancaloit toàn phần, trong đó ít nhất $45\\\\%$ phải là strycnin.']"
+      }
+    },
+    {
+      "id": "VT_MOC_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mộc Hương",
+        "aliases": [
+          "mộc hương",
+          "mochuong",
+          "moc huong"
+        ],
+        "search_vector_hint": "Vị thuốc Mộc Hương thuộc nhóm vị thuốc, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_QUE_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quế chi",
+        "aliases": [
+          "quế chi",
+          "que chi",
+          "quechi"
+        ],
+        "search_vector_hint": "Vị thuốc Quế chi thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_THUONG_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thương truật",
+        "aliases": [
+          "thuongtruat",
+          "thương truật",
+          "thuong truat"
+        ],
+        "search_vector_hint": "Thương truật thuộc nhóm vị thuốc."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "546"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mã tiền Strychnos nux-vomica L. là một cây nhỡ, mọc thẳng đứng có vỏ xám, cây non có gai. Lá mọc đối, có lá kèm, cuống ngắn, phiến lá hình bầu dục, hai đầu hơi nhọn, gân lá hình lông chim, nhưng mỗi bên gần chính có một đôi gân phụ chạy dọc theo lá và nổi ở mặt dưới. Hoa nhỏ, màu hồng, họp thành xim hình tán đều, lưỡng tính, tràng và đài có 5 cánh, đài hình phễu với 5 răng hình ba cạnh, tiền khai hoa hợp, trảng hình ống, hơi phình ở phía dưới, mặt trong có lông, trên đỉnh chia 5 thùy, so le với lá đài, trong nụ tiền khai hoa van. 5 nhị đính ở họng của ống tràng, chỉ nhị rất ngắn, mang bao phẩn có hai ngăn. Bầu có hai lá noãn, vòi đơn, quả mọng hình cầu, to bằng quả cam, có chứa cơm màu trắng, nhiều hạt hình khuy áo, phôi thẳng đứng, xung quanh có nội nhũ sừng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt mã tiền có $15\\%$ manan, $85\\%$ galactan. $4-5\\%$ chất béo, một heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\%$), rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic). Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.",
+          "Tỷ lệ ancaloit toàn phần trong mã tiền thay đổi từ $2,5$ đến $5,5\\%$, trong đó strycnin chiếm $43-45\\%$. Mã tiền dùng làm thuốc phải chứa ít nhất $2$ đến $3\\%$ ancaloit toàn phần, trong đó ít nhất $45\\%$ phải là strycnin."
+        ],
+        "lieu_dung_tong_quat": "",
+        "ghi_chu_bo_sung": "",
+        "cach_dung_bao_che": ""
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_LOGANOSIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt mã tiền có $15\\%$ manan, $85\\%$ galactan. $4-5\\%$ chất béo, một heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\%$), rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic).",
+        "ghi_chu": "heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\%$). Tên khác: loganin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_STRYCNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt mã tiền có $15\\%$ manan, $85\\%$ galactan. $4-5\\%$ chất béo, một heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\%$), rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic).",
+        "ghi_chu": "ancaloit chủ yếu là $strycnin$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_BRUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt mã tiền có $15\\%$ manan, $85\\%$ galactan. $4-5\\%$ chất béo, một heterozit gọi là $loganozit$ hay $loganin$ ($1,5\\%$), rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic).",
+        "ghi_chu": "ancaloit chủ yếu là $bruxin$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_VOMIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.",
+        "ghi_chu": "ancaloit khác thường gặp là $vomixin$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_STRUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.",
+        "ghi_chu": "ancaloit khác thường gặp là $struxin$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_COLUBRIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.",
+        "ghi_chu": "ancaloit khác thường gặp là $colubrin a$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_COLUBRIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$.",
+        "ghi_chu": "ancaloit khác thường gặp là $colubrin B$"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bột mã tiền chế (sao vàng tán nhỏ) trộn với dầu vừng. Bôi lên nơi ghẻ, nơi lở loét, hủi",
+        "ghi_chu": "bệnh ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi ngày uống chừng $0,1$ đến $0,03g$ $\\%$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mã tiền chế",
+        "ghi_chu": "bại liệt, bán thân bất toại, chó dại cắn | đau nhức, sưng khớp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_MA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_HUONG_PHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$13g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_MOC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_MA_TIEN",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên",
+        "cach_dung": "Hoàn $1000$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ",
+        "ghi_chu": "đau nhức, sưng khớp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh trung ương và ngoại vi có tác dụng kích thích với liều nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_CO_GIAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh trung ương và ngoại vi có tác dụng co giật với liều cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tim và tuần hoàn có tác dụng tăng huyết áp, do các mạch máu ngoại vi bị co nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_BAI_TIET_DICH_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với dạ dày và bộ máy tiêu hoá tăng bài tiết dịch vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_CHUYEN_HOA_THUC_AN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với dạ dày và bộ máy tiêu hoá tăng tốc độ chuyển của thức ăn sang ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu dùng luôn thì sẽ gây biến loạn tiêu hoá, biến loạn co bóp dạ dày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "all_sources": [
+          "CT_VT_VN_T546"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 49.5,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

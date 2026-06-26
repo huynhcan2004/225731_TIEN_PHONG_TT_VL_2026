@@ -1,0 +1,159 @@
+{
+  "entity_hub": "VI_THUOC_DIEM_SINH",
+  "source": {
+    "source_id": "CT_VT_VN_T1052",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1052"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAO_BON_LUU_HOANG_BL",
+      "to": "VI_THUOC_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lưu hoàng nhuận tràng thông tiện, bán hạ giúp kiện tỳ, trừ thấp, hóa trệ. Mật ong bổ trung, nhuận táo, hòa vị.",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần 10-20 viên",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_LUU_HOANG_BL",
+      "to": "VT_BAN_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$60g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lưu hoàng nhuận tràng thông tiện, bán hạ giúp kiện tỳ, trừ thấp, hóa trệ. Mật ong bổ trung, nhuận táo, hòa vị.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_LUU_HOANG_BL",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa người già bị táo bón lâu ngày",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần 10-20 viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_LUU_HOANG_BL",
+      "to": "S_DAU_KHOP_XUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khớp xương đau",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần 10-20 viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LUU_HOANG_LSS",
+      "to": "VI_THUOC_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lưu hoàng, đại phong tử, sà sàng tử đều có tác dụng sát trùng, giải độc, trừ phong ngứa. Dầu vừng giúp làm mềm da, dẫn thuốc.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LUU_HOANG_LSS",
+      "to": "VT_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lưu hoàng, đại phong tử, sà sàng tử đều có tác dụng sát trùng, giải độc, trừ phong ngứa. Dầu vừng giúp làm mềm da, dẫn thuốc.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LUU_HOANG_LSS",
+      "to": "VT_SA_SANG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lưu hoàng, đại phong tử, sà sàng tử đều có tác dụng sát trùng, giải độc, trừ phong ngứa. Dầu vừng giúp làm mềm da, dẫn thuốc.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LUU_HOANG_LSS",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "mà bôi lên các mụn nhọt đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_BI_DAI_TIEN_DIEM_SINH_D",
+      "to": "VI_THUOC_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_BI_DAI_TIEN_DIEM_SINH_D",
+      "to": "B_BI_DAI_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa người già yếu bí đại tiện",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "BT_BI_DAI_TIEN_DIEM_SINH_D",
+      "to": "B_PHONG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong thấp",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    }
+  ],
+  "metadata": {}
+}

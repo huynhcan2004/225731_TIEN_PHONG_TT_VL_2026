@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_HONG_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T905",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "905"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HONG_DANG",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "khử phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T905"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DANG",
+      "to": "CN_THONG_KINH_LAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thông kinh lạc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T905"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DANG",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "hoàng kỳ có tác dụng kháng sinh đối với vi trùng lị Shiga trong ống nghiệm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T905"
+      }
+    }
+  ],
+  "metadata": {}
+}

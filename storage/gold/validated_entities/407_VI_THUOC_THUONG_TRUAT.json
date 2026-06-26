@@ -1,0 +1,695 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUONG_TRUAT",
+    "ten_raw": "Thương truật",
+    "ten_khoa_hoc": "$Atractylodes lancea (Thunb.) DC. (Atractylis lancea Thunb.); Atractylodes lancea Atractylodes sinensis (D. C) Koidz; Atractylis sinensis D. C; Atractylodes lancea C. var sinensis Kitam; Atractylis japonica Kitaga$",
+    "ho_thuc_vat": "$Cúc Asteraceae (Compositae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ phát triển thành củ to",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng $5-10$g dưới dạng thuốc sắc hay thuốc bột, hoặc xông hun để tiêu độc trong nhà, chống sâu bọ. Ngày uống $2-3$ thìa cao này.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Giang Tô, Hà Bắc, Hà Nam, Hồ Bắc"
+    },
+    "display_name": "Thương truật",
+    "canonical_name": "Thương truật"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THUONG_TRUAT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thuong Truat"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "HC_ATRACTYLOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Atractylola"
+      }
+    },
+    {
+      "id": "HC_ATRACTYLON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Atractylon"
+      }
+    },
+    {
+      "id": "BT_DAU_BUNG_THUONG_TRUAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Bung Thuong Truat"
+      }
+    },
+    {
+      "id": "VI_THUOC_HAU_PHAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Hau Phac"
+      }
+    },
+    {
+      "id": "VI_THUOC_TRAN_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Tran Bi"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "B_VIEM_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Da Day"
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Ruot"
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Non Mua"
+      }
+    },
+    {
+      "id": "S_DI_TA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Di Ta"
+      }
+    },
+    {
+      "id": "S_DAY_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Day Bung"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "CN_KIEN_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kien Ty"
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tao Thap"
+      }
+    },
+    {
+      "id": "CN_PHAT_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Phat Han"
+      }
+    },
+    {
+      "id": "DL_TRAN_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tran Tinh"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_PHAN_XA_TY_SONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Phan Xa Ty Song"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    },
+    {
+      "id": "DL_HA_DUONG_HUYET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Duong Huyet"
+      }
+    },
+    {
+      "id": "DL_UC_CHE_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Uc Che Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Hap"
+      }
+    },
+    {
+      "id": "DL_UC_CHE_CO_TRON_TA_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Uc Che Co Tron Ta Trang"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "407"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thương truật là một loại cây sống lâu năm, cao chừng $0,60m$, có rễ phát triển thành củ to, thân mọc thẳng đứng. Lá mọc so le, gần như không có cuống, lá ở phía gốc chia 3 thùy nhưng cắt không sâu. 2 thùy 2 bên không lớn lắm, thùy giữa rất lớn, lá phía trên hình mác, không chia thùy. Mép lá trên lá dưới đều có răng cưa nhỏ nhọn. Cụm hoa hình đầu, tổng bao do 5-7 lớp như ngói lợp, hình ống, những hoa phía ngoài là hoa cái, những hoa trong lưỡng tính, tràng hoa màu trắng hay tím nhạt, đỉnh chia 5 thùy xẻ xâu. 5 nhị (bị thoái hóa ở hoa cái), nhụy có đầu vòi chia hai, bầu có lông mềm nhỏ. Cụm hoa thương truật so với cụm hoa của bạch truật nhỏ và gầy hơn. Quả khô",
+        "thanh_phan_hoa_hoc": [
+          "Trong thương truật có tinh dầu, trong tinh dầu thành phần chủ yếu là $atractylola$, $atractylon$."
+        ],
+        "ghi_chu_bo_sung": "Có thể mùa thu hoạch vào mùa xuân hay mùa thu, loại thu hoạch vào các tháng 7-8 được coi là tốt hơn. Đào về, rửa sạch đất, cắt bỏ rễ con, phơi hay sấy khô. Có nơi đem đốt nhẹ rễ để loại bỏ rễ con hay có nơi lại cạo bỏ vỏ ngoài để lộ các túi tinh dầu màu vàng, trông bề ngoài đẹp, nhưng cả hai phương pháp đều không nên áp dụng vì làm như vậy tỷ lệ tinh dầu sẽ bị giảm.",
+        "cach_dung_bao_che": "một nửa, gạn lấy nước, thay nước mới, làm như vậy 3 lần rồi hợp cả 3 nước cô đặc thành cao."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị khổ (đắng)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị tân (cay)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "HC_ATRACTYLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thương truật có tinh dầu, trong tinh dầu thành phần chủ yếu là $atractylola$, $atractylon$.",
+        "ghi_chu": "thành phần chủ yếu trong tinh dầu của thương truật"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "HC_ATRACTYLON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thương truật có tinh dầu, trong tinh dầu thành phần chủ yếu là $atractylola$, $atractylon$.",
+        "ghi_chu": "thành phần chủ yếu trong tinh dầu của thương truật"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "VI_THUOC_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$160g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "VI_THUOC_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$120g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "VI_THUOC_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "S_DI_TA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_THUONG_TRUAT",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CN_PHAT_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phát hãn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ tinh dầu của thương truật có tác dụng trấn tĩnh đối với một loại ếch xanh (Trung Quốc).",
+        "ghi_chu": "Thí nghiệm trên ếch xanh (Trung Quốc). Tác dụng này chỉ được ghi nhận ở liều nhỏ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_KICH_THICH_PHAN_XA_TY_SONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ tinh dầu của thương truật có tác dụng xúc tiến cơ năng phản xạ của tủy sống.",
+        "ghi_chu": "Thí nghiệm trên ếch xanh (Trung Quốc). Tác dụng này chỉ được ghi nhận ở liều nhỏ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao tinh dầu thương truật có tác dụng ức chế trung khu thần kinh rồi đến chết do ngừng hô hấp.",
+        "ghi_chu": "Thí nghiệm trên ếch xanh (Trung Quốc)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_HA_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao thương truật tương đương với $6g$ vị thuốc trên $1kg$ thể trọng, tiêm dưới da cho thỏ thì thấy trong vòng 2-5 giờ, lượng huyết đường giảm xuống.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_UC_CHE_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tim ếch cũng có tác dụng ức chế nhịp đập, làm cho tim đập chậm.",
+        "ghi_chu": "Thí nghiệm trên tim ếch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao cao thương truật làm cho tim tê liệt mà ngừng đập.",
+        "ghi_chu": "Thí nghiệm trên tim ếch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm tĩnh mạch với liều nhỏ ($0,1-0,3g$ cho $1kg$ thể trọng) thì làm cho huyết áp hơi tăng cao, liều cao ($0,5-2ml$ trên $1kg$ thể trọng) thì làm cho huyết áp hạ thấp.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với hô hấp thì dù với liều to hay nhỏ đều làm cho tạm thời tăng nhanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_UC_CHE_CO_TRON_TA_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tá tràng cô lập của thỏ thì có tác dụng ức chế.",
+        "ghi_chu": "Thí nghiệm trên tá tràng cô lập của thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407",
+        "all_sources": [
+          "CT_VT_VN_T407"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 51.0,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

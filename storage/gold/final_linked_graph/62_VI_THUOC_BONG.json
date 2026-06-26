@@ -1,0 +1,254 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_BONG",
+    "ten_raw": "Cây bông",
+    "ten_khoa_hoc": "$Gossypium sp.$",
+    "ho_thuc_vat": "$họ Bông Malvaceae$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Liều dùng 3-5$g$ dưới dạng sắc.",
+      "muc_do_doc": "Không độc",
+      "bo_phan_dung": "vỏ rễ cây bông"
+    },
+    "display_name": "Vị thuốc Bông",
+    "canonical_name": "Vị thuốc Bông"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAM_MAU_TU_CUNG_CAY_BONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cầm máu tử cung cây bông",
+        "aliases": [
+          "cầm máu tử cung cây bông",
+          "cammautucungcaybong",
+          "cam mau tu cung cay bong"
+        ],
+        "search_vector_hint": "Bài thuốc Cầm máu tử cung cây bông thuộc nhóm bài thuốc, thường liên quan đến cầm máu."
+      }
+    },
+    {
+      "id": "BT_DIEU_KINH_CAY_BONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Điều kinh cây bông",
+        "aliases": [
+          "dieu kinh cay bong",
+          "điều kinh cây bông",
+          "dieukinhcaybong"
+        ],
+        "search_vector_hint": "Bài thuốc Điều kinh cây bông thuộc nhóm bài thuốc, thường liên quan đến điều hòa kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_KHONG_DEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt không đều",
+        "aliases": [
+          "kinhnguyetthatthuong",
+          "kinh nguyet khong deu",
+          "roi loan kinh nguyet",
+          "kinh nguyệt không đều",
+          "kinh nguyet that thuong",
+          "kinhnguyetkhongdeu",
+          "kinh nguyệt thất thường",
+          "roiloankinhnguyet",
+          "rối loạn kinh nguyệt"
+        ],
+        "search_vector_hint": "Bệnh Kinh nguyệt không đều thuộc nhóm bệnh, thường liên quan đến rối loạn nội tiết tố nữ."
+      }
+    },
+    {
+      "id": "B_RONG_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rong huyết",
+        "aliases": [
+          "rong huyết",
+          "rong huyet",
+          "ronghuyet"
+        ],
+        "search_vector_hint": "Bệnh Rong huyết thuộc nhóm bệnh, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_TAC_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tắc kinh",
+        "aliases": [
+          "be kinh",
+          "tackinh",
+          "tac kinh",
+          "tắc kinh",
+          "bế kinh",
+          "bekinh"
+        ],
+        "search_vector_hint": "Bệnh Tắc kinh thuộc nhóm bệnh, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "HC_GOSSYPOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Gossypola",
+        "aliases": [
+          "gossypola"
+        ],
+        "search_vector_hint": "Hoạt chất Gossypola thuộc nhóm hoạt chất, thường liên quan đến dược lý."
+      }
+    },
+    {
+      "id": "VT_BONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bông",
+        "aliases": [
+          "bông",
+          "cay bong",
+          "caybong",
+          "cây bông",
+          "bong"
+        ],
+        "search_vector_hint": "Vị thuốc Bông thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "lieu_dung_chung": "Liều dùng 3-5$g$ dưới dạng sắc.",
+        "muc_do_doc": "Không độc",
+        "bo_phan_dung": "vỏ rễ cây bông",
+        "ten_khoa_hoc": "$Gossypium sp.$",
+        "ho_thuc_vat": "$họ Bông Malvaceae$",
+        "thanh_phan_hoa_hoc": "['chất $gossypola$']"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "62"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "chất $gossypola$"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_BONG",
+      "to": "HC_GOSSYPOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất $gossypola$",
+        "ghi_chu": "gossypola"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAU_TU_CUNG_CAY_BONG",
+      "to": "VT_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Vỏ rễ cây bông",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BONG",
+      "to": "B_RONG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Dùng dưới dạng cao lỏng",
+        "ghi_chu": "CT_VT_VN_T62"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DIEU_KINH_CAY_BONG",
+      "to": "VT_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BONG",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Sắc với $300$ml nước còn $100$ml. Uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T63"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BONG",
+      "to": "B_TAC_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Sắc với $300$ml nước còn $100$ml. Uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T63"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62",
+        "all_sources": [
+          "CT_VT_VN_T62"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 22.5,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

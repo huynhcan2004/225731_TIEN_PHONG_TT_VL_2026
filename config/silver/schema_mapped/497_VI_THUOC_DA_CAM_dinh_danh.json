@@ -1,0 +1,88 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DA_CAM",
+    "ten_raw": "Cây dạ cẩm",
+    "ten_khoa_hoc": "Oldenlandia eapitellata Kuntze; Ardisia sylvestris Pitard.",
+    "ho_thuc_vat": "Cà phê Rubiaceae; Đơn nem Myrsinaceae",
+    "variants": [
+      "loét mồm",
+      "Cây dạ cẩm thân tím",
+      "cây dạ cẩm thân xanh",
+      "cây dạ cẩm thân trắng"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá và ngọn non",
+      "phan_bo": "Cao Bằng, Lạng Sơn, Bắc Cạn, Thái Nguyên, Hà Giang, Hà Tây",
+      "thu_hai": "quanh năm",
+      "che_bien_tho": "rửa sạch phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T497",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "497"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây dạ cẩm vốn có tên là loét mồm vì nhân dân vùng Lạng Sơn, Cao Bằng dùng nó chữa loét mồm, loét lưỡi, là một loại cây bụi trườn, thường cuốn vào cây khác, dài tới $1$-$2m$. Thân hình trụ, tại những đốt phình to ra. Lá đơn, nguyên, mọc đối, hình bầu dục, đầu nhọn, dài $5$-$15cm$, rộng $3$-$6cm$, cuống ngắn. Cụm hoa hình xim phân đối tụ lại thành hình cầu ở đầu cành hay kẽ lá, gồm nhiều hoa hình ống nhỏ, màu trắng. Quả rất nhỏ, xếp thành hình cầu Trên thực tế hiện nay người ta dùng 4 loại cây dạ cẩm, có thể là các dạng của loài mô tả trên: Cây dạ cẩm thân tím và cây dạ cẩm thân xanh (có khi gọi là thân trắng); mỗi loại lại thấy có 2 loại: loại nhiều lông nhìn rõ và loại ít lòng trông không rõ. Loại thân tím có đốt cách thưa nhau, loại thân xanh hay trắng có đốt mọc sít nhau hơn.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa có tài liệu nghiên cứu. Theo sơ bộ nghiên cứu của chi hội dược Lạng Sơn, trong dạ cẩm có tanin, ancaloit, saponin.",
+          "Năm 1967, Ngô Văn Thu (Bộ môn dược liệu Trường đại học Dược khoa) còn phát hiện thấy trong rễ một loại dạ cẩm có anthra-glucozit."
+        ],
+        "cach_dung_bao_che": "Hái về rửa sạch phơi hay sấy khô, để nơi khô ráo dùng dần hay nấu thành cao."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DA_CAM",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sơ bộ nghiên cứu của chi hội dược Lạng Sơn, trong dạ cẩm có tanin, ancaloit, saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_CAM",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sơ bộ nghiên cứu của chi hội dược Lạng Sơn, trong dạ cẩm có tanin, ancaloit, saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_CAM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sơ bộ nghiên cứu của chi hội dược Lạng Sơn, trong dạ cẩm có tanin, ancaloit, saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_CAM",
+      "to": "HC_ANTHRA_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1967, Ngô Văn Thu (Bộ môn dược liệu Trường đại học Dược khoa) còn phát hiện thấy trong rễ một loại dạ cẩm có anthra-glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    }
+  ]
+}

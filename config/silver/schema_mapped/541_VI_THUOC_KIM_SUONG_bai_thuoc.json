@@ -1,0 +1,193 @@
+{
+  "entity_hub": "VI_THUOC_KIM_SUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T541",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "541"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NON_MUA_KIM_SUONG_K",
+      "to": "VI_THUOC_KIM_SUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để giảm nôn mửa và đau bụng.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_KIM_SUONG_K",
+      "to": "B_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa, đau bụng, bụng đầy chướng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_KIM_SUONG_K",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa, đau bụng, bụng đầy chướng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TE_THAP_KIM_SUONG_K",
+      "to": "VI_THUOC_KIM_SUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng ngoài xoa bóp trị đau nhức, tê thấp.",
+        "cach_dung": "Dùng ngoài ngâm rượu xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TE_THAP_KIM_SUONG_K",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức, tê thấp",
+        "cach_dung": "Dùng ngoài ngâm rượu xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TE_THAP_KIM_SUONG_K",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức, tê thấp",
+        "cach_dung": "Dùng ngoài ngâm rượu xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TEO_CO_KIM_SUONG_C",
+      "to": "VI_THUOC_KIM_SUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ ngâm rượu xoa bóp trị đau nhức, teo cơ.",
+        "cach_dung": "Ngâm trong vòng 7 đến 10 ngày. Lấy rượu xoa bóp nơi đau nhức, teo cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TEO_CO_KIM_SUONG_C",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức, teo cơ",
+        "cach_dung": "Ngâm trong vòng 7 đến 10 ngày. Lấy rượu xoa bóp nơi đau nhức, teo cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_TEO_CO_KIM_SUONG_C",
+      "to": "S_TEO_CO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức, teo cơ",
+        "cach_dung": "Ngâm trong vòng 7 đến 10 ngày. Lấy rượu xoa bóp nơi đau nhức, teo cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_KIM_SUONG_K",
+      "to": "VI_THUOC_KIM_SUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để điều trị kinh nguyệt không đều, sốt, đau nhức, tê thấp.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_KIM_SUONG_K",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Kinh nguyệt không đều, sốt, đau nhức, tê thấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_KIM_SUONG_K",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kinh nguyệt không đều, sốt, đau nhức, tê thấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_KIM_SUONG_K",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kinh nguyệt không đều, sốt, đau nhức, tê thấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_KIM_SUONG_K",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kinh nguyệt không đều, sốt, đau nhức, tê thấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541"
+      }
+    }
+  ],
+  "metadata": {}
+}

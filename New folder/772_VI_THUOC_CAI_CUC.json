@@ -1,0 +1,143 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAI_CUC",
+    "ten_raw": "Cải cúc",
+    "ten_khoa_hoc": "Chrysanthemum coronarium L.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Mỗi ngày uống 10-16$g$ dưới dạng thuốc pha hay thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cải cúc được trồng ở khắp nơi chủ yếu để lấy rau ăn. Một số ít dùng làm thuốc. Khi dùng làm thuốc thì dùng tươi hay phơi khô trong mát.nCòn mọc và được trồng ở Trung Quốc, Nhật Bản. Người ta cho rằng cây cải cúc nguồn gốc ở châu Âu và miền Bắc châu Á."
+    },
+    "display_name": "Cải cúc"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CAI_CUC",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cai Cuc"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_DAU_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Mat"
+      }
+    },
+    {
+      "id": "S_NHUC_DAU_KINH_NIEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhuc Dau Kinh Nien"
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tho Huyet"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T772",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "772"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ mọc hằng năm, thân mọc thẳng, nhẫn, cao từ $0,5$-$0,8m$, mang nhiều cành. Lá ôm vào thân, phiến xẻ lông chim với những thuỳ hình mác, nhưng ở đầu thì nở rộng, có răng cưa. Cụm hoa hình đầu màu vàng, mọc ở đầu cành, lá bắc khô xác ở đầu (Hình 583).",
+        "thanh_phan_hoa_hoc": [
+          "Trong cải cúc cho tinh dầu mùi thơm đặc biệt. Ngoài ra còn có $5,57\\%$ hydrat cacbon, $1.85\\%$ protein, $0,43\\%$ chất béo, nhiều vitamin B, một lượng trung bình vitamin C và ít vitamin A."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cải cúc cho tinh dầu mùi thơm đặc biệt.",
+        "ghi_chu": "tinh dầu mùi thơm đặc biệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thái nhỏ, cho vào chén con, thêm ít đường trắng, cho vào nồi cơm hấp cho tiết nước ra. Chia làm nhiều lần uống trong ngày | Thường những người họ lâu ngày nấu canh ăn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T773"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Uống dưới dạng thuốc pha hay thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T773"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "S_NHUC_DAU_KINH_NIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Uống dưới dạng thuốc pha hay thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T773"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Uống dưới dạng thuốc pha hay thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T773"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    }
+  ]
+}

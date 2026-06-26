@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VO_LUU",
+    "ten_raw": "Vỏ lựu",
+    "ten_khoa_hoc": "Pericarpium granati",
+    "ho_thuc_vat": "Thạch lựu",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ quả",
+      "che_bien_tho": "Tức là vỏ quả cây thạch lựu Pericarpium granati"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T203",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "203"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong vỏ quả lựu chứa chừng $28\\%$ chất tanin và chất màu.",
+          "Các chất này có tính chất làm săn da và sát khuẩn mạnh."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VO_LUU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ quả lựu chứa chừng $28\\%$ chất tanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T203"
+      }
+    },
+    {
+      "from": "VI_THUOC_VO_LUU",
+      "to": "HC_CHAT_MAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ quả lựu chứa chừng $28\\%$ chất tanin và chất màu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T203"
+      }
+    }
+  ]
+}

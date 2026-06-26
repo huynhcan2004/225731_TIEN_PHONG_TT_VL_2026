@@ -1,0 +1,633 @@
+{
+  "entity_hub": "VI_THUOC_CAT_CANH",
+  "source": {
+    "source_id": "CT_VT_VN_T731",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "731"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_HONG_CAT_CANH_CC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh và Cam thảo phối hợp giúp thanh nhiệt, giải độc, giảm đau họng và làm dịu khản tiếng.",
+        "cach_dung": "Ngậm nuốt từ từ",
+        "ghi_chu": "Ngày uống 2-3 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_DAU_HONG_CAT_CANH_CC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh và Cam thảo phối hợp giúp thanh nhiệt, giải độc, giảm đau họng và làm dịu khản tiếng.",
+        "cach_dung": "Ngậm nuốt từ từ",
+        "ghi_chu": "Ngày uống 2-3 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_DAU_HONG_CAT_CANH_CC",
+      "to": "B_DAU_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau họng",
+        "cach_dung": "Ngậm nuốt từ từ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_DAU_HONG_CAT_CANH_CC",
+      "to": "S_KHAN_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khản tiếng",
+        "cach_dung": "Ngậm nuốt từ từ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_NHIEU_DOM_CAT_CANH_CC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Cam thảo giúp điều hòa các vị thuốc, giảm ho.",
+        "cach_dung": "Uống làm một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_NHIEU_DOM_CAT_CANH_CC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Cam thảo giúp điều hòa các vị thuốc, giảm ho.",
+        "cach_dung": "Uống làm một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_NHIEU_DOM_CAT_CANH_CC",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho nhiều đờm",
+        "cach_dung": "Uống làm một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, kết hợp Ma hoàng, Hạnh nhân giúp bình suyễn, Cam thảo và Bán hạ chế giúp hóa đờm, giảm ho.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "VI_THUOC_MA_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, kết hợp Ma hoàng, Hạnh nhân giúp bình suyễn, Cam thảo và Bán hạ chế giúp hóa đờm, giảm ho.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "VI_THUOC_HANH_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, kết hợp Ma hoàng, Hạnh nhân giúp bình suyễn, Cam thảo và Bán hạ chế giúp hóa đờm, giảm ho.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, kết hợp Ma hoàng, Hạnh nhân giúp bình suyễn, Cam thảo và Bán hạ chế giúp hóa đờm, giảm ho.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "VI_THUOC_BAN_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, kết hợp Ma hoàng, Hạnh nhân giúp bình suyễn, Cam thảo và Bán hạ chế giúp hóa đờm, giảm ho.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CAT_CANH_MHCB",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen suyễn",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CAT_CANH_CK",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thanh nhiệt, giải độc, kết hợp Kim ngân hoa giúp kháng viêm, tiêu nhọt.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CAT_CANH_CK",
+      "to": "VI_THUOC_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thanh nhiệt, giải độc, kết hợp Kim ngân hoa giúp kháng viêm, tiêu nhọt.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CAT_CANH_CK",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt ở ngực (nhũ ung)",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_KINH_GIOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, giải độc, kết hợp Ngân hoa, Liên kiều, Kinh giới, Phòng phong giúp thanh nhiệt, giải biểu, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_CAT_CANH_CNLL",
+      "to": "B_VIEM_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng bệnh ở họng (viêm họng, sưng đau)",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_CAT_CANH_CC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp rễ cây Chanh giúp thanh nhiệt, lương huyết, cầm máu.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_CAT_CANH_CC",
+      "to": "VI_THUOC_CHANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp rễ cây Chanh giúp thanh nhiệt, lương huyết, cầm máu.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_CAT_CANH_CC",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_AP_XE_PHOI_CAT_CANH_CIKB",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ mủ, kết hợp Ý dĩ, Bồ công anh, Kim ngân hoa giúp thanh nhiệt, giải độc, tiêu viêm.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_AP_XE_PHOI_CAT_CANH_CIKB",
+      "to": "VI_THUOC_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ mủ, kết hợp Ý dĩ, Bồ công anh, Kim ngân hoa giúp thanh nhiệt, giải độc, tiêu viêm.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_AP_XE_PHOI_CAT_CANH_CIKB",
+      "to": "VI_THUOC_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ mủ, kết hợp Ý dĩ, Bồ công anh, Kim ngân hoa giúp thanh nhiệt, giải độc, tiêu viêm.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_AP_XE_PHOI_CAT_CANH_CIKB",
+      "to": "VI_THUOC_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ mủ, kết hợp Ý dĩ, Bồ công anh, Kim ngân hoa giúp thanh nhiệt, giải độc, tiêu viêm.",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_AP_XE_PHOI_CAT_CANH_CIKB",
+      "to": "B_AP_XE_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa áp xe phổi (giai đoạn đầu)",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_CAT_CANH_C",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thanh nhiệt, giải độc, tiêu viêm.",
+        "cach_dung": "nhỏ vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_CAT_CANH_C",
+      "to": "B_VIEM_TAI_GIUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm tai giữa",
+        "cach_dung": "nhỏ vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, Cam thảo giúp điều hòa các vị thuốc, giảm ho.",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, Cam thảo giúp điều hòa các vị thuốc, giảm ho.",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CC",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ, tiêu đờm",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CC",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cát cánh cam thảo thang chữa họ tiêu đờm",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Kinh giới, Bách bộ, Trần bì giúp giảm ho, long đờm, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "VI_THUOC_KINH_GIOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Kinh giới, Bách bộ, Trần bì giúp giảm ho, long đờm, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "VI_THUOC_BACH_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Kinh giới, Bách bộ, Trần bì giúp giảm ho, long đờm, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Kinh giới, Bách bộ, Trần bì giúp giảm ho, long đờm, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "VI_THUOC_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thông phế, trừ đờm, kết hợp Kinh giới, Bách bộ, Trần bì giúp giảm ho, long đờm, Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_HO_TIEU_DOM_CAT_CANH_CKBTC",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ, tiêu đờm",
+        "cach_dung": "ngày uống 3-9g bột này, chia làm 3 lần uống vào sau 2 bữa ăn và trước khi đi ngủ, mỗi lần 1-3g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_CAM_RANG_CAT_CANH_CH",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh giúp thanh nhiệt, giải độc, tiêu viêm, kết hợp Hồi hương giúp kháng khuẩn, giảm đau.",
+        "cach_dung": "Bôi vào nơi cam răng đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_CAM_RANG_CAT_CANH_CH",
+      "to": "VI_THUOC_HOI_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp thanh nhiệt, giải độc, tiêu viêm, kết hợp Hồi hương giúp kháng khuẩn, giảm đau.",
+        "cach_dung": "Bôi vào nơi cam răng đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    },
+    {
+      "from": "BT_CAM_RANG_CAT_CANH_CH",
+      "to": "B_CAM_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cam răng, miệng hôi",
+        "cach_dung": "Bôi vào nơi cam răng đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T731"
+      }
+    }
+  ],
+  "metadata": {}
+}

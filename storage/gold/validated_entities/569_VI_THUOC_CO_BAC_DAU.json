@@ -1,0 +1,224 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CO_BAC_DAU",
+    "ten_raw": "Cỏ bạc đầu",
+    "ten_khoa_hoc": "$Kyllinga monocephala Rottb.; Gynura procumbens (Lour.) Merr. (Gynura sarmentosa DC.)$",
+    "ho_thuc_vat": "$Cói Cyperaceae; Cúc Asteraceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng 20-40$g$ tươi hay 8-16$g$ khô dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang ở khắp nơi, tại những bãi cỏ, ven đường đi. [CT_VT_VN_T570]: Cây mọc hoang ở nhiều nơi ẩm thấp trong nước ta. Còn thấy mọc ở các nước nhiệt đới châu Á."
+    },
+    "display_name": "Cỏ bạc đầu",
+    "canonical_name": "Cỏ bạc đầu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CO_BAC_DAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Co Bac Dau"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau"
+      }
+    },
+    {
+      "id": "B_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "B_IA_CHAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ia Chay"
+      }
+    },
+    {
+      "id": "B_VET_THUONG_RAN_RET_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Thuong Ran Ret Can"
+      }
+    },
+    {
+      "id": "B_DAI_THAO_DUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dai Thao Duong"
+      }
+    },
+    {
+      "id": "DL_TAI_TAO_TE_BAO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tai Tao Te Bao"
+      }
+    },
+    {
+      "id": "DL_HA_DUONG_HUYET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Duong Huyet"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "569"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ thân nhẵn, thân rễ mọc bò, thân cao 5-30cm. Lá thường ngắn hơn thân, phiến lá hẹp và dài. Cụm hoa hình cầu, đường kính $8-12mm$, mọc trên một cán dài hình ba cạnh, gồm nhiều hoa màu trắng, mang ba lá bắc dài, nằm ngang. Quả bế hình bầu dục, dẹt, trắng vàng nhạt, có những chấm nhỏ. Toàn cây vò ra có mùi thơm đặc biệt ( Hình 434).",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây có $tinh dầu$. Hoạt chất chưa rõ."
+        ],
+        "cach_dung_bao_che": "Người ta hái cả cây và rễ về làm thuốc. Thu hái quanh năm. Thường dùng tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây có $tinh dầu$.",
+        "ghi_chu": "Hoạt chất chưa rõ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cây hái về rửa sạch giã nát, thêm ít muối vào đắp lên nơi sưng đau",
+        "ghi_chu": "Sát trùng, chữa sâu quảng, lở loét. Đắp lên nơi sưng đau. CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "B_VET_THUONG_RAN_RET_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nát đắp lên vết thương",
+        "ghi_chu": "CT_VT_VN_T570"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "B_DAI_THAO_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-16g$ khô",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T570"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "DL_TAI_TAO_TE_BAO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cỏ bạc đầu có tác dụng kích thích sự tái sinh của tế bào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_BAC_DAU",
+      "to": "DL_HA_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dịch chiết của Cỏ bạc đầu có tác dụng làm giảm đường huyết trên chuột nhắt trắng.",
+        "ghi_chu": "Thí nghiệm trên chuột nhắt trắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T569",
+        "all_sources": [
+          "CT_VT_VN_T569"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 34.0,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

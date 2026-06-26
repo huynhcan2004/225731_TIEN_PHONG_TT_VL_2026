@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_CA_ROT",
+  "source": {
+    "source_id": "CT_VT_VN_T452",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "452"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "DL_GIAM_NHU_DONG_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm giảm nhu động ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "DL_HAP_THU_CHAT_NHAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hút chất nhầy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "DL_KHU_DOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hút độc tố vi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452"
+      }
+    }
+  ],
+  "metadata": {}
+}

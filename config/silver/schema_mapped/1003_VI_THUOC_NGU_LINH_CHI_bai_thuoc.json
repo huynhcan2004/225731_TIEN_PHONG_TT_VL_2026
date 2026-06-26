@@ -1,0 +1,125 @@
+{
+  "entity_hub": "VI_THUOC_NGU_LINH_CHI",
+  "source": {
+    "source_id": "CT_VT_VN_T1003",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1003"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KINH_NGUYET_BE_NGU_LINH_CHI_BN",
+      "to": "VI_THUOC_NGU_LINH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngũ linh chi và Bồ hoàng phối hợp để hoạt huyết, thông kinh, giảm đau.",
+        "mo_ta_chi_tiet": "Ngũ linh chi, Bồ hoàng hai vị bằng nhau tán nhỏ.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4-6g$ với rượu hâm nóng.",
+        "ghi_chu": "CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_BE_NGU_LINH_CHI_BN",
+      "to": "VI_THUOC_BO_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngũ linh chi và Bồ hoàng phối hợp để hoạt huyết, thông kinh, giảm đau.",
+        "mo_ta_chi_tiet": "Ngũ linh chi, Bồ hoàng hai vị bằng nhau tán nhỏ.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4-6g$ với rượu hâm nóng.",
+        "ghi_chu": "CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_BE_NGU_LINH_CHI_BN",
+      "to": "B_KINH_NGUYET_BE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đàn bà kinh nguyệt bế, bụng đau, sau khi đẻ máu hôi không ra",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4-6g$ với rượu hâm nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_BE_NGU_LINH_CHI_BN",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đàn bà kinh nguyệt bế, bụng đau, sau khi đẻ máu hôi không ra",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4-6g$ với rượu hâm nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_NGU_LINH_CHI_MN",
+      "to": "VI_THUOC_NGU_LINH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngũ linh chi kết hợp Mạch nha giúp kiện tỳ, tiêu tích, điều trị cam tích ở trẻ em.",
+        "mo_ta_chi_tiet": "Ngũ linh chi $4g$, Mạch nha sống sao vàng $4g$, tán nhỏ.",
+        "cach_dung": "Uống với nước cơm.",
+        "ghi_chu": "CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_NGU_LINH_CHI_MN",
+      "to": "VI_THUOC_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngũ linh chi kết hợp Mạch nha giúp kiện tỳ, tiêu tích, điều trị cam tích ở trẻ em.",
+        "mo_ta_chi_tiet": "Ngũ linh chi $4g$, Mạch nha sống sao vàng $4g$, tán nhỏ.",
+        "cach_dung": "Uống với nước cơm.",
+        "ghi_chu": "CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_NGU_LINH_CHI_MN",
+      "to": "B_CAM_TICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con cam tích, bụng trướng",
+        "cach_dung": "Uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_NGU_LINH_CHI_MN",
+      "to": "S_TRUONG_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con cam tích, bụng trướng",
+        "cach_dung": "Uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003"
+      }
+    }
+  ],
+  "metadata": {}
+}

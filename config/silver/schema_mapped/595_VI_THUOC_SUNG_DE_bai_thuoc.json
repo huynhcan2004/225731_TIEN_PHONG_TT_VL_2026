@@ -1,0 +1,122 @@
+{
+  "entity_hub": "VI_THUOC_SUNG_DE",
+  "source": {
+    "source_id": "CT_VT_VN_T595",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "595"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAY_NUOC_MUI_TAT_BAT_T",
+      "to": "VI_THUOC_SUNG_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sừng dê (Tất bạt) là vị thuốc duy nhất.",
+        "cach_dung": "Thổi vào mũi",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_CHAY_NUOC_MUI_TAT_BAT_T",
+      "to": "B_CHAY_NUOC_MUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chảy nước mũi",
+        "cach_dung": "Tán nhỏ tất bạt, thổi vào mũi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_TAT_BAT_T",
+      "to": "VI_THUOC_SUNG_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sừng dê (Tất bạt) là vị thuốc duy nhất.",
+        "cach_dung": "Hít vào mũi",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_TAT_BAT_T",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thiên đầu thống",
+        "cach_dung": "Tán nhỏ tất bạt, bảo bệnh nhân ngậm một ngụm nước nóng, đau bên dầu nào thì hít khoảng $0,4g$ bột tất bạt vào mũi bên đó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_TAT_BAT_HTS",
+      "to": "VI_THUOC_SUNG_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tất bạt phối hợp với hồ tiêu và sáp ong.",
+        "cach_dung": "Cho vào nơi răng đau $1-2$ hạt.",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_TAT_BAT_HTS",
+      "to": "VT_HO_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tất bạt phối hợp với hồ tiêu và sáp ong.",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_TAT_BAT_HTS",
+      "to": "VT_SAP_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tất bạt phối hợp với hồ tiêu và sáp ong.",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_TAT_BAT_HTS",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sâu răng",
+        "cach_dung": "Tán tất bạt với hồ tiêu, thêm ít sáp ong vê thành viên nhỏ bằng hạt vừng, cho vào nơi răng đau $1-2$ hạt này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T595"
+      }
+    }
+  ],
+  "metadata": {}
+}

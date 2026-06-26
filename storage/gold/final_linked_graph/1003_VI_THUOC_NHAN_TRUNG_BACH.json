@@ -1,0 +1,620 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NHAN_TRUNG_BACH",
+    "ten_raw": "Nhân trung bạch",
+    "ten_khoa_hoc": "$Calamitas Urinae hominis$",
+    "ho_thuc_vat": "",
+    "variants": [
+      "nhân niệu bạch",
+      "thiên niên băng",
+      "vạn niên sương",
+      "thu bạch sương",
+      "niệu bạch đảm",
+      "đạm thu thạch"
+    ],
+    "properties": {
+      "bo_phan_dung": "cặn của nước tiểu của người để lâu trong chậu",
+      "thu_hai": "",
+      "che_bien_tho": "",
+      "lieu_dung_chung": "Ngày dùng 4 đến $8g$ dưới dạng thuốc sắc hay thuốc bột.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": ""
+    },
+    "display_name": "Vị thuốc nhân trung bạch",
+    "canonical_name": "Vị thuốc nhân trung bạch"
+  },
+  "nodes": [
+    {
+      "id": "BT_LO_MO_VA_LUOI_NHAN_TRUNG_BACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc chữa lở mồm và lưỡi từ Nhân trung bạch",
+        "aliases": [
+          "chualomomvaluoitunhantrungbach",
+          "lomovaluoinhantrungbach",
+          "Lo Mo Va Luoi Nhan Trung Bach",
+          "chua lo mom va luoi tu nhan trung bach"
+        ],
+        "search_vector_hint": "Bài thuốc chữa lở mồm và lưỡi từ Nhân trung bạch, sử dụng vị thuốc nhân trung bạch để điều trị các vấn đề về miệng."
+      }
+    },
+    {
+      "id": "BT_NHA_CAM_TAU_MA_NHAN_TRUNG_BACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc chữa nha cam từ Nhân trung bạch",
+        "aliases": [
+          "chuanhacamtunhantrungbach",
+          "chua nha cam tu nhan trung bach",
+          "nha cam tau ma nhan trung bach",
+          "nhacamtaumanhantrungbach"
+        ],
+        "search_vector_hint": "Bài thuốc chữa nha cam từ Nhân trung bạch, thường được dùng trong điều trị các bệnh nhiễm trùng ở miệng."
+      }
+    },
+    {
+      "id": "B_CHAN_BI_RO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh chẩn bị rò",
+        "aliases": [
+          "chan bi ro",
+          "chanbiro"
+        ],
+        "search_vector_hint": "Bệnh chẩn bị rò thuộc nhóm bệnh da liễu, gây ra các lỗ rò trên da."
+      }
+    },
+    {
+      "id": "B_LO_MO_VA_LUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh lở mồm và lưỡi",
+        "aliases": [
+          "lo mo va luoi",
+          "lomomvaluoi",
+          "lo mom va luoi",
+          "lomovaluoi"
+        ],
+        "search_vector_hint": "Bệnh lở mồm và lưỡi thuộc nhóm bệnh ngoài da, gây tổn thương ở niêm mạc miệng và lưỡi."
+      }
+    },
+    {
+      "id": "B_NHA_CAM_TAU_MA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh nha cam tẩu mã",
+        "aliases": [
+          "nhacamtauma",
+          "nha cam tau ma"
+        ],
+        "search_vector_hint": "Bệnh nha cam tẩu mã thuộc nhóm bệnh nhiễm trùng hoại tử ở miệng, thường gặp ở trẻ em suy dinh dưỡng."
+      }
+    },
+    {
+      "id": "B_THO_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh thổ huyết",
+        "aliases": [
+          "non ra mau",
+          "thohuyet",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Bệnh thổ huyết thuộc nhóm bệnh xuất huyết tiêu hóa, biểu hiện bằng nôn ra máu."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng cầm máu",
+        "aliases": [
+          "cammau",
+          "cam mau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu, giúp ngăn chặn hoặc làm chậm quá trình chảy máu."
+      }
+    },
+    {
+      "id": "CN_GIANG_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giáng hỏa",
+        "aliases": [
+          "gianghoa",
+          "giang hoa"
+        ],
+        "search_vector_hint": "Công năng Giáng hỏa, giúp hạ hỏa, thường dùng trong các trường hợp bốc hỏa, nhiệt miệng."
+      }
+    },
+    {
+      "id": "CN_KHU_U",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu ứ",
+        "aliases": [
+          "khuu",
+          "khu u"
+        ],
+        "search_vector_hint": "Công năng Khu ứ, giúp tán ứ, thường dùng trong các trường hợp đau nhức do ứ huyết."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "thanh nhiet",
+          "thanhnhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt, giúp làm mát cơ thể, giảm các triệu chứng nóng trong."
+      }
+    },
+    {
+      "id": "HC_CANXI_CLORUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi Clorua",
+        "aliases": [
+          "canxiclorua"
+        ],
+        "search_vector_hint": "Canxi Clorua là một hợp chất hóa học, được sử dụng trong nhiều ứng dụng khác nhau."
+      }
+    },
+    {
+      "id": "HC_CANXI_PHOT_PHAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi Phot Phat",
+        "aliases": [
+          "canxiphotphat"
+        ],
+        "search_vector_hint": "Canxi Phot Phat là một hợp chất hóa học, thành phần chính của xương và răng."
+      }
+    },
+    {
+      "id": "HC_CANXI_URAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi Urat",
+        "aliases": [
+          "canxiurat"
+        ],
+        "search_vector_hint": "Canxi Urat là một loại muối urat, có thể tích tụ trong khớp và gây ra bệnh gút."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh bàng quang là một trong mười hai kinh mạch chính của cơ thể, liên quan đến chức năng bài tiết và điều hòa nước."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "Can"
+        ],
+        "search_vector_hint": "Kinh can là một trong mười hai kinh mạch chính của cơ thể, liên quan đến chức năng gan và điều hòa khí huyết."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tamtieu",
+          "tam tieu"
+        ],
+        "search_vector_hint": "Kinh tam tiêu là một trong sáu kinh dương, liên quan đến chức năng điều hòa khí hóa của cơ thể."
+      }
+    },
+    {
+      "id": "VT_KHO_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khô phàn",
+        "aliases": [
+          "khophan",
+          "Kho Phan"
+        ],
+        "search_vector_hint": "Vị thuốc Khô phàn, một vị thuốc trong y học cổ truyền, có thể có tác dụng sát trùng, tiêu viêm."
+      }
+    },
+    {
+      "id": "VT_LUC_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lục phàn",
+        "aliases": [
+          "luc phan",
+          "lucphan"
+        ],
+        "search_vector_hint": "Vị thuốc Lục phàn, còn gọi là Melanteritum, có tác dụng sát trùng, thường được dùng ngoài da."
+      }
+    },
+    {
+      "id": "VT_NHAN_TRUNG_BACH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc nhân trung bạch",
+        "aliases": [
+          "nhantrungbach",
+          "Nhân trung bạch"
+        ],
+        "search_vector_hint": "Vị thuốc nhân trung bạch (Calamitas Urinae hominis), một vị thuốc có nguồn gốc từ nước tiểu người.",
+        "bo_phan_dung": "cặn của nước tiểu của người để lâu trong chậu",
+        "lieu_dung_chung": "Ngày dùng 4 đến $8g$ dưới dạng thuốc sắc hay thuốc bột.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Calamitas Urinae hominis$",
+        "ho_thuc_vat": "",
+        "hinh_thai_chi_tiet": "Nhân trung bạch là cặn của nước tiểu của người để lâu trong chậu, nước bốc hơi đi còn"
+      }
+    },
+    {
+      "id": "VT_XA_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xạ hương",
+        "aliases": [
+          "xa huong",
+          "xahuong"
+        ],
+        "search_vector_hint": "Vị thuốc Xạ hương, có nguồn gốc từ hươu xạ hoặc cầy xạ, có tác dụng khai khiếu, hoạt huyết."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1003"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_MAN_HAM"
+        ],
+        "tinh": "T_BINH",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TAM_TIEU",
+          "K_BANG_QUANG"
+        ],
+        "cong_nang": "thanh nhiệt, giáng hỏa, khử ứ, cầm máu.",
+        "kieng_ky_dac_biet": ""
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhân trung bạch là cặn của nước tiểu của người để lâu trong chậu, nước bốc hơi đi còn"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      }
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tam tiêu"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      }
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh bàng quang"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      }
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "HC_CANXI_PHOT_PHAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$canxi phot phát$, $canxi urat$, $canxi clorua$ và các thành phần khác trong nước tiểu.",
+        "ghi_chu": "trong nước tiểu người để lâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "HC_CANXI_URAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$canxi phot phát$, $canxi urat$, $canxi clorua$ và các thành phần khác trong nước tiểu.",
+        "ghi_chu": "trong nước tiểu người để lâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "HC_CANXI_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$canxi phot phát$, $canxi urat$, $canxi clorua$ và các thành phần khác trong nước tiểu.",
+        "ghi_chu": "trong nước tiểu người để lâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LO_MO_VA_LUOI_NHAN_TRUNG_BACH",
+      "to": "VT_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$7$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LO_MO_VA_LUOI_NHAN_TRUNG_BACH",
+      "to": "VT_KHO_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LO_MO_VA_LUOI_NHAN_TRUNG_BACH",
+      "to": "B_LO_MO_VA_LUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Hai thứ tán nhỏ bội vào chỗ lở loét, hễ thấy chảy dãi thì lau đi, bôi vài lần sẽ thấy tác dụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHA_CAM_TAU_MA_NHAN_TRUNG_BACH",
+      "to": "VT_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHA_CAM_TAU_MA_NHAN_TRUNG_BACH",
+      "to": "VT_LUC_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHA_CAM_TAU_MA_NHAN_TRUNG_BACH",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,30$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHA_CAM_TAU_MA_NHAN_TRUNG_BACH",
+      "to": "B_NHA_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cả ba vị tán nhỏ, trộn đều bởi vào nơi cam tẩu mã đã rửa sạch bằng nước muối"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "B_CHAN_BI_RO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tán nhỏ rắc vào",
+        "ghi_chu": "Chân bị rỗ, có lỗ sâu, đau buốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4$g",
+        "cach_dung": "Chiêu với nước",
+        "ghi_chu": ""
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "CN_GIANG_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giáng hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "CN_KHU_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_TRUNG_BACH",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1003",
+        "all_sources": [
+          "CT_VT_VN_T1003"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

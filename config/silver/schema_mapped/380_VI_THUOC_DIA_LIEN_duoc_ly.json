@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_DIA_LIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T380",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "380"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIA_LIEN",
+      "to": "CN_ON_TRUNG_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_LIEN",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_LIEN",
+      "to": "CN_TICH_UE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tịch (tránh) uế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    }
+  ],
+  "metadata": {}
+}

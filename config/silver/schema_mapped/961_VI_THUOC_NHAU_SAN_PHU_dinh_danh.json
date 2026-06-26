@@ -1,0 +1,211 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NHAU_SAN_PHU",
+    "ten_raw": "Nhau sản phụ",
+    "ten_khoa_hoc": "Colla Asini, Gelatinum Asini, Gelatina nigra; Os asini Placenta Hominis; Placenta Hominis",
+    "ho_thuc_vat": "họ Ngựa Equidae",
+    "variants": [
+      "A giao",
+      "hoàng minh giao"
+    ],
+    "properties": {
+      "bo_phan_dung": "bộ phận ở trong tử cung",
+      "che_bien_tho": "Khi nấu người ta dùng da lừa đen bỏ lông rửa sạch, ngâm nước 3-5 ngày, vớt ra cạo sạch, thái thành miếng nhỏ, lại rửa sạch cho vào nồi, đổ nước vừa đủ, đun nhỏ lửa, thường xuyên khuấy, đến khi tan thành chất keo thì lọc lấy nước keo, bỏ bã. Nước keo lại cô đặc thành a giao. Khi cô phải luôn luôn khuấy cho đến khi được. Khi được a giao có màu vàng trong như thuỷ tinh."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T961",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "961"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN",
+          "K_THAN"
+        ],
+        "cong_nang": "tư âm, dưỡng huyết, bổ phế, nhuận táo, cầm máu, an thai"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhau sản phụ là bộ phận ở trong tử cung của Khi thai còn ở bụng mẹ thì nhau sản phụ có nhiệm vụ che chở và nuôi dưỡng thai."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_N_AXETYL_D_GLUCOZAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ có một chất protit đặc biệt cấu tạo bởi 8 phân tử N-axetyl d- glucozamin CH,,O,N, 6 phân tử d-galactoza và 6 phân tử manoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_D_GALACTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ có một chất protit đặc biệt cấu tạo bởi 8 phân tử N-axetyl d- glucozamin CH,,O,N, 6 phân tử d-galactoza và 6 phân tử manoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_MANOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ có một chất protit đặc biệt cấu tạo bởi 8 phân tử N-axetyl d- glucozamin CH,,O,N, 6 phân tử d-galactoza và 6 phân tử manoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_PEPTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra có pepton, anbumoza (albumoza) polypeptit và cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_ANBUMOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra có pepton, anbumoza (albumoza) polypeptit và cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_POLYPEPTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra có pepton, anbumoza (albumoza) polypeptit và cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra có pepton, anbumoza (albumoza) polypeptit và cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_CHORIONIC_GONADOTROPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ tươi còn có các nội tiết tố chorionic gonadotropin, kích noãn tố F. S. H (Follciculin stimulating hormon) làm cho bọc trứng và trứng phát triển, đồng thời làm cho học trứng tiết ra noãn tổ tức là nữ tiết tố sinh dục nữ và kích tố sinh hoàng thể L. H. (lutenizing hormon) có khả năng làm cho trứng chín, bọc trứng mở ra và trứng rụng sau đó làm cho vỏ bọc trứng còn lại chuyển thành hoàng thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_FOLLCICULIN_STIMULATING_HORMON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ tươi còn có các nội tiết tố chorionic gonadotropin, kích noãn tố F. S. H (Follciculin stimulating hormon) làm cho bọc trứng và trứng phát triển, đồng thời làm cho học trứng tiết ra noãn tổ tức là nữ tiết tố sinh dục nữ và kích tố sinh hoàng thể L. H. (lutenizing hormon) có khả năng làm cho trứng chín, bọc trứng mở ra và trứng rụng sau đó làm cho vỏ bọc trứng còn lại chuyển thành hoàng thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAU_SAN_PHU",
+      "to": "HC_LUTENIZING_HORMON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhau sản phụ tươi còn có các nội tiết tố chorionic gonadotropin, kích noãn tố F. S. H (Follciculin stimulating hormon) làm cho bọc trứng và trứng phát triển, đồng thời làm cho học trứng tiết ra noãn tổ tức là nữ tiết tố sinh dục nữ và kích tố sinh hoàng thể L. H. (lutenizing hormon) có khả năng làm cho trứng chín, bọc trứng mở ra và trứng rụng sau đó làm cho vỏ bọc trứng còn lại chuyển thành hoàng thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T961"
+      }
+    }
+  ]
+}

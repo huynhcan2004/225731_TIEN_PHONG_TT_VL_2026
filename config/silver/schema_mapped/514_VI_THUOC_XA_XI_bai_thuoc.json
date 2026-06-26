@@ -1,0 +1,97 @@
+{
+  "entity_hub": "VI_THUOC_XA_XI",
+  "source": {
+    "source_id": "CT_VT_VN_T514",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "514"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_XUONG_THO_PHUC_LINH_T",
+      "to": "VI_THUOC_XA_XI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị đau xương kết hợp Thổ phục linh và Xá xị.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ ràng về vai trò của Xá xị trong bài thuốc này, cần thêm thông tin để xác định rõ hơn. Liều lượng của Xá xị không được chỉ định rõ ràng trong bài thuốc này, cần tham khảo thêm thông tin để bổ sung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_THO_PHUC_LINH_T",
+      "to": "VI_THUOC_THO_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị đau xương kết hợp Thổ phục linh và Xá xị.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Liều lượng: $10-20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_THO_PHUC_LINH_T",
+      "to": "B_DAU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau xương",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    },
+    {
+      "from": "BT_AC_SANG_UNG_THUNG_THO_PHUC_LINH_T",
+      "to": "VI_THUOC_XA_XI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị ác sang ung thũng kết hợp Thổ phục linh và Xá xị.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ ràng về vai trò của Xá xị trong bài thuốc này, cần thêm thông tin để xác định rõ hơn. Liều lượng của Xá xị không được chỉ định rõ ràng trong bài thuốc này, cần tham khảo thêm thông tin để bổ sung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    },
+    {
+      "from": "BT_AC_SANG_UNG_THUNG_THO_PHUC_LINH_T",
+      "to": "VI_THUOC_THO_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị ác sang ung thũng kết hợp Thổ phục linh và Xá xị.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Liều lượng: $10-20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    },
+    {
+      "from": "BT_AC_SANG_UNG_THUNG_THO_PHUC_LINH_T",
+      "to": "B_UNG_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ác sang ung thũng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T514"
+      }
+    }
+  ],
+  "metadata": {}
+}

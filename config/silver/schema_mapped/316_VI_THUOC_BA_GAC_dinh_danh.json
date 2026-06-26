@@ -1,0 +1,69 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BA_GAC",
+    "ten_raw": "Cây ba gạc",
+    "ten_khoa_hoc": "Rauvolfia verticillata (Lour) Baill.; Rauwolfia verticillata (Lour.) Baill. (R. chinensis DC.)",
+    "ho_thuc_vat": "Trúc đào Apocynaceae; Cam quít (Rutaceae)",
+    "variants": [
+      "ba gạc",
+      "ba chạc"
+    ],
+    "properties": {
+      "phan_bo": "khắp nơi rừng núi Việt Nam: Cao Bằng, Lạng Sơn, Lào Cai (Sapa), Nam Định, Hà Nam, Thanh Hóa.",
+      "thu_hai": "quanh năm nhưng tốt nhất vào thu đông",
+      "che_bien_tho": "Đào rễ về rửa sạch đất, phơi hay sấy khô. Cần chú ý bảo vệ lớp vỏ vì lớp vỏ chứa nhiều hoạt chất nhất."
+    },
+    "display_name": "Cây ba gạc"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T316",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "316"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây ba gạc là một cây nhỏ cao $1$-$1,50m$, thân nhẵn, trên mặt thân có những lỗ sần nhỏ của bì khổng. Lá mọc đối, nhưng thường mọc vòng ba lá một, có khi $4$-$5$. Hoa hình ống, màu trắng, nở vào các tháng $4$-$7$, có khi suốt năm ở đồng bằng. Quả từ tháng $5$-$10$-$11$, hình trứng, khi chín có màu đỏ tươi. Cây cao $4$-$5m$. Lá có $3$ lá chét, phiến lá nguyên, và có chứa tinh dầu mùi thơm hơi có mùi long não."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BA_GAC",
+      "to": "HC_RAUWOLFIA_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ và lá có ancaloit toàn phần từ $0,9$-$2,12\\%$ (rễ) hoặc $0,72$-$1,69\\%$ (lá) trong đó chủ yếu là một ancaloit gọi là rauwolfia A có tinh thể hình chữ nhật, độ chảy $278°C$, năng suất quay cực $4°83$ (trong rượu metylic)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T316"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_GAC",
+      "to": "HC_RESECPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Gần đây Nguyễn Văn Đàn (Viện dược liệu Hà Nội) đã xác định là trong rễ ba gạc của ta cũng có những ancaloit $resecpin$, $secpentin$ v.v... giống như trong ba gạc Ấn Độ Rauwolfia serpentina (xem ở sau)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T316"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_GAC",
+      "to": "HC_SECPENTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Gần đây Nguyễn Văn Đàn (Viện dược liệu Hà Nội) đã xác định là trong rễ ba gạc của ta cũng có những ancaloit $resecpin$, $secpentin$ v.v... giống như trong ba gạc Ấn Độ Rauwolfia serpentina (xem ở sau)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T316"
+      }
+    }
+  ]
+}

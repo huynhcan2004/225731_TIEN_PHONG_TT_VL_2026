@@ -1,0 +1,525 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHAT_THU",
+    "ten_raw": "Phật thủ",
+    "ten_khoa_hoc": "$Citrus medica L.var. sarcodactylus Sw.; Citrus medica L. var. digitata Riss.$",
+    "ho_thuc_vat": "$Cam Rutaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "mùa đông",
+      "che_bien_tho": "vỏ ngoài màu vàng nâu",
+      "lieu_dung_chung": "Ngày dùng 3 đến $6g$ dưới dạng thuốc sắc hay thuốc bột.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Phật thủ được trồng tại nhiều nơi trong nước ta, thường để lấy quả ăn, làm mứt hay làm thuốc. Còn thấy trồng ở Trung Quốc (Tứ Xuyên, Quảng Đông, Phúc Kiến, Triết Giang, Vân Nam, Quý Châu)."
+    },
+    "display_name": "Vị thuốc Phật thủ",
+    "canonical_name": "Vị thuốc Phật thủ"
+  },
+  "nodes": [
+    {
+      "id": "CN_QUY_KINH_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Phế",
+        "aliases": [
+          "quy kinh phe",
+          "quy kinh phế",
+          "quykinhphe"
+        ],
+        "search_vector_hint": "Công năng Quy kinh Phế thuộc nhóm Công năng, thường liên quan đến tác động lên kinh mạch."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Tỳ",
+        "aliases": [
+          "quy kinh tỳ",
+          "quy kinh ty",
+          "quykinhty"
+        ],
+        "search_vector_hint": "Quy kinh Tỳ thuộc nhóm công năng, thường liên quan đến tác động lên tạng Tỳ."
+      }
+    },
+    {
+      "id": "HC_DIOSMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Diosmin",
+        "aliases": [
+          "diosmin"
+        ],
+        "search_vector_hint": "Diosmin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_HESPERIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Hesperidin",
+        "aliases": [
+          "hesperidin"
+        ],
+        "search_vector_hint": "Hesperidin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_LIMETTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Limettin",
+        "aliases": [
+          "limettin"
+        ],
+        "search_vector_hint": "Hoạt chất Limettin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_XITROPTEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xitropten",
+        "aliases": [
+          "xitropten"
+        ],
+        "search_vector_hint": "Hoạt chất Xitropten thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "S_BIENG_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Biếng ăn",
+        "aliases": [
+          "biengan",
+          "bieng an",
+          "biếng ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Biếng ăn thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAY_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đầy bụng",
+        "aliases": [
+          "daybung",
+          "chuong bung",
+          "đầy bụng",
+          "bungtruong",
+          "bụng trướng",
+          "day bung",
+          "chướng bụng",
+          "bung truong",
+          "chuongbung"
+        ],
+        "search_vector_hint": "Triệu chứng Đầy bụng thuộc nhóm triệu chứng, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_PHAT_THU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phật thủ",
+        "aliases": [
+          "phật thủ",
+          "phat thu",
+          "phatthu"
+        ],
+        "search_vector_hint": "Vị thuốc Phật thủ thuộc nhóm vị thuốc, thường liên quan đến điều trị các bệnh lý về tiêu hóa, hô hấp.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "mùa đông",
+        "che_bien_tho": "vỏ ngoài màu vàng nâu",
+        "lieu_dung_chung": "Ngày dùng 3 đến $6g$ dưới dạng thuốc sắc hay thuốc bột.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Phật thủ được trồng tại nhiều nơi trong nước ta, thường để lấy quả ăn, làm mứt hay làm thuốc. Còn thấy trồng ở Trung Quốc (Tứ Xuyên, Quảng Đông, Phúc Kiến, Triết Giang, Vân Nam, Quý Châu).",
+        "ten_khoa_hoc": "$Citrus medica L.var. sarcodactylus Sw.; Citrus medica L. var. digitata Riss.$",
+        "ho_thuc_vat": "$Cam Rutaceae$",
+        "hinh_thai_chi_tiet": "Cây nhỏ xanh tốt quanh năm, lá mọc so le, hình trứng, mép có răng cưa nhỏ, gai ngắn mọc ở phía dưới lá. Vào đầu mùa hạ ra hoa màu trắng, quả chín vào mùa đông, vỏ ngoài màu vàng nâu, trên một số những múi chạy dài dọc quả phía dưới tách ra trông như ngón tay cho nên có tên phật thủ (tay phật, thủ là tay) (Hình 575).",
+        "thanh_phan_hoa_hoc": "['Trong phật thủ có tinh dầu và một chất flavonoit gọi là $hesperidin$, vỏ quả chứa tinh dầu. Trong quả chứa $limettin$, $xitropten$, ngoài ra còn $diosmin$']",
+        "ghi_chu_bo_sung": "Rất dễ mốc."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "765"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ xanh tốt quanh năm, lá mọc so le, hình trứng, mép có răng cưa nhỏ, gai ngắn mọc ở phía dưới lá. Vào đầu mùa hạ ra hoa màu trắng, quả chín vào mùa đông, vỏ ngoài màu vàng nâu, trên một số những múi chạy dài dọc quả phía dưới tách ra trông như ngón tay cho nên có tên phật thủ (tay phật, thủ là tay) (Hình 575).",
+        "thanh_phan_hoa_hoc": [
+          "Trong phật thủ có tinh dầu và một chất flavonoit gọi là $hesperidin$, vỏ quả chứa tinh dầu. Trong quả chứa $limettin$, $xitropten$, ngoài ra còn $diosmin$"
+        ],
+        "ghi_chu_bo_sung": "Rất dễ mốc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHAT_THU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "HC_HESPERIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phật thủ có tinh dầu và một chất flavonoit gọi là $hesperidin$, vỏ quả chứa tinh dầu.",
+        "ghi_chu": "flavonoit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "HC_LIMETTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chứa $limettin$, $xitropten$, ngoài ra còn $diosmin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "HC_XITROPTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chứa $limettin$, $xitropten$, ngoài ra còn $diosmin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "HC_DIOSMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chứa $limettin$, $xitropten$, ngoài ra còn $diosmin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng trong những trường hợp trên",
+        "ghi_chu": "CT_VT_VN_T766"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "S_BIENG_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng trong những trường hợp trên",
+        "ghi_chu": "CT_VT_VN_T766"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | Không ghi rõ liều",
+        "cach_dung": "Dùng trong những trường hợp trên | Chỉ định lâm sàng",
+        "ghi_chu": "CT_VT_VN_T766"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | Không ghi rõ liều",
+        "cach_dung": "Dùng trong những trường hợp trên | Chỉ định lâm sàng",
+        "ghi_chu": "CT_VT_VN_T766"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "CN_QUY_KINH_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAT_THU",
+      "to": "CN_QUY_KINH_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T765",
+        "all_sources": [
+          "CT_VT_VN_T765"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 37.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

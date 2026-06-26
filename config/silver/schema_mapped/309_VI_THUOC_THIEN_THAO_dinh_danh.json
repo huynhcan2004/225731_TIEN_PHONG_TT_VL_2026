@@ -1,0 +1,104 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THIEN_THAO",
+    "ten_raw": "Thiến thảo",
+    "ten_khoa_hoc": "Rubia cordifolia L.",
+    "ho_thuc_vat": "Cà phê Rubiacae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "phan_bo": "những vùng núi cao mát như Sapa, Nghĩa Lộ, Lai Châu",
+      "thu_hai": "thu đông",
+      "che_bien_tho": "rửa sạch, thái mỏng, phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T309",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "309"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc leo, sống lâu năm, rễ sống dai, thân vuông, có gai rất nhỏ, mọc quặp xuống. Lá mọc vòng 4 lá một (thực tế là lá mọc đối, với lá kém phát triển trông như 4 lá mọc vòng). Phiến lá hình bầu dục, đầu nhọn, dài $2$-$4cm$, rộng $2,5$-$3cm$, mép cũng có gai, gân lá hình cung. Hoa nhỏ màu vàng nhạt, mọc thành xim dài $3$-$20cm$ ở đầu cành hay kẽ lá. Quả tròn, màu đen, khi chín, trong chứa $1$-$2$ hạt hình cầu, đường kính $4mm$, hõm ở giữa, lưng phình lên. Mùa hoa quả: tháng $9$-$11$",
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza.",
+          "Dưới tác dụng của men (erythrozin hay rubiaza) axit ruberythric sẽ tách ra thành glucoza và alizazin hay dioxyanthraquinon, purpurin là một trioxyanthraquinon, chất glucozit sinh ra purpurin chưa tách được ra, rubiadin là một metylpurpuroxanthin. Chất purpuroxanthin trong Rubia sikkimensis là một đồng phân màu vàng của alizarin và là một dioxyanthraquinon."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_AXIT_RUTHERYTHRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_ALIZARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_PURPURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_RUBIADIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_THAO",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ thiến thảo có chứa một chất glucozit, axit rutherythric, alizarin, một ít purpurin, rubiadin, glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T309"
+      }
+    }
+  ]
+}

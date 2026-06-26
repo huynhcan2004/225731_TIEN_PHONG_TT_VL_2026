@@ -1,0 +1,100 @@
+{
+  "entity_hub": "VI_THUOC_HOA_HOE",
+  "source": {
+    "source_id": "CT_VT_VN_T313",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "313"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_RA_MAU_HOA_HOE_H",
+      "to": "VI_THUOC_HOA_HOE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$5-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa hòe là vị thuốc chính để cầm máu.",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_HOA_HOE_H",
+      "to": "B_HO_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ho ra máu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_HOA_HOE_H",
+      "to": "B_DO_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh đổ máu cam",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_HOA_HOE_H",
+      "to": "B_TIEU_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh tiểu tiện ra huyết",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_HOA_HOE_H",
+      "to": "B_XUAT_HUYET_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ruột chảy máu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HOE",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng đối với bệnh cao huyết áp",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_HOE",
+      "to": "B_XUAT_HUYET_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "đề phòng đứt mạch máu ở não, xuất huyết cấp tính do viêm thận, xuất huyết ở phổi mà không rõ nguyên nhân",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T313"
+      }
+    }
+  ],
+  "metadata": {}
+}

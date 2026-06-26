@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_RAU_TAU_BAY",
+  "source": {
+    "source_id": "CT_VT_VN_T573",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "573"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_TAU_BAY",
+      "to": "CN_GIANG_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt có tác dụng giáng khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T573"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_TAU_BAY",
+      "to": "CN_HANH_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt có tác dụng hành ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T573"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_TAU_BAY",
+      "to": "DL_HOAT_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "hoạt huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T573"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_TAU_BAY",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "chỉ thống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T573"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,169 @@
+{
+  "entity_hub": "VI_THUOC_MANG_CUT",
+  "source": {
+    "source_id": "CT_VT_VN_T443",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "443"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_DI_IA_MANG_CUT_M",
+      "to": "VI_THUOC_MANG_CUT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa đau bụng đi ỉa lỏng.",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này.",
+        "ghi_chu": "Vỏ quả măng cụt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DI_IA_MANG_CUT_M",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng đi ỉa lỏng",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DI_IA_MANG_CUT_M",
+      "to": "S_DI_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng đi ỉa lỏng",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_LY_MANG_CUT_M",
+      "to": "VI_THUOC_MANG_CUT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa lỵ.",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này.",
+        "ghi_chu": "Vỏ quả măng cụt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_LY_MANG_CUT_M",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_HOANG_DAN_MANG_CUT_M",
+      "to": "VI_THUOC_MANG_CUT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa bệnh hoàng đản (vàng da).",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này.",
+        "ghi_chu": "Vỏ quả măng cụt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_HOANG_DAN_MANG_CUT_M",
+      "to": "B_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh hoàng đản (vàng da)",
+        "cach_dung": "Cho vỏ quả măng cụt vào nồi đất hay nồi đồng, thêm nước cho ngập rồi đun sôi kỹ trong vòng $15$ phút. Ngày uống $3-4$ chén to nước này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MANG_CUT_MHT",
+      "to": "VI_THUOC_MANG_CUT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Măng cụt chủ trị, hạt Mùi và hạt Thìa là hỗ trợ giảm đau bụng.",
+        "mo_ta_chi_tiet": "Vỏ quả măng cụt khô.",
+        "cach_dung": "Đun sôi, sắc kỹ cho cạn còn chừng một nửa ($600ml$). Mỗi lần uống $120ml$. Uống mỗi ngày $2$ lần. Nếu đau bụng có thể thêm ít thuốc phiện. Trong trường hợp này không dùng cho trẻ con được.",
+        "ghi_chu": "Vỏ quả măng cụt khô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MANG_CUT_MHT",
+      "to": "VT_HAT_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Măng cụt chủ trị, hạt Mùi và hạt Thìa là hỗ trợ giảm đau bụng.",
+        "mo_ta_chi_tiet": "Vỏ quả măng cụt khô.",
+        "cach_dung": "Đun sôi, sắc kỹ cho cạn còn chừng một nửa ($600ml$). Mỗi lần uống $120ml$. Uống mỗi ngày $2$ lần. Nếu đau bụng có thể thêm ít thuốc phiện. Trong trường hợp này không dùng cho trẻ con được.",
+        "ghi_chu": "Hạt mùi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MANG_CUT_MHT",
+      "to": "VT_HAT_THIA_LA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Măng cụt chủ trị, hạt Mùi và hạt Thìa là hỗ trợ giảm đau bụng.",
+        "mo_ta_chi_tiet": "Vỏ quả măng cụt khô.",
+        "cach_dung": "Đun sôi, sắc kỹ cho cạn còn chừng một nửa ($600ml$). Mỗi lần uống $120ml$. Uống mỗi ngày $2$ lần. Nếu đau bụng có thể thêm ít thuốc phiện. Trong trường hợp này không dùng cho trẻ con được.",
+        "ghi_chu": "Hạt thìa là"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MANG_CUT_MHT",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ quả măng cụt khô.",
+        "cach_dung": "Đun sôi, sắc kỹ cho cạn còn chừng một nửa ($600ml$). Mỗi lần uống $120ml$. Uống mỗi ngày $2$ lần. Nếu đau bụng có thể thêm ít thuốc phiện. Trong trường hợp này không dùng cho trẻ con được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    }
+  ],
+  "metadata": {}
+}

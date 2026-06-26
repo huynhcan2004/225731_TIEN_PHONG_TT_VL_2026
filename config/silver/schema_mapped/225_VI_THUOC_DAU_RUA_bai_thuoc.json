@@ -1,0 +1,123 @@
+{
+  "entity_hub": "VI_THUOC_DAU_RUA",
+  "source": {
+    "source_id": "CT_VT_VN_T225",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "225"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NAC_DAU_RUA_D",
+      "to": "VI_THUOC_DAU_RUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đậu rựa trị chứng hư hàn sinh nấc.",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_VO_DAU_RUA_V",
+      "to": "VI_THUOC_DAU_RUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ đậu rựa trị lỵ mãn tính.",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_LY_DAU_RUA_D",
+      "to": "VI_THUOC_DAU_RUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đậu rựa trị lỵ.",
+        "cach_dung": "Dùng nước chiêu uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_NAC_DAU_RUA_D",
+      "to": "B_NAC_CUT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng hư hàn mà sinh nấc (nấc cụt)",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_VO_DAU_RUA_V",
+      "to": "B_LY_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ mãn tính",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_NAC_DAU_RUA_D",
+      "to": "S_NAC_CUT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng hư hàn mà sinh nấc (nấc cụt)",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_VO_DAU_RUA_V",
+      "to": "S_NAC_CUT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nấc cụt",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "BT_LY_DAU_RUA_D",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngày dùng $5-6g$ bột, dùng nước chiêu uống",
+        "cach_dung": "Ngày dùng $5-6g$ bột, dùng nước chiêu uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    }
+  ],
+  "metadata": {}
+}

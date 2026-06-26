@@ -1,0 +1,808 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CAU",
+    "ten_raw": "Cây cau",
+    "ten_khoa_hoc": "$Areca catechu L.$",
+    "ho_thuc_vat": "$Cau (Palmae). Họ Cau hiện có tên khoa học là Arecaceae.$",
+    "variants": [],
+    "properties": {},
+    "display_name": "Vị thuốc Cau",
+    "canonical_name": "Vị thuốc Cau"
+  },
+  "nodes": [
+    {
+      "id": "BT_SAN_CAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Sán cau",
+        "aliases": [
+          "sán cau",
+          "san cau",
+          "sancau"
+        ],
+        "search_vector_hint": "Bệnh Sán cau thuộc nhóm Bệnh, thường liên quan đến nhiễm ký sinh trùng sán."
+      }
+    },
+    {
+      "id": "BT_SOT_RET_CAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét cau",
+        "aliases": [
+          "sốt rét cau",
+          "sotretcau",
+          "sot ret cau"
+        ],
+        "search_vector_hint": "Bệnh Sốt rét cau thuộc nhóm Bệnh, thường liên quan đến nhiễm ký sinh trùng sốt rét."
+      }
+    },
+    {
+      "id": "B_BI_TIEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tỳ tiện",
+        "aliases": [
+          "ty tien",
+          "tỳ tiện",
+          "tytien"
+        ],
+        "search_vector_hint": "Bệnh Tỳ tiện thuộc nhóm Bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "B_CHOC_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thủy đậu",
+        "aliases": [
+          "traira",
+          "thuydau",
+          "trai ra",
+          "thủy đậu",
+          "thuy dau",
+          "trái rạ"
+        ],
+        "search_vector_hint": "Bệnh Thủy đậu thuộc nhóm bệnh, thường liên quan đến phát ban, sốt."
+      }
+    },
+    {
+      "id": "B_GIUN_SAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun sán",
+        "aliases": [
+          "nhiễm giun sán",
+          "giun sán",
+          "nhiemgiunsan",
+          "giun san",
+          "nhiem giun san",
+          "giunsan"
+        ],
+        "search_vector_hint": "Bệnh Giun sán thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_SAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sán",
+        "aliases": [
+          "sán",
+          "san"
+        ],
+        "search_vector_hint": "Bệnh Sán thuộc nhóm bệnh, thường liên quan đến ký sinh trùng."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm ruột",
+        "aliases": [
+          "viemruot",
+          "viem ruot",
+          "viêm ruột"
+        ],
+        "search_vector_hint": "Bệnh Viêm ruột thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_CO_BOP_DONG_TU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Triệu chứng Co bóp đồng tử",
+        "aliases": [
+          "cobopdongtu",
+          "co bop dong tu",
+          "co bóp đồng tử"
+        ],
+        "search_vector_hint": "Triệu chứng Co bóp đồng tử thuộc nhóm Triệu chứng, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_DOI_VOI_SAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Độc tính đối với sản",
+        "aliases": [
+          "độc tính đối với sản",
+          "doc tinh doi voi san",
+          "doctinhdoivoisan"
+        ],
+        "search_vector_hint": "Độc tính đối với sản thuộc nhóm Dược lý, thường liên quan đến tác động xấu đến phụ nữ sau sinh."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích thần kinh",
+        "aliases": [
+          "kích thích thần kinh",
+          "kich thich than kinh",
+          "kichthichthankinh"
+        ],
+        "search_vector_hint": "Dược lý Kích thích thần kinh thuộc nhóm Dược lý, thường liên quan đến hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_LAM_CHAM_NHIP_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Triệu chứng Làm chậm nhịp tim",
+        "aliases": [
+          "nhip tim cham",
+          "cham nhip tim",
+          "chậm nhịp tim",
+          "nhịp tim chậm",
+          "làm chậm nhịp tim",
+          "lam cham nhip tim",
+          "chamnhiptim",
+          "lamchamnhiptim",
+          "nhiptimcham"
+        ],
+        "search_vector_hint": "Triệu chứng Làm chậm nhịp tim thuộc nhóm Triệu chứng, thường liên quan đến tim mạch."
+      }
+    },
+    {
+      "id": "DL_LIET_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Triệu chứng Liệt thần kinh",
+        "aliases": [
+          "liet than kinh",
+          "liệt dây thần kinh",
+          "lietthankinh",
+          "liet day than kinh",
+          "liệt thần kinh",
+          "lietdaythankinh"
+        ],
+        "search_vector_hint": "Triệu chứng Liệt thần kinh thuộc nhóm Triệu chứng, thường liên quan đến tổn thương thần kinh."
+      }
+    },
+    {
+      "id": "DL_TANG_NHU_DONG_RUOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng nhu động ruột",
+        "aliases": [
+          "tang nhu dong ruot",
+          "tăng nhu động ruột",
+          "tangnhudongruot"
+        ],
+        "search_vector_hint": "Dược lý Tăng nhu động ruột thuộc nhóm dược lý, thường liên quan đến kích thích hoạt động ruột."
+      }
+    },
+    {
+      "id": "HC_ARECAIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Arecaidin",
+        "aliases": [
+          "arecaidin"
+        ],
+        "search_vector_hint": "Hoạt chất Arecaidin thuộc nhóm Hoạt chất, thường liên quan đến thành phần trong cau."
+      }
+    },
+    {
+      "id": "HC_ARECOLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Arecolin",
+        "aliases": [
+          "arecolin"
+        ],
+        "search_vector_hint": "Hoạt chất Arecolin thuộc nhóm Hoạt chất, thường liên quan đến thành phần trong cau."
+      }
+    },
+    {
+      "id": "HC_GALACTAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Galactan",
+        "aliases": [
+          "galactan"
+        ],
+        "search_vector_hint": "Hoạt chất Galactan thuộc nhóm Hoạt chất, thường liên quan đến polysaccharide."
+      }
+    },
+    {
+      "id": "HC_GUVACOLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Guvacolin",
+        "aliases": [
+          "guvacolin"
+        ],
+        "search_vector_hint": "Hoạt chất Guvacolin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_GUVAXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Guvaxin",
+        "aliases": [
+          "guvaxin"
+        ],
+        "search_vector_hint": "Hoạt chất Guvaxin thuộc nhóm Hoạt chất, thường liên quan đến dẫn xuất acid amin."
+      }
+    },
+    {
+      "id": "HC_LAURIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Laurin",
+        "aliases": [
+          "laurin"
+        ],
+        "search_vector_hint": "Hoạt chất Laurin thuộc nhóm acid béo, thường liên quan đến thành phần của dầu thực vật."
+      }
+    },
+    {
+      "id": "HC_MANNAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Mannan",
+        "aliases": [
+          "mannan"
+        ],
+        "search_vector_hint": "Hoạt chất Mannan thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_MYRISTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Myristin",
+        "aliases": [
+          "myristin"
+        ],
+        "search_vector_hint": "Hoạt chất Myristin thuộc nhóm hóa học, thường liên quan đến thành phần của tinh dầu."
+      }
+    },
+    {
+      "id": "HC_OLEIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Olein",
+        "aliases": [
+          "olein"
+        ],
+        "search_vector_hint": "Hoạt chất Olein thuộc nhóm hợp chất hóa học, thường liên quan đến thành phần của dầu thực vật."
+      }
+    },
+    {
+      "id": "HC_SACAROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sacaroza",
+        "aliases": [
+          "sacaroza"
+        ],
+        "search_vector_hint": "Hoạt chất Sacaroza thuộc nhóm đường, thường liên quan đến năng lượng."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "VT_CAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cau",
+        "aliases": [
+          "cay cau",
+          "cây cau",
+          "caycau",
+          "cau"
+        ],
+        "search_vector_hint": "Vị thuốc Cau thuộc nhóm dược liệu, thường liên quan đến điều trị giun sán.",
+        "ten_khoa_hoc": "$Areca catechu L.$",
+        "ho_thuc_vat": "$Cau (Palmae). Họ Cau hiện có tên khoa học là Arecaceae.$",
+        "hinh_thai_chi_tiet": "Cây cau là một cây có thân mọc thẳng cao chừng $15-20m$, đường kính $10-15cm$. Toàn thân không có lá mà có nhiều vết lá cũ mọc, chỉ ở ngọn có một chùm lá to rộng xẻ lông chim. Lá có bẹ to. Mo ở bông mo sớm rụng. Trong cụm hoa hoa đực ở trên, hoa cái ở dưới. Hoa đực nhỏ màu trắng, thơm gồm 3 lá đài màu lục, 3 cánh hoa trắng, 6 nhị. Hoa cái to, bao hoa không phân hóa. Noãn sào thượng 3 ô. Quả hạch hình trứng to bằng quả trứng gà. Quả bì có sợi, hạt có nội nhũ xếp cuốn. Hạt hơi hình nón cụt, đầu tròn giữa dáy hơi lõm, màu nâu nhạt, vị chát (Hình 120). [CT_VT_VN_T189]: Cây cau là một loại cây thân cột, cao chừng $15-20m$. Thân thẳng, nhẵn, có nhiều vòng do vết của các lá rụng để lại. Lá kép lông chim, dài $1,5-2m$. Các lá chét hẹp dài $30-60cm$, gập lại ở giữa, mép hơi rách. Cụm hoa là một buồng dài $30-40cm$ phân nhánh nhiều lần mang nhiều hoa nhỏ màu trắng ngà. Quả hạch hình trứng, khi chín có màu vàng da cam hay đỏ, có xơ. Hạt hình trứng cụt đầu, vỏ hạt có vân hình mạng."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "187"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cau là một cây có thân mọc thẳng cao chừng $15-20m$, đường kính $10-15cm$. Toàn thân không có lá mà có nhiều vết lá cũ mọc, chỉ ở ngọn có một chùm lá to rộng xẻ lông chim. Lá có bẹ to. Mo ở bông mo sớm rụng. Trong cụm hoa hoa đực ở trên, hoa cái ở dưới. Hoa đực nhỏ màu trắng, thơm gồm 3 lá đài màu lục, 3 cánh hoa trắng, 6 nhị. Hoa cái to, bao hoa không phân hóa. Noãn sào thượng 3 ô. Quả hạch hình trứng to bằng quả trứng gà. Quả bì có sợi, hạt có nội nhũ xếp cuốn. Hạt hơi hình nón cụt, đầu tròn giữa dáy hơi lõm, màu nâu nhạt, vị chát (Hình 120). [CT_VT_VN_T189]: Cây cau là một loại cây thân cột, cao chừng $15-20m$. Thân thẳng, nhẵn, có nhiều vòng do vết của các lá rụng để lại. Lá kép lông chim, dài $1,5-2m$. Các lá chét hẹp dài $30-60cm$, gập lại ở giữa, mép hơi rách. Cụm hoa là một buồng dài $30-40cm$ phân nhánh nhiều lần mang nhiều hoa nhỏ màu trắng ngà. Quả hạch hình trứng, khi chín có màu vàng da cam hay đỏ, có xơ. Hạt hình trứng cụt đầu, vỏ hạt có vân hình mạng."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CAU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $tanin$. Tỷ lệ $tanin$ trong hạt non chừng $70\\%$ nhưng khi chín chỉ còn $15-20\\%$.",
+        "ghi_chu": "tanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_MYRISTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "myristin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_OLEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "olein"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_LAURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "laurin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "sacaroza"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_MANNAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "mannan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GALACTAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất mỡ ($14\\%$) với thành phần chủ yếu gồm: $myristin$ $1/5$, $olein$ $1/4$, $laurin$ $1/2$, các chất đường: $sacaroza$, $mannan$, $galactan$ $2\\%$ và muối vô cơ.",
+        "ghi_chu": "galactan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_ARECOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$. $Arecolin$ (hay CH3 arecaidin) chiếm chừng $0,1- 5,0\\%$.",
+        "ghi_chu": "arecolin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_ARECAIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$. $Arecolin$ (hay CH3 arecaidin) chiếm chừng $0,1- 5,0\\%$.",
+        "ghi_chu": "arecaidin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GUVAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$. $Arecolin$ (hay CH3 arecaidin) chiếm chừng $0,1- 5,0\\%$.",
+        "ghi_chu": "guvaxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "HC_GUVACOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$, $guvaxin$ và $guvacolin$. $Arecolin$ (hay CH3 arecaidin) chiếm chừng $0,1- 5,0\\%$.",
+        "ghi_chu": "guvacolin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_GIUN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4g$ | 0,$5-1mg$",
+        "cach_dung": "Dùng làm thuốc tẩy giun sán",
+        "ghi_chu": "Trị giun sán cho súc vật (chó). CT_VT_VN_T189 | Trị giun sán. CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_CAU",
+      "to": "VT_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng trong đơn thuốc “Thường sơn triệt ngược”",
+        "ghi_chu": "CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SAN_CAU",
+      "to": "VT_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$0,5$ đến $4g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phối hợp với hạt bí ngô",
+        "ghi_chu": "CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_BI_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc lợi tiểu",
+        "ghi_chu": "Vỏ quả cau (đại phúc bì). CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mỗi ngày dùng",
+        "ghi_chu": "Hạt cau khô. CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mỗi ngày dùng",
+        "ghi_chu": "Hạt cau khô. CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hòa với dầu mà bôi",
+        "ghi_chu": "Hạt cau (mài thành bột phơi khô). CT_VT_VN_T189"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_CO_BOP_DONG_TU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch 1$\\%$ arecolin bromhydrat làm co nhỏ đồng tử sau khi nhỏ từ 3 đến 5 phút. Sự co nhỏ đồng tử kéo dài từ nửa giờ đến 2 giờ. Có thể dùng làm giảm áp nhãn trong bệnh glôcôm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_LAM_CHAM_NHIP_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Areclin còn làm tim đập chậm trừ khi có mặt của canxi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_TANG_NHU_DONG_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Areclin còn làm tăng nhu động ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ arecolin kích thích thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_LIET_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều lớn arecolin gây liệt thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAU",
+      "to": "DL_DOC_TINH_DOI_VOI_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch hạt cau có tác dụng độc đối với thần kinh của sán, làm cho tê bại các cơ trơn của sán, 20 phút sau khi thuốc vào tới ruột, con sản bị tê liệt và không bám vào thành ruột được nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "all_sources": [
+          "CT_VT_VN_T187"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.5,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

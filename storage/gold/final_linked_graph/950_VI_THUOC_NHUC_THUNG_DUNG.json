@@ -1,0 +1,506 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NHUC_THUNG_DUNG",
+    "ten_raw": "Nhục thung dung",
+    "ten_khoa_hoc": "$Cistanche deserticola Y. Ma; Cistanche ambigua G. Beck (Bge); Cistanche salsa (C. A. Mey.) G. Bek; Phelipaea salsa C. A. Mey; Orobranche Kuntz; Boschniakia glabra C. A. Mey.$",
+    "ho_thuc_vat": "$Nhục thung dung Orobranchaceae$",
+    "variants": [
+      "Cây thung dung",
+      "Cây mễ nhục thung dung",
+      "Cây nhục thung dung"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn thân cây có mang lá vẩy caulis cistanchis",
+      "lieu_dung_chung": "Ngày dùng $8-12g$ dưới dạng thuốc sắc, thuốc hòan.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Nội Mông Cổ, Thiểm Tây, Cam Túc, Tân Cương",
+      "thu_hai": "hai mùa xuân và thu, nhưng tháng 3 đến tháng 5 thu hoạch là tốt nhất",
+      "che_bien_tho": "nếu thu hái vào mùa xuân, thì chỉ cần loại bỏ đất cát, để khô trong mát là được, còn nếu thu hoạch vào mùa thu, nước nhiều rất khó làm khô. người ta cho vào hũ với muối và muối từ 1 đến 3 năm. khi nào dùng làm thuốc thì rửa sạch muối mới dùng. có khi người ta đun cách thủy với rượu đế khi rượu cạn mới dùng."
+    },
+    "display_name": "Vị thuốc Nhục thung dung",
+    "canonical_name": "Vị thuốc Nhục thung dung"
+  },
+  "nodes": [
+    {
+      "id": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược thần kinh nhục thung dung",
+        "aliases": [
+          "suy nhược thần kinh nhục thung dung",
+          "suy nhuoc than kinh nhuc thung dung",
+          "suynhuocthankinhnhucthungdung"
+        ],
+        "search_vector_hint": "Suy nhược thần kinh nhục thung dung thuộc nhóm Bệnh, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC_THAN_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược thần kinh",
+        "aliases": [
+          "suynhuocthankinh",
+          "suy nhược thần kinh",
+          "roi loan than kinh chuc nang",
+          "rối loạn thần kinh chức năng",
+          "roiloanthankinhchucnang",
+          "suy nhuoc than kinh"
+        ],
+        "search_vector_hint": "Suy nhược thần kinh thuộc nhóm bệnh, thường liên quan đến hệ thần kinh."
+      }
+    },
+    {
+      "id": "CN_BO_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ thận",
+        "aliases": [
+          "bổ thận",
+          "bo than",
+          "bothan"
+        ],
+        "search_vector_hint": "Công năng Bổ thận thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng của thận."
+      }
+    },
+    {
+      "id": "CN_HOAT_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt Tràng",
+        "aliases": [
+          "hoattrang",
+          "hoạt tràng",
+          "hoat trang"
+        ],
+        "search_vector_hint": "Hoạt Tràng thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "CN_ICH_TINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích tinh",
+        "aliases": [
+          "ich tinh",
+          "ichtinh",
+          "ích tinh"
+        ],
+        "search_vector_hint": "Ích tinh thuộc nhóm công năng, thường liên quan đến tăng cường sinh tinh."
+      }
+    },
+    {
+      "id": "CN_TRANG_DUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tráng dương",
+        "aliases": [
+          "tráng dương",
+          "trangduong",
+          "trang duong"
+        ],
+        "search_vector_hint": "Tráng dương thuộc nhóm công năng, thường liên quan đến tăng cường sinh lực nam giới."
+      }
+    },
+    {
+      "id": "CN_TU_AM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tư âm",
+        "aliases": [
+          "tuam",
+          "tư âm",
+          "tu am"
+        ],
+        "search_vector_hint": "Công năng Tư âm thuộc nhóm Công năng, thường liên quan đến bồi bổ phần âm của cơ thể."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_NHUC_THUNG_DUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Nhục thung dung",
+        "aliases": [
+          "nhục thung dung",
+          "nhucthungdung",
+          "nhuc thung dung"
+        ],
+        "search_vector_hint": "Vị thuốc Nhục thung dung thuộc nhóm Vị thuốc, thường liên quan đến bổ thận, tráng dương, nhuận tràng.",
+        "bo_phan_dung": "toàn thân cây có mang lá vẩy caulis cistanchis",
+        "lieu_dung_chung": "Ngày dùng $8-12g$ dưới dạng thuốc sắc, thuốc hòan.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Nội Mông Cổ, Thiểm Tây, Cam Túc, Tân Cương",
+        "thu_hai": "hai mùa xuân và thu, nhưng tháng 3 đến tháng 5 thu hoạch là tốt nhất",
+        "che_bien_tho": "nếu thu hái vào mùa xuân, thì chỉ cần loại bỏ đất cát, để khô trong mát là được, còn nếu thu hoạch vào mùa thu, nước nhiều rất khó làm khô. người ta cho vào hũ với muối và muối từ 1 đến 3 năm. khi nào dùng làm thuốc thì rửa sạch muối mới dùng. có khi người ta đun cách thủy với rượu đế khi rượu cạn mới dùng.",
+        "ten_khoa_hoc": "$Cistanche deserticola Y. Ma; Cistanche ambigua G. Beck (Bge); Cistanche salsa (C. A. Mey.) G. Bek; Phelipaea salsa C. A. Mey; Orobranche Kuntz; Boschniakia glabra C. A. Mey.$",
+        "ho_thuc_vat": "$Nhục thung dung Orobranchaceae$",
+        "hinh_thai_chi_tiet": "Vị nhục thung dung là toàn thân cây có mang lá vẩy Caulis Cistanchis. Trên thị trường người ta khai thác: 1. Cây thung dung- Cistanche deserticola Y. Ma thuộc họ Nhục thung dung Orobranchaceae (Hình 706). 2. Cây mễ nhục thung dung có tên khoa học Cistanche ambigua G. Beck (Bge) cùng họ Nhục thung dung. 3. Cây nhục thung dung có tên khoa học Cistanche salsa (C. A. Mey.) G. Bek. Còn có tên Phelipaea salsa C. A. Mey. hay Orobranche Kuntz, đều thuộc họ Nhục thung dung Orobranchaceae. Theo tác giả Diệp Quyết Tuyền (Hiện đại thực dụng trung dược, Thượng Hải, 1957) thì Nhục thung dung lại mang tên khoa học là Boschniakia glabra C. A. Mey."
+      }
+    },
+    {
+      "id": "VT_PHUC_LINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phục linh",
+        "aliases": [
+          "phuc linh",
+          "phục linh",
+          "phuclinh"
+        ],
+        "search_vector_hint": "Vị thuốc Phục linh thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "VT_SON_THU_DU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sơn thù du",
+        "aliases": [
+          "sonthudu",
+          "son thu du",
+          "sơn thù du"
+        ],
+        "search_vector_hint": "Vị thuốc Sơn thù du thuộc nhóm Vị thuốc, thường liên quan đến bổ can thận, sáp tinh."
+      }
+    },
+    {
+      "id": "VT_THACH_XUONG_BO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch xương bồ",
+        "aliases": [
+          "thach xuong bo",
+          "thạch xương bồ",
+          "thachxuongbo"
+        ],
+        "search_vector_hint": "Vị thuốc Thạch xương bồ thuộc nhóm Vị thuốc, thường liên quan đến thành phần dược liệu."
+      }
+    },
+    {
+      "id": "VT_THO_TY_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thỏ ty tử",
+        "aliases": [
+          "tho ty tu",
+          "thotytu",
+          "thỏ ty tử"
+        ],
+        "search_vector_hint": "Vị thuốc Thỏ ty tử thuộc nhóm Vị thuốc, thường liên quan đến bổ thận, tráng dương."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "950"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vị nhục thung dung là toàn thân cây có mang lá vẩy Caulis Cistanchis. Trên thị trường người ta khai thác: 1. Cây thung dung- Cistanche deserticola Y. Ma thuộc họ Nhục thung dung Orobranchaceae (Hình 706). 2. Cây mễ nhục thung dung có tên khoa học Cistanche ambigua G. Beck (Bge) cùng họ Nhục thung dung. 3. Cây nhục thung dung có tên khoa học Cistanche salsa (C. A. Mey.) G. Bek. Còn có tên Phelipaea salsa C. A. Mey. hay Orobranche Kuntz, đều thuộc họ Nhục thung dung Orobranchaceae. Theo tác giả Diệp Quyết Tuyền (Hiện đại thực dụng trung dược, Thượng Hải, 1957) thì Nhục thung dung lại mang tên khoa học là Boschniakia glabra C. A. Mey.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "",
+        "ghi_chu_bo_sung": "",
+        "cach_dung_bao_che": ""
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "VT_NHUC_THUNG_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "VT_SON_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "VT_THACH_XUONG_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "VT_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG",
+      "to": "B_SUY_NHUOC_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư âm, bổ thận, ích tinh, huyết, tráng dương hoạt trường (mạnh dương chơn ruột)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "CN_ICH_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư âm, bổ thận, ích tinh, huyết, tráng dương hoạt trường (mạnh dương chơn ruột)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "CN_TRANG_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư âm, bổ thận, ích tinh, huyết, tráng dương hoạt trường (mạnh dương chơn ruột)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "CN_HOAT_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư âm, bổ thận, ích tinh, huyết, tráng dương hoạt trường (mạnh dương chơn ruột)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "CN_TU_AM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư âm, bổ thận, ích tinh, huyết, tráng dương hoạt trường (mạnh dương chơn ruột)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T950",
+        "all_sources": [
+          "CT_VT_VN_T950"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 31.5,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

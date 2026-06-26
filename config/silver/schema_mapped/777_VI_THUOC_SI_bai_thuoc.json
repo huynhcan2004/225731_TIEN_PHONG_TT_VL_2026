@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_SI",
+  "source": {
+    "source_id": "CT_VT_VN_T777",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "777"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị lỵ.",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị cảm sốt.",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị hen xuyễn, nhiều đờm.",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_LY_NHOT_N",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_NHOT_N",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_NHOT_N",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen xuyễn, nhiều đờm",
+        "cach_dung": "Dưới dạng bột hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_LY_QUA_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị lỵ.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_QUA_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị ỉa chảy.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_GIUN_SAN_QUA_NHOT_N",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị giun sán.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_LY_QUA_NHOT_N",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_QUA_NHOT_N",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa chảy",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_GIUN_SAN_QUA_NHOT_N",
+      "to": "B_NHIEM_GIUN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun sán",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_RE_NHOT_R",
+      "to": "VI_THUOC_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để trị mụn nhọt.",
+        "cach_dung": "Nấu nước tắm",
+        "ghi_chu": "Không kể liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_RE_NHOT_R",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    }
+  ],
+  "metadata": {}
+}

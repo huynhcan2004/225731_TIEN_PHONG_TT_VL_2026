@@ -1,0 +1,118 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HE",
+    "ten_raw": "He",
+    "ten_khoa_hoc": "Allium tuberosum Rottl.; Allium odorum L. (Allium tuberosum Roxb.)",
+    "ho_thuc_vat": "Họ Hành tỏi Alliaceae; Họ Gai Urticaceae",
+    "variants": [
+      "Cử thái",
+      "Hạt hẹ",
+      "Semen Allii tuberosi",
+      "cửu thái tử",
+      "cửu tử"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây hẹ gồm lá và rễ; hạt hẹ",
+      "thu_hai": "mùa hoa thường vào tháng 6-7-8. Quả vào tháng 8-10",
+      "che_bien_tho": "Cây hẹ là một loại cỏ nhỏ, thường cao $20-45cm$, toàn cây vò có mùi đặc biệt.",
+      "phan_bo": "Cây được trồng ở khắp nơi trong nước ta để làm\ngia vị và làm thuốc."
+    },
+    "display_name": "Hẹ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T739",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "739"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_PHE",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống lâu năm, cao 20-40cm. Hành có dạng hình trứng, màu trắng. Lá hẹp, dài, phẳng, hình dải, hơi có rãnh ở mặt trên, nhẵn, dài 15-30cm, rộng 2-4mm. Cán hoa dài bằng hoặc hơn lá. Cụm hoa hình tán, mang nhiều hoa màu trắng. Bao hoa có 6 phiến hình trứng thuôn. Nhị 6, chỉ nhị hình chỉ, bầu thượng 3 ô. Quả nang chứa nhiều hạt nhỏ màu đen, hình 3 cạnh.",
+        "ghi_chu_bo_sung": "[CT_VT_VN_T740]: cốt, an thai, làm cho xuống sữa. Dùng chữa gần xương đau nhức, động thai, đẻ xong không có sữa, lưng mỏi đau."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HE",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "VI_THUOC_HE",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "VI_THUOC_HE",
+      "to": "HC_ALLICIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hẹ có chứa các chất $allicin$, $liallyl disulfide$, $methylallyl disulfide$ và $dimethyl disulfide$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "VI_THUOC_HE",
+      "to": "HC_LIALLYL_DISULFIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hẹ có chứa các chất $allicin$, $liallyl disulfide$, $methylallyl disulfide$ và $dimethyl disulfide$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "VI_THUOC_HE",
+      "to": "HC_METHYLALLYL_DISULFIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hẹ có chứa các chất $allicin$, $liallyl disulfide$, $methylallyl disulfide$ và $dimethyl disulfide$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "VI_THUOC_HE",
+      "to": "HC_DIMETHYL_DISULFIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hẹ có chứa các chất $allicin$, $liallyl disulfide$, $methylallyl disulfide$ và $dimethyl disulfide$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    }
+  ]
+}

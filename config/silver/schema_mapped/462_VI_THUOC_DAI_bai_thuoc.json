@@ -1,0 +1,214 @@
+{
+  "entity_hub": "VI_THUOC_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T462",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "462"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THUNG_NUOC_DAI_V",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ thân và vỏ rễ cây đại có tác dụng tẩy mạnh và tháo nước.",
+        "cach_dung": "Sắc $5-10g$ vỏ với $200ml$ nước.",
+        "ghi_chu": "Uống thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_THUNG_NUOC_DAI_V",
+      "to": "B_THUNG_NUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp thũng nước",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_KHONG_TEN_DAI_N",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhựa mủ cây đại có tác dụng.",
+        "cach_dung": "Dùng $0,50-0,80g$ dưới dạng nhũ dịch.",
+        "ghi_chu": "Uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_KHONG_TEN_DAI_V",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vỏ cây đại có tác dụng.",
+        "cach_dung": "Dùng $0,20-0,50g$ cao một ngày, tăng dần lên tới $1-2g$.",
+        "ghi_chu": "Uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_HO_DAI_H",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa đại có tác dụng chữa ho.",
+        "cach_dung": "Sắc $6-12g$ hoa với $200ml$ nước, chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "Uống thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_HO_DAI_H",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_HUYET_HUU_DAI_H",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa đại có tác dụng chữa bệnh huyết hữu.",
+        "cach_dung": "Sắc $6-12g$ hoa với $200ml$ nước, chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "Uống thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_HUYET_HUU_DAI_H",
+      "to": "B_HEMOPHILIE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh huyết hữu (hémophilie)",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_SA_KHOP_DAI_L",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá cây hoa đại có tác dụng chữa sa khớp, bong gân, mụn nhọt.",
+        "cach_dung": "Giã lá cây hoa đại, dán và đắp vào những nơi bị bệnh.",
+        "ghi_chu": "Đắp ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_SA_KHOP_DAI_L",
+      "to": "B_SA_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa khớp, bong gân, mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_SA_KHOP_DAI_L",
+      "to": "B_BONG_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa khớp, bong gân, mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_SA_KHOP_DAI_L",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa khớp, bong gân, mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DAI_N",
+      "to": "VI_THUOC_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhựa cây đại có tác dụng chữa trai chân và vết loét.",
+        "cach_dung": "Dùng như vỏ thân (liều thấp hơn).",
+        "ghi_chu": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DAI_N",
+      "to": "B_TRAI_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trai chân và vết loét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DAI_N",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trai chân và vết loét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    }
+  ],
+  "metadata": {}
+}

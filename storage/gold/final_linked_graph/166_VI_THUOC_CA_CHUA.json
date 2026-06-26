@@ -1,0 +1,868 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CA_CHUA",
+    "ten_raw": "Cà chua",
+    "ten_khoa_hoc": "$Lycopersicum esculentum Mill$",
+    "ho_thuc_vat": "$Cà (Solanaceae)$",
+    "variants": [
+      "cà dầm",
+      "tomate"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "mùa đông và mùa xuân",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Hầu hết các châu"
+    },
+    "display_name": "Vị thuốc Cà chua",
+    "canonical_name": "Vị thuốc Cà chua"
+  },
+  "nodes": [
+    {
+      "id": "B_LAO_PHOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lao phổi",
+        "aliases": [
+          "phổi lao",
+          "laophoi",
+          "phoi lao",
+          "phoilao",
+          "lao phổi",
+          "lao phoi",
+          "benh ho lao",
+          "benhholao",
+          "bệnh ho lao"
+        ],
+        "search_vector_hint": "Lao phổi thuộc nhóm bệnh, thường liên quan đến đường hô hấp."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_TRI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trĩ",
+        "aliases": [
+          "tri",
+          "benhloidom",
+          "benh loi dom",
+          "bệnh lòi dom",
+          "trĩ"
+        ],
+        "search_vector_hint": "Trĩ thuộc nhóm bệnh, thường liên quan đến các tĩnh mạch ở hậu môn."
+      }
+    },
+    {
+      "id": "B_VIEM_TAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm tay",
+        "aliases": [
+          "viêm tay",
+          "viemtay",
+          "viem tay"
+        ],
+        "search_vector_hint": "Viêm tay thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng hoặc viêm nhiễm ở tay."
+      }
+    },
+    {
+      "id": "DL_CHONG_NAM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Chống nấm",
+        "aliases": [
+          "chống nấm",
+          "chongnam",
+          "chong nam"
+        ],
+        "search_vector_hint": "Chống nấm thuộc nhóm Dược lý, thường liên quan đến khả năng ức chế sự phát triển của nấm."
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "diệt khuẩn",
+          "chongvikhuan",
+          "diet khuan",
+          "kháng khuẩn",
+          "dietkhuan",
+          "chống vi khuẩn",
+          "khang khuan",
+          "khangkhuan",
+          "chong vi khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm Công năng, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_SINH_TRUONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích sinh trưởng",
+        "aliases": [
+          "kich thich sinh truong",
+          "kichthichsinhtruong",
+          "kích thích sinh trưởng"
+        ],
+        "search_vector_hint": "Kích thích sinh trưởng thuộc nhóm Dược lý, thường liên quan đến thúc đẩy sự phát triển."
+      }
+    },
+    {
+      "id": "HC_AXIT_MALIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Malic",
+        "aliases": [
+          "axitmalic",
+          "axit malic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Malic thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXIT_SUCCINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Succinic",
+        "aliases": [
+          "axit succinic",
+          "axitsuccinic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Succinic thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXIT_TACTRIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Tactric",
+        "aliases": [
+          "axittactric",
+          "axit tactric"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Tactric thuộc nhóm Hoạt chất, thường liên quan đến acid hữu cơ có trong thực vật."
+      }
+    },
+    {
+      "id": "HC_AXIT_XITRIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Xitric",
+        "aliases": [
+          "axitxitric",
+          "axit xitric"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Xitric thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_CAROTEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Caroten",
+        "aliases": [
+          "caroten"
+        ],
+        "search_vector_hint": "Hoạt chất Caroten thuộc nhóm Hoạt chất, thường liên quan đến tiền chất của vitamin A và sắc tố thực vật."
+      }
+    },
+    {
+      "id": "HC_GALACTOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Galactoza",
+        "aliases": [
+          "galactoza"
+        ],
+        "search_vector_hint": "Hoạt chất Galactoza thuộc nhóm Hoạt chất, thường liên quan đến đường đơn và quá trình trao đổi chất."
+      }
+    },
+    {
+      "id": "HC_GLUCOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucoza",
+        "aliases": [
+          "glucoza"
+        ],
+        "search_vector_hint": "Hoạt chất Glucoza thuộc nhóm Hoạt chất, thường liên quan đến đường đơn và quá trình trao đổi chất."
+      }
+    },
+    {
+      "id": "HC_LYCOPEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Lycopen",
+        "aliases": [
+          "lycopen"
+        ],
+        "search_vector_hint": "Hoạt chất Lycopen thuộc nhóm Hoạt chất, thường liên quan đến sắc tố đỏ và chất chống oxy hóa."
+      }
+    },
+    {
+      "id": "HC_PECTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Pectin",
+        "aliases": [
+          "pectin"
+        ],
+        "search_vector_hint": "Hoạt chất Pectin thuộc nhóm Hoạt chất, thường liên quan đến chất xơ và cấu trúc tế bào thực vật."
+      }
+    },
+    {
+      "id": "HC_QUEXCITROZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quexcitrozit",
+        "aliases": [
+          "quexcitrozit"
+        ],
+        "search_vector_hint": "Quexcitrozit thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_SACCCAROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sacccaroza",
+        "aliases": [
+          "sacccaroza"
+        ],
+        "search_vector_hint": "Hoạt chất Sacccaroza thuộc nhóm Hoạt chất, thường liên quan đến đường đôi và nguồn năng lượng."
+      }
+    },
+    {
+      "id": "HC_TOMATIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tomatidin",
+        "aliases": [
+          "tomatidin"
+        ],
+        "search_vector_hint": "Hoạt chất Tomatidin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_TOMATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tomatin",
+        "aliases": [
+          "tomatin"
+        ],
+        "search_vector_hint": "Hoạt chất Tomatin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_TOMATIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tomatin A",
+        "aliases": [
+          "tomatin a",
+          "tomatina"
+        ],
+        "search_vector_hint": "Hoạt chất Tomatin A thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_B1",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin B1",
+        "aliases": [
+          "vitamin b1",
+          "vitaminb1"
+        ],
+        "search_vector_hint": "Hoạt chất Vitamin B1 thuộc nhóm hoạt chất, thường liên quan đến chức năng thần kinh."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_B2",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin B2",
+        "aliases": [
+          "vitamin b2",
+          "vitaminb2"
+        ],
+        "search_vector_hint": "Hoạt chất Vitamin B2 thuộc nhóm Hoạt chất, thường liên quan đến vitamin nhóm B và chức năng tế bào."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_C",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin C",
+        "aliases": [
+          "vitamin c",
+          "vitaminc"
+        ],
+        "search_vector_hint": "Hoạt chất Vitamin C thuộc nhóm hoạt chất, thường liên quan đến tăng cường sức đề kháng."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_PP",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin PP",
+        "aliases": [
+          "vitaminpp",
+          "vitamin pp"
+        ],
+        "search_vector_hint": "Hoạt chất Vitamin PP thuộc nhóm Hoạt chất, thường liên quan đến niacin và chức năng tế bào."
+      }
+    },
+    {
+      "id": "HC_XANTHOPHYLE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xanthophyle",
+        "aliases": [
+          "xanthophyle"
+        ],
+        "search_vector_hint": "Xanthophyle thuộc nhóm Hoạt chất, thường liên quan đến sắc tố thực vật."
+      }
+    },
+    {
+      "id": "HC_XYLOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xyloza",
+        "aliases": [
+          "xyloza"
+        ],
+        "search_vector_hint": "Hoạt chất Xyloza thuộc nhóm Hoạt chất, thường liên quan đến đường đơn và thành phần của thực vật."
+      }
+    },
+    {
+      "id": "VT_CA_CHUA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cà chua",
+        "aliases": [
+          "cachua",
+          "cà chua",
+          "ca chua"
+        ],
+        "search_vector_hint": "Vị thuốc Cà chua thuộc nhóm Vị thuốc, thường liên quan đến dinh dưỡng và các bài thuốc dân gian.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "mùa đông và mùa xuân",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Hầu hết các châu",
+        "ten_khoa_hoc": "$Lycopersicum esculentum Mill$",
+        "ho_thuc_vat": "$Cà (Solanaceae)$",
+        "hinh_thai_chi_tiet": "Thân tròn, phân cành. Lá xẻ lông chim. Hoa xim ở nách lá. Đài 3-6 thùy. Nhị 5-6. Bầu có 3 ô. Quả mọng 3 ô. Hạt dẹt hình thận.",
+        "thanh_phan_hoa_hoc": "['Tomatin', 'Tomatin a', 'Tomatidin', 'Glucoza', 'Galactoza', 'Xyloza', 'Axit tactric', 'Axit xitric', 'Axit succinic', 'Axit malic', 'Saccarozơ', 'Pectin', 'Caroten', 'Vitamin B1', 'Vitamin B2', 'Vitamin PP', 'Vitamin C', 'Lycopen', 'Xanthophyle', 'Quercitrozit']"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "166"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thân tròn, phân cành. Lá xẻ lông chim. Hoa xim ở nách lá. Đài 3-6 thùy. Nhị 5-6. Bầu có 3 ô. Quả mọng 3 ô. Hạt dẹt hình thận.",
+        "thanh_phan_hoa_hoc": [
+          "Tomatin",
+          "Tomatin a",
+          "Tomatidin",
+          "Glucoza",
+          "Galactoza",
+          "Xyloza",
+          "Axit tactric",
+          "Axit xitric",
+          "Axit succinic",
+          "Axit malic",
+          "Saccarozơ",
+          "Pectin",
+          "Caroten",
+          "Vitamin B1",
+          "Vitamin B2",
+          "Vitamin PP",
+          "Vitamin C",
+          "Lycopen",
+          "Xanthophyle",
+          "Quercitrozit"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_TOMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa gluco-ancaloit, trong đó $tomatin$ chiếm thành phần chủ yếu.",
+        "ghi_chu": "Thành phần chủ yếu trong lá cà chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_TOMATIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tomatin$ thực tế là hỗn hợp nhiều chất, $tomatin a$ chiếm chủ yếu.",
+        "ghi_chu": "Thành phần chủ yếu trong hỗn hợp $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_TOMATIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tomatidin$ là một genin thuộc nhóm spirosolanol.",
+        "ghi_chu": "Genin thuộc nhóm spirosolanol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tomatin$ thủy phân cho $2phân$ tử $glucoza$.",
+        "ghi_chu": "Sản phẩm thủy phân của $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_GALACTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tomatin$ thủy phân cho $1phân$ tử $galactoza$.",
+        "ghi_chu": "Sản phẩm thủy phân của $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_XYLOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tomatin$ thủy phân cho $1phân$ tử $xyloza$.",
+        "ghi_chu": "Sản phẩm thủy phân của $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_AXIT_TACTRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa các axit hữu cơ, trong đó $axit tactric$ chiếm chủ yếu.",
+        "ghi_chu": "Axit hữu cơ chính trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa các axit hữu cơ, trong đó $axit xitric$ chiếm chủ yếu.",
+        "ghi_chu": "Axit hữu cơ chính trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_AXIT_SUCCINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa các axit hữu cơ, trong đó $axit succinic$ chiếm chủ yếu.",
+        "ghi_chu": "Axit hữu cơ chính trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa các axit hữu cơ, trong đó $axit malic$ chiếm chủ yếu.",
+        "ghi_chu": "Axit hữu cơ chính trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_SACCCAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $4\\%$ gluxit, trong đó có $sacccaroza$.",
+        "ghi_chu": "Một loại gluxit trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_PECTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $4\\%$ gluxit, trong đó có $pectin$.",
+        "ghi_chu": "Một loại gluxit trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_CAROTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $1.$9mg$\\%$ $caroten$.",
+        "ghi_chu": "Vitamin trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_VITAMIN_B1",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $0.$06mg$\\%$ $vitamin B1$.",
+        "ghi_chu": "Vitamin trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_VITAMIN_B2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $0.$04mg$\\%$ $vitamin B2$.",
+        "ghi_chu": "Vitamin trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_VITAMIN_PP",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $0.$5mg$\\%$ $vitamin PP$.",
+        "ghi_chu": "Vitamin trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $38mg\\%$ $vitamin C$.",
+        "ghi_chu": "Vitamin trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_LYCOPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $lycopen$.",
+        "ghi_chu": "Chất trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_XANTHOPHYLE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $xanthophyle$.",
+        "ghi_chu": "Chất trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "HC_QUEXCITROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa $quexcitrozit$.",
+        "ghi_chu": "Chất trong quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "B_LAO_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Nhuận tràng, chữa sốt, lao phổi | Quả cà chua | Chỉ định lâm sàng theo kinh nghiệm | [Nguồn]: CT_VT_VN_T167"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phối hợp",
+        "ghi_chu": "Trĩ | Quả cà chua, ớt | Phối hợp | [Nguồn]: CT_VT_VN_T167"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nấu cà chua với dầu hoặc mỡ (cho đến khi bốc hết hơi nước) rồi dùng dưới dạng thuốc mỡ bôi lên những nơi mụn nhọt, lở loét | Lấy đọt cà chua rửa sạch, giã nát, thêm vào vài hạt muối. Đắp lên nơi mụn nhọt hay viêm tấy, băng lại. Ngày làm một hai lần cho đến khi khỏi",
+        "ghi_chu": "Mụn nhọt, lở loét | Cà chua, dầu hoặc mỡ | Nấu cà chua với dầu hoặc mỡ (cho đến khi bốc hết hơi nước) rồi dùng dưới dạng thuốc mỡ bôi lên những nơi mụn nhọt, lở loét | [Nguồn]: CT_VT_VN_T167 | Mụn nhọt, nơi viêm tấy | Đọt cà chua, muối | Lấy đọt cà chua rửa sạch, giã nát, thêm vào vài hạt muối. Đắp lên nơi mụn nhọt hay viêm tấy, băng lại. Ngày làm một hai lần cho đến khi khỏi | [Nguồn]: CT_VT_VN_T167"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "B_VIEM_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lấy đọt cà chua rửa sạch, giã nát, thêm vào vài hạt muối. Đắp lên nơi mụn nhọt hay viêm tấy, băng lại. Ngày làm một hai lần cho đến khi khỏi",
+        "ghi_chu": "Mụn nhọt, nơi viêm tấy | Đọt cà chua, muối | Lấy đọt cà chua rửa sạch, giã nát, thêm vào vài hạt muối. Đắp lên nơi mụn nhọt hay viêm tấy, băng lại. Ngày làm một hai lần cho đến khi khỏi | [Nguồn]: CT_VT_VN_T167"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá cà chua khô được dùng làm nguyên liệu chiết $tomatin$ là một chất kháng khuẩn.",
+        "ghi_chu": "Dùng lá cà chua khô chiết xuất $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "DL_CHONG_NAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá cà chua khô được dùng làm nguyên liệu chiết $tomatin$ là một chất chống nấm.",
+        "ghi_chu": "Dùng lá cà chua khô chiết xuất $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CA_CHUA",
+      "to": "DL_KICH_THICH_SINH_TRUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều nào đó, $tomatin$ có tác dụng kích thích sinh trưởng đối với sâu coleoptyle của thóc avoine.",
+        "ghi_chu": "Dùng lá cà chua khô chiết xuất $tomatin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "all_sources": [
+          "CT_VT_VN_T166"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 56.0,
+      "reliability_c_score": 0.7571,
+      "total_confidence_sum": 21.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,767 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_SA_NHAN",
+    "ten_raw": "Sa nhân",
+    "ten_khoa_hoc": "$Amomum xanthioides Wall.; Amomum villosum Lour.$",
+    "ho_thuc_vat": "$họ Gừng Zingiberaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "tháng 5, chín vào tháng 7-8 (6-7 âm lịch)",
+      "che_bien_tho": "sa nhân hái về phải tãi ra phơi khô ngay, nếu không gặp nắng, phải dùng củi sấy kịp thời, tốt nhất là ngày phơi, đêm sấy, chừng 4-5 ngày thì khô.",
+      "lieu_dung_chung": "Liều dùng hàng ngày: 1 đến $3g$ dưới dạng thuốc viên, thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "",
+      "phan_bo": "Sa nhân mọc hoang và được trồng ở nhiều tỉnh miền núi nước ta, miền Bắc cũng như miền Trung. Còn mọc ở Cămpuchia, Lào, Thái Lan, Ấn Độ."
+    },
+    "display_name": "Vị thuốc Sa nhân",
+    "canonical_name": "Vị thuốc Sa nhân"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_BUNG_SA_NHAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau bụng sa nhân",
+        "aliases": [
+          "đau bụng sa nhân",
+          "daubungsanhan",
+          "dau bung sa nhan"
+        ],
+        "search_vector_hint": "Bài thuốc Đau bụng sa nhân thuộc nhóm Bài thuốc, thường liên quan đến điều trị đau bụng."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không tiêu",
+        "aliases": [
+          "ăn uống không tiêu",
+          "an uong khong tieu",
+          "anuongkhongtieu"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không tiêu thuộc nhóm Công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_DIEU_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Điều trung",
+        "aliases": [
+          "dieu trung",
+          "điều trung",
+          "dieutrung"
+        ],
+        "search_vector_hint": "Công năng Điều trung thuộc nhóm Công năng, thường liên quan đến việc điều hòa chức năng tạng phủ."
+      }
+    },
+    {
+      "id": "CN_HANH_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hành khí",
+        "aliases": [
+          "hành khí",
+          "hanhkhi",
+          "hanh khi"
+        ],
+        "search_vector_hint": "Công năng Hành khí thuộc nhóm công năng, thường liên quan đến điều hòa khí huyết."
+      }
+    },
+    {
+      "id": "CN_HOA_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hóa vị",
+        "aliases": [
+          "hoa vi",
+          "hoavi",
+          "hóa vị"
+        ],
+        "search_vector_hint": "Công năng Hóa vị thuộc nhóm Công năng, thường liên quan đến chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu hóa",
+        "aliases": [
+          "tieuhoa",
+          "tiêu hóa",
+          "tieu hoa"
+        ],
+        "search_vector_hint": "Công năng Tiêu hóa thuộc nhóm công năng, thường liên quan đến chức năng của hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_CAMPHEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Camphen",
+        "aliases": [
+          "camphen"
+        ],
+        "search_vector_hint": "Camphen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_CAMPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Campho",
+        "aliases": [
+          "campho"
+        ],
+        "search_vector_hint": "Campho thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Limonen",
+        "aliases": [
+          "limonen"
+        ],
+        "search_vector_hint": "Limonen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_PHELANDREN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Phelandren",
+        "aliases": [
+          "phelandren"
+        ],
+        "search_vector_hint": "Phelandren thuộc nhóm Hoạt chất, thường liên quan đến thành phần tinh dầu của thực vật."
+      }
+    },
+    {
+      "id": "HC_PINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pinen",
+        "aliases": [
+          "pinen"
+        ],
+        "search_vector_hint": "Pinen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_BUNG_DAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Bụng đầy",
+        "aliases": [
+          "bung day",
+          "daybung",
+          "bụng đầy",
+          "đầy bụng",
+          "day bung",
+          "bungday"
+        ],
+        "search_vector_hint": "Bụng đầy thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "S_RANG_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Răng đau nhức",
+        "aliases": [
+          "đau răng",
+          "rangdaunhuc",
+          "răng đau nhức",
+          "rang dau nhuc",
+          "dau rang",
+          "daurang"
+        ],
+        "search_vector_hint": "Triệu chứng Răng đau nhức thuộc nhóm Triệu chứng, thường liên quan đến các vấn đề răng miệng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BACH_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch truật",
+        "aliases": [
+          "bach truat",
+          "bạch truật",
+          "bachtruat"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch truật thuộc nhóm Vị thuốc, thường liên quan đến kiện tỳ, táo thấp."
+      }
+    },
+    {
+      "id": "VT_CHI_THUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chỉ thực",
+        "aliases": [
+          "chi thuc",
+          "chithuc",
+          "chỉ thực"
+        ],
+        "search_vector_hint": "Chỉ thực thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_MOC_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mộc Hương",
+        "aliases": [
+          "mộc hương",
+          "mochuong",
+          "moc huong"
+        ],
+        "search_vector_hint": "Vị thuốc Mộc Hương thuộc nhóm vị thuốc, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_SA_NHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sa nhân",
+        "aliases": [
+          "sa nhân",
+          "sa nhan",
+          "sanhan"
+        ],
+        "search_vector_hint": "Vị thuốc Sa nhân thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "tháng 5, chín vào tháng 7-8 (6-7 âm lịch)",
+        "che_bien_tho": "sa nhân hái về phải tãi ra phơi khô ngay, nếu không gặp nắng, phải dùng củi sấy kịp thời, tốt nhất là ngày phơi, đêm sấy, chừng 4-5 ngày thì khô.",
+        "lieu_dung_chung": "Liều dùng hàng ngày: 1 đến $3g$ dưới dạng thuốc viên, thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Sa nhân mọc hoang và được trồng ở nhiều tỉnh miền núi nước ta, miền Bắc cũng như miền Trung. Còn mọc ở Cămpuchia, Lào, Thái Lan, Ấn Độ.",
+        "ten_khoa_hoc": "$Amomum xanthioides Wall.; Amomum villosum Lour.$",
+        "ho_thuc_vat": "$họ Gừng Zingiberaceae$",
+        "hinh_thai_chi_tiet": "Sa nhân là một loại cỏ có thể cao tới 2-3m, gần giống cây riêng nhưng thân rễ không phát triển thành củ như riềng. Lá xanh thẫm, mặt nhẵn bóng, dài 15-35cm, rộng 4-7cm. Hoa màu trắng đốm tía, mọc thành chùm ở gốc; từ rễ nảy ra một mầm, ngọn mang hoa gần sát mặt đất, mỗi gốc 3-6 chùm hoa, mỗi chùm 4-6 hoa. Quả là một nang 3 ngăn, đậu vào tháng 5, chín vào tháng 7-8 (6-7 âm lịch), hình trứng, to nhất bằng đầu ngón tay cái, trung bình bằng đầu ngón tay giữa, dài 1,5 -2cm, đường kính 1-1,5cm. Mặt ngoài vỏ có gai rất đều, không có cái cao cãi thấp, kẽ gai cũng đều nhau, bóp mạnh sẽ vỡ thành 3 mảnh. Hạt dính theo lối đính phối trung trụ. Mùa hoa: tháng 4-5 (Hình 302, Hm 40,1)."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "416"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_THAN",
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "hành khí, điều trung, hòa vị, làm cho tiêu hóa được dễ dàng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sa nhân là một loại cỏ có thể cao tới 2-3m, gần giống cây riêng nhưng thân rễ không phát triển thành củ như riềng. Lá xanh thẫm, mặt nhẵn bóng, dài 15-35cm, rộng 4-7cm. Hoa màu trắng đốm tía, mọc thành chùm ở gốc; từ rễ nảy ra một mầm, ngọn mang hoa gần sát mặt đất, mỗi gốc 3-6 chùm hoa, mỗi chùm 4-6 hoa. Quả là một nang 3 ngăn, đậu vào tháng 5, chín vào tháng 7-8 (6-7 âm lịch), hình trứng, to nhất bằng đầu ngón tay cái, trung bình bằng đầu ngón tay giữa, dài 1,5 -2cm, đường kính 1-1,5cm. Mặt ngoài vỏ có gai rất đều, không có cái cao cãi thấp, kẽ gai cũng đều nhau, bóp mạnh sẽ vỡ thành 3 mảnh. Hạt dính theo lối đính phối trung trụ. Mùa hoa: tháng 4-5 (Hình 302, Hm 40,1)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_SA_NHAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân vào kinh tỳ. | Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân vào kinh thận. | Vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân vào kinh vị. | Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là $d.campho$ (33\\%).",
+        "ghi_chu": "d.campho"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là $d.limonen$ (7\\%).",
+        "ghi_chu": "d.limonen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_CAMPHEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là $camphen$ (7\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_PHELANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là $phelandren$ (2,3\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là $pinen$ (1,8\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược Viện y học Bắc Kinh có nghiên cứu thấy trong loài sa nhân Amomum villosum Lour. có $saponin$ với tỷ lệ 0,69\\%.",
+        "ghi_chu": "Amomum villosum Lour."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "S_RANG_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "CT_VT_VN_T417"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "VT_SA_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "VT_MOC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "VT_CHI_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2 hay 3 viên, mỗi viên nặng $0,25g$",
+        "cach_dung": "Các vị tán nhỏ, dùng nước sắc bạc hà nấu với gạo làm hồ viên thành viên",
+        "ghi_chu": "CT_VT_VN_T417"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2 hay 3 viên, mỗi viên nặng $0,25g$",
+        "cach_dung": "Các vị tán nhỏ, dùng nước sắc bạc hà nấu với gạo làm hồ viên thành viên",
+        "ghi_chu": "CT_VT_VN_T417"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "S_BUNG_DAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2 hay 3 viên, mỗi viên nặng $0,25g$",
+        "cach_dung": "Các vị tán nhỏ, dùng nước sắc bạc hà nấu với gạo làm hồ viên thành viên",
+        "ghi_chu": "CT_VT_VN_T417"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_SA_NHAN",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2 hay 3 viên, mỗi viên nặng $0,25g$",
+        "cach_dung": "Các vị tán nhỏ, dùng nước sắc bạc hà nấu với gạo làm hồ viên thành viên",
+        "ghi_chu": "CT_VT_VN_T417"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "CN_HANH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "CN_DIEU_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "CN_HOA_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hòa vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SA_NHAN",
+      "to": "CN_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm cho tiêu hóa được dễ dàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416",
+        "all_sources": [
+          "CT_VT_VN_T416"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 61.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

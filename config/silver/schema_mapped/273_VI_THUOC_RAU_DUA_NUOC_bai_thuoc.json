@@ -1,0 +1,283 @@
+{
+  "entity_hub": "VI_THUOC_RAU_DUA_NUOC",
+  "source": {
+    "source_id": "CT_VT_VN_T273",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "273"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SAI_DAU_RAU_DUA_NUOC_D",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị sài đầu.",
+        "cach_dung": "Giã nát với dầu thầu dầu, xát lên đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_SAI_DAU_RAU_DUA_NUOC_D",
+      "to": "B_SAI_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sài đầu",
+        "cach_dung": "Giã nát với dầu thầu dầu, xát lên đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_SOT_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị sốt, lỵ ra máu.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_SOT_RAU_DUA_NUOC_R",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị sốt, lỵ ra máu.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_RAU_DUA_NUOC_R",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị rắn cắn, bỏng.",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_DUA_NUOC_R",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_BONG_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị rắn cắn, bỏng.",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_BONG_RAU_DUA_NUOC_R",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị bệnh ngoài da.",
+        "cach_dung": "Giã nát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_RAU_DUA_NUOC_R",
+      "to": "NhomBenh_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ngoài da",
+        "cach_dung": "Giã nát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_MAT_RAU_DUA_NUOC_N",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị bệnh về mắt, rửa vết thương.",
+        "cach_dung": "Nước sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_MAT_RAU_DUA_NUOC_N",
+      "to": "B_BENH_VE_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt",
+        "cach_dung": "Nước sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAU_DUA_NUOC_N",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị bệnh về mắt, rửa vết thương.",
+        "cach_dung": "Nước sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAU_DUA_NUOC_N",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rửa vết thương",
+        "cach_dung": "Nước sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị viêm bàng quang không do sỏi, hoặc lao bàng quang hay lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu.",
+        "cach_dung": "Sắc uống liên tục từ 5 đến 10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DUA_NUOC_R",
+      "to": "B_VIEM_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm bàng quang không do sỏi, hoặc lao bàng quang hay lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu",
+        "cach_dung": "Sắc uống liên tục từ 5 đến 10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_DUONG_CHAP_RAU_DUA_NUOC_R",
+      "to": "VI_THUOC_RAU_DUA_NUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$100-200g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau dừa nước trị đái ra dưỡng chấp (chylurie) và huyết dưỡng chấp (hemochylurie).",
+        "cach_dung": "Sắc với 1,5-2 lít nước, đun sôi 2-3 giờ còn 0,5 lít chia hai lần uống trong ngày, điều trị 4-64 ngày liên tục. Kiêng mỡ, trứng, ít ăn mặn hoặc ăn nhạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_DUONG_CHAP_RAU_DUA_NUOC_R",
+      "to": "B_DAI_RA_DUONG_CHAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đái ra dưỡng chấp (chylurie) và huyết dưỡng chấp (hemochylurie)",
+        "cach_dung": "Sắc với 1,5-2 lít nước, đun sôi 2-3 giờ còn 0,5 lít chia hai lần uống trong ngày, điều trị 4-64 ngày liên tục. Kiêng mỡ, trứng, ít ăn mặn hoặc ăn nhạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T273"
+      }
+    }
+  ],
+  "metadata": {}
+}

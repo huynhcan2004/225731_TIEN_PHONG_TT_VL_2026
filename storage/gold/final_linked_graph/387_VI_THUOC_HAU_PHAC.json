@@ -1,0 +1,880 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HAU_PHAC",
+    "ten_raw": "Hậu phác",
+    "ten_khoa_hoc": "$Magnolia offcinalis Rehd. et Wils; Magnolia offcinalis var. biloba Rehd, et Wils; Magnolia hypoleuca Sieb, et Zucc; Eurycoma longifolia Jack; Cinnamonum iners Reinw; Syzygium jambolana (Lamk.) Men. et Perry Magnolia obovata Thunb.$",
+    "ho_thuc_vat": "$Họ Mộc lan (Magnoliaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ thân",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Liều dùng trong ngày: $6-12g$ dưới dạng sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Quảng Tây, Vân Nam, Phúc Kiến, Sơn La, Lai Châu, Hà Giang, Tuyên Quang"
+    },
+    "display_name": "Vị thuốc Hậu phác",
+    "canonical_name": "Vị thuốc Hậu phác"
+  },
+  "nodes": [
+    {
+      "id": "BT_DI_LY_HAU_PHAC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Di lý hậu phác",
+        "aliases": [
+          "dilyhauphac",
+          "di lý hậu phác",
+          "di ly hau phac"
+        ],
+        "search_vector_hint": "Di lý hậu phác thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh lý tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Bệnh Đau bụng thuộc nhóm bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DI_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Di lỵ",
+        "aliases": [
+          "di lỵ",
+          "dily",
+          "di ly"
+        ],
+        "search_vector_hint": "Bệnh Di lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_TRI_AN_UONG_KHONG_TIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị ăn uống không tiêu",
+        "aliases": [
+          "an khong tieu",
+          "khó tiêu",
+          "tri an uong khong tieu",
+          "khotieu",
+          "ankhongtieu",
+          "ăn không tiêu",
+          "kho tieu",
+          "trị ăn uống không tiêu",
+          "trianuongkhongtieu"
+        ],
+        "search_vector_hint": "Trị ăn uống không tiêu thuộc nhóm bệnh, thường liên quan đến khó khăn trong quá trình tiêu hóa thức ăn."
+      }
+    },
+    {
+      "id": "B_TRI_DAI_TIEN_BI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị đại tiện bí",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon",
+          "tri dai tien bi",
+          "tridaitienbi",
+          "trị đại tiện bí"
+        ],
+        "search_vector_hint": "Trị đại tiện bí thuộc nhóm bệnh, thường liên quan đến khó khăn trong việc đi đại tiện."
+      }
+    },
+    {
+      "id": "B_TRI_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị đau bụng",
+        "aliases": [
+          "trị đau bụng",
+          "tri dau bung",
+          "đau bụng",
+          "tridaubung",
+          "daubung",
+          "dau bung"
+        ],
+        "search_vector_hint": "Trị đau bụng thuộc nhóm bệnh, thường liên quan đến cảm giác đau ở vùng bụng."
+      }
+    },
+    {
+      "id": "B_TRI_DAY_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị đầy bụng",
+        "aliases": [
+          "trị đầy bụng",
+          "tri day bung",
+          "bungtruong",
+          "bụng trướng",
+          "bung truong",
+          "tridaybung"
+        ],
+        "search_vector_hint": "Trị đầy bụng thuộc nhóm bệnh, thường liên quan đến cảm giác căng tức ở bụng."
+      }
+    },
+    {
+      "id": "B_TRI_NON_MUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị nôn mửa",
+        "aliases": [
+          "buồn nôn",
+          "buon non",
+          "non",
+          "trinonmua",
+          "tri non mua",
+          "buonnon",
+          "trị nôn mửa",
+          "nôn"
+        ],
+        "search_vector_hint": "Trị nôn mửa thuộc nhóm bệnh, thường liên quan đến cảm giác buồn nôn và nôn ra."
+      }
+    },
+    {
+      "id": "B_TRI_TAO_BON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trị táo bón",
+        "aliases": [
+          "tritaobon",
+          "bi dai tien",
+          "bidaitien",
+          "trị táo bón",
+          "bí đại tiện",
+          "tri tao bon"
+        ],
+        "search_vector_hint": "Trị táo bón thuộc nhóm bệnh, thường liên quan đến tình trạng khó đi đại tiện."
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm ruột",
+        "aliases": [
+          "viemruot",
+          "viem ruot",
+          "viêm ruột"
+        ],
+        "search_vector_hint": "Bệnh Viêm ruột thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_KHAU_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khẩu vị",
+        "aliases": [
+          "khau vi",
+          "khẩu vị",
+          "khauvi"
+        ],
+        "search_vector_hint": "Khẩu vị thuộc nhóm công năng, thường liên quan đến vị giác và cảm giác ngon miệng."
+      }
+    },
+    {
+      "id": "CN_KHU_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu hàn",
+        "aliases": [
+          "khuhan",
+          "khu han",
+          "khu hàn"
+        ],
+        "search_vector_hint": "Khu hàn thuộc nhóm công năng, thường liên quan đến loại bỏ khí hàn."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_DAI_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Đại tràng",
+        "aliases": [
+          "quy kinh đại tràng",
+          "quy kinh dai trang",
+          "quykinhdaitrang"
+        ],
+        "search_vector_hint": "Quy kinh Đại tràng thuộc nhóm công năng, thường liên quan đến tác động lên đại tràng."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Tỳ",
+        "aliases": [
+          "quy kinh tỳ",
+          "quy kinh ty",
+          "quykinhty"
+        ],
+        "search_vector_hint": "Quy kinh Tỳ thuộc nhóm công năng, thường liên quan đến tác động lên tạng Tỳ."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Vị",
+        "aliases": [
+          "quy kinh vi",
+          "quykinhvi",
+          "quy kinh vị"
+        ],
+        "search_vector_hint": "Công năng Quy kinh Vị thuộc nhóm công năng, thường liên quan đến tác động lên kinh Vị."
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "diệt khuẩn",
+          "chongvikhuan",
+          "diet khuan",
+          "kháng khuẩn",
+          "dietkhuan",
+          "chống vi khuẩn",
+          "khang khuan",
+          "khangkhuan",
+          "chong vi khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm Công năng, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "HC_ISOMAGNOLOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Isomagnolola",
+        "aliases": [
+          "isomagnolola"
+        ],
+        "search_vector_hint": "Isomagnolola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_MAGNOLOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Magnolola",
+        "aliases": [
+          "magnolola"
+        ],
+        "search_vector_hint": "Magnolola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TETRAHYDROMAGNOLOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tetrahydromagnolola",
+        "aliases": [
+          "tetrahydromagnolola"
+        ],
+        "search_vector_hint": "Tetrahydromagnolola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_CHI_THUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chỉ thực",
+        "aliases": [
+          "chi thuc",
+          "chithuc",
+          "chỉ thực"
+        ],
+        "search_vector_hint": "Chỉ thực thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_DAI_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đại hoàng",
+        "aliases": [
+          "dai hoang",
+          "daihoang",
+          "đại hoàng"
+        ],
+        "search_vector_hint": "Vị thuốc Đại hoàng thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "VT_HAU_PHAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hậu phác",
+        "aliases": [
+          "hauphac",
+          "hậu phác",
+          "hau phac"
+        ],
+        "search_vector_hint": "Hậu phác thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "vỏ thân",
+        "lieu_dung_chung": "Liều dùng trong ngày: $6-12g$ dưới dạng sắc.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Quảng Tây, Vân Nam, Phúc Kiến, Sơn La, Lai Châu, Hà Giang, Tuyên Quang",
+        "ten_khoa_hoc": "$Magnolia offcinalis Rehd. et Wils; Magnolia offcinalis var. biloba Rehd, et Wils; Magnolia hypoleuca Sieb, et Zucc; Eurycoma longifolia Jack; Cinnamonum iners Reinw; Syzygium jambolana (Lamk.) Men. et Perry Magnolia obovata Thunb.$",
+        "ho_thuc_vat": "$Họ Mộc lan (Magnoliaceae)$",
+        "hinh_thai_chi_tiet": "Cây hậu phác chính thức (Magnolia offcinalis Rehd. ct Wils.) là một cây to, cao từ 7-15m, vỏ thân tím nâu. Lá mọc so le, cuống to, mập dài từ $2,4$-$4,4cm$, không lông, phiến lá hình trứng thuôn, dài $22$-$40cm$, rộng từ $10$-$20cm$, đầu hơi nhọn, phía cuống hẹp lại. Hoa màu trắng, thơm, đường kính có thể tới $12cm$, cuống hoa to thô. Quả kép (gồm nhiều đại rời), hình trứng dài từ $9$-$12cm$, dường kính từ $5$-$6,5cm$. Thứ hậu phác Magnolia cfficinalis var. biloba Rehd. et Wils, rất giống loài trên, chỉ khác ở đầu lá hõm xuống chia làm hai thùy.",
+        "thanh_phan_hoa_hoc": "['Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\\\%$ phennol gọi là `$magnolola$` và chất `$tetrahydromagnolola$` và chất `$isomagnolola$`. Ngoài ra còn có chừng $1\\\\%$tinh dầu.']",
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "387"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây hậu phác chính thức (Magnolia offcinalis Rehd. ct Wils.) là một cây to, cao từ 7-15m, vỏ thân tím nâu. Lá mọc so le, cuống to, mập dài từ $2,4$-$4,4cm$, không lông, phiến lá hình trứng thuôn, dài $22$-$40cm$, rộng từ $10$-$20cm$, đầu hơi nhọn, phía cuống hẹp lại. Hoa màu trắng, thơm, đường kính có thể tới $12cm$, cuống hoa to thô. Quả kép (gồm nhiều đại rời), hình trứng dài từ $9$-$12cm$, dường kính từ $5$-$6,5cm$. Thứ hậu phác Magnolia cfficinalis var. biloba Rehd. et Wils, rất giống loài trên, chỉ khác ở đầu lá hõm xuống chia làm hai thùy.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là `$magnolola$` và chất `$tetrahydromagnolola$` và chất `$isomagnolola$`. Ngoài ra còn có chừng $1\\%$tinh dầu."
+        ],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "có vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "có vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "HC_MAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là `$magnolola$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "HC_TETRAHYDROMAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là `$magnolola$` và chất `$tetrahydromagnolola$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "HC_ISOMAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là `$magnolola$` và chất `$tetrahydromagnolola$` và chất `$isomagnolola$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chừng $1\\%$tinh dầu.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      }
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "VT_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "VT_CHI_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "VT_DAI_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LY_HAU_PHAC",
+      "to": "B_DI_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Uống $2-3$ lần mỗi ngày, mỗi lần $3-4g$ bột",
+        "cach_dung": "Tán nhỏ, tẩm nước gừng rồi nướng hay sao vàng",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "CN_QUY_KINH_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "CN_QUY_KINH_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "CN_QUY_KINH_DAI_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị đau bụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_DAY_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị bệnh đầy bụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị ăn uống không tiêu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị nôn mửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_DAI_TIEN_BI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị đại tiện bí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "B_TRI_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị táo bón."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "CN_KHU_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAU_PHAC",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc hậu phác có tác dụng kháng sinh đối với vi trùng thương hàn, thổ tả, Staphylococ, Streptococ và lỵ Shiga."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "all_sources": [
+          "CT_VT_VN_T387"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "entity_hub": "VI_THUOC_KHE",
+  "source": {
+    "source_id": "CT_VT_VN_T117",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "117"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SON_LO_KHE_L",
+      "to": "VI_THUOC_KHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khế được dùng đơn lẻ để chữa sơn lở, dị ứng, lở loét nhờ tính mát và khả năng kháng viêm, giảm ngứa.",
+        "mo_ta_chi_tiet": "Lá khế cả cành non và hoa $100-150g$",
+        "cach_dung": "Nấu sôi 15 phút với 5-6 lít nước, dùng xông và tắm. Lá đã nấu rồi dùng sát lên nơi lở loét.",
+        "ghi_chu": "Thường chỉ điều trị 3-4 ngày là khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SON_LO_KHE_L",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sơn lở, dị ứng, lở loét",
+        "cach_dung": "Nấu sôi 15 phút với 5-6 lít nước, dùng xông và tắm. Lá đã nấu rồi dùng sát lên nơi lở loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SON_LO_KHE_L",
+      "to": "B_DI_UNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sơn lở, dị ứng, lở loét",
+        "cach_dung": "Nấu sôi 15 phút với 5-6 lít nước, dùng xông và tắm. Lá đã nấu rồi dùng sát lên nơi lở loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_KHE_L",
+      "to": "VI_THUOC_KHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khế được dùng đơn lẻ để chữa mẩn ngứa, lở loét sưng đau do dị ứng nhờ tính mát và khả năng kháng viêm, giảm ngứa.",
+        "mo_ta_chi_tiet": "Lá khế giã nhỏ",
+        "cach_dung": "Đắp lên những nơi bị lở sơn (sơn ăn). Có thể dùng quả giã lấy nước mà đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_KHE_L",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, lở loét sưng đau do dị ứng",
+        "cach_dung": "Đắp lên những nơi bị lở sơn (sơn ăn). Có thể dùng quả giã lấy nước mà đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_KHE_L",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, lở loét sưng đau do dị ứng",
+        "cach_dung": "Đắp lên những nơi bị lở sơn (sơn ăn). Có thể dùng quả giã lấy nước mà đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_KHE_L",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, lở loét sưng đau do dị ứng",
+        "cach_dung": "Đắp lên những nơi bị lở sơn (sơn ăn). Có thể dùng quả giã lấy nước mà đắp lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SCOBUT_KHE_Q",
+      "to": "VI_THUOC_KHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khế được dùng đơn lẻ để chữa bệnh scobut nhờ chứa nhiều vitamin C.",
+        "mo_ta_chi_tiet": "Quả khế lấy nước ép",
+        "cach_dung": "Uống cho mát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SCOBUT_KHE_Q",
+      "to": "B_SCOBUT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh scobut",
+        "cach_dung": "Uống cho mát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_MA_TIEN_REK",
+      "to": "VI_THUOC_KHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ khế phối hợp với các vị thuốc khác để giải độc, đặc biệt ngộ độc mã tiền.",
+        "mo_ta_chi_tiet": "Rễ cây khế",
+        "cach_dung": "Tất cả sắc với nước, cô đặc còn 1/3, thêm đường cho thật ngọt mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_MA_TIEN_REK",
+      "to": "VI_THUOC_VO_CAY_KHLENG_PEAR",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rễ khế phối hợp với các vị thuốc khác để giải độc, đặc biệt ngộ độc mã tiền.",
+        "mo_ta_chi_tiet": "vỏ cây khleng pear hay khleny kraham (Bauhinia bassaceusis Pierre)",
+        "cach_dung": "Tất cả sắc với nước, cô đặc còn 1/3, thêm đường cho thật ngọt mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_MA_TIEN_REK",
+      "to": "VI_THUOC_VO_CAY_LAGERSTROCMIN_FLORIBUNDA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rễ khế phối hợp với các vị thuốc khác để giải độc, đặc biệt ngộ độc mã tiền.",
+        "mo_ta_chi_tiet": "vỏ cây Lagerstrocmin floribunda",
+        "cach_dung": "Tất cả sắc với nước, cô đặc còn 1/3, thêm đường cho thật ngọt mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_MA_TIEN_REK",
+      "to": "VI_THUOC_GAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Rễ khế phối hợp với các vị thuốc khác để giải độc, đặc biệt ngộ độc mã tiền.",
+        "mo_ta_chi_tiet": "gạo (hái ở những cây mọc hoang)",
+        "cach_dung": "Tất cả sắc với nước, cô đặc còn 1/3, thêm đường cho thật ngọt mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_MA_TIEN_REK",
+      "to": "B_NGO_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngộ độc, đặc biệt ngộ độc do mã tiền",
+        "cach_dung": "Tất cả sắc với nước, cô đặc còn 1/3, thêm đường cho thật ngọt mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_GIAT_GI_SAT_KHE_Q",
+      "to": "VI_THUOC_KHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Khế được dùng đơn lẻ để giặt những vết gỉ sắt trên quần áo do các chất kali oxalat axit.",
+        "mo_ta_chi_tiet": "Quả khế",
+        "cach_dung": "Dùng do các chất kali oxalat axit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    }
+  ],
+  "metadata": {}
+}

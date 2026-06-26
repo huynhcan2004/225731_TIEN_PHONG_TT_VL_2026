@@ -1,0 +1,122 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUA_HAU",
+    "ten_raw": "Dưa hấu",
+    "ten_khoa_hoc": "Citrullus vulgaris Schrad.",
+    "ho_thuc_vat": "Bầu bí Cucurbitaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": "Dưa hấu"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T943",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "943"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cành to. Lá mọc ở đầu cành, hình hơi bầu dục, dài $10$-$25cm$, nhẵn. Hoa nhỏ, cuống nhỏ và dài, mọc đơn độc ở kẽ các lá. Quả hình trứng, dài $8$-$15cm$, màu nâu hung, vỏ sần sùi, chứa một hạch hình trứng nhẵn, màu nâu, phần rốn hơi xù xì (Hình 701).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả sữa tươi có $0,08\\%$ protit, $7,3\\%$ gluxit, $1,8\\%$ xenluloza, $0,6\\%$ tro. Trong tro thành phần chủ yếu là canxi ($53mg\\%$), phôtpho ($25mg\\%$), Vitamin C ($4mg\\%$) (Theo bảng Thành phần hóa học thức ăn Việt Nam-1972: 65).",
+          "Mới thấy trong quả có hydratcacbon."
+        ],
+        "cach_dung_bao_che": "Nhân dân được dùng làm kẹo hoặc ép dầu."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $0,08\\%$ protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $7,3\\%$ gluxit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_XENLULOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $1,8\\%$ xenluloza"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_TRO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sữa tươi có $0,6\\%$ tro."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tro thành phần chủ yếu là canxi ($53mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tro thành phần chủ yếu là canxi ($53mg\\%$), phôtpho ($25mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin C ($4mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_HAU",
+      "to": "HC_HYDRATCACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới thấy trong quả có hydratcacbon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T943"
+      }
+    }
+  ]
+}

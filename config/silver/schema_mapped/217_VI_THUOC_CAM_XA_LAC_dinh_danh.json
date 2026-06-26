@@ -1,0 +1,54 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAM_XA_LAC",
+    "ten_raw": "Cẩm xà lặc",
+    "ten_khoa_hoc": "Canthium parvifolium Roxb.",
+    "ho_thuc_vat": "họ Cà phê Rubiaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T217",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "217"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cẩm xà lặc là một cây nhỏ có gai dài từ $0,3$ đến $5cm$ hai đầu quặp lại gần giống như mỏ qua, phía gốc gai có lông. Lá hình trứng thuôn dài mặt trên nhẵn, mặt dưới hơi có lông trên đường gân; phiến lá dai, cuống rất ngắn. Hoa màu vàng họp thành chùm ở kẽ lá từng $2$ đến $8$ hoa. Cánh hoa $2-3mm$. Quả hạch hình cầu đường kính $8-10mm$ khi chín có màu vàng nhạt trong có hai ngăn mỗi ngăn chứa một hạt. Mùa hoa và quả: tháng $10-12$",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu. Sơ bộ thấy có ancaloit và saponozit."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAM_XA_LAC",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ thấy có ancaloit và saponozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T217"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_XA_LAC",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ thấy có ancaloit và saponozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T217"
+      }
+    }
+  ]
+}

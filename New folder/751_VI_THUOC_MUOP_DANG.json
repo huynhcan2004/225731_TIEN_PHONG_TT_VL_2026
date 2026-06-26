@@ -1,0 +1,261 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MUOP_DANG",
+    "ten_raw": "Mướp đắng",
+    "ten_khoa_hoc": "Momordica charantia L.; Momordica balsamina Desc.; Cucumis africanus Lindl.",
+    "ho_thuc_vat": "họ Bí Cucurbitaceae",
+    "variants": [
+      "Khổ qua"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "Mùa quả ở miền Bắc các tháng 5-6-7.",
+      "che_bien_tho": "Người ta trồng để lấy quả nấu ăn cho mát (giải nhiệt).",
+      "lieu_dung_chung": "Ngày dùng chừng 2 quả bỏ hết hạt, nấu mà ăn. Hạt dùng với liều $3$g hạt khô, dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "",
+      "phan_bo": "khắp các tỉnh trong Còn thấy mọc ở miền nam Trung Quốc (Phúc Kiến, Quảng Đông, Quảng Tây, Giang Tô, Triết Giang). Tại một số nước đông nam châu Á như Ấn Độ, Malaixia, Philipin cũng thấy có."
+    },
+    "display_name": "Mướp đắng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MUOP_DANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Muop Dang"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "HC_MOMOCDIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Momocdixin"
+      }
+    },
+    {
+      "id": "HC_ADENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Adenin"
+      }
+    },
+    {
+      "id": "HC_BETAIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Betain"
+      }
+    },
+    {
+      "id": "B_DAI_DUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dai Duong"
+      }
+    },
+    {
+      "id": "B_BENH_VE_DUONG_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Ve Duong Mat"
+      }
+    },
+    {
+      "id": "B_GIUN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Giun"
+      }
+    },
+    {
+      "id": "S_ROM_SAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Rom Say"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T751",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "751"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": []
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mướp đắng là một loại dây leo, thân có góc cạnh, ở ngọn hơi có lông tơ. Lá mọc so le, dài $5$-$10cm$, rộng $4$-$8cm$, phiến lá chia $5$-$7$ thuỳ hình trứng, mép có răng cưa đều, mặt dưới lá màu nhạt hơn mặt trên, trên gần lá có lông ngắn. Hoa mọc đơn độc ở kẽ lá, đực cái cùng gốc, có cuống dài, cánh hoa màu vàng nhạt, đường kính của hoa chừng $2cm$. Quả hình thoi dài $8$-$15cm$, trên mặt có nhiều u nổi lên, quả chưa chín có màu vàng xanh, khi chín có màu vàng hồng, trong quả có hạt dẹt dài $13$-$15mm$, rộng $7$-$8mm$, trông gần giống hạt bí ngô, quanh hạt có màng màu đỏ máu như màng gấc."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "mướp đắng có vị đắng (khổ)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "mướp đắng có tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_MOMOCDIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả có chứa một chất glucozit đắng gọi là $momocdixin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_ADENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có vitamin B, C, adenin, betain, protein ($0,6\\%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_BETAIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có vitamin B, C, adenin, betain, protein ($0,6\\%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "B_DAI_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo tài liệu nước ngoài",
+        "ghi_chu": "CT_VT_VN_T752"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "B_BENH_VE_DUONG_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc gây nôn, thuốc tẩy",
+        "ghi_chu": "CT_VT_VN_T752"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Có tác dụng chữa giun",
+        "ghi_chu": "CT_VT_VN_T752"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "S_ROM_SAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "2-3 quả",
+        "cach_dung": "Nấu với nước để tắm cho trẻ em. Ngày 1 lần",
+        "ghi_chu": "CT_VT_VN_T752"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "1-2 quả",
+        "cach_dung": "Nấu với nước mà uống làm 1 hay 2 lần trong ngày",
+        "ghi_chu": "CT_VT_VN_T752"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sách cổ đông y mướp đắng có vị đắng (khổ), tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T751"
+      }
+    }
+  ]
+}

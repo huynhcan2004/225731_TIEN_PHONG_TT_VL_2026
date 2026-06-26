@@ -1,0 +1,821 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHAN_PHONG_KY",
+    "ten_raw": "Phấn phòng kỷ",
+    "ten_khoa_hoc": "$Stephania tetrandra S. Moore$",
+    "ho_thuc_vat": "$Tiết dê Menispermaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng $6$-$12$g dưới dạng thuốc sắc, thường phối hợp với các vị thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Chưa thấy mọc ở Việt Nam, mọc hoang tại các đồi núi Trung Quốc (Triết Giang, An Huy, Quảng Đông...)."
+    },
+    "display_name": "Vị thuốc Phấn phòng kỷ",
+    "canonical_name": "Vị thuốc Phấn phòng kỷ"
+  },
+  "nodes": [
+    {
+      "id": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Khớp xương đau nhức phòng kỷ",
+        "aliases": [
+          "khớp xương đau nhức phòng kỷ",
+          "khopxuongdaunhucphongky",
+          "khop xuong dau nhuc phong ky"
+        ],
+        "search_vector_hint": "Khớp xương đau nhức phòng kỷ thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "B_CUOC_KHI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cuộc khí",
+        "aliases": [
+          "cuockhi",
+          "cuoc khi",
+          "cuộc khí"
+        ],
+        "search_vector_hint": "Bệnh Cuộc khí thuộc nhóm bệnh, thường liên quan đến rối loạn khí huyết."
+      }
+    },
+    {
+      "id": "B_KHOP_XUONG_DAU_NHUC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Khớp xương đau nhức",
+        "aliases": [
+          "dau nhuc xuong khop",
+          "daunhucxuongkhop",
+          "khớp xương đau nhức",
+          "khop xuong dau nhuc",
+          "khopxuongdaunhuc",
+          "đau nhức xương khớp"
+        ],
+        "search_vector_hint": "Bệnh Khớp xương đau nhức thuộc nhóm Bệnh, thường liên quan đến viêm khớp."
+      }
+    },
+    {
+      "id": "B_THAP_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thấp thũng",
+        "aliases": [
+          "thấp thũng",
+          "thapthung",
+          "thap thung"
+        ],
+        "search_vector_hint": "Thấp thũng thuộc nhóm bệnh, thường liên quan đến các triệu chứng và phương pháp điều trị."
+      }
+    },
+    {
+      "id": "B_THUY_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thủy thũng",
+        "aliases": [
+          "phù",
+          "thủy thũng",
+          "phu",
+          "thuythung",
+          "thuy thung"
+        ],
+        "search_vector_hint": "Bệnh Thủy thũng thuộc nhóm Bệnh, thường liên quan đến tình trạng tích tụ dịch trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_HANH_THUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hành thủy",
+        "aliases": [
+          "hanhthuy",
+          "hành thủy",
+          "hanh thuy"
+        ],
+        "search_vector_hint": "Công năng Hành thủy thuộc nhóm Công năng, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong",
+        "aliases": [
+          "khuphong",
+          "truphong",
+          "khu phong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Khu phong thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh phong."
+      }
+    },
+    {
+      "id": "CN_TA_HA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả hạ",
+        "aliases": [
+          "nhuan trang",
+          "tả hạ",
+          "thông tiện",
+          "ta ha",
+          "nhuận tràng",
+          "nhuantrang",
+          "taha",
+          "thongtien",
+          "thong tien"
+        ],
+        "search_vector_hint": "Tả hạ thuộc nhóm công năng, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "CN_TIEU_HUYET_PHAN_THAP_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu huyết phân thấp nhiệt",
+        "aliases": [
+          "tiêu huyết phân thấp nhiệt",
+          "tieu huyet phan thap nhiet",
+          "tieuhuyetphanthapnhiet"
+        ],
+        "search_vector_hint": "Tiêu huyết phân thấp nhiệt thuộc nhóm công năng, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "DL_GAY_CO_BOP_RUOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Gây co bóp ruột",
+        "aliases": [
+          "gaycobopruot",
+          "gay co bop ruot",
+          "gây co bóp ruột"
+        ],
+        "search_vector_hint": "Gây co bóp ruột thuộc nhóm dược lý, thường liên quan đến tác động lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_HA_THAN_NHIET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ thân nhiệt",
+        "aliases": [
+          "hạ thân nhiệt",
+          "hathannhiet",
+          "ha than nhiet"
+        ],
+        "search_vector_hint": "Hạ thân nhiệt thuộc nhóm dược lý, thường liên quan đến tác động lên thân nhiệt."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích hô hấp",
+        "aliases": [
+          "kích thích hô hấp",
+          "kichthichhohap",
+          "kich thich ho hap"
+        ],
+        "search_vector_hint": "Kích thích hô hấp thuộc nhóm dược lý, thường liên quan đến tác động lên hệ hô hấp."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH_TRUNG_UONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích thần kinh trung ương",
+        "aliases": [
+          "kichthichthankinhtrunguong",
+          "kích thích thần kinh trung ương",
+          "kich thich than kinh trung uong"
+        ],
+        "search_vector_hint": "Kích thích thần kinh trung ương thuộc nhóm dược lý, thường liên quan đến tác động lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "HC_DEMETYLTETRANDRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Demetyltetrandrin",
+        "aliases": [
+          "demetyltetrandrin"
+        ],
+        "search_vector_hint": "Demetyltetrandrin thuộc nhóm hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_TETRANDRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tetrandrin",
+        "aliases": [
+          "tetrandrin"
+        ],
+        "search_vector_hint": "Tetrandrin thuộc nhóm hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BACH_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch truật",
+        "aliases": [
+          "bach truat",
+          "bạch truật",
+          "bachtruat"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch truật thuộc nhóm Vị thuốc, thường liên quan đến kiện tỳ, táo thấp."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_O_DAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ô đầu",
+        "aliases": [
+          "o dau",
+          "ô đầu",
+          "odau"
+        ],
+        "search_vector_hint": "Ô đầu thuộc nhóm vị thuốc, thường liên quan đến thành phần trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_PHAN_PHONG_KY",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phấn phòng kỷ",
+        "aliases": [
+          "phan phong ky",
+          "phanphongky",
+          "phấn phòng kỷ"
+        ],
+        "search_vector_hint": "Phấn phòng kỷ thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh.",
+        "bo_phan_dung": "rễ",
+        "lieu_dung_chung": "Ngày dùng $6$-$12$g dưới dạng thuốc sắc, thường phối hợp với các vị thuốc khác.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Chưa thấy mọc ở Việt Nam, mọc hoang tại các đồi núi Trung Quốc (Triết Giang, An Huy, Quảng Đông...).",
+        "ten_khoa_hoc": "$Stephania tetrandra S. Moore$",
+        "ho_thuc_vat": "$Tiết dê Menispermaceae$",
+        "hinh_thai_chi_tiet": "Cây sống lâu năm, mọc leo, rễ phình thành củ, đường kính rễ có thể đạt tới $6$cm, mặt ngoài màu tro nhạt hoặc nâu. Thân mềm, dài từ $2,5$-$4$m, vỏ thân màu xanh nhạt, gốc hơi đỏ. Lá mọc so le, hình khiên, dài $4$-$6$cm, rộng $4,5$-$6$cm, gốc hình tim, đầu nhọn, mép nguyên, hai mặt có lông ngắn mềm. Cuống lá dài gần bằng chiều dài lá, đính vào phía trong phiến lá. Hoa nhỏ màu xanh nhạt, đực cái khác gốc. Quả hạch hình cầu hơi dẹt."
+      }
+    },
+    {
+      "id": "VT_QUE_TAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quế tâm",
+        "aliases": [
+          "quetam",
+          "que tam",
+          "quế tâm"
+        ],
+        "search_vector_hint": "Quế tâm thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh khương",
+        "aliases": [
+          "sinh khuong",
+          "sinh khương",
+          "gungtuoi",
+          "gung tuoi",
+          "gừng tươi",
+          "sinhkhuong"
+        ],
+        "search_vector_hint": "Sinh khương thuộc nhóm Vị thuốc, thường liên quan đến giải cảm, ấm bụng."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "529"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_BANG_QUANG"
+        ],
+        "cong_nang": "khử phong, hành thủy, tả hạ, tiêu huyết phận thấp nhiệt"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sống lâu năm, mọc leo, rễ phình thành củ, đường kính rễ có thể đạt tới $6$cm, mặt ngoài màu tro nhạt hoặc nâu. Thân mềm, dài từ $2,5$-$4$m, vỏ thân màu xanh nhạt, gốc hơi đỏ. Lá mọc so le, hình khiên, dài $4$-$6$cm, rộng $4,5$-$6$cm, gốc hình tim, đầu nhọn, mép nguyên, hai mặt có lông ngắn mềm. Cuống lá dài gần bằng chiều dài lá, đính vào phía trong phiến lá. Hoa nhỏ màu xanh nhạt, đực cái khác gốc. Quả hạch hình cầu hơi dẹt."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị rất đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh Bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "HC_TETRANDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu chứa các ancaloit: `$tetrandrin$`",
+        "ghi_chu": "Chủ yếu chứa các ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "HC_DEMETYLTETRANDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu chứa các ancaloit: `$demetyltetrandrin$`",
+        "ghi_chu": "Chủ yếu chứa các ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_PHAN_PHONG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6$-$12$",
+        "vai_tro": "Quân",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Thần",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_QUE_TAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "VT_O_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Sứ",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "B_CUOC_KHI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "B_THAP_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHOP_XUONG_DAU_NHUC_PHONG_KY",
+      "to": "B_KHOP_XUONG_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T531"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "CN_HANH_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành thủy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "CN_TA_HA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả hạ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "CN_TIEU_HUYET_PHAN_THAP_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu huyết phận thấp nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "DL_KICH_THICH_THAN_KINH_TRUNG_UONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên chuột: kích thích thần kinh trung ương.",
+        "ghi_chu": "Kết quả thí nghiệm trên chuột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "DL_KICH_THICH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên chuột: kích thích hô hấp.",
+        "ghi_chu": "Kết quả thí nghiệm trên chuột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "DL_HA_THAN_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Một số ancaloit giúp hạ thân nhiệt (thỏ, chuột).",
+        "ghi_chu": "Kết quả thí nghiệm trên thỏ và chuột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "DL_GAY_CO_BOP_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Một số ancaloit gây co bóp ruột (thỏ, chuột).",
+        "ghi_chu": "Kết quả thí nghiệm trên thỏ và chuột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHAN_PHONG_KY",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên mèo: thuốc có tác dụng hạ huyết áp rõ rệt.",
+        "ghi_chu": "Kết quả thí nghiệm trên mèo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T529",
+        "all_sources": [
+          "CT_VT_VN_T529"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 67.0,
+      "reliability_c_score": 0.7577,
+      "total_confidence_sum": 19.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

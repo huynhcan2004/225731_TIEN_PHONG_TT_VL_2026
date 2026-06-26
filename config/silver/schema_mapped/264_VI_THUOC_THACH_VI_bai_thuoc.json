@@ -1,0 +1,271 @@
+{
+  "entity_hub": "VI_THUOC_THACH_VI",
+  "source": {
+    "source_id": "CT_VT_VN_T264",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "264"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOI_TIEU_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng lợi tiểu.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_THACH_VI_T",
+      "to": "B_LOI_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_SOI_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng lợi tiểu, trị tiểu ra sỏi.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_SOI_THACH_VI_T",
+      "to": "B_TIEU_RA_SOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiểu tiện ra sỏi",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng cầm máu, trị tiểu ra máu.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_THACH_VI_T",
+      "to": "B_TIEU_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiểu tiện ra máu",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_VIEM_NIEU_DAO_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng kháng viêm, trị viêm niệu đạo.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_VIEM_NIEU_DAO_THACH_VI_T",
+      "to": "B_VIEM_NIEU_DAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm niệu đạo",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_BANG_QUANG_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng lợi tiểu, thanh nhiệt, hỗ trợ điều trị bệnh bàng quang.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_BANG_QUANG_THACH_VI_T",
+      "to": "B_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bàng quang",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_BENH_THAN_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng thanh nhiệt giải độc, hỗ trợ điều trị bệnh than.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_BENH_THAN_THACH_VI_T",
+      "to": "B_BENH_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh than",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_UNG_NHOT_LO_LOET_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng thanh nhiệt giải độc, hỗ trợ điều trị ung nhọt lở loét.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_UNG_NHOT_LO_LOET_THACH_VI_T",
+      "to": "B_UNG_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ung nhọt lở loét",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_DO_LUU_HUYNH_THACH_VI_T",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6$ đến $12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng giải độc, hỗ trợ điều trị ngộ độc do lưu huỳnh.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_DO_LUU_HUYNH_THACH_VI_T",
+      "to": "B_NGO_DOC_LUU_HUYNH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngộ độc do lưu huỳnh",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TOC_RUNG_THACH_VI_D",
+      "to": "VI_THUOC_THACH_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch vĩ có tác dụng kích thích mọc tóc.",
+        "cach_dung": "Bôi lên nơi tóc không mọc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TOC_RUNG_THACH_VI_D",
+      "to": "VT_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu giúp dẫn thuốc và làm mềm da đầu.",
+        "cach_dung": "Bôi lên nơi tóc không mọc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "BT_TOC_RUNG_THACH_VI_D",
+      "to": "B_TOC_RUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh tóc rụng",
+        "cach_dung": "Bôi lên nơi tóc không mọc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    }
+  ],
+  "metadata": {}
+}

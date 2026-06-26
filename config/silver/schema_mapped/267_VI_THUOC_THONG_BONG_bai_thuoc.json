@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_THONG_BONG",
+  "source": {
+    "source_id": "CT_VT_VN_T267",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "267"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VET_THUONG_MO_QUA_THL",
+      "to": "VI_THUOC_THONG_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Các vị thuốc kết hợp giúp làm sạch và hỗ trợ làm lành vết thương.",
+        "cach_dung": "Giã nát đắp lên vết thương, nhưng chỉ 2-3 ngày mới thay băng 1 lần.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_MO_QUA_THL",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá mỏ quạ tươi, lá thòng bong, lá hàn the 3 vị bằng nhau giã nát đắp lên vết thương.",
+        "cach_dung": "Đắp lên vết thương nhưng chỉ 2-3 ngày mới thay băng 1 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T267"
+      }
+    }
+  ],
+  "metadata": {}
+}

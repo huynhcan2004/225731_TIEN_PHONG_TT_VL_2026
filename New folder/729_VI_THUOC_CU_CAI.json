@@ -1,0 +1,340 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CU_CAI",
+    "ten_raw": "Củ cải",
+    "ten_khoa_hoc": "Raphanus sativus L.",
+    "ho_thuc_vat": "họ Cải Brassicaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Rễ củ, lá, hạt",
+      "lieu_dung_chung": "Ngày uống $10-15$g dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Củ cải"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CU_CAI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cu Cai"
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Binh"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "HC_SUNFUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sunfua"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "BT_HO_CU_CAI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ho Cu Cai"
+      }
+    },
+    {
+      "id": "VI_THUOC_TO_TU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc To Tu"
+      }
+    },
+    {
+      "id": "VI_THUOC_BACH_GIOI_TU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bach Gioi Tu"
+      }
+    },
+    {
+      "id": "B_PHU_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phu Thung"
+      }
+    },
+    {
+      "id": "CN_HA_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ha Khi"
+      }
+    },
+    {
+      "id": "CN_DINH_XUYEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Dinh Xuyen"
+      }
+    },
+    {
+      "id": "CN_TIEU_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Tich"
+      }
+    },
+    {
+      "id": "CN_HOA_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hoa Dom"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T729",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "729"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TY",
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cải củ là cây mọc một năm hay hai năm. Rễ củ phình to. Hoa màu trắng hay hơi tím hồng. Quả là một giác. Mùa hoa từ tháng 4 đến tháng 7. Mùa quả từ tháng 6 đến tháng 7. Cây này được trồng ở khắp nơi trong nước ta để lấy rễ củ ăn, lá để làm dưa, hạt làm thuốc; từ trước đến nay ta ít thu hoạch để làm thuốc ( Hình 550).",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu của hạt là chất dầu trong đó có hợp chất sunfua. Hoạt chất khác chưa rõ."
+        ],
+        "cach_dung_bao_che": "Đến mùa quả chín, hái cả cây, phơi khô, đập lấy hạt, bỏ hết vỏ và tạp chất, phơi khô. Khi dùng sao cho hơi vàng có mùi thơm. Hạt cải củ hình trứng dẹt, dài chừng $2,5-4mm$, rộng $2-3mm$, mặt ngoài màu nâu đỏ hoặc xám nâu. Vỏ hạt mỏng, dòn, nhìn qua kính lúp sẽ thấy các chỗ lõm hình mạng, ở một đầu có tễ. Không mùi vị, có chất dầu hơi cay. Hạt mẫm, chắc, màu nâu đỏ là tốt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của hạt là chất dầu trong đó có hợp chất sunfua.",
+        "ghi_chu": "trong hạt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-15g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dạng thuốc sắc | Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "nhiều đờm quá, người già ho lâu không khỏi, nôn mửa | hen xuyễn, ngực bụng đầy trướng, khí trệ sinh đau, hạ lỵ hậu thũng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "BT_HO_CU_CAI",
+      "to": "VI_THUOC_CU_CAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10$",
+        "vai_tro": "Quân",
+        "cach_dung": "Tất cả tán nhỏ cho vào túi vải, thêm $500$ml nước. Sắc còn $200$ml, chia làm $3$ lần uống trong ngày (theo đơn thuốc của Diệp Thiện Sĩ)",
+        "ghi_chu": "sao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "BT_HO_CU_CAI",
+      "to": "VI_THUOC_TO_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá",
+        "cach_dung": "Tất cả tán nhỏ cho vào túi vải, thêm $500$ml nước. Sắc còn $200$ml, chia làm $3$ lần uống trong ngày (theo đơn thuốc của Diệp Thiện Sĩ)",
+        "ghi_chu": "sao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "BT_HO_CU_CAI",
+      "to": "VI_THUOC_BACH_GIOI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3$",
+        "vai_tro": "Sứ",
+        "cach_dung": "Tất cả tán nhỏ cho vào túi vải, thêm $500$ml nước. Sắc còn $200$ml, chia làm $3$ lần uống trong ngày (theo đơn thuốc của Diệp Thiện Sĩ)",
+        "ghi_chu": "sao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Củ cải phơi hay sấy khô $10-15$g; Lá cải củ phơi hay sấy khô $10-15$g",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "Thông tiểu tiện"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "CN_HA_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "CN_DINH_XUYEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Định xuyễn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "CN_TIEU_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "CN_HOA_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoá đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T729"
+      }
+    }
+  ]
+}

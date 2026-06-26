@@ -1,0 +1,160 @@
+{
+  "entity_hub": "VI_THUOC_CON_RET",
+  "source": {
+    "source_id": "CT_VT_VN_T100",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "100"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SANG_TRI_NGO_CONG_L",
+      "to": "VI_THUOC_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Con rết có tác dụng giảm đau, chống viêm, kết hợp với long não giúp tăng cường hiệu quả giảm đau và sát trùng.",
+        "cach_dung": "Bôi lên",
+        "ghi_chu": "Hòa ít long não, thêm ít nước hay rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_SANG_TRI_NGO_CONG_L",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sang trĩ đau nhức",
+        "cach_dung": "Bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CON_RET_C",
+      "to": "VI_THUOC_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sử dụng con rết ngâm rượu để điều trị mụn nhọt nhờ tác dụng kháng viêm, giảm đau.",
+        "cach_dung": "Bội",
+        "ghi_chu": "cả con cho vào rượu 90°"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CON_RET_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rượu rết lên mụn nhọt",
+        "cach_dung": "Bội"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CON_RET_D",
+      "to": "VI_THUOC_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu vừng có tác dụng làm dịu da, kết hợp với con rết giúp giảm viêm, giảm đau và sát trùng.",
+        "cach_dung": "Lấy bông thấm thuốc này bởi",
+        "ghi_chu": "Bắt 6 con rết cho vào lọ, đổ dầu vừng vào ngâm vài tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CON_RET_D",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, chỗ bị sâu, trùng độc cắn",
+        "cach_dung": "Lấy bông thấm thuốc này bởi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_THAN_KINH_MAT_NGO_CONG_CC",
+      "to": "VI_THUOC_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Con rết có tác dụng thông kinh hoạt lạc, giảm đau, kết hợp với cam thảo giúp điều hòa các vị thuốc và giảm tác dụng phụ.",
+        "cach_dung": "Ngày uống $0,5g$ viên chia làm 3 lần uống",
+        "ghi_chu": "Ngô công sấy khô, bỏ đầu chân, tán nhỏ, trộn với lượng tương đương bột cam thảo và thêm nước hồ làm thành viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_THAN_KINH_MAT_NGO_CONG_CC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Con rết có tác dụng thông kinh hoạt lạc, giảm đau, kết hợp với cam thảo giúp điều hòa các vị thuốc và giảm tác dụng phụ.",
+        "cach_dung": "Ngày uống $0,5g$ viên chia làm 3 lần uống",
+        "ghi_chu": "Ngô công sấy khô, bỏ đầu chân, tán nhỏ, trộn với lượng tương đương bột cam thảo và thêm nước hồ làm thành viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_THAN_KINH_MAT_NGO_CONG_CC",
+      "to": "B_TE_LIET_THAN_KINH_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được",
+        "cach_dung": "Ngày uống $0,5g$ viên chia làm 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_THAN_KINH_MAT_NGO_CONG_CC",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được",
+        "cach_dung": "Ngày uống $0,5g$ viên chia làm 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_THAN_KINH_MAT_NGO_CONG_CC",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được",
+        "cach_dung": "Ngày uống $0,5g$ viên chia làm 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100"
+      }
+    }
+  ],
+  "metadata": {}
+}

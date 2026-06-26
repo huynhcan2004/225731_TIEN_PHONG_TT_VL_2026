@@ -1,0 +1,149 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHOAI_LANG",
+    "ten_raw": "Khoai lang",
+    "ten_khoa_hoc": "Ipomoea batatas (L.) Poir.",
+    "ho_thuc_vat": "Bìm bìm (Convolvulaceae)",
+    "variants": [
+      "Khoai lang"
+    ],
+    "properties": {
+      "phan_bo": "Cây khoai lang được trồng ở nhiều nước nhiệt đới để lấy củ ăn thay gạo."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T461",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "461"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Khoai lang là một loại cỏ sống lâu năm thân mọc bò, dài $2-3m$, rễ mẫm thành củ, màu đỏ, trắng hay vàng. Lá có nhiều hình, thường hình tim xẻ 3 thuỳ, có cuống dài. Hoa màu tím nhạt hay trắng, mọc thành xim ít hoa ở đầu cành. Rất ít khi thấy quả và hạt ( Hình 344 ).",
+        "thanh_phan_hoa_hoc": [
+          "Củ chứa $24,6\\%$ tinh bột, $4,17\\%$ glucoza.",
+          "Khi còn tươi chứa $1,3\\%$ protein, $0,1\\%$ chất béo, các diattaza, tro có Mn, Ca, Cu, các vitamin A, B, C, $4,24\\%$ tanin, $1,375$ pentozan.",
+          "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin.",
+          "Trong dây khoai lang có adenin, betain, cholin, theo Garcia F. (1944, Philip. J. Sci., 76: 7-8) trong"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Củ chứa $24,6\\%$ tinh bột, $4,17\\%$ glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_PROTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi còn tươi chứa $1,3\\%$ protein, $0,1\\%$ chất béo, các diattaza, tro có Mn, Ca, Cu, các vitamin A, B, C, $4,24\\%$ tanin, $1,375$ pentozan."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi còn tươi chứa $1,3\\%$ protein, $0,1\\%$ chất béo, các diattaza, tro có Mn, Ca, Cu, các vitamin A, B, C, $4,24\\%$ tanin, $1,375$ pentozan."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_INOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_AXIT_CLOROGENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_PHYTOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_CAROTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_ADENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_BETAIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_LANG",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi đã phơi khô (chỗ mát) chứa inozit, gôm, dextrin, axit clorogenic, phytosterol, carotin, adenin, betain, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T461"
+      }
+    }
+  ]
+}

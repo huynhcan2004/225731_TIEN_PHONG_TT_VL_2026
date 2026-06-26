@@ -1,0 +1,184 @@
+{
+  "entity_hub": "VI_THUOC_CUC_TAN",
+  "source": {
+    "source_id": "CT_VT_VN_T700",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "700"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_C",
+      "to": "VI_THUOC_CUC_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc tần là vị thuốc chính trong bài thuốc trị cảm mạo.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_C",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm mạo",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_C",
+      "to": "S_SOT_RET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sốt rét",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_C",
+      "to": "S_DAU_KHOP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau khớp",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_C",
+      "to": "S_TRU_THAP_TIEU_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ thấp tiêu thũng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_DAU_BUNG_CUC_TAN_C",
+      "to": "VI_THUOC_CUC_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc tần là vị thuốc chính trong bài thuốc xoa bóp trị cảm cúm, đau bụng.",
+        "cach_dung": "Dùng làm nguyên liệu cất tinh dầu",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_DAU_BUNG_CUC_TAN_C",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chế thuốc xoa cảm cúm",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_DAU_BUNG_CUC_TAN_C",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chế thuốc xoa đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_BKK_C",
+      "to": "VI_THUOC_CUC_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc tần, bạc hà, khuynh diệp phối hợp trị cảm mạo, đau nhức.",
+        "cach_dung": "Chế dầu xoa bóp, dầu uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_BKK_C",
+      "to": "VI_THUOC_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc tần, bạc hà, khuynh diệp phối hợp trị cảm mạo, đau nhức.",
+        "cach_dung": "Chế dầu xoa bóp, dầu uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_BKK_C",
+      "to": "VI_THUOC_KHUYNH_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc tần, bạc hà, khuynh diệp phối hợp trị cảm mạo, đau nhức.",
+        "cach_dung": "Chế dầu xoa bóp, dầu uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_BKK_C",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo",
+        "cach_dung": "Chế dầu xoa bóp, dầu uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_CUC_TAN_BKK_C",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức",
+        "cach_dung": "Chế dầu xoa bóp, dầu uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T700"
+      }
+    }
+  ],
+  "metadata": {}
+}

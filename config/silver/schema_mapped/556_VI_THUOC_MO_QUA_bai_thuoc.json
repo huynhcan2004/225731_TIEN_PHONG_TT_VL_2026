@@ -1,0 +1,41 @@
+{
+  "entity_hub": "VI_THUOC_MO_QUA",
+  "source": {
+    "source_id": "CT_VT_VN_T556",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "556"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THIEN_DAU_THONG_MO",
+      "to": "VI_THUOC_MO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mỏ quạ là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Lá khô",
+        "cach_dung": "Sắc uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T556"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_MO",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thiên đầu thống",
+        "cach_dung": "Sắc uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T556"
+      }
+    }
+  ],
+  "metadata": {}
+}

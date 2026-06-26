@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BA_GAC_AN_DO",
+    "ten_raw": "Cây ba gạc Ân Độ",
+    "ten_khoa_hoc": "Rauwoflia serpentina Benth.",
+    "ho_thuc_vat": "Trúc đào Apocynaceae",
+    "variants": [
+      "Rễ ba gạc Ấn Độ (Rauwolfia serpentina)"
+    ],
+    "properties": {
+      "bo_phan_dung": "Rễ",
+      "thu_hai": "Đào rễ từ năm thứ hai trở lên.",
+      "phan_bo": "Ấn Độ, Thái Lan, Lào",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T317",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "317"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cao $40-50cm$ đến $1m$, ít có cành. Lá mọc vòng 3-4 lá, có khi mọc đối. Hoa màu hồng, hay đốm hồng, mọc thành chùm. Quả nhỏ hình trứng, khi chín có màu tím đen (Hình 235, Hm 30,2 ) đã mọc, ra hoa, kết quả rất tốt. Đào rễ từ năm thứ hai trở lên.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T318]: Trong rễ có chừng 28 ancaloit khác nhau với tỷ lệ $0,5\\%-2\\%$ ancaloit toàn phần, trong đó có thể chia làm 2 loại: 1. Ancaloit có kiềm tính mạnh, dẫn xuất của N quaternaire-có đại diện là $secpentin$ C₁₂H20 N₂O3. '12' 20° 2. Ancaloit có màu vàng, kiềm tính nhẹ như $ajmalin$ và $resecpin$ có thể coi như ancaloit quan trọng nhất, đại biểu dược tính của vị thuốc. Tỷ lệ $resecpin$ trong rễ chiếm $0,04-0,09\\%$.",
+          "Người ta dùng rễ phơi hay sấy khô (Radix Rauwolfiae serpentinae) của cây ba gạc Ấn Độ.",
+          "Cây mọc hoang và được trồng ở Ấn Độ, Thái Lan, Lào. Từ 1958 chúng tôi (Đỗ Tất Lợi) đã di thực vào miền Bắc nước ta bằng hạt giống của Ấn Độ đã trồng qua nhà kính ở Liên Xô cũ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BA_GAC_AN_DO",
+      "to": "HC_SECPENTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ancaloit có kiềm tính mạnh, dẫn xuất của N quaternaire-có đại diện là $secpentin$ C₁₂H20 N₂O3."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T317"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_GAC_AN_DO",
+      "to": "HC_AJMALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ancaloit có màu vàng, kiềm tính nhẹ như $ajmalin$ và $resecpin$ có thể coi như ancaloit quan trọng nhất, đại biểu dược tính của vị thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T317"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_GAC_AN_DO",
+      "to": "HC_RESECPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ancaloit có màu vàng, kiềm tính nhẹ như $ajmalin$ và $resecpin$ có thể coi như ancaloit quan trọng nhất, đại biểu dược tính của vị thuốc. Tỷ lệ $resecpin$ trong rễ chiếm $0,04-0,09\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T317"
+      }
+    }
+  ]
+}

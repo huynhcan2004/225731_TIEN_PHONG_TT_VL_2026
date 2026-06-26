@@ -1,0 +1,121 @@
+{
+  "entity_hub": "VI_THUOC_XOP",
+  "source": {
+    "source_id": "CT_VT_VN_T869",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "869"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BO_VO_CAY_SUA_V",
+      "to": "VI_THUOC_XOP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc bổ.",
+        "cach_dung": "Sắc uống hoặc chế biến thành cao lỏng.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây sữa được dùng làm thuốc bổ",
+        "cach_dung": "Sắc uống hoặc chế biến thành cao lỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V2",
+      "to": "VI_THUOC_XOP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc bổ.",
+        "cach_dung": "Ngày uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V2",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây sữa được dùng làm thuốc bổ",
+        "cach_dung": "Ngày uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V3",
+      "to": "VI_THUOC_XOP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc bổ.",
+        "cach_dung": "Ngày uống 15 phút trước 2 bữa ăn chính.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V3",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây sữa được dùng làm thuốc bổ",
+        "cach_dung": "Ngày uống 15 phút trước 2 bữa ăn chính."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V4",
+      "to": "VI_THUOC_XOP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc bổ.",
+        "cach_dung": "Dùng với liều $0,5$ đến $1,5g$ một ngày. Nhiều nhất chỉ uống $2g$ một lần và $6g$ trong $1$ ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_VO_CAY_SUA_V4",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây sữa được dùng làm thuốc bổ",
+        "cach_dung": "Dùng với liều $0,5$ đến $1,5g$ một ngày. Nhiều nhất chỉ uống $2g$ một lần và $6g$ trong $1$ ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    }
+  ],
+  "metadata": {}
+}

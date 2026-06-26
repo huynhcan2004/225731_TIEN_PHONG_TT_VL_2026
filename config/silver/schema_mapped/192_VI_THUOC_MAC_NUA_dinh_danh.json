@@ -1,0 +1,71 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAC_NUA",
+    "ten_raw": "Mặc nưa",
+    "ten_khoa_hoc": "Diospyros mollis Griff.; Diospyros mun H. Lec.",
+    "ho_thuc_vat": "họ Thị Ebenaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "phan_bo": "nước ta, nhiều nhất vùng Tân Châu, còn thấy trồng ở Cămpuchia, Lào, Thái Lan, Miến Điện.",
+      "thu_hai": "Quả có thể dùng tươi hay khô, nhưng chủ yếu là tươi.",
+      "che_bien_tho": "Quả có thể dùng tươi hay khô, nhưng chủ yếu là tươi."
+    },
+    "display_name": "Mặc nưa"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T192",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "192"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mặc nưa là một cây cao $10$-$20m$ có cành và những bộ phận khác của cây, lúc đầu có lông, sau không có lông. Lá mọc so le, hình trứng dài, nguyên, mặt dưới mờ, mặt trên nhẵn, phiến lá dài $5,5$-$13cm$ rộng $5,5$-$7cm$ cuống có lông dài $3$-$6mm$. Hoa đơn tính, nhỏ, màu vàng nhạt, hoa đực mọc thành xim ngắn, có lông, mang ít hoa: từ $1$-$3$ hoa, hoa cái mọc đơn độc ở nách lá. Quả hình cầu, đường kính $20$-$30mm$, nặng khoảng $8$-$12g$, mỗi quả chứa $3$-$6$ hạt, vỏ lúc còn nhỏ màu xanh tươi, sau ngả vàng xanh hay vàng hồng. Một cây mắc nưa cho khoảng $100$-$500kg$ quả mỗi năm",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả mặc nưa có hợp chất hydroquinon, tanin (khoảng $10\\%$ tanin catechic), hợp chất sterolic, axit hữu cơ, men invectin và men emunsin, không có men oxydaza, cũng không có ancaloit và flavon.",
+          "Trong môi trường axit, Nguyễn Bá Tước đã dùng ête chiết được từ quả mặc nưa một chất hydroquinon, kết tỉnh hình kim trắng nhạt trong cồn $30°$, độ chảy $250$-$251°C$, không tan trong nước, tan trong các dung môi hữu cơ (trừ trong ête dầu hỏa). Dưới tia ngoại tím cho huỳnh quang màu xanh tím. Công thức thô được xác định là C,H,O,. 1212 Nguyễn Bá Tước đã đề nghị gọi chất này là diospyroquinon có những hằng số và tính chất khác với những dẫn suất dimetyl paranaphtoquinon đã biết. Dẫn xuất axetyl của diospyron kết tinh trong cồn $80°$ dưới dạng khối trắng nhạt, độ chảy $218°C$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_HYDROQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất hydroquinon, tanin (khoảng $10\\%$ tanin catechic), hợp chất sterolic, axit hữu cơ, men invectin và men emunsin, không có men oxydaza, cũng không có ancaloit và flavon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả mặc nưa có hợp chất hydroquinon, tanin (khoảng $10\\%$ tanin catechic), hợp chất sterolic, axit hữu cơ, men invectin và men emunsin, không có men oxydaza, cũng không có ancaloit và flavon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAC_NUA",
+      "to": "HC_DIOSPYROQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nguyễn Bá Tước đã đề nghị gọi chất này là diospyroquinon có những hằng số và tính chất khác với những dẫn suất dimetyl paranaphtoquinon đã biết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T192"
+      }
+    }
+  ]
+}

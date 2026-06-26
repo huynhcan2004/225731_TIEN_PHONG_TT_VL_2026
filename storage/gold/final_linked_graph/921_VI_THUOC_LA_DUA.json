@@ -1,0 +1,104 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LA_DUA",
+    "ten_raw": "Cây lá dứa",
+    "ten_khoa_hoc": "$Pandanus amaryllifolia Roxb. (Panadanus odorus Ridl)$",
+    "ho_thuc_vat": "$Dứa gai Pandanaceae$",
+    "variants": [
+      "lá dứa"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Chưa rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "Cây mọc hoang dại và được trồng đặc biệt tại các tỉnh phía Nam để lấy lá tươi hay khô cho vào thức ăn như bánh, kẹo, rượu... Tại các chợ của thành phố Hồ Chí Minh người ta thường bó thành từng bó gồm từ 7-10 lá, nhiều bó nhỏ bó lại thành bó lớn. Gần như thu hái quanh năm."
+    },
+    "display_name": "Vị thuốc Lá dứa",
+    "canonical_name": "Vị thuốc Lá dứa"
+  },
+  "nodes": [
+    {
+      "id": "BT_LAM_THOM_KEO_BANH_LA_DUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Làm thơm kẹo bánh lá dứa",
+        "aliases": [
+          "lamthomkeobanhladua",
+          "làm thơm kẹo bánh lá dứa",
+          "lam thom keo banh la dua"
+        ],
+        "search_vector_hint": "Làm thơm kẹo bánh lá dứa thuộc nhóm bài thuốc, thường liên quan đến ẩm thực và y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_LA_DUA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lá dứa",
+        "aliases": [
+          "lá dứa",
+          "ladua",
+          "la dua"
+        ],
+        "search_vector_hint": "Lá dứa thuộc nhóm vị thuốc, thường liên quan đến hương liệu và một số bài thuốc.",
+        "bo_phan_dung": "lá",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Chưa rõ",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "Cây mọc hoang dại và được trồng đặc biệt tại các tỉnh phía Nam để lấy lá tươi hay khô cho vào thức ăn như bánh, kẹo, rượu... Tại các chợ của thành phố Hồ Chí Minh người ta thường bó thành từng bó gồm từ 7-10 lá, nhiều bó nhỏ bó lại thành bó lớn. Gần như thu hái quanh năm.",
+        "ten_khoa_hoc": "$Pandanus amaryllifolia Roxb. (Panadanus odorus Ridl)$",
+        "ho_thuc_vat": "$Dứa gai Pandanaceae$",
+        "hinh_thai_chi_tiet": "Cây mọc thành bụi, có thể cao $1m$, đường kính thân $1-3cm$, phân nhánh. Lá hình mũi mác, nhắn, xếp thành hình máng, dài $40-50cm$, rộng $3-4 cm$, mép không gai, mặt dưới có màu nhạt, có nhiều gân cách nhau $1mm$, mùi thơm như mùi cơm nếp. Để khô càng thơm hơn. Chưa thấy cây ra hoa.",
+        "thanh_phan_hoa_hoc": "['Trong lá tươi hay khô (càng khô càng thơm) có một chất thơm bền mùi, chịu được nhiệt.']"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T921",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "921"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc thành bụi, có thể cao $1m$, đường kính thân $1-3cm$, phân nhánh. Lá hình mũi mác, nhắn, xếp thành hình máng, dài $40-50cm$, rộng $3-4 cm$, mép không gai, mặt dưới có màu nhạt, có nhiều gân cách nhau $1mm$, mùi thơm như mùi cơm nếp. Để khô càng thơm hơn. Chưa thấy cây ra hoa.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá tươi hay khô (càng khô càng thơm) có một chất thơm bền mùi, chịu được nhiệt."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_LAM_THOM_KEO_BANH_LA_DUA",
+      "to": "VT_LA_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T921",
+        "all_sources": [
+          "CT_VT_VN_T921"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 25.0,
+      "reliability_c_score": 0.85,
+      "total_confidence_sum": 1.7
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

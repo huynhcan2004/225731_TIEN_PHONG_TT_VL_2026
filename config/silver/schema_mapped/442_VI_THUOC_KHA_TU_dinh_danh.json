@@ -1,0 +1,96 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHA_TU",
+    "ten_raw": "Kha tử",
+    "ten_khoa_hoc": "Terminalia chebula Retz.; Terminalia reticulata Roth.; Myrobalanus chebula Gaertn.",
+    "ho_thuc_vat": "Bàng Combretaceae",
+    "variants": [
+      "Chiều liêu",
+      "Chiều liêu xanh (Terminalia citrina Roxb. hay Myrobalanus citrina Gaertn.)"
+    ],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "phan_bo": "Chiều liêu xanh mọc ở Biên Hòa",
+      "thu_hai": "Vào tháng 9-10-11 quả chín, hái về phơi khô là được."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T442",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "442"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chiều liêu là một cây to cao chừng $15-20m$, có vỏ màu đen nhạt trên có những vạch nứt dọc. Lá mọc đối cuống rất ngắn, hình trứng, phía cuống tròn hơi thon, đầu nhọn, dài chừng $15-20cm$, rộng $7-15cm$, dai, hơi có lông mềm trên cả haii mặt, sau thì nhẵn, ở đầu cuống có hai tuyến nhỏ hình mắt cua. Hoa mọc thành bông, nhỏ, màu trắng, lưỡng tính, mùi thơm, mọc ở đầu cành hay ở kẽ lá, cuống ngắn, trên có phủ lông màu vàng nhạt . Quả hình trứng thon, dài $3-4cm$, rộng $22-25mm$, hai đầu tù, không có dìa, có 5 cạnh dọc, màu nâu vàng nhạt, thịt đen nhạt, khô, cứng và chắc. Hạch cứng, hơi hình 5 cạnh, dày chừng $10-15mm$, 1 hạt, lá mầm cuốn ( Hình 328, Hm 32,1 ). Có một loại chiều liêu xanh (Terminalia citrina Roxb. hay Myrobalanus citrina Gaertn.) có lá dài hơn, nhẵn, kể cả khi còn non, quả thuôn và nhỏ hơn, nhân mỏng hơn, hạt hẹp hơn. Chiều liêu xanh mọc ở Biên Hòa",
+        "thanh_phan_hoa_hoc": [
+          "Trong kha tử có tới $20-40\\%$ tanin bao gồm axit elagic, axit galic, và axit luteolic. Lượng tanin có khi lên tới $51,3\\%$ nếu quả thật khô.",
+          "Ngoài ra còn có axit chebulinic $C_{34}H_{27}O_{22}$, với tỷ lệ $3-4\\%$. Thủy phân axit chebulinic sẽ cho một phân tử glucoza 3 phân tử axit galic và một phân tử axit có công thức $C_{14}H_{11}O_9$",
+          "Trong nhân còn có $36,7\\%$ dầu vàng nhạt, trong, nửa khô."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "HC_AXIT_ELAGIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kha tử có tới $20-40\\%$ tanin bao gồm axit elagic, axit galic, và axit luteolic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "HC_AXIT_GALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kha tử có tới $20-40\\%$ tanin bao gồm axit elagic, axit galic, và axit luteolic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "HC_AXIT_LUTEOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kha tử có tới $20-40\\%$ tanin bao gồm axit elagic, axit galic, và axit luteolic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "HC_AXIT_CHEBULINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có axit chebulinic $C_{34}H_{27}O_{22}$, với tỷ lệ $3-4\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân axit chebulinic sẽ cho một phân tử glucoza 3 phân tử axit galic và một phân tử axit có công thức $C_{14}H_{11}O_9$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    }
+  ]
+}

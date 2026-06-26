@@ -1,0 +1,332 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MUOP_SAT",
+    "ten_raw": "Cây mướp sát",
+    "ten_khoa_hoc": "$Cerbera odollam Gaertn; Cerbera manghas L.; Tanghinia odollam G. Don$",
+    "ho_thuc_vat": "$Trúc đào Apocynaceae$",
+    "variants": [
+      "Mướp sát"
+    ],
+    "properties": {
+      "bo_phan_dung": "null",
+      "thu_hai": "từ tháng 2 đến tháng 10",
+      "che_bien_tho": "null",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "null",
+      "phan_bo": "Thường mọc hoang tại những vùng ẩm thấp và nhất là tại vùng ven biển miền Trung, miềm Nam và Cămpuchia. Ít gặp ở miền Bắc và Lào. Còn mọc ở Trung Quốc (Hải Nam, Đài Loan), Ấn Độ, châu Úc."
+    },
+    "display_name": "Cây mướp sát",
+    "canonical_name": "Cây mướp sát"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MUOP_SAT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Muop Sat"
+      }
+    },
+    {
+      "id": "HC_XECBERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xecberin"
+      }
+    },
+    {
+      "id": "HC_XECBERETIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xecberetin"
+      }
+    },
+    {
+      "id": "HC_XECBEROZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xecberozit"
+      }
+    },
+    {
+      "id": "HC_XECBERIGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xecberigenin"
+      }
+    },
+    {
+      "id": "HC_XECBEROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xecberoza"
+      }
+    },
+    {
+      "id": "B_DAU_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Doc"
+      }
+    },
+    {
+      "id": "B_DUOC_CA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Duoc Ca"
+      }
+    },
+    {
+      "id": "S_NGUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngua"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "B_TAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tay"
+      }
+    },
+    {
+      "id": "CN_TRU_CHAY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tru Chay"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "596"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mướp sát là một cây nhỡ hay to, cao chừng $4-6m$, cành thô, to, vỏ xù xì, dày, có gỗ mềm, toàn thân có nhựa mủ trắng. Lá mọc so le nhưng hay tập trung ở đầu cành, hình thuôn dài, nhọn ở đầu và ở phía cuống, mặt trên bóng, phiến lá dài chừng $10-15cm$, rộng $2-4cm$. Hoa trắng, rất thơm, mọc thành xim tận cùng với rất nhiều nhánh. Quả hạch, màu đỏ, to bằng quả trứng gà hay hơn. Khi quả còn tươi có thịt dày, xốp, màu xám nhạt, hoặc nâu nhạt hay hơi hồng. Trong hạch có hai hình bán cầu, mặt ngoài khum tròn, mặt trong phẳng và hơi lõm, vỏ hạt cứng, hai lá mầm không đều, ôm vào nhau. Mùa hoa: Từ tháng 2 đến tháng 10 ( Hình 456, Hm 27,1)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "HC_XECBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn thân cây chứa một chất nhựa màu trắng, khi gặp axit sẽ cho màu xanh lục. trong nhựa có $22\\%$ cao su kết hợp với nhiều chất khác nhưng không chứa $xecberin$ (cerberin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "HC_XECBERETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T597]: $xecberin$, $xecberetin$, $xecberozit$, $xecberigenin$, $xecberoza$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "HC_XECBEROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T597]: $xecberin$, $xecberetin$, $xecberozit$, $xecberigenin$, $xecberoza$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "HC_XECBERIGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T597]: $xecberin$, $xecberetin$, $xecberozit$, $xecberigenin$, $xecberoza$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "HC_XECBEROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T597]: $xecberin$, $xecberetin$, $xecberozit$, $xecberigenin$, $xecberoza$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "B_DAU_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Hạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "B_DUOC_CA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Hạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "B_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Vỏ cây mướp sát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "S_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bôi lên da",
+        "ghi_chu": "Dầu nhựa mủ mướp sát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "CN_TRU_CHAY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bôi lên tóc",
+        "ghi_chu": "Dầu nhựa mủ mướp sát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt rất độc do chất glucozit xecberin. Xecberin với liều vừa có tác dụng bổ tim, liều quá độc sẽ gây suy tim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUOP_SAT",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu hạt bản thân không độc, nhưng do những tạp chất kèm theo nên độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T596",
+        "all_sources": [
+          "CT_VT_VN_T596"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 53.0,
+      "reliability_c_score": 0.7654,
+      "total_confidence_sum": 9.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

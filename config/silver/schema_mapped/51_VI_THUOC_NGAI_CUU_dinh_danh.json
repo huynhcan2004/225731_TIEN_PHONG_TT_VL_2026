@@ -1,0 +1,99 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGAI_CUU",
+    "ten_raw": "Ngải cứu",
+    "ten_khoa_hoc": "Artemisia vulgaris L.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [
+      "ngải diệp (lá ngải)"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá có lẫn ít cành non",
+      "che_bien_tho": "phơi hay sấy khô",
+      "phan_bo": "mọc hoang ở nhiều nơi trong nước ta, còn thấy mọc ở nhiều nước khác ở châu Á, cả châu Âu nữa. Ở nước ta một số gia đình trồng ngải cứu có tính chất quy mô nhỏ quanh nhà.",
+      "thu_hai": "Thường hái cành và lá vào tháng 6 (gần tương ứng với tết mồng 5 tháng 5 âm lịch)"
+    },
+    "display_name": "Ngải cứu"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T51",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "51"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Hơi ôn",
+        "quy_kinh": [],
+        "cong_nang": "ôn khí huyết, trục hàn thấp, điều kinh, an thai",
+        "kieng_ky_dac_biet": ""
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngải cứu là một loại cỏ sống lâu năm, cao $50 - 60cm$, thân to có rãnh dọc. Lá mọc so le, rộng, không có cuống (nhưng lá phía dưới thường có cuống), xẻ thùy lông chim, màu lá ở hai mặt rất khác nhau: Mặt trên nhẵn màu lục sẫm, mặt dưới màu trắng tro do có rất nhiều lông nhỏ, trắng. Hoa mọc thành chùy kép gồm rất nhiều cụm hoa hình đầu ( Hình 7)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGAI_CUU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T51"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAI_CUU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T51"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAI_CUU",
+      "to": "HC_XINEOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu ngải cứu là xineol và Q-thuyon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T51"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAI_CUU",
+      "to": "HC_ADENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn một ít adenin, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T51"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAI_CUU",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn một ít adenin, cholin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T51"
+      }
+    }
+  ]
+}

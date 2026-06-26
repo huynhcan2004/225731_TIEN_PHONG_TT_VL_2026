@@ -1,0 +1,204 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHIEN_NGUU",
+    "ten_raw": "Khiên ngưu",
+    "ten_khoa_hoc": "Ipomoea hederacea Jacq; Pharbitis hederacea Choisy",
+    "ho_thuc_vat": "Bìm bìm (Convolvulaceae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Hạt",
+      "che_bien_tho": "Hạt",
+      "phan_bo": "Mọc hoang ở nhiều tỉnh nước ta. Còn mọc ở Ấn\nĐộ, Inđônêxia, Thái Lan, Nhật Bản, Philipin, Trung\nQuốc.",
+      "thu_hai": "Vào các tháng 7-10, quả chín, người ta hái về,\nđập lấy hạt phơi khô là được."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T459",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "459"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_THAN",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "Tả khí phận thấp nhiệt, trục đờm, tiêu ẩm lợi nhị tiện (đại tiểu tiện) là thuốc chữa tiện bĩ, và cước khí, chủ trị hạ khí, lợi tiểu tiện chữa cước thũng (phù), sát trùng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Khiên ngưu là một loại dây leo, cuốn, thân mảnh, có điểm những lông hình sao. Lá hình tim, xẻ 3 thuỳ, nhẵn và xanh ở mặt trên, xanh nhạt và có lông ở mặt dưới, dài $14cm$, rộng $12cm$, cuống dài $5-9cm$, gầy, nhẵn. Hoa màu hồng tím hay lam nhạt, lớn, mọc thành xim 1 đến 3 hoa, ở kẽ lá. Quả nang hình cầu, nhẵn, đường kính $8mm$, có 3 ngăn. Hạt 2-4, hình 3 cạnh, lưng khum, hai bên dẹt, nhẵn, nhưng ở tế hơi có lông, màu đen hay trắng tuỳ theo loài, dài $5-8mm$, rộng $3-5mm$. 100 hạt chỉ nặng chừng $4,5g$ ( Hình 343 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong khiên ngưu có chừng $2%$ chất glucozit gọi là phacbitin có tác dụng tẩy, ngoài ra còn chừng $11%$ chất béo và 2 sắc tố cũng là glucozit.",
+          "Phacbitin được cấu tạo bởi các chất sau đây: [CT_VT_VN_T460]: Axit phacbitic C₁H₂O₁₁ (bản thân cũng là một glucozit), axit tiglic, metyl etylaxetic, và axit nilic. Axit phacbitic cấu tạo bởi axit ipurolic glucoza và ramnoza. Ta có thể biểu thị phacbitin một cách giản đơn như sau: C₁₃H₂₅(OH)₂ | COOK glucoza+ramnoza axil ipurolic phachitin = axit phacbitic + CH₃ CH₃ | CH₃-CH=C-COOH, CH-COOH CH₃-CH-CH – COOH | C₂H₅ | CH₃ OH + axit liglic + a mêtyleţylaxetic + axit nilic",
+          "Khi thuỷ phân phacbitin bằng kiềm hay axit ta sẽ được các chất sau: axit bốc CH₃ hơi được C₂H₅ phat- bitin tan trong ctc axil CH₃ CH-COOH + CH₃-CH=C-COOH a metylêtylaxctic OH CH₂ CH-COOH axit nilic axit tiglic CH₂-COOH CH - CH₂ — CH₂ — CH(CH₂) CH₃ thuy phân kièm không bốc hơi Không tan trong ete: CH₃ axit phacbitic thuy phân axit C₆H₁₂O₆C₆H₁₂O₅ glucoza ramnoza OH axit ipurolic OH"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tả khí phận thấp nhiệt, trục đờm, tiêu ẩm lợi nhị tiện (đại tiểu tiện) là thuốc chữa tiện bĩ, và cước khí, chủ trị hạ khí, lợi tiểu tiện chữa cước thũng (phù), sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_PHACBITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong khiên ngưu có chừng $2%$ chất glucozit gọi là phacbitin có tác dụng tẩy, ngoài ra còn chừng $11%$ chất béo và 2 sắc tố cũng là glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_AXIT_PHACBITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T460]: Axit phacbitic C₁H₂O₁₁ (bản thân cũng là một glucozit), axit tiglic, metyl etylaxetic, và axit nilic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_AXIT_TIGLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T460]: Axit phacbitic C₁H₂O₁₁ (bản thân cũng là một glucozit), axit tiglic, metyl etylaxetic, và axit nilic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_METYL_ETYLAXETIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T460]: Axit phacbitic C₁H₂O₁₁ (bản thân cũng là một glucozit), axit tiglic, metyl etylaxetic, và axit nilic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_AXIT_NILIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T460]: Axit phacbitic C₁H₂O₁₁ (bản thân cũng là một glucozit), axit tiglic, metyl etylaxetic, và axit nilic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit phacbitic cấu tạo bởi axit ipurolic glucoza và ramnoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_RAMNOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit phacbitic cấu tạo bởi axit ipurolic glucoza và ramnoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEN_NGUU",
+      "to": "HC_AXIT_IPUROLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit phacbitic cấu tạo bởi axit ipurolic glucoza và ramnoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T459"
+      }
+    }
+  ]
+}

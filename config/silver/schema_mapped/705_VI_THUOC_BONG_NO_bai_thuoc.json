@@ -1,0 +1,58 @@
+{
+  "entity_hub": "VI_THUOC_BONG_NO",
+  "source": {
+    "source_id": "CT_VT_VN_T705",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "705"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_SO_T_SA",
+      "to": "VI_THUOC_BONG_NO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bỏng nổ là vị thuốc chính trong bài thuốc chữa cảm sốt.",
+        "cach_dung": "Sắc hay nấu nước xông",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    },
+    {
+      "from": "BT_SOT_BONG_NO_R",
+      "to": "VI_THUOC_BONG_NO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bỏng nổ là vị thuốc chính trong bài thuốc chữa sốt.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HAT_BUOI_H",
+      "to": "VI_THUOC_BONG_NO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị chốc đầu.",
+        "cach_dung": "Rửa nơi chốc đầu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NUOC_BOT",
+    "ten_raw": "Nước bọt",
+    "ten_khoa_hoc": "Saliva.",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T986",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "986"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong dạ minh sa người ta đã phân tích thấy các chất như urê, axit uric và một lượng nhỏ vitamin A."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NUOC_BOT",
+      "to": "HC_URE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như urê, axit uric và một lượng nhỏ vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUOC_BOT",
+      "to": "HC_AXIT_URIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như urê, axit uric và một lượng nhỏ vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUOC_BOT",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dạ minh sa người ta đã phân tích thấy các chất như urê, axit uric và một lượng nhỏ vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T986"
+      }
+    }
+  ]
+}

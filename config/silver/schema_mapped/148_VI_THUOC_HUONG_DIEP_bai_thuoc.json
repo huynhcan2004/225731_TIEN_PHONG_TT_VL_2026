@@ -1,0 +1,52 @@
+{
+  "entity_hub": "VI_THUOC_HUONG_DIEP",
+  "source": {
+    "source_id": "CT_VT_VN_T148",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "148"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KHI_HU_HUONG_DIEP_H",
+      "to": "VI_THUOC_HUONG_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương điệp là vị thuốc chính.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T148"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_HUONG_DIEP_H",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa khí hư, bạch đới",
+        "cach_dung": "Sắc lấy nước rửa thụt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T148"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_HUONG_DIEP_H",
+      "to": "B_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa khí hư, bạch đới",
+        "cach_dung": "Sắc lấy nước rửa thụt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T148"
+      }
+    }
+  ],
+  "metadata": {}
+}

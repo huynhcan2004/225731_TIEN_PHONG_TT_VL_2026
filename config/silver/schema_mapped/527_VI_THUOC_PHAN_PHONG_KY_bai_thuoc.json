@@ -1,0 +1,527 @@
+{
+  "entity_hub": "VI_THUOC_PHAN_PHONG_KY",
+  "source": {
+    "source_id": "CT_VT_VN_T527",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "527"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_U_XO_UNG_THU_TU_CUNG_T",
+      "to": "VI_THUOC_PHAN_PHONG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trinh nữ hoàng cung có tác dụng hỗ trợ điều trị u xơ và ung thư.",
+        "mo_ta_chi_tiet": "Chữa những trường hợp u xơ, ung thư tử cung (đối với phụ nữ ) u xơ và ung thư tiền liệt tuyến (đối với nam giới )",
+        "cach_dung": "Uống nước sắc luôn trong 7 ngày, rồi nghỉ 7 ngày, sau đó lại uống tiếp 7 ngày nữa, laị nghỉ 7 ngày và uống tiếp 7 ngày. Tổng cộng 3 đợt uống là 7x3x3 là 63 lá, xen kẽ 2 đợt nghỉ uống, mỗi đợt 7 ngày",
+        "ghi_chu": "3 lá trinh nữ hoàng cung hải tươi thái nhỏ ngắn 1-2cm, sao khô màu hơi vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VI_THUOC_PHAN_PHONG_KY",
+      "relation_type": "PHOI_HOP_VOI",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Uống cùng nước sắc trinh nữ hoàng cung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_LIEN_NHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_CHE_VIEN_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_THUC_DIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_DANG_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_MAU_DON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_QUANG_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_HAC_TAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_HAC_DO_TRONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_TRICH_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_SON_THU_NHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_TRICH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_NHUC_THUNG_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_HOAI_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_CAU_KY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_T",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ thận",
+        "mo_ta_chi_tiet": "Bổ thận",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_LIEN_NHUC",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_CHE_VIEN_CHI",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_THUC_DIA",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_DANG_SAM",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_MAU_DON",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_QUANG_BI",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_HAC_TAO_NHAN",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$16g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_HAC_DO_TRONG",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_TRICH_HOANG_KY",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_SON_THU_NHUC",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_TRICH_THAO",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_PHUC_LINH",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_NGUU_TAT",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_NHUC_THUNG_DUNG",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_HOAI_SON",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_CAU_KY_TU",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_TRACH_TA",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    },
+    {
+      "from": "VT_BACH_TRUAT",
+      "to": "BT_BO_THAN_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T527"
+      }
+    }
+  ],
+  "metadata": {}
+}

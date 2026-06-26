@@ -1,0 +1,682 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_KHUONG_HOAT",
+    "ten_raw": "Khương hoạt",
+    "ten_khoa_hoc": "$Rhizoma Notopterygii. Notopterygium incisium Ting Mss.; Notopterygium forbesii Boiss.$",
+    "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "lieu_dung_chung": "Đọc kỹ mục \"Liều dùng\" và trích xuất nguyên văn.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây này chưa có ở Việt Nam. Chủ yếu mọc ở Tứ Xuyên (Trung Quốc); thu hoạch rễ vào mùa thu; đào về rửa sạch đất cát, phơi hay sấy khô."
+    },
+    "display_name": "Vị thuốc Khương hoạt",
+    "canonical_name": "Vị thuốc Khương hoạt"
+  },
+  "nodes": [
+    {
+      "id": "BT_PHU_THUNG_KHUONG_HOAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Phù thũng Khương hoạt",
+        "aliases": [
+          "phù thũng khương hoạt",
+          "phu thung khuong hoat",
+          "phuthungkhuonghoat"
+        ],
+        "search_vector_hint": "Bài thuốc Phù thũng Khương hoạt thuộc nhóm bài thuốc, thường liên quan đến điều trị phù."
+      }
+    },
+    {
+      "id": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tê dại mất tiếng Khương hoạt",
+        "aliases": [
+          "tedaimattiengkhuonghoat",
+          "tê dại mất tiếng khương hoạt",
+          "te dai mat tieng khuong hoat"
+        ],
+        "search_vector_hint": "Bài thuốc Tê dại mất tiếng Khương hoạt thuộc nhóm bài thuốc, thường liên quan đến điều trị tê bì."
+      }
+    },
+    {
+      "id": "B_PHU_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phù thũng",
+        "aliases": [
+          "phù",
+          "phuthung",
+          "phu thung",
+          "phù thũng",
+          "phu"
+        ],
+        "search_vector_hint": "Phù thũng thuộc nhóm bệnh, thường liên quan đến tình trạng tích tụ dịch."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong",
+        "aliases": [
+          "khuphong",
+          "truphong",
+          "khu phong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Khu phong thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh phong."
+      }
+    },
+    {
+      "id": "CN_TAN_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tán hàn",
+        "aliases": [
+          "tán hàn",
+          "khuphong",
+          "tan han",
+          "tanhan",
+          "khu phong",
+          "giải biểu",
+          "giai bieu",
+          "giaibieu"
+        ],
+        "search_vector_hint": "Công năng Tán hàn thuộc nhóm công năng điều trị, thường liên quan đến loại bỏ hàn khí."
+      }
+    },
+    {
+      "id": "CN_TRU_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ thấp",
+        "aliases": [
+          "tao thap",
+          "khuthap",
+          "taothap",
+          "truthap",
+          "khu thap",
+          "khử thấp",
+          "tru thap",
+          "táo thấp",
+          "trừ thấp"
+        ],
+        "search_vector_hint": "Trừ thấp thuộc nhóm Công năng, thường liên quan đến điều trị chứng thấp."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "S_CAM_MAO_PHONG_HAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Cảm mạo phong hàn",
+        "aliases": [
+          "cảm mạo phong hàn",
+          "cammaophonghan",
+          "cam lanh",
+          "camlanh",
+          "cam mao phong han",
+          "cảm lạnh"
+        ],
+        "search_vector_hint": "Triệu chứng Cảm mạo phong hàn thuộc nhóm triệu chứng, thường liên quan đến nhiễm lạnh."
+      }
+    },
+    {
+      "id": "S_CHAN_TAY_CO_QUAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chân tay co quắp",
+        "aliases": [
+          "chantaycoquap",
+          "co giật chân tay",
+          "chan tay co quap",
+          "chân tay co quắp",
+          "cogiatchantay",
+          "co giat chan tay"
+        ],
+        "search_vector_hint": "Triệu chứng Chân tay co quắp thuộc nhóm Triệu chứng, thường liên quan đến hệ thần kinh và cơ bắp."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_NGOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn",
+        "aliases": [
+          "non",
+          "nôn"
+        ],
+        "search_vector_hint": "Triệu chứng Nôn thuộc nhóm triệu chứng tiêu hóa, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Nhức đầu thuộc nhóm triệu chứng, thường liên quan đến cảm giác đau ở đầu."
+      }
+    },
+    {
+      "id": "S_NOI_NGONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nói ngọng",
+        "aliases": [
+          "noingong",
+          "noi ngong",
+          "nói ngọng"
+        ],
+        "search_vector_hint": "Triệu chứng Nói ngọng thuộc nhóm triệu chứng, thường liên quan đến vấn đề về ngôn ngữ."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_TE_DAI_MAT_TIENG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tê dại mất tiếng",
+        "aliases": [
+          "tedaimattieng",
+          "te dai mat tieng",
+          "tê dại mất tiếng"
+        ],
+        "search_vector_hint": "Triệu chứng Tê dại mất tiếng thuộc nhóm triệu chứng, thường liên quan đến tổn thương thần kinh."
+      }
+    },
+    {
+      "id": "S_THAN_LANH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Thân lạnh",
+        "aliases": [
+          "thân lạnh",
+          "thanlanh",
+          "than lanh"
+        ],
+        "search_vector_hint": "Triệu chứng Thân lạnh thuộc nhóm triệu chứng, thường liên quan đến suy giảm chức năng."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_KHUONG_HOAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khương hoạt",
+        "aliases": [
+          "khương hoạt",
+          "khuong hoat",
+          "khuonghoat"
+        ],
+        "search_vector_hint": "Vị thuốc Khương hoạt thuộc nhóm Vị thuốc, thường liên quan đến khu phong, tán hàn, trừ thấp.",
+        "bo_phan_dung": "thân rễ",
+        "lieu_dung_chung": "Đọc kỹ mục \"Liều dùng\" và trích xuất nguyên văn.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cây này chưa có ở Việt Nam. Chủ yếu mọc ở Tứ Xuyên (Trung Quốc); thu hoạch rễ vào mùa thu; đào về rửa sạch đất cát, phơi hay sấy khô.",
+        "ten_khoa_hoc": "$Rhizoma Notopterygii. Notopterygium incisium Ting Mss.; Notopterygium forbesii Boiss.$",
+        "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+        "hinh_thai_chi_tiet": "Khương hoạt (Notopterygium incisium) là một cây sống lâu năm, toàn cây có mùi thơm đặc biệt; thân rễ to thô, có đốt. Thân cây cao từ $0,5-1m$, không phân nhánh, thần phía dưới hơi có màu tím. Lá mọc so le, kép lông chim, phiến lá chia thùy, mép có răng cưa, mặt trên màu tím nhạt, mặt dưới màu xanh nhạt; phía dưới cuống lá phát triển thành bẹ ôm lấy thân. Hoa rất nhỏ, màu trắng, hoa họp thành hình tán kép. Quả bế đôi hình thoi dẹp, màu nâu đen, 2 mép và ở lưng phát triển thành dìa",
+        "thanh_phan_hoa_hoc": "['tinh dầu']"
+      }
+    },
+    {
+      "id": "VT_LA_BAC_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lá bách tử",
+        "aliases": [
+          "labachtu",
+          "lá bách tử",
+          "la bach tu"
+        ],
+        "search_vector_hint": "Vị thuốc Lá bách tử thuộc nhóm vị thuốc, thường liên quan đến an thần, dưỡng tâm."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "681"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Khương hoạt (Notopterygium incisium) là một cây sống lâu năm, toàn cây có mùi thơm đặc biệt; thân rễ to thô, có đốt. Thân cây cao từ $0,5-1m$, không phân nhánh, thần phía dưới hơi có màu tím. Lá mọc so le, kép lông chim, phiến lá chia thùy, mép có răng cưa, mặt trên màu tím nhạt, mặt dưới màu xanh nhạt; phía dưới cuống lá phát triển thành bẹ ôm lấy thân. Hoa rất nhỏ, màu trắng, hoa họp thành hình tán kép. Quả bế đôi hình thoi dẹp, màu nâu đen, 2 mép và ở lưng phát triển thành dìa",
+        "thanh_phan_hoa_hoc": [
+          "tinh dầu"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong khương hoạt có tinh dầu",
+        "ghi_chu": "trong Khương Hoạt có tinh dầu, các hoạt chất khác chưa thấy có tài liệu nghiên cứu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Khương hoạt",
+        "vai_tro": "Quân",
+        "cach_dung": "Sao thơm, tán nhỏ",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT",
+      "to": "VT_LA_BAC_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "La bặc tử",
+        "vai_tro": "Tá",
+        "cach_dung": "Sao thơm, tán nhỏ",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi lần uống $6$ đến $8g$. Ngày thứ $1$ uống $1$ lần, ngày thứ $2$ uống $2$ lần, ngày thứ $3$ uống $3$ lần là đủ.",
+        "cach_dung": "Dùng rượu hâm nóng lên mà chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Khương hoạt",
+        "vai_tro": "Quân",
+        "cach_dung": "Tán nhỏ",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "to": "S_NGOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi lần cho uống $8$ đến $12g",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "to": "S_NOI_NGONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi lần cho uống $8$ đến $12g",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "to": "S_CHAN_TAY_CO_QUAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi lần cho uống $8$ đến $12g",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_DAI_MAT_TIENG_KHUONG_HOAT",
+      "to": "S_TE_DAI_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi lần cho uống $8$ đến $12g",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-$8g$",
+        "cach_dung": "Dạng thuốc sắc hay thuốc rượu.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "S_THAN_LANH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-$8g$",
+        "cach_dung": "Dạng thuốc sắc hay thuốc rượu.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "S_CAM_MAO_PHONG_HAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-$8g$",
+        "cach_dung": "Dạng thuốc sắc hay thuốc rượu.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-$8g$",
+        "cach_dung": "Dạng thuốc sắc hay thuốc rượu.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-$8g$",
+        "cach_dung": "Dạng thuốc sắc hay thuốc rượu.",
+        "ghi_chu": "CT_VT_VN_T682"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt có vị ngọt, đắng, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt có vị ngọt, đắng, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHUONG_HOAT",
+      "to": "CN_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt có vị ngọt, đắng, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "all_sources": [
+          "CT_VT_VN_T681"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 39.0,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

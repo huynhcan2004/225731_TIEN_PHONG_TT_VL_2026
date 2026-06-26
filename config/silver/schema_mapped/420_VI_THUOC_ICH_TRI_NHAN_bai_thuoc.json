@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_ICH_TRI_NHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T420",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "420"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DI_TIEU_NHIEU_ICH_TRI_NHAN_I",
+      "to": "VI_THUOC_ICH_TRI_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ích trí nhân chủ trị chứng tiểu nhiều về đêm.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Thêm vài hạt muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "BT_DI_TIEU_NHIEU_ICH_TRI_NHAN_I",
+      "to": "B_DI_TIEU_NHIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đêm đi tiểu nhiều lần.",
+        "cach_dung": "Sắc với $200ml$ nước, uống trước khi đi ngủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    }
+  ],
+  "metadata": {}
+}

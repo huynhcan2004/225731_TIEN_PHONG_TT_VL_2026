@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VOI_VOI",
+    "ten_raw": "Vòi voi",
+    "ten_khoa_hoc": "Fel Ursi",
+    "ho_thuc_vat": "họ Gấu Ursidae",
+    "variants": [
+      "hùng đởm"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T520",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "520"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "$Pyrolizidin$",
+          "$Heliorrin$",
+          "$Lasiocarpin$"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VOI_VOI",
+      "to": "HC_PYROLIZIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Pyrolizidin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520"
+      }
+    },
+    {
+      "from": "VI_THUOC_VOI_VOI",
+      "to": "HC_HELIORRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Heliorrin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520"
+      }
+    },
+    {
+      "from": "VI_THUOC_VOI_VOI",
+      "to": "HC_LASIOCARPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Lasiocarpin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T520"
+      }
+    }
+  ]
+}

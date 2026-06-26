@@ -1,0 +1,102 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LIEN_KIEU",
+    "ten_raw": "Liên kiều",
+    "ten_khoa_hoc": "Forsythia suspensa Vahl.",
+    "ho_thuc_vat": "Nhài Oleacae (Oleacae)",
+    "variants": [
+      "Forsythia suspensa",
+      "muscadier à suif"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "117"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Liên kiều là một cây cao từ $2$ đến $4m$. Cành non gần như $4$ cạnh có nhiều đốt; giữa các đốt thân rỗng, bì không rõ. Lá đơn mọc đối hoặc có khi mọc thành vòng $3$ lá, cuống dài $0,80-2cm$. Phiến lá hình trứng, dài $3-7cm$, rộng $2-4cm$, mép có răng cưa không đều, chất lá hơi dài. Hoa màu vàng tươi. Đài và tràng hình ống, trên xẻ thành $4$ thuỳ. $2$ nhị thấp hơn tràng. Nhuỵ có $2$ nuốm. Quả khô, hình trứng dẹt, dài $1,5-2cm$, rộng $0,5-1cm$, hai bên có cạnh lồi, đầu nhọn, khi chín mở ra như mỏ chim, phía dưới có cuống hay chỉ còn sẹo. Vỏ ngoài màu nâu nhạt. Trong quả có nhiều hạt, nhưng phần lớn rơi vãi đi, chỉ còn sót lại một ít. Mùa hoa tại Trung Quốc: tháng $3-5$; mùa quả: tháng $7-8$ ( Hình $62$, Hm $5,2$ )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo nghiên cứu sơ bộ của hệ dược học, Viện nghiên cứu y học Bắc Kinh thì trong thanh liên kiều có chừng $4,89\\%$ saponin và $0,20\\%$ ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo nghiên cứu sơ bộ của hệ dược học, Viện nghiên cứu y học Bắc Kinh thì trong thanh liên kiều có chừng $4,89\\%$ saponin và $0,20\\%$ ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_PHYLIRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là phylirin $C,H,O.$, saponin, vitamin P và tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_VITAMIN_P",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là phylirin $C,H,O.$, saponin, vitamin P và tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là phylirin $C,H,O.$, saponin, vitamin P và tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    }
+  ]
+}

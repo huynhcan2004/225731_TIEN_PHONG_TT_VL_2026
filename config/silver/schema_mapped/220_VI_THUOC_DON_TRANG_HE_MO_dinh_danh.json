@@ -1,0 +1,169 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DON_TRANG_HE_MO",
+    "ten_raw": "Đơn trăng (Hé mọ)",
+    "ten_khoa_hoc": "Psychotria reevesii Wall.",
+    "ho_thuc_vat": "Cà Phê Rubiaceae (Rubiaceae)",
+    "variants": [
+      "Hé mọ"
+    ],
+    "display_name": "Đơn trăng (Hé mọ)",
+    "properties": {
+      "phan_bo": "Cây mọc hoang dại ở dưới những tán rừng thưa vùng trung du, vùng núi. \n[CT_VT_VN_T221]: Mọc hoang ở nhiều tỉnh miền Bắc nước ta. Còn thấy ở Ấn Độ, Malaixia, Inđônêxia, Philippin.",
+      "thu_hai": "Người ta dùng rễ và lá thu hái quanh năm.\n[CT_VT_VN_T221]: Người ta dùng lá tươi hay khô. Có khi dùng cả rễ.",
+      "che_bien_tho": "Rễ đào về rửa sạch, thái mỏng phơi hay sấy khô. Lá dùng tươi hay phơi hoặc sấy khô."
+    }
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T220",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "220"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Nhạt (Đạm)"
+        ],
+        "tinh": "Lương",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ hay nhỡ có thể cao từ $1$ đến $9m$. Thân nhẵn. Lá thuôn dài, mọc đối, phía cuống hẹp và nhọn lại, phiến là dài $8$-$20cm$, rộng $2$-$7,5cm$, mặt trên xanh hay xanh sẫm, mặt dưới màu nhạt hơn. Hoa trắng nhạt, mọc thành xim ở đầu cành, Quả hình cầu với đài tồn tại, đường kính $5$-$7mm$, chín có màu đỏ, với hai hạch, mặt hai hạch tiếp giáp nhau phẳng, $5$ sống và rãnh trên lưng hạch. Mỗi hạch chứa một hạt màu đen. Mùa hoa quả: Tháng $5$-$7$ (Hình $147$).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu. Sơ bộ thấy rễ và lá đều cho những phản ứng của ancaloit."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_CHAT_NHAY",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_PHYTOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_ACID_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_DUONG_KHU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá đơn trăng có chất nhầy, tanin, phytosterol, acid hữu cơ, đường khử và một chất có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    }
+  ]
+}

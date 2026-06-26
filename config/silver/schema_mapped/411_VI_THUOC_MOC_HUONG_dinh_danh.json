@@ -1,0 +1,258 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MOC_HUONG",
+    "ten_raw": "Mộc hương",
+    "ten_khoa_hoc": "Saussurea lappa Clarke; Inula helenium L.; Inula racemosa Hook. f.; Jurinea aff. souliei Franch.; Inula helenium",
+    "ho_thuc_vat": "Họ Cúc (Asteraceae)",
+    "variants": [
+      "quảng mộc hương",
+      "vân mộc hương",
+      "thổ mộc hương"
+    ],
+    "properties": {
+      "bo_phan_dung": "Rễ",
+      "che_bien_tho": "Rễ to mẫm, vỏ ngoài màu nâu nhạt."
+    },
+    "display_name": "Mộc hương"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T411",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "411"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN",
+          "K_TY"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây quảng mộc hương hay vân mộc hương là một cây sống lâu năm, rễ to mẫm, đường kính có thể đạt tới hơn $5cm$, vỏ ngoài màu nâu nhạt. Phía gốc có lá hình 3 cạnh tròn, dài $12-30cm$, rộng $6-15cm$, cuống dài $20-30cm$ có dìa, mép lá nguyên và hơi lượn sóng, hai mặt đều có lông, mặt dưới nhiều hơn. Trên thân cũng có lá hình 3 cạnh, nhưng càng lên trên kích thước lá càng nhỏ dần, mép có răng cưa, cuống lá càng lên cao càng ngắn lại, phía trên cùng lá gần như không cuống hay có khi như ôm lấy thân cây. Hoa hình đầu, màu lam tím. Quả bế, hơi dẹt và cong queo, màu nâu nhạt, có những đốm màu tím. Mùa hoa vào các tháng 7-9, mùa quả vào các tháng 8-10. Cây thổ mộc hương cũng là một cây sống lâu năm, cao $0,50-1,50m$. Phía gốc có lá to, dài tới $40cm$, trên thân có lá mọc so le nhỏ hơn, dài $10-30cm$, phía cuống có hai tai ôm lấy thân, mép có răng cưa không đều. Cụm hoa hình đầu, hoa màu vàng. Quả bế, dài $4mm$, trên có vân dọc Hình 299. Thổ mộc hương - Inula helenium",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Sau khi trồng 2 năm hay 3 năm bắt đầu thu hoạch. Đào rễ vào tháng 10 cho đến tháng 1 năm sau. Rễ đào về, cắt bỏ mẩu thân, rửa sạch đất cát, phơi hay sấy khô ( Hình 299, Hm 57,2 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong văn mộc hương hay quảng mộc hương có chừng $1-2,8%$ tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_SAUSURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong văn mộc hương hay quảng mộc hương có chừng $1-2,8%$ tinh dầu, $6%$ chất nhựa sausurin (ancaloit)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong văn mộc hương hay quảng mộc hương có chừng $1-2,8%$ tinh dầu, $6%$ chất nhựa sausurin (ancaloit) và chừng $18%$ chất inulin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_APLOTAXEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tinh dầu là aplotaxen $C₁₅H₂₄$ và B costen $C₁₅H₂₄$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_B_COSTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tinh dầu là aplotaxen $C₁₅H₂₄$ và B costen $C₁₅H₂₄$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_COSTUS_LACTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chat costus lacton $C₁₅H₂₀O₂$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_DIHYDROCOSTUS_LACTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất dihydrocostus lacton $C₁₅H₂₂O₂$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_COSTUS_AXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit đặc biệt của vân mộc hương (costus axit) $C₁₅H₂₂O₂$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_COSTOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "rượu costola $C₁₅H₂₂O$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_CAMPHEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một ít camphen và phelandren."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_PHELANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một ít camphen và phelandren."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_ANANTOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu ta cất hơi nước các chất bay hơi của thổ mộc hương, ta sẽ được một chất sánh, gồm một hỗn hợp anantol (một chất tecpenic) $C₁₀H₁₆O$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_HUONG",
+      "to": "HC_HELENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất helenin hay long não mộc hương (camphre d’aunée)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T411"
+      }
+    }
+  ]
+}

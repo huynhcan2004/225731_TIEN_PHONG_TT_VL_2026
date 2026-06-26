@@ -1,0 +1,205 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRACH_TA",
+    "ten_raw": "Cây trạch tả",
+    "ten_khoa_hoc": "Alisma plantago-aquatica L. var. orientalis Samuelsson; Alisma plantago L. var. orientale Samuelsson (A. orientale Juzepzuk)",
+    "ho_thuc_vat": "Trạch tả Alismataceae",
+    "variants": [
+      "Trạch tả"
+    ],
+    "properties": {
+      "bo_phan_dung": "Thân rễ",
+      "phan_bo": "ao và ruộng",
+      "che_bien_tho": "Thân rễ trắng, hình cầu hay hình con quay, thành cụm",
+      "thu_hai": "mùa thu đông"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T232",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "232"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Nhạt (Đạm)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_THAN",
+          "K_BANG_QUANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây trạch tả mọc ở ao và ruộng, cao $0,3-1m$. Thân rễ trắng, hình cầu hay hình con quay, thành cụm, lá mọc ở gốc hình trứng thuôn, hay lưỡi mác, phía cuống hơi hẹp lại hình tim. Hoa họp thành tán có cuống dài đều, lưỡng tính có 3 lá đài màu lục, 3 cánh hoa trắng hay hơi hồng, nhị nhiều lá noãn rời nhau, xếp xoắn ốc. Quả là một đa bế quả.",
+        "thanh_phan_hoa_hoc": [
+          "Trong trạch tả, người ta mới phân tích thấy được tinh dầu, chất nhựa $7$%, chất prôtit và $23$% chất bột. Thành phần hoạt chất chưa rõ.",
+          "Dược điển Triều Tiên quy định: Độ ẩm dưới $15$%, tro dưới $7$%, tro không tan trong HCl dưới $2$%, cao rượu trên $7$%.",
+          "[CT_VT_VN_T233]: Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISOL_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISOL_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISOL_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISOL_A_MONACETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISOL_B_MONACETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_PROTOSTADIENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_EPOXYPROTOSTADIENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "HC_ALISMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong trạch tả có tinh dầu, các chất alismol, alisol A, alisol B, alisol C, alisol A monacetat, alisol B monacetat và các chất thuộc nhóm triterpen như $protostadienol$, $epoxyprotostadienol$, $alismin$ và các dẫn chất cetyl của acid béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_SA",
+  "source": {
+    "source_id": "CT_VT_VN_T703",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "703"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SA",
+      "to": "CN_GIAI_BIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng $giải biểu$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA",
+      "to": "CN_TRU_PHIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng $trừ phiền$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay đậu sị thường được dùng chữa $cảm mạo, thương hàn, đầu nhức, sốt, sốt rét, trong người phiền muội, hai chân lạnh nhức$. Còn dùng chữa $lỵ$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    }
+  ],
+  "metadata": {}
+}

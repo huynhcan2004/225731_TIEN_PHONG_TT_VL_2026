@@ -1,0 +1,639 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CAT_SAM",
+    "ten_raw": "Cát sâm",
+    "ten_khoa_hoc": "$Millettia speciosa Champ.$",
+    "ho_thuc_vat": "$Cánh bướm (Papilionaceae). Fabaceae$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Mỗi ngày dùng $10-20$g, có thể dùng tới $40$g.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cát sâm mọc hoang tại những vùng đồi núi của nhiều tỉnh miền Bắc nước ta, như Bắc Ninh, Bắc Giang, Vĩnh Phúc, Phú Thọ, Hà Tây, Hòa Bình.",
+      "thu_hai": "rễ củ đào ở những cây đã trồng được hơn một năm, vào thu đông",
+      "che_bien_tho": "rửa sạch, thái mỏng, phơi hay sấy khô. không phải chế biến gì khác, hoặc tẩm nước gừng hoặc nước mặt rồi sao vàng."
+    },
+    "display_name": "Vị thuốc Cát sâm",
+    "canonical_name": "Vị thuốc Cát sâm"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_KHAT_NUOC_CAT_SAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt khát nước cát sâm",
+        "aliases": [
+          "sốt khát nước cát sâm",
+          "sot khat nuoc cat sam",
+          "sotkhatnuoccatsam"
+        ],
+        "search_vector_hint": "Sốt khát nước cát sâm thuộc nhóm bài thuốc, thường liên quan đến điều trị sốt và mất nước."
+      }
+    },
+    {
+      "id": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Yếu ho sốt khát nước cát sâm",
+        "aliases": [
+          "yeuhosotkhatnuoccatsam",
+          "yeu ho sot khat nuoc cat sam",
+          "yếu ho sốt khát nước cát sâm"
+        ],
+        "search_vector_hint": "Yếu ho sốt khát nước cát sâm thuộc nhóm bài thuốc, thường liên quan đến điều trị ho, sốt và mất nước."
+      }
+    },
+    {
+      "id": "B_DAU_LUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau lưng",
+        "aliases": [
+          "dau lung",
+          "đau lưng",
+          "daulung"
+        ],
+        "search_vector_hint": "Bệnh Đau lưng thuộc nhóm Bệnh, thường liên quan đến cột sống và cơ bắp."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_THAP_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức thấp khớp",
+        "aliases": [
+          "dau nhuc thap khop",
+          "daunhucthapkhop",
+          "đau nhức thấp khớp"
+        ],
+        "search_vector_hint": "Đau nhức thấp khớp thuộc nhóm bệnh, thường liên quan đến viêm khớp và đau khớp."
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Bệnh Ho thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược",
+        "aliases": [
+          "hu nhuoc",
+          "suynhuoc",
+          "hư nhược",
+          "met moi keo dai",
+          "metmoikeodai",
+          "hunhuoc",
+          "suy nhuoc",
+          "suy nhược",
+          "mệt mỏi kéo dài"
+        ],
+        "search_vector_hint": "Bệnh Suy nhược thuộc nhóm Bệnh, thường liên quan đến giảm chức năng cơ thể."
+      }
+    },
+    {
+      "id": "B_VIEM_GAN_MAN_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm gan mạn tính",
+        "aliases": [
+          "viem gan man tinh",
+          "viemganmantinh",
+          "viêm gan mãn tính",
+          "viêm gan mạn tính"
+        ],
+        "search_vector_hint": "Bệnh Viêm gan mạn tính thuộc nhóm Bệnh, thường liên quan đến tổn thương gan kéo dài."
+      }
+    },
+    {
+      "id": "B_YEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Yếu",
+        "aliases": [
+          "yếu",
+          "yeu"
+        ],
+        "search_vector_hint": "Bệnh Yếu thuộc nhóm Bệnh, thường liên quan đến tình trạng suy nhược."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ancaloit",
+        "aliases": [
+          "ancaloit"
+        ],
+        "search_vector_hint": "Hoạt chất Ancaloit thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Nhức đầu thuộc nhóm triệu chứng, thường liên quan đến cảm giác đau ở đầu."
+      }
+    },
+    {
+      "id": "S_SOT_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt khát nước",
+        "aliases": [
+          "sotvakhat",
+          "sot va khat",
+          "sotkhatnuoc",
+          "sốt và khát",
+          "sot khat nuoc",
+          "sốt khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt khát nước thuộc nhóm triệu chứng, thường liên quan đến tình trạng mất nước khi sốt."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_CAT_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cát căn",
+        "aliases": [
+          "cat can",
+          "san day",
+          "cát căn",
+          "sắn dây",
+          "catcan",
+          "sanday"
+        ],
+        "search_vector_hint": "Vị thuốc Cát căn thuộc nhóm Vị thuốc, thường liên quan đến hạ sốt, giải khát."
+      }
+    },
+    {
+      "id": "VT_CAT_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cát sâm",
+        "aliases": [
+          "catsam",
+          "cat sam",
+          "cát sâm"
+        ],
+        "search_vector_hint": "Cát sâm thuộc nhóm vị thuốc, thường liên quan đến bổ khí và dưỡng âm.",
+        "lieu_dung_chung": "Mỗi ngày dùng $10-20$g, có thể dùng tới $40$g.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cát sâm mọc hoang tại những vùng đồi núi của nhiều tỉnh miền Bắc nước ta, như Bắc Ninh, Bắc Giang, Vĩnh Phúc, Phú Thọ, Hà Tây, Hòa Bình.",
+        "thu_hai": "rễ củ đào ở những cây đã trồng được hơn một năm, vào thu đông",
+        "che_bien_tho": "rửa sạch, thái mỏng, phơi hay sấy khô. không phải chế biến gì khác, hoặc tẩm nước gừng hoặc nước mặt rồi sao vàng.",
+        "ten_khoa_hoc": "$Millettia speciosa Champ.$",
+        "ho_thuc_vat": "$Cánh bướm (Papilionaceae). Fabaceae$",
+        "hinh_thai_chi_tiet": "Cát sâm là một loại cây nhỡ, có những cành mọc tựa, có rễ củ mẫm, vị hơi ngọt, mát. Lá kép lông chim lẻ, có lá kèm. Lá chết mọc đối. Lá non và cành non có phủ lông mềm màu xanh xám. Hoa dài $10$-$25mm$, đài hình ống, miệng loa rộng, cánh hoa màu đỏ hay hơi tím. Nhị $10$. Vòi hình sợi. Quả dẹt trong chứa $1$-$10$ hạt hình thấu kính, rốn rộng và ngắn (Hình 681).",
+        "thanh_phan_hoa_hoc": "['$ancaloit$']",
+        "cach_dung_bao_che": "Rễ củ đào ở những cây đã trồng được hơn một năm, vào thu đông, rửa sạch, thái mỏng, phơi hay sấy khô. Không phải chế biến gì khác, hoặc tẩm nước gừng hoặc nước mặt rồi sao vàng."
+      }
+    },
+    {
+      "id": "VT_MACH_MON",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mạch môn",
+        "aliases": [
+          "machmon",
+          "mach mon",
+          "mạch môn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạch môn thuộc nhóm Vị thuốc, thường liên quan đến dưỡng âm, nhuận phế."
+      }
+    },
+    {
+      "id": "VT_THIEN_MON",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thiên môn",
+        "aliases": [
+          "thiên môn",
+          "thienmon",
+          "thien mon"
+        ],
+        "search_vector_hint": "Vị thuốc Thiên môn thuộc nhóm Vị thuốc, thường liên quan đến tư âm, nhuận táo."
+      }
+    },
+    {
+      "id": "VT_VO_RE_DAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Vỏ rễ dâu",
+        "aliases": [
+          "vỏ rễ dâu",
+          "voredau",
+          "vo re dau"
+        ],
+        "search_vector_hint": "Vỏ rễ dâu thuộc nhóm vị thuốc, thường liên quan đến hạ sốt và lợi tiểu."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "918"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cát sâm là một loại cây nhỡ, có những cành mọc tựa, có rễ củ mẫm, vị hơi ngọt, mát. Lá kép lông chim lẻ, có lá kèm. Lá chết mọc đối. Lá non và cành non có phủ lông mềm màu xanh xám. Hoa dài $10$-$25mm$, đài hình ống, miệng loa rộng, cánh hoa màu đỏ hay hơi tím. Nhị $10$. Vòi hình sợi. Quả dẹt trong chứa $1$-$10$ hạt hình thấu kính, rốn rộng và ngắn (Hình 681).",
+        "thanh_phan_hoa_hoc": [
+          "$ancaloit$"
+        ],
+        "cach_dung_bao_che": "Rễ củ đào ở những cây đã trồng được hơn một năm, vào thu đông, rửa sạch, thái mỏng, phơi hay sấy khô. Không phải chế biến gì khác, hoặc tẩm nước gừng hoặc nước mặt rồi sao vàng."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CAT_SAM",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ancaloit$",
+        "ghi_chu": "trong Cát sâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_CAT_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_MACH_MON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_THIEN_MON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_VO_RE_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "B_YEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_HO_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "S_SOT_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_CAT_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_CAT_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4 g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHAT_NUOC_CAT_SAM",
+      "to": "S_SOT_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "B_DAU_NHUC_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "B_DAU_LUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "B_VIEM_GAN_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới dạng thuốc sắc | Dùng riêng hay phối hợp với nhiều vị thuốc khác dưới dạng sắc",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "B_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng riêng hay phối hợp với nhiều vị thuốc khác dưới dạng sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "S_SOT_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng riêng hay phối hợp với nhiều vị thuốc khác dưới dạng sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng riêng hay phối hợp với nhiều vị thuốc khác dưới dạng sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAT_SAM",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng riêng hay phối hợp với nhiều vị thuốc khác dưới dạng sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T918",
+        "all_sources": [
+          "CT_VT_VN_T918"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 35.0,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

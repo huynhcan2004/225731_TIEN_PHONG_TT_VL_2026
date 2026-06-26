@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CU_CAI",
+    "ten_raw": "Củ cải",
+    "ten_khoa_hoc": "Brassica alba Boiss.",
+    "ho_thuc_vat": "Họ Cải (Brassicaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T727",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "727"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE"
+        ],
+        "cong_nang": "lợi khi trục đờm, ôn trung khai vị, tiêu thũng giảm đau"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Quả có lông, mỏ dài, mỗi quả chỉ có 4-6 hạt. Hạt nhỏ, hình cầu, đường kính $1,5$-$3mm$. Mỗi $100$ hạt nặng chừng $0,50g$, mặt ngoài màu vàng nhạt hay vàng nâu, có vân hình mạng rất nhỏ.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T728]: Thành phần hoá học của bạch giới tử. Trong bạch giới tử có chất nhầy, chất glucozit gọi là sinanbin (Sinalbin) C30H42N2S2Os, men myroxin và ancaloit gọi là sinapin. Thuỷ phân sinanbin bằng myroxin ta sẽ được CSO₂OK H₂O CH2=CH-CH₂—N=C SC6H1106 myroxin CH2=CH-CH2-N=C=S+ C6H12O6 + SO HK D. Izothioxyanat alyla Glucoza Sunfat axit kali glucoza, sunfat axit sinapin và izothicxyanat p. hydroxybenzyla. Thuỷ phân sunfat axit sinapin bằng Ba(OH)₂ ta sẽ được colin, axit sinapic và bary sunfat: CHNOHSO + Ba(OH)2 → CH,Os + 16 24 12 axit sinapic HO CH, CH, N (CH₁), + BaSO colin HO bary sunfat Chất izothioxyanat p. hydroxybenzyla là một chất dầu màu vàng, vị cay nóng, có tính chất gây đỏ da, có thể gây phồng da."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lợi khi trục đờm, ôn trung khai vị, tiêu thũng giảm đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_SINANBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong bạch giới tử có chất nhầy, chất glucozit gọi là sinanbin (Sinalbin) C30H42N2S2Os, men myroxin và ancaloit gọi là sinapin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_SINAPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong bạch giới tử có chất nhầy, chất glucozit gọi là sinanbin (Sinalbin) C30H42N2S2Os, men myroxin và ancaloit gọi là sinapin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_COLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuỷ phân sunfat axit sinapin bằng Ba(OH)₂ ta sẽ được colin, axit sinapic và bary sunfat:"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_AXIT_SINAPIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuỷ phân sunfat axit sinapin bằng Ba(OH)₂ ta sẽ được colin, axit sinapic và bary sunfat:"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_CAI",
+      "to": "HC_IZOTHIOXYANAT_P_HYDROXYBENZYLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất izothioxyanat p. hydroxybenzyla là một chất dầu màu vàng, vị cay nóng, có tính chất gây đỏ da, có thể gây phồng da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T727"
+      }
+    }
+  ]
+}

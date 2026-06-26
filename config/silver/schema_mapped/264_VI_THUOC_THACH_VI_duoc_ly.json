@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_THACH_VI",
+  "source": {
+    "source_id": "CT_VT_VN_T264",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "264"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "CN_THANH_THAP_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thấp nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "DL_KHANG_KY_SINH_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng rõ rệt đối với sán lá ruột (Fasciol opsis buski): Ký sinh trùng chết sau $15$ phút sau khi cho thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    }
+  ],
+  "metadata": {}
+}

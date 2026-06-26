@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_DANH_DANH",
+  "source": {
+    "source_id": "CT_VT_VN_T240",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "240"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thanh nhiệt (chỉ sốt)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tả hỏa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "DL_GIAM_SAC_TO_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "nếu buộc chặt ống mật của thỏ rồi cho thỏ uống cao nước dành dành, thì lượng sắc tố mật trong máu sẽ giảm xuống. Lượng cao dành dành càng tăng thì lượng sắc tố mật trong máu càng giảm nhiều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "DL_TANG_LUONG_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng làm tăng lượng mật phân tiết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANH_DANH",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "nước sắc chị tử có tác dụng kháng sinh đối với một số vi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T240"
+      }
+    }
+  ],
+  "metadata": {}
+}

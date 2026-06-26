@@ -1,0 +1,423 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_MEO",
+    "ten_raw": "Cây râu mèo",
+    "ten_khoa_hoc": "$Orthosiphon stamineus Benth.$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+    "variants": [
+      "Bông bạc",
+      "lá râu mèo (Folium Orthosiphonis)"
+    ],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Liều dùng 5-6$g$ pha với nửa lít nước. Chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng 2-5$g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mọc hoang và được trồng ở nước ta. Trồng bằng hạt hay dâm cành. Còn mọc ở Inđônêxia, Philipin."
+    },
+    "display_name": "Cây râu mèo",
+    "canonical_name": "Cây râu mèo"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_RAU_MEO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Rau Meo"
+      }
+    },
+    {
+      "id": "HC_ORTHOSIPHONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Orthosiphonin"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "HC_SAPONIN_TRITECPENIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin Tritecpenic"
+      }
+    },
+    {
+      "id": "HC_SAPOPHONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sapophonin"
+      }
+    },
+    {
+      "id": "HC_SAPOGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sapogenin"
+      }
+    },
+    {
+      "id": "HC_ARABINOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Arabinoza"
+      }
+    },
+    {
+      "id": "HC_HEXOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hexoza"
+      }
+    },
+    {
+      "id": "B_SOI_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi Than"
+      }
+    },
+    {
+      "id": "B_SOI_TUI_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi Tui Mat"
+      }
+    },
+    {
+      "id": "B_SOT_BAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Ban"
+      }
+    },
+    {
+      "id": "B_CUM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cum"
+      }
+    },
+    {
+      "id": "B_TE_THAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Te Thap"
+      }
+    },
+    {
+      "id": "B_PHU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phu"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tien"
+      }
+    },
+    {
+      "id": "DL_CHUA_XUNG_HUYET_GAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chua Xung Huyet Gan"
+      }
+    },
+    {
+      "id": "DL_CHUA_BENH_DUONG_MAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chua Benh Duong Mat"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "234"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây râu mèo-có tên như vậy vì nhị và nhụy của hoa thò ra giống râu con mèo. Cây nhỏ, sống lâu năm, cao $0,30$ hoặc $0,50$ đến $1m$. Thân cây có cạnh vuông, mang nhiều cành. Lá mọc đối, cặp lá trước mọc thành chữ thập đối với cặp lá sau. Cuống lá rất ngắn, chừng $2-5mm$. Cụm hoa tận cùng thẳng, mọc thành chùm, màu hoa lúc non thì trắng, sau ngả màu xanh tím. Hoa nở suốt mùa hè ( Hình 161, Hm 10,1)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_ORTHOSIPHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây râu mèo có một glucozit đắng gọi là `$orthosiphonin$`, ít tan trong rượu, tan nhiều trong nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn một ít tinh dầu, một ít chất béo, `$tanin$` ($5-6\\%$), đường, và một tỷ lệ khá cao muối vô cơ trong đó chủ yếu là muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_SAPONIN_TRITECPENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói còn lấy được một chất `$saponin tritecpenic$` gọi là `$sapophonin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_SAPOPHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói còn lấy được một chất `$saponin tritecpenic$` gọi là `$sapophonin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_SAPOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất này thủy phân sẽ được `$sapogenin$`, `$arabinoza$` và `$hexoza$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_ARABINOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất này thủy phân sẽ được `$sapogenin$`, `$arabinoza$` và `$hexoza$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_HEXOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất này thủy phân sẽ được `$sapogenin$`, `$arabinoza$` và `$hexoza$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_SOI_TUI_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_SOT_BAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "B_PHU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6g$",
+        "cach_dung": "Pha với nửa lít nước, chia 2 lần uống trong ngày, trước khi ăn cơm 15-30 phút. Uống nóng. Thường uống luôn 8 ngày, lại nghỉ 2 đến 4 ngày. Có thể dùng cao lỏng $2-5g$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T235"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "DL_LOI_TIEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc hay nước pha lá râu mèo làm tăng lượng nước tiểu, đồng thời tăng cả lượng clorua, lượng urê và lượng axit uric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "DL_CHUA_XUNG_HUYET_GAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn có tác dụng chữa xung huyết gan, đường mật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "DL_CHUA_BENH_DUONG_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn có tác dụng chữa xung huyết gan, đường mật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "all_sources": [
+          "CT_VT_VN_T234"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 59.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

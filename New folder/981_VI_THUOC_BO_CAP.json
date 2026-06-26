@@ -1,0 +1,462 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BO_CAP",
+    "ten_raw": "Bọ cạp",
+    "ten_khoa_hoc": "Buthus sp.",
+    "ho_thuc_vat": "Không rõ",
+    "variants": [
+      "toàn yết",
+      "yết vĩ"
+    ],
+    "properties": {
+      "bo_phan_dung": "cả con bọ cạp (toàn yết) hoặc chỉ dùng đuôi (yết vĩ)",
+      "thu_hai": "Không rõ",
+      "che_bien_tho": "Không rõ",
+      "lieu_dung_chung": "Nếu dùng thuốc sắc thì ngày dùng $3$ đến $5g$; nếu dùng thuốc bột hay thuốc viên thì chỉ dùng $2$ đến $3g$, chia làm $2$ hay $3$ lần uống.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Trong nước ta có nhiều loài bọ cạp, nhưng cho đến nay ta vẫn phải nhập bọ cạp ở nước ngoài về làm thuốc. Con bọ cạp ở nước ta đã được xác định thuộc chi Buthiurus hoặc chi Heteronetrus. Thực tế ta có thể dùng nhiều loài khác nhau. Vì toàn yết hiện nay ta dùng làm thuốc thuộc loài Buthus martensii Karsch thuộc họ Bọ cạp Buthidae."
+    },
+    "display_name": "Bọ cạp"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BO_CAP",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bo Cap"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Binh"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "HC_KATSUTOXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Katsutoxin"
+      }
+    },
+    {
+      "id": "HC_TRIMETYLAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Trimetylamin"
+      }
+    },
+    {
+      "id": "HC_BETAIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Betain"
+      }
+    },
+    {
+      "id": "HC_TAURIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Taurin"
+      }
+    },
+    {
+      "id": "HC_AXIT_PANMITIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Panmitic"
+      }
+    },
+    {
+      "id": "HC_AXIT_STEARIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Stearic"
+      }
+    },
+    {
+      "id": "HC_CHOLESTEROL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Cholesterol"
+      }
+    },
+    {
+      "id": "HC_LECXITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lecxitin"
+      }
+    },
+    {
+      "id": "BT_THIEN_DAU_THONG_BO_CAP",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thien Dau Thong Bo Cap"
+      }
+    },
+    {
+      "id": "VT_DIA_LONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Dia Long"
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "B_KINH_PHONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kinh Phong"
+      }
+    },
+    {
+      "id": "B_BAN_THAN_BAT_TOAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ban Than Bat Toai"
+      }
+    },
+    {
+      "id": "B_THIEN_DAU_THONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thien Dau Thong"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong"
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tran Kinh"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T981",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "981"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nếu dùng cả con bọ cạp làm thuốc thì gọi là toàn yết. Nếu chỉ dùng đuôi không thôi thì gọi là yết vĩ. Đây là một loài có đốt, thường sống ở dưới những hòn đá hoặc khe vách; đầu và ngực ngắn; bụng tương đối dài hơn, phía dưới của bụng thót lại và dài, cuối cùng có ngòi mang nọc độc (Hình 724)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_KATSUTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Katsutoxin$ (có tác giả gọi là buthotoxin)",
+        "ghi_chu": "còn gọi là buthotoxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_TRIMETYLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trimetylamin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_BETAIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "betain"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_TAURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "taurin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_AXIT_PANMITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit panmitic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_AXIT_STEARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit stearic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_CHOLESTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "cholesterol"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "HC_LECXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "lecxitin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "VT_DIA_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "B_KINH_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "B_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_BO_CAP",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khu phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "DL_KICH_THICH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Pha loãng có tác dụng kích thích tim ếch và mèo.",
+        "ghi_chu": "Nếu đặc quá thì lúc đầu có tác dụng kích thích sau tê liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CAP",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có độc.",
+        "ghi_chu": "Nếu đặc quá thì lúc đầu có tác dụng kích thích sau tê liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T981"
+      }
+    }
+  ]
+}

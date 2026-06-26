@@ -1,0 +1,511 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAO_BAN",
+    "ten_raw": "Cào bàn",
+    "ten_khoa_hoc": "$Rhizoma et Radix Ligustici jeholensis; Rhizoma et Radix Ligustici sinensis$",
+    "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+    "variants": [
+      "Bắc cảo bản",
+      "hương cảo bản",
+      "liêu cảo bản",
+      "Tây khung cảo bản",
+      "tây khung",
+      "cảo bản",
+      "tay khung"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ và rễ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 3 đến 6$g$ dước dạng thuốc sắc; dùng ngoài không có liều lượng nhất định.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Hà Bắc, Sơn Tây, Liêu Ninh, Cát Lâm, Nội Mông"
+    },
+    "display_name": "Cảo bản",
+    "canonical_name": "Cào bàn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CAO_BAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cao Ban"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau"
+      }
+    },
+    {
+      "id": "HC_NOTHOSNYROLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nothosnyrola"
+      }
+    },
+    {
+      "id": "HC_DIMETOXYALYLBENZOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Dimetoxyalylbenzola"
+      }
+    },
+    {
+      "id": "HC_AXIT_PANMITINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Panmitinic"
+      }
+    },
+    {
+      "id": "B_GHE_LO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe Lo"
+      }
+    },
+    {
+      "id": "S_NHIEU_GAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhieu Gau"
+      }
+    },
+    {
+      "id": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thien Dau Thong Cao Ban"
+      }
+    },
+    {
+      "id": "VI_THUOC_XUYEN_KHUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Xuyen Khung"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHONG_PHONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Phong Phong"
+      }
+    },
+    {
+      "id": "VI_THUOC_BACH_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Bach Chi"
+      }
+    },
+    {
+      "id": "VI_THUOC_TE_TAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Te Tan"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "B_NHUC_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Nhuc Dau"
+      }
+    },
+    {
+      "id": "B_THIEN_DAU_THONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thien Dau Thong"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong"
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tao Thap"
+      }
+    },
+    {
+      "id": "CN_TRI_UNG_NHOT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Ung Nhot"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "110"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [],
+        "cong_nang": "tán phong, hàn, thấp tà, chữa chứng nhức óc, là thuốc khu phong, táo thấp, chữa ung nhọt, thường dùng chữa chứng âm hộ lạnh, sưng đau nhức, nhức đầu, còn dùng gội đầu cho sạch gầu."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây liêu cảo bản (Ligusticum jeholense) là một cây sống lâu năm, cao 0,15-0,16m thân rễ ngắn, toàn cây rất thơm, thân mọc thẳng đứng, phía dưới có đường kính 3-5mm, thường có màu tím. Lá 2 lần kép lông chim mép có răng cưa, cuống lá phát triển thành bẹ ôm lấy thân. Cụm hoa hình tán kép 6-19 cuống tán, dài ngắn không đều, tán nhỏ mang chừng 20 hoa nhỏ màu trắng. Quả gồm $2phân$ quả dính nhau, hình thoi, dài chừng $5mm$ trên mỗi phân qua có 5 sống dọc, mặt tiếp giáp phẳng. Cây tây khung (Ligusticum sinense) cũng là một cây sống lâu năm. Lá mọc so le 2-3 lần xẻ lông chim kép, cuống lá dài 9-12cm phía dưới ôm lấy thân cây. Cụm hoa hình tán kép, mỗi tán 16-20 cuống, mỗi tán nhỏ mang nhiều hoa nhỏ màu trắng. Quả cũng gồm $2phân$ quả mỗi phân quả cũng có 5 sống chạy dọc, nhưng giữa sống của quả tây khung có tới $3ống$ tinh dầu, trong khi đó quả liêu cảo bản chỉ có một ống tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cảo bản của Trung Quốc chỉ mới biết có chứa tinh dầu.",
+          "Trong một loại cảo bản của Nhật Bản có tên khoa học là Northosmymium japonicum Miq. cùng họ hoa tán (Umbelliferae) người ta đã thấy có chừng $1,3\\%$ tinh dầu; trong tinh dầu thành phần chủ yếu là `$nothosnyrola$` `$2-4 (CH,O),CH, CH=CH-CH,$` chất `$đimetoxyalylbenzola$` và một lượng nhỏ `$axit panmitinic$`."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cảo bản của Trung Quốc chỉ mới biết có chứa tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_NOTHOSNYROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tinh dầu thành phần chủ yếu là `$nothosnyrola$` `$2-4 (CH,O),CH, CH=CH-CH,$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_DIMETOXYALYLBENZOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất `$đimetoxyalylbenzola$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_AXIT_PANMITINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một lượng nhỏ `$axit panmitinic$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "B_GHE_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc nước dùng tắm và giặt quần áo",
+        "ghi_chu": "Trẻ con ghẻ lở, chốc đầu | Cảo bản | Sắc nước dùng tắm và giặt quần áo | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "S_NHIEU_GAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tán nhỏ đem sát vào đầu, sáng hôm sau gội đầu, thì chóng hết gầu",
+        "ghi_chu": "Nhiều gầu | Cảo bản, bạch chỉ hai vị bằng nhau | Tán nhỏ đem sát vào đầu, sáng hôm sau gội đầu, thì chóng hết gầu | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_TE_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_CAO_BAN",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Nhức đầu, thiên đầu thống | Cảo bản $6g$, xuyên khung $3g$, phòng phong $5g$, bạch chỉ $3g$, tế tân $2g$, cam thảo $3g$ | Nước $600ml$, sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng | [Nguồn]: CT_VT_VN_T111"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực tán phong, hàn, thấp tà, chữa chứng nhức óc, là thuốc khu phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực tán phong, hàn, thấp tà, chữa chứng nhức óc, là thuốc táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TRI_UNG_NHOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ung nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "all_sources": [
+          "CT_VT_VN_T110"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 54.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

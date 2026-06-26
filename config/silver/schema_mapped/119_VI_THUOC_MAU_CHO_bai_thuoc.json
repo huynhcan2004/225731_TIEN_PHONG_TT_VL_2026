@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_MAU_CHO",
+  "source": {
+    "source_id": "CT_VT_VN_T119",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "119"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GHE_MAU_CHO_M",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Máu chó trị ghẻ",
+        "cach_dung": "Tắm thật sạch, gãi cho nốt ghẻ chảy máu rồi bôi nguyên dầu đó hoặc cho thêm vào dầu một ít dầu long não. Cần bôi thật mỏng.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_M",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ghẻ",
+        "cach_dung": "Tắm thật sạch, gãi cho nốt ghẻ chảy máu rồi bôi nguyên dầu đó hoặc cho thêm vào dầu một ít dầu long não. Cần bôi thật mỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_MR",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Máu chó kết hợp rượu trị ghẻ",
+        "cach_dung": "Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, ngày hôm sau tắm thật sạch bằng xà phòng, bôi một lần nữa.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_MR",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ghẻ",
+        "cach_dung": "Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, ngày hôm sau tắm thật sạch bằng xà phòng, bôi một lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    },
+    {
+      "from": "BT_GHE_RUOI_MAU_CHO_MR",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Máu chó kết hợp rượu trị ghẻ ruồi",
+        "cach_dung": "Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, ngày hôm sau tắm thật sạch bằng xà phòng, bôi một lần nữa.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    },
+    {
+      "from": "BT_GHE_RUOI_MAU_CHO_MR",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị ghẻ ruồi",
+        "cach_dung": "Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, ngày hôm sau tắm thật sạch bằng xà phòng, bôi một lần nữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,167 @@
+{
+  "entity_hub": "VI_THUOC_THUONG_TRUAT",
+  "source": {
+    "source_id": "CT_VT_VN_T407",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "407"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CN_TAO_THAP_PHAT_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp phát hãn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "QUY_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "QUY_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CO_VI_KHU",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị khổ (đắng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CO_VI_TAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị tân (cay)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "CO_TINH_KHÍ_LIỆT",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Khí liệt (mạnh)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ tinh dầu của thương truật có tác dụng trấn tĩnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_UC_CHE_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao có tác dụng ức chế trung khu thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_UC_CHE_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tim có tác dụng ức chế nhịp đập, làm cho tim đập chậm. Nếu dùng liều cao thì làm cho tim tê liệt mà ngừng đập."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao ($0,5-2ml$ trên $1kg$ thể trọng) thì làm cho huyết áp hạ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_TANG_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm tĩnh mạch với liều nhỏ ($0,1-0,3g$ cho $1kg$ thể trọng) thì làm cho huyết áp hơi tăng cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_UC_CHE_CO_TRON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tá tràng cô lập có tác dụng ức chế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_TRUAT",
+      "to": "DL_GIAM_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao thương truật tương đương với $6g$ vị thuốc trên $1kg$ thể trọng, tiêm dưới da thì thấy trong vòng 2-5 giờ, lượng huyết đường giảm xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    }
+  ],
+  "metadata": {}
+}

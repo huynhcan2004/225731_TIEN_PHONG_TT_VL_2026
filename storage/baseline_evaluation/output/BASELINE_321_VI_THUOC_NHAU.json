@@ -1,0 +1,298 @@
+{
+  "entity": {
+    "id": "VT_NHAU",
+    "canonical_name": "Nhàu",
+    "ten_khoa_hoc": "Morinda citrifolia L.",
+    "ho_thuc_vat": "Cà phê (Rubiaceae)",
+    "properties": {
+      "bo_phan_dung": "Lá, quả, vỏ, rễ",
+      "thu_hai": "Quả thu hái quanh năm, nhưng nhiều nhất vào mùa hè thu. Rễ đào vào mùa đông. Lá dùng tươi hay phơi khô.",
+      "che_bien_tho": "Rễ hay dùng nhất dưới dạng phơi hay sấy khô. Các bộ phận khác dùng tươi. Có thể dùng tươi hay thái mỏng phơi khô. Khi dùng sao qua.",
+      "lieu_dung_chung": "Liều dùng hằng ngày $30-40g$ rễ, sắc và uống thay nước chè trong ngày.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_NHAU",
+      "to": "HC_MORINDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ rễ chứa glucozit anthraquinon gọi là $morindin$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_DAMNACANTAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "hỗn hợp gồm nhiều chất anthraglucozit như: $damnacantal$ hay $1-metoxy-2-focmyl-3-oxyanthraquinon$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_L_METOXYRUBIAZIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất $l-metoxyrubiazin$ hay $l-metoxy-2-metyl-3-oxyanthraquinon$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_ALIZARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất $alizarin$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_MORINDON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chat $morindon$ hay $1-5-6-trioxy-2-metylanthraquinon$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_L_OXY_2_3_DIMETOXYANTHRAQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất $l-oxy-2-3-dimetoxyanthraquinon$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "HC_SELENIUM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm $1982$, Đàm Trung Bảo (Đại học dược Hà nội) đã phát hiện trong nhàu có nhiều chất $selenium$."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ định lâm sàng theo kinh nghiệm",
+        "cach_dung": "Rễ nhàu dùng để trị cao huyết áp theo kinh nghiệm lâm sàng."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "S_DAU_LUNG_NHUC_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Rễ nhàu thái nhỏ, sao vàng ngâm rượu (hoặc quả nhàu non, thái mỏng sao khô) uống."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Lá nhàu giã nát đắp."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-10g$",
+        "cach_dung": "Lá nhàu sắc với $500ml$ nước chia làm $2$ lần uống trong ngày."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_DI_NGOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-10g$",
+        "cach_dung": "Lá nhàu sắc với $500ml$ nước chia làm $2$ lần uống trong ngày."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$8-10g$",
+        "cach_dung": "Lá nhàu sắc với $500ml$ nước chia làm $2$ lần uống trong ngày."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_BO_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-10g$",
+        "cach_dung": "Lá nhàu sắc với $500ml$ nước chia làm $2$ lần uống trong ngày."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "S_NHUC_DAU_CHONG_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$8-10g$",
+        "cach_dung": "Lá nhàu sắc với $500ml$ nước chia làm $2$ lần uống trong ngày."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_BOI_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Lá nhàu nấu canh lươn để ăn."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_GIAI_KHAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Rễ nhàu sắc uống hằng ngày thay nước chè, uống hằng tháng."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_DE_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_NHUAN_TRANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_DIEU_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_CAM_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "S_DAU_GAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_DAI_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu ăn với muối."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Quả nhàu nướng chín ăn."
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên súc vật thí nghiệm, rễ cây nhàu tỏ ra có tác dụng nhuận tràng nhẹ và lâu dài.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên súc vật thí nghiệm, rễ cây nhàu tỏ ra có tác dụng lợi tiểu nhẹ.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "DL_EM_DIU_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên súc vật thí nghiệm, rễ cây nhàu tỏ ra có tác dụng làm êm dịu thần kinh trên thần kinh giao cảm.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên súc vật thí nghiệm, rễ cây nhàu tỏ ra có tác dụng hạ huyết áp.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_NHAU",
+      "to": "DL_KHONG_DOC_HAI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Độ độc không đáng kể, và không gây nghiện.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    }
+  ]
+}

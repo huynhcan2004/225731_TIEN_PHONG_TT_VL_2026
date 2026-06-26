@@ -1,0 +1,227 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_DAI_HOA_TIM",
+    "ten_raw": "Cà dại hoa tím",
+    "ten_khoa_hoc": "Solanum indicum L.",
+    "ho_thuc_vat": "họ Cà Solanaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Không rõ",
+      "thu_hai": "Không rõ",
+      "che_bien_tho": "Không rõ",
+      "lieu_dung_chung": "Ngày uống $6$-$12$g dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây mọc hoang dại ở khắp nơi, thường ở ven đường, bãi trống."
+    },
+    "display_name": "Cà dại hoa tím"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_DAI_HOA_TIM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Dai Hoa Tim"
+      }
+    },
+    {
+      "id": "HC_DAU_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Dau Beo"
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_LOI_TIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    },
+    {
+      "id": "B_CHONG_NON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Chong Non"
+      }
+    },
+    {
+      "id": "B_TAY_NHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tay Nhe"
+      }
+    },
+    {
+      "id": "B_DAU_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Rang"
+      }
+    },
+    {
+      "id": "B_SAU_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sau Rang"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T772",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "772"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ có cành mọc đứng, cao $0,6-1,3m$, thân và cành có gai và có lông hình sao. Lá mọc so le mặt trên xanh sẫm, mặt dưới trắng nhạt, phủ nhiều lông. Phiến lá dài $5-7cm$, rộng $2,5-5cm$, chia thành $3-4$ thuỳ, cắt không sâu, cuống lá cũng phủ lông, dài $1,5-3cm$. Cả hai mặt lá đều có gai, rải rác ở gan. Hoa tím xanh, phủ lông bên ngoài, mọc thành chùm ở kẽ lá. Quả tròn hình cầu màu vàng hay đỏ nhạt, nhẵn, đường kính $1cm$. Hạt màu vàng, hình đĩa, nhẵn, đường kính $2mm$. Mùa hoa quả: tháng $1-6$ ( Hình 582).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu. Puntambekar S. V. và Krishana S. đã chiết từ hạt cà dại này một chất dầu béo (Fatty oil from theseed of Solanum indicum L. J. Ind. Chem. Soc. 18, 1941: 329-334)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Puntambekar S. V. và Krishana S. đã chiết từ hạt cà dại này một chất dầu béo (Fatty oil from theseed of Solanum indicum L. J. Ind. Chem. Soc. 18, 1941: 329-334).",
+        "ghi_chu": "chiết từ hạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_LOI_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_CHONG_NON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_TAY_NHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "Rễ cây cà dại hoa tím"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hứng khói này vào miệng | Xát lên lợi nơi đau răng",
+        "ghi_chu": "Hạt cà dại hoa tím rang cháy | Than hạt cà dại hoa tím còn lại giã nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TIM",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hứng khói này vào miệng",
+        "ghi_chu": "Hạt cà dại hoa tím rang cháy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    }
+  ]
+}

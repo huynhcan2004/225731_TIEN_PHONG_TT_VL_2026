@@ -1,0 +1,176 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHUA_DU",
+    "ten_raw": "Chùa dù",
+    "ten_khoa_hoc": "Elsholtzia blanda Benth.; E. penduliflora W. Smith.",
+    "ho_thuc_vat": "Hoa môi Lamiaceae (Labiatae)",
+    "variants": [
+      "dê sua tùa",
+      "tả hoàng dồ"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "lieu_dung_chung": "Ngày dùng 10 đến $16g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Mọc hoang dại tại những vùng núi cao lạnh như Mường Khương, Bắc Hà, Sapa (Lào Cai), Sìn Hồ (Lai Châu), Huổi Dạng. Mường Lộng (Kỳ Sơn, Nghệ An)."
+    },
+    "display_name": "Chùa dù"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CHUA_DU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Chua Du"
+      }
+    },
+    {
+      "id": "HC_XINEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xineola"
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Tieu Tien Ra Mau Chua Du"
+      }
+    },
+    {
+      "id": "B_CAM_CUM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Cum"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "S_TIEU_TIEN_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tieu Tien Ra Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T773",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "773"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chùa dù (Sìn hồ, Lai Châu) còn có tên dê sua tùa (xã Huổi Dạng, Mường Lộng, Kỳ Sơn, Nghệ An) hay tả hoàng dồ (Mường Khương, Bắc Hà, Lào Cai) là một cây nhỏ cao 1-3m, mọc hằng năm. Thân vuông nhẵn, rễ cọc cứng, cành mọc từ lá, lá mọc đối chéo chữ thập. Phiến lá hình mác nhọn dài $5-15cm$, rộng $1-5cm$, cuống lá dài $3-8mm$, có lông ngắn, mép lá khía răng cưa không đều, màu hơi tím, mặt trên lục sẫm, mặt dưới nhạt hơn. Hoa mọc ở đầu cành và nách lá, cụm hoa hình bông dài $10-15cm$, các hoa mọc vòng quanh trục của bông, các vòng xít nhau, riêng ở phía đầu cuống có 1-2 vòng cách xa nhau. Toàn bông 10 đến 30 vòng, mỗi vòng 6-30 hoa. Quả hình bầu dục dẹt, dài $0,5 -1mm$, và xám đen hơi cứng, có rốn trắng ở gần đầu quả (Hình 584)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHUA_DU",
+      "to": "HC_XINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu là $xineola$ chiếm $75-80\\%$ (bằng sắc ký khí) hoặc $56-60\\%$ (bằng resorxin) (Đỗ Tất Lợi, Nguyễn Hải Ban và Chu Bá Nam, 1974)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "VI_THUOC_CHUA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_MAU_CHUA_DU",
+      "to": "S_TIEU_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    }
+  ]
+}

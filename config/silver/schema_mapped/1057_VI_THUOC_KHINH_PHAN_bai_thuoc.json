@@ -1,0 +1,208 @@
+{
+  "entity_hub": "VI_THUOC_KHINH_PHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T1057",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1057"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_RUNG_LONG_MAY_H",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hùng hoàng tán nhỏ, hòa với dấm bôi ngoài giúp trị rụng lông mày.",
+        "cach_dung": "Hòa với dấm bôi vào",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_RUNG_LONG_MAY_H",
+      "to": "S_RUNG_LONG_MAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lông mày rụng",
+        "cach_dung": "Hòa với dấm bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_TAI_CHAY_MU_HTL",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hùng hoàng, thư hoàng, lưu hoàng phối hợp có tác dụng trị tai chảy mủ.",
+        "cach_dung": "Thổi vào tai",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_TAI_CHAY_MU_HTL",
+      "to": "VT_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hùng hoàng, thư hoàng, lưu hoàng phối hợp có tác dụng trị tai chảy mủ.",
+        "cach_dung": "Thổi vào tai",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_TAI_CHAY_MU_HTL",
+      "to": "VT_LUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hùng hoàng, thư hoàng, lưu hoàng phối hợp có tác dụng trị tai chảy mủ.",
+        "cach_dung": "Thổi vào tai",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_TAI_CHAY_MU_HTL",
+      "to": "S_TAI_CHAY_MU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tai chảy mủ",
+        "cach_dung": "Thổi vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_CAM_RANG_H",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hùng hoàng nướng tồn tính, tán nhỏ bôi vào chỗ đau giúp trị cam răng, cam tẩu mã.",
+        "cach_dung": "Bôi vào chỗ đau",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_CAM_RANG_H",
+      "to": "B_CAM_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cam răng, cam tẩu mã",
+        "cach_dung": "Bôi vào chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_RAN_RET_CAN_H",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hùng hoàng giã nhỏ bôi lên vết cắn giúp trị rắn rết cắn.",
+        "cach_dung": "Bôi lên vết cắn",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_RAN_RET_CAN_H",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn rết cắn",
+        "cach_dung": "Bôi lên vết cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_UNG_LOET_TU_CUNG_HKP",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hùng hoàng, kim ngân hoa, phục linh phối hợp trị ung loét tử cung.",
+        "cach_dung": "Mỗi tối uống 2 lần sau bữa cơm, mỗi lần uống 3-7 viên",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_UNG_LOET_TU_CUNG_HKP",
+      "to": "VT_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hùng hoàng, kim ngân hoa, phục linh phối hợp trị ung loét tử cung.",
+        "cach_dung": "Mỗi tối uống 2 lần sau bữa cơm, mỗi lần uống 3-7 viên",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_UNG_LOET_TU_CUNG_HKP",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hùng hoàng, kim ngân hoa, phục linh phối hợp trị ung loét tử cung.",
+        "cach_dung": "Mỗi tối uống 2 lần sau bữa cơm, mỗi lần uống 3-7 viên",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "BT_UNG_LOET_TU_CUNG_HKP",
+      "to": "B_UNG_THU_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viên thần nông hoàng chữa ung loét tử cung",
+        "cach_dung": "Mỗi tối uống 2 lần sau bữa cơm, mỗi lần uống 3-7 viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    }
+  ],
+  "metadata": {}
+}

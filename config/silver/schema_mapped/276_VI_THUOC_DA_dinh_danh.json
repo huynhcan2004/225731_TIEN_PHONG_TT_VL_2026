@@ -1,0 +1,107 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DA",
+    "ten_raw": "Cây đa",
+    "ten_khoa_hoc": "Ficus elastica Roxb; Ficus religiosa L; Ficus macrophylla; Ficus benghalensis L.",
+    "ho_thuc_vat": "Dâu tằm Moraceae",
+    "variants": [
+      "đa búp đỏ",
+      "bồ đề (đom pur)",
+      "đa nhiều rễ",
+      "đa tròn lá",
+      "cây đa búp đỏ",
+      "cây đề"
+    ],
+    "properties": {
+      "bo_phan_dung": "tua rễ mọc từ cành rủ xuống",
+      "phan_bo": "khắp nơi",
+      "thu_hai": "Dùng toàn rễ nghĩa là cả lõi và rễ.",
+      "che_bien_tho": "Tươi hay sao cho khô đều được. Không phải chế biến gì khác."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "276"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhiều loài đa được dùng Cây đa búp đỏ (Ficus elastica Roxb) là cây gỗ to, cao, thân nhiều nhánh. Lá hình bầu dục, hơi dài, to dày, gân phụ nổi rõ. Búp đỏ của cây đa là là kèm sớm rụng bao bọc lấy chồi tận cùng và khi lá nở ra thì rụng xuống. Toàn cây có nhựa mủ chứa chất cao su, trong tế bào lá có chứa tinh thể canxi cacbonat gọi là nang thạch (Hình 199). Cây đa bồ đề còn gọi là cây đề (Ficus religiosa L.) cũng là cây to, rễ phụ từ các cành to mọc đêm xuống dưới đất, có cuống lá mảnh, có lá hình thoi, hơi giống hình tim ở phía gốc, thu hẹp thành như một cái đuôi ở phía ngọn. Thường trồng lấy bóng mát ở đình chùa. Đa nhiều rễ (Ficus macrophylla) có lá to hơn, nhiều rễ, đa tròn lá (Ficus benghalensis) có lá hơi tròn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_DA_PHENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_FLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_NHUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đa bồ đề có $85\\%$ nhựa $12\\%$ cao su."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA",
+      "to": "HC_CAO_SU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đa bồ đề có $85\\%$ nhựa $12\\%$ cao su."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276"
+      }
+    }
+  ]
+}

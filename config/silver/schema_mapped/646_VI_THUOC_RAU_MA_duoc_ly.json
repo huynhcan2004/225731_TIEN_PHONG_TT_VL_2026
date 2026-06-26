@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_RAU_MA",
+  "source": {
+    "source_id": "CT_VT_VN_T646",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "646"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "CN_LOI_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi thấp, dùng chữa thân thể nóng, da vàng người vàng, tiểu tiện không tốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu tiêm vào tĩnh mạch thỏ thì thấy huyết áp hạ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "DL_UC_CHE_VI_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng ức chế khá mạnh đối với vi trùng tụ cầu khuẩn (Sataphyllococ)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "DL_UC_CHE_VI_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứng minh tác dụng ức chế của nhân trần đối với một số khuẩn gây bệnh ngoài da, tác dụng này không giảm dù vị thuốc được xử lý trên $100°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    }
+  ],
+  "metadata": {}
+}

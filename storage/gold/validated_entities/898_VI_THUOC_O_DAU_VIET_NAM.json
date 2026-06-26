@@ -1,0 +1,151 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_DAU_VIET_NAM",
+    "ten_raw": "Ô đầu Việt Nam",
+    "ten_khoa_hoc": "$Aconitum fortunei Hemsl; A.conitum sinense Sieb; Aconitum kusnezoffii Reichb var bodinieri Fin. et Gagnep$",
+    "ho_thuc_vat": "$Mao lương Ranunculaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Các vùng núi cao biên giới nước ta: Lào Cai (Sapa), Hà Giang, Khu Tây Bắc (Nghĩa Lộ). Thường thấy tại các savan cỏ.",
+      "thu_hai": "rễ củ hái vào các tháng 7-10 trước khi cây ra hoa, là lúc củ có kích thước to nhất.",
+      "che_bien_tho": "trước đây khi hái thường cứ để nguyên một mẩu thân dài chừng $15cm$, để dễ bó lại thành từng bó $20$ củ một, phơi khô.",
+      "lieu_dung_chung": "coi vị âu ở đầu"
+    },
+    "display_name": "Ô đầu Việt Nam",
+    "canonical_name": "Ô đầu Việt Nam"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_O_DAU_VIET_NAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc O Dau Viet Nam"
+      }
+    },
+    {
+      "id": "HC_ANCA_LOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Anca Loit"
+      }
+    },
+    {
+      "id": "HC_ACONITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Aconitin"
+      }
+    },
+    {
+      "id": "S_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau"
+      }
+    },
+    {
+      "id": "DL_CHUA_RO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chua Ro"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T898",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "898"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đây là một loại cỏ cao $0,6-1m$, thân mọc thẳng đứng, có lông ngắn. Lá hình mắt chim. Chia thành $3$ thùy, đường kính $5-7cm$, thùy hơi hình trứng dài, có răng cưa ở nửa trên. Hoa lớn, màu xanh tím mọc thành chùm dày dài $5-15cm$. Lá bắc nhỏ. Đài sau giống hình mũ nông. Quả có $5$ đại, mỏng như giấy, dài $23mm$, hạt có vẩy ở trên mặt (Hình $670$).",
+        "thanh_phan_hoa_hoc": [
+          "Ô đầu của ta chứa chừng $5$ phần nghìn $ancaloit$ toàn phần, tan trong nước. Củ con chứa nhiều $ancaloit$ hơn. Khi xác định liều tối đa gây độc, người ta thấy những $ancaloit$ đó có độ độc của $aconitin$. Khi bị phá hủy các $ancaloit$ đó sẽ cho các chất ít độc hơn."
+        ],
+        "ghi_chu_bo_sung": "Những năm gần đây, thấy quốc doanh dược liệu thu mua, có người cho đó là một vị thuốc bổ, uống quá liều nên đã xảy ra một số vụ ngộ độc. Ta có thể chế ô đầu của ta để thay âu ô đầu.",
+        "cach_dung_bao_che": "bóp những nơi nhức mỏi, sai khớp, dập gẫy chân tay."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "HC_ANCA_LOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ô đầu của ta chứa chừng $5$ phần nghìn $ancaloit$ toàn phần, tan trong nước.",
+        "ghi_chu": "Củ con chứa nhiều $ancaloit$ hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T898",
+        "all_sources": [
+          "CT_VT_VN_T898"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "HC_ACONITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi xác định liều tối đa gây độc, người ta thấy những $ancaloit$ đó có độ độc của $aconitin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T898",
+        "all_sources": [
+          "CT_VT_VN_T898"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "S_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nhân dân thường hái thái mỏng ngâm rượu, dùng xoa",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm. CT_VT_VN_T898"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T898",
+        "all_sources": [
+          "CT_VT_VN_T898"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "DL_CHUA_RO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả sau khi nghiên cứu, đã đề nghị dùng ô đầu Việt Nam thay ô đầu của châu Âu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T898",
+        "all_sources": [
+          "CT_VT_VN_T898"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 27.5,
+      "reliability_c_score": 0.79,
+      "total_confidence_sum": 3.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

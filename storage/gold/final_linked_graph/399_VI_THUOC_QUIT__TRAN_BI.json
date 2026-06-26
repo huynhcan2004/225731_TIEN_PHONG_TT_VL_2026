@@ -1,0 +1,682 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_QUIT_TRAN_BI",
+    "ten_raw": "Quít - Trần bì",
+    "ten_khoa_hoc": "$Citrus deliciusae Tenore, Citrus nobilis var. deliciosa Swigle$",
+    "ho_thuc_vat": "$Cam Rutaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ quả",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "$4-12g$ hay hơn.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không ghi nhận",
+      "phan_bo": "Được trồng ở khắp nơi trong nước ta. Nhiều nhất tại các tỉnh Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên, Nam Định, Hà Nam, Bắc Cạn, Thái Nguyên, Bắc Giang, Bắc Ninh vv...Tại Trung Quốc, ngoài cây cùng loài với quít của ta, người ta còn trồng một số loài quít khác và cũng cho vị trần bì và quất hạch như cây đại hồng cam (Citrus chachiensis hay Citrus nobilis var. chachiensis Wong), cây phúc quyết (Citrus tangeriana Hort et Tanaka hay Citrus reticulata var. deliciosa H. H. Hu) và cây châu quyết (Citrus erythrosa Tanaka hay Citrus reticulata Blanco var. erythrosa H. H. Hu)."
+    },
+    "display_name": "Vị thuốc Quít - Trần bì",
+    "canonical_name": "Vị thuốc Quít - Trần bì"
+  },
+  "nodes": [
+    {
+      "id": "BT_HO_MAT_TIENG_TRAN_BI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ho mất tiếng trần bì",
+        "aliases": [
+          "ho mất tiếng trần bì",
+          "ho mat tieng tran bi",
+          "homattiengtranbi"
+        ],
+        "search_vector_hint": "Bài thuốc Ho mất tiếng trần bì thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Rối loạn tiêu hóa trần bì",
+        "aliases": [
+          "roiloantieuhoatranbi",
+          "rối loạn tiêu hóa trần bì",
+          "roi loan tieu hoa tran bi"
+        ],
+        "search_vector_hint": "Bài thuốc Rối loạn tiêu hóa trần bì thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "B_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Bệnh Đau bụng thuộc nhóm bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Bệnh Ho thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_ROI_LOAN_TIEU_HOA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rối loạn tiêu hóa",
+        "aliases": [
+          "an khong tieu",
+          "khó tiêu",
+          "khotieu",
+          "roiloantieuhoa",
+          "roi loan tieu hoa",
+          "rối loạn tiêu hóa",
+          "ankhongtieu",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Rối loạn tiêu hóa thuộc nhóm bệnh tiêu hóa, thường liên quan đến chức năng dạ dày, ruột."
+      }
+    },
+    {
+      "id": "B_SUNG_VU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sưng vú",
+        "aliases": [
+          "sưng vú",
+          "sungvu",
+          "sung vu"
+        ],
+        "search_vector_hint": "Bệnh Sưng vú thuộc nhóm bệnh phụ khoa, thường liên quan đến viêm nhiễm tuyến vú."
+      }
+    },
+    {
+      "id": "CN_HOA_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hóa đờm",
+        "aliases": [
+          "hoa dom",
+          "hóa đờm",
+          "hoadom"
+        ],
+        "search_vector_hint": "Công năng Hóa đờm thuộc nhóm công năng, thường liên quan đến làm tan đờm."
+      }
+    },
+    {
+      "id": "CN_KIEN_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Kiện tỳ",
+        "aliases": [
+          "kiện tỳ",
+          "kienty",
+          "kien ty"
+        ],
+        "search_vector_hint": "Công năng Kiện tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_LY_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lý khí",
+        "aliases": [
+          "lykhi",
+          "ly khi",
+          "lý khí"
+        ],
+        "search_vector_hint": "Công năng Lý khí thuộc nhóm công năng, thường liên quan đến điều hòa khí."
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Táo thấp",
+        "aliases": [
+          "tao thap",
+          "táo thấp",
+          "taothap"
+        ],
+        "search_vector_hint": "Táo thấp thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "HC_HESPERIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Hesperidin",
+        "aliases": [
+          "hesperidin"
+        ],
+        "search_vector_hint": "Hesperidin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_DANG_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đảng sâm",
+        "aliases": [
+          "dang sam",
+          "đảng sâm",
+          "dangsam"
+        ],
+        "search_vector_hint": "Vị thuốc Đảng sâm thuộc nhóm Vị thuốc, thường liên quan đến bổ khí, dưỡng huyết."
+      }
+    },
+    {
+      "id": "VT_HOANG_BA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng bá",
+        "aliases": [
+          "hoang ba",
+          "hoangba",
+          "hoàng bá"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng bá thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_HOANG_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng liên",
+        "aliases": [
+          "hoàng liên",
+          "hoang lien",
+          "hoanglien"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng liên thuộc nhóm vị thuốc, thường liên quan đến tính kháng khuẩn."
+      }
+    },
+    {
+      "id": "VT_QUIT_TRAN_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quít - Trần bì",
+        "aliases": [
+          "trần bì",
+          "quit - tran bi",
+          "quít - trần bì",
+          "tran bi",
+          "quit-tranbi",
+          "tranbi"
+        ],
+        "search_vector_hint": "Vị thuốc Quít - Trần bì thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh lý.",
+        "bo_phan_dung": "vỏ quả",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "$4-12g$ hay hơn.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không ghi nhận",
+        "phan_bo": "Được trồng ở khắp nơi trong nước ta. Nhiều nhất tại các tỉnh Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên, Nam Định, Hà Nam, Bắc Cạn, Thái Nguyên, Bắc Giang, Bắc Ninh vv...Tại Trung Quốc, ngoài cây cùng loài với quít của ta, người ta còn trồng một số loài quít khác và cũng cho vị trần bì và quất hạch như cây đại hồng cam (Citrus chachiensis hay Citrus nobilis var. chachiensis Wong), cây phúc quyết (Citrus tangeriana Hort et Tanaka hay Citrus reticulata var. deliciosa H. H. Hu) và cây châu quyết (Citrus erythrosa Tanaka hay Citrus reticulata Blanco var. erythrosa H. H. Hu).",
+        "ten_khoa_hoc": "$Citrus deliciusae Tenore, Citrus nobilis var. deliciosa Swigle$",
+        "ho_thuc_vat": "$Cam Rutaceae$",
+        "hinh_thai_chi_tiet": "Quít là một cây nhỏ, lá mọc so le, đơn, mép có răng cưa, vỏ có mùi thơm đặc biệt. Hoa nhỏ, màu trắng, mọc đơn độc ở kẽ lá. Quả hình cầu hai đầu dẹt, màu vàng cam hay vàng đỏ, vỏ mỏng nhẫn hay hơi sần sùi, dễ bóc. Mùi thơm ngon, nhiều hạt (Hình 287, Hm 50,3 ). Trong quả quít vỏ chiếm $22-22,5\\%$; nước quít $28-56\\%$; hạt $1,3-2,5\\%$; các thứ khác $0,3\\%$. Vỏ quả quít còn tươi chứa tinh dầu $3,8\\%$ ($2.000$ đến $2.500$ quả cho $1$ lít tinh dầu), nước và thành phần bốc hơi được $61,25\\%$; hesperidin CH..O,,, vitamin A, B và chừng $0,8\\%$ tro. 60 27' Tinh dầu quít là một chất lỏng màu vàng nhạt, có huỳnh quang xanh, mùi thơm dễ chịu. Tỷ trọng $0,853-0,858$. Thành phần chủ yếu trong tinh dầu quít là d.limonen, một ít xitrala, các andehyt nonylic và đexylic, chừng $1\\%$ metylanthranilatmetyl (do chất này tinh dầu có huỳnh quang và mùi thơm đặc biệt). Trong nước quít có đường $11,6\\%$, axit xitric • $25$, vitamin C ($25-40mg$ trong $100g$), caroten. Hạt quít chưa được nghiên cứu: Trong lá quít cũng có chứa chừng $0,5\\%$ tính dầu.",
+        "thanh_phan_hoa_hoc": "['$Hesperidin$, vitamin A, B']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "399"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_TY",
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Quít là một cây nhỏ, lá mọc so le, đơn, mép có răng cưa, vỏ có mùi thơm đặc biệt. Hoa nhỏ, màu trắng, mọc đơn độc ở kẽ lá. Quả hình cầu hai đầu dẹt, màu vàng cam hay vàng đỏ, vỏ mỏng nhẫn hay hơi sần sùi, dễ bóc. Mùi thơm ngon, nhiều hạt (Hình 287, Hm 50,3 ). Trong quả quít vỏ chiếm $22-22,5\\%$; nước quít $28-56\\%$; hạt $1,3-2,5\\%$; các thứ khác $0,3\\%$. Vỏ quả quít còn tươi chứa tinh dầu $3,8\\%$ ($2.000$ đến $2.500$ quả cho $1$ lít tinh dầu), nước và thành phần bốc hơi được $61,25\\%$; hesperidin CH..O,,, vitamin A, B và chừng $0,8\\%$ tro. 60 27' Tinh dầu quít là một chất lỏng màu vàng nhạt, có huỳnh quang xanh, mùi thơm dễ chịu. Tỷ trọng $0,853-0,858$. Thành phần chủ yếu trong tinh dầu quít là d.limonen, một ít xitrala, các andehyt nonylic và đexylic, chừng $1\\%$ metylanthranilatmetyl (do chất này tinh dầu có huỳnh quang và mùi thơm đặc biệt). Trong nước quít có đường $11,6\\%$, axit xitric • $25$, vitamin C ($25-40mg$ trong $100g$), caroten. Hạt quít chưa được nghiên cứu: Trong lá quít cũng có chứa chừng $0,5\\%$ tính dầu.",
+        "thanh_phan_hoa_hoc": [
+          "$Hesperidin$, vitamin A, B"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trần bì vị cay, đắng, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Trần bì vị cay, đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Trần bì vị cay, đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trần bì vị cay, đắng, tính ôn vào hai kinh tỳ và phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trần bì vị cay, đắng, tính ôn vào hai kinh tỳ và phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "HC_HESPERIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Hesperidin$, vitamin A, B",
+        "ghi_chu": "vitamin A, B"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "VT_QUIT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$0,5g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$0,3g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$0,3g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "VT_DANG_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$0,3g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$0,3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_TRAN_BI",
+      "to": "B_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_MAT_TIENG_TRAN_BI",
+      "to": "VT_QUIT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_MAT_TIENG_TRAN_BI",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Sắc với $200ml$ nước, còn $100ml$ cho thêm đường vào cho đủ ngọt, nhấp uống dần trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $6-12g$",
+        "cach_dung": "Hơ nóng đắp ngoài. Có khi phơi khô sắc uống như vỏ quít.",
+        "ghi_chu": "Lá quít"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "B_SUNG_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $6-12g$",
+        "cach_dung": "Hơ nóng đắp ngoài. Có khi phơi khô sắc uống như vỏ quít.",
+        "ghi_chu": "Lá quít"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $6-12g$",
+        "cach_dung": "Hơ nóng đắp ngoài. Có khi phơi khô sắc uống như vỏ quít.",
+        "ghi_chu": "Lá quít"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "CN_LY_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lý khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_QUIT_TRAN_BI",
+      "to": "CN_HOA_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoá đờm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399",
+        "all_sources": [
+          "CT_VT_VN_T399"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 50.5,
+      "reliability_c_score": 0.7591,
+      "total_confidence_sum": 16.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_SUA",
+  "source": {
+    "source_id": "CT_VT_VN_T868",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "868"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SUA",
+      "to": "CN_LUONG_HUYET_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lương huyết tả hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T868"
+      }
+    },
+    {
+      "from": "VI_THUOC_SUA",
+      "to": "CN_THANH_PHE_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh phế nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T868"
+      }
+    },
+    {
+      "from": "VI_THUOC_SUA",
+      "to": "CN_TRU_COT_CHUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ cốt chưng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T868"
+      }
+    },
+    {
+      "from": "VI_THUOC_SUA",
+      "to": "DL_CHUA_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T868"
+      }
+    },
+    {
+      "from": "VI_THUOC_SUA",
+      "to": "DL_CHUA_SOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt và sốt do họ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T868"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_CUONG_TAM",
+    "ten_raw": "Bạch cương tàm",
+    "ten_khoa_hoc": "Bombyx batryticatus; Bombyx cum Botryte, Bombyx botryticatus",
+    "ho_thuc_vat": "Không có thông tin",
+    "variants": [
+      "thiềm tổ"
+    ],
+    "properties": {
+      "bo_phan_dung": "Con tằm bị bệnh cứng đờ (cương) màu trắng (bạch). Con tằm chết vì một loại nấm (Botrytis bassiana Bals) ký sinh.",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Không có thông tin"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T978",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "978"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TY",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bạch cương tàm hình con tằm, thường cong queo, dài chừng $3,5cm$, đường kính ước $5mm$, bề ngoài màu trắng bẩn, hay màu nâu bẩn hơi lốm đốm trắng; chất cứng nhưng dòn, khi bẻ đôi, vết bẻ có màu xanh nâu, mùi hơi khắm, vị hơi đắng (Hình 723).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa rõ hoạt chất của bạch cương tàm là gì.",
+          "Chỉ mới biết trong bạch cương tàm có chừng $67,44\\%$ chất protit, $4,38\\%$ chất béo, $6,34$ tro và $11,34\\%$ độ ẩm. Theo Nhật Bản nội khoa hội tạp chí, 46 (7), 801 (1957) chất protit của bạch cương tàm có tác dụng kích thích của hocmon vỏ thượng thận."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết trong bạch cương tàm có chừng $67,44\\%$ chất protit, $4,38\\%$ chất béo, $6,34$ tro và $11,34\\%$ độ ẩm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_CUONG_TAM",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết trong bạch cương tàm có chừng $67,44\\%$ chất protit, $4,38\\%$ chất béo, $6,34$ tro và $11,34\\%$ độ ẩm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T978"
+      }
+    }
+  ]
+}

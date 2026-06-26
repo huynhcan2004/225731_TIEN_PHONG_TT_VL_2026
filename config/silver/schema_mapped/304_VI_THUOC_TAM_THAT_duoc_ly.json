@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_TAM_THAT",
+  "source": {
+    "source_id": "CT_VT_VN_T304",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "304"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hành ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "DL_TANG_HOAT_DONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất làm tăng khả năng hoạt động của súc vật thể hiện ở kéo dài thời gian bơi của lỗ chuột thử thuốc so với một lỗ đối chứng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "DL_TANG_DE_KHANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất có tác dụng làm tăng sức đề kháng của súc vật đối với yếu tố độc hại như liều độc uabain với tim, nhiệt độ môi trường xung quanh quá cao hoặc quá thấp vượt ngoài giới hạn điều hòa của cơ thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "DL_KHANG_GIAM_PROTHROMBIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất có khả năng kháng lại hiện tượng giảm lượng prothrombin trong máu thỏ và giảm khả năng máu đông gây thực nghiệm với dicumarol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "DL_HUONG_SINH_DUC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất thí nghiệm trên chuột cống cái non với liều $5g/kg$ uống trong 6 ngày đã làm tăng trọng lượng tử cung một cách có ý nghĩa so với lô đối chứng, chứng tỏ tam thất có tác dụng hướng sinh dục trên súc vật cái."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    }
+  ],
+  "metadata": {}
+}

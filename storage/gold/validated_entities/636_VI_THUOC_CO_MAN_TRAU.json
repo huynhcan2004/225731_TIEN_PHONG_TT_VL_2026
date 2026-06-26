@@ -1,0 +1,200 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CO_MAN_TRAU",
+    "ten_raw": "Có mần trầu",
+    "ten_khoa_hoc": "$Eleusine indica (L.) Gaertn. (Cynosurus indica L.)$",
+    "ho_thuc_vat": "$Lúa Poaceae (Gramineae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "cỏ",
+      "thu_hai": "mùa hoa vào hạ và thu.",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng $60$-$100g$ cỏ khô, hoặc $300$-$500g$ cỏ tươi.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cỏ mần trầu mọc hoang ở bãi cỏ, vệ đường ở khắp nước ta. Còn mọc ở Campuchia, Lào, Trung Quốc và các nước nhiệt đới và á nhiệt đới khác."
+    },
+    "display_name": "Có mần trầu",
+    "canonical_name": "Có mần trầu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CO_MAN_TRAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Co Man Trau"
+      }
+    },
+    {
+      "id": "HC_AXIT_XYANHYDRIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Xyanhydric"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Ret"
+      }
+    },
+    {
+      "id": "B_HUYET_AP_CAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Huyet Ap Cao"
+      }
+    },
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cao Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "636"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ sống hằng năm, rễ khoẻ, mọc thành cụm, thân mọc thẳng hoặc mọc bò, cao chừng 10-60cm. Lá mềm, hình dải, dài 10-30cm, rộng 3-7mm, bệ lá có lông. Cụm hoa mọc thành bông, gồm 5 đến 7 bông mọc ở ngọn và có đến 2 bông khác mọc thấp hơn trên cán hoa, trông giống như những ngón tay. Mùa hoa vào hạ và thu. Quả thuôn dài gần như 3 cạnh, dài $1,5mm$.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy có tài liệu nghiên cứu về hoạt chất chữa bệnh. Có tác giả thấy trong cỏ mần trầu có `$axit xyanhydric$`"
+        ],
+        "ghi_chu_bo_sung": "Gia súc hay ăn, còn dùng để làm thuốc (toàn cây)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "HC_AXIT_XYANHYDRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả thấy trong cỏ mần trầu có `$axit xyanhydric$`",
+        "ghi_chu": "axit xyanhydric"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$60-100$g (khô) hoặc $300-500$g (tươi)",
+        "cach_dung": "Không",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Toàn cây $500$g",
+        "cach_dung": "Rửa sạch, thái hay băm nhỏ, giã nát. Thêm một bát nước đun sôi để nguội, vắt lấy nước cốt, lọc qua vải, thêm ít đường vào cho ngọt mà uống. Ngày có thể uống $2$ lần, vào sáng và chiều (kinh nghiệm nhân dân miền Nam)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_MAN_TRAU",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Không thấy có hiện tượng trúng độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T636",
+        "all_sources": [
+          "CT_VT_VN_T636"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 29.0,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

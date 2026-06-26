@@ -1,0 +1,349 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DA_VOI",
+    "ten_raw": "Da voi",
+    "ten_khoa_hoc": "$Corium Elephatis Dens Elephatis$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [
+      "tượng bì"
+    ],
+    "properties": {
+      "bo_phan_dung": "da",
+      "thu_hai": "sau khi thịt voi, người ta lột da, cạo bỏ hết thịt và gân màng, cắt thành từng miếng vuông hoặc không thành hình nào phơi khô hay sấy khô là được.",
+      "che_bien_tho": "cạo sạch lông phơi khô",
+      "lieu_dung_chung": "Dùng ngoài không kể liều lượng. Thường mỏng $1$-$2mm$ mà dùng hoặc đốt ra than mà bôi lên mụn hoặc sao với hoạt thạch cho vàng dòn rồi tán bột rắc lên vết loét.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "voi ở châu Á Elephas maximus L. hoặc loài voi châu Phi Elephas africanus capensis đều thuộc họ Voi Elephantidae. Tại Việt Nam chỉ có loài voi ở châu Á, loài này còn gặp ở Ấn Độ, Lào, Thái Lan, Miến Điện, Cămpuchia."
+    },
+    "display_name": "Da voi",
+    "canonical_name": "Da voi"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DA_VOI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Da Voi"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "B_KIM_SANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kim Sang"
+      }
+    },
+    {
+      "id": "B_HA_CAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ha Cam"
+      }
+    },
+    {
+      "id": "CN_SINH_CO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Sinh Co"
+      }
+    },
+    {
+      "id": "CN_LIEM_SANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Liem Sang"
+      }
+    },
+    {
+      "id": "BT_KIM_SANG_HA_CAM_DA_VOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Kim Sang Ha Cam Da Voi"
+      }
+    },
+    {
+      "id": "T_VI_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Vi On"
+      }
+    },
+    {
+      "id": "BT_MUN_NHOT_LO_LOET_DA_VOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Mun Nhot Lo Loet Da Voi"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1024"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tượng bì là da con voi cạo sạch lông phơi khô. Sau khi thịt voi, người ta lột da, cạo bỏ hết thịt và gân màng, cắt thành từng miếng vuông hoặc không thành hình nào phơi khô hay sấy khô là được. Da voi dày chừng $0,5-2cm$, mặt ngoài màu tro đen, mấp mô không nhẵn, đôi khi có lông dìa màu tro đen, mặt trong tro trắng hay tro nâu. Chất cứng chắc, khi cắt vết cắt màu tro trắng hay vàng nâu, hơi trong, vị hơi tanh.",
+        "thanh_phan_hoa_hoc": [
+          "Chỉ mới biết có chất protit. Hoạt chất khác chưa rõ."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm (ôn)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết có chất protit.",
+        "ghi_chu": "protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "BT_MUN_NHOT_LO_LOET_DA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "BT_KIM_SANG_HA_CAM_DA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "B_KIM_SANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "B_HA_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "CN_SINH_CO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sinh cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "CN_LIEM_SANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Liễm sang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DA_VOI",
+      "to": "T_VI_ON",
+      "relation_type": "CO_TINH",
+      "source": {
+        "source_id": "CT_VT_VN_T1024",
+        "all_sources": [
+          "CT_VT_VN_T1024"
+        ]
+      },
+      "confidence_score": 0.75,
+      "properties": {}
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 33.0,
+      "reliability_c_score": 0.7643,
+      "total_confidence_sum": 10.7
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

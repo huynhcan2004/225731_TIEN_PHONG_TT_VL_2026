@@ -1,0 +1,915 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LA",
+    "ten_raw": "Thuốc lá",
+    "ten_khoa_hoc": "$Nicotiana tabacum L.$",
+    "ho_thuc_vat": "$Cà Solanaceae$",
+    "variants": [
+      "Nicotiana thnam (Cămpuchia)",
+      "yên thảo (Trung Quốc)",
+      "tabac (Pháp)",
+      "thuốc lào-Nicotiana rustica L."
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Châu Mỹ, nhiều nước trên thế giới"
+    },
+    "display_name": "Vị thuốc Lá",
+    "canonical_name": "Vị thuốc Lá"
+  },
+  "nodes": [
+    {
+      "id": "B_CHAY_RAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cháy rận",
+        "aliases": [
+          "cháy rận",
+          "chayran",
+          "chay ran"
+        ],
+        "search_vector_hint": "Bệnh Cháy rận thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng trên da."
+      }
+    },
+    {
+      "id": "B_CON_TRUNG_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Côn trùng cắn",
+        "aliases": [
+          "côn trùng cắn",
+          "con trung can",
+          "contrungcan"
+        ],
+        "search_vector_hint": "Bệnh Côn trùng cắn thuộc nhóm Bệnh, thường liên quan đến các phản ứng dị ứng hoặc nhiễm trùng."
+      }
+    },
+    {
+      "id": "B_GHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ghẻ",
+        "aliases": [
+          "ghẻ",
+          "ghe"
+        ],
+        "search_vector_hint": "Bệnh Ghẻ thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng và các vấn đề về da."
+      }
+    },
+    {
+      "id": "B_GIUN_SAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun sán",
+        "aliases": [
+          "nhiễm giun sán",
+          "giun sán",
+          "nhiemgiunsan",
+          "giun san",
+          "nhiem giun san",
+          "giunsan"
+        ],
+        "search_vector_hint": "Bệnh Giun sán thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_SAU_BO_HAI_CAY_TRONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sâu bọ hại cây trồng",
+        "aliases": [
+          "saubohaicaytrong",
+          "sau bo hai cay trong",
+          "sâu bọ hại cây trồng"
+        ],
+        "search_vector_hint": "Bệnh Sâu bọ hại cây trồng thuộc nhóm Bệnh, thường liên quan đến nông nghiệp và bảo vệ thực vật."
+      }
+    },
+    {
+      "id": "CN_BO_CHO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ trợ",
+        "aliases": [
+          "bổ trợ",
+          "botro",
+          "bo tro"
+        ],
+        "search_vector_hint": "Công năng Bổ trợ thuộc nhóm Công năng, thường liên quan đến việc hỗ trợ các chức năng khác của cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tim mạch",
+        "aliases": [
+          "doc tinh tim mach",
+          "độc tính tim mạch",
+          "doctinhtimmach"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tim mạch thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ tim mạch."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_UNG_THU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính ung thư",
+        "aliases": [
+          "doctinhungthu",
+          "doc tinh ung thu",
+          "độc tính ung thư"
+        ],
+        "search_vector_hint": "Dược lý Độc tính ung thư thuộc nhóm Dược lý, thường liên quan đến các tác dụng phụ của thuốc điều trị ung thư."
+      }
+    },
+    {
+      "id": "HC_ANABASIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Anabasin",
+        "aliases": [
+          "anabasin"
+        ],
+        "search_vector_hint": "Hoạt chất Anabasin thuộc nhóm Hoạt chất, thường liên quan đến các loài thực vật họ Cà."
+      }
+    },
+    {
+      "id": "HC_AXIT_CAFEIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Cafeic",
+        "aliases": [
+          "axitcafeic",
+          "axit cafeic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Cafeic thuộc nhóm Hoạt chất, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "HC_AXIT_NICOTINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Nicotinic",
+        "aliases": [
+          "axitnicotinic",
+          "axit nicotinic"
+        ],
+        "search_vector_hint": "Axit Nicotinic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_AXIT_QUINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Quinic",
+        "aliases": [
+          "axit quinic",
+          "axitquinic"
+        ],
+        "search_vector_hint": "Axit Quinic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_BOCNEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Bocneola",
+        "aliases": [
+          "bocneola"
+        ],
+        "search_vector_hint": "Bocneola thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CLOROGENIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Clorogenic",
+        "aliases": [
+          "clorogenic"
+        ],
+        "search_vector_hint": "Clorogenic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_CUMARIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cumarin",
+        "aliases": [
+          "cumarin"
+        ],
+        "search_vector_hint": "Hoạt chất Cumarin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_IZOQUEXITROZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Izoquexitrozit",
+        "aliases": [
+          "izoquexitrozit"
+        ],
+        "search_vector_hint": "Izoquexitrozit thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_LINALOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Linalola",
+        "aliases": [
+          "linalola"
+        ],
+        "search_vector_hint": "Hoạt chất Linalola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_MYOSMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Myosmin",
+        "aliases": [
+          "myosmin"
+        ],
+        "search_vector_hint": "Hoạt chất Myosmin thuộc nhóm Hoạt chất, thường liên quan đến các nghiên cứu về nicotine."
+      }
+    },
+    {
+      "id": "HC_NICOTELIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Nicotelin",
+        "aliases": [
+          "nicotelin"
+        ],
+        "search_vector_hint": "Hoạt chất Nicotelin thuộc nhóm Hoạt chất, thường liên quan đến các nghiên cứu về nicotine."
+      }
+    },
+    {
+      "id": "HC_NICOTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nicotin",
+        "aliases": [
+          "nicotin"
+        ],
+        "search_vector_hint": "Nicotin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_NICOTYRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Nicotyrin",
+        "aliases": [
+          "nicotyrin"
+        ],
+        "search_vector_hint": "Hoạt chất Nicotyrin thuộc nhóm Hoạt chất, thường liên quan đến các nghiên cứu về nicotine."
+      }
+    },
+    {
+      "id": "HC_NORNICOTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Nornicotin",
+        "aliases": [
+          "nornicotin"
+        ],
+        "search_vector_hint": "Hoạt chất Nornicotin thuộc nhóm Hoạt chất, thường liên quan đến các nghiên cứu về nicotine."
+      }
+    },
+    {
+      "id": "HC_N_METYL_PYRROLIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất N Metyl Pyrrolidin",
+        "aliases": [
+          "nmetylpyrrolidin",
+          "n metyl pyrrolidin"
+        ],
+        "search_vector_hint": "Hoạt chất N Metyl Pyrrolidin thuộc nhóm Hoạt chất, thường liên quan đến các phản ứng hóa học."
+      }
+    },
+    {
+      "id": "HC_PYRIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pyridin",
+        "aliases": [
+          "pyridin"
+        ],
+        "search_vector_hint": "Pyridin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_QUEXETOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Quexetol",
+        "aliases": [
+          "quexetol"
+        ],
+        "search_vector_hint": "Quexetol thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_RUTOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rutozit",
+        "aliases": [
+          "rutozit"
+        ],
+        "search_vector_hint": "Rutozit thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_SCOPOLETOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Scopoletol",
+        "aliases": [
+          "scopoletol"
+        ],
+        "search_vector_hint": "Scopoletol thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "S_CHAY_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu",
+        "aliases": [
+          "xuathuyet",
+          "xuat huyet",
+          "chay mau",
+          "xuất huyết",
+          "chaymau",
+          "chảy máu"
+        ],
+        "search_vector_hint": "Chảy máu thuộc nhóm Triệu chứng, thường liên quan đến tổn thương mạch máu."
+      }
+    },
+    {
+      "id": "VT_LA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lá",
+        "aliases": [
+          "lá",
+          "la"
+        ],
+        "search_vector_hint": "Lá thuộc nhóm vị thuốc, thường liên quan đến thành phần trong y học cổ truyền.",
+        "bo_phan_dung": "lá",
+        "muc_do_doc": "Có độc",
+        "phan_bo": "Châu Mỹ, nhiều nước trên thế giới",
+        "ten_khoa_hoc": "$Nicotiana tabacum L.$",
+        "ho_thuc_vat": "$Cà Solanaceae$",
+        "hinh_thai_chi_tiet": "Cây thảo sống hàng năm. Thân mọc đứng, nhiều lông, phân cành ở ngọn. Lá hình lưỡi mác, không cuống, ôm vào thân. Hoa thành chùy ở ngọn, màu trắng, hồng, tím nhạt. Quả nang có 2 ô, hạt bé, màu đen.",
+        "thanh_phan_hoa_hoc": "['axit nicotinic', 'axit cafeic', 'clorogenic', 'axit quinic', 'rutozit', 'izoquexitrozit', 'quexetol', 'cumarin', 'scopoletol', 'linalola', 'bocneola', 'pyridin', 'N-metyl pyrrolidin', 'nicotin', 'nornicotin', 'anabasin', 'nicotelin', 'nicotyrin', 'myosmin']",
+        "ghi_chu_bo_sung": "Cây thuốc lào-Nicotiana rustica L. thân thấp hơn, lá to và dày hơn."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "359"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống hàng năm. Thân mọc đứng, nhiều lông, phân cành ở ngọn. Lá hình lưỡi mác, không cuống, ôm vào thân. Hoa thành chùy ở ngọn, màu trắng, hồng, tím nhạt. Quả nang có 2 ô, hạt bé, màu đen.",
+        "thanh_phan_hoa_hoc": [
+          "axit nicotinic",
+          "axit cafeic",
+          "clorogenic",
+          "axit quinic",
+          "rutozit",
+          "izoquexitrozit",
+          "quexetol",
+          "cumarin",
+          "scopoletol",
+          "linalola",
+          "bocneola",
+          "pyridin",
+          "N-metyl pyrrolidin",
+          "nicotin",
+          "nornicotin",
+          "anabasin",
+          "nicotelin",
+          "nicotyrin",
+          "myosmin"
+        ],
+        "ghi_chu_bo_sung": "Cây thuốc lào-Nicotiana rustica L. thân thấp hơn, lá to và dày hơn."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LA",
+      "to": "HC_AXIT_NICOTINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $axit nicotinic$",
+        "ghi_chu": "Có thể tăng lên khi chế biến"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_AXIT_CAFEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $axit cafeic$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_CLOROGENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $axit clorogenic$",
+        "ghi_chu": "Có thể giảm khi chế biến"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_AXIT_QUINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $axit quinic$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_RUTOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $rutozit$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_IZOQUEXITROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $izoquexitrozit$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_QUEXETOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $quexetol$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_CUMARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $cumarin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_SCOPOLETOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $scopoletol$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_LINALOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $linalola$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_BOCNEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $bocneola$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_PYRIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $pyridin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_N_METYL_PYRROLIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $N-metyl pyrrolidin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_NICOTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $nicotin$",
+        "ghi_chu": "Có thể giảm khi chế biến"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_NORNICOTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $nornicotin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_ANABASIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $anabasin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_NICOTELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $nicotelin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_NICOTYRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $nicotyrin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "HC_MYOSMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa $myosmin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đắp vào nơi bị thương để cầm máu",
+        "ghi_chu": "Đứt tay chân, chảy máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "B_CON_TRUNG_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Rắn rết, côn trùng cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dung dịch chứa 1$\\%$ nicotin",
+        "cach_dung": "Chữa ghẻ, chấy rận, bọ chó bằng dung dịch chứa 1$\\%$ nicotin. Tránh bôi lên những nơi da bị sây sát để tránh ngộ độc",
+        "ghi_chu": "Bệnh cho gia súc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "B_CHAY_RAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dung dịch chứa 1$\\%$ nicotin",
+        "cach_dung": "Chữa ghẻ, chấy rận, bọ chó bằng dung dịch chứa 1$\\%$ nicotin. Tránh bôi lên những nơi da bị sây sát để tránh ngộ độc",
+        "ghi_chu": "Bệnh cho gia súc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "CN_BO_CHO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Dung dịch chứa 1$\\%$ nicotin",
+        "cach_dung": "Chữa ghẻ, chấy rận, bọ chó bằng dung dịch chứa 1$\\%$ nicotin. Tránh bôi lên những nơi da bị sây sát để tránh ngộ độc",
+        "ghi_chu": "Bệnh cho gia súc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "B_GIUN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-6ml$ | $1-2ml$",
+        "cach_dung": "Dùng liều $5-6ml$ | Dùng liều $1-2ml$",
+        "ghi_chu": "Giun sán của bò | Giun sán của dê"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "B_SAU_BO_HAI_CAY_TRONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dung dịch chứa 1$\\%$ nicotin",
+        "cach_dung": "Phun lên cây có sâu bọ. Lưu ý: Nicotin không độc với cây trồng, nhưng sâu bọ hoặc tiếp xúc, hoặc hút nước có nicotin hoặc hít thở hơi thuốc sẽ bị ngộ độc. Vì đây là chất độc, cho nên việc sử dụng phải theo đúng những quy định để tránh ngộ độc cho người sử dụng",
+        "ghi_chu": "Sâu bọ hại cây trồng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc lá là một cây độc, nhất là những lá già, có hàm lượng nicotin cao. Người lớn có thể chết do dùng $15$ đến $20$ $g$ thuốc lá dưới dạng hãm để thụt. Trẻ con chỉ cần vài $g$ cũng đủ chết. Liều chết của nicotin cho người lớn là $0,06$ $g$.",
+        "ghi_chu": "LD50"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "DL_DOC_TINH_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc lá đóng vai trò làm tăng những bệnh tim mạch.",
+        "ghi_chu": "Tăng nguy cơ bệnh tim mạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA",
+      "to": "DL_DOC_TINH_UNG_THU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc lá đóng vai trò làm tăng một số dạng ung thư. Số người hút thuốc lá bị chết do ung thư phổi cao hơn là số người không hút. Nhựa của khói thuốc lá bôi lên da chuột có thể gây ung thư da.",
+        "ghi_chu": "Tăng nguy cơ ung thư"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T359",
+        "all_sources": [
+          "CT_VT_VN_T359"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 61.0,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VONG_CACH",
+    "ten_raw": "Vọng cách",
+    "ten_khoa_hoc": "Premna integrifolia L. (Gumira littorea Rumph.)",
+    "ho_thuc_vat": "Cỏ roi ngựa Verbenaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây vọng cách mọc hoang khắp nơi ở Việt Nam và các nước Lào, Cămpuchia. Còn thấy mọc ở Mangát, Ấn Độ, Inđônêxia, Philipin và châu Úc.",
+      "thu_hai": "Thường người ta hái lá quanh năm, có nơi dùng cả vỏ thân, rễ.",
+      "che_bien_tho": "Hái về rửa sạch, phơi hay sấy khô hoặc sao vàng mà dùng."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T224",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "224"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vọng cách là một cây nhỏ có nhiều cành, đôi khi mọc leo, có khi có gai. Lá mỏng, hình dáng thay đổi, khi thì hình trứng, khi thì hình hơi bầu dục, đầu lá tù hay hơi nhọn, phía cuống hơi hình tròn, dài từ $10$-$16cm$, rộng $5$-$6cm$, có khi tới $10cm$ hay hơn; mép lá nguyên hay hơi khía tai bèo. Hoa nhiều, nhỏ, màu xanh lục nhạt, mọc thành ngù ở đầu cành. Quả hình trứng, màu đen nhạt, to bằng hạt đậu, xù xì, ở đầu hơi hõm, có 4 ngăn, mỗi ngăn chứa một hạt. Toàn thân cây có mùi thơm dễ chịu, lá cũng có mùi thơm hơi hắc, rễ có vị hãng đắng, mùi thơm (Hình 152 , Hm 23,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "Lá chưa thấy tài liệu nghiên cứu.",
+          "Basu N. K và Dandiya P. C (1947) đã chiết được từ vỏ thân hai ancaloit gọi là premnin và ganiarin.",
+          "Trong rễ có tinh dầu thơm và một chất màu vàng."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VONG_CACH",
+      "to": "HC_PREMNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Basu N. K và Dandiya P. C (1947) đã chiết được từ vỏ thân hai ancaloit gọi là premnin và ganiarin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T224"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_CACH",
+      "to": "HC_GANIARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Basu N. K và Dandiya P. C (1947) đã chiết được từ vỏ thân hai ancaloit gọi là premnin và ganiarin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T224"
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TY_GIAI",
+    "ten_raw": "Tỳ giải",
+    "ten_khoa_hoc": "Smilax medica, Schlecht et. Cham; Smilax ornata Lem; Smilax officinalis H. B. K; Cinnamomum parthenoxylon Meissn, (Sassafras parthenoxylon Meissn); Dioscorea tokoro Makino; Dioscorea tokoro",
+    "ho_thuc_vat": "Long não Lauraceae; Củ nâu Dioscoreaceae",
+    "variants": [
+      "vù hương",
+      "rè hương",
+      "cô châu",
+      "canh châu",
+      "bois de vierge"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ phình thành củ",
+      "che_bien_tho": "mặt ngoài màu vàng nâu, trong có màu trắng vàng, chất cứng, vị đắng"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T515",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "515"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI"
+        ],
+        "cong_nang": "khử phong thấp, phần thanh khứ trọc",
+        "kieng_ky_dac_biet": "Dùng chữa bạch trọc, lưng, gối tê đau, mụn nhọt."
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong các loại Smilax dùng trong đông tây y, người ta đã nghiên cứu thấy các chất tinh bột, rất ít tinh dầu, nhựa và một số chất saponozit, như $sacsaponin$ $C_{45}H_{74}O_{15}$ .",
+          "$Sacsaponin$ hay sacsaponozit có tinh thể, độ chảy $238°$-$240°C$, a –-$66°$ dễ tan trong nước, trong rượu nóng, rất khó tan trong ête, khi thủy phân cho glucoza và sacsapogenin có cấu trúc steroit, nếu thủy phân bằng axit clohydric $5%$ sẽ cho sacsapogenin, 2 phân tử glucoza và một phân tử ramnoza. Sacsapogenin cũng có tinh thể, độ chảy 199-1995C tan trong cồn hay axeton, có thể kết tủa với digitonin.",
+          "Sacsapogenin là một nguyên liệu để tổng hợp hocmon và coctizon."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "HC_SACSAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong các loại Smilax dùng trong đông tây y, người ta đã nghiên cứu thấy các chất tinh bột, rất ít tinh dầu, nhựa và một số chất saponozit, như $sacsaponin$ $C_{45}H_{74}O_{15}$ ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "HC_DIOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Nhật Bản dược học tạp chí 1936, 56: 802 trong tỳ giải có hai chất saponozit là $dioxin$ ($dioscin$) và $dioscorea sapotoxin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "HC_DIOSCOREA_SAPOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Nhật Bản dược học tạp chí 1936, 56: 802 trong tỳ giải có hai chất saponozit là $dioxin$ ($dioscin$) và $dioscorea sapotoxin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "HC_DIOSGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân, đioxin sẽ cho $điosgenin$ C,H,O, và đường ramnoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    }
+  ]
+}

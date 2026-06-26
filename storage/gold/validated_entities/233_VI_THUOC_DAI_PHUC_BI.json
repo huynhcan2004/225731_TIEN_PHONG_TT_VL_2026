@@ -1,0 +1,197 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI_PHUC_BI",
+    "ten_raw": "Đại phúc bì",
+    "display_name": "Đại phúc bì",
+    "ten_khoa_hoc": "$Pericarpium Arecae$",
+    "ho_thuc_vat": "$Không có thông tin$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ ngoài và vỏ giữa phơi hay sấy khô của quả cau",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "thường các mảnh vỏ này được đập làm hai mà phơi cho chóng khô.",
+      "lieu_dung_chung": "Ngày dùng $10$-$12$g dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "null"
+    },
+    "canonical_name": "Đại phúc bì"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DAI_PHUC_BI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dai Phuc Bi"
+      }
+    },
+    {
+      "id": "HC_ARECOLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Arecolin"
+      }
+    },
+    {
+      "id": "HC_ARECAIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Arecaidin"
+      }
+    },
+    {
+      "id": "HC_GUVACOLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Guvacolin"
+      }
+    },
+    {
+      "id": "HC_GUVAXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Guvaxin"
+      }
+    },
+    {
+      "id": "B_PHU_TOAN_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phu Toan Than"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tien"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "233"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đại phúc bì (Pericarpium Arecae) là vỏ ngoài và vỏ giữa phơi hay sấy khô của quả cau (xem cây cau ở trên) ( Hình 158 ). Thường các mảnh vỏ này được đập làm hai mà phơi cho chóng khô.",
+        "thanh_phan_hoa_hoc": [
+          "Trong đại phúc bì có những ancaloit trong hạt cau như $arecolin$, $arecaidin$, $guvacolin$ và $guvaxin$ vv... nhưng tỷ lệ rất thấp."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_ARECOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như $arecolin$, $arecaidin$, $guvacolin$ và $guvaxin$ vv... nhưng tỷ lệ rất thấp.",
+        "ghi_chu": "tỉ lệ rất thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_ARECAIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như $arecolin$, $arecaidin$, $guvacolin$ và $guvaxin$ vv... nhưng tỷ lệ rất thấp.",
+        "ghi_chu": "tỉ lệ rất thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_GUVACOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như $arecolin$, $arecaidin$, $guvacolin$ và $guvaxin$ vv... nhưng tỷ lệ rất thấp.",
+        "ghi_chu": "tỉ lệ rất thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_GUVAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như $arecolin$, $arecaidin$, $guvacolin$ và $guvaxin$ vv... nhưng tỷ lệ rất thấp.",
+        "ghi_chu": "tỉ lệ rất thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "B_PHU_TOAN_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "DL_LOI_TIEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng thông tiểu tiện rất rõ rệt, thường dùng chữa các bệnh phù toàn thân, nhất là bụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "all_sources": [
+          "CT_VT_VN_T233"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 33.5,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

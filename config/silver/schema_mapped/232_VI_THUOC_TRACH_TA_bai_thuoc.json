@@ -1,0 +1,464 @@
+{
+  "entity_hub": "VI_THUOC_TRACH_TA",
+  "source": {
+    "source_id": "CT_VT_VN_T232",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "232"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_BT",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trạch tả và bạch truật kết hợp giúp tăng cường chức năng kiện tỳ, lợi thủy, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $40g$, bạch truật $40g$",
+        "cach_dung": "Tán nhỏ, mỗi lần uống $10-12g$. Dùng nước sắc phục linh để chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_BT",
+      "to": "VI_THUOC_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Trạch tả và bạch truật kết hợp giúp tăng cường chức năng kiện tỳ, lợi thủy, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $40g$, bạch truật $40g$",
+        "cach_dung": "Tán nhỏ, mỗi lần uống $10-12g$. Dùng nước sắc phục linh để chiêu thuốc.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc Phục linh trạch tả thang có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $6g$, phục linh $6g$, bạch truật $4g$, cam thảo $2g$, quế chi $2g$",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Phục linh trạch tả thang có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $6g$, phục linh $6g$, bạch truật $4g$, cam thảo $2g$, quế chi $2g$",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "to": "VI_THUOC_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Phục linh trạch tả thang có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $6g$, phục linh $6g$, bạch truật $4g$, cam thảo $2g$, quế chi $2g$",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc Phục linh trạch tả thang có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $6g$, phục linh $6g$, bạch truật $4g$, cam thảo $2g$, quế chi $2g$",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "to": "VI_THUOC_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Phục linh trạch tả thang có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng.",
+        "mo_ta_chi_tiet": "Trạch tả $6g$, phục linh $6g$, bạch truật $4g$, cam thảo $2g$, quế chi $2g$",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_TRU_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_A_GIAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "to": "VI_THUOC_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, thông lâm, kiện tỳ, hóa khí, thường được dùng để điều trị các chứng bệnh phù thũng, tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "$800g$ trạch tả (chế), $400g$ phục linh, $200g$ mỗi vị trư linh, a giao, bạch truật, quế chi",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh về thận, viêm thận, phù thận.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ phục linh, $8g$ trư linh, $6g$ quế chi, $6g$ bạch truật",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh về thận, viêm thận, phù thận.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ phục linh, $8g$ trư linh, $6g$ quế chi, $6g$ bạch truật",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "to": "VI_THUOC_TRU_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh về thận, viêm thận, phù thận.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ phục linh, $8g$ trư linh, $6g$ quế chi, $6g$ bạch truật",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "to": "VI_THUOC_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh về thận, viêm thận, phù thận.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ phục linh, $8g$ trư linh, $6g$ quế chi, $6g$ bạch truật",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "to": "VI_THUOC_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng lợi thủy, kiện tỳ, ôn dương, hóa khí, thường được dùng để điều trị các chứng bệnh về thận, viêm thận, phù thận.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ phục linh, $8g$ trư linh, $6g$ quế chi, $6g$ bạch truật",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_DAI_THAO_DUONG_TRACH_TA_TTY",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng thanh nhiệt, dưỡng âm, sinh tân, chỉ khát, thường được dùng để điều trị bệnh đái tháo đường.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ ý dĩ, $12g$ thiên hoa phấn",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_DAI_THAO_DUONG_TRACH_TA_TTY",
+      "to": "VI_THUOC_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng thanh nhiệt, dưỡng âm, sinh tân, chỉ khát, thường được dùng để điều trị bệnh đái tháo đường.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ ý dĩ, $12g$ thiên hoa phấn",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_DAI_THAO_DUONG_TRACH_TA_TTY",
+      "to": "VI_THUOC_THIEN_HOA_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng thanh nhiệt, dưỡng âm, sinh tân, chỉ khát, thường được dùng để điều trị bệnh đái tháo đường.",
+        "mo_ta_chi_tiet": "$12g$ trạch tả, $12g$ ý dĩ, $12g$ thiên hoa phấn",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_MAU_TRACH_TA_T",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trạch tả có tác dụng thanh nhiệt, lợi thủy, lương huyết, thường được dùng để điều trị chứng đi tiểu ra máu.",
+        "mo_ta_chi_tiet": "Trạch tả, lượng vừa đủ",
+        "cach_dung": "Tán bột, uống với nước cơm.",
+        "ghi_chu": "CT_VT_VN_T233"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_DAI_RA_MAU_TRACH_TA_T",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi tiểu ra máu",
+        "cach_dung": "Tán bột, uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_DAI_THAO_DUONG_TRACH_TA_TTY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái tháo đường",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_VIEM_THAN_TRACH_TA_TPTBQ",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh về thận, viêm thận, phù thận",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_PHU_THUNG_TIEU_TIEN_KHO_KHAN_TRACH_TA_TPPATQ",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng, tiểu tiện khó khăn",
+        "cach_dung": "Tán nhỏ, trộn đều, luyện với mật làm viên bằng hạt ngô. Mỗi lần uống $8-12g$ với nước sắc ma hoàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_THUY_THUNG_TRACH_TA_PTBQC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cũng chữa bệnh thủy thũng.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_THUY_THUNG_TRACH_TA_BT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thủy thũng",
+        "cach_dung": "Tán nhỏ, mỗi lần uống $10-12g$. Dùng nước sắc phục linh để chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRACH_TA",
+      "to": "BT_PHU_THUNG_TRACH_TA_T",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu, chữa phù thũng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_TRACH_TA_T",
+      "to": "VI_THUOC_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trạch tả có tác dụng lợi thủy, thông lâm, thường được dùng để điều trị chứng phù thũng, tiểu tiện bất lợi.",
+        "mo_ta_chi_tiet": "Thông tiểu, chữa phù thũng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T232"
+      }
+    }
+  ],
+  "metadata": {}
+}

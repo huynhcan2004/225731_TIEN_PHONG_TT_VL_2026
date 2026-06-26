@@ -1,0 +1,102 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MA_HOANG",
+    "ten_raw": "Ma hoàng",
+    "ten_khoa_hoc": "Ephedra sinica Stapf.; Ephedra equisetina Bunge; Ephedra intermedia Schrenk et Mey.",
+    "ho_thuc_vat": "Ma hoàng Ephedraceae",
+    "variants": [
+      "thảo ma hoàng",
+      "xuyên ma hoàng",
+      "sơn ma hoàng",
+      "mộc tặc ma hoàng",
+      "mộc ma hoàng",
+      "trung ma hoàng",
+      "điền ma hoàng",
+      "Herba Ephedrae sinicae",
+      "Herba Ephedrae equisetinae",
+      "Herba Ephedrae intermediae"
+    ],
+    "properties": {
+      "bo_phan_dung": "phần trên mặt đất",
+      "che_bien_tho": "phơi dọc hay sấy khô",
+      "phan_bo": "Hoa Bắc, Tây Bắc",
+      "thu_hai": "mùa thu"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T629",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "629"
+      },
+      "dac_tinh_yhct": {
+        "kieng_ky_dac_biet": "những trường hợp biểu hư tự hãn (tự ra mồ hội) thì không nên dùng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "phần trên mặt đất của nhiều loài ma hoàng phơi dọc. Lá mọc đối hay mọc vòng từng 3 lá một, hay sấy khô. Tên ma hoàng vì vị thuốc có vị ma (cay cay ê tê, không rõ rệt) màu vàng. Tên Ephedra do chữ Epi có nghĩa là trên, hedra có nghĩa là trên đất, ý nói là cây thuốc mọc trên đá, chữ sinica có nghĩa là cây nguồn gốc ở Trung Quốc, equisetina là mộc tặc ý nói có loài ma hoàng giống cây mộc tặc (cỏ tháp bút). Trên thị trường, thường lưu hành nhiều loài ma hoàng, nhưng chủ yếu có mấy loài sau đây: 1. Thảo ma hoàng, còn gọi là điền ma hoàng hay xuyên ma hoàng, (Herba Ephedrae sinicae) hái ở cây thảo ma hoàng Ephedra sinica Staph. 2. Mộc tặc ma hoàng còn gọi là mộc ma hoàng, hay sơn ma hoàng (Herba Ephedrae equisetinae), hái từ cây mộc tặc ma hoàng Ephedra equisetina Bunge. Ngoài ra còn trung mà hoàng (Herba Ephedrae intermediae) hái từ cây trung ma hoàng. Ephedra intermedia Schrenk et Mey. Song tuệ ma hoàng hái từ cây song tuệ ma hoàng Ephedra distachya L. v.v... A. Mô tả cây Thảo ma hoàng-Ephedra sinica-là một cây mọc thẳng đứng cao chừng $30-70cm$, thân có nhiều đốt, mỗi đốt dài chừng $3-6cm$, trên có rãnh thoái hoá thành vảy nhỏ, phía dưới lá màu hồng nâu, phía trên màu tro trắng, đầu lá nhọn và cong, hoa đực hoa cái khác cành, cành hoa đực nhiều hoa hơn (4-5 đôi), quả thịt, màu đỏ giống như quả nho. Vì cây lại hay mọc ở bờ biển cho nên châu Âu gọi ma hoàng là loại nho biển (Raisin de mer). Hạt hơi thò ra ( Hình 481). Mộc tặc ma hoàng-Ephedra equisetina-cũng là là một cây nhỏ mọc thẳng đứng, cao tới $2m$, cành cứng hơn, màu xanh xám hay hơi có phấn trắng, đốt ngắn hơn, thường chỉ dài $1-3cm$, lá dài $2mm$, màu tía. Hoa đực và hoa cái khác cành, quả hình cầu, hạt không thò ra như thảo ma hoàng. Như vậy chỉ căn cứ vào chiều dài của đốt ta cũng có thể phân biệt hai loài ma hoàng: Thảo ma hoàng có đốt dài hơn ($3-6cm$), hạt thò ra, còn mộc tặc ma hoàng đốt ngắn hơn ($1-3cm$), hạt không thò ra. Tuy nhiên cũng cần nhớ rằng loài trung ma hoàng Ephedra intermedia cũng có đốt dài như thảo ma hoàng, nhưng đường kính cành trung mà hoàng thường hơn $2mm$, còn đường kính thảo ma hoàng chỉ khoảng $1,5-2mm$ ( Hình 482)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MA_HOANG",
+      "to": "HC_EPHEDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ma hoàng người ta đã chiết được những hoạt chất chủ yếu sau đây: $Ephedrin$ hay 1. $ephedrin$ CHNO, d. $pseudoephedrin$ CH, NO, 1.N metyl $ephedrin$ CH,,NO, d. N. metyl $ephedrin$ C„H„NO 1. nor $ephedrin$ CHNO, d. nor- $ephedrin$ CH, NO."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T629"
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_HOANG",
+      "to": "HC_PSEUDOEPHEDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ma hoàng người ta đã chiết được những hoạt chất chủ yếu sau đây: $Ephedrin$ hay 1. $ephedrin$ CHNO, d. $pseudoephedrin$ CH, NO, 1.N metyl $ephedrin$ CH,,NO, d. N. metyl $ephedrin$ C„H„NO 1. nor $ephedrin$ CHNO, d. nor- $ephedrin$ CH, NO."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T629"
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_HOANG",
+      "to": "HC_N_METYLEPHEDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ma hoàng người ta đã chiết được những hoạt chất chủ yếu sau đây: $Ephedrin$ hay 1. $ephedrin$ CHNO, d. $pseudoephedrin$ CH, NO, 1.N metyl $ephedrin$ CH,,NO, d. N. metyl $ephedrin$ C„H„NO 1. nor $ephedrin$ CHNO, d. nor- $ephedrin$ CH, NO."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T629"
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_HOANG",
+      "to": "HC_NOREPHEDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ma hoàng người ta đã chiết được những hoạt chất chủ yếu sau đây: $Ephedrin$ hay 1. $ephedrin$ CHNO, d. $pseudoephedrin$ CH, NO, 1.N metyl $ephedrin$ CH,,NO, d. N. metyl $ephedrin$ C„H„NO 1. nor $ephedrin$ CHNO, d. nor- $ephedrin$ CH, NO."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T629"
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_HOANG",
+      "to": "HC_EPHEDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài các chất kể trên, năm 1934 Triệu Thừa Hà và Mai Bản Phu (Trung Hoa y học tạp chí, 20: 697) đã chiết được từ thảo ma hoàng một chất gọi là $ephedin$ C.H,N,O,, độ chảy 76-87°"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T629"
+      }
+    }
+  ]
+}

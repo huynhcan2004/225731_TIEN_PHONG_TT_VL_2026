@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_PHAN_TA_DIEP",
+  "source": {
+    "source_id": "CT_VT_VN_T476",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "476"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "CN_TIEU_TICH_TRE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu tích trệ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "CN_THONG_DAI_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thông đại tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuỳ theo liều, phan tả diệp có tác dụng nhuận tràng (phân mềm sau khi uống $5-7$ giờ)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Không có tác dụng đối với ruột non, chỉ tác dụng lên ruột già do nhu động của đầu ruột già được tăng lên và tác động chống nhu động bình thường bị tê liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "DL_TAY_MANH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuỳ theo liều, phan tả diệp có tác dụng tẩy mạnh (phân lỏng có đau bụng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHAN_TA_DIEP",
+      "to": "DL_TAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng tẩy có thể xuất hiện sau $1-5$ giờ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    }
+  ],
+  "metadata": {}
+}

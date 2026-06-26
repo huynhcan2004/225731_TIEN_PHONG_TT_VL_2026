@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_TAT_BAT",
+  "source": {
+    "source_id": "CT_VT_VN_T592",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "592"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAT_BAT",
+      "to": "CN_THANH_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thanh hỏa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAT_BAT",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "giải độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAT_BAT",
+      "to": "DL_CHUA_VIEM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa các bệnh viêm lợi, apxe lợi, sâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592"
+      }
+    }
+  ],
+  "metadata": {}
+}

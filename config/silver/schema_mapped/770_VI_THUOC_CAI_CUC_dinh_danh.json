@@ -1,0 +1,150 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAI_CUC",
+    "ten_raw": "Cải cúc",
+    "ten_khoa_hoc": "Fritillaria roylei; Fritillaria verticillata",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T770",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "770"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "cong_nang": "thanh nhiệt, tán kết, nhuận phổi tiêu đờm"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong xuyên bối mẫu-Fritillaria roylei có những ancaloit sau đây: Peiminin C,,HON 43 Peimin C₂H₁ON 27' Peimisin C,,HON 43 Peimidin CHO₂N 27 Peimitidin CH43.47 ON 27 Fritimin C,HO̟N \"38° 62 2 Trong triết bối mẫu-Fritillaria verticillata có chủ yếu các ancaloit peimin và peiminin, ngoài ra còn bốn ancaloit với số lượng ít hơn là peimisin, peimiphin C₂,HO,N, peimidin, peimitidin. Có tác giả còn lấy được propeimin có cấu trúc sterolic C,H,O, hoặc C,H,O. Giữa peiminin và pemin có quan hệ như sau: 44 3 -2H 27 45 C₂, H₁₂ON 43 +2H Peimin Peiminin với Ngô Vĩnh Hy đã xác định peimin là dihydroxy- solanidin hoặc tương đương hydroxydihydrorubijervin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Peiminin C,,HON 43"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Peimin C₂H₁ON 27'"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMISIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Peimisin C,,HON 43"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Peimidin CHO₂N 27"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMITIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Peimitidin CH43.47 ON 27"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_FRITIMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Fritimin C,HO̟N \"38° 62 2"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PEIMIPHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "peimiphin C₂,HO,N"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "HC_PROPEIMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn lấy được propeimin có cấu trúc sterolic C,H,O, hoặc C,H,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    }
+  ]
+}

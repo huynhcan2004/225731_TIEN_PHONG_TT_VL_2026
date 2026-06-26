@@ -1,0 +1,151 @@
+{
+  "entity_hub": "VI_THUOC_CAI_BAP",
+  "source": {
+    "source_id": "CT_VT_VN_T502",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "502"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_DA_DAY_CAI_BAP_C",
+      "to": "VI_THUOC_CAI_BAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cải bắp tươi dùng để chữa loét, viêm dạ dày và ruột.",
+        "cach_dung": "Dưới dạng lá tươi",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "VI_THUOC_CAI_BAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cải bắp dùng để điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng.",
+        "cach_dung": "Dùng nước ép",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAI_BAP_C",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét, viêm dạ dày và ruột",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAI_BAP_C",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét, viêm dạ dày và ruột",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAI_BAP_C",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét, viêm dạ dày và ruột",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_LOET_TA_TRANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_DAU_DUONG_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAI_BAP_C",
+      "to": "B_VIEM_DAI_TRANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các bệnh loét dạ dày, tá tràng, viêm dạ dầy, ruột, đau đường mật, viêm đại tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502"
+      }
+    }
+  ],
+  "metadata": {}
+}

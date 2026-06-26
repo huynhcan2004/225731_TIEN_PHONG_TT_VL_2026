@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_KHO_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T840",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "840"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "DL_GIAM_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống với liều $2,5g/kg$ thể trọng vỏ nam sâm có tác dụng hạ đường huyết rõ rệt trên chuột trắng thực nghiệm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "DL_TANG_CUONG_VAN_DONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều $2,5g$ vỏ/$kg$ vỏ thân Nam sâm làm tăng rõ rệt thời gian bơi của chuột nhắt trắng so với nhóm đối chứng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều $0,75g/kg$ thể trọng vỏ thân Nam sâm (tiêm dưới da) có tác dụng kích thích rõ rệt trên thần kinh chuột nhất đã tiêm thuốc ngủ veronal natri."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "DL_CHONG_LANH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều $5g$ vỏ/ $kg$ thể trọng (uống) Nam sâm có tác dụng chống lạnh rõ rệt đối với chuột nhắt trắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "CN_BO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc bổ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "CN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHO_SAM",
+      "to": "CN_THONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thông tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    }
+  ],
+  "metadata": {}
+}

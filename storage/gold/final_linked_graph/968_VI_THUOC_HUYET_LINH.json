@@ -1,0 +1,555 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HUYET_LINH",
+    "ten_raw": "Huyết lình",
+    "display_name": "Vị thuốc Huyết lình",
+    "ten_khoa_hoc": "$null$",
+    "ho_thuc_vat": "$null$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Uống trong: ngày 1-2$g$ huyết lình đã sấy khô tán nhỏ hay ngâm rượu. Nếu ngâm rượu cần hâm nóng lên trước khi uống để cho khỏi tanh.",
+      "muc_do_doc": "Không độc"
+    },
+    "canonical_name": "Vị thuốc Huyết lình"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_NGA_HUYET_LINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau Ngã Huyết Lình",
+        "aliases": [
+          "dau nga huyet linh",
+          "đau ngã huyết lình",
+          "daungahuyetlinh"
+        ],
+        "search_vector_hint": "Bài thuốc Đau Ngã Huyết Lình thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "BT_GAY_YEU_HUYET_LINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Gầy Yếu Huyết Lình",
+        "aliases": [
+          "gay yeu huyet linh",
+          "gầy yếu huyết lình",
+          "gayyeuhuyetlinh"
+        ],
+        "search_vector_hint": "Bài thuốc Gầy Yếu Huyết Lình thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "BT_KEM_AN_HUYET_LINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Kem An Huyết Lình",
+        "aliases": [
+          "kem an huyết lình",
+          "kemanhuyetlinh",
+          "kem an huyet linh"
+        ],
+        "search_vector_hint": "Bài thuốc Kem An Huyết Lình thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "B_CHAM_LON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Chàm lớn",
+        "aliases": [
+          "chamlon",
+          "chàm lớn",
+          "cham lon"
+        ],
+        "search_vector_hint": "Chàm lớn thuộc nhóm bệnh, thường liên quan đến bệnh da liễu."
+      }
+    },
+    {
+      "id": "B_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đậu",
+        "aliases": [
+          "đậu",
+          "dau"
+        ],
+        "search_vector_hint": "Đậu thuộc nhóm bệnh, thường liên quan đến phát ban."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm bệnh, thường liên quan đến cảm giác đau ở các cơ và khớp."
+      }
+    },
+    {
+      "id": "B_NGA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ngã",
+        "aliases": [
+          "nga",
+          "ngã"
+        ],
+        "search_vector_hint": "Bệnh Ngã thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thương",
+        "aliases": [
+          "thương",
+          "thuong"
+        ],
+        "search_vector_hint": "Bệnh Thương thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_XANH_XAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Triệu chứng Xanh xao",
+        "aliases": [
+          "xanh xao",
+          "xanhxao"
+        ],
+        "search_vector_hint": "Triệu chứng Xanh xao thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "DL_KHAC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "kháng khuẩn",
+          "khangkhuan",
+          "khang khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm công năng, thường liên quan đến ức chế vi sinh vật."
+      }
+    },
+    {
+      "id": "S_GAY_YEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Gầy yếu",
+        "aliases": [
+          "gầy yếu",
+          "thieucan",
+          "gay yeu",
+          "thiếu cân",
+          "gayyeu",
+          "sút cân",
+          "sut can",
+          "sutcan",
+          "thieu can"
+        ],
+        "search_vector_hint": "Triệu chứng Gầy yếu thuộc nhóm triệu chứng, thường liên quan đến suy dinh dưỡng."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "S_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng đau",
+        "aliases": [
+          "sưng đau",
+          "sung tay",
+          "sưng tấy",
+          "sungdau",
+          "dau nhuc",
+          "sungtay",
+          "sung dau",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng đau thuộc nhóm triệu chứng, thường liên quan đến viêm nhiễm hoặc tổn thương."
+      }
+    },
+    {
+      "id": "VT_HUYET_LINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Huyết lình",
+        "aliases": [
+          "huyet linh",
+          "huyết lình",
+          "huyetlinh"
+        ],
+        "search_vector_hint": "Vị thuốc Huyết lình thuộc nhóm dược liệu.",
+        "lieu_dung_chung": "Uống trong: ngày 1-2$g$ huyết lình đã sấy khô tán nhỏ hay ngâm rượu. Nếu ngâm rượu cần hâm nóng lên trước khi uống để cho khỏi tanh.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$null$",
+        "ho_thuc_vat": "$null$",
+        "hinh_thai_chi_tiet": "Vào mùa khi đẻ, vào tháng 5-6 âm lịch (6-7 dương lịch) người ta đến những nơi núi đá ở những nơi khỉ hay ở và đi lại, tìm những mỏm núi đá là nơi khỉ hay ngồi sau khi đẻ để cạo lấy huyết đã khô đen. Có những mảng huyết đọng dày tới $1cm$ hay hơn. Khi mới cạo về đem phơi nắng hay sấy cho khô, cất vào lọ hay gói kín để chỗ khô ráo. Khi dùng thì sấy khô tán nhỏ. Tại những chợ vùng núi nước ta vào các tháng 8-9 dương lịch, người ta thường đem bản huyết lình dưới dạng cục nhỏ bằng đầu ngón tay màu đen nâu như màu bã cà phê mùi tanh, khi dùng cần tán nhỏ để ngâm rượu hay cho vào cháo mà ăn.",
+        "cach_dung_bao_che": "Khi dùng thì sấy khô tán nhỏ."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "968"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vào mùa khi đẻ, vào tháng 5-6 âm lịch (6-7 dương lịch) người ta đến những nơi núi đá ở những nơi khỉ hay ở và đi lại, tìm những mỏm núi đá là nơi khỉ hay ngồi sau khi đẻ để cạo lấy huyết đã khô đen. Có những mảng huyết đọng dày tới $1cm$ hay hơn. Khi mới cạo về đem phơi nắng hay sấy cho khô, cất vào lọ hay gói kín để chỗ khô ráo. Khi dùng thì sấy khô tán nhỏ. Tại những chợ vùng núi nước ta vào các tháng 8-9 dương lịch, người ta thường đem bản huyết lình dưới dạng cục nhỏ bằng đầu ngón tay màu đen nâu như màu bã cà phê mùi tanh, khi dùng cần tán nhỏ để ngâm rượu hay cho vào cháo mà ăn.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Khi dùng thì sấy khô tán nhỏ."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_KEM_AN_HUYET_LINH",
+      "to": "VT_HUYET_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1-2g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Dùng luôn trong 7-10 ngày.",
+        "ghi_chu": "Huyết lình sấy khô tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KEM_AN_HUYET_LINH",
+      "to": "B_CHAM_LON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Mỗi lần cho uống $1-2g$. Dùng luôn trong 7-10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KEM_AN_HUYET_LINH",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Mỗi lần cho uống $1-2g$. Dùng luôn trong 7-10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GAY_YEU_HUYET_LINH",
+      "to": "VT_HUYET_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1-2g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Dùng luôn trong 7-10 ngày.",
+        "ghi_chu": "Huyết lình sấy khô tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GAY_YEU_HUYET_LINH",
+      "to": "B_XANH_XAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Mỗi lần cho uống $1-2g$. Dùng luôn trong 7-10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GAY_YEU_HUYET_LINH",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào cháo nóng cho trẻ con ăn vào buổi sáng. Mỗi lần cho uống $1-2g$. Dùng luôn trong 7-10 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NGA_HUYET_LINH",
+      "to": "VT_HUYET_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không kể liều lượng",
+        "vai_tro": "Quân",
+        "cach_dung": "Cho vào ngâm càng đặc càng tốt, thường một phần huyết lình $5$ phần rượu. Khi dùng ngâm nóng mà xoa bóp vào chỗ sưng đau. Có thể dùng để uống.",
+        "ghi_chu": "Ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NGA_HUYET_LINH",
+      "to": "B_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào ngâm càng đặc càng tốt, thường một phần huyết lình $5$ phần rượu. Khi dùng ngâm nóng mà xoa bóp vào chỗ sưng đau. Có thể dùng để uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NGA_HUYET_LINH",
+      "to": "B_NGA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cho vào ngâm càng đặc càng tốt, thường một phần huyết lình $5$ phần rượu. Khi dùng ngâm nóng mà xoa bóp vào chỗ sưng đau. Có thể dùng để uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "B_XANH_XAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Phụ nữ sau khi đẻ, người xanh xao gầy yếu, trẻ con gầy còm, chậm lớn, kém ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Phụ nữ sau khi đẻ, người xanh xao gầy yếu, trẻ con gầy còm, chậm lớn, kém ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "B_CHAM_LON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Phụ nữ sau khi đẻ, người xanh xao gầy yếu, trẻ con gầy còm, chậm lớn, kém ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Phụ nữ sau khi đẻ, người xanh xao gầy yếu, trẻ con gầy còm, chậm lớn, kém ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "B_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài dưới hình thức ngâm rượu để xoa bóp làm thuốc giảm đau",
+        "ghi_chu": "Đau nhức, ngã hay bị thương mà sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "B_NGA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài dưới hình thức ngâm rượu để xoa bóp làm thuốc giảm đau",
+        "ghi_chu": "Đau nhức, ngã hay bị thương mà sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "B_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài dưới hình thức ngâm rượu để xoa bóp làm thuốc giảm đau",
+        "ghi_chu": "Đau nhức, ngã hay bị thương mà sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài dưới hình thức ngâm rượu để xoa bóp làm thuốc giảm đau",
+        "ghi_chu": "Đau nhức, ngã hay bị thương mà sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_LINH",
+      "to": "DL_KHAC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Soi kính hiển vi chỉ thấy toàn hồng cầu, có lẫn các chất bẩn khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T968",
+        "all_sources": [
+          "CT_VT_VN_T968"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 35.0,
+      "reliability_c_score": 0.7605,
+      "total_confidence_sum": 14.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

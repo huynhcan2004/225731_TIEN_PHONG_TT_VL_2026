@@ -1,0 +1,80 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUONG_XUAN_SA",
+    "ten_raw": "Dương xuân sa",
+    "ten_khoa_hoc": "$Amomum villosum Lour; Amomum echinosphoera Schum$",
+    "ho_thuc_vat": "$họ Gừng Zingiberaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "lieu_dung_chung": "Như sa nhân.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "miền Bắc và các tỉnh miền Trung nước ta",
+      "thu_hai": "thường được khai thác với tên sa nhân",
+      "che_bien_tho": "cách thu hái và chế biến cũng như thu hái chế biến sa nhân giới thiệu ở sau."
+    },
+    "display_name": "Dương xuân sa",
+    "canonical_name": "Dương xuân sa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DUONG_XUAN_SA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Duong Xuan Sa"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T415",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "415"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dương xuân sa là một loại cỏ nhỏ, sống lâu năm, cao tới $1,5m$, thân rễ phình to và mọc ngang. Lá hình mác rộng, dài $14-40cm$, rộng $2-8cm$, đầu nhọn, phía gốc tròn, gần như không cuống, hai mặt nhẵn. Cụm hoa nhiều, nhưng mọc thưa từ gốc thân lên, căn mang hoa gầy, lúc đầu nằm ngang, sau mọc thẳng đứng, dài $6-8cm$, có những bẹ mọc như lợp ngói. Hoa màu trắng vàng nhạt, tràng hình ống, thùy hình trúng, dài $13mm$. Quả hình trúng, trên có những gai nhỏ, quả dài $2cm$, rộng $12-15mm$. Hạt có đường kính $3mm$ ( Hình 301 ).",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Hình 301"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUONG_XUAN_SA",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$saponin$",
+        "ghi_chu": "[CT_VT_VN_T416]"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T415",
+        "all_sources": [
+          "CT_VT_VN_T415"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 18.0,
+      "reliability_c_score": 0.85,
+      "total_confidence_sum": 1.7
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

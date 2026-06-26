@@ -1,0 +1,237 @@
+{
+  "entity_hub": "VI_THUOC_DAN_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T833",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "833"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_DAN_SAM_D",
+      "to": "VI_THUOC_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đan sâm được phối hợp với các vị thuốc khác để chữa ho và trừ đờm.",
+        "mo_ta_chi_tiet": "Chữa bệnh ho, trừ đờm, chữa sốt",
+        "cach_dung": "Dưới dạng thuốc sắc, phối hợp với các vị thuốc khác",
+        "ghi_chu": "CT_VT_VN_T834"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_HO_DAN_SAM_D",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ho, trừ đờm, chữa sốt",
+        "cach_dung": "Dưới dạng thuốc sắc, phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_HO_DAN_SAM_D",
+      "to": "S_SO_T",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ho, trừ đờm, chữa sốt",
+        "cach_dung": "Dưới dạng thuốc sắc, phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_HO_DAN_SAM_D",
+      "to": "S_DOM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ho, trừ đờm, chữa sốt",
+        "cach_dung": "Dưới dạng thuốc sắc, phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_BACH_HUYET_DAN_SAM_D",
+      "to": "VI_THUOC_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đan sâm được dùng đơn lẻ để chữa bệnh tạng bạch huyết.",
+        "mo_ta_chi_tiet": "Chữa bệnh tạng bạch huyết (lymphatisme)",
+        "cach_dung": "Hái lá ăn sống như rau xà lách",
+        "ghi_chu": "CT_VT_VN_T834"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_BACH_HUYET_DAN_SAM_D",
+      "to": "B_BACH_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh tạng bạch huyết (lymphatisme)",
+        "cach_dung": "Hái lá ăn sống như rau xà lách"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_NHIET_DAN_SAM_D",
+      "to": "VI_THUOC_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đan sâm được dùng đơn lẻ để giải nhiệt, nhuận và thông tiểu.",
+        "mo_ta_chi_tiet": "Giải nhiệt, nhuận và thông tiểu",
+        "cach_dung": "Sắc đặc uống cho mát phổi",
+        "ghi_chu": "CT_VT_VN_T834"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_NHIET_DAN_SAM_D",
+      "to": "S_NHIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải nhiệt, nhuận và thông tiểu",
+        "cach_dung": "Sắc đặc uống cho mát phổi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_NHIET_DAN_SAM_D",
+      "to": "S_TIEU_TIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải nhiệt, nhuận và thông tiểu",
+        "cach_dung": "Sắc đặc uống cho mát phổi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_CAN_DAN_SAM_D",
+      "to": "VI_THUOC_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đan sâm được dùng đơn lẻ để chữa những chỗ cá mực cắn.",
+        "mo_ta_chi_tiet": "Chữa những chỗ cá mực cắn",
+        "cach_dung": "Giã nhỏ",
+        "ghi_chu": "CT_VT_VN_T834"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_CAN_DAN_SAM_D",
+      "to": "S_VET_CAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những chỗ cá mực cắn",
+        "cach_dung": "Giã nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "VI_THUOC_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đan sâm được dùng để chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu.",
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "CT_VT_VN_T834"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "S_SO_T",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "S_MIENG_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "BT_SO_T_SA_SAM_S",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, miệng khô, khát nước, phổi nóng mà họ, ho ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    }
+  ],
+  "metadata": {}
+}

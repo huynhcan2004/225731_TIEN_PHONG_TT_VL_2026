@@ -1,0 +1,92 @@
+{
+  "entity_hub": "VI_THUOC_RAU_NGOT",
+  "source": {
+    "source_id": "CT_VT_VN_T67",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "67"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_NAU_RAU_NGOT_R",
+      "to": "VI_THUOC_RAU_NGOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau ngót là vị thuốc chính.",
+        "cach_dung": "Rửa sạch giã nát, thêm ít nước đã đun sôi để nguội vào, vắt lấy chừng $100 ml$ nước, chia làm 2 lần uống, mỗi lần cách nhau 10 phút.",
+        "ghi_chu": "Uống sau 15-20 phút nhau sẽ ra."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "BT_SOT_NAU_RAU_NGOT_R",
+      "to": "B_SOT_NAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa sót nhau",
+        "cach_dung": "Rửa sạch giã nát, thêm ít nước đã đun sôi để nguội vào, vắt lấy chừng $100 ml$ nước, chia làm 2 lần uống, mỗi lần cách nhau 10 phút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "BT_TUA_LUOI_RAU_NGOT_R",
+      "to": "VI_THUOC_RAU_NGOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau ngót là vị thuốc chính.",
+        "cach_dung": "Giã lá rau ngót tươi độ $5-10g$, vắt lấy nước, thấm vào bông đánh lên lưỡi, lợi và vòm miệng trẻ em."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "BT_TUA_LUOI_RAU_NGOT_R",
+      "to": "S_TUA_LUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tưa lưỡi",
+        "cach_dung": "Giã lá rau ngót tươi độ $5-10g$, vắt lấy nước, thấm vào bông đánh lên lưỡi, lợi và vòm miệng trẻ em."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "BT_HOC_RAU_NGOT_R",
+      "to": "VI_THUOC_RAU_NGOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau ngót là vị thuốc chính.",
+        "cach_dung": "Giã cây tươi, vắt lấy nước ngậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "BT_HOC_RAU_NGOT_R",
+      "to": "S_HOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hóc",
+        "cach_dung": "Giã cây tươi, vắt lấy nước ngậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    }
+  ],
+  "metadata": {}
+}

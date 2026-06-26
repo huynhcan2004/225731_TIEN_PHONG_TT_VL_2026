@@ -1,0 +1,376 @@
+{
+  "entity_hub": "VI_THUOC_DIA_DU",
+  "source": {
+    "source_id": "CT_VT_VN_T312",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "312"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du là vị thuốc chính có tác dụng cầm máu.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương.",
+        "ghi_chu": "CT_VT_VN_T313"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_TRI_RA_MAU_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du là vị thuốc chính có tác dụng cầm máu.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương.",
+        "ghi_chu": "CT_VT_VN_T313"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_XUAT_HUYET_TU_CUNG_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du là vị thuốc chính có tác dụng cầm máu.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương.",
+        "ghi_chu": "CT_VT_VN_T313"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du là vị thuốc chính có tác dụng cầm máu.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương.",
+        "ghi_chu": "CT_VT_VN_T313"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_BONG_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du có tác dụng cầm máu, giảm đau, giúp vết thương mau lành.",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương.",
+        "ghi_chu": "CT_VT_VN_T313"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_D",
+      "to": "B_DAI_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đại tiện ra máu",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_TRI_RA_MAU_DIA_DU_D",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trĩ ra máu",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_XUAT_HUYET_TU_CUNG_DIA_DU_D",
+      "to": "B_XUAT_HUYET_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tử cung xuất huyết",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_DIA_DU_D",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chảy máu cam",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_BONG_DIA_DU_D",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Sắc uống hoặc dùng ngoài tán bột rắc lên vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_LY_DIA_DU_DB",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$800g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du chủ trị lỵ ra máu, bạch chỉ giúp giảm đau, kháng viêm.",
+        "cach_dung": "Tán nhỏ. Mỗi lần dùng $4-6g$ uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_LY_DIA_DU_DB",
+      "to": "VI_THUOC_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$200g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Địa du chủ trị lỵ ra máu, bạch chỉ giúp giảm đau, kháng viêm.",
+        "cach_dung": "Tán nhỏ. Mỗi lần dùng $4-6g$ uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_LY_DIA_DU_DB",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu",
+        "cach_dung": "Tán nhỏ. Mỗi lần dùng $4-6g$ uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_BONG_DIA_DU_D",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du có tác dụng cầm máu, giảm đau, giúp vết thương mau lành.",
+        "cach_dung": "Rắc lên nơi bỏng đã rửa sạch hoặc trộn với dầu vừng bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_BONG_DIA_DU_D",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Rắc lên nơi bỏng đã rửa sạch hoặc trộn với dầu vừng bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_TRI_RA_MAU_DIA_DU_HD",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "lượng bằng nhau",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa du và Hòe hoa giúp cầm máu, giảm đau, làm se vết thương.",
+        "cach_dung": "Tán nhỏ, rây bột mịn. Ngày uống $6-10g$ chia làm $2-3$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_TRI_RA_MAU_DIA_DU_HD",
+      "to": "VI_THUOC_HOE_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "lượng bằng nhau",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Địa du và Hòe hoa giúp cầm máu, giảm đau, làm se vết thương.",
+        "cach_dung": "Tán nhỏ, rây bột mịn. Ngày uống $6-10g$ chia làm $2-3$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_TRI_RA_MAU_DIA_DU_HD",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trĩ ra máu",
+        "cach_dung": "Tán nhỏ, rây bột mịn. Ngày uống $6-10g$ chia làm $2-3$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_DIA_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_KINH_GIOI_TUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_CHI_XAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_HOE_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc giúp thanh nhiệt, giải độc, lương huyết, chỉ huyết, thường dùng để chữa đại tiện ra máu lâu ngày.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DIA_DU_KHCH",
+      "to": "B_DAI_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đại tiện ra máu lâu ngày",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    }
+  ],
+  "metadata": {}
+}

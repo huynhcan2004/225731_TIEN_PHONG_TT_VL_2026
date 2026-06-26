@@ -1,0 +1,318 @@
+{
+  "entity": {
+    "id": "VT_MA_TIEN",
+    "canonical_name": "Mã tiền",
+    "ten_khoa_hoc": "Strychnos nuxvomica L.; Strychnos nux-vomica L.",
+    "ho_thuc_vat": "Họ Mã tiền (Loganiaceae)",
+    "properties": {
+      "bo_phan_dung": "Hạt",
+      "thu_hai": "Quả chín rơi xuống đất, hạt tung ra, nhặt về phơi khô.",
+      "che_bien_tho": "Phơi khô, thái mỏng, sấy lại lần nữa rồi tán nhỏ.",
+      "lieu_dung_chung": "Trong đông y mã tiền được dùng chữa ghẻ và những bệnh ngoài da khó chữa: Tán bột (sao vàng tán nhỏ), trộn với dầu vừng mà bôi lên nơi ghẻ, nơi lở loét, hủi. Dùng trong, mã tiền được xem như một vị thuốc chữa tê thấp, bại liệt, bán thân bất toại, chó dại cắn. Mã tiền dùng trong đông y phải chế biến như phần phân bố thu hái và chế biến đã giới thiệu. Mỗi ngày uống chừng $0,1$ đến $0,03g$ %.",
+      "muc_do_doc": "Có độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_LOGANOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt mã tiền có một heterozit gọi là $loganozit$ hay $loganin$ ($1,5$%)."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_LOGANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt mã tiền có một heterozit gọi là $loganozit$ hay $loganin$ ($1,5$%)."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_STRYCNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic). Tỷ lệ ancaloit toàn phần trong mã tiền thay đổi từ $2,5$ đến $5,5$%, trong đó strycnin chiếm $43-45$%. Mã tiền dùng làm thuốc phải chứa ít nhất $2$ đến $3$% ancaloit toàn phần, trong đó ít nhất $45$% phải là strycnin."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_BRUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "rất nhiều ancaloit trong đó chủ yếu là $strycnin$, $bruxin$, kết hợp với axit igasuric (axit clorogenic)."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_VOMIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_STRUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_COLUBRIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "HC_COLUBRIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những ancaloit khác thường gặp là $vomixin$, $struxin$, $colubrin a$ và $B$."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Bột mã tiền chế (sao vàng tán nhỏ) trộn với dầu vừng",
+        "cach_dung": "Bôi lên nơi ghẻ, nơi lở loét, hủi"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "B_BENH_NGOAI_DA_KHO_CHUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Bột mã tiền chế (sao vàng tán nhỏ) trộn với dầu vừng",
+        "cach_dung": "Bôi lên nơi ghẻ, nơi lở loét, hủi"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mã tiền chế",
+        "cach_dung": "Mỗi ngày uống chừng $0,1$ đến $0,03g$ %."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_BAI_LIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mã tiền chế",
+        "cach_dung": "Mỗi ngày uống chừng $0,1$ đến $0,03g$ %."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mã tiền chế",
+        "cach_dung": "Mỗi ngày uống chừng $0,1$ đến $0,03g$ %."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "B_CHO_DAI_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mã tiền chế",
+        "cach_dung": "Mỗi ngày uống chừng $0,1$ đến $0,03g$ %."
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê thấp, đau nhức, sưng khớp"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê thấp, đau nhức, sưng khớp"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "S_SUNG_KHOP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê thấp, đau nhức, sưng khớp"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_MA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$50g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_HUONG_PHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$13g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_MOC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_DAU_NHUC_SUNG_KHOP_HOAN",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "cach_dung": "Hoàn $1000$ viên. Mỗi ngày uống $4$ viên, tối đa $6$ đến $8$ viên. Theo hướng dẫn uống khi nào thấy giật giật mới có kết quả. Một đợt uống $50$ viên thì lại nghỉ"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "S_SUNG_KHOP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ định lâm sàng theo kinh nghiệm"
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_KICH_THICH_THAN_KINH_TRUNG_UONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh trung ương và ngoại vi có tác dụng kích thích với liều nhỏ."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_KICH_THICH_THAN_KINH_NGOAI_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh trung ương và ngoại vi có tác dụng kích thích với liều nhỏ."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_CO_GIAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tác dụng co giật với liều cao."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với tim và tuần hoàn có tác dụng tăng huyết áp, do các mạch máu ngoại vi bị co nhỏ."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_CO_MACH_NGOAI_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "các mạch máu ngoại vi bị co nhỏ."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_BAI_TIET_DICH_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với dạ dày và bộ máy tiêu hoá tăng bài tiết dịch vị."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_TANG_TOC_DO_CHUYEN_THUC_AN_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tăng tốc độ chuyển của thức ăn sang ruột."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_DOC_TINH_CO_GIAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tác dụng co giật với liều cao."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_DOC_TINH_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu dùng luôn thì sẽ gây biến loạn tiêu hoá, biến loạn co bóp dạ dày."
+      }
+    },
+    {
+      "from": "VT_MA_TIEN",
+      "to": "DL_DOC_TINH_ROI_LOAN_CO_BOP_DA_DAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu dùng luôn thì sẽ gây biến loạn tiêu hoá, biến loạn co bóp dạ dày."
+      }
+    }
+  ]
+}

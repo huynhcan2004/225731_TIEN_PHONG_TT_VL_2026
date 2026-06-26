@@ -1,0 +1,102 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_BENH",
+    "ten_raw": "Bách bệnh",
+    "ten_khoa_hoc": "Eurycoma longifolia Jack.; Crassula pinnata Lour.",
+    "ho_thuc_vat": "Thanh thất Simaroubaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây mọc phổ biến ở khắp nước ta nhưng phổ biến nhất ở miền Trung. Còn thấy ở Malaixia, Inđônêxya.",
+      "thu_hai": "Người ta dùng quả vỏ thân và vỏ rễ phơi hay sấy khô làm thuốc."
+    },
+    "display_name": "Bách bệnh"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T427",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "427"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ có cành. Lá kép lông chim lẻ gồm 10 đến 36 đội lá chét, hầu như không có cuống, hình trứng dài, dày, nhẵn hoặc có lồng ở mặt dưới. Hoa và bao hoa phủ đầy lông. Quả hạch màu đỏ, nhẵn, hơi thuôn dài, đầu tù và cong, mặt trong có lông thưa và ngắn. Một hạt, trên mặt hạt có nhiều lông ngắn ( Hình 313 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong vỏ chứa một chất đắng gọi là quasin. Ta có thể chiết quasin như sau: Sắc vỏ bằng nước nhiều lần, cô cho hơi đặc. Dùng tanin để kết tủa quasin, sau đó gạn lấy cặn, rửa cặn và loại tanin bằng chì cacbonat, quasin được giải phóng. Cô đặc trên nồi cách thủy. Dùng cồn 80° để chiết (cồn đun sôi), cất thu hồi cồn, ta được quasin thô. Muốn tinh chế, rửa quasin thô bằng hỗn hợp cồn và ête. Người ta cho quasin là hỗn hợp của hai chất đồng phân quasin và neoquasin có $eurycomalacton$",
+          "[CT_VT_VN_T428]: công thức chung C,H,O. Quasin có hai nhóm metoxyl và một OH tự do. Dùng axit clohydric đun sôi để khử metyl ta sẽ được một hợp chất trihydroxyl gọi là quasinol. Hạt chứa dầu béo, màu vàng nhạt. Từ vỏ cây bách bệnh mọc ở Biên Hòa, Trảng Bom, Định Quán, Lê Văn Thới và Nguyễn Ngọc Suơng (International Symposium on the Chem- istry of Natural Products, Kyoto, 1964, Ab- stracts of Papers, 51) đã chiết được một hydroxyxeton, ẞsitosterol, campesterol, hai chat đắng là eurycomalacton (chiếm tỷ lệ cao nhất) và 2,6 dimetoxybenzoquinon (một sắc tố màu vàng). Eurycomalacton có tinh thể lăng trụ không mẫu, độ chảy $268-270°C$, (a),=$100°$ (clorofoc), rất tan trong pyridin, tan trong axeton, clorofoc ít tan trong benzen, metanol, etanol. Vị rất đắng, tan trong axit sunfuric đặc cho màu đỏ sẫm, tan dễ dàng trong dung dịch natri hydroxyt loãng. Công thức thô C,H,O. và công thức khai triển đã được xác định như sau:"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_QUASIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ chứa một chất đắng gọi là quasin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_EURYCOMALACTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta cho quasin là hỗn hợp của hai chất đồng phân quasin và neoquasin có $eurycomalacton$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_HYDROXYXETON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ vỏ cây bách bệnh mọc ở Biên Hòa, Trảng Bom, Định Quán, Lê Văn Thới và Nguyễn Ngọc Suơng (International Symposium on the Chem- istry of Natural Products, Kyoto, 1964, Ab- stracts of Papers, 51) đã chiết được một hydroxyxeton, ẞsitosterol, campesterol, hai chat đắng là eurycomalacton (chiếm tỷ lệ cao nhất) và 2,6 dimetoxybenzoquinon (một sắc tố màu vàng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_SITOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ vỏ cây bách bệnh mọc ở Biên Hòa, Trảng Bom, Định Quán, Lê Văn Thới và Nguyễn Ngọc Suơng (International Symposium on the Chem- istry of Natural Products, Kyoto, 1964, Ab- stracts of Papers, 51) đã chiết được một hydroxyxeton, ẞsitosterol, campesterol, hai chat đắng là eurycomalacton (chiếm tỷ lệ cao nhất) và 2,6 dimetoxybenzoquinon (một sắc tố màu vàng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_CAMPESTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ vỏ cây bách bệnh mọc ở Biên Hòa, Trảng Bom, Định Quán, Lê Văn Thới và Nguyễn Ngọc Suơng (International Symposium on the Chem- istry of Natural Products, Kyoto, 1964, Ab- stracts of Papers, 51) đã chiết được một hydroxyxeton, ẞsitosterol, campesterol, hai chat đắng là eurycomalacton (chiếm tỷ lệ cao nhất) và 2,6 dimetoxybenzoquinon (một sắc tố màu vàng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_BENH",
+      "to": "HC_DIMETOXYBENZOQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ vỏ cây bách bệnh mọc ở Biên Hòa, Trảng Bom, Định Quán, Lê Văn Thới và Nguyễn Ngọc Suơng (International Symposium on the Chem- istry of Natural Products, Kyoto, 1964, Ab- stracts of Papers, 51) đã chiết được một hydroxyxeton, ẞsitosterol, campesterol, hai chat đắng là eurycomalacton (chiếm tỷ lệ cao nhất) và 2,6 dimetoxybenzoquinon (một sắc tố màu vàng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T427"
+      }
+    }
+  ]
+}

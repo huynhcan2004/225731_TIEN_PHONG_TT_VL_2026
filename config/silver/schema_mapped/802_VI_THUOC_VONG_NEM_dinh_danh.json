@@ -1,0 +1,114 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VONG_NEM",
+    "ten_raw": "Cây vông nem",
+    "ten_khoa_hoc": "Nodus Rhizomatis Loti; Fructus Nelumbinis; Semen Nelumbinis",
+    "ho_thuc_vat": "null",
+    "variants": [
+      "Liên ngẫu",
+      "Ngó sen",
+      "Thạch liên tử",
+      "hạt sen",
+      "liên nhục",
+      "liên tử",
+      "tâm sen"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T802",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "802"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "cong_nang": "thanh tâm khử nhiệt"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "$asparagin$, $acginin$, $trigonelin$, $tyrocin$, ete photphoric, glucoza, vitamin C. $Trigonelin$ C,H,NO, đường (raffinoza) C.H,O 5H,O, protit, chất béo, cacbon hydrat, canxi, photpho, sắt (Fe)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "HC_ASPARAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$asparagin$, $acginin$, $trigonelin$, $tyrocin$, ete photphoric, glucoza, vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$asparagin$, $acginin$, $trigonelin$, $tyrocin$, ete photphoric, glucoza, vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "HC_TRIGONELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$asparagin$, $acginin$, $trigonelin$, $tyrocin$, ete photphoric, glucoza, vitamin C. $Trigonelin$ C,H,NO, đường (raffinoza) C.H,O 5H,O, protit, chất béo, cacbon hydrat, canxi, photpho, sắt (Fe)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "HC_TYROCIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$asparagin$, $acginin$, $trigonelin$, $tyrocin$, ete photphoric, glucoza, vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_CHI_CU",
+  "source": {
+    "source_id": "CT_VT_VN_T816",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "816"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "CO_VI",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng, cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "CO_TINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    }
+  ],
+  "metadata": {}
+}

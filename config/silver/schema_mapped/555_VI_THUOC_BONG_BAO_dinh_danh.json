@@ -1,0 +1,147 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BONG_BAO",
+    "ten_raw": "Bông báo",
+    "ten_khoa_hoc": "Hypericum japonicum Thunb.; Thunbergia grandiflora (Rottl. et Willd.) Roxb.",
+    "ho_thuc_vat": "Ban Hypericaceae; Ô rô Acanthaceae",
+    "variants": [
+      "bông xanh",
+      "đại hoa lão nha chủy",
+      "madia (Mèo)"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "phan_bo": "Dây leo",
+      "thu_hai": "Mùa hè và thu"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "555"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TY"
+        ],
+        "cong_nang": "thanh thấp nhiệt, tiêu thũng trướng, khứ tích tiêu thực"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ban là một loại cỏ nhỏ, thân nhỏ mang nhiều cành, cao chừng $10$-$20cm$, thân nhẵn. Lá mọc đối, hình bầu dục, không cuống, trên phiến có những điểm chấm nhỏ, soi lên sáng lại càng rõ. Phiến lá dài $7$-$10mm$, rộng $3$-$5mm$. Hoa nhỏ mọc màu vàng, mọc đơn độc ở kẽ lá, có cuống dài $4-$ $5mm$. Lá bắc và lá đài nhẵn (do đó khác loài Hypericum nepalense). Quả nang hình trứng, dài $4mm$, mở bằng 3 van dọc, thai tòa trắc mô ở cạnh các van. Hạt hình trụ, hơi thon có vạch dọc, chiều dài chừng $1mm$ ( Hình 418). Còn gọi là bông xanh, đại hoa lão nha chủy, madia (Mèo)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thanh thấp nhiệt, tiêu thũng trướng, khứ tích tiêu thực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "HC_IMANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong loài Hypericum perforatum L. mới đây người ta tìm thấy có imanin, imanin A và novoimanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "HC_IMANIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong loài Hypericum perforatum L. mới đây người ta tìm thấy có imanin, imanin A và novoimanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_BAO",
+      "to": "HC_NOVOIMANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong loài Hypericum perforatum L. mới đây người ta tìm thấy có imanin, imanin A và novoimanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555"
+      }
+    }
+  ]
+}

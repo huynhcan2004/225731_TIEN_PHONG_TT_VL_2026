@@ -1,0 +1,743 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHONG_PHONG",
+    "ten_raw": "Phòng phong",
+    "ten_khoa_hoc": "$Ligusticum brachylobum Franch; Ledebouriella seseloides Wolff.; Seseli delavayi Franch.; Seseli yunnanense Franch$",
+    "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+    "variants": [
+      "Xuyên phòng phong",
+      "Thiên phòng phong",
+      "Đồng phòng phong",
+      "Bàng phong",
+      "Vân phòng phong",
+      "Trúc diệp phòng phong",
+      "Phòng phong Vân Nam",
+      "Phòng phong lá thông",
+      "Tùng diệp phòng phong"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ khô",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 4 đến $10g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Vị thuốc Phòng phong",
+    "canonical_name": "Vị thuốc Phòng phong"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_NHUC_MOT_BEN_DAU_PHONG_PHONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau nhức một bên đầu phong phong",
+        "aliases": [
+          "daunhucmotbendauphongphong",
+          "đau nhức một bên đầu phong phong",
+          "dau nhuc mot ben dau phong phong"
+        ],
+        "search_vector_hint": "Đau nhức một bên đầu phong phong thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "BT_TRIEU_CHUNG_KHI_NGU_RA_MO_HOI_TROM_PHONG_PHONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Triệu chứng khi ngủ ra mồ hôi trộm phong phong",
+        "aliases": [
+          "trieuchungkhinguramohoitromphongphong",
+          "triệu chứng khi ngủ ra mồ hôi trộm phong phong",
+          "trieu chung khi ngu ra mo hoi trom phong phong"
+        ],
+        "search_vector_hint": "Triệu chứng khi ngủ ra mồ hôi trộm phong phong thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_MOT_BEN_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức một bên đầu",
+        "aliases": [
+          "dau nhuc mot ben dau",
+          "daunhucmotbendau",
+          "đau nhức một bên đầu"
+        ],
+        "search_vector_hint": "Đau nhức một bên đầu thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "CN_PHAT_BIEU_TAN_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Phát biểu tán phong",
+        "aliases": [
+          "phatbieutanphong",
+          "phat bieu tan phong",
+          "phát biểu tán phong"
+        ],
+        "search_vector_hint": "Phát biểu tán phong thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TRU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phong",
+        "aliases": [
+          "truphong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Trừ phong thuộc nhóm công năng, thường liên quan đến loại bỏ yếu tố gây bệnh từ bên ngoài."
+      }
+    },
+    {
+      "id": "CN_TRU_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ thấp",
+        "aliases": [
+          "tao thap",
+          "khuthap",
+          "taothap",
+          "truthap",
+          "khu thap",
+          "khử thấp",
+          "tru thap",
+          "táo thấp",
+          "trừ thấp"
+        ],
+        "search_vector_hint": "Trừ thấp thuộc nhóm Công năng, thường liên quan đến điều trị chứng thấp."
+      }
+    },
+    {
+      "id": "DL_HA_NHIET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Bệnh Hạ nhiệt",
+        "aliases": [
+          "hạ nhiệt",
+          "hanhiet",
+          "ha nhiet"
+        ],
+        "search_vector_hint": "Hạ nhiệt thuộc nhóm bệnh, thường liên quan đến thân nhiệt giảm."
+      }
+    },
+    {
+      "id": "HC_GLUCOZIT_DANG",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucozit Đắng",
+        "aliases": [
+          "glucozitdang",
+          "glucozit đắng",
+          "glucozit dang"
+        ],
+        "search_vector_hint": "Glucozit Đắng thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_MANIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Manit",
+        "aliases": [
+          "manit"
+        ],
+        "search_vector_hint": "Manit thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_PHENOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Phenola",
+        "aliases": [
+          "phenola"
+        ],
+        "search_vector_hint": "Hoạt chất Phenola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi trộm",
+        "aliases": [
+          "domohoibandem",
+          "mo hoi trom",
+          "mồ hôi trộm",
+          "đổ mồ hôi ban đêm",
+          "mohoitrom",
+          "do mo hoi ban dem"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến rối loạn thần kinh thực vật."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BACH_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch chỉ",
+        "aliases": [
+          "bạch chỉ",
+          "bachchi",
+          "bach chi"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch chỉ thuộc nhóm vị thuốc, thường liên quan đến điều trị cảm mạo, nhức đầu."
+      }
+    },
+    {
+      "id": "VT_NHAN_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Nhân sâm",
+        "aliases": [
+          "nhansam",
+          "nhân sâm",
+          "nhan sam"
+        ],
+        "search_vector_hint": "Nhân sâm thuộc nhóm vị thuốc, thường liên quan đến thành phần dược liệu."
+      }
+    },
+    {
+      "id": "VT_PHONG_PHONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phòng phong",
+        "aliases": [
+          "phòng phong",
+          "phongphong",
+          "phong phong"
+        ],
+        "search_vector_hint": "Vị thuốc Phòng phong thuộc nhóm vị thuốc, thường liên quan đến trị phong, giải biểu.",
+        "bo_phan_dung": "rễ khô",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày dùng 4 đến $10g$ dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "ten_khoa_hoc": "$Ligusticum brachylobum Franch; Ledebouriella seseloides Wolff.; Seseli delavayi Franch.; Seseli yunnanense Franch$",
+        "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+        "hinh_thai_chi_tiet": "Cày xuyên phòng phong (Ligusticum brachylobum) là một cây sống lâu năm cao tới $1m$. Từ gốc ra những lá có cuống dài $10-15cm$, phía dưới cuống phát triển thành bẹ ôm lấy thân. Lá 2-3 lần xẻ lông chim. Cụm hoa hình tán kép gồm 25-30 tán nhỏ, dài ngắn không đều, dài từ $5-8cm$, mỗi tán nhỏ mang 25-30 hoa màu trắng. Quả kép gồm $2phần$ quả, hình trứng dẹt không có lông, trên lưng có sống chạy dọc, giữa sống có $3ống$ tinh dầu, mặt tiếp xúc có $5-6ống$ tinh dầu, hai bên mép phát triển thành cánh. Cây phòng phong hay thiên phòng phong (Ledebouriella seseloides) cũng là một cây sống lâu năm, cao $0,3-0,8m$, lá mọc so le, có cuống dài, phía dưới cũng phát triển thành bẹ ôm vào thân, phiến lá xẻ lông chim 2-3 lần trông giống lá ngải cứu. Cụm hoa hình tán kép, mỗi tán kép có 5-7 tán nhỏ, cuống tán nhỏ không đều nhau. Mỗi tán nhỏ có 4-9 hoa nhỏ màu trắng. Quả kép gồm $2phân$ quả, hai quả dính nhau trông như hình chuông; trên lưng quả có sống chạy dọc, giữa sống có một ống tinh dầu, mặt tiếp xúc giữa $2phân$ quả có $1ống$ tinh dầu. Cây vân phòng phong hay phòng phong lá tre-trúc điệp phòng phong (Seseli delavayi) là một cây sống lâu năm cao $0,3-0,5m$, lá kép 2-3 lần xẻ lông chim có cuống dài, thùy lá giống lá tre dài $7-10cm$, rộng $2-4cm$, mép nguyên. Cụm hoa hình tán kép gồm 5-8 tán nhỏ, mỗi tán nhỏ gồm 10-20 hoa nhỏ có cuống dài ngắn không đều. Hoa màu trắng. Quả hình trứng dài màu tím nâu, trên lưng phân quả có sống chạy dọc, giữa sống quả có $3ống$ tinh dầu, ở mặt tiếp xúc giữa $2phân$ quả có $5ống$ tinh dầu.",
+        "thanh_phan_hoa_hoc": "['Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất $manit$, những chất có tính chất $phenola$, $glucozit đắng$ và các chất đường.', 'Theo Ư Đạt Vọng, trong loại phòng phong (Siler divaricatum) có $0,05\\\\%$ $tinh dầu$.']"
+      }
+    },
+    {
+      "id": "VT_XUYEN_KHUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xuyên khung",
+        "aliases": [
+          "xuyên khung",
+          "xuyen khung",
+          "xuyenkhung"
+        ],
+        "search_vector_hint": "Vị thuốc Xuyên khung thuộc nhóm Vị thuốc, thường liên quan đến hoạt huyết, hành khí, giảm đau."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "683"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cày xuyên phòng phong (Ligusticum brachylobum) là một cây sống lâu năm cao tới $1m$. Từ gốc ra những lá có cuống dài $10-15cm$, phía dưới cuống phát triển thành bẹ ôm lấy thân. Lá 2-3 lần xẻ lông chim. Cụm hoa hình tán kép gồm 25-30 tán nhỏ, dài ngắn không đều, dài từ $5-8cm$, mỗi tán nhỏ mang 25-30 hoa màu trắng. Quả kép gồm $2phần$ quả, hình trứng dẹt không có lông, trên lưng có sống chạy dọc, giữa sống có $3ống$ tinh dầu, mặt tiếp xúc có $5-6ống$ tinh dầu, hai bên mép phát triển thành cánh. Cây phòng phong hay thiên phòng phong (Ledebouriella seseloides) cũng là một cây sống lâu năm, cao $0,3-0,8m$, lá mọc so le, có cuống dài, phía dưới cũng phát triển thành bẹ ôm vào thân, phiến lá xẻ lông chim 2-3 lần trông giống lá ngải cứu. Cụm hoa hình tán kép, mỗi tán kép có 5-7 tán nhỏ, cuống tán nhỏ không đều nhau. Mỗi tán nhỏ có 4-9 hoa nhỏ màu trắng. Quả kép gồm $2phân$ quả, hai quả dính nhau trông như hình chuông; trên lưng quả có sống chạy dọc, giữa sống có một ống tinh dầu, mặt tiếp xúc giữa $2phân$ quả có $1ống$ tinh dầu. Cây vân phòng phong hay phòng phong lá tre-trúc điệp phòng phong (Seseli delavayi) là một cây sống lâu năm cao $0,3-0,5m$, lá kép 2-3 lần xẻ lông chim có cuống dài, thùy lá giống lá tre dài $7-10cm$, rộng $2-4cm$, mép nguyên. Cụm hoa hình tán kép gồm 5-8 tán nhỏ, mỗi tán nhỏ gồm 10-20 hoa nhỏ có cuống dài ngắn không đều. Hoa màu trắng. Quả hình trứng dài màu tím nâu, trên lưng phân quả có sống chạy dọc, giữa sống quả có $3ống$ tinh dầu, ở mặt tiếp xúc giữa $2phân$ quả có $5ống$ tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất $manit$, những chất có tính chất $phenola$, $glucozit đắng$ và các chất đường.",
+          "Theo Ư Đạt Vọng, trong loại phòng phong (Siler divaricatum) có $0,05\\%$ $tinh dầu$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh bàng quang"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "HC_MANIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất $manit$, những chất có tính chất $phenola$, $glucozit đắng$ và các chất đường.",
+        "ghi_chu": "Ledebouriella seseloides"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "HC_PHENOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất $manit$, những chất có tính chất $phenola$, $glucozit đắng$ và các chất đường.",
+        "ghi_chu": "Ledebouriella seseloides"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "HC_GLUCOZIT_DANG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất $manit$, những chất có tính chất $phenola$, $glucozit đắng$ và các chất đường.",
+        "ghi_chu": "Ledebouriella seseloides"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Ư Đạt Vọng, trong loại phòng phong (Siler divaricatum) có $0,05\\%$ $tinh dầu$.",
+        "ghi_chu": "Siler divaricatum"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_MOT_BEN_DAU_PHONG_PHONG",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_MOT_BEN_DAU_PHONG_PHONG",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_MOT_BEN_DAU_PHONG_PHONG",
+      "to": "B_DAU_NHUC_MOT_BEN_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Tán nhỏ, hòa với mật viên bằng quả táo, mỗi lần ngậm một viên, dùng nước chè mà chiều thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRIEU_CHUNG_KHI_NGU_RA_MO_HOI_TROM_PHONG_PHONG",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRIEU_CHUNG_KHI_NGU_RA_MO_HOI_TROM_PHONG_PHONG",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRIEU_CHUNG_KHI_NGU_RA_MO_HOI_TROM_PHONG_PHONG",
+      "to": "VT_NHAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRIEU_CHUNG_KHI_NGU_RA_MO_HOI_TROM_PHONG_PHONG",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Các vị tán nhỏ, trộn đều; mỗi lần trước khi đi ngủ uống $10-12g$ bột này"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "CN_PHAT_BIEU_TAN_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phát biểu tán phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất chiết từ vị phòng phong cho thỏ đã được gây sốt uống thì thấy có tác dụng hạ nhiệt. | Vacxin thương hàn tiêm tĩnh mạch thỏ để gây sốt rồi so sánh tác dụng giảm sốt của một số vị thuốc đông y thấy vị phòng phong do I Đạt Vọng xác định là Siler divaricatum chế thành thuốc sắc 20$\\%$ (trọng lượng trên thể tích) và thuốc ngâm với liều 10$mg$ cho 1$kg$ thể trọng cho vào dạ dày thì nửa giờ sau khi cho thuốc, tác dụng giảm sốt rõ rệt. Tác dụng giảm sốt của thuốc sắc có thể duy trì trên 2 giờ rưỡi, nhưng ngược lại với thuốc ngâm thì sau 2 giờ nhiệt độ lại lên cao so với con vật làm chứng.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHONG_PHONG",
+      "to": "CN_TRU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T683",
+        "all_sources": [
+          "CT_VT_VN_T683"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

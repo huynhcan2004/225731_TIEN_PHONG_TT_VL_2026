@@ -1,0 +1,349 @@
+{
+  "entity_hub": "VI_THUOC_RAU_RAM",
+  "source": {
+    "source_id": "CT_VT_VN_T562",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "562"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KEM_AN_RAU_RAM_M",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Nhai sống nuốt nước",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_KEM_AN_RAU_RAM_M",
+      "to": "B_KEM_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kém ăn, bụng đầy trướng",
+        "cach_dung": "Nhai sống nuốt nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_SAY_NANG_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Giã vắt lấy nước cốt uống, bã đắp vào thái dương",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_SAY_NANG_RAU_RAM_R",
+      "to": "B_SAY_NANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa say nắng",
+        "cach_dung": "Giã vắt lấy nước cốt uống, bã đắp vào thái dương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau răm và muối có tác dụng giải độc, giảm đau, tiêu sưng.",
+        "cach_dung": "Vắt lấy nước cho người bị nạn uống, bã đắp lên vết cắn",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_RAM_R",
+      "to": "VI_THUOC_MUOI_AN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rau răm và muối có tác dụng giải độc, giảm đau, tiêu sưng.",
+        "cach_dung": "Vắt lấy nước cho người bị nạn uống, bã đắp lên vết cắn",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_RAM_R",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Vắt lấy nước cho người bị nạn uống, bã đắp lên vết cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Xát vào nơi bị bệnh",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_RAU_RAM_R",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ngoài da (chàm, ghẻ)",
+        "cach_dung": "Xát vào nơi bị bệnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_LY_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_LY_RAU_RAM_R",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_RAM_RG",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau răm và gừng có tính ấm, giúp giảm đau do lạnh.",
+        "cach_dung": "Đắp vào rốn",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_RAM_RG",
+      "to": "VI_THUOC_GUNG_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rau răm và gừng có tính ấm, giúp giảm đau do lạnh.",
+        "cach_dung": "Đắp vào rốn",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_RAM_RG",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng do lạnh",
+        "cach_dung": "Đắp vào rốn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_KICH_DUC_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Ăn sống",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_KICH_DUC_RAU_RAM_R",
+      "to": "B_YEU_SINH_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc kích dục",
+        "cach_dung": "Ăn sống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_RAM_2_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Giã nát vắt lấy nước uống, bã đắp lên nơi rắn cắn",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_RAU_RAM_2_R",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Giã nát vắt lấy nước uống, bã đắp lên nơi rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Dùng theo kinh nghiệm dân gian Campuchia",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_RAU_RAM_R",
+      "to": "B_SO_T",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Dùng theo kinh nghiệm dân gian Campuchia"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_RAU_RAM_R",
+      "to": "B_THONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu",
+        "cach_dung": "Dùng theo kinh nghiệm dân gian Campuchia"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_RAU_RAM_R",
+      "to": "S_CHONG_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chống nôn",
+        "cach_dung": "Dùng theo kinh nghiệm dân gian Campuchia"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_RAU_RAM_R",
+      "to": "VI_THUOC_RAU_RAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Bôi lên nơi hắc lào, chốc lở đã rửa sạch",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_RAU_RAM_R",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào, sâu quảng",
+        "cach_dung": "Bôi lên nơi hắc lào, chốc lở đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_RAU_RAM_R",
+      "to": "B_SAU_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào, sâu quảng",
+        "cach_dung": "Bôi lên nơi hắc lào, chốc lở đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    }
+  ],
+  "metadata": {}
+}

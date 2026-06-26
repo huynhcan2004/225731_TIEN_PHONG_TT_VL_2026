@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_VIEN_CHI",
+  "source": {
+    "source_id": "CT_VT_VN_T745",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "745"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VIEN_CHI",
+      "to": "DL_GIAM_BAI_TIET_PHE_QUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống tô hạp hương giảm sự bài tiết phế quản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T745"
+      }
+    },
+    {
+      "from": "VI_THUOC_VIEN_CHI",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta còn dùng tính chất sát trùng của nó để chữa ghẻ, chữa rận dương vật, làm lên da non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T745"
+      }
+    }
+  ],
+  "metadata": {}
+}

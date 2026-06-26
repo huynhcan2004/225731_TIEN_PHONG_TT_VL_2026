@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_MOT_LA",
+  "source": {
+    "source_id": "CT_VT_VN_T759",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "759"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOT_LA",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T760]: Mùi thơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T759"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOT_LA",
+      "to": "CN_THAN_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T760]: Vị lúc đầu mát sau nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T759"
+      }
+    }
+  ],
+  "metadata": {}
+}

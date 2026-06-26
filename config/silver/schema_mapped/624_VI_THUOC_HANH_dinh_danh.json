@@ -1,0 +1,112 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HANH",
+    "ten_raw": "Hành",
+    "ten_khoa_hoc": "Allium cepa L.; Allium fistulosum L.",
+    "ho_thuc_vat": "Họ Hành Alliaceae; Họ Lúa Poaceac (Gramineae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Thân hành (củ)",
+      "phan_bo": "Toàn cây",
+      "che_bien_tho": "Không có thông tin"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T624",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "624"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống hai năm. Thân hành (củ) hình cầu hoặc hình trứng, phía dưới mang nhiều rễ nhỏ. Lá hình trụ rỗng, phía dưới bẹ lá ôm lấy nhau thành một cái cổ hành. Cán hoa hình trụ rỗng, dài $0,8$-$1$m. Cụm hoa hình cầu mang nhiều hoa nhỏ màu trắng. Quả nang chứa những hạt nhỏ màu đen. Toàn cây có mùi hăng đặc biệt.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hành có từ $4$-$12$% chất đường, $1,25$-$1,8$% chất protein, $0,04$-$0,07$% chất béo, vitamin B, vitamin C, chất khoáng và một chất kháng sinh là alicin C6H10OS2. Khi cất kéo hơi nước, alicin bị phân huỷ cho một chất dầu có mùi đặc biệt, đó là propyl disulfit C6H14S2."
+        ],
+        "cach_dung_bao_che": "Người ta dùng củ hành tươi hay khô. Có khi dùng cả lá hành tươi hay khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành có vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành có tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_ALICIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hành có từ $4$-$12$% chất đường, $1,25$-$1,8$% chất protein, $0,04$-$0,07$% chất béo, vitamin B, vitamin C, chất khoáng và một chất kháng sinh là alicin C6H10OS2."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_PROPYL_DISULFIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi cất kéo hơi nước, alicin bị phân huỷ cho một chất dầu có mùi đặc biệt, đó là propyl disulfit C6H14S2."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T624"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_BO_CU_VE",
+  "source": {
+    "source_id": "CT_VT_VN_T108",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "108"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_RAN_CAN_BO_C",
+      "to": "VI_THUOC_BO_CU_VE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bồ cụ vẽ là vị thuốc chính.",
+        "cach_dung": "Giã nát $30-40g$ lá tươi vắt lấy nước uống, bã đắp lên vết cắn.",
+        "ghi_chu": "Không"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T108"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BO_C_V",
+      "to": "VI_THUOC_BO_CU_VE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bồ cụ vẽ là vị thuốc chính.",
+        "cach_dung": "Cạo vỏ cây lấy bột rắc lên.",
+        "ghi_chu": "Không"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T108"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BO_C",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Giã nát $30-40g$ lá tươi vắt lấy nước uống, bã đắp lên vết cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T108"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BO_C_V",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt, vết lở loét",
+        "cach_dung": "Cạo vỏ cây bồ cu vẽ cạo lấy bột rắc lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T108"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BO_C_V",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt, vết lở loét",
+        "cach_dung": "Cạo vỏ cây bồ cu vẽ cạo lấy bột rắc lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T108"
+      }
+    }
+  ],
+  "metadata": {}
+}

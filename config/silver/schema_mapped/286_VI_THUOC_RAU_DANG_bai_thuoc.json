@@ -1,0 +1,223 @@
+{
+  "entity_hub": "VI_THUOC_RAU_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T286",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "286"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAI_BUOT_RAU_DANG_R",
+      "to": "VI_THUOC_RAU_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau đắng là vị thuốc chính trong bài thuốc lợi tiểu.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_DAI_BUOT_RAU_DANG_R",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đái buốt, sỏi thận",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_DAI_BUOT_RAU_DANG_R",
+      "to": "S_DAI_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đái buốt",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_DAI_BUOT_RAU_DANG_R",
+      "to": "S_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "tiểu tiện khó khăn",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_DAI_BUOT_RAU_DANG_R",
+      "to": "S_DAI_RA_SOI_SAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đái ra sỏi sạn",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_GIAI_DOC_RAU_DANG_R",
+      "to": "VI_THUOC_RAU_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau đắng là vị thuốc chính trong bài thuốc giải độc.",
+        "cach_dung": "Giã nát đắp ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_GIAI_DOC_RAU_DANG_R",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa rắn cắn",
+        "cach_dung": "Giã nát đắp ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_GIAI_DOC_RAU_DANG_R",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "mụn nhọt",
+        "cach_dung": "Giã nát đắp ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_GIAI_DOC_RAU_DANG_R",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "vàng da",
+        "cach_dung": "Giã nát đắp ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "VI_THUOC_RAU_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau đắng chủ trị viêm bàng quang, kết hợp với các vị thuốc lợi tiểu khác.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "VI_THUOC_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoạt thạch giúp thanh nhiệt, lợi thấp, tăng cường tác dụng của rau đắng.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mộc thông giúp thông tiểu, dẫn nhiệt xuống dưới.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "VI_THUOC_XA_TIEN_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xa tiền thảo (cây mã đề) giúp lợi tiểu, thanh nhiệt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "B_VIEM_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "viêm bàng quang",
+        "cach_dung": "Chia ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "B_VIEM_DUONG_TIEU_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "viêm đường tiểu tiện",
+        "cach_dung": "Chia ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "BT_VIEM_BANG_QUANG_RAU_DANG_HMXX",
+      "to": "S_DAI_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đái buốt",
+        "cach_dung": "Chia ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    }
+  ],
+  "metadata": {}
+}

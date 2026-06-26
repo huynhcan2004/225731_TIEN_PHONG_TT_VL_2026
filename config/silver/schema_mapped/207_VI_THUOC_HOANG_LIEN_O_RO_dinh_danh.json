@@ -1,0 +1,199 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_LIEN_O_RO",
+    "ten_raw": "Hoàng liên ô rô",
+    "ten_khoa_hoc": "Mahonia bealii Carr.; Coptis teeta Wall.",
+    "ho_thuc_vat": "Hoàng liên gai Berberidaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T207",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "207"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN",
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao 3-4m, cành không có gai. Lá kép dìa lẻ, dài $30 cm$ có hai gai nhỏ ở phía cuống lá, 5-7 lá chét hình trứng Hình 131. Hoàng liên ô rô đầu nhọn sắc, phía cuống tròn, dài 6- $10cm$, rộng 20-$45mm$, mỗi bên 3-8 răng sắc ngắn dài 3-$6mm$. Cụm hoa tận cùng mọc thành bông, phân cành ở phía dưới, nhiều hoa. Lá bắc hai lần ngắn hơn cuống hoa phụ. Hoa màu vàng nhạt. Lá đài 9 xếp thành 3 lớp, mỗi lớp 3. Cánh tràng 6. Nhị 6. Bầu hình nón, phình ở giữa. Quả mọng màu xanh hình cầu ( Hình 133 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong thân cây hoàng liên ô rô có từ 0,35 đến $2,5\\%$ $becberin$.",
+          "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+        ],
+        "cach_dung_bao_che": "Thường hái thân về, thái thành từng đoạn ngắn phơi khô, hoặc sắc uống hay tán bột uống. Không có chế biến gì khác."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_BERBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân cây hoàng liên ô rô có từ 0,35 đến $2,5\\%$ $becberin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_PANMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_JATRORRHIZIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_MAGNOFLORIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_OXYACANTHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_BECBAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loài hoàng liên ô rô Mahonia fortunei (Fort.) Carr. có khoảng $0,3\\%$ ancaloit, trong đó chủ yếu là $becberin$, $panmatin$, $jatrorrhizin$, $magnoflorin$, $oxyacanthin$, và $becbamin$ (Dược học tạp chí, 1952, 72, 773)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_PALMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng liên ô rô có chứa các ancaloit chủ yếu là $berberin$, $palmatin$, $coptisin$, $jatrorrhizin$ và $magnoflorin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN_O_RO",
+      "to": "HC_COPTISIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng liên ô rô có chứa các ancaloit chủ yếu là $berberin$, $palmatin$, $coptisin$, $jatrorrhizin$ và $magnoflorin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    }
+  ]
+}

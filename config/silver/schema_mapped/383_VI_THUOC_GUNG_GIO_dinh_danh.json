@@ -1,0 +1,49 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GUNG_GIO",
+    "ten_raw": "Gừng gió",
+    "ten_khoa_hoc": "Zingiber zerumbet Sm.",
+    "ho_thuc_vat": "họ gừng Zingiberaceae",
+    "variants": [
+      "Zingiber zerumbet"
+    ],
+    "properties": {
+      "phan_bo": "khắp nước Việt nam, còi thấy mọc ở Ấn Độ, Inđônêxya, Malaixia",
+      "thu_hai": "mùa thu",
+      "che_bien_tho": "rửa sạch, phơi ha sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T383",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "383"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ cao $1-1,3m$. Thân rễ củ, phân nhánh, mà trắngnhạt, trong ruột màu vàng nhạt. Lá mọc sít, gần như không cuống, thuôn dài, đầu nhọn, phía trên màu xanh lục sẫm, hơi nhạt phía dưới, bẹ nhẵn, trừ phía trên có lông. Cán hoa dài $30-60cm$, phủ đầy vẩy, mép có mang lông. Hoa màu vàng, lá dài hình ống dài $2cm$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong gừng gió có tinh dầu, mùi thơm và châ đắng."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GUNG_GIO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong gừng gió có tinh dầu, mùi thơm và châ đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T383"
+      }
+    }
+  ]
+}

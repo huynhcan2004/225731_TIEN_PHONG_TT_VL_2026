@@ -1,0 +1,109 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MOC_QUA",
+    "ten_raw": "Mộc qua",
+    "ten_khoa_hoc": "Chaenomeles lagenaria (Lois.) Koidz (Cydonia lagenaria Lois.)",
+    "ho_thuc_vat": "Hoa hồng Rosaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả thịt",
+      "thu_hai": "Mùa quả: tháng 9-10",
+      "phan_bo": "Mộc qua hiện nay còn phải nhập của Trung Quốc, ở đây cây được trồng ở Hà Nam, Giang Tô, An Huy, Sơn Đông, Triết Giang, Phúc Kiến, Quảng Đông, Tứ Xuyên.",
+      "che_bien_tho": "Vị thuốc mộc qua là những mảnh quả dài $2,5$-$9$$cm$, rộng $1,5$-$3,5$$cm$, dày $2$-$8$$mm$, mặt ngoài nâu đỏ đến tím đỏ, có những nếp nhăn trong quá trình khô, mặt trong quả còn rõ những ô chứa hạt, phần lớn hạt đã rụng, nhưng đôi khi còn sót lại một số hạt hình 3 cạnh, màu nâu đỏ trong chứa một nhân."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T546",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "546"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Ôn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mộc qua là một cây nhỡ cao $2$-$3m$, cành có gai, dài $5$-$20mm$, đường kính phía gốc của gai tới $1$-$3mm$, mặt cành có những bì không rõ. Lá có cuống dài $3$-$15mm$, phiến lá hình mác dài $2,5cm$-$14cm$, rộng $1,5cm$-$4cm$ mép có răng cưa, mặt trên màu xanh, mặt dưới màu tím nhạt, cả hai mặt đều nhẵn. Lá kèm có hình dạng và kích thước thay đổi, dài từ $2$-$2,5cm$, rộng từ $1$-$1,5cm$, mép cũng có răng cưa. Hoa mọc thành chùm ở kẽ lá. Cánh hoa màu đỏ của hoa đào, có loại hoa trắng hay hồng. Cuống hoa rất ngắn. Quả thịt hình cầu hay hình trứng, dài khoảng $8 cm$, mặt ngoài nhẵn bóng, màu vàng hay vàng xanh, mùi thơm. Mùa hoa: tháng 3-4, mùa quả: tháng 9-10",
+        "thanh_phan_hoa_hoc": [
+          "Trong mộc qua có saponin khoảng $2$%, axit hữu cơ, tanin, và flavonozit (theo hệ dược Viện y học Bắc Kinh, 1958)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua, chát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc qua có saponin khoảng $2$%, axit hữu cơ, tanin, và flavonozit (theo hệ dược Viện y học Bắc Kinh, 1958)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "HC_AXIT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc qua có saponin khoảng $2$%, axit hữu cơ, tanin, và flavonozit (theo hệ dược Viện y học Bắc Kinh, 1958)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc qua có saponin khoảng $2$%, axit hữu cơ, tanin, và flavonozit (theo hệ dược Viện y học Bắc Kinh, 1958)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_QUA",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc qua có saponin khoảng $2$%, axit hữu cơ, tanin, và flavonozit (theo hệ dược Viện y học Bắc Kinh, 1958)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T546"
+      }
+    }
+  ]
+}

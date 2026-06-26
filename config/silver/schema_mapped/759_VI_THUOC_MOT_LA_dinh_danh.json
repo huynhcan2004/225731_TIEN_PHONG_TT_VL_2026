@@ -1,0 +1,75 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MOT_LA",
+    "ten_raw": "Cây một lá",
+    "display_name": "Cây một lá",
+    "ten_khoa_hoc": "Nervilia fordii (Hance) Schultze",
+    "ho_thuc_vat": "Lan Orchidaceae",
+    "variants": [
+      "thanh thiên quỷ",
+      "bầu thoọc",
+      "chân châu diệp"
+    ],
+    "properties": {
+      "bo_phan_dung": "củ",
+      "phan_bo": "cây địa sinh, loại cỏ sống lâu",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập"
+    }
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T759",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "759"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây một lá, còn có tên thanh thiên quỷ hay bầu thoọc (bầu là lá, thoọc là một) hay chân châu diệp là một cây địa sinh, loại cỏ sống lâu, cao từ $10$-$20cm$. Thân rất ngắn, củ tròn to, có thể nặng tới $1,5$-$20g$. Thẳng từ củ, chỉ mọc lên có một lá riêng lẻ sau khi hoa tàn. Lá hình tim tròn, xếp theo các gân lá hình chân vịt, đường kính $10$-$25cm$ mép uốn lượn. Gân lá toả đều từ cuống lá, cuống lá dài $10$-$20cm$, màu tím hồng. Cụm hoa có cán dài $20$-$30cm$. Hoa thưa $15$-$20$ cái, mọc thành chùm hay bông màu trắng, đốm tím hồng hay màu vàng hơi xanh lục. Lá đài và cánh hoa giống nhau. Cánh môi 3 thuỳ, có rất nhiều gân, có lông ở quãng giữa, thuỳ bên và thuỳ tận cùng hình ba cạnh, cột dài $6mm$, phồng ở đỉnh. Ra hoa tháng 3-4-5, quả nang vào các tháng 4-5-6. Khi hoa nở, đầu cánh hoa phía trên chụm lại làm toàn hoa giống như chiếc đèn lồng. Quả hình thoi, trên có múi trong giống như quả khế con, dài $2$-$3cm$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOT_LA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá bạch đàn chứa tanin, nhựa và tinh dầu ($3$ đến $6%$ tính trên lá khô kiệt)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T759"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOT_LA",
+      "to": "HC_NHUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá bạch đàn chứa tanin, nhựa và tinh dầu ($3$ đến $6%$ tính trên lá khô kiệt)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T759"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOT_LA",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá bạch đàn chứa tanin, nhựa và tinh dầu ($3$ đến $6%$ tính trên lá khô kiệt)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T759"
+      }
+    }
+  ]
+}

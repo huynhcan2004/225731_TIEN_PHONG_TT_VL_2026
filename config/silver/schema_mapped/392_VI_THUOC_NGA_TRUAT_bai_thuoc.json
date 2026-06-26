@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_NGA_TRUAT",
+  "source": {
+    "source_id": "CT_VT_VN_T392",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "392"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_ELIXIR_DE_LONGUE_VIE_LOLDNPP",
+      "to": "VI_THUOC_NGA_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2,5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc bổ Elixir de longue vie (rượu thuốc bổ giúp sống lâu).",
+        "mo_ta_chi_tiet": "Tây y dùng nga truật trong đơn thuốc bổ Elixir de longue vie (rượu thuốc bổ giúp sống lâu)",
+        "cach_dung": "Các vị trên thái nhỏ ngâm trong $2.000ml$ cồn 60, trong vòng 10 ngày. Lọc lấy rượu mà uống. Ngày uống từ $2-5ml$ rượu này, nếu uống nhiều quá sẽ có tác dụng nhuận tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_NON_SUA_NGA_TRUAT_NMN",
+      "to": "VI_THUOC_NGA_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Điều trị chứng nôn trớ ở trẻ em.",
+        "mo_ta_chi_tiet": "chữa trẻ con bú sữa bị nôn ra",
+        "cach_dung": "sắc với sữa cho sôi chừng 5 phút, hoà tan cho trẻ sơ sinh uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_NON_SUA_NGA_TRUAT_NMN",
+      "to": "B_NON_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa trẻ con bú sữa bị nôn ra",
+        "cach_dung": "sắc với sữa cho sôi chừng 5 phút, hoà tan cho trẻ sơ sinh uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    }
+  ],
+  "metadata": {}
+}

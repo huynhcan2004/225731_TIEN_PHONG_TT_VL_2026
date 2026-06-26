@@ -1,0 +1,436 @@
+{
+  "entity_hub": "VI_THUOC_PHEN_CHUA",
+  "source": {
+    "source_id": "CT_VT_VN_T1061",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1061"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_MAT_DO_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, làm sạch mắt, giảm viêm.",
+        "cach_dung": "Hòa vào một bát nước sôi để nguội, dùng rửa mắt nhiều lần trong ngày.",
+        "ghi_chu": "phi $8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_DO_PHEN_P",
+      "to": "B_DAU_MAT_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt đỏ",
+        "cach_dung": "Hòa vào một bát nước sôi để nguội, dùng rửa mắt nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, giảm đau, giảm viêm trong khoang miệng.",
+        "cach_dung": "Hòa vào một chén nước nóng, ngậm nhiều lần trong ngày.",
+        "ghi_chu": "phi $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_PHEN_P",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng",
+        "cach_dung": "Hòa vào một chén nước nóng, ngậm nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_PHEN_BM",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua giúp cầm máu, bột mỳ giúp tạo khối để dễ uống.",
+        "cach_dung": "Trộn đều, thêm đường vào làm thành bánh cho người bệnh ăn.",
+        "ghi_chu": "phi $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_PHEN_BM",
+      "to": "VT_BOT_MY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua giúp cầm máu, bột mỳ giúp tạo khối để dễ uống.",
+        "cach_dung": "Trộn đều, thêm đường vào làm thành bánh cho người bệnh ăn.",
+        "ghi_chu": "$4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_PHEN_BM",
+      "to": "B_HO_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu",
+        "cach_dung": "Trộn đều, thêm đường vào làm thành bánh cho người bệnh ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, giảm viêm họng.",
+        "cach_dung": "Ngậm.",
+        "ghi_chu": "1 miếng bằng hạt đậu xanh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_PHEN_P",
+      "to": "B_VIEM_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm họng",
+        "cach_dung": "Ngậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_SOI_PHEN_BT",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua và thạch cao có tác dụng làm se, khô các mụn đậu, sởi đã vỡ.",
+        "cach_dung": "Tán nhỏ, rắc lên những mụn đậu, sởi đã vỡ.",
+        "ghi_chu": "lượng bằng nhau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_SOI_PHEN_BT",
+      "to": "VT_BOT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua và thạch cao có tác dụng làm se, khô các mụn đậu, sởi đã vỡ.",
+        "cach_dung": "Tán nhỏ, rắc lên những mụn đậu, sởi đã vỡ.",
+        "ghi_chu": "lượng bằng nhau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_SOI_PHEN_BT",
+      "to": "B_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con lên đậu, lên sởi",
+        "cach_dung": "Tán nhỏ, rắc lên những mụn đậu, sởi đã vỡ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DAU_SOI_PHEN_BT",
+      "to": "B_SOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con lên đậu, lên sởi",
+        "cach_dung": "Tán nhỏ, rắc lên những mụn đậu, sởi đã vỡ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_LY_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, cầm máu trong trường hợp lỵ ra máu.",
+        "cach_dung": "Hòa với nước cơm mà uống.",
+        "ghi_chu": "phi $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_LY_PHEN_P",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu",
+        "cach_dung": "Hòa với nước cơm mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_NGUA_AM_HO_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, giảm ngứa.",
+        "cach_dung": "Hòa vào một bô nước ấm để rửa.",
+        "ghi_chu": "$20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_NGUA_AM_HO_PHEN_P",
+      "to": "S_NGUA_AM_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngứa âm hộ",
+        "cach_dung": "Hòa vào một bô nước ấm để rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_SAY_SAN_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng giải độc.",
+        "cach_dung": "Uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_SAY_SAN_PHEN_P",
+      "to": "B_NGO_DOC_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa say sắn",
+        "cach_dung": "Uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_PHEN_MM",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua và mai mực có tác dụng làm se, giảm tiết dịch trong trường hợp bạch đới.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$.",
+        "ghi_chu": "$800g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_PHEN_MM",
+      "to": "VT_MAI_MUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua và mai mực có tác dụng làm se, giảm tiết dịch trong trường hợp bạch đới.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$.",
+        "ghi_chu": "$200g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_PHEN_MM",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_PHEN_G",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua và gan gà có tác dụng bổ mắt, giảm mờ mắt.",
+        "cach_dung": "Tất cả cho vào một bát con, hấp chín, ăn cả nước lẫn cái.",
+        "ghi_chu": "$4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_PHEN_G",
+      "to": "VT_GAN_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua và gan gà có tác dụng bổ mắt, giảm mờ mắt.",
+        "cach_dung": "Tất cả cho vào một bát con, hấp chín, ăn cả nước lẫn cái.",
+        "ghi_chu": "1 cái"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_PHEN_G",
+      "to": "B_MAT_CO_MANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt có màng",
+        "cach_dung": "Tất cả cho vào một bát con, hấp chín, ăn cả nước lẫn cái."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng sát khuẩn, làm sạch vết thương trong trường hợp cam tẩu mã.",
+        "cach_dung": "Tán nhỏ, rắc vào.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_PHEN_P",
+      "to": "B_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cam tẩu mã",
+        "cach_dung": "Tán nhỏ, rắc vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_NHIEU_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng làm se, giảm tiết mồ hôi.",
+        "cach_dung": "Hòa vào nước ấm mà rửa.",
+        "ghi_chu": "$4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_NHIEU_PHEN_P",
+      "to": "S_MO_HOI_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi ra nhiều",
+        "cach_dung": "Hòa vào nước ấm mà rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_RA_MAU_PHEN_P",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua có tác dụng cầm máu trong trường hợp trẻ con đi ngoài ra máu.",
+        "cach_dung": "Hòa với nước cơm cho uống.",
+        "ghi_chu": "$1-2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_RA_MAU_PHEN_P",
+      "to": "S_DI_NGOAI_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con đi ngoài ra máu",
+        "cach_dung": "Hòa với nước cơm cho uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    }
+  ],
+  "metadata": {}
+}

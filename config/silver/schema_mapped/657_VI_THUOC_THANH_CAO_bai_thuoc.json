@@ -1,0 +1,69 @@
+{
+  "entity_hub": "VI_THUOC_THANH_CAO",
+  "source": {
+    "source_id": "CT_VT_VN_T657",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "657"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_THANH_CAO_T",
+      "to": "VI_THUOC_THANH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thanh cao là vị thuốc chính để điều trị sốt.",
+        "mo_ta_chi_tiet": "Thanh cao chữa sốt, sốt rét.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "BT_SOT_THANH_CAO_T",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "BT_SOT_THANH_CAO_T",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "BT_NHAN_DAN_THANH_CAO_T",
+      "to": "VI_THUOC_THANH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc đơn giản chỉ có thanh cao.",
+        "mo_ta_chi_tiet": "Thanh cao $12g$",
+        "cach_dung": "Dùng trong nhân dán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    }
+  ],
+  "metadata": {}
+}

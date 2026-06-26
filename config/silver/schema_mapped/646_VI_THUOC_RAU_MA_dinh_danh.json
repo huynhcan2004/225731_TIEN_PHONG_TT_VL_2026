@@ -1,0 +1,103 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_MA",
+    "ten_raw": "Cây rau má",
+    "ten_khoa_hoc": "Centella asiatica (L.) Urb.; (Hydrocotyle asiatica L. Trisanthus cochinchinensis Lour.)",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "variants": [
+      "Rau má"
+    ],
+    "properties": {
+      "bo_phan_dung": "cỏ",
+      "phan_bo": "Rau má là một loại cỏ mọc bò, có rễ ở các mấu, thân gầy, nhẵn.",
+      "che_bien_tho": "Lá hình mắt chim, khía tai bèo, rộng $2$-$4$cm, cuống dài $2$-$4$cm trong những nhành mang hoa và dài $10$-$12$cm trong những nhành thường.",
+      "thu_hai": "Thu hái\nquanh năm."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T646",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "646"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_BANG_QUANG"
+        ],
+        "cong_nang": "thanh nhiệt, lợi thấp"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Rau má là một loại cỏ mọc bò, có rễ ở các mấu, thân gầy, nhẵn. Lá hình mắt chim, khía tai bèo, rộng $2$-$4cm$, cuống dài $2$-$4cm$ trong những nhánh mang hoa và dài $10$-$12cm$ trong những nhánh thường. Cụm hoa đơn mọc ở kẽ lá, gồm 1 đến 5 hoa nhỏ. Quả dẹt rộng $3$-$5mm$, có sống hơi rõ",
+        "thanh_phan_hoa_hoc": [
+          "Theo Basu và Lamsal (1947), trong rau má có một ancaloit gọi là hydrocotylin $C_{11}H_{19}O_3N$, có độ chảy $210$-$212°C$. Ancaloit này cho các muối"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thanh nhiệt, lợi thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MA",
+      "to": "HC_HYDROCOTYLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Basu và Lamsal (1947), trong rau má có một ancaloit gọi là hydrocotylin $C_{11}H_{19}O_3N$, có độ chảy $210$-$212°C$. Ancaloit này cho các muối"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T646"
+      }
+    }
+  ]
+}

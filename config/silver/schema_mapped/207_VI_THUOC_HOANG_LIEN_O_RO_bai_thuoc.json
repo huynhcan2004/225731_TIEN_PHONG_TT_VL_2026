@@ -1,0 +1,517 @@
+{
+  "entity_hub": "VI_THUOC_HOANG_LIEN_O_RO",
+  "source": {
+    "source_id": "CT_VT_VN_T207",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "207"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính chữa lỵ.",
+        "cach_dung": "Sắc hoặc làm thuốc bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_HOANG_LIEN_O_RO_H",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị chứng ăn uống không tiêu.",
+        "cach_dung": "Sắc hoặc làm thuốc bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_HOANG_LIEN_O_RO_H",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị chứng vàng da.",
+        "cach_dung": "Sắc hoặc làm thuốc bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_HOANG_LIEN_O_RO_H",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vàng da.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị chứng đau mắt.",
+        "cach_dung": "Sắc hoặc làm thuốc bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_LIEN_O_RO_H",
+      "to": "S_DAU_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_MUN_NHOT_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng ngoài trị mẩn ngứa, mụn nhọt.",
+        "cach_dung": "Dưới dạng thuốc sắc hay thuốc bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_MUN_NHOT_HOANG_LIEN_O_RO_H",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa mụn nhọt.",
+        "cach_dung": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_MUN_NHOT_HOANG_LIEN_O_RO_H",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa mụn nhọt.",
+        "cach_dung": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_MU_HOANG_LIEN_O_RO_HCR",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, rau sam và cam thảo đất hỗ trợ điều trị lỵ ra máu mủ.",
+        "cach_dung": "Sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_MU_HOANG_LIEN_O_RO_HCR",
+      "to": "VI_THUOC_RAU_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, rau sam và cam thảo đất hỗ trợ điều trị lỵ ra máu mủ.",
+        "cach_dung": "Sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_MU_HOANG_LIEN_O_RO_HCR",
+      "to": "VI_THUOC_CAM_THAO_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, rau sam và cam thảo đất hỗ trợ điều trị lỵ ra máu mủ.",
+        "cach_dung": "Sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_MU_HOANG_LIEN_O_RO_HCR",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu mủ",
+        "cach_dung": "Sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị viêm kết mạc.",
+        "cach_dung": "Sắc lấy nước rửa mắt nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_HOANG_LIEN_O_RO_H",
+      "to": "B_VIEM_KET_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt (do viêm kết mạc)",
+        "cach_dung": "Sắc lấy nước rửa mắt nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_RA_MAU_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$2-4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị chứng đi ngoài ra máu ở trẻ em.",
+        "cach_dung": "Sắc lấy nước cho uống dần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_RA_MAU_HOANG_LIEN_O_RO_H",
+      "to": "S_DI_NGOAI_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con đi ngoài ra máu",
+        "cach_dung": "Sắc lấy nước cho uống dần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị sốt cao, khát nước.",
+        "cach_dung": "Sắc lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_HOANG_LIEN_O_RO_H",
+      "to": "S_SOT_CAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, khát nước",
+        "cach_dung": "Sắc lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị viêm tai giữa.",
+        "cach_dung": "Tán nhỏ, thổi vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HOANG_LIEN_O_RO_H",
+      "to": "B_VIEM_TAI_GIUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm tai giữa",
+        "cach_dung": "Tán nhỏ, thổi vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị mụn nhọt.",
+        "cach_dung": "Tán bột rắc lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_HOANG_LIEN_O_RO_H",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Tán bột rắc lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_BONG_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị bỏng.",
+        "cach_dung": "Tán bột, hòa với dầu vừng bôi lên nơi bỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_BONG_HOANG_LIEN_O_RO_H",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Tán bột, hòa với dầu vừng bôi lên nơi bỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị đau răng.",
+        "cach_dung": "Ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_HOANG_LIEN_O_RO_H",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng",
+        "cach_dung": "Ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_TRI_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trị trĩ.",
+        "cach_dung": "Sắc lấy nước rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_TRI_HOANG_LIEN_O_RO_H",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trĩ",
+        "cach_dung": "Sắc lấy nước rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_AMIP_HOANG_LIEN_O_RO_BOS",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, bồ công anh và sài đất hỗ trợ điều trị lỵ amip.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_AMIP_HOANG_LIEN_O_RO_BOS",
+      "to": "VI_THUOC_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, bồ công anh và sài đất hỗ trợ điều trị lỵ amip.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_AMIP_HOANG_LIEN_O_RO_BOS",
+      "to": "VI_THUOC_SAI_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng liên ô rô là vị chính, bồ công anh và sài đất hỗ trợ điều trị lỵ amip.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_AMIP_HOANG_LIEN_O_RO_BOS",
+      "to": "B_LY_AMIP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ amip",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_HOANG_LIEN_O_RO_H",
+      "to": "VI_THUOC_HOANG_LIEN_O_RO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính chữa lỵ.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    },
+    {
+      "from": "BT_LY_HOANG_LIEN_O_RO_H",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T207"
+      }
+    }
+  ],
+  "metadata": {}
+}

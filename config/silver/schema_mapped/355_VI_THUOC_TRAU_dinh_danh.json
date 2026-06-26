@@ -1,0 +1,67 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRAU",
+    "ten_raw": "Trẩu",
+    "ten_khoa_hoc": "Aleurites montana (Lour.) Wils.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T355",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "355"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trẩu là một cây to, cao có thể tới $8m$ hay nhiều hơn, thân nhẵn. Lá đa dạng, khi thì có thùy sâu, khi xẻ nông, khi thì nguyên và hình tim, mặt trên bóng, màu sẫm, mặt dưới mờ, màu nhạt. Các lá đa dạng đều có một đặc điểm chung: Ở gốc phiến lá và kẽ thùy bao giờ cũng có 2 tuyến đỏ nổi rõ, cuống lá dài $7$-$10cm$. Hoa đơn tính, cùng gốc, có khi khác gốc. Tràng 5, màu trắng, đốm tía ở móng tràng. Quả hình trứng, màu lục, đường kính $3$-$5cm$, mặt ngoài nhẵn nhẻo, cấu tạo bởi 3 mảnh vỏ, mỗi mảnh có I đường gân nổi cao, 3 hạt có nội nhũ to chứa nhiều dầu. Mùa hoa tháng 3-4, thường ra hoa trước khi lá non xuất hiện. Thường tháng 9 lại có 1 vụ hoa nữa. Quả của lứa hoa trước chín vào khoảng tháng 10",
+        "thanh_phan_hoa_hoc": [
+          "Hạt trẩu có chứa tới $50$-$70\\%$ dầu. Dầu trễ lỏng màu vàng nhạt, chóng khô. Trong dầu trà có chừng 70 đến $79\\%$ axit stearic, $8$-$12\\%$ ax linoleic, $10$-$15\\%$ axit oleic. Dầu trẩu mau khô, khi kết thành màng có tính chất chống ẩm chịu được thời tiết biến đổi cao, sức co giãn tốt, có tác dụng chống gỉ. Trong lá và hạt có saponorit độc, không thể dùng làm thức ăn cho gia súc được."
+        ],
+        "lieu_dung_tong_quat": "Cây trẩu cho ta một loại dầu sơn rất quý dùng trong nước và xuất khẩu. Khô dầu trẩu là một nguồn phân bón ruộng, có tác dụng trừ sâu.",
+        "cach_dung_bao_che": "Cây trẩu cho ta một loại dầu sơn rất quý dùng trong nước và xuất khẩu. Khô dầu trẩu là một nguồn phân bón ruộng, có tác dụng trừ sâu."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAU",
+      "to": "HC_AXIT_STEARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu trà có chừng 70 đến $79\\%$ axit stearic, $8$-$12\\%$ ax linoleic, $10$-$15\\%$ axit oleic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T355"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU",
+      "to": "HC_AXIT_LINOLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu trà có chừng 70 đến $79\\%$ axit stearic, $8$-$12\\%$ ax linoleic, $10$-$15\\%$ axit oleic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T355"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU",
+      "to": "HC_AXIT_OLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu trà có chừng 70 đến $79\\%$ axit stearic, $8$-$12\\%$ ax linoleic, $10$-$15\\%$ axit oleic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T355"
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DIEP_CA",
+    "ten_raw": "Cây diếp cá",
+    "ten_khoa_hoc": "Houttuynia cordata Thunb.",
+    "ho_thuc_vat": "Lá giấp Saururaceae",
+    "variants": [
+      "cây rum"
+    ],
+    "properties": {
+      "phan_bo": "Mọc hoang ở khắp nơi ẩm thấp trong nước ta.",
+      "thu_hai": "Nhân dân thường hái về ăn với cá.",
+      "che_bien_tho": "Toàn cây hái về dùng tươi hay phơi khô hoặc sấy khô."
+    },
+    "display_name": "Cây diếp cá"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T55",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "55"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_PHE"
+        ],
+        "cong_nang": "tán nhiệt, tiêu ung thũng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây diếp cá là một loại cỏ nhỏ, mọc lâu năm, ưa chỗ ẩm ướt có thân rễ mọc ngầm dưới đất. Rễ nhỏ mọc ở các đốt, thân mọc đứng cao $40cm$, có lỏng hoặc ít lông. Lá mọc cách, hình tim, đầu lá, hơi nhọn hay nhọn hẳn. Hoa nhỏ màu vàng nhạt, không có bao hoa, mọc thành bóng, có $4$ lá bắc màu trắng; trông toàn bộ bề ngoài của cụm hoa và lá bắc giống như một cây hoa đơn độc, toàn cây vò có mùi tanh như cá. Hoa nở về mùa hạ vào các tháng $5$-$8$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây có chừng $0,0049\\%$ tinh dầu và một ít chất ancalôit gọi là cocdalin (cordalin).",
+          "Thành phần chủ yếu của tinh dầu là metylnonylxeton $CH_3CO(CH_2)_8CH_3$ (có mùi rất khó chịu), chất miécxen (myrcen) $C_{10}H_{16}$. axit caprinic $C_9H_{19}COOH$ và laurinaldehyt.",
+          "Hoa và quả chứa chất isoquexitrin và không chứa quexitrin.",
+          "Độ tro trung bình là $11,4\\%$, tro không tan trong $HCl$ là $2,7\\%$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào phế kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán nhiệt, tiêu ung thũng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_COCDALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây có chừng $0,0049\\%$ tinh dầu và một ít chất ancalôit gọi là cocdalin (cordalin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_METYLNONYLXETON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là metylnonylxeton $CH_3CO(CH_2)_8CH_3$ (có mùi rất khó chịu), chất miécxen (myrcen) $C_{10}H_{16}$. axit caprinic $C_9H_{19}COOH$ và laurinaldehyt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_MYRCEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là metylnonylxeton $CH_3CO(CH_2)_8CH_3$ (có mùi rất khó chịu), chất miécxen (myrcen) $C_{10}H_{16}$. axit caprinic $C_9H_{19}COOH$ và laurinaldehyt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_AXITCAPRINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là metylnonylxeton $CH_3CO(CH_2)_8CH_3$ (có mùi rất khó chịu), chất miécxen (myrcen) $C_{10}H_{16}$. axit caprinic $C_9H_{19}COOH$ và laurinaldehyt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_LAURINALDEHYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là metylnonylxeton $CH_3CO(CH_2)_8CH_3$ (có mùi rất khó chịu), chất miécxen (myrcen) $C_{10}H_{16}$. axit caprinic $C_9H_{19}COOH$ và laurinaldehyt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEP_CA",
+      "to": "HC_ISOQUEXITRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa và quả chứa chất isoquexitrin và không chứa quexitrin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T55"
+      }
+    }
+  ]
+}

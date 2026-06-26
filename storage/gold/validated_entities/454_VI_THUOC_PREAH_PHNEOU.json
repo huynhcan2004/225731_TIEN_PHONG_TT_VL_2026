@@ -1,0 +1,202 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PREAH_PHNEOU",
+    "ten_raw": "Preah phneou",
+    "display_name": "Preah phneou",
+    "ten_khoa_hoc": "$Terminalia nigrovenulosa Pierre$",
+    "ho_thuc_vat": "$họ Bàng Combretaceae$",
+    "variants": [
+      "Preah phncou"
+    ],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "không có thông tin",
+      "phan_bo": "Cây prcah phneou mọc phổ biến ở miền Nam nước ta, còn thấy ở Campuchia. Nhưng ít thấy ở Lào và hầu như chưa thấy ở miền Bắc."
+    },
+    "canonical_name": "Preah phneou"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_PREAH_PHNEOU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Preah Phneou"
+      }
+    },
+    {
+      "id": "HC_AXIT_CACHOUTANIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Cachoutanic"
+      }
+    },
+    {
+      "id": "HC_PHLOBAPHEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Phlobaphen"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "HC_OXALAT_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Oxalat Canxi"
+      }
+    },
+    {
+      "id": "B_DI_IA_LONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Ia Long"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "454"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Preah phncou là tên Cămpuchia của một loài chiều liêu. Vì tên này được giới thiệu dùng trong thuốc đầu tiên cho nên cứ giữ tên này. Cây cao $10-30m$, thân hình trụ, vỏ màu trắng nhạt, gần như nhẵn. Lá mọc đối, hình trứng hay hình mác, đầu và phía cuống hơi tù; phiến lá dai, hơi bóng, dài $8-10cm$, rộng $5-6cm$, mặt trên có những điểm trắng nhỏ, gần phía cuống có hai hạch dài ở mép lá. Cuống lá rất ngắn. Hoa nhỏ, màu trắng, mọc thành chuỳ kép, dài $6cm$, trên có phủ lông màu hung nhạt. Quả dài $25mm$, có ba cánh rộng $7-8mm$, một ngăn. Một hạt hình thoi dài $2mm$, lá mầm cuốn. Mùa hoa: tháng 3-4; mùa quả: tháng 4-5 ( Hình 339 ).",
+        "thanh_phan_hoa_hoc": [
+          "Vỏ preah phneou cho $35\\%$ cao khô, trong đó không có axit galic hay axit digalic tự do. Guichard cho rằng thành phần chủ yếu là axit cachoutanic và phlobaphen",
+          "Tạ Ngọc Liên thấy trong vỏ preah phneou có $2\\%$ chất tanin và $10\\%$ oxalat canxi."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "HC_AXIT_CACHOUTANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Guichard cho rằng thành phần chủ yếu là axit cachoutanic và phlobaphen",
+        "ghi_chu": "trong vỏ cây preah phneou"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "HC_PHLOBAPHEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Guichard cho rằng thành phần chủ yếu là axit cachoutanic và phlobaphen",
+        "ghi_chu": "trong vỏ cây preah phneou"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tạ Ngọc Liên thấy trong vỏ preah phneou có $2\\%$ chất tanin và $10\\%$ oxalat canxi.",
+        "ghi_chu": "trong vỏ cây preah phneou"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "HC_OXALAT_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tạ Ngọc Liên thấy trong vỏ preah phneou có $2\\%$ chất tanin và $10\\%$ oxalat canxi.",
+        "ghi_chu": "trong vỏ cây preah phneou"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "B_DI_IA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ cây $20g-40g$ cao lỏng, hoặc $13g$ cao khô hay $50-100g$ cồn thuốc ($1/5$)",
+        "cach_dung": "Thường chế khi dùng, vì dạng xirô chế bằng cao nước preah phneou rất dễ lên men mốc. Có thể chế thành dạng viên nén hay viên hoàn.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T454"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PREAH_PHNEOU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ cây $20g-40g$ cao lỏng, hoặc $13g$ cao khô hay $50-100g$ cồn thuốc ($1/5$)",
+        "cach_dung": "Thường chế khi dùng, vì dạng xirô chế bằng cao nước preah phneou rất dễ lên men mốc. Có thể chế thành dạng viên nén hay viên hoàn.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T454"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454",
+        "all_sources": [
+          "CT_VT_VN_T454"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 35.0,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

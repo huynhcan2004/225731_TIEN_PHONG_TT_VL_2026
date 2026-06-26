@@ -1,0 +1,103 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOA_CUT_LON",
+    "ten_raw": "Cây hoa cứt lợn",
+    "ten_khoa_hoc": "Ageratum conyzoides L.",
+    "ho_thuc_vat": "Cúc Asteraceae(Compositae)",
+    "variants": [
+      "hoa cứt lợn"
+    ],
+    "properties": {
+      "phan_bo": "Mọc hoang dại ở khắp nơi.",
+      "thu_hai": "Người ta hái toàn cây cắt bỏ rễ, dùng tươi hay khô. Thường hay dùng cây hơn."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T58",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "58"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây hoa cứt lợn là một cây nhỏ, mọc hàng năm, thân có nhiều lông nhỏ mềm, cao chừng $25$-$50cm$, mọc hoang ở khắp nơi trong nước ta. Lá mọc đối hình trứng hay 3 cạnh, dài $2$-$6cm$, rộng $1$-$3cm$, mép có răng cưa tròn, hai mặt đều có lông, mặt dưới của lá nhạt hơn. Hoa nhỏ, màu tím, xanh. Quả bế màu đen, có 5 sống dọc",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần hoạt chất chưa rõ. Chỉ mới biết trong cây có khoảng $0,16\\%$ tinh dầu đặc (cây khô kiệt) tỷ trọng $1,109$, & =$120$,chỉ số axit $0,9$, chỉ số estell,$2$. Người ta nghi trong tinh dầu có cumarin. Trong hoa có $0,2\\%$tinh dầu, có mùi gây nôn, tỷ trọng $0,9357$, $0$,=$9^27$. Trong tinh dầu hoa lá đều có $cadinen$, $caryophyllen$, $geratocromen$, $demetoxygeratocromen$ và một số thành phần khác (1973 Sood V. K. Flavour Industry 2: 77). Theo Nguyễn Văn Đàn và Phạm Trương Thị Thọ (1973 Thông báo dược liệu) thì hàm lượng tinh dầu từ $0,7$ đến $2\\%$, tinh dầu hơi sánh đặc, màu vàng nhạt đến màu vàng nghệ, mùi thơm dễ chịu. Chỉ số axit $4,5$, chỉ số este $252$ đến $254$, &D từ -$3°8$ đến -$503$. Có tác giả lại tìm thấy ancaloit và saponin. Theo Nguyễn Xuân Dũng và cộng sự (J. Ess. Oil Res. L 135-136 May-June, 1989) thành phần chủ yếu của tinh dầu gồm $precocen I$ (6- demethoxyageratochromen) $precocen II$ (ageratochromen) và $caryophyllen$. Ba thành phần này chiếm $77\\%$ tinh dầu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_CADINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu hoa lá đều có $cadinen$, $caryophyllen$, $geratocromen$, $demetoxygeratocromen$ và một số thành phần khác (1973 Sood V. K. Flavour Industry 2: 77)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_CARYOPHYLLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu hoa lá đều có $cadinen$, $caryophyllen$, $geratocromen$, $demetoxygeratocromen$ và một số thành phần khác (1973 Sood V. K. Flavour Industry 2: 77)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_GERATOCROMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu hoa lá đều có $cadinen$, $caryophyllen$, $geratocromen$, $demetoxygeratocromen$ và một số thành phần khác (1973 Sood V. K. Flavour Industry 2: 77)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_DEMETOXYGERATOCROMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu hoa lá đều có $cadinen$, $caryophyllen$, $geratocromen$, $demetoxygeratocromen$ và một số thành phần khác (1973 Sood V. K. Flavour Industry 2: 77)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_PRECOCEN_I",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Nguyễn Xuân Dũng và cộng sự (J. Ess. Oil Res. L 135-136 May-June, 1989) thành phần chủ yếu của tinh dầu gồm $precocen I$ (6- demethoxyageratochromen) $precocen II$ (ageratochromen) và $caryophyllen$. Ba thành phần này chiếm $77\\%$ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_CUT_LON",
+      "to": "HC_PRECOCEN_II",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Nguyễn Xuân Dũng và cộng sự (J. Ess. Oil Res. L 135-136 May-June, 1989) thành phần chủ yếu của tinh dầu gồm $precocen I$ (6- demethoxyageratochromen) $precocen II$ (ageratochromen) và $caryophyllen$. Ba thành phần này chiếm $77\\%$ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    }
+  ]
+}

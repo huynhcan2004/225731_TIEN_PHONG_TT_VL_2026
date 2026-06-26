@@ -1,0 +1,123 @@
+{
+  "entity_hub": "VI_THUOC_NHAN_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T819",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "819"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BENH_NGOAI_DA_NHAN_SAM_N",
+      "to": "VI_THUOC_NHAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị bệnh ngoài da",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Chữa một số bệnh ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DAU_DOC_NHAN_SAM_C",
+      "to": "VI_THUOC_NHAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Giải độc, thanh nhiệt",
+        "cach_dung": "hoà với mật mà uống",
+        "ghi_chu": "Giải đậu độc lúc sắp mọc hay mới mọc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DAU_DOC_NHAN_SAM_C",
+      "to": "VT_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ giải độc, thanh nhiệt",
+        "cach_dung": "hoà với mật mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_NHAN_SAM_C",
+      "to": "VI_THUOC_NHAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ thận, cố tinh",
+        "cach_dung": "cho vào quả tim lợn, lấy chỉ buộc quả tim lợn lại nấu chín mà ăn",
+        "ghi_chu": "Chữa di tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_NHAN_SAM_C",
+      "to": "VT_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "An thần, cố tinh",
+        "cach_dung": "cho vào quả tim lợn, lấy chỉ buộc quả tim lợn lại nấu chín mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DAU_DOC_NHAN_SAM_C",
+      "to": "B_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải đậu độc lúc sắp mọc hay mới mọc",
+        "cach_dung": "hoà với mật mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_NHAN_SAM_C",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa di tinh",
+        "cach_dung": "cho vào quả tim lợn, lấy chỉ buộc quả tim lợn lại nấu chín mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_NHAN_SAM_N",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa một số bệnh ngoài da",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T819"
+      }
+    }
+  ],
+  "metadata": {}
+}

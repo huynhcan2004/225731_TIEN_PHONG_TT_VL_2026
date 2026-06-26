@@ -1,0 +1,145 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+    "ten_raw": "Hoàng đằng chân vịt",
+    "ten_khoa_hoc": "Cyclea peltata Hook. et. Thw (Cocculus peltatus DC); Fibraurea tinctoria Lour.",
+    "ho_thuc_vat": "Tiết dê (Menispermaceae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Thân và rễ",
+      "che_bien_tho": "Cắt ngang có hình bánh xe với những tia tủy hình nan hoa bánh xe, màu vàng tươi."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T209",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "209"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dây leo to, đường kính $3-6cm$, thân và cành có rãnh dọc, màu trắng ngà, có lông. Thân già màu xám xù xì. Cắt ngang có hình bánh xe với những tia tủy hình nan hoa bánh xe, màu vàng tươi. Lá có cuống dính ở 1/5 đến 1/7 của phiến, phiến hình ba cạnh, nhọn, đầu tận cùng bằng một móc hình sợi, dài $20-24cm$, rộng $14-16cm$, mặt trên màu xanh tươi, mặt dưới màu trắng ngà, gân lá hình chân vịt có 5-9 gân tỏa ra xung quanh. Vì thân và rễ có màu vàng như cây hoàng đằng, tên hoàng đằng chân vịt để phân biệt với cây hoàng đằng. Cuống lá chỉ ngắn 2 phần chiều dài của lá. Cụm hoa mọc ở kẽ lá, phân nhánh, nhánh phía dưới dài hơn, có thể dài tới $7cm$. Hoa hình đầu hay hình trứng. Quả hạch hình cầu, hơi dẹt, có phủ lông, đường kính $5mm$. Nhân hình mắt chim, lồi ở hai mặt, với 8 vòng đồng tâm những mấu xù xì ( Hình 135 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hoàng đằng chân vịt, có ancaloit, chủ yếu là `$becberin$` với tỷ lệ từ $1,5$ đến $2%$ (Nguyễn Liêm và cộng sự, 1975)."
+        ],
+        "cach_dung_bao_che": "Không phải chế biến gì đặc biệt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "HC_BECBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng đằng chân vịt, có ancaloit, chủ yếu là `$becberin$` với tỷ lệ từ $1,5$ đến $2%$ (Nguyễn Liêm và cộng sự, 1975)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "HC_PALMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng đằng chân vịt chứa nhiều ancaloit thuộc dẫn chất becben: Palmatin C21H23O4N, columbamin C19H19O4N, jatrorrhizin C20H21O6N, becberin C20H19O5N."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "HC_COLUMBAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng đằng chân vịt chứa nhiều ancaloit thuộc dẫn chất becben: Palmatin C21H23O4N, columbamin C19H19O4N, jatrorrhizin C20H21O6N, becberin C20H19O5N."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "to": "HC_JATRORRHIZIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng đằng chân vịt chứa nhiều ancaloit thuộc dẫn chất becben: Palmatin C21H23O4N, columbamin C19H19O4N, jatrorrhizin C20H21O6N, becberin C20H19O5N."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    }
+  ]
+}

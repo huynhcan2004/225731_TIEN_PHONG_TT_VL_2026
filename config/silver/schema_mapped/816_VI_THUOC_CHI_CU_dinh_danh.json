@@ -1,0 +1,115 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHI_CU",
+    "ten_raw": "Chỉ cụ",
+    "ten_khoa_hoc": "Fructus Aurantii Immaturus; Citrus aurantium L.; Citrus sinensis Pers.",
+    "ho_thuc_vat": "Cam Quýt (Rutaceae)",
+    "variants": [
+      "Chỉ củ"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả còn non",
+      "che_bien_tho": "cắt ngang thành những lát dày chừng $2$-$3$mm. Mặt ngoài vỏ màu xanh vàng hay nâu vàng, nhăn nheo.",
+      "phan_bo": "Thường hái những quả rụng hoặc quả nhỏ còn sót lại sau khi đã hái quả lớn. Có khi người ta hái cả những quả còn non trên cây về, bổ đôi, phơi hay sấy khô. Có khi người ta dùng tươi."
+    },
+    "display_name": "Chỉ cụ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T816",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "816"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chỉ củ là những quả còn non của cây cam chua hay thanh yên, đường kính chừng $3$-$5cm$, cắt ngang thành những lát dày chừng $2$-$3mm$. Mặt ngoài vỏ màu xanh vàng hay nâu vàng, nhăn nheo. Chất cứng, vị đắng, mùi thơm đặc biệt.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    }
+  ]
+}

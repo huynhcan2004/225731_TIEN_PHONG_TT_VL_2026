@@ -1,0 +1,105 @@
+{
+  "entity_hub": "VI_THUOC_NHUC_THUNG_DUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T948",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "948"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "VI_THUOC_NHUC_THUNG_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhục thung dung bổ thận dương, kết hợp các vị thuốc khác để tăng cường tác dụng bổ thận, ích tủy, kiện não.",
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "VI_THUOC_SON_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sơn thù du giúp bổ can thận, cố tinh sáp niệu, tăng cường tác dụng của bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "VI_THUOC_THACH_XUONG_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thạch xương bồ giúp khai khiếu, an thần, tăng cường tác dụng của bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phục linh giúp kiện tỳ, an thần, tăng cường tác dụng của bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thỏ ty tử giúp bổ thận, ích tinh, tăng cường tác dụng của bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_THAN_KINH_NHUC_THUNG_DUNG_NSTPT",
+      "to": "B_SUY_NHUOC_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa suy nhược thần kinh",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia 3 lần uống trong ngày. Hâm nóng thuốc khi uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T948"
+      }
+    }
+  ],
+  "metadata": {}
+}

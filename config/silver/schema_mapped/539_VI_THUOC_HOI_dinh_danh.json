@@ -1,0 +1,73 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOI",
+    "ten_raw": "Hồi",
+    "ten_khoa_hoc": "Strychnos wallichiana",
+    "ho_thuc_vat": "Mã tiền (Strychnos)",
+    "variants": [
+      "hoàng nàn",
+      "cây mã tiền"
+    ],
+    "properties": {
+      "bo_phan_dung": "vỏ",
+      "phan_bo": "Hà Tây (Ba Vì), Lai Châu, Thanh Hoá, Nghệ An, Hà Tĩnh",
+      "thu_hai": "chặt cả cành, cắt thành từng khúc rồi mang về bóc vỏ",
+      "che_bien_tho": "Vỏ dài $4-5cm$, cuốn vòng, đường kính $1-3cm$, dày $1,5-2mm$, mặt ngoài có những nốt sần xám đen hay đỏ nâu, có nốt sần to, mặt trong xám nâu nhạt, có vết kẻ dọc, vết bẻ nhẵn, trông rõ hai lớp."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T539",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "539"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hình 405. Hoàng nàn - Strychnos wallichiana người cho hoàng nàn là vỏ cây mã tiền. Thu hái hạt thì gọi là mã tiền, thu hái vỏ thì gọi là hoàng nàn ( Hình 405, Hm 42,1). Thường người ta chặt cả cành, cắt thành từng khúc rồi mang về bóc vỏ. Vỏ dài $4$-$5cm$, cuốn vòng, đường kính $1$-$3cm$, dày $1,5$-$2mm$, mặt ngoài có những nốt sần xám đen hay đỏ nâu, có nốt sần to, mặt trong xám nâu nhạt, có vết kẻ dọc, vết bẻ nhẵn, trông rõ hai lớp. Khi thêm một giọt axit nitric vào mặt trong thấy có màu đỏ máu, mặt ngoài có màu lục đen. Vị rất đắng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hoàng nàn có $strycnin$, $bruxin$. Hàm lượng ancaloit toàn phần lên tới $5,23%$ trong đó $strycnin$ chiếm $2,37$-$2,43%$ và $bruxin$ chiếm $2,81%$. Tuy nhiên việc chiết xuất những ancaloit bằng phương pháp thông thường gặp trở ngại do chất nhựa kèm theo."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOI",
+      "to": "HC_STRYCNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng nàn có $strycnin$, $bruxin$. Hàm lượng ancaloit toàn phần lên tới $5,23%$ trong đó $strycnin$ chiếm $2,37$-$2,43%$ và $bruxin$ chiếm $2,81%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOI",
+      "to": "HC_BRUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng nàn có $strycnin$, $bruxin$. Hàm lượng ancaloit toàn phần lên tới $5,23%$ trong đó $strycnin$ chiếm $2,37$-$2,43%$ và $bruxin$ chiếm $2,81%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    }
+  ]
+}

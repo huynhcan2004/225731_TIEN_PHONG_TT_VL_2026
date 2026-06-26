@@ -1,0 +1,661 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HAT_TIEU",
+    "ten_raw": "Hat tiêu",
+    "ten_khoa_hoc": "$Piper nigri L.$",
+    "ho_thuc_vat": "$Họ Hồ tiêu (Piperaceae)$",
+    "variants": [
+      "Hồ tiêu",
+      "cổ nguyệt",
+      "hắc cổ nguyệt",
+      "bạch cổ nguyệt"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "khi chín có màu vàng.",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng $1-3g$ dưới dạng bột hay thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "miền Nam nước ta, nhiều nhất ở Châu Đốc, Hà Tiên, Phú Quốc, Bà Rịa, Quảng Trị. Tại miền Bắc đã bắt đầu trồng ở vùng Vĩnh Linh, hiện đang cố di chuyển dần ra phía bắc miền Bắc nước ta. Tại các nước khác, còn thấy ở Malaixia, Indonexya, Ấn Độ, Cămpuchia. Trung Quốc trước đây không có, mới thí nghiệm trồng ở Quảng Đông, Hải Nam, Quảng Tây và Vân Nam."
+    },
+    "display_name": "Vị thuốc Hạt tiêu",
+    "canonical_name": "Vị thuốc Hạt tiêu"
+  },
+  "nodes": [
+    {
+      "id": "BT_DI_LONG_NON_RA_HAT_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ỉa lỏng nôn ra hạt tiêu",
+        "aliases": [
+          "ỉa lỏng nôn ra hạt tiêu",
+          "ia long non ra hat tieu",
+          "ialongnonrahattieu"
+        ],
+        "search_vector_hint": "Bài thuốc Ỉa lỏng nôn ra hạt tiêu thuộc nhóm bài thuốc tiêu hóa, thường liên quan đến điều trị triệu chứng ỉa lỏng và nôn."
+      }
+    },
+    {
+      "id": "BT_ROI_LOAN_TIEU_HOA_HAT_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Rối loạn tiêu hóa hạt tiêu",
+        "aliases": [
+          "roiloantieuhoahattieu",
+          "rối loạn tiêu hóa hạt tiêu",
+          "roi loan tieu hoa hat tieu"
+        ],
+        "search_vector_hint": "Bài thuốc Rối loạn tiêu hóa hạt tiêu thuộc nhóm bài thuốc tiêu hóa, thường liên quan đến điều trị rối loạn tiêu hóa do hạt tiêu."
+      }
+    },
+    {
+      "id": "B_DI_LONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Điên long",
+        "aliases": [
+          "điên long",
+          "dien long",
+          "dienlong"
+        ],
+        "search_vector_hint": "Điên long thuộc nhóm bệnh, thường liên quan đến rối loạn tâm thần."
+      }
+    },
+    {
+      "id": "B_ROI_LOAN_TIEU_HOA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rối loạn tiêu hóa",
+        "aliases": [
+          "an khong tieu",
+          "khó tiêu",
+          "khotieu",
+          "roiloantieuhoa",
+          "roi loan tieu hoa",
+          "rối loạn tiêu hóa",
+          "ankhongtieu",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Rối loạn tiêu hóa thuộc nhóm bệnh tiêu hóa, thường liên quan đến chức năng dạ dày, ruột."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_DA_DAY",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính dạ dày",
+        "aliases": [
+          "độc tính dạ dày",
+          "doctinhdaday",
+          "doc tinh da day"
+        ],
+        "search_vector_hint": "Độc tính dạ dày thuộc nhóm dược lý, thường liên quan đến tác động có hại lên dạ dày."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính hô hấp",
+        "aliases": [
+          "độc tính hô hấp",
+          "doctinhhohap",
+          "doc tinh ho hap"
+        ],
+        "search_vector_hint": "Dược lý Độc tính hô hấp thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ hô hấp."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý độc tính thần",
+        "aliases": [
+          "độc tính thần",
+          "doctinhthan",
+          "doc tinh than"
+        ],
+        "search_vector_hint": "Dược lý độc tính thần thuộc nhóm dược lý, thường liên quan đến tác động độc hại lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DUOI_CON_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Đuổi côn trùng",
+        "aliases": [
+          "duoi con trung",
+          "đuổi côn trùng",
+          "duoicontrung"
+        ],
+        "search_vector_hint": "Đuổi côn trùng thuộc nhóm dược lý, thường liên quan đến khả năng xua đuổi côn trùng."
+      }
+    },
+    {
+      "id": "DL_KHA_NANG_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Khả năng sát trùng",
+        "aliases": [
+          "khanangsattrung",
+          "kha nang sat trung",
+          "khả năng sát trùng"
+        ],
+        "search_vector_hint": "Khả năng sát trùng thuộc nhóm dược lý, thường liên quan đến khả năng tiêu diệt vi sinh vật."
+      }
+    },
+    {
+      "id": "DL_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tiêu hóa",
+        "aliases": [
+          "tieuhoa",
+          "tiêu hóa",
+          "tieu hoa"
+        ],
+        "search_vector_hint": "Dược lý Tiêu hóa thuộc nhóm Dược lý, thường liên quan đến chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_CADINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cadinen",
+        "aliases": [
+          "cadinen"
+        ],
+        "search_vector_hint": "Hoạt chất Cadinen thuộc nhóm sesquiterpen, thường liên quan đến thành phần tinh dầu."
+      }
+    },
+    {
+      "id": "HC_CARIOPHILEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cariophilen",
+        "aliases": [
+          "cariophilen"
+        ],
+        "search_vector_hint": "Hoạt chất Cariophilen thuộc nhóm sesquiterpen, thường liên quan đến thành phần tinh dầu."
+      }
+    },
+    {
+      "id": "HC_CHAVIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chavixin",
+        "aliases": [
+          "chavixin"
+        ],
+        "search_vector_hint": "Hoạt chất Chavixin thuộc nhóm alkaloid, thường liên quan đến vị cay của hạt tiêu."
+      }
+    },
+    {
+      "id": "HC_PHELANDREN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Phelandren",
+        "aliases": [
+          "phelandren"
+        ],
+        "search_vector_hint": "Phelandren thuộc nhóm Hoạt chất, thường liên quan đến thành phần tinh dầu của thực vật."
+      }
+    },
+    {
+      "id": "HC_PIPERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Piperin",
+        "aliases": [
+          "piperin"
+        ],
+        "search_vector_hint": "Hoạt chất Piperin thuộc nhóm alkaloid, thường liên quan đến vị cay của hạt tiêu."
+      }
+    },
+    {
+      "id": "S_NON_RA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Non Ra",
+        "aliases": [
+          "non ra",
+          "nonra"
+        ],
+        "search_vector_hint": "Non Ra thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "VT_BAN_HA_CHE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bán hạ chế",
+        "aliases": [
+          "banhache",
+          "bán hạ chế",
+          "ban ha che"
+        ],
+        "search_vector_hint": "Bán hạ chế thuộc nhóm vị thuốc, thường liên quan đến trị ho, hóa đờm."
+      }
+    },
+    {
+      "id": "VT_HAT_TIEU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hạt tiêu",
+        "aliases": [
+          "hồ tiêu",
+          "hat tieu",
+          "hattieu",
+          "hotieu",
+          "ho tieu",
+          "hạt tiêu"
+        ],
+        "search_vector_hint": "Vị thuốc Hạt tiêu thuộc nhóm Vị thuốc, thường liên quan đến tính ấm, kích thích tiêu hóa.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "khi chín có màu vàng.",
+        "lieu_dung_chung": "Ngày dùng $1-3g$ dưới dạng bột hay thuốc viên.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "miền Nam nước ta, nhiều nhất ở Châu Đốc, Hà Tiên, Phú Quốc, Bà Rịa, Quảng Trị. Tại miền Bắc đã bắt đầu trồng ở vùng Vĩnh Linh, hiện đang cố di chuyển dần ra phía bắc miền Bắc nước ta. Tại các nước khác, còn thấy ở Malaixia, Indonexya, Ấn Độ, Cămpuchia. Trung Quốc trước đây không có, mới thí nghiệm trồng ở Quảng Đông, Hải Nam, Quảng Tây và Vân Nam.",
+        "ten_khoa_hoc": "$Piper nigri L.$",
+        "ho_thuc_vat": "$Họ Hồ tiêu (Piperaceae)$",
+        "hinh_thai_chi_tiet": "Tiêu là cay gắt; cây có vị cay gắt, sản sinh Hồ tiêu là một loại dây leo, thân dài, nhẵn không mang lông, bám vào các cây khác bằng rễ. Hình như giữa cây tựa và cây hồ tiêu có một sự sống nhờ nhau, cho nên khi gỡ cây hồ tiêu khỏi cây tựa, phần nhiều cây hồ tiêu bị chết. Thân mọc cuốn, mang lá mọc cách. Lá như lá trầu không, nhưng dài và thuôn hơn. Có hai loại nhánh: Một loại nhánh mang quả, và một loại nhánh dinh dưỡng, cả hai loại nhánh đều xuất phát từ kẽ lá. Đối chiếu với lá là một cụm hoa hình đuôi sóc. Khi chín, rụng cả chùm. Quả hình cầu nhỏ, chùng 20-30 quả trên một chùm, lúc đầu màu xanh lục, sau có màu đỏ, khi chín có màu vàng. Đốt cây rất dòn, cho nên khi vận chuyển, cần thận trọng để cây khỏi chết.",
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      }
+    },
+    {
+      "id": "VT_THACH_TIN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch tín",
+        "aliases": [
+          "thach tin",
+          "thạch tín",
+          "thachtin"
+        ],
+        "search_vector_hint": "Thạch tín thuộc nhóm Vị thuốc, thường liên quan đến chất độc."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "385"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tiêu là cay gắt; cây có vị cay gắt, sản sinh Hồ tiêu là một loại dây leo, thân dài, nhẵn không mang lông, bám vào các cây khác bằng rễ. Hình như giữa cây tựa và cây hồ tiêu có một sự sống nhờ nhau, cho nên khi gỡ cây hồ tiêu khỏi cây tựa, phần nhiều cây hồ tiêu bị chết. Thân mọc cuốn, mang lá mọc cách. Lá như lá trầu không, nhưng dài và thuôn hơn. Có hai loại nhánh: Một loại nhánh mang quả, và một loại nhánh dinh dưỡng, cả hai loại nhánh đều xuất phát từ kẽ lá. Đối chiếu với lá là một cụm hoa hình đuôi sóc. Khi chín, rụng cả chùm. Quả hình cầu nhỏ, chùng 20-30 quả trên một chùm, lúc đầu màu xanh lục, sau có màu đỏ, khi chín có màu vàng. Đốt cây rất dòn, cho nên khi vận chuyển, cần thận trọng để cây khỏi chết.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "HC_PHELANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính dầu màu vàng nhạt hay lục nhạt, gồm các hydrocacbua như `$phelandren$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "HC_CADINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính dầu màu vàng nhạt hay lục nhạt, gồm các hydrocacbua như `$cadinen$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "HC_CARIOPHILEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính dầu màu vàng nhạt hay lục nhạt, gồm các hydrocacbua như `$cariophilen$`",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "HC_PIPERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hai ancaloit là `$piperin$` và `$chavixin$`.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      }
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "HC_CHAVIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hai ancaloit là `$piperin$` và `$chavixin$`.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      }
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_HAT_TIEU",
+      "to": "VT_HAT_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_HAT_TIEU",
+      "to": "VT_THACH_TIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_HAT_TIEU",
+      "to": "B_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "mo_ta_chi_tiet": "Ngày uống 2 đến 4 viên này làm thuốc bổ, kích thích sự tiêu hoá, ăn ngon cơm. Thuốc có độc dùng phải cẩn thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LONG_NON_RA_HAT_TIEU",
+      "to": "VT_HAT_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LONG_NON_RA_HAT_TIEU",
+      "to": "VT_BAN_HA_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LONG_NON_RA_HAT_TIEU",
+      "to": "B_DI_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "mo_ta_chi_tiet": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_LONG_NON_RA_HAT_TIEU",
+      "to": "S_NON_RA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "mo_ta_chi_tiet": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng liều nhỏ tăng dịch vị, dịch tụy, hồ tiêu kích thích tiêu hóa, làm ăn ngon cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DOC_TINH_DA_DAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều lớn, kích thích niêm mạc dạ dày, gây sung huyết và viêm cục bộ.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DOC_TINH_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Gây sốt, viêm đường tiểu tiện, đi đái ra máu.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Piperidin tăng huyết áp, làm tê liệt hô hấp và một số đầu dây thần kinh ($50mg/kg$ thể trọng).",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Piperin tiêm bắp thịt cho thỏ và chuột bạch hoặc cho hít hơi với liều cao thì thấy sau một thời gian kích thích ngắn, có hiện tượng hơi thở nhanh lên, chân sau tê liệt rồi mê hoàn toàn, co quắp, ngủ gà gật rồi chết do ngừng thở.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi giải phẫu sẽ thấy các phủ tạng đều có hiện tượng xuất huyết.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_KHA_NANG_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồ tiêu còn có tác dụng sát trùng, diệt ký sinh trùng, gây hắt hơi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAT_TIEU",
+      "to": "DL_DUOI_CON_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mùi hồ tiêu đuổi các sâu bọ, do đó hồ tiêu được dùng bảo vệ quần áo len khỏi bị nhạy cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385",
+        "all_sources": [
+          "CT_VT_VN_T385"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 54.5,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

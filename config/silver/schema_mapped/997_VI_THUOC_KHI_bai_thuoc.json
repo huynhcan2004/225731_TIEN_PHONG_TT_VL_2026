@@ -1,0 +1,137 @@
+{
+  "entity_hub": "VI_THUOC_KHI",
+  "source": {
+    "source_id": "CT_VT_VN_T997",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "997"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XHT",
+      "to": "VI_THUOC_KHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị yếu xương, viêm xương, dùng Xương khỉ kết hợp rượu để tăng cường công dụng.",
+        "mo_ta_chi_tiet": "200g Xương hổ sao vàng tán nhỏ, 700ml rượu tốt",
+        "cach_dung": "Ngâm trong vòng 10-15 ngày lọc lấy rượu. Thêm vào bã 300ml rượu nữa. Lại ngâm 10 ngày nữa. Lọc, trộn đều hai mẻ rượu đó với nhau, thêm rượu nữa vào cho đủ 100ml. Ngày uống 4 lần. Mỗi lần 10-15ml rượu này, uống sau bữa cơm",
+        "ghi_chu": "CT_VT_VN_T998"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XHT",
+      "to": "B_YEU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Yếu xương, viêm xương",
+        "cach_dung": "Ngâm trong vòng 10-15 ngày lọc lấy rượu. Thêm vào bã 300ml rượu nữa. Lại ngâm 10 ngày nữa. Lọc, trộn đều hai mẻ rượu đó với nhau, thêm rượu nữa vào cho đủ 100ml. Ngày uống 4 lần. Mỗi lần 10-15ml rượu này, uống sau bữa cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XHT",
+      "to": "B_VIEM_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Yếu xương, viêm xương",
+        "cach_dung": "Ngâm trong vòng 10-15 ngày lọc lấy rượu. Thêm vào bã 300ml rượu nữa. Lại ngâm 10 ngày nữa. Lọc, trộn đều hai mẻ rượu đó với nhau, thêm rượu nữa vào cho đủ 100ml. Ngày uống 4 lần. Mỗi lần 10-15ml rượu này, uống sau bữa cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CHT",
+      "to": "VI_THUOC_KHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị yếu xương, viêm xương, dùng Cao hổ cốt kết hợp rượu để tăng cường công dụng.",
+        "mo_ta_chi_tiet": "40-60g Cao hổ cốt, 1 lít rượu",
+        "cach_dung": "Ngâm. Trước khi ăn cơm hâm nóng mà uống mỗi ngày dùng 2 lần, mỗi lần 10-15ml",
+        "ghi_chu": "CT_VT_VN_T998"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CHT",
+      "to": "B_YEU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Yếu xương, viêm xương",
+        "cach_dung": "Ngâm. Trước khi ăn cơm hâm nóng mà uống mỗi ngày dùng 2 lần, mỗi lần 10-15ml"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CHT",
+      "to": "B_VIEM_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Yếu xương, viêm xương",
+        "cach_dung": "Ngâm. Trước khi ăn cơm hâm nóng mà uống mỗi ngày dùng 2 lần, mỗi lần 10-15ml"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_CHTDT",
+      "to": "VI_THUOC_KHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc dùng Cao hổ cốt kết hợp với các vị thuốc khác để điều trị bệnh.",
+        "mo_ta_chi_tiet": "4-6g Cao hổ cốt, 10g thiên niên kiện, 10g cốt toái bổ, 10g đỗ trọng, 1 lít rượu tốt",
+        "cach_dung": "Ngâm trong 10-15 ngày. Lọc lấy rượu để uống. Ngày 2 lần, mỗi lần 15ml trước bữa ăn",
+        "ghi_chu": "CT_VT_VN_T998"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_BOI_DUONG_CHT_G",
+      "to": "VI_THUOC_KHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc bồi dưỡng cơ thể, dùng Cao hổ cốt kết hợp với gà giò để tăng cường dinh dưỡng.",
+        "mo_ta_chi_tiet": "10-20g Cao hổ cốt, 1 con gà giò",
+        "cach_dung": "Mổ bỏ ruột gà. Cho cao hổ cốt vào bụng gà. Đặt con gà vào liễn sứ có nắp, thêm một chén rượu nhỏ. Đun cách thủy đến khi gà chín dừ. Chỉ lấy chất nước tiết ra mà cho người yếu ăn. Có thể ăn cả thịt nhưng thịt rất bã",
+        "ghi_chu": "CT_VT_VN_T998"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "BT_BOI_DUONG_CHT_G",
+      "to": "B_SUY_NHUOC_CO_THE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bồi dưỡng",
+        "cach_dung": "Mổ bỏ ruột gà. Cho cao hổ cốt vào bụng gà. Đặt con gà vào liễn sứ có nắp, thêm một chén rượu nhỏ. Đun cách thủy đến khi gà chín dừ. Chỉ lấy chất nước tiết ra mà cho người yếu ăn. Có thể ăn cả thịt nhưng thịt rất bã"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    }
+  ],
+  "metadata": {}
+}

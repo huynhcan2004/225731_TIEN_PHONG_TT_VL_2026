@@ -1,0 +1,137 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THAN_LAN",
+    "ten_raw": "Thằn lằn",
+    "ten_khoa_hoc": "$Mabuya sp$",
+    "ho_thuc_vat": "$họ Thằn lằn bóng Scincidae$",
+    "variants": [
+      "Thằn lằn bóng hoa (Mabuya multifasciata Kuhl)",
+      "thằn lằn bóng đuôi dài (Mabuya longicaudata)",
+      "thằn lằn bóng Sapa (Mabuya chapaense)",
+      "thằn lằn",
+      "rắn mối"
+    ],
+    "properties": {
+      "bo_phan_dung": "cả con",
+      "thu_hai": "mùa xuân và đẻ vào mùa hè",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Mỗi ngày ăn nửa hay một con tùy theo tuổi.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "miền đồng bằng và trung du, miền trung du và miền núi"
+    },
+    "display_name": "Thằn lằn",
+    "canonical_name": "Thằn lằn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THAN_LAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Than Lan"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "S_HEN_SUYEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Hen Suyen"
+      }
+    },
+    {
+      "id": "S_GAY_YEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Gay Yeu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1040",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1040"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở Việt Nam có ba loài thằn lằn bóng: Thằn lằn bóng hoa (Mabuya multifasciata Kuhl), thằn lằn bóng đuôi dài (Mabuya longicaudata), thằn lằn bóng Sapa (Mabuya chapaense). Thằn lằn bóng (thông thường nhân dân gọi là thằn lằn) có hình dạng giống cá cóc nhưng thân vững chắc, cổ rõ ràng, đuôi hình trụ thon dài. Chi dài và khỏe, đầu gối của chi sau không hướng sang bên như cá cóc mà hướng về phía trước. Chi trước và chi sau đều có $5$ ngón. Vỏ da thằn lằn có vảy sừng, đầu có nhiều tấm vảy lớn đối xứng ghép sát nhau và thân có vảy nhỏ tròn xếp lên nhau như vảy cá. Ngón có vuốt phát triển. Tuyến da chính thức thiếu làm da thằn lằn rất khô. Nhờ màng phôi đặc biệt, thằn lằn sinh sống hoàn toàn ở cạn. Thằn lằn bóng đuôi dài đẻ trứng có vỏ thấm canxi và phát triển ở ngoài, còn thằn lằn bóng hoa và thằn lằn bóng Sapa có trứng thiếu vỏ dai và phát triển trong cơ thể mẹ, cụ thể trong noãn quản cho tới khi thành con. Đây là trường hợp đẻ trứng thai. Thằn lằn giao phối vào mùa xuân và đẻ vào mùa hè. Thằn lằn bóng đẻ khoảng $6$-$8$ trứng, (thằn lằn bóng đuôi dài) hoặc $3$-$5$ con (thằn lằn hoa và thằn lằn Sapa). Con mới đẻ dài khoảng $8cm$ kể cả đuôi. Sau khi đẻ, thằn lằn mẹ còn chăm sóc con trong thời gian nhất định rồi mới để con tự lập (Hình $764$). [CT_VT_VN_T1042]: là con thạch sùng (xem vị này), nhưng ở một số tỉnh miền Nam lại gọi con thằn lằn mô tả trên là con rắn mối, còn con thạch sùng sống trong nhà là con thằn lằn. Cần chú ý tránh nhầm lẫn.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "chưa rõ",
+        "ghi_chu_bo_sung": "chưa rõ",
+        "cach_dung_bao_che": "chưa rõ"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAN_LAN",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T1041]: $protit$",
+        "ghi_chu": "chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1040",
+        "all_sources": [
+          "CT_VT_VN_T1040"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAN_LAN",
+      "to": "S_HEN_SUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ăn nửa hay một con mỗi ngày, tùy theo tuổi",
+        "cach_dung": "Thịt thằn lằn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1041"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1040",
+        "all_sources": [
+          "CT_VT_VN_T1040"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAN_LAN",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ăn nửa hay một con mỗi ngày, tùy theo tuổi",
+        "cach_dung": "Thịt thằn lằn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1041"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1040",
+        "all_sources": [
+          "CT_VT_VN_T1040"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 26.0,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "entity_hub": "VI_THUOC_NGHE",
+  "source": {
+    "source_id": "CT_VT_VN_T242",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "242"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_DA_DAY_NGHE_N",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương vị nghệ.",
+        "mo_ta_chi_tiet": "Nghệ thường được dùng trong bệnh đau dạ dày, vàng da, phụ nữ sinh nở xong đau bụng",
+        "cach_dung": "dưới hình thức"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_NGHE_N",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghệ thường được dùng trong bệnh đau dạ dày",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_NGHE_N",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghệ thường được dùng trong bệnh đau dạ dày, vàng da",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_NGHE_N",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghệ thường được dùng trong bệnh đau dạ dày, vàng da, phụ nữ sinh nở xong đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_NGHE_N",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương vị nghệ.",
+        "mo_ta_chi_tiet": "Chữa thổ huyết máu cam",
+        "cach_dung": "ngày uống, chiêu bằng nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_NGHE_N",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thổ huyết máu cam",
+        "cach_dung": "uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_NGHE_N",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thổ huyết máu cam",
+        "cach_dung": "uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DIEN_CUONG_NGHE_PC",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$250g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phèn chua sát trùng, trừ đờm, phối hợp với nghệ để chữa điên cuồng.",
+        "mo_ta_chi_tiet": "Bài thuốc kinh nghiệm chữa điên cuồng",
+        "cach_dung": "Ngày uống $50$ viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DIEN_CUONG_NGHE_PC",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua sát trùng, trừ đờm, phối hợp với nghệ để chữa điên cuồng.",
+        "mo_ta_chi_tiet": "Bài thuốc kinh nghiệm chữa điên cuồng",
+        "cach_dung": "Ngày uống $50$ viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_DIEN_CUONG_NGHE_PC",
+      "to": "B_DIEN_CUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bài thuốc kinh nghiệm chữa điên cuồng",
+        "cach_dung": "uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$60g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Củ ráy, nghệ có tác dụng tiêu viêm, giảm đau, kết hợp với nhựa thông, sáp ong và dầu vừng để tạo thành cao dán nhọt.",
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "VT_CU_RAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ ráy, nghệ có tác dụng tiêu viêm, giảm đau, kết hợp với nhựa thông, sáp ong và dầu vừng để tạo thành cao dán nhọt.",
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "VT_NHUA_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Củ ráy, nghệ có tác dụng tiêu viêm, giảm đau, kết hợp với nhựa thông, sáp ong và dầu vừng để tạo thành cao dán nhọt.",
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "VT_SAP_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Củ ráy, nghệ có tác dụng tiêu viêm, giảm đau, kết hợp với nhựa thông, sáp ong và dầu vừng để tạo thành cao dán nhọt.",
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "VT_DAU_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Củ ráy, nghệ có tác dụng tiêu viêm, giảm đau, kết hợp với nhựa thông, sáp ong và dầu vừng để tạo thành cao dán nhọt.",
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_NHOT_CU_RAY_NNSD",
+      "to": "B_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc cao dán nhọt",
+        "cach_dung": "phết lên giấy bản dán vào mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE_NLPTH",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$25$ ngọn",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nghể, lá phèn đen, thuốc lào, hồng hoàng phối hợp để giải độc, giảm đau, chữa rắn cắn.",
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE_NLPTH",
+      "to": "VT_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$25$ lá",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nghể, lá phèn đen, thuốc lào, hồng hoàng phối hợp để giải độc, giảm đau, chữa rắn cắn.",
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE_NLPTH",
+      "to": "VT_THUOC_LAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "một điếu (viên tròn bằng hạt ngô)",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nghể, lá phèn đen, thuốc lào, hồng hoàng phối hợp để giải độc, giảm đau, chữa rắn cắn.",
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE_NLPTH",
+      "to": "VT_HONG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "một cục bằng hạt đậu xanh",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Nghể, lá phèn đen, thuốc lào, hồng hoàng phối hợp để giải độc, giảm đau, chữa rắn cắn.",
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE_NLPTH",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T242"
+      }
+    }
+  ],
+  "metadata": {}
+}

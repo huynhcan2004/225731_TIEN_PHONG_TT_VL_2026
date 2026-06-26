@@ -1,0 +1,97 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_KY",
+    "ten_raw": "Hoàng kỳ",
+    "ten_khoa_hoc": "Astragalus menbranaceus (Fisch) Bunge; Astragalus mongholicus Bunge",
+    "ho_thuc_vat": "Đậu Fabaceae",
+    "variants": [
+      "Hoàng kỳ (Radix Astragali)",
+      "hoàng kỳ Mông Cổ"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "phan_bo": "Trung Quốc",
+      "thu_hai": "mùa thu",
+      "che_bien_tho": "rửa sạch đất cát, cắt bỏ đầu rễ và rễ con, phơi hay sấy khô"
+    },
+    "display_name": "Hoàng kỳ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T902",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "902"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vị thuốc màu vàng, sở trường về bổ cho nên có tên gọi như vậy: hoàng là vàng, kỳ là nhớn (sở trường). Hai cây hoàng kỳ hay cho vị thuốc thường tiêu thụ trên thị trường là: 1. Hoàng kỳ (Astragalus membranaceus (Fish) Bunge) là một cây sống lâu năm, cao $50$-$80cm$, rễ cái dài và mọc sâu, rất khó bẻ, đường kính $1$-$3cm$, vỏ ngoài màu vàng đỏ hay nâu. Thân mọc thẳng đứng, trên có phân nhiều cành. Lá mọc so le, kép, dìa lẻ, có lá kèm hình 3 cạnh, $6$-$13$ đôi lá chét hình trứng dài $5$-$23mm$, mặt dưới có nhiều lông trắng mịn. Cụm hoa mọc thành chùm ở kẽ lá, dài hơn lá, gồm $5$-$22$ hoa, màu vàng tươi. Quả giáp mỏng, dẹt, dài $2$-$2,5cm$, đường kính $0,9$-$1,2cm$ đầu dài ra thành hình gai nhọn, trên quả có lông ngắn, $5$-$6$ hạt màu đen hình thận. 2. Hoàng kỳ Mông Cổ (Astragalus mongholicus Bunge) rất giống loại trên, nhưng khác bởi lá chét nhỏ hơn, $12$-$18$ đôi lá chét, tràng hoa dài hơn, quả rộng hơn $1,1$-$1,5cm$, không có lông.",
+        "thanh_phan_hoa_hoc": [
+          "Theo sự nghiên cứu của Sở dược thuộc Viện nghiên cứu y học Bắc Kinh, trong hoàng kỳ có cholin betain, nhiều loại axit amin và sacaroza. Những tài liệu trước cũng cho biết hoạt chất của hoàng kỳ chưa rõ, chỉ mới biết có chất nhầy, chất đường.",
+          "Theo lý Thừa Cổ (Sinh dược học, 1952) trong hoàng kỳ có sacaroza, glucoza, tinh bột, chất nhầy, gôm, hơi có phản ứng ancaloit. Mới đây người ta phát hiện trong hoàng kỳ có chất selenium."
+        ],
+        "cach_dung_bao_che": "Cho đến nay ta vẫn phải nhập hoàng kỳ của Trung Quốc. Ta đã thí nghiệm trồng thử ở nước ta, mọc được, nhưng chưa đưa vào trồng nhiều. Cây hoàng kỳ mọc hoang tại Trung Quốc, ưa những nơi đất cát, thoát nước tốt. Thường trồng sau $3$ năm mới thu hoạch, sau $6$-$7$ năm thì tốt hơn. Đào rễ vào mùa thu, rửa sạch đất cát, cắt bỏ đầu rễ và rễ con, phơi hay sấy khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_KY",
+      "to": "HC_CHOLIN_BETAIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu của Sở dược thuộc Viện nghiên cứu y học Bắc Kinh, trong hoàng kỳ có cholin betain, nhiều loại axit amin và sacaroza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T902"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_KY",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu của Sở dược thuộc Viện nghiên cứu y học Bắc Kinh, trong hoàng kỳ có cholin betain, nhiều loại axit amin và sacaroza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T902"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_KY",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo lý Thừa Cổ (Sinh dược học, 1952) trong hoàng kỳ có sacaroza, glucoza, tinh bột, chất nhầy, gôm, hơi có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T902"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_KY",
+      "to": "HC_TINH_BOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo lý Thừa Cổ (Sinh dược học, 1952) trong hoàng kỳ có sacaroza, glucoza, tinh bột, chất nhầy, gôm, hơi có phản ứng ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T902"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_KY",
+      "to": "HC_SELENIUM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới đây người ta phát hiện trong hoàng kỳ có chất selenium."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T902"
+      }
+    }
+  ]
+}

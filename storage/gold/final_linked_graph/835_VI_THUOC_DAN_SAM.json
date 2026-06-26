@@ -1,0 +1,755 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DAN_SAM",
+    "ten_raw": "Đan sâm",
+    "ten_khoa_hoc": "$Salvia multiorrhiza Bunge; Salvia miltiorrhiza$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Liều dùng $6-12g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "Cây này mới dì thực vào ta. Hiện đang gây giống ở Tam Đảo."
+    },
+    "display_name": "Vị thuốc Đan sâm",
+    "canonical_name": "Vị thuốc Đan sâm"
+  },
+  "nodes": [
+    {
+      "id": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Kinh nguyệt không ra Đan sâm",
+        "aliases": [
+          "kinh nguyệt không ra đan sâm",
+          "kinh nguyet khong ra dan sam",
+          "kinhnguyetkhongradansam"
+        ],
+        "search_vector_hint": "Bài thuốc Kinh nguyệt không ra Đan sâm thuộc nhóm bài thuốc, thường liên quan đến điều trị kinh nguyệt không đều."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_KHONG_DEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt không đều",
+        "aliases": [
+          "kinhnguyetthatthuong",
+          "kinh nguyet khong deu",
+          "roi loan kinh nguyet",
+          "kinh nguyệt không đều",
+          "kinh nguyet that thuong",
+          "kinhnguyetkhongdeu",
+          "kinh nguyệt thất thường",
+          "roiloankinhnguyet",
+          "rối loạn kinh nguyệt"
+        ],
+        "search_vector_hint": "Bệnh Kinh nguyệt không đều thuộc nhóm bệnh, thường liên quan đến rối loạn nội tiết tố nữ."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_KHONG_RA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt không ra",
+        "aliases": [
+          "kinh nguyệt không ra",
+          "be kinh",
+          "vokinh",
+          "kinh nguyet khong ra",
+          "kinhnguyetkhongra",
+          "vô kinh",
+          "bế kinh",
+          "vo kinh",
+          "bekinh"
+        ],
+        "search_vector_hint": "Bệnh Kinh nguyệt không ra thuộc nhóm bệnh, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_RONG_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rong huyết",
+        "aliases": [
+          "rong huyết",
+          "rong huyet",
+          "ronghuyet"
+        ],
+        "search_vector_hint": "Bệnh Rong huyết thuộc nhóm bệnh, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_UNG_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ung thũng",
+        "aliases": [
+          "ungthung",
+          "ung thũng",
+          "ung thung"
+        ],
+        "search_vector_hint": "Bệnh Ung thũng thuộc nhóm Bệnh, thường liên quan đến mụn nhọt, sưng viêm."
+      }
+    },
+    {
+      "id": "CN_AN_THAI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thai",
+        "aliases": [
+          "an thai",
+          "anthai"
+        ],
+        "search_vector_hint": "Công năng An thai thuộc nhóm công năng, thường liên quan đến phụ nữ mang thai."
+      }
+    },
+    {
+      "id": "CN_CHI_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Chỉ huyết",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Chỉ huyết thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_DIEU_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Điều kinh",
+        "aliases": [
+          "dieukinh",
+          "dieu kinh",
+          "điều kinh"
+        ],
+        "search_vector_hint": "Công năng Điều kinh thuộc nhóm Công năng, thường liên quan đến kinh nguyệt."
+      }
+    },
+    {
+      "id": "CN_TRU_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ huyết",
+        "aliases": [
+          "truhuyet",
+          "tru huyet",
+          "trừ huyết"
+        ],
+        "search_vector_hint": "Công năng Trừ huyết thuộc nhóm công năng, thường liên quan đến cầm máu."
+      }
+    },
+    {
+      "id": "DL_VITAMIN_K",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Vitamin K",
+        "aliases": [
+          "vitamink",
+          "vitamin k"
+        ],
+        "search_vector_hint": "Vitamin K thuộc nhóm dược lý, thường liên quan đến đông máu."
+      }
+    },
+    {
+      "id": "HC_CRYPTOTANSINON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cryptotansinon",
+        "aliases": [
+          "cryptotansinon"
+        ],
+        "search_vector_hint": "Hoạt chất Cryptotansinon thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của Đan sâm."
+      }
+    },
+    {
+      "id": "HC_TANSINON_I",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tansinon I",
+        "aliases": [
+          "tansinon i",
+          "tansinoni"
+        ],
+        "search_vector_hint": "Hoạt chất Tansinon I thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của Đan sâm."
+      }
+    },
+    {
+      "id": "HC_TANSINON_II",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tansinon II",
+        "aliases": [
+          "tansinon ii",
+          "tansinonii"
+        ],
+        "search_vector_hint": "Hoạt chất Tansinon II thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của Đan sâm."
+      }
+    },
+    {
+      "id": "HC_TANSINON_III",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tansinon III",
+        "aliases": [
+          "tansinon iii",
+          "tansinoniii"
+        ],
+        "search_vector_hint": "Hoạt chất Tansinon III thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của Đan sâm."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BACH_THUOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch thược",
+        "aliases": [
+          "thuoc duoc",
+          "kimthuocduoc",
+          "kim thuoc duoc",
+          "bachthuoc",
+          "bach thuoc",
+          "kim thược dược",
+          "thược dược",
+          "bạch thược",
+          "thuocduoc"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch thược thuộc nhóm vị thuốc, thường liên quan đến điều hòa kinh nguyệt, giảm đau."
+      }
+    },
+    {
+      "id": "VT_DAN_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đan sâm",
+        "aliases": [
+          "dan sam",
+          "đan sâm",
+          "dansam"
+        ],
+        "search_vector_hint": "Vị thuốc Đan sâm thuộc nhóm vị thuốc, thường liên quan đến hoạt huyết, hóa ứ.",
+        "bo_phan_dung": "rễ",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Liều dùng $6-12g$ dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "Cây này mới dì thực vào ta. Hiện đang gây giống ở Tam Đảo.",
+        "ten_khoa_hoc": "$Salvia multiorrhiza Bunge; Salvia miltiorrhiza$",
+        "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+        "hinh_thai_chi_tiet": "Đan sâm là một loại cỏ sống lâu năm, cao 30-80cm, toàn thân mang lông ngắn màu vàng trắng nhạt. Rễ nhỏ dài hình trụ, đường kính 0,5-1,5cm, màu đỏ nâu. Thân vuông trên có các gần dọc. Lá kép, mọc đối: 3-5 lá chét, đặc biệt có thể có 7. Lá chét giữa thường lớn hơn cả. Lá kép có cuống dài, cuống lá chét ngắn có dìa. Lá chét dài 2-7,5cm, rộng 0,8-5cm. Mép lá chét có răng cưa tù. Mặt trên lá chét màu xanh, có các lông mềm màu trắng, mặt dưới màu xanh tro, cũng có lông nhưng dài hơn. Gân nổi ở mặt dưới, chia phiến lá chét thành múi nhỏ. Cụm hoa mọc thành chùm ở đầu cành hay ở kẽ lá, chùm hoa dài 10-20cm. Hoa mọc vòng, mỗi vòng 3-10 hoa thường là 3 hoa. Hoa có tràng màu xanh tím nhạt, 2 môi, môi trên trông nghiêng hình lưỡi liềm, môi dưới xẻ 3 thuỳ, thuỳ giữa có răng cưa tròn. Hai nhị ở môi dưới,bầu có vòi dài lòi ra ở môi trên. Quả nhỏ, dài $3mm$, rộng $1,5mm$.",
+        "thanh_phan_hoa_hoc": "['Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)']"
+      }
+    },
+    {
+      "id": "VT_DIA_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Địa hoàng",
+        "aliases": [
+          "địa hoàng",
+          "diahoang",
+          "dia hoang"
+        ],
+        "search_vector_hint": "Vị thuốc Địa hoàng thuộc nhóm vị thuốc, thường liên quan đến bổ huyết, sinh tân."
+      }
+    },
+    {
+      "id": "VT_DUONG_QUY",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đương quy",
+        "aliases": [
+          "duongquy",
+          "duong quy",
+          "đương quy"
+        ],
+        "search_vector_hint": "Vị thuốc Đương quy thuộc nhóm Vị thuốc, thường liên quan đến bổ huyết, hoạt huyết."
+      }
+    },
+    {
+      "id": "VT_HUONG_PHU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hương phụ",
+        "aliases": [
+          "huong phu",
+          "huongphu",
+          "hương phụ"
+        ],
+        "search_vector_hint": "Vị thuốc Hương phụ thuộc nhóm Vị thuốc, thường liên quan đến hành khí, giải uất, điều kinh."
+      }
+    },
+    {
+      "id": "VT_XUYEN_KHUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xuyên khung",
+        "aliases": [
+          "xuyên khung",
+          "xuyen khung",
+          "xuyenkhung"
+        ],
+        "search_vector_hint": "Vị thuốc Xuyên khung thuộc nhóm Vị thuốc, thường liên quan đến hoạt huyết, hành khí, giảm đau."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "835"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HOI_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đan sâm là một loại cỏ sống lâu năm, cao 30-80cm, toàn thân mang lông ngắn màu vàng trắng nhạt. Rễ nhỏ dài hình trụ, đường kính 0,5-1,5cm, màu đỏ nâu. Thân vuông trên có các gần dọc. Lá kép, mọc đối: 3-5 lá chét, đặc biệt có thể có 7. Lá chét giữa thường lớn hơn cả. Lá kép có cuống dài, cuống lá chét ngắn có dìa. Lá chét dài 2-7,5cm, rộng 0,8-5cm. Mép lá chét có răng cưa tù. Mặt trên lá chét màu xanh, có các lông mềm màu trắng, mặt dưới màu xanh tro, cũng có lông nhưng dài hơn. Gân nổi ở mặt dưới, chia phiến lá chét thành múi nhỏ. Cụm hoa mọc thành chùm ở đầu cành hay ở kẽ lá, chùm hoa dài 10-20cm. Hoa mọc vòng, mỗi vòng 3-10 hoa thường là 3 hoa. Hoa có tràng màu xanh tím nhạt, 2 môi, môi trên trông nghiêng hình lưỡi liềm, môi dưới xẻ 3 thuỳ, thuỳ giữa có răng cưa tròn. Hai nhị ở môi dưới,bầu có vòi dài lòi ra ở môi trên. Quả nhỏ, dài $3mm$, rộng $1,5mm$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DAN_SAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Đan sâm có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đan sâm có tính hơi hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đan sâm vào kinh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đan sâm vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "HC_TANSINON_I",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)",
+        "ghi_chu": "3 chất xeton có tinh thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "HC_TANSINON_II",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)",
+        "ghi_chu": "3 chất xeton có tinh thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "HC_TANSINON_III",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)",
+        "ghi_chu": "3 chất xeton có tinh thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "HC_CRYPTOTANSINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đan sâm có 3 chất xeton có tinh thể: $Tansinon I$, $Tansinon II$, $Tansinon III$, $criptotansinon$ (kryptotanshinon)",
+        "ghi_chu": "3 chất xeton có tinh thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "B_RONG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "Phụ nữ da vàng, ăn uống thất thường, tử cung xuất huyết, kinh nguyệt không đều, đau bụng, các khớp xương sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "B_UNG_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "Ung thũng, đơn độc, mẩn ngứa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $8g$ chia làm 2 hay 3 lần uống",
+        "cach_dung": "Tham khảo cách dùng chung của vị thuốc",
+        "ghi_chu": "Kinh nguyệt không đều, hoặc sớm hoặc muộn nhiều hay ít, thai không yên, để xong mẫu hội ra chưa hết, đau khớp xương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_DAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Kinh nguyệt không ra, đau đớn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_BACH_THUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "VT_DIA_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_RA_DAN_SAM",
+      "to": "B_KINH_NGUYET_KHONG_RA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "CN_TRU_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trụ ứ huyết, sinh huyết mới."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "CN_AN_THAI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừa an thai sống, vừa cho ra thai chết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "CN_CHI_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ huyết (cầm máu)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "CN_DIEU_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAN_SAM",
+      "to": "DL_VITAMIN_K",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhìn công thức cấu tạo thấy có tính chất của vitamin K."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T835",
+        "all_sources": [
+          "CT_VT_VN_T835"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 63.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

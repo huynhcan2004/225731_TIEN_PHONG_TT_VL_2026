@@ -1,0 +1,65 @@
+{
+  "entity_hub": "VI_THUOC_GANG",
+  "source": {
+    "source_id": "CT_VT_VN_T279",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "279"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TIEU_VANG_G_G",
+      "to": "VI_THUOC_GANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20-30g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Găng là vị thuốc chính.",
+        "mo_ta_chi_tiet": "lá Găng tươi",
+        "cach_dung": "Vò với nước sôi để nguội, lọc nhanh, để cho đông đặc, thêm đường vào mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T279"
+      }
+    },
+    {
+      "from": "BT_TIEU_VANG_G_G",
+      "to": "B_TIEU_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu vàng",
+        "cach_dung": "Vò với nước sôi để nguội, lọc nhanh, để cho đông đặc, thêm đường vào mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T279"
+      }
+    },
+    {
+      "from": "BT_TIEU_VANG_G_G",
+      "to": "B_DAI_RATT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái rắt",
+        "cach_dung": "Vò với nước sôi để nguội, lọc nhanh, để cho đông đặc, thêm đường vào mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T279"
+      }
+    },
+    {
+      "from": "BT_TIEU_VANG_G_G",
+      "to": "B_TIEU_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu đỏ",
+        "cach_dung": "Vò với nước sôi để nguội, lọc nhanh, để cho đông đặc, thêm đường vào mà ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T279"
+      }
+    }
+  ],
+  "metadata": {}
+}

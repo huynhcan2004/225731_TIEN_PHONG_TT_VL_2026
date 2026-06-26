@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_DAU_RUA",
+  "source": {
+    "source_id": "CT_VT_VN_T225",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "225"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "CN_HA_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "CN_GIANG_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ đậu rựa có tác dụng giáng khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "CN_CHI_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ đậu rựa có tác dụng chỉ tả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "VI",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, vỏ đậu rựa có vị đắng, chát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "TINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn, vỏ đậu rựa tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "KINH_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUA",
+      "to": "KINH_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T225"
+      }
+    }
+  ],
+  "metadata": {}
+}

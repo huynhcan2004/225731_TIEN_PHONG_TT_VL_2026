@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_THANH_CAO",
+  "source": {
+    "source_id": "CT_VT_VN_T657",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "657"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "CN_LOI_GAN_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi gan mật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "CN_TRU_PHUC_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phục nhiệt ở âm phận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "CN_THANH_THU_TICH_UE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thư tịch uế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "CN_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giúp sự tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_CAO",
+      "to": "DL_CHONG_SO_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trung Quốc đã dùng $artemisinin$ chiết từ thanh cao hoa vàng chữa 2353 bệnh nhân sốt rét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657"
+      }
+    }
+  ],
+  "metadata": {}
+}

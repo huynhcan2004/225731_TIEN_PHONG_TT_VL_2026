@@ -4,6 +4,7 @@
 ║  Pure Python. Ontology-Driven. Self-Healing Schema.              ║
 ║  Tính năng: Khôi phục Confidence Score, Tính DRI & Tự vá ID lỗi  ║
 ║  BẢN NÂNG CẤP: Ép chuẩn Tiền tố 100%, Chữa lành Logic Điều trị   ║
+║  TRIẾT LÝ: BẢO TỒN VĂN BẢN (CLAIMS) - CHUẨN HÓA ĐỊNH DANH (IDS)  ║
 ╚══════════════════════════════════════════════════════════════════╝
 """
 
@@ -16,7 +17,7 @@ import copy
 import sys
 from dataclasses import dataclass, field
 from typing import Any
-
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # --- IMPORT TỪ HỆ THỐNG MỚI ---
 from app.config import settings
 from utils.helpers import remove_accents, apply_latex_format, clean_text
@@ -30,11 +31,13 @@ OUTPUT_DIR     = settings.DIR_GOLD_VALIDATED
 QUARANTINE_DIR = settings.DIR_QUARANTINE
 REPORT_PATH    = settings.FILE_VAL_REPORT
 SUMMARY_MD_PATH= str(settings.FILE_VAL_REPORT).replace(".jsonl", "_summary_report.md")
+LOG_DIR        = settings.DIR_VAL_REPAIR_LOGS
 ONTOLOGY_FILE  = settings.ONTOLOGY_PATH
 
 os.makedirs(OUTPUT_DIR,      exist_ok=True)
 os.makedirs(QUARANTINE_DIR,  exist_ok=True)
 os.makedirs(os.path.dirname(REPORT_PATH), exist_ok=True)
+os.makedirs(LOG_DIR,         exist_ok=True)
 
 QUARANTINE_THRESHOLD = 70
 
@@ -52,6 +55,19 @@ def load_ontology():
         return json.load(f)
 
 ONTOLOGY = load_ontology()
+
+# BẢN ĐỒ MỎ NEO (Xác thực chéo Hán Việt - Thuần Việt)
+ANCHOR_MAP = {
+    "cay": ["cay", "tân"], "chua": ["chua", "toan"], "ngot": ["ngọt", "cam"],
+    "dang": ["đắng", "khổ"], "man": ["mặn", "hàm"], "nhat": ["nhạt", "đạm"],
+    "han": ["hàn", "lạnh"], "luong": ["lương", "mát"], "binh": ["bình"],
+    "on": ["ôn", "ấm"], "nhiet": ["nhiệt", "nóng"], "can": ["can", "gan"],
+    "tam": ["tâm", "tim"], "ty": ["tỳ", "lá lách"], "phe": ["phế", "phổi"],
+    "than": ["thận"], "tam_bao": ["tâm bào"], "tam_tieu": ["tam tiêu"],
+    "dai_trang": ["đại tràng", "ruột già"], "tieu_trang": ["tiểu tràng", "ruột non"],
+    "bang_quang": ["bàng quang", "bọng đái"], "vi": ["vị", "dạ dày"], 
+    "dom": ["đởm", "mật"], "dan": ["đởm", "mật"]
+}
 
 # ==========================================================
 # 3. TRUY VẤN & ISSUE TRACKER
@@ -110,41 +126,29 @@ def get_default_conf(source_id: str) -> float:
     return 0.75 # Trích xuất AI chưa định danh
 
 def process_and_score_scientific(data: dict) -> tuple[float, float, float]:
-    """
-    1. Bù đắp confidence_score bị null trực tiếp vào dữ liệu (In-place mutation).
-    2. Tính toán DRI (Richness) và C-Score (Reliability).
-    """
     conf_list = []
     
-    # --- A. Bù đắp dữ liệu null & Thu thập điểm ---
-    
-    # Xử lý Claims
     for c in data.get("claims", []):
         if c.get("confidence_score") is None:
             c["confidence_score"] = get_default_conf(c.get("source", {}).get("source_id", ""))
         conf_list.append(float(c["confidence_score"]))
 
-    # Xử lý Relationships
     for r in data.get("relationships", []):
         if r.get("confidence_score") is None:
             r["confidence_score"] = get_default_conf(r.get("source", {}).get("source_id", ""))
         conf_list.append(float(r["confidence_score"]))
 
-    # --- B. Tính toán chỉ số Tin cậy ---
     total_conf = sum(conf_list)
     avg_conf = total_conf / len(conf_list) if conf_list else 1.0
 
-    # --- C. Tính Data Richness Index (DRI) ---
     dri = 0.0
     entity = data.get("entity", {})
     rels = data.get("relationships", [])
 
-    # Identity (Max 20)
     if entity.get("ten_khoa_hoc"): dri += 10.0
     if entity.get("ho_thuc_vat"): dri += 5.0
     if len(entity.get("variants", [])) > 0: dri += 5.0
 
-    # TCM Logic (Max 20)
     claims = data.get("claims", [])
     if claims:
         dt = claims[0].get("dac_tinh_yhct", {})
@@ -152,7 +156,6 @@ def process_and_score_scientific(data: dict) -> tuple[float, float, float]:
         if dt.get("tinh"): dri += 5.0
         if dt.get("quy_kinh"): dri += 10.0
 
-    # Modern & Clinical (Max 60)
     counts = {"HC": 0, "DL": 0, "BT": 0, "B": 0, "CN": 0}
     for r in rels:
         rt = r.get("relation_type", "")
@@ -162,7 +165,6 @@ def process_and_score_scientific(data: dict) -> tuple[float, float, float]:
         elif rt.startswith("CHU_TRI"): counts["B"] += 1
         elif rt == "CO_CONG_NANG": counts["CN"] += 1
 
-    # Bổ sung điểm Công năng vào TCM Logic nếu còn dư slot
     if counts["CN"] > 0 and dri < 40.0:
         dri = min(40.0, dri + (counts["CN"] * 2.0))
 
@@ -179,60 +181,49 @@ def process_and_score_scientific(data: dict) -> tuple[float, float, float]:
 # ==========================================================
 
 def force_id_standard(id_str, target_prefix="VI_THUOC_"):
-    """
-    BẢN NÂNG CẤP: Bóc tách MỌI loại tiền tố rác để lấy lõi tuyệt đối,
-    sau đó ép chết vào target_prefix để đảm bảo không bị phân mảnh đồ thị.
-    Sử dụng remove_accents từ utils.helpers.
-    """
     if not id_str: return ""
     core = str(id_str).upper()
+    all_known_prefixes = list(ONTOLOGY["STRICT_RELATION_MAP"].values()) + ["VI_THUOC_", "BAI_THUOC_", "BT_", "VT_", "B_THUOC_", "S_THUOC_", "TRIEU_CHUNG_", "BENH_LY_", "BENH_"]
     
-    # Danh sách tất cả các tiền tố có thể xuất hiện do AI sáng tạo
-    all_known_prefixes = list(ONTOLOGY["STRICT_RELATION_MAP"].values()) + ["VI_THUOC_", "BAI_THUOC_", "BT_", "VT_", "B_THUOC_", "S_THUOC_"]
-    
-    # Bóc vỏ tiền tố
-    for pfx in sorted(all_known_prefixes, key=len, reverse=True): # Xếp dài xuống ngắn để bóc chính xác
+    for pfx in sorted(all_known_prefixes, key=len, reverse=True):
         if core.startswith(pfx):
             core = core[len(pfx):]
             break
             
-    # Xử lý các tiền tố lặp lại (ví dụ VT_VT_BAN_HA)
     core = remove_accents(core).strip('_')
     return f"{target_prefix}{core}"
 
 def smart_normalize_id(raw_id, target_prefix=None):
-    """
-    Hàm tổng quát: Trích xuất phần lõi, tra cứu từ điển SYNONYM_MAP và ép chuẩn Prefix.
-    Tự động chữa lành các lỗi do AI sinh ra (như NGOT_CAM, CAN_KINH...).
-    """
+    """Bóc vỏ không giới hạn độ dài, diệt rác nội hàm, đóng gói an toàn."""
     if not raw_id: return ""
-    
-    # Chuyển hoa và bào dấu
     raw_id = remove_accents(str(raw_id).upper().strip())
     
-    # 1. Tách tiền tố và phần lõi (Ví dụ: V_NGOT_CAM -> prefix: V_, core: NGOT_CAM)
-    parts = raw_id.split('_', 1)
-    if len(parts) > 1 and len(parts[0]) <= 3:
-        prefix = parts[0] + "_"
-        core = parts[1]
-    else:
-        prefix = ""
-        core = raw_id
+    all_known_prefixes = ["VI_THUOC_", "BAI_THUOC_", "TRIEU_CHUNG_", "BENH_LY_", "BENH_", "THUOC_", "NHOMBENH_", "BT_", "VT_", "CN_", "HC_", "DL_", "B_", "S_", "T_", "V_", "K_", "G_"]
+    
+    prefix = ""
+    core = raw_id
+    for pfx in sorted(all_known_prefixes, key=len, reverse=True):
+        if raw_id.startswith(pfx):
+            prefix = pfx
+            core = raw_id[len(pfx):].strip('_')
+            break
 
-    # Đánh chặn đặc biệt: Cấm dùng VT_, bắt buộc dùng VI_THUOC_
-    if prefix == "VT_" and target_prefix is None:
+    if prefix in ["VT_", "VI_THUOC_"] and target_prefix is None:
         target_prefix = "VI_THUOC_"
 
-    # 2. Quét màng lọc SYNONYM_MAP để diệt rác nội hàm
     syn_map = ONTOLOGY.get("SYNONYM_MAP", {})
-    standard_core = syn_map.get(core, core) # Lấy giá trị chuẩn, nếu ko có giữ nguyên
+    standard_core = syn_map.get(core, core) 
 
-    # 3. Lắp ráp lại với tiền tố mục tiêu
-    final_prefix = target_prefix if target_prefix else prefix
-    return f"{final_prefix}{standard_core}"
+    prefix_mapping = {
+        "VI_THUOC_": "VI_THUOC_", "VT_": "VI_THUOC_", "BAI_THUOC_": "BT_", "BT_": "BT_",
+        "TRIEU_CHUNG_": "S_", "S_": "S_", "BENH_LY_": "B_", "BENH_": "B_", "B_": "B_",
+        "CN_": "CN_", "HC_": "HC_", "DL_": "DL_", "T_": "T_", "V_": "V_", "K_": "K_", "G_": "G_"
+    }
+    final_prefix = target_prefix if target_prefix else prefix_mapping.get(prefix, prefix)
+    
+    return f"{final_prefix}{standard_core}".strip('_')
 
 def process_node(node: Any) -> Any:
-    """Sử dụng apply_latex_format và clean_text từ utils.helpers"""
     if isinstance(node, dict): return {k: process_node(v) for k, v in node.items()}
     if isinstance(node, list): return [process_node(i) for i in node]
     if isinstance(node, str): return apply_latex_format(clean_text(node))
@@ -263,13 +254,11 @@ def validate_entity(data: dict, result: ValidationResult) -> dict:
         result.add(Issue("FIXED", "MISSING_CANONICAL", "entity.canonical_name", f"Thêm canonical_name: {fallback}"))
         entity["canonical_name"] = fallback
 
-    # BẢN NÂNG CẤP: Chuẩn hóa ngữ nghĩa (Semantic Normalization) cho Properties
     props = entity.get("properties", {})
     if isinstance(props, dict):
         for pk, pv in props.items():
-            if isinstance(pv, str):
-                if pk in ["bo_phan_dung", "che_bien_tho", "thu_hai"]:
-                    props[pk] = pv.lower().strip() # Ép thường các thuộc tính mô tả
+            if isinstance(pv, str) and pk in ["bo_phan_dung", "che_bien_tho", "thu_hai"]:
+                props[pk] = pv.lower().strip()
     entity["properties"] = props
 
     for sci_field in ("ten_khoa_hoc", "ho_thuc_vat"):
@@ -281,53 +270,22 @@ def validate_entity(data: dict, result: ValidationResult) -> dict:
     return data
 
 def validate_claims(data: dict, result: ValidationResult) -> dict:
-    """
-    Sửa đổi: Sử dụng hàm smart_normalize_id để TỰ ĐỘNG SỬA MỌI LỖI TÍNH/VỊ/KINH 
-    dựa vào cấu hình SYNONYM_MAP thay vì chỉ Warning.
-    """
     claims = data.get("claims", [])
     if not claims: return data
-    
     for i, claim in enumerate(claims):
         if not isinstance(claim, dict): continue
-        path_base = f"claims[{i}]"
-        
         if not claim.get("source", {}).get("source_id"):
-            result.add(Issue("ERROR", "MISSING_SOURCE_ID", f"{path_base}.source", "Thiếu source_id"))
-        
-        dac_tinh = claim.get("dac_tinh_yhct", {})
-        if not dac_tinh: continue
-        
-        # 🚨 Tự động nắn Schema cho dac_tinh_yhct dựa trên Ontology
-        field_configs = [("vi", "V_"), ("tinh", "T_"), ("quy_kinh", "K_")]
-        
-        for field_name, target_pfx in field_configs:
-            if field_name in dac_tinh:
-                vals = dac_tinh[field_name]
-                if not vals: continue
-                
-                is_list = isinstance(vals, list)
-                val_list = vals if is_list else [vals]
-                fixed_list = []
-                
-                for v in val_list:
-                    standard_id = smart_normalize_id(v, target_pfx)
-                    if standard_id != v:
-                        result.add(Issue("FIXED", f"REPAIR_CLAIM_{field_name.upper()}", f"{path_base}.{field_name}", f"Vá ID lỗi: {v} -> {standard_id}"))
-                    fixed_list.append(standard_id)
-                
-                # Ghi đè lại vào data, đảm bảo không bị trùng lặp
-                dac_tinh[field_name] = list(set(fixed_list)) if is_list else fixed_list[0]
-
+            result.add(Issue("ERROR", "MISSING_SOURCE_ID", f"claims[{i}].source", "Thiếu source_id"))
     return data
 
 def validate_relationships(data: dict, result: ValidationResult) -> dict:
+    """🔴 CỖ MÁY XỬ LÝ QUAN HỆ (Đã đảo trình tự: Chuẩn hóa -> Chữa Lành -> Soi Bằng Chứng)"""
     hub_id = data.get("entity", {}).get("id", "UNKNOWN")
     rels   = data.get("relationships", [])
     if not isinstance(rels, list): return data
 
     merged_registry = {}
-    lazy_keywords = ["không tìm thấy", "không đề cập", "không có thông tin", "chưa rõ", "không được nhắc đến"]
+    lazy_keywords = ["không tìm thấy", "không có thông tin", "không được nhắc đến"]
 
     for i, rel in enumerate(rels):
         if not isinstance(rel, dict): continue
@@ -336,100 +294,103 @@ def validate_relationships(data: dict, result: ValidationResult) -> dict:
         
         rt = rel.get("relation_type", "")
         to_val = str(rel.get("to", "")).strip()
+        f_val = str(rel.get("from", "")).strip()
         props = rel.get("properties", {}) or {}
-        
-        # =========================================================
-        # 🛡️ 1. BỘ LỌC CHỐNG ẢO GIÁC (ANTI-HALLUCINATION)
-        # =========================================================
-        is_hallucinated = False
-        if isinstance(props, dict):
-            desc = str(props.get("mo_ta_chi_tiet", "")).lower()
-            
-            if any(kw in desc for kw in lazy_keywords):
-                result.add(Issue("FIXED", "KILL_LAZY_HALLUCINATION", path, f"Xóa quan hệ do AI báo không có thông tin: {to_val}"))
-                continue 
-
-            if to_val.startswith(("K_", "T_", "V_")):
-                core_val = to_val.split('_', 1)[-1].lower()
-                # Cảnh báo nhẹ nếu thuộc tính không mô tả đúng bản chất
-                if core_val and core_val not in desc:
-                    result.add(Issue("WARNING", "WEAK_EVIDENCE", path, f"Dữ liệu {to_val} thiếu bằng chứng trực tiếp trong mô tả"))
-        
-        if is_hallucinated:
-            continue 
 
         # =========================================================
-        # 🛡️ 2. CHUẨN HÓA ID BẰNG TỪ ĐIỂN TỔNG QUÁT (SMART NORMALIZE)
+        # 1. CHUẨN HÓA ID TRƯỚC (Bóc rác để so khớp chính xác)
         # =========================================================
-        f_val = rel.get("from", "")
-        clean_from = hub_id if force_id_standard(f_val) == force_id_standard(hub_id) else (f"BT_{remove_accents(f_val[3:])}" if str(f_val).startswith("BT_") else hub_id)
-        
-        if not to_val or to_val in ONTOLOGY["VAGUE_IDS"]: continue
+        # LỖI 3 FIX: Sử dụng smart_normalize_id để chống bỏ lọt Bài Thuốc
+        raw_clean_from = smart_normalize_id(f_val)
+        if raw_clean_from == smart_normalize_id(hub_id) or raw_clean_from.startswith("BT_"):
+            clean_from = raw_clean_from
+        else:
+            clean_from = hub_id
 
-        # Xác định tiền tố mục tiêu từ Ontology
         req_pfx = ONTOLOGY["STRICT_RELATION_MAP"].get(rt, "")
-        
-        # Đưa vào cỗ máy Smart Normalize để tra cứu & cắt gọt rác
         clean_to = smart_normalize_id(to_val, target_prefix=req_pfx if req_pfx else None)
         
-        # BẢN NÂNG CẤP: Đánh chặn tuyệt đối VT_ thành VI_THUOC_
         if clean_to.startswith("VT_"):
-            old_to = clean_to
             clean_to = clean_to.replace("VT_", "VI_THUOC_", 1)
-            result.add(Issue("FIXED", "STRICT_PREFIX_ENFORCEMENT", path, f"Ép chuẩn tiền tố Vị thuốc: {old_to} -> {clean_to}"))
 
-        if clean_to != to_val and not to_val.startswith("VT_"):
-             result.add(Issue("FIXED", "SMART_REPAIR_ID", path, f"Khắc phục ID lỗi: {to_val} -> {clean_to}"))
+        core_to = clean_to.split('_', 1)[-1].lower() if '_' in clean_to else clean_to.lower()
 
-        core_to = clean_to.split('_', 1)[-1] if '_' in clean_to else clean_to
+        # Loại bỏ các ID thuộc diện rác (VAGUE_IDS)
+        if not to_val or clean_to in ONTOLOGY["VAGUE_IDS"] or core_to.upper() in ONTOLOGY["VAGUE_IDS"]: 
+            result.add(Issue("FIXED", "PRUNE_VAGUE_ID", path, f"Xóa quan hệ trỏ tới rác: {clean_to}"))
+            continue
 
         # =========================================================
-        # 🚨 BỘ LỌC THÉP VÀ CHỮA LÀNH LOGIC (HEALING ENGINE)
+        # 2. CHỮA LÀNH LOGIC (HEALING ENGINE) - Nắn lại rt và clean_to
         # =========================================================
-        
-        # Chữa lành 1: Bệnh/Triệu chứng ảo giác chứa tên vị thuốc (VD: B_THUOC_BAN_HA)
         if rt in ["CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG"]:
             if "THUOC_" in clean_to:
-                old_to = clean_to
                 clean_to = clean_to.replace("THUOC_", "")
-                result.add(Issue("FIXED", "HEAL_HALLUCINATED_DISEASE", path, f"Chữa ID bệnh ảo: {old_to} -> {clean_to}"))
-                core_to = clean_to.split('_', 1)[-1]
-                
-            # Chữa lành 2: Vị thuốc chữa Vị thuốc (Chuyển thành Bao gồm vị thuốc)
+                core_to = clean_to.split('_', 1)[-1].lower()
+                result.add(Issue("FIXED", "HEAL_HALLUCINATED_DISEASE", path, f"Chữa ID bệnh: {clean_to}"))
             if clean_to.startswith("VI_THUOC_"):
-                old_rt = rt
                 rt = "BAO_GOM_VI_THUOC"
-                result.add(Issue("FIXED", "HEAL_INVALID_TREATMENT", path, f"Nắn logic điều trị: {old_rt} -> {rt} vì đích là {clean_to}"))
-
-        # Ép chuẩn Công năng trỏ nhầm
-        if rt == "CO_CONG_NANG":
-            if clean_to.startswith("T_"):
-                rt = "CO_TINH"
-                result.add(Issue("FIXED", "RECLASSIFY_NATURE", path, f"Nắn quan hệ: CO_CONG_NANG -> CO_TINH do đích là {clean_to}"))
-            elif clean_to.startswith("V_"):
-                rt = "CO_VI"
-                result.add(Issue("FIXED", "RECLASSIFY_TASTE", path, f"Nắn quan hệ: CO_CONG_NANG -> CO_VI do đích là {clean_to}"))
-            elif clean_to.startswith("K_"):
-                rt = "QUY_KINH"
-                result.add(Issue("FIXED", "RECLASSIFY_MERIDIAN", path, f"Nắn quan hệ: CO_CONG_NANG -> QUY_KINH do đích là {clean_to}"))
-        
-        # Bẻ lái công năng
-        if core_to.startswith(tuple(ONTOLOGY["TCM_FUNCTION_PREFIXES"])) or core_to in ONTOLOGY["TCM_FUNCTION_EXACT_MATCH"]:
-            if rt in ["CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG"]:
-                old_rt = rt
-                clean_to, rt = f"CN_{core_to}", "CO_CONG_NANG"
-                result.add(Issue("FIXED", "RECLASSIFY_FUNCTION", path, f"Nắn Công năng: {old_rt}->{rt}"))
                 
+        if rt == "CO_CONG_NANG":
+            if clean_to.startswith("T_"): rt = "CO_TINH"
+            elif clean_to.startswith("V_"): rt = "CO_VI"
+            elif clean_to.startswith("K_"): rt = "QUY_KINH"
+        
+        # Bẻ lái công năng tự động (VD: B_AN_THAI -> CN_AN_THAI)
+        core_upper = core_to.upper()
+        if core_upper.startswith(tuple(ONTOLOGY["TCM_FUNCTION_PREFIXES"])) or core_upper in ONTOLOGY["TCM_FUNCTION_EXACT_MATCH"]:
+            if rt in ["CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG"]:
+                clean_to, rt = f"CN_{core_upper}", "CO_CONG_NANG"
+                core_to = core_upper.lower()
+                result.add(Issue("FIXED", "RECLASSIFY_FUNCTION", path, f"Nắn Công năng: {clean_to}"))
+
+        # Sanity Check bọc lót
+        expected_pfx = ONTOLOGY["STRICT_RELATION_MAP"].get(rt)
+        if expected_pfx and not clean_to.startswith(expected_pfx):
+            if clean_to.startswith("K_"): rt = "QUY_KINH"
+            elif clean_to.startswith("T_"): rt = "CO_TINH"
+            elif clean_to.startswith("V_"): rt = "CO_VI"
+
         # =========================================================
-        # 🛡️ 3. THUẬT TOÁN HỢP NHẤT TRI THỨC (MERGE LOGIC)
+        # 3. BỘ LỌC CHỐNG ẢO GIÁC & TỪ ĐIỂN MỎ NEO (ANTI-HALLUCINATION)
         # =========================================================
-        # Bỏ qua quan hệ tự trỏ chính mình (Self-loop)
+        desc = str(props.get("mo_ta_chi_tiet", "")).lower()
+        if any(kw in desc for kw in lazy_keywords):
+            result.add(Issue("FIXED", "KILL_LAZY_HALLUCINATION", path, f"Xóa do AI lười: {clean_to}"))
+            continue 
+
+        if rt in ["CO_TINH", "CO_VI", "QUY_KINH"]:
+            fatal_str = ["không được đề cập", "suy luận", "không thấy nói", "chưa rõ quy kinh", "có thể liên quan", "không đề cập trực tiếp", "dựa trên công năng"]
+            if any(s in desc for s in fatal_str):
+                result.add(Issue("FIXED", "KILL_DNA_HALLUCINATION", path, f"Xóa DNA ảo giác: {clean_to}"))
+                continue
+            
+            # Đối soát mỏ neo
+            anchors = ANCHOR_MAP.get(core_to, [core_to.replace("_", " ")])
+            if not any(a in desc for a in anchors):
+                if rt == "QUY_KINH":
+                    result.add(Issue("FIXED", "REMOVE_HALLUCINATED_MERIDIAN", path, f"Xóa quy kinh ảo: {clean_to} (ko thấy chữ {anchors})"))
+                    continue
+                else:
+                    result.add(Issue("WARNING", "WEAK_EVIDENCE", path, f"Cảnh báo thiếu chữ bằng chứng cho {clean_to}"))
+
+        elif rt in ["CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG", "BAO_GOM_VI_THUOC", "CO_CONG_NANG"]:
+            if "suy luận" in desc or "có lẽ" in desc:
+                # Nới lỏng cho từ khóa quan trọng để giữ lại tri thức mờ
+                if core_to in ["an_thai", "chua_ho", "kham_tieng", "thong_tieu"]:
+                    props["mo_ta_chi_tiet"] = props.get("mo_ta_chi_tiet", "") + " (Cần kiểm chứng từ nguyên tác)"
+                    result.add(Issue("WARNING", "KEEP_CLINICAL_INFERENCE", path, f"Giữ lại {clean_to} nhưng đánh dấu kiểm chứng"))
+                else:
+                    result.add(Issue("FIXED", "KILL_CLINICAL_HALLUCINATION", path, f"Xóa điều trị suy luận vô căn cứ: {clean_to}"))
+                    continue
+
+        # =========================================================
+        # 4. HỢP NHẤT TRI THỨC (MERGE LOGIC)
+        # =========================================================
         if clean_from == clean_to and rt == "BAO_GOM_VI_THUOC":
-            result.add(Issue("FIXED", "REMOVE_SELF_LOOP", path, f"Xóa quan hệ tự trỏ: {clean_from} -> {clean_to}"))
             continue
 
         edge_key = (clean_from, clean_to, rt)
-        
         source_id = rel.get("source", {}).get("source_id", "UNKNOWN")
         conf = float(rel.get("confidence_score") or 0.75)
 
@@ -445,11 +406,9 @@ def validate_relationships(data: dict, result: ValidationResult) -> dict:
                 if vai_tro and vai_tro not in ONTOLOGY["VALID_VAI_TRO"]:
                     props["vai_tro"] = "Chưa rõ"
                 rel["properties"] = props
-                
             merged_registry[edge_key] = rel
         else:
             existing = merged_registry[edge_key]
-            
             if source_id not in existing["source"]["all_sources"]:
                 existing["source"]["all_sources"].append(source_id)
                 existing["source"]["source_id"] = ", ".join(sorted(existing["source"]["all_sources"]))
@@ -461,12 +420,9 @@ def validate_relationships(data: dict, result: ValidationResult) -> dict:
                         existing_props[pk] = pv
                     elif pk == "mo_ta_chi_tiet" and str(pv) not in str(existing_props[pk]):
                         existing_props[pk] = f"{existing_props[pk]} | {pv}"
-            
             existing["confidence_score"] = max(existing["confidence_score"], conf)
 
-    # =========================================================
-    # 🛡️ 4. HẬU XỬ LÝ (PRUNING VAGUE CATEGORIES)
-    # =========================================================
+    # Dọn dẹp Vague Categories
     merged_rels = list(merged_registry.values())
     remedy_map = {}
     for r in merged_rels:
@@ -479,25 +435,84 @@ def validate_relationships(data: dict, result: ValidationResult) -> dict:
             core = r["to"].split('_', 1)[-1]
             if core in ONTOLOGY["VAGUE_DISEASE_CATEGORIES"]:
                 if any(t not in ONTOLOGY["VAGUE_DISEASE_CATEGORIES"] for t in remedy_map.get(r["from"], [])):
-                    result.add(Issue("FIXED", "PRUNE_VAGUE_CATEGORY", "relationships", f"Xóa bệnh chung chung đã gộp: {r['to']}"))
-                    continue
+                    continue # Bỏ qua
         final_rels.append(r)
 
     data["relationships"] = final_rels
     return data
 
-def validate_nodes(data: dict) -> dict:
+def validate_nodes_and_garbage_collect(data: dict) -> dict:
+    """🟢 ĐẠI QUÉT RÁC: Đồng bộ ngược từ Relationships để dọn sạch Node mồ côi"""
     hub_id = data.get("entity", {}).get("id")
-    nodes = data.get("nodes", [])
+    rels = data.get("relationships", [])
+    old_nodes = data.get("nodes", [])
+    
+    # LỖI 1 FIX: Gom danh sách Bài thuốc hợp lệ (có thành phần)
+    valid_bts = {r.get("from") for r in rels if str(r.get("relation_type")) == "BAO_GOM_VI_THUOC"}
+
+    # 1. Gom tất cả ID đang có mặt trong mũi tên (CÓ CHỌN LỌC)
+    safe_ids = {hub_id} if hub_id else set()
+    valid_rels = [] # Lọc luôn các cạnh rác
+
+    for r in rels:
+        f_id = str(r.get("from", ""))
+        t_id = str(r.get("to", ""))
+        
+        # Nếu from là Bài thuốc nhưng không có trong valid_bts -> Bỏ qua cạnh này, không nạp vào safe_ids
+        if f_id.startswith("BT_") and f_id not in valid_bts:
+            continue
+            
+        if f_id: safe_ids.add(f_id)
+        if t_id: safe_ids.add(t_id)
+        valid_rels.append(r)
+        
+    data["relationships"] = valid_rels # Cập nhật lại mảng rels sạch
+        
+    # 2. Quét mảng Nodes cũ, đuổi cổ bọn mồ côi, hợp nhất ID mới
     unique_nodes = {}
-    for n in nodes:
-        nid = n.get("id", "")
-        # Đảm bảo node mồ côi cũng được ép chuẩn VI_THUOC_
-        nid_standard = force_id_standard(nid, "VI_THUOC_") if nid.startswith("VT_") else nid
-        new_id = hub_id if force_id_standard(nid_standard) == force_id_standard(hub_id) else remove_accents(nid_standard)
-        n["id"] = new_id
-        if new_id == hub_id: n["label"] = "ViThuoc"
-        unique_nodes[new_id] = n
+    for n in old_nodes:
+        nid = str(n.get("id", ""))
+        if "VI_THUOC" in nid or "VT_" in nid:
+            standard_nid = smart_normalize_id(nid, "VI_THUOC_")
+        else:
+            standard_nid = smart_normalize_id(nid)
+            
+        if standard_nid == hub_id:
+            standard_nid = hub_id
+        
+        # CHỈ GIỮ LẠI NHỮNG ĐỨA NẰM TRONG VÙNG AN TOÀN
+        if standard_nid in safe_ids:
+            n["id"] = standard_nid
+            unique_nodes[standard_nid] = n
+            
+    # 3. Bơm bổ sung những Node bị đổi tên ở trên Relationships mà chưa có trong mảng
+    prefix_to_label = {
+        "B_": "Benh", "S_": "TrieuChung", "HC_": "HoatChat", 
+        "DL_": "DuocLy", "CN_": "CongNang", "BT_": "BaiThuoc", 
+        "VI_THUOC_": "ViThuoc", "VT_": "ViThuoc", "T_": "Tinh", 
+        "V_": "Vi", "K_": "Kinh", "NHOMBENH_": "NhomBenh", "G_": "DoiTuong"
+    }
+    
+    for sid in safe_ids:
+        if sid not in unique_nodes and sid != hub_id:
+            label = "ThucThe"
+            core_name = sid
+            # LỖI 2 FIX: Cắt chuỗi chính xác dựa trên độ dài prefix
+            for prefix, lbl in prefix_to_label.items():
+                if sid.startswith(prefix):
+                    label = lbl
+                    core_name = sid[len(prefix):].replace("_", " ").title()
+                    break
+            
+            if core_name == sid and "_" in sid: # Fallback
+                core_name = sid.split("_", 1)[-1].replace("_", " ").title()
+                
+            unique_nodes[sid] = {
+                "id": sid,
+                "label": label,
+                "properties": {"canonical_name": core_name}
+            }
+            
     data["nodes"] = list(unique_nodes.values())
     return data
 
@@ -527,23 +542,23 @@ def run_final_gate(filepath: str) -> tuple[dict, ValidationResult]:
     res = ValidationResult(fname=fname)
     with open(filepath, "r", encoding="utf-8") as f: data = json.load(f)
     
-    # 1. Clean & Validate
     data = process_node(data)
     data = validate_entity(data, res)
     data = validate_claims(data, res)
+    
+    # Chạy Relationship (có khả năng sinh Node mới / xóa Edge)
     data = validate_relationships(data, res)
-    data = validate_nodes(data)
+    # Chạy Garbage Collector để dọn Nút mồ côi
+    data = validate_nodes_and_garbage_collect(data)
     
     validate_graph_completeness(data, res)
     validate_neo4j_constraints(data, res)
 
-    # 2. Tính toán điểm Khoa học & Xử lý Null Confidence trực tiếp vào data
     dri, c_score, c_sum = process_and_score_scientific(data)
     res.richness_score = dri
     res.avg_confidence = c_score
     res.total_conf_score = c_sum
 
-    # 3. Ghi đè vào Metadata của file JSON
     data["metadata"] = {
         "scientific_metrics": {
             "data_richness_index": round(dri, 2),
@@ -600,6 +615,22 @@ def generate_markdown_report(stats: dict, file_summaries: list):
     with open(SUMMARY_MD_PATH, "w", encoding="utf-8") as f:
         f.write(md_content)
 
+def dump_detailed_log(summary: dict):
+    if summary["fixed"] > 0 or summary["errors"] > 0 or summary["warnings"] > 0:
+        log_file = os.path.join(LOG_DIR, f"{summary['fname'].replace('.json', '')}_audit.log")
+        with open(log_file, "w", encoding="utf-8") as f:
+            f.write(f"=== STEP 5 REPAIR AUDIT LOG ===\n")
+            f.write(f"File: {summary['fname']}\n")
+            f.write(f"Timestamp: {summary['ts']}\n")
+            f.write(f"Validator Score: {summary['score']}/100\n")
+            f.write(f"{'-'*40}\n")
+            for iss in summary["issues"]:
+                f.write(f"[{iss['level']}] {iss['code']} @ {iss['path']} \n")
+                f.write(f"   -> {iss['detail']}\n")
+                if iss['original'] or iss['fixed_to']:
+                    f.write(f"   -> Đổi từ: {iss['original']} => Thành: {iss['fixed_to']}\n")
+                f.write("\n")
+
 def run_step5():
     files = sorted(glob.glob(os.path.join(INPUT_DIR, "*.json")))
     if not files: return print("❌ Không thấy file input.")
@@ -622,6 +653,7 @@ def run_step5():
             file_summaries.append(summary)
             
             with open(REPORT_PATH, "a", encoding="utf-8") as f: f.write(json.dumps(summary, ensure_ascii=False) + "\n")
+            dump_detailed_log(summary)
             
             stats["total"] += 1
             if res.passed: stats["passed"] += 1
@@ -643,6 +675,7 @@ def run_step5():
     print(f"📊 TỔNG KẾT: {stats['passed']}/{stats['total']} file sẵn sàng nạp Neo4j.")
     if stats["quarantine"] > 0: print(f"⚠️  {stats['quarantine']} file bị cách ly tại {QUARANTINE_DIR}/")
     print(f"📑 Báo cáo Khoa học (Markdown) đã tạo tại: {SUMMARY_MD_PATH}")
+    print(f"🔍 Log chi tiết (Audit) lưu tại thư mục: {LOG_DIR}")
 
 if __name__ == "__main__":
     run_step5()

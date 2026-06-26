@@ -1,0 +1,183 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VAI",
+    "ten_raw": "Vai",
+    "ten_khoa_hoc": "Litchi sinensis Radlk. (Nephelium litchi Cambess, Euphoria litchi Dest.)",
+    "ho_thuc_vat": "Bồ hòn (Sapindaceae)",
+    "variants": [
+      "quả vải",
+      "lệ chi",
+      "phle kulen"
+    ],
+    "properties": {
+      "bo_phan_dung": "áo hạt",
+      "phan_bo": "khắp Việt Nam, còn thấy ở Campuchia, Lào, Trung Quốc, Thái Lan, phía bắc Ấn Độ.",
+      "thu_hai": "tháng 5-6",
+      "che_bien_tho": "sấy khô hoặc đóng hộp dùng dần. Hạt vải thái mỏng phơi hay sấy khô dùng làm thuốc với tên lệ chi hạch."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T456",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "456"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": []
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vải là một cây to có thể cao tới $10m$. Cành thường mọc ngang, lá kép chẵn, gồm $3$ đến $4$ đôi lá chét hình mác, hay thuôn dài, hai đầu tù, dai, mặt trên bóng, mặt dưới mờ. Hoa mọc thành chuỳ tận cùng, trên cành mang hoa phủ đầy lông nâu nhạt. Hoa không cánh, $5$ lá đài đính nhau. Nhị $7$-$10$, $3$ lá noãn nhưng $1$ lép nên bầu chỉ có $2$ ô, mỗi ô chứa một noãn. Quả hình cầu, to gần bằng quả trứng gà, vỏ quả khô và mỏng, sần sùi chứa một hạt to bao bọc bởi một áo hạt trắng, mẫm, nhiều nước, thơm ngọt và chua, ăn được.",
+        "thanh_phan_hoa_hoc": [
+          "Trong áo hạt (tử y) ta thường gọi là múi vải có chất đường chủ yếu là glucoza ($66$\\%); một ít dưới dạng sacaroza ($5$\\%); protein $1,5$\\%$; chất béo $1,4$\\%$; vitamin C (trung bình $40mg$ trong $100g$ dịch áo hạt); vitamin C,, vitamin A và B (hai thứ vitamin này thường chỉ thấy trong áo hạt tươi, khô thì thường mất đi), axit xitric.",
+          "Trong hạt vải có a metylencyclopropyglyxin:"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình hay ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt, chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt, chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong áo hạt (tử y) ta thường gọi là múi vải có chất đường chủ yếu là glucoza ($66$\\%);"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong áo hạt (tử y) ta thường gọi là múi vải có chất đường chủ yếu là glucoza ($66$\\%); một ít dưới dạng sacaroza ($5$\\%);"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_PROTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "protein $1,5$\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất béo $1,4$\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "vitamin C (trung bình $40mg$ trong $100g$ dịch áo hạt);"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit xitric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_A_METYLENCYCLOPROPYGLYXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt vải có a metylencyclopropyglyxin:"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt vải (lệ chi hạch) có tanin $1$-$1,5$\\%$, độ tro $1$-$1,2$\\%$, độ ẩm $10$-$12$\\%$, chất béo $5$-$6$\\%$.",
+        "ghi_chu": "Trong hạt vải (lệ chi hạch)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAI",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ quả có tanin và một saponin độc, $2$.",
+        "ghi_chu": "Trong vỏ quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    }
+  ]
+}

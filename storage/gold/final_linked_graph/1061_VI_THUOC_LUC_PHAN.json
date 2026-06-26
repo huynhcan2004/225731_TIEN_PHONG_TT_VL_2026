@@ -1,0 +1,695 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LUC_PHAN",
+    "ten_raw": "Lục phàn",
+    "ten_khoa_hoc": "$Melanteritum$",
+    "ho_thuc_vat": "",
+    "variants": [
+      "tạo phàn",
+      "thủy lục phàn",
+      "phèn đen"
+    ],
+    "properties": {
+      "bo_phan_dung": "",
+      "thu_hai": "",
+      "che_bien_tho": "",
+      "lieu_dung_chung": "Ngày uống $0,10$-$0,25$g để bổ máu. Muốn gây nôn thì mỗi lần dùng $1- 2$g, cách 20 phút sau nếu chưa thấy nôn thì lại uống nữa. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "",
+      "phan_bo": "Lục phàn là một khoáng sản thiên nhiên có chứa sắt sunfat (FeSO,); người ta có thể tự chế lấy theo phương pháp hóa học thông thường."
+    },
+    "display_name": "Vị thuốc Lục phàn",
+    "canonical_name": "Vị thuốc Lục phàn"
+  },
+  "nodes": [
+    {
+      "id": "BT_BO_HUYET",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Bổ huyết",
+        "aliases": [
+          "bo huyet",
+          "bổ huyết",
+          "bohuyet"
+        ],
+        "search_vector_hint": "Bài thuốc Bổ huyết thuộc nhóm bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "BT_CAM_TAU_MA_LUC_PHAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cam thảo ma lục phẩn",
+        "aliases": [
+          "cam thao ma luc phan",
+          "camthaomalucphan",
+          "cam thảo ma lục phẩn"
+        ],
+        "search_vector_hint": "Bài thuốc Cam thảo ma lục phẩn thuộc nhóm bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "BT_NHUOM_TOC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Nhuộm tóc",
+        "aliases": [
+          "nhuom toc",
+          "nhuomtoc",
+          "nhuộm tóc"
+        ],
+        "search_vector_hint": "Bài thuốc Nhuộm tóc thuộc nhóm bài thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Dạ dày",
+        "aliases": [
+          "viemdaday",
+          "dau da day",
+          "daday",
+          "viêm dạ dày",
+          "da day",
+          "dạ dày",
+          "daudaday",
+          "viem da day",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Dạ dày thuộc nhóm bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "B_RUOT_CHAY_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ruột chảy máu",
+        "aliases": [
+          "ruot chay mau",
+          "xuất huyết đường ruột",
+          "ruột chảy máu",
+          "ruotchaymau",
+          "xuathuyetduongruot",
+          "xuat huyet duong ruot"
+        ],
+        "search_vector_hint": "Bệnh Ruột chảy máu thuộc nhóm bệnh, thường liên quan đến tổn thương niêm mạc ruột."
+      }
+    },
+    {
+      "id": "B_SAU_BO_VAO_TAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sâu bò vào tai",
+        "aliases": [
+          "sâu bò vào tai",
+          "sau bo vao tai",
+          "saubovaotai"
+        ],
+        "search_vector_hint": "Bệnh Sâu bò vào tai thuộc nhóm bệnh, thường liên quan đến côn trùng xâm nhập."
+      }
+    },
+    {
+      "id": "B_THIEU_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thiếu máu",
+        "aliases": [
+          "ban huyet",
+          "thieumau",
+          "thiếu máu",
+          "huyết hư",
+          "bần huyết",
+          "thieu mau",
+          "banhuyet",
+          "huyet hu",
+          "huyethu"
+        ],
+        "search_vector_hint": "Thiếu máu thuộc nhóm Bệnh, thường liên quan đến giảm số lượng hồng cầu hoặc huyết sắc tố."
+      }
+    },
+    {
+      "id": "B_THUNG_TRUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thũng trướng",
+        "aliases": [
+          "thungtruong",
+          "thung truong",
+          "cotruong",
+          "bungtruong",
+          "bụng trướng",
+          "co truong",
+          "thũng trướng",
+          "bung truong",
+          "cổ trướng"
+        ],
+        "search_vector_hint": "Bệnh Thũng trướng thuộc nhóm bệnh, thường liên quan đến tích tụ dịch trong ổ bụng."
+      }
+    },
+    {
+      "id": "B_VANG_DA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vàng da",
+        "aliases": [
+          "vang da",
+          "vangda",
+          "vàng da"
+        ],
+        "search_vector_hint": "Bệnh Vàng da thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng gan."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TAO_THAP_HOA_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Táo thấp hóa đờm",
+        "aliases": [
+          "taothaphoadom",
+          "táo thấp hóa đờm",
+          "tao thap hoa dom"
+        ],
+        "search_vector_hint": "Công năng Táo thấp hóa đờm thuộc nhóm công năng, thường liên quan đến điều trị đờm do thấp nhiệt."
+      }
+    },
+    {
+      "id": "CN_TIEU_TICH_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu tích sát trùng",
+        "aliases": [
+          "tieutichsattrung",
+          "tiêu tích sát trùng",
+          "tieu tich sat trung"
+        ],
+        "search_vector_hint": "Công năng Tiêu tích sát trùng thuộc nhóm công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi",
+        "aliases": [
+          "canxi"
+        ],
+        "search_vector_hint": "Hoạt chất Canxi thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_MAGIE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Magie",
+        "aliases": [
+          "magie"
+        ],
+        "search_vector_hint": "Hoạt chất Magie thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_MANGAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Mangan",
+        "aliases": [
+          "mangan"
+        ],
+        "search_vector_hint": "Hoạt chất Mangan thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_SATSUNFAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sắt sunfat",
+        "aliases": [
+          "sat sunfat",
+          "satsunfat",
+          "sắt sunfat"
+        ],
+        "search_vector_hint": "Hoạt chất Sắt sunfat thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Luong",
+        "aliases": [
+          "lương",
+          "luong"
+        ],
+        "search_vector_hint": "Tính Lương thuộc nhóm tính, thường liên quan đến tác dụng làm mát và giảm nhiệt."
+      }
+    },
+    {
+      "id": "VT_LUC_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lục phàn",
+        "aliases": [
+          "luc phan",
+          "lục phàn",
+          "lucphan"
+        ],
+        "search_vector_hint": "Vị thuốc Lục phàn thuộc nhóm vị thuốc, thường liên quan đến phèn xanh.",
+        "lieu_dung_chung": "Ngày uống $0,10$-$0,25$g để bổ máu. Muốn gây nôn thì mỗi lần dùng $1- 2$g, cách 20 phút sau nếu chưa thấy nôn thì lại uống nữa. Dùng ngoài không kể liều lượng.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Lục phàn là một khoáng sản thiên nhiên có chứa sắt sunfat (FeSO,); người ta có thể tự chế lấy theo phương pháp hóa học thông thường.",
+        "ten_khoa_hoc": "$Melanteritum$",
+        "ho_thuc_vat": "",
+        "hinh_thai_chi_tiet": "Lục phàn có tinh thể trong mờ, hay trong màu xanh nhạt, để lâu ra không khí sẽ thường bị oxy hóa cho màu vàng nhạt, ròn dễ vỡ vụn, vị sáp.",
+        "thanh_phan_hoa_hoc": "['Trong lục phần thiên nhiên chủ yếu có sắt sunfat ($FeSO, 7H,O$). Tạp chất gồm magiê ($Mg$), mangan ($Mn$), canxi ($Ca$).', 'Lục phàn tự chế lấy không có các tạp chất.']"
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1061"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Lục phàn có tinh thể trong mờ, hay trong màu xanh nhạt, để lâu ra không khí sẽ thường bị oxy hóa cho màu vàng nhạt, ròn dễ vỡ vụn, vị sáp.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lục phần thiên nhiên chủ yếu có sắt sunfat ($FeSO, 7H,O$). Tạp chất gồm magiê ($Mg$), mangan ($Mn$), canxi ($Ca$).",
+          "Lục phàn tự chế lấy không có các tạp chất."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính chất của lục phàn chua mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "tính chất của lục phàn chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "HC_SATSUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lục phần thiên nhiên chủ yếu có sắt sunfat ($FeSO, 7H,O$).",
+        "ghi_chu": "Công thức gốc bị lỗi chính tả, sửa lại từ $FeSO_4$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "HC_MAGIE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tạp chất gồm magiê ($Mg$)",
+        "ghi_chu": "magiê"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "HC_MANGAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tạp chất gồm mangan ($Mn$)",
+        "ghi_chu": "mangan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tạp chất gồm canxi ($Ca$)",
+        "ghi_chu": "canxi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TAU_MA_LUC_PHAN",
+      "to": "VT_LUC_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_THIEU_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "0,10-$0,25g$",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên, dùng riêng hay phối hợp với các vị thuốc khác.",
+        "ghi_chu": "để bổ máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "0,10-$0,25g$",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên, dùng riêng hay phối hợp với các vị thuốc khác.",
+        "ghi_chu": "để bổ máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_THUNG_TRUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "0,10-$0,25g$",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên, dùng riêng hay phối hợp với các vị thuốc khác.",
+        "ghi_chu": "để bổ máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "0,10-$0,25g$",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên, dùng riêng hay phối hợp với các vị thuốc khác.",
+        "ghi_chu": "để bổ máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_RUOT_CHAY_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "0,10-$0,25g$",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên, dùng riêng hay phối hợp với các vị thuốc khác.",
+        "ghi_chu": "để bổ máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_HUYET",
+      "to": "VT_LUC_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "B_SAU_BO_VAO_TAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tán nhỏ, cho vào tai"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUOM_TOC",
+      "to": "VT_LUC_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "CN_TAO_THAP_HOA_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp hóa đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "CN_TIEU_TICH_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu tích sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LUC_PHAN",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "all_sources": [
+          "CT_VT_VN_T1061"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 44.0,
+      "reliability_c_score": 0.7591,
+      "total_confidence_sum": 16.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

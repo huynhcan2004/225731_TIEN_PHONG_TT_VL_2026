@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VIEN_CHI",
+    "ten_raw": "Viền chí",
+    "ten_khoa_hoc": "Liquidambar orientalis Mill.; Polygala sp.",
+    "ho_thuc_vat": "Sau sau (Hamamelidaceae); Viễn chí (Polygalaceae)",
+    "variants": [
+      "Tô hợp hương",
+      "tiểu thảo",
+      "nam viễn chí"
+    ],
+    "properties": {
+      "bo_phan_dung": "Vỏ cây (chất nhựa)",
+      "phan_bo": "Cây này mọc ở châu Phi, Ấn Độ, Thổ Nhĩ Kỳ, Ba Tư. Triển vọng có ở Việt Nam (tại nông trường Tràng Vinh, cách thị xã Hải Ninh $5km$), tỉnh Quảng Ninh.",
+      "thu_hai": "Đầu mùa hạ chặt vỏ cây tới gỗ, mùa thu bóc vỏ, đun sôi với nước, lọc ép, nhựa dầu sẽ nổi lên. Có thể lấy như lấy cánh kiến trắng.",
+      "che_bien_tho": "Vị thuốc là một chất sền sệt như mật thường chia thành $2$ lớp: Lớp dưới xám, lớp trên lỏng màu sẫm. Mùi thơm như bôm, tôluy, vị đắng, hơi hắc. Vì tan trong cồn cho nên có thể tinh chế được (để loại tạp chất vô cơ và vỏ cây), tan trong clofofoc, axit axetic, cacbon sunfua, ête. Đun trên một phiến kính, để nguội sẽ có tinh thể styraxin và những tinh thể axit xinamic."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T745",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "745"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây tổ hợp hương là một cây to có thể cao $12-15m$. Lá hình chân vịt, cuống dài, có $3$ hoặc $5$ thuỳ mép có răng cưa. Hoa đơn tính mọc ở kẽ lá, hoa đực thành bông, hoa cái họp thành hình cầu, trong có hạt dẹt. Trong vỏ cây có chất nhựa tức là tổ hạp hương",
+        "thanh_phan_hoa_hoc": [
+          "Phần đặc gồm có chất nhựa do cồn resitanola và axit xinamic. Phần lỏng gồm $17-23\\%$ axit xinamic tự do, $24\\%$ este của axit xinamic (xinamat xinamyl hay styraxin xinamat etyl, xinamat phenylpropyl). Axit xinamic tự do hay kết hợp chiếm chừng $47\\%$ nhựa lỏng. Ngoài ra còn tinh dầu trong tinh dầu trong đó chủ yếu gồm styrolen (xinamen hay phenyletylen) và các ête xinamic, trong nhựa còn có cả vanilin. Có nước quy định tổ hợp hương phải chứa ít nhất $20\\%$ axit xinamic toàn bộ, chỉ số axit $60-80$. Chỉ số xà phòng $100-146$. Dược thư Ý còn quy định tổ hợp hương hoà vào cồn không được có quả $20\\%$ chất không tan."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VIEN_CHI",
+      "to": "HC_AXIT_XINAMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần đặc gồm có chất nhựa do cồn resitanola và axit xinamic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T745"
+      }
+    },
+    {
+      "from": "VI_THUOC_VIEN_CHI",
+      "to": "HC_STYROLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn tinh dầu trong tinh dầu trong đó chủ yếu gồm styrolen (xinamen hay phenyletylen) và các ête xinamic, trong nhựa còn có cả vanilin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T745"
+      }
+    },
+    {
+      "from": "VI_THUOC_VIEN_CHI",
+      "to": "HC_VANILIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn tinh dầu trong tinh dầu trong đó chủ yếu gồm styrolen (xinamen hay phenyletylen) và các ête xinamic, trong nhựa còn có cả vanilin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T745"
+      }
+    }
+  ]
+}

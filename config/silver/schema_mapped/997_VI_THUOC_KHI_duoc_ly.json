@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_KHI",
+  "source": {
+    "source_id": "CT_VT_VN_T997",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "997"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng khu phong làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu dùng trong những bệnh đau xương, tê thấp, đi lại khó khăn, đau nhức."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "DL_KHU_PHONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng khu phong làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "DL_BO_GAN_COT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    }
+  ],
+  "metadata": {}
+}

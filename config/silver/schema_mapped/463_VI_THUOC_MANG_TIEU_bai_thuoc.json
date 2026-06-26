@@ -1,0 +1,133 @@
+{
+  "entity_hub": "VI_THUOC_MANG_TIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T463",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "463"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BANG_QUANG_NONG_MANG_TIEU_M",
+      "to": "VI_THUOC_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mang tiêu có tính hàn, giúp thanh nhiệt, tả hỏa, nhuận táo, thường được dùng để chữa các chứng nhiệt kết ở vị tràng.",
+        "cach_dung": "Ngày uống 2 hay 3 lần. Dùng nước pha tiểu hồi mà chiêu thuốc.",
+        "ghi_chu": "Không rõ liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_BANG_QUANG_NONG_MANG_TIEU_M",
+      "to": "B_VIEM_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bàng quang nóng tiểu tiện không thông",
+        "cach_dung": "Ngày uống 2 hay 3 lần. Dùng nước pha tiểu hồi mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_BANG_QUANG_NONG_MANG_TIEU_M",
+      "to": "S_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bàng quang nóng tiểu tiện không thông",
+        "cach_dung": "Ngày uống 2 hay 3 lần. Dùng nước pha tiểu hồi mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_MANG_TIEU_M",
+      "to": "VI_THUOC_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mang tiêu có tác dụng thanh nhiệt, tả hỏa, thường được dùng để chữa các chứng nhiệt độc gây đau đầu.",
+        "cach_dung": "Thổi vào mũi.",
+        "ghi_chu": "Không rõ liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_MANG_TIEU_M",
+      "to": "S_DAU_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu không chịu được",
+        "cach_dung": "Thổi vào mũi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU_MN",
+      "to": "VI_THUOC_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mang tiêu có tác dụng tả nhiệt, nhuận táo, thông trệ. Ngô thù du có tác dụng ôn trung, tán hàn, chỉ thống. Hai vị thuốc phối hợp giúp tiêu thực, giảm đầy bụng.",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi.",
+        "ghi_chu": "Mang tiêu $30g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU_MN",
+      "to": "VI_THUOC_NGU_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mang tiêu có tác dụng tả nhiệt, nhuận táo, thông trệ. Ngô thù du có tác dụng ôn trung, tán hàn, chỉ thống. Hai vị thuốc phối hợp giúp tiêu thực, giảm đầy bụng.",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi.",
+        "ghi_chu": "Ngô thù du $40g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU_MN",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu, trong bụng ì ạch",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU_MN",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu, trong bụng ì ạch",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,201 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MUONG_TRUONG",
+    "ten_raw": "Muồng truồng",
+    "ten_khoa_hoc": "$Zanthoxylum avicennae (Lamk.) DC; Fagara avicennae Lamk.; Zanthoxylum herculis Lour.$",
+    "ho_thuc_vat": "$Cam Rutaceae (Rutaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "lieu_dung_chung": "Mỗi ngày uống $6$ đến $12$g rễ khô. Dùng ngoài không kể liều lượng để nước tắm khi bị mẩn ngứa, lở loét, ghẻ. Một số nơi dùng lá nấu ăn.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "khắp rừng núi các tỉnh miền Bắc nước ta, có mọc cả ở miền Nam, Cămpuchia, Lào.",
+      "che_bien_tho": "lấy rễ hoặc vỏ thân, vỏ rễ về sao vàng hoặc phơi khô làm thuốc."
+    },
+    "display_name": "Muồng truồng",
+    "canonical_name": "Muồng truồng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MUONG_TRUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Muong Truong"
+      }
+    },
+    {
+      "id": "HC_BERBERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Berberin"
+      }
+    },
+    {
+      "id": "HC_XITRONELLAL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xitronellal"
+      }
+    },
+    {
+      "id": "B_MAN_NGUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Man Ngua"
+      }
+    },
+    {
+      "id": "B_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "S_CHAY_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay Nuoc"
+      }
+    },
+    {
+      "id": "B_GHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "156"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ nhưng cũng có những cây gỗ to có thân mang nhiều gai lởm chởm (do đó có tên vùng Nghệ An, Hà Tĩnh, cành cũng mang nhiều gai thẳng đứng và ngắn. Lá nhẵn, kép lông chim rìa lẻ từ 3 đến 13 đôi lá chét; cuống lá hình trụ có khi kèm theo đôi cánh nhỏ. Hoa màu trắng nhạt, mọc thành tán kép, nhẵn, tận cùng, dài hơn lá. Quả dài $4mm$, 1 đến 3 mảnh, lớp vỏ ngoài không tách khỏi lớp vỏ trong, mỗi ngăn chứa ancaloit, chủ yếu là becberin. Hoạt chất khác một hạt màu đen ( Hình 100 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ màu vàng, vị rất đắng có chứa chưa rõ.",
+          "Trong quả có một ít tinh dầu mùi thơm $xitronellal$."
+        ],
+        "cach_dung_bao_che": "Nhân dân thường lấy lá về nấu ăn, lấy rễ hoặc vỏ thân, vỏ rễ về sao vàng hoặc phơi khô làm thuốc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "HC_BERBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "mỗi ngăn chứa ancaloit, chủ yếu là becberin.",
+        "ghi_chu": "trong quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "HC_XITRONELLAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có một ít tinh dầu mùi thơm $xitronellal$.",
+        "ghi_chu": "trong quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "B_MAN_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$ | Dùng ngoài không kể liều lượng",
+        "cach_dung": "Sắc đặc uống | Để nước tắm",
+        "ghi_chu": "Rễ sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$ | Dùng ngoài không kể liều lượng",
+        "cach_dung": "Sắc đặc uống | Để nước tắm",
+        "ghi_chu": "Rễ sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "S_CHAY_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Sắc đặc uống",
+        "ghi_chu": "Rễ sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MUONG_TRUONG",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dùng ngoài không kể liều lượng",
+        "cach_dung": "Để nước tắm",
+        "ghi_chu": "Rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T156",
+        "all_sources": [
+          "CT_VT_VN_T156"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 27.0,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

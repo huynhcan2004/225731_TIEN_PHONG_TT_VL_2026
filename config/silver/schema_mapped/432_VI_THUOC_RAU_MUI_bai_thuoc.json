@@ -1,0 +1,121 @@
+{
+  "entity_hub": "VI_THUOC_RAU_MUI",
+  "source": {
+    "source_id": "CT_VT_VN_T432",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "432"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_SOI_RAU_MUI_Q",
+      "to": "VI_THUOC_RAU_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau mùi giúp thúc đẩy đậu mọc nhanh.",
+        "cach_dung": "Phun từ đầu đến chân, trừ mặt.",
+        "ghi_chu": "kinh nghiệm dân gian, quả mùi tán nhỏ, đun sôi với rượu và nước, lọc bỏ bã."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_DAU_SOI_RAU_MUI_Q",
+      "to": "B_DAU_SOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đậu sởi không mọc.",
+        "cach_dung": "Phun từ đầu đến chân, trừ mặt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_CAN_SUA_RAU_MUI_R",
+      "to": "VI_THUOC_RAU_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rau mùi giúp lợi sữa.",
+        "cach_dung": "Chia hai lần uống trong ngày.",
+        "ghi_chu": "Quả mùi sắc nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_CAN_SUA_RAU_MUI_R",
+      "to": "S_CAN_SUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đẻ xong cạn sữa.",
+        "cach_dung": "Chia hai lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_NOT_DEN_RAU_MUI_R",
+      "to": "VI_THUOC_RAU_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rau mùi giúp làm mờ nốt đen trên mặt.",
+        "cach_dung": "Sắc nước rửa luôn.",
+        "ghi_chu": "Quả mùi sắc nước rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_NOT_DEN_RAU_MUI_R",
+      "to": "S_NOT_DEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mặt có những nốt đen.",
+        "cach_dung": "Sắc nước rửa luôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_LOI_DOM_RAU_MUI_R",
+      "to": "VI_THUOC_RAU_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rau mùi giúp giảm lòi dom.",
+        "cach_dung": "Đốt hun lấy khói hứng vào nơi dom lòi.",
+        "ghi_chu": "Quả mùi đốt hun."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    },
+    {
+      "from": "BT_LOI_DOM_RAU_MUI_R",
+      "to": "B_LOI_DOM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lòi dom.",
+        "cach_dung": "Đốt hun lấy khói hứng vào nơi dom lòi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T432"
+      }
+    }
+  ],
+  "metadata": {}
+}

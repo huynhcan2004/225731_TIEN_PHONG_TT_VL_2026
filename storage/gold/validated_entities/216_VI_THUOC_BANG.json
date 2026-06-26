@@ -1,0 +1,250 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BANG",
+    "ten_raw": "Bàng",
+    "display_name": "Bàng",
+    "ten_khoa_hoc": "$Terminalia catappa L.$",
+    "ho_thuc_vat": "$Bàng (Combretaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá, quả",
+      "thu_hai": "tháng 8-10",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Liều dùng hằng ngày 12-15$g$, sắc với 200$ml$, thêm ít đường cho dễ uống.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Cây bàng được trồng khắp nơi làm cây hóng mát."
+    },
+    "canonical_name": "Bàng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bang"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "HC_DAU_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Dau Beo"
+      }
+    },
+    {
+      "id": "S_IA_CHAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ia Chay"
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Loet"
+      }
+    },
+    {
+      "id": "B_VET_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Thuong"
+      }
+    },
+    {
+      "id": "B_CAM_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Sot"
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Nhuc"
+      }
+    },
+    {
+      "id": "S_IA_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ia Ra Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "216"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bàng là một cây to, có thể cao tới $25m$, cành mọc vòng làm cho tán cây xòe ra như cái lọng. Lá to hình thìa, đầu tròn, mặt trên nhẵn, mặt dưới có lông hung nhạt phiến lá dài $20-30cm$, rộng $10-13cm$. Hoa nhiều mọc thành bông dài $15-20cm$, trên cán bông hoa có lông. Quả hình bầu dục, nhẵn dẹt với hai bên dìa hẹp, đầu hơi nhọn, dài $4cm$, rộng $3cm$, dày $15mm$, nhẵn, cơm màu vàng đỏ, có xơ. Hạch rộng $15mm$, hạt có nhân trắng chứa nhiều dầu. Mùa quả: Tháng 8-10 Cây to, cao $15-20m$. Cành mọc ngang thành từng tầng. Lá to, dài $15-25cm$, rộng $10-14cm$, hình trứng ngược, đầu tròn, gốc thuôn, khi rụng có màu đỏ. Hoa nhỏ, màu trắng, mọc thành bông ở kẽ lá. Quả hạch dẹt, hai bên có gờ, dài $5-6cm$, rộng $4cm$, chứa một hạt.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T217]: Lá và vỏ cây chứa $tanin$: vỏ thân chứa từ $25-35\\%$ $tanin$ pyrogalic và $tanin$ catechic. Vỏ cành chứa $11\\%$ $tanin$. Nhân hạt chứa $50\\%$ dầu béo màu vàng nhạt hay lục nhạt, vị dễ chịu, giống như dầu hạnh nhân, ăn được. Tuy nhiên nhân chỉ chiếm $10\\%$ toàn quả cho nên cuối cùng toàn quả chỉ chứa chừng $5\\%$ dầu béo, việc tách nhận lại đòi hỏi nhiều công sức, chưa cơ giới hóa được cho nên đến nay việc khai thác dầu hạt bàng chưa được đặt ra."
+        ],
+        "cach_dung_bao_che": "Người ta thường dùng lá, vỏ cây và hạt. [CT_VT_VN_T217]: Người ta dùng vỏ thân, vỏ cành và lá để làm thuốc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá và vỏ cây chứa $tanin$: vỏ thân chứa từ $25-35\\%$ $tanin$ pyrogalic và $tanin$ catechic.",
+        "ghi_chu": "Vỏ thân chứa từ $25-35\\%$ $tanin$ pyrogalic và $tanin$ catechic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân hạt chứa $50\\%$ dầu béo màu vàng nhạt hay lục nhạt, vị dễ chịu, giống như dầu hạnh nhân, ăn được.",
+        "ghi_chu": "Nhân hạt chứa $50\\%$ dầu béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "S_IA_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$12-15g$",
+        "cach_dung": "Sắc với $200ml$ nước, thêm ít đường cho dễ uống",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rửa ngoài",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rửa ngoài",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống làm cho ra mồ hôi",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nát, xào nóng để đắp và chườm vào nơi đau nhức",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "S_IA_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T217"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "all_sources": [
+          "CT_VT_VN_T216"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.0,
+      "reliability_c_score": 0.7722,
+      "total_confidence_sum": 6.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CHI_THUC",
+    "ten_raw": "Chỉ thực",
+    "ten_khoa_hoc": "$Citrus sp.; Poncirus trifolia Raf.; Citrus wilsonii Tanaka; Citrus aurantium L.; Citrus aurantium L. var amara Engl.; Citrus hystrix D. C.$",
+    "ho_thuc_vat": "$Cam Rutaceae$",
+    "variants": [
+      "Chỉ thực (Fructus Aurantii immaturi)",
+      "Chỉ xác (Fructus Citri aurantii)"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả phơi khô",
+      "thu_hai": "thu hái ở thời kỳ khác nhau",
+      "che_bien_tho": "quả bổ đôi phơi khô",
+      "lieu_dung_chung": "Ngày dùng 6 đến $12g$ (có thể dùng hơn) dưới dạng thuốc sắc. Dùng riêng hay phối hợp với các vị thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "không có",
+      "phan_bo": "mọc hoang và được trồng ở nhiều nơi miền Bắc và miền Nam nước ta"
+    },
+    "display_name": "Vị thuốc Chỉ thực",
+    "canonical_name": "Vị thuốc Chỉ thực"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAI_TIEN_KHO_KHAN_CHI_THUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đại tiện khó khăn (Tri thức)",
+        "aliases": [
+          "dai tien kho khan (tri thuc)",
+          "đại tiện khó khăn (tri thức)",
+          "daitienkhokhan(trithuc)"
+        ],
+        "search_vector_hint": "Bài thuốc Đại tiện khó khăn (Tri thức) thuộc nhóm Bài thuốc, thường liên quan đến táo bón."
+      }
+    },
+    {
+      "id": "BT_DA_DAY_GAN_KEM_HOAT_DONG_CHI_THUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Dạ dày gan kém hoạt động (Tri thức)",
+        "aliases": [
+          "dạ dày gan kém hoạt động (tri thức)",
+          "dadaygankemhoatdong(trithuc)",
+          "da day gan kem hoat dong (tri thuc)"
+        ],
+        "search_vector_hint": "Bài thuốc Dạ dày gan kém hoạt động (Tri thức) thuộc nhóm Bài thuốc, thường liên quan đến bệnh lý tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAI_TIEN_KHO_KHAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đại tiện khó khăn",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon",
+          "dai tien kho khan",
+          "daitienkhokhan",
+          "đại tiện khó khăn"
+        ],
+        "search_vector_hint": "Bệnh Đại tiện khó khăn thuộc nhóm Bệnh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DA_DAY_GAN_KEM_HOAT_DONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Dạ dày gan kém hoạt động",
+        "aliases": [
+          "dạ dày gan kém hoạt động",
+          "dadaygankemhoatdong",
+          "da day gan kem hoat dong"
+        ],
+        "search_vector_hint": "Bệnh Dạ dày gan kém hoạt động thuộc nhóm Bệnh, thường liên quan đến rối loạn chức năng gan và dạ dày."
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hen",
+        "aliases": [
+          "hen suyễn",
+          "hensuyen",
+          "hen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Bệnh Hen thuộc nhóm bệnh, thường liên quan đến viêm đường hô hấp và khó thở."
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Bệnh Ho thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_TRE_CON_DI_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trẻ con đi lỵ",
+        "aliases": [
+          "ly o tre em",
+          "trecondily",
+          "lỵ ở trẻ em",
+          "tre con di ly",
+          "trẻ con đi lỵ",
+          "lyotreem"
+        ],
+        "search_vector_hint": "Bệnh Trẻ con đi lỵ thuộc nhóm Bệnh, thường liên quan đến rối loạn tiêu hóa ở trẻ."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_THAT_THUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống thất thường",
+        "aliases": [
+          "ăn uống thất thường",
+          "anuongthatthuong",
+          "an uong that thuong"
+        ],
+        "search_vector_hint": "Công năng Ăn uống thất thường thuộc nhóm Công năng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_CO_BOP_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Co bóp tim",
+        "aliases": [
+          "co bop tim",
+          "coboptim",
+          "co bóp tim"
+        ],
+        "search_vector_hint": "Công năng Co bóp tim thuộc nhóm công năng, thường liên quan đến hoạt động của tim mạch."
+      }
+    },
+    {
+      "id": "DL_CO_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Co mạch",
+        "aliases": [
+          "comach",
+          "co mạch",
+          "co mach"
+        ],
+        "search_vector_hint": "Dược lý Co mạch thuộc nhóm dược lý tim mạch, thường liên quan đến tác dụng làm tăng huyết áp."
+      }
+    },
+    {
+      "id": "DL_CO_THAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Co thắt",
+        "aliases": [
+          "cothat",
+          "co thắt",
+          "co that"
+        ],
+        "search_vector_hint": "Dược lý Co thắt thuộc nhóm Dược lý, thường liên quan đến khả năng gây co cơ."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_LOI_TIEU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Dược lý Lợi tiểu thuộc nhóm Dược lý, thường liên quan đến khả năng tăng bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ancaloit",
+        "aliases": [
+          "ancaloit"
+        ],
+        "search_vector_hint": "Hoạt chất Ancaloit thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_GLUCOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucozit",
+        "aliases": [
+          "glucozit"
+        ],
+        "search_vector_hint": "Glucozit thuộc nhóm hoạt chất, thường liên quan đến các hợp chất hóa học."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "S_DOM_XUYEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đờm xuyên",
+        "aliases": [
+          "dom xuyen",
+          "domxuyen",
+          "đờm xuyên"
+        ],
+        "search_vector_hint": "Triệu chứng Đờm xuyên thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý hô hấp."
+      }
+    },
+    {
+      "id": "VT_BACH_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch truật",
+        "aliases": [
+          "bach truat",
+          "bạch truật",
+          "bachtruat"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch truật thuộc nhóm Vị thuốc, thường liên quan đến kiện tỳ, táo thấp."
+      }
+    },
+    {
+      "id": "VT_BO_KET",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bồ kết",
+        "aliases": [
+          "boket",
+          "bồ kết",
+          "bo ket"
+        ],
+        "search_vector_hint": "Vị thuốc Bồ kết thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "VT_CHI_THUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chỉ thực",
+        "aliases": [
+          "chi thuc",
+          "chithuc",
+          "chỉ thực"
+        ],
+        "search_vector_hint": "Chỉ thực thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh.",
+        "bo_phan_dung": "quả phơi khô",
+        "thu_hai": "thu hái ở thời kỳ khác nhau",
+        "che_bien_tho": "quả bổ đôi phơi khô",
+        "lieu_dung_chung": "Ngày dùng 6 đến $12g$ (có thể dùng hơn) dưới dạng thuốc sắc. Dùng riêng hay phối hợp với các vị thuốc khác.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "không có",
+        "phan_bo": "mọc hoang và được trồng ở nhiều nơi miền Bắc và miền Nam nước ta",
+        "ten_khoa_hoc": "$Citrus sp.; Poncirus trifolia Raf.; Citrus wilsonii Tanaka; Citrus aurantium L.; Citrus aurantium L. var amara Engl.; Citrus hystrix D. C.$",
+        "ho_thuc_vat": "$Cam Rutaceae$",
+        "hinh_thai_chi_tiet": "Chỉ thực (Fructus Aurantii immaturi) và Chỉ xác (Fructus Citri aurantii) đều là quả phơi khô của chừng hơn 10 cây chi Citrus và Poncirus thuộc họ Cam Rutaceae nhưng thu hái ở thời kỳ khác nhau. Chỉ thực thường to hơn chỉ thực và thường bổ đôi. Chỉ vẫn là tên cây, xác là còn vỏ và xơ vì quả bổ đôi phơi khô ruột quả bị quắt lại",
+        "thanh_phan_hoa_hoc": "['Trong chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $0,09\\\\%$ `$ancaloit$`; $20,49\\\\%$ `$glucozit$`; $5,86\\\\%$ `$saponin$`. Trong chỉ xác tại đó người ta chỉ thấy có $9,89\\\\%$ `$glucozit$`.']",
+        "lieu_dung_tong_quat": "không có",
+        "ghi_chu_bo_sung": "không có",
+        "cach_dung_bao_che": "không có"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "378"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chỉ thực (Fructus Aurantii immaturi) và Chỉ xác (Fructus Citri aurantii) đều là quả phơi khô của chừng hơn 10 cây chi Citrus và Poncirus thuộc họ Cam Rutaceae nhưng thu hái ở thời kỳ khác nhau. Chỉ thực thường to hơn chỉ thực và thường bổ đôi. Chỉ vẫn là tên cây, xác là còn vỏ và xơ vì quả bổ đôi phơi khô ruột quả bị quắt lại",
+        "thanh_phan_hoa_hoc": [
+          "Trong chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $0,09\\%$ `$ancaloit$`; $20,49\\%$ `$glucozit$`; $5,86\\%$ `$saponin$`. Trong chỉ xác tại đó người ta chỉ thấy có $9,89\\%$ `$glucozit$`."
+        ],
+        "lieu_dung_tong_quat": "không có",
+        "ghi_chu_bo_sung": "không có",
+        "cach_dung_bao_che": "không có"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CHI_THUC",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $0,09\\%$ `$ancaloit$`",
+        "ghi_chu": "không có"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      }
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $20,49\\%$ `$glucozit$`",
+        "ghi_chu": "không có"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      }
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $5,86\\%$ `$saponin$`",
+        "ghi_chu": "không có"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      }
+    },
+    {
+      "from": "BT_DA_DAY_GAN_KEM_HOAT_DONG_CHI_THUC",
+      "to": "VT_CHI_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DA_DAY_GAN_KEM_HOAT_DONG_CHI_THUC",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Sắc $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DA_DAY_GAN_KEM_HOAT_DONG_CHI_THUC",
+      "to": "B_DA_DAY_GAN_KEM_HOAT_DONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Uống trong ngày",
+        "cach_dung": "Sắc $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "B_TRE_CON_DI_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi ngày cho uống 2 lần, mỗi lần $3g$",
+        "cach_dung": "Sấy khô tán nhỏ",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "CN_AN_UONG_THAT_THUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Mỗi ngày cho uống 2 lần, mỗi lần $3g$",
+        "cach_dung": "Sấy khô tán nhỏ",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_THUC",
+      "to": "VT_CHI_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Hai vị tán nhỏ, làm thành viên bằng hạt ngô. Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_THUC",
+      "to": "VT_BO_KET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Hai vị tán nhỏ, làm thành viên bằng hạt ngô. Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_THUC",
+      "to": "B_DAI_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ",
+        "cach_dung": "Hai vị tán nhỏ, làm thành viên bằng hạt ngô",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "S_DOM_XUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T380"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "DL_CO_THAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên tử cung cô lập của chuột nhắt, dù có thai hay không có thai, đều có tác dụng ức chế, nhưng cũng có trường hợp không thấy tác dụng. Đối với tử cung thỏ cô lập hay tại chỗ, dù có chửa hay không chửa đều có tác dụng hưng phấn, nhưng cũng có trường hợp không tác dụng hay có tác dụng ức chế. | Đối với mẩu ruột cô lập của chuột nhắt chủ yếu thấy tác dụng ức chế, nhưng cũng có trường hợp không thấy phát sinh phản ứng. Đối với 36 lần thí nghiệm trên mẩu ruột tại chỗ thì 70$\\%$ thấy có tác dụng ức chế. | Đối với tử cung của thỏ, dù có chửa hay không có chửa đều thấy tác dụng hưng phấn, đi tới co thắt mạnh lên, có thể tới co cứng. | Đối với dạ dày và ruột chó cũng thấy tác dụng hưng phấn, làm cho dạ dày và ruột chuyển động mạnh lên nhưng có quy luật.",
+        "ghi_chu": "Thí nghiệm trên tử cung chuột nhắt và thỏ. | Thí nghiệm trên ruột chuột nhắt. | Thí nghiệm trên tử cung thỏ. | Thí nghiệm trên dạ dày và ruột chó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết áp tăng cao, dung tích của thận giảm xuống.",
+        "ghi_chu": "Thí nghiệm trên chó đánh mê."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "DL_CO_BOP_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nồng độ thấp làm cho tim cô lập của loại cóc co bóp mạnh, nhưng ở nồng độ cao, sự co bóp lại giảm.",
+        "ghi_chu": "Thí nghiệm trên tim ếch cô lập (phương pháp Straub)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm tĩnh mạch chó gây mê thì thấy tiết niệu tạm thời ngừng lại.",
+        "ghi_chu": "Thí nghiệm trên chó gây mê."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CHI_THUC",
+      "to": "DL_CO_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng co thắt nhẹ đối với mạch máu của loại cóc.",
+        "ghi_chu": "Thí nghiệm trên huyết quản cóc (theo phương pháp Frohlich)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "all_sources": [
+          "CT_VT_VN_T378"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

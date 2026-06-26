@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_NGOT_NGHEO",
+  "source": {
+    "source_id": "CT_VT_VN_T349",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "349"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DE_DA_NGOT_NGHEO_N",
+      "to": "VI_THUOC_NGOT_NGHEO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Giã nát đắp",
+        "ghi_chu": "Không dùng đường uống, chỉ dùng ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T349"
+      }
+    },
+    {
+      "from": "BT_DE_DA_NGOT_NGHEO_N",
+      "to": "S_DE_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "giúp cho dễ đẻ, hoặc để cho nhau thai chóng ra",
+        "cach_dung": "Đắp lên phía trên mu âm hộ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T349"
+      }
+    },
+    {
+      "from": "BT_GAN_BAN_TAY_NGOT_NGHEO_N",
+      "to": "VI_THUOC_NGOT_NGHEO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Giã nát đắp",
+        "ghi_chu": "Không dùng đường uống, chỉ dùng ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T349"
+      }
+    },
+    {
+      "from": "BT_GAN_BAN_TAY_NGOT_NGHEO_N",
+      "to": "S_CHUA_XAC_DINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "cũng có kết quả",
+        "cach_dung": "Đắp lên trên gan bàn tay bàn chân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T349"
+      }
+    }
+  ],
+  "metadata": {}
+}

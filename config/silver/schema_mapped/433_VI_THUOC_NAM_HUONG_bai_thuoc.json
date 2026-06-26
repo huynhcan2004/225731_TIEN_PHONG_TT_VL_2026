@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_NAM_HUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T433",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "433"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_NAM_HUONG_N",
+      "to": "VI_THUOC_NAM_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị lỵ.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "BT_LY_NAM_HUONG_N",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lỵ",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,409 @@
+{
+  "entity_hub": "VI_THUOC_DUYEN_HO_SACH",
+  "source": {
+    "source_id": "CT_VT_VN_T85",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "85"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_DUYEN_HO_SACH_D",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách có tác dụng giảm đau, hoạt huyết, phù hợp để điều trị đau bụng kinh.",
+        "mo_ta_chi_tiet": "chữa dau bụng, dau khi thấy kinh",
+        "cach_dung": "Nước $300ml$ sắc còn $100ml$ chia thành nhiều lần uống trong ngày",
+        "ghi_chu": "Hoà hán ứng dụng phương Nhật Bản"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DUYEN_HO_SACH_D",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa dau bụng, dau khi thấy kinh",
+        "cach_dung": "Nước $300ml$ sắc còn $100ml$ chia thành nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_HO_DUYEN_HO_SACH_DK",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, khô phàn trừ đờm, kết hợp trị ho có đờm.",
+        "mo_ta_chi_tiet": "Chữa già trẻ bị ho, có đờm",
+        "cach_dung": "Ngày ngậm $4-8g$ viên thuốc này.",
+        "ghi_chu": "Hai vị tán nhỏ, viên thành viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_HO_DUYEN_HO_SACH_DK",
+      "to": "VT_KHO_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, khô phàn trừ đờm, kết hợp trị ho có đờm.",
+        "mo_ta_chi_tiet": "Chữa già trẻ bị ho, có đờm",
+        "cach_dung": "Ngày ngậm $4-8g$ viên thuốc này.",
+        "ghi_chu": "Hai vị tán nhỏ, viên thành viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_HO_DUYEN_HO_SACH_DK",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa già trẻ bị ho, có đờm",
+        "cach_dung": "Ngày ngậm $4-8g$ viên thuốc này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_DUYEN_HO_SACH_D",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Duyên hồ sách có thể cầm máu.",
+        "mo_ta_chi_tiet": "Chảy máu cam",
+        "cach_dung": "Bọc lụa nhét vào lỗ mũi. Máu ra mũi phải, nhét mũi trái, ra bên trái, nhét bên phải."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_DUYEN_HO_SACH_D",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chảy máu cam",
+        "cach_dung": "Bọc lụa nhét vào lỗ mũi. Máu ra mũi phải, nhét mũi trái, ra bên trái, nhét bên phải."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_KINH_DUYEN_HO_SACH_DH",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị đau bụng kinh, bụng trướng.",
+        "mo_ta_chi_tiet": "Chữa đau bụng kinh, bụng trướng đau, sau khi đẻ máu hôi ra không hết",
+        "cach_dung": "Ngày uống $6-12g$. Sắc với rượu hoặc chiêu với nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_KINH_DUYEN_HO_SACH_DH",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị đau bụng kinh, bụng trướng.",
+        "mo_ta_chi_tiet": "Chữa đau bụng kinh, bụng trướng đau, sau khi đẻ máu hôi ra không hết",
+        "cach_dung": "Ngày uống $6-12g$. Sắc với rượu hoặc chiêu với nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_KINH_DUYEN_HO_SACH_DH",
+      "to": "B_DAU_BUNG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng kinh, bụng trướng đau, sau khi đẻ máu hôi ra không hết",
+        "cach_dung": "Ngày uống $6-12g$. Sắc với rượu hoặc chiêu với nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THOAT_VI_DAU_BUNG_DUYEN_HO_SACH_DT",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, tiểu hồi ấm thận, hành khí. Phối hợp trị thoát vị đau bụng dưới.",
+        "mo_ta_chi_tiet": "Chữa thoát vị đau bụng dưới",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THOAT_VI_DAU_BUNG_DUYEN_HO_SACH_DT",
+      "to": "VT_TIEU_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, tiểu hồi ấm thận, hành khí. Phối hợp trị thoát vị đau bụng dưới.",
+        "mo_ta_chi_tiet": "Chữa thoát vị đau bụng dưới",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THOAT_VI_DAU_BUNG_DUYEN_HO_SACH_DT",
+      "to": "B_THOAT_VI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thoát vị đau bụng dưới",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DUYEN_HO_SACH_DB",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, bạch chỉ khu phong, tán hàn. Phối hợp trị các chứng đau nhức.",
+        "mo_ta_chi_tiet": "Chữa các chứng đau nhức nói chung",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DUYEN_HO_SACH_DB",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, bạch chỉ khu phong, tán hàn. Phối hợp trị các chứng đau nhức.",
+        "mo_ta_chi_tiet": "Chữa các chứng đau nhức nói chung",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DUYEN_HO_SACH_DB",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng đau nhức nói chung",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_PHONG_THAP_DUYEN_HO_SACH_DU",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Uy linh tiên trừ phong thấp, thông kinh lạc. Phối hợp trị phong thấp, tê dại.",
+        "mo_ta_chi_tiet": "Chữa phong thấp, tay chân tê dại",
+        "cach_dung": "Ngày uống $8g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_PHONG_THAP_DUYEN_HO_SACH_DU",
+      "to": "VT_UY_LINH_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Uy linh tiên trừ phong thấp, thông kinh lạc. Phối hợp trị phong thấp, tê dại.",
+        "mo_ta_chi_tiet": "Chữa phong thấp, tay chân tê dại",
+        "cach_dung": "Ngày uống $8g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_PHONG_THAP_DUYEN_HO_SACH_DU",
+      "to": "B_PHONG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong thấp, tay chân tê dại",
+        "cach_dung": "Ngày uống $8g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_CAO_DUYEN_HO_SACH",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách có tác dụng giảm đau, hoạt huyết.",
+        "mo_ta_chi_tiet": "Cao Duyên hồ sách",
+        "cach_dung": "Ngày uống $1-2g$ cao này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THONG_KINH_DUYEN_HO_SACH_DXNH",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Xích thược hoạt huyết, giảm đau; Ngũ linh chi hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị thống kinh.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa thống kinh",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THONG_KINH_DUYEN_HO_SACH_DXNH",
+      "to": "VT_XICH_THUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Xích thược hoạt huyết, giảm đau; Ngũ linh chi hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị thống kinh.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa thống kinh",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THONG_KINH_DUYEN_HO_SACH_DXNH",
+      "to": "VT_NGU_LINH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Xích thược hoạt huyết, giảm đau; Ngũ linh chi hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị thống kinh.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa thống kinh",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THONG_KINH_DUYEN_HO_SACH_DXNH",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách hoạt huyết, giảm đau; Xích thược hoạt huyết, giảm đau; Ngũ linh chi hoạt huyết, giảm đau; Hương phụ điều khí, giảm đau. Phối hợp trị thống kinh.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa thống kinh",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_THONG_KINH_DUYEN_HO_SACH_DXNH",
+      "to": "B_THONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bài thuốc chữa thống kinh",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DUYEN_HO_SACH_DC",
+      "to": "VI_THUOC_DUYEN_HO_SACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, cam thảo hòa vị. Phối hợp trị đau dạ dày do loét.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa đau dạ dày (do loét)",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DUYEN_HO_SACH_DC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Duyên hồ sách giảm đau, cam thảo hòa vị. Phối hợp trị đau dạ dày do loét.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa đau dạ dày (do loét)",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DUYEN_HO_SACH_DC",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bài thuốc chữa đau dạ dày (do loét)",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    }
+  ],
+  "metadata": {}
+}

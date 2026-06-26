@@ -1,0 +1,795 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TE_GIAC",
+    "ten_raw": "Tê giác",
+    "ten_khoa_hoc": "$Rhinoceros unicornis L.; Rhinoceros sondaicus Desmarest; Rhinoceros sumatrensis Cuvier; Rhinoceros bicornis L.; Rhinoceros simus Cottoni$",
+    "ho_thuc_vat": "$Tê giác Rhinocerotidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "sừng",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống $0,5-1$g mài lấy nước uống hay sắc uống hoặc tán bột mà uống. Có khi dùng tới $4$g hay $12$g.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Vị thuốc Tê giác",
+    "canonical_name": "Vị thuốc Tê giác"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt Giải Độc Tê Giác",
+        "aliases": [
+          "sotgiaidoctegiac",
+          "sot giai doc te giac",
+          "sốt giải độc tê giác"
+        ],
+        "search_vector_hint": "Sốt Giải Độc Tê Giác thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "CN_DINH_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Định kinh",
+        "aliases": [
+          "định kinh",
+          "dinh kinh",
+          "dieukinh",
+          "dieu kinh",
+          "dinhkinh",
+          "điều kinh"
+        ],
+        "search_vector_hint": "Định kinh thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_GIAI_ON_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải ôn độc",
+        "aliases": [
+          "giải ôn độc",
+          "giaiondoc",
+          "giai on doc"
+        ],
+        "search_vector_hint": "Công năng Giải ôn độc thuộc nhóm công năng, thường liên quan đến giải độc do nhiệt bệnh."
+      }
+    },
+    {
+      "id": "CN_THANH_HUYET_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh huyết nhiệt",
+        "aliases": [
+          "thanhhuyetnhiet",
+          "thanh huyet nhiet",
+          "thanh huyết nhiệt"
+        ],
+        "search_vector_hint": "Công năng Thanh huyết nhiệt thuộc nhóm công năng, thường liên quan đến làm mát máu, giải nhiệt."
+      }
+    },
+    {
+      "id": "DL_GIAM_BACH_CAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giảm bạch cầu",
+        "aliases": [
+          "giambachcau",
+          "giảm bạch cầu",
+          "giam bach cau"
+        ],
+        "search_vector_hint": "Dược lý Giảm bạch cầu thuộc nhóm dược lý, thường liên quan đến giảm số lượng tế bào bạch cầu."
+      }
+    },
+    {
+      "id": "DL_TANG_HONG_CAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng hồng cầu",
+        "aliases": [
+          "tanghongcau",
+          "tăng hồng cầu",
+          "tang hong cau"
+        ],
+        "search_vector_hint": "Dược lý Tăng hồng cầu thuộc nhóm dược lý, thường liên quan đến tăng số lượng tế bào hồng cầu."
+      }
+    },
+    {
+      "id": "DL_TANG_NHU_DONG_RUOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng nhu động ruột",
+        "aliases": [
+          "tang nhu dong ruot",
+          "tăng nhu động ruột",
+          "tangnhudongruot"
+        ],
+        "search_vector_hint": "Dược lý Tăng nhu động ruột thuộc nhóm dược lý, thường liên quan đến kích thích hoạt động ruột."
+      }
+    },
+    {
+      "id": "HC_CANXI_CACBONAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi Cacbonat",
+        "aliases": [
+          "canxicacbonat",
+          "canxi cacbonat"
+        ],
+        "search_vector_hint": "Canxi Cacbonat thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CANXI_PHOTPHAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi Photphat",
+        "aliases": [
+          "canxi photphat",
+          "canxiphotphat"
+        ],
+        "search_vector_hint": "Canxi Photphat thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_KERATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Keratin",
+        "aliases": [
+          "keratin"
+        ],
+        "search_vector_hint": "Hoạt chất Keratin thuộc nhóm hoạt chất, thường liên quan đến cấu trúc da và tóc."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_ME_MAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mê man",
+        "aliases": [
+          "meman",
+          "me man",
+          "mê man"
+        ],
+        "search_vector_hint": "Mê man thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_SOT_NONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt nóng",
+        "aliases": [
+          "sotnong",
+          "sot nong",
+          "sốt nóng"
+        ],
+        "search_vector_hint": "Sốt nóng thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_MOC_THONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mộc thông",
+        "aliases": [
+          "mộc thông",
+          "moc thong",
+          "mocthong"
+        ],
+        "search_vector_hint": "Vị thuốc Mộc thông thuộc nhóm vị thuốc, thường liên quan đến lợi tiểu, thông kinh."
+      }
+    },
+    {
+      "id": "VT_PHONG_PHONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phòng phong",
+        "aliases": [
+          "phòng phong",
+          "phongphong",
+          "phong phong"
+        ],
+        "search_vector_hint": "Vị thuốc Phòng phong thuộc nhóm vị thuốc, thường liên quan đến trị phong, giải biểu."
+      }
+    },
+    {
+      "id": "VT_TANG_BACH_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tang bạch bì",
+        "aliases": [
+          "tang bach bi",
+          "tang bạch bì",
+          "tangbachbi"
+        ],
+        "search_vector_hint": "Vị thuốc Tang bạch bì thuộc nhóm vị thuốc, thường liên quan đến trị ho, hạ sốt."
+      }
+    },
+    {
+      "id": "VT_TE_GIAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tê giác",
+        "aliases": [
+          "tegiac",
+          "tê giác",
+          "te giac"
+        ],
+        "search_vector_hint": "Tê giác thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "sừng",
+        "lieu_dung_chung": "Ngày uống $0,5-1$g mài lấy nước uống hay sắc uống hoặc tán bột mà uống. Có khi dùng tới $4$g hay $12$g.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Rhinoceros unicornis L.; Rhinoceros sondaicus Desmarest; Rhinoceros sumatrensis Cuvier; Rhinoceros bicornis L.; Rhinoceros simus Cottoni$",
+        "ho_thuc_vat": "$Tê giác Rhinocerotidae$",
+        "hinh_thai_chi_tiet": "Tề giác (Corna Rhinoceri) là sừng của nhiều loại tê giác như tế giác Ân Độ-Rhinoceros unicornis L., tê giác nhỏ một sừng-Rhinoceros sondaicus Desmarest, tê giác Inđônêxia Rhi- Tê giác nhỏ một sừng-Rhinoceros sondaicus Desmarest là một con vật to thô, con đực cao từ vai xuống khoảng $1,7m$, con cái khoảng $1,6m$. Thân dài $3,6m$, nặng trên $1.000kg$, có một sừng trên mũi dài $25cm$, có khi tới $39cm$. Sừng đôi bạch tê (Rhinoceros simus Cottoni) (Hình 746). Tê giác Ấn Độ- Rhinoceros unicornis L. to và nặng hơn, trừ tai và đuôi có lông, toàn thân nhẵn, sừng dài và to hơn (Hình 745). Tê giác hai sừng Inđônêxia-Rhinoceros sumatrensis Cuvier-so với hai loài trên nhỏ và ngắn hơn, thân dài $2,4-2,5m$, con đực và con cái đều có hai sừng song song, sừng trước dài hơn. Sừng của con cái nhỏ và ngắn hơn. Da nhẵn không sùi mấu, biểu bì có rãnh nhỏ chia làm nhiều đĩa nhỏ nhiều cạnh. Bề mặt thân chia làm nhiều mảnh giáp với nhau bởi nhiều nếp; nếp trước và sau vai cũng như nếp trước đùi kéo dài qua lưng. Nếp gáy tương đối kém phát triển. Màu da xám thẫm toàn thân.",
+        "thanh_phan_hoa_hoc": "['$keratin$, canxi cacbonat, canxi photphat.']"
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1019"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO",
+          "V_CHUA_TOAN",
+          "V_MAN_HAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_VI",
+          "K_CAN"
+        ],
+        "cong_nang": "thanh huyết nhiệt (làm mát huyết), giải ôn độc và định kinh"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tề giác (Corna Rhinoceri) là sừng của nhiều loại tê giác như tế giác Ân Độ-Rhinoceros unicornis L., tê giác nhỏ một sừng-Rhinoceros sondaicus Desmarest, tê giác Inđônêxia Rhi- Tê giác nhỏ một sừng-Rhinoceros sondaicus Desmarest là một con vật to thô, con đực cao từ vai xuống khoảng $1,7m$, con cái khoảng $1,6m$. Thân dài $3,6m$, nặng trên $1.000kg$, có một sừng trên mũi dài $25cm$, có khi tới $39cm$. Sừng đôi bạch tê (Rhinoceros simus Cottoni) (Hình 746). Tê giác Ấn Độ- Rhinoceros unicornis L. to và nặng hơn, trừ tai và đuôi có lông, toàn thân nhẵn, sừng dài và to hơn (Hình 745). Tê giác hai sừng Inđônêxia-Rhinoceros sumatrensis Cuvier-so với hai loài trên nhỏ và ngắn hơn, thân dài $2,4-2,5m$, con đực và con cái đều có hai sừng song song, sừng trước dài hơn. Sừng của con cái nhỏ và ngắn hơn. Da nhẵn không sùi mấu, biểu bì có rãnh nhỏ chia làm nhiều đĩa nhỏ nhiều cạnh. Bề mặt thân chia làm nhiều mảnh giáp với nhau bởi nhiều nếp; nếp trước và sau vai cũng như nếp trước đùi kéo dài qua lưng. Nếp gáy tương đối kém phát triển. Màu da xám thẫm toàn thân.",
+        "thanh_phan_hoa_hoc": [
+          "$keratin$, canxi cacbonat, canxi photphat."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TE_GIAC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác có vị chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác có vị mặn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác có tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác quy vào kinh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác quy vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác quy vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "HC_KERATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$keratin$, canxi cacbonat, canxi photphat.",
+        "ghi_chu": "trong sừng tê giác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "HC_CANXI_CACBONAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$keratin$, canxi cacbonat, canxi photphat.",
+        "ghi_chu": "trong sừng tê giác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "HC_CANXI_PHOTPHAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$keratin$, canxi cacbonat, canxi photphat.",
+        "ghi_chu": "trong sừng tê giác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mài với nước cho đặc mà uống để chữa các chứng thổ huyết, máu cam, sốt nóng mê man, nói lảm nhảm, vàng người, phát ban hoặc như lên đậu mọc chi chít",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "S_ME_MAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mài với nước cho đặc mà uống để chữa các chứng thổ huyết, máu cam, sốt nóng mê man, nói lảm nhảm, vàng người, phát ban hoặc như lên đậu mọc chi chít",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "VT_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "VT_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "VT_TANG_BACH_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Mài sừng tê giác vào cho uống làm 3 lần trong ngày",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_GIAI_DOC_TE_GIAC",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Mài sừng tê giác vào cho uống làm 3 lần trong ngày",
+        "ghi_chu": "CT_VT_VN_T1021"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "CN_THANH_HUYET_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh huyết nhiệt (làm mát huyết)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "CN_GIAI_ON_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải ôn độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "CN_DINH_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Định kinh, thường dùng trong các trường hợp sốt quá hóa điên cuồng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "DL_TANG_NHU_DONG_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác làm tăng nhu động ruột non.",
+        "ghi_chu": "Theo nghiên cứu của một số tác giả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "DL_TANG_HONG_CAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác làm tăng hồng cầu.",
+        "ghi_chu": "Theo nghiên cứu của một số tác giả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TE_GIAC",
+      "to": "DL_GIAM_BACH_CAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tê giác làm giảm bạch huyết cầu.",
+        "ghi_chu": "Theo nghiên cứu của một số tác giả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 68.5,
+      "reliability_c_score": 0.7577,
+      "total_confidence_sum": 19.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

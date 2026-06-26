@@ -1,0 +1,229 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NOC_ONG",
+    "ten_raw": "Nọc ong",
+    "ten_khoa_hoc": "Apitoxin",
+    "ho_thuc_vat": "Không rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": "Nọc ong"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T972",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "972"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_TY",
+          "K_VI",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "thanh nhiệt bổ trung. nhuận táo, hoạt trường, giải độc, hết đau."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nọc ong là sản phẩm của những tuyến đặc biệt trong cơ thể con ong, muốn dùng nọc ong trước đây người ta cho con ong đốt, hay có khi người ta uống con ong, gần đây người ta lấy nọc ong riêng rồi chế thành thuốc với những dạng khác nhau như nhũ dịch, dầu bôi có nọc ong, thuốc tiêm dưới da, di chuyển ion"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh, tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh, phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh, tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh, vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh, đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng ': thanh nhiệt bổ trung. nhuận táo, hoạt trường, giải độc, hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật ong thường có $65-70%$ glucoza và levuloza, $2-3%$ sacaroza (nếu ong nuôi bằng mật mía hoặc ở gần nơi có đường mật thì tỷ lệ sacaroza còn tăng nữa tới $10%$ hoặc hơn, vì trong nước dãi con ong không có đủ men invectin để biến cả sacaroza thành glucoza và levuloza)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_LEVULOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật ong thường có $65-70%$ glucoza và levuloza, $2-3%$ sacaroza (nếu ong nuôi bằng mật mía hoặc ở gần nơi có đường mật thì tỷ lệ sacaroza còn tăng nữa tới $10%$ hoặc hơn, vì trong nước dãi con ong không có đủ men invectin để biến cả sacaroza thành glucoza và levuloza)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật ong thường có $65-70%$ glucoza và levuloza, $2-3%$ sacaroza (nếu ong nuôi bằng mật mía hoặc ở gần nơi có đường mật thì tỷ lệ sacaroza còn tăng nữa tới $10%$ hoặc hơn, vì trong nước dãi con ong không có đủ men invectin để biến cả sacaroza thành glucoza và levuloza)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_AXIT_PANTOTENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_AXIT_NICOTINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_AXETYCOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_VITAMIN_D",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    },
+    {
+      "from": "VI_THUOC_NOC_ONG",
+      "to": "HC_VITAMIN_E",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mật ong của Nhật Bản có chứa axit pantotenic $0,99y/g$, axit nicotinic $0,92y/g$, axetycolin $12-$ $15y/g$, vitamin A, D, E."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T972"
+      }
+    }
+  ]
+}

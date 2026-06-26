@@ -1,0 +1,45 @@
+{
+  "entity": {
+    "id": "VT_CO_DUOI_LUON",
+    "canonical_name": "Cỏ đuôi lươn",
+    "ten_khoa_hoc": "Philydrum lanuginosum Banks Philydrum lanuginosum",
+    "ho_thuc_vat": "null",
+    "properties": {
+      "bo_phan_dung": "bộ phận trên mặt đất",
+      "thu_hai": "null",
+      "che_bien_tho": "phơi khô",
+      "lieu_dung_chung": "Uống trong ngày dùng $10-15g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CO_DUOI_LUON",
+      "to": "B_HAU_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "dùng trước và sau khi sinh nở",
+        "cach_dung": "dùng trước và sau khi sinh nở"
+      }
+    },
+    {
+      "from": "VT_CO_DUOI_LUON",
+      "to": "S_LO_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát vào chỗ lở loét",
+        "cach_dung": "Sát vào chỗ lở loét"
+      }
+    },
+    {
+      "from": "VT_CO_DUOI_LUON",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "rửa chỗ sưng đau",
+        "cach_dung": "rửa chỗ sưng đau"
+      }
+    }
+  ]
+}

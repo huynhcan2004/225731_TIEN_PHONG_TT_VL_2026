@@ -6,7 +6,7 @@ Nhiệm vụ:
 - Thực thi quy trình GraphRAG: Phân tích -> Truy vấn Đồ thị -> Tổng hợp tri thức.
 - Xử lý lỗi hệ thống và đảm bảo tính nhất quán của dữ liệu trả về.
 """
-
+from chatbot.utils.token_counter import count_tokens
 import time
 from typing import Dict, Any, Optional
 from app.config import settings
@@ -30,7 +30,7 @@ class YHCTChatService:
         self.model_name = model_name or settings.MODEL_ID
         self.db = db
 
-    async def get_ai_response(self, user_query: str) -> Dict[str, Any]:
+    async def get_ai_response(self, user_query: str, user_id: int, lang: str = "vi") -> Dict[str, Any]:
         """
         Thực thi quy trình GraphRAG hoàn chỉnh để trả lời câu hỏi của người dùng.
         
@@ -42,6 +42,8 @@ class YHCTChatService:
 
         Args:
             user_query (str): Câu hỏi tự nhiên của người dùng.
+            user_id (int): ID của người dùng đang đăng nhập (bắt buộc).
+            lang (str): Ngôn ngữ giao diện ("vi" hoặc "en").
 
         Returns:
             Dict[str, Any]: Kết quả bao gồm câu trả lời, ý định, thực thể và thời gian xử lý.
@@ -57,13 +59,30 @@ class YHCTChatService:
             }
 
         try:
+            # In thông tin gỡ lỗi ra CMD
+            print("\n" + "="*60)
+            print(f"🤖 [CHATBOT QUERY] Đang sử dụng mô hình AI: '{self.model_name}'")
+            print(f"💬 [CHATBOT QUERY] Câu hỏi người dùng: '{user_query}' | Lang: '{lang}'")
+            print("="*60 + "\n")
+
             # --- BƯỚC 1: PHÂN TÍCH NGỮ NGHĨA (NLU) ---
             # Chuyển ngôn ngữ tự nhiên thành Intent và Metadata máy hiểu được
             parsed_data = await extract_intent_and_entities(
                 user_query, 
-                model_name=self.model_name
+                model_name=self.model_name,
+                lang=lang
             )
-
+            
+            if parsed_data and parsed_data.get("cypher"):
+                cypher_query = parsed_data["cypher"]
+                
+                # 🔥 THÊM DÒNG NÀY VÀO ĐỂ SOI:
+                print("\n" + "="*50)
+                print(f"🔍 [DEBUG] USER QUERY: {user_query}")
+                print(f"🤖 [DEBUG] INTENT: {parsed_data['intent']}")
+                print(f"🚀 [DEBUG] EXECUTING CYPHER:\n{cypher_query}")
+                print("="*50 + "\n")
+                
             if not parsed_data or not parsed_data.get("cypher"):
                 return {
                     "answer": "Tôi rất tiếc nhưng tôi không thể phân tích được ý định trong câu hỏi của bạn. Bạn có thể diễn đạt lại rõ ràng hơn được không?",
@@ -82,7 +101,8 @@ class YHCTChatService:
             # Thực thi câu lệnh Cypher đã được sinh ra từ NLU Engine
             try:
                 params = {"query_vector": vector_data} if vector_data else {}
-                graph_results = self.db.query(cypher_query, params=params)
+                # ✅ ĐÃ SỬA: Đổi từ db.query thành db.query_graph
+                graph_results = self.db.query_graph(cypher_query, params=params)
             except Exception as db_error:
                 print(f"❌ [Database Execution Error]: {str(db_error)}")
                 return {
@@ -99,12 +119,34 @@ class YHCTChatService:
                 graph_data=graph_results,
                 k1=k1,
                 k2=k2,
-                model_name=self.model_name
+                model_name=self.model_name,
+                lang=lang
             )
-
             execution_duration = round(time.time() - start_time, 2)
 
-            # Trả về kết quả cuối cùng theo cấu trúc chuẩn API
+            # --- BƯỚC 4: TÍNH TOÁN VÀ TRỪ TOKEN (BILLING PROCESS) ---
+            # Tính tổng token: Câu hỏi + Câu lệnh Cypher + Dữ liệu DB + Câu trả lời
+            total_text_processed = f"{user_query} {cypher_query} {str(graph_results)} {final_answer}"
+            total_tokens = count_tokens(total_text_processed)
+            
+            # Giả sử quy đổi 1 token = 1 đơn vị (bạn có thể thay đổi tỷ giá)
+            tokens_charged = float(total_tokens)
+            
+            # ✅ ĐÃ SỬA: Sử dụng user_id được truyền trực tiếp từ Router để đảm bảo tính cá nhân hóa
+            try:
+                self.db.change_token_balance(
+                    user_id=user_id, 
+                    amount=tokens_charged, 
+                    description=f"Truy vấn Chatbot: {intent}", 
+                    tx_type='out'
+                )
+                # Lấy số dư mới nhất để trả về Frontend
+                user_balance = self.db.get_user_balance(user_id) 
+            except Exception as e:
+                print(f"⚠️ Lỗi trừ token cho user {user_id}: {e}")
+                user_balance = 0.0
+
+            # Trả về kết quả cuối cùng đã bao gồm tham số Billing
             return {
                 "answer": final_answer,
                 "intent": intent,
@@ -114,8 +156,11 @@ class YHCTChatService:
                 "status": "success",
                 "metadata": {
                     "records_found": len(graph_results) if graph_results else 0,
-                    "cypher_executed": cypher_query
-                }
+                    "cypher_executed": cypher_query,
+                    "raw_data": graph_results
+                },
+                "tokens_charged": tokens_charged,
+                "user_token_balance": user_balance
             }
 
         except Exception as system_error:

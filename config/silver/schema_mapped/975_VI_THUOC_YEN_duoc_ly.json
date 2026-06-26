@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_YEN",
+  "source": {
+    "source_id": "CT_VT_VN_T975",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "975"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ong đen có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ong đen có tác dụng tả hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ong đen có tác dụng khử phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    }
+  ],
+  "metadata": {}
+}

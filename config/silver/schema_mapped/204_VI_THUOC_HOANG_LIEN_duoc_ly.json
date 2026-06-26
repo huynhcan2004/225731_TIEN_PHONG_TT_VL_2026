@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_HOANG_LIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T204",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "204"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng đối với trùng Staphyloccus aureus với Streptococ hemolytique, trực trùng ho gà, thương hàn, phó thương hàn, lỵ, lao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_KHANG_PROTOZOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng rõ rệt với trùng Leishmania tropica và Leishmania espundia."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Giúp sự tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_GIAM_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng giảm huyết áp đối với hệ tim mạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    }
+  ],
+  "metadata": {}
+}

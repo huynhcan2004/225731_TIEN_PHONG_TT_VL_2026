@@ -1,0 +1,118 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BIM_BIP",
+    "ten_raw": "Bìm bịp",
+    "ten_khoa_hoc": "Manis pentadactyla; Manis javanica Desm",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [
+      "Xuyên sơn giúp",
+      "Tê tê"
+    ],
+    "properties": {
+      "bo_phan_dung": "Vảy, da",
+      "che_bien_tho": "Không có thông tin"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1025",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1025"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Nhạt (Đạm)",
+          "Mặn (Hàm)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Lớp vảy này thực ra chỉ là những cụm lông nhỏ dính bết vào nhau tạo thành. Vảy tê tê xếp cái nọ đè lên cái kia giống như ngói lợp, thành từng dải dài, theo một trật tự rất phức tạp. Máy Tê tê là một loài động vật có vú, toàn thân phủ những vảy sừng chồng lên nhau như vảy cá, trừ ngực, bụng tê tê không có vảy, chỉ lớt phớt một ít lông cứng. Da bụng tê tê trắng mềm. Lưỡi là một bộ phận kỳ lạ nhất của tê tê, hình con giun dài bằng nửa chiều dài của toàn thân con vật. Để bình thường lưỡi dài từ mõm cho đến hai chân sau. Loài tê tê đuôi dài leo cây rất giỏi, sống trên cây và ngủ trong các hốc cây rỗng. Khi tê tê ngủ hoặc muốn tự vệ, nó cuộn mình lại ở phần dưới của mút đuôi có một mẩu thịt cài chặt vào một vảy ở lưng làm thành một cuộn tròn rất chắc và rất khó mở. Tê tê cận thị nhưng tai và mũi tinh. Nếu tê tê tóm được địch thủ nó dùng các chân ghì chặt đối thủ một cái rồi thả ra. Cái ghì này đủ bóp chết một con chó lớn. Tê tê có sức khỏe lạ thường, nó có thể kéo một người lớn và khỏe. Tê tê tính rất hiền lành, chậm chạp. Nó ăn kiến và mối là những loài côn trùng phá hoại gỗ và cây cối trong rừng. Tê tê dùng vuốt phá vỡ các tổ kiến, tổ mối để bắt mối. Nhờ một thứ bột dính ở dưới lưỡi, tê tê có thể loại những đất cát ra khỏi thức ăn của nó một cách tài tình. Nếu đem mùn cưa trộn với thức ăn rồi cho tê tê ăn, thì ta thấy thức ăn biến mất chỉ còn lại mùn cưa (Hình 749).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy có tài liệu nghiên cứu; chỉ mới biết có chất protit. Hoạt chất khác chưa rõ."
+        ],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt, mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt, mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm (ôn)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIM_BIP",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chưa thấy có tài liệu nghiên cứu; chỉ mới biết có chất protit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    }
+  ]
+}

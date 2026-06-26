@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_TOI",
+  "source": {
+    "source_id": "CT_VT_VN_T196",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "196"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ống nghiệm, tác dụng diệt khuẩn của alixin rất mạnh. Dung dịch 1/$85.000$-1/$125.000$ đủ ức chế sinh trưởng các trùng Staphylococccus, Streptococcus, trùng thương hàn, phó thương hàn, trực trùng lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "DL_UC_CHE_SINH_TRUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỏi có ức chế sự sinh sản của vi trùng bằng cách phá hoại khâu SH của chất xystein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "DL_DIET_AMIP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với trực trùng lỵ amip, nước tỏi $5$% ức chế rất mau sự hoạt động của trùng amip: Amip co lại thành khối tròn. Trong phân của người bị lỵ amip, sau khi dùng tỏi, thì trùng amip mất hết năng lực sinh sản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "DL_DIET_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ống nghiệm, nước tỏi $3$% đủ diệt các trực trùng lỵ và trực trùng gây bệnh đường ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    }
+  ],
+  "metadata": {}
+}

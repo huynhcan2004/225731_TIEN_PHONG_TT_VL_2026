@@ -1,0 +1,133 @@
+{
+  "entity_hub": "VI_THUOC_HUONG_NHU",
+  "source": {
+    "source_id": "CT_VT_VN_T677",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "677"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAT_TRA_TIEN_HT",
+      "to": "VI_THUOC_HUONG_NHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu (trà tiên) dùng đơn độc.",
+        "cach_dung": "Ngày một đến hai thìa ngâm trong $250ml$ nước cho đến khi nở hết. Có thể nấu thành chè: Liều lượng như trên nhưng trước khi uống cho thêm đường vào cho đủ ngọt.",
+        "ghi_chu": "Hạt trà tiên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAY_HUONG_NHU_L",
+      "to": "VI_THUOC_HUONG_NHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu (trà tiên) dùng đơn độc.",
+        "cach_dung": "Dùng ngoài lá và toàn cây trà tiên để đắp",
+        "ghi_chu": "Lá và toàn cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HUONG_NHU_L",
+      "to": "VI_THUOC_HUONG_NHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu (trà tiên) dùng đơn độc.",
+        "cach_dung": "Hãm hay sắc",
+        "ghi_chu": "Lá và toàn cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HUONG_NHU_L",
+      "to": "VI_THUOC_HUONG_NHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu (trà tiên) dùng đơn độc.",
+        "cach_dung": "Nấu nước xông",
+        "ghi_chu": "Lá và toàn cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_HAT_TRA_TIEN_HT",
+      "to": "B_KHONG_XAC_DINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt trà tiên dùng dưới dạng hãm hoặc nấu chè.",
+        "cach_dung": "Ngày một đến hai thìa ngâm trong $250ml$ nước cho đến khi nở hết. Có thể nấu thành chè: Liều lượng như trên nhưng trước khi uống cho thêm đường vào cho đủ ngọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAY_HUONG_NHU_L",
+      "to": "B_VIEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm tấy.",
+        "cach_dung": "Dùng ngoài lá và toàn cây trà tiên để đắp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HUONG_NHU_L",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm cúm.",
+        "cach_dung": "Lá và toàn cây trà tiên dùng nấu nước xông."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HUONG_NHU_L",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm cúm, ho.",
+        "cach_dung": "Lá và toàn cây trà tiên dùng hãm hay sắc. Ngày dùng $10-15g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HUONG_NHU_L",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm cúm, ho.",
+        "cach_dung": "Lá và toàn cây trà tiên dùng hãm hay sắc. Ngày dùng $10-15g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    }
+  ],
+  "metadata": {}
+}

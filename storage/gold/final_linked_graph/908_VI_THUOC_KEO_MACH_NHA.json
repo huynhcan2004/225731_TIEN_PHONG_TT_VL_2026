@@ -1,0 +1,756 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_KEO_MACH_NHA",
+    "ten_raw": "Kẹo mạch nha",
+    "ten_khoa_hoc": "$Saccharum granorum$",
+    "ho_thuc_vat": "$Chưa rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chất đường do tác dụng của men trong hạt thóc nẩy mầm trên tinh bột gạo nếp, gạo tẻ hay một ngũ cốc nào khác, rồi cô đặc lại.",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Ngày dùng 4 đến $40$g. Còn dùng cho thêm vào thuốc cho dễ uống.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "khắp nơi"
+    },
+    "display_name": "Vị thuốc Kẹo mạch nha",
+    "canonical_name": "Vị thuốc Kẹo mạch nha"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_BUNG_KEO_MACH_NHA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Đau bụng kéo mạch nha",
+        "aliases": [
+          "dau bung keo mach nha",
+          "đau bụng kéo mạch nha",
+          "daubungkeomachnha"
+        ],
+        "search_vector_hint": "Bệnh Đau bụng kéo mạch nha thuộc nhóm bệnh, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "BT_HO_KEO_MACH_NHA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Ho kéo mạch nha",
+        "aliases": [
+          "hokeomachnha",
+          "ho kéo mạch nha",
+          "ho keo mach nha"
+        ],
+        "search_vector_hint": "Bệnh Ho kéo mạch nha thuộc nhóm bệnh, thường liên quan đến hô hấp."
+      }
+    },
+    {
+      "id": "BT_NGOC_DOC_MACH_NHA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Ngọc độc mạch nha",
+        "aliases": [
+          "ngọc độc mạch nha",
+          "ngoc doc mach nha",
+          "ngocdocmachnha"
+        ],
+        "search_vector_hint": "Bệnh Ngọc độc mạch nha thuộc nhóm bệnh, thường liên quan đến nhiễm độc."
+      }
+    },
+    {
+      "id": "BT_SUY_NHUOC_KEO_MACH_NHA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược kéo mạch nha",
+        "aliases": [
+          "suy nhược kéo mạch nha",
+          "suynhuockeomachnha",
+          "suy nhuoc keo mach nha"
+        ],
+        "search_vector_hint": "Bệnh Suy nhược kéo mạch nha thuộc nhóm bệnh, thường liên quan đến suy nhược cơ thể."
+      }
+    },
+    {
+      "id": "B_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Bệnh Đau bụng thuộc nhóm bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Bệnh Ho thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_NGOC_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ngọc độc",
+        "aliases": [
+          "ngocdoc",
+          "ngoc doc",
+          "ngọc độc"
+        ],
+        "search_vector_hint": "Ngọc độc thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da."
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược",
+        "aliases": [
+          "hu nhuoc",
+          "suynhuoc",
+          "hư nhược",
+          "met moi keo dai",
+          "metmoikeodai",
+          "hunhuoc",
+          "suy nhuoc",
+          "suy nhược",
+          "mệt mỏi kéo dài"
+        ],
+        "search_vector_hint": "Bệnh Suy nhược thuộc nhóm Bệnh, thường liên quan đến giảm chức năng cơ thể."
+      }
+    },
+    {
+      "id": "CN_BO_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ tỳ",
+        "aliases": [
+          "bo ty",
+          "bổ tỳ",
+          "boty"
+        ],
+        "search_vector_hint": "Công năng Bổ tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_MANH_DA_DAY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Mạnh dạ dày",
+        "aliases": [
+          "manh da day",
+          "manhdaday",
+          "mạnh dạ dày"
+        ],
+        "search_vector_hint": "Mạnh dạ dày thuộc nhóm công năng, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_NHUAN_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận Phế",
+        "aliases": [
+          "nhuận phế",
+          "nhuanphe",
+          "nhuan phe"
+        ],
+        "search_vector_hint": "Nhuận Phế thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "DL_NHU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Nhu hóa",
+        "aliases": [
+          "nhu hoa",
+          "nhu hóa",
+          "nhuhoa"
+        ],
+        "search_vector_hint": "Dược lý Nhu hóa thuộc nhóm dược lý, thường liên quan đến làm mềm và dịu."
+      }
+    },
+    {
+      "id": "HC_AXIT_LACTIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Lactic",
+        "aliases": [
+          "axitlactic",
+          "axit lactic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Lactic thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXIT_PHOTPHORIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Photphoric",
+        "aliases": [
+          "axit photphoric",
+          "axitphotphoric"
+        ],
+        "search_vector_hint": "Axit Photphoric thuộc nhóm Hoạt chất, thường liên quan đến các quá trình sinh hóa."
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi",
+        "aliases": [
+          "canxi"
+        ],
+        "search_vector_hint": "Hoạt chất Canxi thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_DEXTRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dextrin",
+        "aliases": [
+          "dextrin"
+        ],
+        "search_vector_hint": "Dextrin thuộc nhóm Hoạt chất, thường liên quan đến quá trình thủy phân tinh bột."
+      }
+    },
+    {
+      "id": "HC_GLUCOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucoza",
+        "aliases": [
+          "glucoza"
+        ],
+        "search_vector_hint": "Hoạt chất Glucoza thuộc nhóm Hoạt chất, thường liên quan đến đường đơn và quá trình trao đổi chất."
+      }
+    },
+    {
+      "id": "HC_MALTOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Maltoza",
+        "aliases": [
+          "maltoza"
+        ],
+        "search_vector_hint": "Hoạt chất Maltoza thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Protit",
+        "aliases": [
+          "protit"
+        ],
+        "search_vector_hint": "Protit thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SACCAROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saccaroza",
+        "aliases": [
+          "saccaroza"
+        ],
+        "search_vector_hint": "Hoạt chất Saccaroza thuộc nhóm hoạt chất, thường liên quan đến đường và năng lượng."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_KEO_MACH_NHA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Kẹo mạch nha",
+        "aliases": [
+          "keo mach nha",
+          "keomachnha",
+          "kẹo mạch nha"
+        ],
+        "search_vector_hint": "Vị thuốc Kẹo mạch nha thuộc nhóm Vị thuốc, thường liên quan đến thành phần trong các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "chất đường do tác dụng của men trong hạt thóc nẩy mầm trên tinh bột gạo nếp, gạo tẻ hay một ngũ cốc nào khác, rồi cô đặc lại.",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Ngày dùng 4 đến $40$g. Còn dùng cho thêm vào thuốc cho dễ uống.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "khắp nơi",
+        "ten_khoa_hoc": "$Saccharum granorum$",
+        "ho_thuc_vat": "$Chưa rõ$",
+        "hinh_thai_chi_tiet": "Kẹo mạch nhà là chất đường do tác dụng của men trong hạt thóc nẩy mầm trên tinh bột gạo nếp, gạo tẻ hay một ngũ cốc nào khác, rồi cô đặc lại.",
+        "thanh_phan_hoa_hoc": "['Trong kẹo mạ người ta thường nói có $maltoza$. Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$. Gần đây, có dịp kiểm tra bằng sắc ký, chúng tôi cũng thấy thành phần kẹo mạ chủ yếu là $glucoza$.']",
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Không có thông tin",
+        "cach_dung_bao_che": "Có 3 giai đoạn: Làm mầm thóc, tác dụng mầm thóc lên gạo đã nấu chín và giai đoạn cô đặc. Làm mầm thóc: Lấy thóc tẻ hay nếp (thóc chiêm hay thóc mùa đều được) ngâm vào nước cho ấm đều sau đó gói vào mảnh chiếu hay cho vào thùng đậy mảnh chiếu cho kín. Hàng ngày tưới thêm để giữ ẩm. Khi nào mầm nẩy dài 2-3cm, một vài hạt thấy chớm có lá xanh thì lấy ra phơi khô. Có thể chế một lần một số mầm dùng trong vòng nửa tháng. Mầm bắt buộc phải phơi khô, hay sấy khô (sấy ở nhiệt độ thấp từ $60-70°C$). Trong quá trình nảy mầm, các men trong hạt thóc như maltaxa, amylaza sẽ được phát triển. Tác dụng mầm trên gạo nếp: Gạo nếp đem nấu cháo hoặc nấu cơm nếp hoặc thổi xôi. Trong quá trình nấu cháo hay thổi xôi, tinh bột được dextrin hóa và làm cho tác dụng của men dễ dàng hơn. Tỷ lệ $1phần$ mầm, $10phần$ gạo nếp là vừa. Nếu nấu cháo nên là cháo loãng, nếu nấu cơm hay thổi xôi thì sau này phải thêm nước vào. Nước cho vào cũng phải xâm xấp và hơi loãng. Sau khi cháo hơi nguội (nhiệt độ chừng $70°C$) thì cho mầm thóc đã phơi khô tán nhỏ vào. Khi tán không cần phải bỏ trấu đi. Khuấy đều. Nếu là cơm nếp hay xôi thì thêm nước nóng vào: Thường nhân dân không có nhiệt kế, người ta cho vào xôi hay cơm nếp một thứ nước do hỗn hợp của $3phần$ nước sôi và một phần nước lạnh, cuối cùng nhiệt độ cũng khoảng $70°C$. Giữ ở nhiệt độ $70°C$ trong vòng 12 giờ. Có thể ủ vào trấu hay ủ chăn. Thường người ta bắt đầu ủ vào chiều hay tối hôm trước thì đến sáng hôm sau là vào khoảng 12-14 tiếng. Chú ý giữ nhiệt độ cho đúng vào khoảng $70-75°C$, nếu thấp hơn có thể kẹo bị chua do men lactic. Lọc và cô: Sau khi men đã tác dụng, lọc bỏ bã và cô cho đến độ cao mềm. Thường $1,4kg$ gạo nếp và $100g$ mầm thóc thì cho một kg kẹo."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "908"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Kẹo mạch nhà là chất đường do tác dụng của men trong hạt thóc nẩy mầm trên tinh bột gạo nếp, gạo tẻ hay một ngũ cốc nào khác, rồi cô đặc lại.",
+        "thanh_phan_hoa_hoc": [
+          "Trong kẹo mạ người ta thường nói có $maltoza$. Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$. Gần đây, có dịp kiểm tra bằng sắc ký, chúng tôi cũng thấy thành phần kẹo mạ chủ yếu là $glucoza$."
+        ],
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Không có thông tin",
+        "cach_dung_bao_che": "Có 3 giai đoạn: Làm mầm thóc, tác dụng mầm thóc lên gạo đã nấu chín và giai đoạn cô đặc. Làm mầm thóc: Lấy thóc tẻ hay nếp (thóc chiêm hay thóc mùa đều được) ngâm vào nước cho ấm đều sau đó gói vào mảnh chiếu hay cho vào thùng đậy mảnh chiếu cho kín. Hàng ngày tưới thêm để giữ ẩm. Khi nào mầm nẩy dài 2-3cm, một vài hạt thấy chớm có lá xanh thì lấy ra phơi khô. Có thể chế một lần một số mầm dùng trong vòng nửa tháng. Mầm bắt buộc phải phơi khô, hay sấy khô (sấy ở nhiệt độ thấp từ $60-70°C$). Trong quá trình nảy mầm, các men trong hạt thóc như maltaxa, amylaza sẽ được phát triển. Tác dụng mầm trên gạo nếp: Gạo nếp đem nấu cháo hoặc nấu cơm nếp hoặc thổi xôi. Trong quá trình nấu cháo hay thổi xôi, tinh bột được dextrin hóa và làm cho tác dụng của men dễ dàng hơn. Tỷ lệ $1phần$ mầm, $10phần$ gạo nếp là vừa. Nếu nấu cháo nên là cháo loãng, nếu nấu cơm hay thổi xôi thì sau này phải thêm nước vào. Nước cho vào cũng phải xâm xấp và hơi loãng. Sau khi cháo hơi nguội (nhiệt độ chừng $70°C$) thì cho mầm thóc đã phơi khô tán nhỏ vào. Khi tán không cần phải bỏ trấu đi. Khuấy đều. Nếu là cơm nếp hay xôi thì thêm nước nóng vào: Thường nhân dân không có nhiệt kế, người ta cho vào xôi hay cơm nếp một thứ nước do hỗn hợp của $3phần$ nước sôi và một phần nước lạnh, cuối cùng nhiệt độ cũng khoảng $70°C$. Giữ ở nhiệt độ $70°C$ trong vòng 12 giờ. Có thể ủ vào trấu hay ủ chăn. Thường người ta bắt đầu ủ vào chiều hay tối hôm trước thì đến sáng hôm sau là vào khoảng 12-14 tiếng. Chú ý giữ nhiệt độ cho đúng vào khoảng $70-75°C$, nếu thấp hơn có thể kẹo bị chua do men lactic. Lọc và cô: Sau khi men đã tác dụng, lọc bỏ bã và cô cho đến độ cao mềm. Thường $1,4kg$ gạo nếp và $100g$ mầm thóc thì cho một kg kẹo."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mà vị ngọt tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mà vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_MALTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kẹo mạ người ta thường nói có $maltoza$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_DEXTRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_SACCAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_AXIT_LACTIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_AXIT_PHOTPHORIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng năm 1941, E. Cousin, Nguyễn Văn Định và Đào Sĩ Chu nghiên cứu kẹo mạ của làng Yên Thái nấu thì chỉ thấy có $glucoza$, $dextrin$ ($acrodextrin$ và $erytrodextrin$) $saccaroza$, một ít $axit lactic$, một ít $axit photphoric$, $canxi$ và một ít chất $protit$.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_KEO_MACH_NHA",
+      "to": "VT_KEO_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không ghi rõ liều",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_KEO_MACH_NHA",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_KEO_MACH_NHA",
+      "to": "VT_KEO_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không ghi rõ liều",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_KEO_MACH_NHA",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_KEO_MACH_NHA",
+      "to": "VT_KEO_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không ghi rõ liều",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_KEO_MACH_NHA",
+      "to": "B_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NGOC_DOC_MACH_NHA",
+      "to": "VT_KEO_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không ghi rõ liều",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NGOC_DOC_MACH_NHA",
+      "to": "B_NGOC_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "CN_BO_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mạch nha bổ tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "CN_NHUAN_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mạch nha nhuận phổi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "CN_MANH_DA_DAY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mạch nha làm mạnh dạ dày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KEO_MACH_NHA",
+      "to": "DL_NHU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Kẹo mạch nha có tác dụng nhũ hóa rất mạnh (có thể thêm tới $50\\%$ trọng lượng dầu như dầu cá, dầu gấc vào mà để mấy ngày dầu và kẹo không bị phân ly). Tác dụng nhũ hóa đó do tỉ lệ dextrin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T908",
+        "all_sources": [
+          "CT_VT_VN_T908"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.0,
+      "reliability_c_score": 0.7577,
+      "total_confidence_sum": 19.7
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

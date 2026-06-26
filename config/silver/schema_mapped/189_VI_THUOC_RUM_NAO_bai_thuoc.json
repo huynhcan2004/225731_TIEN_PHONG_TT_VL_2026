@@ -1,0 +1,97 @@
+{
+  "entity_hub": "VI_THUOC_RUM_NAO",
+  "source": {
+    "source_id": "CT_VT_VN_T189",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "189"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAY_DA_BUNG_RUM_NAO_R",
+      "to": "VI_THUOC_RUM_NAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rùm nao là vị thuốc duy nhất trong bài thuốc.",
+        "mo_ta_chi_tiet": "Vỏ cây sắc uống.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    },
+    {
+      "from": "BT_DAY_DA_BUNG_RUM_NAO_R",
+      "to": "B_DAY_DA_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh dày da bụng.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    },
+    {
+      "from": "BT_DAY_DA_BUNG_RUM_NAO_R",
+      "to": "S_PHU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    },
+    {
+      "from": "BT_SAN_KAMALA_K",
+      "to": "VI_THUOC_RUM_NAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rùm nao giúp Kamala dễ uống, không gây nôn mửa.",
+        "mo_ta_chi_tiet": "Kamala (hạch và lông).",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    },
+    {
+      "from": "BT_SAN_KAMALA_K",
+      "to": "VT_KAMALA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Trẻ em ngày uống $2g$ bột chia làm 2 lần uống, mỗi lần cách nhau nửa giờ. Người lớn: Ngày uống $6-12g$ cũng chia làm hai lần uống, mỗi lần cách nhau nửa giờ.",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kamala là vị thuốc chính trị sán.",
+        "mo_ta_chi_tiet": "Kamala (hạch và lông).",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    },
+    {
+      "from": "BT_SAN_KAMALA_K",
+      "to": "B_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sán.",
+        "cach_dung": "Trẻ em ngày uống $2g$ bột chia làm 2 lần uống, mỗi lần cách nhau nửa giờ. Người lớn: Ngày uống $6-12g$ cũng chia làm hai lần uống, mỗi lần cách nhau nửa giờ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T189"
+      }
+    }
+  ],
+  "metadata": {}
+}

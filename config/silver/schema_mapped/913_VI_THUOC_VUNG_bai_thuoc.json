@@ -1,0 +1,278 @@
+{
+  "entity_hub": "VI_THUOC_VUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T913",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "913"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAO_BON_VUNG_D",
+      "to": "VI_THUOC_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vừng đen có tác dụng nhuận tràng, giúp điều trị táo bón.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_VUNG_D",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_BENH_DUONG_RUOT_VUNG_D",
+      "to": "VI_THUOC_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vừng đen có tác dụng kiện tỳ, nhuận tràng, giúp điều trị bệnh đường ruột.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_BENH_DUONG_RUOT_VUNG_D",
+      "to": "NhomBenh_BENH_DUONG_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh đường ruột",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_THANH_NGA_HOAN",
+      "to": "VT_HO_DAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ đào nhân bổ thận, bổ cốt chỉ và đỗ trọng mạnh gân cốt, giúp chữa đau lưng, mỏi gối.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_THANH_NGA_HOAN",
+      "to": "VT_BO_COT_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ đào nhân bổ thận, bổ cốt chỉ và đỗ trọng mạnh gân cốt, giúp chữa đau lưng, mỏi gối.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_THANH_NGA_HOAN",
+      "to": "VT_DO_TRONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ đào nhân bổ thận, bổ cốt chỉ và đỗ trọng mạnh gân cốt, giúp chữa đau lưng, mỏi gối.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_THANH_NGA_HOAN",
+      "to": "S_DAU_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau lưng, mỏi gối",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_THANH_NGA_HOAN",
+      "to": "S_MOI_GOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau lưng, mỏi gối",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_HO_THO_NGU_KHONG_DUOC_HO_DAO_HHS",
+      "to": "VT_HO_DAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ đào, hạnh nhân, sinh khương giúp bổ phế, giảm ho, cải thiện giấc ngủ cho người già yếu.",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_HO_THO_NGU_KHONG_DUOC_HO_DAO_HHS",
+      "to": "VT_HANH_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ đào, hạnh nhân, sinh khương giúp bổ phế, giảm ho, cải thiện giấc ngủ cho người già yếu.",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_HO_THO_NGU_KHONG_DUOC_HO_DAO_HHS",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Hồ đào, hạnh nhân, sinh khương giúp bổ phế, giảm ho, cải thiện giấc ngủ cho người già yếu.",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_HO_THO_NGU_KHONG_DUOC_HO_DAO_HHS",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa người già yếu, ho, thở, ngủ không được",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_HO_THO_NGU_KHONG_DUOC_HO_DAO_HHS",
+      "to": "S_NGU_KHONG_DUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa người già yếu, ho, thở, ngủ không được",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HO_DAO_H",
+      "to": "VT_HO_DAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ đào và kinh phấn giúp sát trùng, làm lành vết thương, dầu thầu dầu giúp làm mềm da, giảm ngứa.",
+        "cach_dung": "Bôi",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HO_DAO_H",
+      "to": "VT_KINH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ đào và kinh phấn giúp sát trùng, làm lành vết thương, dầu thầu dầu giúp làm mềm da, giảm ngứa.",
+        "cach_dung": "Bôi",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HO_DAO_H",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con chốc đầu",
+        "cach_dung": "Bôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_LA_HO_DAO_L",
+      "to": "VI_THUOC_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá hồ đào có tác dụng sát trùng, tiêu viêm, giúp điều trị khí hư.",
+        "cach_dung": "Thụt rửa",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_LA_HO_DAO_L",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khí hư",
+        "cach_dung": "Thụt vào âm hộ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    }
+  ],
+  "metadata": {}
+}

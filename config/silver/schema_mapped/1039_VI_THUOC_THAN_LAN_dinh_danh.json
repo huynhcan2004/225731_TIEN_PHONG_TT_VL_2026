@@ -1,0 +1,49 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THAN_LAN",
+    "ten_raw": "Thần lần",
+    "ten_khoa_hoc": "Mabuya sp",
+    "ho_thuc_vat": "Họ Thằn lằn bóng Scincidae",
+    "variants": [
+      "rắn mối",
+      "Thằn lằn bóng hoa",
+      "Mabuya multifasciata Kuhl",
+      "thần lần bóng đuôi dài",
+      "Mabuya longicaudata",
+      "thằn lằn bóng Sapa",
+      "Mabuya chapaense",
+      "Thằn lằn bóng"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1039"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở Việt Nam có ba loài thằn lằn bóng: Thằn lằn bóng hoa (Mabuya multifasciata Kuhl), thần lần bóng đuôi dài (Mabuya longicaudata), thằn lằn bóng Sapa (Mabuya chapaense). Thằn lằn bóng (thông thường nhân dân gọi là thằn lằn) có hình dạng giống cá cóc nhưng thân vững chắc, cổ rõ ràng, đuôi hình trụ thon dài. Chi dài và khỏe, đầu gối của chi sau không hướng sang bên như cá cóc mà hướng về phía trước. Chi trước và chi sau đều có 5 ngón. Vỏ da thằn lằn có vảy sừng, đầu có nhiều tấm vảy lớn đối xứng ghép sát nhau và thân có vảy nhỏ tròn xếp lên nhau như vảy cá. Ngón có vuốt phát triển. Tuyến da chính thức thiếu làm da thằn lằn rất khô. Nhờ màng phôi đặc biệt, thằn lằn sinh sống hoàn toàn ở cạn. Thằn lằn bóng đuôi dài đẻ trứng có vỏ thấm canxi và phát triển ở ngoài, còn thằn lằn bóng hoa và thằn lằn bóng Sapa có trứng thiếu vỏ dai và phát triển trong cơ thể mẹ, cụ thể trong noãn quản cho tới khi thành con. Đây là trường hợp đẻ trứng thai. Thằn lằn giao phối vào mùa xuân và đẻ vào mùa hè. Thằn lằn bóng đẻ khoảng 6-8 trứng, (thằn lằn bóng đuôi dài) hoặc 3-5 con (thằn lằn hoa và thằn lằn Sapa). Con mới đẻ dài khoảng $8cm$ kể cả đuôi. Sau khi đẻ, thằn lằn mẹ còn chăm sóc con trong thời gian nhất định rồi mới để con tự lập (Hình 764)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAN_LAN",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết trong thằn lằn có protit ăn được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039"
+      }
+    }
+  ]
+}

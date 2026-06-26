@@ -1,0 +1,842 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUONG_SON",
+    "ten_raw": "Thường sơn",
+    "ten_khoa_hoc": "Dichroa febrifuga Lour.; Clerodendron trichotomum Thunb.; Mussaenda divaricata Hutch.; Berberis vulgaris L.; Phlogacanthus turgidus Nicholson",
+    "ho_thuc_vat": "Thường sơn Saxifragaceae; Cỏ roi ngựa Verbenaceae; Cà phê Rubiaceae; Hoàng liên gai Berberidaceae; Ô rô Acanthaceae",
+    "variants": [
+      "Hải châu thường sơn",
+      "Bach thuong son",
+      "Sơn thường sơn (Thường sơn núi)",
+      "cây bướm bạc",
+      "bướm bướm Mussaenda cambodiana Pierre"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Liều dùng trung bình: $6-12g$ dưới dạng thuốc sắc. Dùng riêng hay phối hợp với các vị thuốc khác.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "lão đờm tích ẩm, dẫn tới đờm đi lên sinh nôn mửa",
+      "phan_bo": "Bắc Cạn, Thái Nguyên, Hà Giang, Tuyên Quang, Hoà Bình, Hà Tây, Sapa-Lào Cai"
+    },
+    "display_name": "Thường sơn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THUONG_SON",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thuong Son"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "HC_DICROIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Dicroin"
+      }
+    },
+    {
+      "id": "HC_FEBRIFUGIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Febrifugin"
+      }
+    },
+    {
+      "id": "HC_ISOFEBRIFUGIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Isofebrifugin"
+      }
+    },
+    {
+      "id": "HC_BECBERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Becberin"
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Ret"
+      }
+    },
+    {
+      "id": "B_SOT_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Thuong"
+      }
+    },
+    {
+      "id": "BT_SOT_RET_THUONG_SON",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Ret Thuong Son"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAT_CAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cat Can"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cam Thao"
+      }
+    },
+    {
+      "id": "BT_SOT_THUONG_THUONG_SON",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Thuong Thuong Son"
+      }
+    },
+    {
+      "id": "VI_THUOC_BINH_LANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Binh Lang"
+      }
+    },
+    {
+      "id": "VI_THUOC_MIET_GIAP",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Miet Giap"
+      }
+    },
+    {
+      "id": "VI_THUOC_O_MAI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc O Mai"
+      }
+    },
+    {
+      "id": "VI_THUOC_TAO_DEN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Tao Den"
+      }
+    },
+    {
+      "id": "VI_THUOC_SINH_KHUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Sinh Khuong"
+      }
+    },
+    {
+      "id": "BT_TRUNG_DOC_THUONG_SON",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Trung Doc Thuong Son"
+      }
+    },
+    {
+      "id": "VI_THUOC_THAO_QUA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thao Qua"
+      }
+    },
+    {
+      "id": "B_TRUNG_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Trung Doc"
+      }
+    },
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cao Huyet Ap"
+      }
+    },
+    {
+      "id": "B_VE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ve"
+      }
+    },
+    {
+      "id": "B_BO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bo"
+      }
+    },
+    {
+      "id": "CN_THO_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tho Dom"
+      }
+    },
+    {
+      "id": "CN_TRIET_NGUOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triet Nguoc"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_HANH_THUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hanh Thuy"
+      }
+    },
+    {
+      "id": "DL_CHUA_SO_RET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chua So Ret"
+      }
+    },
+    {
+      "id": "DL_HA_SOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Sot"
+      }
+    },
+    {
+      "id": "DL_HUNG_PHAN_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Hung Phan Tim"
+      }
+    },
+    {
+      "id": "DL_UC_CHE_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Uc Che Tim"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tieu Hoa"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim Mach"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Ho Hap"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T661",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "661"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thường sơn là một loại cây nhỡ cao $1-2m$, thân rỗng, dễ gẫy, vỏ ngoài nhẵn màu tím. Lá mọc đối, hình mác hai đầu nhọn, dài $13-20cm$, rộng $35-90mm$, mép có răng cưa mặt trên xanh, mặt dưới tím đỏ, gân tím đỏ, không có lông hoặc hơi có lông. Hoa nhỏ màu xanh lam hay hồng, mọc thành chùm nhiều hoa mọc ở kẽ lá hay đầu cành. Quả mọng, khi chín màu xanh lam, đường kính $5mm$, một ngăn, hạt nhiều nhỏ hình lê có mang ở mặt, dài không đầy $1mm$ ( Hình 500, Hm 35,4).",
+        "thanh_phan_hoa_hoc": [
+          "Năm 1948, chúng tôi đã chiết từ lá cây thường sơn tươi (Hà Giang, Tuyên Quang) một chất có tinh thể và có tính chất glucozit vì điều kiện kháng chiến chưa xác định các tính chất lý hoá (Đỗ Tất Lợi và Bùi Đình Sang, 1948).",
+          "Tại các nước, thường sơn được là đề tài nghiên cứu kỹ về mặt hoá học và dược lý từ năm 1946. Trong các năm 1946-1948, các tác giả Triệu Thạch Dân, Chuyên Phú Vinh và Trương Xương Thiệu đã lấy được từ thường sơn các chất sau day: 1. Dicroin -α (Dichroin) 2. Dicroin B 3. Dicroin γ",
+          "Năm 1948, Kuehl đã chiết từ thường sơn được một số ancaloit với những tính chất sau đây: 1. Ancaloit I (dichroin A) 2. Ancaloit II (dichroin B)",
+          "Koepfli, các năm 1947 và 1949, đã chiết được các ancaloit đặt tên là $febrifugin$ và $isofebrifugin$.",
+          "Gần đây, người ta đã xác định được rằng dicroin α ancaloit I và chất isofebrifugin chỉ là một. Còn dicroin α, ancaloit II và febrifugin là một.",
+          "Những ancaloit trong thường sơn đều là dẫn xuất của nhân quinazolin có 3 dạng α, β và γ. Trong 3 dạng đó thì dicroin γ có tác dụng chữa sốt rét mạnh nhất."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_DICROIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong các năm 1946-1948, các tác giả Triệu Thạch Dân, Chuyên Phú Vinh và Trương Xương Thiệu đã lấy được từ thường sơn các chất sau day: 1. Dicroin -α (Dichroin) 2. Dicroin B 3. Dicroin γ",
+        "ghi_chu": "Dicroin -α (Dichroin), Dicroin B, Dicroin γ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_FEBRIFUGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Koepfli, các năm 1947 và 1949, đã chiết được các ancaloit đặt tên là $febrifugin$ và $isofebrifugin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_ISOFEBRIFUGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Koepfli, các năm 1947 và 1949, đã chiết được các ancaloit đặt tên là $febrifugin$ và $isofebrifugin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_BECBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Febrifugin$, $Isofebrifugin$ $becberin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cao thường sơn | Sắc uống | Sơn thường sơn",
+        "ghi_chu": "có tác dụng rõ rệt chữa sốt rét thường nhưng có nhược điểm là gây nôn làm cho bệnh nhân khó chịu | Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "B_SOT_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thường sơn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_CAT_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$ | $12g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày. | Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá | Sứ",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày. | Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_THUONG_THUONG_SON",
+      "to": "VI_THUOC_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_THUONG_THUONG_SON",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Sắc với $600ml$ nước còn $200ml$. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_THUONG_THUONG_SON",
+      "to": "B_SOT_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_BINH_LANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Thần",
+        "cach_dung": "Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_MIET_GIAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_O_MAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "3 quả",
+        "vai_tro": "Tá",
+        "cach_dung": "Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_TAO_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "3 quả",
+        "vai_tro": "Tá",
+        "cach_dung": "Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_THUONG_SON",
+      "to": "VI_THUOC_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "3 miếng",
+        "vai_tro": "Tá",
+        "cach_dung": "Thêm nước vào sắc kỹ, lọc và cô đặc còn $3g$. Người lớn ngày uống 1-2 lần, mỗi lần $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_TRUNG_DOC_THUONG_SON",
+      "to": "VI_THUOC_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_TRUNG_DOC_THUONG_SON",
+      "to": "VI_THUOC_BINH_LANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_TRUNG_DOC_THUONG_SON",
+      "to": "VI_THUOC_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "BT_TRUNG_DOC_THUONG_SON",
+      "to": "B_TRUNG_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Ngoài đắp những chỗ bị trúng độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "B_VE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc dùng tắm",
+        "ghi_chu": "Trâu bò bị ve, bọ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc dùng tắm",
+        "ghi_chu": "Trâu bò bị ve, bọ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "CN_THO_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thổ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "CN_TRIET_NGUOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng triệt ngược."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "CN_HANH_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hành thuỷ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_CHUA_SO_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao nước thường sơn với liều $1g/kg$ thể trọng có tác dụng chữa sốt rét rất rõ rệt. Chất dicroin với liều $1mg/kg$ thể trọng so với quinin mạnh gấp 25-50 lần. Các ancaloit của thường sơn có tác dụng chữa sốt rét mạnh hơn quinin 100 lần. Cao thường sơn trên lâm sàng có tác dụng rõ rệt chữa sốt rét thường nhưng có nhược điểm là gây nôn làm cho bệnh nhân khó chịu.",
+        "ghi_chu": "Thí nghiệm trên gà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_HA_SOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm vào mạch máu $2ml/kg$ thể trọng thỏ dung dịch $0,03\\%$ trực trùng côli để gây sốt rồi tiêm dưới da dung dịch $5\\%$ thường sơn ($1ml$ tương đương với $1,67g$ nguyên liệu) với liều $0,$5ml$/kg$ thể trọng thì thấy tác dụng hạ sốt rất rõ: Nhiệt độ đang lên cao hạ xuống nhiệt độ bình thường.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_HUNG_PHAN_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ancaloit của thường sơn có tác dụng hưng phấn đối với tim ếch và tim thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_UC_CHE_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất R212 (monohydroclorit a dicroin ) lại có tác dụng ức chế đối với tim ếch cô lập."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ancaloit của thường sơn thí nghiệm trên chó đã gây mê thấy hô hấp hưng phấn và huyết áp hạ xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao rượu thường sơn chế thành dung dịch $1\\%$ trong nước tiêm dưới da chuột nhắt với liều $0,$2ml$/10g$ thể trọng đa số chuột chết trong vòng 15-20 phút. Nửa liều gây chết LD-50 của dicroin a, B, Y trên $1kg$ thể trọng của gà là $20mg$, chuột nhắt là $18,5mg$, gà nhỏ là $7,5mg$, một giống gà nhỏ khác là $10mg$.",
+        "ghi_chu": "Thí nghiệm trên chuột nhắt, gà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng nước Ringer để pha chất R212 thành dung dịch $0,1\\%$ rồi thí nghiệm trên chó nhỏ và ếch thì thấy tiềm dưới da cho chó nhỏ với liều $1,$5ml$/kg$ thể trọng, chó sẽ phát sinh nôn mửa, đi ỉa lỏng, phân tiết dạ dày và ruột tăng cường, nhu động cũng tăng cường, niêm mạc dạ dày và ruột xuất huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_DOC_TINH_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng nước Ringer để pha chất R212 thành dung dịch $0,1\\%$ rồi thí nghiệm trên chó nhỏ và ếch thì thấy tiềm dưới da cho chó nhỏ với liều $1,$5ml$/kg$ thể trọng, chó sẽ phát sinh huyết áp hạ xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng nước Ringer để pha chất R212 thành dung dịch $0,1\\%$ rồi thí nghiệm trên chó nhỏ và ếch thì thấy tiềm dưới da cho chó nhỏ với liều $1,$5ml$/kg$ thể trọng, chó sẽ phát sinh hô hấp nhanh lên, cuối cùng thì chết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T661"
+      }
+    }
+  ]
+}

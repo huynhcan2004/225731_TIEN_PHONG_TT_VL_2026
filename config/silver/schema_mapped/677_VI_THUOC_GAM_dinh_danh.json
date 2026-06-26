@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GAM",
+    "ten_raw": "Gắm",
+    "ten_khoa_hoc": "Gnetum montanum Markgr.; Gnetum gnemon sensu Lour. non L.",
+    "ho_thuc_vat": "họ Gắm Gnetaceae",
+    "variants": [
+      "Dây gắm",
+      "Đại hoàng đằng",
+      "Vương tôn"
+    ],
+    "properties": {
+      "phan_bo": "Gắm mọc hoang ở nhiều tỉnh miền núi nước ta. Thường gặp ở các tỉnh Lạng Sơn, Cao Bằng, Bắc Thái, Hà Tây, Hoà Bình, Thanh Hoá, Nghệ An, Hà Tĩnh, Quảng Trị, Thừa Thiên Huế, Quảng Nam, Đà Nẵng, Kon Tum, Gia Lai, Đắc Lắc, Lâm Đồng, Đồng Nai, Bà Rịa-Vũng Tàu. Còn thấy ở Lào, Cămpuchia, Malaixia, Inđônêxia.",
+      "thu_hai": "Người ta đào rễ và thu hái dây gắm quanh năm, nhưng tốt nhất vào mùa thu đông.",
+      "che_bien_tho": "Rửa sạch, thái nhỏ, phơi khô hay sấy khô. Có khi dùng tươi."
+    },
+    "display_name": "Gắm"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T677",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "677"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Gắm là một loại dây leo bằng thân quấn, rất lớn, có thể dài tới $10$-$20m$ hay hơn. Thân hơi có đốt, nhẵn. Lá mọc đối, hình trứng thuôn, dài $8$-$15cm$, rộng $4$-$8cm$, đầu nhọn, phía cuống hơi tròn, gân nổi rõ. Cụm hoa mọc ở kẽ lá thành bông dài tới $10$-$12cm$. Quả hình trứng, dài $2$-$3cm$, khi chín có màu vàng đỏ."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "VI_THUOC_GAM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "VI_THUOC_GAM",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    },
+    {
+      "from": "VI_THUOC_GAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T677"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CU_KHI",
+    "ten_raw": "Củ khi",
+    "ten_khoa_hoc": "Vỏ canhkina",
+    "ho_thuc_vat": "Không có thông tin",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T699",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "699"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "có ở trạng thái thiên nhiên trong vỏ.",
+        "thanh_phan_hoa_hoc": [
+          "Các epibazơ tương ứng với quinin và quinidin cũng được tách ra từ 1936 (OH ở vị trí B so với nhân quinuclidic còn trong các bazơ bình thường thì OH ancol ở vị trí a).",
+          "Từ những nước lọc sau khi tách tinh thể những ancaloit, người ta còn thu được những phần không có tinh thể gọi là quinoidin, và từ chất quinoidin này người ta lại tách ra những ancaloit xetonic như quinotoxin, quininon (chiếm từ $3$ đến $10$% số ancaloit toàn phần), (theo Vacha, Santavy và cộng sự, 1964).",
+          "Những ancaloit nói trên gặp trong những chế phẩm bào chế, và hình như vốn không có trong vỏ cây thiên nhiên mà xuất hiện trong quá trình xử lý chế biến.",
+          "Ngay từ năm 1853, Pasteur cũng đã thu được quinotoxin hay quinixin bằng cách đun sôi lâu một dung dịch quinin sunfat trong môi trường axit.",
+          "Đây là một đồng phân của quinin, trong đó chức ancol bậc hai được chuyển thành chức xeton, và vòng quinuclidic được mở ra.",
+          "2. Những ancaloit nhân indol. Chỉ thấy vết trong những vỏ canhkina làm thuốc. Trong vỏ canh ki na Cinchona pellteriana Wedd. người ta chiết được trên $3$% arixin, kèm theo một số ancaloit nhân indol khác như xinchonamin (indoyl-quinuclidin).",
+          "Trong lá một số cây canhkina người ta thường chỉ chiết được rất ít ancaloit chính của canhkina, nhưng lại được từ $0,5$ đến $0,7$% ancaloit nhân indol như quinamin, xin-chophyllamin và izoxinchophylamin (theo Lemen và cộng sự, 1965)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUININE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các epibazơ tương ứng với quinin và quinidin cũng được tách ra từ 1936 (OH ở vị trí B so với nhân quinuclidic còn trong các bazơ bình thường thì OH ancol ở vị trí a)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUINIDINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các epibazơ tương ứng với quinin và quinidin cũng được tách ra từ 1936 (OH ở vị trí B so với nhân quinuclidic còn trong các bazơ bình thường thì OH ancol ở vị trí a)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUINOIDINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ những nước lọc sau khi tách tinh thể những ancaloit, người ta còn thu được những phần không có tinh thể gọi là quinoidin, và từ chất quinoidin này người ta lại tách ra những ancaloit xetonic như quinotoxin, quininon (chiếm từ $3$ đến $10$% số ancaloit toàn phần), (theo Vacha, Santavy và cộng sự, 1964)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUINOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ những nước lọc sau khi tách tinh thể những ancaloit, người ta còn thu được những phần không có tinh thể gọi là quinoidin, và từ chất quinoidin này người ta lại tách ra những ancaloit xetonic như quinotoxin, quininon (chiếm từ $3$ đến $10$% số ancaloit toàn phần), (theo Vacha, Santavy và cộng sự, 1964)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUININONE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ những nước lọc sau khi tách tinh thể những ancaloit, người ta còn thu được những phần không có tinh thể gọi là quinoidin, và từ chất quinoidin này người ta lại tách ra những ancaloit xetonic như quinotoxin, quininon (chiếm từ $3$ đến $10$% số ancaloit toàn phần), (theo Vacha, Santavy và cộng sự, 1964)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_ARIXINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ canh ki na Cinchona pellteriana Wedd. người ta chiết được trên $3$% arixin, kèm theo một số ancaloit nhân indol khác như xinchonamin (indoyl-quinuclidin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_CINCHONAMINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ canh ki na Cinchona pellteriana Wedd. người ta chiết được trên $3$% arixin, kèm theo một số ancaloit nhân indol khác như xinchonamin (indoyl-quinuclidin)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_QUINAMINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá một số cây canhkina người ta thường chỉ chiết được rất ít ancaloit chính của canhkina, nhưng lại được từ $0,5$ đến $0,7$% ancaloit nhân indol như quinamin, xin-chophyllamin và izoxinchophylamin (theo Lemen và cộng sự, 1965)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_CINCHOPHYLLAMINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá một số cây canhkina người ta thường chỉ chiết được rất ít ancaloit chính của canhkina, nhưng lại được từ $0,5$ đến $0,7$% ancaloit nhân indol như quinamin, xin-chophyllamin và izoxinchophylamin (theo Lemen và cộng sự, 1965)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    },
+    {
+      "from": "VI_THUOC_CU_KHI",
+      "to": "HC_ISOXINCHOPHYLLAMINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá một số cây canhkina người ta thường chỉ chiết được rất ít ancaloit chính của canhkina, nhưng lại được từ $0,5$ đến $0,7$% ancaloit nhân indol như quinamin, xin-chophyllamin và izoxinchophylamin (theo Lemen và cộng sự, 1965)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T699"
+      }
+    }
+  ]
+}

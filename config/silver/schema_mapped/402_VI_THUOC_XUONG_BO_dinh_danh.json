@@ -1,0 +1,116 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XUONG_BO",
+    "ten_raw": "Xương bồ",
+    "ten_khoa_hoc": "Acorus gramineus Soland; Acorus calamus L.",
+    "ho_thuc_vat": "họ Ráy Araceae",
+    "variants": [
+      "Thạch xương bồ",
+      "Thuỷ xương bồ"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "che_bien_tho": "Sơ chế, phơi sấy ban đầu",
+      "phan_bo": "Thạch xương bồ và thuỷ xương bồ mọc hoang\ntại những vùng núi miền Bắc và Trung nước ta,\nthường ở những nơi khe đá, khe suối, chỗ mát.\nCó thể thu hái quanh năm, nhưng tốt nhất vào\nmùa thu ở các tháng 8-9. Hải về cắt bỏ lá và rễ\ncon, rửa sạch đất cát và phơi khô."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T402",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "402"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN"
+        ],
+        "cong_nang": "Tẩy uế, khai khiếu, tuyên khí, trục đờm",
+        "kieng_ky_dac_biet": "Phàm âm huyết không đủ, tinh hoạt, ra nhiều mồ hôi cấm dùng. Kỵ sắt, ghét ma hoàng, địa đởm, thịt dê, đường và mật."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thạch xương bồ là một loại cỏ sống lâu năm, có thân rễ mọc ngang, đường kính to bằng ngón tay, có nhiều đốt, trên có những sẹo lá. Lá mọc đứng hình dải, dài $30$-$50cm$, rộng $2$-$6mm$, chỉ có gân giữa Hoa mọc thành bông mo ở đầu một cán dẹt dài $10$-$30cm$, cán này được phủ bởi một lá bắc, lá bắc này dài $7$-$20cm$, rộng từ $2$-$4mm$ vượt cao hơn cụm hoa rất nhiều, làm cho cụm hoa trông như lệch sang một bên, dài từ $5$-$12cm$, đường kính $2$-$4mm$. Quả mọng màu đỏ nhạt, một ngăn, có thành gần như khô. Quanh hạt có một chất gôm nhầy ( Hình 290 ). Thuỷ xương bồ Acorus calamus cũng giống như thạch xương bồ nhưng to và cao hơn. Lá dài từ $50$-$150cm$, rộng từ $6$-$30mm$. Lá bắc của cán hoa so với loài trước cũng dài hơn, thường dài tới $45cm$. Cụm hoa mọc thành bóng mẫm, so với cụm hoa trên cũng to và ngắn hơn, thường dài $4$-$8cm$, đường kính $6$-$12mm$. Mùa hoa tháng 5-7, mùa quả tháng 6-8 ( Hình 291 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong thạch xương bồ có chừng $0,5$-$0,8$% tinh dầu, trong tinh dầu có chừng $86$% $asaron$ C,H,O,. Ngoài ra còn có một chất phenol và axit béo. Tinh dầu có tỷ trọng $1,058$ ở $15°$, chỉ số xà phòng $1,3$ chỉ số este $5,79$ độ sôi $140$-$160$ ở $6mm$ thuỷ ngân. Trong thuỷ xương bồ có $1,5$-$3,5$% tinh dầu, trong đó thành phần chủ yếu cũng là $asaron$ CHO, (4 propenyl 1-3-5 trimetoxybenzol), rói đến $asarylandehyt$ CH,O. Ngoài ra còn một glucozit đắng gọi là acorin và chất tanin. CH3O. 10 CH=CH-CH3"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào hai kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào hai kinh ... và can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "HC_ASARON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thạch xương bồ có chừng $0,5$-$0,8$% tinh dầu, trong tinh dầu có chừng $86$% $asaron$ C,H,O,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_BO",
+      "to": "HC_ASARYLANDEHYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thuỷ xương bồ có $1,5$-$3,5$% tinh dầu, trong đó thành phần chủ yếu cũng là $asaron$ CHO, (4 propenyl 1-3-5 trimetoxybenzol), rói đến $asarylandehyt$ CH,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T402"
+      }
+    }
+  ]
+}

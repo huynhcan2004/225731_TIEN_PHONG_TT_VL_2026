@@ -1,0 +1,547 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LONG_COT",
+    "ten_raw": "Long cốt",
+    "ten_khoa_hoc": "$Os Draconis, (Fossilia Ossis Mastodi), Os Draconis coloratus, Os Draconis nativus; Dens Draconis (Fossilia Dentis Mastodi)$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Vị thuốc Long cốt",
+    "canonical_name": "Vị thuốc Long cốt"
+  },
+  "nodes": [
+    {
+      "id": "BT_MO_HOI_TROM_LONG_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mồ hôi trộm Long cốt",
+        "aliases": [
+          "mohoitromlongcot",
+          "mo hoi trom long cot",
+          "mồ hôi trộm long cốt"
+        ],
+        "search_vector_hint": "Bài thuốc Mồ hôi trộm Long cốt thuộc nhóm bài thuốc, thường liên quan đến điều trị mồ hôi trộm."
+      }
+    },
+    {
+      "id": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Vết loét chảy máu Long cốt",
+        "aliases": [
+          "vetloetchaymaulongcot",
+          "vết loét chảy máu long cốt",
+          "vet loet chay mau long cot"
+        ],
+        "search_vector_hint": "Bài thuốc Vết loét chảy máu Long cốt thuộc nhóm bài thuốc, thường liên quan đến điều trị vết loét."
+      }
+    },
+    {
+      "id": "B_MO_HOI_TROM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mồ hôi trộm",
+        "aliases": [
+          "mohoitrom",
+          "mo hoi trom",
+          "mồ hôi trộm"
+        ],
+        "search_vector_hint": "Bệnh Mồ hôi trộm thuộc nhóm bệnh, thường liên quan đến chứng đổ mồ hôi khi ngủ."
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vết loét",
+        "aliases": [
+          "vet loet",
+          "vết loét",
+          "vetloet"
+        ],
+        "search_vector_hint": "Bệnh Vết loét thuộc nhóm bệnh, thường liên quan đến tổn thương trên da hoặc niêm mạc."
+      }
+    },
+    {
+      "id": "CN_AN_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "trantinh",
+          "an than",
+          "trấn tĩnh",
+          "an thần",
+          "anthan",
+          "tran tinh"
+        ],
+        "search_vector_hint": "An thần thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_LIEM_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Liễm hãn",
+        "aliases": [
+          "chỉ hãn",
+          "chihan",
+          "liem han",
+          "liemhan",
+          "liễm hãn",
+          "chi han"
+        ],
+        "search_vector_hint": "Công năng Liễm hãn thuộc nhóm công năng, thường liên quan đến điều trị chứng đổ mồ hôi."
+      }
+    },
+    {
+      "id": "CN_SAP_TINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sáp tinh",
+        "aliases": [
+          "sap tinh",
+          "co tinh",
+          "sáp tinh",
+          "saptinh",
+          "cotinh",
+          "cố tinh"
+        ],
+        "search_vector_hint": "Công năng Sáp tinh thuộc nhóm công năng, thường liên quan đến điều trị di tinh, hoạt tinh."
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trấn kinh",
+        "aliases": [
+          "tran kinh",
+          "trankinh",
+          "trấn kinh"
+        ],
+        "search_vector_hint": "Công năng Trấn kinh thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_HOANG_KY",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng kỳ",
+        "aliases": [
+          "hoàng kỳ",
+          "hoangky",
+          "hoang ky"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng kỳ thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "VT_LONG_COT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Long cốt",
+        "aliases": [
+          "long cốt",
+          "longcot",
+          "long cot"
+        ],
+        "search_vector_hint": "Vị thuốc Long cốt thuộc nhóm vị thuốc, thường liên quan đến an thần, cố sáp.",
+        "bo_phan_dung": "kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "Không rõ",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "ten_khoa_hoc": "$Os Draconis, (Fossilia Ossis Mastodi), Os Draconis coloratus, Os Draconis nativus; Dens Draconis (Fossilia Dentis Mastodi)$",
+        "ho_thuc_vat": "$Không rõ$",
+        "hinh_thai_chi_tiet": "Long cốt là một vị thuốc do kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng v.v...",
+        "lieu_dung_tong_quat": "dễ tả rời ra."
+      }
+    },
+    {
+      "id": "VT_MAU_LE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mẫu lệ",
+        "aliases": [
+          "maule",
+          "mẫu lệ",
+          "mau le"
+        ],
+        "search_vector_hint": "Vị thuốc Mẫu lệ thuộc nhóm vị thuốc, thường liên quan đến trị các bệnh lý về xương khớp."
+      }
+    },
+    {
+      "id": "VT_O_TAC_COT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ô tặc cốt",
+        "aliases": [
+          "o tac cot",
+          "ô tặc cốt",
+          "otaccot"
+        ],
+        "search_vector_hint": "Vị thuốc Ô tặc cốt thuộc nhóm vị thuốc, thường liên quan đến cầm máu, trị đau dạ dày."
+      }
+    },
+    {
+      "id": "VT_TE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tê",
+        "aliases": [
+          "tê",
+          "te"
+        ],
+        "search_vector_hint": "Vị thuốc Tê thuộc nhóm vị thuốc, thường liên quan đến cảm giác tê bì."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NHAT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Nhat",
+        "aliases": [
+          "nhat",
+          "nhật"
+        ],
+        "search_vector_hint": "Vị Nhật thuộc nhóm vị thuốc, thường liên quan đến hương vị của dược liệu."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1059"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NHAT_DAM",
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_BINH",
+        "quy_kinh": [
+          "K_TAM"
+        ],
+        "cong_nang": "trấn kinh, an thần, sáp tinh và làm hết mồ hôi"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Long cốt là một vị thuốc do kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng v.v...",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "dễ tả rời ra."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LONG_COT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị sáp (nhạt)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VT_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chính",
+        "ghi_chu": "nung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "ghi_chu": "nung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VT_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "ghi_chu": "sinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VT_TE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "B_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tất cả tán nhỏ thành bột, cho vào lụa thưa gói lại. Xoa lên da để chữa bệnh ra mồ hôi trộm, tự ra mồ hôi.",
+        "ghi_chu": "CT_VT_VN_T1060"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "VT_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "VT_O_TAC_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Cả hai vị tán nhỏ, khi có vết loét chảy máu rắc bột này lên (kinh nghiệm nhân dân)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "CN_AN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng an thần, dùng chữa trường hợp hồi hộp mất ngủ, thần trí không yên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "CN_SAP_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng sáp tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_COT",
+      "to": "CN_LIEM_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng làm hết mồ hôi, dùng chữa mồ hôi trộm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 43.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

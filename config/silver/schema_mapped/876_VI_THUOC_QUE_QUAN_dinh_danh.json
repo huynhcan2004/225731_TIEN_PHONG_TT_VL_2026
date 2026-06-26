@@ -1,0 +1,135 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_QUE_QUAN",
+    "ten_raw": "Quế quan",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T876",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "876"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Đại nhiệt",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ],
+        "cong_nang": "bổ mệnh môn tướng hỏa, trị cố lãnh trầm hàn, dùng chữa chân tay co quắp, lưng gối tê mỏi, bụng quặn đau, kinh nguyệt bế, tiểu tiện bất lợi, trên nóng dưới lạnh, ung thư.",
+        "kieng_ky_dac_biet": "hơi có độc"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Mặc dầu nhân dân ta dùng quế Thanh, quế Quỳ hay quế Trà My với những công dụng đặc biệt, nhưng sự nghiên cứu thành phần hóa học chưa thấy những thành phần đặc biệt nào, so với các loài quế khác giới thiệu ở sau và được dùng trên thế giới.",
+          "Tuy nhiên tỷ lệ các hoạt chất trong quế và trong tinh dầu quế của ta có khác.",
+          "Ngoài những chất như tinh bột, chất nhầy, tanin, chất màu, đường, trong quế Việt nam có tới $1-5\\%$ tinh dầu (các loài quế khác thường chỉ có $1-2\\%$).",
+          "Trong tinh dầu quế Việt Nam có chứa khoảng $95\\%$ andehyt xinnamic α=$ -0°8$ (theo Roure Bertrand). Tinh dầu quế của ta tan trong cùng một thể tích cồn 70.",
+          "Cần chú ý nghiên cứu để có thái độ đúng đối với giá trị quế của ta, một loại quế rất được tín nhiệm trong nhân dân và cả đối với Trung Quốc."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính đại nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những chất như tinh bột, chất nhầy, tanin, chất màu, đường, trong quế Việt nam có tới $1-5\\%$ tinh dầu (các loài quế khác thường chỉ có $1-2\\%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những chất như tinh bột, chất nhầy, tanin, chất màu, đường, trong quế Việt nam có tới $1-5\\%$ tinh dầu (các loài quế khác thường chỉ có $1-2\\%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_QUAN",
+      "to": "HC_ANDEHYT_XINNOMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu quế Việt Nam có chứa khoảng $95\\%$ andehyt xinnamic α=$ -0°8$ (theo Roure Bertrand)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T876"
+      }
+    }
+  ]
+}

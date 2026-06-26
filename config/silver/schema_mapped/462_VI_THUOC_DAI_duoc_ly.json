@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T462",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "462"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa đại có tác dụng hạ huyết áp (thí nghiệm trên thỏ, chó). Hoa khô có tác dụng mạnh hơn hoa tươi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng kháng sinh của chất funvoplumierin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462"
+      }
+    }
+  ],
+  "metadata": {}
+}

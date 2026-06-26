@@ -1,0 +1,355 @@
+{
+  "entity_hub": "VI_THUOC_THUY_NGAN",
+  "source": {
+    "source_id": "CT_VT_VN_T1064",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1064"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_NONG_THUY_NGAN_C",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị sốt nóng, kết hợp Thủy ngân và Cam thảo.",
+        "cach_dung": "Sắc còn $20ml$. Chia 3 lần uống trong ngày.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_NONG_THUY_NGAN_C",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị sốt nóng, kết hợp Thủy ngân và Cam thảo.",
+        "cach_dung": "Sắc còn $20ml$. Chia 3 lần uống trong ngày.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_NONG_THUY_NGAN_C",
+      "to": "B_SOT_NONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa những bệnh sốt nóng, mê sảng khát nước, mạch nhanh",
+        "cach_dung": "Sắc còn $20ml$. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THUY_NGAN_THH",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị sốt cao, kết hợp Thủy ngân, Thạch cao và Hoàng liên.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THUY_NGAN_THH",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị sốt cao, kết hợp Thủy ngân, Thạch cao và Hoàng liên.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THUY_NGAN_THH",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị sốt cao, kết hợp Thủy ngân, Thạch cao và Hoàng liên.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THUY_NGAN_THH",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, điên cuồng",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_MAU_CAM_THUY_NGAN_TM",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị máu cam, kết hợp Thủy ngân, Thạch cao và Mẫu lệ.",
+        "cach_dung": "trộn đều mà uống.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_MAU_CAM_THUY_NGAN_TM",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị máu cam, kết hợp Thủy ngân, Thạch cao và Mẫu lệ.",
+        "cach_dung": "trộn đều mà uống.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_MAU_CAM_THUY_NGAN_TM",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị máu cam, kết hợp Thủy ngân, Thạch cao và Mẫu lệ.",
+        "cach_dung": "trộn đều mà uống.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_MAU_CAM_THUY_NGAN_TM",
+      "to": "B_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng máu cam, đầu nhức",
+        "cach_dung": "trộn đều mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THUY_NGAN_H",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Thủy ngân trị hen suyễn.",
+        "cach_dung": "6-12g sắc uống",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_GIANG_MAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_GHE_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_NHIET_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_DAU_THUY_NGAN_H",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Thủy ngân trị cháy trên đầu tóc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_DAU_THUY_NGAN_H",
+      "to": "B_CHAY_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_DAU_THUY_NGAN_H",
+      "to": "S_CHAY_TOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, giang mai, trừ ghẻ lở, nhiệt độc, làm trụy thai, có khi dùng chữa cháy trên đầu tóc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_THUY_NGAN_S",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị chấy, kết hợp Thủy ngân và Sáp ong.",
+        "cach_dung": "Hòa với sáp ong, sát lên đầu tóc",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_THUY_NGAN_S",
+      "to": "VT_SAP_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị chấy, kết hợp Thủy ngân và Sáp ong.",
+        "cach_dung": "Hòa với sáp ong, sát lên đầu tóc",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_CHAY_THUY_NGAN_S",
+      "to": "B_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chấy",
+        "cach_dung": "Hòa với sáp ong, sát lên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_BANH_DIEN_THUY_NGAN_T",
+      "to": "VI_THUOC_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị bạnh điển, kết hợp Thủy ngân và Lá trầu không.",
+        "cach_dung": "Giã nhỏ với lá trầu không mà bôi lên",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_BANH_DIEN_THUY_NGAN_T",
+      "to": "VT_TRAU_KHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị bạnh điển, kết hợp Thủy ngân và Lá trầu không.",
+        "cach_dung": "Giã nhỏ với lá trầu không mà bôi lên",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "BT_BANH_DIEN_THUY_NGAN_T",
+      "to": "B_BANH_DIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạnh điển",
+        "cach_dung": "Giã nhỏ với lá trầu không mà bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    }
+  ],
+  "metadata": {}
+}

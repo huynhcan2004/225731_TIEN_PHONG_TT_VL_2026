@@ -1,0 +1,184 @@
+{
+  "entity_hub": "VI_THUOC_THUOC_PHIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T714",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "714"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_PHE_UNG_THUOC_PHIEN_T",
+      "to": "VI_THUOC_THUOC_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-15g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thuốc phiện có tác dụng trị phế ung.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_PHE_UNG_THUOC_PHIEN_T",
+      "to": "B_UNG_THU_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phế ung (ho có đờm xanh (mủ))",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_PHE_UNG_THUOC_PHIEN_T",
+      "to": "VT_XA_CAN",
+      "relation_type": "PHOI_HOP_VOI",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp với xạ can",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_PHE_UNG_THUOC_PHIEN_T",
+      "to": "VT_QUA_LAU",
+      "relation_type": "PHOI_HOP_VOI",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp với qua lâu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_THUOC_PHIEN_T",
+      "to": "VI_THUOC_THUOC_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thuốc phiện có tác dụng trị viêm gan.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_THUOC_PHIEN_T",
+      "to": "B_VIEM_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm gan",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_THUOC_PHIEN_T",
+      "to": "VI_THUOC_THUOC_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thuốc phiện có tác dụng trị viêm thận.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_THUOC_PHIEN_T",
+      "to": "B_VIEM_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm thận",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_THUOC_PHIEN_T",
+      "to": "VI_THUOC_THUOC_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thuốc phiện có tác dụng trị thủy thũng.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_THUOC_PHIEN_T",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thủy thũng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_RUOT_THUOC_PHIEN_T",
+      "to": "VI_THUOC_THUOC_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thuốc phiện có tác dụng trị viêm ruột.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_RUOT_THUOC_PHIEN_T",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm ruột đi ỉa lỏng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "BT_VIEM_RUOT_THUOC_PHIEN_T",
+      "to": "S_TIEU_ chảy",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm ruột đi ỉa lỏng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    }
+  ],
+  "metadata": {}
+}

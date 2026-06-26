@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_SO_DUA",
+  "source": {
+    "source_id": "CT_VT_VN_T710",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "710"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_RUOU_BO_DANG_KHAI_VI",
+      "to": "VI_THUOC_SO_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ so đũa ngâm rượu giúp tăng cường tác dụng bổ đắng và khai vị.",
+        "cach_dung": "Ngày uống từ $15$ đến $30ml$ rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T710"
+      }
+    },
+    {
+      "from": "BT_RUOU_BO_DANG_KHAI_VI",
+      "to": "B_KHAI_VI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc bổ đắng, khai vị",
+        "cach_dung": "Ngày uống từ $15$ đến $30ml$ rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T710"
+      }
+    }
+  ],
+  "metadata": {}
+}

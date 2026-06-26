@@ -1,0 +1,431 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LONG_COT",
+    "ten_raw": "Long cốt",
+    "ten_khoa_hoc": "$Os Draconis, (Fossilia Ossis Mastodi), Os Draconis coloratus, Os Draconis nativus; Dens Draconis (Fossilia Dentis Mastodi)$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Long cốt",
+    "canonical_name": "Long cốt"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_LONG_COT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Long Cot"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "V_NHAT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Nhat"
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Binh"
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam"
+      }
+    },
+    {
+      "id": "BT_MO_HOI_TROM_LONG_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Mo Hoi Trom Long Cot"
+      }
+    },
+    {
+      "id": "VI_THUOC_MAU_LE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mau Le"
+      }
+    },
+    {
+      "id": "VI_THUOC_HOANG_KY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hoang Ky"
+      }
+    },
+    {
+      "id": "VI_THUOC_TE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Te"
+      }
+    },
+    {
+      "id": "B_MO_HOI_TROM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mo Hoi Trom"
+      }
+    },
+    {
+      "id": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Vet Loet Chay Mau Long Cot"
+      }
+    },
+    {
+      "id": "VI_THUOC_O_TAC_COT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc O Tac Cot"
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Loet"
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tran Kinh"
+      }
+    },
+    {
+      "id": "CN_AN_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Than"
+      }
+    },
+    {
+      "id": "CN_SAP_TINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Sap Tinh"
+      }
+    },
+    {
+      "id": "CN_LIEM_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Liem Han"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1059"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Nhạt (Đạm)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TAM"
+        ],
+        "cong_nang": "trấn kinh, an thần, sáp tinh và làm hết mồ hôi"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Long cốt là một vị thuốc do kết quả hóa thạch (hóa đá) của xương một số động vật thời cổ đại như loại voi mamut, tê giác, lợn rừng v.v...",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "dễ tả rời ra."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị sáp (nhạt)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VI_THUOC_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chính",
+        "ghi_chu": "nung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VI_THUOC_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "ghi_chu": "nung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VI_THUOC_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "ghi_chu": "sinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "VI_THUOC_TE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT",
+      "to": "B_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tất cả tán nhỏ thành bột, cho vào lụa thưa gói lại. Xoa lên da để chữa bệnh ra mồ hôi trộm, tự ra mồ hôi.",
+        "ghi_chu": "CT_VT_VN_T1060"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "VI_THUOC_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "VI_THUOC_O_TAC_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_LOET_CHAY_MAU_LONG_COT",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Cả hai vị tán nhỏ, khi có vết loét chảy máu rắc bột này lên (kinh nghiệm nhân dân)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "CN_AN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng an thần, dùng chữa trường hợp hồi hộp mất ngủ, thần trí không yên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "CN_SAP_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng sáp tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LONG_COT",
+      "to": "CN_LIEM_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng làm hết mồ hôi, dùng chữa mồ hôi trộm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "all_sources": [
+          "CT_VT_VN_T1059"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 43.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

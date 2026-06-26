@@ -1,0 +1,112 @@
+{
+  "entity_hub": "VI_THUOC_TY_GIAI",
+  "source": {
+    "source_id": "CT_VT_VN_T515",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "515"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "CN_KHU_PHONG_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử phong thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "CN_KHU_TRỌC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần thanh khứ trọc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều nhỏ, nó còn kích thích sự tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "DL_GAY_NON_MUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với liều quá cao nó có thể gây nôn mửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "DL_GAY_BIENG_AN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với liều quá cao nó có thể gây biếng ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "TINH_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "KINH_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    },
+    {
+      "from": "VI_THUOC_TY_GIAI",
+      "to": "KINH_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T515"
+      }
+    }
+  ],
+  "metadata": {}
+}

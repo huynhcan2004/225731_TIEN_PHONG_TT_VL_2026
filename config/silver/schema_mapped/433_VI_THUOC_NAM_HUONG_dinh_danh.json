@@ -1,0 +1,107 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NAM_HUONG",
+    "ten_raw": "Nấm hương",
+    "ten_khoa_hoc": "Lentinus edodes (Berk.) Sing",
+    "ho_thuc_vat": "Nám tán Polyporaceae (Pleurotaceae)",
+    "variants": [
+      "bioc hom",
+      "hoa thơm",
+      "lét lang",
+      "nấm thơm"
+    ],
+    "properties": {
+      "bo_phan_dung": "mũ (còn gọi là chụp hay tai nấm)",
+      "phan_bo": "Nấm hương là một loại lâm sản quý, mọc\nhoang dại trong những rừng ẩm mát các tỉnh\nmiền núi cao như Lào Cai, Lai Châu, Lạng Sơn,\nCao Bằng, Bắc Cạn, Thái Nguyên, Hà Giang,\nTuyên Quang, Hà Tây, Hòa Bình v.v...\nTrước đây nhiều nơi chỉ biết thu hoạch nấm\nhương mọc hoang dại.",
+      "thu_hai": "Thường vào 4 ngày trước và 4 ngày sau tiết\nđồng chí (khoảng 22 tháng 12 dương lịch) người\nta chặt cây trên đỉnh núi",
+      "che_bien_tho": "Hái xong phơi nắng hay sấy trên bếp\nđun. Nấm phơi nắng giữ được màu sắc và hương\nthơm tế nhị. Nấm sấy trên bếp có màu sẫm hơn\nvà có mùi khói."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T433",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "433"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $12,5g$ chất đạm; $1,6g$ chất béo; $60g$ chất đường; $16mg$ canxi; $240mg$ lân và $3,9mg$ sắt. Những chất khác chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_DAM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $12,5g$ chất đạm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $1,6g$ chất béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CHAT_DUONG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $60g$ chất đường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $16mg$ canxi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_LAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $240mg$ lân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    },
+    {
+      "from": "VI_THUOC_NAM_HUONG",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay mới chỉ biết trong $100g$ nấm đã sấy khô trung bình có $3,9mg$ sắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T433"
+      }
+    }
+  ]
+}

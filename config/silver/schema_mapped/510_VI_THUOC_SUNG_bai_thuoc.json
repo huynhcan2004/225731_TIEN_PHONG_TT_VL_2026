@@ -1,0 +1,217 @@
+{
+  "entity_hub": "VI_THUOC_SUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T510",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "510"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THUY_THUNG_SUNG_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Dùng tươi",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ trị bệnh thuỷ thũng, tiểu tiện khó khăn, bệnh dạ dày và ruột, lở loét, bệnh cước khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_SUNG_S",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bệnh thủy thũng, tiểu tiện khó khăn, bệnh dạ dày và ruột, lở loét, bệnh cước khí",
+        "cach_dung": "Dùng tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_SUNG_S",
+      "to": "S_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "bệnh thủy thũng, tiểu tiện khó khăn, bệnh dạ dày và ruột, lở loét, bệnh cước khí",
+        "cach_dung": "Dùng tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SUNG_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Bôi trực tiếp vào chỗ đau, sưng đỏ đến đâu bôi đến đó, bội nhiều lần một lúc.",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ trị mụn nhọt, sưng vú."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_SUNG_S",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt bắp chuối, sưng vú",
+        "cach_dung": "Rửa sạch mụn nhọt, lau khô nước. Nhựa sung hứng vào độ một chén hay hơn, bôi trực tiếp vào chỗ đau, sưng đỏ đến đâu bôi đến đó, bội nhiều lần một lúc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_SUNG_HU_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Đắp thuốc phải chừa chỗ xây xát, mà chỉ đắp nơi sưng đỏ hoặc tím.",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ trị ngã bị xây xát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_XAY_XAT_SUNG_S",
+      "to": "S_XAY_XAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi ngã bị xây xát",
+        "cach_dung": "Đắp thuốc phải chừa chỗ xây xát, mà chỉ đắp nơi sưng đỏ hoặc tím."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_SUNG_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Nhựa sung phết lên giấy bản, dán vào 2 bên thái dương.",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ trị nhức đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_SUNG_S",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu",
+        "cach_dung": "Nhựa sung phết lên giấy bản, dán vào 2 bên thái dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_SUNG_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ trị tê liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_SUNG_S",
+      "to": "S_TE_LIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê liệt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_SUNG_S",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sung được dùng đơn lẻ để điều trị.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không rõ ràng về vai trò và phối ngũ, chỉ biết là dùng đơn lẻ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_HEN_SUNG_M",
+      "to": "VI_THUOC_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhựa sung có tác dụng giảm ho, tiêu đờm, kết hợp với mật ong giúp tăng cường tác dụng này và làm dịu cổ họng.",
+        "cach_dung": "Nhựa sung hoà với mật ong uống trước khi đi ngủ.",
+        "ghi_chu": "Bài thuốc chữa hen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_HEN_SUNG_M",
+      "to": "VT_MAT_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nhựa sung có tác dụng giảm ho, tiêu đờm, kết hợp với mật ong giúp tăng cường tác dụng này và làm dịu cổ họng.",
+        "cach_dung": "Nhựa sung hoà với mật ong uống trước khi đi ngủ.",
+        "ghi_chu": "Bài thuốc chữa hen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    },
+    {
+      "from": "BT_HEN_SUNG_M",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen",
+        "cach_dung": "Nhựa sung hoà với mật ong uống trước khi đi ngủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T510"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,168 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BIEN_HOA",
+    "ten_raw": "Biến hóa",
+    "ten_khoa_hoc": "Asarum caudigerum Hance",
+    "ho_thuc_vat": "Mộc thông Aristolochiaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "Chưa rõ",
+      "che_bien_tho": "Chưa rõ",
+      "lieu_dung_chung": "Ngày dùng $20-40g$ dưới dạng thuốc sắc hoặc tán bột uống.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây mọc hoang dại ở những vùng cao, lạnh,\nchỗ bờ suối ẩm mát, có tán che, thường ở những\nkhu vực núi đá ẩm thấp có rêu như Tam Đảo, Ba\nVì, Cao Bằng, Lạng Sơn không chịu được vùng\nnóng thấp."
+    },
+    "display_name": "Biến hóa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BIEN_HOA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bien Hoa"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "S_HO_CO_DOM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho Co Dom"
+      }
+    },
+    {
+      "id": "B_HO_GA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho Ga"
+      }
+    },
+    {
+      "id": "B_THAP_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thap Khop"
+      }
+    },
+    {
+      "id": "S_HO_KHAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho Khan"
+      }
+    },
+    {
+      "id": "S_RAT_CO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Rat Co"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T768",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "768"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thuộc thảo, sống dai, cao 30-50cm, bò lan trên mặt đất. Thân rễ nằm ngang dưới đất. Thân trông như có đốt do vết lá rụng còn sẹo. Từ thân rễ mọc lên 1-2 lá, có cuống dài 20- 30cm, phiến lá hình tim màu xanh đậm, hơi tía, bóng nhẵn, dài 10-15cm, cuống có lấm chấm màu tím, bẻ dễ gãy. Hai mặt lá đều có lồng, mặt dưới nhạt. Hoa sinh ra từ gốc, mọc riêng lẻ, hình loa kèn, tràng hoa màu tím. Quả màu nâu đen khi chín, trong chứa nhiều hạt cứng (Hình 578).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu."
+        ],
+        "ghi_chu_bo_sung": "Mùa hoa: tháng 3-4, mùa quả: tháng 5-6."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "S_HO_CO_DOM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | $40g$",
+        "cach_dung": "Không có | Sắc kỹ với nước, chia hai ba lần uống trong ngày khi còn nóng. Uống liên tục trong 5-7 ngày.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm | Biến hoá cả cây lá và rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "B_HO_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "S_HO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "cach_dung": "Sắc kỹ với nước, chia hai ba lần uống trong ngày khi còn nóng. Uống liên tục trong 5-7 ngày.",
+        "ghi_chu": "Biến hoá cả cây lá và rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    },
+    {
+      "from": "VI_THUOC_BIEN_HOA",
+      "to": "S_RAT_CO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "cach_dung": "Sắc kỹ với nước, chia hai ba lần uống trong ngày khi còn nóng. Uống liên tục trong 5-7 ngày.",
+        "ghi_chu": "Biến hoá cả cây lá và rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T768"
+      }
+    }
+  ]
+}

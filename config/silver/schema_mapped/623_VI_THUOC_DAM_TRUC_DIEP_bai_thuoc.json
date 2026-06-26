@@ -1,0 +1,116 @@
+{
+  "entity_hub": "VI_THUOC_DAM_TRUC_DIEP",
+  "source": {
+    "source_id": "CT_VT_VN_T623",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "623"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "VI_THUOC_DAM_TRUC_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc có tác dụng thanh nhiệt, giải độc, tiêu viêm, giảm đau, làm dịu cổ họng, thường được sử dụng trong điều trị viêm họng mãn tính và viêm amidan.",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng.",
+        "ghi_chu": "Tất cả tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "VT_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc có tác dụng thanh nhiệt, giải độc, tiêu viêm, giảm đau, làm dịu cổ họng, thường được sử dụng trong điều trị viêm họng mãn tính và viêm amidan.",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng.",
+        "ghi_chu": "Tất cả tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "VT_KHO_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2,5g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc có tác dụng thanh nhiệt, giải độc, tiêu viêm, giảm đau, làm dịu cổ họng, thường được sử dụng trong điều trị viêm họng mãn tính và viêm amidan.",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng.",
+        "ghi_chu": "Tất cả tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc có tác dụng thanh nhiệt, giải độc, tiêu viêm, giảm đau, làm dịu cổ họng, thường được sử dụng trong điều trị viêm họng mãn tính và viêm amidan.",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng.",
+        "ghi_chu": "Tất cả tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "VT_DANG_TAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc có tác dụng thanh nhiệt, giải độc, tiêu viêm, giảm đau, làm dịu cổ họng, thường được sử dụng trong điều trị viêm họng mãn tính và viêm amidan.",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng.",
+        "ghi_chu": "Tất cả tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "B_VIEM_CO_HONG_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm cổ họng mãn tính",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    },
+    {
+      "from": "BT_VIEM_CO_HONG_MAN_TINH_BANG_P",
+      "to": "B_VIEM_AMIDAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm amiđan",
+        "cach_dung": "Mỗi lần dùng chừng $3-4g$ thổi vào cổ họng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T623"
+      }
+    }
+  ],
+  "metadata": {}
+}

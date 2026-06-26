@@ -1,0 +1,46 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TO_MANH",
+    "ten_raw": "Tơ mành",
+    "ten_khoa_hoc": "Cudrania tricuspidata (Carr.) Bur (1).; Desmodium heterophyllum DC.",
+    "ho_thuc_vat": "Dâu tằm Moraceae",
+    "variants": [
+      "Xuyên phá thạch",
+      "cây mỏ qua"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T558",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "558"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ thân mềm yếu nhiều cành, tạo thành bụi, có khi mọc thành cây nhỡ, chịu khô hạn rất khoẻ, có nhựa mủ trắng, rễ hình trụ có nhiều nhánh, mọc ngang, rất dài, nếu gặp đá có thể xuyên qua được (do đó có tên Xuyên phá thạch có nghĩa là phá chui qua đá). Vỏ thân màu tro nâu, trên có nhiều bì khổng màu trắng, thân và cành có rất nhiều gai, gai già hơi cong xuống trông như mỏ con qua (do đó có tên cây mỏ qua). Lá mọc cách, hình trứng thuôn, hai đầu nhọn, mặt lá nhẵn, bóng, mép nguyên. Nhấm có vị tê tê ở lưỡi (đặc điểm). Cụm hoa hình cầu, đường kính $7$-$10mm$, màu vàng nhạt, mọc thành đổi hay mọc đơn độc ở kẽ lá. Hoa đơn tính, đực cái khác gốc. Mùa hoa tại Hà Nội là tháng 4, Quả màu hồng họp thành quả kép. Mùa quả tháng 10-11 ( Hình 421).",
+        "thanh_phan_hoa_hoc": [
+          "Mới biết có hợp chất flavonoit"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TO_MANH",
+      "to": "HC_FLAVONOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới biết có hợp chất flavonoit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    }
+  ]
+}

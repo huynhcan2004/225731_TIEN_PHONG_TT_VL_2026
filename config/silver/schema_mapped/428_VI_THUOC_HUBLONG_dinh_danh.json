@@ -1,0 +1,131 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HUBLONG",
+    "ten_raw": "Hublông",
+    "ten_khoa_hoc": "Humulus lupulus L.; Humulus japonicus Sieb",
+    "ho_thuc_vat": "Gai mèo Cannabinaceae",
+    "variants": [
+      "Lá sàn sạt",
+      "lupulin"
+    ],
+    "properties": {
+      "bo_phan_dung": "hoa hublông; lông tiết phủ trên lá bắc (chiếm 10 đến 12% trọng lượng cụm hoa cái)",
+      "che_bien_tho": "Muốn chế lupulin, người ta đập hoa cái, lộng tiết sẽ rụng ra dưới dạng bột màu nâu đỏ nhạt, rất dễ vón vào nhau, không bị nước làm ướt.",
+      "phan_bo": "Mọc hoang dại và được trồng ở các nước ôn đới, ẩm thấp châu Âu và châu Mỹ (Pháp, Séc, Đức ...) để lấy hoa cái chế bia. Ở nước ta, mấy năm gần đây mới nhập nội loại cây này về trồng thí nghiệm ở Mộc Châu, Hà Giang, Bắc Ninh và Đà Lạt để lấy hoa cái chế rượu bia.",
+      "thu_hai": "Vào mùa hoa (tháng 6-7) người ta thu hái những nón hoa cái chín"
+    },
+    "display_name": "Hublông"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T428",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "428"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "cong_nang": "giúp sự tiêu hóa, thuốc bổ đắng, thuốc giảm đau, thuốc dịu dục"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đây là một loại dây mọc leo, sống dai, khác gốc, thân mọc cuốn, có lông cứng. Lá mọc đối, có cuống, gốc hình tim, có 3-5 thùy chân vịt, mép có răng cưa. Hoa màu lục nhạt. Hoa đực tập hợp thành chùy thưa, mọc ở kẽ lá, hoa cái họp thành nón, nhiều nón họp thành chùm ở đầu cành. Mỗi nón hình trứng gốm rất nhiều lá bắc dạng lá, màu vàng nhạt và mỏng khi chín, cái nọ phủ lên cái kia. Ở nách mỗi nón có hai hoa cái, sau khi thụ phấn sẽ cho một quả bế nhỏ Ngoài hoa cái, người ta còn dùng lông tiết phủ trên lá bắc (chiếm 10 đến 12% trọng lượng cụm hoa cái) với tên lupulin. Muốn chế lupulin, người ta đập hoa cái, lộng tiết sẽ rụng ra dưới dạng bột màu nâu đỏ nhạt, rất dễ vón vào nhau, không bị nước làm ướt. Mùi rất hăng. Vị đắng. Khi soi kính hiển vi, ta sẽ thấy những lông có kích thước $150$-$250u$, chân ngắn gồm nhiều tế bào, với phần trên xếp thành hình cốc gồm một dãy tế bào tiết có lớp cutin bị nhựa dầu tiết ra làm dãn ra.",
+        "ghi_chu_bo_sung": "nơi. Trâu bò rất thích ăn. Hoa cái không thấy có lông tiết cho nên không thấy thơm và không dùng chế bia được."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_XANTHOHUMOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những nón hoa cái chứa khoảng $10%$ nước, $8%$ chất vô cơ, các chất lipit, sáp, một ít tanin, sắc tố flavon, chất xanthohumola (là một chalcon), các glucozit của quexetola và kaempferola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_QUEXETOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những nón hoa cái chứa khoảng $10%$ nước, $8%$ chất vô cơ, các chất lipit, sáp, một ít tanin, sắc tố flavon, chất xanthohumola (là một chalcon), các glucozit của quexetola và kaempferola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_KAEMPFEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Những nón hoa cái chứa khoảng $10%$ nước, $8%$ chất vô cơ, các chất lipit, sáp, một ít tanin, sắc tố flavon, chất xanthohumola (là một chalcon), các glucozit của quexetola và kaempferola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_TRIMETYLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các amin (trimetylamin) và cholin cũng đã được phát hiện ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các amin (trimetylamin) và cholin cũng đã được phát hiện ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "(Dược học tạp chí-Nhật, 1962, 82, 1331), ngoài ra còn ít tinh dầu, tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUBLONG",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt chứa $27,9%$ chất béo (Trung dược chỉ, 1961, 719, 1647)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    }
+  ]
+}

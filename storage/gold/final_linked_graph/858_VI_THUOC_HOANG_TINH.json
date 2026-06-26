@@ -1,0 +1,959 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HOANG_TINH",
+    "ten_raw": "Hoàng tinh",
+    "ten_khoa_hoc": "$Polygonatum kingianum Coll. et Hemsl.; Polygonatum kingianum Polygonatum multiflorum L., Polygonatum macropodium Turcz, Polygonatum filipes Merr.$",
+    "ho_thuc_vat": "$họ hành tỏi Liliaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "củ",
+      "lieu_dung_chung": "Ngày dùng 12-20$g$ dưới dạng thuốc sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "những nơi rừng ẩm, đất nhiều mùa trên các núi có lẫn đá xanh, ở các tỉnh miền Bắc. Quanh thị trấn Sapa có nhiều.",
+      "thu_hai": "mùa thu hoặc mùa xuân, tốt nhất vào mùa thu vì thân rễ chứa ít nước. có những nơi thu hái gần quanh năm từ tháng 4 đến tháng 10.",
+      "che_bien_tho": "đào củ (thân rễ) cắt bỏ thân và rễ con, rửa sạch, thêm nước vào, đun cạn đem ra phơi, lại cho vào nước đun cạn rồi lại đem ra phơi, làm như vậy cho đến khi củ mềm, mặt ngoài và trong có màu đen là được.",
+      "trieu_chung_ngo_doc": "ngứa"
+    },
+    "display_name": "Vị thuốc Hoàng tinh",
+    "canonical_name": "Vị thuốc Hoàng tinh"
+  },
+  "nodes": [
+    {
+      "id": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc bổ cho người yếu ho lao lực hoàng tinh",
+        "aliases": [
+          "bổ cho người yếu ho lao lực hoàng tinh",
+          "bochonguoiyeuholaoluchoangtinh",
+          "bo cho nguoi yeu ho lao luc hoang tinh"
+        ],
+        "search_vector_hint": "Bài thuốc bổ cho người yếu ho lao lực hoàng tinh thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "B_ICH_TY_VI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ích tỳ vị",
+        "aliases": [
+          "ich ty vi",
+          "ích tỳ vị",
+          "ichtyvi"
+        ],
+        "search_vector_hint": "Bệnh Ích tỳ vị thuộc nhóm Bệnh, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "B_LAO_LUC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lao lực",
+        "aliases": [
+          "laoluc",
+          "hu lao",
+          "lao lực",
+          "suynhuoccothe",
+          "hulao",
+          "suy nhược cơ thể",
+          "hư lao",
+          "lao luc",
+          "suy nhuoc co the"
+        ],
+        "search_vector_hint": "Bệnh Lao lực thuộc nhóm Bệnh, thường liên quan đến tình trạng suy nhược do làm việc quá sức."
+      }
+    },
+    {
+      "id": "B_LAO_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lao thương",
+        "aliases": [
+          "laothuong",
+          "lao thương",
+          "lao thuong"
+        ],
+        "search_vector_hint": "Bệnh Lao thương thuộc nhóm Bệnh, thường liên quan đến suy nhược do lao động quá sức."
+      }
+    },
+    {
+      "id": "B_MANH_GAN_COT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mạnh gân cốt",
+        "aliases": [
+          "manh gan cot",
+          "mạnh gân cốt",
+          "manhgancot"
+        ],
+        "search_vector_hint": "Bệnh Mạnh gân cốt thuộc nhóm Bệnh, thường liên quan đến tăng cường sức mạnh hệ cơ xương."
+      }
+    },
+    {
+      "id": "B_PHE_HU_SINH_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phế hư sinh ho",
+        "aliases": [
+          "phehusinhho",
+          "phế hư sinh ho",
+          "phe hu sinh ho"
+        ],
+        "search_vector_hint": "Bệnh Phế hư sinh ho thuộc nhóm Bệnh, thường liên quan đến ho do phổi yếu."
+      }
+    },
+    {
+      "id": "B_TY_VI_HU_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tỳ vị hư nhược",
+        "aliases": [
+          "tyhu",
+          "tyvihunhuoc",
+          "ty vi hu nhuoc",
+          "tỳ hư",
+          "tỳ vị hư nhược",
+          "ty hu"
+        ],
+        "search_vector_hint": "Bệnh Tỳ vị hư nhược thuộc nhóm Bệnh, thường liên quan đến suy giảm chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "B_YEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Yếu",
+        "aliases": [
+          "yếu",
+          "yeu"
+        ],
+        "search_vector_hint": "Bệnh Yếu thuộc nhóm Bệnh, thường liên quan đến tình trạng suy nhược."
+      }
+    },
+    {
+      "id": "CN_BO_HU_LAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng bổ hư lao",
+        "aliases": [
+          "bổ hư lao",
+          "bohuton",
+          "bo hu lao",
+          "bohulao",
+          "bổ hư tổn",
+          "bo hu ton"
+        ],
+        "search_vector_hint": "Công năng bổ hư lao thuộc nhóm Công năng, thường liên quan đến điều trị suy nhược."
+      }
+    },
+    {
+      "id": "CN_BO_NGU_LAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng bổ ngũ lao",
+        "aliases": [
+          "bongulao",
+          "bổ ngũ lao",
+          "bo ngu lao"
+        ],
+        "search_vector_hint": "Công năng bổ ngũ lao thuộc nhóm Công năng, thường liên quan đến điều trị suy nhược do nhiều nguyên nhân."
+      }
+    },
+    {
+      "id": "CN_BO_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ tỳ",
+        "aliases": [
+          "bo ty",
+          "bổ tỳ",
+          "boty"
+        ],
+        "search_vector_hint": "Công năng Bổ tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_DAY_TINH_TUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng đầy tinh tủy",
+        "aliases": [
+          "daytinhtuy",
+          "day tinh tuy",
+          "đầy tinh tủy"
+        ],
+        "search_vector_hint": "Công năng đầy tinh tủy thuộc nhóm Công năng, thường liên quan đến bồi bổ cơ thể."
+      }
+    },
+    {
+      "id": "CN_ICH_TY_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng ích tỳ vị",
+        "aliases": [
+          "kienty",
+          "kien ty",
+          "ich ty vi",
+          "kiện tỳ",
+          "ích tỳ vị",
+          "ichtyvi"
+        ],
+        "search_vector_hint": "Công năng ích tỳ vị thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_MANH_GAN_COT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Mạnh Gân Cốt",
+        "aliases": [
+          "manh gan cot",
+          "mạnh gân cốt",
+          "manhgancot"
+        ],
+        "search_vector_hint": "Công năng Mạnh Gân Cốt thuộc nhóm công năng, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "CN_NHUAN_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận Phế",
+        "aliases": [
+          "nhuận phế",
+          "nhuanphe",
+          "nhuan phe"
+        ],
+        "search_vector_hint": "Nhuận Phế thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "CN_SINH_TAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh tân",
+        "aliases": [
+          "sinh tan",
+          "sinh tân",
+          "sinhtan"
+        ],
+        "search_vector_hint": "Sinh tân thuộc nhóm Công năng, thường liên quan đến khả năng tạo ra chất lỏng mới trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_SINH_TAN_DICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh tân dịch",
+        "aliases": [
+          "sinhtandich",
+          "sinh tân dịch",
+          "sinh tan dich"
+        ],
+        "search_vector_hint": "Công năng Sinh tân dịch thuộc nhóm công năng, thường liên quan đến tăng cường dịch cơ thể."
+      }
+    },
+    {
+      "id": "CN_TIEU_KHAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu khát",
+        "aliases": [
+          "tieu khat",
+          "tiêu khát",
+          "tieukhat"
+        ],
+        "search_vector_hint": "Công năng Tiêu khát thuộc nhóm Công năng, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính hô hấp",
+        "aliases": [
+          "độc tính hô hấp",
+          "doctinhhohap",
+          "doc tinh ho hap"
+        ],
+        "search_vector_hint": "Dược lý Độc tính hô hấp thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ hô hấp."
+      }
+    },
+    {
+      "id": "DL_HA_DUONG_HUYET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ đường huyết",
+        "aliases": [
+          "hạ đường huyết",
+          "haduonghuyet",
+          "ha duong huyet"
+        ],
+        "search_vector_hint": "Dược lý Hạ đường huyết thuộc nhóm Dược lý."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_THAY_DOI_TAN_SO_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý thay đổi tần số hô hấp",
+        "aliases": [
+          "thay đổi tần số hô hấp",
+          "thay doi tan so ho hap",
+          "thaydoitansohohap"
+        ],
+        "search_vector_hint": "Dược lý thay đổi tần số hô hấp thuộc nhóm Dược lý, thường liên quan đến tác động lên hệ hô hấp."
+      }
+    },
+    {
+      "id": "DL_UC_CHE_ADRENALIN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý ức chế Adrenalin",
+        "aliases": [
+          "uc che adrenalin",
+          "uccheadrenalin",
+          "ức chế adrenalin"
+        ],
+        "search_vector_hint": "Dược lý ức chế Adrenalin thuộc nhóm Dược lý, thường liên quan đến tác động lên hệ thần kinh giao cảm."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_HOANG_TINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng tinh",
+        "aliases": [
+          "hoàng tinh",
+          "hoang tinh",
+          "hoangtinh"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng tinh thuộc nhóm Vị thuốc, thường liên quan đến bồi bổ cơ thể.",
+        "bo_phan_dung": "củ",
+        "lieu_dung_chung": "Ngày dùng 12-20$g$ dưới dạng thuốc sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "những nơi rừng ẩm, đất nhiều mùa trên các núi có lẫn đá xanh, ở các tỉnh miền Bắc. Quanh thị trấn Sapa có nhiều.",
+        "thu_hai": "mùa thu hoặc mùa xuân, tốt nhất vào mùa thu vì thân rễ chứa ít nước. có những nơi thu hái gần quanh năm từ tháng 4 đến tháng 10.",
+        "che_bien_tho": "đào củ (thân rễ) cắt bỏ thân và rễ con, rửa sạch, thêm nước vào, đun cạn đem ra phơi, lại cho vào nước đun cạn rồi lại đem ra phơi, làm như vậy cho đến khi củ mềm, mặt ngoài và trong có màu đen là được.",
+        "trieu_chung_ngo_doc": "ngứa",
+        "ten_khoa_hoc": "$Polygonatum kingianum Coll. et Hemsl.; Polygonatum kingianum Polygonatum multiflorum L., Polygonatum macropodium Turcz, Polygonatum filipes Merr.$",
+        "ho_thuc_vat": "$họ hành tỏi Liliaceae$",
+        "hinh_thai_chi_tiet": "Cây loại cỏ sống lâu năm, thân rễ mọc ngang, có khi phân nhánh, mẫm lên thành củ màu vàng trắng, hơi dẹt nên có sẹo lõm là vết thân còn sót lại, đường kính vết thân có thể đạt tới $2cm$. Chiều dài củ có thể tới $30-35cm$, rộng tới $6-7cm$ và dày tới $2-3cm$. Thân mọc đứng nhẵn bóng, cao $50-80cm$. Lá không cuống mọc vòng trong $4-5$ lá một. Phiến lá hình mác dài $7-12cm$, rộng $5-12 mm$, đầu lá nhọn và quăn. Hoa mọc ở kẽ lá rũ xuống; cuống hoa dài$1,5-2cm$, mỗi cuống mang hai hoa hình ống dài $8-15mm$ màu tím đỏ. Mùa hoa ở Sapa (Lào Cai) vào tháng $3-4$. Quả mọng, hình cầu đường kính $7-10mm$, khi chín có màu tím đen.",
+        "thanh_phan_hoa_hoc": "['Chưa rõ hoạt chất là gì. Chỉ mới biết trong củ hoàng tinh có chất nhầy, tinh bột và đường. Dịch chiết bằng ête từ củ hoàng tinh cho với các thuốc thử `$ancaloit$` phản ứng dương tính.']",
+        "lieu_dung_tong_quat": "Chưa rõ",
+        "ghi_chu_bo_sung": "Chưa rõ",
+        "cach_dung_bao_che": "Có nhiều cách chế biến: 1. Đào củ (thân rễ) cắt bỏ thân và rễ con, rửa sạch, thêm nước vào, đun cạn đem ra phơi, lại cho vào nước đun cạn rồi lại đem ra phơi, làm như vậy cho đến khi củ mềm, mặt ngoài và trong có màu đen là được. Vị thuốc chế như vậy gọi là “thục hoàng tinh”. Do tên này nên có người nhằm thục hoàng tinh với thục địa, dùng và bán thay thục địa. Nếu không đun ăn rất ngứa (thục là nấu, hoàng là tinh nấu)."
+      }
+    },
+    {
+      "id": "VT_Y_DI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ý dĩ",
+        "aliases": [
+          "ydi",
+          "y di",
+          "ý dĩ",
+          "bobo",
+          "bo bo"
+        ],
+        "search_vector_hint": "Vị thuốc Ý dĩ thuộc nhóm Vị thuốc, thường liên quan đến hạt ý dĩ."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "858"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây loại cỏ sống lâu năm, thân rễ mọc ngang, có khi phân nhánh, mẫm lên thành củ màu vàng trắng, hơi dẹt nên có sẹo lõm là vết thân còn sót lại, đường kính vết thân có thể đạt tới $2cm$. Chiều dài củ có thể tới $30-35cm$, rộng tới $6-7cm$ và dày tới $2-3cm$. Thân mọc đứng nhẵn bóng, cao $50-80cm$. Lá không cuống mọc vòng trong $4-5$ lá một. Phiến lá hình mác dài $7-12cm$, rộng $5-12 mm$, đầu lá nhọn và quăn. Hoa mọc ở kẽ lá rũ xuống; cuống hoa dài$1,5-2cm$, mỗi cuống mang hai hoa hình ống dài $8-15mm$ màu tím đỏ. Mùa hoa ở Sapa (Lào Cai) vào tháng $3-4$. Quả mọng, hình cầu đường kính $7-10mm$, khi chín có màu tím đen.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa rõ hoạt chất là gì. Chỉ mới biết trong củ hoàng tinh có chất nhầy, tinh bột và đường. Dịch chiết bằng ête từ củ hoàng tinh cho với các thuốc thử `$ancaloit$` phản ứng dương tính."
+        ],
+        "lieu_dung_tong_quat": "Chưa rõ",
+        "ghi_chu_bo_sung": "Chưa rõ",
+        "cach_dung_bao_che": "Có nhiều cách chế biến: 1. Đào củ (thân rễ) cắt bỏ thân và rễ con, rửa sạch, thêm nước vào, đun cạn đem ra phơi, lại cho vào nước đun cạn rồi lại đem ra phơi, làm như vậy cho đến khi củ mềm, mặt ngoài và trong có màu đen là được. Vị thuốc chế như vậy gọi là “thục hoàng tinh”. Do tên này nên có người nhằm thục hoàng tinh với thục địa, dùng và bán thay thục địa. Nếu không đun ăn rất ngứa (thục là nấu, hoàng là tinh nấu)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "B_LAO_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_BO_NGU_LAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "B_MANH_GAN_COT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "B_ICH_TY_VI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "B_TY_VI_HU_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "B_PHE_HU_SINH_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_TIEU_KHAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "to": "VT_HOANG_TINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Bổ dùng cho người yếu, ho, lao lực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Bổ dùng cho người yếu, ho, lao lực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "to": "B_YEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Bổ dùng cho người yếu, ho, lao lực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Bổ dùng cho người yếu, ho, lao lực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_CHO_NGUOI_YEU_HO_LAO_LUC_HOANG_TINH",
+      "to": "B_LAO_LUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Bổ dùng cho người yếu, ho, lao lực"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_NHUAN_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh nhuận phổi sinh tân dịch. | Hoàng tinh có tác dụng nhuận phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_SINH_TAN_DICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh nhuận phổi sinh tân dịch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_DAY_TINH_TUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh đầy tinh tủy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_BO_HU_LAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh trị lao thương, làm thuốc bổ ngũ lao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_ICH_TY_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh ích tỳ vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_BO_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh có tác dụng bổ tì."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "CN_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoàng tinh có tác dụng sinh tân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "DL_HA_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho thỏ uống hoàng tinh Polygonatum multiflorum thì thấy lượng huyết đường bắt đầu bình thường, sau đó tăng cao và cuối cùng lại hạ xuống. Hiện tượng lượng huyết đường tăng cao này không do chất đường có trong hoàng tinh gây ra. Lượng đường tăng theo tỷ lệ thuận với lượng hoàng tinh cho uống.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "DL_UC_CHE_ADRENALIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với hiện tượng huyết đường do clohydrat adrenalin gây ra, tác dụng ức chế của hoàng tinh lại càng rõ rệt.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm thuốc chế từ hoàng tinh vào tĩnh mạch thỏ, thì thấy tức thời huyết áp hạ xuống.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "DL_THAY_DOI_TAN_SO_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm thuốc chế từ hoàng tinh vào tĩnh mạch thỏ, thì thấy tần số hô hấp lúc đầu tạm thời tăng lên, sau đó dần dần chậm lại và yếu đi.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOANG_TINH",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều lớn gây tê liệt trung khu hô hấp làm cho hô hấp ngừng lại mà chết.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T858",
+        "all_sources": [
+          "CT_VT_VN_T858"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 62.0,
+      "reliability_c_score": 0.7565,
+      "total_confidence_sum": 23.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

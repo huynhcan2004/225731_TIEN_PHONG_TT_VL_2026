@@ -1,0 +1,54 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SUI",
+    "ten_raw": "Cây sui",
+    "ten_khoa_hoc": "Antiaris toxicaria Lesch.; A. innoxia Blume; Antiaris saccidoin Dalz.",
+    "ho_thuc_vat": "Dâu tằm Moraceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T336",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "336"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sui là một loại cây lớn, có thể cao tới $30m$, có gốc rất lớn. Lá nhị lệ, có cuống dài $8-10m$, phiến lá dài chừng $6cm$, rộng khoảng $5,5cm$. Cả hai mặt lá đều hơi nháp. Cụm hoa mọc ở kẽ lá, cùng gốc: Hoa đực mọc tụ trên một đế hoa phồng phồng khum lên, quanh đế hoa có tổng bao gồm nhiều hàng lá bắc, hoa cái mọc đơn độc trên một đế cũng có tổng bao. Quả thịt dài $18mm$, dày $12mm$. Hạt hình trứng, dài $13mm$, rộng $8mm string",
+        "thanh_phan_hoa_hoc": [
+          "Nhựa sui được nghiên cứu tại các nước từ lâu. Năm 1890, người ta đã phân tích lấy được từ trong nhựa sui hai chất glucozit làm mạnh tim, độc gọi là anpha antiarin (Q-antiarin) và bêta antiarin (B-antiarin), a–$C,H,O 4H,O$ là một chất bột có tinh thể, phản ứng trung tính. Nó tan trong $250$ phần nước ở $20°$ và $27$ phần nước sôi, $70$ phần rượu $85\\%$, $2.800$ phần ête. Thuốc thử kiliani (axit sunfuric có pha sắt ba sunfat) hòa tan antiarin cho dung dịch màu vàng sau ngả màu vàng cam. HCl pha loãng trong môi trường rượu đun sôi,"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SUI",
+      "to": "HC_ALPHA_ANTIARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1890, người ta đã phân tích lấy được từ trong nhựa sui hai chất glucozit làm mạnh tim, độc gọi là anpha antiarin (Q-antiarin) và bêta antiarin (B-antiarin), a–$C,H,O 4H,O$ là một chất bột có tinh thể, phản ứng trung tính."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T336"
+      }
+    },
+    {
+      "from": "VI_THUOC_SUI",
+      "to": "HC_BETA_ANTIARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1890, người ta đã phân tích lấy được từ trong nhựa sui hai chất glucozit làm mạnh tim, độc gọi là anpha antiarin (Q-antiarin) và bêta antiarin (B-antiarin), a–$C,H,O 4H,O$ là một chất bột có tinh thể, phản ứng trung tính."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T336"
+      }
+    }
+  ]
+}

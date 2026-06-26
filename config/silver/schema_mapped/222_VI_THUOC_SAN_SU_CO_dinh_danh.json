@@ -1,0 +1,115 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SAN_SU_CO",
+    "ten_raw": "San sư cô",
+    "ten_khoa_hoc": "Tinospora sagittata (Oliv.) Gagnep.",
+    "ho_thuc_vat": "Tiết dê Menispermaceae",
+    "variants": [
+      "San sư cô"
+    ],
+    "properties": {
+      "bo_phan_dung": "Thân rễ dưới đất",
+      "phan_bo": "vùng chợ Mường Khương (Lào Cai)",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T222",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "222"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Lương",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "San sư cô là tên đồng bào Mèo vùng chợ Mường Khương (Lào Cai) thường gọi cây này. Đây là một loại dây leo, sống nhiều năm, luôn xanh tươi, thân dài từ $1-4m$. Thân rễ dưới đất có thể mọc dài tới $1,5m$, thỉnh thoảng phình to lên từng đốt hình củ tròn to bằng ngón tay cái, có khi thành một dãy gồm 5 đến 9 củ, màu vàng nhạt, khi cắt có màu hơi trắng, vị đắng. Thân trên mặt đất màu xanh lục nhạt, khi non có lông ngắn. Lá đơn, mọc cách, cuống lá dài $2-5cm$, phiến lá hình mác nhọn, gốc lá hình chữ V, phiến lá dài $5-15cm$, rộng $2-5cm$. Hoa đực, cái khác gốc, hoa đực mọc thành chùm nhiều hoa có cuống dài $2-5cm$, hoa cái cũng mọc thành chùm gồm 4 đến 10 hoa. Quả tròn, cuống quả có đầu phình ra, quả chín có màu hồng đỏ. Mùa hoa: Tháng 3 đến tháng 5, mùa quả vào tháng 11-12 ( Hình 150 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong củ san sư cô có chất columbin $CH_{14}O_4$. Hoạt chất khác chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "HC_COLUMBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ san sư cô có chất columbin $CH_{14}O_4$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    }
+  ]
+}

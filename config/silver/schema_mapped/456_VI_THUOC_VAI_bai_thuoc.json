@@ -1,0 +1,334 @@
+{
+  "entity_hub": "VI_THUOC_VAI",
+  "source": {
+    "source_id": "CT_VT_VN_T456",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "456"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NHOT_VAI_O",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải và ô mai giúp giảm sưng đau, kháng viêm cho mụn nhọt.",
+        "cach_dung": "Đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NHOT_VAI_O",
+      "to": "VT_O_MAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vải và ô mai giúp giảm sưng đau, kháng viêm cho mụn nhọt.",
+        "cach_dung": "Đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NHOT_VAI_O",
+      "to": "B_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhọt",
+        "cach_dung": "Đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NHOT_VAI_HO",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "5-7 múi",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải và hồ nếp giúp giảm sưng đau, làm dịu mụn nhọt.",
+        "cach_dung": "Dán lên nơi mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NHOT_VAI_HO",
+      "to": "VT_HO_NEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "ít",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vải và hồ nếp giúp giảm sưng đau, làm dịu mụn nhọt.",
+        "cach_dung": "Dán lên nơi mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NHOT_VAI_HO",
+      "to": "B_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhọt",
+        "cach_dung": "Dán lên nơi mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NAC_VAI_V",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải có tác dụng chữa nấc.",
+        "cach_dung": "Hoà với nước nóng mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_NAC_VAI_V",
+      "to": "B_NAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nấc",
+        "cach_dung": "Hoà với nước nóng mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_DAU_SANG_VAI_V",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "2-3 múi",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải có tác dụng giúp đậu sang mọc.",
+        "cach_dung": "Cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_DAU_SANG_VAI_V",
+      "to": "B_DAU_SANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đậu sang không mọc",
+        "cach_dung": "Cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_VAI_M",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải và muối có tác dụng giảm đau răng.",
+        "cach_dung": "Xát vào răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_VAI_M",
+      "to": "VT_MUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "ít",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vải và muối có tác dụng giảm đau răng.",
+        "cach_dung": "Xát vào răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_VAI_M",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau răng",
+        "cach_dung": "Xát vào răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_V",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4 đến 6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vải có tác dụng chữa hòn dái sưng đau.",
+        "cach_dung": "Cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_V",
+      "to": "B_HON_DAI_SUNG_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hòn dái sưng đau",
+        "cach_dung": "Cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_TTL",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "49 hạt",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống 9 viên, dùng rượu mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_TTL",
+      "to": "VT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$36g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống 9 viên, dùng rượu mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_TTL",
+      "to": "VT_LUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$16g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống 9 viên, dùng rượu mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_TTL",
+      "to": "B_HON_DAI_SUNG_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hòn dái sưng đau",
+        "cach_dung": "Uống 9 viên, dùng rượu mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_THH",
+      "to": "VI_THUOC_VAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "bằng nhau $4 đến 6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống $4 đến 6g$, dùng rượu chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_THH",
+      "to": "VT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "bằng nhau $4 đến 6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống $4 đến 6g$, dùng rượu chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_THH",
+      "to": "VT_HOI_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "bằng nhau $4 đến 6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc giúp chữa hòn dái sưng đau.",
+        "cach_dung": "Uống $4 đến 6g$, dùng rượu chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    },
+    {
+      "from": "BT_HON_DAI_SUNG_DAU_VAI_THH",
+      "to": "B_HON_DAI_SUNG_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hòn dái sưng đau",
+        "cach_dung": "Uống $4 đến 6g$, dùng rượu chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T456"
+      }
+    }
+  ],
+  "metadata": {}
+}

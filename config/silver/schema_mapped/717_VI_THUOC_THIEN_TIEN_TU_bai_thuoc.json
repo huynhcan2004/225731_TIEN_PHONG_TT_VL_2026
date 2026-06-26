@@ -1,0 +1,118 @@
+{
+  "entity_hub": "VI_THUOC_THIEN_TIEN_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T717",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "717"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_CA_DOC_DUOC_C",
+      "to": "VI_THUOC_THIEN_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên tiên tử (Cà độc dược) có tác dụng trị ho.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Cuộn thành thuốc lá hút"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CA_DOC_DUOC_C",
+      "to": "VI_THUOC_THIEN_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên tiên tử (Cà độc dược) có tác dụng trị hen xuyễn.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_KINH_SO_CA_DOC_DUOC_C",
+      "to": "VI_THUOC_THIEN_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên tiên tử (Cà độc dược) có tác dụng trị kinh sợ.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HO_DO_HAN_CA_DOC_DUOC_C",
+      "to": "VI_THUOC_THIEN_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên tiên tử (Cà độc dược) có tác dụng trị ho do hàn.",
+        "cach_dung": "Cuộn thành thuốc lá hút"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HO_CA_DOC_DUOC_C",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_CA_DOC_DUOC_C",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen xuyễn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_KINH_SO_CA_DOC_DUOC_C",
+      "to": "S_KINH_SO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh sợ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HO_DO_HAN_CA_DOC_DUOC_C",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ do hàn",
+        "cach_dung": "Cuộn thành thuốc lá hút"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    }
+  ],
+  "metadata": {}
+}

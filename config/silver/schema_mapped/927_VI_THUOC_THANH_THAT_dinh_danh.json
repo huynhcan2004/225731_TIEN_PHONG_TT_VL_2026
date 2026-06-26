@@ -1,0 +1,216 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THANH_THAT",
+    "ten_raw": "Thanh thất",
+    "ten_khoa_hoc": "Smilax glabra Roxb.; Cornus officinalis Sieb. et zuce.",
+    "ho_thuc_vat": "Họ Hành tỏi Liliaceae (Smilacaceae); Họ Sơn thù du Cornaccae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "củ"
+    },
+    "display_name": "Thanh thất"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T927",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "927"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dây leo bằng tua cuốn. Thân nhẵn, có gai. Lá mọc so le, hình bầu dục hay hình trứng, nhẵn, 3 gân chính nổi rõ, dài $6$-$12cm$, rộng $3$-$6cm$. Hoa nhỏ màu vàng lục, mọc thành tán ở nách lá. Quả mọng hình cầu, đường kính $7$-$10mm$, khi chín màu đen.",
+        "thanh_phan_hoa_hoc": [
+          "Trong củ thanh thất người ta thấy có tinh bột, chất nhựa, axit hữu cơ và tanin."
+        ],
+        "cach_dung_bao_che": "Thường đào củ về rửa sạch, thái mỏng, phơi sấy khô. Có khi dùng tươi."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo kết quả nghiên cứu của hệ dược Viện y học Bắc Kinh, 1958 thì trong sơn thù du có $13\\%$ saponozit, phản ứng tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_MORRONIZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có $morronizit$ $C_{17}H_{26}O_{11}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_METYLMORRONIZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có $metylmorronizit$ $C_{18}H_{28}O_{11}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_SWOROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có $sworozit$ $C_{22}H_{24}O_{10}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_LOGANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có $loganin$ $C_{17}H_{26}O_{10}$ (Dược học tạp chí, 1973, 93, 30)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_AXIT_URSOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit ursolic, axit tactric, axit malic, axit gallic và ước chừng $13\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_AXIT_TACTRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit ursolic, axit tactric, axit malic, axit gallic và ước chừng $13\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit ursolic, axit tactric, axit malic, axit gallic và ước chừng $13\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_AXIT_GALLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit ursolic, axit tactric, axit malic, axit gallic và ước chừng $13\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit ursolic, axit tactric, axit malic, axit gallic và ước chừng $13\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_LONGIXEROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chúa $longixerozit$, $secologanin$ $C_{17}H_{24}O_{10}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_SECOLOGANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chúa $longixerozit$, $secologanin$ $C_{17}H_{24}O_{10}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_VITAMIN_E",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi phát hiện thấy vitamin E và C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi phát hiện thấy vitamin E và C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    }
+  ]
+}

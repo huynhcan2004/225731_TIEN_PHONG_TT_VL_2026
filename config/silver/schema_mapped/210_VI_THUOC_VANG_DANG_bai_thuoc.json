@@ -1,0 +1,184 @@
+{
+  "entity_hub": "VI_THUOC_VANG_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T210",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "210"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_VANG_DANG_V",
+      "to": "VI_THUOC_VANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vàng đằng chủ trị sốt, sốt rét, lỵ, đau mắt.",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_SOT_VANG_DANG_V",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, lỵ, đau mắt",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_SOT_VANG_DANG_V",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, lỵ, đau mắt",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_SOT_VANG_DANG_V",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, lỵ, đau mắt",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VANG_DANG_V",
+      "to": "VI_THUOC_VANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vàng đằng chủ trị sốt, sốt rét, lỵ, đau mắt.",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VANG_DANG_V",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, lỵ, đau mắt",
+        "cach_dung": "Dùng dưới hình thức thuốc bột hay thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_GAN_VANG_DANG_B",
+      "to": "VI_THUOC_VANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vàng đằng chữa bệnh về gan, mật: vàng da, ăn uống khó tiêu.",
+        "cach_dung": "Ngày uống $0,02g$ đến $0,20g$ dưới dạng thuốc viên.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_GAN_VANG_DANG_B",
+      "to": "B_BENH_VE_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về gan, mật: Vàng da, ăn uống khó tiêu",
+        "cach_dung": "Ngày uống $0,02g$ đến $0,20g$ dưới dạng thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_GAN_VANG_DANG_B",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về gan, mật: Vàng da, ăn uống khó tiêu",
+        "cach_dung": "Ngày uống $0,02g$ đến $0,20g$ dưới dạng thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHO_TIEU_VANG_DANG_B",
+      "to": "VI_THUOC_VANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vàng đằng chữa bệnh về gan, mật: vàng da, ăn uống khó tiêu.",
+        "cach_dung": "Ngày uống $0,02g$ đến $0,20g$ dưới dạng thuốc viên.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHO_TIEU_VANG_DANG_B",
+      "to": "S_AN_UONG_KHO_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về gan, mật: Vàng da, ăn uống khó tiêu",
+        "cach_dung": "Ngày uống $0,02g$ đến $0,20g$ dưới dạng thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VANG_DANG_D",
+      "to": "VI_THUOC_VANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vàng đằng chữa đau mắt.",
+        "cach_dung": "Chế thuốc đau mắt dưới dạng dung dịch $0,5\\%$ đến $1\\%$.",
+        "ghi_chu": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VANG_DANG_D",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt",
+        "cach_dung": "Chế thuốc đau mắt dưới dạng dung dịch $0,5\\%$ đến $1\\%$. Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T210"
+      }
+    }
+  ],
+  "metadata": {}
+}

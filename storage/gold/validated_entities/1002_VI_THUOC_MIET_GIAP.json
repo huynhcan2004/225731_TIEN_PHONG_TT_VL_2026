@@ -1,0 +1,420 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MIET_GIAP",
+    "ten_raw": "Miết giáp",
+    "ten_khoa_hoc": "$Trionyx sinensis Wegmann hay Amyda sinenis Stejneger$",
+    "ho_thuc_vat": "$Ba ba Trionychidae (Trionychidae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "mai ba ba",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Miết giáp dùng với liều $30$g trong $1$ ngày dưới dạng thuốc sắc hay sao khô dòn tán thành bột mà uống. Cao miết giáp cũng dùng với liều $10$ đến $30$g $1$ ngày.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Con ba ba rất phổ biến ở miền Bắc cũng như miền Trung, nó sống ở hồ ao, các sông, ở tất cả độ cao khác nhau. Loại ba ba này còn thấy cả ở Hải Nam (Trung Quốc), miền Đông Xibêri."
+    },
+    "display_name": "Miết giáp",
+    "canonical_name": "Miết giáp"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MIET_GIAP",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Miet Giap"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "HC_KERATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Keratin"
+      }
+    },
+    {
+      "id": "HC_IOT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Iot"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_D",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin D"
+      }
+    },
+    {
+      "id": "S_DAU_LUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Lung"
+      }
+    },
+    {
+      "id": "B_SOI_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi Than"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "B_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lao"
+      }
+    },
+    {
+      "id": "CN_DUONG_AM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Duong Am"
+      }
+    },
+    {
+      "id": "CN_NHUAN_KIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Nhuan Kien"
+      }
+    },
+    {
+      "id": "CN_TAN_KET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tan Ket"
+      }
+    },
+    {
+      "id": "T_VI_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Vi Han"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1002"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Con ba ba rất phổ biến ở miền Bắc cũng như miền Trung, nó sống ở hồ ao, các sông, ở tất cả độ cao khác nhau. Có con nhỏ, nhưng có thể rất lớn. Nó sống bằng ăn những con cá, động vật nhuyễn thể như ốc, nó ăn cả cua, tôm, v.v... và cây cỏ. Nó rất dữ và cắn rất đau (Hình 733). Loại ba ba này còn thấy cả ở Hải Nam (Trung Quốc), miền Đông Xibêri.",
+        "thanh_phan_hoa_hoc": [
+          "Trong miết giáp người ta đã phân tích thấy có chất $keratin$, $iôt$ và $vitamin D$ (theo Dược tài học-Viện dược học Nam Kinh)."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, phế và tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, phế và tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, phế và tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "HC_KERATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong miết giáp người ta đã phân tích thấy có chất $keratin$, $iôt$ và $vitamin D$ (theo Dược tài học-Viện dược học Nam Kinh).",
+        "ghi_chu": "Dược tài học-Viện dược học Nam Kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "HC_IOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong miết giáp người ta đã phân tích thấy có chất $keratin$, $iôt$ và $vitamin D$ (theo Dược tài học-Viện dược học Nam Kinh).",
+        "ghi_chu": "Dược tài học-Viện dược học Nam Kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "HC_VITAMIN_D",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong miết giáp người ta đã phân tích thấy có chất $keratin$, $iôt$ và $vitamin D$ (theo Dược tài học-Viện dược học Nam Kinh).",
+        "ghi_chu": "Dược tài học-Viện dược học Nam Kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "S_DAU_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "cach_dung": "Miết giáp sao vàng hay nướng chín tán nhỏ. Ngày uống 2 lần",
+        "ghi_chu": "Đau lưng, ngứa, củi xuống không được. CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "cach_dung": "Miết giáp sao vàng hay nướng chín tán nhỏ. Ngày uống 2 lần",
+        "ghi_chu": "Đi tiểu như có sỏi ở thận. CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho vào rượu mà uống",
+        "ghi_chu": "CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "B_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "10 đến $30g$ 1 ngày",
+        "cach_dung": "Dùng với liều",
+        "ghi_chu": "Bổ âm, lao gầy, nhức xương, lao lực quá độ, ho lao, tiểu tiện ra sỏi sạn, kinh nguyệt bế, bổ dưỡng nói chung. CT_VT_VN_T1003"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "CN_DUONG_AM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dưỡng âm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "CN_NHUAN_KIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận kiên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "CN_TAN_KET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán kết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIET_GIAP",
+      "to": "T_VI_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 36.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

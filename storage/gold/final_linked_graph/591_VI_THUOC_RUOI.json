@@ -1,0 +1,526 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_RUOI",
+    "ten_raw": "Ruối",
+    "ten_khoa_hoc": "$Streblus asper Lour.$",
+    "ho_thuc_vat": "$Dâu tằm Moraceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "khắp các tỉnh trong nước ta; Ấn Độ, miền nam Trung Quốc và Philipin"
+    },
+    "display_name": "Vị thuốc Ruối",
+    "canonical_name": "Vị thuốc Ruối"
+  },
+  "nodes": [
+    {
+      "id": "BT_HO_RUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ho Ruồi",
+        "aliases": [
+          "ho ruoi",
+          "horuoi",
+          "ho ruồi"
+        ],
+        "search_vector_hint": "Bài thuốc Ho Ruồi thuộc nhóm Bài thuốc, thường liên quan đến điều trị ho."
+      }
+    },
+    {
+      "id": "BT_IA_LONG_RUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ỉa lỏng ruối",
+        "aliases": [
+          "ỉa lỏng ruối",
+          "ialongruoi",
+          "ia long ruoi"
+        ],
+        "search_vector_hint": "Ỉa lỏng ruối thuộc nhóm Bài thuốc."
+      }
+    },
+    {
+      "id": "BT_LAO_PHOI_RUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lao phổi ruối",
+        "aliases": [
+          "lao phoi ruoi",
+          "lao phổi ruối",
+          "laophoiruoi"
+        ],
+        "search_vector_hint": "Lao phổi ruối thuộc nhóm Bài thuốc."
+      }
+    },
+    {
+      "id": "BT_LY_RUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lỵ Ruồi",
+        "aliases": [
+          "ly ruoi",
+          "lyruoi",
+          "lỵ ruồi"
+        ],
+        "search_vector_hint": "Bài thuốc Lỵ Ruồi thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh lỵ."
+      }
+    },
+    {
+      "id": "BT_SOT_RUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt ruối",
+        "aliases": [
+          "sotruoi",
+          "sot ruoi",
+          "sốt ruối"
+        ],
+        "search_vector_hint": "Sốt ruối thuộc nhóm Bài thuốc."
+      }
+    },
+    {
+      "id": "B_DAU_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau họng",
+        "aliases": [
+          "đau họng",
+          "viêm họng",
+          "dau hong",
+          "viem hong",
+          "viemhong",
+          "dauhong"
+        ],
+        "search_vector_hint": "Bệnh Đau họng thuộc nhóm bệnh, thường liên quan đến đường hô hấp trên."
+      }
+    },
+    {
+      "id": "B_IA_LONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ỉa lỏng",
+        "aliases": [
+          "tieu chay",
+          "ỉa lỏng",
+          "ia long",
+          "tieuchay",
+          "tiêu chảy",
+          "ialong"
+        ],
+        "search_vector_hint": "Ỉa lỏng thuộc nhóm Bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_SAU_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sâu răng",
+        "aliases": [
+          "sau rang",
+          "saurang",
+          "sâu răng"
+        ],
+        "search_vector_hint": "Sâu răng thuộc nhóm Bệnh, thường liên quan đến tổn thương men răng do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_TRUONG_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trướng bụng",
+        "aliases": [
+          "truong bung",
+          "dayhoi",
+          "đầy hơi",
+          "trướng bụng",
+          "day hoi",
+          "truongbung"
+        ],
+        "search_vector_hint": "Trướng bụng thuộc nhóm Bệnh, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng thông tiểu",
+        "aliases": [
+          "thongnieu",
+          "thongtieu",
+          "thong nieu",
+          "lợi niệu",
+          "loinieu",
+          "thong tieu",
+          "thông tiểu",
+          "loi nieu",
+          "thông niệu"
+        ],
+        "search_vector_hint": "Công năng thông tiểu thuộc nhóm công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "HC_CAO_SU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cao Su",
+        "aliases": [
+          "cao su",
+          "caosu"
+        ],
+        "search_vector_hint": "Hoạt chất Cao Su thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_RESIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Resin",
+        "aliases": [
+          "resin"
+        ],
+        "search_vector_hint": "Resin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Nhức đầu thuộc nhóm triệu chứng, thường liên quan đến cảm giác đau ở đầu."
+      }
+    },
+    {
+      "id": "VT_RUOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ruối",
+        "aliases": [
+          "ruoi",
+          "ruối"
+        ],
+        "search_vector_hint": "Ruối thuộc nhóm Vị thuốc.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "khắp các tỉnh trong nước ta; Ấn Độ, miền nam Trung Quốc và Philipin",
+        "ten_khoa_hoc": "$Streblus asper Lour.$",
+        "ho_thuc_vat": "$Dâu tằm Moraceae$",
+        "hinh_thai_chi_tiet": "Cây có thể cao tới $4$-$8m$, cành mang hoa gầy. Lá hình trứng, dài $3$-$7cm$, rộng $12$-$35mm$, mép có răng cưa, cứng, nháp, không có lông. Hoa đực cái khác gốc, hoa đực họp thành đầu có cuống, đính phía dưới những cành ngắn, hoa cái mọc đơn độc trên một cuống. Quả thịt, màu vàng nhạt, to bằng hạt tiêu, hơi nổi lên giữa đài."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "591"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây có thể cao tới $4$-$8m$, cành mang hoa gầy. Lá hình trứng, dài $3$-$7cm$, rộng $12$-$35mm$, mép có răng cưa, cứng, nháp, không có lông. Hoa đực cái khác gốc, hoa đực họp thành đầu có cuống, đính phía dưới những cành ngắn, hoa cái mọc đơn độc trên một cuống. Quả thịt, màu vàng nhạt, to bằng hạt tiêu, hơi nổi lên giữa đài."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_RUOI",
+      "to": "HC_RESIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhựa mủ ruối có nhựa (Resin) và một ít cao su."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "HC_CAO_SU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhựa mủ ruối có nhựa (Resin) và một ít cao su."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nhựa ruối",
+        "cach_dung": "Dán lên hai bên thái dương",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "CN_THONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Cành và rễ thái mỏng",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_TRUONG_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Cành và rễ thái mỏng",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_DAU_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_RUOI",
+      "to": "VT_RUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Rễ ruối",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LAO_PHOI_RUOI",
+      "to": "VT_RUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Rễ ruối",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RUOI",
+      "to": "VT_RUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IA_LONG_RUOI",
+      "to": "VT_RUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_RUOI",
+      "to": "VT_RUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "cach_dung": "Sắc uống. Có thể dùng dưới dạng sấy vỏ khô, tán nhỏ mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_IA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "cach_dung": "Sắc uống. Có thể dùng dưới dạng sấy vỏ khô, tán nhỏ mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RUOI",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ ruối",
+        "cach_dung": "Sắc uống. Có thể dùng dưới dạng sấy vỏ khô, tán nhỏ mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T591",
+        "all_sources": [
+          "CT_VT_VN_T591"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 33.5,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

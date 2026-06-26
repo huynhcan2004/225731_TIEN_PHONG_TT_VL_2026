@@ -1,0 +1,124 @@
+{
+  "entity_hub": "VI_THUOC_TRAM_HUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T450",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "450"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "VI_THUOC_TRAM_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc có tính ấm nóng, giúp làm ấm tỳ vị, giảm đau, cầm nôn.",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "VT_NHUC_QUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhục quế có tác dụng ôn trung tán hàn, làm ấm tỳ vị, giảm đau.",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $10g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "VT_BACH_DAU_KHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạch đậu khấu có tác dụng kiện tỳ, hóa thấp, làm ấm trung tiêu.",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Hoàng liên có tác dụng thanh nhiệt, táo thấp, giải độc, chỉ tả.",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "VT_DINH_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đinh hương có tác dụng ôn trung, tán hàn, giáng nghịch, chỉ thống.",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $10g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "B_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_TRAM_HUONG_NTBD",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dạ dày",
+        "cach_dung": "Ngày uống 3 hay 4 lần, mỗi lần $1g$ bột này. Dùng nước nóng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    }
+  ],
+  "metadata": {}
+}

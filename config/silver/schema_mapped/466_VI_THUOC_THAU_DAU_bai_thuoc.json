@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_THAU_DAU",
+  "source": {
+    "source_id": "CT_VT_VN_T466",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "466"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_NHAU_THAU_DAU_T",
+      "to": "VI_THUOC_THAU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thầu dầu có tác dụng hoạt huyết, thông kinh, được dùng để thúc đẩy quá trình tống xuất nhau thai.",
+        "cach_dung": "Đắp vào gan bàn chân",
+        "ghi_chu": "Sau khi nhau ra rồi cần rửa chân tay. Liều lượng: $15$ hạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466"
+      }
+    },
+    {
+      "from": "BT_SOT_NHAU_THAU_DAU_T",
+      "to": "B_SOT_NHAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sót nhau",
+        "cach_dung": "Đắp vào gan bàn chân, sau khi nhau ra rồi cần rửa chân tay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466"
+      }
+    },
+    {
+      "from": "BT_DE_KHO_THAU_DAU_T",
+      "to": "VI_THUOC_THAU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thầu dầu có tác dụng hoạt huyết, thông kinh, được dùng để thúc đẩy quá trình sinh nở.",
+        "cach_dung": "Đắp vào gan bàn chân",
+        "ghi_chu": "Liều lượng: $15$ hạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466"
+      }
+    },
+    {
+      "from": "BT_DE_KHO_THAU_DAU_T",
+      "to": "B_DE_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đẻ khó",
+        "cach_dung": "Đắp vào gan bàn chân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466"
+      }
+    }
+  ],
+  "metadata": {}
+}

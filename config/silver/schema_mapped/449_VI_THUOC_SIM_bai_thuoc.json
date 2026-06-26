@@ -1,0 +1,121 @@
+{
+  "entity_hub": "VI_THUOC_SIM",
+  "source": {
+    "source_id": "CT_VT_VN_T449",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "449"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_IA_LONG_SIM_S",
+      "to": "VI_THUOC_SIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sim có tác dụng chữa đi ỉa lỏng.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú về liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_IA_LONG_SIM_S",
+      "to": "B_IA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh đi ỉa lỏng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_LY_SIM_S",
+      "to": "VI_THUOC_SIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sim có tác dụng chữa lỵ.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú về liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_LY_SIM_S",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh đi lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_SIM_S",
+      "to": "VI_THUOC_SIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sim có tác dụng rửa vết thương.",
+        "cach_dung": "Sắc lấy nước rửa",
+        "ghi_chu": "Không có ghi chú về liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_SIM_S",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rửa vết thương",
+        "cach_dung": "Sắc lấy nước rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_SIM_S",
+      "to": "VI_THUOC_SIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sim có tác dụng rửa vết loét.",
+        "cach_dung": "Sắc lấy nước rửa",
+        "ghi_chu": "Không có ghi chú về liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_SIM_S",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rửa vết thương, vết loét",
+        "cach_dung": "Sắc lấy nước rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T449"
+      }
+    }
+  ],
+  "metadata": {}
+}

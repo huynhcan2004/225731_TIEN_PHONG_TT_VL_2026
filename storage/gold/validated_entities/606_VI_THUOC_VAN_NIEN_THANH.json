@@ -1,0 +1,327 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VAN_NIEN_THANH",
+    "ten_raw": "Vạn niên thanh",
+    "ten_khoa_hoc": "$Rhodea japonica Roth$",
+    "ho_thuc_vat": "$Họ Hành Alliaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Trung Quốc, Nhật Bản",
+      "thu_hai": "mùa thu",
+      "che_bien_tho": "dùng tươi hay khô"
+    },
+    "display_name": "Vạn niên thanh",
+    "canonical_name": "Vạn niên thanh"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_VAN_NIEN_THANH",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Van Nien Thanh"
+      }
+    },
+    {
+      "id": "HC_RODEIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rodein"
+      }
+    },
+    {
+      "id": "HC_RODEXIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rodexin A"
+      }
+    },
+    {
+      "id": "HC_RODEXIN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rodexin B"
+      }
+    },
+    {
+      "id": "HC_RODEXIN_C",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rodexin C"
+      }
+    },
+    {
+      "id": "DL_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tim Mach"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Hap"
+      }
+    },
+    {
+      "id": "DL_CO_XUONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Co Xuong"
+      }
+    },
+    {
+      "id": "DL_DOI_NON",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doi Non"
+      }
+    },
+    {
+      "id": "DL_CO_TRON",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Co Tron"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_DA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Da"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "606"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây vạn niên thanh-Rhodea japonica Roth, là một cây nhỏ, sống lâu năm, không có thân, thân rễ ngắn và thô, rễ nhiều nhưng nhỏ. Lá mọc từ thân rễ, hình mác dài tới $30cm$, rộng $5-7cm$, dai, mặt bóng nhẵn, gân chạy dọc. Vào xuân hạ có trục mang nhiều hoa nhỏ, màu xanh trắng nhạt, tụ họp thành bông ngắn. Quả mọng hình cầu, khi chín có màu đỏ hay đỏ vàng. Mùa hoa tháng 4-6.",
+        "thanh_phan_hoa_hoc": [
+          "$rodein$ C30H44O10.2,5H2O, $rodexin A$, $rodexin B$, $rodexin C$ $rodein$"
+        ],
+        "lieu_dung_tong_quat": "Người ta dùng thân rễ và lá, thu hái vào mùa thu, dùng tươi hay khô."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "HC_RODEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$rodein$ C30H44O10.2,5H2O",
+        "ghi_chu": "Công thức hóa học rodein"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "HC_RODEXIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$rodexin A$",
+        "ghi_chu": "Tên hoạt chất rodexin A"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "HC_RODEXIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$rodexin B$",
+        "ghi_chu": "Tên hoạt chất rodexin B"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "HC_RODEXIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$rodexin C$",
+        "ghi_chu": "Tên hoạt chất rodexin C"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rodein có tác dụng tăng sự co bóp của cơ tim, hưng phấn thần kinh phế vị (mê tẩu thần kinh) và ức chế sự dẫn truyền của cơ tim. Nó còn có tác dụng làm cho tim đập loạn nhịp trở lại bình thường. Ngoài ra rodein làm cho huyết áp tăng và do đó gián tiếp có tác dụng lợi tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Vạn niên thanh và hoạt chất rodein có tác dụng làm chậm nhịp tim, hạ huyết áp, biên độ co bóp của tim tăng lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi tiêm rodein cho mèo hay cho thỏ thì thoạt tiên thấy hô hấp tăng nhưng sau chậm lại.",
+        "ghi_chu": "Thí nghiệm trên mèo và thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_CO_XUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh cơ xương thì có tác dụng tê liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_DOI_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với trung khu nôn có tác dụng kích thích, do đó có khi gây nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_CO_TRON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rodein có tác dụng hưng phấn đối với cơ trơn của dạ dày, ruột và tử cung, làm cho sự co bóp tăng cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_KICH_THICH_DA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống hay tiêm rodein có tác dụng kích thích tại chỗ, làm cho nơi tiêm phát đỏ, viêm tấy, khi uống rodein gây non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_VAN_NIEN_THANH",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "So với digitoxin thì tác dụng của rodein mạnh hơn và cũng tích luỹ nhiều hơn, gây nôn nhiều, cho nên dùng phải hết sức thận trọng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T606",
+        "all_sources": [
+          "CT_VT_VN_T606"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 42.0,
+      "reliability_c_score": 0.7654,
+      "total_confidence_sum": 9.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

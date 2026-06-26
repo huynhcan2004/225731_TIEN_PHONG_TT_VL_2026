@@ -1,0 +1,91 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAM_XOI",
+    "ten_raw": "Mâm xôi",
+    "ten_khoa_hoc": "Rubus alceaefolius Poir.; Rubus fimbriiferus Focke.; Rubus cochichinensis",
+    "ho_thuc_vat": "Hoa hồng Rosaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây mâm xôi mọc hoang ở khắp miền núi rừng miền Bắc nước ta.",
+      "che_bien_tho": "cành lá phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "410"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ, thân leo. Thân, cành, cuống lá và cuống hoa đều có gai nhỏ. Lá đơn, có cuống dài, phiến lá dài, hình tim, đường kính $5$-$15cm$, chia $5$ thùy theo hình chân vịt, trên mặt có lông. Cụm hoa hình chùm. Đài $5$, có lông, tràng $5$ cánh, màu trắng, nhiều nhị, nhiều lá noãn đỏ, khi chín thì thành quả hạch, tập hợp thành một quả kép trông giống đĩa xôi hay mâm xôi do đó có tên cây mâm xôi. Quả chín màu đỏ tươi. Quả có vị chua, ăn được",
+        "thanh_phan_hoa_hoc": [
+          "Quả chứa axit hữu cơ (chủ yếu axit xitric, malic, salysilic) muối các axit đó, đường, pectin. Lá chứa tanin."
+        ],
+        "cach_dung_bao_che": "Nhân dân vẫn hái quả để ăn, cành lá phơi khô làm thuốc."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAM_XOI",
+      "to": "HC_AXIT_CITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa axit hữu cơ (chủ yếu axit xitric, malic, salysilic) muối các axit đó, đường, pectin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAM_XOI",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa axit hữu cơ (chủ yếu axit xitric, malic, salysilic) muối các axit đó, đường, pectin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAM_XOI",
+      "to": "HC_AXIT_SALYSILIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa axit hữu cơ (chủ yếu axit xitric, malic, salysilic) muối các axit đó, đường, pectin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAM_XOI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAM_XOI",
+      "to": "HC_PECTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa axit hữu cơ (chủ yếu axit xitric, malic, salysilic) muối các axit đó, đường, pectin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    }
+  ]
+}

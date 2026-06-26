@@ -1,0 +1,88 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAT_BONG",
+    "ten_raw": "Hạt bông",
+    "ten_khoa_hoc": "string",
+    "ho_thuc_vat": "string",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Hạt"
+    },
+    "display_name": "Hạt bông"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T63",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "63"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt bông có chừng $17-30\\%$ dầu, nếu chỉ tính nhân không tỷ lệ lên tới $35-40\\%$. Dầu hạt bông là một thứ dầu nửa khô, có chứa chừng $20-22\\%$ $panmitin$ ($palmitin$), $4\\%$ $stearin$ ($stearine$), $30-35\\%$ $olein$, $42-45\\%$ $linolein$ ($linoleine$) và $1\\%$ chất không xà phòng hoá được. Dầu bông ép nguội có màu vàng nhạt, không mùi vị, có chứa sinh tố E. Hạt bông có chứa hai chất độc: $Gossypola$ vàng và $gossypola$ đỏ. Cả hai chất này đều có chứa trong lá mầm. $Gossypola$ là một chất có chứa phenol và andêhyt."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAT_BONG",
+      "to": "HC_PANMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt bông có chừng $17-30\\%$ dầu, nếu chỉ tính nhân không tỷ lệ lên tới $35-40\\%$. Dầu hạt bông là một thứ dầu nửa khô, có chứa chừng $20-22\\%$ $panmitin$ ($palmitin$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_BONG",
+      "to": "HC_STEARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt bông có chừng $17-30\\%$ dầu, nếu chỉ tính nhân không tỷ lệ lên tới $35-40\\%$. Dầu hạt bông là một thứ dầu nửa khô, có chứa chừng $20-22\\%$ $panmitin$ ($palmitin$), $4\\%$ $stearin$ ($stearine$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_BONG",
+      "to": "HC_OLEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt bông có chừng $17-30\\%$ dầu, nếu chỉ tính nhân không tỷ lệ lên tới $35-40\\%$. Dầu hạt bông là một thứ dầu nửa khô, có chứa chừng $20-22\\%$ $panmitin$ ($palmitin$), $4\\%$ $stearin$ ($stearine$), $30-35\\%$ $olein$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_BONG",
+      "to": "HC_LINOLEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt bông có chừng $17-30\\%$ dầu, nếu chỉ tính nhân không tỷ lệ lên tới $35-40\\%$. Dầu hạt bông là một thứ dầu nửa khô, có chứa chừng $20-22\\%$ $panmitin$ ($palmitin$), $4\\%$ $stearin$ ($stearine$), $30-35\\%$ $olein$, $42-45\\%$ $linolein$ ($linoleine$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_BONG",
+      "to": "HC_GOSSYPOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt bông có chứa hai chất độc: $Gossypola$ vàng và $gossypola$ đỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    }
+  ]
+}

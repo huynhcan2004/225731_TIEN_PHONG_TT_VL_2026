@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_BAM_BAM",
+  "source": {
+    "source_id": "CT_VT_VN_T691",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "691"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "CN_HA_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 4 kinh phế, tỳ, vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng sát khuẩn mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc tê."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc kích thích sự tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm chất sát trùng mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "DL_DIET_TUY_RANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Diệt tủy răng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    }
+  ],
+  "metadata": {}
+}

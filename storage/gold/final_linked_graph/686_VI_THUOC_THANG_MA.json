@@ -1,0 +1,806 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THANG_MA",
+    "ten_raw": "Thăng ma",
+    "ten_khoa_hoc": "$Rhizoma Cimicifugae heracleifoliae, Cimicifuga heracleifolia Komar., Rhizoma Cimicifugae dahuricae, Cimicifuga dahurica Maxim., Rhizoma Cimicifugae foetidae, Cimicifuga foetida L., Radix Serratulae, Serratula sinensis S. Moore.; Cimicifuga foetida$",
+    "ho_thuc_vat": "$Họ Mao lương (Ranunculaceae)$",
+    "variants": [
+      "đại tam diệp thăng ma",
+      "bắc thăng ma",
+      "thăng ma đầu",
+      "Quảng Đông thăng ma",
+      "thiên thăng ma",
+      "tây thăng ma"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "lieu_dung_chung": "Liều dùng: $3-12g$",
+      "muc_do_doc": "Hơi độc",
+      "phan_bo": "Hắc Long Giang, Hà Bắc, Nội Mông, Tứ Xuyên, Hồ Bắc, Liêu Ninh, Cát Lâm, Thiểm Tây, Tứ Xuyên, Thanh Hải, Vân Nam",
+      "che_bien_tho": "đào thân rễ vào mùa thu, phơi khô nửa chừng thì đem đốt cháy lớp rễ con rồi tiếp tục phơi cho thật khô, đối với quảng đông thăng ma, người ta đào rễ vào mùa hạ và mùa thu, cắt bỏ rễ con, rửa sạch, phơi hay sấy khô là được."
+    },
+    "display_name": "Vị thuốc Thăng ma",
+    "canonical_name": "Vị thuốc Thăng ma"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt khi mới lên đậu Thăng ma",
+        "aliases": [
+          "sotkhimoilendauthangma",
+          "sot khi moi len dau thang ma",
+          "sốt khi mới lên đậu thăng ma"
+        ],
+        "search_vector_hint": "Sốt khi mới lên đậu Thăng ma thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "B_LO_LOET_CO_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lở loét cổ họng",
+        "aliases": [
+          "lo loet co hong",
+          "loloetcohong",
+          "lở loét cổ họng"
+        ],
+        "search_vector_hint": "Lở loét cổ họng thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TAN_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan phong",
+        "aliases": [
+          "tan phong",
+          "tanphong"
+        ],
+        "search_vector_hint": "Công năng Tan phong thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_THANG_THANH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thăng thanh",
+        "aliases": [
+          "thăng thanh",
+          "thangthanh",
+          "thang thanh"
+        ],
+        "search_vector_hint": "Công năng Thăng thanh thuộc nhóm công năng, thường liên quan đến điều trị các chứng bệnh lý khí huyết."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tiêu hóa",
+        "aliases": [
+          "doc tinh tieu hoa",
+          "doctinhtieuhoa",
+          "độc tính tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tiêu hóa thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_XIMITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ximitin",
+        "aliases": [
+          "ximitin"
+        ],
+        "search_vector_hint": "Ximitin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dai Trang",
+        "aliases": [
+          "dai trang",
+          "daitrang",
+          "đại tràng"
+        ],
+        "search_vector_hint": "Kinh Đại tràng thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức răng",
+        "aliases": [
+          "dau nhuc rang",
+          "đau nhức răng",
+          "daunhucrang"
+        ],
+        "search_vector_hint": "Đau nhức răng thuộc nhóm Triệu chứng, thường liên quan đến các bệnh lý răng miệng."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_CAT_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cát căn",
+        "aliases": [
+          "cat can",
+          "san day",
+          "cát căn",
+          "sắn dây",
+          "catcan",
+          "sanday"
+        ],
+        "search_vector_hint": "Vị thuốc Cát căn thuộc nhóm Vị thuốc, thường liên quan đến hạ sốt, giải khát."
+      }
+    },
+    {
+      "id": "VT_DAI_TAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đại táo",
+        "aliases": [
+          "đại táo",
+          "tao tau",
+          "taotau",
+          "dai tao",
+          "táo tàu",
+          "daitao"
+        ],
+        "search_vector_hint": "Vị thuốc Đại táo thuộc nhóm Vị thuốc, thường liên quan đến thành phần dược liệu."
+      }
+    },
+    {
+      "id": "VT_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh khương",
+        "aliases": [
+          "sinh khuong",
+          "sinh khương",
+          "gungtuoi",
+          "gung tuoi",
+          "gừng tươi",
+          "sinhkhuong"
+        ],
+        "search_vector_hint": "Sinh khương thuộc nhóm Vị thuốc, thường liên quan đến giải cảm, ấm bụng."
+      }
+    },
+    {
+      "id": "VT_THANG_MA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thăng ma",
+        "aliases": [
+          "thangma",
+          "thăng ma",
+          "thang ma"
+        ],
+        "search_vector_hint": "Thăng ma thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "thân rễ",
+        "lieu_dung_chung": "Liều dùng: $3-12g$",
+        "muc_do_doc": "Hơi độc",
+        "phan_bo": "Hắc Long Giang, Hà Bắc, Nội Mông, Tứ Xuyên, Hồ Bắc, Liêu Ninh, Cát Lâm, Thiểm Tây, Tứ Xuyên, Thanh Hải, Vân Nam",
+        "che_bien_tho": "đào thân rễ vào mùa thu, phơi khô nửa chừng thì đem đốt cháy lớp rễ con rồi tiếp tục phơi cho thật khô, đối với quảng đông thăng ma, người ta đào rễ vào mùa hạ và mùa thu, cắt bỏ rễ con, rửa sạch, phơi hay sấy khô là được.",
+        "ten_khoa_hoc": "$Rhizoma Cimicifugae heracleifoliae, Cimicifuga heracleifolia Komar., Rhizoma Cimicifugae dahuricae, Cimicifuga dahurica Maxim., Rhizoma Cimicifugae foetidae, Cimicifuga foetida L., Radix Serratulae, Serratula sinensis S. Moore.; Cimicifuga foetida$",
+        "ho_thuc_vat": "$Họ Mao lương (Ranunculaceae)$",
+        "hinh_thai_chi_tiet": "Cây đại tam diệp thăng ma (Cimicifuga heracleifolia) là một cây sống lâu năm, thân mọc thẳng đứng, cao từ $1-1,5m$, nhẵn hoặc có ít lông mềm. Lá kép 2 hay 3 lần lông chim, lá có cuống dài, lá chét cũng có cuống, cuống lá chét giữa dài hơn các lá chét bên, mặt lá đều có lông mềm trắng, phiến lá chét hình trứng dài $9-11cm$, rộng $5-9cm$, phiến lá chét nhiều khi (nhất là lá chết giữa) lại chia thùy, mép phiến lá có răng cưa to. Lá phía ngọn thường nhỏ hơn, cuống lá cũng ngắn hơn. Cụm hoa chùm; hoa màu vàng trắng. Quả kép với 3-5 lá noãn rời nhau. Cây bắc thăng ma (Cimicifuga dahurica) cũng là một cây sống lâu năm, thường chỉ cao $1m$, trên thân có lông mềm, lá cũng kép 2 đến 3 lần lông chim, lá chét giữa thường có cuống, còn lá chét 2 bên thường không cuống. Cụm hoa chùm, nhưng hoa đơn tính, khác đại tam diệp thăng ma có hoa lưỡng tính. Quả kép có 5 lá noãn. Cây thăng ma (Cimicifuga foetida) cũng là một cây sống lâu năm, cao $1-2m$, lá kép nhiều lần lông chim (khác những loài thăng ma kể trên). Cụm hoa hình chùy, hoa lưỡng tính, màu trắng Quả kép, trên mặt có lông ( Hình 518). Cây thăng ma đầu (Serratula sinensis) là một cây sống lâu năm, lá mọc so le, nguyên, mép có răng cưa, dài $10-18cm$, rộng $4,5-7cm$, lá dưới có cuống dài, phía trên có cuống ngắn hơn. Hoa hình đầu, lưỡng tính, màu trắng. Quả bế hình thoi, một đầu nhọn.",
+        "thanh_phan_hoa_hoc": "['ximitin']"
+      }
+    },
+    {
+      "id": "VT_THUOC_DUOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thuốc dột",
+        "aliases": [
+          "thuoc dot",
+          "thuốc dột",
+          "thuocdot"
+        ],
+        "search_vector_hint": "Vị thuốc Thuốc dột thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "686"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO",
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_BINH",
+        "quy_kinh": [
+          "K_VI",
+          "K_DAI_TRANG",
+          "K_TY",
+          "K_PHE"
+        ],
+        "cong_nang": "thăng thanh, giáng trọc, tán phong giải độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây đại tam diệp thăng ma (Cimicifuga heracleifolia) là một cây sống lâu năm, thân mọc thẳng đứng, cao từ $1-1,5m$, nhẵn hoặc có ít lông mềm. Lá kép 2 hay 3 lần lông chim, lá có cuống dài, lá chét cũng có cuống, cuống lá chét giữa dài hơn các lá chét bên, mặt lá đều có lông mềm trắng, phiến lá chét hình trứng dài $9-11cm$, rộng $5-9cm$, phiến lá chét nhiều khi (nhất là lá chết giữa) lại chia thùy, mép phiến lá có răng cưa to. Lá phía ngọn thường nhỏ hơn, cuống lá cũng ngắn hơn. Cụm hoa chùm; hoa màu vàng trắng. Quả kép với 3-5 lá noãn rời nhau. Cây bắc thăng ma (Cimicifuga dahurica) cũng là một cây sống lâu năm, thường chỉ cao $1m$, trên thân có lông mềm, lá cũng kép 2 đến 3 lần lông chim, lá chét giữa thường có cuống, còn lá chét 2 bên thường không cuống. Cụm hoa chùm, nhưng hoa đơn tính, khác đại tam diệp thăng ma có hoa lưỡng tính. Quả kép có 5 lá noãn. Cây thăng ma (Cimicifuga foetida) cũng là một cây sống lâu năm, cao $1-2m$, lá kép nhiều lần lông chim (khác những loài thăng ma kể trên). Cụm hoa hình chùy, hoa lưỡng tính, màu trắng Quả kép, trên mặt có lông ( Hình 518). Cây thăng ma đầu (Serratula sinensis) là một cây sống lâu năm, lá mọc so le, nguyên, mép có răng cưa, dài $10-18cm$, rộng $4,5-7cm$, lá dưới có cuống dài, phía trên có cuống ngắn hơn. Hoa hình đầu, lưỡng tính, màu trắng. Quả bế hình thoi, một đầu nhọn.",
+        "thanh_phan_hoa_hoc": [
+          "ximitin"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THANG_MA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh Tỳ của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh Vị của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh Phế của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh Đại tràng của Thăng ma"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "HC_XIMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vị thăng ma Cimicifuga foetida người ta đã chiết ra được chất đắng gọi là `$ximitin$` (cimitin)",
+        "ghi_chu": "cimitin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_THANG_MA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_CAT_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Chưa rõ",
+        "cach_dung": "Chưa rõ",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_KHI_MOI_LEN_DAU_THANG_MA",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "S_DAU_NHUC_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "Sắc với $200ml$ nước ngậm trong miệng lâu rồi nuốt. Ngày 2-3 lần",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "B_LO_LOET_CO_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "Sắc với $200ml$ nước ngậm trong miệng lâu rồi nuốt. Ngày 2-3 lần",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "CN_THANG_THANH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thăng thanh, giáng trọc (đưa cái trong lên trên, hạ chất đục xuống)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "CN_TAN_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán phong giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán phong giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người uống quá liều thì có hiện tượng bắp thịt mềm sỉu, đầu váng mắt hoa, mạch và hơi thở giảm xuống, dạ dày bị kích thích đến gây nôn mửa kịch liệt, nếu quá liều nhiều quá thì choáng váng, nhức đầu, suy nhược và phát cuồng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người uống quá liều thì có hiện tượng bắp thịt mềm sỉu, đầu váng mắt hoa, mạch và hơi thở giảm xuống, dạ dày bị kích thích đến gây nôn mửa kịch liệt, nếu quá liều nhiều quá thì choáng váng, nhức đầu, suy nhược và phát cuồng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_MA",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người uống quá liều thì có hiện tượng bắp thịt mềm sỉu, đầu váng mắt hoa, mạch và hơi thở giảm xuống, dạ dày bị kích thích đến gây nôn mửa kịch liệt, nếu quá liều nhiều quá thì choáng váng, nhức đầu, suy nhược và phát cuồng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686",
+        "all_sources": [
+          "CT_VT_VN_T686"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 62.5,
+      "reliability_c_score": 0.758,
+      "total_confidence_sum": 18.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

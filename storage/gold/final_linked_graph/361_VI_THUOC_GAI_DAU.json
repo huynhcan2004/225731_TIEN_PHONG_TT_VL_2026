@@ -1,0 +1,587 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_GAI_DAU",
+    "ten_raw": "Gai dầu",
+    "ten_khoa_hoc": "$Cannabis sativa L.; Cannabis sativa var. indica$",
+    "ho_thuc_vat": "$Gai mèo Cannabinaceae$",
+    "variants": [
+      "gai mèo",
+      "lanh mán",
+      "lanh mèo",
+      "đại ma",
+      "cần sa",
+      "sơn ty miêu",
+      "ko phai meo",
+      "khan sua",
+      "khanh chha",
+      "chanvre"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn các bộ phận của cây",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "[CT_VT_VN_T365]: Liều dùng: cồn 1/10 (chế bằng phép ngấm kiệt với cồn 90°), mỗi lần dùng $0,05$g, trong 24 giờ tối đa $1$g. Cao rượu: Ngày uống $0,05$g đến $0,10$g. Cao lỏng: Ngày uống $0,30$g đến $0,60$g. Nhựa gai dầu: Ngày uống từ $0,03$g đến $0,05$g.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "các nước miền trung châu Á, Ấn Độ, Trung Quốc, nhiều nước vùng ôn đới các nước châu Á, châu Âu, (Liên Xô cũ, Ba Lan, Rumani, Hungari, Séc, Slovakia, Pháp, Bỉ ...), châu Mỹ, Lào Cai, Yên Bái, Thanh Hóa, Nghệ An, Hà Tĩnh"
+    },
+    "display_name": "Vị thuốc Gai dầu",
+    "canonical_name": "Vị thuốc Gai dầu"
+  },
+  "nodes": [
+    {
+      "id": "B_BENH_THAN_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thần kinh",
+        "aliases": [
+          "thần kinh",
+          "thankinh",
+          "than kinh"
+        ],
+        "search_vector_hint": "Thần kinh thuộc nhóm bệnh, thường liên quan đến rối loạn hệ thần kinh."
+      }
+    },
+    {
+      "id": "B_BONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bong",
+        "aliases": [
+          "bong"
+        ],
+        "search_vector_hint": "Bệnh Bong thuộc nhóm Bệnh, thường liên quan đến tổn thương da."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_HEN_SUYEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hen suyễn",
+        "aliases": [
+          "hen phe quan",
+          "hen suyễn",
+          "henphequan",
+          "hen phế quản",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Bệnh Hen suyễn thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "CN_CO_GIAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Co giật",
+        "aliases": [
+          "co giat",
+          "cogiat",
+          "co giật"
+        ],
+        "search_vector_hint": "Công năng Co giật thuộc nhóm Công năng, thường liên quan đến các rối loạn thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Giảm đau",
+        "aliases": [
+          "chỉ thống",
+          "chi thong",
+          "giamdau",
+          "chithong",
+          "giảm đau",
+          "giam dau"
+        ],
+        "search_vector_hint": "Giảm đau thuộc nhóm công năng, thường liên quan đến làm dịu cơn đau."
+      }
+    },
+    {
+      "id": "DL_KANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kháng sinh",
+        "aliases": [
+          "kháng sinh",
+          "khang sinh",
+          "khangsinh"
+        ],
+        "search_vector_hint": "Kháng sinh thuộc nhóm dược lý, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "DL_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Sát trùng",
+        "aliases": [
+          "sát trùng",
+          "sattrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Sát trùng thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt vi sinh vật."
+      }
+    },
+    {
+      "id": "HC_AXIT_CANNABIDIOLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Cannabidiolic",
+        "aliases": [
+          "axit cannabidiolic",
+          "axitcannabidiolic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Cannabidiolic thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất trong cây Cannabis."
+      }
+    },
+    {
+      "id": "HC_CANNABEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cannaben",
+        "aliases": [
+          "cannaben"
+        ],
+        "search_vector_hint": "Hoạt chất Cannaben thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất trong cây Cannabis."
+      }
+    },
+    {
+      "id": "HC_CANNABIDIOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cannabidiol",
+        "aliases": [
+          "cannabidiol"
+        ],
+        "search_vector_hint": "Hoạt chất Cannabidiol thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất trong cây Cannabis."
+      }
+    },
+    {
+      "id": "HC_CANNABIGEROL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cannabigerol",
+        "aliases": [
+          "cannabigerol"
+        ],
+        "search_vector_hint": "Hoạt chất Cannabigerol thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất trong cây Cannabis."
+      }
+    },
+    {
+      "id": "HC_CANNABIOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cannabiol",
+        "aliases": [
+          "cannabiol"
+        ],
+        "search_vector_hint": "Hoạt chất Cannabiol thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất trong cây Cannabis."
+      }
+    },
+    {
+      "id": "HC_CHOLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cholin",
+        "aliases": [
+          "cholin"
+        ],
+        "search_vector_hint": "Cholin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_EDESTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Edestin",
+        "aliases": [
+          "edestin"
+        ],
+        "search_vector_hint": "Hoạt chất Edestin thuộc nhóm Hoạt chất, thường liên quan đến protein dự trữ trong hạt."
+      }
+    },
+    {
+      "id": "HC_TRIGONELLIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Trigonellin",
+        "aliases": [
+          "trigonellin"
+        ],
+        "search_vector_hint": "Hoạt chất Trigonellin thuộc nhóm Hoạt chất, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "VT_GAI_DAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Gai dầu",
+        "aliases": [
+          "gai dau",
+          "gaidau",
+          "gai dầu"
+        ],
+        "search_vector_hint": "Vị thuốc Gai dầu thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh lý khác nhau.",
+        "bo_phan_dung": "toàn các bộ phận của cây",
+        "lieu_dung_chung": "[CT_VT_VN_T365]: Liều dùng: cồn 1/10 (chế bằng phép ngấm kiệt với cồn 90°), mỗi lần dùng $0,05$g, trong 24 giờ tối đa $1$g. Cao rượu: Ngày uống $0,05$g đến $0,10$g. Cao lỏng: Ngày uống $0,30$g đến $0,60$g. Nhựa gai dầu: Ngày uống từ $0,03$g đến $0,05$g.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "các nước miền trung châu Á, Ấn Độ, Trung Quốc, nhiều nước vùng ôn đới các nước châu Á, châu Âu, (Liên Xô cũ, Ba Lan, Rumani, Hungari, Séc, Slovakia, Pháp, Bỉ ...), châu Mỹ, Lào Cai, Yên Bái, Thanh Hóa, Nghệ An, Hà Tĩnh",
+        "ten_khoa_hoc": "$Cannabis sativa L.; Cannabis sativa var. indica$",
+        "ho_thuc_vat": "$Gai mèo Cannabinaceae$",
+        "hinh_thai_chi_tiet": "Cây thảo, sống hằng năm, khác gốc, thân thẳng đứng cao 1-2m, phân ít hay nhiều cành. Toàn các bộ phận của cây đều phủ một lớp lông mịn. Lá thường mọc cách, có cuống, có lá kèm. Lá phía dưới chia thùy đến tận cuống, phiến thùy hình mác, nhọn, mép có răng cưa. Lá phía trên đơn hay chia 3 thùy. Cây đực thường gày mảnh hơn cây cái. Hoa đực mọc thành chùy với 5 cánh dài và 5 nhị. Hoa cái mọc thành xim xen lẫn với lá bắc hình lá, đài hoa cái hình mo, bọc lấy bầu hình cầu, 2 vòi nhụy đính ở gốc bầu, hình chỉ, dài hơn bầu nhiều, 1 noãn ngược. Quả bế (gọi là chenevis) hình trứng dài $2,5-3,5mm$, đường kính $2,5-3mm$, nhẵn, xám nhạt. Hạt có dẫu."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "361"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo, sống hằng năm, khác gốc, thân thẳng đứng cao 1-2m, phân ít hay nhiều cành. Toàn các bộ phận của cây đều phủ một lớp lông mịn. Lá thường mọc cách, có cuống, có lá kèm. Lá phía dưới chia thùy đến tận cuống, phiến thùy hình mác, nhọn, mép có răng cưa. Lá phía trên đơn hay chia 3 thùy. Cây đực thường gày mảnh hơn cây cái. Hoa đực mọc thành chùy với 5 cánh dài và 5 nhị. Hoa cái mọc thành xim xen lẫn với lá bắc hình lá, đài hoa cái hình mo, bọc lấy bầu hình cầu, 2 vòi nhụy đính ở gốc bầu, hình chỉ, dài hơn bầu nhiều, 1 noãn ngược. Quả bế (gọi là chenevis) hình trứng dài $2,5-3,5mm$, đường kính $2,5-3mm$, nhẵn, xám nhạt. Hạt có dẫu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_EDESTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong chất đạm của khô dầu có chủ yếu chất globulin mang tên $edestin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_CANNABEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngọn mang hoa cái thường có $5-10\\%$ độ ẩm, $12-14\\%$ chất vô cơ (gồm chủ yếu là oxalat canxi trong cây), ít tinh dầu với thành phần gồm những cacbua tecpenic, và một chất sesquitecpen mang tên $cannaben$, ngoài ra còn thấy $cholin$, $trigonellin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngọn mang hoa cái thường có $5-10\\%$ độ ẩm, $12-14\\%$ chất vô cơ (gồm chủ yếu là oxalat canxi trong cây), ít tinh dầu với thành phần gồm những cacbua tecpenic, và một chất sesquitecpen mang tên $cannaben$, ngoài ra còn thấy $cholin$, $trigonellin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_TRIGONELLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngọn mang hoa cái thường có $5-10\\%$ độ ẩm, $12-14\\%$ chất vô cơ (gồm chủ yếu là oxalat canxi trong cây), ít tinh dầu với thành phần gồm những cacbua tecpenic, và một chất sesquitecpen mang tên $cannaben$, ngoài ra còn thấy $cholin$, $trigonellin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_AXIT_CANNABIDIOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit cannabidiolic$, $cannabidiol$, $cannabiol$, $cannabigerol$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_CANNABIDIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit cannabidiolic$, $cannabidiol$, $cannabiol$, $cannabigerol$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_CANNABIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit cannabidiolic$, $cannabidiol$, $cannabiol$, $cannabigerol$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "HC_CANNABIGEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit cannabidiolic$, $cannabidiol$, $cannabiol$, $cannabigerol$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống trong để làm thuốc giảm đau, dịu đau",
+        "ghi_chu": "Nhựa gai dầu (dạng cồn cao và thuốc)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "CN_CO_GIAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống trong để làm thuốc giảm đau, dịu đau",
+        "ghi_chu": "Nhựa gai dầu (dạng cồn cao và thuốc)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống trong để làm thuốc giảm đau, dịu đau",
+        "ghi_chu": "Nhựa gai dầu (dạng cồn cao và thuốc)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "B_BENH_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống trong để làm thuốc giảm đau, dịu đau",
+        "ghi_chu": "Nhựa gai dầu (dạng cồn cao và thuốc)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài để làm thuốc sát trùng",
+        "ghi_chu": "Nhựa gai dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa gai dầu gây cho người dùng ban đầu có một cảm giác khoan khoái, dễ thở, thần kinh được kích thích, sau đó đến những ảo giác (mất khái niệm về thời gian, không gian, người như phân đôi). Con người trở nên rất nhạy cảm với tiếng ồn, với âm nhạc và rất dễ sai khiến tới mức có thể sai đi gây những tội ác cũng làm. Giai đoạn kích thích và bột phát thường kèm buồn ngủ và đi tới hôn mê. Với liều cao hơn có thể dẫn đến động tác thiếu phối hợp, trạng thái ngây, một giấc ngủ giữ nguyên thế, có khi những cơn hoang tưởng giận dữ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hô hấp chậm dần, mạch nhanh, miệng khô, mồ hôi đầm đìa, buồn nôn và nôn. Việc sử dụng nhựa gai dầu được coi như một chứng nghiện chất độc nguy hiểm như nghiện thuốc phiện và cocain."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Các tác giả Tiệp Khắc chứng minh các chất này có tác dụng giảm đau và nhất là kháng sinh đối với một số vi khuẩn g dương. Tác dụng giảm đau của nhựa gai dầu là kết quả của tác dụng chung của nhựa đối với vỏ não chứ không phải do một tác dụng tại chỗ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "DL_KANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Các tác giả Tiệp Khắc chứng minh các chất này có tác dụng giảm đau và nhất là kháng sinh đối với một số vi khuẩn g dương.",
+        "ghi_chu": "Chỉ có tác dụng với một số vi khuẩn g dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI_DAU",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Phù hợp với kinh nghiệm cổ truyền ở một số nước dùng nhựa gai dầu làm thuốc sát trùng và lên da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T361",
+        "all_sources": [
+          "CT_VT_VN_T361"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 58.0,
+      "reliability_c_score": 0.7605,
+      "total_confidence_sum": 14.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

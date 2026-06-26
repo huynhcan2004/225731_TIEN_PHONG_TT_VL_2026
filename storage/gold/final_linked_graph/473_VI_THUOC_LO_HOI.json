@@ -1,0 +1,880 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LO_HOI",
+    "ten_raw": "Lô hội",
+    "ten_khoa_hoc": "$Aloe vera Livar. sinensis Berger; Aloe perfoliata Lour. (non L.), Aloe barbadensis Mill.var.sinensis Haw.; Aloe vulgaris Lamk.; Aloe ferox L.; Aloe perryi Bak.; Aloe maculata Forsk.$",
+    "ho_thuc_vat": "$Họ Hành tỏi Liliaceae$",
+    "variants": [
+      "long thủ",
+      "lưu hội"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "bóc vỏ cứng ngoài, cắt thành từng miếng nhỏ",
+      "lieu_dung_chung": "Với liều nhỏ dùng giúp sự tiêu hoá, ăn uống không tiêu. Với liều lớn dùng làm thuốc chữa những bệnh nhức đầu khó chữa, sung huyết phổi, sung huyết các phủ tạng. Còn dùng làm thuốc tẩy hay nhuận tràng. Nên dùng sau bữa ăn tác dụng sẽ dịu và mau hơn. Liều dùng hàng ngày: Giúp sự tiêu hoá: $0,05$-$0,1$g. Tẩy: $0,15$-$2$g. Dưới dạng thuốc viên hay nước dịch.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "đồng châu Phi (từ nam chí bắc đều có), Ấn Độ, Châu Mỹ. Tại nước ta, cây lô hội mọc hoang ở bờ biển những tỉnh Ninh Thuận (Phan Rang, Phan Ri) và Bình Thuận. Ở miền Bắc được trồng làm cảnh nhưng ít hơn."
+    },
+    "display_name": "Vị thuốc Lô hội",
+    "canonical_name": "Vị thuốc Lô hội"
+  },
+  "nodes": [
+    {
+      "id": "BT_YEU_RUOT_LO_HOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Yêu ruột lô hội",
+        "aliases": [
+          "yeuruotlohoi",
+          "yeu ruot lo hoi",
+          "yêu ruột lô hội"
+        ],
+        "search_vector_hint": "Yêu ruột lô hội thuộc nhóm Bài thuốc, thường liên quan đến điều trị các bệnh về ruột."
+      }
+    },
+    {
+      "id": "B_TAO_BON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Táo bón",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon"
+        ],
+        "search_vector_hint": "Bệnh Táo bón thuộc nhóm bệnh, thường liên quan đến khó khăn trong việc đại tiện."
+      }
+    },
+    {
+      "id": "B_YEU_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Yếu gan",
+        "aliases": [
+          "yeugan",
+          "yếu gan",
+          "yeu gan"
+        ],
+        "search_vector_hint": "Yếu gan thuộc nhóm bệnh, thường liên quan đến chức năng gan suy giảm."
+      }
+    },
+    {
+      "id": "B_YEU_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Yếu Ruột",
+        "aliases": [
+          "yếu ruột",
+          "yeu ruot",
+          "khó tiêu",
+          "khotieu",
+          "roiloantieuhoa",
+          "roi loan tieu hoa",
+          "yeuruot",
+          "rối loạn tiêu hóa",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Yếu Ruột thuộc nhóm bệnh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_KHO_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khó tiêu",
+        "aliases": [
+          "khó tiêu",
+          "kho tieu",
+          "khotieu"
+        ],
+        "search_vector_hint": "Khó tiêu thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_LUONG_CAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lương Can",
+        "aliases": [
+          "luong can",
+          "thanh can",
+          "luongcan",
+          "thanhcan",
+          "matgan",
+          "lương can",
+          "mat gan",
+          "mát gan"
+        ],
+        "search_vector_hint": "Công năng Lương Can thuộc nhóm công năng, thường liên quan đến chức năng gan."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông tiện",
+        "aliases": [
+          "nhuan trang",
+          "thông tiện",
+          "nhuận tràng",
+          "nhuantrang",
+          "thongtien",
+          "thong tien"
+        ],
+        "search_vector_hint": "Công năng Thông tiện thuộc nhóm công năng, thường liên quan đến điều hòa tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích tiêu hóa",
+        "aliases": [
+          "kich thich tieu hoa",
+          "kichthichtieuhoa",
+          "kích thích tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Kích thích tiêu hóa thuộc nhóm dược lý tiêu hóa, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_NHUAN_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Nhuận tràng",
+        "aliases": [
+          "nhuận tràng",
+          "nhuan trang",
+          "nhuantrang"
+        ],
+        "search_vector_hint": "Nhuận tràng thuộc nhóm Dược lý, thường liên quan đến khả năng làm mềm phân và dễ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_THONG_MAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Thông mật",
+        "aliases": [
+          "thongmat",
+          "thong mat",
+          "thông mật"
+        ],
+        "search_vector_hint": "Thông mật thuộc nhóm Dược lý, thường liên quan đến tác dụng của thuốc."
+      }
+    },
+    {
+      "id": "HC_ALOCEMODIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Alocemodin",
+        "aliases": [
+          "alocemodin"
+        ],
+        "search_vector_hint": "Alocemodin thuộc nhóm Hoạt chất, thường liên quan đến các thành phần hóa học trong dược liệu."
+      }
+    },
+    {
+      "id": "HC_ALOIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Aloin",
+        "aliases": [
+          "aloin"
+        ],
+        "search_vector_hint": "Aloin thuộc nhóm Hoạt chất, thường liên quan đến các thành phần hóa học trong dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dai Trang",
+        "aliases": [
+          "dai trang",
+          "daitrang",
+          "đại tràng"
+        ],
+        "search_vector_hint": "Kinh Đại tràng thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_KINH_NGUYET_KHONG_DEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kinh nguyệt không đều",
+        "aliases": [
+          "kinh nguyet khong deu",
+          "roi loan kinh nguyet",
+          "kinh nguyệt không đều",
+          "kinhnguyetkhongdeu",
+          "roiloankinhnguyet",
+          "rối loạn kinh nguyệt"
+        ],
+        "search_vector_hint": "Triệu chứng Kinh nguyệt không đều thuộc nhóm Triệu chứng, thường liên quan đến phụ nữ."
+      }
+    },
+    {
+      "id": "S_THIEU_NUOC_MAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Thiếu Nước Mắt",
+        "aliases": [
+          "khô mắt",
+          "kho mat",
+          "thieu nuoc mat",
+          "thiếu nước mắt",
+          "thieunuocmat",
+          "khomat"
+        ],
+        "search_vector_hint": "Triệu chứng Thiếu Nước Mắt thuộc nhóm triệu chứng, thường liên quan đến bệnh về mắt."
+      }
+    },
+    {
+      "id": "S_VANG_DA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vàng da",
+        "aliases": [
+          "vang da",
+          "vangda",
+          "vàng da"
+        ],
+        "search_vector_hint": "Vàng da thuộc nhóm triệu chứng, thường liên quan đến bệnh lý gan mật."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BOT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bột Cam Thảo",
+        "aliases": [
+          "bot cam thao",
+          "botcamthao",
+          "bột cam thảo"
+        ],
+        "search_vector_hint": "Vị thuốc Bột Cam Thảo thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_CAO_MAT_BO_TINH_CHE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cao mật bò tinh chế",
+        "aliases": [
+          "caomatbotinhche",
+          "cao mat bo tinh che",
+          "cao mật bò tinh chế"
+        ],
+        "search_vector_hint": "Cao mật bò tinh chế thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_LO_HOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lô hội",
+        "aliases": [
+          "nha đam",
+          "lô hội",
+          "lohoi",
+          "lo hoi",
+          "nha dam",
+          "nhadam"
+        ],
+        "search_vector_hint": "Vị thuốc Lô hội thuộc nhóm vị thuốc thanh nhiệt, thường liên quan đến làm mát và giải độc.",
+        "bo_phan_dung": "lá",
+        "che_bien_tho": "bóc vỏ cứng ngoài, cắt thành từng miếng nhỏ",
+        "lieu_dung_chung": "Với liều nhỏ dùng giúp sự tiêu hoá, ăn uống không tiêu. Với liều lớn dùng làm thuốc chữa những bệnh nhức đầu khó chữa, sung huyết phổi, sung huyết các phủ tạng. Còn dùng làm thuốc tẩy hay nhuận tràng. Nên dùng sau bữa ăn tác dụng sẽ dịu và mau hơn. Liều dùng hàng ngày: Giúp sự tiêu hoá: $0,05$-$0,1$g. Tẩy: $0,15$-$2$g. Dưới dạng thuốc viên hay nước dịch.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "đồng châu Phi (từ nam chí bắc đều có), Ấn Độ, Châu Mỹ. Tại nước ta, cây lô hội mọc hoang ở bờ biển những tỉnh Ninh Thuận (Phan Rang, Phan Ri) và Bình Thuận. Ở miền Bắc được trồng làm cảnh nhưng ít hơn.",
+        "ten_khoa_hoc": "$Aloe vera Livar. sinensis Berger; Aloe perfoliata Lour. (non L.), Aloe barbadensis Mill.var.sinensis Haw.; Aloe vulgaris Lamk.; Aloe ferox L.; Aloe perryi Bak.; Aloe maculata Forsk.$",
+        "ho_thuc_vat": "$Họ Hành tỏi Liliaceae$",
+        "hinh_thai_chi_tiet": "Theo A. Pételot, tại Quảng Bình, Quảng Trị, Thừa Thiên có một loài Aloe sp. có lẽ là A. maculata Forsk. (tên này được ghi trong danh mục những cây của Vườn bách thảo Sài Gòn). Tại Huế người ta gọi cây này là long thủ (tay rồng), ở Quảng Trị gọi là lưu hội. Nhân dân thường lấy chừng $2$-$3$ lá này bóc vỏ cứng ngoài, cắt thành từng miếng nhỏ ăn tươi với đường hoặc nấu với đường, hoặc ăn như rau sống để cho mát và chữa kinh nguyệt không đều."
+      }
+    },
+    {
+      "id": "VT_PHENOLTALEIN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phenoltalein",
+        "aliases": [
+          "phenoltalein"
+        ],
+        "search_vector_hint": "Phenoltalein thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "473"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Theo A. Pételot, tại Quảng Bình, Quảng Trị, Thừa Thiên có một loài Aloe sp. có lẽ là A. maculata Forsk. (tên này được ghi trong danh mục những cây của Vườn bách thảo Sài Gòn). Tại Huế người ta gọi cây này là long thủ (tay rồng), ở Quảng Trị gọi là lưu hội. Nhân dân thường lấy chừng $2$-$3$ lá này bóc vỏ cứng ngoài, cắt thành từng miếng nhỏ ăn tươi với đường hoặc nấu với đường, hoặc ăn như rau sống để cho mát và chữa kinh nguyệt không đều."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LO_HOI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "lỗ hội vị đắng tinh hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "lỗ hội vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "HC_ALOIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$aloin$, $alocemodin$",
+        "ghi_chu": "trong Lô hội"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "HC_ALOCEMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$aloin$, $alocemodin$",
+        "ghi_chu": "trong Lô hội"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Trẻ con cam tích, kinh giản, táo bón | Lô hội | Chỉ định lâm sàng theo kinh nghiệm | [Nguồn]: CT_VT_VN_T475"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "S_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ăn tươi với đường hoặc nấu với đường, hoặc ăn như rau sống để cho mát",
+        "ghi_chu": "Kinh nguyệt không đều | Lá lô hội | Ăn tươi với đường hoặc nấu với đường, hoặc ăn như rau sống để cho mát | [Nguồn]: CT_VT_VN_T475"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "VT_LO_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "$0.08$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "VT_CAO_MAT_BO_TINH_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "$0,01$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "VT_PHENOLTALEIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "$0,05$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "VT_BOT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "$0,05$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "CN_KHO_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "S_THIEU_NUOC_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "S_VANG_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "B_YEU_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_YEU_RUOT_LO_HOI",
+      "to": "B_YEU_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Uống 1-2 viên vào bữa cơm chiều. Có thể dùng liều cao hơn. Trẻ em dưới 15 tuổi không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "CN_THONG_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thông tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "CN_LUONG_CAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lương can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ ($0,05-0,10g$) lô hội là một vị thuốc bổ, giúp sự tiêu hoá, vì nó kích thích nhẹ niêm mạc ruột và không cho cặn bã ở lâu trong ruột.",
+        "ghi_chu": "Liều nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao, nó là một vị thuốc tẩy mạnh, nhưng tác dụng chậm, gây sự sung huyết ở các cơ quan bụng, nhất là ở ruột già. Có tác dụng sau $10-15$ giờ, phân mềm nhão, không lỏng. Có khi hơi đau bụng.",
+        "ghi_chu": "Liều cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "DL_THONG_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta còn cho nó có tác dụng thông mật (cholagogue). Sự có mặt của mật rất cần thiết cho tác dụng của lô hội, do đó lô hội tác dụng chậm. Muốn tác dụng mau hơn, nhiều khi người ta dùng phối hợp với mật bò."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_HOI",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng liều quá cao ($8g$) có thể ngộ độc chết người (phân nhiều, yếu toàn thân, mạch chậm, nhiệt độ xuống)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T473",
+        "all_sources": [
+          "CT_VT_VN_T473"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 61.5,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

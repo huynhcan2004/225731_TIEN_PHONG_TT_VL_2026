@@ -1,0 +1,112 @@
+{
+  "entity_hub": "VI_THUOC_TRAM_HUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T450",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "450"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "CN_GIANG_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giáng khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "CN_NAP_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng nạp thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giảm đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng trấn tĩnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "VI",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "TINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM_HUONG",
+      "to": "THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T450"
+      }
+    }
+  ],
+  "metadata": {}
+}

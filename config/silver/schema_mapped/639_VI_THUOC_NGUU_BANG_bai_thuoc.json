@@ -1,0 +1,280 @@
+{
+  "entity_hub": "VI_THUOC_NGUU_BANG",
+  "source": {
+    "source_id": "CT_VT_VN_T639",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "639"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị cảm mạo.",
+        "mo_ta_chi_tiet": "Chữa cảm mạo, sốt, sốt rét, tê thấp, chân tay đau nhức, mỏi, thông tiểu tiện, chữa thủy thũng, đau bụng",
+        "cach_dung": "Sắc hoặc xông",
+        "ghi_chu": "CT_VT_VN_T639"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê thấp",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chân tay đau nhức, mỏi",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "S_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chân tay đau nhức, mỏi",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "S_THONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thủy thũng",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_NGUU_BANG_M",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Sắc hoặc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_NGUU_BANG_L",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị vết loét.",
+        "mo_ta_chi_tiet": "Vết loét, mụn nhọt đang mưng mủ",
+        "cach_dung": "Giã nát đắp lên",
+        "ghi_chu": "CT_VT_VN_T639"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_NGUU_BANG_L",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết loét, mụn nhọt đang mưng mủ",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_BONG_NGUU_BANG_P",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị bỏng.",
+        "mo_ta_chi_tiet": "Bỏng",
+        "cach_dung": "Phơi khô, tán nhỏ rắc lên",
+        "ghi_chu": "CT_VT_VN_T639"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_TRI_HAU_MON_NGUU_BANG_LDCS",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc dân gian trị trĩ.",
+        "mo_ta_chi_tiet": "Trĩ hậu môn",
+        "cach_dung": "Giã nhỏ, trộn với nhau, đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_TRI_HAU_MON_NGUU_BANG_LDCS",
+      "to": "VT_LA_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ giảm đau, kháng viêm.",
+        "mo_ta_chi_tiet": "Trĩ hậu môn",
+        "cach_dung": "Giã nhỏ, trộn với nhau, đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_TRI_HAU_MON_NGUU_BANG_LDCS",
+      "to": "VT_CU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Giảm đau, sát trùng.",
+        "mo_ta_chi_tiet": "Trĩ hậu môn",
+        "cach_dung": "Giã nhỏ, trộn với nhau, đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_TRI_HAU_MON_NGUU_BANG_LDCS",
+      "to": "VT_VO_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Dẫn thuốc, tạo khói.",
+        "mo_ta_chi_tiet": "Trĩ hậu môn",
+        "cach_dung": "Giã nhỏ, trộn với nhau, đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_TRI_HAU_MON_NGUU_BANG_LDCS",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trĩ hậu môn",
+        "cach_dung": "Giã nhỏ, trộn với nhau, đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_NGUU_BANG_N",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị sốt rét.",
+        "mo_ta_chi_tiet": "Chữa sốt rét",
+        "cach_dung": "Giã nhỏ, thêm ít nước lọc vào vắt lấy nước uống 2 giờ trước khi lên cơn sốt. Ngày chỉ dùng một liều, thường chỉ cần uống 3-4 ngày là hết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_NGUU_BANG_N",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét",
+        "cach_dung": "Giã nhỏ, thêm ít nước lọc vào vắt lấy nước uống 2 giờ trước khi lên cơn sốt. Ngày chỉ dùng một liều, thường chỉ cần uống 3-4 ngày là hết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T639"
+      }
+    }
+  ],
+  "metadata": {}
+}

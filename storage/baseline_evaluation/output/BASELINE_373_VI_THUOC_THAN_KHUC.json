@@ -1,0 +1,294 @@
+{
+  "entity": {
+    "id": "VT_THAN_KHUC",
+    "canonical_name": "Thần khúc",
+    "ten_khoa_hoc": "Massa medicata fermentata",
+    "ho_thuc_vat": "null",
+    "properties": {
+      "bo_phan_dung": "Vị thuốc (chế phẩm lên men từ nhiều vị thuốc phối hợp với bột mì hoặc bột gạo)",
+      "thu_hai": "Mùa mực, từ ngày 5 tháng 5 đến 20 tháng 7 âm lịch (khí hậu Trung Quốc)",
+      "che_bien_tho": "Phối hợp nhiều vị thuốc với bột mì hoặc bột gạo, tạo môi trường gây mốc rồi phơi khô.",
+      "lieu_dung_chung": "Ngày dùng $9-18g$, có thể tới $40g$ dưới hình thức thuốc sắc hoặc thuốc bột, có khi sao lên mới dùng. Có khi được kẻ lẫn với các vị thuốc khác coi thần khúc như là một vị thuốc.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các tinh dầu"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các glucozit"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các chất béo"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_MEN_LIPAZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có men lipaza"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_CAM_MAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bốn mùa cảm mạo",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_CAM_LANH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm lạnh",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_CAM_NANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm nắng",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_MIENG_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa miệng nôn",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_DI_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "CN_LOI_SUA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm lợi sữa"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "VT_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "VT_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "VT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "VT_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "VT_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ăn uống không tiêu",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm $2$ hoặc $3$ lần uống"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "S_BUNG_DAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bụng đầy",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm $2$ hoặc $3$ lần uống"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_BUNG_DAY_DI_LY_1",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đi lỵ",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm $2$ hoặc $3$ lần uống"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "VT_SON_TRA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "VT_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "VT_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống không tiêu",
+        "cach_dung": "Sắc với nước chia $3$ lần uống trong ngày"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau bụng",
+        "cach_dung": "Sắc với nước chia $3$ lần uống trong ngày"
+      }
+    },
+    {
+      "from": "BT_UONG_KHONG_TIEU_DAU_BUNG_NON_MUA_1",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nôn mửa",
+        "cach_dung": "Sắc với nước chia $3$ lần uống trong ngày"
+      }
+    }
+  ]
+}

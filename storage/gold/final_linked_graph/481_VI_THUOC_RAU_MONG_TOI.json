@@ -1,0 +1,618 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_RAU_MONG_TOI",
+    "ten_raw": "Rau mồng tơi",
+    "ten_khoa_hoc": "$Basella rubra L. (Basella alba L.)$",
+    "ho_thuc_vat": "$Mồng tơi Basellaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "[CT_VT_VN_T482]: Ngày dùng $15$-$20$g tươi.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây này nguồn gốc ở các nước nhiệt đới của châu Á và châu Phi. Tại Việt Nam, cây này mọc hoang và được trồng cho leo hàng rào để lấy rau ăn."
+    },
+    "display_name": "Vị thuốc Rau mồng tơi",
+    "canonical_name": "Vị thuốc Rau mồng tơi"
+  },
+  "nodes": [
+    {
+      "id": "B_DE_KHO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đẻ khó",
+        "aliases": [
+          "đẻ khó",
+          "dekho",
+          "de kho"
+        ],
+        "search_vector_hint": "Bệnh Đẻ khó thuộc nhóm Bệnh, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "B_TAO_BON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Táo bón",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon"
+        ],
+        "search_vector_hint": "Bệnh Táo bón thuộc nhóm bệnh, thường liên quan đến khó khăn trong việc đại tiện."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_GIAI_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng giải nhiệt",
+        "aliases": [
+          "giải nhiệt",
+          "giainhiet",
+          "giai nhiet"
+        ],
+        "search_vector_hint": "Công năng giải nhiệt thuộc nhóm Công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_HOAT_TRANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt tràng",
+        "aliases": [
+          "hoattrang",
+          "hoạt tràng",
+          "hoat trang"
+        ],
+        "search_vector_hint": "Hoạt tràng thuộc nhóm công năng, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_HOAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt tràng",
+        "aliases": [
+          "hoattrang",
+          "hoạt tràng",
+          "hoat trang"
+        ],
+        "search_vector_hint": "Hoạt tràng thuộc nhóm công năng, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_LOI_DAI_TIEU_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi đại tiểu tràng",
+        "aliases": [
+          "loidaitieutrang",
+          "loi dai tieu trang",
+          "lợi đại tiểu tràng"
+        ],
+        "search_vector_hint": "Lợi đại tiểu tràng thuộc nhóm công năng, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_LUONG_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lương huyết",
+        "aliases": [
+          "thanhhuyet",
+          "lương huyết",
+          "luong huyet",
+          "thanh huyet",
+          "luonghuyet",
+          "thanh huyết"
+        ],
+        "search_vector_hint": "Công năng Lương huyết thuộc nhóm Công năng, thường liên quan đến làm mát máu."
+      }
+    },
+    {
+      "id": "CN_TAN_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tán nhiệt",
+        "aliases": [
+          "tannhiet",
+          "tán nhiệt",
+          "tan nhiet"
+        ],
+        "search_vector_hint": "Tán nhiệt thuộc nhóm công năng, thường liên quan đến điều hòa thân nhiệt."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "DL_KHONG_DOC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tính chất Không độc",
+        "aliases": [
+          "chat khong doc",
+          "chất không độc",
+          "chatkhongdoc"
+        ],
+        "search_vector_hint": "Không độc thuộc nhóm dược lý, thường liên quan đến mức độ an toàn."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin A",
+        "aliases": [
+          "vitamin a",
+          "vitamina"
+        ],
+        "search_vector_hint": "Vitamin A thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin B",
+        "aliases": [
+          "vitaminb",
+          "vitamin b"
+        ],
+        "search_vector_hint": "Vitamin B thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "S_DAU_MAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau mắt",
+        "aliases": [
+          "dau mat",
+          "nhucmat",
+          "nhuc mat",
+          "đau mắt",
+          "daumat",
+          "nhức mắt"
+        ],
+        "search_vector_hint": "Đau mắt thuộc nhóm triệu chứng, thường liên quan đến bệnh lý về mắt."
+      }
+    },
+    {
+      "id": "S_VU_SUNG_NUT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vú sưng nứt",
+        "aliases": [
+          "vusungnut",
+          "nutvu",
+          "nut vu",
+          "sung vu",
+          "vu sung nut",
+          "nứt vú",
+          "sưng vú",
+          "vú sưng nứt",
+          "sungvu"
+        ],
+        "search_vector_hint": "Vú sưng nứt thuộc nhóm triệu chứng, thường liên quan đến tuyến vú."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_RAU_MONG_TOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Rau mồng tơi",
+        "aliases": [
+          "raumongtoi",
+          "mongtoi",
+          "rau mồng tơi",
+          "mong toi",
+          "rau mong toi",
+          "mồng tơi"
+        ],
+        "search_vector_hint": "Rau mồng tơi thuộc nhóm vị thuốc, thường liên quan đến rau ăn lá.",
+        "bo_phan_dung": "toàn cây",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "[CT_VT_VN_T482]: Ngày dùng $15$-$20$g tươi.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "phan_bo": "Cây này nguồn gốc ở các nước nhiệt đới của châu Á và châu Phi. Tại Việt Nam, cây này mọc hoang và được trồng cho leo hàng rào để lấy rau ăn.",
+        "ten_khoa_hoc": "$Basella rubra L. (Basella alba L.)$",
+        "ho_thuc_vat": "$Mồng tơi Basellaceae$",
+        "hinh_thai_chi_tiet": "Mồng tơi là một dây leo, sống hằng năm hay hai năm. Thân mọc cuốn, dài $1,50-2m$. Thân có phân nhánh, màu xanh nhạt hoặc tím nhạt. Lá mọc so le, đơn, nguyên, mẫm, có cuống, phiến lá hình trứng, đầu nhọn, phía cuống bằng hay hơi hẹp lại, dài $3-12cm$, rộng $2-6cm$. Cụm hoa hình bông mọc ở kẽ lá, nhỏ, màu trắng hay tím đỏ nhạt. Những bông ở phía trên dài và gầy hơn. Quả mọng, nhỏ hình cầu hay hình trứng, dài chừng $5-5mm$, màu tím đen khi chín.",
+        "thanh_phan_hoa_hoc": "['$vitamin A$, $vitamin B$, $saponin$, chất nhầy và chất sắt.']",
+        "lieu_dung_tong_quat": "Người ta hái thân và lá vào mùa hạ và mùa thu."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "481"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_CHUA_TOAN"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [],
+        "cong_nang": "hoạt trung, tán nhiệt, lợi đại tiểu trường"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mồng tơi là một dây leo, sống hằng năm hay hai năm. Thân mọc cuốn, dài $1,50-2m$. Thân có phân nhánh, màu xanh nhạt hoặc tím nhạt. Lá mọc so le, đơn, nguyên, mẫm, có cuống, phiến lá hình trứng, đầu nhọn, phía cuống bằng hay hơi hẹp lại, dài $3-12cm$, rộng $2-6cm$. Cụm hoa hình bông mọc ở kẽ lá, nhỏ, màu trắng hay tím đỏ nhạt. Những bông ở phía trên dài và gầy hơn. Quả mọng, nhỏ hình cầu hay hình trứng, dài chừng $5-5mm$, màu tím đen khi chín.",
+        "thanh_phan_hoa_hoc": [
+          "$vitamin A$, $vitamin B$, $saponin$, chất nhầy và chất sắt."
+        ],
+        "lieu_dung_tong_quat": "Người ta hái thân và lá vào mùa hạ và mùa thu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc có tính hàn."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      }
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc có vị chua."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      }
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$vitamin A$, $vitamin B$, $saponin$, chất nhầy và chất sắt.",
+        "ghi_chu": "trong rau mồng tơi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$vitamin A$, $vitamin B$, $saponin$, chất nhầy và chất sắt.",
+        "ghi_chu": "trong rau mồng tơi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$vitamin A$, $vitamin B$, $saponin$, chất nhầy và chất sắt.",
+        "ghi_chu": "trong rau mồng tơi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "CT_VT_VN_T481"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "B_DE_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "CT_VT_VN_T481"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "CT_VT_VN_T481"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "S_DAU_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ép quả dùng nhỏ mắt",
+        "ghi_chu": "CT_VT_VN_T482"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "S_VU_SUNG_NUT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rau mồng tơi giã đắp",
+        "ghi_chu": "CT_VT_VN_T482"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rau mồng tơi giã đắp",
+        "ghi_chu": "CT_VT_VN_T482"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_HOAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị hoạt trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_TAN_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_LOI_DAI_TIEU_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi đại tiểu trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_HOAT_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hoạt tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_LUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lương huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "CN_GIAI_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giải nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_RAU_MONG_TOI",
+      "to": "DL_KHONG_DOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "all_sources": [
+          "CT_VT_VN_T481"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 60.0,
+      "reliability_c_score": 0.7605,
+      "total_confidence_sum": 14.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

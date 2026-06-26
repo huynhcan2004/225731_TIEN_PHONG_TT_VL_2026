@@ -1,0 +1,199 @@
+{
+  "entity_hub": "VI_THUOC_GUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T381",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "381"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Can khương có tác dụng làm ấm, trích cam thảo giúp điều hòa các vị thuốc và giảm tác dụng phụ.",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi.",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc và giảm tác dụng phụ.",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi.",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "S_LANH_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lạnh bụng",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "S_NON_OE",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn ọe",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAN_KHUONG_CK",
+      "to": "S_CO_DOM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa có đờm",
+        "cach_dung": "nước $300ml$ sắc còn $100ml$, chia nhiều lần uống trong ngày. Thấy đỡ thì uống bớt đi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_TA_CAN_KHUONG_C",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "dùng nước cơm chiên thuốc, mỗi lần uống $2-4g$",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_TA_CAN_KHUONG_C",
+      "to": "B_TA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đi tả ra nước",
+        "cach_dung": "dùng nước cơm chiên thuốc, mỗi lần uống $2-4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_LY_CAN_KHUONG_C",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Ngày uống nhiều lần, mỗi lần $2-4g$, chiêu bằng nước cơm hay nước cháo.",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_LY_CAN_KHUONG_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đi lỵ ra máu",
+        "cach_dung": "Ngày uống nhiều lần, mỗi lần $2-4g$, chiêu bằng nước cơm hay nước cháo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_G",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Gừng sống giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_G",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm cúm, nhức đầu, họ, thân thể đau mỏi",
+        "cach_dung": "Gừng sống giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_G",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Gừng sống nhấm từng ít một cho đến khi hết nôn.",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_G",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chưa nôn mửa",
+        "cach_dung": "Gừng sống nhấm từng ít một cho đến khi hết nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,199 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAM_BAM",
+    "ten_raw": "Bàm bàm",
+    "ten_khoa_hoc": "Entada phaseoloides (L.) Merr.; E. sandess Benth.",
+    "ho_thuc_vat": "Trinh nữ Mimosaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Hạt",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Cây mọc hoang dại ở những rừng thứ sinh"
+    },
+    "display_name": "Bàm bàm"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BAM_BAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bam Bam"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ancaloit"
+      }
+    },
+    {
+      "id": "S_GHE",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ghe"
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Can"
+      }
+    },
+    {
+      "id": "BT_SOT_SAI_GIAT_BAM_BAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Sai Giat Bam Bam"
+      }
+    },
+    {
+      "id": "VI_THUOC_GANG_TRAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Gang Trau"
+      }
+    },
+    {
+      "id": "VI_THUOC_CHANH",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Chanh"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T693",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "693"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bàm bàm là một loại dây leo, cúng. Lá kép hai lần lông chim, cuống chính dài $10-25cm$, tận cùng bởi một tua cuống xẻ hai. Cuống phụ gồm hai đôi. Phiến lá chét $2-4$ đôi, hình trứng dài $4-6cm$, rộng $2-3cm$. Hoa màu trắng nhạt, mọc thành bông, ít hoa ở kẽ lá, dài $15-20cm$. Quả dài $45$ $60cm$ có khi tới $1m$, rộng $5-7cm$, hơi hẹp lại giữa các hạt. Hạt nhẵn, dày, màu nâu, đường kính $4-5cm$, có vỏ dày cứng như sừng ( Hình 523)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong toàn cây chứa một thứ $saponin$, nhiều nhất trong vỏ, trong hạt, ít hơn trong gỗ.",
+        "ghi_chu": "trong toàn cây, nhiều nhất trong vỏ, trong hạt, ít hơn trong gỗ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài $saponin$, trong hạt còn chứa một $ancaloit$ và một chất dầu béo (hàm lượng dầu béo khoảng $18$\\%) màu vàng, không vị.",
+        "ghi_chu": "trong hạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "S_GHE",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vỏ [cây bàm bàm] giã nát ngâm nước. Dùng nước ấy tắm ghẻ, bã vỏ thì xát lên người vào những nơi ghẻ",
+        "ghi_chu": "dùng ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hạt bàm bàm",
+        "cach_dung": "Đặt lên vết rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_SAI_GIAT_BAM_BAM",
+      "to": "VI_THUOC_BAM_BAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_SAI_GIAT_BAM_BAM",
+      "to": "VI_THUOC_GANG_TRAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_SAI_GIAT_BAM_BAM",
+      "to": "VI_THUOC_CHANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_SAI_GIAT_BAM_BAM",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Xát khắp người trẻ em như kiểu đánh gió"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_CHO_DE_RANG_CUA",
+  "source": {
+    "source_id": "CT_VT_VN_T112",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "112"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DINH_RAU_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để chữa đinh râu, mụn nhọt.",
+        "cach_dung": "Dùng ngoài",
+        "ghi_chu": "Không rõ liều lượng, giã nát với muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_BENH_GAN_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để chữa bệnh gan.",
+        "cach_dung": "Sao khô sắc đặc mà uống",
+        "ghi_chu": "Liều dùng $20-40g$ cây tươi (liều chung)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_SOT_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để chữa sốt.",
+        "cach_dung": "Sao khô sắc đặc mà uống",
+        "ghi_chu": "Liều dùng $20-40g$ cây tươi (liều chung)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để chữa đau mắt.",
+        "cach_dung": "Sao khô sắc đặc mà uống",
+        "ghi_chu": "Liều dùng $20-40g$ cây tươi (liều chung)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để chữa rắn cắn.",
+        "cach_dung": "Sao khô sắc đặc mà uống",
+        "ghi_chu": "Liều dùng $20-40g$ cây tươi (liều chung)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_TIEN_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để thông tiểu tiện.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không rõ liều lượng và cách dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_CHO_DE_RANG_CUA_C",
+      "to": "VI_THUOC_CHO_DE_RANG_CUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc chính để thông sữa.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không rõ liều lượng và cách dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_DINH_RAU_CHO_DE_RANG_CUA_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đinh râu, mụn nhọt",
+        "cach_dung": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_BENH_GAN_CHO_DE_RANG_CUA_C",
+      "to": "B_BENH_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh gan",
+        "cach_dung": "Sao khô sắc đặc mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_SOT_CHO_DE_RANG_CUA_C",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Sao khô sắc đặc mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_CHO_DE_RANG_CUA_C",
+      "to": "S_DAU_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt",
+        "cach_dung": "Sao khô sắc đặc mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_CHO_DE_RANG_CUA_C",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rắn cắn",
+        "cach_dung": "Sao khô sắc đặc mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_TIEN_CHO_DE_RANG_CUA_C",
+      "to": "S_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc thông tiểu tiện",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_CHO_DE_RANG_CUA_C",
+      "to": "S_IT_SUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc thông sữa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T112"
+      }
+    }
+  ],
+  "metadata": {}
+}

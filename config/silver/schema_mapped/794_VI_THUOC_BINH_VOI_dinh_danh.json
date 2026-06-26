@@ -1,0 +1,112 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BINH_VOI",
+    "ten_raw": "Bình vôi",
+    "ten_khoa_hoc": "Stephania rotunda Lour.; Stephania glabra (Roxb.) Miers.",
+    "ho_thuc_vat": "Tiết dê Menispermaceae",
+    "variants": [
+      "Stephania glabra",
+      "cây củ bình vôi",
+      "củ bình vôi",
+      "cây củ gà ấp",
+      "củ gà ấp"
+    ],
+    "properties": {
+      "bo_phan_dung": "phần dưới thân phát triển thành củ to",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Không có thông tin",
+      "phan_bo": "Hà Tây, Hoà Bình, Hà Giang, Tuyên Quang, Nam Định, Hà Nam, Ninh Bình, Cao Bằng, Lạng Sơn, Thanh Hoá, Sapa (Lào Cai)"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T794",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "794"
+      },
+      "dac_tinh_yhct": {
+        "tinh": "Ôn",
+        "quy_kinh": [],
+        "cong_nang": "ôn phế, hạ khí, hoá đờm, chỉ ho",
+        "kieng_ky_dac_biet": "không độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây củ bình vôi là một loại cây mọc leo, phần dưới thân phát triển thành củ to, bám vào núi đá, có củ rất to, nặng tới hơn $20kg$. Da thân củ màu nâu đen, xù xì giống như hòn đá, hình dáng thay đổi tuỳ theo nơi củ phát triển. Nếu mọc ở đất thì củ nhỏ hơn. Có người gọi là “củ gà ấp”. Hiện nay có người cho cây củ gà ấp là cây củ bình với mọc ở núi đất. Có người lại cho là cây củ gà ấp và cây củ bình vôi là hai cây thuộc hai loài khác hẳn nhau (cần chú ý kiểm tra lại). Từ thân củ mọc lên những thân màu xanh, nhỏ, mềm. Lá hình khiên, mọc so le, hình bầu dục hay hình tim hoặc tròn, đường kính $8$-$9cm$, cuống lá dài $5-$ $8cm$. Hoa nhỏ mọc thành tán. Hoa đực cái khác gốc. Hoa cái có cuống tấn ngắn, còn hoa đực có cuống tán dài. Quả chín hình cầu màu đỏ, tươi, trong chứa một hạt hình móng ngựa (Hình 607, Hm 39,1)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    },
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "HC_ROTUNDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1940, Bùi Đình Sang đã chiết từ củ bình với mọc ở Việt Nam các chất tinh bột, đường khử oxy, axit malic, men oxydaza và một ancaloit với tỷ lệ $1,2$ đến $1,5%$ (tính trên củ tươi), được Bùi Đình Sang đặt tên là rotundin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    },
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "HC_HYNDARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại Ấn Độ, năm 1950 và 1952, Chaudry G. R và S Siddiqui nghiên cứu và chiết từ củ cây Stephania glabra (Roxb.) Miers nhiều ancaloit và đặt tên là hyndarin C,H,ON, stefarin C, H,O.N và xyckanin C. HON, 780 18 19"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    },
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "HC_STEFARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại Ấn Độ, năm 1950 và 1952, Chaudry G. R và S Siddiqui nghiên cứu và chiết từ củ cây Stephania glabra (Roxb.) Miers nhiều ancaloit và đặt tên là hyndarin C,H,ON, stefarin C, H,O.N và xyckanin C. HON, 780 18 19"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    },
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "HC_XYCKANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại Ấn Độ, năm 1950 và 1952, Chaudry G. R và S Siddiqui nghiên cứu và chiết từ củ cây Stephania glabra (Roxb.) Miers nhiều ancaloit và đặt tên là hyndarin C,H,ON, stefarin C, H,O.N và xyckanin C. HON, 780 18 19"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    },
+    {
+      "from": "VI_THUOC_BINH_VOI",
+      "to": "HC_ANKALOIT_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài rotundin ra, năm 1964, tại Bộ môn dược liệu (Trường đại học dược khoa, Hà Nội) Ngô Vân Thu còn chiết từ củ bình vôi Việt Nam một ancaloit mới với tỷ lệ $1%$ và đặt tên là ancaloit A"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T794"
+      }
+    }
+  ]
+}

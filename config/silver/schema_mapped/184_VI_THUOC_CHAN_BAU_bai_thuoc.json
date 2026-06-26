@@ -1,0 +1,184 @@
+{
+  "entity_hub": "VI_THUOC_CHAN_BAU",
+  "source": {
+    "source_id": "CT_VT_VN_T184",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "184"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GIUN_DUA_CHAN_BAU_M",
+      "to": "VI_THUOC_CHAN_BAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chân bầu và lá mơ tam thể phối hợp để tăng hiệu quả tẩy giun.",
+        "cach_dung": "Thái nhỏ hai thứ trộn đều thêm bột và nước, làm bánh ăn vào sáng sớm lúc đói.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GIUN_DUA_CHAN_BAU_M",
+      "to": "VT_MO_TAM_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chân bầu và lá mơ tam thể phối hợp để tăng hiệu quả tẩy giun.",
+        "cach_dung": "Thái nhỏ hai thứ trộn đều thêm bột và nước, làm bánh ăn vào sáng sớm lúc đói.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GIUN_DUA_CHAN_BAU_M",
+      "to": "VI_THUOC_CHAN_BAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa giun đũa.",
+        "cach_dung": "Thái nhỏ hai thứ trộn đều thêm bột và nước, làm bánh ăn vào sáng sớm lúc đói."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAN_BAU",
+      "to": "BT_GIUN_DUA_CHAN_BAU_M",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chân bầu và lá mơ tam thể phối hợp để tăng hiệu quả tẩy giun.",
+        "cach_dung": "Thái nhỏ hai thứ trộn đều thêm bột và nước, làm bánh ăn vào sáng sớm lúc đói.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GIUN_CHAN_BAU_C",
+      "to": "VI_THUOC_CHAN_BAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị chất nhớt ở vỏ cành non để tẩy giun.",
+        "cach_dung": "Dùng chất nhớt ở vỏ những cành non.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GIUN_CHAN_BAU_C",
+      "to": "VI_THUOC_CHAN_BAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Để làm thuốc giun.",
+        "cach_dung": "Dùng chất nhớt ở vỏ những cành non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAN_BAU",
+      "to": "BT_GIUN_CHAN_BAU_C",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị chất nhớt ở vỏ cành non để tẩy giun.",
+        "cach_dung": "Dùng chất nhớt ở vỏ những cành non.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GAU_GO_CHAN_BAU_VTN",
+      "to": "VI_THUOC_CHAN_BAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây chân bầu, thóc và dây ký ninh phối hợp để bồi bổ cho trâu bò ngựa gầy gò.",
+        "cach_dung": "Nấu với $5kg$ thóc. Sau đó cho trâu bò ngựa uống nước sắc hoặc thóc ngâm cây dây ký ninh.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GAU_GO_CHAN_BAU_VTN",
+      "to": "VT_THOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vỏ cây chân bầu, thóc và dây ký ninh phối hợp để bồi bổ cho trâu bò ngựa gầy gò.",
+        "cach_dung": "Nấu với $5kg$ thóc. Sau đó cho trâu bò ngựa uống nước sắc hoặc thóc ngâm cây dây ký ninh.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GAU_GO_CHAN_BAU_VTN",
+      "to": "VT_DAY_KY_NINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vỏ cây chân bầu, thóc và dây ký ninh phối hợp để bồi bổ cho trâu bò ngựa gầy gò.",
+        "cach_dung": "Nấu với $5kg$ thóc. Sau đó cho trâu bò ngựa uống nước sắc hoặc thóc ngâm cây dây ký ninh.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "BT_GAU_GO_CHAN_BAU_VTN",
+      "to": "B_GAU_GO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trâu bò ngựa gầy gò.",
+        "cach_dung": "Nấu với $5kg$ thóc. Sau đó cho trâu bò ngựa uống nước sắc hoặc thóc ngâm cây dây ký ninh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAN_BAU",
+      "to": "BT_GAU_GO_CHAN_BAU_VTN",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây chân bầu, thóc và dây ký ninh phối hợp để bồi bổ cho trâu bò ngựa gầy gò.",
+        "cach_dung": "Nấu với $5kg$ thóc. Sau đó cho trâu bò ngựa uống nước sắc hoặc thóc ngâm cây dây ký ninh.",
+        "ghi_chu": "CT_VT_VN_T185"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T184"
+      }
+    }
+  ],
+  "metadata": {}
+}

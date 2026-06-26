@@ -1,0 +1,712 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THAO_QUA",
+    "ten_raw": "Thảo quả",
+    "ten_khoa_hoc": "$Amomum tsao-ko Crév. et Lem. (Amomum aromaticum Roxb. Amomum medium Lour.)$",
+    "ho_thuc_vat": "$Họ Gừng (Zingiberaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "lieu_dung_chung": "Liều dùng hàng ngày: $3$ đến $6$g dùng riêng hay phố hợp với nhiều vị thuốc khác, sắc hay làm thành thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Thảo quả được trồng và mọc hoang ở những vùng khí hậu mát miền Bắc Việt Nam, chủ yếu tại Lào Cai, Cao Bằng, Hà Giang, Tuyên Quang, Lai Châu. Còn thấy ở một số tỉnh Hoa Nam Trung Quốc (Quảng Tây, Vân Nam). Cây thảo quả được đưa vào trồng ở Việt Nam vào khoảng năm 1890, từ các tỉnh biên giới Việt Trung. Người ta trồng thành rừng rộng, ở độ cao 1.000-1.500m, diện tích hiện nay khoảng 700-800ha.",
+      "thu_hai": "thu hoạch vào các tháng 10-12, khả năng ước lượng khoảng $500$ tấn mỗi năm.",
+      "che_bien_tho": "khi hái về người ta phơi trên phên thưa và sấy lửa nhẹ luôn $3$ hay $4$ ngày đêm cho đến khi khô. khi quả thảo quả khô, màu sẽ ngả xám nâu nhạt, nhiều nét nhãn dọc và thường được phủ một lớp phấn trắng, mỗi quả cần nặng chừng $4g$. khi sấy không nên để lửa quá già, vỏ có thể bị cháy sém mà trong ruột hạt chưa thật khô, dễ bị vụn. sau đó đóng bao, mỗi bao $50$ đến $100kg$. để nơi khô ráo. khi nào dùng mới bóc vỏ ngoài lấy hạt, nếu bóc lấy hạt ngay sẽ chóng mất mùi thơm."
+    },
+    "display_name": "Vị thuốc Thảo quả",
+    "canonical_name": "Vị thuốc Thảo quả"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_RET_THAO_QUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét Thảo quả",
+        "aliases": [
+          "sốt rét thảo quả",
+          "sot ret thao qua",
+          "sotretthaoqua"
+        ],
+        "search_vector_hint": "Sốt rét Thảo quả thuộc nhóm bệnh, thường liên quan đến nhiễm ký sinh trùng sốt rét."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_HOA_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hóa tích",
+        "aliases": [
+          "hoatich",
+          "hoa tich",
+          "hóa tích"
+        ],
+        "search_vector_hint": "Hóa tích thuộc nhóm công năng, thường liên quan đến tiêu hóa thức ăn."
+      }
+    },
+    {
+      "id": "CN_KHU_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu hàn",
+        "aliases": [
+          "khuhan",
+          "khu han",
+          "khu hàn"
+        ],
+        "search_vector_hint": "Khu hàn thuộc nhóm công năng, thường liên quan đến loại bỏ khí hàn."
+      }
+    },
+    {
+      "id": "CN_KIEN_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Kiện tỳ",
+        "aliases": [
+          "kiện tỳ",
+          "kienty",
+          "kien ty"
+        ],
+        "search_vector_hint": "Công năng Kiện tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Táo thấp",
+        "aliases": [
+          "tao thap",
+          "táo thấp",
+          "taothap"
+        ],
+        "search_vector_hint": "Táo thấp thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TIEU_THUC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu thực",
+        "aliases": [
+          "tieu thuc",
+          "tieuthuc",
+          "tiêu thực"
+        ],
+        "search_vector_hint": "Công năng Tiêu thực thuộc nhóm công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TRU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ đờm",
+        "aliases": [
+          "khudam",
+          "khử đàm",
+          "khu dam",
+          "trudom",
+          "tru dom",
+          "trừ đờm"
+        ],
+        "search_vector_hint": "Công năng Trừ đờm thuộc nhóm công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_1_8_CINEOLE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất 1 8 Cineole",
+        "aliases": [
+          "1 8 cineole",
+          "18cineole"
+        ],
+        "search_vector_hint": "1 8 Cineole thuộc nhóm hoạt chất, thường liên quan đến tác dụng kháng khuẩn."
+      }
+    },
+    {
+      "id": "HC_CITRAL_B_GERANIAL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Citral B Geranial",
+        "aliases": [
+          "citralbgeranial",
+          "citral b geranial"
+        ],
+        "search_vector_hint": "Citral B Geranial thuộc nhóm hoạt chất, thường liên quan đến hương liệu."
+      }
+    },
+    {
+      "id": "HC_TERPINEOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Terpineol",
+        "aliases": [
+          "terpineol"
+        ],
+        "search_vector_hint": "Terpineol thuộc nhóm hoạt chất, thường liên quan đến tác dụng sát trùng."
+      }
+    },
+    {
+      "id": "HC_TRANS_2_UNDECANAL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Trans 2 Undecanal",
+        "aliases": [
+          "trans2undecanal",
+          "trans 2 undecanal"
+        ],
+        "search_vector_hint": "Trans 2 Undecanal thuộc nhóm hoạt chất, thường liên quan đến hương liệu."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_HOI_MIENG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hôi miệng",
+        "aliases": [
+          "hoimieng",
+          "hôi miệng",
+          "hoi mieng"
+        ],
+        "search_vector_hint": "Triệu chứng Hôi miệng thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_KHA_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Kha tử",
+        "aliases": [
+          "kha tu",
+          "khatu",
+          "kha tử"
+        ],
+        "search_vector_hint": "Kha tử thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý đường hô hấp."
+      }
+    },
+    {
+      "id": "VT_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh khương",
+        "aliases": [
+          "sinh khuong",
+          "sinh khương",
+          "gungtuoi",
+          "gung tuoi",
+          "gừng tươi",
+          "sinhkhuong"
+        ],
+        "search_vector_hint": "Sinh khương thuộc nhóm Vị thuốc, thường liên quan đến giải cảm, ấm bụng."
+      }
+    },
+    {
+      "id": "VT_TAO_DEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Táo đen",
+        "aliases": [
+          "taoden",
+          "tao den",
+          "táo đen"
+        ],
+        "search_vector_hint": "Vị thuốc Táo đen thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_THAO_QUA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thảo quả",
+        "aliases": [
+          "thao qua",
+          "thảo quả",
+          "thaoqua"
+        ],
+        "search_vector_hint": "Thảo quả thuộc nhóm vị thuốc, thường liên quan đến tăng cường tiêu hóa.",
+        "bo_phan_dung": "quả",
+        "lieu_dung_chung": "Liều dùng hàng ngày: $3$ đến $6$g dùng riêng hay phố hợp với nhiều vị thuốc khác, sắc hay làm thành thuốc viên.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Thảo quả được trồng và mọc hoang ở những vùng khí hậu mát miền Bắc Việt Nam, chủ yếu tại Lào Cai, Cao Bằng, Hà Giang, Tuyên Quang, Lai Châu. Còn thấy ở một số tỉnh Hoa Nam Trung Quốc (Quảng Tây, Vân Nam). Cây thảo quả được đưa vào trồng ở Việt Nam vào khoảng năm 1890, từ các tỉnh biên giới Việt Trung. Người ta trồng thành rừng rộng, ở độ cao 1.000-1.500m, diện tích hiện nay khoảng 700-800ha.",
+        "thu_hai": "thu hoạch vào các tháng 10-12, khả năng ước lượng khoảng $500$ tấn mỗi năm.",
+        "che_bien_tho": "khi hái về người ta phơi trên phên thưa và sấy lửa nhẹ luôn $3$ hay $4$ ngày đêm cho đến khi khô. khi quả thảo quả khô, màu sẽ ngả xám nâu nhạt, nhiều nét nhãn dọc và thường được phủ một lớp phấn trắng, mỗi quả cần nặng chừng $4g$. khi sấy không nên để lửa quá già, vỏ có thể bị cháy sém mà trong ruột hạt chưa thật khô, dễ bị vụn. sau đó đóng bao, mỗi bao $50$ đến $100kg$. để nơi khô ráo. khi nào dùng mới bóc vỏ ngoài lấy hạt, nếu bóc lấy hạt ngay sẽ chóng mất mùi thơm.",
+        "ten_khoa_hoc": "$Amomum tsao-ko Crév. et Lem. (Amomum aromaticum Roxb. Amomum medium Lour.)$",
+        "ho_thuc_vat": "$Họ Gừng (Zingiberaceae)$",
+        "hinh_thai_chi_tiet": "Thảo quả là một loài cỏ sống lâu năm, cao chừng $2,5-3m$, thân rễ mọc ngang, to thô, có đốt, đường kính chừng $2,5-4cm$, giữa có màu trắng nhạt, phía ngoài màu hồng, thơm, mẫm, rất chóng thành xơ. Lá mọc so le, có lá có cuống ngắn, có lá không cuống, bẹ lá có khía dọc, phiến lá dài $0,60-0,70m$, rộng tới $0,20m$, nhẵn, mặt trên màu xanh sẫm, mặt dưới hơi mờ, mép nguyên. Cụm hoa thành bông mọc từ gốc, dài chừng $13-20cm$, hoa màu đỏ nhạt. Quả từ $8$ đến $17$ trên mỗi bông, khi chín có màu đỏ nâu dài khoảng $3-4cm$, đường kính $2-3cm$, khi còn tươi mặt bóng nhẵn, vỏ ngoài dày $5mm$. Trong quả chia thành $3$ ngăn, mỗi ngăn có chừng $7$ hạt có áo hạt hình tháp ép vào nhau, rất thơm",
+        "thanh_phan_hoa_hoc": "['[CT_VT_VN_T425]: Trong thảo quả có chừng $1-1,5\\\\%$ tinh dầu. Tinh dầu màu vàng nhạt, mùi thơm ngọt, vị nóng cay dễ chịu (Đỗ Tất Lợi, 1957). Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$.']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "424"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_VI",
+          "K_TY"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thảo quả là một loài cỏ sống lâu năm, cao chừng $2,5-3m$, thân rễ mọc ngang, to thô, có đốt, đường kính chừng $2,5-4cm$, giữa có màu trắng nhạt, phía ngoài màu hồng, thơm, mẫm, rất chóng thành xơ. Lá mọc so le, có lá có cuống ngắn, có lá không cuống, bẹ lá có khía dọc, phiến lá dài $0,60-0,70m$, rộng tới $0,20m$, nhẵn, mặt trên màu xanh sẫm, mặt dưới hơi mờ, mép nguyên. Cụm hoa thành bông mọc từ gốc, dài chừng $13-20cm$, hoa màu đỏ nhạt. Quả từ $8$ đến $17$ trên mỗi bông, khi chín có màu đỏ nâu dài khoảng $3-4cm$, đường kính $2-3cm$, khi còn tươi mặt bóng nhẵn, vỏ ngoài dày $5mm$. Trong quả chia thành $3$ ngăn, mỗi ngăn có chừng $7$ hạt có áo hạt hình tháp ép vào nhau, rất thơm",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T425]: Trong thảo quả có chừng $1-1,5\\%$ tinh dầu. Tinh dầu màu vàng nhạt, mùi thơm ngọt, vị nóng cay dễ chịu (Đỗ Tất Lợi, 1957). Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THAO_QUA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thảo quả có tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Thảo quả có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thảo quả quy kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thảo quả quy kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "HC_1_8_CINEOLE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "HC_TRANS_2_UNDECANAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "HC_CITRAL_B_GERANIAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "HC_TERPINEOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1989, Nguyễn Xuân Dũng và cộng sự đã nghiên cứu thấy trong tinh dầu thảo quả có các thành phần chủ yếu: $1-8 cineol$, $trans-2 undecanal$, $citral B (geranial)$ , $ -terpineol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "S_HOI_MIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngậm vào miệng, nuốt nước",
+        "ghi_chu": "Thảo quả dã dạp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "VT_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Sắc uống trị sốt rét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "VT_KHA_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Sắc uống trị sốt rét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "7 miếng",
+        "vai_tro": "Tá",
+        "ghi_chu": "Sắc uống trị sốt rét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "VT_TAO_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "2 quả",
+        "vai_tro": "Sứ",
+        "ghi_chu": "Sắc uống trị sốt rét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_THAO_QUA",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_KHU_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khứ hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_TRU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_TIEU_THUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thực."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_HOA_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hóa tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAO_QUA",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424",
+        "all_sources": [
+          "CT_VT_VN_T424"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 56.5,
+      "reliability_c_score": 0.758,
+      "total_confidence_sum": 18.95
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

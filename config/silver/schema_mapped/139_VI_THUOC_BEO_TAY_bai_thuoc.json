@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_BEO_TAY",
+  "source": {
+    "source_id": "CT_VT_VN_T139",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "139"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_VET_THUONG_B",
+      "to": "VI_THUOC_BEO_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bèo tây có tác dụng thanh nhiệt, giải độc, tiêu viêm, thường được dùng để chữa mụn nhọt, vết thương.",
+        "cach_dung": "Đắp lên nơi sưng tấy.",
+        "ghi_chu": "Ngày thay hai hay ba lần. Nếu chưa nung mủ thường sẽ tan, nếu đã nung mủ rồi thời gian nung mủ rút ngắn, chóng vỡ hay chóng trích được hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_VET_THUONG_B",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau (mụn nhọt, vết thương)",
+        "cach_dung": "Đắp lên nơi sưng tấy. Khô thì lại thay miếng đắp khác. Ngày thay hai hay ba lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_VET_THUONG_B",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau (mụn nhọt, vết thương)",
+        "cach_dung": "Đắp lên nơi sưng tấy. Khô thì lại thay miếng đắp khác. Ngày thay hai hay ba lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    },
+    {
+      "from": "BT_SUNG_TAY_VIEM_LOET_B",
+      "to": "VI_THUOC_BEO_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bèo tây có tác dụng thanh nhiệt, giải độc, tiêu viêm, thường được dùng để chữa sưng tấy, viêm loét.",
+        "cach_dung": "Đắp lên nơi sưng tấy, viêm loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    },
+    {
+      "from": "BT_SUNG_TAY_VIEM_LOET_B",
+      "to": "B_SUNG_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sưng tấy, viêm loét do các chất độc hóa học",
+        "cach_dung": "Đắp lên nơi sưng tấy, viêm loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    },
+    {
+      "from": "BT_SUNG_TAY_VIEM_LOET_B",
+      "to": "B_VIEM_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sưng tấy, viêm loét do các chất độc hóa học",
+        "cach_dung": "Đắp lên nơi sưng tấy, viêm loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T139"
+      }
+    }
+  ],
+  "metadata": {}
+}

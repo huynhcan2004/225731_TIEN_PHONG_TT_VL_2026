@@ -1,0 +1,124 @@
+{
+  "entity_hub": "VI_THUOC_THAO_QUA",
+  "source": {
+    "source_id": "CT_VT_VN_T424",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "424"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HOI_MIENG_THAO_QUA_D",
+      "to": "VI_THUOC_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thảo quả có tác dụng khử mùi hôi.",
+        "cach_dung": "Ngậm vào miệng, nuốt nước",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_HOI_MIENG_THAO_QUA_D",
+      "to": "S_HOI_MIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hôi miệng",
+        "cach_dung": "Ngậm vào miệng, nuốt nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "VI_THUOC_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thảo quả kết hợp với các vị thuốc khác để điều trị sốt, sốt rét.",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "VI_THUOC_KHA_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Kha tử hỗ trợ thảo quả trong điều trị sốt, sốt rét.",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "VI_THUOC_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sinh khương hỗ trợ thảo quả trong điều trị sốt, sốt rét.",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "VI_THUOC_TAO_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Táo đen điều hòa các vị thuốc trong bài.",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, đặc biệt dùng trong trường hợp sốt ít, rét nhiều, đại tiểu tiện nhiều quá, không ăn được",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_THAO_QUA_KTST",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, đặc biệt dùng trong trường hợp sốt ít, rét nhiều, đại tiểu tiện nhiều quá, không ăn được",
+        "cach_dung": "Sắc còn $200ml$, chia $3$ lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T424"
+      }
+    }
+  ],
+  "metadata": {}
+}

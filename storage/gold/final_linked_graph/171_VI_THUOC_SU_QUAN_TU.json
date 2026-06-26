@@ -1,0 +1,849 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_SU_QUAN_TU",
+    "ten_raw": "Sử quân tử",
+    "ten_khoa_hoc": "$Quisqualis indica L.$",
+    "ho_thuc_vat": "$Bàng Combretaceae (Combretaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Trên thực tế, sử quân tử thường được dùng chữa giun đũa với liều $3$-$5$ nhân cho trẻ em, $10$ nhân cho người lớn, tối đa $20g$. $3$ giờ sau khi uống hết, nên uống một liều thuốc tẩy, có thể dùng riêng hay phối hợp với những vị thuốc giun khác như binh lang (hạt cau) và thuốc tẩy (đại hoàng). Còn dùng được dưới dạng thuốc sắc ngậm chữa đau nhức răng, ngày ngậm nhiều lần không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Hầu hết các tỉnh miền Bắc và miền Trung nước ta"
+    },
+    "display_name": "Vị thuốc Sử quân tử",
+    "canonical_name": "Vị thuốc Sử quân tử"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAM_THAC_NGHE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Cam thạc nghệ",
+        "aliases": [
+          "cam thạc nghệ",
+          "camthacnghe",
+          "cam thac nghe"
+        ],
+        "search_vector_hint": "Bệnh Cam thạc nghệ thuộc nhóm Bệnh, thường liên quan đến bệnh ở trẻ em."
+      }
+    },
+    {
+      "id": "BT_GIUN_SU_QUAN_TU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Giun sán quản tử",
+        "aliases": [
+          "giunsanquantu",
+          "giun sán quản tử",
+          "giun san quan tu"
+        ],
+        "search_vector_hint": "Bệnh Giun sán quản tử thuộc nhóm Bệnh, thường liên quan đến nhiễm ký sinh trùng giun sán."
+      }
+    },
+    {
+      "id": "B_GIUN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun",
+        "aliases": [
+          "nhiemgiun",
+          "giun",
+          "nhiễm giun",
+          "nhiem giun"
+        ],
+        "search_vector_hint": "Giun thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_HU_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hư thũng",
+        "aliases": [
+          "hư thũng",
+          "phu hu",
+          "phù hư",
+          "hu thung",
+          "phuhu",
+          "huthung"
+        ],
+        "search_vector_hint": "Bệnh Hư thũng thuộc nhóm Bệnh, thường liên quan đến tình trạng phù do suy nhược."
+      }
+    },
+    {
+      "id": "B_NGOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ngọt",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Bệnh Ngọt thuộc nhóm bệnh, thường liên quan đến vị giác."
+      }
+    },
+    {
+      "id": "CN_KHOE_TY_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Kiện tỳ vị",
+        "aliases": [
+          "bổ tỳ vị",
+          "kientyvi",
+          "bo ty vi",
+          "botyvi",
+          "ich ty vi",
+          "kien ty vi",
+          "ích tỳ vị",
+          "ichtyvi",
+          "kiện tỳ vị"
+        ],
+        "search_vector_hint": "Công năng Kiện tỳ vị thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TRI_CAM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị cam",
+        "aliases": [
+          "tricam",
+          "trị cam",
+          "tri cam"
+        ],
+        "search_vector_hint": "Công năng Trị cam thuộc nhóm Công năng, thường liên quan đến điều trị bệnh cam ở trẻ em."
+      }
+    },
+    {
+      "id": "CN_TRI_TA_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị tả lỵ",
+        "aliases": [
+          "chua tieu chay",
+          "chữa tiêu chảy",
+          "dieu tri ly",
+          "tri ta ly",
+          "chuatieuchay",
+          "tritaly",
+          "dieutrily",
+          "điều trị lỵ",
+          "trị tả lỵ"
+        ],
+        "search_vector_hint": "Công năng Trị tả lỵ thuộc nhóm Công năng, thường liên quan đến điều trị tiêu chảy và lỵ."
+      }
+    },
+    {
+      "id": "DL_DIET_GIUN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Diệt giun",
+        "aliases": [
+          "diệt giun",
+          "dietgiun",
+          "diet giun"
+        ],
+        "search_vector_hint": "Dược lý Diệt giun thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt giun sán."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tiêu hóa",
+        "aliases": [
+          "doc tinh tieu hoa",
+          "doctinhtieuhoa",
+          "độc tính tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tiêu hóa thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_NHUAN_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Nhuận tràng",
+        "aliases": [
+          "nhuận tràng",
+          "nhuan trang",
+          "nhuantrang"
+        ],
+        "search_vector_hint": "Nhuận tràng thuộc nhóm Dược lý, thường liên quan đến khả năng làm mềm phân và dễ tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_AXIT_CITRIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Citric",
+        "aliases": [
+          "axit citric",
+          "axitcitric"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Citric thuộc nhóm Hoạt chất, thường liên quan đến một axit hữu cơ có trong nhiều loại quả."
+      }
+    },
+    {
+      "id": "HC_DAU_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dầu béo",
+        "aliases": [
+          "daubeo",
+          "dầu béo",
+          "dau beo"
+        ],
+        "search_vector_hint": "Hoạt chất Dầu béo thuộc nhóm Hoạt chất, thường liên quan đến thành phần lipid có trong dược liệu."
+      }
+    },
+    {
+      "id": "HC_KALI_SUNFAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Kali sunfat",
+        "aliases": [
+          "kalisunfat",
+          "kali sunfat"
+        ],
+        "search_vector_hint": "Hoạt chất Kali sunfat thuộc nhóm hoạt chất, thường liên quan đến các công dụng dược lý."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau răng",
+        "aliases": [
+          "nhuc rang",
+          "nhức răng",
+          "đau răng",
+          "dau rang",
+          "daurang",
+          "nhucrang"
+        ],
+        "search_vector_hint": "Đau răng thuộc nhóm Triệu chứng, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BACH_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch chỉ",
+        "aliases": [
+          "bạch chỉ",
+          "bachchi",
+          "bach chi"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch chỉ thuộc nhóm vị thuốc, thường liên quan đến điều trị cảm mạo, nhức đầu."
+      }
+    },
+    {
+      "id": "VT_HOANG_CAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng cầm",
+        "aliases": [
+          "hoang cam",
+          "hoàng cầm",
+          "hoangcam"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng cầm thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "VT_SU_QUAN_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sử quân tử",
+        "aliases": [
+          "su quan tu",
+          "sử quân tử",
+          "suquantu"
+        ],
+        "search_vector_hint": "Vị thuốc Sử quân tử thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Trên thực tế, sử quân tử thường được dùng chữa giun đũa với liều $3$-$5$ nhân cho trẻ em, $10$ nhân cho người lớn, tối đa $20g$. $3$ giờ sau khi uống hết, nên uống một liều thuốc tẩy, có thể dùng riêng hay phối hợp với những vị thuốc giun khác như binh lang (hạt cau) và thuốc tẩy (đại hoàng). Còn dùng được dưới dạng thuốc sắc ngậm chữa đau nhức răng, ngày ngậm nhiều lần không kể liều lượng.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Hầu hết các tỉnh miền Bắc và miền Trung nước ta",
+        "ten_khoa_hoc": "$Quisqualis indica L.$",
+        "ho_thuc_vat": "$Bàng Combretaceae (Combretaceae)$",
+        "hinh_thai_chi_tiet": "Sử quân tử là một loại dây leo hay nói cho đúng loại cây mọc tựa vào cây khác, hoặc hàng rào. Lá mọc đối, đơn, nguyên, hình trứng đầu nhọn, phía cuống hơi tròn hình tim, dài $7-9cm$, rộng $4-5cm$, cuống ngắn. Hoa hình ống, lúc đầu màu trắng, sau chuyển hồng và đỏ, mọc thành chùm ở kẽ lá hoặc đầu cành, dài $4-10cm$. Quả khô, hình trứng nhọn, dài $35mm$, dầy $20mm$, có 5 cạnh dọc hình 3 cạnh, có chứa một hạt dài phía dưới hơi rộng, phía đầu hơi mỏng, có 5 đường sống chạy dọc (Hinh 112, Hm 7,3).",
+        "thanh_phan_hoa_hoc": "['Trong nhân sử quân tử có chứa từ $21-22\\\\%$ chất dầu béo màu xanh lục nhạt, sền sệt, mùi nhựa, vị nhạt không có tác dụng tẩy giun, Ngoài ra còn chất gồm, các chất hữu cơ, chất đường $19-20\\\\%$ axit hữu cơ (axit xitric), kali sunfat. Hoạt chất hiện nay chưa xác định.']",
+        "lieu_dung_tong_quat": "Không đề cập",
+        "ghi_chu_bo_sung": "Không đề cập",
+        "cach_dung_bao_che": "Không đề cập"
+      }
+    },
+    {
+      "id": "VT_THOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thóc",
+        "aliases": [
+          "thóc",
+          "thoc"
+        ],
+        "search_vector_hint": "Vị thuốc Thóc thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "171"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sử quân tử là một loại dây leo hay nói cho đúng loại cây mọc tựa vào cây khác, hoặc hàng rào. Lá mọc đối, đơn, nguyên, hình trứng đầu nhọn, phía cuống hơi tròn hình tim, dài $7-9cm$, rộng $4-5cm$, cuống ngắn. Hoa hình ống, lúc đầu màu trắng, sau chuyển hồng và đỏ, mọc thành chùm ở kẽ lá hoặc đầu cành, dài $4-10cm$. Quả khô, hình trứng nhọn, dài $35mm$, dầy $20mm$, có 5 cạnh dọc hình 3 cạnh, có chứa một hạt dài phía dưới hơi rộng, phía đầu hơi mỏng, có 5 đường sống chạy dọc (Hinh 112, Hm 7,3).",
+        "thanh_phan_hoa_hoc": [
+          "Trong nhân sử quân tử có chứa từ $21-22\\%$ chất dầu béo màu xanh lục nhạt, sền sệt, mùi nhựa, vị nhạt không có tác dụng tẩy giun, Ngoài ra còn chất gồm, các chất hữu cơ, chất đường $19-20\\%$ axit hữu cơ (axit xitric), kali sunfat. Hoạt chất hiện nay chưa xác định."
+        ],
+        "lieu_dung_tong_quat": "Không đề cập",
+        "ghi_chu_bo_sung": "Không đề cập",
+        "cach_dung_bao_che": "Không đề cập"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhân sử quân tử có chứa từ $21-22\\%$ chất dầu béo màu xanh lục nhạt, sền sệt, mùi nhựa, vị nhạt không có tác dụng tẩy giun",
+        "ghi_chu": "Không đề cập"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "HC_AXIT_CITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất gồm, các chất hữu cơ, chất đường $19-20\\%$ axit hữu cơ (axit xitric), kali sunfat.",
+        "ghi_chu": "Không đề cập"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "HC_KALI_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất gồm, các chất hữu cơ, chất đường $19-20\\%$ axit hữu cơ (axit xitric), kali sunfat.",
+        "ghi_chu": "Không đề cập"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GIUN_SU_QUAN_TU",
+      "to": "VT_SU_QUAN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2phần$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GIUN_SU_QUAN_TU",
+      "to": "VT_THOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "nửa phần",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GIUN_SU_QUAN_TU",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "mo_ta_chi_tiet": "Trẻ em bị giun, gầy còm, kém ăn, ăn không tiêu, da vàng, miệng hay chảy nước giãi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "10 quả",
+        "cach_dung": "Thêm nước vào ($1$ bát) đun sôi và giữ sôi $15$ phút. Ngậm trong ngày. Sau khi ngậm có thể nuốt nước này.",
+        "ghi_chu": "Nhiều khi vừa khỏi đau răng, vừa ra giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "B_HU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "cach_dung": "Đập bỏ vỏ quả, lấy nhân tẩm với mật nướng hay sao cho khô, tán bột mỗi ngày uống $4g$ hòa với nước cơm hay nước cháo",
+        "ghi_chu": "mặt chân sưng phù"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_THAC_NGHE",
+      "to": "VT_SU_QUAN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3phần$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_THAC_NGHE",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5phần$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_THAC_NGHE",
+      "to": "VT_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2phần$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_THAC_NGHE",
+      "to": "B_NGOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "1-5 thìa cà phê",
+        "cach_dung": "chia 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "CN_KHOE_TY_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm khỏe tỳ vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "CN_TRI_CAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa 5 chứng cam của trẻ em."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "CN_TRI_TA_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khỏi chứng tả lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_DIET_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc sử quân tử có tác dụng ức chế và gây mê giun đất. | Nước sắc lá, hoa, vỏ quả, nhân quả giun có tác dụng làm cho giun tê liệt. | Sử quân tử có tác dụng diệt giun mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm dưới da chuột bạch dung dịch nước sắc sử quân tử gây mỏi mệt, hô hấp chậm lại, không đều, sau 1,2 giờ, toàn thân co quắp, hô hấp đình lại mà chết, tuy nhiên tim còn hơi co bóp. Liều tối thiểu gây chết là $0,$02g$/kg$ thể trọng.",
+        "ghi_chu": "Thí nghiệm trên chuột bạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm mạch máu gây hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống vào nhiều gây sưng dạ dày và ruột, đi tả và nấc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu sử quân tử có tác dụng tẩy nhẹ.",
+        "ghi_chu": "Thí nghiệm trên chó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SU_QUAN_TU",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống sử quân tử có thể gây nấc, buồn nôn, nhức đầu, táo bón. Những hiện tượng này chóng hết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T171",
+        "all_sources": [
+          "CT_VT_VN_T171"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 53.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

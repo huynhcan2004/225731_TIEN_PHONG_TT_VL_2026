@@ -1,0 +1,173 @@
+{
+  "entity_hub": "VI_THUOC_NGO_THU_DU",
+  "source": {
+    "source_id": "CT_VT_VN_T393",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "393"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU_NK",
+      "to": "VI_THUOC_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngô thù du trị nôn mửa do hàn, can khương ôn trung tán hàn, hiệp đồng trị nôn mửa.",
+        "mo_ta_chi_tiet": "Chữa nôn mửa, không ỉa",
+        "cach_dung": "nước $300ml$, sắc còn $100ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU_NK",
+      "to": "VI_THUOC_CAN_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngô thù du trị nôn mửa do hàn, can khương ôn trung tán hàn, hiệp đồng trị nôn mửa.",
+        "mo_ta_chi_tiet": "Chữa nôn mửa, không ỉa",
+        "cach_dung": "nước $300ml$, sắc còn $100ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU_NK",
+      "to": "B_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa, không ỉa",
+        "cach_dung": "nước $300ml$, sắc còn $100ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_NGO_THU_DU_MHH",
+      "to": "VI_THUOC_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngô thù du kiện tỳ vị, mộc hương lý khí, hoàng liên thanh nhiệt táo thấp, hiệp đồng giúp tiêu hóa.",
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa",
+        "cach_dung": "Tất cả tán thành bột, trộn đều. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_NGO_THU_DU_MHH",
+      "to": "VI_THUOC_MOC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngô thù du kiện tỳ vị, mộc hương lý khí, hoàng liên thanh nhiệt táo thấp, hiệp đồng giúp tiêu hóa.",
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa",
+        "cach_dung": "Tất cả tán thành bột, trộn đều. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_NGO_THU_DU_MHH",
+      "to": "VI_THUOC_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngô thù du kiện tỳ vị, mộc hương lý khí, hoàng liên thanh nhiệt táo thấp, hiệp đồng giúp tiêu hóa.",
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa",
+        "cach_dung": "Tất cả tán thành bột, trộn đều. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_NGO_THU_DU_MHH",
+      "to": "S_AN_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa",
+        "cach_dung": "Tất cả tán thành bột, trộn đều. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_HA_BO_NGUA_NGO_THU_DU_N",
+      "to": "VI_THUOC_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "mo_ta_chi_tiet": "Hạ bộ chảy nước ngứa ngáy",
+        "cach_dung": "sắc nước mà rửa",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_HA_BO_NGUA_NGO_THU_DU_N",
+      "to": "S_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ bộ chảy nước ngứa ngáy",
+        "cach_dung": "sắc nước mà rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_NHUC_RANG_NGO_THU_DU_N",
+      "to": "VI_THUOC_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "mo_ta_chi_tiet": "Chữa nhức răng",
+        "cach_dung": "ngâm rượu, ngậm vào một lúc lâu rồi nhổ đi",
+        "ghi_chu": "CT_VT_VN_T394, trang 394"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    },
+    {
+      "from": "BT_NHUC_RANG_NGO_THU_DU_N",
+      "to": "S_NHUC_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức răng",
+        "cach_dung": "ngâm rượu, ngậm vào một lúc lâu rồi nhổ đi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393"
+      }
+    }
+  ],
+  "metadata": {}
+}

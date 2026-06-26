@@ -1,0 +1,436 @@
+{
+  "entity_hub": "VI_THUOC_DON_TRANG_HE_MO",
+  "source": {
+    "source_id": "CT_VT_VN_T220",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "220"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_RANG_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị đau răng.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_DON_TRANG_D",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị viêm tai.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAI_DON_TRANG_D",
+      "to": "B_VIEM_TAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau viêm tai",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị băng huyết.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_DON_TRANG_D",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa băng huyết",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_MAU_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị đái ra máu.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_MAU_DON_TRANG_D",
+      "to": "B_DAI_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị vết thương, vết loét.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_DON_TRANG_D",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đắp vết thương, vết loét",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị lỵ.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_DON_TRANG_D",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị rắn cắn.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_DON_TRANG_D",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rắn cắn",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị mụn nhọt.",
+        "cach_dung": "Giã nhỏ đắp lên mụn nhọt.",
+        "ghi_chu": "lá tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_DON_TRANG_D",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Giã nhỏ đắp lên mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_DON_TRANG_D",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị lỵ trực trùng.",
+        "cach_dung": "Giã nhỏ thêm nước đun sôi để nguội, gạn lấy nước trong mà uống.",
+        "ghi_chu": "lá tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_DON_TRANG_D",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ trực trùng",
+        "cach_dung": "Giã nhỏ thêm nước đun sôi để nguội, gạn lấy nước trong mà uống. Có thể thêm ít đường cho dễ uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_DONO",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phối hợp điều trị lỵ mạn tính.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $8g$.",
+        "ghi_chu": "lá khô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_DONO",
+      "to": "VT_BUP_OI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp điều trị lỵ mạn tính.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $8g$.",
+        "ghi_chu": "búp ổi khô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_DONO",
+      "to": "B_LY_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ mạn tính",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $8g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DONH",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phối hợp điều trị đại tiện ra máu.",
+        "cach_dung": "Uống làm hai lần trong ngày.",
+        "ghi_chu": "lá đơn trăng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DONH",
+      "to": "VT_HUYET_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp điều trị đại tiện ra máu.",
+        "cach_dung": "Uống làm hai lần trong ngày.",
+        "ghi_chu": "lá huyết dụ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_DONH",
+      "to": "B_DAI_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đại tiện ra máu",
+        "cach_dung": "Sắc với $400ml$ nước còn $100ml$, uống làm hai lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_DONR",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phối hợp điều trị bạch đới.",
+        "cach_dung": "Uống làm hai lần trong ngày.",
+        "ghi_chu": "lá đơn trăng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_DONR",
+      "to": "VT_RAU_MA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp điều trị bạch đới.",
+        "cach_dung": "Uống làm hai lần trong ngày.",
+        "ghi_chu": "rau má"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_DONR",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới",
+        "cach_dung": "Sắc với $400ml$ nước còn $100ml$, uống làm hai lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_SOT_DON_TRANG_S",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị sốt.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_SOT_DON_TRANG_S",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_HO_DON_TRANG_H",
+      "to": "VI_THUOC_DON_TRANG_HE_MO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị ho.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "liều chung"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "BT_HO_DON_TRANG_H",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa ho",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    }
+  ],
+  "metadata": {}
+}

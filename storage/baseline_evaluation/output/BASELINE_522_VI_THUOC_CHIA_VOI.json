@@ -1,0 +1,56 @@
+{
+  "entity": {
+    "id": "VT_CHIA_VOI",
+    "canonical_name": "Dây chìa vôi",
+    "ten_khoa_hoc": "Cissus modeccoides Planch.; Cissus vitiginea Lour. (non L.) C. triloba Merr., Callicarpa triloba Lour.",
+    "ho_thuc_vat": "Nho (Vitaceae)",
+    "properties": {
+      "bo_phan_dung": "rễ củ",
+      "thu_hai": "quanh năm nhưng tốt nhất vào thu đông",
+      "che_bien_tho": "thái mỏng, phơi hay sấy khô",
+      "lieu_dung_chung": "Ngày dùng $10$ đến $30g$ dưới dạng thuốc sắc hay ngâm rượu uống.",
+      "muc_do_doc": "Có độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CHIA_VOI",
+      "to": "S_DAU_NHUC_XUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trị đau nhức xương",
+        "lieu_luong": "Ngày dùng $10$ đến $30g$",
+        "cach_dung": "dưới dạng thuốc sắc hay ngâm rượu uống"
+      }
+    },
+    {
+      "from": "VT_CHIA_VOI",
+      "to": "S_DAU_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trị đau nhức đầu",
+        "lieu_luong": "Ngày dùng $10$ đến $30g$",
+        "cach_dung": "dưới dạng thuốc sắc hay ngâm rượu uống"
+      }
+    },
+    {
+      "from": "VT_CHIA_VOI",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trị tê thấp",
+        "lieu_luong": "Ngày dùng $10$ đến $30g$",
+        "cach_dung": "dưới dạng thuốc sắc hay ngâm rượu uống"
+      }
+    },
+    {
+      "from": "VT_CHIA_VOI",
+      "to": "CN_KICH_THICH_CO_BOP_TU_CUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kích thích sự co bóp tử cung. Chống chỉ định cho phụ nữ có thai."
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_DAU_SI",
+  "source": {
+    "source_id": "CT_VT_VN_T701",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "701"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đậu si có tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đậu si không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đậu si có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "DL_LOI_TIEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1943, người ta đã dùng nước sắc đậu tương cho chó uống, thấy có tác dụng lợi tiểu. Năm 1944, người ta lại dùng nước sắc đậu tương cho người bệnh phù uống, thấy có tác dụng lợi tiểu rõ rệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "QUY_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_SI",
+      "to": "QUY_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T701"
+      }
+    }
+  ],
+  "metadata": {}
+}

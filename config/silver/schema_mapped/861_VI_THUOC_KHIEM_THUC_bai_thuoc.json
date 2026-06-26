@@ -1,0 +1,77 @@
+{
+  "entity_hub": "VI_THUOC_KHIEM_THUC",
+  "source": {
+    "source_id": "CT_VT_VN_T861",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "861"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_Y_DI_Y",
+      "to": "VI_THUOC_KHIEM_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "mo_ta_chi_tiet": "Ý dĩ 20g, nước 600ml.",
+        "cach_dung": "Sắc còn $200ml$. Uống liên tục đến khi thấy tiểu tiện bình thường",
+        "ghi_chu": "CT_VT_VN_T863"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "BT_PHOI_RA_MAU_Y",
+      "to": "VI_THUOC_KHIEM_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "mo_ta_chi_tiet": "Ý dĩ $40g$, nước $400ml$ ($2$ bát)",
+        "cach_dung": "Sắc còn $1$ bát ($200ml$) thêm ít rượu vào uống làm hai lần trong ngày. Uống luôn $10$ ngày",
+        "ghi_chu": "CT_VT_VN_T863"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "BT_LAO_LUC_YMTBBT",
+      "to": "VI_THUOC_KHIEM_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ phế, dưỡng âm, thanh nhiệt.",
+        "mo_ta_chi_tiet": "Ý dĩ $5g$, mạch môn đông $3g$, tang bạch bì $3g$, bách bộ $3g$, thiên môn đông $3g$, nước $600ml$",
+        "cach_dung": "Sắc còn $200ml$ chia $3$ lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T863"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_YPT",
+      "to": "VI_THUOC_KHIEM_THUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trừ thấp, kiện tỳ, lợi niệu.",
+        "mo_ta_chi_tiet": "Ý dĩ nhân $40g$, phổ thục linh $20g$, nước $600ml$",
+        "cach_dung": "Sắc còn $200ml$. Chia làm $2$ lần uống trong ngày. Uống liền $10$ ngày nếu thấy tiểu tiện nhiều là bệnh giảm",
+        "ghi_chu": "CT_VT_VN_T863"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    }
+  ],
+  "metadata": {}
+}

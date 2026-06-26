@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LA_LOT",
+    "ten_raw": "Lá lốt",
+    "ten_khoa_hoc": "EBE Phyllanthus distichus Muell, Arg.; Phyllanthus acidus Skeels, Cicca disticha L.",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [
+      "QUẢNG PHÒNG KỶ",
+      "chùm ruột",
+      "chùm giuột",
+      "tầm ruộc",
+      "mak nhôm"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T531",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "531"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây leo, sống lâu năm, có thần màu tro nâu hoặc nâu đen. Lá mọc so le, cuống lá dài $1$-$3,5cm$, phiến lá hình trứng dài, chiều dài $3$-$17cm$, rộng $1$-$6cm$, mép nguyên. Hoa đơn độc, mọc ở kẽ lá, tràng hình ống, màu tím, cong ở phía gần giữa (Hình 395)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_LOT",
+      "to": "HC_MUFONGCHIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quảng phòng kỳ, người ta cũng đã tìm thấy một số ancaloit, chủ yếu là $mufongchin A$: C₁₈H₂₁O₃N,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T531"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_LOT",
+      "to": "HC_MUFONGCHIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quảng phòng kỳ, người ta cũng đã tìm thấy một số ancaloit, chủ yếu là $mufongchin B$: CH₂₂O₁₁N"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T531"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_LOT",
+      "to": "HC_MUFONGCHIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quảng phòng kỳ, người ta cũng đã tìm thấy một số ancaloit, chủ yếu là $mufongchin C$: C₁₁₂O₁₃"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T531"
+      }
+    }
+  ]
+}

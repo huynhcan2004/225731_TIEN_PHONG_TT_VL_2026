@@ -1,0 +1,103 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THOM_LOM",
+    "ten_raw": "Thôm lồm",
+    "ten_khoa_hoc": "Polygonum sinense L.",
+    "ho_thuc_vat": "Rau răm Polygonaceae",
+    "variants": [
+      "hồ điệp",
+      "hay hỏa không đăng",
+      "hỏa khôi mẫu"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T134",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "134"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TY",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "thanh nhiệt giải độc, trừ thấp, tiêu thủng chỉ thống",
+        "kieng_ky_dac_biet": "không độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống dai, thân đứng, nhiều khi mọc rất dài và leo, nhẵn và có rãnh dọc. Lá hình bầu dục hay hơi thuôn, phía cuống lá bầu bầu, ngọn lá hẹp nhọn, lá phía trên nhỏ hơn và gần như không cuống và ôm vào thân, cuống ngắn, ở phía dưới có hai tai nhỏ tròn, bẹ chìa mỏng và ngắn hơn các dóng của thân. Cụm hoa thành đầu họp thành xim ngù tận cùng, có cuống phủ rất nhiều lông có hạch tiết. Quả ba cạnh thuôn dài.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    }
+  ]
+}

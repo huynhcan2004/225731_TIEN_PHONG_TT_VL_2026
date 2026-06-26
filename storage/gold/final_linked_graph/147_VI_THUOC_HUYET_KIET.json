@@ -1,0 +1,842 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HUYET_KIET",
+    "ten_raw": "Huyết kiệt",
+    "ten_khoa_hoc": "$Calamus draco Willd. (Daemonorops draco Nred.); Dracaena cinnabari Balf. Dracaena draco$",
+    "ho_thuc_vat": "$Dừa Palmaceae; Hành tỏi (Liliaceae)$",
+    "variants": [
+      "Resina Draconis",
+      "Sanguis Draconis",
+      "máu rồng",
+      "Sang dragon"
+    ],
+    "properties": {
+      "bo_phan_dung": "nhựa màu đỏ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 2 đến 4$g$ uống dưới dạng tán bột hay làm thành viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "những đảo Bocnêô, Sumatra v.v... thuộc Inđônêxya"
+    },
+    "display_name": "Vị thuốc Huyết kiệt",
+    "canonical_name": "Vị thuốc Huyết kiệt"
+  },
+  "nodes": [
+    {
+      "id": "BT_CHAY_MAU_CAM_HUYET_KIET",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Chảy máu cam Huyết kiệt",
+        "aliases": [
+          "chaymaucamhuyetkiet",
+          "chay mau cam huyet kiet",
+          "chảy máu cam huyết kiệt"
+        ],
+        "search_vector_hint": "Chảy máu cam Huyết kiệt thuộc nhóm Bài thuốc, thường liên quan đến điều trị chảy máu cam."
+      }
+    },
+    {
+      "id": "BT_DE_XONG_NGHEN_O_TIM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đề Xông Nghẹn Ở Tim",
+        "aliases": [
+          "đề xông nghẹn ở tim",
+          "dexongnghenotim",
+          "de xong nghen o tim"
+        ],
+        "search_vector_hint": "Đề Xông Nghẹn Ở Tim thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh tim mạch."
+      }
+    },
+    {
+      "id": "B_HUYET_TICH_TRONG_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Huyết tích trong bụng",
+        "aliases": [
+          "tụ máu trong ổ bụng",
+          "huyet tich trong bung",
+          "huyết tích trong bụng",
+          "tumautrongobung",
+          "huyettichtrongbung",
+          "tu mau trong o bung"
+        ],
+        "search_vector_hint": "Huyết tích trong bụng thuộc nhóm Bệnh, thường liên quan đến tụ máu và tổn thương nội tạng."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_NGHEN_O_TIM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Nghẹn ở tim",
+        "aliases": [
+          "đau thắt ngực",
+          "nghen o tim",
+          "dauthatnguc",
+          "dau that nguc",
+          "nghenotim",
+          "nghẹn ở tim"
+        ],
+        "search_vector_hint": "Nghẹn ở tim thuộc nhóm Bệnh, thường liên quan đến tim mạch và thiếu máu cơ tim."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_K_TRU_TA_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Túc Thái Âm Tỳ",
+        "aliases": [
+          "tucthaiamty",
+          "tuc thai am ty",
+          "túc thái âm tỳ"
+        ],
+        "search_vector_hint": "Kinh Túc Thái Âm Tỳ thuộc nhóm Kinh, thường liên quan đến hệ thống kinh mạch trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_SINH_TAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh tân",
+        "aliases": [
+          "sinh tan",
+          "sinh tân",
+          "sinhtan"
+        ],
+        "search_vector_hint": "Sinh tân thuộc nhóm Công năng, thường liên quan đến khả năng tạo ra chất lỏng mới trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_TAN_U",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan ứ",
+        "aliases": [
+          "pha u",
+          "tan u",
+          "phau",
+          "tan ứ",
+          "tanu",
+          "phá ứ"
+        ],
+        "search_vector_hint": "Tan ứ thuộc nhóm Công năng, thường liên quan đến khả năng làm tan các khối tụ máu."
+      }
+    },
+    {
+      "id": "HC_AXIT_ALIATINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Aliatinic",
+        "aliases": [
+          "axit aliatinic",
+          "axitaliatinic"
+        ],
+        "search_vector_hint": "Axit Aliatinic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_AXIT_BENXOIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Benxoic",
+        "aliases": [
+          "axitbenxoic",
+          "axit benxoic"
+        ],
+        "search_vector_hint": "Axit Benxoic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_AXIT_DONG_PHAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Đồng Phân",
+        "aliases": [
+          "axit đồng phân",
+          "axit dong phan",
+          "axitdongphan"
+        ],
+        "search_vector_hint": "Axit Đồng Phân thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_BENZOYLAXETIC_CUA_DRACORESTANOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Benzoylaxetic Của Dracorestanola",
+        "aliases": [
+          "benzoylaxetic cua dracorestanola",
+          "benzoylaxeticcuadracorestanola",
+          "benzoylaxetic của dracorestanola"
+        ],
+        "search_vector_hint": "Benzoylaxetic Của Dracorestanola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_DRACOCACMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dracocacmin",
+        "aliases": [
+          "dracocacmin"
+        ],
+        "search_vector_hint": "Dracocacmin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_DRACORUBIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dracorubin",
+        "aliases": [
+          "dracorubin"
+        ],
+        "search_vector_hint": "Dracorubin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_ETE_BENZOIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ete Benzoic",
+        "aliases": [
+          "etebenzoic",
+          "ete benzoic"
+        ],
+        "search_vector_hint": "Ete Benzoic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tam bao",
+          "tam bảo",
+          "tambao"
+        ],
+        "search_vector_hint": "Tam Bảo thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_CHAY_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Chảy máu cam thuộc nhóm Triệu chứng, thường liên quan đến tổn thương mạch máu ở mũi."
+      }
+    },
+    {
+      "id": "S_VET_THUONG_CHAY_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vết thương chảy máu",
+        "aliases": [
+          "vết thương chảy máu",
+          "vet thuong chay mau",
+          "vetthuongchaymau"
+        ],
+        "search_vector_hint": "Vết thương chảy máu thuộc nhóm Triệu chứng, thường liên quan đến tổn thương và mất máu."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_BO_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bồ hoàng",
+        "aliases": [
+          "bồ hoàng",
+          "bohoang",
+          "bo hoang"
+        ],
+        "search_vector_hint": "Vị thuốc Bồ hoàng thuộc nhóm vị thuốc, thường liên quan đến cầm máu."
+      }
+    },
+    {
+      "id": "VT_HUYET_KIET",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Huyết kiệt",
+        "aliases": [
+          "huyết kiệt",
+          "huyet kiet",
+          "huyetkiet"
+        ],
+        "search_vector_hint": "Huyết kiệt thuộc nhóm Vị thuốc, thường liên quan đến khả năng cầm máu và hoạt huyết.",
+        "bo_phan_dung": "nhựa màu đỏ",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày dùng 2 đến 4$g$ uống dưới dạng tán bột hay làm thành viên.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "những đảo Bocnêô, Sumatra v.v... thuộc Inđônêxya",
+        "ten_khoa_hoc": "$Calamus draco Willd. (Daemonorops draco Nred.); Dracaena cinnabari Balf. Dracaena draco$",
+        "ho_thuc_vat": "$Dừa Palmaceae; Hành tỏi (Liliaceae)$",
+        "hinh_thai_chi_tiet": "Cây huyết kiệt-Calamus draco là một loại song mây có thể dài tới $10m$, đường kính thân đạt tới $2-4cm$. Lá mọc so le, kép, về phía gốc đối khi gần như mọc đối, trên thân và lá rất nhiều gai. Hoa mọc đơn độc, đực cái khác gốc. Quả gần hình cầu đường kính $2cm$, khi chín có màu đỏ, trên quả rất nhiều vảy, khi chín trên mặt những vảy này phủ đầy chất nhựa màu đỏ ( Hình 91 ).",
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      }
+    },
+    {
+      "id": "VT_MOT_DUOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Một dược",
+        "aliases": [
+          "mot duoc",
+          "motduoc",
+          "một dược"
+        ],
+        "search_vector_hint": "Vị thuốc Một dược thuộc nhóm Vị thuốc, thường liên quan đến hoạt huyết, giảm đau."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "147"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây huyết kiệt-Calamus draco là một loại song mây có thể dài tới $10m$, đường kính thân đạt tới $2-4cm$. Lá mọc so le, kép, về phía gốc đối khi gần như mọc đối, trên thân và lá rất nhiều gai. Hoa mọc đơn độc, đực cái khác gốc. Quả gần hình cầu đường kính $2cm$, khi chín có màu đỏ, trên quả rất nhiều vảy, khi chín trên mặt những vảy này phủ đầy chất nhựa màu đỏ ( Hình 91 ).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết kiệt có vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết kiệt có vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết kiệt tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết kiệt vào kinh tâm bào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết kiệt vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_ETE_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ête benzoic$, $benzoylaxetic của dracoresitanola$ kèm theo một ít $axit benxoic$ tự do và tinh dầu.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_BENZOYLAXETIC_CUA_DRACORESTANOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ête benzoic$, $benzoylaxetic của dracoresitanola$ kèm theo một ít $axit benxoic$ tự do và tinh dầu.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_AXIT_BENXOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ête benzoic$, $benzoylaxetic của dracoresitanola$ kèm theo một ít $axit benxoic$ tự do và tinh dầu.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_AXIT_ALIATINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit aliatinic$ và một số ít $axit đồng phân$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_AXIT_DONG_PHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit aliatinic$ và một số ít $axit đồng phân$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_DRACOCACMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$dracocacmin$, $dracorubin$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "HC_DRACORUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$dracocacmin$, $dracorubin$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "S_VET_THUONG_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tán huyết kiệt rắc vào",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM",
+      "to": "VT_HUYET_KIET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM",
+      "to": "VT_MOT_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DE_XONG_NGHEN_O_TIM",
+      "to": "B_NGHEN_O_TIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hòa vào nước tiểu trẻ em mạnh khỏe mà uống",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_HUYET_KIET",
+      "to": "VT_HUYET_KIET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Hai vị bằng nhau",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_HUYET_KIET",
+      "to": "VT_BO_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Hai vị bằng nhau",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_HUYET_KIET",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Tán nhỏ thổi vào mũi",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "B_HUYET_TICH_TRONG_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T148"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ, sinh tân, hoạt huyết, làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài cầm máu, sinh tân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_TAN_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ, sinh tân, hoạt huyết, làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ, sinh tân, hoạt huyết, làm hết đau. Dùng ngoài cầm máu, sinh tân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUYET_KIET",
+      "to": "CN_K_TRU_TA_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ tà khí trong ngũ tạng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T147",
+        "all_sources": [
+          "CT_VT_VN_T147"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 52.5,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

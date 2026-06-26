@@ -1,0 +1,179 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HA_KHO_THAO",
+    "ten_raw": "Hạ khô thảo",
+    "ten_khoa_hoc": "Brunella (Prunella) vulgaris L.",
+    "ho_thuc_vat": "Hoa môi Lamiaceae",
+    "variants": [
+      "Brunella vulgaris Prunella vulgaris L."
+    ],
+    "properties": {
+      "bo_phan_dung": "cụm hoa và quả",
+      "phan_bo": "Sapa (Lào Cai), Tam Đảo (Vĩnh Phúc), Hà Giang, khắp các bãi cỏ, ven đường, bờ ruộng ở khắp các tỉnh miền Bắc nước ta. Còn thấy ở các nước khác như Trung Quốc, Triều Tiên, Nhật Bản và các nước châu Âu.",
+      "thu_hai": "Vào mùa hạ, khi một số quả đã chín thì hái cành mang hoa và quả phơi hay sấy khô.",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T94",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "94"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_DAN"
+        ],
+        "cong_nang": "thanh can hỏa, tán uất kết, tiêu ứ sáng mắt, làm thuốc chữa loa lịch, giải trừ nhiệt độc ở tử cung và âm hộ"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sống dai nhờ thân rễ. Thân vuông, mọc đứng hay mọc bò, cao $15$-$30cm$. Lá mọc đối, hình trứng hay hình ngọn giáo, dài $2$-$6cm$, rộng $1$-$2cm$, hơi có lông. Cụm hoa mọc thành bông ở ngọn thân và nhánh, dài $2$-$8cm$, mang nhiều hoa mọc vòng. Lá bắc hình thận, có mũi nhọn, có lông ở mép, màu lục hay tím. Đài có hai môi, môi trên ngắn, có 3 răng tù, môi dưới xẻ thành hai răng nhọn. Tràng hình môi, màu tím hay tía, ít khi màu hồng hay trắng. Quả bế tư, nhẵn, màu nâu."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_D_CAMPHOR",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu $0,1%$. Thành phần chủ yếu của tinh dầu là chất d.camphor."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_SAPONIN_TRITERPENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Saponin triterpenic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_ALCALOID",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Alcaloid."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_DUONG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_VITAMIN_B1",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin B1"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin C"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_KHO_THAO",
+      "to": "HC_VITAMIN_K",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin K."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T94"
+      }
+    }
+  ]
+}

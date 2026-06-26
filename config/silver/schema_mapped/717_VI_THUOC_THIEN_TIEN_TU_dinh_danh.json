@@ -1,0 +1,138 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THIEN_TIEN_TU",
+    "ten_raw": "Thiên tiên tử",
+    "ten_khoa_hoc": "Flos Daturae; Folium daturae",
+    "ho_thuc_vat": "Họ Cà (Solanaceae)",
+    "variants": [
+      "mạn đà la",
+      "cà độc dược"
+    ],
+    "properties": {
+      "bo_phan_dung": "hoa (Flos Daturae) và lá (Folium daturae)",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T717",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "717"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE"
+        ],
+        "cong_nang": "khử phong thấp, chữa hen xuyễn",
+        "kieng_ky_dac_biet": "Những người thể lực yếu không dùng được."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "cách, nhưng gần đầu cành trông như mọc đối hay mọc vòng. Phiến lá hình trứng dài $9$-$10cm$, rộng từ $4$-$9 cm$, ngọn lá nhọn, phía đáy lá hơi hẹp lại. Hai bên của đáy lá không đều nhau. Mép lá ít khi nguyên, thường lượn sóng hay hơi xẻ răng cưa (độ $3–4$ răng cưa). Mặt lá màu xanh xám, mặt dưới màu xanh nhạt, gân chính và phụ màu xanh, hoặc tím tùy theo dạng. Cuống lá dài $4$-$8cm$. Mặt lá lúc non có nhiều lông, sau rụng dần. Hoa đơn mọc ở kẽ lá, cuống lá dài $1$-$2cm$. Khi hoa héo, một phần còn lại trưởng thành với quả giống hình cái mâm. Loại hoa tím có đốm tím ở trên. Quả hình cầu mặt ngoài có gai, đường kính chừng $3cm$, khi non có màu xanh, khi chín có màu nâu. Quả khi già, nứt theo $3$-$4$ đường hay nứt lung tung ở phía trên. Hạt rất nhiều, hình trứng, dẹt, màu vàng đen, dài $3$-$5mm$, dày $1mm$. Ở cạnh có những vân nổi lên (Hình 542).",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$ $C,H,NO$. Ngoài ra còn có $hyoxyamin$ và $atropin$ $C,H,NO$, ($atropin=d1.$ $hyoxyamin$). Tỷ lệ các ancaloit trên thay đổi tùy theo bộ phận và tùy theo thời kỳ thu hái. Thường trong lá là $0,10-$ $0,50%$, có khi tới $0,600,70%$, trong rễ $0,10$-$0,20%$, trong hạt $0,10$-$0,50%$, trong quả $0,12%$, hoa $0,25-$ $0,60%$.",
+          "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$ $C,H,NO$. Ngoài ra còn có $hyoxyamin$ và $atropin$ $C,H,NO$, ($atropin=d1.$ $hyoxyamin$). Tỷ lệ các ancaloit trên thay đổi tùy theo bộ phận và tùy theo thời kỳ thu hái. Thường trong lá là $0,10-$ $0,50%$, có khi tới $0,600,70%$, trong rễ $0,10$-$0,20%$, trong hạt $0,10$-$0,50%$, trong quả $0,12%$, hoa $0,25-$ $0,60%$."
+        ],
+        "cach_dung_bao_che": "Lá cây khi sắp và đang ra hoa (từ tháng 4-5-6 đến hết tháng 9-10). Hoa hái vào các tháng 8-9-10."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng khử phong thấp, chữa hen xuyễn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "HC_HYOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$ $C,H,NO$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "HC_SCOPOLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$ $C,H,NO$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "HC_HYOXYAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $hyoxyamin$ và $atropin$ $C,H,NO$, ($atropin=d1.$ $hyoxyamin$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TIEN_TU",
+      "to": "HC_ATROPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $hyoxyamin$ và $atropin$ $C,H,NO$, ($atropin=d1.$ $hyoxyamin$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SONG_RAN",
+    "ten_raw": "Cây sóng rắn",
+    "ten_khoa_hoc": "$Albizzia myriophylla Benth.$",
+    "ho_thuc_vat": "$Trinh nữ (Mimosaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mọc hoang dại ở các tỉnh phía Nam"
+    },
+    "display_name": "Cây sóng rắn",
+    "canonical_name": "Cây sóng rắn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_SONG_RAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Song Ran"
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ancaloit"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    },
+    {
+      "id": "HC_FLAVONOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Flavonoit"
+      }
+    },
+    {
+      "id": "HC_STEROIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Steroit"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "888"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bụi mọc cao 2-4m, tựa hay leo, thân có vỏ màu nâu, cành non có lông màu hung. Lá kép có cuống chung dài $9cm$, với 9-16 cặp lá chét, mỗi lá chét lại có từ 20-40 cặp lá chét thứ cấp, dài $5-8mm$, rộng $1mm$, có lông ở dưới và ở dìa. Cụm hoa hình tán, mang hoa hình bán cầu, dài $1mm$, vành $4mm$, có lông vàng, 15 tiểu nhụy, quả giáp dài $12cm$, rộng $2cm$ chứa 4-9 hạt dài $6mm$. màu nâu Thực tế đây là một sự nhầm lẫn giả mạo. Có thể phát hiện sự giả mạo này bằng cách soi bột và vi phẫu, hình dạng, mùi vị: Rễ cam thảo có đường kính đều $5-20mm$, màu đỏ nâu, nơi vỏ nứt lộ ruột màu vàng, còn sóng rắn có đường kính to nhỏ không đều $50-70mm$, vỏ rễ vàng xám nhạt, vỏ rễ có lốm đốm trắng. Rễ cam thảo có vị ngọt thấm lâu và dịu, còn vỏ sóng rắn có vị gắt làm hắt hơi, ngọt ít hơn nhưng sau đó làm tê lưỡi và mất vị giác. Vi phẫu sóng rắn có vòng cương mô liên tục ở miền vỏ rễ, tia tủy nhỏ nên các chùy libe không rõ, còn cam thảo không có vòng cương mô liên tục, tia tủy lớn nên các chùy libe phân cách rõ ràng (Hồ Đắc Ân, Lưu Trọng Hồ và Đỗ Thị Bảo Hạnh-Dược học-6. 1978, 6-9).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T889]: Trong rễ sóng rắn có $0,035\\%$ $ancaloit$, màu trắng ngà, vị rất đắng, $6\\%$ $saponin$ thô màu vàng nâu nhạt, vị gắt cay, hút ẩm ở ngoài không khí. Ngoài ra còn có cho phản ứng $flavonoit$ và $steroit$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ sóng rắn có $0,035\\%$ $ancaloit$, màu trắng ngà, vị rất đắng",
+        "ghi_chu": "trong rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "all_sources": [
+          "CT_VT_VN_T888"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ sóng rắn có $6\\%$ $saponin$ thô màu vàng nâu nhạt, vị gắt cay, hút ẩm ở ngoài không khí.",
+        "ghi_chu": "trong rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "all_sources": [
+          "CT_VT_VN_T888"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_FLAVONOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có cho phản ứng $flavonoit$ và $steroit$.",
+        "ghi_chu": "trong rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "all_sources": [
+          "CT_VT_VN_T888"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_STEROIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có cho phản ứng $flavonoit$ và $steroit$.",
+        "ghi_chu": "trong rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "all_sources": [
+          "CT_VT_VN_T888"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho chuột nhắt (trọng lượng $20g$) uống dung dịch nước với liều $18g/kg$ thể trọng đến $20g/kg$ chuột chết sau 2 đến 3 ngày. Tỷ lệ tử vong $10\\%$ (với liều $18g/kg$) đến $25\\%$ (với liều $20g/kg$).",
+        "ghi_chu": "LD50 chưa rõ ràng, cần thêm dữ liệu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T888",
+        "all_sources": [
+          "CT_VT_VN_T888"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 32.0,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XUONG_KHO",
+    "ten_raw": "Xương khô",
+    "ten_khoa_hoc": "non L.",
+    "ho_thuc_vat": "Không rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T579",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "579"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN"
+        ],
+        "cong_nang": "Nhuận gan, sáng mắt, trừ màng mộng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "lẫn nhiều cành là tốt. Khi soi kính hiển vi sẽ thấy những lông ở đài và tràng gồm nhiều tế bào xếp thành hình chữ thập, tế bào có thành dày, khe hẹp.",
+        "thanh_phan_hoa_hoc": [
+          "Theo Lý Thừa Cố ($1960$, Trung Quốc được dụng thực vật đồ giám) thì trong mật mông hoa có một glucozit có tinh thể hình kim, màu vàng trắng gọi là buddlein hay buddleo glucozit với công thức C,H,,O,.. 2H,O, độ chảy $263°C$. 32 Trong một loại hoa của cây Buddleia variabilis Hemsl. người ta đã chiết được một loại glucozit gọi là buddleoflavonozit C,H,O,, khi thuỷ phân 15 bằng axit sunfuric, sẽ được ramnoza, glucoza và buddleoflavonola C,H,O., nếu thuỷ phân kiểm sẽ được phlorogluxinola ,axit anisic và axeton (theo Wehmer, $1935$, Die Pflanzenstoffe, Erganzungsband). HC I HC-O- HOCH HOC-H 1 | HO–CH 1 HC-OH OH CO 000 H-C-OH | HOCH H-C CH 1 CH3 CH2 -OCH Buddlein"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "mật mông hoa vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "CONG_NANG_NHUAN_GAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng nhuận gan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "CONG_NANG_SANG_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "sáng mắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "CONG_NANG_TRU_MANG_MONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "trừ màng mộng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "HC_BUDDLEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Lý Thừa Cố ($1960$, Trung Quốc được dụng thực vật đồ giám) thì trong mật mông hoa có một glucozit có tinh thể hình kim, màu vàng trắng gọi là buddlein hay buddleo glucozit với công thức C,H,,O,.. 2H,O, độ chảy $263°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "HC_BUDDLEO_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Lý Thừa Cố ($1960$, Trung Quốc được dụng thực vật đồ giám) thì trong mật mông hoa có một glucozit có tinh thể hình kim, màu vàng trắng gọi là buddlein hay buddleo glucozit với công thức C,H,,O,.. 2H,O, độ chảy $263°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "HC_BUDDLEOFLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loại hoa của cây Buddleia variabilis Hemsl. người ta đã chiết được một loại glucozit gọi là buddleoflavonozit C,H,O,, khi thuỷ phân 15 bằng axit sunfuric, sẽ được ramnoza, glucoza và buddleoflavonola C,H,O., nếu thuỷ phân kiểm sẽ được phlorogluxinola ,axit anisic và axeton"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_KHO",
+      "to": "HC_BUDDLEOFLAVONOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loại hoa của cây Buddleia variabilis Hemsl. người ta đã chiết được một loại glucozit gọi là buddleoflavonozit C,H,O,, khi thuỷ phân 15 bằng axit sunfuric, sẽ được ramnoza, glucoza và buddleoflavonola C,H,O., nếu thuỷ phân kiểm sẽ được phlorogluxinola ,axit anisic và axeton"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T579"
+      }
+    }
+  ]
+}

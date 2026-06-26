@@ -1,0 +1,193 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KINH_GIOI",
+    "ten_raw": "Kinh giới",
+    "ten_khoa_hoc": "Elsholtzia cristata Willd.; E. ciliata (Thunb.) Hyland.; Schizonepeta tenuifolia Briq.",
+    "ho_thuc_vat": "Hoa môi Lamiaceae (Labiatae)",
+    "variants": [
+      "giả tô",
+      "khương giới",
+      "kinh giới tuệ",
+      "tiểu kinh giới",
+      "nhung mao kinh giới"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây kinh giới phơi hay sấy khô, gồm cả cành, cả hoa và lá",
+      "phan_bo": "mọc hoang và được trồng ở khắp nơi trong nước ta để làm rau thơm và làm thuốc. Còn thấy mọc ở nhiều nước châu Á khác.",
+      "thu_hai": "Thường thu hái vào mùa hạ, cắt lấy toàn cây, dùng tươi hay phơi khô trong râm.",
+      "che_bien_tho": "Người ta dùng toàn cây tươi hay khô."
+    },
+    "display_name": "Kinh giới"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "626"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống hàng năm, cao $30-50cm$. Thân vuông, màu xanh lục hay tím đỏ, có lông ngắn. Lá mọc đối, hình trứng hay hình mác, dài $2-5cm$, rộng $1-3cm$, mép có răng cưa, hai mặt đều có lông. Cụm hoa mọc thành bông ở ngọn thân và đầu cành, dài $2-8cm$, mang nhiều hoa nhỏ màu tím nhạt. Quả nhỏ, hình trứng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon, isopulegon, elsholtzione, $elsholtziaketone$, $dihydroelsholtziaketone$."
+        ],
+        "ghi_chu_bo_sung": "Cần chú ý ngay rằng vị kinh giới nói ở đây mới là vị kinh giới được giới thiệu trong các tài liệu cổ, trước vẫn nhập của Trung Quốc, ta chưa có. Ở nước ta, nhân dân vẫn dùng một cây khác với tên kinh giới (xem phần mô tả cây này)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_MENTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_OCTANON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_PULEGON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_ISOPULEGON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon, isopulegon"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_ELSHOLTZIONE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon, isopulegon, elsholtzione"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_ELSHOLTZIAKETONE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon, isopulegon, elsholtzione, $elsholtziaketone$"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    },
+    {
+      "from": "VI_THUOC_KINH_GIOI",
+      "to": "HC_DIHYDROELSHOLTZIAKETONE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong kinh giới có $1-1,5\\%$ tinh dầu mà thành phần chủ yếu là d-menton ($40-50\\%$), d-limonen, 3-octanon, pulegon, isopulegon, elsholtzione, $elsholtziaketone$, $dihydroelsholtziaketone$."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T626"
+      }
+    }
+  ]
+}

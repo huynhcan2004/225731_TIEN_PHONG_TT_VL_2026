@@ -1,0 +1,123 @@
+{
+  "entity_hub": "VI_THUOC_BAU_DAT",
+  "source": {
+    "source_id": "CT_VT_VN_T672",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "672"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "đuổi phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "CN_GIAM_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "giảm đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "CN_LY_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "lý khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "hoạt huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng hạ huyết áp rõ rệt và kéo dài dù tiêm mạch máu hay tiêm bắp thịt cũng có tác dụng như nhau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_KICH_THICH_CO_BOP_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "với liều nhỏ dung dịch nước xuyên khung có tác dụng kích thích co bóp của tử cung thỏ có thai, cuối cùng đi đến hiện tượng co quắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_TE_LIET_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "nếu dùng liều lớn, tử cung tê liệt và đi đến ngừng co bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_NGUNG_CO_BOP_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "nếu dùng liều cao, sự co bóp bị hoàn toàn ngừng hẳn không khôi phục lại được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_KICH_THICH_CO_BOP_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "nếu dùng liều nhỏ thì làm cho mẫu ruột co bóp dần dần mà không có khả năng làm cho ngừng hẳn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng kháng sinh đối với nhiều loại vi trùng như vi trùng thương hàn, phó thương hàn, vi trùng sinh mủ, thổ tả, vi trùng ly Sonner"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    }
+  ],
+  "metadata": {}
+}

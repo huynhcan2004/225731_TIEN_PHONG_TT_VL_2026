@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_DUA_CAN",
+  "source": {
+    "source_id": "CT_VT_VN_T322",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "322"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOI_TIEU_DUA_CAN_D",
+      "to": "VI_THUOC_DUA_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dừa cạn là vị thuốc chính.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_DUA_CAN_D",
+      "to": "VI_THUOC_DUA_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dừa cạn là vị thuốc chính.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    },
+    {
+      "from": "BT_TIEU_DUONG_DUA_CAN_D",
+      "to": "VI_THUOC_DUA_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dừa cạn là vị thuốc chính.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_DUA_CAN_D",
+      "to": "B_LOI_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "lợi tiểu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_DUA_CAN_D",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa huyết áp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    },
+    {
+      "from": "BT_TIEU_DUONG_DUA_CAN_D",
+      "to": "B_DAI_THAO_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "tiểu đường",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T322"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,394 @@
+{
+  "entity_hub": "VI_THUOC_DAY_DAU_XUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T507",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "507"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_NHUC_DAY_DAU_XUONG_D",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DAY_DAU_XUONG_D",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng đau nhức của bệnh thấp khớp",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DAY_DAU_XUONG_D",
+      "to": "B_DAU_DAY_THAN_KINH_TOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dây thần kinh tọa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAY_DAU_XUONG_TSS",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $8g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị sốt rét.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAY_DAU_XUONG_TSS",
+      "to": "VT_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $8g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị sốt rét.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAY_DAU_XUONG_TSS",
+      "to": "VT_SAI_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $8g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị sốt rét.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAY_DAU_XUONG_TSS",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DAY_DAU_XUONG_D",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Dùng tươi giã vắt lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DAY_DAU_XUONG_D",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_DAY_DAU_XUONG_L",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Giã đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_DAY_DAU_XUONG_L",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$800g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_HY_THIEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$800g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$400g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_MA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$200g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "VT_TUC_DOAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$400g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_THONG_NHAT",
+      "to": "B_DAU_NHUC_XUONG_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh đau nhức xương khớp",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $15-20ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_LONG_DAY_DAU_XUONG_D",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1000g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần $2-3ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_CAO_LONG_DAY_DAU_XUONG_D",
+      "to": "B_DAU_NHUC_XUONG_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh đau nhức xương khớp",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần $2-3ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "VI_THUOC_DAY_DAU_XUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$15g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức ngang lưng.",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "VT_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức ngang lưng.",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "VT_DO_TRONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức ngang lưng.",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "VT_SINH_ME_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức ngang lưng.",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "VT_MOC_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị đau nhức ngang lưng.",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LUNG_DAY_DAU_XUONG_DNSM",
+      "to": "S_DAU_NHUC_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngang lưng đau nhức",
+        "cach_dung": "Chia 3 lần uống trong ngày. Có thể thêm $20ml$ rượu trong khi uống thuốc, nếu uống được rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    }
+  ],
+  "metadata": {}
+}

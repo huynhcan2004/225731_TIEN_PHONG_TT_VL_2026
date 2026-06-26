@@ -1,0 +1,823 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CAO_BAN_LONG",
+    "ten_raw": "Cao ban long",
+    "ten_khoa_hoc": "$Colla Cornus Cervi.$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "cao ban long chế bằng cách nấu gạc với nước rồi cô đặc lại, ban là đốm, long là rồng. rồng là một con vật quý. ý nói cao chế từ con vật quý có đốm.",
+      "lieu_dung_chung": "[CT_VT_VN_T961]: Liều dùng, ngày ăn $5$-$10$g. Có thể ăn tới $20$g. Cắt thành từng miếng nhỏ để nhai và ngậm cho tan dần trong miệng. Có thể ăn với cháo hoặc hòa tan trong rượu hâm nóng lên mà uống. Có thể dùng ngậm để chữa ho, ho khan, ho gió.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Cao ban long",
+    "canonical_name": "Vị thuốc Cao ban long"
+  },
+  "nodes": [
+    {
+      "id": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ăn uống không được, bồn chồn",
+        "aliases": [
+          "anuongkhongduoc,bonchon",
+          "ăn uống không được, bồn chồn",
+          "an uong khong duoc, bon chon"
+        ],
+        "search_vector_hint": "Bài thuốc Ăn uống không được, bồn chồn thuộc nhóm bài thuốc, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt về chiều, bồn chồn",
+        "aliases": [
+          "sot ve chieu, bon chon",
+          "sotvechieu,bonchon",
+          "sốt về chiều, bồn chồn"
+        ],
+        "search_vector_hint": "Bài thuốc Sốt về chiều, bồn chồn thuộc nhóm bài thuốc, thường liên quan đến điều trị sốt."
+      }
+    },
+    {
+      "id": "B_MAT_NGU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mất ngủ",
+        "aliases": [
+          "trằn trọc",
+          "mat ngu",
+          "khó ngủ",
+          "tran troc",
+          "matngu",
+          "kho ngu",
+          "trantroc",
+          "khongu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Mất ngủ thuộc nhóm bệnh, thường liên quan đến rối loạn giấc ngủ."
+      }
+    },
+    {
+      "id": "B_MAT_VANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mắt vàng",
+        "aliases": [
+          "matvang",
+          "mắt vàng",
+          "mat vang"
+        ],
+        "search_vector_hint": "Bệnh Mắt vàng thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng gan mật."
+      }
+    },
+    {
+      "id": "B_MIENG_LO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Miệng lở",
+        "aliases": [
+          "mieng lo",
+          "loet mieng",
+          "loetmieng",
+          "loét miệng",
+          "miệng lở",
+          "mienglo"
+        ],
+        "search_vector_hint": "Bệnh Miệng lở thuộc nhóm bệnh, thường liên quan đến tổn thương niêm mạc miệng."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_DUOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không được",
+        "aliases": [
+          "biengan",
+          "anuongkhongduoc",
+          "bieng an",
+          "an uong khong duoc",
+          "keman",
+          "kém ăn",
+          "ăn uống không được",
+          "biếng ăn",
+          "kem an"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không được thuộc nhóm công năng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_CAM_MAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Cầm máu",
+        "aliases": [
+          "cam mau",
+          "cầm máu",
+          "cammau"
+        ],
+        "search_vector_hint": "Dược lý Cầm máu thuộc nhóm dược lý, thường liên quan đến khả năng làm ngừng chảy máu."
+      }
+    },
+    {
+      "id": "DL_HO_TRO_XUAT_HUYET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hỗ trợ xuất huyết",
+        "aliases": [
+          "hotroxuathuyet",
+          "hỗ trợ xuất huyết",
+          "ho tro xuat huyet"
+        ],
+        "search_vector_hint": "Dược lý Hỗ trợ xuất huyết thuộc nhóm dược lý, thường liên quan đến cầm máu."
+      }
+    },
+    {
+      "id": "HC_ACGININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Acginin",
+        "aliases": [
+          "acginin"
+        ],
+        "search_vector_hint": "Hoạt chất Acginin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_ALININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Alinin",
+        "aliases": [
+          "alinin"
+        ],
+        "search_vector_hint": "Hoạt chất Alinin thuộc nhóm hoạt chất, thường liên quan đến axit amin."
+      }
+    },
+    {
+      "id": "HC_GELATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Gelatin",
+        "aliases": [
+          "gelatin"
+        ],
+        "search_vector_hint": "Hoạt chất Gelatin thuộc nhóm hoạt chất, thường liên quan đến protein."
+      }
+    },
+    {
+      "id": "HC_GLUTAMIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glutamic",
+        "aliases": [
+          "glutamic"
+        ],
+        "search_vector_hint": "Hoạt chất Glutamic thuộc nhóm hoạt chất, thường liên quan đến axit amin."
+      }
+    },
+    {
+      "id": "HC_GLYCOCOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glycocol",
+        "aliases": [
+          "glycocol"
+        ],
+        "search_vector_hint": "Hoạt chất Glycocol thuộc nhóm hoạt chất, thường liên quan đến axit amin."
+      }
+    },
+    {
+      "id": "HC_KERATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Keratin",
+        "aliases": [
+          "keratin"
+        ],
+        "search_vector_hint": "Hoạt chất Keratin thuộc nhóm hoạt chất, thường liên quan đến cấu trúc da và tóc."
+      }
+    },
+    {
+      "id": "HC_LEUXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Leuxin",
+        "aliases": [
+          "leuxin"
+        ],
+        "search_vector_hint": "Hoạt chất Leuxin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_LYSIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Lysin",
+        "aliases": [
+          "lysin"
+        ],
+        "search_vector_hint": "Hoạt chất Lysin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_TYROSIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tyrosin",
+        "aliases": [
+          "tyrosin"
+        ],
+        "search_vector_hint": "Hoạt chất Tyrosin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XYSTEIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xystein",
+        "aliases": [
+          "xystein"
+        ],
+        "search_vector_hint": "Hoạt chất Xystein thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "S_SOT_VE_CHIEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt về chiều",
+        "aliases": [
+          "sot ve chieu",
+          "sotvechieu",
+          "sốt về chiều"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt về chiều thuộc nhóm triệu chứng, thường liên quan đến sốt do âm hư."
+      }
+    },
+    {
+      "id": "VT_BACH_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch truật",
+        "aliases": [
+          "bach truat",
+          "bạch truật",
+          "bachtruat"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch truật thuộc nhóm Vị thuốc, thường liên quan đến kiện tỳ, táo thấp."
+      }
+    },
+    {
+      "id": "VT_CAN_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Can khương",
+        "aliases": [
+          "cankhuong",
+          "gungkho",
+          "can khuong",
+          "can khương",
+          "gừng khô",
+          "gung kho"
+        ],
+        "search_vector_hint": "Vị thuốc Can khương thuộc nhóm vị thuốc, thường liên quan đến ôn trung tán hàn."
+      }
+    },
+    {
+      "id": "VT_CAO_BAN_LONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cao ban long",
+        "aliases": [
+          "caobanlong",
+          "cao ban long"
+        ],
+        "search_vector_hint": "Vị thuốc Cao ban long thuộc nhóm Vị thuốc, thường liên quan đến sừng già của hươu, nai.",
+        "bo_phan_dung": "không rõ",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "cao ban long chế bằng cách nấu gạc với nước rồi cô đặc lại, ban là đốm, long là rồng. rồng là một con vật quý. ý nói cao chế từ con vật quý có đốm.",
+        "lieu_dung_chung": "[CT_VT_VN_T961]: Liều dùng, ngày ăn $5$-$10$g. Có thể ăn tới $20$g. Cắt thành từng miếng nhỏ để nhai và ngậm cho tan dần trong miệng. Có thể ăn với cháo hoặc hòa tan trong rượu hâm nóng lên mà uống. Có thể dùng ngậm để chữa ho, ho khan, ho gió.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Colla Cornus Cervi.$",
+        "ho_thuc_vat": "$Không rõ$",
+        "thanh_phan_hoa_hoc": "['Cao ban long tuy chưa được nghiên cứu kỹ, nhưng sơ bộ ta đã biết rằng trong cao ban long mặc dù chế từ sừng hươu nai nhưng không có muối canxi như một số người thường nói. Thành phần chủ yếu của cao ban long là chất lượng $keratin$ cùng loại với chất $gelatin$. Chúng ta cũng biết rằng thành phần hóa học của $keratin$ thay đổi tùy theo nguồn gốc, nhưng chứa rất nhiều sunfua dưới hình thức axit amin, $xystein$ và axit có sunfua không có amin, ngoài ra còn chứa axit amin $tyrosin$. Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\\\% $xystein$ 6,5\\\\% $tyrosin$ 18,2\\\\% $leuxin$ 15\\\\% axit $glutamic$ 4,7\\\\% $acginin$ 1,2\\\\% $alinin$ 0,2\\\\% $lysin$ và 0,4\\\\% $glycocol$. Những axit amin như axit $glutamic$, $lysin$, $xystein$, $leuxin$ và $tyrosin$ đóng vai trò quan trọng trong việc duy trì và phát triển cơ thể. Ngoài ra chúng ta biết rằng $gelatin$ có tác dụng cầm máu.']"
+      }
+    },
+    {
+      "id": "VT_LONG_NHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Long nhãn",
+        "aliases": [
+          "nhãn nhục",
+          "nhan nhuc",
+          "longnhan",
+          "nhannhuc",
+          "long nhãn",
+          "long nhan"
+        ],
+        "search_vector_hint": "Long nhãn thuộc nhóm vị thuốc, thường liên quan đến bổ huyết."
+      }
+    },
+    {
+      "id": "VT_SAM_BO_CHINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sâm bố chính",
+        "aliases": [
+          "sambochinh",
+          "sam bo chinh",
+          "sâm bố chính"
+        ],
+        "search_vector_hint": "Vị thuốc Sâm bố chính thuộc nhóm Vị thuốc, thường liên quan đến bồi bổ cơ thể."
+      }
+    },
+    {
+      "id": "VT_THUC_DIA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thục địa",
+        "aliases": [
+          "thucdia",
+          "thuc dia",
+          "thục địa"
+        ],
+        "search_vector_hint": "Vị thuốc Thục địa thuộc nhóm Vị thuốc, thường liên quan đến bổ huyết, tư âm."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "959"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Cao ban long tuy chưa được nghiên cứu kỹ, nhưng sơ bộ ta đã biết rằng trong cao ban long mặc dù chế từ sừng hươu nai nhưng không có muối canxi như một số người thường nói. Thành phần chủ yếu của cao ban long là chất lượng $keratin$ cùng loại với chất $gelatin$. Chúng ta cũng biết rằng thành phần hóa học của $keratin$ thay đổi tùy theo nguồn gốc, nhưng chứa rất nhiều sunfua dưới hình thức axit amin, $xystein$ và axit có sunfua không có amin, ngoài ra còn chứa axit amin $tyrosin$. Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$. Những axit amin như axit $glutamic$, $lysin$, $xystein$, $leuxin$ và $tyrosin$ đóng vai trò quan trọng trong việc duy trì và phát triển cơ thể. Ngoài ra chúng ta biết rằng $gelatin$ có tác dụng cầm máu."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_KERATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của cao ban long là chất lượng $keratin$ cùng loại với chất $gelatin$.",
+        "ghi_chu": "cùng loại với chất gelatin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_GELATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của cao ban long là chất lượng $keratin$ cùng loại với chất $gelatin$.",
+        "ghi_chu": "cùng loại với chất keratin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_XYSTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần hóa học của $keratin$ thay đổi tùy theo nguồn gốc, nhưng chứa rất nhiều sunfua dưới hình thức axit amin, $xystein$ và axit có sunfua không có amin, ngoài ra còn chứa axit amin $tyrosin$.",
+        "ghi_chu": "dưới hình thức axit amin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_TYROSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần hóa học của $keratin$ thay đổi tùy theo nguồn gốc, nhưng chứa rất nhiều sunfua dưới hình thức axit amin, $xystein$ và axit có sunfua không có amin, ngoài ra còn chứa axit amin $tyrosin$.",
+        "ghi_chu": "dưới hình thức axit amin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_LEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_GLUTAMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_ALININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_LYSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "HC_GLYCOCOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% $xystein$ 6,5\\% $tyrosin$ 18,2\\% $leuxin$ 15\\% axit $glutamic$ 4,7\\% $acginin$ 1,2\\% $alinin$ 0,2\\% $lysin$ và 0,4\\% $glycocol$.",
+        "ghi_chu": "Nghiên cứu một loại keratin-Thomas đã thấy có 8,8\\% xystein 6,5\\% tyrosin 18,2\\% leuxin 15\\% axit glutamic 4,7\\% acginin 1,2\\% alinin 0,2\\% lysin và 0,4\\% glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "to": "VT_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "to": "VT_LONG_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "to": "B_MAT_NGU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Long nhãn cho vào nước sắc kỹ, vắt lọc lấy nước, cắt nhỏ cao ban long vào khuấy và đun cho tan. Uống khi còn nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Long nhãn cho vào nước sắc kỹ, vắt lọc lấy nước, cắt nhỏ cao ban long vào khuấy và đun cho tan. Uống khi còn nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_VE_CHIEU_BAN_LONG",
+      "to": "S_SOT_VE_CHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Long nhãn cho vào nước sắc kỹ, vắt lọc lấy nước, cắt nhỏ cao ban long vào khuấy và đun cho tan. Uống khi còn nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$160g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_SAM_BO_CHINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_THUC_DIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_CAN_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "VT_LONG_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$28g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "B_MIENG_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Các vị trên sắc với nước nhiều lần, cô đặc thành cao, mỗi lần uống chừng 2 cốc con, dùng nước hạt sen làm thang. Nếu hay sôi bụng thêm $4g$ đinh hương. Nếu đại tiện lỏng quá thêm $12g$ nhục đậu khấu và $4g$ ngũ vị tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "B_MAT_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Các vị trên sắc với nước nhiều lần, cô đặc thành cao, mỗi lần uống chừng 2 cốc con, dùng nước hạt sen làm thang. Nếu hay sôi bụng thêm $4g$ đinh hương. Nếu đại tiện lỏng quá thêm $12g$ nhục đậu khấu và $4g$ ngũ vị tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_DUOC_BAN_LONG",
+      "to": "CN_AN_UONG_KHONG_DUOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Các vị trên sắc với nước nhiều lần, cô đặc thành cao, mỗi lần uống chừng 2 cốc con, dùng nước hạt sen làm thang. Nếu hay sôi bụng thêm $4g$ đinh hương. Nếu đại tiện lỏng quá thêm $12g$ nhục đậu khấu và $4g$ ngũ vị tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "DL_CAM_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trước khi tiêm thời gian máu đông là $7$ phút, sau khi tiêm gelatin, thời gian máu đông giảm xuống $3$ phút. Gelatin uống vẫn có tác dụng cầm máu vì tính chất của gelatin không bị dịch vị và dịch tràng phá hủy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CAO_BAN_LONG",
+      "to": "DL_HO_TRO_XUAT_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao ban long được chỉ định trong các trường hợp xuất huyết như họ ra máu, nôn ra máu, đái ra máu, chảy máu trong ruột, tử cung ra máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T959",
+        "all_sources": [
+          "CT_VT_VN_T959"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 49.5,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

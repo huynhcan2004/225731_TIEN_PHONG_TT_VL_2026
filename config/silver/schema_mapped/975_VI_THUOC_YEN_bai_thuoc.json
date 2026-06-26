@@ -1,0 +1,76 @@
+{
+  "entity_hub": "VI_THUOC_YEN",
+  "source": {
+    "source_id": "CT_VT_VN_T975",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "975"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SAU_RANG_ONG_DEN_O",
+      "to": "VI_THUOC_YEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "2-4 con",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_ONG_DEN_O",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sâu răng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_ONG_DEN_O",
+      "to": "B_LO_LOET_MIENG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Miệng lở loét",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_ONG_DEN_O",
+      "to": "B_DAU_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau cổ họng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "BT_SAU_RANG_ONG_DEN_O",
+      "to": "B_KINH_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con kinh phong",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    }
+  ],
+  "metadata": {}
+}

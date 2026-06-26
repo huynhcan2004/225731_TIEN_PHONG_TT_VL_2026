@@ -1,0 +1,115 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHEN_CHUA",
+    "ten_raw": "Phèn chua",
+    "ten_khoa_hoc": "Alumen",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": "Phèn chua"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1061",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1061"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TY"
+        ],
+        "cong_nang": "táo thấp, giải độc, sát trùng, chỉ huyết, làm hết ngứa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Phèn chua là những tinh thể không màu hoặc trắng, trong hay hơi đục. Có vị chua, chát."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "HC_NHOM_SUNFAT_KEP_VOI_KALI_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phèn chua có nhiều loại: nhôm sunfat kép với kali sunfat, natri sunfat hay amoni sunfat."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "HC_NATRI_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phèn chua có nhiều loại: nhôm sunfat kép với kali sunfat, natri sunfat hay amoni sunfat."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "HC_AMONI_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phèn chua có nhiều loại: nhôm sunfat kép với kali sunfat, natri sunfat hay amoni sunfat."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_CHUA",
+      "to": "HC_ALUMEN_KALICUS",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Loại thường dùng hơn cả là nhôm sunfat kép với kali sunfat (Alumen kalicus)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1061"
+      }
+    }
+  ]
+}

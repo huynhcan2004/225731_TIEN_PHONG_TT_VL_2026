@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_THANH_THAT",
+  "source": {
+    "source_id": "CT_VT_VN_T927",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "927"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thất có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thất có tác dụng trừ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "CN_THONG_KINH_LAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thất có tác dụng thông kinh lạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T927"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,153 @@
+{
+  "entity_hub": "VI_THUOC_LA_MONG_TAY",
+  "source": {
+    "source_id": "CT_VT_VN_T120",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "120"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_LA_MONG_TAY_D",
+      "to": "VI_THUOC_LA_MONG_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá móng tay tươi giã nát có tác dụng kháng nấm, kết hợp dấm thanh tăng tính sát khuẩn, giúp điều trị hắc lào.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_LA_MONG_TAY_D",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_DA_VANG_LA_MONG_TAY_D",
+      "to": "VI_THUOC_LA_MONG_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá móng tay có tác dụng điều trị bệnh da vàng.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_DA_VANG_LA_MONG_TAY_D",
+      "to": "B_DA_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh da vàng.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_HUI_LA_MONG_TAY_D",
+      "to": "VI_THUOC_LA_MONG_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá móng tay có tác dụng điều trị bệnh hủi.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_HUI_LA_MONG_TAY_D",
+      "to": "B_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh hủi.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_LA_MONG_TAY_D",
+      "to": "VI_THUOC_LA_MONG_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá móng tay có tác dụng điều trị lở loét.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_LA_MONG_TAY_D",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lở loét.",
+        "cach_dung": "Dùng lá móng tay tươi giã nát trộn với dấm thanh.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_VO_MONG_TAY_V",
+      "to": "VI_THUOC_LA_MONG_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ thân cây móng tay có tác dụng điều trị kinh nguyệt không đều.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_VO_MONG_TAY_V",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh nguyệt không đều.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T120"
+      }
+    }
+  ],
+  "metadata": {}
+}

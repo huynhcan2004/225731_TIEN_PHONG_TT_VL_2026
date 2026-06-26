@@ -1,0 +1,44 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOI_DAU_THAO",
+    "ten_raw": "Hồi đầu thảo",
+    "ten_khoa_hoc": "Schizocapsa plantaginea Hance",
+    "ho_thuc_vat": "Râu hùm (Taccaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": "Hồi đầu thảo"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "329"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thuộc thảo, sống hằng năm, cao $0,50-0,80m$, mọc thành từng bụi. Lá giống lá nghệ. Thân rễ phình to, dẻo, thịt màu vàng nâu, mùi thơm hăng như nghệ. ( Hình 242 )",
+        "thanh_phan_hoa_hoc": [
+          "Trong hồi đầu thảo có từ $1,12$ đến $1,14%$ diosgenin (Pham Kim Mãn, 1976, Hà Nội)."
+        ],
+        "cach_dung_bao_che": "Đào lấy củ (thân rễ), rửa sạch, thái mỏng, phơi hay sất khô. Khi dùng sao vàng mà tán bột sắc uống."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOI_DAU_THAO",
+      "to": "HC_DIOSGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hồi đầu thảo có từ $1,12$ đến $1,14%$ diosgenin (Pham Kim Mãn, 1976, Hà Nội)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329"
+      }
+    }
+  ]
+}

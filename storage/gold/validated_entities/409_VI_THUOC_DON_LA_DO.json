@@ -1,0 +1,221 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DON_LA_DO",
+    "ten_raw": "Đơn lá đỏ",
+    "ten_khoa_hoc": "$Excoecaria cochinchinensis Lour.; Excoecaria bicolor Hass.; Excoecaria orientalis Pax. et Hoffm.; Antidesma bicolor Hassk.$",
+    "ho_thuc_vat": "$Thầu dầu Euphorbiaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "các tháng 4-5-6",
+      "che_bien_tho": "sao vàng",
+      "lieu_dung_chung": "Ngày dùng $15$-$20$g lá tươi, sao vàng, sắc uống.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây mọc hoang và được trồng ở nhiều nơi để làm cảnh và lấy lá, cành non làm thuốc."
+    },
+    "display_name": "Đơn lá đỏ",
+    "canonical_name": "Đơn lá đỏ"
+  },
+  "nodes": [
+    {
+      "id": "BT_DIA_LONG_LA_DO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dia Long La Do"
+      }
+    },
+    {
+      "id": "VI_THUOC_DON_LA_DO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Don La Do"
+      }
+    },
+    {
+      "id": "VI_THUOC_GUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Gung"
+      }
+    },
+    {
+      "id": "B_DIA_LONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dia Long"
+      }
+    },
+    {
+      "id": "BT_MAT_NGU_LA_DO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Mat Ngu La Do"
+      }
+    },
+    {
+      "id": "B_ZONA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Zona"
+      }
+    },
+    {
+      "id": "S_MAN_NGUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Man Ngua"
+      }
+    },
+    {
+      "id": "S_MAT_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mat Ngu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "409"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đơn lá đỏ là một loại cây nhỏ, cao $0,70-1,50$m, có cành nhỏ, gầy, dài, màu tía. Lá mọc đối, hình trái xoan thuôn dài, phía cuống nhọn, phía đầu có mũi nhọn ngắn, dài $6-12$cm, rộng $1,2-4$cm, mặt trên lá màu xanh lục sẫm, mặt dưới màu tía đỏ, mép có răng cưa, cuống ngắn $5-10$mm. Hoa mọc thành bông ở kẽ lá hay đầu cành, bông hoa đực dài $2$cm, bông hoa cái ngắn hơn. Quả $3$ mảnh, đường kính chùng $1$cm, hạt hình cầu, màu nâu nhạt, đường kính $4$mm. Mùa hoa vào các tháng $4-5-6$",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Những cây mọc hoang thường cao to hơn, lá ít có màu đỏ tía hơn, có khi mặt dưới có màu xanh, phiến lá hình mác thuôn dài hơn, có tác giả cho đó là một thứ khác: Excoecaria cochinchinensis Lour. var viridis (Pax. et Hoffm.) Merr."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_DIA_LONG_LA_DO",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$15g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DIA_LONG_LA_DO",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "1 miếng",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DIA_LONG_LA_DO",
+      "to": "B_DIA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "nước $600ml$, sắc còn $1bát$ ($200ml$) chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_LA_DO",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$400g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_LA_DO",
+      "to": "B_ZONA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Thêm $600ml$ nước, sắc còn $200ml$ (một bát) chia 2-3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_LA_DO",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Thêm $600ml$ nước, sắc còn $200ml$ (một bát) chia 2-3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_LA_DO",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Thêm $600ml$ nước, sắc còn $200ml$ (một bát) chia 2-3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409",
+        "all_sources": [
+          "CT_VT_VN_T409"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 21.0,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

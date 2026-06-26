@@ -1,0 +1,159 @@
+{
+  "entity": {
+    "id": "VT_CHAU_THU",
+    "canonical_name": "Châu thụ",
+    "ten_khoa_hoc": "Gaultheria fragrantissima Wall.; Gaultheria fragrans Don; Gaultheria procumbens L.",
+    "ho_thuc_vat": "Đỗ quyên (Ericaceae)",
+    "properties": {
+      "bo_phan_dung": "Lá, vỏ cây",
+      "thu_hai": "Hái lá",
+      "che_bien_tho": "Phơi khô",
+      "lieu_dung_chung": "Dùng dưới dạng thuốc pha $10g$ trong $1$ lít nước.",
+      "muc_do_doc": "Có độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CHAU_THU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $tanin$."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "HC_ACBUTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $acbutin$ và $gauntherin$. Acbutin (còn có tên acbutozit) C₁₂H₁₆O₇OH, có tinh thể hình kim dài không màu, vị đắng, chảy ở $196°C$, dễ tan trong nước sôi, trong cồn, ít tan trong ête, khi bị thủy phân bằng men emunsin hay bằng axit sunfuric sẽ cho glucoza và hydroquinon: Dung dịch trong nước thêm clorua sắt 3 sẽ cho màu xanh."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "HC_GAULTHERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $tanin$, $acbutin$ và $gauntherin$. Gautherin (gaultherin) là một glucozit do sự kết hợp giữa một phân tử $salixylat metyl$ và một phân tử glucoza, với một phân tử nước bị loại đi."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "HC_SALIXYLAT_METYL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "toàn cây tỏa mùi $salixylat metyl$."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "CN_DIEU_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "CN_RA_THAI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thuốc ra thai"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "sát trùng"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "CN_CHUA_TE_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "đặc biệt chữa tê thấp"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "B_DIEU_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "cach_dung": "Dùng dưới dạng thuốc pha $10g$ trong $1$ lít nước. (Lá cây Châu thụ). Người dùng."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "S_RA_THAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "cach_dung": "Dùng dưới dạng thuốc pha $10g$ trong $1$ lít nước. (Lá cây Châu thụ). Người dùng."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "cach_dung": "Dùng dưới dạng thuốc pha $10g$ trong $1$ lít nước. (Lá cây Châu thụ). Người dùng."
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "DL_CO_QUAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu châu thụ gây co quắp đối với súc vật.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "DL_LIET_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu châu thụ gây liệt hô hấp đối với súc vật.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "DL_KICH_UNG_DA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bôi lên da, tinh dầu thấm rất nhanh và bài tiết qua đường nước tiểu và ruột dưới dạng $salixylat metyl$, nhưng dễ gây kích ứng da mạnh.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "DL_DOC_TINH_NON_MUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta cũng thấy có một số người bị ngộ độc do tinh dầu với hiện tượng nôn mửa.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_CHAU_THU",
+      "to": "DL_DOC_TINH_IA_CHAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta cũng thấy có một số người bị ngộ độc do tinh dầu với hiện tượng ỉa.",
+        "lieu_luong": "null",
+        "cach_dung": "null"
+      }
+    }
+  ]
+}

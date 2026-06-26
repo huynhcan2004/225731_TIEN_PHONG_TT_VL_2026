@@ -1,0 +1,100 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAO_TA",
+    "ten_raw": "Táo ta",
+    "ten_khoa_hoc": "Zizyphus jujuba Lamk.; Zizyphus trinervia Roth.",
+    "ho_thuc_vat": "Táo Rhamnaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T803",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "803"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cao từ $10$-$20m$, mọc khắp nơi, nhưng đặc biệt ưa mọc ở ven biển, thân có gai ngắn. Lá gồm 3 lá chét giữa rộng hơn là dài, dài $10$-$15cm$, hai lá chết hai bên dài hơn rộng hình 3 cạnh. Hoa màu đỏ tươi tụ họp từ $1$-$3$ thành chùm dầy. Quả giáp dài $15$-$30cm$, đen, hơi hẹp lại ở giữa các hạt. Trong mỗi quả có $5$-$6$ hạt hình thận màu đỏ hoặc nâu, tễ rộng, hình trứng đen có vành trắng (Hình 610, Hm 18,3).",
+        "thanh_phan_hoa_hoc": [
+          "Lá và thân đều chứa một ancaloit độc érytrin ($Erythrine$) có tác dụng làm giảm và có khi làm mất hẳn hoạt động thần kinh trung ương, tuy nhiên không ảnh hưởng tới độ kích thích vận động và sự co bóp của cơ.",
+          "Có tác giả còn lấy được chất saponin gọi là migarin ($migarthin$) có tính chất làm dãn đồng tử.",
+          "Trong hạt có ancaloit gọi là hypaphorin C.HO,N,H,O. Hypaphorin là một chất có tinh thể, sau khi sấy khô, chảy ở $255°C$ (a),=+93\", tan trong nước khi chịu tác dụng KOH đặc, hypaphorin cho trimetylamin và indol. Hypaphorin đã tổng hợp được rồi. Chất hypaphonin tăng phản xạ kích thích của ếch và cuối cùng đưa đến trạng thái co giật uốn ván."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_NUXIFCRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "protit, chất bé, cacbon hydrat, carotin, nuclein, vitamin C, tanin, $nuxifcrin$ C,H,OẠN, $nonuxiferin$ C,H,O,N và $roemerin$ C,H,OẠN."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_NONUXIFERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "protit, chất bé, cacbon hydrat, carotin, nuclein, vitamin C, tanin, $nuxifcrin$ C,H,OẠN, $nonuxiferin$ C,H,O,N và $roemerin$ C,H,OẠN."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_ROEMERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "protit, chất bé, cacbon hydrat, carotin, nuclein, vitamin C, tanin, $nuxifcrin$ C,H,OẠN, $nonuxiferin$ C,H,O,N và $roemerin$ C,H,OẠN."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_ERYTHRINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá và thân đều chứa một ancaloit độc érytrin ($Erythrine$) có tác dụng làm giảm và có khi làm mất hẳn hoạt động thần kinh trung ương, tuy nhiên không ảnh hưởng tới độ kích thích vận động và sự co bóp của cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_MIGARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn lấy được chất saponin gọi là migarin ($migarthin$) có tính chất làm dãn đồng tử."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_TA",
+      "to": "HC_HYPAPHORIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có ancaloit gọi là hypaphorin C.HO,N,H,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T803"
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "entity_hub": "VI_THUOC_RIENG",
+  "source": {
+    "source_id": "CT_VT_VN_T400",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "400"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_NON_MUA_CD",
+      "to": "VT_CAO_LUONG_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm bụng, giảm đau. Đại táo giúp điều hòa tỳ vị, tăng cường sức khỏe.",
+        "cach_dung": "Sắc với $300ml$ nước, còn $100ml$ chia 2 hay 3 lần uống trong ngày",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_NON_MUA_CD",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm bụng, giảm đau. Đại táo giúp điều hòa tỳ vị, tăng cường sức khỏe.",
+        "cach_dung": "Sắc với $300ml$ nước, còn $100ml$ chia 2 hay 3 lần uống trong ngày",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_NON_MUA_CD",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_NON_MUA_CD",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_KCK",
+      "to": "VT_CAO_LUONG_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm cơ thể, trừ hàn. Can khương giúp tăng cường chức năng tiêu hóa, giảm các triệu chứng kém ăn.",
+        "cach_dung": "Hai vị tán nhỏ, dùng mật lợn hoà vào làm thành viên, bằng hạt ngô. Ngày uống 15-20 viên này",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_KCK",
+      "to": "VT_CAN_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm cơ thể, trừ hàn. Can khương giúp tăng cường chức năng tiêu hóa, giảm các triệu chứng kém ăn.",
+        "cach_dung": "Hai vị tán nhỏ, dùng mật lợn hoà vào làm thành viên, bằng hạt ngô. Ngày uống 15-20 viên này",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_KCK",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Uống viên hoàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_KCK",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét",
+        "cach_dung": "Uống viên hoàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_SOT_SOT_RET_KCK",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kém ăn",
+        "cach_dung": "Uống viên hoàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "VT_RIENG_NEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Riềng nếp giúp làm ấm bụng, giảm đau. Than tóc rối giúp hấp thụ các chất độc trong cơ thể.",
+        "cach_dung": "Uống",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "VT_THAN_TOC_ROI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Riềng nếp giúp làm ấm bụng, giảm đau. Than tóc rối giúp hấp thụ các chất độc trong cơ thể.",
+        "cach_dung": "Uống",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "S_DI_IA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_RL",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VT_RIENG_NEP",
+      "to": "BT_DAU_BUNG_DIA_RL",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Riềng nếp giúp làm ấm bụng, giảm đau. Than tóc rối giúp hấp thụ các chất độc trong cơ thể.",
+        "cach_dung": "Uống",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VT_CAO_LUONG_KHUONG",
+      "to": "BT_DAU_BUNG_NON_MUA_CD",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm bụng, giảm đau. Đại táo giúp điều hòa tỳ vị, tăng cường sức khỏe.",
+        "cach_dung": "Sắc với $300ml$ nước, còn $100ml$ chia 2 hay 3 lần uống trong ngày",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VT_CAO_LUONG_KHUONG",
+      "to": "BT_SOT_SOT_RET_KCK",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao lương khương giúp làm ấm cơ thể, trừ hàn. Can khương giúp tăng cường chức năng tiêu hóa, giảm các triệu chứng kém ăn.",
+        "cach_dung": "Hai vị tán nhỏ, dùng mật lợn hoà vào làm thành viên, bằng hạt ngô. Ngày uống 15-20 viên này",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    }
+  ],
+  "metadata": {}
+}

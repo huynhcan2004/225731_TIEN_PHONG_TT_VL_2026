@@ -1,0 +1,131 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRI_MAU",
+    "ten_raw": "Tri mẫu",
+    "ten_khoa_hoc": "Anemarrhena asphodeloides Bunge.",
+    "ho_thuc_vat": "Họ Hành tỏi Liliaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Tri mẫu là một cây thuốc mọc hoang ở vùng núi cao các tỉnh Thiểm Tây, Sơn Tây, Hà Bắc, Liêu Ninh, Sơn Đông, Giang Tô, An Huy, Triết Giang, Phúc Kiến, Hồ Bắc, Tứ Xuyên, Quý Châu, Vân Nam của Trung Quốc.",
+      "thu_hai": "Mùa thu đông đào lấy thân rễ",
+      "che_bien_tho": "rửa sạch đất cát, cắt bỏ rễ con, phơi khô"
+    },
+    "display_name": "Tri mẫu"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T783",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "783"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống lâu năm, có thân rễ mập, ngắn, mang nhiều rễ con. Lá mọc từ gốc, hình dải hẹp, dài $30$-$60cm$, rộng $5$-$8mm$, gân song song. Cán hoa dài $50$-$80cm$ mang một chùy dài gồm nhiều hoa nhỏ màu trắng nhạt. Quả nang hình trứng.",
+        "thanh_phan_hoa_hoc": [
+          "Tri mẫu chứa chất saponin, chất nhựa, chất đường, chất béo và tinh dầu."
+        ],
+        "ghi_chu_bo_sung": "Hiện nay ta phải nhập vị thuốc này. Khi dùng có khi đồ qua rồi mới thái mỏng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRI_MAU",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tri mẫu chứa chất saponin, chất nhựa, chất đường, chất béo và tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T783"
+      }
+    }
+  ]
+}

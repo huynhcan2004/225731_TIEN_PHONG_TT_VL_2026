@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAI_MA",
+    "ten_raw": "Hải mã",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": "Hải mã"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T965",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "965"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ],
+        "cong_nang": "đại bổ khí huyết"
+      },
+      "mo_ta_theo_nguon": {}
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAI_MA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T965"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_MA",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T965"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_MA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T965"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_MA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T965"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAI_MA",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T965"
+      }
+    }
+  ]
+}

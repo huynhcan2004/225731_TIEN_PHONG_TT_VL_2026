@@ -1,0 +1,170 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAM_BAM",
+    "ten_raw": "Bàm bàm",
+    "ten_khoa_hoc": "Syzygium aromaticum (L.) Merr.et Perry; Eugenia caryophyllata Thunb.; Eygenia caryophillus (Sprengel) Bullock et. Hariss.; Eugenia caryophyllata Thunb. (Eugenia aromatica Baill.)",
+    "ho_thuc_vat": "Sim Myrtaceae",
+    "variants": [
+      "cống đinh hương",
+      "đinh tử",
+      "đình tử hương",
+      "đinh hương"
+    ],
+    "properties": {},
+    "display_name": "Bàm bàm"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T691",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "691"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đinh hương là một cây cao 12-15m, thân nhẵn, lá nhẵn, hình trứng, dài 8-10cm, rộng 4-5cm, có nhiều điểm trong mờ. Hoa mọc thành xim ở đầu cành hay lá. Nụ hoa dài 15-17mm, lúc đầu màu trắng, sau xanh rồi đỏ. Đài hình ống, phía trên chia làm 4 răng. Tràng 4 cánh màu trắng hồng. Nhiều nhị. Bầu hạ 2 ngăn. Quả hình trứng dài 25mm, rộng 12mm, chứa 1-2 hạt.",
+        "thanh_phan_hoa_hoc": [
+          "Nụ đinh hương chứa từ $10$ đến $12\\%$ nước, $5$ đến $6\\%$ chất vô cơ, rất nhiều gluxit, $6$-$10\\%$ lipit, $13\\%$ tanin.",
+          "Năm 1948-1949, Meijer và Schmid đã chiết được từ cao ête của đinh hương mọc hoang dại các chất chromon: $Eugenin$ và $eugenitin$ và một dẫn xuất xeton gọi là $eugenon$ (trimetoxy 2, 4, 6 benzoylaxeton).",
+          "Người ta cho hoạt chất chính của đinh hương là tinh dầu chiếm tới $15$-$20\\%$. Đây là một nguyên liệu thực vật chứa hàm lượng tinh dầu vào loại cao nhất. Tinh dầu đinh hương nặng hơn nước (1,043-1,068), nhưng khi bắt đầu cất, có một lượng tinh dầu nhẹ hơn nước bốc sang trước. Trong tinh dầu, thành phần chủ yếu là $80$ đến $85\\%$ $eugenola$ (allygaiacol) kèm theo $2$ đến $3\\%$ $axetyleugenola$, các hợp chất cacbua trong đó có một chất sesquitecpen là $caryophyllen$, một ít dẫn xuất xeton (metylamylxeton) ảnh hưởng tới mùi của tinh dầu và các este."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_EUGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1948-1949, Meijer và Schmid đã chiết được từ cao ête của đinh hương mọc hoang dại các chất chromon: $Eugenin$ và $eugenitin$ và một dẫn xuất xeton gọi là $eugenon$ (trimetoxy 2, 4, 6 benzoylaxeton)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_EUGENITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1948-1949, Meijer và Schmid đã chiết được từ cao ête của đinh hương mọc hoang dại các chất chromon: $Eugenin$ và $eugenitin$ và một dẫn xuất xeton gọi là $eugenon$ (trimetoxy 2, 4, 6 benzoylaxeton)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_EUGENON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1948-1949, Meijer và Schmid đã chiết được từ cao ête của đinh hương mọc hoang dại các chất chromon: $Eugenin$ và $eugenitin$ và một dẫn xuất xeton gọi là $eugenon$ (trimetoxy 2, 4, 6 benzoylaxeton)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_EUGENOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu, thành phần chủ yếu là $80$ đến $85\\%$ $eugenola$ (allygaiacol) kèm theo $2$ đến $3\\%$ $axetyleugenola$, các hợp chất cacbua trong đó có một chất sesquitecpen là $caryophyllen$, một ít dẫn xuất xeton (metylamylxeton) ảnh hưởng tới mùi của tinh dầu và các este."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_AXETYLEUGENOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu, thành phần chủ yếu là $80$ đến $85\\%$ $eugenola$ (allygaiacol) kèm theo $2$ đến $3\\%$ $axetyleugenola$, các hợp chất cacbua trong đó có một chất sesquitecpen là $caryophyllen$, một ít dẫn xuất xeton (metylamylxeton) ảnh hưởng tới mùi của tinh dầu và các este."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAM_BAM",
+      "to": "HC_CARYOPHYLLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu, thành phần chủ yếu là $80$ đến $85\\%$ $eugenola$ (allygaiacol) kèm theo $2$ đến $3\\%$ $axetyleugenola$, các hợp chất cacbua trong đó có một chất sesquitecpen là $caryophyllen$, một ít dẫn xuất xeton (metylamylxeton) ảnh hưởng tới mùi của tinh dầu và các este."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T691"
+      }
+    }
+  ]
+}

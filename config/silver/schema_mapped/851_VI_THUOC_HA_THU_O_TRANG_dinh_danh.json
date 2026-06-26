@@ -1,0 +1,75 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HA_THU_O_TRANG",
+    "ten_raw": "Hà thủ ô trắng",
+    "ten_khoa_hoc": "Polygonum multiflorum Thunb.",
+    "ho_thuc_vat": "string",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T851",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "851"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Các chất anthraglucozit với tỷ lệ $1,7%$ trong đó chủ yếu là chrysophanola, emodin và rhein. Ngoài ra còn có chất đạm $1,1%$, tinh bột $45,2%$, chất béo $3,10%$, chất vô cơ $4,5%$, các chất tan trong nước $26,40%$, lexitin. Chúng ta đều biết rằng lexitin là một photphatit kết quả của sự kết hợp giữa axit glyxerophotphoric với một phân tử cholin và hai phân tử axit béo. Lexitin thường được dùng trong những trường hợp thiếu dinh dưỡng, thần kinh suy nhược."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HA_THU_O_TRANG",
+      "to": "HC_CHRYSOPHANOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các chất anthraglucozit với tỷ lệ $1,7%$ trong đó chủ yếu là chrysophanola, emodin và rhein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T851"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_THU_O_TRANG",
+      "to": "HC_EMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các chất anthraglucozit với tỷ lệ $1,7%$ trong đó chủ yếu là chrysophanola, emodin và rhein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T851"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_THU_O_TRANG",
+      "to": "HC_RHEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các chất anthraglucozit với tỷ lệ $1,7%$ trong đó chủ yếu là chrysophanola, emodin và rhein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T851"
+      }
+    },
+    {
+      "from": "VI_THUOC_HA_THU_O_TRANG",
+      "to": "HC_LEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất đạm $1,1%$, tinh bột $45,2%$, chất béo $3,10%$, chất vô cơ $4,5%$, các chất tan trong nước $26,40%$, lexitin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T851"
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "entity_hub": "VI_THUOC_TAM_THAT",
+  "source": {
+    "source_id": "CT_VT_VN_T304",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "304"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THO_HUYET_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng cầm máu, được sử dụng đơn độc để điều trị thổ huyết.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_TAM_THAT_T",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thổ huyết",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng cầm máu, được sử dụng đơn độc để điều trị chảy máu cam.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_TAM_THAT_T",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chảy máu cam",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng cầm máu, được sử dụng đơn độc để điều trị lỵ ra máu.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_TAM_THAT_T",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_MAU_HOI_KHONG_SACH_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng hoạt huyết, được sử dụng đơn độc để điều trị đẻ xong máu hôi không sạch.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_MAU_HOI_KHONG_SACH_TAM_THAT_T",
+      "to": "S_SAU_SINH_RA_MAU_AM_DAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đẻ xong máu hôi không sạch",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_UNG_THUNG_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng hoạt huyết, giảm đau, tiêu sưng, được sử dụng đơn độc để điều trị ung thũng.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_UNG_THUNG_TAM_THAT_T",
+      "to": "B_UNG_THU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ung thũng",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_BI_DON_TON_THUONG_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng hoạt huyết, giảm đau, tiêu sưng, được sử dụng đơn độc để điều trị bị đòn tổn thương.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_BI_DON_TON_THUONG_TAM_THAT_T",
+      "to": "B_CHAN_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bị đòn tổn thương",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng cầm máu, được sử dụng đơn độc để cầm máu.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_TAM_THAT_T",
+      "to": "S_XUAT_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_BI_DANH_TON_THUONG_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng hoạt huyết, giảm đau, tiêu sưng, được sử dụng đơn độc để điều trị bị đánh tổn thương.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_BI_DANH_TON_THUONG_TAM_THAT_T",
+      "to": "B_CHAN_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bị đánh tổn thương",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_U_HUYET_SUNG_DAU_TAM_THAT_T",
+      "to": "VI_THUOC_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tam thất là vị thuốc chính có tác dụng hoạt huyết, giảm đau, tiêu sưng, được sử dụng đơn độc để điều trị ứ huyết mà sưng đau.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "BT_U_HUYET_SUNG_DAU_TAM_THAT_T",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ứ huyết mà sưng đau",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    }
+  ],
+  "metadata": {}
+}

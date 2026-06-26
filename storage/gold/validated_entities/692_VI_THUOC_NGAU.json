@@ -1,0 +1,156 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGAU",
+    "ten_raw": "Ngâu",
+    "ten_khoa_hoc": "$Aglaia duperreana Pierre; Aglaia duperveana$",
+    "ho_thuc_vat": "$Xoan Meliaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Mỗi ngày dùng $10-16g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "khắp nơi"
+    },
+    "display_name": "Ngâu",
+    "canonical_name": "Ngâu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NGAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ngau"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_VANG_DA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vang Da"
+      }
+    },
+    {
+      "id": "B_HEN_SUYEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen Suyen"
+      }
+    },
+    {
+      "id": "B_GHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T692",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "692"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ, để bình thường có thể cao $4-7m$. Lá kép lông chim lẻ, có $2-3$ đôi lá chét nhỏ hình trứng ngược, đầu tù, cuống lá có cánh. Hoa mọc thành chùm ở kẽ lá, hình cầu nhỏ, cuống dài mảnh. Hoa nhỏ màu vàng, rất thơm, lưỡng tính hay đực do nhuỵ tiêu giảm đi. Quả hạch màu đỏ. Hạt có áo hạt (Hình 522).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Hoa hái vào lúc đã chín vàng nhạt và thơm.",
+        "ghi_chu_bo_sung": "Cây được trồng khắp nơi làm cảnh và lấy hoa để ướp chè.",
+        "cach_dung_bao_che": "Phơi hay sấy khô để dành. Lá hái dùng tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Hoa và lá ngâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T692",
+        "all_sources": [
+          "CT_VT_VN_T692"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Hoa và lá ngâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T692",
+        "all_sources": [
+          "CT_VT_VN_T692"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-16g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Hoa và lá ngâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T692",
+        "all_sources": [
+          "CT_VT_VN_T692"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Không kể liều lượng",
+        "cach_dung": "Nấu nước tắm",
+        "ghi_chu": "Lá tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T692",
+        "all_sources": [
+          "CT_VT_VN_T692"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 21.0,
+      "reliability_c_score": 0.79,
+      "total_confidence_sum": 3.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_KHA_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T442",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "442"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "DL_CAM_DI_IA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng kha tử liều nhỏ ($3-6g$) thì cầm đi ỉa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "DL_GAY_DI_IA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng kha tử liều lớn lại gây đi ỉa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    }
+  ],
+  "metadata": {}
+}

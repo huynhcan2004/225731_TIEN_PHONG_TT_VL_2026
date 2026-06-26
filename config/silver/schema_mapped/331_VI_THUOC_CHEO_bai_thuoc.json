@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_CHEO",
+  "source": {
+    "source_id": "CT_VT_VN_T331",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "331"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DUOC_CA_CHEO_V",
+      "to": "VT_CHEO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Giã nát vỏ và lá cây chẹo cho vào nước suối đã ngăn để duốc cá.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_DUOC_CA_CHEO_V",
+      "to": "B_DOC_CA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ và lá cây chẹo giã nát cho vào nước suối đã ngăn để duốc cá.",
+        "cach_dung": "Giã nát vỏ và lá cây chẹo cho vào nước suối đã ngăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    }
+  ],
+  "metadata": {}
+}

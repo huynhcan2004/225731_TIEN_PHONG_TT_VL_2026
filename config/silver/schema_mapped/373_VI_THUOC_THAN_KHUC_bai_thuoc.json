@@ -1,0 +1,256 @@
+{
+  "entity_hub": "VI_THUOC_THAN_KHUC",
+  "source": {
+    "source_id": "CT_VT_VN_T373",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "373"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "VI_THUOC_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất trong bài thuốc.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh cảm mạo trong bốn mùa, cảm lạnh, cảm nắng.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "S_MIENG_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa miệng nôn.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "S_DI_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_THAN_KHUC_T",
+      "to": "S_LOI_SUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm lợi sữa.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "VI_THUOC_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $14g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thần Khúc kiện tỳ vị, tăng cường tiêu hóa. Thương truật, trần bì, hậu phác giúp kiện tỳ, lý khí, táo thấp. Mạch nha tăng cường tiêu hóa.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "VI_THUOC_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $14g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thần Khúc kiện tỳ vị, tăng cường tiêu hóa. Thương truật, trần bì, hậu phác giúp kiện tỳ, lý khí, táo thấp. Mạch nha tăng cường tiêu hóa.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "VI_THUOC_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $14g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thần Khúc kiện tỳ vị, tăng cường tiêu hóa. Thương truật, trần bì, hậu phác giúp kiện tỳ, lý khí, táo thấp. Mạch nha tăng cường tiêu hóa.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "VI_THUOC_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $14g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thần Khúc kiện tỳ vị, tăng cường tiêu hóa. Thương truật, trần bì, hậu phác giúp kiện tỳ, lý khí, táo thấp. Mạch nha tăng cường tiêu hóa.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "VI_THUOC_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $14g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thần Khúc kiện tỳ vị, tăng cường tiêu hóa. Thương truật, trần bì, hậu phác giúp kiện tỳ, lý khí, táo thấp. Mạch nha tăng cường tiêu hóa.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu, bụng đầy.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_TTCHP",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi lỵ.",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_SMT",
+      "to": "VI_THUOC_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Sơn tra, mạch nha, thần khúc giúp tăng cường tiêu hóa, kiện tỳ vị.",
+        "cach_dung": "Với nước chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_SMT",
+      "to": "VI_THUOC_SON_TRA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sơn tra, mạch nha, thần khúc giúp tăng cường tiêu hóa, kiện tỳ vị.",
+        "cach_dung": "Với nước chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_SMT",
+      "to": "VI_THUOC_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sơn tra, mạch nha, thần khúc giúp tăng cường tiêu hóa, kiện tỳ vị.",
+        "cach_dung": "Với nước chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_THAN_KHUC_SMT",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh uống không tiêu, đau bụng, nôn mửa.",
+        "cach_dung": "Với nước chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    }
+  ],
+  "metadata": {}
+}

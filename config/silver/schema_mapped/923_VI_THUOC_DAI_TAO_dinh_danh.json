@@ -1,0 +1,65 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI_TAO",
+    "ten_raw": "Đại táo",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "display_name": "Đại táo",
+    "properties": {}
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T923",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "923"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Lá chứa $0,02-0,03\\%$ tinh dầu, $12,9\\%$ tanin",
+          "(C. A. 1955, 49, 4233d) và taraxerol."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_TAO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa $0,02-0,03\\%$ tinh dầu, $12,9\\%$ tanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T923"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_TAO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa $0,02-0,03\\%$ tinh dầu, $12,9\\%$ tanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T923"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_TAO",
+      "to": "HC_TARAXEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "(C. A. 1955, 49, 4233d) và taraxerol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T923"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_DIEM_SINH",
+  "source": {
+    "source_id": "CT_VT_VN_T1052",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1052"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "CN_BO_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "CN_TRANG_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tráng dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "CN_BO_MENH_MON_CHAN_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn chân hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "CN_LUU_LOI_DAI_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lưu lợi đại trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "DL_TRU_GIUN_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ giun sán."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,237 @@
+{
+  "entity_hub": "VI_THUOC_DUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T430",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "430"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_DUNG_D",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để chữa đau bụng.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, chữa ỉa chảy",
+        "cach_dung": "Dùng làm chè uống cho tiêu cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_DUNG_D",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn lẻ dùng để chữa ỉa chảy.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, chữa ỉa chảy",
+        "cach_dung": "Dùng làm chè uống cho tiêu cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_VO_CAY_DUNG_V",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây dung dùng để chữa đau bụng.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, đau mắt và rửa vết loét, rong kinh do cơ tử cung bị dãn, tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VO_CAY_DUNG_V",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây dung dùng để chữa đau mắt.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, đau mắt và rửa vết loét, rong kinh do cơ tử cung bị dãn, tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VO_CAY_DUNG_V",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây dung dùng để rửa vết loét.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, đau mắt và rửa vết loét, rong kinh do cơ tử cung bị dãn, tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_RONG_KINH_VO_CAY_DUNG_V",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây dung dùng để chữa rong kinh do cơ tử cung bị dãn.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, đau mắt và rửa vết loét, rong kinh do cơ tử cung bị dãn, tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_DUONG_CHAP_VO_CAY_DUNG_V",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ cây dung dùng để chữa tiểu tiện ra dưỡng chấp.",
+        "mo_ta_chi_tiet": "Chữa đau bụng, đau mắt và rửa vết loét, rong kinh do cơ tử cung bị dãn, tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DUNG_L",
+      "to": "VI_THUOC_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15$ đến $30g$ lá khô",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá dung dùng để chữa đau dạ dày có tăng toan.",
+        "mo_ta_chi_tiet": "Chữa đau dạ dày có tăng toan",
+        "cach_dung": "Dùng nước sắc và xirô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DUNG_D",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Dùng làm chè uống cho tiêu cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_DUNG_D",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa chảy",
+        "cach_dung": "Dùng làm chè uống cho tiêu cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_VO_CAY_DUNG_V",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_VO_CAY_DUNG_V",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VO_CAY_DUNG_V",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rửa vết loét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_RONG_KINH_VO_CAY_DUNG_V",
+      "to": "B_RONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rong kinh do cơ tử cung bị dãn",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_DUONG_CHAP_VO_CAY_DUNG_V",
+      "to": "B_TIEU_TIEN_RA_DUONG_CHAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiểu tiện ra dưỡng chấp",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DUNG_L",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dạ dày có tăng toan",
+        "cach_dung": "Dùng nước sắc và xirô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T430"
+      }
+    }
+  ],
+  "metadata": {}
+}

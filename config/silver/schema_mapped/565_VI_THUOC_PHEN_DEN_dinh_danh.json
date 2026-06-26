@@ -1,0 +1,55 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHEN_DEN",
+    "ten_raw": "Phèn đen",
+    "ten_khoa_hoc": "Hibiscus abelmoschus L. (Abelmoschus moschatus Moench.); Phrynium parviflorum Roxb.",
+    "ho_thuc_vat": "Bông Malvaceae; Hoàng tinh (Marantaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "565"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vông vang là một cây thân cỏ cao khoảng $1m$, phía gốc hơi thành gỗ và thân hơi có lông. Lá hình tim, có cạnh hoặc chia thùy khá sâu cả hai mặt đều phủ nhiều lông. 5 thuỳ hình ba cạnh, mép có răng cưa, trên có 3-5 gân chính. Hoa màu vàng, mọc đơn độc ở nách lá phía trên, cuống hoa phủ lông và phía sát hoa hơi phình lên. Quả thuôn trên phủ đầy lông trắng nhạt, chiều dài quả $4$-$5cm$, với 5 cạnh, phía trong cũng phủ lông, chứa nhiều hạt hình thận, dẹt, dài $3$-$44mm$, rộng $1$-$2mm$, trên mặt có những đường nhãn đồng tâm xung quanh rốn hạt. (Hình 429). [CT_VT_VN_T566]: Cỏ cao khoảng $1m$. Lá to hình trứng thuôn dài đầu nhọn, nhẵn, dài $35cm$, rộng $12cm$, cuống dài $22cm$, trong đó $2$-$3cm$ phía trên nhẵn. Cụm hoa hình đầu, không cuống, nằm trong bẹ của lá, đường kính $4$-$5cm$ gồm 4-5 hoa. Cánh hoa màu trắng hay đỏ. Quả hình trứng dài $11mm$, một phía khum nhiều hơn phía kia. Hạt thuôn dài với áo hạt gồm 2 phiến. Mùa hoa quả: tháng 4-6 ( Hình 430).",
+        "thanh_phan_hoa_hoc": [
+          "Hạt chứa dầu mùi xạ hương cho nên trên thị trường thường có tên hạt xạ (graine d’ambrette). Tình dầu đặc ở nhiệt độ thường, màu vàng nhạt, mùi thơm của xạ, thành phần chủ yếu của tinh dầu là chất panmitin, farnesola và ambretolite C,H,O,. Khi loại axit panmitic ta sẽ được một tinh dầu lỏng, được hãng Schimmel đưa vào thị trường từ năm 1902, tinh dầu này mạnh hơn tinh dầu thiên nhiên gấp 6 lần và với 5 hay 6 thể tích cồn $80°$ cho một dung dịch trong. Thường người ta chiết tinh dầu vông vang bằng dung môi, là một loại tinh dầu cao cấp có tác dụng làm dậy mùi và bền mùi, giá rất đắt. Rễ có chứa chất nhày như rễ sâm bố chính."
+        ],
+        "cach_dung_bao_che": "Chủ yếu người ta dùng hạt làm thuốc hay để chế tinh dầu dùng trong nước hoa. Chất nhầy trong rễ được dùng làm chất dính trong nghề giấy hay làm tinh bột."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHEN_DEN",
+      "to": "HC_PANMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tình dầu đặc ở nhiệt độ thường, màu vàng nhạt, mùi thơm của xạ, thành phần chủ yếu của tinh dầu là chất panmitin, farnesola và ambretolite C,H,O,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_DEN",
+      "to": "HC_FARNESOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tình dầu đặc ở nhiệt độ thường, màu vàng nhạt, mùi thơm của xạ, thành phần chủ yếu của tinh dầu là chất panmitin, farnesola và ambretolite C,H,O,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGA_TRUAT",
+    "ten_raw": "Nga truật",
+    "ten_khoa_hoc": "Curcuma zedoaria. Rosc. (Curcuma zerumbet Roxb).",
+    "ho_thuc_vat": "họ gừng Zingiberaceae",
+    "variants": [
+      "Ngải tím"
+    ],
+    "properties": {},
+    "display_name": "Nga truật"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T392",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "392"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngải tím là một loại cỏ cao chừng $1-1,5m$, có thân rễ hình nón, có khía chạy dọc, củ toả ra theo hình chân vịt, cây mẫm và chắc. Vỏ củ màu vàng nhạt, ngoài những củ chính ra, còn có những củ phụ, có cuống hình trứng hay hình quả lê, màu trắng. Lá có bẹ ôm vào thân cây ở phía dưới, dài $30-60km$, rộng $7-8cm$ dọc theo gân chính giữa có những đốm màu đỏ, cuống lá ngắn hay hầu như không có. Cụm hoa mọc ngang, dài $15-20cm$, thường xuất hiện trước khi ra lá, bao gồm một cuống dài $15-20cm$. Lá bắc phía dưới hình trứng hay hình mác tù, màu xanh lục nhạt, mép đỏ, lá bắc phía trên màu vàng nhạt, đầu lá màu đỏ, không mang hoa. Hoa màu vàng. Đài có thùy hình mác tù, dài $15mm$, thuỳ giữa nhọn, cánh môi hẹp ở phía dưới, hơi mở rộng ở phía trên.",
+        "thanh_phan_hoa_hoc": [
+          "Trong nga truật có chừng $1-1,5\\%$tinh dầu; $3,5\\%$ chất nhựa và chất nhầy. Trong tinh dầu thành phần chủ yếu gồm có $48\\%$ secquitecpen; $35\\%$ zingiberen; $9,65$ xineol và một chất có tinh thể. Tinh dầu có màu vàng xanh nhạt, sánh, tỷ trọng $0,982$ mùi vị gần như mùi long não."
+        ],
+        "cach_dung_bao_che": "Khi thu hái, cắt bỏ rễ con, đồ chín rồi phơi khô. Có khi thái mỏng rồi mới phơi khô, lại có khi trước lúc thái mỏng, đem củ ngâm dấm ($600g$ nga truật ngâm trong $160g$ dấm, $160g$ nước), đun cho đến cạn, đem ra thái mỏng, rồi phơi khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGA_TRUAT",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nga truật có chừng $1-1,5\\%$tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGA_TRUAT",
+      "to": "HC_SECQUITECPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu thành phần chủ yếu gồm có $48\\%$ secquitecpen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGA_TRUAT",
+      "to": "HC_ZINGIBEREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu thành phần chủ yếu gồm có $35\\%$ zingiberen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGA_TRUAT",
+      "to": "HC_XINEOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu thành phần chủ yếu gồm có $9,65$ xineol"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T392"
+      }
+    }
+  ]
+}

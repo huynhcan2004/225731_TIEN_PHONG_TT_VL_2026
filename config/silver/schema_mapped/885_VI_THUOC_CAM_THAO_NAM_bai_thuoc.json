@@ -1,0 +1,82 @@
+{
+  "entity_hub": "VI_THUOC_CAM_THAO_NAM",
+  "source": {
+    "source_id": "CT_VT_VN_T885",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "885"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LIEU_CHUNG_CAM_THAO_NAM_C",
+      "to": "VI_THUOC_CAM_THAO_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo nam dùng đơn độc.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T885"
+      }
+    },
+    {
+      "from": "BT_LIEU_CHUNG_CAM_THAO_NAM_C",
+      "to": "S_KHAN_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Những người ca hát thường nhai lá cây này cho ngọt giọng.",
+        "cach_dung": "Nhai lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T885"
+      }
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_CAM_THAO_NAM_C",
+      "to": "VI_THUOC_CAM_THAO_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo nam dùng đơn độc.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T885"
+      }
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_CAM_THAO_NAM_C",
+      "to": "B_RAN_DOC_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng lá chữa rắn độc cắn.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T885"
+      }
+    },
+    {
+      "from": "BT_SAT_TRUNG_CAM_THAO_NAM_H",
+      "to": "VI_THUOC_CAM_THAO_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo nam dùng đơn độc.",
+        "cach_dung": "Giã nhỏ, đắp lên chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T885"
+      }
+    }
+  ],
+  "metadata": {}
+}

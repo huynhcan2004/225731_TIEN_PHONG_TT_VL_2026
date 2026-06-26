@@ -1,0 +1,151 @@
+{
+  "entity_hub": "VI_THUOC_BACH_CAP",
+  "source": {
+    "source_id": "CT_VT_VN_T764",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "764"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_ECZEMA_COC_MAN_DMX",
+      "to": "VI_THUOC_BACH_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị mẩn ngứa (eczema) kết hợp Cóc mẳn, đậu xanh và muối.",
+        "cach_dung": "Cả 3 thứ giã nhỏ đắp lên nơi eczema đã rửa sạch",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_ECZEMA_COC_MAN_DMX",
+      "to": "B_ECZEMA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa (eczema)",
+        "cach_dung": "Cả 3 thứ giã nhỏ đắp lên nơi eczema đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_ECZEMA_COC_MAN_DMX",
+      "to": "VT_DAU_XANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị mẩn ngứa (eczema) kết hợp Cóc mẳn, đậu xanh và muối.",
+        "cach_dung": "Cả 3 thứ giã nhỏ đắp lên nơi eczema đã rửa sạch",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_ECZEMA_COC_MAN_DMX",
+      "to": "VT_MUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị mẩn ngứa (eczema) kết hợp Cóc mẳn, đậu xanh và muối.",
+        "cach_dung": "Cả 3 thứ giã nhỏ đắp lên nơi eczema đã rửa sạch",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_HO_COC_MAN_N5C",
+      "to": "VI_THUOC_BACH_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ Cóc mẳn.",
+        "cach_dung": "Sắc còn $100ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_HO_COC_MAN_N5C",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Sắc còn $100ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_COC_MAN_N",
+      "to": "VI_THUOC_BACH_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ Cóc mẳn.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_COC_MAN_N",
+      "to": "B_VIEM_KET_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm mắt có mủ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_KHAC_COC_MAN_K",
+      "to": "VI_THUOC_BACH_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ Cóc mẳn.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T765"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "BT_KHAC_COC_MAN_K",
+      "to": "B_ROI_LOAN_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Kích thích thần kinh và cơ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    }
+  ],
+  "metadata": {}
+}

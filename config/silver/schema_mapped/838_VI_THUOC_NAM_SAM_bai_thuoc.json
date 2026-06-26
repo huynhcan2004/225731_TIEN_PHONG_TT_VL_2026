@@ -1,0 +1,139 @@
+{
+  "entity_hub": "VI_THUOC_NAM_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T838",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "838"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DONG_THAI_TDT",
+      "to": "VI_THUOC_NAM_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa động thai, sử dụng Tục đoạn và Đỗ trọng để bổ can thận, mạnh gân cốt, an thai.",
+        "cach_dung": "Ngày uống $30$ viên, chiêu thuốc bằng nước cơm.",
+        "ghi_chu": "Không có thông tin cụ thể về liều lượng Nam sâm trong bài thuốc này. Liều lượng của Tục đoạn và Đỗ trọng là $80g$ mỗi vị, tán nhỏ trộn với thịt táo đỏ viên bằng hạt ngô."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_TDT",
+      "to": "VT_TUC_DOAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa động thai, sử dụng Tục đoạn và Đỗ trọng để bổ can thận, mạnh gân cốt, an thai.",
+        "cach_dung": "Ngày uống $30$ viên, chiêu thuốc bằng nước cơm.",
+        "ghi_chu": "Liều lượng: $80g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_TDT",
+      "to": "VT_DO_TRONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa động thai, sử dụng Tục đoạn và Đỗ trọng để bổ can thận, mạnh gân cốt, an thai.",
+        "cach_dung": "Ngày uống $30$ viên, chiêu thuốc bằng nước cơm.",
+        "ghi_chu": "Liều lượng: $80g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_TDT",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa động thai",
+        "cach_dung": "Ngày uống $30$ viên, chiêu thuốc bằng nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_NAM_SAM_N",
+      "to": "VI_THUOC_NAM_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nam sâm có tác dụng bổ dưỡng, thường được dùng để điều trị các chứng bệnh liên quan đến suy nhược cơ thể, thiếu máu.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Liều chung: $9-18g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_NAM_SAM_N",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ có thai $2-3$ tháng mà động thai",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_LUC_NONG_LUC_RET_T",
+      "to": "VI_THUOC_NAM_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc dùng Tục đoạn kết hợp Nam sâm để điều trị chứng nóng rét sau sinh.",
+        "cach_dung": "Chia làm $3$ lần uống trong ngày.",
+        "ghi_chu": "Không có thông tin cụ thể về liều lượng Nam sâm trong bài thuốc này. Liều lượng của Tục đoạn là $40g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_LUC_NONG_LUC_RET_T",
+      "to": "VT_TUC_DOAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc dùng Tục đoạn kết hợp Nam sâm để điều trị chứng nóng rét sau sinh.",
+        "cach_dung": "Chia làm $3$ lần uống trong ngày.",
+        "ghi_chu": "Liều lượng: $40g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    },
+    {
+      "from": "BT_DE_XONG_LUC_NONG_LUC_RET_T",
+      "to": "S_PHIEN_MUON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đẻ xong lúc nóng lúc rét phiền muộn",
+        "cach_dung": "Chia làm $3$ lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T838"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,878 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GUNG",
+    "ten_raw": "Gừng",
+    "ten_khoa_hoc": "$Zingiber offcinale Rosc.; Zingiber offcinale$",
+    "ho_thuc_vat": "$Gừng Zingiberaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "sinh khương là củ (thân rễ) tươi. can khương là thân rễ phơi khô.",
+      "lieu_dung_chung": "Gừng tươi (sinh khương) dùng với liều $3-6g$ dưới dạng thuốc sắc hay thuốc pha hoặc rượu gừng tươi (mỗi ngày $2-5ml$). Gừng khô (can khương) dùng khi bị lạnh mà đau bụng, đi ỉa lỏng, mệt lả, nôn mửa. Liều dùng cũng như gừng tươi.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Gừng được trồng ở khắp nơi trong nước ta"
+    },
+    "display_name": "Gừng",
+    "canonical_name": "Gừng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_GUNG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Gung"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "HC_ZINGERON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Zingeron"
+      }
+    },
+    {
+      "id": "HC_ZINGEROLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Zingerola"
+      }
+    },
+    {
+      "id": "HC_SHOGAOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Shogaola"
+      }
+    },
+    {
+      "id": "HC_CAMPHEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Camphen"
+      }
+    },
+    {
+      "id": "HC_PHELANDREN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Phelandren"
+      }
+    },
+    {
+      "id": "HC_ZINGIBEREN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Zingiberen"
+      }
+    },
+    {
+      "id": "HC_XITRALA_BOCNEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xitrala Bocneola"
+      }
+    },
+    {
+      "id": "HC_GERANIOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Geraniola"
+      }
+    },
+    {
+      "id": "BT_CO_DOM_DAU_GUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Co Dom Dau Gung"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cam Thao"
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhuc Dau"
+      }
+    },
+    {
+      "id": "S_LANH_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Lanh Bung"
+      }
+    },
+    {
+      "id": "S_NON_OE",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Non Oe"
+      }
+    },
+    {
+      "id": "S_DI_TA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Di Ta"
+      }
+    },
+    {
+      "id": "B_DI_KY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Ky"
+      }
+    },
+    {
+      "id": "B_CAM_CUM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Cum"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "S_DAU_MOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Moi"
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Non Mua"
+      }
+    },
+    {
+      "id": "CN_PHAT_BIEU_TAN_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Phat Bieu Tan Han"
+      }
+    },
+    {
+      "id": "CN_ON_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "On Trung"
+      }
+    },
+    {
+      "id": "CN_HA_NO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ha No"
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Dom"
+      }
+    },
+    {
+      "id": "CN_HANH_THUY_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hanh Thuy Giai Doc"
+      }
+    },
+    {
+      "id": "DL_TE_LIET_THAN_KINH_TRUNG_UONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Te Liet Than Kinh Trung Uong"
+      }
+    },
+    {
+      "id": "DL_GIAM_NHU_DONG_RUOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Nhu Dong Ruot"
+      }
+    },
+    {
+      "id": "DL_GAY_NON",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Gay Non"
+      }
+    },
+    {
+      "id": "DL_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Hap"
+      }
+    },
+    {
+      "id": "DL_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tim Mach"
+      }
+    },
+    {
+      "id": "CN_CO_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Dom"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "381"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Gừng là một loại cây nhỏ, sống lâu năm, cao 0,60 đến 1m. Thân rễ mẫm lên thành củ, lâu dần thành xơ. Lá mọc so le, không cuống, có bẹ, hình mác dài 15 đến 20cm, rộng chừng 2cm, mặt bóng nhẵn, gân giữa hơi trắng nhạt, và có mùi thơm. Trục hoa xuất phát từ gốc, dài tới 20cm, cụm hoa thành bông mọc sít nhau, hoa dài 5cm, rộng 2-3cm, lá bắc hình trứng, dài 2,5cm, mép lưng màu vàng, đài hoa dài chừng 1cm, có 3 răng ngắn, 3 cành hoa dài chừng 2cm, màu vàng xanh, mép cánh hoa màu tím, nhị cũng tím. Loài gừng trồng ít ra hoa.",
+        "thanh_phan_hoa_hoc": [
+          "Trong gừng có từ 2-3\\% tinh dầu. Ngoài ra còn có chất nhựa dầu (5\\%), chất béo (3,7\\%), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$. Tình dầu gừng có tỷ trọng 0,878, tả tuyền, năng suất quay cực -25° ở -$5°C$, độ sôi 155-300. Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$. Nhựa gồm một nhựa trung tính, hai nhựa axit."
+        ],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Không tìm thấy",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh phế"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGERON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu (5\\%), chất béo (3,7\\%), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu (5\\%), chất béo (3,7\\%), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_SHOGAOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu (5\\%), chất béo (3,7\\%), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_CAMPHEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_PHELANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGIBEREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_XITRALA_BOCNEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_GERANIOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B phelandren$, một cacbua: $zingiberen$, một rượu sesquitecpen, một ít $xitrala bocneola$ và $geraniola$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      }
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "VI_THUOC_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Cổ phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "S_LANH_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "S_NON_OE",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_DOM_DAU_GUNG",
+      "to": "CN_CO_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "S_DI_TA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi lần uống $2-4g$",
+        "cach_dung": "Dùng nước cơm chiên thuốc",
+        "ghi_chu": "Can khương sấy khô tán nhỏ. Dùng nước cơm chiên thuốc, mỗi lần uống $2-4g$. CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "B_DI_KY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi lần $2-4g$",
+        "cach_dung": "Chiêu bằng nước cơm hay nước cháo",
+        "ghi_chu": "Ngày uống nhiều lần, mỗi lần $2-4g$, chiêu bằng nước cơm hay nước cháo. CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "S_DAU_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, bọc vào mớ tóc rối, tẩm rượu xào nóng đánh khắp người và xát vào chỗ đau mỏi",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nhấm từng ít một cho đến khi hết nôn",
+        "ghi_chu": "CT_VT_VN_T383"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "CN_PHAT_BIEU_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phát biểu tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "CN_HA_NO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm hết nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "CN_HANH_THUY_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành thủy giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "DL_TE_LIET_THAN_KINH_TRUNG_UONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm zingeron vào tĩnh mạch thỏ, thì thần kinh trung khu vận động bị tê liệt.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "DL_GIAM_NHU_DONG_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống gừng liều cao có thể gây kém ăn, nhu động ruột bị ức chế.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "DL_GAY_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chó uống gừng thì gây nôn.",
+        "ghi_chu": "Thí nghiệm trên chó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "DL_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm mạch máu thuốc gừng thì thấy con vật thí nghiệm có hơi thở mau lên, biên độ giảm xuống.",
+        "ghi_chu": "Thí nghiệm trên động vật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "DL_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm mạch máu thuốc gừng thì thấy con vật thí nghiệm mạch nhanh lên, huyết áp tăng cao.",
+        "ghi_chu": "Thí nghiệm trên động vật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "all_sources": [
+          "CT_VT_VN_T381"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 72.0,
+      "reliability_c_score": 0.7554,
+      "total_confidence_sum": 27.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

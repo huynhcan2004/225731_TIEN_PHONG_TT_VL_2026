@@ -1,0 +1,739 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TAM_XUAN",
+    "ten_raw": "Tầm xuân",
+    "ten_khoa_hoc": "$Rosa multiflora Thunb.$",
+    "ho_thuc_vat": "$Hoa Hồng Rosaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "mùa hoa: tháng 5-7, mùa quả: tháng 8-10.",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng 10-20$g$. Ngày dùng 8-12$g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang dại, còn thấy mọc ở Trung Quốc (Đông, Trung, Bắc, Nam), Nhật bản... Người ta thu hái hoa, quả, rễ dùng làm thuốc trong y học cổ truyền, tươi hoặc phơi, sấy khô. [CT_VT_VN_T912]: Tầm xuân mọc hoang và được trồng ở khắp các tỉnh miền Bắc nước ta. Còn thấy mọc ở các nước khác như Trung Quốc, Nhật Bản. Người ta dùng quả chín hái về phơi hay sấy khô. Có khi dùng hoa tươi hay hoa đã phơi khô."
+    },
+    "display_name": "Vị thuốc Tầm xuân",
+    "canonical_name": "Vị thuốc Tầm xuân"
+  },
+  "nodes": [
+    {
+      "id": "BT_KINH_NGUYET_KHONG_DEU_TAM_XUAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Kinh nguyệt không đều Tam Xuân",
+        "aliases": [
+          "kinhnguyetkhongdeutamxuan",
+          "kinh nguyệt không đều tam xuân",
+          "kinh nguyet khong deu tam xuan"
+        ],
+        "search_vector_hint": "Bài thuốc Kinh nguyệt không đều Tam Xuân thuộc nhóm Bài thuốc, thường liên quan đến điều hòa kinh nguyệt."
+      }
+    },
+    {
+      "id": "BT_PHU_THUNG_TAM_XUAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Phù thũng Tam Xuân",
+        "aliases": [
+          "phu thung tam xuan",
+          "phù thũng tam xuân",
+          "phuthungtamxuan"
+        ],
+        "search_vector_hint": "Bài thuốc Phù thũng Tam Xuân thuộc nhóm Bài thuốc, thường liên quan đến điều trị phù thũng."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_KHONG_DEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt không đều",
+        "aliases": [
+          "kinhnguyetthatthuong",
+          "kinh nguyet khong deu",
+          "roi loan kinh nguyet",
+          "kinh nguyệt không đều",
+          "kinh nguyet that thuong",
+          "kinhnguyetkhongdeu",
+          "kinh nguyệt thất thường",
+          "roiloankinhnguyet",
+          "rối loạn kinh nguyệt"
+        ],
+        "search_vector_hint": "Bệnh Kinh nguyệt không đều thuộc nhóm bệnh, thường liên quan đến rối loạn nội tiết tố nữ."
+      }
+    },
+    {
+      "id": "B_PHU_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phù thũng",
+        "aliases": [
+          "phù",
+          "phuthung",
+          "phu thung",
+          "phù thũng",
+          "phu"
+        ],
+        "search_vector_hint": "Phù thũng thuộc nhóm bệnh, thường liên quan đến tình trạng tích tụ dịch."
+      }
+    },
+    {
+      "id": "CN_BO_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ huyết",
+        "aliases": [
+          "bo huyet",
+          "bổ huyết",
+          "bohuyet"
+        ],
+        "search_vector_hint": "Công năng Bổ huyết thuộc nhóm công năng, thường liên quan đến tăng cường lượng máu."
+      }
+    },
+    {
+      "id": "CN_DUONG_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dưỡng huyết",
+        "aliases": [
+          "bo huyet",
+          "bohuyet",
+          "dưỡng huyết",
+          "duonghuyet",
+          "duong huyet",
+          "bổ huyết"
+        ],
+        "search_vector_hint": "Dưỡng huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_KHAU_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khẩu khí",
+        "aliases": [
+          "khaukhi",
+          "khẩu khí",
+          "khau khi"
+        ],
+        "search_vector_hint": "Khẩu khí thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Lợi tiểu thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_NHUAN_DA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận da",
+        "aliases": [
+          "nhuan da",
+          "nhuận da",
+          "nhuanda"
+        ],
+        "search_vector_hint": "Công năng Nhuận da thuộc nhóm Công năng, thường liên quan đến làm đẹp da."
+      }
+    },
+    {
+      "id": "CN_THU_LIEM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thu liễm",
+        "aliases": [
+          "thu liem",
+          "thu liễm",
+          "thuliem"
+        ],
+        "search_vector_hint": "Công năng Thu liễm thuộc nhóm công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_CHAT_MAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chất màu",
+        "aliases": [
+          "chatmau",
+          "chất màu",
+          "chat mau"
+        ],
+        "search_vector_hint": "Hoạt chất Chất màu thuộc nhóm Hoạt chất, thường liên quan đến thành phần tạo màu trong dược liệu."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "S_IA_CHAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ỉa chảy",
+        "aliases": [
+          "ia chay",
+          "tieu chay",
+          "iachay",
+          "tieuchay",
+          "tiêu chảy",
+          "ỉa chảy"
+        ],
+        "search_vector_hint": "Triệu chứng Ỉa chảy thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "S_MUN_NHOT_LO_LOET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mụn nhọt lở loét",
+        "aliases": [
+          "mun nhot lo loet",
+          "mụn nhọt lở loét",
+          "munnhotloloet"
+        ],
+        "search_vector_hint": "Triệu chứng Mụn nhọt lở loét thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý da liễu."
+      }
+    },
+    {
+      "id": "S_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng đau",
+        "aliases": [
+          "sưng đau",
+          "sung tay",
+          "sưng tấy",
+          "sungdau",
+          "dau nhuc",
+          "sungtay",
+          "sung dau",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng đau thuộc nhóm triệu chứng, thường liên quan đến viêm nhiễm hoặc tổn thương."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_HUONG_PHU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hương phụ",
+        "aliases": [
+          "huong phu",
+          "huongphu",
+          "hương phụ"
+        ],
+        "search_vector_hint": "Vị thuốc Hương phụ thuộc nhóm Vị thuốc, thường liên quan đến hành khí, giải uất, điều kinh."
+      }
+    },
+    {
+      "id": "VT_ICH_MAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ích mẫu",
+        "aliases": [
+          "sunguy",
+          "sung uy",
+          "choiden",
+          "ích mẫu",
+          "sung úy",
+          "ichmau",
+          "ich mau",
+          "chói đèn",
+          "choi den"
+        ],
+        "search_vector_hint": "Vị thuốc Ích mẫu thuộc nhóm Vị thuốc, thường liên quan đến thành phần trong các bài thuốc y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_RE_CO_TRANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Rễ cỏ tranh",
+        "aliases": [
+          "rễ cỏ tranh",
+          "re co tranh",
+          "recotranh"
+        ],
+        "search_vector_hint": "Vị thuốc Rễ cỏ tranh thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_TAM_XUAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tầm xuân",
+        "aliases": [
+          "tamxuan",
+          "tầm xuân",
+          "tam xuan"
+        ],
+        "search_vector_hint": "Vị thuốc Tầm xuân thuộc nhóm Vị thuốc, thường liên quan đến hoa tầm xuân.",
+        "bo_phan_dung": "quả",
+        "thu_hai": "mùa hoa: tháng 5-7, mùa quả: tháng 8-10.",
+        "lieu_dung_chung": "Ngày dùng 10-20$g$. Ngày dùng 8-12$g$ dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cây mọc hoang dại, còn thấy mọc ở Trung Quốc (Đông, Trung, Bắc, Nam), Nhật bản... Người ta thu hái hoa, quả, rễ dùng làm thuốc trong y học cổ truyền, tươi hoặc phơi, sấy khô. [CT_VT_VN_T912]: Tầm xuân mọc hoang và được trồng ở khắp các tỉnh miền Bắc nước ta. Còn thấy mọc ở các nước khác như Trung Quốc, Nhật Bản. Người ta dùng quả chín hái về phơi hay sấy khô. Có khi dùng hoa tươi hay hoa đã phơi khô.",
+        "ten_khoa_hoc": "$Rosa multiflora Thunb.$",
+        "ho_thuc_vat": "$Hoa Hồng Rosaceae$",
+        "hinh_thai_chi_tiet": "Cây mọc bụi, lá kép lông chim, nhiều gai. Hoa nhỏ bé, đẹp nhiều màu khác nhau đỏ, trắng, vàng v.v.. 5 cánh hoa Tầm xuân là một loại cây leo bằng thân nhờ có gai quặp. Cành non màu xanh lục nhạt, có lông và gai. Cành già màu nâu nhạt. Lá kép lông chim lẻ, thường gồm 5-9 lá chét hình trứng, dài $2$-$5cm$, rộng $1$-$3cm$, mép có răng cưa nhỏ, mặt trên nhẵn, mặt dưới có lông, vò ra có mùi thơm nhẹ. Lá kèm hình sợi. Hoa nhỏ màu trắng, mọc thành chùy ở ngọn cành. Đài có 5 răng, tràng có 5 cánh. Nhị nhiều. Quả bế đựng trong đế hoa hình trứng, khi chín có màu đỏ tươi. Mùa hoa: tháng 5-7, mùa quả: tháng 8-10.",
+        "thanh_phan_hoa_hoc": "['Trong tầm xuân có $tinh dầu$, $tanin$, $chất màu$.']"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "911"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc bụi, lá kép lông chim, nhiều gai. Hoa nhỏ bé, đẹp nhiều màu khác nhau đỏ, trắng, vàng v.v.. 5 cánh hoa Tầm xuân là một loại cây leo bằng thân nhờ có gai quặp. Cành non màu xanh lục nhạt, có lông và gai. Cành già màu nâu nhạt. Lá kép lông chim lẻ, thường gồm 5-9 lá chét hình trứng, dài $2$-$5cm$, rộng $1$-$3cm$, mép có răng cưa nhỏ, mặt trên nhẵn, mặt dưới có lông, vò ra có mùi thơm nhẹ. Lá kèm hình sợi. Hoa nhỏ màu trắng, mọc thành chùy ở ngọn cành. Đài có 5 răng, tràng có 5 cánh. Nhị nhiều. Quả bế đựng trong đế hoa hình trứng, khi chín có màu đỏ tươi. Mùa hoa: tháng 5-7, mùa quả: tháng 8-10.",
+        "thanh_phan_hoa_hoc": [
+          "Trong tầm xuân có $tinh dầu$, $tanin$, $chất màu$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân vị ngọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tầm xuân có $tinh dầu$, $tanin$, $chất màu$.",
+        "ghi_chu": "extract tinh dầu, tanin, chất màu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tầm xuân có $tinh dầu$, $tanin$, $chất màu$.",
+        "ghi_chu": "extract tinh dầu, tanin, chất màu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "HC_CHAT_MAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tầm xuân có $tinh dầu$, $tanin$, $chất màu$.",
+        "ghi_chu": "extract tinh dầu, tanin, chất màu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nát đắp lên những chỗ sưng đau",
+        "ghi_chu": "Lá tầm xuân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "S_IA_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Hoa, quả rễ tầm xuân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Quả tầm xuân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_TAM_XUAN",
+      "to": "VT_TAM_XUAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_TAM_XUAN",
+      "to": "VT_RE_CO_TRANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_TAM_XUAN",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_TAM_XUAN",
+      "to": "VT_TAM_XUAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_TAM_XUAN",
+      "to": "VT_ICH_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_TAM_XUAN",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_TAM_XUAN",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "S_MUN_NHOT_LO_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đắp lên mụn nhọt",
+        "ghi_chu": "Hoa tầm xuân tươi giã nát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_THU_LIEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_BO_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân vị ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_DUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân vị ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_KHAU_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân vị ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_XUAN",
+      "to": "CN_NHUAN_DA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả tầm xuân vị ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T911",
+        "all_sources": [
+          "CT_VT_VN_T911"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

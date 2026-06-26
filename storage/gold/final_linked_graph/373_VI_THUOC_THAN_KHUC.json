@@ -1,0 +1,1017 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THAN_KHUC",
+    "ten_raw": "Thần khúc",
+    "ten_khoa_hoc": "$Massa medicata fermentata$",
+    "ho_thuc_vat": "$Chưa rõ (Massa medicata fermentata)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không phải do một cây thuốc nào cung cấp mà gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô.",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô.",
+      "lieu_dung_chung": "Chưa rõ",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "tỉnh Phúc Kiến (Trung Qua"
+    },
+    "display_name": "Vị thuốc Thần khúc",
+    "canonical_name": "Vị thuốc Thần khúc"
+  },
+  "nodes": [
+    {
+      "id": "BT_LY_THAN_KHUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lý thần khúc",
+        "aliases": [
+          "lythankhuc",
+          "ly than khuc",
+          "lý thần khúc"
+        ],
+        "search_vector_hint": "Lý thần khúc thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "BT_NON_MUA_THAN_KHUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Non mua thần khúc",
+        "aliases": [
+          "non mua thần khúc",
+          "non mua than khuc",
+          "nonmuathankhuc"
+        ],
+        "search_vector_hint": "Non mua thần khúc thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "B_CAM_LANH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cam lanh",
+        "aliases": [
+          "camlanh",
+          "cam lanh"
+        ],
+        "search_vector_hint": "Cam lanh thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cảm mạo",
+        "aliases": [
+          "camcum",
+          "cam mao",
+          "sổ mũi",
+          "cảm mạo",
+          "somui",
+          "so mui",
+          "cammao",
+          "cảm cúm",
+          "cam cum"
+        ],
+        "search_vector_hint": "Bệnh Cảm mạo thuộc nhóm bệnh, thường liên quan đến hệ hô hấp."
+      }
+    },
+    {
+      "id": "B_CAM_NANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cam năng",
+        "aliases": [
+          "cam nang",
+          "cam năng",
+          "camnang"
+        ],
+        "search_vector_hint": "Cam năng thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_LAM_LOI_SUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lấm lối sữa",
+        "aliases": [
+          "lấm lối sữa",
+          "lamloisua",
+          "lam loi sua"
+        ],
+        "search_vector_hint": "Lấm lối sữa thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_UONG_KHONG_TIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Uống không tiêu",
+        "aliases": [
+          "uongkhongtieu",
+          "an khong tieu",
+          "uong khong tieu",
+          "uống không tiêu",
+          "ăn không tiêu",
+          "ankhongtieu"
+        ],
+        "search_vector_hint": "Uống không tiêu thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không tiêu",
+        "aliases": [
+          "ăn uống không tiêu",
+          "an uong khong tieu",
+          "anuongkhongtieu"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không tiêu thuộc nhóm Công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_K_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khứ ứ",
+        "aliases": [
+          "khuu",
+          "khứ ứ",
+          "khu u"
+        ],
+        "search_vector_hint": "Khứ ứ thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_ON_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ôn trung",
+        "aliases": [
+          "ôn trung",
+          "ontrung",
+          "on trung"
+        ],
+        "search_vector_hint": "Công năng Ôn trung thuộc nhóm công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_CHAT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chất béo",
+        "aliases": [
+          "chatbeo",
+          "chất béo",
+          "chat beo"
+        ],
+        "search_vector_hint": "Hoạt chất Chất béo thuộc nhóm hoạt chất, thường liên quan đến thành phần dinh dưỡng."
+      }
+    },
+    {
+      "id": "HC_GLUCOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucozit",
+        "aliases": [
+          "glucozit"
+        ],
+        "search_vector_hint": "Glucozit thuộc nhóm hoạt chất, thường liên quan đến các hợp chất hóa học."
+      }
+    },
+    {
+      "id": "HC_LIPAZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Lipaza",
+        "aliases": [
+          "lipaza"
+        ],
+        "search_vector_hint": "Lipaza thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_BUNG_DAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Bụng đầy",
+        "aliases": [
+          "bung day",
+          "daybung",
+          "bụng đầy",
+          "đầy bụng",
+          "day bung",
+          "bungday"
+        ],
+        "search_vector_hint": "Bụng đầy thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DI_IA_LONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Di ỉa lỏng",
+        "aliases": [
+          "diialong",
+          "di ỉa lỏng",
+          "di ia long"
+        ],
+        "search_vector_hint": "Di ỉa lỏng thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_MIENG_NON",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Miệng non",
+        "aliases": [
+          "miengnon",
+          "miệng non",
+          "mieng non"
+        ],
+        "search_vector_hint": "Miệng non thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_HAU_PHAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hậu phác",
+        "aliases": [
+          "hauphac",
+          "hậu phác",
+          "hau phac"
+        ],
+        "search_vector_hint": "Hậu phác thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_MACH_NHA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mạch nha",
+        "aliases": [
+          "machnha",
+          "mach nha",
+          "đại mạch nha",
+          "mamluamach",
+          "mầm lúa mạch",
+          "dai mach nha",
+          "daimachnha",
+          "mạch nha",
+          "mam lua mach"
+        ],
+        "search_vector_hint": "Vị thuốc Mạch nha thuộc nhóm vị thuốc, thường liên quan đến kiện tỳ, tiêu thực."
+      }
+    },
+    {
+      "id": "VT_SON_TRA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sơn tra",
+        "aliases": [
+          "sơn tra",
+          "son tra",
+          "sontra"
+        ],
+        "search_vector_hint": "Vị thuốc Sơn tra thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_THAN_KHUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thần khúc",
+        "aliases": [
+          "than khuc",
+          "thần khúc",
+          "thankhuc"
+        ],
+        "search_vector_hint": "Thần khúc thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh.",
+        "bo_phan_dung": "không phải do một cây thuốc nào cung cấp mà gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô.",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô.",
+        "lieu_dung_chung": "Chưa rõ",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "tỉnh Phúc Kiến (Trung Qua",
+        "ten_khoa_hoc": "$Massa medicata fermentata$",
+        "ho_thuc_vat": "$Chưa rõ (Massa medicata fermentata)$",
+        "hinh_thai_chi_tiet": "Thần khúc là một vị thuốc rất phổ cập để chữa bốn mùa cảm mạo, ăn uống không tiêu v.v...Nhưng thần khúc không phải do một cây thuốc nào cung cấp mà gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô."
+      }
+    },
+    {
+      "id": "VT_THUONG_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thương truật",
+        "aliases": [
+          "thuongtruat",
+          "thương truật",
+          "thuong truat"
+        ],
+        "search_vector_hint": "Thương truật thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_TRAN_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Trần bì",
+        "aliases": [
+          "trần bì",
+          "vo quyt",
+          "voquyt",
+          "quýt",
+          "vỏ quýt",
+          "tran bi",
+          "tranbi",
+          "quyt"
+        ],
+        "search_vector_hint": "Vị thuốc Trần bì thuộc nhóm vị thuốc, thường liên quan đến kiện tỳ, lý khí, hóa đàm."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "373"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thần khúc là một vị thuốc rất phổ cập để chữa bốn mùa cảm mạo, ăn uống không tiêu v.v...Nhưng thần khúc không phải do một cây thuốc nào cung cấp mà gồm nhiều vị thuốc phối hợp với bột mì hoặc bột gạo tạo nên một môi trường đặc biệt gây mốc rồi phơi khô."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các $tinh dầu$, $glucozit$, $chất béo$ và men $lipaza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các $tinh dầu$, $glucozit$, $chất béo$ và men $lipaza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các $tinh dầu$, $glucozit$, $chất béo$ và men $lipaza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "HC_LIPAZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một loại thần khúc có các $tinh dầu$, $glucozit$, $chất béo$ và men $lipaza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T373 | CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T373 | CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_CAM_LANH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_CAM_NANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_MIENG_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "S_DI_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "B_LAM_LOI_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T374"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "VT_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "VT_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "vai_tro": "Thần",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "VT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "VT_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "VT_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$14g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Mỗi vị $14g$",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "S_BUNG_DAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi vị $14g$",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_THAN_KHUC",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi vị $14g$",
+        "cach_dung": "Các vị tán nhỏ. Ngày $3-6g$ chia làm 2 hoặc 3 lần uống",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "VT_SON_TRA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "VT_MACH_NHA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Thần",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "VT_THAN_KHUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "B_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi vị $4g$",
+        "cach_dung": "Sắc với nước chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi vị $4g$",
+        "cach_dung": "Sắc với nước chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_THAN_KHUC",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Mỗi vị $4g$",
+        "cach_dung": "Sắc với nước chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T375"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "CN_K_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào hai kinh tỳ và vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THAN_KHUC",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "all_sources": [
+          "CT_VT_VN_T373"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 50.0,
+      "reliability_c_score": 0.7559,
+      "total_confidence_sum": 25.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

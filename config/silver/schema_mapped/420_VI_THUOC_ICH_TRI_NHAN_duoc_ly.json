@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_ICH_TRI_NHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T420",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "420"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ấm thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_BO_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ấm vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_CAM_DI_IA_LONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm đi ỉa lỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    }
+  ],
+  "metadata": {}
+}

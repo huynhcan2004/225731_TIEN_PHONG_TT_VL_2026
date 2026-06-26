@@ -1,0 +1,133 @@
+{
+  "entity_hub": "VI_THUOC_QUE",
+  "source": {
+    "source_id": "CT_VT_VN_T872",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "872"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAI_NHIEU_PHA_CO_CHI_PT",
+      "to": "VI_THUOC_QUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng bổ thận, cố tinh, sáp niệu, điều trị chứng tiểu nhiều, tinh khí không ổn định.",
+        "mo_ta_chi_tiet": "Chữa bệnh đi đái nhiều, tinh khí không kiên định",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2-5g viên này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_DAI_NHIEU_PHA_CO_CHI_PT",
+      "to": "B_DAI_NHIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh đi đái nhiều, tinh khí không kiên định",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2-5g viên này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_DAI_NHIEU_PHA_CO_CHI_PT",
+      "to": "VT_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng bổ thận, cố tinh, sáp niệu, điều trị chứng tiểu nhiều, tinh khí không ổn định.",
+        "mo_ta_chi_tiet": "Chữa bệnh đi đái nhiều, tinh khí không kiên định",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2-5g viên này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_DAI_NHIEU_PHA_CO_CHI_PT",
+      "to": "VT_TIEU_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng bổ thận, cố tinh, sáp niệu, điều trị chứng tiểu nhiều, tinh khí không ổn định.",
+        "mo_ta_chi_tiet": "Chữa bệnh đi đái nhiều, tinh khí không kiên định",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần 2-5g viên này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_HO_HAO_PHA_CO_CHI_PV",
+      "to": "VI_THUOC_QUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trị ho.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa họ ao",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_HO_HAO_PHA_CO_CHI_PV",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bài thuốc chữa họ ao",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_HO_HAO_PHA_CO_CHI_PV",
+      "to": "VT_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$400g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trị ho.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa họ ao",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    },
+    {
+      "from": "BT_HO_HAO_PHA_CO_CHI_PV",
+      "to": "VT_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "một nắm",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trị ho.",
+        "mo_ta_chi_tiet": "Bài thuốc chữa họ ao",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T872"
+      }
+    }
+  ],
+  "metadata": {}
+}

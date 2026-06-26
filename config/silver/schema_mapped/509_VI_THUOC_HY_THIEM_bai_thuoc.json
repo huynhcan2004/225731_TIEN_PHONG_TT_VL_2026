@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_HY_THIEM",
+  "source": {
+    "source_id": "CT_VT_VN_T509",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "509"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SUNG_DAU_HY_THIEM_R",
+      "to": "VI_THUOC_HY_THIEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hy thiêm diệt phong, trừ thấp, mạnh gân cốt, giảm đau.",
+        "cach_dung": "Đắp lên chỗ sưng đau.",
+        "ghi_chu": "Trộn với rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T509"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_HY_THIEM_R",
+      "to": "S_SUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đắp lên những chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T509"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_HY_THIEM_R",
+      "to": "S_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đắp lên những chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T509"
+      }
+    },
+    {
+      "from": "BT_NGAM_RUOU_HY_THIEM_H",
+      "to": "VI_THUOC_HY_THIEM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hy thiêm diệt phong, trừ thấp, mạnh gân cốt, giảm đau.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần 1 cốc con.",
+        "ghi_chu": "Ngâm rượu tỷ lệ 1 phần 5."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T509"
+      }
+    }
+  ],
+  "metadata": {}
+}

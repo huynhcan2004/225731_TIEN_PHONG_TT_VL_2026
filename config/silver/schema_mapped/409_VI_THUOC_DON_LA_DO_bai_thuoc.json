@@ -1,0 +1,211 @@
+{
+  "entity_hub": "VI_THUOC_DON_LA_DO",
+  "source": {
+    "source_id": "CT_VT_VN_T409",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "409"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_MAN_NGUA_DON_LA_DO_D",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn lá đỏ có tác dụng thanh nhiệt, giải độc, thường dùng trị mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MAN_NGUA_DON_LA_DO_D",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt mẩn ngứa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MAN_NGUA_DON_LA_DO_D",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt mẩn ngứa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_DIA_LONG_DON_LA_DO_DG",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn lá đỏ kết hợp gừng giúp kiện tỳ, trừ thấp, chỉ tả, dùng trị đi ỉa lỏng kéo dài.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_DIA_LONG_DON_LA_DO_DG",
+      "to": "VT_GUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đơn lá đỏ kết hợp gừng giúp kiện tỳ, trừ thấp, chỉ tả, dùng trị đi ỉa lỏng kéo dài.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_DIA_LONG_DON_LA_DO_DG",
+      "to": "B_DIA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đi ỉa lỏng lâu ngày",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_ZONA_MAN_NGUA_DON_TIA_D",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn lá tía có tác dụng thanh nhiệt, giải độc, thường dùng trị zona, mẩn ngứa, mất ngủ.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_ZONA_MAN_NGUA_DON_TIA_D",
+      "to": "B_ZONA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Zona và mẩn ngứa, mất ngủ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_ZONA_MAN_NGUA_DON_TIA_D",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Zona và mẩn ngứa, mất ngủ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_ZONA_MAN_NGUA_DON_TIA_D",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Zona và mẩn ngứa, mất ngủ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_DI_UNG_DON_DO_D",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn lá đỏ có tác dụng thanh nhiệt, giải độc, thường dùng trị mẩn ngứa, dị ứng.",
+        "cach_dung": "Sắc uống hoặc xoa xát",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_DI_UNG_DON_DO_D",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, dị ứng",
+        "cach_dung": "Sắc uống trong ngày. Có thể dùng lá tươi xoa xát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_DI_UNG_DON_DO_D",
+      "to": "B_DI_UNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, dị ứng",
+        "cach_dung": "Sắc uống trong ngày. Có thể dùng lá tươi xoa xát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_LY_DON_LA_DO_D",
+      "to": "VI_THUOC_DON_LA_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn lá đỏ có tác dụng thanh nhiệt, giải độc, thường dùng trị lỵ.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "BT_LY_DON_LA_DO_D",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    }
+  ],
+  "metadata": {}
+}

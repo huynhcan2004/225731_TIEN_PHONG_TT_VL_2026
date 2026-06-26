@@ -1,0 +1,238 @@
+{
+  "entity_hub": "VI_THUOC_NGUU_HOANG",
+  "source": {
+    "source_id": "CT_VT_VN_T813",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "813"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "VI_THUOC_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngưu hoàng giúp thanh nhiệt giải độc, phối hợp với các vị thuốc khác để điều trị cảm mạo và viêm khí quản.",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "VI_THUOC_THIEN_TUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiền thuế giúp thanh nhiệt giải độc, hỗ trợ điều trị viêm nhiễm.",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "VI_THUOC_NGUU_BANG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngưu bàng tử giúp tán phong nhiệt, giải độc, hỗ trợ điều trị các triệu chứng của cảm mạo.",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, giảm độc tính và tăng cường hiệu quả điều trị.",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh giúp tuyên phế, trừ đàm, hỗ trợ điều trị các bệnh về đường hô hấp.",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "B_VIEM_KHI_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm khí quản",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_VIEM_KHI_QUAN_TNC",
+      "to": "S_HO_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ mất tiếng",
+        "cach_dung": "Sắc còn $200ml$. Chia làm 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_MANG_MONG_NGUU_HOANG_N",
+      "to": "VI_THUOC_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương ngưu hoàng.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_MANG_MONG_NGUU_HOANG_N",
+      "to": "B_MANG_MONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài điểm vào mắt để tan màng mộng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "VI_THUOC_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương ngưu hoàng.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không có ghi chú đặc biệt nào được cung cấp trong văn bản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "S_PHIEN_NHIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phiền nhiệt",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "B_TIEU_KHAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu khát",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "S_GIAT_MINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa giật mình",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "S_HONG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họng đau",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "S_MAT_DO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt đỏ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "BT_PHIEN_NHIET_NGUU_HOANG_N",
+      "to": "B_MANG_MONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa có màng mộng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    }
+  ],
+  "metadata": {}
+}

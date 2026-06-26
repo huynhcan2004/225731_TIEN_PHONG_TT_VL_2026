@@ -1,0 +1,117 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAO_BAN",
+    "ten_raw": "Cào bàn",
+    "ten_khoa_hoc": "Rhizoma et Radix Ligustici jeholensis; Rhizoma et Radix Ligustici sinensis; Ligusticum jeholense Nak. et Kitaga; Ligusticum sinense Oliv",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "variants": [
+      "Bắc cảo bản",
+      "hương cảo bản",
+      "liêu cảo bản",
+      "Tây khung cảo bản",
+      "tây khung",
+      "cảo bản",
+      "tay khung"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ và rễ"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T110",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "110"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "cong_nang": "tán phong, hàn, thấp tà, chữa chứng nhức óc, là thuốc khu phong, táo thấp, chữa ung nhọt, thường dùng chữa chứng âm hộ lạnh, sưng đau nhức, nhức đầu, còn dùng gội đầu cho sạch gầu."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây liêu cảo bản (Ligusticum jeholense) là một cây sống lâu năm, cao $0,15$-$0,16m$ thân rễ ngắn, toàn cây rất thơm, thân mọc thẳng đứng, phía dưới có đường kính $3$-$5mm$, thường có màu tím. Lá 2 lần kép lông chim mép có răng cưa, cuống lá phát triển thành bẹ ôm lấy thân. Cụm hoa hình tán kép $6$-$19$ cuống tán, dài ngắn không đều, tán nhỏ mang chừng 20 hoa nhỏ màu trắng. Quả gồm 2 phân quả dính nhau, hình thoi, dài chừng $5mm$ trên mỗi phân qua có 5 sống dọc, mặt tiếp giáp phẳng. Cây tây khung (Ligusticum sinense) cũng là một cây sống lâu năm. Lá mọc so le 2-3 lần xẻ lông chim kép, cuống lá dài $9$-$12cm$ phía dưới ôm lấy thân cây. Cụm hoa hình tán kép, mỗi tán $16$-$20$ cuống, mỗi tán nhỏ mang nhiều hoa nhỏ màu trắng. Quả cũng gồm 2 phân quả mỗi phân quả cũng có 5 sống chạy dọc, nhưng giữa sống của quả tây khung có tới 3 ống tinh dầu, trong khi đó quả liêu cảo bản chỉ có một ống tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cảo bản của Trung Quốc chỉ mới biết có chứa tinh dầu, các thành phần khác chưa thấy tài liệu nghiên cứu. Trong một loại cảo bản của Nhật Bản có tên khoa học là Northosmymium japonicum Miq. cùng họ hoa tán (Umbelliferae) người ta đã thấy có chừng $1,3\\%$ tinh dầu; trong tinh dầu thành phần chủ yếu là $nothosnyrola$ 2-4 (CH,O),CH, CH=CH-CH, chất $đimetoxyalylbenzola$ và một lượng nhỏ axit panmitinic."
+        ],
+        "cach_dung_bao_che": "Vào các tháng 4-10 đào lấy rễ và thân rễ, cắt bỏ phần trên mặt đất, rửa sạch đất cát, phơi khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cảo bản của Trung Quốc chỉ mới biết có chứa tinh dầu, các thành phần khác chưa thấy tài liệu nghiên cứu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_NOTHOSNYROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tinh dầu thành phần chủ yếu là $nothosnyrola$ 2-4 (CH,O),CH, CH=CH-CH,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_DIMETOXYALYLBENZOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tinh dầu thành phần chủ yếu là $nothosnyrola$ 2-4 (CH,O),CH, CH=CH-CH, chất $đimetoxyalylbenzola$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "HC_AXIT_PANMITINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tinh dầu thành phần chủ yếu là $nothosnyrola$ 2-4 (CH,O),CH, CH=CH-CH, chất $đimetoxyalylbenzola$ và một lượng nhỏ axit panmitinic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    }
+  ]
+}

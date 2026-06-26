@@ -1,0 +1,149 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NHAN_SAM_VIET_NAM",
+    "ten_raw": "Nhân sâm Việt Nam",
+    "ten_khoa_hoc": "Panax vietnamensis Hà et Grushv.",
+    "ho_thuc_vat": "Nhân sâm (Araliaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T823",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "823"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TY",
+          "K_PHE"
+        ],
+        "cong_nang": "đại bổ nguyên khí, ích huyết sinh tân, định thần, ích trí",
+        "kieng_ky_dac_biet": "Những người bệnh có thực tà không dùng được."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thân thảo, sống nhiều năm, cao đến $1m$. Thân rễ mập có dường kính $3,5cm$, không có rễ phụ dầy dự trữ, đôi khi ở một số cây phần cuối thân rễ có củ gần hình cầu, đường kính đến $5cm$. Đốt trên cùng của thân rễ tồn tại 1–4 thân. Thân nhân cao 40-80cm, rỗng, có 3 mặt hơi tròn có những rãnh nhỏ theo chiều dọc. Lá mọc vòng, thường có 4 (ít khi 3, 5, 6). Lá kép chân vịt có 5 (ít khi 6,7) lá chét, lá dài 7-12cm (ít khi 15cm). Lá chét trên cùng hình trứng ngược hoặc hình mũi mác, dài 8-14cm, rộng 3-5cm, đầu lá thường nhọn đột ngột, mũi nhọn kéo 1,5-2cm, góc lá hình nêm, mép lá có răng cưa nhỏ đều, gần bên 19 (ít khi 8-11) cặp dọc theo gần chính và gân bên ở mặt trên của lá chét có nhiều lông cứng dạng gai dài đến $3mm$, mặt dưới ít hơn. Cụm hoa dài $25 cm$, gấp 1,5-2 lần chiều dài của cuống lá, thường mang tán đơn độc ở tận cùng, đôi khi có thêm 1-4 tán phụ hoặc một hoa đơn độc. Tán hoa chính đường kính 2,5-4cm, có 50-120 hoa. Hoa mẫu vàng lục nhạt, đường kính hoa nở $34mm$. Bầu 1 6, 1 vòi (chiếm $80$\\%) đôi khi có 2 ô, 2 vòi (chiếm $20$\\%). Quả khi chín màu đỏ, thường có một chấm đen ở trên đỉnh quả. Quả 1 hạt hình thân, quả 2 hạt có hình cầu hơi dẹt dài 7-10mm rộng 4-6mm",
+        "thanh_phan_hoa_hoc": [
+          "Từ 1974 đến 1990, Nguyễn Thời Nham và cộng sự đã nghiên cứu nhân sâm Việt Nam, so sánh với nhân sâm Triều Tiên (Panax ginseng), nhân sâm Nhật Bản (Panax japonicus) và nhân sâm Hoa Kỳ (Panax quinquefollium). Kết quả có thể tóm tắt như sau: 1. Bằng sắc ký lớp mỏng (SKIM) đã phát hiện trong Panax Vietnamensis (PV) 15 vết saponin có giá trị Rf và mầu sắc tương ứng với 12 hợp chất saponin của Panax ginseng. Chi tiết hơn nữa trong PV có hàm lượng cao chất saponin kiểu damarane ($7,58$\\%), trong đó saponin thuộc diol và triol có tỷ lệ $3,32$\\% và một lượng nhỏ saponin của axit oleanolic. Do đặc điểm này, O. Tanaka xếp nhân sâm Việt Nam vào nhóm B-"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vị hơi đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tỳ"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng đại bổ nguyên khí, ích huyết sinh tân, định thần, ích trí"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "HC_DAMARANE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chi tiết hơn nữa trong PV có hàm lượng cao chất saponin kiểu damarane ($7,58$\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong đó saponin thuộc diol và triol có tỷ lệ $3,32$\\%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM_VIET_NAM",
+      "to": "HC_AXIT_OLEANOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và một lượng nhỏ saponin của axit oleanolic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T823"
+      }
+    }
+  ]
+}

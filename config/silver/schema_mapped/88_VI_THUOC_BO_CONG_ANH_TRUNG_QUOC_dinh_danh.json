@@ -1,0 +1,266 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+    "ten_raw": "Bồ công anh Trung Quốc",
+    "ten_khoa_hoc": "Taraxacum officinale Wigg.; Taraxacum densleonis Desf.",
+    "ho_thuc_vat": "họ Cúc Asteraceae",
+    "variants": [
+      "hoàng hoa địa đính",
+      "nãi chấp thảo"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T88",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "88"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ sống dai, có rễ trụ. Lá mọc thành hoa thị ở gốc, phiến lá cắt thành nhiều thùy nhỏ như răng nhọn, mềm trông giống như hàm răng sư tử do đó có tên dens leonis (có nghĩa là răng con sư tử), từ giữa vòng lá mọc lên cuống cụm hoa màu vàng, khi già ra quả có lông màu trắng xếp thành hình cầu. Căn cứ vào màu sắc hoa, dáng lá, hình quả người ta chia ra nhiều loại khác nhau ( Hình 36, Hm 4,2 ).",
+        "thanh_phan_hoa_hoc": [
+          "Theo Wehmer (1931, Die Pflanzen stoffe Bd. II) trong toàn cây bồ công anh Taraxacum officinale Wigg. có chứa inozitola, $0,5%$ asparagin, đường khử, chất nhựa, chất đắng, saponozit, men tyrosinaza. Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin. Trong nhũ dịch có chất đắng taraxerola $C_{30}H_{50}O_2$, inozitola, taraxaxterola, chất prôtit và cao su, đường khử.",
+          "Trong lá có luteolin 7 glucozit và apigenin 7 glucozit hay cosmoziozit. Ngoài ra rất nhiều vitamin B và C."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_INOZITOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Wehmer (1931, Die Pflanzen stoffe Bd. II) trong toàn cây bồ công anh Taraxacum officinale Wigg. có chứa inozitola, $0,5%$ asparagin, đường khử, chất nhựa, chất đắng, saponozit, men tyrosinaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_ASPARAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Wehmer (1931, Die Pflanzen stoffe Bd. II) trong toàn cây bồ công anh Taraxacum officinale Wigg. có chứa inozitola, $0,5%$ asparagin, đường khử, chất nhựa, chất đắng, saponozit, men tyrosinaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_XANTHOPHYL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_SACCHAROSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_GLUCOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_TARAXAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_LACTAT_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có xanthophyl, trong rễ có inulin (tới $40%$ đối với rễ khô), saccaroza, glucoza, chất đắng có tinh thể gọi là taraxaxin $C_{18}H_{20}O_3$, inozitola, lactat canxi, một ít tinh dầu, chất nhựa, một chất đắng chưa xác định, có thể là hỗn hợp taraxaxin và taraxaxerin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_TARAXEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhũ dịch có chất đắng taraxerola $C_{30}H_{50}O_2$, inozitola, taraxaxterola, chất prôtit và cao su, đường khử."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_TARAXASTEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhũ dịch có chất đắng taraxerola $C_{30}H_{50}O_2$, inozitola, taraxaxterola, chất prôtit và cao su, đường khử."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_LUTEOLIN_7_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có luteolin 7 glucozit và apigenin 7 glucozit hay cosmoziozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_APIGENIN_7_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có luteolin 7 glucozit và apigenin 7 glucozit hay cosmoziozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_COSMOZIOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có luteolin 7 glucozit và apigenin 7 glucozit hay cosmoziozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra rất nhiều vitamin B và C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_TRUNG_QUOC",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra rất nhiều vitamin B và C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T88"
+      }
+    }
+  ]
+}

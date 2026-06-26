@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAU_RAI_TRANG",
+    "ten_raw": "Dầu rái trắng",
+    "ten_khoa_hoc": "Dipterocarpus alatus Roxb.; Dipterocarpus gonopterus Turcz.; Dipterocarpus tuberculatus Roxb.; Dipterocarpus angustifolius Wigh et Arn.",
+    "ho_thuc_vat": "họ Dầu (Dipterocarpaceae)",
+    "variants": [
+      "dầu con rái trắng"
+    ],
+    "properties": {
+      "bo_phan_dung": "nhựa",
+      "phan_bo": "nơi cao $500$-$600$m"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T124",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "124"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây dầu rái hay dầu con rái trắng là một cây to, cao tới $30-40m$. Đường kính phía gốc đạt tới $2m$ hay hơn. Cành non và búp có lông mịn. Lá mọc so le, hình trứng rộng, đầu hơi nhọn, phía cuống hẹp hơi nhọn, phiến lá rộng $7-15cm$, dài $10-20cm$ mặt trên nhẵn, mặt dưới có lông, cuống dài $3-4cm$, có mang lông. Hoa lá lớn, không cuống, mọc thành chùm đơn hay phân nhánh, dài $12cm$. Ống đài không dính vào quả, có 2 cánh) cánh mỏng dài $11-14cm$, rộng $2-3cm$, trên có 5 gân rõ ( Hình 68 ). nơi cao $500-600m$.",
+        "thanh_phan_hoa_hoc": [
+          "Dầu rái trắng là một thứ nhựa dầu. Sau khi thu hoạch, để lắng một thời gian, dầu nhựa sẽ phân thành hai lớp có tỷ trọng khác nhau: Lớp lỏng ở trên có màu nhạt hơn, lớp dưới đặc hơn. Dầu hơi sền sệt, có huỳnh quang, màu đỏ nâu, nhìn thẳng có màu sẫm, nhìn nghiêng có ánh màu xanh xám. Mùi hơi thơm, gần giống mùi dấm. Trong dầu này có $79,10\\%$ tinh dầu và $20,90\\%$ nhựa. Theo Laurent P. A. (1952, Bull Soc. Chim. France 5(6); 615-617), trong tinh dầu gồm chủ yếu là các chất sesquitecpen. Tinh dầu cất từ dầu rái không màu hay hơi có màu vàng nhạt, mùi hơi thơm, tỷ trọng $0,915-0.930$, độ sôi $255-256°$, không hoàn toàn tan trong cồn 90, thành phần chủ yếu gồm các chất sesquitecpen, trong kỹ nghệ làm bóng đồ gỗ, sạp thuyền cho sò hến ốc khỏi bám vào."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_RAI_TRANG",
+      "to": "HC_SESQUITECPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Laurent P. A. (1952, Bull Soc. Chim. France 5(6); 615-617), trong tinh dầu gồm chủ yếu là các chất sesquitecpen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    }
+  ]
+}

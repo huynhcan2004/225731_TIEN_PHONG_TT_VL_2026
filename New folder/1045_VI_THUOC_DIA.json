@@ -1,0 +1,211 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DIA",
+    "ten_raw": "Đỉa",
+    "ten_khoa_hoc": "Hirudo medicinalis L.; Hirudo offcinalis; Hirudo troctina Hirudo medicinalis",
+    "ho_thuc_vat": "Đỉa Hirudinidae",
+    "variants": [
+      "Địa xám",
+      "Địa xanh lục",
+      "Đỉa trâu",
+      "đỉa rồng"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn thân",
+      "thu_hai": "Không rõ",
+      "che_bien_tho": "Không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Đỉa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DIA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dia"
+      }
+    },
+    {
+      "id": "HC_HIRUDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hirudin"
+      }
+    },
+    {
+      "id": "S_VIEM_TAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Viem Tay"
+      }
+    },
+    {
+      "id": "B_MAU_DONG_TAC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mau Dong Tac"
+      }
+    },
+    {
+      "id": "B_VIEM_MANG_BAO_TIM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Mang Bao Tim"
+      }
+    },
+    {
+      "id": "B_TRI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tri"
+      }
+    },
+    {
+      "id": "B_TU_MAU_NOI_TANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tu Mau Noi Tang"
+      }
+    },
+    {
+      "id": "B_TU_MAU_O_CAC_VET_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tu Mau O Cac Vet Thuong"
+      }
+    },
+    {
+      "id": "DL_CHONG_DONG_MAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chong Dong Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1045",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1045"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đỉa thuộc nhiều loài đều dùng làm thuốc được. Phổ biến có mấy loài sau đây: Địa xám Hirudo medicinalis L. màu lục nhạt, trên lưng có 6 dải dọc màu hung đỏ, bụng có những điểm màu đen và 2 dải dọc màu đen nhạt. Địa xanh lục Hirudo offcinalis Mop. màu xanh lục nhạt trên lưng có 6 dải chạy dọc nhưng ở bụng không có những điểm đen và có 2 dải màu đen chạy dọc, đốt trên thân nhẵn chứ không có những bướu như đỉa xám. Đỉa trâu có nơi gọi là đỉa rồng Hirudo troctina Mop. có lưng màu xanh lục với mép màu vàng cam. Những dải trên lưng được thay thế bởi những chấm riêng lẻ hình tròn hay hình vuông cứ cách 5 đốt lại có một đường. Bụng màu lục vàng nhạt, có đốm hay không đốm, 2 bên có 2 dải không thẳng. Những chấm này màu đen với mép vàng hay màu vàng cam với mép đen (Hình 769).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "HC_HIRUDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quanh miệng con đỉa có những tuyến nước bọt tiết ra chất $hirudin$",
+        "ghi_chu": "string"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "S_VIEM_TAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho hút máu. Cách điều trị này không được dùng cho những người già, trẻ em và những người máu khó đông. Nhưng việc dùng đỉa để hút máu trực tiếp rất nguy hiểm do đỉa có thể truyền những bệnh như bệnh than, bệnh nhiễm trùng",
+        "ghi_chu": "Đỉa (sống). Cách điều trị này không được dùng cho những người già, trẻ em và những người máu khó đông. Nhưng việc dùng đỉa để hút máu trực tiếp rất nguy hiểm do đỉa có thể truyền những bệnh như bệnh than, bệnh nhiễm trùng. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Cho hút máu. Chú ý: Không dùng cho người già, trẻ em, người máu khó đông. Nguy cơ: Truyền bệnh than, nhiễm trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "B_MAU_DONG_TAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc tiêm, thuốc xoa",
+        "ghi_chu": "Men $hirudin$ (chiết từ đỉa). Dùng dưới dạng thuốc tiêm, thuốc xoa. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Dùng dưới dạng thuốc tiêm, thuốc xoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "B_VIEM_MANG_BAO_TIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc tiêm, thuốc xoa",
+        "ghi_chu": "Men $hirudin$ (chiết từ đỉa). Dùng dưới dạng thuốc tiêm, thuốc xoa. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Dùng dưới dạng thuốc tiêm, thuốc xoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc tiêm, thuốc xoa",
+        "ghi_chu": "Men $hirudin$ (chiết từ đỉa). Dùng dưới dạng thuốc tiêm, thuốc xoa. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Dùng dưới dạng thuốc tiêm, thuốc xoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "B_TU_MAU_NOI_TANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc tiêm, thuốc xoa",
+        "ghi_chu": "Men $hirudin$ (chiết từ đỉa). Dùng dưới dạng thuốc tiêm, thuốc xoa. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Dùng dưới dạng thuốc tiêm, thuốc xoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "B_TU_MAU_O_CAC_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng thuốc tiêm, thuốc xoa",
+        "ghi_chu": "Men $hirudin$ (chiết từ đỉa). Dùng dưới dạng thuốc tiêm, thuốc xoa. Nguồn: CT_VT_VN_T1047. Đối tượng: Người. Liều lượng: Tham khảo liều dùng chung của vị thuốc. Cách dùng: Dùng dưới dạng thuốc tiêm, thuốc xoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA",
+      "to": "DL_CHONG_DONG_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất $hirudin$ có tác dụng làm cho máu không đông lại."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1045"
+      }
+    }
+  ]
+}

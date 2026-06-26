@@ -1,0 +1,142 @@
+{
+  "entity_hub": "VI_THUOC_SAI_HO",
+  "source": {
+    "source_id": "CT_VT_VN_T648",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "648"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_RAU_MA_R",
+      "to": "VI_THUOC_SAI_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sài hồ là vị thuốc chính trong bài thuốc này.",
+        "cach_dung": "Nhai sống hoặc luộc rau má mà ăn như ăn rau",
+        "ghi_chu": "Không có thông tin cụ thể về liều lượng của Sài hồ trong bài thuốc này, chỉ biết Rau má (cả dây, cả lá) rửa sạch, thêm ít muối, ngày ăn chừng $30-40g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_MA_R",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng, đi ỉa lỏng, đi lỵ",
+        "cach_dung": "Nhai sống hoặc luộc rau má mà ăn như ăn rau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_MA_R",
+      "to": "B_IA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng, đi ỉa lỏng, đi lỵ",
+        "cach_dung": "Nhai sống hoặc luộc rau má mà ăn như ăn rau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_RAU_MA_R",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng, đi ỉa lỏng, đi lỵ",
+        "cach_dung": "Nhai sống hoặc luộc rau má mà ăn như ăn rau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_DAU_BUNG_RAU_MA_R",
+      "to": "VI_THUOC_SAI_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sài hồ là vị thuốc chính trong bài thuốc này.",
+        "cach_dung": "Ngày uống một lần, vào lúc buổi sáng, mỗi lần hai thìa cà phê gạt ngang",
+        "ghi_chu": "Không có thông tin cụ thể về liều lượng của Sài hồ trong bài thuốc này, chỉ biết Rau má hái lúc ra hoa, phơi khô, tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_DAU_BUNG_RAU_MA_R",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ kinh nguyệt đau bụng, đau lưng",
+        "cach_dung": "Ngày uống một lần, vào lúc buổi sáng, mỗi lần hai thìa cà phê gạt ngang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_DAU_BUNG_RAU_MA_R",
+      "to": "B_DAU_LUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ kinh nguyệt đau bụng, đau lưng",
+        "cach_dung": "Ngày uống một lần, vào lúc buổi sáng, mỗi lần hai thìa cà phê gạt ngang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_ROM_SAY_RAU_MA_R",
+      "to": "VI_THUOC_SAI_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sài hồ là vị thuốc chính trong bài thuốc này.",
+        "cach_dung": "Hằng ngày ăn. Hoặc rau má hái về, giã nát, vắt lấy nước, thêm đường vào mà uống hằng ngày",
+        "ghi_chu": "Không có thông tin cụ thể về liều lượng của Sài hồ trong bài thuốc này, chỉ biết Rau má trộn dầu dấm hoặc rau má hái về, giã nát, vắt lấy nước, thêm đường vào mà uống hằng ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_ROM_SAY_RAU_MA_R",
+      "to": "B_ROM_SAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rôm sẩy, mẩn ngứa",
+        "cach_dung": "Hằng ngày ăn. Hoặc rau má hái về, giã nát, vắt lấy nước, thêm đường vào mà uống hằng ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "BT_ROM_SAY_RAU_MA_R",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rôm sẩy, mẩn ngứa",
+        "cach_dung": "Hằng ngày ăn. Hoặc rau má hái về, giã nát, vắt lấy nước, thêm đường vào mà uống hằng ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    }
+  ],
+  "metadata": {}
+}

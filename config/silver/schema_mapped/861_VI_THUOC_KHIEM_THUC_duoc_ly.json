@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_KHIEM_THUC",
+  "source": {
+    "source_id": "CT_VT_VN_T861",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "861"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "CN_KIEN_TI_BO_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tì bổ phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "CN_THANH_NHIET_THAM_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt thẩm thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_DINH_CHI_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên một loài ếch, làm đình chỉ hô hấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm vào tĩnh mạch thỏ sẽ thấy huyết áp hạ xuống, hô hấp khó khăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_HUNG_PHAN_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên tim cô lập của một loài ếch thì thấy ở nồng độ thấp có tác dụng hưng phấn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_UC_CHE_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên tim cô lập của một loài ếch thì thấy ở nồng độ cao có tác dụng ức chế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_HUNG_PHAN_CO_XUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với cơ xương và cuối dây thần kinh vận động của một loại ếch cũng thấy lúc đầu có hiện tượng hưng phấn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHIEM_THUC",
+      "to": "DL_UC_CHE_CO_XUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với cơ xương và cuối dây thần kinh vận động của một loại ếch cũng thấy về sau thì ức chế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T861"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_BONG_GAO",
+  "source": {
+    "source_id": "CT_VT_VN_T560",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "560"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG_GAO",
+      "to": "DL_DIET_CON_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân dân Ấn Độ dùng lá tươi làm thuốc diệt côn trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T560"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_GAO",
+      "to": "DL_CHUA_BENH_NGOAI_DA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân dân Ấn Độ dùng lá tươi [...] chữa những bệnh ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T560"
+      }
+    }
+  ],
+  "metadata": {}
+}

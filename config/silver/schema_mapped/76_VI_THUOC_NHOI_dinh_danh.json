@@ -1,0 +1,63 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NHOI",
+    "ten_raw": "Nhôi",
+    "ten_khoa_hoc": "Bischofia trifoliata (Roxb.) Hook.f. (Bischofia javanica Blume, Andrachne trifoliata Roxb.); Rubus cochinchinensis Tratt.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae; Hoa hồng Rosaceae",
+    "variants": [
+      "thu phong",
+      "ô dương",
+      "trọng dương mộc",
+      "Nhội"
+    ],
+    "properties": {
+      "phan_bo": "Cây nhội được trồng lấy bóng mát ở nhiều thành phố nước ta, nhiều nhất ở Hà Nội. Còn thấy mọc hoang trong rừng. Cũng thấy mọc ở Ấn Độ, MaLaixia, InĐônêxia, Châu Đại Dương.\nCây mọc hoang ở nhiều tỉnh miền Bắc nước ta, thường gặp ở các vùng đồi núi thấp. Còn thấy mọc ở các nước Lào, Cămpuchia, Malaixia, Inđônêxia."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T76",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "76"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhôi là một loại cây nhỏ, cành non phủ đầy lông mềm màu vàng nhạt. Lá kép gồm 3-5 lá chét, lá chét giữa lớn hơn cả, dài $5$-$8cm$, rộng $2$-$4cm$, mép có răng cưa nhỏ và đều, hai mặt đều có lông mềm, mặt dưới nhiều hơn. Hoa nhỏ màu trắng, mọc thành chùm ngắn ở kẽ lá hay đầu cành. Quả hình cầu, đường kính chừng $1cm$, khi chín có màu đỏ tươi, ăn được."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHOI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOI",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    }
+  ]
+}

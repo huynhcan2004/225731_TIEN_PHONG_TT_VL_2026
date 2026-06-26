@@ -1,0 +1,208 @@
+{
+  "entity_hub": "VI_THUOC_CAO_BAN",
+  "source": {
+    "source_id": "CT_VT_VN_T110",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "110"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GHE_LO_CHOC_DAU_C",
+      "to": "VI_THUOC_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cảo bản là vị thuốc chính để chữa ghẻ lở, chốc đầu.",
+        "cach_dung": "Sắc nước dùng tắm và giặt quần áo",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_GAU_CAO_BAN_BC",
+      "to": "VI_THUOC_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cảo bản và bạch chỉ phối hợp để trị gàu.",
+        "cach_dung": "Đem sát vào đầu, sáng hôm sau gội đầu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_GAU_CAO_BAN_BC",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cảo bản và bạch chỉ phối hợp để trị gàu.",
+        "cach_dung": "Đem sát vào đầu, sáng hôm sau gội đầu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VI_THUOC_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cảo bản là vị thuốc chính trong bài thuốc trị nhức đầu, thiên đầu thống.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xuyên khung giúp hoạt huyết, giảm đau đầu.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phòng phong giúp khu phong, giảm đau đầu.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bạch chỉ giúp giảm đau đầu.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VT_TE_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tế tân giúp giảm đau đầu.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_CHOC_DAU_C",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con ghẻ lở, chốc đầu",
+        "cach_dung": "Sắc nước Cảo bản dùng tắm và giặt quần áo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_CHOC_DAU_C",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con ghẻ lở, chốc đầu",
+        "cach_dung": "Sắc nước Cảo bản dùng tắm và giặt quần áo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_GAU_CAO_BAN_BC",
+      "to": "S_GAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhiều gầu",
+        "cach_dung": "Đem sát vào đầu, sáng hôm sau gội đầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu, thiên đầu thống",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CAO_BAN_CXPTTC",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu, thiên đầu thống",
+        "cach_dung": "Sắc còn $200ml$ chia 3 lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    }
+  ],
+  "metadata": {}
+}

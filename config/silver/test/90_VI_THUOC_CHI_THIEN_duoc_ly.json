@@ -1,0 +1,62 @@
+{
+  "entity_hub": "VI_THUOC_CHI_THIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T90",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "90"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHI_THIEN",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giảm sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THIEN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THIEN",
+      "to": "CO_VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THIEN",
+      "to": "CO_TINH_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THIEN",
+      "to": "QUY_KINH_CHUA_XAC_DINH",
+      "relation_type": "QUY_KINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    }
+  ],
+  "metadata": {}
+}

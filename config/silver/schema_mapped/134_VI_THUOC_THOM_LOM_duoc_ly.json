@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_THOM_LOM",
+  "source": {
+    "source_id": "CT_VT_VN_T134",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "134"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "CN_TIEU_THUNG_CHI_THONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thủng chỉ thống (làm hết đau)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "DL_KHA_NANG_DIEU_TRI_NHIEM_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những bệnh ngoài da nhiễm liên cầu khuẩn khác như chốc đầu, chốc mép, chốc da thường, eczema nhiễm khuẩn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "VI_THUOC_THOM_LOM",
+      "to": "DL_GIAM_TRIEU_CHUNG_ECZEMA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với eczema thuốc chỉ có tác dụng làm giảm triệu chứng cấp tính."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    }
+  ],
+  "metadata": {}
+}

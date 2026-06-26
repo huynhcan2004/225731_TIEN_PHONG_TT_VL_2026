@@ -1,0 +1,151 @@
+{
+  "entity_hub": "VI_THUOC_DAI_HAI",
+  "source": {
+    "source_id": "CT_VT_VN_T68",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "68"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_PHU_NU_MOI_O_CU_DAI_HAI_D",
+      "to": "VI_THUOC_DAI_HAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đài hái được dùng đơn lẻ để xoa bụng cho phụ nữ mới ở cữ.",
+        "cach_dung": "Xoa bụng, đồng thời cho uống nước sắc gừng",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_PHU_NU_MOI_O_CU_DAI_HAI_D",
+      "to": "B_PHU_NU_SAU_SINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Xoa bụng phụ nữ mới ở cữ",
+        "cach_dung": "Xoa bụng, đồng thời cho uống nước sắc gừng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_VU_PHU_NU_SUNG_DADA",
+      "to": "VI_THUOC_DAI_HAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu đài hái kết hợp với tro lá địa liền và dầu dừa giúp giảm sưng vú.",
+        "cach_dung": "Bôi vào vú",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_VU_PHU_NU_SUNG_DADA",
+      "to": "VT_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa liền kết hợp với dầu đài hái và dầu dừa giúp giảm sưng vú.",
+        "cach_dung": "Bôi vào vú",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_VU_PHU_NU_SUNG_DADA",
+      "to": "VT_DAU_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu dừa kết hợp với tro lá địa liền và dầu đài hái giúp giảm sưng vú.",
+        "cach_dung": "Bôi vào vú",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_VU_PHU_NU_SUNG_DADA",
+      "to": "S_SUNG_VU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vú phụ nữ bị sưng",
+        "cach_dung": "Bôi vào vú"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_LOET_MUI_DAI_HAI_L",
+      "to": "VI_THUOC_DAI_HAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá Đài hái được dùng đơn lẻ để chữa loét mũi.",
+        "cach_dung": "Sắc hay đốt lấy khói xông",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_LOET_MUI_DAI_HAI_L",
+      "to": "B_LOET_MUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét mũi",
+        "cach_dung": "Sắc hay đốt lấy khói xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_LOET_MUI_DAI_HAI_T",
+      "to": "VI_THUOC_DAI_HAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thân Đài hái được dùng đơn lẻ để chữa loét mũi.",
+        "cach_dung": "Nhỏ mũi",
+        "ghi_chu": "Không có thông tin về liều lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    },
+    {
+      "from": "BT_LOET_MUI_DAI_HAI_T",
+      "to": "B_LOET_MUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét mũi",
+        "cach_dung": "Nhỏ mũi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T68"
+      }
+    }
+  ],
+  "metadata": {}
+}

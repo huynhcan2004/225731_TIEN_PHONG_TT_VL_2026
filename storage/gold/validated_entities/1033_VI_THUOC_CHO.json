@@ -1,0 +1,310 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHO",
+    "ten_raw": "Chó",
+    "ten_khoa_hoc": "$Canis familiaris L.; Phoco vitulina L.; Capra sp.$",
+    "ho_thuc_vat": "$họ Chó (Canidae); họ Chó bể (Phocidae); họ Sừng rỗng (Bovidae)$",
+    "variants": [
+      "cẩu nhục",
+      "cẩu thận",
+      "hoàng cẩu thận",
+      "quảng cẩu thận",
+      "hải cẩu thận"
+    ],
+    "properties": {
+      "bo_phan_dung": "thịt, thận (cẩu thận)",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Hầu như ở đâu cũng có nuôi, chủ yếu để giữ nhà và ăn thịt."
+    },
+    "display_name": "Chó",
+    "canonical_name": "Chó"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CHO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cho"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Chua"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "HC_LIPIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lipit"
+      }
+    },
+    {
+      "id": "CN_BO_TY_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Ty Than"
+      }
+    },
+    {
+      "id": "CN_TRU_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tru Han"
+      }
+    },
+    {
+      "id": "CN_TRU_DUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tru Duong"
+      }
+    },
+    {
+      "id": "CN_CUONG_TRANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Cuong Trang"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1033"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta hiện nay có thể có bốn giống chó. Giống chó thường có cỡ trung bình, bộ lông vàng tuyền, là gốc giống chó săn ở Việt nam, giống chó Mèo ở miền núi cao, có cỡ cao lớn, tai nhỏ và vểnh, giống chó Lào ở miền trung du và miền núi, có cỡ lớn bộ lông xồm màu hung và hai vết trắng trên mắt. Thường những giống đó lại lai với nhau. Tất cả đều có thể dùng làm thuốc (Hình 756). sống thích nghi với đời sống dưới nước, có thân tròn dài, chi biến thành mái chèo, tai không phát triển nhưng còn vành tai, cổ dài, thân phủ lông rậm và bàn chân sau có thể gập dưới thân khi con vật ở cạn. Loài này đa thê, con đực rất lớn so với con cái, một con đực sống với vài chục con cái. Tên hải cẩu thận cũng còn dùng để chỉ dương vật và tinh hoàn của con chó bể -Phoco vitulina L. thuộc họ Chó bể Phocidae. Con này chuyên sống ở dưới nước, chi sau không gặp dưới thân mà duỗi xuôi về phía sau. Lông thưa, cổ ngắn, không có vành tai (Hình 758). Cả hai loài này đều chỉ sống ở miền lạnh bắc cực và nam cực.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Không có thông tin",
+        "cach_dung_bao_che": "Không có thông tin"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt chó có tính nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt chó có vị mặn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt chó có vị chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt chó quy kinh Tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt chó quy kinh Thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thịt chó có từ $13,5$ đến $20,9\\%$ protit (theo Viện vệ sinh dịch tễ Hà Nội, 1972).",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "HC_LIPIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thịt chó có từ $13$ đến $28,6\\%$ lipit (theo Viện vệ sinh dịch tễ Hà Nội, 1972).",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "CN_BO_TY_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn bổ tỳ thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "CN_TRU_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "CN_TRU_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trợ dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CHO",
+      "to": "CN_CUONG_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cường tráng, dùng yên ngũ tạng, nhẹ người, ích khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1033",
+        "all_sources": [
+          "CT_VT_VN_T1033"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 34.0,
+      "reliability_c_score": 0.7667,
+      "total_confidence_sum": 9.2
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

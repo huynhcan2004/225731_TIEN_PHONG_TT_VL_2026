@@ -1,0 +1,635 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HAI_SAM",
+    "ten_raw": "Hải sâm",
+    "ten_khoa_hoc": "$Stichopus japonicus Selenka$",
+    "ho_thuc_vat": "$Họ Hải sâm Holothuridae$",
+    "variants": [
+      "Holothuria",
+      "Actinopyga agassizi"
+    ],
+    "properties": {
+      "bo_phan_dung": "hải sâm",
+      "lieu_dung_chung": "Thường dùng dưới dạng nướng dòn, nghiền thành bột. Ngày uống 3 lần, mỗi lần $6$ đến $10g$, dùng nước nóng hay rượu để chiêu thuốc.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Hải sâm",
+    "canonical_name": "Vị thuốc Hải sâm"
+  },
+  "nodes": [
+    {
+      "id": "B_ICH_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ích tinh",
+        "aliases": [
+          "ich tinh",
+          "ichtinh",
+          "ích tinh"
+        ],
+        "search_vector_hint": "Ích tinh thuộc nhóm bệnh, thường liên quan đến tăng cường sinh tinh."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_THAN_KINH_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thần kinh suy nhược",
+        "aliases": [
+          "suynhuocthankinh",
+          "thankinhsuynhuoc",
+          "thần kinh suy nhược",
+          "than kinh suy nhuoc",
+          "suy nhược thần kinh",
+          "suy nhuoc than kinh"
+        ],
+        "search_vector_hint": "Bệnh Thần kinh suy nhược thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng thần kinh."
+      }
+    },
+    {
+      "id": "B_TRANG_DUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tráng dương",
+        "aliases": [
+          "tráng dương",
+          "trangduong",
+          "trang duong"
+        ],
+        "search_vector_hint": "Tráng dương thuộc nhóm bệnh, thường liên quan đến tăng cường sinh lực nam giới."
+      }
+    },
+    {
+      "id": "B_VIEM_PHE_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm phế quản",
+        "aliases": [
+          "viem phe quan",
+          "viêm phế quản",
+          "viemphequan"
+        ],
+        "search_vector_hint": "Viêm phế quản thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường hô hấp."
+      }
+    },
+    {
+      "id": "CN_BO_AM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ âm",
+        "aliases": [
+          "bo am",
+          "boam",
+          "bổ âm"
+        ],
+        "search_vector_hint": "Bổ âm thuộc nhóm công năng, thường liên quan đến tăng cường phần âm của cơ thể."
+      }
+    },
+    {
+      "id": "CN_BO_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ thận",
+        "aliases": [
+          "bổ thận",
+          "bo than",
+          "bothan"
+        ],
+        "search_vector_hint": "Công năng Bổ thận thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng của thận."
+      }
+    },
+    {
+      "id": "CN_CHUA_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Chữa lỵ",
+        "aliases": [
+          "chữa lỵ",
+          "chualy",
+          "chua ly"
+        ],
+        "search_vector_hint": "Chữa lỵ thuộc nhóm công năng, thường liên quan đến điều trị bệnh lỵ."
+      }
+    },
+    {
+      "id": "CN_ICH_TINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích tinh",
+        "aliases": [
+          "ich tinh",
+          "ichtinh",
+          "ích tinh"
+        ],
+        "search_vector_hint": "Ích tinh thuộc nhóm công năng, thường liên quan đến tăng cường sinh tinh."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận táo",
+        "aliases": [
+          "nhuận táo",
+          "nhuantao",
+          "nhuan tao"
+        ],
+        "search_vector_hint": "Nhuận táo thuộc nhóm công năng, thường liên quan đến làm ẩm, giảm khô."
+      }
+    },
+    {
+      "id": "CN_THONG_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông trướng",
+        "aliases": [
+          "thongtruong",
+          "thông trướng",
+          "thong truong"
+        ],
+        "search_vector_hint": "Thông trướng thuộc nhóm công năng, thường liên quan đến giảm đầy hơi, khó tiêu."
+      }
+    },
+    {
+      "id": "CN_TRANG_DUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tráng dương",
+        "aliases": [
+          "tráng dương",
+          "trangduong",
+          "trang duong"
+        ],
+        "search_vector_hint": "Tráng dương thuộc nhóm công năng, thường liên quan đến tăng cường sinh lực nam giới."
+      }
+    },
+    {
+      "id": "DL_GIAM_XO_VUA_DONG_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Bệnh Giảm xơ vữa động mạch",
+        "aliases": [
+          "giảm xơ vữa động mạch",
+          "giam xo vua dong mach",
+          "giamxovuadongmach"
+        ],
+        "search_vector_hint": "Bệnh Giảm xơ vữa động mạch thuộc nhóm bệnh tim mạch, thường liên quan đến sự tích tụ mảng bám trong động mạch."
+      }
+    },
+    {
+      "id": "DL_HA_CHOLESTEROL",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ cholesterol",
+        "aliases": [
+          "ha cholesterol",
+          "hacholesterol",
+          "hạ cholesterol"
+        ],
+        "search_vector_hint": "Hạ cholesterol thuộc nhóm dược lý, thường liên quan đến giảm mỡ máu."
+      }
+    },
+    {
+      "id": "DL_TANG_OXY_HOA_KHU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng oxy hóa khử",
+        "aliases": [
+          "tang oxy hoa khu",
+          "tangoxyhoakhu",
+          "tăng oxy hóa khử"
+        ],
+        "search_vector_hint": "Tăng oxy hóa khử thuộc nhóm dược lý, thường liên quan đến tăng cường quá trình trao đổi chất."
+      }
+    },
+    {
+      "id": "HC_ACGININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Acginin",
+        "aliases": [
+          "acginin"
+        ],
+        "search_vector_hint": "Hoạt chất Acginin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XYSTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xystin",
+        "aliases": [
+          "xystin"
+        ],
+        "search_vector_hint": "Hoạt chất Xystin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "S_CAM_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Chảy máu cam thuộc nhóm triệu chứng, thường liên quan đến vỡ mạch máu mũi."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_HAI_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hải sâm",
+        "aliases": [
+          "haisam",
+          "hai sam",
+          "hải sâm"
+        ],
+        "search_vector_hint": "Hải sâm thuộc nhóm vị thuốc, thường liên quan đến bổ thận, tráng dương.",
+        "bo_phan_dung": "hải sâm",
+        "lieu_dung_chung": "Thường dùng dưới dạng nướng dòn, nghiền thành bột. Ngày uống 3 lần, mỗi lần $6$ đến $10g$, dùng nước nóng hay rượu để chiêu thuốc.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Stichopus japonicus Selenka$",
+        "ho_thuc_vat": "$Họ Hải sâm Holothuridae$",
+        "hinh_thai_chi_tiet": "Hải sâm là một loại động vật không xương sống, sống ở biển, chủ yếu hay gặp ở những vịnh và những nơi có nhiều đá ngầm ở biển khơi.",
+        "thanh_phan_hoa_hoc": "['Trong hải sâm có $21,45\\\\%$ protein, $0,27\\\\%$ lipit, $1,37\\\\%$ gluxit và $1,13\\\\%$ tro, trong tro chủ yếu gồm canxi $0,118$, photpho $0,22$, sắt $0,0014$, kali $0,07$. Thành phần chủ yếu trong protein là `$acginin$` và `$xystin$`.']",
+        "cach_dung_bao_che": "Hải sâm phân bố ở nhiều nước, ngư dân đánh bắt được thường đem phơi hay sấy khô dùng làm thuốc hay thực phẩm. Loại tốt nhất có màu đen thịt quánh dinh, da có nhiều gai. Loại to mà mềm, da không có gai là loại kém. [CT_VT_VN_T1048]: Do nhu cầu tăng lên, nhiều nước đã đặt vấn đề nuôi hải sâm để đảm bảo nhu cầu dùng trong nước và xuất khẩu."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1047"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hải sâm là một loại động vật không xương sống, sống ở biển, chủ yếu hay gặp ở những vịnh và những nơi có nhiều đá ngầm ở biển khơi.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hải sâm có $21,45\\%$ protein, $0,27\\%$ lipit, $1,37\\%$ gluxit và $1,13\\%$ tro, trong tro chủ yếu gồm canxi $0,118$, photpho $0,22$, sắt $0,0014$, kali $0,07$. Thành phần chủ yếu trong protein là `$acginin$` và `$xystin$`."
+        ],
+        "cach_dung_bao_che": "Hải sâm phân bố ở nhiều nước, ngư dân đánh bắt được thường đem phơi hay sấy khô dùng làm thuốc hay thực phẩm. Loại tốt nhất có màu đen thịt quánh dinh, da có nhiều gai. Loại to mà mềm, da không có gai là loại kém. [CT_VT_VN_T1048]: Do nhu cầu tăng lên, nhiều nước đã đặt vấn đề nuôi hải sâm để đảm bảo nhu cầu dùng trong nước và xuất khẩu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HAI_SAM",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hải sâm được xem như vị thuốc bổ thân, bổ âm, tráng dương, ích tinh, thông trưởng, nhuận táo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong protein là `$acginin$` và `$xystin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "HC_XYSTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong protein là `$acginin$` và `$xystin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "B_VIEM_PHE_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "B_THAN_KINH_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "S_CAM_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm",
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc bổ thân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_BO_AM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm",
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc bổ âm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "B_TRANG_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "B_ICH_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_THONG_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm",
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc thông trưởng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm",
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc nhuận táo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_TRANG_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc tráng dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_ICH_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc ích tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "CN_CHUA_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong y học cổ truyền, hải sâm được xem như vị thuốc chữa lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "DL_HA_CHOLESTEROL",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Các chất lipit tổng hợp của hải sâm Viễn đông-Stichopus japonicus đã làm bình thường hóa quá trình trao đổi chất protit và lipit trong máu và gan của thỏ bị xơ vữa động mạch nặng.",
+        "ghi_chu": "Thí nghiệm trên thỏ bị xơ vữa động mạch nặng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "DL_TANG_OXY_HOA_KHU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cơ tim và gan có sự tăng hoạt tính, hấp thụ ôxy tăng, có nghĩa là quá trình oxy hóa khử đã được đẩy mạnh ở thỏ bị xơ vữa động mạch nặng.",
+        "ghi_chu": "Thí nghiệm trên thỏ bị xơ vữa động mạch nặng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HAI_SAM",
+      "to": "DL_GIAM_XO_VUA_DONG_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh xơ vữa động mạch đã thuyên giảm rõ rệt trong cơ thể các động vật bị bệnh (thỏ).",
+        "ghi_chu": "Thí nghiệm trên thỏ bị xơ vữa động mạch nặng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1047",
+        "all_sources": [
+          "CT_VT_VN_T1047"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 64.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

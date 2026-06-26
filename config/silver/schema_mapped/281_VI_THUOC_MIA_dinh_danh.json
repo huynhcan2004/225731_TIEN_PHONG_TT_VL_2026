@@ -1,0 +1,241 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MIA",
+    "ten_raw": "Mía",
+    "ten_khoa_hoc": "Saccharum offcinarum L.",
+    "ho_thuc_vat": "Lúa Poaceae (Gramineae)",
+    "variants": [
+      "cam giá"
+    ],
+    "properties": {
+      "bo_phan_dung": "cả cây tươi",
+      "phan_bo": "Quảng Nam, Quảng Ngãi, Hà Tây, Hoà Bình, Vĩnh Phúc"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T281",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "281"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mía là một loại cỏ sống dai, thân yếu, thân rễ mang các thân cây mọc trên mặt đất cao từ $2$-$5m$, đường kính $2$-$5cm$, tận cùng bằng một túp lá, dài từ $30$-$100cm$. Thân có đốt, giữa các đốt có chứa nhiều sacaroza. Có nhiều thứ mía: Mía de thân nhỏ, gầy và thấp, mía bầu thân to và cao, mía vỏ trắng, đỏ hay tím. Có thứ chứa nhiều đường, có thứ chứa ít đường.",
+        "thanh_phan_hoa_hoc": [
+          "Trong thân cây mía có: Sacaroza $7$-$10\\%$; protein $0,22\\%$; chất béo $0,5\\%$; tro $0,5\\%$. Thành phần tro gồm chủ yếu CaO $4,14\\%$; MgO $3,53\\%$; Fe,O, $0,11\\%$; K,O $36,61\\%$; Na,O $0,88\\%$; SiO, $27,97\\%$; SO, $17,38\\%$; P,O, $4,76\\%$; C1 $0,99\\%$ ngoài ra trong rễ còn MnO $4,54\\%$. Các chất men: Lacaza, tyrozinaza, oxydaza, ba loại men này chỉ có trong nước mía non. Ngoài ra còn glyxin, asparagin, glutamin, lơxin, guanin, xylan, arabinoza và tanin. Vỏ cây mía chứa chất béo gồm axit oleic, axit linolic, axit panmatic, axit stearic và axit capronic. Ngoài ra còn lexitin, phytosterin. Chất sáp chiếm $35\\%$ gồm chủ yếu axit xerotinic và rượu myrixylic. Nước mía có màu nâu khi để lâu do men lacaza và polyphenola, men tyrosinaza trên tyrosin, ngoài ra còn có tác dụng của các axit hữu cơ, và các men trên chất sắt của máy ép. Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O. Lá mía khô chứa $0,0358$ đến $0,1066\\%$ axit xyanhydric."
+        ],
+        "cach_dung_bao_che": "Làm thuốc, người ta dùng cả cây tươi cắt thành từng khúc ngắn $2$-$3cm$, chẻ hai hay chẻ 4, với tên cam giá."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "có vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân cây mía có: Sacaroza $7$-$10\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_OLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây mía chứa chất béo gồm axit oleic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_LINOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây mía chứa chất béo gồm axit linolic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_PANMATIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây mía chứa chất béo gồm axit panmatic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_STEARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây mía chứa chất béo gồm axit stearic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_CAPRONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây mía chứa chất béo gồm axit capronic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_LEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn lexitin, phytosterin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_PHYTOSTERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn lexitin, phytosterin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_XEROTINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất sáp chiếm $35\\%$ gồm chủ yếu axit xerotinic và rượu myrixylic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_RUOU_MYRIXYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất sáp chiếm $35\\%$ gồm chủ yếu axit xerotinic và rượu myrixylic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_TACTRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_ACONITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_GALACTOXYLAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía chứa sacaroza $20\\%$, glucoza, axit xitric, axit malic, axit tactric, axit aconitic, rượu myrixylic, galactoxylan và K,O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "HC_AXIT_XYANHYDRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá mía khô chứa $0,0358$ đến $0,1066\\%$ axit xyanhydric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    }
+  ]
+}

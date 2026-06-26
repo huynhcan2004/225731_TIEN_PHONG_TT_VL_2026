@@ -1,0 +1,115 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_DAY",
+    "ten_raw": "Rau đay",
+    "ten_khoa_hoc": "Corchorus olitorius L.; Corchorus capsularis L.",
+    "ho_thuc_vat": "họ Đay Tiliaceae",
+    "variants": [
+      "rau đay quả dài",
+      "Corète potagère",
+      "rau đay quả tròn"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá non, hạt",
+      "phan_bo": "Ở ta cây rau đay được trồng ở nhiều nơi để lấy lá non nấu canh ăn cho mát và nhuận tràng. Còn được trồng ở các nước khác thuộc châu Phi, châu Á và châu Mỹ cũng để lấy lá non ăn làm rau, làm thuốc và lấy sợi, có khi người ta dùng hạt làm thuốc.",
+      "thu_hai": "Lá non hái sau khi trồng cây chừng hơn $1$ tháng.",
+      "che_bien_tho": "lấy lá non nấu canh"
+    },
+    "display_name": "Rau đay"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T413",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "413"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngoài cây rau đay nói trên còn có cây rau đay quả tròn (Corchorus capsularis L.) cùng họ. Nhân dân ta ít dùng để ăn hay làm thuốc, nhưng tại các nước khác, người ta dùng như cây rau đay của ta. Cây này sống hàng năm, cao $1$ đến $3m$. Lá hình trứng dài và hẹp, đầu rất nhọn, phía gốc lá tròn, mép có răng cưa, dài $6$-$12cm$, rộng $1,5$-$3,5cm$, hai răng cưa cuối cùng có lông dài. Hoa mọc từng cụm $2$ hay $3$ hoa có cuống ngắn. Đài $4$-$5$, tràng $4$-$5$, nhị $18$, bao phấn hình vuông. Quả hình cầu hay hình lê, dài $12mm$, rộng $10$-$11mm$, có sống hơi rõ, trong chứa $2$ hàng hạt, mỗi hàng $5$ hạt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_DAYCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ hạt đay ở Việt Nam, năm $1970$, Đoàn Định Chính và cộng sự đã chiết được $3\\%$ glucozit đặt tên là daycozit có tác dụng trên tim ($1971$, Trav. Sc. Edit. Med. Hà Nội: $53$-$58$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_AXIT_PANMITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ các axit béo trong dầu là axit panmitic $15,65\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_AXIT_STEARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ các axit béo trong dầu là axit stearic $4\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_AXIT_BEHENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ các axit béo trong dầu là axit behenic $1,66\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_AXIT_LIGNOXERIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ các axit béo trong dầu là axit lignoxeric $1,12\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_AXIT_LINOLENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ các axit béo trong dầu là axit linolenic $59,67\\%$;"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DAY",
+      "to": "HC_CORCHSULARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Cùng năm $1952$, các tác giả Ấn Độ Khalique M. A. và Ahmel M. đã tìm thấy trong hạt cây rau đay một chất đắng mới gọi là corchsularin, chất này thủy phân cho một chất đường gọi là"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T413"
+      }
+    }
+  ]
+}

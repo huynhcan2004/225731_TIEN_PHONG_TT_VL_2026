@@ -1,0 +1,270 @@
+{
+  "entity_hub": "VI_THUOC_QUE_THANH_HOA",
+  "source": {
+    "source_id": "CT_VT_VN_T873",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "873"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "VI_THUOC_QUE_THANH_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm Quế Thanh Hóa và Phá cố chỉ, giúp trị ho, giảm mệt mỏi, cải thiện tình trạng gầy yếu và giảm mồ hôi.",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống",
+        "ghi_chu": "Viên bằng hạt ngô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "VT_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm Quế Thanh Hóa và Phá cố chỉ, giúp trị ho, giảm mệt mỏi, cải thiện tình trạng gầy yếu và giảm mồ hôi.",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống",
+        "ghi_chu": "Viên bằng hạt ngô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng ho, mệt, người gầy yếu hay ra mồ hôi",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "S_MET_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng ho, mệt, người gầy yếu hay ra mồ hôi",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng ho, mệt, người gầy yếu hay ra mồ hôi",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_MET_NGUOI_GAY_YEU_RA_MO_HOI_PQV",
+      "to": "S_RA_MO_HOI_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng ho, mệt, người gầy yếu hay ra mồ hôi",
+        "cach_dung": "Ngày uống 30 viên chia làm 2-3 lần uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_THANH_HOA",
+      "to": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "VI_THUOC_QUE_THANH_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Quế Thanh Hóa có tác dụng bổ mệnh môn, trướng hỏa nạp thận khí, là thuốc cường tráng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_NGU_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_THAT_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_COT_TUY_THUONG_BAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_KHI_HUYET_XAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_SUY_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_TY_THAN_HU_HAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "B_DAI_SON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_BO_MENH_MON_TRUONG_HOA_NAP_THAN_KHI_Q",
+      "to": "S_LUNG_GOI_LANH_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí, là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "VI_THUOC_QUE_THANH_HOA",
+      "to": "BT_HO_RA_MAU_DI_NGOAI_RA_MAU_Q",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_DI_NGOAI_RA_MAU_Q",
+      "to": "VI_THUOC_QUE_THANH_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Quế Thanh Hóa có tác dụng chữa các chứng ho ra máu, đi ngoài ra máu, các chứng chảy máu.",
+        "cach_dung": "sắc uống hoặc giã vắt lấy nước mà uống",
+        "ghi_chu": "40-80g hoa tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_DI_NGOAI_RA_MAU_Q",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng ho ra máu, đi ngoài ra máu, các chứng chảy máu",
+        "cach_dung": "sắc uống hoặc giã vắt lấy nước mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_DI_NGOAI_RA_MAU_Q",
+      "to": "S_DI_NGOAI_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng ho ra máu, đi ngoài ra máu, các chứng chảy máu",
+        "cach_dung": "sắc uống hoặc giã vắt lấy nước mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_DI_NGOAI_RA_MAU_Q",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các chứng ho ra máu, đi ngoài ra máu, các chứng chảy máu",
+        "cach_dung": "sắc uống hoặc giã vắt lấy nước mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873"
+      }
+    }
+  ],
+  "metadata": {}
+}

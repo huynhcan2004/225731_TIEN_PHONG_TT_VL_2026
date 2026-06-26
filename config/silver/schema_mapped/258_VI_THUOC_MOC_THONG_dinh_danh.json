@@ -1,0 +1,166 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MOC_THONG",
+    "ten_raw": "Mộc thông",
+    "ten_khoa_hoc": "Hocquartia manshuriensis (Kom) Nakai; Aristolochia manshuriensis Kom; Clematis sinensis; Clematia vitalba L.; Iodes ovalis Blume var. vitiginea (Hancc) Gagnep",
+    "ho_thuc_vat": "Mộc hương Aristolochiaceae, Mao lương (Rauunculaceae), Mộc thông (Phytocrenaceae)",
+    "variants": [
+      "mộc thông mã đậu linh",
+      "uy linh tiên"
+    ],
+    "properties": {
+      "bo_phan_dung": "dây"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T258",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "258"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_TIEU_TRANG",
+          "K_BANG_QUANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mộc thông mã đậu linh-hay mộc thông (Hocquartia manshuriensis (Kom) Nakai hay Aristolochia manshuriensis Kom thuộc họ Mộc hương (Aristolochiaceae) (hình 179) là một loại dây leo vào cây to, dài độ $6$-$7m$, cành non có lông. Lá to, hình tim, mép nguyên, cuống lá dài. Hoa mọc ở kẽ lá, màu lục nhạt, trong có các đốm màu tím. Quả màu xám mở ở trên đỉnh (Hình 181 ). Hình 182. Mộc thông (uy linh tiên) Cây này nhiều cành, hơi thành gỗ. Lá kép thường có 5 lá chét, cuống dài bằng lá chét. Lá chét nhẵn hoặc ít lồng hình trứng nhọn. Cụm hoa mọc ở kẽ lá, có lá bắc từ $1$-$3$ thùy khá phát triển. Quả bế hình trứng dẹt, nhiều lông, mang một cán dài gấp 4 lần quả, có rất nhiều lông (hình 182). Đây là một loại dây leo bằng tua cuốn, có lông mịn màu vàng nâu. Lá mọc đối, hình trứng, đầu nhọn, mặt dưới có lông. Hoa màu xanh vàng nhạt, mọc thành chùm thùy ở kẽ lá gồm hoa đực và hoa cái. Quả có lông mịn màu vàng nâu Mùa hoa: tháng $5$-$6$, mùa quả: tháng $7$-$8$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh: tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh: phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh: tiểu trường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh: bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mộc thông Nhật Bản (Akebia quinata Decne) người ta đã lấy được một loại glucozit gọi là akebin (C,H,O), khi thủy phân sẽ được akebigenin C,H,O,, glucoza và rhamnoza (Tạp chí hóa học Nhật Bản 48, 49, 1927-1928)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "HC_HEDERAGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có hederagenin C, H, O, và axit oleanolic hay caryophylin C,H,O, (Dược học tạp chí 60, 1940)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "HC_AXIT_OLEANOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có hederagenin C, H, O, và axit oleanolic hay caryophylin C,H,O, (Dược học tạp chí 60, 1940)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "HC_CARYOPHYLLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có hederagenin C, H, O, và axit oleanolic hay caryophylin C,H,O, (Dược học tạp chí 60, 1940)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_THONG",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Viện nghiên cứu y học Bắc Kinh thì loại uy linh tiên Trung Quốc có chứa một chất saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    }
+  ]
+}

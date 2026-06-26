@@ -1,0 +1,149 @@
+{
+  "entity_hub": "VI_THUOC_TE_GIAC",
+  "source": {
+    "source_id": "CT_VT_VN_T1017",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1017"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_CAO_TE_GIAC_T",
+      "to": "VI_THUOC_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thanh nhiệt giải độc, trấn kinh an thần.",
+        "mo_ta_chi_tiet": "Tê giác mài ra uống với nước.",
+        "cach_dung": "Uống với nước",
+        "ghi_chu": "Chữa sốt cao, co giật, mê sảng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_TE_GIAC_T",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao",
+        "cach_dung": "Uống với nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_TE_GIAC_T",
+      "to": "S_CO_GIAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa co giật",
+        "cach_dung": "Uống với nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_TE_GIAC_T",
+      "to": "S_ME_SANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mê sảng",
+        "cach_dung": "Uống với nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "VI_THUOC_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thanh nhiệt lương huyết, chỉ huyết.",
+        "mo_ta_chi_tiet": "Tê giác, Sinh địa, Bạch mao căn sắc uống.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Chữa các bệnh chảy máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "VT_BACH_MAO_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lương huyết chỉ huyết, lợi tiểu.",
+        "mo_ta_chi_tiet": "Tê giác, Sinh địa, Bạch mao căn sắc uống.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Chữa các bệnh chảy máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "VT_SINH_DIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Thanh nhiệt, dưỡng âm, lương huyết.",
+        "mo_ta_chi_tiet": "Tê giác, Sinh địa, Bạch mao căn sắc uống.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Chữa các bệnh chảy máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh chảy máu như chảy máu cam",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "S_CHAY_MAU_CHAN_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh chảy máu như chảy máu chân răng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_TE_GIAC_STB",
+      "to": "B_XUAT_HUYET_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh chảy máu như tử cung xuất huyết",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    }
+  ],
+  "metadata": {}
+}

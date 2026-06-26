@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_RAU_MONG_TOI",
+  "source": {
+    "source_id": "CT_VT_VN_T481",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "481"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "CN_HOAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ trị hoạt trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "CN_TAN_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "CN_LOI_DAI_TIEU_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi đại tiểu trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    }
+  ],
+  "metadata": {}
+}

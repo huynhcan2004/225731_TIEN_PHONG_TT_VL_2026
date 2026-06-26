@@ -1,0 +1,356 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THAU_DAU",
+    "ten_raw": "Thầu dầu",
+    "ten_khoa_hoc": "$Ricinus communis L.$",
+    "ho_thuc_vat": "$Thầu dầu (Euphorbiaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mọc hoang và được trồng ở nhiều nơi vùng nhiệt đới"
+    },
+    "display_name": "Thầu dầu",
+    "canonical_name": "Thầu dầu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THAU_DAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thau Dau"
+      }
+    },
+    {
+      "id": "HC_RIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rixin"
+      }
+    },
+    {
+      "id": "HC_RIXININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rixinin"
+      }
+    },
+    {
+      "id": "HC_AXIT_UNDEXYLENIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Undexylenic"
+      }
+    },
+    {
+      "id": "BT_SOT_NHAU_THAU_DAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Nhau Thau Dau"
+      }
+    },
+    {
+      "id": "B_SOT_NHAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Nhau"
+      }
+    },
+    {
+      "id": "BT_DE_KHO_THAU_DAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "De Kho Thau Dau"
+      }
+    },
+    {
+      "id": "B_DE_KHO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "De Kho"
+      }
+    },
+    {
+      "id": "BT_MEO_MIENG_XECH_MAT_THAU_DAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Meo Mieng Xech Mat Thau Dau"
+      }
+    },
+    {
+      "id": "B_MEO_MIENG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Meo Mieng"
+      }
+    },
+    {
+      "id": "S_XECH_MAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Xech Mat"
+      }
+    },
+    {
+      "id": "DL_NHUAN_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Nhuan Trang"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "466"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sống lâu năm, cao $10-12m$. Lá so le, cuống dài, phiến hình chân vịt, $5-7-9$ thuỳ. Hoa thành chùm xim. Quả 3 mảnh vỏ dài $2-3cm$, rộng $2cm$, có gai mềm. Hạt hình trúng, dài $8mm$, rộng $6mm$, màu nâu xám, có vân đỏ nâu.",
+        "thanh_phan_hoa_hoc": [
+          "Dầu",
+          "Anbuminoit",
+          "Rixidin",
+          "Axit malic",
+          "Đường muối",
+          "Xenluloza",
+          "Rixin",
+          "Rixinin",
+          "Axit undexylenic",
+          "Axit tactric",
+          "Axit xitric",
+          "Axit corydalic",
+          "Rutonozit",
+          "Quexitrin",
+          "Astragalin",
+          "Axit B eleostearic",
+          "Axit oleic",
+          "Axit hữu cơ no",
+          "Corilagin",
+          "Axit galic",
+          "Axit ellagic",
+          "Axit shikimic"
+        ],
+        "cach_dung_bao_che": "Không có thông tin"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAU_DAU",
+      "to": "HC_RIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt chứa $rixin$ tỷ lệ $3-5\\%$, là một protein rất độc.",
+        "ghi_chu": "Không tan trong dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAU_DAU",
+      "to": "HC_RIXININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Rixinin$ là một ancaloit có tinh thể, không màu, tan trong nước.",
+        "ghi_chu": "Tỷ lệ $0,15\\%$ trong hạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAU_DAU",
+      "to": "HC_AXIT_UNDEXYLENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chứa axit undexylenic có tác dụng chống nấm rất mạnh.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_NHAU_THAU_DAU",
+      "to": "VI_THUOC_THAU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$15$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_NHAU_THAU_DAU",
+      "to": "B_SOT_NHAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhỏ, đắp vào gan bàn chân. Sau khi nhau ra rồi cần rửa chân tay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DE_KHO_THAU_DAU",
+      "to": "VI_THUOC_THAU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Hạt thầu dầu",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DE_KHO_THAU_DAU",
+      "to": "B_DE_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhỏ, đắp vào gan bàn chân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MEO_MIENG_XECH_MAT_THAU_DAU",
+      "to": "VI_THUOC_THAU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Lá thầu dầu và hạt thầu dầu tía",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MEO_MIENG_XECH_MAT_THAU_DAU",
+      "to": "B_MEO_MIENG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MEO_MIENG_XECH_MAT_THAU_DAU",
+      "to": "S_XECH_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAU_DAU",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu thầu dầu có tác dụng tẩy nhẹ và chắc chắn. Uống lúc đói với liều $10-30g$. Sau khi uống 3 đến 4 giờ sẽ gây đi ỉa nhiều, mà không đau bụng. Với liều $30-50g$, đi ỉa sẽ kéo dài 5-6 giờ. Dầu này không gây một hiện tượng sót nào trong ruột. Theo dõi bằng X quang, người ta thấy ruột non và ruột già co bóp nhiều hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_THAU_DAU",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất rixin là một chất độc. Với liều $0,002mg$ đối với $1kg$ thể trọng đã làm chết một con thỏ. Tác dụng độc của nó giống như vì trùng. Nó có thể gây miễn dịch: Cho súc vật ăn với liều nhỏ, nhiều lần, thì sau đó súc vật có thể ăn với liều khá cao mà không chết. $3g$ khô dầu đủ giết chết một con bò non nặng $100kg$, chỉ cần tiêm $0,03mg$ cho $1kg$ thể trọng chó là đủ giết chết chó. Liều độc đối với một con chuột bạch nặng $500g$ là $6phần$ triệu g tức là đối với chuột bạch, rixin độc gấp 7 lần chất aconitin là một chất độc vào loại độc nhất có trong ô dầu (Aconitum). Cơ chế tác dụng của rixin là làm vón hồng cầu và bạch cầu. | Dùng luôn, nó có thể gây chán ăn (anorexie), lưỡi trắng và có khi sốt. Nguyên nhân hiện tượng này có thể là do không tiêu, chứ không gây tổn thương nào trên niêm mạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T466",
+        "all_sources": [
+          "CT_VT_VN_T466"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 40.0,
+      "reliability_c_score": 0.7654,
+      "total_confidence_sum": 9.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

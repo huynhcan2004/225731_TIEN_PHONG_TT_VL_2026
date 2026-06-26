@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LA_DONG",
+    "ten_raw": "Lá dong",
+    "display_name": "Lá dong",
+    "ten_khoa_hoc": "$Phrynium parviflorum Roxb.$",
+    "ho_thuc_vat": "$Hoàng tinh (Marantaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "mùa hoa quả: tháng 4-6",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "khắp núi rừng những nơi ẩm ướt"
+    },
+    "canonical_name": "Lá dong"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_LA_DONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc La Dong"
+      }
+    },
+    {
+      "id": "S_SAY_RUOU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Say Ruou"
+      }
+    },
+    {
+      "id": "B_NGOC_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ngoc Doc"
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Can"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T566",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "566"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ cao khoảng $1m$. Lá to hình trứng thuôn dài đầu nhọn, nhẵn, dài $35cm$, rộng $12cm$, cuống dài $22cm$, trong đó $2-3cm$ phía trên nhẵn. Cụm hoa hình đầu, không cuống, nằm trong bẹ của lá, đường kính $4-5cm$ gồm $4-5$ hoa. Cánh hoa màu trắng hay đỏ. Quả hình trứng dài $11mm$, một phía khum nhiều hơn phía kia. Hạt thuôn dài với áo hạt gồm $2$ phiến. Mùa hoa quả: tháng $4-6$ ( Hình $430$).",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Cây mọc hoang ở khắp núi rừng những nơi ẩm ướt. Còn thấy mọc ở Ấn Độ, Inđônêxya, nam Trung Quốc. Được trồng để lấy lá gói bánh. Lá còn dùng làm thuốc, có thể thu hải quanh năm. Dùng tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_DONG",
+      "to": "S_SAY_RUOU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$100-200g$",
+        "cach_dung": "Giã nát, vắt lấy nước cho uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T566"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566",
+        "all_sources": [
+          "CT_VT_VN_T566"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_DONG",
+      "to": "B_NGOC_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$100-200g$",
+        "cach_dung": "Giã nát, vắt lấy nước cho uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T566"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566",
+        "all_sources": [
+          "CT_VT_VN_T566"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LA_DONG",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nhai nát nuốt nước lấy bã đắp lên nơi rắn cắn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T566"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566",
+        "all_sources": [
+          "CT_VT_VN_T566"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 19.5,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

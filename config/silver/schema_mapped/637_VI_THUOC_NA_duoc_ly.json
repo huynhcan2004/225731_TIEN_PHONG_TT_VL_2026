@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_NA",
+  "source": {
+    "source_id": "CT_VT_VN_T637",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "637"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NA",
+      "to": "CN_THANH_HUYET_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh huyết nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "CN_TAN_U_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "DL_DIEU_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "$Paeonola$ có tác dụng gây sung huyết ở vùng tử cung động vật, do đó có tác dụng điều kinh, nhưng tác dụng yếu và chậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "DL_HA_SOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thí nghiệm trên thỏ, thấy mẫu đơn bì có tác dụng chữa sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng trên vi trùng thương hàn, thổ tả và lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,43 @@
+{
+  "entity_hub": "VI_THUOC_THAN_MAT",
+  "source": {
+    "source_id": "CT_VT_VN_T337",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "337"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DUOC_CA_THAN_MAT_T",
+      "to": "VI_THUOC_THAN_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thần mát được dùng đơn lẻ để duốc cá.",
+        "cach_dung": "Tán nhỏ hạt thàn mát, trộn với tro bếp, rắc vào dòng nước suối đã ngăn lại.",
+        "ghi_chu": "Cá sẽ chết, nổi lên chỉ việc vớt về."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T337"
+      }
+    },
+    {
+      "from": "BT_TRU_SAU_BO_THAN_MAT_T",
+      "to": "VI_THUOC_THAN_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thần mát được dùng đơn lẻ để trừ sâu bọ.",
+        "cach_dung": "Giã nhỏ hạt thàn mát, pha thêm nước với tỷ lệ $4-16\\%$ phun lên cây.",
+        "ghi_chu": "Rất có hiệu quả đối với nhiều loại sâu bọ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T337"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -8,7 +8,7 @@ import re
 import unicodedata
 from google import genai
 from google.genai import types
-
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # --- KẾT NỐI HỆ THỐNG MỚI ---
 from app.config import settings
 from utils.helpers import normalize_id, robust_json_load, get_page_number, remove_accents
@@ -368,17 +368,13 @@ def run_audit():
             print(f"⏩ Bỏ qua: {base_name} (Đã Audit)")
             continue
 
-        # Phân loại file để xác định chiến thuật Audit
-        is_remedy = "_BAI_THUOC" in base_name
-        is_pharma = "_DUOC_LY" in base_name
+        # Phân loại file để xác định chiến thuật Audit (Không phân biệt hoa thường)
+        is_remedy = "_bai_thuoc" in base_name.lower()
+        is_pharma = "_duoc_ly" in base_name.lower()
         
         # Lấy base_id của thảo dược để tìm file gốc
-        if is_remedy:
-            bronze_id = base_name.replace("_BAI_THUOC", "")
-        elif is_pharma:
-            bronze_id = base_name.replace("_DUOC_LY", "")
-        else:
-            bronze_id = base_name
+        # Dùng Regex cắt bỏ mọi hậu tố để trả về đúng ID gốc (VD: 45_VI_THUOC_ICH_MAU)
+        bronze_id = re.sub(r'(?i)(_bai_thuoc|_duoc_ly|_dinh_danh)$', '', base_name)
         
         # Tìm file Bronze tương ứng
         raw_matches = glob.glob(os.path.join(BRONZE_DIR, bronze_id + "*.json"))

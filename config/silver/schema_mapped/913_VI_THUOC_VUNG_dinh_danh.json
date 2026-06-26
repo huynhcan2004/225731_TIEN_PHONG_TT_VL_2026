@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VUNG",
+    "ten_raw": "Vừng",
+    "ten_khoa_hoc": "Sesamum indicum L. (S. orientale L.); Crescentia cujete Lin.; Sesamum orientale L. Sesamum indicum Dc. Sesamum lutrum Retz.",
+    "ho_thuc_vat": "Vùng Pedaliaceae (Núc nác Bignoniaceae)",
+    "variants": [
+      "mè",
+      "du tử miêu",
+      "cự thắng tử",
+      "chi ma",
+      "bắc chỉ ma",
+      "hồ ma",
+      "đào tiên",
+      "trường sinh"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T913",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "913"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN",
+          "K_PHE",
+          "K_TY"
+        ],
+        "cong_nang": "tư bổ can thận, dưỡng huyết, nhuận táo, bổ ngũ tạng, hư suy, bền gân cốt, sáng tai mắt, đen râu tóc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây vừng là một cây sống hàng năm cao $0,60$-$1$m, có khi tới $2$m. Thân vuông, có lông. Lá mọc đối, phía dưới nguyên, phía trên chia $3$ thuỳ. Hoa màu trắng hoặc hơi hồng mọc đơn độc ở kẽ lá. Quả nang dài $15$-$20$mm, rộng $8$mm, có lông. Hạt nhỏ, dẹt, màu trắng, vàng hoặc đen. Toàn cây có mùi thơm đặc biệt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vừng đen có vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vừng đen có tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tư bổ can thận, dưỡng huyết, nhuận táo, bổ ngũ tạng, hư suy, bền gân cốt, sáng tai mắt, đen râu tóc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "HC_SESAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu vừng còn có sesamin, sesamolin và sesamol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "HC_SESAMOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu vừng còn có sesamin, sesamolin và sesamol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    },
+    {
+      "from": "VI_THUOC_VUNG",
+      "to": "HC_SESAMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu vừng còn có sesamin, sesamolin và sesamol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T913"
+      }
+    }
+  ]
+}

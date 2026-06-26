@@ -1,0 +1,119 @@
+{
+  "entity_hub": "VI_THUOC_HAT_TIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T385",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "385"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BO_KICH_THICH_TIEU_HOA_HT",
+      "to": "VI_THUOC_HAT_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ tiêu kích thích tiêu hóa, thạch tín (liều nhỏ) tăng cường chức năng tạng phủ.",
+        "cach_dung": "Ngày uống 2 đến 4 viên.",
+        "ghi_chu": "Thuốc có độc dùng phải cẩn thận. Dùng hồ viên thành 100 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_BO_KICH_THICH_TIEU_HOA_HT",
+      "to": "VT_THACH_TIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ tiêu kích thích tiêu hóa, thạch tín (liều nhỏ) tăng cường chức năng tạng phủ.",
+        "cach_dung": "Ngày uống 2 đến 4 viên.",
+        "ghi_chu": "Thuốc có độc dùng phải cẩn thận. Dùng hồ viên thành 100 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_BO_KICH_THICH_TIEU_HOA_HT",
+      "to": "S_AN_NGON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "kích thích sự tiêu hoá, ăn ngon cơm",
+        "cach_dung": "Ngày uống 2 đến 4 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_BO_KICH_THICH_TIEU_HOA_HT",
+      "to": "S_KEM_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "kích thích sự tiêu hoá",
+        "cach_dung": "Ngày uống 2 đến 4 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_DI_LONG_HO_TIEU_BH",
+      "to": "VI_THUOC_HAT_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ tiêu ấm nóng, trừ hàn, Bán hạ táo thấp, chỉ nôn.",
+        "cach_dung": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_DI_LONG_HO_TIEU_BH",
+      "to": "VT_BAN_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hồ tiêu ấm nóng, trừ hàn, Bán hạ táo thấp, chỉ nôn.",
+        "cach_dung": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_DI_LONG_HO_TIEU_BH",
+      "to": "B_DI_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đi lỏng",
+        "cach_dung": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    },
+    {
+      "from": "BT_DI_LONG_HO_TIEU_BH",
+      "to": "S_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "ăn vào nôn ra",
+        "cach_dung": "Ngày uống 15-20 viên. Dùng nước gừng chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T385"
+      }
+    }
+  ],
+  "metadata": {}
+}

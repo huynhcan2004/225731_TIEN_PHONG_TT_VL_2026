@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_RAU_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T286",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "286"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "CN_THONG_LAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thông lâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "DL_TANG_CUONG_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tăng cường sự hô hấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "DL_CO_BOP_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dịch chiết nước của rau đắng gây co bóp tử cung cô lập hay không có lập của súc vật cái."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "DL_TANG_THOI_GIAN_DONG_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm tăng thời gian đông máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_DANG",
+      "to": "DL_TANG_LUONG_NUOC_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tăng lượng nước tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T286"
+      }
+    }
+  ],
+  "metadata": {}
+}

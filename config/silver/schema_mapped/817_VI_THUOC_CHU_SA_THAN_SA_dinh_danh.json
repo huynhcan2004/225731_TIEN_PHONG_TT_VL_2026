@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHU_SA_THAN_SA",
+    "ten_raw": "Chu sa- Thần sa",
+    "ten_khoa_hoc": "Cinnabars",
+    "ho_thuc_vat": "",
+    "variants": [
+      "Chu sa",
+      "Thần sa"
+    ],
+    "properties": {},
+    "display_name": "Chu sa- Thần sa"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T817",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "817"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chu sa thường ở thể bột đỏ, thần sa thường ở cục thành khối óng ánh, to nhỏ không nhất định, màu đỏ tối hay đỏ tươi, chất nặng nhưng dễ vỡ vụn, không mùi, vị nhạt. Khi nghiền bằng tay, tay không bị bắt màu đỏ là loại tốt.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu của chu sa hay thần sa là sunfua thuỷ ngân thiên nhiên. Nguyên chất có thuỷ ngân (Hg) $86,2$%, sunfua (S) $13,8$%. Thường lẫn một số tạp chất khác như chất hữu cơ. Khi cho vào ống nghiệm đun nóng sẽ cho HgS đen, cuối cùng SO, bốc lên và thuỷ ngân bám vào thành ống.",
+          "Từ trước cho đến năm 1963, người ta chưa rõ thành phần hoạt chất của chu sa hay thần sa là gì. Vì nói chung sunfua thuỷ ngân không tan trong nước, là dạng thường sử dụng trong đông y. Năm 1963, Hoàng Như Tố và Phạm Hải Tùng (Trường đại học dược khoa Hà Nội) đã tách được bằng sắc ký một hợp chất chưa xác định được có tác dụng dược lý giống thần sa. Cùng năm, Đàm Trung Bảo (Trường đại học dược khoa Hà Nội) chiết được dưới dạng tinh khiết và xác định là selenua thuỷ ngân, selenua thuỷ ngân chế bằng cách này có tác dụng của thần sa. Năm 1964, Đàm Trung Bảo còn lấy bụi lắng ở đáy bể đựng axit sunfuric ở nhà máy supelan Lâm Thao Việt Nam và ở đất quanh đó rồi chiết lấy selen với tỉ lệ $6$ đến $9$% rồi chế thành selenua thủy ngân, selenua thủ ngân chế bằng cách này cũng có tác dụng giống hệt như selenua thuỷ ngân chế từ thần sa.",
+          "Tỷ lệ selenua thuỷ ngân trong thần sa từ $2,5$ đến $3$%, trong khi trong chu sa chỉ có rất ít, chừng $2$%. Nếu chỉ tính riêng selen thì trong thần sa có chừng $3,5$ đến $4,5$%. Trong chu sa tỷ lệ rất thấp. chỉ có vết."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHU_SA_THAN_SA",
+      "to": "HC_THUY_NGAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nguyên chất có thuỷ ngân (Hg) $86,2$%, sunfua (S) $13,8$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T817"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHU_SA_THAN_SA",
+      "to": "HC_SELENUA_THUY_NGAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ selenua thuỷ ngân trong thần sa từ $2,5$ đến $3$%, trong khi trong chu sa chỉ có rất ít, chừng $2$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T817"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHU_SA_THAN_SA",
+      "to": "HC_SELEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu chỉ tính riêng selen thì trong thần sa có chừng $3,5$ đến $4,5$%. Trong chu sa tỷ lệ rất thấp. chỉ có vết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T817"
+      }
+    }
+  ]
+}

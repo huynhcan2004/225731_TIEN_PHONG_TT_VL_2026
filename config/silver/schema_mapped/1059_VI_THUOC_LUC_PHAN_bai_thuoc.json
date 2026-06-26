@@ -1,0 +1,127 @@
+{
+  "entity_hub": "VI_THUOC_LUC_PHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T1059",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1059"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT_LMLBT",
+      "to": "VT_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Long cốt, mẫu lệ giúp cố sáp, liễm hãn. Hoàng kỳ bổ khí cố biểu. Bột tẻ có tác dụng bảo vệ da, giảm kích ứng.",
+        "cach_dung": "Xoa lên da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT_LMLBT",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Long cốt, mẫu lệ giúp cố sáp, liễm hãn. Hoàng kỳ bổ khí cố biểu. Bột tẻ có tác dụng bảo vệ da, giảm kích ứng.",
+        "cach_dung": "Xoa lên da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT_LMLBT",
+      "to": "VT_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Long cốt, mẫu lệ giúp cố sáp, liễm hãn. Hoàng kỳ bổ khí cố biểu. Bột tẻ có tác dụng bảo vệ da, giảm kích ứng.",
+        "cach_dung": "Xoa lên da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT_LMLBT",
+      "to": "VT_BOT_TE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Long cốt, mẫu lệ giúp cố sáp, liễm hãn. Hoàng kỳ bổ khí cố biểu. Bột tẻ có tác dụng bảo vệ da, giảm kích ứng.",
+        "cach_dung": "Xoa lên da",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_LONG_COT_LMLBT",
+      "to": "B_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ra mồ hôi trộm, tự ra mồ hôi.",
+        "cach_dung": "Xoa lên da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_LONG_COT_LOC",
+      "to": "VT_LONG_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Long cốt và ô tặc cốt có tác dụng cầm máu, se vết thương.",
+        "cach_dung": "Rắc bột lên vết loét chảy máu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_LONG_COT_LOC",
+      "to": "VT_O_TAC_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Long cốt và ô tặc cốt có tác dụng cầm máu, se vết thương.",
+        "cach_dung": "Rắc bột lên vết loét chảy máu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_LONG_COT_LOC",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi có vết loét chảy máu",
+        "cach_dung": "Rắc bột lên vết loét chảy máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,196 @@
+{
+  "entity_hub": "VI_THUOC_CHIA_VOI",
+  "source": {
+    "source_id": "CT_VT_VN_T551",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "551"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TE_THAP_CHIA_VOI_C",
+      "to": "VI_THUOC_CHIA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chìa vôi chủ trị tê thấp.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_CHIA_VOI_C",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê thấp, đau lưng, mỏi gối.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_SOT_CHIA_VOI_C",
+      "to": "VI_THUOC_CHIA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chìa vôi chủ trị sốt.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_SOT_CHIA_VOI_C",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, ỉa chảy.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_CHIA_VOI_C",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, ỉa chảy.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_CHIA_VOI_C",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, sốt rét, ỉa chảy.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_CHIA_VOI_R",
+      "to": "VI_THUOC_CHIA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc ngâm rượu chữa tê thấp, nhức mỏi.",
+        "cach_dung": "Ngâm trong 15 ngày trở lên. Ngày uống 20-30ml",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_CHIA_VOI_R",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mỏi, tê thấp.",
+        "cach_dung": "Ngày uống 20-30ml"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_CHIA_VOI_C",
+      "to": "VI_THUOC_CHIA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chìa vôi chủ trị đau bụng, ăn uống không tiêu.",
+        "cach_dung": "Ngày uống 1 đến 3 quả hoặc dưới dạng bột, hoặc dưới dạng ngâm rượu",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_CHIA_VOI_C",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng, ăn uống không tiêu, xoa bóp khi đau nhức, tê thấp.",
+        "cach_dung": "Ngày uống 1 đến 3 quả hoặc dưới dạng bột, hoặc dưới dạng ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_CHIA_VOI_C",
+      "to": "B_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng, ăn uống không tiêu, xoa bóp khi đau nhức, tê thấp.",
+        "cach_dung": "Ngày uống 1 đến 3 quả hoặc dưới dạng bột, hoặc dưới dạng ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_SOT_CHIA_VOI_V",
+      "to": "VI_THUOC_CHIA_VOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chìa vôi chủ trị sốt.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_SOT_CHIA_VOI_V",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, ăn uống.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_CHIA_VOI_V",
+      "to": "B_AN_UONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, ăn uống.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T551"
+      }
+    }
+  ],
+  "metadata": {}
+}

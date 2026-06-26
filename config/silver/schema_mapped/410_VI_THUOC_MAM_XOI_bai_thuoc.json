@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_MAM_XOI",
+  "source": {
+    "source_id": "CT_VT_VN_T410",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "410"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAM_TIEU_MAM_XOI_M",
+      "to": "VI_THUOC_MAM_XOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương vị mâm xôi.",
+        "cach_dung": "Sắc hay pha uống trước bữa ăn cơm 15 hay 20 phút để ăn cho ngon cơm",
+        "ghi_chu": "CT_VT_VN_T411"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    },
+    {
+      "from": "BT_CHAM_TIEU_MAM_XOI_M",
+      "to": "B_CHAM_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chậm tiêu",
+        "cach_dung": "Sắc hay pha uống trước bữa ăn cơm 15 hay 20 phút để ăn cho ngon cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410"
+      }
+    }
+  ],
+  "metadata": {}
+}

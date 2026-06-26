@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Cấu hình Types để nhận diện NodeJS, React và Vite */
+    "types": [
+      "node",
+      "react",
+      "react-dom",
+      "vite/client"
+    ],
+
+    /* Tắt cảnh báo baseUrl bị lỗi thời trong TS 5.x */
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+
+    /* Cấu hình linh hoạt tránh lỗi ép kiểu chặt chẽ khi dev */
+    "strict": false,
+    "noImplicitAny": false,
+
+    /* Cấu hình Alias - Đường dẫn tắt @ */
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHONG_PHONG",
+    "ten_raw": "Phòng phong",
+    "ten_khoa_hoc": "Rhizoma Notopterygii; Notopterygium incisium Ting Mss.; Notopterygium forbesii Boiss.; Ligusticum brachylobum Franch; Ledebouriella seseloides Wolff.; Seseli delavayi Franch.; Seseli yunnanense Franch",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae); Lúa Poaceae (Gramineae); Hoa tán Apiaceae(Umbelliferae)",
+    "variants": [
+      "Xuyên khương",
+      "Trúc tiết khương",
+      "Hồ vương sứ giả",
+      "Phúc thị khương hoạt",
+      "Tàm khương",
+      "Đại đầu khương",
+      "Xuyên phòng phong",
+      "Thiên phòng phong",
+      "Đồng phòng phong",
+      "Bàng phong",
+      "Vân phòng phong",
+      "Trúc diệp phòng phong",
+      "Phòng phong Vân Nam",
+      "Phòng phong lá thông",
+      "Tùng diệp phòng phong"
+    ],
+    "display_name": "Phòng phong",
+    "properties": {}
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T681",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "681"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Niễng là một loại cỏ sống lâu năm, trông giống lau, sậy, mọc dưới nước hay dưới đất nhiều bùn, cao tới 1-2m, rễ nhiều, thân rễ và thân bò (đường kính $1-1,5cm$) rất phát triển. Thân rỗng có vách ngang. Thân đứng, nhẵn, phần dưới gốc rất phát triển, xốp, phía ngọn gầy hơn. Lá dài, hình mác dài từ $0,30-1m$, rộng $2-3cm$, cả hai mặt đều nháp, hai bên mép dày lên. Cụm hoa là chùy hẹp, dài $30-50cm$, trục to nhiều nhánh mang hoa cái ở phía trên và hoa đực ở phía dưới."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHONG_PHONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHONG_PHONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHONG_PHONG",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Khương hoạt bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    }
+  ]
+}

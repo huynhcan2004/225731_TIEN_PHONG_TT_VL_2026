@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGO_DONG",
+    "ten_raw": "Ngô đồng",
+    "ten_khoa_hoc": "Pleione bulbocodioides (Franch.) Rolfe; Coelogyne bulbocodioides Franch.",
+    "ho_thuc_vat": "Lan Orchidaceae",
+    "variants": [
+      "sơn từ cô"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T566",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "566"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Hàn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Theo những tài liệu ghi chép cũ thì sơn từ cô có tên khoa học là Pleione bulbocodioides, nhưng cho tới nay vị thuốc này chỉ thấy nhập của Trung Quốc, mà theo sự điều tra của một số tác giả Trung Quốc đến tại vùng tây nam Trung Quốc là nơi cây này được khai thác thì thấy nó thuộc nhiều loài có hình dáng bên ngoài giống nhau, lại vì chưa thu được mẫu vật có hoa quả nên chỉ tạm xác định là Pleione sp. Đó là một cây sống lâu năm với thân rễ hình trứng dài $1,5cm$, rộng $1,3cm$ mang nhiều rễ nhỏ, với những lá hình mác dài $2-3,5cm$, màu xanh lục với gân chạy song song. Hoa, quả chưa rõ ( Hình 431).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T567]: Chưa thấy tài liệu nghiên cứu."
+        ],
+        "cach_dung_bao_che": "Như trên đã nói, đây là một vị thuốc hoàn toàn còn phải nhập của Trung Quốc. Ngay tại đây cũng thu mua tại Quý Châu và Tứ Xuyên, nhưng tại nơi thu mua ít dùng, mà chỉ đưa bán đi nơi khác dùng nhiều hơn. Thu hái vào tháng 4, trừ bỏ thân và vẩy lá, rễ con, rửa sạch đất cát, đồ cho chín tới giữa củ rồi phơi hay sấy khô. Vị thuốc hình cầu hay hình thay đổi, dài $1,5-2,5cm$, đường kính $1,5-2cm$, mặt ngoài vàng trắng hay nâu nhạt, trên mặt còn lá vẩy hay đã bóc hết, cứng, khó bẻ, vết cắt màu vàng trắng, hơi trong trong, không mùi, vị nhạt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAU_CHO",
+    "ten_raw": "Máu chó",
+    "ten_khoa_hoc": "$Knema corticosa Lour. (Knema bicolor Raf, Myristica corticosa Hook. f. et Thoms.); Hydnocarpus anthelmintica Pierre$",
+    "ho_thuc_vat": "$Nhục đậu khấu Myristicaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "khắp miền rừng núi các tỉnh miền Bắc, miền Trung và miền Nam."
+    },
+    "display_name": "Máu chó",
+    "canonical_name": "Máu chó"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MAU_CHO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mau Cho"
+      }
+    },
+    {
+      "id": "HC_PHYTOSTEROL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Phytosterol"
+      }
+    },
+    {
+      "id": "HC_LECXITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lecxitin"
+      }
+    },
+    {
+      "id": "BT_GHE_MAU_CHO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ghe Mau Cho"
+      }
+    },
+    {
+      "id": "VI_MUOI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Muoi"
+      }
+    },
+    {
+      "id": "B_GHE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe"
+      }
+    },
+    {
+      "id": "BT_GHE_MAU_CHO_2",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ghe Mau Cho 2"
+      }
+    },
+    {
+      "id": "VI_RUOU_TRANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Ruou Trang"
+      }
+    },
+    {
+      "id": "BT_GHE_RUOI_MAU_CHO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ghe Ruoi Mau Cho"
+      }
+    },
+    {
+      "id": "B_GHE_RUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe Ruoi"
+      }
+    },
+    {
+      "id": "B_HUI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hui"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "119"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to, cao, có thể tới hơn $10m$. Cành non có lông tơ màu hung đỏ. Lá mọc so le, có cuống, nguyên và nhẫn, mặt trên bóng. Hoa khác gốc, có lông mịn màu nâu nhạt. Quả hình trứng hay hình cầu, khi chín thì nhẵn, vỏ quả mỏng; áo hạt nguyên vẹn hay bị tước cả đầu. Hạt có vỏ mỏng và nhẵn ( Hình 63 ).",
+        "thanh_phan_hoa_hoc": [
+          "$Phytosterol$ và $lecxitin$"
+        ],
+        "ghi_chu_bo_sung": "Quả máu chó khi còn non có màu xanh, lúc về già có màu vàng, để lâu vỏ nứt làm 2 mảnh, phía trong có hạt mang áo hạt. Khi quả còn non áo hạt màu hồng nhạt, dính sát váo hạt, khi già áo hạt màu đỏ sẫm, bóc được dễ dàng.",
+        "cach_dung_bao_che": "Giã chừng $100kg$ hạt máu chó, xẩy bỏ vỏ, lấy nhân giã cho nhuyễn, thêm muối đã rang thật khô chừng $10kg$, trộn đều. Dùng chõ đồ như đồ xôi, dùng cây ép lấy dầu. Do cách ép thủ công, nên hiệu suất chừng $15-20\\%$."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAU_CHO",
+      "to": "HC_PHYTOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Phytosterol$ và $lecxitin$",
+        "ghi_chu": "CT_VT_VN_T120"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAU_CHO",
+      "to": "HC_LECXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Phytosterol$ và $lecxitin$",
+        "ghi_chu": "CT_VT_VN_T120"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$100$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO",
+      "to": "VI_MUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhuyễn hạt máu chó đã bỏ vỏ, trộn với muối rang khô, đem đồ như đồ xôi, dùng cây ép lấy dầu. Tắm sạch, gãi cho nốt ghẻ chảy máu rồi bôi nguyên dầu đó hoặc cho thêm vào dầu một ít dầu long não. Cần bôi thật mỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_2",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$50$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_2",
+      "to": "VI_RUOU_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$200$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_MAU_CHO_2",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhỏ hạt máu chó, sẩy bỏ vỏ, trộn với rượu trắng, đun sôi trên bếp than đến khi được hỗn hợp sền sệt. Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, hôm sau tắm sạch bằng xà phòng, bôi một lần nữa. Thường chỉ $3$ lần là khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_RUOI_MAU_CHO",
+      "to": "VI_THUOC_MAU_CHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$50$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_RUOI_MAU_CHO",
+      "to": "VI_RUOU_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$200$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GHE_RUOI_MAU_CHO",
+      "to": "B_GHE_RUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhỏ hạt máu chó, sẩy bỏ vỏ, trộn với rượu trắng, đun sôi trên bếp than đến khi được hỗn hợp sền sệt. Rửa nốt ghẻ cho bong vẩy, bôi ngay dầu còn hơi nóng, bôi thật mỏng, hôm sau tắm sạch bằng xà phòng, bôi một lần nữa. Thường chỉ $3$ lần là khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAU_CHO",
+      "to": "B_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nhân dân tại nhiều vùng thường dùng",
+        "ghi_chu": "Hạt cây đại phong tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T119",
+        "all_sources": [
+          "CT_VT_VN_T119"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 27.0,
+      "reliability_c_score": 0.7654,
+      "total_confidence_sum": 9.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

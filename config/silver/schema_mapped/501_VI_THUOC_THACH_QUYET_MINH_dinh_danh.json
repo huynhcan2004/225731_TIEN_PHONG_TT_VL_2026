@@ -1,0 +1,138 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THACH_QUYET_MINH",
+    "ten_raw": "Thạch quyết minh",
+    "ten_khoa_hoc": "Haliotis diversicolor Reeve.",
+    "ho_thuc_vat": "Không có thông tin",
+    "variants": [
+      "Cửu khổng",
+      "bào ngư",
+      "hải quyết minh"
+    ],
+    "properties": {
+      "bo_phan_dung": "vỏ của con bào ngư"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T501",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "501"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thạch quyết minh là vỏ của con bào ngư. Bào ngư là một loài động vật thân mềm sống ở biển. Vỏ có hình trứng, hình tai, dài $8$-$12cm$, rộng $6$-$8cm$, mặt ngoài xù xì, có nhiều lỗ nhỏ hơi nhô lên, lỗ ở gần phía đầu nhỏ hơn. Mặt trong nhẵn bóng, có ánh ngũ sắc. Thạch quyết minh có nhiều loại tuỳ theo loài bào ngư.",
+        "thanh_phan_hoa_hoc": [
+          "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+        ],
+        "cach_dung_bao_che": "Sau khi bắt về, người ta lấy thịt bào ngư ăn, còn vỏ rửa sạch đất cát, phơi khô để dùng làm thuốc. Có khi người ta nung thạch quyết minh rồi mới dùng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "HC_CANXI_CACBONAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "HC_MAGIE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "HC_SILIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_QUYET_MINH",
+      "to": "HC_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thạch quyết minh chứa $80$-$90%$ canxi cacbonat, một ít chất magie, sắt, silic và clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T501"
+      }
+    }
+  ]
+}

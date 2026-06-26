@@ -1,0 +1,117 @@
+{
+  "entity_hub": "VI_THUOC_NGUU_TAT",
+  "source": {
+    "source_id": "CT_VT_VN_T63",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "63"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_KHOP_NGUU_TAT_N",
+      "to": "VI_THUOC_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngưu tất là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Viêm khớp, đau bụng, kinh nguyệt khó khăn",
+        "cach_dung": "sắc uống",
+        "ghi_chu": "CT_VT_VN_T64"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHOP_NGUU_TAT_N",
+      "to": "B_VIEM_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm khớp",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHOP_NGUU_TAT_N",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "đau bụng",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHOP_NGUU_TAT_N",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "kinh nguyệt khó khăn",
+        "cach_dung": "sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_CHOLESTEROL_MAU_CAO_NGUU_TAT_N",
+      "to": "VI_THUOC_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngưu tất là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Chữa bệnh cholesterol máu cao, huyết áp cao, vữa xơ động mạch",
+        "cach_dung": "Ngày uống hai lần, mỗi lần 5viên hoặc một ống sau bữa ăn. Dùng liền 1-2 tháng lại nghỉ",
+        "ghi_chu": "CT_VT_VN_T64"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_CHOLESTEROL_MAU_CAO_NGUU_TAT_N",
+      "to": "B_CHOLESTEROL_MAU_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh cholesterol máu cao",
+        "cach_dung": "Ngày uống hai lần, mỗi lần 5viên hoặc một ống sau bữa ăn. Dùng liền 1-2 tháng lại nghỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_CHOLESTEROL_MAU_CAO_NGUU_TAT_N",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "huyết áp cao",
+        "cach_dung": "Ngày uống hai lần, mỗi lần 5viên hoặc một ống sau bữa ăn. Dùng liền 1-2 tháng lại nghỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    },
+    {
+      "from": "BT_CHOLESTEROL_MAU_CAO_NGUU_TAT_N",
+      "to": "B_VUA_XO_DONG_MACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "vữa xơ động mạch",
+        "cach_dung": "Ngày uống hai lần, mỗi lần 5viên hoặc một ống sau bữa ăn. Dùng liền 1-2 tháng lại nghỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T63"
+      }
+    }
+  ],
+  "metadata": {}
+}

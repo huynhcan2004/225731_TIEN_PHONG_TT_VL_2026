@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_KHO_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T840",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "840"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THONG_TIEU_TIEN_KHO_SAM_K",
+      "to": "VI_THUOC_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khổ sâm có tác dụng thông tiểu tiện.",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_KHO_SAM_K",
+      "to": "VI_THUOC_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khổ sâm có tác dụng làm thuốc bổ.",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "BT_MAT_GAN_KHO_SAM_K",
+      "to": "VI_THUOC_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Khổ sâm có tác dụng làm mát.",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_TIEN_KHO_SAM_K",
+      "to": "S_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_KHO_SAM_K",
+      "to": "NhomBenh_BO_HU",
+      "relation_type": "THUOC_NHOM_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc bổ",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    },
+    {
+      "from": "BT_MAT_GAN_KHO_SAM_K",
+      "to": "NhomBenh_NHIET",
+      "relation_type": "THUOC_NHOM_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc mát",
+        "cach_dung": "Pha hoặc sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T840"
+      }
+    }
+  ],
+  "metadata": {}
+}

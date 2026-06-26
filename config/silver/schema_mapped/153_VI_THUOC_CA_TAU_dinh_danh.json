@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_TAU",
+    "ten_raw": "Cà tàu",
+    "ten_khoa_hoc": "Solanum xanthocarpum Schrad và Wondl.",
+    "ho_thuc_vat": "Cà Solanaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây mọc hoang dại rất nhiều ở tỉnh Lâm đồng (Đà Lạt, Đức Trọng, Sơn dương...), Đắc Lắc (Buôn Mê Thuộc), Gia Lai-Kon Tum.",
+      "thu_hai": "Người ta dùng toàn cây (thân, lá và quả) phơi hay sấy khô."
+    },
+    "display_name": "Cà tàu"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T153",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "153"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sống hàng năm, cao khoảng $0,7$-$1m$ hay hơn. Toàn thân và lá có màu xanh lục nhạt. Phiến lá to rộng gần giống các loại cà cho quả ăn được, mép lá phân thùy không đều. Đặc biệt toàn thân cây, cuống và gân lá cả hai phía trên dưới đều có nhiều gai nhọn sắc. Mặt trên và dưới của lá đều có một lớp mỏng lông mịn. Cụm hoa tán ngoài ; nách lá mọc thành chùm từ $3$-$5$ cái, cánh hoa ', màu trắng hoặc xanh lục nhạt $5$ cánh rời hình sao rộng $2cm$. Tiểu nhị vàng, bao phấn dài $8$-$9cm$. Quả không có lông tròn, trắng có bớt rằn xanh, khi chín có màu vàng tươi đường kính $2,5$-$3cm$. Mùa quả quanh năm nhưng nhiều quả nhất vào mùa khô (tháng $11$, $12$) ở Đà lạt (Lâm đồng) ( Hình $96$ ).",
+        "thanh_phan_hoa_hoc": [
+          "Năm $1939$ Rochemeyer H. (Angew. Chem. $52$ ($20$), $374$) đã chiết từ cây một gluzit có tên $solasodin$.",
+          "Năm $1980$ (Dược học $5$, $1980$) Hoàng Đại Cử đã định lượng tro trong lá và phần non của cây đang có nhiều quả xanh và chín có $0,05$ phần trăm $solasodin$. Trong quả xanh (gồm thịt quả và hạt) có $2,36$%. Trong quả chín vàng (gồm thịt quả và hạt) có $2,20$%.",
+          "Tác giả còn chiết từ hỗn hợp gồm quả xanh già, chín vàng và hạt phơi sấy khô dòn được $1,40$% $solasodin$ đã tinh chế."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_TAU",
+      "to": "HC_SOLASODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm $1939$ Rochemeyer H. (Angew. Chem. $52$ ($20$), $374$) đã chiết từ cây một gluzit có tên $solasodin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T153"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LU_LU_DUC",
+    "ten_raw": "Lu lu đực",
+    "ten_khoa_hoc": "Solanum nigrum L.",
+    "ho_thuc_vat": "Cà Solanaceae",
+    "variants": [
+      "thù lù đực",
+      "gia cầu",
+      "nút áo",
+      "hiên già nhi miêu",
+      "morelle noire",
+      "raisin de oup",
+      "herbe au magicien"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T155",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "155"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là thù lù đực, gia cầu, nút áo, hiên già nhi miêu, morelle noire, raisin de oup, herbe au magicien. Cỏ mọc hằng năm, nhẵn hay hơi có lông, cao $50$-$80cm$, có nhiều cành. Lá hình bầu dục, mềm, nhẵn, dài $4$-$15cm$, rộng $2$-$3cm$. Hoa nhỏ, màu trắng, mọc thành tán nhỏ có cuống ở kẽ lá. Quả hình cầu, đường kính $5 - 8mm$, lúc đầu màu lục, sau vàng và khi chín có màu đen tím. Hạt dẹt, hình thận, nhẵn, đường kính chừng $1mm$. Toàn cây vò hơi có mùi hôi Dây leo có thể dài tới $10m$. Lá hình trướng rộng, phía cuống hẹp lại, đầu tù hay nhọn dài $2$-$12,5cm$, rộng $3$-$4cm$, nhắn hay có lông ở mặt dưới, cuống dài $3$-$8cm$. Hoa họp thành hình đầu tận cùng, đường kính khoảng $6mm$. Quả hạch dính với nhau thành hình đầu nhiều mặt, màu đỏ, mỗi hoa để lại trên quả một vết tròn làm cho quả có hình thù quái dị, giống như mặt một con quỷ, mỗi hạch dài $4mm$, dày $2mm$, thành dai. Mỗi hạch chứa một hạt. ( Hình 99, Hm 55.1).",
+        "thanh_phan_hoa_hoc": [
+          "Trong toàn cây chứa $solanin$, ở quả chứa nhiều hơn.",
+          "[CT_VT_VN_T156]: Trong rễ chứa anthraglucozit. Hoạt chất khác chưa rõ."
+        ],
+        "cach_dung_bao_che": "Người ta dùng toàn cây hay chỉ hái lá dùng làm thuốc. Thường dùng tươi. Một số nước châu Âu, châu Á dùng cây này làm rau ăn nhưng phải nấu chín, và có khi phải đổ bỏ hai ba nước đầu đi. Tuy nhiên quả không dùng vì có độc. [CT_VT_VN_T156]: Dây mặt quỷ mọc rất phổ biến ở những đồi có cây bụi hay rừng thưa tại nhiều tỉnh nước ta. Còn thấy mọc ở các nước nhiệt đới châu Á, Trung Quốc, Nhật Bản, châu Mỹ. Người ta dùng lá và rễ tươi hay khô, có khi hải toàn dây và lá. Rễ đào về thái mỏng phơi hay sấy khô. Thường dùng không chế biến gì khác. Nhưng có người sao cho hơi vàng hoặc tẩm rượu sao."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LU_LU_DUC",
+      "to": "HC_SOLANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong toàn cây chứa $solanin$, ở quả chứa nhiều hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "VI_THUOC_LU_LU_DUC",
+      "to": "HC_ANTHRAGLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T156]: Trong rễ chứa anthraglucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    }
+  ]
+}

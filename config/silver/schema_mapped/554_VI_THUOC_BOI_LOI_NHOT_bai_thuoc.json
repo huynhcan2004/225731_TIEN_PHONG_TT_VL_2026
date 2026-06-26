@@ -1,0 +1,153 @@
+{
+  "entity_hub": "VI_THUOC_BOI_LOI_NHOT",
+  "source": {
+    "source_id": "CT_VT_VN_T554",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "554"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_BOI_LOI_NHOT_B",
+      "to": "VI_THUOC_BOI_LOI_NHOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bời lời nhớt là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Vỏ Bời lời nhớt giã nát đắp lên.",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BOI_LOI_NHOT_B",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_BOI_LOI_NHOT_B",
+      "to": "VI_THUOC_BOI_LOI_NHOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bời lời nhớt là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Vỏ Bời lời nhớt giã nát đắp lên.",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_BOI_LOI_NHOT_B",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lở loét",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_BONG_BOI_LOI_NHOT_B",
+      "to": "VI_THUOC_BOI_LOI_NHOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bời lời nhớt là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Vỏ Bời lời nhớt giã nát đắp lên.",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_BONG_BOI_LOI_NHOT_B",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_TIEU_CHAY_BOI_LOI_NHOT_B",
+      "to": "VI_THUOC_BOI_LOI_NHOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bời lời nhớt là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Vỏ Bời lời nhớt $6-12g$",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_TIEU_CHAY_BOI_LOI_NHOT_B",
+      "to": "B_TIEU_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu chảy",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_LY_BOI_LOI_NHOT_B",
+      "to": "VI_THUOC_BOI_LOI_NHOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bời lời nhớt là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Vỏ Bời lời nhớt $6-12g$",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    },
+    {
+      "from": "BT_LY_BOI_LOI_NHOT_B",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T554"
+      }
+    }
+  ],
+  "metadata": {}
+}

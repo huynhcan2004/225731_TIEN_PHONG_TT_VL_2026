@@ -1,0 +1,77 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUN_MUN",
+    "ten_raw": "Cây thừn mũn",
+    "ten_khoa_hoc": "Embelia ribes Burm.",
+    "ho_thuc_vat": "Đơn nem Myrsinaceae",
+    "variants": [
+      "cây chua meo",
+      "cây phi tử",
+      "cây chua ngút",
+      "vốn vén",
+      "tấm cùi",
+      "xóm mun"
+    ],
+    "properties": {
+      "bo_phan_dung": "Quả chín",
+      "thu_hai": "Khi quả chín hái về",
+      "che_bien_tho": "xát sạch vỏ, phơi khô",
+      "phan_bo": "ở các đổi thành từng bụi"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T182",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "182"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc hoang ở các đổi thành từng bụi cao chừng $1$-$2m$. Thân màu tía tím thỉnh thoảng có cành đỏ tươi hơn, trông như hơi mốc. Có vạch dọc rất rõ, bì khổng nhỏ như hạt kê. Lá mọc so le, hình lưỡi mác, mặt dưới nhạt hơn, dài $4,5$-$5cm$, rộng $1,5$-$2cm$. Phiến ở phía cuống hẹp nhọn. Cuống ngắn $5$-$6mm$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả có tanin, tinh dầu và axit embelic (còn gọi là embelin hay embelon=dihydroxy 2-5-lauryl 3-benzo quinon 1-4) một chất có cấu tạo quinonic."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUN_MUN",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có tanin, tinh dầu và axit embelic (còn gọi là embelin hay embelon=dihydroxy 2-5-lauryl 3-benzo quinon 1-4) một chất có cấu tạo quinonic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T182"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUN_MUN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có tanin, tinh dầu và axit embelic (còn gọi là embelin hay embelon=dihydroxy 2-5-lauryl 3-benzo quinon 1-4) một chất có cấu tạo quinonic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T182"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUN_MUN",
+      "to": "HC_AXIT_EMBELIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả có tanin, tinh dầu và axit embelic (còn gọi là embelin hay embelon=dihydroxy 2-5-lauryl 3-benzo quinon 1-4) một chất có cấu tạo quinonic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T182"
+      }
+    }
+  ]
+}

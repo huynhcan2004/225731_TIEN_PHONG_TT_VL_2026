@@ -1,0 +1,442 @@
+{
+  "entity_hub": "VI_THUOC_BACH_HOA_XA",
+  "source": {
+    "source_id": "CT_VT_VN_T104",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "104"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BENH_NGOAI_DA_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau.",
+        "ghi_chu": "Rễ hoặc lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_BACH_HOA_XA_B",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những bệnh ngoài da, những vết loét, vết thương.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau.",
+        "ghi_chu": "Rễ hoặc lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_BACH_HOA_XA_B",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những bệnh ngoài da, những vết loét, vết thương.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau.",
+        "ghi_chu": "Rễ hoặc lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BACH_HOA_XA_B",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những bệnh ngoài da, những vết loét, vết thương.",
+        "cach_dung": "Giã nhỏ với cơm, đắp lên nơi sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_GHE_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Sắc lấy nước bôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_GHE_BACH_HOA_XA_B",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ghẻ.",
+        "cach_dung": "Sắc rễ bạch hoa xà lấy nước bôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_CHOC_LO_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Giã nát đắp lên đầu chốc lở đã rửa sạch, hễ thấy nóng thì bỏ ra."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_CHOC_LO_BACH_HOA_XA_B",
+      "to": "B_CHOC_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chốc lở.",
+        "cach_dung": "Giã nát đắp lên đầu chốc lở đã rửa sạch hễ thấy nóng thì bỏ ra."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_SAY_THAI_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Cho uống hay tán một ít bột cho vào khoang tử cung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_SAY_THAI_BACH_HOA_XA_B",
+      "to": "B_SAY_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sẩy thai.",
+        "cach_dung": "Cho uống hay tán một ít bột cho vào khoang tử cung, thai sẽ tự ra do bị kích thích, nhưng hay gây ra viêm tử cung có khi chết người."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DAU_GAN_BACH_HOA_XA_L",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DAU_GAN_BACH_HOA_XA_L",
+      "to": "S_DAU_GAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau gần.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_BACH_HOA_XA_R",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Rễ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_BACH_HOA_XA_R",
+      "to": "S_DAU_XUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau xương.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TAY_BACH_HOA_XA_L",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Ăn nhiều.",
+        "ghi_chu": "Lá xào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TAY_BACH_HOA_XA_L",
+      "to": "S_TAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tẩy.",
+        "cach_dung": "Ăn nhiều thì tẩy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_BACH_HOA_XA_L",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Nấu canh với dấm hay chanh. Uống độ một bát canh, sau $1$ giờ thì đi ngoài, người không mệt; nếu muốn thôi đi ngoài, vò lá với nước lạnh uống $1/2$ chén. Uống lạnh.",
+        "ghi_chu": "Lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_BACH_HOA_XA_L",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đi ngoài.",
+        "cach_dung": "Nấu canh với dấm hay chanh. Uống độ một bát canh, sau $1$ giờ thì đi ngoài, người không mệt; nếu muốn thôi đi ngoài, vò lá với nước lạnh uống $1/2$ chén. Uống lạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Thoa bóp.",
+        "ghi_chu": "Bột rễ cây trộn với dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_BACH_HOA_XA_B",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thoa bóp những nơi bị tê thấp.",
+        "cach_dung": "Thoa bóp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_BACH_HOA_XA_B",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Thoa bóp.",
+        "ghi_chu": "Bột rễ cây trộn với dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_BACH_HOA_XA_B",
+      "to": "S_TE_LIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thoa bóp những nơi bị tê liệt.",
+        "cach_dung": "Thoa bóp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_UNG_THU_BACH_HOA_XA_R",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Rễ cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_UNG_THU_BACH_HOA_XA_R",
+      "to": "B_UNG_THU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ung thư.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_HUI_BACH_HOA_XA_R",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Rễ cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_HUI_BACH_HOA_XA_R",
+      "to": "B_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hủi.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_BACH_HOA_XA_R",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Rễ cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_BACH_HOA_XA_R",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa một số bệnh ngoài da khác.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_LAM_RA_THAI_BACH_HOA_XA_L",
+      "to": "VI_THUOC_BACH_HOA_XA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch hoa xà là vị thuốc chính.",
+        "cach_dung": "Dùng.",
+        "ghi_chu": "Lá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    },
+    {
+      "from": "BT_LAM_RA_THAI_BACH_HOA_XA_L",
+      "to": "S_RA_THAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm ra thai.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T104"
+      }
+    }
+  ],
+  "metadata": {}
+}

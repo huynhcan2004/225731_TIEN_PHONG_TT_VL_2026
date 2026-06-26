@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_MIA",
+  "source": {
+    "source_id": "CT_VT_VN_T281",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "281"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NON_NUOC_MIA_NM",
+      "to": "VI_THUOC_MIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$7 chén$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mía giúp thanh nhiệt, sinh tân dịch, giáng nghịch. Gừng giúp ôn vị, chỉ ẩu. Phối hợp để điều trị chứng nôn do vị nhiệt.",
+        "mo_ta_chi_tiet": "Nước mía $7$ chén, nước gừng một chén",
+        "cach_dung": "Nhấp dần chữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "BT_NON_NUOC_MIA_NM",
+      "to": "VT_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "một chén",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mía giúp thanh nhiệt, sinh tân dịch, giáng nghịch. Gừng giúp ôn vị, chỉ ẩu. Phối hợp để điều trị chứng nôn do vị nhiệt.",
+        "mo_ta_chi_tiet": "Nước mía $7$ chén, nước gừng một chén",
+        "cach_dung": "Nhấp dần chữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "BT_NON_NUOC_MIA_NM",
+      "to": "S_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "ăn vào nôn ra, hoặc sáng ăn chiều nôn, tối ăn sáng nôn",
+        "cach_dung": "Nhấp dần chữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    }
+  ],
+  "metadata": {}
+}

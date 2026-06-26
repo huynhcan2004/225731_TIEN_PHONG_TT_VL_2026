@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_HOA_PHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T484",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "484"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOA_PHAN",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá và rễ sắc uống làm thuốc tẩy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T484"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOA_PHAN",
+      "to": "DL_GIAI_DOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá và rễ sắc uống chữa ngộ độc đường tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T484"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,173 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KIM_NGAN",
+    "ten_raw": "Kim ngân",
+    "ten_khoa_hoc": "Lonicera japonica Thunb.",
+    "ho_thuc_vat": "Cơm cháy Caprifoliaceae",
+    "variants": [
+      "nhẫn đông"
+    ],
+    "properties": {
+      "bo_phan_dung": "hoa, cành lá",
+      "thu_hai": "Sau một năm có thể bắt đầu thu hoạch; thu hoạch lâu năm, càng về những năm sau càng nhiều hoa.\nNếu hái hoa cần hái vào lúc hoa sắp nở hay khi hoa mới nở, màu còn trắng chưa chuyển vàng.",
+      "che_bien_tho": "Hoa hay cành lá hái về phơi hay sấy khô là dùng được. Không phải chế biến gì khác.",
+      "phan_bo": "Cao Bằng, Lạng sơn, Ninh Bình, Thanh Hóa, Nghệ An, Hà Tĩnh, Bắc Giang, Thái Nguyên, Quảng Ninh, Vĩnh Phúc, Phú Thọ"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T90",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "90"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI",
+          "K_TAM",
+          "K_TY"
+        ],
+        "cong_nang": "thanh nhiệt giải độc",
+        "kieng_ky_dac_biet": "những người tỳ vị hư hàn không có nhiệt độc không nên dùng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Kim ngân là một loại dây mọc leo, thân có thể vươn dài tới $10m$ hay hơn. Cành lúc còn non màu lục nhạt, có phủ lông mịn, khi cành già chuyển màu nâu đỏ nhạt, nhẵn. Lá mọc đối, đôi khi mọc vòng $3$ lá một, hình trứng dài, đầu hơi tù, phía cuống tròn, cuống ngắn $2$-$3mm$, cả hai mặt đều phủ lông mịn. Vào các tháng $5$-$8$, hoa mọc từng đôi ở kẽ lá, mỗi kẽ lá có $1$ cuống mang $2$ hoa, hai bên lá mọc đối mang $4$ hoa, lá bắc giống lá nhưng nhỏ hơn. Hoa hình ống xẻ hai môi, môi lớn lại xẻ thành $3$ hay $4$ thùy nhỏ, phiến của tràng dài gần bằng ống tràng, lúc đầu màu trắng, sau khi nở một thời gian chuyển màu vàng, cùng một lúc trên cây có hoa mới nở màu trắng như bạc, lại có hoa nở đã lâu màu vàng như vàng cho nên có tên là kim ngân (kim là vàng, ngân là bạc); cây kim ngân xanh tốt vào mùa đông cho nên còn có tên là nhẫn đông nghĩa là chịu đựng mùa đông, $4$ nhị thòi dài cao hơn tràng; vòi nhụy lại thòi dài cao hơn nhị, mùi thơm dễ chịu. Quả hình trứng dài chừng $5 mm$ (Hình $37$, Hm $4,3$).",
+        "thanh_phan_hoa_hoc": [
+          "Hiện nay hoạt chất của kim ngân chưa được xác định chính xác.",
+          "Theo Tăng Quảng Phương, trong hoa kim ngân có inozit (hay inozitol) chùmg $1\\%$.",
+          "Theo Thang Đằng Hán, hoạt chất của kim ngân là một chất có trạng thái dầu, không bay hơi, có thể tan trong nước và trong các dung môi hữu cơ. Tuy nhiên cần chú ý là trong nhân dân Trung Quốc dùng kim ngân dưới dạng nước cất hoa kim ngân mà vẫn thấy tác dụng, chứng tỏ phần cất theo hơi nước, cũng có tác dụng.",
+          "Năm $1961$, một số nhà nghiên cứu Nhật Bản cho biết trong kim ngân có một glucozit gọi là lonixerin có cấu tạo luteolin-7-rhamnoza.",
+          "Qua thực nghiệm chúng tôi thấy trong kim ngân có nhiều saponozit (Đỗ Tất Lợi)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn (lạnh)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tỳ"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "CONG_NANG_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thanh nhiệt giải độc"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "HC_INOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương, trong hoa kim ngân có inozit (hay inozitol) chùmg $1\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "HC_LONIXERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm $1961$, một số nhà nghiên cứu Nhật Bản cho biết trong kim ngân có một glucozit gọi là lonixerin có cấu tạo luteolin-7-rhamnoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "VI_THUOC_KIM_NGAN",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Qua thực nghiệm chúng tôi thấy trong kim ngân có nhiều saponozit (Đỗ Tất Lợi)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    }
+  ]
+}

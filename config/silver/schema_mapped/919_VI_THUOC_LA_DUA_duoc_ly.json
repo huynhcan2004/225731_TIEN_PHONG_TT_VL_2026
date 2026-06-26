@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_LA_DUA",
+  "source": {
+    "source_id": "CT_VT_VN_T919",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "919"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "CN_CHI_THONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ thống (giảm đau)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "DL_BO_SUNG_DINH_DUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc bổ đắng dùng trong những trường hợp yếu toàn thân, yếu sau khi khỏi sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    }
+  ],
+  "metadata": {}
+}

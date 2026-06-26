@@ -1,0 +1,175 @@
+{
+  "entity_hub": "VI_THUOC_RAU_OM",
+  "source": {
+    "source_id": "CT_VT_VN_T283",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "283"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOI_THAN_RAU_OM_M",
+      "to": "VI_THUOC_RAU_OM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau om có tác dụng lợi tiểu, giúp bào mòn và tống xuất sỏi thận.",
+        "cach_dung": "Giã nhỏ, pha ít hạt muối. Uống ngày 2 lần, sáng 1 nắm, chiều 1 nắm. Uống liền 5 ngày",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_SOI_THAN_RAU_OM_M",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sỏi thận",
+        "cach_dung": "Giã nhỏ, pha ít hạt muối. Uống ngày 2 lần, sáng 1 nắm, chiều 1 nắm. Uống liền 5 ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_DAI_THONG_RAU_OM_BRR",
+      "to": "VI_THUOC_RAU_OM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rau om, bông mã đề, râu ngô kết hợp giúp lợi tiểu, thanh nhiệt và hành khí.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_DAI_THONG_RAU_OM_BRR",
+      "to": "VT_BONG_MA_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rau om, bông mã đề, râu ngô kết hợp giúp lợi tiểu, thanh nhiệt và hành khí.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_DAI_THONG_RAU_OM_BRR",
+      "to": "VT_RAU_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rau om, bông mã đề, râu ngô kết hợp giúp lợi tiểu, thanh nhiệt và hành khí.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_DAI_THONG_RAU_OM_BRR",
+      "to": "S_DAI_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh nhân đái thông, cơn đau giảm và mất hẳn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_OM",
+      "to": "S_AN_NGON_MIENG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa, ăn ngon cơm",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_OM",
+      "to": "S_DAU_THAT_BUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa những cơn đau thắt bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAU_OM_V",
+      "to": "VI_THUOC_RAU_OM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau om có tính kháng khuẩn, giúp làm lành vết thương, vết loét.",
+        "cach_dung": "Giã nát đắp lên",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAU_OM_V",
+      "to": "S_VET_THUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "vết thương",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_RAU_OM_V",
+      "to": "VI_THUOC_RAU_OM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rau om có tính kháng khuẩn, giúp làm lành vết thương, vết loét.",
+        "cach_dung": "Giã nát đắp lên",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_RAU_OM_V",
+      "to": "S_VET_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "vết loét",
+        "cach_dung": "Giã nát đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T283"
+      }
+    }
+  ],
+  "metadata": {}
+}

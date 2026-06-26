@@ -1,0 +1,209 @@
+{
+  "entity_hub": "VI_THUOC_GUNG_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T226",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "226"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_MAN_TINH_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng trị lỵ mãn tính.",
+        "mo_ta_chi_tiet": "Chữa lỵ mãn tính, toi gà",
+        "cach_dung": "Dùng tươi",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_GUNG_DAI_G",
+      "to": "B_LY_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ mãn tính, toi gà",
+        "cach_dung": "Dùng tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_TAY_GIUN_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng tẩy giun.",
+        "mo_ta_chi_tiet": "Tẩy giun",
+        "cach_dung": "Cho trẻ ăn",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_TAY_GIUN_GUNG_DAI_G",
+      "to": "B_NHIEM_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tẩy giun",
+        "cach_dung": "Cho trẻ ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_PHU_NU_SAU_SINH_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng cho phụ nữ sau sinh.",
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_PHU_NU_SAU_SINH_GUNG_DAI_G",
+      "to": "B_PHU_NU_SAU_SINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_PHU_NU_SAU_SINH_GUNG_DAI_G_N",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại ngâm rượu xoa bóp bụng cho phụ nữ sau sinh.",
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ",
+        "cach_dung": "Ngâm rượu xoa bóp bụng",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_PHU_NU_SAU_SINH_GUNG_DAI_G_N",
+      "to": "B_PHU_NU_SAU_SINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ",
+        "cach_dung": "Ngâm rượu xoa bóp bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng trị thấp khớp, đau nhức và viêm tấy.",
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_GUNG_DAI_G",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng trị thấp khớp, đau nhức và viêm tấy.",
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_GUNG_DAI_G",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAY_GUNG_DAI_G",
+      "to": "VI_THUOC_GUNG_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Gừng dại dùng trị thấp khớp, đau nhức và viêm tấy.",
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T227"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    },
+    {
+      "from": "BT_VIEM_TAY_GUNG_DAI_G",
+      "to": "B_VIEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thấp khớp, đau nhức và những trường hợp viêm tấy",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T226"
+      }
+    }
+  ],
+  "metadata": {}
+}

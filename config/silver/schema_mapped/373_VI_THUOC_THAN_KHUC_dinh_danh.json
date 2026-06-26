@@ -1,0 +1,159 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THAN_KHUC",
+    "ten_raw": "Thần khúc",
+    "ten_khoa_hoc": "Massa medicata fermentata",
+    "ho_thuc_vat": "Massa medicata fermentata",
+    "variants": [],
+    "properties": {},
+    "display_name": "Thần khúc"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T373",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "373"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "Tiêu thực, hành khí, kiện tỳ, dưỡng vị, dùng chữa các bệnh cảm mạo trong bốn mùa, cảm lạnh, cảm nắng, ăn uống không tiêu, miệng nôn, đi ỉa lỏng, lỵ, làm lợi sữa."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hình 270. Thần khúc - Massa medicata fermentata",
+        "thanh_phan_hoa_hoc": [
+          "Theo Diệp Quyết Tuyền, có tác giả đã nghiên cứu thấy một loại thần khúc có các tinh dầu, glucozit, chất béo và men lipaza."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu thực, hành khí, kiện tỳ, dưỡng vị, dùng chữa các bệnh cảm mạo trong bốn mùa, cảm lạnh, cảm nắng, ăn uống không tiêu, miệng nôn, đi ỉa lỏng, lỵ, làm lợi sữa."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Diệp Quyết Tuyền, có tác giả đã nghiên cứu thấy một loại thần khúc có các tinh dầu, glucozit, chất béo và men lipaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Diệp Quyết Tuyền, có tác giả đã nghiên cứu thấy một loại thần khúc có các tinh dầu, glucozit, chất béo và men lipaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Diệp Quyết Tuyền, có tác giả đã nghiên cứu thấy một loại thần khúc có các tinh dầu, glucozit, chất béo và men lipaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_KHUC",
+      "to": "HC_MEN_LIPAZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Diệp Quyết Tuyền, có tác giả đã nghiên cứu thấy một loại thần khúc có các tinh dầu, glucozit, chất béo và men lipaza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T373"
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RIENG",
+    "ten_raw": "Riềng",
+    "ten_khoa_hoc": "Alpinia officinarum Hance.",
+    "ho_thuc_vat": "Gừng Zingiberaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Thân rễ",
+      "che_bien_tho": "Thân rễ mọc bò ngang, hơi hình trụ, phân nhánh, màu đỏ nâu nhạt, có nhiều đốt mang sẹo của lá.",
+      "phan_bo": "Cao lương khương hay lương khương\n(Galanga, hay Rhizoma Alpiniae officinarum) là\nthân rễ phơi khô của cây riêng.\nVì đây là một loại “gừng” mọc ở quận Cao\nLương, do đó có tên này (khương là gừng).\n25 - CTVN Cây riềng mọc hoang và được trồng ở khắp nước\nta để làm gia vị và làm thuốc. Có cả ở Trung Quốc\n(Quảng Đông, Quảng Tây, Vân Nam, Đài Loan).\nCó thể thu hái quanh năm, thường đào vào mùa\nthu đông hoặc sang xuân trước vụ mưa phùn để dễ\nphơi, sấy.\nLoại trồng thì đào vào 7-10. Đào về, rửa sạch\nđất, cắt bỏ lá và rễ con, vẩy lá rồi cắt thành từng\nđoạn 4-6cm, phơi khô là được.\n[CT_VT_VN_T402]: Riềng được trồng ở khắp nơi trong nước ta để làm gia vị và làm thuốc. Còn thấy mọc ở Lào, Campuchia, Malaixia, Inđônêxia, Trung Quốc.\nNgười ta đào thân rễ về rửa sạch, thái mỏng, phơi hay sấy khô."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T400",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "400"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "ôn trung tán hàn, hết đau, tiêu thực"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Riềng là một loại cây sống lâu năm, cao $1m$. Thân rễ mọc bò ngang, hơi hình trụ, phân nhánh, màu đỏ nâu nhạt, có nhiều đốt mang sẹo của lá. Lá mọc so le, không cuống, hình mác dài, nhọn, nhẵn, dài $20-30cm$, rộng $3-6cm$. Cụm hoa mọc thành bông ở ngọn thân, dài $10-20cm$. Hoa màu trắng, có những vân đỏ. Quả hình cầu, đường kính $7-8mm$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_XINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong riềng có từ $0,5-1%$ tinh dầu, lỏng sền sệt, màu vàng xanh, có mùi long não, trong đó chủ yếu có xineola và metylxinnamat."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_METYLXINNAMAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong riềng có từ $0,5-1%$ tinh dầu, lỏng sền sệt, màu vàng xanh, có mùi long não, trong đó chủ yếu có xineola và metylxinnamat."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_GALANGOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một chất dầu, có vị cay gọi là galangola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_GALANGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ba chất có tinh thể, không có vị gì, đều là dẫn xuất của flavon. Số lượng ước chừng $0,1%$. Ba chất đó là galangin $C_H,Os$, alpinin $C_H,.O.$, và kaempferit $C_H,O$. (1-3 dioxy-4-metoxyflavonon)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_ALPININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ba chất có tinh thể, không có vị gì, đều là dẫn xuất của flavon. Số lượng ước chừng $0,1%$. Ba chất đó là galangin $C_H,Os$, alpinin $C_H,.O.$, và kaempferit $C_H,O$. (1-3 dioxy-4-metoxyflavonon)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "HC_KAEMPFERIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ba chất có tinh thể, không có vị gì, đều là dẫn xuất của flavon. Số lượng ước chừng $0,1%$. Ba chất đó là galangin $C_H,Os$, alpinin $C_H,.O.$, và kaempferit $C_H,O$. (1-3 dioxy-4-metoxyflavonon)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    }
+  ]
+}

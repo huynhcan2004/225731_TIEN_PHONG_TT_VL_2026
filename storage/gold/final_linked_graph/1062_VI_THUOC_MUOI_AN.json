@@ -1,0 +1,853 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_MUOI_AN",
+    "ten_raw": "Muối ăn",
+    "ten_khoa_hoc": "$Natrium chloridum crudum ($NaCl$).$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [
+      "thực diêm"
+    ],
+    "properties": {
+      "bo_phan_dung": "không có",
+      "thu_hai": "không có",
+      "che_bien_tho": "không có",
+      "lieu_dung_chung": "Ngày dùng $1-3g$. Gây nôn dùng $10-20g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có",
+      "phan_bo": "Có nhiều trong nước biển và các mỏ muối."
+    },
+    "display_name": "Vị thuốc Muối ăn",
+    "canonical_name": "Vị thuốc Muối ăn"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_RET_MUOI_AN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sốt rét muỗi ăn",
+        "aliases": [
+          "sốt rét muỗi ăn",
+          "sot ret muoi an",
+          "sotretmuoian"
+        ],
+        "search_vector_hint": "Bài thuốc Sốt rét muỗi ăn thuộc nhóm bài thuốc, thường liên quan đến điều trị sốt rét."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "CN_DAN_THUOC_VAO_KINH_LAC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dẫn thuốc vào kinh lạc",
+        "aliases": [
+          "dẫn thuốc vào kinh lạc",
+          "danthuocvaokinhlac",
+          "dan thuoc vao kinh lac"
+        ],
+        "search_vector_hint": "Công năng Dẫn thuốc vào kinh lạc thuộc nhóm công năng, thường liên quan đến điều trị bệnh theo kinh lạc."
+      }
+    },
+    {
+      "id": "CN_LUONG_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lương huyết",
+        "aliases": [
+          "thanhhuyet",
+          "lương huyết",
+          "luong huyet",
+          "thanh huyet",
+          "luonghuyet",
+          "thanh huyết"
+        ],
+        "search_vector_hint": "Công năng Lương huyết thuộc nhóm Công năng, thường liên quan đến làm mát máu."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận táo",
+        "aliases": [
+          "nhuận táo",
+          "nhuantao",
+          "nhuan tao"
+        ],
+        "search_vector_hint": "Nhuận táo thuộc nhóm công năng, thường liên quan đến làm ẩm, giảm khô."
+      }
+    },
+    {
+      "id": "CN_TA_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả hỏa",
+        "aliases": [
+          "tahoa",
+          "ta hoa",
+          "tả hỏa"
+        ],
+        "search_vector_hint": "Công năng Tả hỏa thuộc nhóm công năng, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "CN_THANH_TAM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh tâm",
+        "aliases": [
+          "thanhtam",
+          "thanh tâm",
+          "thanh tam"
+        ],
+        "search_vector_hint": "Công năng Thanh tâm thuộc nhóm công năng, thường liên quan đến an thần, định tâm."
+      }
+    },
+    {
+      "id": "DL_DAN_THUOC_VAO_KINH_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Dẫn thuốc vào kinh thận",
+        "aliases": [
+          "dan thuoc vao kinh than",
+          "dẫn thuốc vào kinh thận",
+          "danthuocvaokinhthan"
+        ],
+        "search_vector_hint": "Dược lý Dẫn thuốc vào kinh thận thuộc nhóm dược lý, thường liên quan đến tác động lên kinh thận."
+      }
+    },
+    {
+      "id": "DL_SAT_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Sát khuẩn",
+        "aliases": [
+          "satkhuan",
+          "sát khuẩn",
+          "sat khuan"
+        ],
+        "search_vector_hint": "Dược lý Sát khuẩn thuộc nhóm dược lý, thường liên quan đến khả năng tiêu diệt vi khuẩn."
+      }
+    },
+    {
+      "id": "HC_KALI_CLORUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Kali clorua",
+        "aliases": [
+          "kaliclorua",
+          "kali clorua"
+        ],
+        "search_vector_hint": "Kali clorua thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_MAGIE_CLORUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Magie clorua",
+        "aliases": [
+          "magieclorua",
+          "magie clorua"
+        ],
+        "search_vector_hint": "Magie clorua thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_MUOI_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Muối canxi",
+        "aliases": [
+          "muoi canxi",
+          "muối canxi",
+          "muoicanxi"
+        ],
+        "search_vector_hint": "Muối canxi thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_NATRI_CLORUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Natri clorua",
+        "aliases": [
+          "natriclorua",
+          "natri clorua"
+        ],
+        "search_vector_hint": "Natri clorua thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_SAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sắt",
+        "aliases": [
+          "sắt",
+          "sat"
+        ],
+        "search_vector_hint": "Sắt thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_SUNFAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sunfat",
+        "aliases": [
+          "sunfat"
+        ],
+        "search_vector_hint": "Sunfat thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_CHAY_NUOC_MAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy nước mắt",
+        "aliases": [
+          "chay nuoc mat",
+          "chayle",
+          "chảy nước mắt",
+          "chay le",
+          "chaynuocmat",
+          "chảy lệ"
+        ],
+        "search_vector_hint": "Triệu chứng Chảy nước mắt thuộc nhóm triệu chứng, thường liên quan đến viêm nhiễm hoặc tắc nghẽn."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_RANG_LUNG_LAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Răng lung lay",
+        "aliases": [
+          "ranglunglay",
+          "răng lung lay",
+          "rang lung lay"
+        ],
+        "search_vector_hint": "Triệu chứng Răng lung lay thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_SUNG_DO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng đỏ",
+        "aliases": [
+          "sung do",
+          "sungdo",
+          "sưng đỏ"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng đỏ thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Tính Vị hàn thuộc nhóm tính vị, thường liên quan đến cảm giác lạnh và tác dụng làm mát."
+      }
+    },
+    {
+      "id": "VT_MUOI_AN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Muối ăn",
+        "aliases": [
+          "muoi",
+          "muoi an",
+          "diem",
+          "muoian",
+          "diêm",
+          "muối ăn",
+          "muối"
+        ],
+        "search_vector_hint": "Vị thuốc Muối ăn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền.",
+        "bo_phan_dung": "không có",
+        "thu_hai": "không có",
+        "che_bien_tho": "không có",
+        "lieu_dung_chung": "Ngày dùng $1-3g$. Gây nôn dùng $10-20g$.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không có",
+        "phan_bo": "Có nhiều trong nước biển và các mỏ muối.",
+        "ten_khoa_hoc": "$Natrium chloridum crudum ($NaCl$).$",
+        "ho_thuc_vat": "$Không có$",
+        "hinh_thai_chi_tiet": "Tinh thể hình lập phương, không màu hoặc trắng, vị mặn. Dễ hút nước chảy ướt khi để nơi ẩm, rang nóng thì mất nước. Nóng chảy ở $801°C$.",
+        "thanh_phan_hoa_hoc": "['Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...']",
+        "ghi_chu_bo_sung": "Còn gọi là thực diêm. Có nhiều trong nước biển và các mỏ muối."
+      }
+    },
+    {
+      "id": "VT_O_MAI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ô mai",
+        "aliases": [
+          "omai",
+          "o mai",
+          "ô mai"
+        ],
+        "search_vector_hint": "Vị thuốc Ô mai thuộc nhóm vị thuốc, thường liên quan đến tiêu hóa và hô hấp."
+      }
+    },
+    {
+      "id": "VT_THUONG_SON",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thường sơn",
+        "aliases": [
+          "thuong son",
+          "thường sơn",
+          "thuongson"
+        ],
+        "search_vector_hint": "Vị thuốc Thường sơn thuộc nhóm vị thuốc, thường liên quan đến điều trị sốt rét."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1062"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tinh thể hình lập phương, không màu hoặc trắng, vị mặn. Dễ hút nước chảy ướt khi để nơi ẩm, rang nóng thì mất nước. Nóng chảy ở $801°C$.",
+        "thanh_phan_hoa_hoc": [
+          "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt..."
+        ],
+        "ghi_chu_bo_sung": "Còn gọi là thực diêm. Có nhiều trong nước biển và các mỏ muối."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_MUOI_AN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn, tính hàn, không độc."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      }
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn, tính hàn, không độc."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      }
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh Thận, Tâm và Vị."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      }
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh Thận, Tâm và Vị."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      }
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh Thận, Tâm và Vị."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      }
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_NATRI_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_KALI_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_MAGIE_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_MUOI_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là natri clorua ($NaCl$), có lẫn tạp chất kali clorua, magiê clorua, muối canxi, sunfat, sắt...",
+        "ghi_chu": "Có nhiều trong nước biển và các mỏ muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "S_SUNG_DO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Muối cả hạt",
+        "cach_dung": "Ngậm cho tan dần.",
+        "ghi_chu": "Cổ họng sưng đỏ, đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Muối, múi chanh",
+        "cach_dung": "Ngậm chung cho tan dần.",
+        "ghi_chu": "Ho cảm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Muối",
+        "cach_dung": "Sao nóng, bọc vải chườm vào rốn và lưng.",
+        "ghi_chu": "Đau bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "S_RANG_LUNG_LAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nước muối",
+        "cach_dung": "Pha loãng ngậm hàng ngày.",
+        "ghi_chu": "Răng lung lay, lở lợi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "S_CHAY_NUOC_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nước muối loãng",
+        "cach_dung": "Pha nước muối rửa mắt.",
+        "ghi_chu": "Chảy nước mắt, mắt đỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_MUOI_AN",
+      "to": "VT_MUOI_AN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_MUOI_AN",
+      "to": "VT_THUONG_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_MUOI_AN",
+      "to": "VT_O_MAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_RET_MUOI_AN",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Sắc uống theo chỉ định."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "CN_THANH_TAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "CN_LUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lương huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận táo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "CN_DAN_THUOC_VAO_KINH_LAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dẫn thuốc vào kinh lạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "DL_SAT_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tây y dùng chế huyết thanh mặn đẳng trương ($0,9\\%$) và ưu trương để tiêm hoặc rửa vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MUOI_AN",
+      "to": "DL_DAN_THUOC_VAO_KINH_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y dùng dẫn thuốc vào kinh Thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1062",
+        "all_sources": [
+          "CT_VT_VN_T1062"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 64.0,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

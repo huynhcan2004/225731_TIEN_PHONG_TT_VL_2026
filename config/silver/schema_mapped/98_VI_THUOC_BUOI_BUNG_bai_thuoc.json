@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_BUOI_BUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T98",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "98"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KEM_AN_BUOI_BUNG_B",
+      "to": "VI_THUOC_BUOI_BUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Không rõ ràng vai trò phối hợp với các vị thuốc khác do chỉ có một vị thuốc duy nhất."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_KEM_AN_BUOI_BUNG_B",
+      "to": "B_KEM_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ kém ăn, da vàng sau khi sinh nở",
+        "cach_dung": "Thêm $400ml$ nước vào, sắc còn $200ml$, chia 2 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_KEM_AN_BUOI_BUNG_B",
+      "to": "S_DA_VANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ kém ăn, da vàng sau khi sinh nở",
+        "cach_dung": "Thêm $400ml$ nước vào, sắc còn $200ml$, chia 2 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_MUN_O_GA_BUOI_BUNG_BOT",
+      "to": "VI_THUOC_BUOI_BUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bưởi bung kết hợp với ổi và thổ phục linh để điều trị mụn ổ gà.",
+        "cach_dung": "Rửa sạch, thái nhỏ, lấy lá chuối non hơ nóng cho mềm, gói thuốc lại, to nhỏ tùy theo mụn nhọt. Mặt nào định đặt lên mụn thì châm nhiều lỗ cho nước dễ thấm vào mụn.",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_MUN_O_GA_BUOI_BUNG_BOT",
+      "to": "VT_LA_OI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lá ổi kết hợp với bưởi bung và thổ phục linh để điều trị mụn ổ gà.",
+        "cach_dung": "Rửa sạch, thái nhỏ, lấy lá chuối non hơ nóng cho mềm, gói thuốc lại, to nhỏ tùy theo mụn nhọt. Mặt nào định đặt lên mụn thì châm nhiều lỗ cho nước dễ thấm vào mụn.",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_MUN_O_GA_BUOI_BUNG_BOT",
+      "to": "VT_THO_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thổ phục linh kết hợp với bưởi bung và lá ổi để điều trị mụn ổ gà.",
+        "cach_dung": "Rửa sạch, thái nhỏ, lấy lá chuối non hơ nóng cho mềm, gói thuốc lại, to nhỏ tùy theo mụn nhọt. Mặt nào định đặt lên mụn thì châm nhiều lỗ cho nước dễ thấm vào mụn.",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    },
+    {
+      "from": "BT_MUN_O_GA_BUOI_BUNG_BOT",
+      "to": "B_MUN_O_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn ổ gà mọc ở bẹn, nách, thối loét lâu ngày, ăn vào tới xương",
+        "cach_dung": "Rửa sạch, thái nhỏ, lấy lá chuối non hơ nóng cho mềm, gói thuốc lại, to nhỏ tùy theo mụn nhọt. Mặt nào định đặt lên mụn thì châm nhiều lỗ cho nước dễ thấm vào mụn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T98"
+      }
+    }
+  ],
+  "metadata": {}
+}

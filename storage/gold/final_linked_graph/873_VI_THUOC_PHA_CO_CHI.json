@@ -1,0 +1,967 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHA_CO_CHI",
+    "ten_raw": "Phá cố chỉ",
+    "ten_khoa_hoc": "$Psoralea corylifolia L.$",
+    "ho_thuc_vat": "$Cánh bướm (Papilionaceae). Fabaceae$",
+    "variants": [
+      "phá cốt tử",
+      "cố tử",
+      "bổ cốt chỉ",
+      "hạt đậu miêu"
+    ],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống 6-15$g$ dưới dạng thuốc sắc, thuốc bột hoặc thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây nguồn gốc ở Ấn Độ. Có mọc ở Việt Nam nhưng ít khai thác. Gần đây, ta di thực từ Trung Quốc, cây mọc khỏe."
+    },
+    "display_name": "Vị thuốc Phá cố chỉ",
+    "canonical_name": "Vị thuốc Phá cố chỉ"
+  },
+  "nodes": [
+    {
+      "id": "BT_HO_LAO_PHA_CO_CHI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Hư lao phá cố chỉ",
+        "aliases": [
+          "hư lao phá cố chỉ",
+          "hulaophacochi",
+          "hu lao pha co chi"
+        ],
+        "search_vector_hint": "Bài thuốc Hư lao phá cố chỉ thuộc nhóm bài thuốc, thường liên quan đến điều trị các chứng hư lao."
+      }
+    },
+    {
+      "id": "BT_TINH_KHI_KHONG_KIEN_DINH_CO_CHI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tinh khí không kiên định cố chỉ",
+        "aliases": [
+          "tinhkhikhongkiendinhcochi",
+          "tinh khi khong kien dinh co chi",
+          "tinh khí không kiên định cố chỉ"
+        ],
+        "search_vector_hint": "Bài thuốc Tinh khí không kiên định cố chỉ thuộc nhóm bài thuốc, thường liên quan đến điều trị các chứng bệnh về tinh khí."
+      }
+    },
+    {
+      "id": "B_BACH_BIEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bạch biến",
+        "aliases": [
+          "bạch biến",
+          "bach bien",
+          "bachbien"
+        ],
+        "search_vector_hint": "Bệnh Bạch biến thuộc nhóm bệnh, thường liên quan đến sự mất sắc tố da."
+      }
+    },
+    {
+      "id": "CN_BO_MENH_MON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ mệnh môn",
+        "aliases": [
+          "bổ mệnh môn",
+          "bo menh mon",
+          "bomenhmon"
+        ],
+        "search_vector_hint": "Công năng Bổ mệnh môn thuộc nhóm công năng, thường liên quan đến việc tăng cường chức năng của thận."
+      }
+    },
+    {
+      "id": "CN_CUONG_TRANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cường tráng",
+        "aliases": [
+          "cường tráng",
+          "cuongtrang",
+          "cuong trang"
+        ],
+        "search_vector_hint": "Công năng Cường tráng thuộc nhóm công năng, thường liên quan đến tăng cường sức khỏe."
+      }
+    },
+    {
+      "id": "CN_HOAT_TINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Hoạt huyết thuộc nhóm Công năng, thường liên quan đến điều hòa lưu thông máu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_NHIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện nhiều",
+        "aliases": [
+          "tieu nhieu",
+          "tieunhieu",
+          "tieu tien nhieu",
+          "tiểu nhiều",
+          "tiểu tiện nhiều",
+          "tieutiennhieu",
+          "dai nhieu",
+          "đái nhiều",
+          "dainhieu"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện nhiều thuộc nhóm triệu chứng, thường liên quan đến rối loạn bài tiết."
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "diệt khuẩn",
+          "chongvikhuan",
+          "diet khuan",
+          "kháng khuẩn",
+          "dietkhuan",
+          "chống vi khuẩn",
+          "khang khuan",
+          "khangkhuan",
+          "chong vi khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm Công năng, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_BAI_TIET_SAC_TO_DEN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích bài tiết sắc tố đen",
+        "aliases": [
+          "kích thích bài tiết sắc tố đen",
+          "kich thich bai tiet sac to den",
+          "kichthichbaitietsactoden"
+        ],
+        "search_vector_hint": "Dược lý Kích thích bài tiết sắc tố đen thuộc nhóm dược lý, thường liên quan đến các tác dụng lên hệ sắc tố."
+      }
+    },
+    {
+      "id": "HC_ISOPSORALEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Isopsoralen",
+        "aliases": [
+          "isopsoralen"
+        ],
+        "search_vector_hint": "Isopsoralen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PSORALEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Psoralen",
+        "aliases": [
+          "psoralen"
+        ],
+        "search_vector_hint": "Psoralen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tam bao",
+          "tam bảo",
+          "tambao"
+        ],
+        "search_vector_hint": "Tam Bảo thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "S_DAU_LUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau lưng",
+        "aliases": [
+          "dau lung",
+          "đau lưng",
+          "daulung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau lưng thuộc nhóm triệu chứng, thường liên quan đến cột sống và cơ bắp."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_KHI_HU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Khí hư",
+        "aliases": [
+          "khi hu",
+          "khihu",
+          "huyettrang",
+          "khí hư",
+          "huyết trắng",
+          "huyet trang"
+        ],
+        "search_vector_hint": "Triệu chứng Khí hư thuộc nhóm triệu chứng, thường liên quan đến dịch tiết âm đạo bất thường."
+      }
+    },
+    {
+      "id": "S_KINH_NGUYET_KHONG_DEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kinh nguyệt không đều",
+        "aliases": [
+          "kinh nguyet khong deu",
+          "roi loan kinh nguyet",
+          "kinh nguyệt không đều",
+          "kinhnguyetkhongdeu",
+          "roiloankinhnguyet",
+          "rối loạn kinh nguyệt"
+        ],
+        "search_vector_hint": "Triệu chứng Kinh nguyệt không đều thuộc nhóm Triệu chứng, thường liên quan đến phụ nữ."
+      }
+    },
+    {
+      "id": "S_MET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mệt mỏi",
+        "aliases": [
+          "thieunangluong",
+          "thiếu năng lượng",
+          "uể oải",
+          "ue oai",
+          "thieu nang luong",
+          "met moi",
+          "metmoi",
+          "ueoai",
+          "mệt mỏi"
+        ],
+        "search_vector_hint": "Triệu chứng Mệt mỏi thuộc nhóm triệu chứng, thường liên quan đến suy nhược và thiếu khí huyết."
+      }
+    },
+    {
+      "id": "S_MOI_GOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mỏi gối",
+        "aliases": [
+          "moigoi",
+          "mỏi gối",
+          "moi goi"
+        ],
+        "search_vector_hint": "Mỏi gối thuộc nhóm triệu chứng, thường liên quan đến suy yếu chức năng khớp gối."
+      }
+    },
+    {
+      "id": "S_NGUOI_GAY_YEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Người gầy yếu",
+        "aliases": [
+          "nguoi gay yeu",
+          "nguoigayyeu",
+          "suy dinh dưỡng",
+          "suydinhduong",
+          "thể trạng gầy yếu",
+          "thetranggayyeu",
+          "người gầy yếu",
+          "the trang gay yeu",
+          "suy dinh duong"
+        ],
+        "search_vector_hint": "Triệu chứng Người gầy yếu thuộc nhóm triệu chứng, thường liên quan đến tỳ vị hư yếu và kém hấp thu."
+      }
+    },
+    {
+      "id": "S_RA_MO_HOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ra mồ hôi",
+        "aliases": [
+          "ramohoi",
+          "ra mo hoi",
+          "domohoi",
+          "ra mồ hôi",
+          "do mo hoi",
+          "đổ mồ hôi"
+        ],
+        "search_vector_hint": "Triệu chứng Ra mồ hôi thuộc nhóm triệu chứng, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "S_TINH_KHI_KHONG_KIEN_DINH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tinh khí không kiên định",
+        "aliases": [
+          "tinh khí không kiên định",
+          "tinh khi khong kien dinh",
+          "tinhkhikhongkiendinh"
+        ],
+        "search_vector_hint": "Triệu chứng Tinh khí không kiên định thuộc nhóm triệu chứng, thường liên quan đến các vấn đề về khí huyết và chức năng tạng phủ."
+      }
+    },
+    {
+      "id": "T_DAI_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dai On",
+        "aliases": [
+          "đại ôn",
+          "daion",
+          "dai on"
+        ],
+        "search_vector_hint": "Tính đại ôn thuộc nhóm tính vị, thường liên quan đến khả năng làm ấm cơ thể mạnh."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_PHA_CO_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phá cố chỉ",
+        "aliases": [
+          "pha co chi",
+          "phacochi",
+          "phá cố chỉ"
+        ],
+        "search_vector_hint": "Vị thuốc Phá cố chỉ thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "hạt",
+        "lieu_dung_chung": "Ngày uống 6-15$g$ dưới dạng thuốc sắc, thuốc bột hoặc thuốc viên.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cây nguồn gốc ở Ấn Độ. Có mọc ở Việt Nam nhưng ít khai thác. Gần đây, ta di thực từ Trung Quốc, cây mọc khỏe.",
+        "ten_khoa_hoc": "$Psoralea corylifolia L.$",
+        "ho_thuc_vat": "$Cánh bướm (Papilionaceae). Fabaceae$",
+        "hinh_thai_chi_tiet": "Cây nhỏ mọc hằng năm, cao 0,3-1m. Trên thân có lông trắng, lá mọc so le, hình trứng đầu nhọn, đáy lá tròn, mép có răng cưa dài 6-9cm, rộng 5-7cm, cuống lá dài 2-4cm, có lá kèm. Hoa mọc thành chùm dài 6-10cm ở kẽ lá, cành hoa màu vàng nâu nhạt. Quả hình trứng màu đen dài $5mm$, rộng $3mm$. Hạt hình thận hay hình trứng dẹt dài $5mm$, rộng $3mm$ có màu nâu đen hay đen. Trên mặt hạt có vân hình những hạt nhỏ giữa hơi lõm, mùi thơm, vị cay (Hình 655).",
+        "thanh_phan_hoa_hoc": "['Trong hạt phá cố chỉ có chừng $20\\\\%$ chất dầu, một ít tinh dầu trong đó có `$psoralen$`, `$isopsoralen$` (angelixin), ancaloit, glucozit và $9,2\\\\%$ chất nhựa.']"
+      }
+    },
+    {
+      "id": "VT_TIEU_HOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tiểu hồi",
+        "aliases": [
+          "tiểu hồi",
+          "tieu hoi",
+          "hồi hương",
+          "tieuhoi",
+          "hoihuong",
+          "hoi huong"
+        ],
+        "search_vector_hint": "Vị thuốc Tiểu hồi thuộc nhóm vị thuốc, thường liên quan đến tán hàn, giảm đau, kiện vị."
+      }
+    },
+    {
+      "id": "VT_VUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Vừng",
+        "aliases": [
+          "vung",
+          "mè",
+          "vừng",
+          "me"
+        ],
+        "search_vector_hint": "Vị thuốc Vừng thuộc nhóm vị thuốc, thường liên quan đến bổ dưỡng và nhuận tràng."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "873"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_THAN",
+          "K_TY",
+          "K_TAM_BAO"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ mọc hằng năm, cao 0,3-1m. Trên thân có lông trắng, lá mọc so le, hình trứng đầu nhọn, đáy lá tròn, mép có răng cưa dài 6-9cm, rộng 5-7cm, cuống lá dài 2-4cm, có lá kèm. Hoa mọc thành chùm dài 6-10cm ở kẽ lá, cành hoa màu vàng nâu nhạt. Quả hình trứng màu đen dài $5mm$, rộng $3mm$. Hạt hình thận hay hình trứng dẹt dài $5mm$, rộng $3mm$ có màu nâu đen hay đen. Trên mặt hạt có vân hình những hạt nhỏ giữa hơi lõm, mùi thơm, vị cay (Hình 655).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt phá cố chỉ có chừng $20\\%$ chất dầu, một ít tinh dầu trong đó có `$psoralen$`, `$isopsoralen$` (angelixin), ancaloit, glucozit và $9,2\\%$ chất nhựa."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính đại ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tâm bào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "HC_PSORALEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt phá cố chỉ có chừng $20\\%$ chất dầu, một ít tinh dầu trong đó có `$psoralen$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "HC_ISOPSORALEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt phá cố chỉ có chừng $20\\%$ chất dầu, một ít tinh dầu trong đó có `$isopsoralen$` (angelixin)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_DAU_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_MOI_GOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "CN_TIEU_TIEN_NHIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "CN_HOAT_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_KHI_HU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "B_BACH_BIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng bôi ngoài da",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T873"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TINH_KHI_KHONG_KIEN_DINH_CO_CHI",
+      "to": "VT_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TINH_KHI_KHONG_KIEN_DINH_CO_CHI",
+      "to": "VT_TIEU_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$100g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TINH_KHI_KHONG_KIEN_DINH_CO_CHI",
+      "to": "CN_TIEU_TIEN_NHIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TINH_KHI_KHONG_KIEN_DINH_CO_CHI",
+      "to": "S_TINH_KHI_KHONG_KIEN_DINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_LAO_PHA_CO_CHI",
+      "to": "VT_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$400g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HO_LAO_PHA_CO_CHI",
+      "to": "VT_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "một nắm",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngày uống 30 viên (làm bằng hạt ngô) chia làm 2-3 lần uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_MET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngày uống 30 viên (làm bằng hạt ngô) chia làm 2-3 lần uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_NGUOI_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngày uống 30 viên (làm bằng hạt ngô) chia làm 2-3 lần uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "S_RA_MO_HOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngày uống 30 viên (làm bằng hạt ngô) chia làm 2-3 lần uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "CN_BO_MENH_MON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ mệnh môn trướng hỏa nạp thận khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "CN_CUONG_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Là thuốc cường tráng dùng chữa các chứng ngũ lao, thất thương, cốt tủy thương bại, phụ nữ khí huyết xấu, trụy thai, tỳ thận hư hàn, đái són, lưng gối lạnh đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng đối với vi trùng streptocoe trên da.",
+        "ghi_chu": "Hoạt chất là tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "DL_KICH_THICH_BAI_TIET_SAC_TO_DEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Kích thích sự bài tiết các sắc tố đen (mélanoblastes).",
+        "ghi_chu": "Dùng chữa bệnh bạch biến (da bị trắng từng khoảng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHA_CO_CHI",
+      "to": "T_DAI_ON",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T873",
+        "all_sources": [
+          "CT_VT_VN_T873"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 71.0,
+      "reliability_c_score": 0.7565,
+      "total_confidence_sum": 23.45
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

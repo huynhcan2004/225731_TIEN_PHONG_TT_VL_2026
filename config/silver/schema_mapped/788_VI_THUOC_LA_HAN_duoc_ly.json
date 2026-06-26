@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_LA_HAN",
+  "source": {
+    "source_id": "CT_VT_VN_T788",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "788"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_HAN",
+      "to": "DL_LONG_DOM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc long đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T788"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_HAN",
+      "to": "DL_GAY_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Gây nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T788"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_HAN",
+      "to": "CN_CHUA_UNG_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ung thũng: Giã nát thân rễ đắp lên các nơi sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T788"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,155 @@
+{
+  "entity_hub": "VI_THUOC_GAI",
+  "source": {
+    "source_id": "CT_VT_VN_T57",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "57"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_AN_THAI_RE_CAY_GAI_R",
+      "to": "VI_THUOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ cây gai có tác dụng an thai.",
+        "mo_ta_chi_tiet": "30g Rễ cây gai mới hái hoặc phơi khô",
+        "cach_dung": "sắc với $600ml$ nước, cô làm $200ml$ chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "Chỉ 1-2 ngày là có kết quả, không nên kéo dài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_AN_THAI_RE_CAY_GAI_R",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "phụ nữ có thai đau bụng",
+        "cach_dung": "uống 3-4 ngày chú ý theo dõi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_AN_THAI_RE_CAY_GAI_R",
+      "to": "S_NUOC_VANG_DO_VAN_CHAY_RI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "nước vàng đỏ vẫn chảy rỉ",
+        "cach_dung": "uống 3-4 ngày chú ý theo dõi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_AN_THAI_RE_CAY_GAI_R",
+      "to": "B_SA_DA_CON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa được bệnh sa dạ con",
+        "cach_dung": "uống 3-4 ngày chú ý theo dõi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_RE_CAY_GAI_R",
+      "to": "VI_THUOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ và lá cây gai có tác dụng lợi tiểu.",
+        "mo_ta_chi_tiet": "10-30g Rễ và lá (liều trung bình)",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_RE_CAY_GAI_R",
+      "to": "S_LOI_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_DUC_RE_CAY_GAI_R",
+      "to": "VI_THUOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ và lá cây gai có tác dụng chữa các bệnh về đường tiểu, viêm nhiễm.",
+        "mo_ta_chi_tiet": "10-30g Rễ và lá (liều trung bình)",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_DUC_RE_CAY_GAI_R",
+      "to": "S_TIEU_TIEN_DUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện đục",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_DUC_RE_CAY_GAI_R",
+      "to": "S_TIEU_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đi tiểu ra máu",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_DUC_RE_CAY_GAI_R",
+      "to": "B_VIEM_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "viêm tử cung",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_DUC_RE_CAY_GAI_R",
+      "to": "B_LOI_DOM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "lòi dom không co lên được",
+        "cach_dung": "sắc với nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57"
+      }
+    }
+  ],
+  "metadata": {}
+}

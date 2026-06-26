@@ -1,0 +1,184 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_HAC",
+    "ten_raw": "Bạch hạc",
+    "ten_khoa_hoc": "$Rhinacanthus nasuta (L.) Kurz; Justicia nasuta L.; Rhinacanthus communis Nees; Dianthera paniculata Lour.$",
+    "ho_thuc_vat": "$Ô rô Acanthaceae$",
+    "variants": [
+      "cây lác",
+      "thuốc lá nhỏ lá",
+      "cây kiên cò",
+      "nam uy linh tiên"
+    ],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "nhiều tỉnh miền Bắc nước ta. Còn thấy mọc ở Ấn Độ, Mailaixia, đồng Châu Phi."
+    },
+    "display_name": "Bạch hạc",
+    "canonical_name": "Bạch hạc"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BACH_HAC",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bach Hac"
+      }
+    },
+    {
+      "id": "HC_RINACANTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rinacantin"
+      }
+    },
+    {
+      "id": "B_HAC_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hac Lao"
+      }
+    },
+    {
+      "id": "B_CHOC_LO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Choc Lo"
+      }
+    },
+    {
+      "id": "B_MUN_RO_P_LOANG_VONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Ro P Loang Vong"
+      }
+    },
+    {
+      "id": "B_ECZEMA_MAN_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Eczema Man Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "103"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ cao $1,5m$, thân mọc thẳng đứng, có nhiều cành, lá mọc đối có cuống, phiến lá hình trứng thuôn dài, phía cuống tù, đầu nhọn, dài $2- 9cm$, rộng $1-3cm$, mặt trên nhẵn, mặt dưới hơi có lông mịn. Hoa nhỏ, màu trắng hơi điểm hồng mọc thành xim nhiều hoa có cuống, ở đầu cành hay đầu thân. Quả nang, phía dưới dẹt không chứa hạt, phía trên chứa 4 hạt. có khi chỉ có 2 hạt. Hạt hình trứng hai mặt lồi ( Hình 48 ) .",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T104]: Từ năm 1881, Liborius đã nghiên cứu thấy trong rễ cây này có $1,87\\%$ chất gần giống axit cryzophanic và axit frangulic. Tác giả cho đó là hoạt chất của cây và gọi là $rinacantin$."
+        ],
+        "ghi_chu_bo_sung": "Đôi khi người ta chỉ dùng vỏ rễ. Có khi dùng cả lá."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_HAC",
+      "to": "HC_RINACANTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ năm 1881, Liborius đã nghiên cứu thấy trong rễ cây này có $1,87\\%$ chất gần giống axit cryzophanic và axit frangulic.",
+        "ghi_chu": "Tác giả cho đó là hoạt chất của cây và gọi là $rinacantin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "all_sources": [
+          "CT_VT_VN_T103"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_HAC",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rễ tươi hoặc khô giã nhỏ ngâm rượu hoặc ngâm dấm 7-10 ngày | Rửa sạch vết hắc lào rồi bôi thuốc | Nấu thành cao để dùng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T104"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "all_sources": [
+          "CT_VT_VN_T103"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_HAC",
+      "to": "B_CHOC_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rễ tươi hoặc khô giã nhỏ ngâm rượu hoặc ngâm dấm 7-10 ngày | Rửa sạch vết hắc lào rồi bôi thuốc | Nấu thành cao để dùng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T104"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "all_sources": [
+          "CT_VT_VN_T103"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_HAC",
+      "to": "B_MUN_RO_P_LOANG_VONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rễ tươi hoặc khô giã nhỏ ngâm rượu hoặc ngâm dấm 7-10 ngày | Rửa sạch vết hắc lào rồi bôi thuốc | Nấu thành cao để dùng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T104"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "all_sources": [
+          "CT_VT_VN_T103"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_HAC",
+      "to": "B_ECZEMA_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Rễ tươi hoặc khô giã nhỏ ngâm rượu hoặc ngâm dấm 7-10 ngày | Rửa sạch vết hắc lào rồi bôi thuốc | Nấu thành cao để dùng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T104"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T103",
+        "all_sources": [
+          "CT_VT_VN_T103"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 29.0,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

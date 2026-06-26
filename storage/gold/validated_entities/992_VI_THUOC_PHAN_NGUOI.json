@@ -1,0 +1,436 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHAN_NGUOI",
+    "ten_raw": "Phân người",
+    "ten_khoa_hoc": "$Excrementum Hominis$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có",
+      "thu_hai": "không có",
+      "che_bien_tho": "không có",
+      "lieu_dung_chung": "Không có",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có",
+      "phan_bo": "Ở gần nơi thành thị, người ta dùng một cái ang bằng sành có nắp, bỏ phân người vào trong, để yên lâu năm sẽ được một thứ nước rất đen và đắng."
+    },
+    "display_name": "Phân người",
+    "canonical_name": "Phân người"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_PHAN_NGUOI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Phan Nguoi"
+      }
+    },
+    {
+      "id": "S_NGO_DOC_NAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc Nam"
+      }
+    },
+    {
+      "id": "B_BENH_DICH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Dich"
+      }
+    },
+    {
+      "id": "S_SOT_DU_DOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot Du Doi"
+      }
+    },
+    {
+      "id": "S_NHIET_DOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhiet Doc"
+      }
+    },
+    {
+      "id": "B_DINH_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dinh Thung"
+      }
+    },
+    {
+      "id": "B_COT_CHUNG_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cot Chung Lao"
+      }
+    },
+    {
+      "id": "B_UNG_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ung Thung"
+      }
+    },
+    {
+      "id": "B_SOI_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi Dau"
+      }
+    },
+    {
+      "id": "S_NGO_DOC_SAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc San"
+      }
+    },
+    {
+      "id": "S_NGO_DOC_KHOAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc Khoai"
+      }
+    },
+    {
+      "id": "S_NGO_DOC_NEM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc Nem"
+      }
+    },
+    {
+      "id": "S_NGO_DOC_THIT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc Thit"
+      }
+    },
+    {
+      "id": "S_DAU_QUAN_TIM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Quan Tim"
+      }
+    },
+    {
+      "id": "S_DAU_QUAN_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Quan Bung"
+      }
+    },
+    {
+      "id": "CN_PHAT_BOI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Phat Boi"
+      }
+    },
+    {
+      "id": "BT_BENH_DICH_PHAN_NGUOI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Benh Dich Phan Nguoi"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "992"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "null",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "null",
+        "ghi_chu_bo_sung": "null",
+        "cach_dung_bao_che": "null"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NGO_DOC_NAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Cứt người khô | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt cháy, hòa với nước cho uống | Uống một thang",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "BT_BENH_DICH_PHAN_NGUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "B_BENH_DICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Dạng nước rất đen và đắng để uống",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_SOT_DU_DOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NHIET_DOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "B_DINH_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đắp vào nơi đinh thũng trong một ngày chân đinh thường vỡ ra",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "B_COT_CHUNG_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "B_UNG_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "CN_PHAT_BOI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "B_SOI_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NGO_DOC_SAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống một thang",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NGO_DOC_KHOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống một thang",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NGO_DOC_NEM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt thành than uống với rượu",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_NGO_DOC_THIT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt thành than uống với rượu",
+        "ghi_chu": "CT_VT_VN_T992"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_DAU_QUAN_TIM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nghiền đều với mật, uống với nước",
+        "ghi_chu": "CT_VT_VN_T993"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_PHAN_NGUOI",
+      "to": "S_DAU_QUAN_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nghiền đều với mật, uống với nước",
+        "ghi_chu": "CT_VT_VN_T993"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T992",
+        "all_sources": [
+          "CT_VT_VN_T992"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 32.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

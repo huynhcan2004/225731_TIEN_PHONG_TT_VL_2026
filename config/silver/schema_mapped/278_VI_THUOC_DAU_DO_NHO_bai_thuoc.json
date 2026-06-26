@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_DAU_DO_NHO",
+  "source": {
+    "source_id": "CT_VT_VN_T278",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "278"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAI_RA_MAU_DAU_DOD",
+      "to": "VI_THUOC_DAU_DO_NHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc gồm Đậu đỏ nhỏ và Đương quy, giúp bổ huyết, lợi tiểu, trị đái ra máu.",
+        "mo_ta_chi_tiet": "Đậu đỏ nhỏ, đương quy hai vị bằng nhau tán bột",
+        "cach_dung": "Ngày uống $10$ đến $20g$ bột này"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_MAU_DAU_DOD",
+      "to": "VT_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc gồm Đậu đỏ nhỏ và Đương quy, giúp bổ huyết, lợi tiểu, trị đái ra máu.",
+        "mo_ta_chi_tiet": "Đậu đỏ nhỏ, đương quy hai vị bằng nhau tán bột",
+        "cach_dung": "Ngày uống $10$ đến $20g$ bột này"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "BT_DAI_RA_MAU_DAU_DOD",
+      "to": "B_DAI_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái ra máu",
+        "cach_dung": "Ngày uống $10$ đến $20g$ bột này"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    }
+  ],
+  "metadata": {}
+}

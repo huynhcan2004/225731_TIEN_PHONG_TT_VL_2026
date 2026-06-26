@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_SEN",
+  "source": {
+    "source_id": "CT_VT_VN_T798",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "798"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SEN",
+      "to": "DL_DOC_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nelumbin có tính chất độc đối với tim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T798"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng bình tĩnh dục tính cho nên có thể dùng trong bệnh di tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T798"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN",
+      "to": "DL_GIAN_CO_TUC_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Qua nhiều lần thử tác dụng của thuốc chế từ sen trên tử cung cô lập của chuột có thai và không có thai thấy có tính chất làm yếu cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T798"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN",
+      "to": "DL_KICH_THICH_CO_TUC_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thí nghiệm trên tử cung cô lập của thỏ thì lại thấy tác dụng kích thích. Cho thỏ cái uống nước sen cũng thấy tác dụng như vậy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T798"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN",
+      "to": "DL_GIAM_CO_BOP_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với ruột cô lập, sen làm giảm sự co bóp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T798"
+      }
+    }
+  ],
+  "metadata": {}
+}

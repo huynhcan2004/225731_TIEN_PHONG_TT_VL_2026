@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_CAO_BAN_LONG",
+  "source": {
+    "source_id": "CT_VT_VN_T957",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "957"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BO_THAN_TRANG_DUONG_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao ban long có tác dụng bổ thận tráng dương, ôn trung, yên tạng.",
+        "cach_dung": "Ngâm với rượu mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_TRANG_DUONG_CAO_BAN_LONG_C",
+      "to": "B_THAN_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bổ thận tráng dương ôn trung, yên tạng",
+        "cach_dung": "Ngâm với rượu mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_TRANG_DUONG_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$2-4g$ bột",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao ban long có tác dụng bổ thận tráng dương, ôn trung, yên tạng.",
+        "cach_dung": "uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_BO_THAN_TRANG_DUONG_CAO_BAN_LONG_C",
+      "to": "B_THAN_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bổ thận tráng dương ôn trung, yên tạng",
+        "cach_dung": "uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_GAN_XUONG_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao ban long có tác dụng bổ gân xương, giúp cho các chỗ gãy đứt chóng lành.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_GAN_XUONG_CAO_BAN_LONG_C",
+      "to": "B_THIEU_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bổ gân xương, giúp cho các chỗ gãy đứt chóng lành",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao ban long có tác dụng chữa bệnh liệt dương ích tinh khí trừ độc.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_CAO_BAN_LONG_C",
+      "to": "B_LIET_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa bệnh liệt dương ích tinh khí trừ độc",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_NHOT_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lộc giác đốt ra than có tác dụng chữa nhọt mọc ở sau lưng (hậu bối), ở vú, ở các nơi khác.",
+        "cach_dung": "hòa với dấm bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_NHOT_CAO_BAN_LONG_C",
+      "to": "B_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhọt mọc ở sau lưng (hậu bối), ở vú, ở các nơi khác",
+        "cach_dung": "hòa với dấm bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "mỗi lần $4 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lộc giác thiên tồn tính (ra than còn màu đen) tán nhỏ có tác dụng chữa gân xương đau nhức.",
+        "cach_dung": "Ngày uống 2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_BAN_LONG_C",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gân xương đau nhức",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4 g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_CAO_BAN_LONG_C",
+      "to": "VI_THUOC_CAO_BAN_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "mỗi lần $4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lộc giác sao vàng, tán nhỏ có tác dụng chữa phụ nữ bị khí hư, bạch đới.",
+        "cach_dung": "Ngày uống 2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_CAO_BAN_LONG_C",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ bị khí hư, bạch đới",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$. Nếu uống được rượu thì dùng rượu mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T957"
+      }
+    }
+  ],
+  "metadata": {}
+}

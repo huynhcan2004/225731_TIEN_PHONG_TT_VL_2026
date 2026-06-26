@@ -1,0 +1,740 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_MANG_TIEU",
+    "ten_raw": "Mang tiêu",
+    "ten_khoa_hoc": "$Mirabilita, Natrium Sulfuricum, Sal Glauberis$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [
+      "Huyền minh phấn",
+      "Nguyên minh phấn",
+      "Phong hoá tiêu"
+    ],
+    "properties": {
+      "bo_phan_dung": "muối natri sunfat thiên nhiên tinh chế",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "mang tiêu (natrium sulfuricum, sal glauberis) là muối natri sunfat thiên nhiên tinh chế mà thành. huyền minh phấn (natrium sulfuricum exsiccatum) còn gọi là nguyên minh phấn, hay phong hoá tiêu là mang tiêu khử hết nước.",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Vị thuốc Mang tiêu",
+    "canonical_name": "Vị thuốc Mang tiêu"
+  },
+  "nodes": [
+    {
+      "id": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Ăn uống không tiêu",
+        "aliases": [
+          "bungdaychamtieu",
+          "khó tiêu",
+          "khotieu",
+          "ăn uống không tiêu",
+          "bụng đầy chậm tiêu",
+          "an uong khong tieu",
+          "kho tieu",
+          "anuongkhongtieu",
+          "bung day cham tieu"
+        ],
+        "search_vector_hint": "Bệnh Ăn uống không tiêu thuộc nhóm Bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "BT_NHUC_DAU_MANG_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Bệnh Nhức đầu thuộc nhóm Bệnh, thường liên quan đến căng thẳng, thiếu ngủ hoặc bệnh lý."
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_KHONG_THONG_MANG_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Tiểu tiện không thông",
+        "aliases": [
+          "bí tiểu",
+          "tiểu bí",
+          "tieu tien khong thong",
+          "tieutienkhongthong",
+          "tieu bi",
+          "tiểu tiện không thông",
+          "bitieu",
+          "tieubi",
+          "bi tieu"
+        ],
+        "search_vector_hint": "Bệnh Tiểu tiện không thông thuộc nhóm Bệnh, thường liên quan đến rối loạn bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không tiêu",
+        "aliases": [
+          "ăn uống không tiêu",
+          "an uong khong tieu",
+          "anuongkhongtieu"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không tiêu thuộc nhóm Công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận táo",
+        "aliases": [
+          "nhuận táo",
+          "nhuantao",
+          "nhuan tao"
+        ],
+        "search_vector_hint": "Nhuận táo thuộc nhóm công năng, thường liên quan đến làm ẩm, giảm khô."
+      }
+    },
+    {
+      "id": "CN_NHUYEN_KIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nuyễn kiên",
+        "aliases": [
+          "nuyen kien",
+          "nuyễn kiên",
+          "nuyenkien"
+        ],
+        "search_vector_hint": "Công năng Nuyễn kiên thuộc nhóm công năng điều trị, thường liên quan đến làm mềm khối rắn."
+      }
+    },
+    {
+      "id": "CN_TA_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả nhiệt",
+        "aliases": [
+          "thanh nhiệt",
+          "tanhiet",
+          "tả nhiệt",
+          "thanhnhiet",
+          "thanh nhiet",
+          "ta nhiet"
+        ],
+        "search_vector_hint": "Công năng Tả nhiệt thuộc nhóm Công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_TIEU_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu tích",
+        "aliases": [
+          "tieutich",
+          "tieu tich",
+          "tiêu tích"
+        ],
+        "search_vector_hint": "Công năng Tiêu tích thuộc nhóm công năng, thường liên quan đến làm tan các khối tích tụ."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHONG_THONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông tiểu",
+        "aliases": [
+          "loinieu",
+          "thongtieu",
+          "lợi niệu",
+          "thong tieu",
+          "thông tiểu",
+          "loi nieu"
+        ],
+        "search_vector_hint": "Công năng Thông tiểu thuộc nhóm Công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "DL_NHUAN_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Nhuận tràng",
+        "aliases": [
+          "nhuận tràng",
+          "nhuan trang",
+          "nhuantrang"
+        ],
+        "search_vector_hint": "Nhuận tràng thuộc nhóm Dược lý, thường liên quan đến khả năng làm mềm phân và dễ tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_CASO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Caso",
+        "aliases": [
+          "caso"
+        ],
+        "search_vector_hint": "Caso thuộc nhóm Hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_FESO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Feso",
+        "aliases": [
+          "feso"
+        ],
+        "search_vector_hint": "Feso thuộc nhóm Hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_KCL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Kcl",
+        "aliases": [
+          "kcl"
+        ],
+        "search_vector_hint": "Kcl thuộc nhóm Hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_KSO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Kso",
+        "aliases": [
+          "kso"
+        ],
+        "search_vector_hint": "Kso thuộc nhóm Hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_NASO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Naso",
+        "aliases": [
+          "naso"
+        ],
+        "search_vector_hint": "Naso thuộc nhóm Hoạt chất, thường liên quan đến các tác dụng dược lý."
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dai Trang",
+        "aliases": [
+          "dai trang",
+          "daitrang",
+          "đại tràng"
+        ],
+        "search_vector_hint": "Kinh Đại tràng thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tam tieu",
+          "tamtieu",
+          "tam tiêu"
+        ],
+        "search_vector_hint": "Kinh Tam tiêu thuộc nhóm kinh mạch, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức đầu",
+        "aliases": [
+          "nhức đầu",
+          "daudau",
+          "dau dau",
+          "đau đầu",
+          "nhuc dau",
+          "nhucdau"
+        ],
+        "search_vector_hint": "Nhức đầu thuộc nhóm triệu chứng, thường liên quan đến cảm giác đau ở đầu."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_MANG_TIEU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mang tiêu",
+        "aliases": [
+          "mang tieu",
+          "mang tiêu",
+          "mangtieu"
+        ],
+        "search_vector_hint": "Mang tiêu thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "muối natri sunfat thiên nhiên tinh chế",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "mang tiêu (natrium sulfuricum, sal glauberis) là muối natri sunfat thiên nhiên tinh chế mà thành. huyền minh phấn (natrium sulfuricum exsiccatum) còn gọi là nguyên minh phấn, hay phong hoá tiêu là mang tiêu khử hết nước.",
+        "lieu_dung_chung": "Không rõ",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "ten_khoa_hoc": "$Mirabilita, Natrium Sulfuricum, Sal Glauberis$",
+        "ho_thuc_vat": "$Không rõ$",
+        "hinh_thai_chi_tiet": "Mang tiêu (Natrium Sulfuricum, Sal Glauberis) là muối natri sunfat thiên nhiên tinh chế mà thành. Huyền minh phấn (Natrium Sulfuricum exsiccatum) còn gọi là nguyên minh phấn, hay phong hoá tiêu là mang tiêu khử hết nước.",
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      }
+    },
+    {
+      "id": "VT_NGO_THU_DU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngô thù du",
+        "aliases": [
+          "ngô thù du",
+          "ngothudu",
+          "ngo thu du"
+        ],
+        "search_vector_hint": "Vị thuốc Ngô thù du thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "463"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mang tiêu (Natrium Sulfuricum, Sal Glauberis) là muối natri sunfat thiên nhiên tinh chế mà thành. Huyền minh phấn (Natrium Sulfuricum exsiccatum) còn gọi là nguyên minh phấn, hay phong hoá tiêu là mang tiêu khử hết nước.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tam tiêu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "HC_NASO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T464]: Mang tiêu nguyên chất chỉ có Na,SO-$10$H,O, trong đó tỷ lệ NaO là $19,3$\\%, SO, $24,8$\\%, H,O là $55,9$\\%.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "HC_FESO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu là mang tiêu thiên nhiên chế thành có thể chứa nhiều tạp chất, ví dụ mang tiêu tỉnh Sơn Tây (Trung Quốc) có NaSO-$56,15$\\%, FeSO -$2,28$\\%, CaSO-$0,81$\\%, K,SO,-$4,48$\\%, KC1 $1,09$\\%, nước $18,16$\\%.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "HC_CASO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu là mang tiêu thiên nhiên chế thành có thể chứa nhiều tạp chất, ví dụ mang tiêu tỉnh Sơn Tây (Trung Quốc) có NaSO-$56,15$\\%, FeSO -$2,28$\\%, CaSO-$0,81$\\%, K,SO,-$4,48$\\%, KC1 $1,09$\\%, nước $18,16$\\%.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "HC_KSO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu là mang tiêu thiên nhiên chế thành có thể chứa nhiều tạp chất, ví dụ mang tiêu tỉnh Sơn Tây (Trung Quốc) có NaSO-$56,15$\\%, FeSO -$2,28$\\%, CaSO-$0,81$\\%, K,SO,-$4,48$\\%, KC1 $1,09$\\%, nước $18,16$\\%.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "HC_KCL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên nếu là mang tiêu thiên nhiên chế thành có thể chứa nhiều tạp chất, ví dụ mang tiêu tỉnh Sơn Tây (Trung Quốc) có NaSO-$56,15$\\%, FeSO -$2,28$\\%, CaSO-$0,81$\\%, K,SO,-$4,48$\\%, KC1 $1,09$\\%, nước $18,16$\\%.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHONG_THONG_MANG_TIEU",
+      "to": "VT_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "cach_dung": "Ngày uống 2 hay 3 lần. Dùng nước pha tiểu hồi mà chiêu thuốc",
+        "ghi_chu": "tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHONG_THONG_MANG_TIEU",
+      "to": "CN_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_MANG_TIEU",
+      "to": "VT_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "cach_dung": "Thổi vào mũi",
+        "ghi_chu": "tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_MANG_TIEU",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU",
+      "to": "VT_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU",
+      "to": "VT_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Sắc nước uống dần, khi thấy chuyển thì thôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MANG_TIEU",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "CN_TIEU_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "CN_TA_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận táo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "CN_NHUYEN_KIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm mềm chất rắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MANG_TIEU",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ion $SO_4$ có phân tử lớn khó qua màng ruột nằm lại trong ruột và hút nước ở các tổ chức tới ruột làm loãng phân trong ruột do đó làm cho đại tiện dễ dàng. Kích thích sự bài tiết của ruột và ức chế hiện tượng chống co bóp bình thường của ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463",
+        "all_sources": [
+          "CT_VT_VN_T463"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 68.5,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

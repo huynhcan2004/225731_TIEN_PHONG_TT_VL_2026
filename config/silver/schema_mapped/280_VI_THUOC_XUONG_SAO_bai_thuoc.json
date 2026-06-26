@@ -1,0 +1,148 @@
+{
+  "entity_hub": "VI_THUOC_XUONG_SAO",
+  "source": {
+    "source_id": "CT_VT_VN_T280",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "280"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_XUONG_SAO_X",
+      "to": "VI_THUOC_XUONG_SAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_XUONG_SAO_X",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHOP_CAP_XUONG_SAO_X",
+      "to": "VI_THUOC_XUONG_SAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHOP_CAP_XUONG_SAO_X",
+      "to": "B_VIEM_KHOP_CAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm khớp cấp",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_XUONG_SAO_X",
+      "to": "VI_THUOC_XUONG_SAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_VIEM_THAN_XUONG_SAO_X",
+      "to": "B_VIEM_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm thận",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_XUONG_SAO_X",
+      "to": "VI_THUOC_XUONG_SAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_XUONG_SAO_X",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa huyết áp cao",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_DAI_DUONG_XUONG_SAO_X",
+      "to": "VI_THUOC_XUONG_SAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    },
+    {
+      "from": "BT_DAI_DUONG_XUONG_SAO_X",
+      "to": "B_DAI_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái đường",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_MU_MAT",
+  "source": {
+    "source_id": "CT_VT_VN_T784",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "784"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MU_MAT",
+      "to": "DL_BO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cây dâu gia xoan được xem như một thứ thuốc bổ đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "VI_THUOC_MU_MAT",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất dùng trong ăn uống kém tiêu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "VI_THUOC_MU_MAT",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng. Dùng ngoài chữa đau nhức, sưng đầu gối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "VI_THUOC_MU_MAT",
+      "to": "DL_TRI_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn được dùng chữa ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    }
+  ],
+  "metadata": {}
+}

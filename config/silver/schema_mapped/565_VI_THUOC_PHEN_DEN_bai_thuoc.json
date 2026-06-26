@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_PHEN_DEN",
+  "source": {
+    "source_id": "CT_VT_VN_T565",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "565"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_RAN_CAN_VONG_VANG_V",
+      "to": "VI_THUOC_PHEN_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn đen được dùng ngoài da để giảm độc, tiêu viêm khi bị rắn cắn.",
+        "cach_dung": "Bã đắp lên vết rắn cắn",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_VONG_VANG_V",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Nhai nhỏ nuốt nước. Bã đắp lên vết rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "BT_SAY_RUOU_LA_DONG_L",
+      "to": "VI_THUOC_PHEN_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn đen có tác dụng giải rượu, giúp người say tỉnh táo hơn.",
+        "cach_dung": "Cho uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "BT_SAY_RUOU_LA_DONG_L",
+      "to": "B_SAY_RUOU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa say rượu",
+        "cach_dung": "Vắt lấy nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_LA_DONG_L",
+      "to": "VI_THUOC_PHEN_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn đen được dùng ngoài da để giảm độc, tiêu viêm khi bị rắn cắn.",
+        "cach_dung": "Bã đắp lên nơi rắn cắn",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_LA_DONG_L",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Nhai nát nuốt nước lấy bã đắp lên nơi rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    }
+  ],
+  "metadata": {}
+}

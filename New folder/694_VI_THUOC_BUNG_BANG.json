@@ -1,0 +1,108 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BUNG_BANG",
+    "ten_raw": "Bụng báng",
+    "display_name": "Bụng báng",
+    "ten_khoa_hoc": "Arenga saccharifera Labili.; Saguerus rumphii Roxb.; Borassus gomutus Lour.",
+    "ho_thuc_vat": "Cau Arecaceae (Palmae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân cây",
+      "thu_hai": "Khi cây bắt đầu có quả, người ta cắt bông mo hoa đực và cái",
+      "che_bien_tho": "Người ta cắt bông mo hoa đực và cái, được một thứ nước rất ngọt chảy ra. Nước này có thể thêm men để cất rượu hoặc cô đặc thêm với được một thứ đường.",
+      "lieu_dung_chung": "Ngày dùng $30-50$g thân cây dưới dạng thuốc sắc",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "",
+      "phan_bo": "Mọc hoang và được trồng ở những chân núi hay vùng núi ẩm tại các tỉnh Cao Bằng, Lạng Sơn, Lai Châu và một số tỉnh miền núi."
+    }
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BUNG_BANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bung Bang"
+      }
+    },
+    {
+      "id": "HC_SACAROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sacaroza"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_LOI_TIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T694",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "694"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Báng hay bụng báng là một cây có thân cột cao từ $7$-$10m$, đường kính tới $30cm$, trên phủ những bó sợi to đen, giống như cước do cuống lá bị dữa ra, còn lại. Lá xẻ lông chim to dài $6$-$7cm$, cuống lá to dài, mặt trên lá màu lục, mặt dưới trắng nhạt. Bỗng mo dài $90$-$120cm$, phân nhánh nhiều, rũ xuống. Hoa đực có đến $70$-$80$ nhị, hoa cái có $3$ lá đài, còn lại ở quả. Quả hình cầu to bằng quả táo màu vàng nâu nhạt, khi chín đỉnh lõm xuống, có ba hạt hình trứng, hơi ba cạnh, màu xám nâu, dài $25mm$. Khi cây bắt đầu có quả, người ta cắt bông mo hoa đực và cái, được một thứ nước rất ngọt chảy ra. Nước này có thể thêm men để cất rượu hoặc cô đặc thêm với được một thứ đường. Nhân hạt luộc chín được ăn với tên hạt đoác. Những sợi còn lại trong thân có thể dùng làm chỉ khâu hay bện làm thừng, dây. Những sợi nhỏ mịn có thể làm bùi nhùi.",
+        "thanh_phan_hoa_hoc": [
+          "Trong ruột thân cây báng có nhiều tinh bột; trong nước chảy từ bông mo có chứa nhiều đường Sacaroza."
+        ],
+        "ghi_chu_bo_sung": "Một cây có thể cho từ $20$-$100kg$ tinh bột. Tại các chợ người ta bán với tên bột báng. Soi kính hiển vi, bột báng là những hạt hình chuông, kích thước $50$-$60km$ dính vào nhau, kèm theo một số hạt tròn, rốn ở cạnh, hình sao hay hình vết rách có nhánh. Tại nhiều nước khác vùng Đông Nam và nam châu Á cũng khai thác loại tinh bột này từ ruột thân nhiều loài tương tự như cây báng có tên khoa học Metroxylon rumphii, M. farinifera, Raphia sagus đều thuộc họ Dừa. Tinh bột này mang tên sagu (sagou)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BUNG_BANG",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong nước chảy từ bông mo có chứa nhiều đường Sacaroza.",
+        "ghi_chu": "Đường mía"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T694"
+      }
+    },
+    {
+      "from": "VI_THUOC_BUNG_BANG",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-50g$",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T695"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T694"
+      }
+    },
+    {
+      "from": "VI_THUOC_BUNG_BANG",
+      "to": "B_LOI_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-50g$",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T695"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T694"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUONG_XUAN_SA",
+    "ten_raw": "Dương xuân sa",
+    "ten_khoa_hoc": "Amomum villosum Lour; Amomum echinosphoera Schum.",
+    "ho_thuc_vat": "Gừng Zingiberaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây này phổ biến ở miền Bắc và các tỉnh miền Trung nước ta, thường được khai thác với tên sa nhân. Thường mọc hoang ở những miền rừng núi ẩm thấp, có khi được trồng. Tại Trung Quốc cũ cũng có mọc ở Quảng Đông, Quảng Tây và Vân Nam."
+    },
+    "display_name": "Dương xuân sa"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T415",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "415"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dương xuân sa là một loại cỏ nhỏ, sống lâu năm, cao tới $1,5m$, thân rễ phình to và mọc ngang. Lá hình mác rộng, dài $14-40cm$, rộng $2-8cm$, đầu nhọn, phía gốc tròn, gần như không cuống, hai mặt nhẵn. Cụm hoa nhiều, nhưng mọc thưa từ gốc thân lên, căn mang hoa gầy, lúc đầu nằm ngang, sau mọc thẳng đứng, dài $6-8cm$, có những bẹ mọc như lợp ngói. Hoa màu trắng vàng nhạt, tràng hình ống, thùy hình trúng, dài $13mm$. Quả hình trúng, trên có những gai nhỏ, quả dài $2cm$, rộng $12-15mm$. Hạt có đường kính $3mm$ ( Hình 301 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUONG_XUAN_SA",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$saponin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T415"
+      }
+    }
+  ]
+}

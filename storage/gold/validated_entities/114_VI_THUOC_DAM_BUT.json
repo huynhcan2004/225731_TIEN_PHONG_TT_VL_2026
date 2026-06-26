@@ -1,0 +1,215 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAM_BUT",
+    "ten_raw": "Dâm bụt",
+    "ten_khoa_hoc": "$Hibiscus rosa-sinensis L.$",
+    "ho_thuc_vat": "$Bông Malvaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chưa rõ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Chưa rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "Trồng khắp nơi trong Việt Nam để làm cảnh và làm hàng rào. Còn mọc ở Malaixia, Philipin, Idónêxya."
+    },
+    "display_name": "Dâm bụt",
+    "canonical_name": "Dâm bụt"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DAM_BUT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dam But"
+      }
+    },
+    {
+      "id": "HC_ANTOXYANOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Antoxyanozit"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_XICH_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Xich Ly"
+      }
+    },
+    {
+      "id": "B_BACH_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bach Ly"
+      }
+    },
+    {
+      "id": "B_BACH_DAI_KHI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bach Dai Khi"
+      }
+    },
+    {
+      "id": "CN_DIEU_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Dieu Kinh"
+      }
+    },
+    {
+      "id": "CN_CO_TAC_DUNG_DUOC_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Tac Dung Duoc Ly"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "114"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dâm bụt là một cây nhỡ, cao từ 1 đến 2 mét. Lá đơn, mọc cách, có lá kèm, phiến lá khía răng cưa. Hoa to, mọc đơn độc, đều, lưỡng tính, màu đỏ. Tiểu đài 6-10. Đài gồm 5 lá đài, màu lục dính vào nhau. Tràng 5, rời nhau, phiến rộng, mỏng hẹp. Bộ nhị đơn thể gồm nhiều nhị dính liền nhau bởi chỉ nhị thành một ống dài mang những bao phấn chỉ có một ổ phấn. 5 lá noãn dính nhau thành một bầu thượng 5 ô, mỗi ô chứa hai dây noãn theo kiểu đính noãn trưng trụ. Vòi dài nằm trong ống nhị, đầu nhụy có 5 núm. Quả là một nang.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hoa dâm bụt có chất `$antoxyanozit$`, lá có chất nhầy."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "HC_ANTOXYANOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa dâm bụt có chất `$antoxyanozit$`",
+        "ghi_chu": "trong hoa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lá và hoa tươi dâm bụt giã nhỏ với một ít muối. Đắp lên mụn nhọt, khô thuốc lại thay | Vỏ rễ dâm bụt sắc với nước. Uống, rửa mụn nhọt",
+        "ghi_chu": "Mụn nhọt đang nung mủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "B_XICH_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vỏ rễ dâm bụt sắc với nước. Uống, rửa mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "B_BACH_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vỏ rễ dâm bụt sắc với nước. Uống, rửa mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "B_BACH_DAI_KHI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vỏ rễ dâm bụt sắc với nước. Uống, rửa mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "CN_DIEU_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAM_BUT",
+      "to": "CN_CO_TAC_DUNG_DUOC_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T114",
+        "all_sources": [
+          "CT_VT_VN_T114"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 28.0,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

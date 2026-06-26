@@ -1,0 +1,369 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KIM_VANG",
+    "ten_raw": "Cây kim vàng",
+    "ten_khoa_hoc": "$Barleria lupulina Lindl.$",
+    "ho_thuc_vat": "$họ Ô rô Acanthaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "các tỉnh phía Nam nước ta"
+    },
+    "display_name": null,
+    "canonical_name": "Cây kim vàng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_KIM_VANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Kim Vang"
+      }
+    },
+    {
+      "id": "B_RAN_DOC_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Doc Can"
+      }
+    },
+    {
+      "id": "BT_RAN_DOC_CAN_KIM_VANG_PHEN_CHUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ran Doc Can Kim Vang Phen Chua"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHEN_CHUA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Phen Chua"
+      }
+    },
+    {
+      "id": "S_CHAN_NUT_NE",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chan Nut Ne"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_SANG_MAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Sang Mat"
+      }
+    },
+    {
+      "id": "BT_RAN_DOC_CAN_KIM_VANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ran Doc Can Kim Vang"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "T_CO_TINH_HOI_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Co Tinh Hoi On"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "576"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ mọc đứng. Nhánh vuông, không lông lá. Lá nguyên không lộng, lá kèm biến thành gai thắng nhọn. Cụm hoa bông ở ngọn, các lá bắc kết hợp cao $2cm$. Cánh hoa mềm, màu vàng nhạt. Mỗi hỏng thường có 18-20 hoa nhưng thường không nở hoa một lúc. Mỗi ngày chỉ nở hai hoa. Sau 7 ngày mới nở hết một bông hoa. Quả nang có hạt dẹt, hạt được bao bọc bởi một vỏ cứng. Khi quả chín khô, nổ tách bắn hạt ra Xa ( Hình 440, Hm 29,4).",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Còn mọc hoang và được trồng ở Ấn Độ, Miến Điện, Inđônêxia."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "BT_RAN_DOC_CAN_KIM_VANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$20-35g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "B_RAN_DOC_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Lá kim vàng tươi $20-35g$",
+        "cach_dung": "Giã nát vắt, lấy nước cốt cho nạn nhân uống sống, bã dùng đắp lên nơi rắn cắn. Cứ 30 phút cho uống một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "BT_RAN_DOC_CAN_KIM_VANG_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$30g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_KIM_VANG_PHEN_CHUA",
+      "to": "VI_THUOC_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_KIM_VANG_PHEN_CHUA",
+      "to": "B_RAN_DOC_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Lá kim vàng tươi $30g$, phèn chua $5g$",
+        "cach_dung": "Giã chung, thêm ít nước vào. Vắt lấy nước cho uống. Bã lá và phèn chua thì đắp lên vết rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "S_CHAN_NUT_NE",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước giã ép lá kim vàng tươi. Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước giã ép lá kim vàng tươi. Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước giã ép lá kim vàng tươi. Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khứ phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "CN_SANG_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sáng mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KIM_VANG",
+      "to": "T_CO_TINH_HOI_ON",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576",
+        "all_sources": [
+          "CT_VT_VN_T576"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 28.5,
+      "reliability_c_score": 0.7633,
+      "total_confidence_sum": 11.45
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

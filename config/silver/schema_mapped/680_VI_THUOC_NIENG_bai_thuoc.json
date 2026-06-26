@@ -1,0 +1,151 @@
+{
+  "entity_hub": "VI_THUOC_NIENG",
+  "source": {
+    "source_id": "CT_VT_VN_T680",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "680"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HOI_MIENG_HUONG_NHU_H",
+      "to": "VI_THUOC_NIENG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu là vị thuốc chính duy nhất.",
+        "cach_dung": "Sắc với $200ml$ nước, dùng súc miệng và ngậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_HOI_MIENG_HUONG_NHU_H",
+      "to": "B_HOI_MIENG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng hôi miệng",
+        "cach_dung": "Sắc với $200ml$ nước, dùng súc miệng và ngậm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CHAM_MOC_TOC_HUONG_NHU_H",
+      "to": "VI_THUOC_NIENG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu là vị thuốc chính duy nhất.",
+        "cach_dung": "Pha với nước sôi hay dùng rượu hâm nóng mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CHAM_MOC_TOC_HUONG_NHU_H",
+      "to": "S_CHAM_MOC_TOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con chậm mọc tóc",
+        "cach_dung": "Pha với nước sôi hay dùng rượu hâm nóng mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_LANH_HUONG_NHU_HBH",
+      "to": "VI_THUOC_NIENG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$500g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu làm ấm, Hậu phác kiện tỳ, Bạch biển đậu trừ thấp.",
+        "cach_dung": "Pha với nước đun sôi mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_LANH_HUONG_NHU_HBH",
+      "to": "VT_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$200g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương nhu làm ấm, Hậu phác kiện tỳ, Bạch biển đậu trừ thấp.",
+        "cach_dung": "Pha với nước đun sôi mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_LANH_HUONG_NHU_HBH",
+      "to": "VT_BACH_BIEN_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2.000g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương nhu làm ấm, Hậu phác kiện tỳ, Bạch biển đậu trừ thấp.",
+        "cach_dung": "Pha với nước đun sôi mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_LANH_HUONG_NHU_HBH",
+      "to": "B_CAM_LANH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm lạnh, phát sốt, thổ tả, nhức đầu, đau bụng, chân tay lạnh ngắt, buồn bực",
+        "cach_dung": "Pha với nước đun sôi mà uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_TU_THOI_HUONG_NHU_H",
+      "to": "VI_THUOC_NIENG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương nhu là vị thuốc chính duy nhất.",
+        "cach_dung": "Sắc với $200ml$ nước, cô đặc, trộn với mỡ lợn, bôi lên đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_TU_THOI_HUONG_NHU_H",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm mạo tứ thời",
+        "cach_dung": "Sắc với $200ml$ nước, cô đặc, trộn với mỡ lợn, bôi lên đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T680"
+      }
+    }
+  ],
+  "metadata": {}
+}

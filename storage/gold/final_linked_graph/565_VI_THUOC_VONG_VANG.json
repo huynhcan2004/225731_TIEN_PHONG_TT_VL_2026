@@ -1,0 +1,855 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_VONG_VANG",
+    "ten_raw": "Vông vang",
+    "ten_khoa_hoc": "$Hibiscus abelmoschus L. (Abelmoschus moschatus Moench.); Erythrina orientalis (L.) Murr. (Erythrina indica Lamk.)$",
+    "ho_thuc_vat": "$Bông Malvaceae; Đậu (Fabaceae)$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Ngày dùng 4 đến 6$g$ dưới dạng thuốc sắc hay thuốc bột. [CT_VT_VN_T566]: Ngày dùng 8-16$g$ lá tươi dưới dạng thuốc sắc hay thuốc hãm. Thường phối hợp với các vị thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Mọc hoang khắp nơi ở những ruộng và những vùng mới vỡ hoang, trên những đồng cỏ. Có nơi trồng lấy hạt và rễ dùng trong công nghiệp nước hoa hoặc làm thuốc. Còn thấy ở Ấn Độ, Malaixia, Trung Quốc, Philipin."
+    },
+    "display_name": "Vị thuốc Vông vang",
+    "canonical_name": "Vị thuốc Vông vang"
+  },
+  "nodes": [
+    {
+      "id": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Vông vang trị đau nhức xương khớp",
+        "aliases": [
+          "vông vang trị đau nhức xương khớp",
+          "vong vang tri dau nhuc xuong khop",
+          "vongvangtridaunhucxuongkhop"
+        ],
+        "search_vector_hint": "Bài thuốc Vông vang trị đau nhức xương khớp thuộc nhóm bài thuốc giảm đau, thường liên quan đến xương khớp."
+      }
+    },
+    {
+      "id": "BT_MAT_NGU_VONG_VANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Vông vang trị mất ngủ",
+        "aliases": [
+          "vongvangtrimatngu",
+          "vong vang tri mat ngu",
+          "vông vang trị mất ngủ"
+        ],
+        "search_vector_hint": "Bài thuốc Vông vang trị mất ngủ thuộc nhóm bài thuốc an thần, thường liên quan đến giấc ngủ."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_XUONG_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức xương khớp",
+        "aliases": [
+          "dau nhuc xuong khop",
+          "đau nhức xương khớp",
+          "daunhucxuongkhop"
+        ],
+        "search_vector_hint": "Bệnh Đau nhức xương khớp thuộc nhóm bệnh cơ xương khớp, thường liên quan đến viêm khớp."
+      }
+    },
+    {
+      "id": "B_DI_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Di tinh",
+        "aliases": [
+          "mong tinh",
+          "di tinh",
+          "mongtinh",
+          "mộng tinh",
+          "ditinh"
+        ],
+        "search_vector_hint": "Bệnh Di tinh thuộc nhóm Bệnh, thường liên quan đến vấn đề sinh lý nam giới."
+      }
+    },
+    {
+      "id": "B_MAT_NGU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mất ngủ",
+        "aliases": [
+          "trằn trọc",
+          "mat ngu",
+          "khó ngủ",
+          "tran troc",
+          "matngu",
+          "kho ngu",
+          "trantroc",
+          "khongu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Mất ngủ thuộc nhóm bệnh, thường liên quan đến rối loạn giấc ngủ."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Răng cắn",
+        "aliases": [
+          "rang can",
+          "răng cắn",
+          "rangcan"
+        ],
+        "search_vector_hint": "Bệnh Răng cắn thuộc nhóm bệnh, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "CN_AN_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "trantinh",
+          "an than",
+          "trấn tĩnh",
+          "an thần",
+          "anthan",
+          "tran tinh"
+        ],
+        "search_vector_hint": "An thần thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng thông tiểu",
+        "aliases": [
+          "thongnieu",
+          "thongtieu",
+          "thong nieu",
+          "lợi niệu",
+          "loinieu",
+          "thong tieu",
+          "thông tiểu",
+          "loi nieu",
+          "thông niệu"
+        ],
+        "search_vector_hint": "Công năng thông tiểu thuộc nhóm công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "DL_GAY_NGU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Triệu chứng Gáy ngủ",
+        "aliases": [
+          "gáy ngủ",
+          "khokhe",
+          "kho khe",
+          "ngungay",
+          "ngu ngay",
+          "gayngu",
+          "ngủ ngáy",
+          "gay ngu",
+          "khò khè"
+        ],
+        "search_vector_hint": "Gáy ngủ thuộc nhóm triệu chứng, thường liên quan đến rối loạn hô hấp khi ngủ."
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Giảm đau",
+        "aliases": [
+          "chỉ thống",
+          "chi thong",
+          "giamdau",
+          "chithong",
+          "giảm đau",
+          "giam dau"
+        ],
+        "search_vector_hint": "Giảm đau thuộc nhóm công năng, thường liên quan đến làm dịu cơn đau."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_HA_NHIET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Bệnh Hạ nhiệt",
+        "aliases": [
+          "hạ nhiệt",
+          "hanhiet",
+          "ha nhiet"
+        ],
+        "search_vector_hint": "Hạ nhiệt thuộc nhóm bệnh, thường liên quan đến thân nhiệt giảm."
+      }
+    },
+    {
+      "id": "DL_TRAN_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Trấn tĩnh",
+        "aliases": [
+          "trantinh",
+          "trấn tĩnh",
+          "tran tinh"
+        ],
+        "search_vector_hint": "Dược lý Trấn tĩnh thuộc nhóm dược lý, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "DL_UC_CHE_THAN_KINH_TRUNG_UONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Ức chế thần kinh trung ương",
+        "aliases": [
+          "ức chế thần kinh trung ương",
+          "ucchethankinhtrunguong",
+          "uc che than kinh trung uong"
+        ],
+        "search_vector_hint": "Công năng Ức chế thần kinh trung ương thuộc nhóm công năng dược lý, thường liên quan đến an thần."
+      }
+    },
+    {
+      "id": "HC_AMBRETOLITE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ambretolide",
+        "aliases": [
+          "ambretolide"
+        ],
+        "search_vector_hint": "Hoạt chất Ambretolide thuộc nhóm hoạt chất hóa học, thường liên quan đến thực vật."
+      }
+    },
+    {
+      "id": "HC_FARNESOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Farnesola",
+        "aliases": [
+          "farnesola"
+        ],
+        "search_vector_hint": "Hoạt chất Farnesola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PANMITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Panmitin",
+        "aliases": [
+          "panmitin"
+        ],
+        "search_vector_hint": "Hoạt chất Panmitin thuộc nhóm hợp chất hóa học, thường liên quan đến thành phần của dầu thực vật."
+      }
+    },
+    {
+      "id": "S_SUNG_TAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sưng tay",
+        "aliases": [
+          "sưng tay",
+          "sung tay",
+          "phutay",
+          "phu tay",
+          "phù tay",
+          "sungtay"
+        ],
+        "search_vector_hint": "Triệu chứng Sưng tay thuộc nhóm Triệu chứng, thường liên quan đến viêm nhiễm hoặc chấn thương."
+      }
+    },
+    {
+      "id": "VT_CO_XUOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cỏ xước",
+        "aliases": [
+          "nguutatnam",
+          "nguu tat nam",
+          "cỏ xước",
+          "ngưu tất nam",
+          "coxuoc",
+          "co xuoc"
+        ],
+        "search_vector_hint": "Cỏ xước thuộc nhóm Vị thuốc."
+      }
+    },
+    {
+      "id": "VT_DAU_TAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Dâu tằm",
+        "aliases": [
+          "dautam",
+          "dau tam",
+          "dâu tằm"
+        ],
+        "search_vector_hint": "Vị thuốc Dâu tằm thuộc nhóm vị thuốc bổ huyết, thường liên quan đến thiếu máu."
+      }
+    },
+    {
+      "id": "VT_DINH_LANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đinh lăng",
+        "aliases": [
+          "đinh lăng",
+          "dinh lang",
+          "dinhlang"
+        ],
+        "search_vector_hint": "Vị thuốc Đinh lăng thuộc nhóm vị thuốc bổ, thường liên quan đến tăng cường sức khỏe."
+      }
+    },
+    {
+      "id": "VT_HUYET_GIAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Huyết giác",
+        "aliases": [
+          "huyết giác",
+          "huyetgiac",
+          "huyet giac"
+        ],
+        "search_vector_hint": "Vị thuốc Huyết giác thuộc nhóm vị thuốc, thường liên quan đến hoạt huyết, giảm đau."
+      }
+    },
+    {
+      "id": "VT_LAC_TIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lạc tiên",
+        "aliases": [
+          "lactien",
+          "lạc tiên",
+          "nhanlong",
+          "nhãn lồng",
+          "nhan long",
+          "lac tien"
+        ],
+        "search_vector_hint": "Vị thuốc Lạc tiên thuộc nhóm vị thuốc an thần, thường liên quan đến mất ngủ."
+      }
+    },
+    {
+      "id": "VT_LONG_NAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Long Não",
+        "aliases": [
+          "long não",
+          "longnao",
+          "long nao"
+        ],
+        "search_vector_hint": "Vị thuốc Long Não thuộc nhóm vị thuốc, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_TAM_SEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tâm sen",
+        "aliases": [
+          "tâm sen",
+          "tam sen",
+          "tamsen"
+        ],
+        "search_vector_hint": "Vị thuốc Tâm sen thuộc nhóm vị thuốc an thần, thường liên quan đến mất ngủ."
+      }
+    },
+    {
+      "id": "VT_VONG_VANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Vông vang",
+        "aliases": [
+          "vong vang",
+          "vongnem",
+          "vông nem",
+          "vongvang",
+          "vông vang",
+          "vong nem"
+        ],
+        "search_vector_hint": "Vị thuốc Vông vang thuộc nhóm vị thuốc an thần, thường liên quan đến mất ngủ.",
+        "lieu_dung_chung": "Ngày dùng 4 đến 6$g$ dưới dạng thuốc sắc hay thuốc bột. [CT_VT_VN_T566]: Ngày dùng 8-16$g$ lá tươi dưới dạng thuốc sắc hay thuốc hãm. Thường phối hợp với các vị thuốc khác.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Mọc hoang khắp nơi ở những ruộng và những vùng mới vỡ hoang, trên những đồng cỏ. Có nơi trồng lấy hạt và rễ dùng trong công nghiệp nước hoa hoặc làm thuốc. Còn thấy ở Ấn Độ, Malaixia, Trung Quốc, Philipin.",
+        "ten_khoa_hoc": "$Hibiscus abelmoschus L. (Abelmoschus moschatus Moench.); Erythrina orientalis (L.) Murr. (Erythrina indica Lamk.)$",
+        "ho_thuc_vat": "$Bông Malvaceae; Đậu (Fabaceae)$",
+        "hinh_thai_chi_tiet": "Vông vang là một cây thân cỏ cao khoảng 1m, phía gốc hơi thành gỗ và thân hơi có lông. Lá hình tim, có cạnh hoặc chia thùy khá sâu cả hai mặt đều phủ nhiều lông. 5 thuỳ hình ba cạnh, mép có răng cưa, trên có 3-5 gân chính. Hoa màu vàng, mọc đơn độc ở nách lá phía trên, cuống hoa phủ lông và phía sát hoa hơi phình lên. Quả thuôn trên phủ đầy lông trắng nhạt, chiều dài quả $4$-$5cm$, với 5 cạnh, phía trong cũng phủ lông, chứa nhiều hạt hình thận, dẹt, dài $3$-$4mm$, rộng $1$-$2mm$, trên mặt có những đường nhãn đồng tâm xung quanh rốn hạt.",
+        "thanh_phan_hoa_hoc": "['Hạt chứa dầu mùi xạ hương cho nên trên thị trường thường có tên hạt xạ (graine d’ambrette). Tình dầu đặc ở nhiệt độ thường, màu vàng nhạt, mùi thơm của xạ, thành phần chủ yếu của tinh dầu là chất `$panmitin$`, `$farnesola$` và `$ambretolite$`. Rễ có chứa chất nhày như rễ sâm bố chính.']",
+        "cach_dung_bao_che": "Chủ yếu người ta dùng hạt làm thuốc hay để chế tinh dầu dùng trong nước hoa. Chất nhầy trong rễ được dùng làm chất dính trong nghề giấy hay làm tinh bột."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "565"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vông vang là một cây thân cỏ cao khoảng 1m, phía gốc hơi thành gỗ và thân hơi có lông. Lá hình tim, có cạnh hoặc chia thùy khá sâu cả hai mặt đều phủ nhiều lông. 5 thuỳ hình ba cạnh, mép có răng cưa, trên có 3-5 gân chính. Hoa màu vàng, mọc đơn độc ở nách lá phía trên, cuống hoa phủ lông và phía sát hoa hơi phình lên. Quả thuôn trên phủ đầy lông trắng nhạt, chiều dài quả $4$-$5cm$, với 5 cạnh, phía trong cũng phủ lông, chứa nhiều hạt hình thận, dẹt, dài $3$-$4mm$, rộng $1$-$2mm$, trên mặt có những đường nhãn đồng tâm xung quanh rốn hạt.",
+        "thanh_phan_hoa_hoc": [
+          "Hạt chứa dầu mùi xạ hương cho nên trên thị trường thường có tên hạt xạ (graine d’ambrette). Tình dầu đặc ở nhiệt độ thường, màu vàng nhạt, mùi thơm của xạ, thành phần chủ yếu của tinh dầu là chất `$panmitin$`, `$farnesola$` và `$ambretolite$`. Rễ có chứa chất nhày như rễ sâm bố chính."
+        ],
+        "cach_dung_bao_che": "Chủ yếu người ta dùng hạt làm thuốc hay để chế tinh dầu dùng trong nước hoa. Chất nhầy trong rễ được dùng làm chất dính trong nghề giấy hay làm tinh bột."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_VONG_VANG",
+      "to": "HC_PANMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "thành phần chủ yếu của tinh dầu là chất `$panmitin$`",
+        "ghi_chu": "trong hạt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      }
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "HC_FARNESOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "thành phần chủ yếu của tinh dầu là chất `$farnesola$`",
+        "ghi_chu": "trong hạt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      }
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "HC_AMBRETOLITE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "thành phần chủ yếu của tinh dầu là chất `$ambretolite$`",
+        "ghi_chu": "trong hạt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      }
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng 4 đến 6$g$ dưới dạng thuốc sắc hay thuốc bột",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột",
+        "ghi_chu": "CT_VT_VN_T565"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "CN_THONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Ngày dùng 4 đến 6$g$ dưới dạng thuốc sắc hay thuốc bột",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột",
+        "ghi_chu": "CT_VT_VN_T565"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "50 hạt hoặc nhiều ít tùy theo nặng nhẹ",
+        "cach_dung": "khi bị rắn cắn nhai nhỏ nuốt nước. Bã đắp lên vết rắn cắn",
+        "ghi_chu": "CT_VT_VN_T565"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_VONG_VANG",
+      "to": "VT_VONG_VANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_VONG_VANG",
+      "to": "VT_LAC_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_VONG_VANG",
+      "to": "VT_DAU_TAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_VONG_VANG",
+      "to": "VT_TAM_SEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_VONG_VANG",
+      "to": "B_MAT_NGU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc với 400$ml$ nước, còn 100$ml$, uống trước khi đi ngủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "VT_VONG_VANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "VT_LONG_NAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "VT_DINH_LANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "VT_CO_XUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "VT_HUYET_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "B_DAU_NHUC_XUONG_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc uống ngày $1thang$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_THAN_DAU_NHUC_XUONG_KHOP_VONG_VANG",
+      "to": "CN_AN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Sắc uống ngày $1thang$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "giã nát đắp lên mụn nhọt",
+        "ghi_chu": "Đắp ngày 1-2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "S_SUNG_TAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "giã nát đắp lên mụn nhọt",
+        "ghi_chu": "Đắp ngày 1-2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_UC_CHE_THAN_KINH_TRUNG_UONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng ức chế hệ thần kinh trung ương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng làm trấn tĩnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_GAY_NGU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng gây ngủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng hạ nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VONG_VANG",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá vông vang có tác dụng làm êm dịu các cơn đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565",
+        "all_sources": [
+          "CT_VT_VN_T565"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 52.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

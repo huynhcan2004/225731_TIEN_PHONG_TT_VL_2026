@@ -1,0 +1,710 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DAU_SI",
+    "ten_raw": "Đậu si",
+    "ten_khoa_hoc": "$Semen Sojae praeparatum$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [
+      "Đậu sự",
+      "Đạm đậu sị"
+    ],
+    "properties": {
+      "bo_phan_dung": "đậu đen chế biến và phơi hay sấy khô.",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "chế biến và phơi hay sấy khô.",
+      "lieu_dung_chung": "Mỗi ngày dùng $12$ đến $24g$ dưới dạng thuốc bột hay thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Có nhiều cách chế đậu sị, sau đây là một số phương pháp hay được dùng: 1. Đậu đen rửa sạch. Ngâm nước một đêm sau đó đồ cho chín. Tãi đều trên nia, đợi cho ráo nước thì phủ lá chuối lên cho kín. Đợi 3 ngày mở ra xem nếu thấy mốc vàng đều là được. Vẩy nước cho ẩm đều, cho vào thúng phủ lá dâu tằm cho kín, đợi cho lên mốc vàng đều, lại đưa ra phơi cho khô rồi lại tưới nước cho ẩm đều, lại phủ lá dâu tằm và ủ, cứ làm như vậy cho tới khi tất cả đậu có mốc vàng đều thì lấy ra phơi ở nhiệt độ $50-60°C$ cho đến khô là được. 2. Phương pháp Dược điển Trung Quốc, 1965: Sắc nước lá dâu và thanh cao (cứ $100kg$ đậu đen thì dùng $4kg$ lá dâu và $7kg$ thanh cao). Lọc bỏ bã, cho đậu đen vào trộn đều, nấu cho đến khi đậu đen hút hết nước sắc và chín đều. Lấy ra đợi cho còn hơi ấm thì cho vào thúng. Rải bã lá dầu và thanh cao lên. Ủ kín và chờ cho lên men màu vàng đều, lấy ra phơi hay sấy khô là được."
+    },
+    "display_name": "Vị thuốc Đậu sị",
+    "canonical_name": "Vị thuốc Đậu sị"
+  },
+  "nodes": [
+    {
+      "id": "BT_HEN_SUYEN_DAU_SI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Hen suyễn đậu sị",
+        "aliases": [
+          "hen suyen dau si",
+          "hen suyễn đậu sị",
+          "hensuyendausi"
+        ],
+        "search_vector_hint": "Hen suyễn đậu sị thuộc nhóm bài thuốc, thường liên quan đến điều trị hen suyễn."
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cảm mạo",
+        "aliases": [
+          "camcum",
+          "cam mao",
+          "sổ mũi",
+          "cảm mạo",
+          "somui",
+          "so mui",
+          "cammao",
+          "cảm cúm",
+          "cam cum"
+        ],
+        "search_vector_hint": "Bệnh Cảm mạo thuộc nhóm bệnh, thường liên quan đến hệ hô hấp."
+      }
+    },
+    {
+      "id": "B_HEN_SUYEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hen suyễn",
+        "aliases": [
+          "hen phe quan",
+          "hen suyễn",
+          "henphequan",
+          "hen phế quản",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Bệnh Hen suyễn thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT_DINH_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt đinh độc",
+        "aliases": [
+          "munnhotdinhdoc",
+          "mun nhot dinh doc",
+          "mụn nhọt đinh độc"
+        ],
+        "search_vector_hint": "Mụn nhọt đinh độc thuộc nhóm bệnh da liễu, thường liên quan đến nhiễm trùng."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "B_THUONG_HAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thương hàn",
+        "aliases": [
+          "thuonghan",
+          "thương hàn",
+          "thuong han"
+        ],
+        "search_vector_hint": "Bệnh Thương hàn thuộc nhóm bệnh, thường liên quan đến nhiễm trùng."
+      }
+    },
+    {
+      "id": "CN_GIAI_BIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải biểu",
+        "aliases": [
+          "giải biểu",
+          "giai bieu",
+          "giaibieu"
+        ],
+        "search_vector_hint": "Công năng Giải biểu thuộc nhóm công năng, thường liên quan đến điều trị bệnh ở phần biểu."
+      }
+    },
+    {
+      "id": "CN_TRU_PHIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phiền",
+        "aliases": [
+          "trừ phiền",
+          "truphien",
+          "tru phien"
+        ],
+        "search_vector_hint": "Trừ phiền thuộc nhóm Công năng, thường liên quan đến giảm bồn chồn."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_CHAY_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy nước",
+        "aliases": [
+          "chay nuoc",
+          "chaynuoc",
+          "chảy nước"
+        ],
+        "search_vector_hint": "Chảy nước thuộc nhóm triệu chứng, thường liên quan đến tình trạng tiết dịch."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_HAI_CHAN_LANH_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hai chân lạnh nhức",
+        "aliases": [
+          "hai chan lanh nhuc",
+          "hai chân lạnh nhức",
+          "haichanlanhnhuc"
+        ],
+        "search_vector_hint": "Hai chân lạnh nhức thuộc nhóm Triệu chứng."
+      }
+    },
+    {
+      "id": "S_LEN_DON",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Lên cơn",
+        "aliases": [
+          "len con",
+          "lên cơn",
+          "lencon"
+        ],
+        "search_vector_hint": "Lên cơn thuộc nhóm triệu chứng, thường liên quan đến bệnh lý thần kinh."
+      }
+    },
+    {
+      "id": "S_PHIEN_MUOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Phiền muộn",
+        "aliases": [
+          "phien muon",
+          "phienmuon",
+          "phiền muộn"
+        ],
+        "search_vector_hint": "Phiền muộn thuộc nhóm Triệu chứng."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_DAU_SI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đậu sị",
+        "aliases": [
+          "dausi",
+          "dau si",
+          "đậu sị"
+        ],
+        "search_vector_hint": "Đậu sị thuộc nhóm Vị thuốc, thường liên quan đến giải biểu.",
+        "bo_phan_dung": "đậu đen chế biến và phơi hay sấy khô.",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "chế biến và phơi hay sấy khô.",
+        "lieu_dung_chung": "Mỗi ngày dùng $12$ đến $24g$ dưới dạng thuốc bột hay thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "phan_bo": "Có nhiều cách chế đậu sị, sau đây là một số phương pháp hay được dùng: 1. Đậu đen rửa sạch. Ngâm nước một đêm sau đó đồ cho chín. Tãi đều trên nia, đợi cho ráo nước thì phủ lá chuối lên cho kín. Đợi 3 ngày mở ra xem nếu thấy mốc vàng đều là được. Vẩy nước cho ẩm đều, cho vào thúng phủ lá dâu tằm cho kín, đợi cho lên mốc vàng đều, lại đưa ra phơi cho khô rồi lại tưới nước cho ẩm đều, lại phủ lá dâu tằm và ủ, cứ làm như vậy cho tới khi tất cả đậu có mốc vàng đều thì lấy ra phơi ở nhiệt độ $50-60°C$ cho đến khô là được. 2. Phương pháp Dược điển Trung Quốc, 1965: Sắc nước lá dâu và thanh cao (cứ $100kg$ đậu đen thì dùng $4kg$ lá dâu và $7kg$ thanh cao). Lọc bỏ bã, cho đậu đen vào trộn đều, nấu cho đến khi đậu đen hút hết nước sắc và chín đều. Lấy ra đợi cho còn hơi ấm thì cho vào thúng. Rải bã lá dầu và thanh cao lên. Ủ kín và chờ cho lên men màu vàng đều, lấy ra phơi hay sấy khô là được.",
+        "ten_khoa_hoc": "$Semen Sojae praeparatum$",
+        "ho_thuc_vat": "$Không rõ$",
+        "thanh_phan_hoa_hoc": "['Trong đậu sị có thành phần của đậu đen (xem vị này) ngoài ra khi cho lên men thêm một số men. Nhưng chưa thấy có tài liệu nghiên cứu sâu hơn.']"
+      }
+    },
+    {
+      "id": "VT_KHO_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khô phàn",
+        "aliases": [
+          "khophan",
+          "kho phan",
+          "khô phàn"
+        ],
+        "search_vector_hint": "Vị thuốc Khô phàn thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "VT_THACH_TIN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch tín",
+        "aliases": [
+          "thach tin",
+          "thạch tín",
+          "thachtin"
+        ],
+        "search_vector_hint": "Thạch tín thuộc nhóm Vị thuốc, thường liên quan đến chất độc."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "703"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_VI",
+          "K_PHE"
+        ],
+        "cong_nang": "giải biểu trừ phiền"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong đậu sị có thành phần của đậu đen (xem vị này) ngoài ra khi cho lên men thêm một số men. Nhưng chưa thấy có tài liệu nghiên cứu sâu hơn."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DAU_SI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "B_THUONG_HAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_PHIEN_MUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_HAI_CHAN_LANH_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_LEN_DON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hòa dầu vừng hay dầu lạc hoặc dầu thầu dầu hoặc mỡ lợn bôi lên nơi lở loét",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "S_CHAY_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hòa dầu vừng hay dầu lạc hoặc dầu thầu dầu hoặc mỡ lợn bôi lên nơi lở loét",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "B_MUN_NHOT_DINH_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nấu nhừ nát, đắp vào nơi sưng đau. Chừng 3-4 lần thấy đỡ và khỏi",
+        "ghi_chu": "CT_VT_VN_T704"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HEN_SUYEN_DAU_SI",
+      "to": "VT_DAU_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HEN_SUYEN_DAU_SI",
+      "to": "VT_THACH_TIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HEN_SUYEN_DAU_SI",
+      "to": "VT_KHO_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HEN_SUYEN_DAU_SI",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tán nhỏ viên bằng hạt đậu xanh. Mỗi lần uống 7 đến 9 viên trước khi đi ngủ. Theo kinh nghiệm nhân dân uống thuốc này không được dùng thức ăn nóng hay nước nóng. Không nên dùng quá liều. Thường chỉ dùng trong vòng 7-8 ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "CN_GIAI_BIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải biểu trừ phiền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_SI",
+      "to": "CN_TRU_PHIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải biểu trừ phiền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "all_sources": [
+          "CT_VT_VN_T703"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7591,
+      "total_confidence_sum": 16.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

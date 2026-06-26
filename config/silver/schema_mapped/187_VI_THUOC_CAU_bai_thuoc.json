@@ -1,0 +1,197 @@
+{
+  "entity_hub": "VI_THUOC_CAU",
+  "source": {
+    "source_id": "CT_VT_VN_T187",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "187"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GIUN_SAN_HAT_CAU_H",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt cau có tác dụng tẩy giun sán.",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Chữa gin sán cho súc vật như chó"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_GIUN_SAN_HAT_CAU_H",
+      "to": "B_GIUN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gin sán cho súc vật như chó",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_GIUN_SAN_ARECOLIN_B",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Arecolin là hoạt chất chính trong hạt cau, có tác dụng tẩy giun sán.",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Chữa gin sán cho súc vật như chó"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_GIUN_SAN_ARECOLIN_B",
+      "to": "B_GIUN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gin sán cho súc vật như chó",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_HAT_CAU_HTC",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp các vị thuốc để điều trị sốt rét.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_HAT_CAU_HTC",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sốt rét",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_SAN_HAT_CAU_HB",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Phối hợp hạt cau và hạt bí ngô để tẩy sán.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_SAN_HAT_CAU_HB",
+      "to": "B_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sán cho người",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_VIEM_RUOT_HAT_CAU_H",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt cau khô giúp sự tiêu hóa, chữa viêm ruột, lỵ.",
+        "cach_dung": "Ngày dùng $0,5$ đến $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_VIEM_RUOT_HAT_CAU_H",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm ruột, lỵ",
+        "cach_dung": "Ngày dùng $0,5$ đến $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_LY_HAT_CAU_H",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm ruột, lỵ",
+        "cach_dung": "Ngày dùng $0,5$ đến $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_LY_HAT_CAU_H",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt cau khô giúp sự tiêu hóa, chữa viêm ruột, lỵ.",
+        "cach_dung": "Ngày dùng $0,5$ đến $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HAT_CAU_B",
+      "to": "VI_THUOC_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bột hạt cau có tác dụng chữa chốc đầu.",
+        "cach_dung": "Mài hạt cau thành bột phơi khô hòa với dầu mà bôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_HAT_CAU_B",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con chốc đầu",
+        "cach_dung": "Mài hạt cau thành bột phơi khô hòa với dầu mà bôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    }
+  ],
+  "metadata": {}
+}

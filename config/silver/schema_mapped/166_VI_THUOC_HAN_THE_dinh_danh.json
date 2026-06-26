@@ -1,0 +1,151 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAN_THE",
+    "ten_raw": "Hàn the",
+    "ten_khoa_hoc": "Desmodium heterophyllum (Willd.) DC.",
+    "ho_thuc_vat": "Cánh buóm Fabaceae Papilionaceae",
+    "variants": [
+      "thạch phần"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "thu_hai": "Mùa mưa",
+      "phan_bo": "Cây mọc hoang dại ở các bãi cỏ, ven bờ ruộng ở khắp nơi nước ta. Còn thấy ở nhiều nước nhiệt đới vùng đông nam châu Á."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T166",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "166"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc bò rất nhỏ, phân cành từ gốc, cành trải ra mặt đất. Lá gồm ba lá chét, các lá dưới chỉ có một lá chét; lá chét hình trái xoan ngược, mặt trên nhẵn, mặt dưới màu nhạt; lá kèm hình trái xoan nhọn, có nhiều văn. Cụm hoa ở nách, ít hoa, không cuống. Hoa nhỏ màu tím hồng. Quả thuôn không cuống, có 4-5 đốt, mỗi đốt chứa một hạt ( Hình 109 ).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa có tài liệu nghiên cứu.",
+          "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin.",
+          "Theo những nghiên cứu cũ, người ta cho rằng sở dĩ có những trường hợp ngộ độc do ốc sên chính là do ốc sên ăn cỏ cây nấm độc. Còn bản thân ốc sên không có độc. Do đó nếu chỉ ăn phần thịt của ốc sên còn bỏ hết phần ruột gan, ống tiêu hóa của ốc sên đi thì không có hiện tượng ngộ độc do ăn ốc sên.",
+          "Trong loài ốc sên Helix pomatia hay loài He- lix aspersa hoặc Helix vermiculata thường phá hoại cây nho ở miền Nam nước Pháp (nhưng được nhân dân Pháp coi là một món ăn quý, có tác dụng chữa bệnh phổi), người ta thấy hoạt chất là một chất nhớt, hoặc có tác giả cho rằng đó là chất helixin với thành phần sunfua trong phân tử."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_NITOTANPHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_NITOAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_LEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_ALANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_VALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_AXITASPASTIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_AXITGLUTAMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_NORLEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1968, bệnh viện thần kinh có yêu cầu Viện kiểm nghiệm nghiên cứu thành phần nước ốc sên thủy phân kết quả cho thấy có $0,48$ % nitơ toàn phần, $0,112$ % nitơ amin với những axit amin như leuxin, alanin, valin, axit aspactic, axit glutamic, nor-leuxin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_HELIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong loài ốc sên Helix pomatia hay loài He- lix aspersa hoặc Helix vermiculata thường phá hoại cây nho ở miền Nam nước Pháp (nhưng được nhân dân Pháp coi là một món ăn quý, có tác dụng chữa bệnh phổi), người ta thấy hoạt chất là một chất nhớt, hoặc có tác giả cho rằng đó là chất helixin với thành phần sunfua trong phân tử."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAN_THE",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong loài ốc sên Helix pomatia hay loài He- lix aspersa hoặc Helix vermiculata thường phá hoại cây nho ở miền Nam nước Pháp (nhưng được nhân dân Pháp coi là một món ăn quý, có tác dụng chữa bệnh phổi), người ta thấy hoạt chất là một chất nhớt, hoặc có tác giả cho rằng đó là chất helixin với thành phần sunfua trong phân tử."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T166"
+      }
+    }
+  ]
+}

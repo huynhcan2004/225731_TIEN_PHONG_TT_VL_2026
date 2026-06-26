@@ -1,0 +1,61 @@
+{
+  "entity_hub": "VI_THUOC_DANG_HOANG",
+  "source": {
+    "source_id": "CT_VT_VN_T486",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "486"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_DANG_HOANG_D",
+      "to": "VI_THUOC_DANG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị cảm.",
+        "mo_ta_chi_tiet": "Đằng hoàng trị cảm.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T486"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHE_QUAN_DANG_HOANG_D",
+      "to": "VI_THUOC_DANG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị viêm phế quản.",
+        "mo_ta_chi_tiet": "Đằng hoàng trị viêm phế quản.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T486"
+      }
+    },
+    {
+      "from": "BT_TAY_GIUN_SANG_DANG_HOANG_D",
+      "to": "VI_THUOC_DANG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương tẩy giun và sán.",
+        "mo_ta_chi_tiet": "Đằng hoàng có tác dụng tẩy giun và tẩy sán.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Liều lượng không được chỉ định rõ ràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T486"
+      }
+    }
+  ],
+  "metadata": {}
+}

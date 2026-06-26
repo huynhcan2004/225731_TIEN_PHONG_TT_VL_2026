@@ -1,0 +1,612 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_YEN",
+    "ten_raw": "Yến",
+    "ten_khoa_hoc": "$Collocalia sp.; Nidus Collocaliae Bombyx cum Botryte, Bombyx botryticatus$",
+    "ho_thuc_vat": "$họ Vũ Yến Apodidae$",
+    "variants": [
+      "Hải yến",
+      "Huyền điểu",
+      "Du hà ưu điểu",
+      "Yến sào",
+      "Mao yến",
+      "Quan yển",
+      "Bạch yến",
+      "Huyết yến",
+      "Yến thiên",
+      "Yến địa",
+      "Yến bài"
+    ],
+    "properties": {
+      "bo_phan_dung": "tổ yến (yến sào)",
+      "thu_hai": "đầu tháng 4 (vụ đầu), tháng 6 (vụ hai)",
+      "che_bien_tho": "lấy “yến sào”",
+      "lieu_dung_chung": "ngày dùng $6$ đến $12g$ Ngày uống $4$ đến $8g$ dưới dạng thuốc sắc hay thuốc bột.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "những hải đảo vùng đông nam châu Á, Inđônêxia, Philipin, miền nam Trung Quốc (bờ biển Phúc Kiến, Quảng Đông. Hải Nam)."
+    },
+    "display_name": "Vị thuốc Yến",
+    "canonical_name": "Vị thuốc Yến"
+  },
+  "nodes": [
+    {
+      "id": "B_HEN_SUYEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hen suyễn",
+        "aliases": [
+          "hen phe quan",
+          "hen suyễn",
+          "henphequan",
+          "hen phế quản",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Bệnh Hen suyễn thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_HO_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho hen",
+        "aliases": [
+          "hen suyễn",
+          "ho hen",
+          "khó thở",
+          "khotho",
+          "hohen",
+          "kho tho",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Bệnh Ho hen thuộc nhóm bệnh, thường liên quan đến đường hô hấp."
+      }
+    },
+    {
+      "id": "B_HO_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hư lao",
+        "aliases": [
+          "laoluc",
+          "hu lao",
+          "lao lực",
+          "hu ton",
+          "hư tổn",
+          "suy nhuoc co the",
+          "suynhuoccothe",
+          "suy nhược cơ thể",
+          "huton",
+          "hư lao",
+          "lao luc",
+          "hulao"
+        ],
+        "search_vector_hint": "Bệnh Hư lao thuộc nhóm bệnh, thường liên quan đến suy giảm chức năng cơ thể."
+      }
+    },
+    {
+      "id": "B_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lao",
+        "aliases": [
+          "bệnh phổi",
+          "benhphoi",
+          "benh phoi",
+          "lao"
+        ],
+        "search_vector_hint": "Bệnh Lao thuộc nhóm bệnh, thường liên quan đến nhiễm trùng do vi khuẩn Mycobacterium tuberculosis."
+      }
+    },
+    {
+      "id": "B_THO_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Bệnh Thổ huyết thuộc nhóm bệnh xuất huyết, thường liên quan đến tổn thương đường tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_BO_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ phế",
+        "aliases": [
+          "bo phe",
+          "bổ phế",
+          "bophe"
+        ],
+        "search_vector_hint": "Công năng Bổ phế thuộc nhóm công năng, thường liên quan đến tăng cường chức năng phổi."
+      }
+    },
+    {
+      "id": "CN_BO_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ vị",
+        "aliases": [
+          "bovi",
+          "bo vi",
+          "bổ vị"
+        ],
+        "search_vector_hint": "Bổ vị thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_HOCMON",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kích thích hormon",
+        "aliases": [
+          "kích thích hormon",
+          "kich thich hormon",
+          "kichthichhormon"
+        ],
+        "search_vector_hint": "Kích thích hormon thuộc nhóm công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_ACGININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Acginin",
+        "aliases": [
+          "acginin"
+        ],
+        "search_vector_hint": "Hoạt chất Acginin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_HISTIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Histidin",
+        "aliases": [
+          "histidin"
+        ],
+        "search_vector_hint": "Hoạt chất Histidin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_TRYPTOPHAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tryptophan",
+        "aliases": [
+          "tryptophan"
+        ],
+        "search_vector_hint": "Tryptophan thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_TYROSIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tyrosin",
+        "aliases": [
+          "tyrosin"
+        ],
+        "search_vector_hint": "Hoạt chất Tyrosin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XYSTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xystin",
+        "aliases": [
+          "xystin"
+        ],
+        "search_vector_hint": "Hoạt chất Xystin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_GAY_YEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Gầy yếu",
+        "aliases": [
+          "gầy yếu",
+          "thieucan",
+          "gay yeu",
+          "thiếu cân",
+          "gayyeu",
+          "sút cân",
+          "sut can",
+          "sutcan",
+          "thieu can"
+        ],
+        "search_vector_hint": "Triệu chứng Gầy yếu thuộc nhóm triệu chứng, thường liên quan đến suy dinh dưỡng."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_YEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Yến",
+        "aliases": [
+          "yen",
+          "yến"
+        ],
+        "search_vector_hint": "Yến thuộc nhóm vị thuốc, thường liên quan đến ...",
+        "bo_phan_dung": "tổ yến (yến sào)",
+        "thu_hai": "đầu tháng 4 (vụ đầu), tháng 6 (vụ hai)",
+        "che_bien_tho": "lấy “yến sào”",
+        "lieu_dung_chung": "ngày dùng $6$ đến $12g$ Ngày uống $4$ đến $8g$ dưới dạng thuốc sắc hay thuốc bột.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "những hải đảo vùng đông nam châu Á, Inđônêxia, Philipin, miền nam Trung Quốc (bờ biển Phúc Kiến, Quảng Đông. Hải Nam).",
+        "ten_khoa_hoc": "$Collocalia sp.; Nidus Collocaliae Bombyx cum Botryte, Bombyx botryticatus$",
+        "ho_thuc_vat": "$họ Vũ Yến Apodidae$",
+        "hinh_thai_chi_tiet": "Ở Việt Nam chim yến cho yến sống nhiều ở ven biển từ Quảng Bình đến Hà Tiên. Có ba vùng đặc biệt nổi tiếng: Cù lao Chàm (thuộc tỉnh Quảng Nam, Đà Nẵng). Mũi én và vùng biển thuộc tỉnh Khánh Hòa. Tại những vùng này yến sống rất đông ở nhiều đảo. Nhưng yến thường ở tại những nơi rất hiểm hóc: Khi thì ở những mũi đá lởm chởm dựng đứng, khi thì ở những mỏm núi cheo leo, phía dưới là vịnh nước đen sâu đầy đá ngầm, muốn tìm và đến được những nơi yến ở để lấy tổ yến phải rất kiên nhẫn và rất dũng cảm."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "977"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở Việt Nam chim yến cho yến sống nhiều ở ven biển từ Quảng Bình đến Hà Tiên. Có ba vùng đặc biệt nổi tiếng: Cù lao Chàm (thuộc tỉnh Quảng Nam, Đà Nẵng). Mũi én và vùng biển thuộc tỉnh Khánh Hòa. Tại những vùng này yến sống rất đông ở nhiều đảo. Nhưng yến thường ở tại những nơi rất hiểm hóc: Khi thì ở những mũi đá lởm chởm dựng đứng, khi thì ở những mỏm núi cheo leo, phía dưới là vịnh nước đen sâu đầy đá ngầm, muốn tìm và đến được những nơi yến ở để lấy tổ yến phải rất kiên nhẫn và rất dũng cảm."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_YEN",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "HC_HISTIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong protit thấy có $2,7\\%$ $histidin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong protit thấy có $2,7\\%$ $acginin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "HC_XYSTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong protit thấy có $2,4\\%$ $xystin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "HC_TRYPTOPHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong protit thấy có $1,4\\%$ $tryptophan$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "HC_TYROSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong protit thấy có $5,6\\%$ $tyrosin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "B_HO_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thường dùng làm món ăn bổ trong những bữa tiệc lớn.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thường dùng làm món ăn bổ trong những bữa tiệc lớn.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | $6$ đến $12g$",
+        "cach_dung": "Thường dùng làm món ăn bổ trong những bữa tiệc lớn. | Dưới dạng thuốc sắc: cho yến sào vào túi vải, thêm nước vào đun sôi, để lắng mà uống.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới dạng thuốc sắc: cho yến sào vào túi vải, thêm nước vào đun sôi, để lắng mà uống.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "B_HO_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6$ đến $12g$",
+        "cach_dung": "Dưới dạng thuốc sắc: cho yến sào vào túi vải, thêm nước vào đun sôi, để lắng mà uống.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "B_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6$ đến $12g$",
+        "cach_dung": "Dưới dạng thuốc sắc: cho yến sào vào túi vải, thêm nước vào đun sôi, để lắng mà uống.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T979"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "CN_BO_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính bình, vào hai kinh phế, có công năng bổ phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "CN_BO_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính bình, vào hai kinh vị, có công năng bổ vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_YEN",
+      "to": "DL_KICH_THICH_HOCMON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất protit của bạch cương tàm có tác dụng kích thích của hocmon vỏ thượng thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T977",
+        "all_sources": [
+          "CT_VT_VN_T977"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 53.0,
+      "reliability_c_score": 0.7605,
+      "total_confidence_sum": 14.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

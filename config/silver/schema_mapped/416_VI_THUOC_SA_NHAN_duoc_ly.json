@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_SA_NHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T416",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "416"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SA_NHAN",
+      "to": "CN_HANH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hành khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA_NHAN",
+      "to": "CN_DIEU_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng điều trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA_NHAN",
+      "to": "CN_HOA_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hòa vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA_NHAN",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân là một vị thuốc kích thích và giúp sự tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA_NHAN",
+      "to": "DL_GIUP_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sa nhân là một vị thuốc kích thích và giúp sự tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T416"
+      }
+    }
+  ],
+  "metadata": {}
+}

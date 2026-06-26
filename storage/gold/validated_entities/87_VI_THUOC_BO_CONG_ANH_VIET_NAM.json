@@ -1,0 +1,310 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+    "ten_raw": "Bồ công anh Việt Nam",
+    "ten_khoa_hoc": "$Lactuca indica L.$",
+    "ho_thuc_vat": "$họ Cúc (Asteraceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá tươi hoặc lá khô hay cành và lá khô",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Liều dùng hàng ngày: $20$ đến $40$g lá tươi hoặc $10$ đến $15$g lá khô hay cành và lá khô. Dùng riêng hoặc phối hợp với các vị thuốc khác, thường dùng dưới dạng thuốc sắc có thêm đường cho dễ uống. Còn dùng giã nát đắp ngoài, không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "nhiều tỉnh miền bắc nước ta"
+    },
+    "display_name": "Bồ công anh Việt Nam",
+    "canonical_name": "Bồ công anh Việt Nam"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bo Cong Anh Viet Nam"
+      }
+    },
+    {
+      "id": "B_SUNG_VU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sung Vu"
+      }
+    },
+    {
+      "id": "B_TAC_TIA_SUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tac Tia Sua"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_DINH_RAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dinh Rau"
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Da Day"
+      }
+    },
+    {
+      "id": "BT_DAU_DA_DAY_BO_CONG_ANH_VIET_NAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Da Day Bo Cong Anh Viet Nam"
+      }
+    },
+    {
+      "id": "VI_THUOC_LA_KHOI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc La Khoi"
+      }
+    },
+    {
+      "id": "VI_THUOC_LA_KHO_SAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc La Kho Sam"
+      }
+    },
+    {
+      "id": "DL_GAY_NGU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Gay Ngu"
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KEM_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Uong Kem Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "87"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bồ công anh là một cây nhỏ, cao $0,60$m đến $1$m, có thể cao tới $3$m. Thân mọc thẳng, nhẵn, không cành hoặc rất ít cành. Lá có nhiều hình dạng; lá phía dưới dài $30$cm, rộng $5$-$6$cm. gần như không cuống, chia thành nhiều thùy hay răng cưa to thô, lá phía trên ngắn hơn, nguyên chứ không chia thùy, mép có răng cưa thưa. Bấm lá và thân đều thấy tiết ra nhũ dịch màu trắng đục như sữa, vị hơi đắng. Cụm hoa hình đầu, màu vàng, có loại tím.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Thường nhân dân ta dùng lá, lá hái về dùng tươi hay phơi hoặc sấy khô dùng dần. Thường hay dùng tươi. Không phải chế biến gì đặc biệt. Một số người hái cả cây, cả rễ cắt nhỏ phơi khô để dùng."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "B_SUNG_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá bồ công anh tươi $20-40g$",
+        "cach_dung": "Rửa sạch, thêm ít muối giã nát, vắt lấy nước uống, bã dùng đắp lên nơi vú sưng đau. Thường chỉ dùng $2-3$ lần là đỡ (kinh nghiệm dân gian).",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "B_TAC_TIA_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá bồ công anh tươi $20-40g$",
+        "cach_dung": "Rửa sạch, thêm ít muối giã nát, vắt lấy nước uống, bã dùng đắp lên nơi vú sưng đau. Thường chỉ dùng $2-3$ lần là đỡ (kinh nghiệm dân gian).",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá bồ công anh tươi $20-40g$ | Lá bồ công anh khô $10-15g$",
+        "cach_dung": "Rửa sạch, thêm ít muối giã nát, vắt lấy nước uống, bã dùng đắp lên nơi vú sưng đau. Thường chỉ dùng $2-3$ lần là đỡ (kinh nghiệm dân gian). | Nước $600ml$ ($3$ bát), sắc còn $200ml$ ($1$ bát) (có thể đun sôi kỹ và giữ sôi trong vòng $15$ phút). Uống liên tục trong $3-5$ ngày, có thể kéo dài hơn.",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "B_DINH_RAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá bồ công anh tươi $20-40g$",
+        "cach_dung": "Rửa sạch, thêm ít muối giã nát, vắt lấy nước uống, bã dùng đắp lên nơi vú sưng đau. Thường chỉ dùng $2-3$ lần là đỡ (kinh nghiệm dân gian).",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "CN_AN_UONG_KEM_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | Lá bồ công anh khô $10-15g$",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều) | Nước $600ml$ ($3$ bát), sắc còn $200ml$ ($1$ bát) (có thể đun sôi kỹ và giữ sôi trong vòng $15$ phút). Uống liên tục trong $3-5$ ngày, có thể kéo dài hơn.",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_BO_CONG_ANH_VIET_NAM",
+      "to": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_BO_CONG_ANH_VIET_NAM",
+      "to": "VI_THUOC_LA_KHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_BO_CONG_ANH_VIET_NAM",
+      "to": "VI_THUOC_LA_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_BO_CONG_ANH_VIET_NAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Thêm $300ml$ nước, sắc đun sôi trong vòng $15$ phút, thêm ít đường vào mà uống (chia $3$ lần uống trong ngày). Uống liên tục trong vòng $10$ ngày, nghỉ $3$ ngày rồi lại tiếp tục cho đến khi khỏi.",
+        "ghi_chu": "CT_VT_VN_T88"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_CONG_ANH_VIET_NAM",
+      "to": "DL_GAY_NGU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu của nước ngoài, những loại Lactuca nói trên không có độc, có tính chất gây ngủ nhẹ.",
+        "ghi_chu": "Đề cập đến các loại Lactuca nói chung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T87",
+        "all_sources": [
+          "CT_VT_VN_T87"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 31.0,
+      "reliability_c_score": 0.7667,
+      "total_confidence_sum": 9.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

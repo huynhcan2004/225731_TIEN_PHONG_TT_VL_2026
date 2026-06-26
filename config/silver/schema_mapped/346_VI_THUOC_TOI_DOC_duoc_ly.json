@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_TOI_DOC",
+  "source": {
+    "source_id": "CT_VT_VN_T346",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "346"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TOI_DOC",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ có tác dụng hạ nhiệt được dùng trong điều trị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI_DOC",
+      "to": "DL_CHONG_DI_UNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ có tác dụng chống dị ứng (anti-allergique) được dùng trong điều trị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI_DOC",
+      "to": "DL_CHONG_BENH_GOUT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ có tác dụng chống bệnh gút được dùng trong điều trị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI_DOC",
+      "to": "DL_TANG_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay người ta thấy $conchixin$ gây tăng huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI_DOC",
+      "to": "DL_TANG_NHU_DONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hiện nay người ta thấy $conchixin$ gây tăng nhu động một cách thái quá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    }
+  ],
+  "metadata": {}
+}

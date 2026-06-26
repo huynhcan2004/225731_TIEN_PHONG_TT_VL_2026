@@ -1,0 +1,112 @@
+{
+  "entity_hub": "VI_THUOC_O_DAU_VIET_NAM",
+  "source": {
+    "source_id": "CT_VT_VN_T896",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "896"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "VT_O_DAU_VIET_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc khu phong trừ thấp, giảm đau nhức xương khớp.",
+        "ghi_chu": "Rượu phụ tử quế chi (đơn thuốc của Trương Trọng Cảnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ trừ phong thấp, tăng cường lưu thông khí huyết.",
+        "ghi_chu": "Rượu phụ tử quế chi (đơn thuốc của Trương Trọng Cảnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Điều hòa các vị thuốc, bảo vệ tỳ vị.",
+        "ghi_chu": "Rượu phụ tử quế chi (đơn thuốc của Trương Trọng Cảnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "VT_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2 g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ huyết, giảm đau.",
+        "ghi_chu": "Rượu phụ tử quế chi (đơn thuốc của Trương Trọng Cảnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "VT_TAO_DO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ tỳ vị, dưỡng huyết.",
+        "ghi_chu": "Rượu phụ tử quế chi (đơn thuốc của Trương Trọng Cảnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "B_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh chân tay đau nhức, khớp xương sưng đau.",
+        "cach_dung": "Ngày uống $60ml$ rượu này chia làm nhiều lần uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "BT_CHAN_TAY_DAU_NHUC_PHU_TUC_QCTTX",
+      "to": "S_KHOP_XUONG_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh chân tay đau nhức, khớp xương sưng đau.",
+        "cach_dung": "Ngày uống $60ml$ rượu này chia làm nhiều lần uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    }
+  ],
+  "metadata": {}
+}

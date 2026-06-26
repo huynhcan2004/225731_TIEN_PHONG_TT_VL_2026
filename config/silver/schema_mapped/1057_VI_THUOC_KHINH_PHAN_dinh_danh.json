@@ -1,0 +1,169 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHINH_PHAN",
+    "ten_raw": "Khinh phấn",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1057"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "(Orpiment, Auripigment) đều là vị thuốc thường dùng trong đông y có chứa asen (thạch tín). Hùng là đực, hoàng là vàng vì hùng hoàng màu vàng, thường thấy ở núi về phía mặt trời mọc. Có khi đỏ trong thì gọi là hùng tinh. Thư là cái, hoàng là vàng vì thư hoàng màu vàng nhạt hơn, thường thấy ở núi phía mặt trời lặn (âm tính). Thực tế hùng hoàng có khi có màu đỏ, nền da cam, còn thư hoàng bao giờ cũng màu vàng. A. Nguồn gốc và tính chất Hùng hoàng hiện nay ta vẫn phải nhập của Trung Quốc. Tại đây có những nơi hùng hoàng ở trạng thái thiên nhiên thành mỏ dưới hình thức mềm như bún. Quanh năm có thể thu hoạch chế biến. Người ta dùng dao tre cắt thành từng miếng, để ra không khí hùng hoàng sẽ cứng lại; loại bỏ tạp chất là được. Hùng hoàng được bán dưới hình thức cục to nhỏ không đều nhau, màu vàng da cam hay hơi hồng. Không có mùi vị, tỷ trọng chừng $3,5$ dễ chảy và bốc hơi ở nhiệt độ $700$. Hòa tan trong dung dịch amoniāc, dung dịch không có màu. Khi ném vào than hồng hùng hoàng cho mùi tỏi và mùi sunfua.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu của hùng hoàng là asen sunfua (AsS) trong đó asen chiếm chừng $70,1$ %; sunfua $29$%. Theo hệ dược của viện y học Bắc Kinh phân tích một loại hùng hoàng thì chỉ thấy $64,78$% asen và $25,12$% sunfua.",
+          "Có tác giả lại cho rằng hùng hoàng tương ứng với As,S,, còn thư hoàng tương ứng với As,S Nhưng có tác giả lại cho rằng thành phần hùng hoàng và thư hoàng đều là As,S, nhưng trong thư hoàng có lẫn tạp chất là stibi sunfua Sb,S, sắt sunfua FeS và silic oxyt (SiO,). Năm 1958, hệ Dược viện y học Bắc Kinh phân tích thư hoàng lưu hành trên thị trường thấy asen $60,64$%; sunfua thấy $30,88$%; ngoài ra có tạp chất như sắt (Fe), silic (Si)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng hơi cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng hơi cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_ASEN_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của hùng hoàng là asen sunfua (AsS) trong đó asen chiếm chừng $70,1$ %; sunfua $29$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_ASEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo hệ dược của viện y học Bắc Kinh phân tích một loại hùng hoàng thì chỉ thấy $64,78$% asen và $25,12$% sunfua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo hệ dược của viện y học Bắc Kinh phân tích một loại hùng hoàng thì chỉ thấy $64,78$% asen và $25,12$% sunfua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_STIBI_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng có tác giả lại cho rằng thành phần hùng hoàng và thư hoàng đều là As,S, nhưng trong thư hoàng có lẫn tạp chất là stibi sunfua Sb,S, sắt sunfua FeS và silic oxyt (SiO,)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_SAT_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng có tác giả lại cho rằng thành phần hùng hoàng và thư hoàng đều là As,S, nhưng trong thư hoàng có lẫn tạp chất là stibi sunfua Sb,S, sắt sunfua FeS và silic oxyt (SiO,)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "HC_SILIC_OXYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhưng có tác giả lại cho rằng thành phần hùng hoàng và thư hoàng đều là As,S, nhưng trong thư hoàng có lẫn tạp chất là stibi sunfua Sb,S, sắt sunfua FeS và silic oxyt (SiO,)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    }
+  ]
+}

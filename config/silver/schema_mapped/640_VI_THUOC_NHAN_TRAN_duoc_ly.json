@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_NHAN_TRAN",
+  "source": {
+    "source_id": "CT_VT_VN_T640",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "640"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHAN_TRAN",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRAN",
+      "to": "CN_LOI_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh tỳ, vị, đởm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRAN",
+      "to": "DL_TANG_BAI_TIET_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân trần có tác dụng làm tăng sự bài tiết của mật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRAN",
+      "to": "DL_HA_BILIRUBIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tăng thải trừ bilirubin trong máu, hạ thấp nồng độ bilirubin và làm hết vàng da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    }
+  ],
+  "metadata": {}
+}

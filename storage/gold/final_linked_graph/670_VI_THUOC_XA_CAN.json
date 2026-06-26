@@ -1,0 +1,862 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_XA_CAN",
+    "ten_raw": "Xa can",
+    "ten_khoa_hoc": "$Belamcanda sinensis (L) DC. (Pardanthus sinensis Ker., Ixia sinensis Murr.)$",
+    "ho_thuc_vat": "$Lay ơn Iridaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "củ tươi",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Ngày dùng 3-6$g$ dưới dạng thuốc sắc. Hoặc giã củ tươi 10-20$g$ với vài hạt muối. Vắt lấy nước, ngậm nuốt dần. Bã đắp ở ngoài.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "Mọc hoang khắp nơi ở Việt Nam, nhiều nhất tại các vùng savan, có khi được trồng làm cảnh. Còn mọc ở Trung Quốc, Nhật Bản, Philipin."
+    },
+    "display_name": "Vị thuốc Xạ can",
+    "canonical_name": "Vị thuốc Xạ can"
+  },
+  "nodes": [
+    {
+      "id": "BT_TAC_CO_HONG_XA_CAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tắc cổ họng Xạ can",
+        "aliases": [
+          "taccohongxacan",
+          "tắc cổ họng xạ can",
+          "tac co hong xa can"
+        ],
+        "search_vector_hint": "Bài thuốc Tắc cổ họng Xạ can thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh lý đường hô hấp."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_DAU_DON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt đau đớn",
+        "aliases": [
+          "thongkinh",
+          "kinh nguyet dau don",
+          "kinh nguyệt đau đớn",
+          "thống kinh",
+          "thong kinh",
+          "kinhnguyetdaudon"
+        ],
+        "search_vector_hint": "Bệnh Kinh nguyệt đau đớn thuộc nhóm Bệnh, thường liên quan đến phụ nữ trong độ tuổi sinh sản."
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Răng cắn",
+        "aliases": [
+          "rang can",
+          "răng cắn",
+          "rangcan"
+        ],
+        "search_vector_hint": "Bệnh Răng cắn thuộc nhóm bệnh, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "B_SUNG_VU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sưng vú",
+        "aliases": [
+          "sưng vú",
+          "sungvu",
+          "sung vu"
+        ],
+        "search_vector_hint": "Bệnh Sưng vú thuộc nhóm bệnh phụ khoa, thường liên quan đến viêm nhiễm tuyến vú."
+      }
+    },
+    {
+      "id": "B_TAC_CO_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tắc cổ họng",
+        "aliases": [
+          "nghen hong",
+          "tac co hong",
+          "khonuot",
+          "tắc cổ họng",
+          "taccohong",
+          "nghẹn họng",
+          "khó nuốt",
+          "kho nuot",
+          "nghenhong"
+        ],
+        "search_vector_hint": "Bệnh Tắc cổ họng thuộc nhóm Bệnh, thường liên quan đến cảm giác khó chịu ở cổ họng."
+      }
+    },
+    {
+      "id": "B_VIEM_CO_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm cổ họng",
+        "aliases": [
+          "viêm họng",
+          "viêm cổ họng",
+          "viem co hong",
+          "viem hong",
+          "viemhong",
+          "viemcohong"
+        ],
+        "search_vector_hint": "Bệnh Viêm cổ họng thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường hô hấp trên."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TAN_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tán huyết",
+        "aliases": [
+          "tan huyet",
+          "tanhuyet",
+          "tán huyết"
+        ],
+        "search_vector_hint": "Công năng Tán huyết thuộc nhóm Công năng, thường liên quan đến khả năng phá vỡ cục máu đông."
+      }
+    },
+    {
+      "id": "CN_THANH_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh hỏa",
+        "aliases": [
+          "thanh hỏa",
+          "thanh hoa",
+          "thanhhoa"
+        ],
+        "search_vector_hint": "Công năng Thanh hỏa thuộc nhóm Công năng, thường liên quan đến điều trị các chứng nhiệt."
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu đờm",
+        "aliases": [
+          "tiêu đờm",
+          "tieu dom",
+          "hoa dam",
+          "tieudom",
+          "hoadam",
+          "khudam",
+          "khử đàm",
+          "khu dam",
+          "hóa đàm"
+        ],
+        "search_vector_hint": "Công năng Tiêu đờm thuộc nhóm Công năng, thường liên quan đến làm giảm lượng đờm trong cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "HC_BELAMCANDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Belamcandin",
+        "aliases": [
+          "belamcandin"
+        ],
+        "search_vector_hint": "Belamcandin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_IRIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Iridin",
+        "aliases": [
+          "iridin"
+        ],
+        "search_vector_hint": "Iridin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_SHEKANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Shekanin",
+        "aliases": [
+          "shekanin"
+        ],
+        "search_vector_hint": "Shekanin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TECTORIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tectoridin",
+        "aliases": [
+          "tectoridin"
+        ],
+        "search_vector_hint": "Tectoridin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_BANG_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Báng bụng",
+        "aliases": [
+          "bang bung",
+          "báng bụng",
+          "cotruong",
+          "co truong",
+          "bangbung",
+          "cổ trướng"
+        ],
+        "search_vector_hint": "Triệu chứng Báng bụng thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý về gan."
+      }
+    },
+    {
+      "id": "S_DAI_TIEN_KHONG_THONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đại tiện không thông",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon",
+          "dai tien khong thong",
+          "daitienkhongthong",
+          "đại tiện không thông"
+        ],
+        "search_vector_hint": "Đại tiện không thông thuộc nhóm triệu chứng, thường liên quan đến khó khăn trong việc đi tiêu."
+      }
+    },
+    {
+      "id": "S_DA_DEN_XAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Da đen sạm",
+        "aliases": [
+          "da đen sạm",
+          "dasamden",
+          "da sam den",
+          "dadensam",
+          "da sạm đen",
+          "da den sam"
+        ],
+        "search_vector_hint": "Triệu chứng Da đen sạm thuộc nhóm Triệu chứng, thường liên quan đến thay đổi sắc tố da."
+      }
+    },
+    {
+      "id": "S_NUOC_OC_ACH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nước óc ách",
+        "aliases": [
+          "nuococach",
+          "nước óc ách",
+          "nuoc oc ach"
+        ],
+        "search_vector_hint": "Triệu chứng Nước óc ách thuộc nhóm Triệu chứng, thường liên quan đến âm thanh bất thường trong cơ thể."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_CAT_CANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cát cánh",
+        "aliases": [
+          "cat canh",
+          "cát cánh",
+          "catcanh"
+        ],
+        "search_vector_hint": "Vị thuốc Cát cánh thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "VT_HOANG_CAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng cầm",
+        "aliases": [
+          "hoang cam",
+          "hoàng cầm",
+          "hoangcam"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng cầm thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "VT_XA_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xạ can",
+        "aliases": [
+          "xạ can",
+          "rẻ quạt",
+          "xacan",
+          "re quat",
+          "requat",
+          "xa can"
+        ],
+        "search_vector_hint": "Xạ can thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc và tiêu đờm.",
+        "bo_phan_dung": "củ tươi",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Ngày dùng 3-6$g$ dưới dạng thuốc sắc. Hoặc giã củ tươi 10-20$g$ với vài hạt muối. Vắt lấy nước, ngậm nuốt dần. Bã đắp ở ngoài.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "Mọc hoang khắp nơi ở Việt Nam, nhiều nhất tại các vùng savan, có khi được trồng làm cảnh. Còn mọc ở Trung Quốc, Nhật Bản, Philipin.",
+        "ten_khoa_hoc": "$Belamcanda sinensis (L) DC. (Pardanthus sinensis Ker., Ixia sinensis Murr.)$",
+        "ho_thuc_vat": "$Lay ơn Iridaceae$",
+        "hinh_thai_chi_tiet": "Xạ can là một loại cỏ sống dai, có thân rễ mọc bò. Thân có lá mọc thẳng đứng, có thể cao tới 1m. Lá hình mác, hơi có bẹ, dài $20-40cm$, rộng $15-20cm$. Cụm hoa dài $20-40cm$, cuống gầy mềm. Hoa có cuống, bao hoa có 6 cánh màu vàng cam đỏ, điểm những đốm tía . Quả nang hình trứng, có 3 van, dài $23-25mm$, hạt xanh đen, hình cầu bóng, đường kính $5mm$ (Hình 505).",
+        "thanh_phan_hoa_hoc": "['Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ và $tectoridin$.', 'Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$, và $shekanin$ (xạ can tố) với hiệu suất $0,05\\\\%$.', '$Belamcandin$ thuỷ phân sẽ cho glucoza và belamcangenin.', '$Tectoridin$ thuỷ phân sẽ cho glucoza và tectorigenin (có tinh thể hình phiến, độ chảy $227-230°C$).']"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "670"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Xạ can là một loại cỏ sống dai, có thân rễ mọc bò. Thân có lá mọc thẳng đứng, có thể cao tới 1m. Lá hình mác, hơi có bẹ, dài $20-40cm$, rộng $15-20cm$. Cụm hoa dài $20-40cm$, cuống gầy mềm. Hoa có cuống, bao hoa có 6 cánh màu vàng cam đỏ, điểm những đốm tía . Quả nang hình trứng, có 3 van, dài $23-25mm$, hạt xanh đen, hình cầu bóng, đường kính $5mm$ (Hình 505).",
+        "thanh_phan_hoa_hoc": [
+          "Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ và $tectoridin$.",
+          "Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$, và $shekanin$ (xạ can tố) với hiệu suất $0,05\\%$.",
+          "$Belamcandin$ thuỷ phân sẽ cho glucoza và belamcangenin.",
+          "$Tectoridin$ thuỷ phân sẽ cho glucoza và tectorigenin (có tinh thể hình phiến, độ chảy $227-230°C$)."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_XA_CAN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "HC_BELAMCANDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ và $tectoridin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "HC_TECTORIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ và $tectoridin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "HC_IRIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$, và $shekanin$ (xạ can tố) với hiệu suất $0,05\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "HC_SHEKANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$, và $shekanin$ (xạ can tố) với hiệu suất $0,05\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "B_VIEM_CO_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nói chung xạ can được coi là một vị thuốc quý chữa mọi bệnh về cổ họng",
+        "ghi_chu": "vùng amiđan bị sưng mủ, đau cổ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "S_DAI_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "B_SUNG_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "tắc tia sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "B_KINH_NGUYET_DAU_DON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nhai nuốt lấy nước, bã đắp lên nơi rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAC_CO_HONG_XA_CAN",
+      "to": "VT_XA_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAC_CO_HONG_XA_CAN",
+      "to": "VT_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAC_CO_HONG_XA_CAN",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAC_CO_HONG_XA_CAN",
+      "to": "VT_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAC_CO_HONG_XA_CAN",
+      "to": "B_TAC_CO_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Các vị tán nhỏ, dùng nước lã đun sôi để nguội mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "S_BANG_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, vắt lấy nước uống, hễ thấy lợi tiểu tiện thì thôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "S_NUOC_OC_ACH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, vắt lấy nước uống, hễ thấy lợi tiểu tiện thì thôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "S_DA_DEN_XAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, vắt lấy nước uống, hễ thấy lợi tiểu tiện thì thôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "CN_THANH_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "CN_TAN_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_CAN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hơi độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T670",
+        "all_sources": [
+          "CT_VT_VN_T670"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7571,
+      "total_confidence_sum": 21.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

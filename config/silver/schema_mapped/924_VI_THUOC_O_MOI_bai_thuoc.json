@@ -1,0 +1,214 @@
+{
+  "entity_hub": "VI_THUOC_O_MOI",
+  "source": {
+    "source_id": "CT_VT_VN_T924",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "924"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị đau bụng.",
+        "cach_dung": "Uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_O_MOI_O",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_O_MOI_O",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_LO_NGUA_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị lở ngứa.",
+        "cach_dung": "Rửa nơi lở ngứa",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_LO_NGUA_O_MOI_O",
+      "to": "B_LO_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lở ngứa",
+        "cach_dung": "Rửa nơi lở ngứa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_HO_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị ho.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_HO_O_MOI_O",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị đau dạ dày.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_O_MOI_O",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dạ dày",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị ỉa chảy.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_O_MOI_O",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa chảy",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_LY_O_MOI_O",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị lỵ.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_LY_O_MOI_O",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_CHAN_O_MOI_H",
+      "to": "VI_THUOC_O_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị mồ hôi chân.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_CHAN_O_MOI_H",
+      "to": "S_MO_HOI_CHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi chân nhiều quá",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    }
+  ],
+  "metadata": {}
+}

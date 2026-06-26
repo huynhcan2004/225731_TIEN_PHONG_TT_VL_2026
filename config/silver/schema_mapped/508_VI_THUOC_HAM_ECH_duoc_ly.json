@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_HAM_ECH",
+  "source": {
+    "source_id": "CT_VT_VN_T508",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "508"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "CN_TRI_DAU_XUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị đau xương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "CN_HANH_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành huyết phá huyết ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "CN_HOA_HOAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc hoà hoãn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng đỡ đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAM_ECH",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị có kết quả 4 trường hợp bong gân, tụ máu. Thường chỉ sau $3$ ngày đến $1$ tuần là bệnh nhân đỡ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T508"
+      }
+    }
+  ],
+  "metadata": {}
+}

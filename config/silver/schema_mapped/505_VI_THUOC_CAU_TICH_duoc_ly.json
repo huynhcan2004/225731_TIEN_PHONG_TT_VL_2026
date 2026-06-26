@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_CAU_TICH",
+  "source": {
+    "source_id": "CT_VT_VN_T505",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "505"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "CN_KHU_PHONG_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Cẩu tích có công năng trừ phong thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "CN_BO_GAN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Cẩu tích có công năng bổ can thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Cẩu tích có công năng mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "TINH_AM",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "KINH_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "KINH_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    }
+  ],
+  "metadata": {}
+}

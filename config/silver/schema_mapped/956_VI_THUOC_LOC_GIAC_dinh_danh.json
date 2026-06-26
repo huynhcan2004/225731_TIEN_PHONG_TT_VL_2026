@@ -1,0 +1,121 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LOC_GIAC",
+    "ten_raw": "Lộc giác",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T956",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "956"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_THAN",
+          "K_CAN",
+          "K_TAM",
+          "K_TAM_BAO"
+        ],
+        "cong_nang": "tán ứ, hoạt huyết, tiêu thũng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Huyết nhung được coi là loại nhung quý nhất: Nhung ngắn, mềm, mọng máu, chưa phân nhánh. Nhung yên ngựa là loại sừng non bắt đầu phân nhánh nhưng nhánh còn ngắn, chỗ phân nhánh bên dài bên ngắn trông giống yên con ngựa. Loại này người ta cũng rất quý vì cho rằng nhung đã phát triển đầy đủ mà chưa thành sừng. Nếu đợi quá ít nữa, một phần đã thành sùng thì kém giá trị.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Ngoài Việt nam, Trung Quốc, Nhật Bản, Triều Tiên là những nước có kinh nghiệm lâu đời dùng nhung ra, một số dân tộc ở Liên Xô cũ cũng dùng nhung. Trên cơ sở kinh nghiệm sử dụng trong nhân dân, các nhà bác học Liên Xô cũ đã nghiên cứu và đã đưa nhung vào danh mục các vị thuốc được chính phủ công nhận cho sản xuất và lưu hành. Một số nông trường nuôi hươu để lấy nhung làm thuốc. Hươu nai nuôi ở đây gồm nhiều loài khác nhau."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "lộc giác có vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "lộc giác có tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm bào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_GIAC",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tán ứ, hoạt huyết, tiêu thũng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T956"
+      }
+    }
+  ]
+}

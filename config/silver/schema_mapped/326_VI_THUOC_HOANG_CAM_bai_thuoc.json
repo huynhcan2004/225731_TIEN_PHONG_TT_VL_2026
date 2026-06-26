@@ -1,0 +1,231 @@
+{
+  "entity_hub": "VI_THUOC_HOANG_CAM",
+  "source": {
+    "source_id": "CT_VT_VN_T326",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "326"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng cầm là vị thuốc chính.",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "S_DONG_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh đổ máu cam",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh thổ huyết",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "S_KINH_NGUYET_QUA_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh kinh nguyệt quá nhiều",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "S_CAM_MAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh cảm mạo",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_DONG_MAU_CAM_HOANG_CAM_H",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh ho cảm",
+        "cach_dung": "Sấy khô tán nhỏ làm thành viên to bằng hạt ngô. Ngày dùng 20-30 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_TAM_HOANG_CAM",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc Tam hoàng gồm hoàng cầm, hoàng liên, đại hoàng.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lầm 5-7 viên. Uống luôn trong 1 tháng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_TAM_HOANG_CAM",
+      "to": "VI_THUOC_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bài thuốc Tam hoàng gồm hoàng cầm, hoàng liên, đại hoàng.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lầm 5-7 viên. Uống luôn trong 1 tháng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_TAM_HOANG_CAM",
+      "to": "VI_THUOC_DAI_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Tam hoàng gồm hoàng cầm, hoàng liên, đại hoàng.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lầm 5-7 viên. Uống luôn trong 1 tháng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_LAO_HOANG_CAM_M",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị lao, viêm niêm mạc tử cung gồm hoàng cầm và mạch môn đông.",
+        "cach_dung": "Sắc uống trong ngày thay nước.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_LAO_HOANG_CAM_M",
+      "to": "VI_THUOC_MACH_MON_DONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị lao, viêm niêm mạc tử cung gồm hoàng cầm và mạch môn đông.",
+        "cach_dung": "Sắc uống trong ngày thay nước.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_LAO_HOANG_CAM_M",
+      "to": "B_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh lao",
+        "cach_dung": "Sắc uống trong ngày thay nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_LAO_HOANG_CAM_M",
+      "to": "B_VIEM_NIEM_MAC_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh viêm niêm mạc tử cung",
+        "cach_dung": "Sắc uống trong ngày thay nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "BT_MAT_MAU_NHIEU_HOANG_CAM_H",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương Hoàng cầm.",
+        "mo_ta_chi_tiet": "Dùng sau khi sinh nở bị mất máu nhiều, khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_MAT_MAU_NHIEU_HOANG_CAM_H",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng cầm là vị thuốc chính.",
+        "mo_ta_chi_tiet": "Dùng sau khi sinh nở bị mất máu nhiều, khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "BT_MAT_MAU_NHIEU_HOANG_CAM_H",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng sau khi sinh nở bị mất máu nhiều, khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    }
+  ],
+  "metadata": {}
+}

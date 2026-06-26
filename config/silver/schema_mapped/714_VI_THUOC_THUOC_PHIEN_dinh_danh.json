@@ -1,0 +1,228 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUOC_PHIEN",
+    "ten_raw": "Cây thuốc phiện",
+    "ten_khoa_hoc": "Papaver somniferum L.",
+    "ho_thuc_vat": "Thuốc phiện Papaveraceae",
+    "variants": [
+      "A phiến",
+      "Thẩu",
+      "ả phù dung"
+    ],
+    "properties": {
+      "bo_phan_dung": "Quả nang",
+      "che_bien_tho": "Khi chín thì mở bằng những lỗ ở dưới đầu. Hạt rất nhiều, nhỏ, hình thận, màu trắng tro."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "714"
+      },
+      "dac_tinh_yhct": {
+        "cong_nang": "Chữa phế ung (ho có đờm xanh (mủ): Ngày dùng $10-15$g dưới dạng thuốc sắc, dùng riêng hay phối hợp với xạ can, qua lâu.\nChữa viêm gan, viêm thận, thủy thũng, viêm ruột đi ỉa lỏng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống hàng năm, cao $80cm$ đến $1,20m$. Lá mọc so le, không cuống, hơi ôm vào thân, mép khía răng cưa không đều. Hoa mọc đơn độc ở ngọn thân và cành, to, có cuống dài, trước khi nở thì rủ xuống. Đài gồm 2 mảnh màu lục rụng rất sớm khi hoa nở. Cánh hoa 4, màu trắng, hồng hay tím đỏ, rất dễ rụng. Nhị nhiều. Bầu trứng hình trứng hay hình cầu mang một vòi ngắn với một đầu hình sao có nhiều tia. Quả nang hình cầu hay hình trứng dài $4-7cm$, rộng $4-5cm$, khi chín thì mở bằng những lỗ ở dưới đầu. Hạt rất nhiều, nhỏ, hình thận, màu trắng tro.",
+        "thanh_phan_hoa_hoc": [
+          "Nhựa thuốc phiện chứa tới 25 ancaloit khác nhau. Tỷ lệ các ancaloit thay đổi tùy theo loại thuốc phiện và điều kiện trồng trọt. Các ancaloit quan trọng là: 1. $Morphin$ (4-21%) 2. $Codein$ (0,8-2,5%) 3. $Thebain$ (0,3-1%) 4. $Papaverin$ (0,5-2,5%) 5. $Nacotin$ hay $Noscapin$ (4-8%) 6. $Narcein$ (0,1-0,7%) Ngoài ra còn có $laudanin$, $laudanosin$, $codamin$, $papaveramin$, $xantalin$, $rhoeadin$, $meconidin$, $luteolin$, $apomorphin$ và một số men. Trong nhựa thuốc phiện còn có axit meconic (3-5%) và một chất trung tính gọi là meconin (0,1-0,2%)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_MORPHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Morphin$ (4-21%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_CODEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Codein$ (0,8-2,5%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_THEBAIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Thebain$ (0,3-1%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_PAPAVERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Papaverin$ (0,5-2,5%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_NOXCAPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Nacotin$ hay $Noscapin$ (4-8%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_NARCEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Narcein$ (0,1-0,7%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_LAUDANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $laudanin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_LAUDANOSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $laudanosin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_CODAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $codamin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_PAPAVERAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $papaveramin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_XANTALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $xantalin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_RHOEADIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $rhoeadin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_MECONIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $meconidin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_LUTEOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $luteolin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_APOMORPHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $apomorphin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_AXIT_MECONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nhựa thuốc phiện còn có axit meconic (3-5%)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "HC_MECONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và một chất trung tính gọi là meconin (0,1-0,2%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    }
+  ]
+}

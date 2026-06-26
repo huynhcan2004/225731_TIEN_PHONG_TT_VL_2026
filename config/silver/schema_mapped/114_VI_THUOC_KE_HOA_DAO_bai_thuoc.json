@@ -1,0 +1,92 @@
+{
+  "entity_hub": "VI_THUOC_KE_HOA_DAO",
+  "source": {
+    "source_id": "CT_VT_VN_T114",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "114"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_KE_HOA_DAO_K",
+      "to": "VI_THUOC_KE_HOA_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ké hoa đào là vị thuốc chính.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "rễ và thân sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    },
+    {
+      "from": "BT_LY_KE_HOA_DAO_K",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    },
+    {
+      "from": "BT_DAU_SUNG_KE_HOA_DAO_K",
+      "to": "VI_THUOC_KE_HOA_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Ké hoa đào là vị thuốc chính.",
+        "cach_dung": "Đắp lên chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    },
+    {
+      "from": "BT_DAU_SUNG_KE_HOA_DAO_K",
+      "to": "S_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau sưng",
+        "cach_dung": "Đắp lên chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_KE_HOA_DAO_K",
+      "to": "VI_THUOC_KE_HOA_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Ké hoa đào là vị thuốc chính.",
+        "cach_dung": "Đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    },
+    {
+      "from": "BT_RAN_DOC_CAN_KE_HOA_DAO_K",
+      "to": "B_RAN_DOC_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rắn độc cắn",
+        "cach_dung": "Đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T114"
+      }
+    }
+  ],
+  "metadata": {}
+}

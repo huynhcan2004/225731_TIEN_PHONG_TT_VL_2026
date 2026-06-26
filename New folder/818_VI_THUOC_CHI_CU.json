@@ -1,0 +1,211 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHI_CU",
+    "ten_raw": "Chỉ cụ",
+    "ten_khoa_hoc": "Hovenia dulcis Thunb.",
+    "ho_thuc_vat": "Táo ta (Rhamnaceae)",
+    "variants": [
+      "khúng khéng",
+      "vạn thọ",
+      "kê trảo"
+    ],
+    "properties": {
+      "bo_phan_dung": "Quả hình cầu, khi chín những nhánh con mang quả phồng to lên",
+      "thu_hai": "khi chín",
+      "che_bien_tho": "Không có thông tin",
+      "lieu_dung_chung": "Ngày $3$-$5g$ dưới dạng thuốc sắc hay ngâm rượu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cao Bằng, Lạng Sơn"
+    },
+    "display_name": "Chỉ cụ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CHI_CU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Chi Cu"
+      }
+    },
+    {
+      "id": "HC_GLUCOSAFRUCTOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Glucosafructoza"
+      }
+    },
+    {
+      "id": "HC_SACROSA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sacrosa"
+      }
+    },
+    {
+      "id": "B_NGO_DOC_RUOU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ngo Doc Ruou"
+      }
+    },
+    {
+      "id": "S_NON",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Non"
+      }
+    },
+    {
+      "id": "B_TIEU_TIEN_KHONG_THONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tieu Tien Khong Thong"
+      }
+    },
+    {
+      "id": "S_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Khat Nuoc"
+      }
+    },
+    {
+      "id": "S_KHO_CO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kho Co"
+      }
+    },
+    {
+      "id": "B_SAY_RUOU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Say Ruou"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T818",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "818"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây gỗ cao 10m hay hơn. Cành non có lông và nốt sần. Lá mọc so le, có cuống dài, phiến lá hình trứng, nhọn, mép có răng cưa, 3 gan toả từ gốc lá, phiến lá dài $10-15cm$, rộng $5-9cm$. Hoa màu trắng hay lục nhạt mọc thành xim ở kẽ lá hay đầu cành. Quả hình cầu, khi chín những nhánh con mang quả phồng to lên, màu hồng nhạt, vị ngọt, ăn được ( Hình 169, Hm 46,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả chữa đường $glucozafructoza$, $saccrosa$, muối kali, nitrat và malat..."
+        ],
+        "ghi_chu_bo_sung": "Còn gọi là khúng khéng (Cao Bằng, Lạng Sơn), vạn thọ, kê trảo. Trước năm 1952, chưa phát hiện thấy cây này. Chỉ mới phát hiện những năm 1955 trở đi. Trong tài liệu “Cây thuốc” của Pételot A. còn nói rõ thêm rằng loài này gặp phổ biến ở Trung Quốc, nhưng các tác giả cũng đã xác định trong tương lai loài này sẽ được phát hiện ở các tỉnh biên giới phía Bắc nước ta. Người ta dùng quả làm thuốc với tên “chỉ cụ tử” và gỗ cây khúng khéng bào mỏng phơi hay sấy khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "HC_GLUCOSAFRUCTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chữa đường $glucozafructoza$, $saccrosa$, muối kali, nitrat và malat...",
+        "ghi_chu": "trong quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "HC_SACROSA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả chữa đường $glucozafructoza$, $saccrosa$, muối kali, nitrat và malat...",
+        "ghi_chu": "trong quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "B_NGO_DOC_RUOU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày $3-5g$ dưới dạng thuốc sắc hay ngâm rượu",
+        "cach_dung": "Sắc hay ngâm rượu",
+        "ghi_chu": "Quả (chỉ cụ tử). CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "S_NON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày $3-5g$ dưới dạng thuốc sắc hay ngâm rượu | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc hay ngâm rượu | Sắc nước uống",
+        "ghi_chu": "Quả (chỉ cụ tử). CT_VT_VN_T818 | Gỗ khúng khéng đẽo hình gối để dùng gối đầu hoặc đẽo thành từng mảnh vỏ bào. CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "B_TIEU_TIEN_KHONG_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày $3-5g$ dưới dạng thuốc sắc hay ngâm rượu",
+        "cach_dung": "Sắc hay ngâm rượu",
+        "ghi_chu": "Quả (chỉ cụ tử). CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày $3-5g$ dưới dạng thuốc sắc hay ngâm rượu",
+        "cach_dung": "Sắc hay ngâm rượu",
+        "ghi_chu": "Quả (chỉ cụ tử). CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "S_KHO_CO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày $3-5g$ dưới dạng thuốc sắc hay ngâm rượu",
+        "cach_dung": "Sắc hay ngâm rượu",
+        "ghi_chu": "Quả (chỉ cụ tử). CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_CU",
+      "to": "B_SAY_RUOU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc nước uống",
+        "ghi_chu": "Gỗ khúng khéng đẽo hình gối để dùng gối đầu hoặc đẽo thành từng mảnh vỏ bào. CT_VT_VN_T818"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T818"
+      }
+    }
+  ]
+}

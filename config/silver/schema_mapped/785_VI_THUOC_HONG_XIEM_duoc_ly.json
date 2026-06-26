@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_HONG_XIEM",
+  "source": {
+    "source_id": "CT_VT_VN_T785",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "785"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "DL_KICH_THICH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm thuốc vào mạch máu làm tăng biên độ và tần số nhịp hô hấp, kèm theo một thời gian ngắn xỉu xuống liền theo một giai đoạn kích thích dài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "DL_TANG_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng kích thích hô hấp này kèm theo tăng huyết áp và lá lách bị co bóp. Với liều cao, hiện tượng tăng huyết áp kèm theo một giai đoạn hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "DL_CO_BOP_LA_LACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng kích thích hô hấp này kèm theo tăng huyết áp và lá lách bị co bóp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "DL_CHUA_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "khai thác chất nhựa dùng làm kẹo bạc hà, kẹo hồi có khi được thêm chất pepsin với tên chewing gum, hay pepsingum làm thuốc chữa ho"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_XIEM",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "khai thác chất nhựa dùng làm kẹo bạc hà, kẹo hồi có khi được thêm chất pepsin với tên chewing gum, hay pepsingum làm thuốc giúp sự tiêu hoá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785"
+      }
+    }
+  ],
+  "metadata": {}
+}

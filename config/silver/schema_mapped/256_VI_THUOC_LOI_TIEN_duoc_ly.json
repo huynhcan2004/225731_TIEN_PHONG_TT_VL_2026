@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_LOI_TIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T256",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "256"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LOI_TIEN",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các triệu chứng tiểu tiện khó khăn (đái dắt), phù nề."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T256"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOI_TIEN",
+      "to": "CN_TRI_HO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T256"
+      }
+    }
+  ],
+  "metadata": {}
+}

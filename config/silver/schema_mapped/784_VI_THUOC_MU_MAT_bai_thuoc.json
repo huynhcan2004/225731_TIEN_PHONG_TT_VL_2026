@@ -1,0 +1,220 @@
+{
+  "entity_hub": "VI_THUOC_MU_MAT",
+  "source": {
+    "source_id": "CT_VT_VN_T784",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "784"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_MU_MAT_V",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mù mắt là vị thuốc chính chữa ho.",
+        "cach_dung": "Thêm nước vào sắc, chia làm hai ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_HO_MU_MAT_V",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Thêm nước vào sắc, chia làm hai ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MU_MAT_H",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mù mắt là vị thuốc chính chữa đau bụng.",
+        "cach_dung": "Thêm nước vào sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_MU_MAT_H",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Thêm nước vào sắc uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DAU_GOI_MU_MAT_L",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mù mắt là vị thuốc chính chữa đau nhức đầu gối.",
+        "cach_dung": "Lá giã nát trộn dấm hay rượu đắp lên nơi đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_GOI_MU_MAT_L",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mù mắt là vị thuốc chính chữa sưng đầu gối.",
+        "cach_dung": "Lá giã nát trộn dấm hay rượu đắp lên nơi đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_GOI_MU_MAT_L",
+      "to": "S_SUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sưng đầu gối",
+        "cach_dung": "Lá giã nát trộn dấm hay rượu đắp lên nơi đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_DAU_GOI_MU_MAT_L",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức đầu gối",
+        "cach_dung": "Lá giã nát trộn dấm hay rượu đắp lên nơi đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_BUNG_CHUONG_TRI_DHDHQ",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4-10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài ngũ linh tán gồm các vị tri mẫu, đan sâm, độc hoạt, hải tảo, quỉ vũ tiến, tần bông để lợi tiểu tiện, giúp ăn uống được.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_TMT",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tri mẫu, tang bạch bì, mạch môn đông phối hợp trị viêm phổi.",
+        "cach_dung": "$600ml$ nước, sắc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_TMT",
+      "to": "B_VIEM_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm phổi",
+        "cach_dung": "$600ml$ nước, sắc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_HTXMT",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tri mẫu, hoàng bá, xa tiền, mộc thông, thiên môn đông, sinh thảo phối hợp giúp điều trị chứng dương vật cương.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_CO_MANG_DONG_THAI_TRI_T",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tri mẫu là vị thuốc chính chữa động thai.",
+        "cach_dung": "Tán nhỏ, viên với mật bằng hạt ngô. Mỗi ngày uống 20 viên, chiêu với nước cháo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_TRI_T",
+      "to": "VI_THUOC_MU_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tri mẫu là vị thuốc chính chữa hắc lào.",
+        "cach_dung": "Mài với dấm bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_TRI_T",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hắc lào",
+        "cach_dung": "Mài với dấm bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T784"
+      }
+    }
+  ],
+  "metadata": {}
+}

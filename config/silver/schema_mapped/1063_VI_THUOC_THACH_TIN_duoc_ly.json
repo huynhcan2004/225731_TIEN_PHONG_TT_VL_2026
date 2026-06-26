@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_THACH_TIN",
+  "source": {
+    "source_id": "CT_VT_VN_T1063",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1063"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_TIN",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_TIN",
+      "to": "CN_CAM_NON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_TIN",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    }
+  ],
+  "metadata": {}
+}

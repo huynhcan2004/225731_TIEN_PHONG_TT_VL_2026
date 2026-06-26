@@ -1,0 +1,1208 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_XA_HUONG",
+    "ten_raw": "Xạ hương",
+    "ten_khoa_hoc": "$Moschus moschiferus L.; Moschus moschiferus Viverricula malaccensis Gmelin; Viverra zibetha L.$",
+    "ho_thuc_vat": "$Họ Hươu Cervidae; họ Cầy Viverridae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "túi xạ hương",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Vùng rừng núi cao khoảng $1.000-2.000m$, có khi tới $4.000m$ (Tây Tạng)"
+    },
+    "display_name": "Vị thuốc Xạ hương",
+    "canonical_name": "Vị thuốc Xạ hương"
+  },
+  "nodes": [
+    {
+      "id": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Triệu chứng Tâm trạng suy nhược",
+        "aliases": [
+          "tamtrangsuynhuoc",
+          "tâm trạng suy nhược",
+          "tam trang suy nhuoc"
+        ],
+        "search_vector_hint": "Tâm trạng suy nhược thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "BT_THAI_CHET_XA_HUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Thai chết xạ hương",
+        "aliases": [
+          "thai chết xạ hương",
+          "thai chet xa huong",
+          "thaichetxahuong"
+        ],
+        "search_vector_hint": "Bài thuốc Thai chết xạ hương thuộc nhóm bài thuốc, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tử tử thất cô xạ hương",
+        "aliases": [
+          "tututhatcoxahuong",
+          "tử tử thất cô xạ hương",
+          "tu tu that co xa huong"
+        ],
+        "search_vector_hint": "Bài thuốc Tử tử thất cô xạ hương thuộc nhóm bài thuốc, thường liên quan đến điều trị sản khoa."
+      }
+    },
+    {
+      "id": "B_BENH_NGUY_HIEM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Nguy hiểm",
+        "aliases": [
+          "nguy hiểm",
+          "nguyhiem",
+          "nguy hiem"
+        ],
+        "search_vector_hint": "Nguy hiểm thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_CHET_DUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Chết đuối",
+        "aliases": [
+          "chết đuối",
+          "chetduoi",
+          "chet duoi"
+        ],
+        "search_vector_hint": "Bệnh Chết đuối thuộc nhóm bệnh, thường liên quan đến tai nạn."
+      }
+    },
+    {
+      "id": "B_KICH_THICH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kích thích",
+        "aliases": [
+          "kích thích",
+          "kichthich",
+          "kich thich"
+        ],
+        "search_vector_hint": "Bệnh Kích thích thuộc nhóm bệnh, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "B_THAI_CHET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thai chết",
+        "aliases": [
+          "luu thai",
+          "luuthai",
+          "thai chet",
+          "thai chết",
+          "thaichet",
+          "lưu thai"
+        ],
+        "search_vector_hint": "Bệnh Thai chết thuộc nhóm bệnh, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "B_TRAN_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trán kinh",
+        "aliases": [
+          "tran kinh",
+          "trankinh",
+          "trán kinh"
+        ],
+        "search_vector_hint": "Bệnh Trán kinh thuộc nhóm bệnh, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "B_TRUNG_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trúng độc",
+        "aliases": [
+          "trúng độc",
+          "trung doc",
+          "trungdoc"
+        ],
+        "search_vector_hint": "Bệnh Trúng độc thuộc nhóm bệnh, thường liên quan đến nhiễm độc từ bên ngoài."
+      }
+    },
+    {
+      "id": "B_TRUNG_DOC_DO_THUC_AN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trúng độc do thức ăn",
+        "aliases": [
+          "trungdocdothucan",
+          "trúng độc do thức ăn",
+          "ngo doc thuc pham",
+          "ngodocthucpham",
+          "trung doc do thuc an",
+          "ngộ độc thực phẩm"
+        ],
+        "search_vector_hint": "Bệnh Trúng độc do thức ăn thuộc nhóm bệnh, thường liên quan đến tiêu hóa."
+      }
+    },
+    {
+      "id": "B_TU_TU_THAT_CO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tử tử thất cô",
+        "aliases": [
+          "tu tu that co",
+          "tử tử thất cô",
+          "tututhatco"
+        ],
+        "search_vector_hint": "Bệnh Tử tử thất cô thuộc nhóm bệnh, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "CN_HOI_SINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Hội Sinh",
+        "aliases": [
+          "hội sinh",
+          "hoisinh",
+          "hoi sinh"
+        ],
+        "search_vector_hint": "Kinh Hội Sinh thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_KHU_TA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Khu Tả",
+        "aliases": [
+          "khu tả",
+          "khu ta",
+          "khuta"
+        ],
+        "search_vector_hint": "Kinh Khu Tả thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_KHU_UE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Khu Uế",
+        "aliases": [
+          "khuue",
+          "khu ue",
+          "khu uế"
+        ],
+        "search_vector_hint": "Kinh Khu Uế thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_THONG_KHIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông khiếu",
+        "aliases": [
+          "thongkhieu",
+          "thông khiếu",
+          "thong khieu"
+        ],
+        "search_vector_hint": "Công năng Thông khiếu thuộc nhóm công năng, thường liên quan đến khai thông các giác quan."
+      }
+    },
+    {
+      "id": "CN_THONG_KINH_LAC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông kinh lạc",
+        "aliases": [
+          "thongkinhlac",
+          "thong kinh lac",
+          "thông kinh lạc"
+        ],
+        "search_vector_hint": "Công năng Thông kinh lạc thuộc nhóm công năng, thường liên quan đến lưu thông khí huyết."
+      }
+    },
+    {
+      "id": "CN_TRU_TRUNG_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Trừ Trung Độc",
+        "aliases": [
+          "trừ trung độc",
+          "tru trung doc",
+          "trutrungdoc"
+        ],
+        "search_vector_hint": "Kinh Trừ Trung Độc thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "HC_MUSCON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Muscon",
+        "aliases": [
+          "muscon"
+        ],
+        "search_vector_hint": "Muscon thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SCATOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Scatol",
+        "aliases": [
+          "scatol"
+        ],
+        "search_vector_hint": "Scatol thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "S_HON_ME",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hôn mê",
+        "aliases": [
+          "hon me",
+          "honme",
+          "hôn mê"
+        ],
+        "search_vector_hint": "Triệu chứng Hôn mê thuộc nhóm triệu chứng, thường liên quan đến ý thức."
+      }
+    },
+    {
+      "id": "S_ME_LOAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mê loạn",
+        "aliases": [
+          "me loan",
+          "matphuonghuong",
+          "lulan",
+          "meloan",
+          "mê loạn",
+          "mat phuong huong",
+          "mất phương hướng",
+          "lu lan",
+          "lú lẫn"
+        ],
+        "search_vector_hint": "Triệu chứng Mê loạn thuộc nhóm triệu chứng, thường liên quan đến rối loạn nhận thức."
+      }
+    },
+    {
+      "id": "S_SOT_CAP_TINH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt cấp tính",
+        "aliases": [
+          "sot cao dot ngot",
+          "sot cap tinh",
+          "sotcaptinh",
+          "sốt cấp tính",
+          "sotcaodotngot",
+          "sốt cao đột ngột"
+        ],
+        "search_vector_hint": "Sốt cấp tính thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_TAM_TRANG_SUY_NHUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tâm trạng suy nhược",
+        "aliases": [
+          "buonrau",
+          "channan",
+          "chán nản",
+          "tamtrangsuynhuoc",
+          "buon rau",
+          "tâm trạng suy nhược",
+          "tam trang suy nhuoc",
+          "buồn rầu",
+          "chan nan"
+        ],
+        "search_vector_hint": "Triệu chứng Tâm trạng suy nhược thuộc nhóm triệu chứng, thường liên quan đến rối loạn cảm xúc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BANG_PHIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Băng phiến",
+        "aliases": [
+          "long nao huong",
+          "long não hương",
+          "bangphien",
+          "longnaohuong",
+          "bang phien",
+          "băng phiến"
+        ],
+        "search_vector_hint": "Băng phiến thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_CHAU_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Châu phấn",
+        "aliases": [
+          "châu phấn",
+          "chauphan",
+          "chau phan"
+        ],
+        "search_vector_hint": "Châu phấn thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_CHU_SA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chu sa",
+        "aliases": [
+          "chusa",
+          "chu sa"
+        ],
+        "search_vector_hint": "Vị thuốc Chu sa thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_HONG_NHA_DAI_KICH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hồng nha đại kích",
+        "aliases": [
+          "hồng nha đại kích",
+          "hongnhadaikich",
+          "hong nha dai kich"
+        ],
+        "search_vector_hint": "Vị thuốc Hồng nha đại kích thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_HUNG_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hùng hoàng",
+        "aliases": [
+          "hunghoang",
+          "hung hoang",
+          "hùng hoàng"
+        ],
+        "search_vector_hint": "Vị thuốc Hùng hoàng thuộc nhóm vị thuốc, thường liên quan đến sát trùng, giải độc."
+      }
+    },
+    {
+      "id": "VT_MINH_HUNG_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Minh hùng hoàng",
+        "aliases": [
+          "minh hùng hoàng",
+          "minhhunghoang",
+          "minh hung hoang"
+        ],
+        "search_vector_hint": "Minh hùng hoàng thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_NGUU_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngưu hoàng",
+        "aliases": [
+          "ngưu hoàng",
+          "nguu hoang",
+          "nguuhoang"
+        ],
+        "search_vector_hint": "Ngưu hoàng thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_NGU_BOI_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngũ bội tử",
+        "aliases": [
+          "ngu boi tu",
+          "nguboitu",
+          "ngũ bội tử"
+        ],
+        "search_vector_hint": "Vị thuốc Ngũ bội tử thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_QUE_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quế chi",
+        "aliases": [
+          "quế chi",
+          "que chi",
+          "quechi"
+        ],
+        "search_vector_hint": "Vị thuốc Quế chi thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_SON_TU_CO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sơn từ cô",
+        "aliases": [
+          "son tu co",
+          "sontuco",
+          "sơn từ cô"
+        ],
+        "search_vector_hint": "Vị thuốc Sơn từ cô thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_THIEM_TO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thiềm tô",
+        "aliases": [
+          "thiem to",
+          "thiemto",
+          "thiềm tô"
+        ],
+        "search_vector_hint": "Thiềm tô thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_THIEN_KIM_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thiên kim tử",
+        "aliases": [
+          "thiên kim tử",
+          "thien kim tu",
+          "thienkimtu"
+        ],
+        "search_vector_hint": "Vị thuốc Thiên kim tử thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_XA_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xạ hương",
+        "aliases": [
+          "xạ hương",
+          "xahuong",
+          "xa huong"
+        ],
+        "search_vector_hint": "Xạ hương thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "túi xạ hương",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Vùng rừng núi cao khoảng $1.000-2.000m$, có khi tới $4.000m$ (Tây Tạng)",
+        "ten_khoa_hoc": "$Moschus moschiferus L.; Moschus moschiferus Viverricula malaccensis Gmelin; Viverra zibetha L.$",
+        "ho_thuc_vat": "$Họ Hươu Cervidae; họ Cầy Viverridae$",
+        "thanh_phan_hoa_hoc": "['cholesterin', 'chất béo', 'một chất nhựa đắng', 'muối canxi', 'amoniac', 'một tinh dầu có thành phần chủ yếu là một chất xeton gọi là `$muscon$`']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1012"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_THAN",
+          "K_TAM_BAO",
+          "K_TIEU_TRANG",
+          "K_PHE",
+          "K_BANG_QUANG",
+          "K_TAM_TIEU",
+          "K_CAN",
+          "K_TAM",
+          "K_VI",
+          "K_DAI_TRANG",
+          "K_DAN",
+          "K_TY"
+        ],
+        "cong_nang": "Thông khiếu, thông kinh lạc, làm sạch uế, đuổi tà, là thuốc hồi sinh, trừ trúng độc"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "cholesterin",
+          "chất béo",
+          "một chất nhựa đắng",
+          "muối canxi",
+          "amoniac",
+          "một tinh dầu có thành phần chủ yếu là một chất xeton gọi là `$muscon$`"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_XA_HUONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "HC_MUSCON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Đây là hoạt chất thơm độc nhất của xạ hương.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "HC_SCATOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xạ hương này có chất `$scatol$` bên cạnh một hợp chất có mùi.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "B_BENH_NGUY_HIEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không",
+        "ghi_chu": "Điều trị nhiều bệnh nguy hiểm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_MINH_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1,5g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_CHAU_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1,5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "VT_THIEM_TO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "S_SOT_CAP_TINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "5-10 viên",
+        "cach_dung": "Năm vị trên tán nhỏ, thêm thiềm tô tẩm rượu, viên bằng hạt cải, lấy muội bếp (bách thảo sương) làm áo cho nên viên có màu đen. Mỗi lần dùng 5-10 viên tùy theo bệnh và sức khỏe.",
+        "ghi_chu": "Tùy theo bệnh và sức khỏe"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "B_TRUNG_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "5-10 viên",
+        "cach_dung": "Năm vị trên tán nhỏ, thêm thiềm tô tẩm rượu, viên bằng hạt cải, lấy muội bếp (bách thảo sương) làm áo cho nên viên có màu đen. Mỗi lần dùng 5-10 viên tùy theo bệnh và sức khỏe.",
+        "ghi_chu": "Tùy theo bệnh và sức khỏe"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "S_ME_LOAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "5-10 viên",
+        "cach_dung": "Năm vị trên tán nhỏ, thêm thiềm tô tẩm rượu, viên bằng hạt cải, lấy muội bếp (bách thảo sương) làm áo cho nên viên có màu đen. Mỗi lần dùng 5-10 viên tùy theo bệnh và sức khỏe.",
+        "ghi_chu": "Tùy theo bệnh và sức khỏe"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAM_TRANG_SUY_NHUOC_XA_HUONG",
+      "to": "S_TAM_TRANG_SUY_NHUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "5-10 viên",
+        "cach_dung": "Năm vị trên tán nhỏ, thêm thiềm tô tẩm rượu, viên bằng hạt cải, lấy muội bếp (bách thảo sương) làm áo cho nên viên có màu đen. Mỗi lần dùng 5-10 viên tùy theo bệnh và sức khỏe.",
+        "ghi_chu": "Tùy theo bệnh và sức khỏe"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_SON_TU_CO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$80g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_THIEN_KIM_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_HONG_NHA_DAI_KICH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$60g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_NGU_BOI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "VT_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "B_TRUNG_DOC_DO_THUC_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi",
+        "cach_dung": "Các vị tán nhỏ viên thành thỏi hình trụ, mỗi thỏi nặng $4g$. Liều dùng trung bình cho người lớn là nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "S_HON_ME",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi",
+        "cach_dung": "Các vị tán nhỏ viên thành thỏi hình trụ, mỗi thỏi nặng $4g$. Liều dùng trung bình cho người lớn là nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "B_CHET_DUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi",
+        "cach_dung": "Các vị tán nhỏ viên thành thỏi hình trụ, mỗi thỏi nặng $4g$. Liều dùng trung bình cho người lớn là nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TU_TU_THAT_CO_XA_HUONG",
+      "to": "B_TU_TU_THAT_CO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi",
+        "cach_dung": "Các vị tán nhỏ viên thành thỏi hình trụ, mỗi thỏi nặng $4g$. Liều dùng trung bình cho người lớn là nửa đĩnh (thỏi) cho đến 1 hay 2 thỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THAI_CHET_XA_HUONG",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THAI_CHET_XA_HUONG",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THAI_CHET_XA_HUONG",
+      "to": "B_THAI_CHET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "cach_dung": "Hòa với rượu nóng dùng riêng hay phối hợp với nhiều vị thuốc khác, cho uống; nếu cần có thể tăng liều xạ hương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "B_KICH_THICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không",
+        "ghi_chu": "Trước kia thường được nhân dân châu Âu dùng làm thuốc kích thích"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "B_TRAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không",
+        "ghi_chu": "Trước kia thường được nhân dân châu Âu dùng làm thuốc trấn kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_THONG_KHIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông khiếu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_THONG_KINH_LAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông kinh lạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_KHU_UE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm sạch uế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_KHU_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đuổi tà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_HOI_SINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Là thuốc hồi sinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_XA_HUONG",
+      "to": "CN_TRU_TRUNG_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ trúng độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1012",
+        "all_sources": [
+          "CT_VT_VN_T1012"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 61.0,
+      "reliability_c_score": 0.7553,
+      "total_confidence_sum": 28.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

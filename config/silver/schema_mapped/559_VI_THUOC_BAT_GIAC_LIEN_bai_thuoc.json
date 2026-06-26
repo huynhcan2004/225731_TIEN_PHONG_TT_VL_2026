@@ -1,0 +1,148 @@
+{
+  "entity_hub": "VI_THUOC_BAT_GIAC_LIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T559",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "559"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VET_THUONG_BAT_GIAC_LIEN_B",
+      "to": "VI_THUOC_BAT_GIAC_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bát giác liên là vị thuốc chính trong bài thuốc đắp vết thương.",
+        "cach_dung": "Đắp lên vết thương",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_NUOC_AN_CHAN_BAT_GIAC_LIEN_B",
+      "to": "VI_THUOC_BAT_GIAC_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bát giác liên là vị thuốc chính trong bài thuốc chữa nứt nẻ, nước ăn chân.",
+        "cach_dung": "Bôi",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BAT_GIAC_LIEN_B",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương, vết loét",
+        "cach_dung": "Đắp lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_NUOC_AN_CHAN_BAT_GIAC_LIEN_B",
+      "to": "B_NUOC_AN_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lên chân tay nứt nẻ, nước ăn chân, nơi sâu bọ đốt",
+        "cach_dung": "Bôi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAT_GIAC_LIEN_B",
+      "to": "VI_THUOC_BAT_GIAC_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bát giác liên là vị thuốc chính trong bài thuốc chữa rắn cắn.",
+        "cach_dung": "Đắp lên nơi rắn cắn",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAT_GIAC_LIEN_B",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Đắp lên nơi rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_BAT_GIAC_LIEN_L",
+      "to": "VI_THUOC_BAT_GIAC_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bát giác liên là vị thuốc chính trong bài thuốc chữa cảm mạo.",
+        "cach_dung": "Xông",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_BAT_GIAC_LIEN_L",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo, sốt",
+        "cach_dung": "Xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_SOT_BAT_GIAC_LIEN_L",
+      "to": "VI_THUOC_BAT_GIAC_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bát giác liên là vị thuốc chính trong bài thuốc chữa sốt.",
+        "cach_dung": "Xông",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "BT_SOT_BAT_GIAC_LIEN_L",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo, sốt",
+        "cach_dung": "Xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    }
+  ],
+  "metadata": {}
+}

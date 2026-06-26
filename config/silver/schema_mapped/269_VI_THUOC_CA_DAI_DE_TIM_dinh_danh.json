@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_DAI_DE_TIM",
+    "ten_raw": "Cà dái dê tím",
+    "ten_khoa_hoc": "Solanum melongena L",
+    "ho_thuc_vat": "họ Cà Solanaceae",
+    "variants": [
+      "cà bát"
+    ],
+    "properties": {
+      "phan_bo": "Cây được trồng khắp nơi để lấy quả làm thức ăn.",
+      "thu_hai": "Người ta còn dùng quả làm thuốc. Quả làm thức ăn hay làm thuốc thu hái như nhau.",
+      "che_bien_tho": "Rễ đào về rửa sạch, thái mỏng phơi hay sấy khô cũng được dùng."
+    },
+    "display_name": "Cà dái dê tím"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T269",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "269"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cao $0,75$ đến $2,5m$, thân có gai, đôi khi không gai. Lã có gai và nhiều lông, phiến lá hình bầu dục hay thuôn dài, đầu nhọn, phía gốc tròn hay lệch, dài $8$-$15cm$, rộng $4$-$8cm$, cuống lá dài $2$-$4cm$. Hoa màu tím xanh, mọc thành xim có cuống, gồm $1$-$3$ hoa. Quả có hình dáng, kích thước và màu sắc rất thay đổi. Hạt nhỏ trắng hình đĩa. Tên Solanum melongena còn dùng để chỉ cây cà bát ( Hình 190 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả cà tươi có tới $90\\%$ nước, rất ít protit ($0$-$1,4\\%$), chất béo còn ít hơn ($0,05$-$0,10\\%$). Người ta đã tìm thấy trong cà axit cafeic, cholin, và trigonellin.",
+          "Màu tím của cà do các sắc tố anthoxynozit chủ yếu là chất violanin thủy phân thành 2 phân tử glucoza, thamnoza và ete p.cumaric của delphinidol."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_DAI_DE_TIM",
+      "to": "HC_AXIT_CAFEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta đã tìm thấy trong cà axit cafeic, cholin, và trigonellin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_DE_TIM",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta đã tìm thấy trong cà axit cafeic, cholin, và trigonellin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_DE_TIM",
+      "to": "HC_TRIGONELLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Người ta đã tìm thấy trong cà axit cafeic, cholin, và trigonellin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_DE_TIM",
+      "to": "HC_VIOLANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Màu tím của cà do các sắc tố anthoxynozit chủ yếu là chất violanin thủy phân thành 2 phân tử glucoza, thamnoza và ete p.cumaric của delphinidol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_DE_TIM",
+      "to": "HC_DELPHINIDOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Màu tím của cà do các sắc tố anthoxynozit chủ yếu là chất violanin thủy phân thành 2 phân tử glucoza, thamnoza và ete p.cumaric của delphinidol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    }
+  ]
+}

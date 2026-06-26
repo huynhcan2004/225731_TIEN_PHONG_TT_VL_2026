@@ -1,0 +1,116 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_DUOC",
+    "ten_raw": "Ô dược",
+    "ten_khoa_hoc": "Lindera myrrha (Lour.) Merr.; Lindera strychnifolia Will. (hay Benzoin strychnifolium Kuntze); Cocculus laurifolius DC.; Cocculus trilobus DC. (Menispermum trilobum Thunb.)",
+    "ho_thuc_vat": "Long não Lauraceae; Tiết dê Menispermaceae",
+    "variants": [
+      "Thiên thai ô dược",
+      "Vệ châu ô dược",
+      "Ô dược nam"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T447",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "447"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ô dược nam là một cây nhỏ, cao độ $1,30-1,40m$ cành gầy, màu đen nhạt. Lá mọc so le, hình bầu dục, dài $6cm$, rộng $2cm$, mặt trên nhẵn bóng, mặt dưới có lông, hai gân phụ bắt đầu từ điểm các cuống lá $2mm$, dài ra chùng $2/3$ lá, mặt trên lõm mặt dưới lồi lên. Cuống gầy, dài $7-10mm$, lúc đầu có lông, sau nhẵn, mặt trên hõm thành rãnh. Ho màu hồng nhạt, họp thành tán nhỏ, đường kính $3-4mm$. Quả mọng hình trứng khi chín có màu đỏ, một hạt. Toàn cây có mùi thơm, vị đắng ( Hình 334 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong thiên thai ô dược, người ta đã xác định được các chất ancaloit như: $linderan$ C.H,O,, $linderen$ C,H,O,, rượu $linderola$ C.H,O và axit $linderic$ C,H,O, và este của rượu $linderola$. Ngoài ra, người ta còn xác định được một xeton với công thức C,H,O, và một chất $linderazulen$ với công thức C.H,",
+          "Trong vệ châu ô dược, người ta xác định được một ancaloit gọi là $coclorin$ C,H,O N. Công thức của $coclorin$ đã xác định như sau: CH3O. HO NH CH2 OH $Coclorin$",
+          "Vị ô dược nam chưa thấy có tài liệu nghiên cứu. Trong quả mọng có thể chiết được một thứ dầu màu đỏ."
+        ],
+        "cach_dung_bao_che": "Ô được (Radix Linderae) là rễ phơi hay sấy khô của cây dầu đắng hay ô dược nam. Đào rễ, cát bỏ rễ con, rửa sạch, phơi khô. Nếu thái miếng thì rễ tươi lấy về, cạo sạch vỏ ngoài (có khi không cạo) ngâm vào nước thỉnh thoảng thay nước rồi thái thành từng miếng mỏng phơi khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_LINDERAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên thai ô dược, người ta đã xác định được các chất ancaloit như: $linderan$ C.H,O,,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_LINDEREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên thai ô dược, người ta đã xác định được các chất ancaloit như: $linderen$ C,H,O,,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_LINDEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên thai ô dược, người ta đã xác định được các chất ancaloit như: rượu $linderola$ C.H,O"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_LINDERIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên thai ô dược, người ta đã xác định được các chất ancaloit như: axit $linderic$ C,H,O,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_LINDERAZULEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, người ta còn xác định được một xeton với công thức C,H,O, và một chất $linderazulen$ với công thức C.H,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_COCLORIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vệ châu ô dược, người ta xác định được một ancaloit gọi là $coclorin$ C,H,O N."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DUOC",
+      "to": "HC_COCCULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu của Nhật Bản, thì trong vỏ và lá có ancaloit gọi là cocculin có tác dụng giống như chất curarơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T447"
+      }
+    }
+  ]
+}

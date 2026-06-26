@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_HAU_PHAC",
+  "source": {
+    "source_id": "CT_VT_VN_T387",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "387"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "CN_TINH_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "CN_QUY_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "CN_QUY_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "CN_QUY_DAI_TRUONG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng kháng sinh đối với vi trùng thương hàn, thổ tả, Staphylococ, Streptococ và lỵ Shiga."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    }
+  ],
+  "metadata": {}
+}

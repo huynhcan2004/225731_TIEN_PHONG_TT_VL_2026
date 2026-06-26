@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_BONG_NO",
+  "source": {
+    "source_id": "CT_VT_VN_T705",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "705"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG_NO",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Củ sả có tác dụng thông tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_NO",
+      "to": "DL_GIAI_CAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Củ sả có tác dụng chữa cảm sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG_NO",
+      "to": "DL_XUAT_MO_HOI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Củ sả có tác dụng ra mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T705"
+      }
+    }
+  ],
+  "metadata": {}
+}

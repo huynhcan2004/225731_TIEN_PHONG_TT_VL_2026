@@ -1,0 +1,172 @@
+{
+  "entity_hub": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+  "source": {
+    "source_id": "CT_VT_VN_T209",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "209"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$800g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng đằng chân vịt kết hợp với vỏ cây gạo giúp tăng cường khả năng chữa lỵ trực trùng, tiêu chảy, sốt và sốt rét.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "VT_VO_CAY_GAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$200g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vỏ cây gạo hỗ trợ hoàng đằng chân vịt trong việc chữa lỵ trực trùng, tiêu chảy, sốt và sốt rét.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ trực trùng.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "S_TIEU_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu chảy.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_HOANG_DANG_CH_V",
+      "to": "S_SOT_RET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét.",
+        "cach_dung": "Tất cả thái nhỏ, sắc đặc. Ngày uống 2-3 lần. Mỗi lần 1 chén con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_DANG_H",
+      "to": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Hoàng đằng chân vịt.",
+        "cach_dung": "Dùng bột hoàng đằng rắc vào mắt hoặc sắc nước rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_HOANG_DANG_H",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt.",
+        "cach_dung": "Dùng bột hoàng đằng rắc vào mắt hoặc sắc nước rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_HOANG_DANG_H",
+      "to": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Hoàng đằng chân vịt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_HOANG_DANG_H",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng đi ngoài.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_HOANG_DANG_H",
+      "to": "VI_THUOC_HOANG_DANG_CHAN_VIT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Hoàng đằng chân vịt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_HOANG_DANG_H",
+      "to": "S_SOT_RET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T209"
+      }
+    }
+  ],
+  "metadata": {}
+}

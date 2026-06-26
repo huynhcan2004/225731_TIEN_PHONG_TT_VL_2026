@@ -1,0 +1,352 @@
+{
+  "entity_hub": "VI_THUOC_NHAN_TRUNG_BACH",
+  "source": {
+    "source_id": "CT_VT_VN_T1001",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1001"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MAT_CO_MANG_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị mắt có màng.",
+        "cach_dung": "Cạo lấy lớp trắng ở giữa đốt xương ống chân con chó đen, hòa với sữa người nhỏ vào mắt.",
+        "ghi_chu": "Hm 3,4"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_DIEN_CUONG_NOI_SANG_NHAN_TRUNG_BACH_NT",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhân trung bạch và Thần sa phối hợp để trị điên cuồng nói sảng.",
+        "cach_dung": "Ngày uống $8g$ với nước sắc phục thần.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_DIEN_CUONG_NOI_SANG_NHAN_TRUNG_BACH_NT",
+      "to": "VT_THAN_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nhân trung bạch và Thần sa phối hợp để trị điên cuồng nói sảng.",
+        "cach_dung": "Ngày uống $8g$ với nước sắc phục thần.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị trẻ con kinh giản, người lớn trúng phong cấm khẩu.",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, thổi vào mũi.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_NHAN_TRUNG_BACH_NM",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhân trung bạch và Mộc thông phối hợp để trị tiểu tiện khó khăn.",
+        "cach_dung": "Mỗi lần uống $4g$ với nước sắc đăng tâm.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_NHAN_TRUNG_BACH_NM",
+      "to": "VT_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nhân trung bạch và Mộc thông phối hợp để trị tiểu tiện khó khăn.",
+        "cach_dung": "Mỗi lần uống $4g$ với nước sắc đăng tâm.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị cam tẩu mã.",
+        "cach_dung": "Tán nhỏ, rắc vào.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_LAU_NGAY_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị sốt rét lâu ngày.",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, uống với rượu.",
+        "ghi_chu": "Tài Nguyên Cây Thuốc Việt Nam"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị đau răng.",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, xát vào răng.",
+        "ghi_chu": "6-12g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị chảy máu cam.",
+        "cach_dung": "Thổi vào mũi.",
+        "ghi_chu": "6-12g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị đại tiện ra máu.",
+        "cach_dung": "Uống với nước cơm.",
+        "ghi_chu": "6-12g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị trẻ con động kinh.",
+        "cach_dung": "Uống với nước sắc bạc hà.",
+        "ghi_chu": "6-12g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_NHAN_TRUNG_BACH_N",
+      "to": "VI_THUOC_NHAN_TRUNG_BACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị các loại bệnh lở loét.",
+        "cach_dung": "Hòa với dầu vừng bôi lên.",
+        "ghi_chu": "6-12g (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_MAT_CO_MANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt có màng",
+        "cach_dung": "Cạo lấy lớp trắng ở giữa đốt xương ống chân con chó đen, hòa với sữa người nhỏ vào mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_DIEN_CUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị điên cuồng nói sảng",
+        "cach_dung": "Ngày uống $8g$ với nước sắc phục thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_TRUNG_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị trẻ con kinh giản, người lớn trúng phong cấm khẩu",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, thổi vào mũi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_KINH_GIAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị trẻ con kinh giản, người lớn trúng phong cấm khẩu",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, thổi vào mũi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị tiểu tiện khó khăn",
+        "cach_dung": "Mỗi lần uống $4g$ với nước sắc đăng tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị cam tẩu mã",
+        "cach_dung": "Tán nhỏ, rắc vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị sốt rét lâu ngày",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, uống với rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị đau răng",
+        "cach_dung": "Đốt tồn tính, tán nhỏ, xát vào răng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị chảy máu cam",
+        "cach_dung": "Thổi vào mũi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "S_DAI_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị đại tiện ra máu",
+        "cach_dung": "Uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_DONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị trẻ con động kinh",
+        "cach_dung": "Uống với nước sắc bạc hà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_TRUNG_BACH",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị các loại bệnh lở loét",
+        "cach_dung": "Hòa với dầu vừng bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1001"
+      }
+    }
+  ],
+  "metadata": {}
+}

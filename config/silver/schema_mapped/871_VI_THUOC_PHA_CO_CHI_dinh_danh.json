@@ -1,0 +1,87 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHA_CO_CHI",
+    "ten_raw": "Phá cố chỉ",
+    "ten_khoa_hoc": "Ficus pumila",
+    "ho_thuc_vat": "Dâu tằm (Moraceae)",
+    "variants": [
+      "xộp xộp",
+      "trâu cổ",
+      "vẩy ốc",
+      "bị"
+    ],
+    "properties": {
+      "bo_phan_dung": "Thân và lá",
+      "che_bien_tho": "Bẻ thân và lá non có nhựa mủ trắng",
+      "phan_bo": "Cây mọc hoang tại các tỉnh ở Việt Nam, đồng bằng cũng như miền rừng núi."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T871",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "871"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn có tên gọi là xộp xộp, trâu cổ, vẩy ốc, bị thể dài tới $5$-$10m$. Đường kính thân có thể tới $1cm$, vỏ thân xù xì có từng đốt dài ngắn không đều. Ở đốt mọc ra trên các cây cổ thụ lớn, có các rễ. Có hai loại cành, những cành không mang hoa có lá nhỏ, dài $0,6$-$2,5cm$, hình như vẩy ốc do đó có tên. Cành mang hoa có lá to và dày, dài $2,5$-$10cm$, rộng $1,5$-$4cm$, mép nguyên, mặt lá ráp. Thân và lá non khi bẻ có nhựa mủ trắng. Hoa nhiều, đơn tính, đế hoa lõm. “Quả” thực ra là một quả giả vì cấu tạo bởi một để hoa lõm hình chén, miệng khép kín, ở giữa có một lỗ thủng con, quả dài độ $4cm$, đường kính $3cm$. Trong quả giả có nhiều “hạt” thực ra đó mới là quả thực. “Quả” con có màu lục, lúc chín có màu đỏ, có nhiều nhựa mủ trắng. Mùa quả tháng 8-9 (Hình 654).",
+        "thanh_phan_hoa_hoc": [
+          "1. Trong vỏ quả có tới $13\\%$ chất gôm. Thủy phân chất gồm này cho glucoza, fructoza và arabinoza.",
+          "2. Trong thân và lá có một ít ancaloit (Theo hệ dược của Viện y học Bắc Kinh, 1958)."
+        ],
+        "ghi_chu_bo_sung": "Cây xộp cho các vị thuốc sau đây: 1. \"Quản bị lệ thực, lương phấn quả, vương bất lưu hành (Quảng Đông) Fructus Fici pumilae là “quả” bổ dọc phơi khô. Có khi nhúng vào nước sôi một phút rồi mới phơi khô cho dễ bảo quản hơn. 2. Cành mang lá phơi khô, bị lệ lạch thạch đằng, Caulis Fici pumilae. Có khi người ta dùng cả lá và nhựa mủ."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHA_CO_CHI",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân chất gồm này cho glucoza, fructoza và arabinoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHA_CO_CHI",
+      "to": "HC_FRUCTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân chất gồm này cho glucoza, fructoza và arabinoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHA_CO_CHI",
+      "to": "HC_ARABINOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân chất gồm này cho glucoza, fructoza và arabinoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHA_CO_CHI",
+      "to": "HC_ANKALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân và lá có một ít ancaloit (Theo hệ dược của Viện y học Bắc Kinh, 1958)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    }
+  ]
+}

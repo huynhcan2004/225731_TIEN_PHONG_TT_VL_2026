@@ -1,0 +1,54 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THAN_MAT",
+    "ten_raw": "Thần mát",
+    "ten_khoa_hoc": "Milletia ichthyochtona Drake",
+    "ho_thuc_vat": "Cánh bướm Fabaceae (Papilionaceae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "thu_hai": "tháng tư"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T337",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "337"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thần mất là một cây to, cao chừng $5$-$10m$, có lá kép 2 lần lông chim lẻ, sớm rụng, lá non dài $12cm$, cuống chung dài $7$-$8cm$, gầy, cuống lá chét dài $3$-$4mm$, lá chét $5$-$6cm$, rộng $15$-$25mm$. Hoa trắng, mọc thành chùm, thường mọc trước lá làm cho cây có một dáng đặc biệt trong rừng. Quả là một giáp, dài $13cm$ (cuống $1cm$), rộng $2$-$3cm$, từ $1/3$ phía trên hẹp lại trông giống con dao mã tấu lưỡi rộng. trong chứa một hạt hình đĩa màu vàng nhạt nâu, đường kính $20mm$. Thường người ta thu hoạch hạt vào tháng tư (Hình 250, Hm 56,3)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THAN_MAT",
+      "to": "HC_ROTENON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra trong hạt còn chứa các chất độc đối với cá như $rotenon$, $sapotoxin$, chất gôm và các chất anbumin (theo Guichard E. Les toxiques de pêche indochinois, 1940)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T337"
+      }
+    },
+    {
+      "from": "VI_THUOC_THAN_MAT",
+      "to": "HC_SAPOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra trong hạt còn chứa các chất độc đối với cá như $rotenon$, $sapotoxin$, chất gôm và các chất anbumin (theo Guichard E. Les toxiques de pêche indochinois, 1940)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T337"
+      }
+    }
+  ]
+}

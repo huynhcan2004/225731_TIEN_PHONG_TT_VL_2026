@@ -1,0 +1,175 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGO_DONG",
+    "ten_raw": "Ngô đồng",
+    "ten_khoa_hoc": "$Sterculia platanifolia L.$",
+    "ho_thuc_vat": "$Họ Ngô đồng (Sterculiaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Ngô đồng được trồng ở nhiều tỉnh miền Bắc và miền Nam nước ta. Miền Bắc hay gặp ở Thanh Hoá, Nghệ An, Hà Tĩnh, Nam Định, Hà Nam, Ninh Bình. Còn thấy trồng ở Cămpuchia, Trung Quốc, Nhật Bản."
+    },
+    "display_name": "Ngô đồng",
+    "canonical_name": "Ngô đồng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NGO_DONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ngo Dong"
+      }
+    },
+    {
+      "id": "HC_DAU_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Dau Beo"
+      }
+    },
+    {
+      "id": "S_RUNG_TOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Rung Toc"
+      }
+    },
+    {
+      "id": "S_TOC_BAC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Toc Bac"
+      }
+    },
+    {
+      "id": "S_MOC_TOC_DEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Moc Toc Den"
+      }
+    },
+    {
+      "id": "B_LOET_MIENG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Loet Mieng"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "568"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngô đồng là một cây to, cao. Lá xẻ thùy chân vịt, đường kính lá tới $25cm$ với 3 đến 5 thùy hình ba cạnh, cuống lá dài hơn phiến lá, dài tới $30cm$. Những thùy rất sít nhau có khi hơi chồng lên nhau. Hoa nhỏ màu vàng. Quả gồm 5 đại, mỏng, dài $10cm$, với 2 hạt hình trứng dài $8mm$, rộng $6mm$ ( Hình 433)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ngô đồng có dầu béo.",
+        "ghi_chu": "Các bộ phận khác chưa thấy nghiên cứu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "all_sources": [
+          "CT_VT_VN_T568"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "S_RUNG_TOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hạt và vỏ cây ngô đồng | Hạt ngô đồng giã nát. Bôi lên đầu",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm | [Nguồn]: CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "all_sources": [
+          "CT_VT_VN_T568"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "S_TOC_BAC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vỏ cây ngô đồng đốt thành than, trộn với dầu. Bôi lên tóc bạc | Hạt ngô đồng giã nát. Bôi lên đầu",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "all_sources": [
+          "CT_VT_VN_T568"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "S_MOC_TOC_DEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hạt ngô đồng giã nát. Bôi lên đầu",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "all_sources": [
+          "CT_VT_VN_T568"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGO_DONG",
+      "to": "B_LOET_MIENG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hạt ngô đồng giã nát. Dùng ngoài",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T569"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "all_sources": [
+          "CT_VT_VN_T568"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 24.0,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

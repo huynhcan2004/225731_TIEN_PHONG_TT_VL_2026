@@ -1,0 +1,830 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TAM_THAT",
+    "ten_raw": "Cây tam thất",
+    "ten_khoa_hoc": "$Panax Pseudo-ginseng (Burk). F.H.Chen$",
+    "ho_thuc_vat": "$Ngũ gia bì Araliaceae$",
+    "variants": [
+      "Tam thất"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "lieu_dung_chung": "Theo tài liệu cổ: Tam thất vị ngọt, hơi đắng, tính ôn, vào 2 kinh can và vị. Có tác dụng hành ứ, cầm máu, tiêu thũng dùng chữa thổ huyết, chảy máu cam, lỵ ra máu, đẻ xong máu hôi không sạch, ung thũng, bị đòn tổn thương.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Tam thất (Radix pseudo-ginseng) là rễ phơi khô của cây tam thất. Cây tam thất được trồng từ lâu nhưng với một lượng ít ở tỉnh Hà Giang (Đồng Văn), Lào Cai (Mường Khương, Bát Xát, Phà Lùng), Cao Bằng, .. tại các vùng núi cao $1.200-1.500m$. Cây tam thất còn được trồng ở Trung Quốc: Vân Nam, Quảng Tây, Tứ Xuyên, Hồ Bắc, Giang Tây. Vân Nam trồng nhiều nhất và tam thất Vân Nam được coi là tốt nhất."
+    },
+    "display_name": "Vị thuốc Tam thất",
+    "canonical_name": "Vị thuốc Tam thất"
+  },
+  "nodes": [
+    {
+      "id": "BT_BO_TAM_THAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Bổ tam thất",
+        "aliases": [
+          "bo tam that",
+          "botamthat",
+          "bổ tam thất"
+        ],
+        "search_vector_hint": "Bài thuốc Bổ tam thất thuộc nhóm Bài thuốc, thường liên quan đến bồi bổ sức khỏe."
+      }
+    },
+    {
+      "id": "B_BI_DANH_TON_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bị đánh tổn thương",
+        "aliases": [
+          "bi danh ton thuong",
+          "bidanhtonthuong",
+          "bị đánh tổn thương"
+        ],
+        "search_vector_hint": "Bệnh Bị đánh tổn thương thuộc nhóm Bệnh, thường liên quan đến chấn thương do tác động vật lý."
+      }
+    },
+    {
+      "id": "B_BI_DON_TON_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bị đòn tổn thương",
+        "aliases": [
+          "bi don ton thuong",
+          "bidontonthuong",
+          "bị đòn tổn thương"
+        ],
+        "search_vector_hint": "Bệnh Bị đòn tổn thương thuộc nhóm Bệnh, thường liên quan đến chấn thương do tác động vật lý."
+      }
+    },
+    {
+      "id": "B_CHAY_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Chảy máu",
+        "aliases": [
+          "chay mau",
+          "chaymau",
+          "chảy máu"
+        ],
+        "search_vector_hint": "Bệnh Chảy máu thuộc nhóm bệnh, thường liên quan đến sự mất máu do tổn thương mạch máu."
+      }
+    },
+    {
+      "id": "B_CHAY_MAU_CAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Triệu chứng Chảy máu cam thuộc nhóm triệu chứng, thường liên quan đến tổn thương mạch máu mũi."
+      }
+    },
+    {
+      "id": "B_DE_XONG_MAU_HOI_KHONG_SACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đẻ xong máu hôi không sạch",
+        "aliases": [
+          "de xong mau hoi khong sach",
+          "đẻ xong máu hôi không sạch",
+          "dexongmauhoikhongsach"
+        ],
+        "search_vector_hint": "Bệnh Đẻ xong máu hôi không sạch thuộc nhóm Bệnh, thường liên quan đến sản phụ."
+      }
+    },
+    {
+      "id": "B_LY_RA_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ ra máu",
+        "aliases": [
+          "ly ra mau",
+          "lỵ ra máu",
+          "lyramau"
+        ],
+        "search_vector_hint": "Bệnh Lỵ ra máu thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột gây xuất huyết."
+      }
+    },
+    {
+      "id": "B_THO_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Bệnh Thổ huyết thuộc nhóm bệnh xuất huyết, thường liên quan đến tổn thương đường tiêu hóa."
+      }
+    },
+    {
+      "id": "B_UNG_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ung thũng",
+        "aliases": [
+          "ungthung",
+          "ung thũng",
+          "ung thung"
+        ],
+        "search_vector_hint": "Bệnh Ung thũng thuộc nhóm Bệnh, thường liên quan đến mụn nhọt, sưng viêm."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TIEU_THUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng tiêu thũng",
+        "aliases": [
+          "tieuthung",
+          "tieuphu",
+          "tiêu thũng",
+          "tiêu phù",
+          "tieu thung",
+          "tieu phu"
+        ],
+        "search_vector_hint": "Công năng tiêu thũng thuộc nhóm công năng, thường liên quan đến giảm sưng phù."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_HUONG_SINH_DUC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hướng sinh dục",
+        "aliases": [
+          "huongsinhduc",
+          "hướng sinh dục",
+          "huong sinh duc"
+        ],
+        "search_vector_hint": "Dược lý Hướng sinh dục thuộc nhóm Dược lý, thường liên quan đến tác dụng dược lý của thuốc."
+      }
+    },
+    {
+      "id": "DL_KANG_PROTHROMBIN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kháng Prothrombin",
+        "aliases": [
+          "khang prothrombin",
+          "kháng prothrombin",
+          "khangprothrombin"
+        ],
+        "search_vector_hint": "Dược lý Kháng Prothrombin thuộc nhóm Dược lý, thường liên quan đến tác dụng dược lý của thuốc."
+      }
+    },
+    {
+      "id": "DL_TANG_CUONG_HOAT_DONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng cường hoạt động",
+        "aliases": [
+          "tang cuong hoat dong",
+          "tangcuonghoatdong",
+          "tăng cường hoạt động"
+        ],
+        "search_vector_hint": "Dược lý Tăng cường hoạt động thuộc nhóm Dược lý, thường liên quan đến tác dụng dược lý của thuốc."
+      }
+    },
+    {
+      "id": "DL_TANG_DE_KHANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng đề kháng",
+        "aliases": [
+          "tangdekhang",
+          "tang de khang",
+          "tăng đề kháng"
+        ],
+        "search_vector_hint": "Dược lý Tăng đề kháng thuộc nhóm Dược lý, thường liên quan đến tác dụng dược lý của thuốc."
+      }
+    },
+    {
+      "id": "HC_ARASAPONIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Arasaponin A",
+        "aliases": [
+          "arasaponin a",
+          "arasaponina"
+        ],
+        "search_vector_hint": "Hoạt chất Arasaponin A thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_ARASAPONIN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Arasaponin B",
+        "aliases": [
+          "arasaponinb",
+          "arasaponin b"
+        ],
+        "search_vector_hint": "Hoạt chất Arasaponin B thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_SAPONIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin A",
+        "aliases": [
+          "saponin a",
+          "saponina"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin A thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_VI_HUYET_MA_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vi huyết mà sưng đau",
+        "aliases": [
+          "vihuyetmasungdau",
+          "vi huyết mà sưng đau",
+          "vi huyet ma sung dau"
+        ],
+        "search_vector_hint": "Triệu chứng Vi huyết mà sưng đau thuộc nhóm Triệu chứng, thường liên quan đến tình trạng sưng đau do vi huyết."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_TAM_THAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tam thất",
+        "aliases": [
+          "tam thất",
+          "tam that",
+          "tamthat"
+        ],
+        "search_vector_hint": "Vị thuốc Tam thất thuộc nhóm Vị thuốc, thường liên quan đến cầm máu, bổ huyết.",
+        "bo_phan_dung": "lá",
+        "lieu_dung_chung": "Theo tài liệu cổ: Tam thất vị ngọt, hơi đắng, tính ôn, vào 2 kinh can và vị. Có tác dụng hành ứ, cầm máu, tiêu thũng dùng chữa thổ huyết, chảy máu cam, lỵ ra máu, đẻ xong máu hôi không sạch, ung thũng, bị đòn tổn thương.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Tam thất (Radix pseudo-ginseng) là rễ phơi khô của cây tam thất. Cây tam thất được trồng từ lâu nhưng với một lượng ít ở tỉnh Hà Giang (Đồng Văn), Lào Cai (Mường Khương, Bát Xát, Phà Lùng), Cao Bằng, .. tại các vùng núi cao $1.200-1.500m$. Cây tam thất còn được trồng ở Trung Quốc: Vân Nam, Quảng Tây, Tứ Xuyên, Hồ Bắc, Giang Tây. Vân Nam trồng nhiều nhất và tam thất Vân Nam được coi là tốt nhất.",
+        "ten_khoa_hoc": "$Panax Pseudo-ginseng (Burk). F.H.Chen$",
+        "ho_thuc_vat": "$Ngũ gia bì Araliaceae$",
+        "hinh_thai_chi_tiet": "Tam thất là một loại cỏ nhỏ, sống lâu năm. Lá mọc vòng $3-4$ lá một, cuống lá dài $3-6cm$, mỗi cuống lá mang từ $3-7$ lá chét hình mác dài, mép lá có răng cưa nhỏ, cuống lá chét dài $0,6-1,2cm$. Cụm hoa hình tán mọc ở đầu cành mang hoa. Có hoa đơn tính, có hoa lưỡng tính, cùng tồn tại. Lá đài $5$, màu xanh. Cánh hoa $5$, màu xanh nhạt. Nhị $5$. Bầu hạ hai ngàn. Quả mọng hình thận, khi chín có màu đỏ, trong có hai hạt hình cầu."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "304"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tam thất là một loại cỏ nhỏ, sống lâu năm. Lá mọc vòng $3-4$ lá một, cuống lá dài $3-6cm$, mỗi cuống lá mang từ $3-7$ lá chét hình mác dài, mép lá có răng cưa nhỏ, cuống lá chét dài $0,6-1,2cm$. Cụm hoa hình tán mọc ở đầu cành mang hoa. Có hoa đơn tính, có hoa lưỡng tính, cùng tồn tại. Lá đài $5$, màu xanh. Cánh hoa $5$, màu xanh nhạt. Nhị $5$. Bầu hạ hai ngàn. Quả mọng hình thận, khi chín có màu đỏ, trong có hai hạt hình cầu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TAM_THAT",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tam thất tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tam thất vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tam thất vị hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tam thất vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tam thất vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "HC_ARASAPONIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T305]: $Arasaponin A$",
+        "ghi_chu": "[CT_VT_VN_T305]: $Arasaponin A$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "HC_ARASAPONIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T305]: $arasaponin B$",
+        "ghi_chu": "[CT_VT_VN_T305]: $arasaponin B$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "HC_SAPONIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T305]: $Saponin A$",
+        "ghi_chu": "[CT_VT_VN_T305]: $Saponin A$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_LY_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_DE_XONG_MAU_HOI_KHONG_SACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_UNG_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_BI_DON_TON_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ liều",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều). Ung thũng, bị đòn tổn thương, đẻ xong máu hôi không sạch, lỵ ra máu, chảy máu cam, thổ huyết. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_CHAY_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dạng thuốc sắc hoặc thuốc bột",
+        "ghi_chu": "Chảy máu, bị đánh tổn thương, vì ứ huyết mà sưng đau. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "B_BI_DANH_TON_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dạng thuốc sắc hoặc thuốc bột",
+        "ghi_chu": "Chảy máu, bị đánh tổn thương, vì ứ huyết mà sưng đau. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "S_VI_HUYET_MA_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dạng thuốc sắc hoặc thuốc bột",
+        "ghi_chu": "Chảy máu, bị đánh tổn thương, vì ứ huyết mà sưng đau. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BO_TAM_THAT",
+      "to": "VT_TAM_THAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chưa rõ",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ",
+        "ghi_chu": "Bài thuốc bổ (dùng thay nhân sâm). Chỉ định lâm sàng theo kinh nghiệm. [Nguồn]: CT_VT_VN_T306"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "DL_TANG_CUONG_HOAT_DONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất làm tăng khả năng hoạt động của súc vật thể hiện ở kéo dài thời gian bơi của lỗ chuột thử thuốc so với một lỗ đối chứng.",
+        "ghi_chu": "Chuột mang một cục chì nặng kẹp vào đuôi khi bơi để làm chóng mệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "DL_TANG_DE_KHANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất có tác dụng làm tăng sức đề kháng của súc vật đối với yếu tố độc hại như liều độc uabain với tim, nhiệt độ môi trường xung quanh quá cao hoặc quá thấp vượt ngoài giới hạn điều hòa của cơ thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "DL_KANG_PROTHROMBIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất có khả năng kháng lại hiện tượng giảm lượng prothrombin trong máu thỏ và giảm khả năng máu đông gây thực nghiệm với dicumarol.",
+        "ghi_chu": "Thí nghiệm trên thỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "DL_HUONG_SINH_DUC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tam thất thí nghiệm trên chuột cống cái non với liều $5g/kg$ uống trong 6 ngày đã làm tăng trọng lượng tử cung một cách có ý nghĩa so với lô đối chứng, chứng tỏ tam thất có tác dụng hướng sinh dục trên súc vật cái.",
+        "ghi_chu": "Thí nghiệm trên chuột cống cái non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TAM_THAT",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rất ít độc đối với cá: Thả cá vàng vào dung dịch 1/1.000 hoặc 1/500 sau 24 giờ không có hiện tượng trúng độc. Tiêm vào chó đánh mê bằng ête, $1-20ng$ arasaponin A hoặc B không thấy có sự thay đổi rõ rệt đối với huyết áp, với tim và hô hấp.",
+        "ghi_chu": "Thí nghiệm trên cá vàng và chó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "all_sources": [
+          "CT_VT_VN_T304"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 68.5,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

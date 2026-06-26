@@ -1,0 +1,97 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DA_MINH_SA",
+    "ten_raw": "Dạ minh sa",
+    "ten_khoa_hoc": "string",
+    "ho_thuc_vat": "string",
+    "variants": [],
+    "properties": {},
+    "display_name": "Dạ minh sa"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T984",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "984"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_VI"
+        ],
+        "cong_nang": "giải độc, tán thũng, giảm đau"
+      },
+      "mo_ta_theo_nguon": {}
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T984"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T984"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T984"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T984"
+      }
+    },
+    {
+      "from": "VI_THUOC_DA_MINH_SA",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "giải độc, tán thũng, giảm đau"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T984"
+      }
+    }
+  ]
+}

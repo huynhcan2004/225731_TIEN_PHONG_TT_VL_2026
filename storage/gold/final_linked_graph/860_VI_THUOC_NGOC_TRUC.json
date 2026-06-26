@@ -1,0 +1,650 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NGOC_TRUC",
+    "ten_raw": "Ngọc trúc",
+    "ten_khoa_hoc": "$Polygonatum officinale All.$",
+    "ho_thuc_vat": "$họ Hành Alliaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Liều dùng $6-12g$ dưới dạng thuốc sắc, dùng riêng hay phối hợp với các dạng thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Trung Quốc (Quảng Đông, Quảng Tây, Vân Nam), ta có thể chú ý tìm ở các tỉnh biên giới."
+    },
+    "display_name": "Vị thuốc Ngọc trúc",
+    "canonical_name": "Vị thuốc Ngọc trúc"
+  },
+  "nodes": [
+    {
+      "id": "B_HU_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hư lao",
+        "aliases": [
+          "laoluc",
+          "hu lao",
+          "lao lực",
+          "hu ton",
+          "hư tổn",
+          "suy nhuoc co the",
+          "suynhuoccothe",
+          "suy nhược cơ thể",
+          "huton",
+          "hư lao",
+          "lao luc",
+          "hulao"
+        ],
+        "search_vector_hint": "Bệnh Hư lao thuộc nhóm bệnh, thường liên quan đến suy nhược và tổn thương cơ thể."
+      }
+    },
+    {
+      "id": "B_PHONG_THAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phong thấp",
+        "aliases": [
+          "phong thap",
+          "phong thấp",
+          "phongthap"
+        ],
+        "search_vector_hint": "Phong thấp thuộc nhóm bệnh, thường liên quan đến đau nhức xương khớp."
+      }
+    },
+    {
+      "id": "B_TAO_NHIET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Táo Nhiệt",
+        "aliases": [
+          "tao nhiet",
+          "táo nhiệt",
+          "taonhiet"
+        ],
+        "search_vector_hint": "Táo Nhiệt thuộc nhóm Bệnh, thường liên quan đến nhiệt độ cơ thể."
+      }
+    },
+    {
+      "id": "CN_DUONG_SUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dương Suy",
+        "aliases": [
+          "duong suy",
+          "duongsuy",
+          "dương suy"
+        ],
+        "search_vector_hint": "Dương Suy thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận táo",
+        "aliases": [
+          "nhuận táo",
+          "nhuantao",
+          "nhuan tao"
+        ],
+        "search_vector_hint": "Nhuận táo thuộc nhóm công năng, thường liên quan đến làm ẩm, giảm khô."
+      }
+    },
+    {
+      "id": "CN_PHAT_SOT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Phát sốt",
+        "aliases": [
+          "phat sot",
+          "phát sốt",
+          "sốt",
+          "phatsot",
+          "sot"
+        ],
+        "search_vector_hint": "Triệu chứng Phát sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "CN_SINH_TAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh tân",
+        "aliases": [
+          "sinh tan",
+          "sinh tân",
+          "sinhtan"
+        ],
+        "search_vector_hint": "Sinh tân thuộc nhóm Công năng, thường liên quan đến khả năng tạo ra chất lỏng mới trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_TU_AM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tư âm",
+        "aliases": [
+          "tuam",
+          "tư âm",
+          "tu am"
+        ],
+        "search_vector_hint": "Công năng Tư âm thuộc nhóm Công năng, thường liên quan đến bồi bổ phần âm của cơ thể."
+      }
+    },
+    {
+      "id": "CN_TY_HU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tỳ Hư",
+        "aliases": [
+          "tyhu",
+          "tỳ hư",
+          "ty hu"
+        ],
+        "search_vector_hint": "Tỳ Hư thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tim",
+        "aliases": [
+          "doctinhtim",
+          "độc tính tim",
+          "doc tinh tim"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tim thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên tim."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích Thích Thận",
+        "aliases": [
+          "kichthichthan",
+          "kich thich than",
+          "kích thích thận"
+        ],
+        "search_vector_hint": "Kích Thích Thận thuộc nhóm Dược lý."
+      }
+    },
+    {
+      "id": "HC_CONVALLAMARIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Convallamarin",
+        "aliases": [
+          "convallamarin"
+        ],
+        "search_vector_hint": "Convallamarin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CONVALLARIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Convallarin",
+        "aliases": [
+          "convallarin"
+        ],
+        "search_vector_hint": "Convallarin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_MIENG_KHAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Miệng khát",
+        "aliases": [
+          "miengkhat",
+          "miệng khát",
+          "mieng khat"
+        ],
+        "search_vector_hint": "Miệng khát thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_MO_HOI_RA_NHIEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi ra nhiều",
+        "aliases": [
+          "mồ hôi ra nhiều",
+          "domohoi",
+          "mo hoi ra nhieu",
+          "do mo hoi",
+          "mohoiranhieu",
+          "đổ mồ hôi"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi ra nhiều thuộc nhóm Triệu chứng, thường liên quan đến hệ bài tiết."
+      }
+    },
+    {
+      "id": "S_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi trộm",
+        "aliases": [
+          "domohoibandem",
+          "mo hoi trom",
+          "mồ hôi trộm",
+          "đổ mồ hôi ban đêm",
+          "mohoitrom",
+          "do mo hoi ban dem"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến rối loạn thần kinh thực vật."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_NGOC_TRUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngọc trúc",
+        "aliases": [
+          "ngoc truc",
+          "ngọc trúc",
+          "ngoctruc"
+        ],
+        "search_vector_hint": "Vị thuốc Ngọc trúc thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh.",
+        "bo_phan_dung": "thân rễ",
+        "lieu_dung_chung": "Liều dùng $6-12g$ dưới dạng thuốc sắc, dùng riêng hay phối hợp với các dạng thuốc khác.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Trung Quốc (Quảng Đông, Quảng Tây, Vân Nam), ta có thể chú ý tìm ở các tỉnh biên giới.",
+        "ten_khoa_hoc": "$Polygonatum officinale All.$",
+        "ho_thuc_vat": "$họ Hành Alliaceae$",
+        "hinh_thai_chi_tiet": "Ngọc trúc là một loại cỏ sống dai cao $40-60cm$, thân rễ mọc ngang màu vàng trắng nhạt, đường kính $05-1,5cm$, trên thân rễ có nhiều rễ con. Lá mọc so le từ giữa thân trở lên, không có cuống, cứng dai, hình trứng rộng, dài $6-12cm$, rộng $3-6cm$, mặt dưới màu trắng nhạt. Hoa mọc ở kẽ lá có cuống dài $1-1,4cm$, mỗi kẽ mọc $1-2$ hoa, màu trắng, hình chuông. Nếu $2$ hoa thì có một cuống chung và $2$ cuống con riêng. Quả mọng, hình cầu, đường kính $1-7mm$, khi chín có màu tím đen (Hình 644). Mọc so le, hình trứng rộng. Hình trụ, nhưng hơi dẹt, nhỏ và dài, to hay nhỏ đều, nhiều đốt rõ rệt, nhiều rễ con.",
+        "thanh_phan_hoa_hoc": "['Trong ngọc trúc có các chất glucozit chữa tim như $convallamarin$ và $convallarin$ là hoạt chất của cây Convallaria maialis (Muguet). Ngoài ra còn chứa chất nhầy.', 'Nhưng gần đây, khoa dược Viện nghiên cứu y học Bắc Kinh (Trung Quốc) thí nghiệm không thấy các phản ứng của glucozit chữa tim. Cần chú ý nghiên cứu lại.']"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "860"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngọc trúc là một loại cỏ sống dai cao $40-60cm$, thân rễ mọc ngang màu vàng trắng nhạt, đường kính $05-1,5cm$, trên thân rễ có nhiều rễ con. Lá mọc so le từ giữa thân trở lên, không có cuống, cứng dai, hình trứng rộng, dài $6-12cm$, rộng $3-6cm$, mặt dưới màu trắng nhạt. Hoa mọc ở kẽ lá có cuống dài $1-1,4cm$, mỗi kẽ mọc $1-2$ hoa, màu trắng, hình chuông. Nếu $2$ hoa thì có một cuống chung và $2$ cuống con riêng. Quả mọng, hình cầu, đường kính $1-7mm$, khi chín có màu tím đen (Hình 644). Mọc so le, hình trứng rộng. Hình trụ, nhưng hơi dẹt, nhỏ và dài, to hay nhỏ đều, nhiều đốt rõ rệt, nhiều rễ con.",
+        "thanh_phan_hoa_hoc": [
+          "Trong ngọc trúc có các chất glucozit chữa tim như $convallamarin$ và $convallarin$ là hoạt chất của cây Convallaria maialis (Muguet). Ngoài ra còn chứa chất nhầy.",
+          "Nhưng gần đây, khoa dược Viện nghiên cứu y học Bắc Kinh (Trung Quốc) thí nghiệm không thấy các phản ứng của glucozit chữa tim. Cần chú ý nghiên cứu lại."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "HC_CONVALLAMARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ngọc trúc có các chất glucozit chữa tim như $convallamarin$ và $convallarin$ là hoạt chất của cây Convallaria maialis (Muguet).",
+        "ghi_chu": "glucozit chữa tim"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      }
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "HC_CONVALLARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ngọc trúc có các chất glucozit chữa tim như $convallamarin$ và $convallarin$ là hoạt chất của cây Convallaria maialis (Muguet).",
+        "ghi_chu": "glucozit chữa tim"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      }
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "S_MO_HOI_RA_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Dạng thuốc sắc, dùng riêng hay phối hợp với các dạng thuốc khác",
+        "ghi_chu": "Cơ thể bị suy nhược, đi tiểu nhiều lần, di tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "S_MIENG_KHAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Táo nhiệt, phong thấp, sinh họ phát sốt, mồ hôi trộm hư lao mà sốt",
+        "mo_ta_chi_tiet": "Chữa miệng khát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_TU_AM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tư âm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận táo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sinh tân khỏi khát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất $convallarin$ gây hạ huyết áp, sau đó tim đập chậm hơn và hô hấp chậm lại, gây co quắp và cuối cùng với liều vừa đủ, gây tim ngừng ở thể tâm giãn, sau đó ngưng hô hấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "DL_KICH_THICH_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất $convallarin$ có tác dụng kích thích thận và tẩy mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "B_TAO_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "B_PHONG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phong thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "B_HU_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hư lao mà sốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_PHAT_SOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phát sốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi trộm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_DUONG_SUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Người dương suy âm thịnh không dùng được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGOC_TRUC",
+      "to": "CN_TY_HU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Người tỳ hư đờm thấp ứ trệ không dùng được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T860",
+        "all_sources": [
+          "CT_VT_VN_T860"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 48.0,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

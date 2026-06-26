@@ -1,0 +1,77 @@
+{
+  "entity": {
+    "id": "VT_RAU_NGOT",
+    "canonical_name": "Rau ngót",
+    "ten_khoa_hoc": "Sauropus androgynus (L) Merr.; Phyllanthus androgynus L.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae",
+    "properties": {
+      "bo_phan_dung": "Lá, cây tươi",
+      "thu_hai": "Khi làm thuốc thường chọn những cây rau ngót đã sống $2$ năm trở lên. Hái lá tươi về dùng ngay.",
+      "che_bien_tho": "Hái lá tươi về dùng ngay.",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_RAU_NGOT",
+      "to": "S_CHAM_KINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ định lâm sàng theo kinh nghiệm (Đỗ Tất Lợi)",
+        "lieu_luong": "Lá rau ngót",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "VT_RAU_NGOT",
+      "to": "S_SOT_NHAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đắp vào gan bàn chân (Y học thực hành, tháng 2/1960 và 10/1961)",
+        "lieu_luong": "Lá rau ngót giã nhỏ",
+        "cach_dung": "Đắp vào gan bàn chân"
+      }
+    },
+    {
+      "from": "VT_RAU_NGOT",
+      "to": "S_TUA_LUOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "null",
+        "lieu_luong": "Lá rau ngót tươi $5-10g$",
+        "cach_dung": "Giã lá rau ngót tươi độ $5-10g$. Vắt lấy nước. Thấm vào bông đánh lên lưỡi, lợi và vòm miệng trẻ em, chỉ hai ngày sau là bú được"
+      }
+    },
+    {
+      "from": "VT_RAU_NGOT",
+      "to": "S_HOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "null",
+        "lieu_luong": "Cây rau ngót tươi",
+        "cach_dung": "Giã cây tươi, vắt lấy nước ngậm"
+      }
+    },
+    {
+      "from": "BT_SOT_NHAU_RAU_NGOT_$40G$",
+      "to": "VT_RAU_NGOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "cach_dung": "null"
+      }
+    },
+    {
+      "from": "BT_SOT_NHAU_RAU_NGOT_$40G$",
+      "to": "S_SOT_NHAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "null",
+        "lieu_luong": "null",
+        "cach_dung": "Rửa sạch giã nát. Thêm ít nước đã đun sôi để nguội vào. Vắt lấy chừng $100 ml$ nước. Chia làm $2$ lần uống, mỗi lần cách nhau $10$ phút. Sau chừng $15-20$ phút nhau sẽ ra"
+      }
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRAU_KHONG",
+    "ten_raw": "Trầu không",
+    "ten_khoa_hoc": "$Piper betle L.; Piper siriboa L.$",
+    "ho_thuc_vat": "$Họ Hồ tiêu Piperaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "[CT_VT_VN_T134]: Ít dùng trong. Chỉ hay dùng ngoài, liều lượng tùy tiện.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Cây trầu không được trồng ở khắp nơi trong nước ta để lấy lá ăn trầu. Nó còn được trồng tại nhiều nước khác ở châu Á, vùng nhiệt đới như Malaixia, Inđônêxya, Philipin."
+    },
+    "display_name": "Trầu không",
+    "canonical_name": "Trầu không"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_TRAU_KHONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Trau Khong"
+      }
+    },
+    {
+      "id": "HC_BETEL_PHENOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Betel Phenol"
+      }
+    },
+    {
+      "id": "HC_CHAVICOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chavicol"
+      }
+    },
+    {
+      "id": "B_MAN_NGUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Man Ngua"
+      }
+    },
+    {
+      "id": "B_VIEM_MACH_HACH_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Mach Hach Huyet"
+      }
+    },
+    {
+      "id": "B_VIEM_KET_MAC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Ket Mac"
+      }
+    },
+    {
+      "id": "B_BENH_CHAM_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Cham Mat"
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "B_TAC_SUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tac Sua"
+      }
+    },
+    {
+      "id": "B_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_VET_CHAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Cham"
+      }
+    },
+    {
+      "id": "DL_KHANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Sinh"
+      }
+    },
+    {
+      "id": "DL_DIEU_TRI_VIEM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dieu Tri Viem"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "133"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trầu không là một loại cây mọc leo, thân nhắn. Lá mọc so le, cuống có bẹ, dài $1,5-3,5cm$, phiến lá hình trái xoan, dài $10-13cm$, rộng $4,5-9cm$, phía cuống hình tim (đối với những lá phía gốc) đầu lá nhọn, khi soi lên thấy rất nhiều điểm chứa tinh dầu rất nhỏ, gần lá thường 5. Hoa khác gốc mọc thành bông. Quả mọng không có vòi sót lại ( Hình 77, Hm 39,1 )."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_BETEL_PHENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu người ta đã xác định có hai chất phenol là `$betel-phenol$` (đồng phân với chất eugenol chavibetol) và `$chavicol$`"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_CHAVICOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu người ta đã xác định có hai chất phenol là `$betel-phenol$` (đồng phân với chất eugenol chavibetol) và `$chavicol$`"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_MAN_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, thêm nước sôi, rửa vết thương",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_VIEM_MACH_HACH_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ, thêm nước sôi, rửa vết thương",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_VIEM_KET_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước pha lá trầu không dùng làm thuốc nhỏ mắt",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_BENH_CHAM_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước pha lá trầu không dùng làm thuốc nhỏ mắt",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã đắp lên ngực",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã đắp lên ngực",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_TAC_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã đắp lên vú",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "2-3 lá | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt nhỏ, cho vào cốc con, dội nước sôi ngập lá, đợi 10-15 phút cho chất thuốc thôi ra nước, dùng nước này rửa vết thương. Ngày 2-3 lần, nếu vết loét thì có thể dùng giấy bản đốt lấy tro đắp vào | Đun với nước cho sôi kỹ để ấm mà dùng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "2-3 lá",
+        "cach_dung": "Cắt nhỏ, cho vào cốc con, dội nước sôi ngập lá, đợi 10-15 phút cho chất thuốc thôi ra nước, dùng nước này rửa vết thương. Ngày 2-3 lần, nếu vết loét thì có thể dùng giấy bản đốt lấy tro đắp vào",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "B_VET_CHAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "2-3 lá",
+        "cach_dung": "Cắt nhỏ, cho vào cốc con, dội nước sôi ngập lá, đợi 10-15 phút cho chất thuốc thôi ra nước, dùng nước này rửa vết thương. Ngày 2-3 lần, nếu vết loét thì có thể dùng giấy bản đốt lấy tro đắp vào",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T134"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trầu không có tác dụng kháng sinh rất mạnh đối với các loại vi trùng: Tụ cầu, Subtilit và trực trùng Coli."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "DL_DIEU_TRI_VIEM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao nước trầu không thí nghiệm điều trị bệnh viêm cận răng (paradentose) có kết quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "all_sources": [
+          "CT_VT_VN_T133"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.0,
+      "reliability_c_score": 0.7633,
+      "total_confidence_sum": 11.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

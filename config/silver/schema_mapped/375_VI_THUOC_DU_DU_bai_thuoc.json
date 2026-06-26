@@ -1,0 +1,364 @@
+{
+  "entity_hub": "VI_THUOC_DU_DU",
+  "source": {
+    "source_id": "CT_VT_VN_T375",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "375"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VI_TRUNG_DU_DU_D",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đu đủ giúp tiêu hóa, từ đó loại bỏ vi trùng Gram âm và dương do không tiêu hóa.",
+        "cach_dung": "Ăn trực tiếp.",
+        "ghi_chu": "Không tiêu hóa được trong mấy ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_VI_TRUNG_DU_DU_D",
+      "to": "B_VI_TRUNG_GRAM_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các vi trùng Gram dương + và Gram âm do không tiêu hóa được trong mấy ngày.",
+        "cach_dung": "Ăn trực tiếp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_VI_TRUNG_DU_DU_D",
+      "to": "B_VI_TRUNG_GRAM_AM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các vi trùng Gram dương + và Gram âm do không tiêu hóa được trong mấy ngày.",
+        "cach_dung": "Ăn trực tiếp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_DU_DU_DG",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đu đủ xanh có tác dụng làm lành vết loét, thịt gà bổ dưỡng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_DU_DU_DG",
+      "to": "VT_THIT_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đu đủ xanh có tác dụng làm lành vết loét, thịt gà bổ dưỡng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_DU_DU_DG",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh loét dạ dày.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_DA_CUNG_DU_DU_D",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đu đủ xanh có enzyme giúp làm mềm da.",
+        "cach_dung": "Dùng bôi ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_DA_CUNG_DU_DU_D",
+      "to": "S_DA_CUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thịt cứng.",
+        "cach_dung": "Dùng bôi mặt hoặc tay chữa các vết tàn hương ở mặt và tay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DU_DU_D",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhựa đu đủ có tác dụng làm tiêu các tế bào sừng.",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DU_DU_D",
+      "to": "B_TRAI_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trai chân và hột cơm, bệnh sang thấp (eczema) hoặc can tiễn (psoriasis).",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DU_DU_D",
+      "to": "B_SANG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trai chân và hột cơm, bệnh sang thấp (eczema) hoặc can tiễn (psoriasis).",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_TRAI_CHAN_DU_DU_D",
+      "to": "B_CAN_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trai chân và hột cơm, bệnh sang thấp (eczema) hoặc can tiễn (psoriasis).",
+        "cach_dung": "Dùng ngoài."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_BIENG_AN_DU_DU_D",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Lá đu đủ kích thích tiêu hóa, giúp bò ngựa ăn ngon miệng hơn.",
+        "cach_dung": "Trộn với thóc cho ngựa, bò ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_BIENG_AN_DU_DU_D",
+      "to": "B_BIENG_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh biếng ăn của bò ngựa.",
+        "cach_dung": "Trộn với thóc cho ngựa, bò ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_DU_DU_R",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rễ đu đủ có tác dụng cầm máu.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_DU_DU_R",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh băng huyết, bệnh sỏi thận.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_SOI_THAN_DU_DU_R",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Rễ đu đủ có tác dụng lợi tiểu, hỗ trợ điều trị sỏi thận.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_SOI_THAN_DU_DU_R",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh băng huyết, bệnh sỏi thận.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_HO_DU_DU_D_HD",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa đu đủ đực có tác dụng giảm ho, đường phèn giúp làm dịu cổ họng.",
+        "cach_dung": "Hấp với đường hoặc đường phèn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_HO_DU_DU_D_HD",
+      "to": "VT_DUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Hoa đu đủ đực có tác dụng giảm ho, đường phèn giúp làm dịu cổ họng.",
+        "cach_dung": "Hấp với đường hoặc đường phèn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_HO_DU_DU_D_HD",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, viêm ống phổi, mất tiếng.",
+        "cach_dung": "Hấp với đường hoặc đường phèn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_HO_DU_DU_D_HD",
+      "to": "B_VIEM_ONG_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, viêm ống phổi, mất tiếng.",
+        "cach_dung": "Hấp với đường hoặc đường phèn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_HO_DU_DU_D_HD",
+      "to": "S_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, viêm ống phổi, mất tiếng.",
+        "cach_dung": "Hấp với đường hoặc đường phèn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_CA_DUOI_CAN_DU_DU_RM",
+      "to": "VI_THUOC_DU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$30g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ đu đủ có tác dụng giảm đau, muối có tính sát khuẩn.",
+        "cach_dung": "Vắt lấy nước uống, bã đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_CA_DUOI_CAN_DU_DU_RM",
+      "to": "VT_MUOI_AN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rễ đu đủ có tác dụng giảm đau, muối có tính sát khuẩn.",
+        "cach_dung": "Vắt lấy nước uống, bã đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_CA_DUOI_CAN_DU_DU_RM",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ đu đủ chữa cá đuối cắn.",
+        "cach_dung": "Vắt lấy nước uống, bã đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    },
+    {
+      "from": "BT_CA_DUOI_CAN_DU_DU_RM",
+      "to": "B_CA_DUOI_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ đu đủ chữa cá đuối cắn.",
+        "cach_dung": "Vắt lấy nước uống, bã đắp lên chỗ sưng đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T375"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,78 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_ACTISO",
+    "ten_raw": "Cây áctisô",
+    "ten_khoa_hoc": "Cynara scolymus L.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Phần gốc nạc của lá bắc và đế hoa",
+      "phan_bo": "Cây được di thực và trồng ở nước ta, nhiều\nnhất ở Đà Lạt, Sapa, Tam Đảo. Có thể trồng\nđược ở đồng bằng.",
+      "thu_hai": "Lá hải vào lúc cây sắp hoặc\nđang ra hoa.",
+      "che_bien_tho": "Rọc bỏ sống lá, sấy hay phơi khô."
+    },
+    "display_name": "Cây áctisô"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T236",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "236"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây Actisô cao gần $1m$ hay hơn, có khi tới hơn $2m$, trên thân và lá có lông trắng như bông. Lá to mọc cách, phiến lá bị khía sau, có gai, mặt dưới có lông trắng. Cụm hoa hình đầu, màu tím nhạt. Lá bắc ngoài của cụm hoa dầy và nhọn. Phần gốc nạc của lá bắc và đế hoa ăn được (Hình 163)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_ACTISO",
+      "to": "HC_XYNARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới xác định trong lá actisô có một chất đắng có phản ứng axit gọi là xynarin đã tổng hợp được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T236"
+      }
+    },
+    {
+      "from": "VI_THUOC_ACTISO",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn thấy inulin, inulinaza, tanin, các muối hữu cơ của các kim loại ka li, canxi, magiê, natri (tỷ lệ kali rất cao)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T236"
+      }
+    },
+    {
+      "from": "VI_THUOC_ACTISO",
+      "to": "HC_INULINAZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn thấy inulin, inulinaza, tanin, các muối hữu cơ của các kim loại ka li, canxi, magiê, natri (tỷ lệ kali rất cao)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T236"
+      }
+    },
+    {
+      "from": "VI_THUOC_ACTISO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn thấy inulin, inulinaza, tanin, các muối hữu cơ của các kim loại ka li, canxi, magiê, natri (tỷ lệ kali rất cao)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T236"
+      }
+    }
+  ]
+}

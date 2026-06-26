@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THANH_DAI",
+    "ten_raw": "Thanh đại",
+    "ten_khoa_hoc": "Indigo pulverata levis; Indigofera tinctoria; Isatis tinctoria L.; Isatis indigotica Fort; Polygonum tinctorium Lour; Strobilanthes cusia Bremek; Strobilanthes flaccidifolius Nees",
+    "ho_thuc_vat": "Chữ thập Brassicaceae, Cánh bướm Fabaceae, Rau răm Polygonaceae, Ô rô Acanthaceae",
+    "variants": [
+      "bột chàm"
+    ],
+    "properties": {
+      "che_bien_tho": "Cây hải về còn tươi phải cho ngay vào thùng\ngỗ hoặc xây gạch. Có nơi chỉ tuốt lấy lá mà chế\nchàm còn thì bỏ cành. Đổ nước sạch vào rồi chờ\ncho lên men: Mùa nóng chỉ cần ngâm $2$-$3$ ngày,\nmùa mát phải ngâm tới $5$-$6$ ngày. Nhưng thường\nthời gian cho lên men này vào khoảng $12$ giờ ở\nnhiệt độ $30°C$. Sau đó gạn lấy nước và lọc qua\nsàng để loại bỏ bớt cọng lá. Cho vôi cục vào để\nkiềm hoa môi trường, thường $100kg$ cây chàm\nthì dùng $8$-$10kg$ vôi. Dùng cành cây hay que\nkhuấy liên tục $4$-$6$ giờ để oxy hóa. Dung dịch sẽ\nnổi bọt lên và ngả màu xanh lam (ta có thể dùng\nphèn để kết tủa màu chàm). Bột chàm được với\nra, ép hết nước, cắt thành từng khúc nhỏ để\nphơi trong mát cho đến khô. Trong khi phơi có\nthể có mùi amoniac và mốc. Khi dùng, cạo lớp\nmốc đó đi."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T128",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "128"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T130]: Trong cây chàm chưa có chất chàm ngay, mà lại chứa một glucozit gọi là indican. Khi thủy phân indican sẽ cho glucoza và indoxyl. Chất indoxyl này oxy hóa sẽ cho indigotin. Khi bị khử oxy trong môi trường kiềm, indigotin sẽ cho leucoindigo không có màu. Chất indigotin có màu xanh lam sẫm, ánh tía, thăng hoa ở $290°$, cho các tinh thể hình kim xanh lam, khi bốc hơi cho các khói lam tím. Indogitin không tan trong axit axetic lạnh, trong phenol v.v... và không tan trong nước, trong rượu và trong ête, hơi tan trong tinh dầu thông và dầu nhờn (chất béo)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_DAI",
+      "to": "HC_INDICAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T130]: Trong cây chàm chưa có chất chàm ngay, mà lại chứa một glucozit gọi là indican."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_DAI",
+      "to": "HC_INDIGO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T130]: Chất indigotin có màu xanh lam sẫm, ánh tía, thăng hoa ở $290°$, cho các tinh thể hình kim xanh lam, khi bốc hơi cho các khói lam tím."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    }
+  ]
+}

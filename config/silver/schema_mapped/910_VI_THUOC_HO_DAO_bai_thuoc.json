@@ -1,0 +1,157 @@
+{
+  "entity_hub": "VI_THUOC_HO_DAO",
+  "source": {
+    "source_id": "CT_VT_VN_T910",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "910"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "VI_THUOC_HO_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6 đến 12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ đào dùng để bổ thận, cố tinh, điều trị di tinh.",
+        "mo_ta_chi_tiet": "Chữa di tinh, đái són, tiểu tiện nhiều lần, phụ nữ khí hư, bạch đới, tỳ hư mà hay đi ỉa lỏng",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa di tinh",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "S_DAI_SON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái són",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "S_TIEU_TIEN_NHIEU_LAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện nhiều lần",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ khí hư",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "B_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ bạch đới",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_HO_DAO_H",
+      "to": "B_TY_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tỳ hư mà hay đi ỉa lỏng",
+        "cach_dung": "Dùng dưới hình thức bột tay cao mềm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_K",
+      "to": "VI_THUOC_HO_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "ít",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Mụn nhọt",
+        "cach_dung": "Lá kim anh giã nhỏ, thêm ít muối. Đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_K",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt",
+        "cach_dung": "Lá kim anh giã nhỏ, thêm ít muối. Đắp lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_KDL",
+      "to": "VI_THUOC_HO_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Chưa rõ",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Vết thương",
+        "cach_dung": "Lá kim anh và lá dâu tằm cùng giã với muối. Đắp lên để cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_KDL",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết thương",
+        "cach_dung": "Lá kim anh và lá dâu tằm cùng giã với muối. Đắp lên để cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    }
+  ],
+  "metadata": {}
+}

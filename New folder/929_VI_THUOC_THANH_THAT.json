@@ -1,0 +1,108 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THANH_THAT",
+    "ten_raw": "Thanh thất",
+    "ten_khoa_hoc": "Ailanthus malabarica DC.",
+    "ho_thuc_vat": "Thanh thất (Simarubaceae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Vỏ và lá",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "lieu_dung_chung": "Mỗi ngày dùng 4 đến $10g$ vỏ dưới dạng thuốc sắc hay ngâm rượu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Vĩnh Phúc, Phú Thọ, Thanh Hóa, Nghệ An, Hà Tĩnh, Ấn Độ"
+    },
+    "display_name": null
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THANH_THAT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thanh That"
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kem An"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T929",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "929"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thanh thất là một cây gỗ lớn. Lá kép lông chim lẻ, kích thước lớn, dài $0,6-1m$ thường tập trung ở gần ngọn cành, đứng dưới nhìn lên trông như những tán nhỏ có hình như mạng nhện. Lá chét lệch, hơi cong lưỡi liềm, lá già trước khi rụng có đỏ tiết. Hoa mọc thành xim đơm, xếp thành chùy ở kẽ lá, dài $20-25cm$. Quả có cánh dài $7-8cm$, rộng $18mm$, mang một hạt ở giữa quả. Hạt tròn và dẹt. Thoạt nhìn qua ta có thể nhầm với quả của một chi Dalbergia họ cánh bướm (Hình 691).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc bổ đắng",
+        "ghi_chu": "Vỏ và lá, phụ nữ sau khi đẻ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T929"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Vỏ và lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T929"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_THAT",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-10g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T929"
+      }
+    }
+  ]
+}

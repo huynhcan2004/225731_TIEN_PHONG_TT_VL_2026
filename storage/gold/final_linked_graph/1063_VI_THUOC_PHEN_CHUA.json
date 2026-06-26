@@ -1,0 +1,740 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_PHEN_CHUA",
+    "ten_raw": "Phèn chua",
+    "ten_khoa_hoc": "$Alumen$",
+    "ho_thuc_vat": "$Chưa rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chưa rõ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Ngày uống $0,3$-$1$g khô phàn. Có thể uống tới $2$-$4$g. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ"
+    },
+    "display_name": "Vị thuốc Phèn chua",
+    "canonical_name": "Vị thuốc Phèn chua"
+  },
+  "nodes": [
+    {
+      "id": "BT_KHI_HU_BACH_DAI_PHEN_CHUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Khí hư bạch đới phèn chua",
+        "aliases": [
+          "khihubachdoiphenchua",
+          "khi hu bach doi phen chua",
+          "khí hư bạch đới phèn chua"
+        ],
+        "search_vector_hint": "Bài thuốc Khí hư bạch đới phèn chua thuộc nhóm bài thuốc, thường liên quan đến điều trị khí hư bạch đới."
+      }
+    },
+    {
+      "id": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lỵ mạn tính phèn chua",
+        "aliases": [
+          "ly man tinh phen chua",
+          "lymantinhphenchua",
+          "lỵ mạn tính phèn chua"
+        ],
+        "search_vector_hint": "Bài thuốc Lỵ mạn tính phèn chua thuộc nhóm bài thuốc, thường liên quan đến điều trị lỵ mạn tính."
+      }
+    },
+    {
+      "id": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mắt quáng thâm phèn chua",
+        "aliases": [
+          "matquangthamphenchua",
+          "mat quang tham phen chua",
+          "mắt quáng thâm phèn chua"
+        ],
+        "search_vector_hint": "Bài thuốc Mắt quáng thâm phèn chua thuộc nhóm bài thuốc, thường liên quan đến điều trị các bệnh về mắt."
+      }
+    },
+    {
+      "id": "B_KHI_HU_BACH_DAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Khí hư bạch đới",
+        "aliases": [
+          "khihubachdoi",
+          "bạch đới",
+          "bach doi",
+          "khi hu bach doi",
+          "khí hư bạch đới",
+          "bachdoi"
+        ],
+        "search_vector_hint": "Bệnh Khí hư bạch đới thuộc nhóm bệnh, thường liên quan đến viêm nhiễm phụ khoa."
+      }
+    },
+    {
+      "id": "B_LY_MAN_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ mạn tính",
+        "aliases": [
+          "lỵ mạn tính",
+          "lymantinh",
+          "ly man tinh"
+        ],
+        "search_vector_hint": "Bệnh Lỵ mạn tính thuộc nhóm bệnh, thường liên quan đến nhiễm trùng đường ruột kéo dài."
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Răng cắn",
+        "aliases": [
+          "rang can",
+          "răng cắn",
+          "rangcan"
+        ],
+        "search_vector_hint": "Bệnh Răng cắn thuộc nhóm bệnh, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "B_RET_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rét can",
+        "aliases": [
+          "rét can",
+          "retcan",
+          "ret can"
+        ],
+        "search_vector_hint": "Bệnh Rét can thuộc nhóm bệnh, thường liên quan đến các triệu chứng sốt rét kéo dài."
+      }
+    },
+    {
+      "id": "B_VIEM_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm dạ dày",
+        "aliases": [
+          "viêm bao tử",
+          "viemdaday",
+          "viem bao tu",
+          "viêm dạ dày",
+          "viembaotu",
+          "viem da day"
+        ],
+        "search_vector_hint": "Bệnh Viêm dạ dày thuộc nhóm bệnh, thường liên quan đến tổn thương niêm mạc dạ dày."
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm ruột",
+        "aliases": [
+          "viemruot",
+          "viem ruot",
+          "viêm ruột"
+        ],
+        "search_vector_hint": "Bệnh Viêm ruột thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Táo thấp",
+        "aliases": [
+          "tao thap",
+          "táo thấp",
+          "taothap"
+        ],
+        "search_vector_hint": "Táo thấp thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TRI_NGUA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị ngứa",
+        "aliases": [
+          "trị ngứa",
+          "chi ngua",
+          "chingua",
+          "tri ngua",
+          "tringua",
+          "chỉ ngứa"
+        ],
+        "search_vector_hint": "Công năng Trị ngứa thuộc nhóm công năng, thường liên quan đến giảm cảm giác ngứa."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "S_CAM_KHAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Cấm khẩu",
+        "aliases": [
+          "cam khau",
+          "cấm khẩu",
+          "camkhau"
+        ],
+        "search_vector_hint": "Triệu chứng Cấm khẩu thuộc nhóm triệu chứng, thường liên quan đến mất khả năng nói."
+      }
+    },
+    {
+      "id": "S_DI_TA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ỉa tả",
+        "aliases": [
+          "ia ta",
+          "tieu chay",
+          "tieuchay",
+          "iata",
+          "ỉa tả",
+          "tiêu chảy"
+        ],
+        "search_vector_hint": "Triệu chứng Ỉa tả thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "S_MAT_QUANG_THAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mắt quáng thâm",
+        "aliases": [
+          "mắt quáng thâm",
+          "matquangtham",
+          "mat quang tham"
+        ],
+        "search_vector_hint": "Triệu chứng Mắt quáng thâm thuộc nhóm triệu chứng, thường liên quan đến suy giảm thị lực trong bóng tối."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_PHEN_CHUA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phèn chua",
+        "aliases": [
+          "phèn chua",
+          "phen chua",
+          "phenchua"
+        ],
+        "search_vector_hint": "Vị thuốc Phèn chua thuộc nhóm vị thuốc, thường liên quan đến táo thấp, giải độc.",
+        "bo_phan_dung": "chưa rõ",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Ngày uống $0,3$-$1$g khô phàn. Có thể uống tới $2$-$4$g. Dùng ngoài không kể liều lượng.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "ten_khoa_hoc": "$Alumen$",
+        "ho_thuc_vat": "$Chưa rõ$",
+        "hinh_thai_chi_tiet": "Phèn chua có tinh thể to nhỏ không đều, không màu hay hơi vàng, trong hay hơi đục rất dễ vỡ vụn, mùi không rõ, vị hơi ngọt chua và chát, tan trong nước, trong glyxerin, không tan trong cồn.",
+        "thanh_phan_hoa_hoc": "['Phèn chua có thể chế từ một nguồn nguyên liệu thiên nhiên gọi là minh phần thạch (Alunite) có công thức K,SO, AI,(SO,), 4Al(OH), thường lẫn ít sắt. Người ta nung đá minh phần sau đó hòa tan trong nước nóng, lọc và kết tinh. Có thể chế phèn chua bằng cách nung đất sét cho tác dụng với axit sunfuric, rồi trộn với dung dịch kali sunfat rồi kết tinh. Còn nhiều phương pháp chế tạo khác.']"
+      }
+    },
+    {
+      "id": "VT_SA_SANG_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xà sàng tử",
+        "aliases": [
+          "xasangtu",
+          "xa sang tu",
+          "xà sàng tử"
+        ],
+        "search_vector_hint": "Vị thuốc Xà sàng tử thuộc nhóm vị thuốc, thường liên quan đến trị ngứa, ghẻ lở."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1063"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_CHUA_TOAN"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TY"
+        ],
+        "cong_nang": "táo thấp, giải độc, sát trùng, làm hết ngứa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Phèn chua có tinh thể to nhỏ không đều, không màu hay hơi vàng, trong hay hơi đục rất dễ vỡ vụn, mùi không rõ, vị hơi ngọt chua và chát, tan trong nước, trong glyxerin, không tan trong cồn.",
+        "thanh_phan_hoa_hoc": [
+          "Phèn chua có thể chế từ một nguồn nguyên liệu thiên nhiên gọi là minh phần thạch (Alunite) có công thức K,SO, AI,(SO,), 4Al(OH), thường lẫn ít sắt. Người ta nung đá minh phần sau đó hòa tan trong nước nóng, lọc và kết tinh. Có thể chế phèn chua bằng cách nung đất sét cho tác dụng với axit sunfuric, rồi trộn với dung dịch kali sunfat rồi kết tinh. Còn nhiều phương pháp chế tạo khác."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua, lạnh (hàn)"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      }
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      }
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $0,5-1g$ chia làm nhiều lần",
+        "cach_dung": "Rang lên cho hết nước, tán nhỏ, uống",
+        "ghi_chu": "kinh nghiệm nhân dân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $0,5-1g$ chia làm nhiều lần",
+        "cach_dung": "Rang lên cho hết nước, tán nhỏ, uống",
+        "ghi_chu": "kinh nghiệm nhân dân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày dùng $0,5-1g$ chia làm nhiều lần",
+        "cach_dung": "Rang lên cho hết nước, tán nhỏ, uống",
+        "ghi_chu": "kinh nghiệm nhân dân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "S_DI_TA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày dùng $0,5-1g$ chia làm nhiều lần",
+        "cach_dung": "Rang lên cho hết nước, tán nhỏ, uống",
+        "ghi_chu": "kinh nghiệm nhân dân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LY_MAN_TINH_PHEN_CHUA",
+      "to": "B_LY_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $0,5-1g$ chia làm nhiều lần",
+        "cach_dung": "Rang lên cho hết nước, tán nhỏ, uống",
+        "ghi_chu": "kinh nghiệm nhân dân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống 2-3 lần, mỗi lần uống $3-6g$",
+        "cach_dung": "Tán nhỏ, uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "B_RET_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống 2-3 lần, mỗi lần uống $3-6g$",
+        "cach_dung": "Tán nhỏ, uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "S_CAM_KHAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2-3 lần, mỗi lần uống $3-6g$",
+        "cach_dung": "Tán nhỏ, uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_QUANG_THAM_PHEN_CHUA",
+      "to": "S_MAT_QUANG_THAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống 2-3 lần, mỗi lần uống $3-6g$",
+        "cach_dung": "Tán nhỏ, uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHI_HU_BACH_DAI_PHEN_CHUA",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHI_HU_BACH_DAI_PHEN_CHUA",
+      "to": "VT_SA_SANG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KHI_HU_BACH_DAI_PHEN_CHUA",
+      "to": "B_KHI_HU_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tán nhỏ làm thành viên hay sắc nước dùng rửa âm hộ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_PHEN_CHUA",
+      "to": "CN_TRI_NGUA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm hết ngứa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063",
+        "all_sources": [
+          "CT_VT_VN_T1063"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

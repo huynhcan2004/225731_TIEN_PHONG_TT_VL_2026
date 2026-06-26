@@ -1,0 +1,337 @@
+{
+  "entity_hub": "VI_THUOC_BAU_DAT",
+  "source": {
+    "source_id": "CT_VT_VN_T672",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "672"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "VI_THUOC_BAU_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị nhức đầu, chóng mặt.",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị nhức đầu, chóng mặt.",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "VT_TE_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị nhức đầu, chóng mặt.",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị nhức đầu, chóng mặt.",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc chữa nhức đầu, chóng mặt",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_XUYEN_KHUNG_TXH",
+      "to": "S_CHONG_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc chữa nhức đầu, chóng mặt",
+        "cach_dung": "Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VI_THUOC_BAU_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_KINH_GIOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$24g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_TE_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "S_NGAT_MUI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_KBPPTKB",
+      "to": "S_MAT_MO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc chữa thiên đầu thống, ngạt mũi, mắt mờ",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $6g$ bột, dùng nước chè mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_X",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_X",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Độc vị xuyên khung tán chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_XUYEN_KHUNG_X",
+      "to": "VI_THUOC_BAU_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_HAU_SAN_XUYEN_KHUNG_X",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_HAU_SAN_XUYEN_KHUNG_X",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Độc vị xuyên khung tán chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_HAU_SAN_XUYEN_KHUNG_X",
+      "to": "VI_THUOC_BAU_DAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc chữa thiên đầu thống, phụ nữ sau khi đẻ nhức đầu.",
+        "cach_dung": "Ngày uống hai lần, mỗi lần uống $4$ đến $6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    }
+  ],
+  "metadata": {}
+}

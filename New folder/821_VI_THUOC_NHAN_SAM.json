@@ -1,0 +1,959 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NHAN_SAM",
+    "ten_raw": "Nhân sâm",
+    "ten_khoa_hoc": "Panax ginseng C. A. Mey. (P. schinseng Nees.); Panax ginseng Panax Schinseng vai. japonicum Mak.; Panax pseudoginseng Wall.; Panax bipinnatifidus Seem.",
+    "ho_thuc_vat": "Ngũ gia bì Araliaceae",
+    "variants": [
+      "viên sâm",
+      "dã nhân sâm"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ chế biến rồi phơi hay sấy khô",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "phơi hay sấy khô",
+      "lieu_dung_chung": "Ngày dùng $2-6g$.nCó thể dùng dưới dạng thuốc sắc 5 hay 10$\\%$ với liều $15-30ml$ một lần, ngày dùng 3 lần, hoặc dưới dạng cồn nhân sâm với liều 15 giọt một lần, ngày uống 3 lần.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Trung Quốc, Triều Tiên, vùng Viễn Đông của Liên Xô cũ, còn được trồng ở Nhật Bản, Mỹ"
+    },
+    "display_name": "Nhân sâm"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NHAN_SAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Nhan Sam"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "HC_PANAXOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Panaxozit"
+      }
+    },
+    {
+      "id": "HC_PANAXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Panaxin"
+      }
+    },
+    {
+      "id": "HC_PANAXEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Panaxen"
+      }
+    },
+    {
+      "id": "HC_AXIT_PANAXIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Panaxic"
+      }
+    },
+    {
+      "id": "HC_GERMANIUM",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Germanium"
+      }
+    },
+    {
+      "id": "HC_GINSENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ginsenin"
+      }
+    },
+    {
+      "id": "S_DAU_RUOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Ruot"
+      }
+    },
+    {
+      "id": "S_DAU_DA_DAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Da Day"
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Non Mua"
+      }
+    },
+    {
+      "id": "B_PHE_HU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phe Hu"
+      }
+    },
+    {
+      "id": "S_HO_SUYEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho Suyen"
+      }
+    },
+    {
+      "id": "B_TY_HU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ty Hu"
+      }
+    },
+    {
+      "id": "S_TIET_TA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tiet Ta"
+      }
+    },
+    {
+      "id": "B_VI_HU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vi Hu"
+      }
+    },
+    {
+      "id": "B_BENH_LAU_NGAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Lau Ngay"
+      }
+    },
+    {
+      "id": "B_KHI_HU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Khi Hu"
+      }
+    },
+    {
+      "id": "S_SO_HAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "So Hai"
+      }
+    },
+    {
+      "id": "B_TIEU_KHAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tieu Khat"
+      }
+    },
+    {
+      "id": "B_CO_THE_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Co The Suy Nhuoc"
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Suy Nhuoc"
+      }
+    },
+    {
+      "id": "VT_CHE_PHU_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Che Phu Tu"
+      }
+    },
+    {
+      "id": "VT_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Sinh Khuong"
+      }
+    },
+    {
+      "id": "VT_TAO_DEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Tao Den"
+      }
+    },
+    {
+      "id": "S_MACH_SUY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mach Suy"
+      }
+    },
+    {
+      "id": "S_MACH_KIET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mach Kiet"
+      }
+    },
+    {
+      "id": "S_MO_HOI_RA_NHIEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mo Hoi Ra Nhieu"
+      }
+    },
+    {
+      "id": "S_CHAN_TAY_LANH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chan Tay Lanh"
+      }
+    },
+    {
+      "id": "CN_BO_NGUYEN_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Nguyen Khi"
+      }
+    },
+    {
+      "id": "CN_ICH_HUYET_SINH_TAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ich Huyet Sinh Tan"
+      }
+    },
+    {
+      "id": "CN_DINH_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Dinh Than"
+      }
+    },
+    {
+      "id": "CN_ICH_TRI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ich Tri"
+      }
+    },
+    {
+      "id": "DL_GIAM_MET_MOI",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Met Moi"
+      }
+    },
+    {
+      "id": "DL_HUNG_PHAN_THAN_KINH_TRUNG_UONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Hung Phan Than Kinh Trung Uong"
+      }
+    },
+    {
+      "id": "DL_RUT_NGAN_THOI_GIAN_PHAN_XA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Rut Ngan Thoi Gian Phan Xa"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_TAC_DONG_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tac Dong Tim Mach"
+      }
+    },
+    {
+      "id": "DL_HUNG_PHAN_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Hung Phan Ho Hap"
+      }
+    },
+    {
+      "id": "DL_HA_DUONG_HUYET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Duong Huyet"
+      }
+    },
+    {
+      "id": "DL_TANG_CUONG_SINH_LY",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tang Cuong Sinh Ly"
+      }
+    },
+    {
+      "id": "DL_TANG_DE_KHANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tang De Khang"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_TRAN_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tran Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T821",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "821"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn có tên là viên sâm, dã nhân sâm. Tên nhân sâm do vị thuốc giống hình người. Tên Panax do chữ Hy Lạp pan là tất cả, acos là chữa được, có ý nói vị thuốc chữa được mọi bệnh, ginseng và schinseng là phiên âm chữ nhân sâm. Mặc dầu vị nhân sâm hiện nay ta vẫn còn phải nhập nhưng công dụng quá phổ biến, nhiều người lầm với một số cây ta có. Liên Xô cũ, Trung Quốc, Triều Tiên đều đã giúp ta hạt giống và mầm để thí nghiệm trồng thử cho nên chúng tôi giới thiệu ở đây để tránh nhầm lẫn và để cố gắng đặt vấn đề di thực được nhân sâm. Nhân sâm (Radix ginseng hay Radix ginseng sylvestris) là rễ chế biến rồi phơi hay sấy khô của cây nhân sâm trồng hoặc mọc hoang. Có tác giả xác định hai loại nhân sâm như sau: 1. Nhân sâm mọc hoang Panax ginseng C. A. Mey. forma sylvestre Chao et Shih. 2. Nhân sâm trồng: Panax ginseng C. A. Mey. forma sativum. Chao et Shih. Cây nhân sâm là một cây sống lâu năm, cao Hình $620$. Nhân sâm - Panax ginseng chừng $0,6m$. Rễ mẫm thành củ to. Lá mọc vòng, có cuống dài, lá kép gồm nhiều lá chét mọc thành hình chân vịt. Nếu cây mới được một năm (nghĩa là sau khi gieo được $2$ năm) thì cây chỉ có $1$ lá với $3$ lá chét, nếu cây nhân sâm được $2$ năm cũng chỉ có $1$ lá với $5$ lá chét. Cây nhân sâm $3$ năm có $2$ lá kép, cây nhân sâm $4$ năm có $3$ lá kép, cây nhân sâm $5$ năm trở lên có $4$ đến $5$ lá kép, tất cả đều có $5$ lá chét (đặc biệt có thể có $6$ lá chét) hình trứng, mép lá chét có răng cưa sâu. Bắt đầu từ năm thứ ba trở đi, cây nhân sâm mới cho hoa, kết quả. Hoa xuất hiện vào mùa hạ. Cụm hoa hình tán mọc ở đầu cành, hoa màu xanh nhạt, $5$ cánh hoa, $5$ nhị, bầu hạ $2$ núm. Quả mọng hơi dẹt to bằng hạt đậu xanh, khi chín có màu đỏ, trong chứa $2$ hạt. Hạt cây sâm năm thứ $3$ chưa tốt. Thường người ta bấm bỏ đi đợi cây được $4-5$ năm mới để ra quả và lấy hạt làm giống (Hình $620$, Hm $21,1$).",
+        "thanh_phan_hoa_hoc": [
+          "Trong nhân sâm có loại saponin sterolic. Hỗn hợp saponin có tên là $panaxozit$ trước đây gọi là panaquilon hay panakilon.",
+          "Chất glucozit hoặc hỗn hợp glucozit mang tên là $panaxin$ cũng chưa được nghiên cứu sâu. Trước đây gọi là gensenin cũng là một loại saponin chưa tinh khiết lắm.",
+          "Ngoài ra còn có một tí tinh dầu $0,055-0,250\\%$ làm cho nhân sâm có mùi đặc biệt, trong đó chủ yếu là chất $panaxen$ CH",
+          "Các vitamin B, và B, các mendiataza.",
+          "Tro chùng $3-7\\%$ trong đó có chừng $53\\%$ axit photphoric.",
+          "Các tạp chất khác gồm nhựa và chất béo tổng số chừng $1,5\\%$.",
+          "Các axit béo gồm hỗn hợp axit panmitic, stearic và linoleic. Hỗn hợp này mang tên axit panaxic.",
+          "Các chất khác gồm có phytosterin $0,029\\%$-tinh bột chừng $20\\%$, chất pectin $16-23\\%$ và đường $4\\%$.",
+          "Mới đây người ta lại thấy trong nhân sâm có hàm lượng germanium cao."
+        ],
+        "cach_dung_bao_che": "ít nhất $37g$, rửa sạch đất từng củ một bằng bàn chải nhỏ, rửa ở dưới nước, để nguyên cả rễ, kể cả rễ nhỏ, rửa như vậy sẽ được củ sâm trắng ngà. Cho vào nồi hấp ở áp lực hơi nước cao $2$ atmotphe từ $1$ giờ $20$ phút đến $1$ giờ $30$ phút. Nhiệt độ hấp $80-90C$. Sau đó sấy khô ở nhiệt độ $60-70 C$ ($6-7$ giờ) hoặc ở $50-60°$ ($8-10$ giờ) nên sấy khô hết sức mau. Sau khi sấy khô, dùng tay rứt các rễ con để riêng gọi là tu sâm, củ sâm còn lại giống như hình người (nếu không giống thì sửa cho giống) phơi ra nắng từ $7$ đến $15$ ngày (tuỳ theo sâm to hay nhỏ) là được. Sau đó chia hồng sâm thành hai cấp: Cấp trời (màu đẹp, dáng đều đặn, giống người), còn lại cấp đất. Cuối cùng đóng gói từng cần ta ($600g$) một. Loại tốt nhất $15$ củ nặng $600g$ loại kém nhất $60$ củ=$600g$- b) Bạch sâm: Vì sâm này khô và trắng. Những củ sâm không đủ tiêu chuẩn chế hồng sâm thì đem chế bạch sâm. Trước hết cắt bỏ rễ con, dùng dao tre cạo sạch vỏ mỏng, sau đó phơi nắng cho hơi khô, đem vào sửa thành hình người rồi lại phơi nắng cho khô hẳn. Thời gian phơi cả trước lẫn sau hết chừng $7$ đến $15$ ngày. Sau đó đóng gói như hồng sâm. Thường hồng sâm được đóng vào hòm gỗ, bạch sâm đóng vào hòm giấy. Gần đây, tại nhiều nước, nhân sâm đã được phát triển bằng nuôi cấy mô để đáp ứng nhu cầu ngày càng lớn về nhân sâm."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vị ngọt, hơi đắng, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vị ngọt, hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vị ngọt, hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vào 2 kinh tỳ và phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "nhân sâm vào 2 kinh tỳ và phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_PANAXOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hỗn hợp saponin có tên là $panaxozit$ trước đây gọi là panaquilon hay panakilon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_PANAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất glucozit hoặc hỗn hợp glucozit mang tên là $panaxin$ cũng chưa được nghiên cứu sâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_PANAXEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có một tí tinh dầu $0,055-0,250\\%$ làm cho nhân sâm có mùi đặc biệt, trong đó chủ yếu là chất $panaxen$ CH"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_AXIT_PANAXIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit béo gồm hỗn hợp axit panmitic, stearic và linoleic. Hỗn hợp này mang tên axit panaxic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_GERMANIUM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới đây người ta lại thấy trong nhân sâm có hàm lượng germanium cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "HC_GINSENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ginsenin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_DAU_RUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho vào miệng ngậm và nhấm từng ít một, nuốt nước và cả bã | Cho vào ấm hay chén sứ. Thêm một tí nước đậy nắp. Đun cách thuỷ, uống nước. Sau đó lại thêm nước và đun cách thuỷ tiếp tục uống, làm như vậy cho đến khi hết mùi vị mới thôi",
+        "ghi_chu": "Sâm thái mỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho vào miệng ngậm và nhấm từng ít một, nuốt nước và cả bã | Cho vào ấm hay chén sứ. Thêm một tí nước đậy nắp. Đun cách thuỷ, uống nước. Sau đó lại thêm nước và đun cách thuỷ tiếp tục uống, làm như vậy cho đến khi hết mùi vị mới thôi",
+        "ghi_chu": "Sâm thái mỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cho vào miệng ngậm và nhấm từng ít một, nuốt nước và cả bã | Cho vào ấm hay chén sứ. Thêm một tí nước đậy nắp. Đun cách thuỷ, uống nước. Sau đó lại thêm nước và đun cách thuỷ tiếp tục uống, làm như vậy cho đến khi hết mùi vị mới thôi | Chỉ định lâm sàng",
+        "ghi_chu": "Sâm thái mỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_PHE_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_HO_SUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_TY_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_TIET_TA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_VI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_BENH_LAU_NGAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_SO_HAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_TIEU_KHAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_CO_THE_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng, dùng liều lượng theo hướng dẫn ở trên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "BT_DOC_SAM_THANG",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "B_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "cach_dung": "Nước $400ml$ ($2$ bát) sắc còn $200ml$ ($1$ bát), cho uống từng ít một, không kể thời gian. Uống xong cần nằm yên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "BT_MACH_SUY_KIET_MO_HOI_NHIEU",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$ (có thể $20g$)",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VT_CHE_PHU_TU",
+      "to": "BT_MACH_SUY_KIET_MO_HOI_NHIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$ (có thể dùng $10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VT_SINH_KHUONG",
+      "to": "BT_MACH_SUY_KIET_MO_HOI_NHIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VT_TAO_DEN",
+      "to": "BT_MACH_SUY_KIET_MO_HOI_NHIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_MACH_SUY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $3$ bát ($600ml$) sắc còn $200ml$ ($1$ bát) chia làm nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_MACH_KIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $3$ bát ($600ml$) sắc còn $200ml$ ($1$ bát) chia làm nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_MO_HOI_RA_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $3$ bát ($600ml$) sắc còn $200ml$ ($1$ bát) chia làm nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "S_CHAN_TAY_LANH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $3$ bát ($600ml$) sắc còn $200ml$ ($1$ bát) chia làm nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "CN_BO_NGUYEN_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đại bổ nguyên khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "CN_ICH_HUYET_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích huyết sinh tân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "CN_DINH_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Định thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "CN_ICH_TRI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích trí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_GIAM_MET_MOI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân sâm có tác dụng làm giảm mệt mỏi.",
+        "ghi_chu": "Thí nghiệm trên người và chuột nhắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_HUNG_PHAN_THAN_KINH_TRUNG_UONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân sâm có tác dụng hưng phấn thần kinh trung ương, dùng với liều điều trị có thể làm đỡ mệt, tăng hiệu suất công tác.",
+        "ghi_chu": "So với thuốc phenamin thì tốt hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_RUT_NGAN_THOI_GIAN_PHAN_XA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều điều trị của nhân sâm có khả năng rút ngắn thời kỳ phản xạ tiềm phục của thần kinh và làm mau sự chuyển động của thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch nước và dung dịch rượu nhân sâm có tác dụng hạ huyết áp.",
+        "ghi_chu": "Thí nghiệm trên thỏ và mèo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_TAC_DONG_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nồng độ cao ức chế trên tim càng mạnh, nhưng nếu nồng độ thấp thì lại co bóp tim mạch và số lần bóp càng tăng.",
+        "ghi_chu": "Thí nghiệm trên thỏ và mèo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_HUNG_PHAN_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch nhân sâm 20$\\%$ tiêm vào tĩnh mạch mèo thấy nhân sâm hưng phấn hô hấp.",
+        "ghi_chu": "Liều nhỏ làm tăng hô hấp, liều cao có tác dụng ngược lại."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_HA_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bột nhân sâm và chất tan trong cồn của nhân sâm có tác dụng rõ rệt làm hạ mức huyết đường xuống.",
+        "ghi_chu": "Thí nghiệm trên thỏ bị bệnh huyết đường quá cao nhân tạo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_TANG_CUONG_SINH_LY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trọng lượng con vật tăng lên, thời gian giao cấu của con vật kéo dài, hiện tượng tình dục xuất hiện rõ rệt.",
+        "ghi_chu": "Thí nghiệm trên động vật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_TANG_DE_KHANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân sâm có tác dụng tăng sức đề kháng của động vật đối với tật bệnh.",
+        "ghi_chu": "Thí nghiệm trên động vật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm vào dưới da chuột nhắt $1ml$ dung dịch nhân sâm 20$\\%$ thấy sau 10-12 giờ chuột chết với trạng thái “mất sắc”.",
+        "ghi_chu": "Cho uống thì độc tính rất ít."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHAN_SAM",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều cao quá có thể gây hiện tượng quá trấn tĩnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T821"
+      }
+    }
+  ]
+}

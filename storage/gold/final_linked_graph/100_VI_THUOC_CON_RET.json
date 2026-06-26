@@ -1,0 +1,545 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CON_RET",
+    "ten_raw": "Con rết",
+    "ten_khoa_hoc": "$Scolopendra morsitans L.$",
+    "ho_thuc_vat": "$Ngô công Scolopendridae$",
+    "variants": [
+      "ngô công",
+      "thiên long",
+      "bách túc trùng",
+      "bách cước"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn con rết phơi hay sấy khô",
+      "thu_hai": "vào các tháng 4-5 đẻ trứng, mỗi con đẻ chừng $20$-$30$ trứng sau ít lâu nở thành rết con, lúc đầu có màu trắng, sau lột xác thành rết lớn màu nâu đỏ",
+      "che_bien_tho": "ta dùng con rết lớn, nhiều chân, thân dẹt, dài $7$-$13$cm, thường gồm chừng $20$ đốt, mỗi đốt có một đôi chân. đốt cuối cùng $2$ chân biến thành như hai đuôi. đầu rết có hai râu dài, răng nhọn sắc cắn đau và có chất độc, khi bắt cần chú ý.",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "răng nhọn sắc cắn đau và có chất độc"
+    },
+    "display_name": "Vị thuốc Cỏn rết",
+    "canonical_name": "Vị thuốc Cỏn rết"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_NHUC_CON_RET",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức kèm rét",
+        "aliases": [
+          "daunhuckemret",
+          "dau nhuc kem ret",
+          "đau nhức kèm rét"
+        ],
+        "search_vector_hint": "Đau nhức kèm rét thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "BT_TE_THAP_CON_RET",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Triệu chứng Tê thấp kèm rét",
+        "aliases": [
+          "te thap kem ret",
+          "tethapkemret",
+          "tê thấp kèm rét"
+        ],
+        "search_vector_hint": "Tê thấp kèm rét thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "B_HAN_NHIET_TICH_TU_TRONG_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hàn nhiệt tích tụ trong bụng",
+        "aliases": [
+          "hannhiettichtutrongbung",
+          "hàn nhiệt tích tụ trong bụng",
+          "han nhiet tich tu trong bung"
+        ],
+        "search_vector_hint": "Hàn nhiệt tích tụ trong bụng thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_TE_LIET_THAN_KINH_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tê liệt thần kinh mặt",
+        "aliases": [
+          "liệt dây thần kinh số vii",
+          "liet day than kinh so vii",
+          "liet mat",
+          "tê liệt thần kinh mặt",
+          "lietdaythankinhsovii",
+          "lietmat",
+          "liệt mặt",
+          "te liet than kinh mat",
+          "telietthankinhmat"
+        ],
+        "search_vector_hint": "Tê liệt thần kinh mặt thuộc nhóm bệnh, thường liên quan đến tổn thương dây thần kinh."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong",
+        "aliases": [
+          "khuphong",
+          "truphong",
+          "khu phong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Khu phong thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh phong."
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH_GIAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trấn kinh giản",
+        "aliases": [
+          "trankinhgian",
+          "trấn kinh giản",
+          "tran kinh gian"
+        ],
+        "search_vector_hint": "Trấn kinh giản thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "DL_DIET_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Diệt trùng",
+        "aliases": [
+          "diệt trùng",
+          "diettrung",
+          "diet trung"
+        ],
+        "search_vector_hint": "Diệt trùng thuộc nhóm dược lý."
+      }
+    },
+    {
+      "id": "HC_AMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Amin",
+        "aliases": [
+          "amin"
+        ],
+        "search_vector_hint": "Amin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm triệu chứng, thường liên quan đến cảm giác khó chịu ở cơ và khớp."
+      }
+    },
+    {
+      "id": "S_TE_THAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tê thấp",
+        "aliases": [
+          "tethap",
+          "te thap",
+          "tê thấp"
+        ],
+        "search_vector_hint": "Tê thấp thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_CON_RET",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cỏn rết",
+        "aliases": [
+          "cỏn rết",
+          "con ret",
+          "conret"
+        ],
+        "search_vector_hint": "Vị thuốc Cỏn rết thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý.",
+        "bo_phan_dung": "toàn con rết phơi hay sấy khô",
+        "thu_hai": "vào các tháng 4-5 đẻ trứng, mỗi con đẻ chừng $20$-$30$ trứng sau ít lâu nở thành rết con, lúc đầu có màu trắng, sau lột xác thành rết lớn màu nâu đỏ",
+        "che_bien_tho": "ta dùng con rết lớn, nhiều chân, thân dẹt, dài $7$-$13$cm, thường gồm chừng $20$ đốt, mỗi đốt có một đôi chân. đốt cuối cùng $2$ chân biến thành như hai đuôi. đầu rết có hai râu dài, răng nhọn sắc cắn đau và có chất độc, khi bắt cần chú ý.",
+        "lieu_dung_chung": "null",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "răng nhọn sắc cắn đau và có chất độc",
+        "ten_khoa_hoc": "$Scolopendra morsitans L.$",
+        "ho_thuc_vat": "$Ngô công Scolopendridae$",
+        "hinh_thai_chi_tiet": "Còn có tên là ngô công, thiên long, bách túc trùng, bách cước. Ngô công là toàn con rết phơi hay sấy khô. Ta dùng con rết lớn, nhiều chân, thân dẹt, dài $7-13cm$, thường gồm chừng 20 đốt, mỗi đốt có một đôi chân. Đốt cuối cùng 2 chân biến thành như hai đuôi. Đầu rết có hai râu dài, răng nhọn sắc cắn đau và có chất độc, khi bắt cần chú ý. Vào các tháng 4-5 đẻ trứng, mỗi con đẻ chừng $20-30$ trứng sau ít lâu nở thành rết con, lúc đầu có màu trắng, sau lột xác thành rết lớn màu nâu đỏ (Hình 45). Con rết sống hoang ở dưới những khúc gỗ mục, các hòn đá, mái nhà mục nát. Hiện nay Trung Quốc, do nhu cầu lớn, đã đặt vấn đề nuôi rết dùng trong nước và xuất khẩu. Triều Tiên cũng nuôi dùng và xuất khẩu rết. Chọn những con to béo là tốt.",
+        "thanh_phan_hoa_hoc": "['Theo các nhà nghiên cứu Nhật Bản, trong con rết có hai chất độc gần giống chất độc ở nọc ong, có tính chất phá huyết. Ngoài ra còn có các loại `$amin`.', 'Như vậy hoạt chất hiện nay chưa rõ.']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "100"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn có tên là ngô công, thiên long, bách túc trùng, bách cước. Ngô công là toàn con rết phơi hay sấy khô. Ta dùng con rết lớn, nhiều chân, thân dẹt, dài $7-13cm$, thường gồm chừng 20 đốt, mỗi đốt có một đôi chân. Đốt cuối cùng 2 chân biến thành như hai đuôi. Đầu rết có hai râu dài, răng nhọn sắc cắn đau và có chất độc, khi bắt cần chú ý. Vào các tháng 4-5 đẻ trứng, mỗi con đẻ chừng $20-30$ trứng sau ít lâu nở thành rết con, lúc đầu có màu trắng, sau lột xác thành rết lớn màu nâu đỏ (Hình 45). Con rết sống hoang ở dưới những khúc gỗ mục, các hòn đá, mái nhà mục nát. Hiện nay Trung Quốc, do nhu cầu lớn, đã đặt vấn đề nuôi rết dùng trong nước và xuất khẩu. Triều Tiên cũng nuôi dùng và xuất khẩu rết. Chọn những con to béo là tốt.",
+        "thanh_phan_hoa_hoc": [
+          "Theo các nhà nghiên cứu Nhật Bản, trong con rết có hai chất độc gần giống chất độc ở nọc ong, có tính chất phá huyết. Ngoài ra còn có các loại `$amin`.",
+          "Như vậy hoạt chất hiện nay chưa rõ."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CON_RET",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "HC_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có các loại `$amin`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "B_HAN_NHIET_TICH_TU_TRONG_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ở phạm vi nhân dân | Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "trụy thai, trừ ác huyết, trị sang nhọt | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_CON_RET",
+      "to": "VT_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Ngô công bỏ đầu, chân, sấy khô, tán nhỏ",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_NHUC_CON_RET",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "ghi_chu": "Sang trĩ đau nhức | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | 6 con rết",
+        "cach_dung": "Bôi lên mụn nhọt | Cho vào lọ, đổ dầu vừng vào ngâm vài tháng. Lấy bông thấm thuốc này bôi lên",
+        "ghi_chu": "Rượu rết (cả con cho vào rượu $90$°) | [Nguồn]: CT_VT_VN_T101 | Mụn nhọt, chỗ bị sâu, trùng độc cắn | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_CON_RET",
+      "to": "VT_CON_RET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Ngô công sấy khô, bỏ đầu chân, tán nhỏ, trộn với lượng tương đương bột cam thảo",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_CON_RET",
+      "to": "B_TE_LIET_THAN_KINH_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $0,5g$ viên chia làm 3 lần uống",
+        "cach_dung": "trộn với lượng tương đương bột cam thảo và thêm nước hồ",
+        "ghi_chu": "Tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_CON_RET",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $0,5g$ viên chia làm 3 lần uống",
+        "cach_dung": "trộn với lượng tương đương bột cam thảo và thêm nước hồ",
+        "ghi_chu": "Tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TE_THAP_CON_RET",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $0,5g$ viên chia làm 3 lần uống",
+        "cach_dung": "trộn với lượng tương đương bột cam thảo và thêm nước hồ",
+        "ghi_chu": "Tê liệt thần kinh mặt, đau nhức, tê thấp, trẻ con cấm khẩu không bú được | [Nguồn]: CT_VT_VN_T101"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử phong."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "CN_TRAN_KINH_GIAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trấn kinh giản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc của rắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_RET",
+      "to": "DL_DIET_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thử tác dụng diệt trùng nhưng chưa đi đến kết quả gì trong phòng thí nghiệm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T100",
+        "all_sources": [
+          "CT_VT_VN_T100"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

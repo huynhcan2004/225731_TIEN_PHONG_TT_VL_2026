@@ -1,0 +1,75 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAU",
+    "ten_raw": "Cây cau",
+    "ten_khoa_hoc": "Areca catechu L.; Areca laoensis L.; Pinanga baviensis O. Becc.",
+    "ho_thuc_vat": "Cau (Palmae). Họ Cau hiện có tên khoa học là Arecaceae.",
+    "variants": [
+      "cây cau rừng (sơn binh lang)"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T187",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "187"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cau là một cây có thân mọc thẳng cao chừng $15$-$20m$, đường kính $10$-$15cm$. Toàn thân không có lá mà có nhiều vết lá cũ mọc, chỉ ở ngọn có một chùm lá to rộng xẻ lông chim. Lá có bẹ to. Mo ở bông mo sớm rụng. Trong cụm hoa hoa đực ở trên, hoa cái ở dưới. Hoa đực nhỏ màu trắng, thơm gồm 3 lá đài màu lục, 3 cánh hoa trắng, 6 nhị. Hoa cái to, bao hoa không phân hóa. Noãn sào thượng 3 ô. Quả hạch hình trứng to bằng quả trứng gà. Quả bì có sợi, hạt có nội nhũ xếp cuốn. Hạt hơi hình nón cụt, đầu tròn giữa dáy hơi lõm, màu nâu nhạt, vị chát (Hình 120). [CT_VT_VN_T189]: 2. Cây cau rừng (sơn binh lang) có tên khoa học Areca laoensis L. cùng họ, với cùng một công dụng. Một cây cau rừng khác có tên khoa học Pinanga baviensis O. Becc. cùng họ, ít dùng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAU",
+      "to": "HC_ARECOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$ C,H,NO, $guvaxin$ C H,NO, và $guvacolin$ C,HNO,, $Arecolin$ (hay CH3 arecaidin) CH,,NO, chiếm chừng $0,1$-$5,0\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU",
+      "to": "HC_ARECAIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$ C,H,NO, $guvaxin$ C H,NO, và $guvacolin$ C,HNO,, $Arecolin$ (hay CH3 arecaidin) CH,,NO, chiếm chừng $0,1$-$5,0\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU",
+      "to": "HC_GUVAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$ C,H,NO, $guvaxin$ C H,NO, và $guvacolin$ C,HNO,, $Arecolin$ (hay CH3 arecaidin) CH,,NO, chiếm chừng $0,1$-$5,0\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU",
+      "to": "HC_GUVACOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là 4 ancaloit: $Arecolin$, $arecaidin$ C,H,NO, $guvaxin$ C H,NO, và $guvacolin$ C,HNO,, $Arecolin$ (hay CH3 arecaidin) CH,,NO, chiếm chừng $0,1$-$5,0\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T187"
+      }
+    }
+  ]
+}

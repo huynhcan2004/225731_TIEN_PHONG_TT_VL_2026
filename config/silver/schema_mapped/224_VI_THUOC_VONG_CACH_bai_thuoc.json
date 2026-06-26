@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_VONG_CACH",
+  "source": {
+    "source_id": "CT_VT_VN_T224",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "224"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_VONG_CACH_V",
+      "to": "VI_THUOC_VONG_CACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$30-40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vọng cách là vị thuốc duy nhất trong bài thuốc, đóng vai trò chính trong điều trị lỵ.",
+        "cach_dung": "Rửa sạch, vò nát thêm ít nước lã, đun sôi để nguội."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T224"
+      }
+    },
+    {
+      "from": "BT_LY_VONG_CACH_V",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kiết lỵ",
+        "cach_dung": "Rửa sạch, vò nát thêm ít nước lã, đun sôi để nguội."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T224"
+      }
+    }
+  ],
+  "metadata": {}
+}

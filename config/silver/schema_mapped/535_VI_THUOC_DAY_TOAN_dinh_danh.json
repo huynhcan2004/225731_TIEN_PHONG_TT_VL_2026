@@ -1,0 +1,78 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAY_TOAN",
+    "ten_raw": "Dây toàn",
+    "ten_khoa_hoc": "Stixis elongata Pierre.; Gaultheria fragrantissima Wall. (Gaultheria fragrans Don).",
+    "ho_thuc_vat": "Màn màn Capparidaceae; Đỗ quyên Ericaceae",
+    "variants": [
+      "Trứng cuốc"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá",
+      "phan_bo": "[CT_VT_VN_T536]: Cây nhỏ cao $1,5-3$m, mang rất nhiều cành, cành nhỏ hình ba cạnh hay tròn, nhẵn, khô có màu nâu. Lá hình mác, hoặc thuôn dài, đầu nhọn, phía cuống hình nêm, mép có răng cưa, phiến lá dai, màu nâu nhạt ở cả hai mặt, mặt trên nhẵn, mặt dưới có những đốm đen rải rác, dài $4-6$cm, rộng $1-2$cm, gần nổi ở mặt dưới, chìm ở mặt trên."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T535",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "535"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trứng cuốc là một loại cây bụi có cành vươn dài, nhẵn. Lá mọc so le, hình mác dài, phía đáy lá tròn, phiến lá dài $10$-$20cm$, rộng $5$-$8cm$, mặt trên nhẵn bóng, cứng dai, cuống to, dài $15$-$20mm$, mặt trên có rãnh rộng. Hoa nhỏ màu trắng, mọc thành chùm ở kẽ lá. Quả hình trúng dài $36mm$, đường kính $25$-$27mm$, trên có điểm những chấm trắng gần như trứng con chim cuốc, do đó có tên cây trứng cuốc. Trong quả có một hạt thuôn dài ( Hình 400)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAY_TOAN",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có tanin, acbutin và gauntherin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T535"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_TOAN",
+      "to": "HC_ACBUTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có tanin, acbutin và gauntherin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T535"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_TOAN",
+      "to": "HC_GAUNTHERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có tanin, acbutin và gauntherin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T535"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_TOAN",
+      "to": "HC_SALIXYLAT_METYL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu có tỷ trọng $1,180$-$1,187$. Độ sôi $218$-$221°C$, gồm chủ yếu chất salyxylat metyl ($99,8$%) và rất ít gaultherilen hay tricontan là một cacbua no."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T535"
+      }
+    }
+  ]
+}

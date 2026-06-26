@@ -1,0 +1,101 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAU_DAT",
+    "ten_raw": "Bầu đất",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T672",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "672"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TAM_BAO",
+          "K_DAN"
+        ],
+        "cong_nang": "đuổi phong, giảm đau, lý khí hoạt huyết",
+        "kieng_ky_dac_biet": "Những người âm hư hoả vượng không dùng được."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hình 506. Xuyên khung -Ligusticum wallichii"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm bào"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh đởm"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T672"
+      }
+    }
+  ]
+}

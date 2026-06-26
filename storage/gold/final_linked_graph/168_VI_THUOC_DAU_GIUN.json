@@ -1,0 +1,708 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DAU_GIUN",
+    "ten_raw": "Cây dầu giun",
+    "ten_khoa_hoc": "$Chenopodium ambrosioides L. (Chenopodium anthelminticum A. Gray.)$",
+    "ho_thuc_vat": "$họ Rau muối Chenopodiaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "hải toàn cây và hạt",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Bắc Bộ, Trung Bộ"
+    },
+    "display_name": "Vị thuốc Dầu giun",
+    "canonical_name": "Vị thuốc Dầu giun"
+  },
+  "nodes": [
+    {
+      "id": "B_GIUN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun",
+        "aliases": [
+          "nhiemgiun",
+          "giun",
+          "nhiễm giun",
+          "nhiem giun"
+        ],
+        "search_vector_hint": "Giun thuộc nhóm Bệnh, thường liên quan đến ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_GIUN_DUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun đũa",
+        "aliases": [
+          "giundua",
+          "giun đũa",
+          "giun dua"
+        ],
+        "search_vector_hint": "Giun đũa thuộc nhóm Bệnh, thường liên quan đến nhiễm ký sinh trùng giun đũa."
+      }
+    },
+    {
+      "id": "B_GIUN_MO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun mỏ",
+        "aliases": [
+          "giunmo",
+          "giun mỏ",
+          "giun mo"
+        ],
+        "search_vector_hint": "Giun mỏ thuộc nhóm Bệnh, thường liên quan đến nhiễm ký sinh trùng giun mỏ."
+      }
+    },
+    {
+      "id": "CN_CAY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan",
+        "aliases": [
+          "tan"
+        ],
+        "search_vector_hint": "Tan thuộc nhóm Công năng, thường liên quan đến khả năng làm tan các chất."
+      }
+    },
+    {
+      "id": "CN_KHU_TRUC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu trục",
+        "aliases": [
+          "khu trục",
+          "khutruc",
+          "khu truc"
+        ],
+        "search_vector_hint": "Khu trục thuộc nhóm Công năng, thường liên quan đến khả năng loại bỏ các yếu tố gây bệnh."
+      }
+    },
+    {
+      "id": "CN_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhiệt",
+        "aliases": [
+          "nhiệt",
+          "nhiet"
+        ],
+        "search_vector_hint": "Nhiệt thuộc nhóm Công năng, thường liên quan đến tính chất nhiệt của dược liệu."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính hô hấp",
+        "aliases": [
+          "độc tính hô hấp",
+          "doctinhhohap",
+          "doc tinh ho hap"
+        ],
+        "search_vector_hint": "Dược lý Độc tính hô hấp thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ hô hấp."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tiêu hóa",
+        "aliases": [
+          "doc tinh tieu hoa",
+          "doctinhtieuhoa",
+          "độc tính tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tiêu hóa thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tim",
+        "aliases": [
+          "doctinhtim",
+          "độc tính tim",
+          "doc tinh tim"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tim thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên tim."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_KHANG_GIUN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kháng giun",
+        "aliases": [
+          "kháng giun",
+          "khanggiun",
+          "khang giun"
+        ],
+        "search_vector_hint": "Dược lý Kháng giun thuộc nhóm Dược lý, thường liên quan đến khả năng chống lại giun sán."
+      }
+    },
+    {
+      "id": "HC_ATCARIDOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Atcaridol",
+        "aliases": [
+          "atcaridol"
+        ],
+        "search_vector_hint": "Atcaridol thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXIT_BUTYLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Butylic",
+        "aliases": [
+          "axit butylic",
+          "axitbutylic"
+        ],
+        "search_vector_hint": "Axit Butylic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_CAMPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Campho",
+        "aliases": [
+          "campho"
+        ],
+        "search_vector_hint": "Campho thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_DIMETYL_ETYLEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dimetyl Etylen",
+        "aliases": [
+          "dimetyl etylen",
+          "dimetyletylen"
+        ],
+        "search_vector_hint": "Dimetyl Etylen thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_GLYCOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glycol",
+        "aliases": [
+          "glycol"
+        ],
+        "search_vector_hint": "Glycol thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_OXYT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Oxyt",
+        "aliases": [
+          "oxyt"
+        ],
+        "search_vector_hint": "Oxyt thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XIMEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Ximen",
+        "aliases": [
+          "ximen"
+        ],
+        "search_vector_hint": "Ximen thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_DAU_GIUN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Dầu giun",
+        "aliases": [
+          "cay dau giun",
+          "caydaugiun",
+          "dau giun",
+          "cây dầu giun",
+          "dầu giun",
+          "daugiun"
+        ],
+        "search_vector_hint": "Dầu giun thuộc nhóm Vị thuốc, thường liên quan đến điều trị giun sán.",
+        "bo_phan_dung": "hải toàn cây và hạt",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Không đề cập",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Bắc Bộ, Trung Bộ",
+        "ten_khoa_hoc": "$Chenopodium ambrosioides L. (Chenopodium anthelminticum A. Gray.)$",
+        "ho_thuc_vat": "$họ Rau muối Chenopodiaceae$",
+        "hinh_thai_chi_tiet": "Cây dầu giun là một loại cỏ sống hằng năm, nhưng cũng có khi ở đất tốt và cao ráo mọc 2-3 năm. Cao chừng $1m$-$1,5m$ hay hơn. Vỏ lá, thân và hoa có mùi hãng đặc biệt. Lá có cuống, mọc cách dài thon, một đầu nhọn, màu lục nhạt, phiến lá không phẳng, chung quanh có răng cưa thưa và không rõ rệt, dài chừng $35$-$75mm$, rộng $13$-$25mm$. Trên lá có lông, thường ở các gân lá, nhất là ở mặt dưới. Hoa mọc tập trung thành xim đơm (glomerule) ở kẽ lá. Giữa chùm là hoa đực hay hoa lưỡng tính, xung quanh có hoa cái nhỏ và không có cuống. Đường kính hoa độ $1mm$, bao hoa có cánh hình bầu dục, hoa có 5 nhị, nhưng có khi chỉ có 3 hoặc 2, bầu hình bầu dục. Quả là những bế quả màu lục nhạt hay nâu nhạt, hình cầu, đường kính chừng $1,5mm$, cùi mỏng, có lá đài không rụng, trong chứa một hạt nhỏ đen và bóng. Vị hắc đặc biệt. Thân cây non, lá, bầu hoa có lông thuộc 3 loại: lông che chở đa tế bào, long che chở đa tế bào nhưng tế bào sau cùng lớn hơn, thành góc với các tế bào khác và lòng bài tiết, chân ngắn gồm 1 hay 2 tế bào, tận cùng bằng một tế bào phồng to lên. Hải toàn cây và hạt để cất tinh dầu",
+        "thanh_phan_hoa_hoc": "['tinh dầu giun', 'atcaridol', 'ximen', 'campho', 'đimetyl etylen', 'oxyt', 'axit butylic', 'glycol']",
+        "lieu_dung_tong_quat": "$1g$"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "168"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây dầu giun là một loại cỏ sống hằng năm, nhưng cũng có khi ở đất tốt và cao ráo mọc 2-3 năm. Cao chừng $1m$-$1,5m$ hay hơn. Vỏ lá, thân và hoa có mùi hãng đặc biệt. Lá có cuống, mọc cách dài thon, một đầu nhọn, màu lục nhạt, phiến lá không phẳng, chung quanh có răng cưa thưa và không rõ rệt, dài chừng $35$-$75mm$, rộng $13$-$25mm$. Trên lá có lông, thường ở các gân lá, nhất là ở mặt dưới. Hoa mọc tập trung thành xim đơm (glomerule) ở kẽ lá. Giữa chùm là hoa đực hay hoa lưỡng tính, xung quanh có hoa cái nhỏ và không có cuống. Đường kính hoa độ $1mm$, bao hoa có cánh hình bầu dục, hoa có 5 nhị, nhưng có khi chỉ có 3 hoặc 2, bầu hình bầu dục. Quả là những bế quả màu lục nhạt hay nâu nhạt, hình cầu, đường kính chừng $1,5mm$, cùi mỏng, có lá đài không rụng, trong chứa một hạt nhỏ đen và bóng. Vị hắc đặc biệt. Thân cây non, lá, bầu hoa có lông thuộc 3 loại: lông che chở đa tế bào, long che chở đa tế bào nhưng tế bào sau cùng lớn hơn, thành góc với các tế bào khác và lòng bài tiết, chân ngắn gồm 1 hay 2 tế bào, tận cùng bằng một tế bào phồng to lên. Hải toàn cây và hạt để cất tinh dầu",
+        "thanh_phan_hoa_hoc": [
+          "tinh dầu giun",
+          "atcaridol",
+          "ximen",
+          "campho",
+          "đimetyl etylen",
+          "oxyt",
+          "axit butylic",
+          "glycol"
+        ],
+        "lieu_dung_tong_quat": "$1g$"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: Tinh dầu giun mùi hăng, vị nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: Tinh dầu giun mùi hăng, vị nóng, đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_ATCARIDOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_XIMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_DIMETYL_ETYLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_OXYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_AXIT_BUTYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_GLYCOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T169]: $tinh dầu giun$ $atcaridol$, $ximen$, $campho$, $đimetyl etylen$, $oxyt$, $axit butylic$, $glycol$",
+        "ghi_chu": "trong tinh dầu giun"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_GIUN_DUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "30-50 giọt | 10-20 giọt",
+        "cach_dung": "Chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả 30 hay 50 giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. | Trẻ em tùy theo tuổi, uống 10 đến 20 giọt một ngày.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_GIUN_MO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "30-50 giọt | 10-20 giọt",
+        "cach_dung": "Chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả 30 hay 50 giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. | Trẻ em tùy theo tuổi, uống 10 đến 20 giọt một ngày.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "CN_CAY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun mùi hăng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "CN_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "CN_KHU_TRUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu độc ở liều tương đối thấp do tác dụng suy yếu đối với tim.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hạ huyết áp.",
+        "ghi_chu": "Tác dụng dược lý"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hại đến nhịp thở. Cổ trường hợp chết với hiện tượng trung khu hô hấp bị tê liệt.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều mạnh, nó làm ống tiêu hóa bị xót hay buồn nôn, nôn mửa.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chóng mặt, ù tai, hoa mắt, lạnh đầu ngón chân ngón tay.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_KHANG_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rất độc đối với giun: 1 dung dịch nước có $1/5.000$ trong lượng tinh dầu giun cũng đủ làm tê liệt giun đũa. Đối với giun của ngựa rất khó chữa mà cũng chỉ cần một liều $16$ đến $20ml$ để tiêu diệt hết. | Tinh dầu giun có tác dụng đối với giun đũa, giun mỏ nhưng không tác dụng đối với sán và giun kim.",
+        "ghi_chu": "Tác dụng dược lý"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều độc của $atcaridol$ là $300mg$ cho $1 kg$ thân thể của thỏ, $600mg$ đối với chuột bạch và $500mg$ đối với ếch. | Cá chết sau $12$ giờ trong một dung dịch $1/8.000$.",
+        "ghi_chu": "Độc tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168",
+        "all_sources": [
+          "CT_VT_VN_T168"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.5,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

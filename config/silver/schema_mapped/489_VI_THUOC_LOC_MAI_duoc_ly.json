@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_LOC_MAI",
+  "source": {
+    "source_id": "CT_VT_VN_T489",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "489"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu đun sôi hay sắc cho uống thì hoạt chất mất đi và cây trở thành một vị thuốc gây hoạt nhuận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_TAY_MANH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu dùng với liều hơi cao hay dùng luôn thì gây tẩy mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_DOI_VOI_BO_MAY_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với bộ máy tiêu hoá thì không tiêu, đầy, đau vùng ruột, ỉa lỏng kèm theo táo bón (nhận xét trên súc vật)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_DOI_VOI_BO_MAY_TIET_NIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên bộ máy tiết niệu thấy đái ra máu, đi đái luôn và buốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_TIM_DAP_MANH_NHANH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tim đập mạnh và nhanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_MET_MOI_SUC_YEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh nhân mệt, yếu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    },
+    {
+      "from": "VI_THUOC_LOC_MAI",
+      "to": "DL_VIEM_DA_DAY_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Viêm dạ dày và ruột, viêm thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T489"
+      }
+    }
+  ],
+  "metadata": {}
+}

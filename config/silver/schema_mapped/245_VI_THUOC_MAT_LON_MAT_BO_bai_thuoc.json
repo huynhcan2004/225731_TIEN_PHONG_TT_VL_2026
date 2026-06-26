@@ -1,0 +1,421 @@
+{
+  "entity_hub": "VI_THUOC_MAT_LON_MAT_BO",
+  "source": {
+    "source_id": "CT_VT_VN_T245",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "245"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAO_BON_MAT_LON_MAT_BO_M",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,50g$ đến $1g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật lợn, mật bò có tác dụng nhuận tràng, thông mật.",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_MAT_LON_MAT_BO_M",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_GAN_MAT_LON_MAT_BO_M",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,50g$ đến $1g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật lợn, mật bò có tác dụng lợi mật, thanh nhiệt.",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_GAN_MAT_LON_MAT_BO_M",
+      "to": "NhomBenh_BENH_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về gan, mật",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_DUONG_TIEU_HOA_MAT_LON_MAT_BO_M",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,50g$ đến $1g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật lợn, mật bò có tác dụng thanh nhiệt, giải độc, hỗ trợ tiêu hóa.",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_BENH_VE_DUONG_TIEU_HOA_MAT_LON_MAT_BO_M",
+      "to": "NhomBenh_BENH_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về đường tiêu hóa",
+        "cach_dung": "Uống hoặc thụt ($4g$ trong $250ml$ nước)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_HO_GA_MAT_LON_M",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20mg$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật lợn có tác dụng thanh nhiệt, giải độc, giảm ho.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần trẻ em dưới 1 tuổi uống nửa thìa cà phê, 1-2 tuổi mỗi lần uống 1 thìa cà phê, 2-3 tuổi mỗi lần 1 thìa cà phê rưỡi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_HO_GA_MAT_LON_M",
+      "to": "B_HO_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho gà",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần trẻ em dưới 1 tuổi uống nửa thìa cà phê, 1-2 tuổi mỗi lần uống 1 thìa cà phê, 2-3 tuổi mỗi lần 1 thìa cà phê rưỡi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_MAT_LON_M",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật lợn có tác dụng nhuận tràng, thông mật.",
+        "cach_dung": "Người lớn uống mỗi ngày 6 đến 12 viên chia làm 1 hay 2 lần vào buổi tối trước khi đi ngủ hay sáng sớm. Nếu táo bón nhiều có thể uống lúc đầu 20 viên rồi giảm dần xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_MAT_LON_M",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón",
+        "cach_dung": "Người lớn uống mỗi ngày 6 đến 12 viên chia làm 1 hay 2 lần vào buổi tối trước khi đi ngủ hay sáng sớm. Nếu táo bón nhiều có thể uống lúc đầu 20 viên rồi giảm dần xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao mật bò có tác dụng lợi mật, thanh nhiệt. Lưu hoàng giúp giải độc, sát trùng. Hoạt thạch giúp thanh nhiệt, lợi thấp. Tinh dầu bạc hà giúp thông khí, giảm đau.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "VT_LUU_HUANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao mật bò có tác dụng lợi mật, thanh nhiệt. Lưu hoàng giúp giải độc, sát trùng. Hoạt thạch giúp thanh nhiệt, lợi thấp. Tinh dầu bạc hà giúp thông khí, giảm đau.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "VT_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$150g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao mật bò có tác dụng lợi mật, thanh nhiệt. Lưu hoàng giúp giải độc, sát trùng. Hoạt thạch giúp thanh nhiệt, lợi thấp. Tinh dầu bạc hà giúp thông khí, giảm đau.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "VT_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "20 giọt",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cao mật bò có tác dụng lợi mật, thanh nhiệt. Lưu hoàng giúp giải độc, sát trùng. Hoạt thạch giúp thanh nhiệt, lợi thấp. Tinh dầu bạc hà giúp thông khí, giảm đau.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "B_VIEM_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "B_VIEM_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "S_VANG_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "S_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "S_CHAM_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "S_PHAN_SONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_VIEM_MAT_CAO_MAT_BO_LHTB",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm mật, viêm gan, vàng da, rối loạn tiêu hóa, chậm tiêu, phân sống, táo bón.",
+        "cach_dung": "Ngày uống từ 20-30 viên chia làm 2 hay 3 lần uống. Dùng trong vòng 10 đến 30 ngày tùy theo bệnh nặng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "VI_THUOC_MAT_LON_MAT_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cao mật tinh chế có tác dụng lợi mật, nhuận tràng. Lô hội (hoặc phan tả diệp) và phenolphtalein có tác dụng tẩy xổ.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "VT_LO_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,08g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao mật tinh chế có tác dụng lợi mật, nhuận tràng. Lô hội (hoặc phan tả diệp) và phenolphtalein có tác dụng tẩy xổ.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "VT_PHENOLPHTALEIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,05g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cao mật tinh chế có tác dụng lợi mật, nhuận tràng. Lô hội (hoặc phan tả diệp) và phenolphtalein có tác dụng tẩy xổ.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "S_AN_UONG_KHO_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "S_VANG_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "S_U_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "B_SUY_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "B_NHIEM_TRUNG_DUONG_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CAO_MAT_LPP",
+      "to": "B_SOI_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị táo bón, ăn uống khó tiêu, do thiếu mật, vàng da, ứ mật, suy gan, nhiễm trùng đường ruột, sỏi mật.",
+        "cach_dung": "Người lớn ngày uống từ 2 đến 4 viên chia làm 2 lần uống. Uống sau các bữa ăn, nuốt chửng với một chén nước, không nhai vì rất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    }
+  ],
+  "metadata": {}
+}

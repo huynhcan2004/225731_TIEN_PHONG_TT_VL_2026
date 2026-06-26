@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_HOI",
+  "source": {
+    "source_id": "CT_VT_VN_T539",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "539"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "VT_HOANG_NAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị tê thấp, nhức xương khớp. Hoàng nàn giúp giảm đau, hương phụ điều khí, thảo quả trừ thấp, đại hồi ôn ấm.",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm.",
+        "ghi_chu": "Liều dùng quá cao, mỗi lần uống $100mg$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị tê thấp, nhức xương khớp. Hoàng nàn giúp giảm đau, hương phụ điều khí, thảo quả trừ thấp, đại hồi ôn ấm.",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm.",
+        "ghi_chu": "Liều dùng quá cao, mỗi lần uống $100mg$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "VT_THAO_QUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị tê thấp, nhức xương khớp. Hoàng nàn giúp giảm đau, hương phụ điều khí, thảo quả trừ thấp, đại hồi ôn ấm.",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm.",
+        "ghi_chu": "Liều dùng quá cao, mỗi lần uống $100mg$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "VI_THUOC_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc trị tê thấp, nhức xương khớp. Hoàng nàn giúp giảm đau, hương phụ điều khí, thảo quả trừ thấp, đại hồi ôn ấm.",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm.",
+        "ghi_chu": "Liều dùng quá cao, mỗi lần uống $100mg$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "B_NHUC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức xương",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "S_SUNG_DAU_GOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sưng đầu gối",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_HOANG_NAN_HTQD",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê thấp",
+        "cach_dung": "Uống $2-3g$ với nước hoặc rượu sau bữa ăn nửa giờ rồi đi nằm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T539"
+      }
+    }
+  ],
+  "metadata": {}
+}

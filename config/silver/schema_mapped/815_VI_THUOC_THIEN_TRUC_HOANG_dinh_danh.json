@@ -1,0 +1,99 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THIEN_TRUC_HOANG",
+    "ten_raw": "Thiên trúc hoàng",
+    "ten_khoa_hoc": "Bambusa textilis McClure (B. ventricosa McClure)",
+    "ho_thuc_vat": "Lúa Poaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chất kết tụ thành khối hình ống hay hình không nhất định",
+      "che_bien_tho": "Mặt ngoài màu trắng xám hoặc hơi vàng, có những đường vân dọc. Chất cứng, nhẹ, dễ vỡ vụn. Mặt cắt ngang không bóng, có những vân tròn đồng tâm."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T815",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "815"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN"
+        ],
+        "cong_nang": "thanh nhiệt trừ đờm, định kinh"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thiên trúc hoàng là một chất kết tụ thành khối hình ống hay hình không nhất định, dài ngắn to nhỏ không đều, thường thấy dài $2$-$3cm$, đường kính $1$-$2cm$. Mặt ngoài màu trắng xám hoặc hơi vàng, có những đường vân dọc. Chất cứng, nhẹ, dễ vỡ vụn. Mặt cắt ngang không bóng, có những vân tròn đồng tâm.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Thiên trúc hoàng là một chất bệnh lý do một loại ong chích vào cây trúc mà thành. Thường gười ta thấy ở các cây trúc lớn (Bambusa textilis McClure) hoặc cây mai (Bambusa ventricosa McClure) thuộc họ Lúa (Poaceae). Chất này rất hiếm, hiện nay ta vẫn phải nhập của Trung Quốc. Mùa thu hoạch vào mùa đông."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "HC_AXIT_SILICIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thiên trúc hoàng có chứa axit silicic ($90$%), $K_2O$, $CaO$, $Al_2O_3$, $Fe_2O_3$ và $H_2O$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    }
+  ]
+}

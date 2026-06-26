@@ -25,7 +25,7 @@ async def start():
             Select(
                 id="llm_model",
                 label="Tùy chọn Trí tuệ Nhân tạo",
-                values=["qwen2.5-coder:7b", "gemini-2.0-flash"],
+                values=["qwen2.5-coder:7b", "gemini-2.5-flash"],
                 initial_index=0,
             )
         ]
@@ -93,7 +93,7 @@ async def main(message: cl.Message):
     async with cl.Step(name="2. Quét Đồ thị (Schema-Aware Cypher)") as step_db:
         try:
             params = {"query_vector": parsed_data.get("vector")} if parsed_data.get("vector") else {}
-            results = db.query(cypher, params=params)
+            results = db.query_graph(cypher, params=params)
             json_data = json.dumps(results[:5], indent=2, ensure_ascii=False) if results else "[]"
             
             step_db.output = f"```cypher\n{cypher}\n```\n**Tìm thấy {len(results)} records.**\n<details><summary>Xem Dữ Liệu Thô (Raw JSON)</summary>\n```json\n{json_data}\n```\n</details>"

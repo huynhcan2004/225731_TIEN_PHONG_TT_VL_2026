@@ -1,0 +1,213 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MACH_MON_DONG",
+    "ten_raw": "Mạch môn đông",
+    "ten_khoa_hoc": "Ophiopogon japonicus (L.f.) Ker-Gawl. (Convallaria japonica L.f.); Asparagus cochinchinensis",
+    "ho_thuc_vat": "Họ Hành Asparagaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ hình trụ, trên những rễ này có những chỗ phình lên thành củ",
+      "phan_bo": "Mọc hoang và được trồng ở nhiều nơi ở nước ta. Thường trồng bằng củ. Thu hoạch vào mùa đông, đào lấy củ, rửa sạch đất cát, tuốt bỏ rễ con, phơi nắng nhẹ cho đến khi khô se, rồi đem phơi hoặc sấy khô hẳn. Khi dùng có thể đồ qua.\n[CT_VT_VN_T731]: Mọc hoang và được trồng ở khắp nơi trong nước ta, để lấy rễ. Có khi được trồng trong chậu để làm cảnh. Nhiều nhất ở Cao Bằng, Lạng Sơn, Thanh Hoá, Bắc Thái, Nam Hà. Tại các nước khác cũng có: Trung Quốc, Triều Tiên, Nhật Bản.",
+      "thu_hai": "Thu hoạch vào mùa đông, đào lấy củ, rửa sạch đất cát, tuốt bỏ rễ con, phơi nắng nhẹ cho đến khi khô se, rồi đem phơi hoặc sấy khô hẳn.\n[CT_VT_VN_T731]: Trồng vào tháng 2-3. Thu hoạch vào tháng 9-10. Rễ củ hái về, tẩm nước cho mềm (có khi người ta đồ chín cho mềm) rồi rút bỏ lõi, thái mỏng phơi hay sấy khô.",
+      "che_bien_tho": "Khi dùng có thể đồ qua.\n[CT_VT_VN_T731]: Rễ củ hái về, tẩm nước cho mềm (có khi người ta đồ chín cho mềm) rồi rút bỏ lõi, thái mỏng phơi hay sấy khô. Chú ý khi tẩm nước đừng ngâm lâu quá, tác dụng sẽ kém. Vị lúc đầu ngọt, sau hơi đắng. Củ nào béo mẫm, vàng là tốt."
+    },
+    "display_name": "Mạch môn đông"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T730",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "730"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mạch môn đông là một cây sống lâu năm, có rễ hình trụ, trên những rễ này có những chỗ phình lên thành củ. Lá mọc từ gốc, hẹp, dài, gân song song. Cụm hoa mọc thành bông dài. Hoa màu trắng hoặc hơi tím nhạt. Quả mọng hình cầu, chứa 1-2 hạt. [CT_VT_VN_T731]: hạ ở kẽ lá mọc hoa trắng nhỏ. Quả là một quả mọng màu đỏ khi chín (Hình 551,Hm 41,2).",
+        "thanh_phan_hoa_hoc": [
+          "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học). [CT_VT_VN_T731]: Trong thiên môn đông có $asparagin$ là một axit amin có tinh thể hình trụ, ngậm một phân tử nước, đun tới 100°C thì mất phân tử nước, độ chảy 234°-235°C, tan trong nước nóng, chỉ hơi tan trong nước lạnh, 1g tan trong 1,47ml nước 20°. Với nước sôi, $asparagin$ có thể thuỷ phân để cho axit aspartic và amoniac. Ngoài ra còn có HN COHC - CH - COOH - ΝΗ, Asparagin chất nhầy. Có tài liệu nói còn có tinh bột, sacaroza. Các hoạt chất khác chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_ASPARAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học). [CT_VT_VN_T731]: Trong thiên môn đông có $asparagin$ là một axit amin có tinh thể hình trụ, ngậm một phân tử nước, đun tới $100°C$ thì mất phân tử nước, độ chảy $234°$-$235°C$, tan trong nước nóng, chỉ hơi tan trong nước lạnh, 1g tan trong 1,47ml nước $20°$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_B_SITOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_STIGMATEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_GLUCOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_RHAMNOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_XYLOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_GALACTOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_ARABINOSE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    },
+    {
+      "from": "VI_THUOC_MACH_MON_DONG",
+      "to": "HC_OPHIOPOGONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mạch môn người ta thấy có chất nhầy, đường, chất béo, các chất asparagin, β-sitosterol, stigmaterol, acid amin, $glucose$, $rhamnose$, $xylose$, $galactose$, $arabinose$ và $ophiopogonin$ (Trung dược học)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T730"
+      }
+    }
+  ]
+}

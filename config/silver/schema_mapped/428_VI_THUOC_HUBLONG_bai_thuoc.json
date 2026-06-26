@@ -1,0 +1,149 @@
+{
+  "entity_hub": "VI_THUOC_HUBLONG",
+  "source": {
+    "source_id": "CT_VT_VN_T428",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "428"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TIEU_HOA_HUBLONG_H",
+      "to": "VI_THUOC_HUBLONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "10$\\%$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hublông giúp sự tiêu hóa.",
+        "mo_ta_chi_tiet": "Chữa giúp sự tiêu hóa",
+        "cach_dung": "Dưới dạng thuốc hãm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_GIAM_DAU_HUBLONG_H",
+      "to": "VI_THUOC_HUBLONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,20g$ đến $1g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hublông có chất lupulin giảm đau.",
+        "mo_ta_chi_tiet": "Chữa thuốc giảm đau",
+        "cach_dung": "Bột dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_DIU_DUC_HUBLONG_H",
+      "to": "VI_THUOC_HUBLONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$0,10g$ đến $0,50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hublông có chất lupulin dịu dục.",
+        "mo_ta_chi_tiet": "Chữa thuốc dịu dục",
+        "cach_dung": "Cao dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_LY_HUBLONG_L",
+      "to": "VI_THUOC_HUBLONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hublông chữa lỵ, sốt, khát nước.",
+        "mo_ta_chi_tiet": "Chữa lỵ, sốt, khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_HUBLONG_H",
+      "to": "B_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa giúp sự tiêu hóa",
+        "cach_dung": "Dưới dạng thuốc hãm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_GIAM_DAU_HUBLONG_H",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thuốc giảm đau",
+        "cach_dung": "Bột dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_DIU_DUC_HUBLONG_H",
+      "to": "S_KICH_THICH_DUC_TINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thuốc dịu dục",
+        "cach_dung": "Cao dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_LY_HUBLONG_L",
+      "to": "B_BENH_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_LY_HUBLONG_L",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    },
+    {
+      "from": "BT_LY_HUBLONG_L",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T428"
+      }
+    }
+  ],
+  "metadata": {}
+}

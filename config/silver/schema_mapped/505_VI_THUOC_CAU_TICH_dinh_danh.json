@@ -1,0 +1,85 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAU_TICH",
+    "ten_raw": "Cẩu tích",
+    "ten_khoa_hoc": "Cibotium barometz (L.) J. Sm.",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cẩu tích mọc hoang ở những vùng đồi núi ẩm thấp, có nhiều ở các tỉnh miền núi Bắc và Trung nước ta.",
+      "che_bien_tho": "Thường người ta đào thân rễ về dùng tươi hay thái nhỏ phơi khô. Có khi người ta cạo sạch lông rồi mới thái nhỏ và phơi khô. Có khi đồ chín rồi mới phơi khô. Nên chọn loại thân rễ còn tươi, chưa khô teo, nhiều bột, màu vàng nâu."
+    },
+    "display_name": "Cẩu tích"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T505",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "505"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cẩu tích là một loại dương xỉ lớn, cao $1$-$4m$. Thân rễ to, mập, phủ đầy lông mềm màu vàng nâu. Lá to dài $1$-$2m$, rộng $30$-$40cm$, 3 lần xẻ lông chim, cuống dài, có lông. Ổ túi bào tử hình tròn nằm ở mép lá."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_TICH",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T505"
+      }
+    }
+  ]
+}

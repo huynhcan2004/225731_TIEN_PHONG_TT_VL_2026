@@ -1,0 +1,692 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DIA_LIEN",
+    "ten_raw": "Địa liền",
+    "ten_khoa_hoc": "$Kaempferia galanga L.; Kaempferia rotunda Ridl.$",
+    "ho_thuc_vat": "$họ Gừng Zingiberaceae$",
+    "variants": [
+      "Sơn nại (Rhizoma Kaempferiae)"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "thái mỏng phơi khô",
+      "lieu_dung_chung": "Ngày dùng $2$ đến $4g$ dưới dạng thuốc sắc, thuốc bột, thuốc viên, hay pha như pha chè mà uống.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang và được trồng ở khắp nơi trong cả nước. Cây còn mọc ở Campuchia, Trung Quốc, (Quảng Đông, Quảng Tây, Vân Nam, Đài Loan), Malaixia, Ấn Độ."
+    },
+    "display_name": "Vị thuốc Địa liền",
+    "canonical_name": "Vị thuốc Địa liền"
+  },
+  "nodes": [
+    {
+      "id": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ăn uống không tiêu Địa liền",
+        "aliases": [
+          "anuongkhongtieudialien",
+          "ăn uống không tiêu địa liền",
+          "an uong khong tieu dia lien"
+        ],
+        "search_vector_hint": "Ăn uống không tiêu Địa liền thuộc nhóm Bài thuốc, thường liên quan đến điều trị chứng khó tiêu."
+      }
+    },
+    {
+      "id": "BT_DAU_THAN_KINH_DIA_LIEN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau thần kinh Địa liền",
+        "aliases": [
+          "dau than kinh dia lien",
+          "đau thần kinh địa liền",
+          "dauthankinhdialien"
+        ],
+        "search_vector_hint": "Đau thần kinh Địa liền thuộc nhóm Bài thuốc, thường liên quan đến điều trị đau thần kinh."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAU_THAN_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau thần kinh",
+        "aliases": [
+          "đau thần kinh",
+          "dau than kinh",
+          "đau dây thần kinh",
+          "daudaythankinh",
+          "dau day than kinh",
+          "dauthankinh"
+        ],
+        "search_vector_hint": "Bệnh Đau thần kinh thuộc nhóm bệnh, thường liên quan đến tổn thương hoặc rối loạn chức năng dây thần kinh."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không tiêu",
+        "aliases": [
+          "ăn uống không tiêu",
+          "an uong khong tieu",
+          "anuongkhongtieu"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không tiêu thuộc nhóm Công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_ON_TRUNG_TAN_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ôn trung tán hàn",
+        "aliases": [
+          "ontrungtanhan",
+          "amtrungkhuhan",
+          "am trung khu han",
+          "on trung tan han",
+          "ấm trung khử hàn",
+          "ôn trung tán hàn"
+        ],
+        "search_vector_hint": "Ôn trung tán hàn thuộc nhóm Công năng, thường liên quan đến điều trị chứng hàn."
+      }
+    },
+    {
+      "id": "CN_TICH_UE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tích ứ",
+        "aliases": [
+          "tich u",
+          "tích ứ",
+          "tichu"
+        ],
+        "search_vector_hint": "Tích ứ thuộc nhóm Công năng, thường liên quan đến điều trị chứng ứ trệ."
+      }
+    },
+    {
+      "id": "CN_TRU_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ thấp",
+        "aliases": [
+          "tao thap",
+          "khuthap",
+          "taothap",
+          "truthap",
+          "khu thap",
+          "khử thấp",
+          "tru thap",
+          "táo thấp",
+          "trừ thấp"
+        ],
+        "search_vector_hint": "Trừ thấp thuộc nhóm Công năng, thường liên quan đến điều trị chứng thấp."
+      }
+    },
+    {
+      "id": "HC_BOCNEOLA_METYL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Bocneola Metyl",
+        "aliases": [
+          "bocneolametyl",
+          "bocneola metyl"
+        ],
+        "search_vector_hint": "Bocneola Metyl thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_METYL_P_CUMARIC_AXIT_ETYL_ESTE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Metyl P Cumaric Axit Etyl Este",
+        "aliases": [
+          "metylpcumaricaxitetyleste",
+          "metyl p cumaric axit etyl este"
+        ],
+        "search_vector_hint": "Metyl P Cumaric Axit Etyl Este thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XINAMIC_ANDEHYT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xinamic Andehyt",
+        "aliases": [
+          "xinamic andehyt",
+          "xinamicandehyt"
+        ],
+        "search_vector_hint": "Xinamic Andehyt thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XINAMIC_AXIT_ETYL_ESTE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xinamic Axit Etyl Este",
+        "aliases": [
+          "xinamicaxitetyleste",
+          "xinamic axit etyl este"
+        ],
+        "search_vector_hint": "Xinamic Axit Etyl Este thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_XINEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xineola",
+        "aliases": [
+          "xineola"
+        ],
+        "search_vector_hint": "Xineola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau răng",
+        "aliases": [
+          "nhuc rang",
+          "nhức răng",
+          "đau răng",
+          "dau rang",
+          "daurang",
+          "nhucrang"
+        ],
+        "search_vector_hint": "Đau răng thuộc nhóm Triệu chứng, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_DIA_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Địa liền",
+        "aliases": [
+          "thiền liền",
+          "tamnai",
+          "địa liền",
+          "tam nại",
+          "sonnai",
+          "son nai",
+          "thien lien",
+          "sơn nại",
+          "tam nai",
+          "thienlien",
+          "dia lien",
+          "dialien"
+        ],
+        "search_vector_hint": "Địa liền thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "thân rễ",
+        "che_bien_tho": "thái mỏng phơi khô",
+        "lieu_dung_chung": "Ngày dùng $2$ đến $4g$ dưới dạng thuốc sắc, thuốc bột, thuốc viên, hay pha như pha chè mà uống.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cây mọc hoang và được trồng ở khắp nơi trong cả nước. Cây còn mọc ở Campuchia, Trung Quốc, (Quảng Đông, Quảng Tây, Vân Nam, Đài Loan), Malaixia, Ấn Độ.",
+        "ten_khoa_hoc": "$Kaempferia galanga L.; Kaempferia rotunda Ridl.$",
+        "ho_thuc_vat": "$họ Gừng Zingiberaceae$",
+        "hinh_thai_chi_tiet": "Địa liền là một loại cỏ nhỏ, sống lâu năm, có thân rễ hình củ nhỏ, bám vào nhau, hình trứng. Lá 2 hoặc 3 mọc sát mặt đất, hình trứng, phía cuống hẹp lại thành một cuống dài độ $1$-$2cm$, mặt trên xanh lục và nhẵn, mặt dưới có lông mịn, có hai mặt đều có những điểm nhỏ, dài rộng gần bằng nhau, chừng $8$ đến $15cm$. Cụm hoa mọc ở giữa, không cuống, gồm $8$ đến $10$ hoa màu trắng với những điểm tím ở giữa. Cây quanh năm xanh tốt. Mùa hoa tháng 8 tháng 9",
+        "thanh_phan_hoa_hoc": "['Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $bocneola metyl$, $metyl p. cumaric axit etyl este$, $xinamic axit etyl este$, $xinamic andehyt$ và $xineola$.']"
+      }
+    },
+    {
+      "id": "VT_QUE_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Quế chi",
+        "aliases": [
+          "quế chi",
+          "que chi",
+          "quechi"
+        ],
+        "search_vector_hint": "Vị thuốc Quế chi thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "380"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_VI",
+          "K_TY"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Địa liền là một loại cỏ nhỏ, sống lâu năm, có thân rễ hình củ nhỏ, bám vào nhau, hình trứng. Lá 2 hoặc 3 mọc sát mặt đất, hình trứng, phía cuống hẹp lại thành một cuống dài độ $1$-$2cm$, mặt trên xanh lục và nhẵn, mặt dưới có lông mịn, có hai mặt đều có những điểm nhỏ, dài rộng gần bằng nhau, chừng $8$ đến $15cm$. Cụm hoa mọc ở giữa, không cuống, gồm $8$ đến $10$ hoa màu trắng với những điểm tím ở giữa. Cây quanh năm xanh tốt. Mùa hoa tháng 8 tháng 9",
+        "thanh_phan_hoa_hoc": [
+          "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $bocneola metyl$, $metyl p. cumaric axit etyl este$, $xinamic axit etyl este$, $xinamic andehyt$ và $xineola$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "địa liền vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      }
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "địa liền tính ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      }
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "địa liền vào kinh tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      }
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "địa liền vào kinh vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      }
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "HC_BOCNEOLA_METYL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $bocneola metyl$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "HC_METYL_P_CUMARIC_AXIT_ETYL_ESTE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $metyl p. cumaric axit etyl este$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "HC_XINAMIC_AXIT_ETYL_ESTE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $xinamic axit etyl este$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "HC_XINAMIC_ANDEHYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $xinamic andehyt$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "HC_XINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong địa liền có tinh dầu, trong tinh dầu thành phần chủ yếu là $xineola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN",
+      "to": "VT_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Địa liền $2$g, quế chi $1$g",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_THAN_KINH_DIA_LIEN",
+      "to": "VT_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_THAN_KINH_DIA_LIEN",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_THAN_KINH_DIA_LIEN",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Địa liền $2$g, quế chi $1$g",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_THAN_KINH_DIA_LIEN",
+      "to": "B_DAU_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Địa liền $2$g, quế chi $1$g",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1$g bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "CN_ON_TRUNG_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIA_LIEN",
+      "to": "CN_TICH_UE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tịch (tránh) uế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380",
+        "all_sources": [
+          "CT_VT_VN_T380"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 61.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUA",
+    "ten_raw": "Dứa",
+    "ten_khoa_hoc": "$Ananas sativa Liun.; Ananas sativa L.; Ananas sativa Pandanus tectorius Sol. (Pandanus odoratissimus. L.f.)$",
+    "ho_thuc_vat": "$Dứa dại Pandanaceae$",
+    "variants": [
+      "thơm",
+      "trái thơm"
+    ],
+    "properties": {
+      "bo_phan_dung": "phần ăn được và thường gọi là “quả dừa” thực ra là gồm trục của bông hoa và các lá mọng nước tụ hợp lại mà thành, còn quả thật thì nằm trong các mắt dứa; rễ, đọt non",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "[CT_VT_VN_T276]: Ngày uống 6 đến $10g$ rễ, đọt non dùng với liều $15-20g$, dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Trung Mỹ, hiện nay được trồng ở hầu hết những nước nhiệt đới."
+    },
+    "display_name": "Dứa",
+    "canonical_name": "Dứa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DUA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dua"
+      }
+    },
+    {
+      "id": "HC_BROMELIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Bromelin"
+      }
+    },
+    {
+      "id": "B_TIET_NIEU_KHO_KHAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tiet Nieu Kho Khan"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_DAI_DATT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dai Datt"
+      }
+    },
+    {
+      "id": "DL_HO_TRO_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Tro Tieu Hoa"
+      }
+    },
+    {
+      "id": "DL_CHONG_VIEM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chong Viem"
+      }
+    },
+    {
+      "id": "DL_HO_TRO_LAM_LIEN_VET_THUONG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Tro Lam Lien Vet Thuong"
+      }
+    },
+    {
+      "id": "DL_AN_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "An Than"
+      }
+    },
+    {
+      "id": "DL_GIAM_HEN_SUYEN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Hen Suyen"
+      }
+    },
+    {
+      "id": "CN_LOI_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Loi Dom"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "274"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ phân nhánh ở ngọn, cao $3-4m$, với rất nhiều rễ phụ thả xuống đất. Lá mọc ở đầu nhánh thành chùm, hình bản dài $1-2m$, gân giữa và mép có gai sắc. Bông mo đực thành bông tận cùng và rủ xuống với mo màu trắng, riêng biệt, hoa rất thơm, bông mo cải mọc đơn độc gồm rất nhiều lá noãn. Cụm hoa mang quả thành một khối hình trứng, dài $16-22cm$, có cuống, màu vàng cam, với những quả hạch có góc cạnh, phẳng và thành bướu ở đỉnh, hạch rất cứng, nhiều cạnh, có những hốc ( Hình 198 )."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "HC_BROMELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$bromelin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "B_TIET_NIEU_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Đái ra sỏi sạn. Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$20$-$30g$ nõn (lá non)",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "B_DAI_DATT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thông tiểu",
+        "ghi_chu": "Đái ra sỏi, sạn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "CN_LOI_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng đắp ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bromelin được dùng chữa bệnh rối loạn tiêu hóa dạ dày, ruột. Ở pH $3,3$ bromelin tác dụng như pepsin, ở pH $6$ như trypsin. Trường hợp vô toan, bromelin vẫn có tác dụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "DL_CHONG_VIEM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bromelin có tác dụng ức chế quá trình viêm, làm giảm phù nề và tụ huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "DL_HO_TRO_LAM_LIEN_VET_THUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bromelin bôi lên vết thương hoặc vết bỏng làm tiêu các tổ chức chết, mau thành sẹo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp bromelin với thuốc ngủ natri pentobacbital làm tăng thời gian gây ngủ của thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "DL_GIAM_HEN_SUYEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp bromelin với theophyllin, ephedrin tăng tác dụng chống hen và viêm phế quản của những thuốc ấy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "all_sources": [
+          "CT_VT_VN_T274"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 44.5,
+      "reliability_c_score": 0.7682,
+      "total_confidence_sum": 8.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

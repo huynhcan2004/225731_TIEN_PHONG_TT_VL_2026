@@ -1,0 +1,114 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_YEN",
+    "ten_raw": "Yến",
+    "ten_khoa_hoc": "Xylocoba dissimilis (Lep.); Xylocapa phalothorax Collocalia sp.; Nidus Collocaliae",
+    "ho_thuc_vat": "Apidae (họ ong); Vũ Yến Apodidae",
+    "variants": [
+      "ong mướp",
+      "ô phong",
+      "hùng phong tượng phong",
+      "trúc phong",
+      "hải yến",
+      "huyền điểu",
+      "du hà ưu điểu",
+      "yến sào",
+      "mao yến",
+      "quan yển",
+      "huyết yến",
+      "bạch yến",
+      "quan yến"
+    ],
+    "properties": {
+      "bo_phan_dung": "Tổ yến (yến sào)",
+      "thu_hai": "Đầu tháng 4 (thu hoạch tổ yến đầu tiên). Đợt thu hoạch tổ thứ hai kéo dài 2-3 tháng, kịp vào tháng 6.",
+      "che_bien_tho": "Không có thông tin"
+    },
+    "display_name": "Yến"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T975",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "975"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trúc là cây tre, cây nứa, phong là con ong, vì con ong này sống trong đốt tre, cây nứa cho nên có tên. Còn gọi ong mướp vì thường thấy nó đến hút mật ở hoa mướp. Hùng là gấu, tượng là voi đều là những con vật to vì ong này so với ong mật thì to hơn như con gấu con voi đối với nhưng con vật khác. A. Mô tả con ong đen Ong đen có màu đen, thân to và tù, dài chừng $0,5cm$, toàn thân có lông mền, màu đen nhạt, phía lưng có lông màu vàng nhạt, chân ngắn, đen, cánh màu lam tím, óng ánh, mềm, nhìn qua được. Thường sống trong những hốc cây mục hay trong thân cây tre, cây nứa, có thể sâu tới $30cm$ hay hơn. Trong thân cây nứa, ong chia thành ngăn, trong ngăn có phấn hoa và mật, đồng thời để trứng (Hình 720).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "B. Phân bố, chế biến Ong đen sống khắp nơi đồng bằng cũng như miền núi. Tại nước ta còn ít chú ý khai thác. Tại miền Nam Trung Quốc người ta thường bắt ong này vào mùa thu đông là mùa ong sống trong ống tre nứa. Sau khi biết ong ở đâu, người ta nút kín ống tre hay ống nứa lại. Hơ nóng cho ong chết, chẻ ra để lấy mà dùng. Ong đen bảo quản dễ mốc mọt, phải sấy cho khô, không nên phơi nắng dễ hỏng và dễ mốc mọt hơn. Ong đen có thể là một nguồn xuất khẩu, nên chú ý khai thác."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh vị và đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    },
+    {
+      "from": "VI_THUOC_YEN",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh vị và đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T975"
+      }
+    }
+  ]
+}

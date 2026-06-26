@@ -1,0 +1,187 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_LIEN",
+    "ten_raw": "Hoàng liên",
+    "ten_khoa_hoc": "Coptis quinquesecta; Coptis sinensis Franch; Coptis teeta Wall.; Coptis teetoides C.Y. Cheng",
+    "ho_thuc_vat": "Mao lương (Ranunculaceae)",
+    "variants": [
+      "hoàng mù",
+      "hoàng mộc"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "thu đông, nếu để sang xuân chất lượng sẽ kém",
+      "che_bien_tho": "rửa sạch, phơi hay sấy khô",
+      "phan_bo": "Cây hoàng liên mọc hoang ở các vùng núi\ncao ’$1.500-2.000m$ tại Lào Cai (Sapa), dãy núi\nHoàng Liên Sơn, khu Tây Bắc."
+    },
+    "display_name": "Hoàng liên"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "204"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN",
+          "K_DAN",
+          "K_VI",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "tả hỏa, táo thấp, giải độc, chữa sốt, tả lỵ, tâm phiền, nôn ra máu, tiêu khát, đau mắt đỏ, loét miệng, ngộ độc do ba đậu, khinh phấn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoàng liên là một loại cây cỏ nhỏ, sống lâu năm, cao độ $20-35cm$. Lá mọc so le từ thân rễ, có cuống dài. Phiến lá gồm $3-5$ lá chét. Mỗi lá chét lại chia thành nhiều thùy, mép có răng cưa to. Đầu mùa xuân sinh trục mang hoa dài chừng $10cm$. Đầu trục có $3-4$ hoa màu trắng, nhiều lá noãn rời nhau ( Hình 130, 131). núi cao $1.200-2.000m$. Làm đất thật nhỏ, nhặt sạch cỏ. Luống đánh cao $10-15cm$, dài $2m$. Rắc hạt như gieo hạt rau, $1$ kilôgam hạt giống cho chừng $10$ vạn cây con. Khi mọc mầm thì rắc phân mục hoặc tro bếp (không dùng phản người), $1kg$ hạt cần độ $300kg$ phân. Khi cây đã có $3$ lá thì tỉa bớt chỉ để cách nhau độ $3-4cm$ một cây. Khi cây đã có $5-6$ lá thì sẽ nhổ lên trồng cố định tại nơi khác. Đất trồng cố định cũng phải ở trên cao $1.200-$ $2.000m$ có cây to che mát, nếu không có phải làm dàn che cao độ $1,80m$. Mỗi héc ta trồng chừng hơn $8$ vạn cây. Hằng năm làm cỏ. Bón bằng phân chuồng và phân xanh. Sau $5$ năm bắt đầu có thể thu hoạch.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hoàng liền có chừng $7\\%$ ancaloit toàn phần trong đó chủ yếu là chất becbérin C20H,,NO.",
+          "Ngoài ra còn có chất panmatin C,H,NO,. coptisin CH,NO, worenin C₂H₁NO,",
+          "columbamin C₂HËNO (OH)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh: tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh: can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh: đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh: vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh: đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_BERBERINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng liền có chừng $7\\%$ ancaloit toàn phần trong đó chủ yếu là chất becbérin C20H,,NO."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_PALMATINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất panmatin C,H,NO,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_COPTISINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "coptisin CH,NO,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_WORENINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "worenin C₂H₁NO,"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_COLUMBAMINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "columbamin C₂HËNO (OH)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204"
+      }
+    }
+  ]
+}

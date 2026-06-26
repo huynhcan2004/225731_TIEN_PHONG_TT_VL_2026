@@ -1,0 +1,255 @@
+{
+  "entity_hub": "VI_THUOC_TAM_SA",
+  "source": {
+    "source_id": "CT_VT_VN_T1017",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1017"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "VI_THUOC_TAM_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tàm sa trừ phong thấp, phối hợp Quế chi, Khương hoạt, Tần giao, Tang chi để tăng cường hoạt huyết, thông kinh lạc, giảm đau nhức xương khớp do phong thấp.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Quế chi giúp ôn kinh tán hàn, tăng cường lưu thông khí huyết.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Khương hoạt giúp khu phong, tán hàn, trừ thấp, giảm đau.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "VT_TAN_GIAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tần giao giúp khu phong, trừ thấp, thư cân, hoạt lạc.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "VT_TANG_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tang chi giúp thông kinh lạc, lợi các khớp.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "to": "B_DAU_NHUC_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các khớp xương đau nhức (do phong thấp)",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_TAM_SA_GT",
+      "to": "VI_THUOC_TAM_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tàm sa có tác dụng chỉ hãn, phối hợp với gạo tẻ giúp tăng cường tác dụng cố biểu, liễm hãn.",
+        "cach_dung": "Nấu cháo ăn.",
+        "ghi_chu": "Ngày 1 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_TAM_SA_GT",
+      "to": "VT_GAO_TE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Gạo tẻ có tác dụng bổ tỳ vị, ích khí, cố biểu.",
+        "cach_dung": "Nấu cháo ăn.",
+        "ghi_chu": "Ngày 1 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_MO_HOI_TROM_TAM_SA_GT",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi trộm",
+        "cach_dung": "Nấu cháo ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_TAM_SA_T",
+      "to": "VI_THUOC_TAM_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Tàm sa sao đen có tác dụng chỉ huyết, dùng chữa đại tiện ra máu.",
+        "cach_dung": "Uống với nước cơm.",
+        "ghi_chu": "Ngày $4-6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_RA_MAU_TAM_SA_T",
+      "to": "S_DAI_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đại tiện ra máu",
+        "cach_dung": "Uống với nước cơm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_DAT_DAI_BUOT_TAM_SA_M",
+      "to": "VI_THUOC_TAM_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tàm sa có tác dụng thanh nhiệt, lợi thấp, thông lâm, phối hợp với Mã đề thảo tăng cường tác dụng lợi tiểu, chữa đái dắt, đái buốt.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_DAT_DAI_BUOT_TAM_SA_M",
+      "to": "VT_MA_DE_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mã đề thảo có tác dụng lợi tiểu, thanh nhiệt.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ngày 1 thang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_DAT_DAI_BUOT_TAM_SA_M",
+      "to": "S_DAI_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái dắt, đái buốt",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "BT_DAI_DAT_DAI_BUOT_TAM_SA_M",
+      "to": "S_DAI_DAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái dắt, đái buốt",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "BT_DAU_NHUC_KHOP_XUONG_TAM_SA_QKTT",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "BT_MO_HOI_TROM_TAM_SA_GT",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "BT_DAI_TIEN_RA_MAU_TAM_SA_T",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "BT_DAI_DAT_DAI_BUOT_TAM_SA_M",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,403 @@
+{
+  "entity_hub": "VI_THUOC_HUONG_PHU",
+  "source": {
+    "source_id": "CT_VT_VN_T48",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "48"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_H",
+      "to": "VI_THUOC_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị kinh nguyệt không đều.",
+        "cach_dung": "Dùng dạng thuốc sắc, thuốc bột hay thuốc viên hoặc rượu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_H",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh nguyệt không đều",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_H",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thấy kinh đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_H",
+      "to": "B_VIEM_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "viêm tử cung mãn tính",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_H",
+      "to": "NhomBenh_BENH_PHU_NU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "các bệnh phụ nữ trước và sau khi sinh nở",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "VI_THUOC_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị đau dạ dày.",
+        "cach_dung": "Dùng dạng thuốc sắc, thuốc bột hay thuốc viên hoặc rượu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau dạ dày do thần kinh",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "S_AN_UONG_KEM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "giúp sự tiêu hóa, ăn không tiêu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa nôn mửa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_HUONG_PHU_H",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "đi lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "VI_THUOC_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi thứ $1 g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "VT_NGAI_CUU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi thứ $1 g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "VT_ICH_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi thứ $1 g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "VT_BACH_DONG_NU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi thứ $1 g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh nguyệt không đều",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thấy kinh đau bụng",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "S_KHO_SINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "khó sinh nở",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_HUONG_PHU_HINB",
+      "to": "S_KHI_HU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "khí hư bạch đới",
+        "cach_dung": "thêm nước vào sắc kỹ, cô đến còn $10ml$, thêm đường vào cho đủ ngọt. Đóng vào ống $10ml$, hàn và hấp tiệt trùng (đun sôi và giữ sôi trong $1$ giờ). Ngày uống từ $3$ đến $6$ ống. Muốn cho kinh nguyệt đều uống đón kinh, $10$ ngày trước ngày dự đoán có kinh. Uống luôn như vậy trong $2$ hay $3$ tháng. Có thể dùng lâu hơn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "VT_ICH_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm chữa bệnh phụ khoa và cao huyết áp.",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "VI_THUOC_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm chữa bệnh phụ khoa và cao huyết áp.",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "VT_NGAI_CUU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm chữa bệnh phụ khoa và cao huyết áp.",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "VT_BACH_DONG_NU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm chữa bệnh phụ khoa và cao huyết áp.",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "NhomBenh_BENH_PHU_NU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa bệnh phụ khoa",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_THUOC_ONG_HA1",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "áp dụng có kết quả trong một số trường hợp cao huyết áp",
+        "cach_dung": "Cách chế cũng như chế cao hương ngải. Mỗi ngày chỉ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_HUONG_PHU_HINB",
+      "to": "VI_THUOC_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4$ hay $6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "Thêm $300ml$ nước, đun sôi và giữ sôi trong nửa giờ. Thêm đường vào cho ngọt mà uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_HUONG_PHU_HINB",
+      "to": "VT_NGAI_CUU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4$ hay $6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "Thêm $300ml$ nước, đun sôi và giữ sôi trong nửa giờ. Thêm đường vào cho ngọt mà uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_HUONG_PHU_HINB",
+      "to": "VT_ICH_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4$ hay $6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "Thêm $300ml$ nước, đun sôi và giữ sôi trong nửa giờ. Thêm đường vào cho ngọt mà uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    },
+    {
+      "from": "BT_KHONG_XAC_DINH_HUONG_PHU_HINB",
+      "to": "VT_BACH_DONG_NU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $4$ hay $6g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Hương phụ điều khí, kết hợp ngải cứu, ích mẫu, bạch đồng nữ điều kinh, giảm đau, trừ huyết ứ.",
+        "cach_dung": "Thêm $300ml$ nước, đun sôi và giữ sôi trong nửa giờ. Thêm đường vào cho ngọt mà uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T48"
+      }
+    }
+  ],
+  "metadata": {}
+}

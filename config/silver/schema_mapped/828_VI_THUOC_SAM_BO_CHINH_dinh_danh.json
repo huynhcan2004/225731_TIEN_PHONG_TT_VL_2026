@@ -1,0 +1,126 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SAM_BO_CHINH",
+    "ten_raw": "Sâm bố chính",
+    "ten_khoa_hoc": "Hibiscus sagittifolius Kurz (Abelmoschus sagittifolius L. Merr., Hibiscus abelmoschus L.)",
+    "ho_thuc_vat": "họ Bông Malvaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "phan_bo": "huyện Bố Trạch thuộc tỉnh Quảng Bình, Thổ Hào (Nghệ An), núi Báo Thanh Hoá"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T828",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "828"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY"
+        ],
+        "cong_nang": "bổ trung ích khí, sinh tân, chỉ khát"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Muốn cho cây mọc tốt cần làm dàn cho cây leo. Dàn cao độ $2$ mét. Sau khi hái về, rửa sạch đất, phân biệt to nhỏ, để riêng, xâu dây vào và phơi đến nửa chừng thì dùng tay hay miếng gỗ lần cho mềm và làm cho vỏ và thịt dính chặt nhau, làm như vậy $3$-$4$ lần, cuối cùng phơi hay sấy cho thật khô.",
+        "thanh_phan_hoa_hoc": [
+          "Theo sự nghiên cứu đảng sâm của Trung Quốc có saponin và đường. Sơ bộ nghiên cứu đảng sâm của Việt Nam thấy có chất đường, chất béo, chưa thấy có saponin (Đỗ Trọng Khánh, $1961$, Bộ môn dược liệu Hà Nội)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu đảng sâm của Trung Quốc có saponin và đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "HC_DUONG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo sự nghiên cứu đảng sâm của Trung Quốc có saponin và đường. Sơ bộ nghiên cứu đảng sâm của Việt Nam thấy có chất đường, chất béo, chưa thấy có saponin (Đỗ Trọng Khánh, $1961$, Bộ môn dược liệu Hà Nội)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ nghiên cứu đảng sâm của Việt Nam thấy có chất đường, chất béo, chưa thấy có saponin (Đỗ Trọng Khánh, $1961$, Bộ môn dược liệu Hà Nội)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    }
+  ]
+}

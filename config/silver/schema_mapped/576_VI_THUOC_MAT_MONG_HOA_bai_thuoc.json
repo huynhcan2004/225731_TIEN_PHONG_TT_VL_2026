@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_MAT_MONG_HOA",
+  "source": {
+    "source_id": "CT_VT_VN_T576",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "576"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CA_MAT_MONG_HOA_M",
+      "to": "VI_THUOC_MAT_MONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương mật mông hoa.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "BT_CA_MAT_MONG_HOA_M",
+      "to": "B_CA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cá",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    }
+  ],
+  "metadata": {}
+}

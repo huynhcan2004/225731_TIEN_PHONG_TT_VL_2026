@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_SAU_BAN_MIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T1049",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1049"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HEN_SUYEN_OC_S",
+      "to": "VT_OC_SEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ốc sên là thành phần chính có tác dụng trị hen suyễn.",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_OC_S",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa hen suyễn",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_KINH_NIEN_OC_S",
+      "to": "VT_OC_SEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ốc sên là thành phần chính có tác dụng trị đau bụng kinh niên.",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_KINH_NIEN_OC_S",
+      "to": "B_DAU_BUNG_KINH_NIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau bụng kinh niên",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_OC_S",
+      "to": "VT_OC_SEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ốc sên là thành phần chính có tác dụng trị thấp khớp.",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_OC_S",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa thấp khớp",
+        "cach_dung": "Nấu ăn như nấu ốc. Ăn liền trong 7-10 ngày. Có thể kéo dài hàng tháng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1049"
+      }
+    }
+  ],
+  "metadata": {}
+}

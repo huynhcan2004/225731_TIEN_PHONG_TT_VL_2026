@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_XICH_THUOC",
+  "source": {
+    "source_id": "CT_VT_VN_T81",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "81"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XICH_THUOC",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đỏ thì hành huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "VI_THUOC_XICH_THUOC",
+      "to": "CN_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Xích thược tả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "VI_THUOC_XICH_THUOC",
+      "to": "CN_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Xích thược thì tán."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "VI_THUOC_XICH_THUOC",
+      "to": "DL_TAN_TA_HANH_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Xích thược có năng lực tán tà hành huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    }
+  ],
+  "metadata": {}
+}

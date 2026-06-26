@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_TRAM",
+  "source": {
+    "source_id": "CT_VT_VN_T750",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "750"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAM",
+      "to": "CN_THONG_KHIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thông khiếu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T750"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T750"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T750"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAM",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Một số bệnh viện dùng bồ kết để thông khoan chữa bí đại tiện và không trung tiện được sau khi mổ, chữa tắc ruột có kết quả, có thể dùng cho cả trẻ em lẫn người lớn, thường chỉ sau $5$ phút là tháo phán ngay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T750"
+      }
+    }
+  ],
+  "metadata": {}
+}

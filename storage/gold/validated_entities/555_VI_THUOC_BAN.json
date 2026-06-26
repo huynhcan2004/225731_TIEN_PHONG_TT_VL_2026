@@ -1,0 +1,587 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAN",
+    "ten_raw": "Cây ban",
+    "ten_khoa_hoc": "$Hypericum japonicum Thunb.; Hypericum perforatum L.$",
+    "ho_thuc_vat": "$Ban Hypericaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "cả thân rễ, lá",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "rửa sạch",
+      "lieu_dung_chung": "Nhổ một nắm cả thân rễ, lá rửa sạch, sắc lấy nước ($30-40$g trong $100$ml nước)",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "khắp nơi ở Việt Nam, hay gặp tại những ruộng mạ, ruộng bỏ hoang, hơi ẩm"
+    },
+    "display_name": null,
+    "canonical_name": "Cây ban"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ban"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Binh"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "HC_IMANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Imanin"
+      }
+    },
+    {
+      "id": "HC_IMANIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Imanin A"
+      }
+    },
+    {
+      "id": "HC_NOVOIMANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Novoimanin"
+      }
+    },
+    {
+      "id": "S_DAY_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Day Bung"
+      }
+    },
+    {
+      "id": "B_CAM_TICH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Tich"
+      }
+    },
+    {
+      "id": "B_THAP_NHIET_HOANG_DAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thap Nhiet Hoang Dan"
+      }
+    },
+    {
+      "id": "B_RAN_DOC_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Doc Can"
+      }
+    },
+    {
+      "id": "B_HOANG_DAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hoang Dan"
+      }
+    },
+    {
+      "id": "S_HOI_MIENG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Hoi Mieng"
+      }
+    },
+    {
+      "id": "B_SAU_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sau Rang"
+      }
+    },
+    {
+      "id": "S_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sung Dau"
+      }
+    },
+    {
+      "id": "B_BI_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bi Thuong"
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Can"
+      }
+    },
+    {
+      "id": "CN_THANH_THAP_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Thap Nhiet"
+      }
+    },
+    {
+      "id": "CN_TIEU_THUNG_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Thung Truong"
+      }
+    },
+    {
+      "id": "CN_KHU_TICH_TIEU_THUC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Tich Tieu Thuc"
+      }
+    },
+    {
+      "id": "T_KHONG_DOC",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Khong Doc"
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA_KEM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Hoa Kem"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "555"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ban là một loại cỏ nhỏ, thân nhỏ mang nhiều cành, cao chừng $10$-$20cm$, thân nhẵn. Lá mọc đối, hình bầu dục, không cuống, trên phiến có những điểm chấm nhỏ, soi lên sáng lại càng rõ. Phiến lá dài $7$-$10mm$, rộng $3$-$5mm$. Hoa nhỏ mọc màu vàng, mọc đơn độc ở kẽ lá, có cuống dài $4$-$5mm$. Lá bắc và lá đài nhẵn (do đó khác loài Hypericum nepalense). Quả nang hình trứng, dài $4mm$, mở bằng $3$ van dọc, thai tòa trắc mô ở cạnh các van. Hạt hình trụ, hơi thon có vạch dọc, chiều dài chừng $1mm$ ( Hình $418$).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T556]: $imanin$, $imanin A$ và $novoimanin$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng | Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt | Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính bình | Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can | Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc, vào hai kinh can và tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ | Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc, vào hai kinh can và tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "HC_IMANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T556]: $imanin$, $imanin A$ và $novoimanin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "HC_IMANIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T556]: $imanin$, $imanin A$ và $novoimanin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "HC_NOVOIMANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T556]: $imanin$, $imanin A$ và $novoimanin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "CN_TIEU_HOA_KEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_CAM_TICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_THAP_NHIET_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_RAN_DOC_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Không kể liều lượng",
+        "cach_dung": "Giã nát, băng phiến. Đắp lên vết rắn cắn đã được chích rộng ra",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40$ hoặc $60g$ khô",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "S_HOI_MIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$30-40g$ trong $100ml$ nước",
+        "cach_dung": "Sắc nước súc miệng thường xuyên",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-40g$ trong $100ml$ nước",
+        "cach_dung": "Sắc nước súc miệng thường xuyên",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Không kể liều lượng",
+        "cach_dung": "Dùng ngoài",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_BI_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Không kể liều lượng",
+        "cach_dung": "Dùng ngoài",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Không kể liều lượng",
+        "cach_dung": "Dùng ngoài",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T556"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "CN_THANH_THAP_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc, vào hai kinh can và tỳ. Có tác dụng thanh thấp nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "CN_TIEU_THUNG_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc, vào hai kinh can và tỳ. Có tác dụng tiêu thũng trướng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "CN_KHU_TICH_TIEU_THUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc, vào hai kinh can và tỳ. Có tác dụng khứ tích tiêu thực (chữa tiêu hoá kém, đầy)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN",
+      "to": "T_KHONG_DOC",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất theo đông y thì cây ban có vị đắng, ngọt, tính bình, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T555",
+        "all_sources": [
+          "CT_VT_VN_T555"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

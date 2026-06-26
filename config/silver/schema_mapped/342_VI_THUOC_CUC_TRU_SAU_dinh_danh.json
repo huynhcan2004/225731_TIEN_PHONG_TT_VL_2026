@@ -1,0 +1,133 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CUC_TRU_SAU",
+    "ten_raw": "Cúc trừ sâu",
+    "ten_khoa_hoc": "Chrysanthemum cinerariaefolium Vis. (Pyrethrum cinerariaefolium Trev, Pyrethrum cinerariaefolium DC.); Pyrethrum cinerariaefolium Trev.; Colchicum autumnale L.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae); Hành tỏi Liliaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "cụm hoa phơi hay sấy khô",
+      "phan_bo": "mọc hoang ở những núi Anpơ (Ý) và dãy núi Bancăng (Đông Âu), những loài P. roseum và P. carneum mọc hoang ở vùng Capcazơ như Acmênia, Iran.Về sau được nhiều nước tổ chức trồng để khai thác như Pháp, Liên Xô cũ, Mỹ, Đức. Mặc dầu chỉ mới được di thực vào Nhật từ năm 1885 với hạt mua từ Mỹ, nhưng được Nhật phát triển rất nhanh chóng.",
+      "thu_hai": "cụm hoa phơi hay sấy khô",
+      "che_bien_tho": "cụm hoa phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T342",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "342"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T344]: phytosterin, một ancaloit được Marinozicco ($1889$) gọi là chrysanthemin có cấu tạo một betain piperidimic, tuy nhiên chất này không có tác dụng trừ sâu.",
+          "2. Tinh dầu ($0,5\\%$ trong hoa chưa nở, ít hơn trong hoa đã nở). Theo R. Merritt và TWest ($1938$) thành phần tinh dầu thay đổi tùy theo cách chế và dung môi cũng như nguồn gốc hoa. Lúc đầu có một số tác giả cho tinh dầu là hoạt chất trừ sâu của cúc trừ sâu nhưng hiện nay người ta cho rằng tinh dầu không có tác dụng trừ sâu.",
+          "3. Hoạt chất thực sự (từ $0,3-1,6\\%$, nhiều nhất có thể đạt $2\\%$), gồm axit pyrethrotoxic (theo Reeb và Schlagdenhauffen, $1876$), pyrethrol là một ête (theo Sato, $1905$) hay pyrethrol (theo Fujitani, $1909$) đùmg nhầm với pyrethrol ancol của Fujitani không phải là kiềm, đun sôi thì bị xà phòng hóa.",
+          "Pyrethrin I $C₁₀H₂₈O₂$ là ête của pyrethrolon và axit chrysanthème monocacbonic $CH₁₀O₂$, là một chất lỏng. Độ chảy $135°C$.",
+          "Pyrethrin II $C₂₀H₂₈O₃$ là ête của pyrethrolon và axit chrysanthème-dicacbonic $CH₁₀O₃$, là một chất có tinh thể. Nhưg axit này có một chức được ête hóa bởi ancol metylic; vậy trong pyrethrin II nó ở dạng ête monoetylic, còn chức axit thứ 2 được ête hóa bởi pyrethrolon. Pyrethrin II rất dễ bị phá hủy, không bền vững bằng pyrethrin I. Độ chảy $150°C$.",
+          "Pyrethrolon có một nhân xyclopentan và $1$ day truyền ngang C, vào $2$ nối kép, $1$ chức xeton, $1$ chức ancol.",
+          "Những pyrethrin không tan trong nước, tan trong những dung môi hữu cơ dễ bị thủy phân và dễ bị oxy hóa.",
+          "hoạt chất; cuối cùng là pyrethrin I và pyrethrin II, xinerin I và xinerin II, pyrethrin I và pyrethrin II là những chất có chứa axit và đều là những ête muối bền vững trong môi trường kiềm ở nhiệt độ thường và đặc biệt bền vững trong môi trường xà phòng",
+          "Xinerin I $C₂₀H₂₈O₃$ lỏng sền sệt, ête của xinerolon $C₁₀H₁₄O₂$ và axit chrysantheme monocacboxylic.",
+          "Xinerin II $C₂₂H₂₈O₅$ ête của xinerolon và axit chryanthemin dicacboxylic"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_PHYTOSTERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T344]: phytosterin, một ancaloit được Marinozicco ($1889$) gọi là chrysanthemin có cấu tạo một betain piperidimic, tuy nhiên chất này không có tác dụng trừ sâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_AXIT_PYRETHROTOXIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất thực sự (từ $0,3-1,6\\%$, nhiều nhất có thể đạt $2\\%$), gồm axit pyrethrotoxic (theo Reeb và Schlagdenhauffen, $1876$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_PYRETHROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất thực sự (từ $0,3-1,6\\%$, nhiều nhất có thể đạt $2\\%$), gồm axit pyrethrotoxic (theo Reeb và Schlagdenhauffen, $1876$), pyrethrol là một ête (theo Sato, $1905$) hay pyrethrol (theo Fujitani, $1909$) đùmg nhầm với pyrethrol ancol của Fujitani không phải là kiềm, đun sôi thì bị xà phòng hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_PYRETHRIN_I",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Pyrethrin I $C₁₀H₂₈O₂$ là ête của pyrethrolon và axit chrysanthème monocacbonic $CH₁₀O₂$, là một chất lỏng. Độ chảy $135°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_PYRETHRIN_II",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Pyrethrin II $C₂₀H₂₈O₃$ là ête của pyrethrolon và axit chrysanthème-dicacbonic $CH₁₀O₃$, là một chất có tinh thể. Nhưg axit này có một chức được ête hóa bởi ancol metylic; vậy trong pyrethrin II nó ở dạng ête monoetylic, còn chức axit thứ 2 được ête hóa bởi pyrethrolon. Pyrethrin II rất dễ bị phá hủy, không bền vững bằng pyrethrin I. Độ chảy $150°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_PYRETHROLON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Pyrethrolon có một nhân xyclopentan và $1$ day truyền ngang C, vào $2$ nối kép, $1$ chức xeton, $1$ chức ancol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_XINERIN_I",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Xinerin I $C₂₀H₂₈O₃$ lỏng sền sệt, ête của xinerolon $C₁₀H₁₄O₂$ và axit chrysantheme monocacboxylic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "VI_THUOC_CUC_TRU_SAU",
+      "to": "HC_XINERIN_II",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Xinerin II $C₂₂H₂₈O₅$ ête của xinerolon và axit chryanthemin dicacboxylic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    }
+  ]
+}

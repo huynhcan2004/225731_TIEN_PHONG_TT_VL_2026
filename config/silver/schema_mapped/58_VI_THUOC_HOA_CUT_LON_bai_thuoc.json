@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_HOA_CUT_LON",
+  "source": {
+    "source_id": "CT_VT_VN_T58",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "58"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_RONG_HUYET_SAU_SINH_HOA_CUT_LON_H",
+      "to": "VI_THUOC_HOA_CUT_LON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa cứt lợn là vị thuốc chính để cầm máu sau sinh.",
+        "cach_dung": "Rửa sạch, giã nát, vắt lấy nước và uống trong ngày. Uống trong 3-4 ngày",
+        "ghi_chu": "CT_VT_VN_T59 (trang 59). Liều dùng: $30-50g$ cây tươi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_RONG_HUYET_SAU_SINH_HOA_CUT_LON_H",
+      "to": "B_RONG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa bệnh phụ nữ bị rong huyết sau khi sinh nở",
+        "cach_dung": "Rửa sạch, giã nát, vắt lấy nước và uống trong ngày. Uống trong 3-4 ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_VIEM_XOANG_MUI_DI_UNG_HOA_CUT_LON_H",
+      "to": "VI_THUOC_HOA_CUT_LON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoa cứt lợn là vị thuốc chính để điều trị viêm xoang mũi dị ứng.",
+        "cach_dung": "Rửa sạch, giã nát, vắt lấy nước tẩm vào bông. Dùng bông này nhét vào lỗ mũi bên đau.",
+        "ghi_chu": "CT_VT_VN_T59 (trang 59). Dùng cây tươi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_VIEM_XOANG_MUI_DI_UNG_HOA_CUT_LON_H",
+      "to": "B_VIEM_XOANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa viêm xoang mũi dị ứng mới phát hiện",
+        "cach_dung": "Rửa sạch, giã nát, vắt lấy nước tẩm vào bông. Dùng bông này nhét vào lỗ mũi bên đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_DAU_GOI_HOA_CUT_LON_NB",
+      "to": "VI_THUOC_HOA_CUT_LON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoa cứt lợn phối hợp với bồ kết giúp làm sạch và thơm tóc.",
+        "cach_dung": "nấu nước gội đầu",
+        "ghi_chu": "CT_VT_VN_T59 (trang 59)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_DAU_GOI_HOA_CUT_LON_NB",
+      "to": "VT_BO_KET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bồ kết phối hợp với hoa cứt lợn giúp làm sạch và thơm tóc.",
+        "cach_dung": "nấu nước gội đầu",
+        "ghi_chu": "CT_VT_VN_T59 (trang 59)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    },
+    {
+      "from": "BT_DAU_GOI_HOA_CUT_LON_NB",
+      "to": "S_GAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "vừa thơm vừa sạch gầu trơn tóc",
+        "cach_dung": "nấu nước gội đầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T58"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,204 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MUOP_DANG",
+    "ten_raw": "Mướp đắng",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T749",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "749"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_THAN"
+        ],
+        "cong_nang": "an thần, ích trí, tán uất hoá đờm, tiêu ung thũng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "lông và có rãnh dọc, 6 đến 8 đôi lá chét, hình trứng dài, dài trung bình $25mm$, rộng $15mm$. Hoa màu trắng khác gốc hay tạp tính, mọc thành chùm hình bông. Quả giáp, dài $1-12cm$, rộng $15-20mm$, hơi cong hình lưỡi liềm hay thẳng, quả mỏng nhưng ở những nơi có hạt thì nổi phình lên, trên mặt quả có phủ lớp phấn màu xanh nhạt. Trong quả có 10-12 hạt dài $10mm$, rộng $7mm$, dày $4mm$, màu vàng nâu nhạt, quanh hạt là một chất cơm màu vàng nhạt. Mùa bồ kết: Tháng 10-11 (Hình 565).",
+        "thanh_phan_hoa_hoc": [
+          "Từ quả bồ kết ở Việt Nam, chúng tôi đã chiết được chất saponin tinh khiết với hiệu suất $10\\%$",
+          "Năm 1929 (Nhật dược chỉ số 29), một tác giả Nhật Bản có chiết được từ bồ kết cùng loài nhưng mọc ở Nhật Bản chất saponin cấu tạo tritecpenic và gọi là gleditsaponin với hiệu suất $10\\%$, công thức thô xác định là $C_{59}H_{100}O_{20}$.",
+          "Năm 1963, Bùi Đình Sang có chiết được từ bồ kết Việt Nam saponin, men peroxydaza và hai chất khác có tinh thể chưa xác định được tính chất.",
+          "Năm 1969, Ngô Thị Bích Hải đã chiết được từ quả bồ kết mọc ở Việt Nam 8 chất flavonoit và 7 hợp chất tritecpen: 5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin. Phần aglycon của hợp chất tritecpen là axit oleanolic và echinoxystic. Phần đường là xyloza, arabinoza, glucoza và galactoza. Ngoài ra tác giả còn chiết được một saponin mới là australozit."
+        ],
+        "lieu_dung_tong_quat": "Cây bồ kết mọc hoang và được trồng tại nhiều tỉnh miền Bắc nước ta. Còn thấy mọc tại các tỉnh miền Nam Trung Quốc. Riêng đảo Cát Bà (Hải Phòng) có tới 40.000 cây, hằng năm cho tới 40 tấn bồ kết. Vào tháng 10-11, quả chín, hái về phơi hay sấy khô. Khi mới hái quả có màu xanh hay hơi vàng, phơi và để lâu có màu đen bóng. Gai bồ kết có thể thu hái quanh năm, nhưng tốt nhất vào các tháng 9 đến tháng 3 năm sau, hái về phơi khô hoặc nhân lúc gai còn đang tươi, thái mỏng rồi mới phơi hay sấy khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tâm"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ quả bồ kết ở Việt Nam, chúng tôi đã chiết được chất saponin tinh khiết với hiệu suất $10\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_GLEDITSAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1929 (Nhật dược chỉ số 29), một tác giả Nhật Bản có chiết được từ bồ kết cùng loài nhưng mọc ở Nhật Bản chất saponin cấu tạo tritecpenic và gọi là gleditsaponin với hiệu suất $10\\%$, công thức thô xác định là $C_{59}H_{100}O_{20}$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_LUTEOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_SAPONARETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_VITEXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_HOMOORIENTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_ORIENTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "5 trong số 8 chất flavonoit đã được rút ra dưới dạng tinh khiết và xác định là luteolin, saponaretin, vitexin, homoorientin và orientin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_AXIT_OLEANOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần aglycon của hợp chất tritecpen là axit oleanolic và echinoxystic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_ECHINOXYSTIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần aglycon của hợp chất tritecpen là axit oleanolic và echinoxystic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUOP_DANG",
+      "to": "HC_AUSTRALOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra tác giả còn chiết được một saponin mới là australozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    }
+  ]
+}

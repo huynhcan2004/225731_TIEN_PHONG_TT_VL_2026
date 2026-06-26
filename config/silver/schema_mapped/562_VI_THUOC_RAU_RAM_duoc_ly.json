@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_RAU_RAM",
+  "source": {
+    "source_id": "CT_VT_VN_T562",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "562"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Rau răm có vị cay, tính ấm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "CN_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng kích thích sự tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kém ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "CN_BINH_TAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng dịu tình dục cho nên các người đi tu thường dùng để giảm những cơn bốc dục."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu rau răm có tác dụng kháng khuẩn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_RAM",
+      "to": "DL_KICH_THICH_CO_TRON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thí nghiệm trên tử cung thỏ thấy có tác dụng kích thích tử cung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T562"
+      }
+    }
+  ],
+  "metadata": {}
+}

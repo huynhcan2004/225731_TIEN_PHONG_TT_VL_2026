@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_CHAU_THU",
+  "source": {
+    "source_id": "CT_VT_VN_T534",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "534"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHAU_THU",
+      "to": "CN_TAN_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tán ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T534"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAU_THU",
+      "to": "CN_HET_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T534"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAU_THU",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu thũng (sung)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T534"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHAU_THU",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngã hay bị đánh sưng đau, gãy xương sưng đau, đau do phong thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T534"
+      }
+    }
+  ],
+  "metadata": {}
+}

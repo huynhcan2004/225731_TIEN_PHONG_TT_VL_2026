@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_CO_TROI_GA_BENH",
+  "source": {
+    "source_id": "CT_VT_VN_T724",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "724"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAI_CHAN_CO_TROI_GA_BENH_C",
+      "to": "VI_THUOC_CO_TROI_GA_BENH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cỏ trói gà bệnh là vị thuốc duy nhất.",
+        "cach_dung": "Ngâm trong 3 phần rượu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T724"
+      }
+    },
+    {
+      "from": "BT_CHAI_CHAN_CO_TROI_GA_BENH_C",
+      "to": "B_CHAI_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chai chân.",
+        "cach_dung": "Ngâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T724"
+      }
+    }
+  ],
+  "metadata": {}
+}

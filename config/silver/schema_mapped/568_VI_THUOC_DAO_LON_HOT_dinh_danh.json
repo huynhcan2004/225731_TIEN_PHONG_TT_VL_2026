@@ -1,0 +1,51 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAO_LON_HOT",
+    "ten_raw": "Đào lộn hột",
+    "ten_khoa_hoc": "Sterculia platanifolia L.; Vernicia montana Lour. (Dryandra vernicia Geors.)",
+    "ho_thuc_vat": "Trôm Sterculiaceae; Thầu dầu Euphorbiaceae",
+    "variants": [
+      "cây dầu lai",
+      "cây dầu sơn",
+      "cây dầu tía"
+    ],
+    "properties": {
+      "phan_bo": "Nhiều tỉnh miền Bắc và miền Nam nước ta. Miền Bắc hay gặp ở Thanh Hoá, Nghệ An, Hà Tĩnh, Nam Định, Hà Nam, Ninh Bình. Còn thấy trồng ở Cămpuchia, Trung Quốc, Nhật Bản.\nCây mọc hoang và được trồng ở nhiều tỉnh miền núi nước ta như Cao Bằng, Lạng Sơn, Bắc Cạn, Thái Nguyên, Vĩnh Phú, Hà Tây, Hoà Bình, Thanh Hoá, Nghệ An. Còn thấy mọc ở Lào, Cămpuchia, Trung Quốc, Ấn Độ.",
+      "thu_hai": "Người ta dùng hạt thu hái ở những quả chín",
+      "che_bien_tho": "Người ta dùng hạt ép dầu, vỏ rễ và vỏ cây hái gần như quanh năm, dùng tươi hay phơi hoặc sấy khô."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T568",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "568"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ cao $5$-$8m$. Lá mọc so le, hình trứng, đầu nhọn, phía cuống tròn hay hơi hình tim, dài $10$-$20cm$, rộng $8$-$17cm$, mép nguyên hay lượn sóng, mặt nhẵn, cuống dài $5$-$10cm$, ở đầu cuống có hai tuyến. Hoa mọc thành chùm ở ngọn, hoa đực và hoa cái cùng một cụm, hoa màu trắng, $5$ cánh hoa, nhị nhiều. Quả hạch hình trứng, đường kính $5$-$6cm$, có $3$ ngăn, ở mỗi ngăn có một hạt. Mùa hoa: tháng $3$-$5$, mùa quả: tháng $8$-$10$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt ngô đồng có dầu béo. Các bộ phận khác chưa thấy nghiên cứu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAO_LON_HOT",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ngô đồng có dầu béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T568"
+      }
+    }
+  ]
+}

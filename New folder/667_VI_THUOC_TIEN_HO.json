@@ -1,0 +1,584 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TIEN_HO",
+    "ten_raw": "Tiền hồ",
+    "ten_khoa_hoc": "Peucedanum decursivum Maxim, Angelica decursiva Franch et Savat.",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Liều dùng 9-15$g$ dưới dạng thuốc sắc chia làm 2-3 lần uống trong ngày.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Hiện nay mới phát hiện thấy có nhiều ở Đồng Đăng (Lạng Sơn). Ở đây người ta thu mua với tên Quy nam. Có người lại gọi nhầm nó là độc hoạt hay khương hoạt. Thực ra độc hoạt và khương hoạt là rễ những cây khác. Vào mùa thu, đông hay mùa xuân, đào lấy rễ về, rửa sạch đất, phơi hay sấy khô là được. Tại Trung Quốc, tiền hồ mọc ở Thiểm Tây, Quảng Châu, Hàng Châu, An Huy, Thiểm Tây, Hàng Châu được coi là nơi tiền hồ tốt nhất.",
+      "thu_hai": "Vào mùa thu, đông hay mùa xuân, đào lấy rễ về",
+      "che_bien_tho": "rửa sạch đất, phơi hay sấy khô"
+    },
+    "display_name": "Tiền hồ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_TIEN_HO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Tien Ho"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "HC_NODAKENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nodakenin"
+      }
+    },
+    {
+      "id": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dom Khong Tiet Ra Duoc Tien Ho"
+      }
+    },
+    {
+      "id": "VT_TANG_BACH_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Tang Bach Bi"
+      }
+    },
+    {
+      "id": "VT_DAO_NHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Dao Nhan"
+      }
+    },
+    {
+      "id": "VT_KHOAN_DONG_HOA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Khoan Dong Hoa"
+      }
+    },
+    {
+      "id": "VT_BOI_MAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Boi Mau"
+      }
+    },
+    {
+      "id": "VT_CAT_CANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cat Canh"
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "B_VIEM_KHI_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Khi Quan"
+      }
+    },
+    {
+      "id": "S_DOM_KHONG_TIET_RA_DUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dom Khong Tiet Ra Duoc"
+      }
+    },
+    {
+      "id": "S_PHONG_NHIET_SINH_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Phong Nhiet Sinh Ho"
+      }
+    },
+    {
+      "id": "S_DOM_DAC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dom Dac"
+      }
+    },
+    {
+      "id": "S_XUYEN_TUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Xuyen Tuc"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "S_GIAM_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Giam Dau"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "S_SOT_NONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot Nong"
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Nhuc"
+      }
+    },
+    {
+      "id": "CN_TUYEN_TAN_PHONG_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tuyen Tan Phong Nhiet"
+      }
+    },
+    {
+      "id": "CN_HA_KHI_CHI_HO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ha Khi Chi Ho"
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Dom"
+      }
+    },
+    {
+      "id": "DL_TRU_DOM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tru Dom"
+      }
+    },
+    {
+      "id": "DL_KHONG_CHI_HO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khong Chi Ho"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T667",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "667"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY"
+        ],
+        "cong_nang": "tuyên tán phong nhiệt, hạ khí chỉ họ, tiêu đờm"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cay thuộc thảo, cao $0,7-1,4m$, mọc thẳng đứng, trên có phân nhánh trên thân có khía dọc. Lá ở gốc cây lớn, 1-2 lần xẻ lông chim, cuống dài $14-30cm$, phiến lá chia thành thuỳ hình bầu dục có răng cưa to. Lá ở thân nhỏ, cuống ngắn có bẹ lá phồng và rộng. Lá ở phía không cuống hay thu lại còn bẹ lá. Cụm hoa tán kép. Hoa màu tín. Quả hình bầu dục, cụt ở hai đầu, $5-7mm$, rộng $3-5mm$. Phân liệt quả, có múi ở cạnh, khi chưa chín $2phân$ liệt quả dính chặt vào nhau. Khi chín phân liệt quả nở tung ra, có dìa rộng và hơi dày (Hình 502).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tiền hồ, người ta phân tích thấy có chất glucozit gọi là $nodakenin$, tinh dầu, tanin, spongosterola."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "HC_NODAKENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tiền hồ, người ta phân tích thấy có chất glucozit gọi là $nodakenin$, tinh dầu, tanin, spongosterola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VI_THUOC_TIEN_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với nước $600ml$ còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_TANG_BACH_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_DAO_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "B_VIEM_KHI_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "BT_DOM_KHONG_TIET_RA_DUOC_TIEN_HO",
+      "to": "S_DOM_KHONG_TIET_RA_DUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_PHONG_NHIET_SINH_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_DOM_DAC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_XUYEN_TUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_GIAM_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T668"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "CN_TUYEN_TAN_PHONG_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuyên tán phong nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "CN_HA_KHI_CHI_HO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ khí chỉ ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "DL_TRU_DOM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên mèo gây mê, tiền hồ có tác dụng trừ đờm.",
+        "ghi_chu": "Thí nghiệm của Cao ứng Đẩu và Chu Thọ Bành (1954)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIEN_HO",
+      "to": "DL_KHONG_CHI_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên mèo bị gây ho bằng dung dịch $1\\%$ iột, uống nước sắc tiền hồ liều $0,$8-2g$/kg$ thể trọng, không thấy có tác dụng trừ ho rõ rệt.",
+        "ghi_chu": "Thí nghiệm của Hoàng Khánh Chương (1954). Cần thêm dữ liệu để xác minh tác dụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T667"
+      }
+    }
+  ]
+}

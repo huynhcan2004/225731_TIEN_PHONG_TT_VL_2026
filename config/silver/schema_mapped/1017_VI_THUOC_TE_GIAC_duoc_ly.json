@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_TE_GIAC",
+  "source": {
+    "source_id": "CT_VT_VN_T1017",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1017"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "CN_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "CN_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "CN_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "CN_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "có vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "CN_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    },
+    {
+      "from": "VI_THUOC_TE_GIAC",
+      "to": "DL_HA_SOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng hạ sốt rất tốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1017"
+      }
+    }
+  ],
+  "metadata": {}
+}

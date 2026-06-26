@@ -1,0 +1,270 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUY_NGAN",
+    "ten_raw": "Thủy ngân",
+    "ten_khoa_hoc": "Hydrargyrum.",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Vị thuốc lỏng như nước, trắng như bạc",
+      "thu_hai": "",
+      "che_bien_tho": "",
+      "lieu_dung_chung": "Thường chỉ dùng ngoài.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": ""
+    },
+    "display_name": "Thủy ngân"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THUY_NGAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thuy Ngan"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "B_CHAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Chay"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_GIANG_MAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Giang Mai"
+      }
+    },
+    {
+      "id": "B_GHE_LO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ghe Lo"
+      }
+    },
+    {
+      "id": "B_NHIET_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Nhiet Doc"
+      }
+    },
+    {
+      "id": "S_CHAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay"
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Sat Trung"
+      }
+    },
+    {
+      "id": "CO_VI_CAY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Vi Cay"
+      }
+    },
+    {
+      "id": "CO_TINH_HAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Tinh Han"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1066"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Vị thuốc lỏng như nước, trắng như bạc cho nên gọi là thủy ngân. Thủy là nước, ngân là bạc.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "string"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "thủy ngân có tính hàn (lạnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "thủy ngân có vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "có khi dùng chữa cháy trên đầu tóc",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chữa mụn nhọt",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_GIANG_MAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chữa giang mai",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_GHE_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "trừ ghẻ lở",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "B_NHIET_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "trừ nhiệt độc",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "S_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "có khi dùng chữa cháy trên đầu tóc",
+        "ghi_chu": "làm trụy thai, có khi dùng chữa cháy trên đầu tóc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "CO_VI_CAY",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "CO_TINH_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy ngân có độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066"
+      }
+    }
+  ]
+}

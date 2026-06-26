@@ -1,0 +1,293 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SAM_RUNG",
+    "ten_raw": "Sâm rừng",
+    "ten_khoa_hoc": "$Boerhaavia repens L. (B. diffusa L., B. procumbens Wight, Axia cochinchinensis Lour); Boerhaavia repanda Willd. (B. sinensis Asch)$",
+    "ho_thuc_vat": "$Hoa phấn Nyctaginaceae$",
+    "variants": [
+      "nam sâm",
+      "sâm đất"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "lieu_dung_chung": "Nếu pha rượu chỉ dùng với liều từ 2 đến 5$g$ một ngày.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Mọc hoang khắp nơi ở Việt Nam, nhiều nhất ở quanh nhà, dọc đường xe lửa.",
+      "che_bien_tho": "rễ đào về rửa sạch phơi hay sấy khô."
+    },
+    "display_name": "Sâm rừng",
+    "canonical_name": "Sâm rừng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_SAM_RUNG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Sam Rung"
+      }
+    },
+    {
+      "id": "HC_PUNARNAVINE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Punarnavine"
+      }
+    },
+    {
+      "id": "B_SUNG_NUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sung Nuoc"
+      }
+    },
+    {
+      "id": "B_CHUNG_THUNG_TOAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Chung Thung Toan"
+      }
+    },
+    {
+      "id": "B_CHUNG_BUNG_NUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Chung Bung Nuoc"
+      }
+    },
+    {
+      "id": "B_BENH_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Gan"
+      }
+    },
+    {
+      "id": "B_BENH_LA_LACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh La Lach"
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_TRAN_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tran Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "841"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sâm rừng là một loại cỏ có rễ trụ hình thoi mẫm. Thân mọc toả, hình nan hoa xe đạp, bò, màu đỏ nhạt. Dáng và kích thước cành rất thay đổi. Lá mọc đối, hình trái xoan, mẫm, mềm, mép lượn sóng, mặt dưới màu trắng bạc có nhiều lông, mặt trên nhẵn và có màu lục sẫm, dài $2$-$4cm$, rộng $15$-$30mm$. Hoa đỏ tía, mọc thành chuỳ ở kẽ lá hay đầu cành. Cuống nhỏ tận cùng mang $2$-$5$ hoa. Quả hình trụ hai đầu nhỏ lại thành hình thoi dài $3mm$, trên có rãnh rộng và sần sùi màu vàng nhạt trông như được phủ một lớp phấn màu vàng nhạt (Hình 632).",
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ cây này có tinh dầu, tinh bột và chất gồm-kali nitrat.",
+          "Basu và Lal (1947, Investigations on Indian Medicinal Plants, Quart. J. Pharma. Pharmacol, g. Br. 20: 38, 42) đã chiết được từ cây này một ancaloit có tinh thể gọi là $punarnavin$ vì tên cây này ở Ấn Độ gọi là punamava."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "HC_PUNARNAVINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Basu và Lal (1947, Investigations on Indian Medicinal Plants, Quart. J. Pharma. Pharmacol, g. Br. 20: 38, 42) đã chiết được từ cây này một ancaloit có tinh thể gọi là $punarnavin$ vì tên cây này ở Ấn Độ gọi là punamava."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_SUNG_NUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_CHUNG_THUNG_TOAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_CHUNG_BUNG_NUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_BENH_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_BENH_LA_LACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "cach_dung": "Ngày dùng 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dạng thuốc bột, thuốc sắc | Hoặc pha như pha chè",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T842"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ cây có tác dụng tăng lượng nước tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều cao có thể gây nôn mửa và ra nhiều mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_SAM_RUNG",
+      "to": "DL_TRAN_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với thần kinh có tác dụng trấn tĩnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T841",
+        "all_sources": [
+          "CT_VT_VN_T841"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.0,
+      "reliability_c_score": 0.7682,
+      "total_confidence_sum": 8.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

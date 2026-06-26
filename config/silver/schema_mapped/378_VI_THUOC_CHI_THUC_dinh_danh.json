@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHI_THUC",
+    "ten_raw": "Chỉ thực",
+    "ten_khoa_hoc": "Citrus sp.; Citrus aurantium L.",
+    "ho_thuc_vat": "Cam (Rutaceae)",
+    "variants": [
+      "Chỉ xác",
+      "Fructus Aurantii immaturi",
+      "Fructus Citri aurantii"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả phơi khô",
+      "thu_hai": "quả hái vào lúc còn non nhỏ",
+      "phan_bo": "Chỉ thực mọc hoang và được trồng ở nhiều nơi trong nước ta để lấy quả ăn và làm thuốc. Còn mọc ở nhiều nước khác như Trung Quốc, Ấn Độ."
+    },
+    "display_name": "Chỉ thực"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T378",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "378"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chỉ thực (Fructus Aurantii immaturi) và Chỉ xác (Fructus Citri aurantii) đều là quả phơi khô của chừng hơn 10 cây chi Citrus và Poncirus thuộc họ Cam Rutaceae nhưng thu hái ở thời kỳ khác nhau. Chỉ thực là quả hải vào lúc còn non nhỏ, Cây nhỏ, cao $3-5m$, có gai dài. Lá có phiến hình trứng, dài $6-12cm$, rộng $2-5cm$, gốc tròn hay hơi tù, đầu nhọn, mép có răng cưa, cuống có dìa rộng gần bằng phiến. Hoa trắng thơm. Quả hình cầu hơi dẹt, đường kính $4-6cm$, khi chín có màu vàng da cam. Vỏ rất dày, xốp, hơi nhăn. Thịt quả chua. Hạt nhiều.",
+        "thanh_phan_hoa_hoc": [
+          "Chỉ thực, chỉ xác của ta chưa thấy có tài liệu nghiên cứu. Nghiên cứu chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $0,09\\%$ ancaloit; $20,49\\%$ glucozit; $5,86\\%$ saponin. Trong chỉ xác tại đó người ta chỉ thấy có $9,89\\%$ glucozit. Các hoạt chất khác chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "T_HOI_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $0,09\\%$ ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $20,49\\%$ glucozit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHI_THUC",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu chỉ thực của tỉnh Tứ Xuyên Trung Quốc, năm 1958 hệ dược, Viện y học Bắc Kinh tìm thấy $5,86\\%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_PHUONG_NHON_THAO",
+  "source": {
+    "source_id": "CT_VT_VN_T221",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "221"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_IA_CHAY_PHUONG_NHON_THAO_P",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc chữa ỉa chảy.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc hãm",
+        "ghi_chu": "Vỏ cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_PHUONG_NHON_THAO_P",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa chảy",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc hãm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_LY_PHUONG_NHON_THAO_P",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc chữa lỵ.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc hãm",
+        "ghi_chu": "Vỏ cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_LY_PHUONG_NHON_THAO_P",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc thuốc hãm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_TRI_SAN_PHUONG_NHON_THAO_P",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc trị sán.",
+        "cach_dung": "Uống liên tục trong 7-8 ngày. Ngày cuối cùng uống một liều dầu tẩy để tống sán",
+        "ghi_chu": "1g bột vỏ khô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_TRI_SAN_PHUONG_NHON_THAO_P",
+      "to": "B_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị sán",
+        "cach_dung": "Uống liên tục trong 7-8 ngày. Ngày cuối cùng uống một liều dầu tẩy để tống sán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_HO_PHUONG_NHON_THAO_Q",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc chữa ho.",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "$5-10g$ quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_HO_PHUONG_NHON_THAO_Q",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_DIEU_KINH_PHUONG_NHON_THAO_Q",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc điều kinh.",
+        "cach_dung": "Dưới dạng thuốc sắc",
+        "ghi_chu": "$5-10g$ quả"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_DIEU_KINH_PHUONG_NHON_THAO_Q",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_GHE_PHUONG_NHON_THAO_L",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc tắm ghẻ.",
+        "cach_dung": "Nấu nước tắm",
+        "ghi_chu": "Lá cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_GHE_PHUONG_NHON_THAO_L",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tắm ghẻ",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_PHUONG_NHON_THAO_L",
+      "to": "VI_THUOC_PHUONG_NHON_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phượng nhỡn thảo là vị thuốc duy nhất trong bài thuốc rửa chốc đầu.",
+        "cach_dung": "Nấu nước rửa",
+        "ghi_chu": "Lá cây"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_CHOC_DAU_PHUONG_NHON_THAO_L",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rửa chốc đầu",
+        "cach_dung": "Nấu nước rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    }
+  ],
+  "metadata": {}
+}

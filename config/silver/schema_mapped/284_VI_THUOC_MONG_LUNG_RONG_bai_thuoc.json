@@ -1,0 +1,160 @@
+{
+  "entity_hub": "VI_THUOC_MONG_LUNG_RONG",
+  "source": {
+    "source_id": "CT_VT_VN_T284",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "284"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAY_MAU_MONG_LUNG_RONG_M",
+      "to": "VI_THUOC_MONG_LUNG_RONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Móng lưng rồng có tác dụng cầm máu.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc đốt thành than tán bột rắc lên vết thương hay để uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_MONG_LUNG_RONG_M",
+      "to": "B_XUAT_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu, nôn ra máu, đại tiện tiểu tiện ra máu, kinh nguyệt quá nhiều và các chứng chảy máu khác",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc đốt thành than tán bột rắc lên vết thương hay để uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_M",
+      "to": "VI_THUOC_MONG_LUNG_RONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Móng lưng rồng có tác dụng điều trị các bệnh về gan, vàng da.",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc đốt thành than tán bột rắc lên vết thương hay để uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_M",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vàng da, vàng mắt, viêm gan bổ máu, chữa bỏng",
+        "cach_dung": "Dưới dạng thuốc sắc hoặc đốt thành than tán bột rắc lên vết thương hay để uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_BONG_MONG_LUNG_RONG_T",
+      "to": "VI_THUOC_MONG_LUNG_RONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Móng lưng rồng kết hợp với lòng trắng trứng gà giúp làm mát và dịu vết bỏng.",
+        "cach_dung": "Đắp lên nơi bỏng. Cứ 2-3 giờ thay thuốc một lần",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_BONG_MONG_LUNG_RONG_T",
+      "to": "VT_TRUNG_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lòng trắng trứng gà có tác dụng làm mát và dịu vết bỏng.",
+        "cach_dung": "Đắp lên nơi bỏng. Cứ 2-3 giờ thay thuốc một lần",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_BONG_MONG_LUNG_RONG_T",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng lửa",
+        "cach_dung": "Đắp lên nơi bỏng. Cứ 2-3 giờ thay thuốc một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_T",
+      "to": "VI_THUOC_MONG_LUNG_RONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Móng lưng rồng có tác dụng điều trị các bệnh về gan, vàng da.",
+        "cach_dung": "Sắc với $400ml$ nước, chia hai lần uống trong ngày",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_T",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa váng đầu, hoa mắt, vàng da",
+        "cach_dung": "Sắc với $400ml$ nước, chia hai lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_T",
+      "to": "S_HOA_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa váng đầu, hoa mắt, vàng da",
+        "cach_dung": "Sắc với $400ml$ nước, chia hai lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_MONG_LUNG_RONG_T",
+      "to": "S_VANG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa váng đầu, hoa mắt, vàng da",
+        "cach_dung": "Sắc với $400ml$ nước, chia hai lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    }
+  ],
+  "metadata": {}
+}

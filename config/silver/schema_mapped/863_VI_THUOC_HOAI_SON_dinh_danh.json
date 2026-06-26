@@ -1,0 +1,182 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOAI_SON",
+    "ten_raw": "Hoài sơn",
+    "ten_khoa_hoc": "Dioscorea persimilis Prain et Burk.; Dioscorea oppositifolia Lour.",
+    "ho_thuc_vat": "Củ nâu (Dioscoreaceae)",
+    "variants": [
+      "kê đầu",
+      "khiếm",
+      "thiên hoài",
+      "dái củ mài"
+    ],
+    "properties": {
+      "bo_phan_dung": "Thân rễ củ",
+      "che_bien_tho": "Phơi hay sấy khô",
+      "phan_bo": "khắp những vùng rừng núi nước ta, Hà Bắc, Lào Cai, Yên Bái, Thanh Hóa, Nghệ An, Hà Tĩnh và Quảng Bình",
+      "thu_hai": "Mùa đào củ mài tốt nhất vào thu đông và đầu xuân (từ tháng 10-11 đến tháng 3-4)"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T863",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "863"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TY",
+          "K_THAN"
+        ],
+        "cong_nang": "Bổ tỳ, ích thận, chỉ tả, sáp tình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây củ mài là một loại dây leo ở trên mặt đất, có thân củ. Củ có thể dài $1m$, đường kính $2$-$10cm$ với nhiều rễ con. Thân cây nhẵn hơi có góc cạnh, ở kẽ lá có những củ con gọi là “thiên hoài” hay “dái củ mài”. Lá đơn, mọc đế, hoặc có khi so le, đầu lá nhọn phía cuống hình tim. Phiến lá dài $8$-$10cm$, rộng $6$-$8cm$. Cuống dài $1,5$-$3,5cm$. Hoa đực hoa cái khác gốc. Quả khô có ba cạnh và có dìa. Mùa hoa vào tháng $7$-$8$. Mùa quả vào tháng $9$-$11$ (Hình 648, Hm 35,2)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $4,4\\%$ chất protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $0,2$ chất béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_HYDRAT_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $32\\%$ hydrat cacbon"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $0,009\\%$ chất canxi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $0,11\\%$ photpho"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $0,004\\%$ sắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAI_SON",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo phân tích của hệ dinh dưỡng thuộc Sở vệ sinh Trung ương 1957 thì trong khiếm thực có $0,006\\%$ vitaminC."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T863"
+      }
+    }
+  ]
+}

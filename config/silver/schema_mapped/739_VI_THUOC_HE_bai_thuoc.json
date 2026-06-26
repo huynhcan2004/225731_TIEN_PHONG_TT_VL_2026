@@ -1,0 +1,295 @@
+{
+  "entity_hub": "VI_THUOC_HE",
+  "source": {
+    "source_id": "CT_VT_VN_T739",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "739"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_RA_MAU_TANG_BACH_BI_G",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa ho ra máu, Tang bạch bì có tác dụng thanh phế giáng hỏa, lương huyết chỉ huyết, kết hợp với gạo nếp giúp kiện tỳ vị, cố vị khí, ngăn ngừa xuất huyết tái phát.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $8g$ chiêu bằng nước cơm",
+        "ghi_chu": "Ngâm nước vo gạo 3 đêm, tước nhỏ, sao vàng, tán nhỏ, trộn đều. Tang bạch bì $600g$, gạo nếp $250g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_TANG_BACH_BI_G",
+      "to": "B_HO_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $8g$ chiêu bằng nước cơm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_NAM_VO_CAY_DAU_VC",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc chữa ho lâu năm, vỏ cây dâu và vỏ rễ cây chanh có tác dụng thanh nhiệt, hóa đờm, chỉ khái, giúp giảm ho và làm dịu đường hô hấp.",
+        "cach_dung": "Sắc uống trong ngày.",
+        "ghi_chu": "Vỏ cây dâu, vỏ rễ cây chanh mỗi thứ $10g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_NAM_VO_CAY_DAU_VC",
+      "to": "B_HO_LAU_NAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ho lâu năm.",
+        "cach_dung": "Sắc uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_HO_CO_DOM_TANG_BACH_BI_T",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tang bạch bì có tác dụng thanh phế, hóa đờm, chỉ khái, giúp giảm ho và long đờm.",
+        "cach_dung": "Sắc với nước cho uống.",
+        "ghi_chu": "Tang bạch bì $4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_HO_CO_DOM_TANG_BACH_BI_T",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con ho có đờm.",
+        "cach_dung": "Sắc với nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_RUNG_TOC_TANG_BACH_BI_T",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tang bạch bì có tác dụng thanh nhiệt, lương huyết, giúp cải thiện tình trạng da đầu và kích thích mọc tóc.",
+        "cach_dung": "Lọc, lấy nước đó gội đầu.",
+        "ghi_chu": "Tang bạch bì giã dập, ngâm nước, đun sôi nửa giờ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_RUNG_TOC_TANG_BACH_BI_T",
+      "to": "B_RUNG_TOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rụng tóc.",
+        "cach_dung": "Lọc, lấy nước đó gội đầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_NON_RA_MAU_LA_DAU_C",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá dầu cuối màu có tác dụng chỉ huyết, giúp cầm máu khi nôn ra máu.",
+        "cach_dung": "Sắc uống. Ngày uống $12-16g$.",
+        "ghi_chu": "Lá dầu cuối màu, sao vàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_NON_RA_MAU_LA_DAU_C",
+      "to": "B_NON_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn ra máu.",
+        "cach_dung": "Sắc uống. Ngày uống $12-16g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LA_DAU_C",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá dâu có tác dụng thanh nhiệt, giải độc, giúp làm lành mụn nhọt.",
+        "cach_dung": "Rắc vào mụn đã rửa sạch.",
+        "ghi_chu": "Lá dâu sao vàng tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_LA_DAU_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt lâu ngày không liền miệng.",
+        "cach_dung": "Rắc vào mụn đã rửa sạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_DAU_BUNG_TGN",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc an thai, giảm đau bụng do động thai. Tang ký sinh giúp an thai, bổ can thận; Giao (hoặc cao ban long) bổ huyết, cố kinh; Ngải diệp ôn kinh, chỉ huyết, an thai.",
+        "cach_dung": "Chia nhiều lần uống trong ngày.",
+        "ghi_chu": "Tang ký sinh $60g$, giao (hoặc cao ban long) nướng thơm $20g$, ngải diệp $20g$, nước 3 bát ($600ml$), sắc còn một bát ($200ml$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_DAU_BUNG_TGN",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Động thai đau bụng.",
+        "cach_dung": "Chia nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_TANG_THAM_T",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tang thầm có tác dụng thanh nhiệt, giải độc, giúp điều trị tràng nhạc.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần $5g$.",
+        "ghi_chu": "Tang thầm (loại quả đã chín đen) 2 bát đầy. Cho vào vải vắt lấy nước, cô thành cao mềm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_TANG_THAM_T",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tràng nhạc.",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần $5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_TOC_KHONG_MOCTOC_BAC_QUA_DAU_Q",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Quả dâu có tác dụng bổ huyết, dưỡng âm, giúp cải thiện tình trạng tóc không mọc và tóc bạc.",
+        "cach_dung": "Lọc lấy nước xát vào đầu.",
+        "ghi_chu": "Quả dâu ngâm nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_TOC_KHONG_MOCTOC_BAC_QUA_DAU_Q",
+      "to": "B_TOC_KHONG_MOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tóc không mọc-tóc bạc.",
+        "cach_dung": "Lọc lấy nước xát vào đầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_BI_TIEU_TIEN_TANG_PHIEU_T",
+      "to": "VI_THUOC_HE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tang phiêu tiêu có tác dụng bổ thận, cố tinh, giúp điều trị động thai và bí tiểu tiện.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $5g$.",
+        "ghi_chu": "Tang phiêu tiêu, nướng vàng tán nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_BI_TIEU_TIEN_TANG_PHIEU_T",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Động thai-bí tiểu tiện.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    },
+    {
+      "from": "BT_DONG_THAI_BI_TIEU_TIEN_TANG_PHIEU_T",
+      "to": "S_BI_TIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Động thai-bí tiểu tiện.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T739"
+      }
+    }
+  ],
+  "metadata": {}
+}

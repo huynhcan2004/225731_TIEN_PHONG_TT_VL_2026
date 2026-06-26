@@ -1,0 +1,138 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CANH_KIEN_TRANG",
+    "ten_raw": "Cánh kiến trắng",
+    "ten_khoa_hoc": "Phellodendron amurense Rupr",
+    "ho_thuc_vat": "Cam Rutaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "che_bien_tho": "dùng tươi hay phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T744",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "744"
+      },
+      "dac_tinh_yhct": {
+        "quy_kinh": [
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "về dùng tươi hay phơi khô mà dùng. Không phải chế biến gì khác. Vỏ núc nác màu nâu nhạt, trên có rất nhiều sẹo của cuống lá cũ, và rất nhiều những đám nhỏ nổi lên, mặt trong khi còn tươi có màu vàng nhạt, không mùi, vị đắng, hơi hắc. Hạt núc nác hình bầu dục, rất mỏng, dẹt ba phía vỏ ngoài phát triển thành màng rất mỏng, trong trông như cánh bướm, màu trắng nâu nhạt, có những đường gần từ hạt toả ra. Chiều dài cả hạt và cánh từ $4$-$7cm$, rộng $2,5$-$4cm$. Nếu chỉ kể hạt không thì chỉ dài $1,5$-$2,5cm$, rộng $1$-$2cm$. Khi bóc màng ngoài thấy rễ phôi và lá mầm rất rõ, mỏng như cánh bướm, dòn. Không mùi, vị hơi đắng. Những hạt khô, màu trắng, nguyên là tốt.",
+        "thanh_phan_hoa_hoc": [
+          "Vỏ núc nác chứa một ít ancaloit, tanin và một số dẫn xuất flavonoit ở dạng tự do hay heterozit. Những chất flavonoit thường thấy là: $Oroxylin A$: Công thức thô C,H,O, cấu trúc là 5-7 dihydroxy 6-métoxy flavon, trọng lượng phân tử 284. Tinh thể màu vàng chanh, độ chảy $230$-$232°C$, tan trong cồn, axeton, benzen nóng, trong kiềm, ête, axit axetic đặc. $Baicalein$ hay $noroxylin$: 5-6-7 trihydroxyflavon, công thức thô C,H,O,, trọng lượng phân tử 270,20, tinh thể màu vàng, hình lăng trụ, độ chảy $264$-$265°C$, tan trong etanol, metanol, ête, axeton, etylaxetat, axit axètic đặc, trong kiềm loãng, và cho màu vàng thẫm, trong axit sunfuric đặc cho màu vàng có huỳnh quan lục. ít tan trong clorofoc, nitrobenzen. $Crysin$: 5-7 dihydroxyflavon công thức thô C,H,O., trọng lượng phân tử 254,23 có tinh thể màu vàng nhạt, chứa trong vỏ rễ, độ chảy $276°C$. Không tan trong nước, tan trong dung dịch kiềm. ít tan trong cồn clorofoc, ête. Có thể thăng hoa được. $Tetuin$: là baicalein kết hợp với glucoza ở vì trí 6. Có tinh thể màu vàng nhạt, độ chảy $112$-$114°C$. Các dẫn xuất flavonoit có trong vỏ núc nác từ $3$-$4%$ (tỉnh trên vỏ khô). Hột núc nác. Theo Mehta C. R (Chemical in-vestigation of the seed oil of. Oroxylum indicum Vent, Proceed. Indian Acad. Sei, Sect A9 (5) 1939: 390-395), trong hạt núc nác có một chất kiềm màu vàng, một chất dầu béo chứa $80,4%$ axit oleic, các axit panmitic, stearic và có thể cả axitlignoxeric."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "bình can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_OROXYLIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Oroxylin A$: Công thức thô C,H,O, cấu trúc là 5-7 dihydroxy 6-métoxy flavon, trọng lượng phân tử 284."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_BAICALEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Baicalein$ hay $noroxylin$: 5-6-7 trihydroxyflavon, công thức thô C,H,O,, trọng lượng phân tử 270,20, tinh thể màu vàng, hình lăng trụ, độ chảy $264$-$265°C$, tan trong etanol, metanol, ête, axeton, etylaxetat, axit axètic đặc, trong kiềm loãng, và cho màu vàng thẫm, trong axit sunfuric đặc cho màu vàng có huỳnh quan lục."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_CRYSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Crysin$: 5-7 dihydroxyflavon công thức thô C,H,O., trọng lượng phân tử 254,23 có tinh thể màu vàng nhạt, chứa trong vỏ rễ, độ chảy $276°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_TETUIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tetuin$: là baicalein kết hợp với glucoza ở vì trí 6. Có tinh thể màu vàng nhạt, độ chảy $112$-$114°C$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_AXIT_OLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hạt núc nác có một chất kiềm màu vàng, một chất dầu béo chứa $80,4%$ axit oleic, các axit panmitic, stearic và có thể cả axitlignoxeric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_AXIT_PANMITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hạt núc nác có một chất kiềm màu vàng, một chất dầu béo chứa $80,4%$ axit oleic, các axit panmitic, stearic và có thể cả axitlignoxeric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_AXIT_STEARIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hạt núc nác có một chất kiềm màu vàng, một chất dầu béo chứa $80,4%$ axit oleic, các axit panmitic, stearic và có thể cả axitlignoxeric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_TRANG",
+      "to": "HC_AXITLIGNOXERIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hạt núc nác có một chất kiềm màu vàng, một chất dầu béo chứa $80,4%$ axit oleic, các axit panmitic, stearic và có thể cả axitlignoxeric."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    }
+  ]
+}

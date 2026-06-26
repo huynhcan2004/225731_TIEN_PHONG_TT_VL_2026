@@ -1,0 +1,119 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_A_GIAOMINH_GIAO",
+    "ten_raw": "A giao-Minh giao",
+    "ten_khoa_hoc": "",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T960",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "960"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Cao ban long tuy chưa được nghiên cứu kỹ, nhưng sơ bộ ta đã biết rằng trong cao ban long mặc dù chế từ sừng hươu nai nhưng không có muối canxi như một số người thường nói. Thành phần chủ yếu của cao ban long là chất lượng keratin cùng loại với chất gelatin. Chúng ta cũng biết rằng thành phần hóa học của kera- tin thay đổi tùy theo nguồn gốc, nhưng chứa rất nhiều sunfua dưới hình thức axit amin, xystein và axit có sunfua không có amin, ngoài ra còn chứa axit amin tyrosin. Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$ acginin $1,2\\%$ alinin $0,2\\%$ lysin và $0,4\\%$ glycocol. Những axit amin như axit glutamic, lysin, xystein, leuxin và tyrosin đóng vai trò quan trọng trong việc duy trì và phát triển cơ thể. Ngoài ra chúng ta biết rằng gelatin có tác dụng cầm máu. Trước khi tiêm thời gian máu đông là 7 phút, sau khi tiêm gelatin, thời gian máu đông giảm xuống 3 phút. Marfan đã chứng minh gelatin uống vẫn có tác dụng cầm máu vì tính chất của gelatin không bị dịch vị và dịch tràng phá hủy. Chất keratin cũng là một chất khó bị phân giải, hay sự phân giải rất chậm."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_XYSTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_TYROSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_LEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_AXIT_GLUTAMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$ acginin $1,2\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_ALININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$ acginin $1,2\\%$ alinin $0,2\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_LYSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$ acginin $1,2\\%$ alinin $0,2\\%$ lysin và $0,4\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    },
+    {
+      "from": "VI_THUOC_A_GIAOMINH_GIAO",
+      "to": "HC_GLYCOCOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nghiên cứu một loại keratin-Thomas đã thấy có $8,8\\%$ xystein $6,5\\%$ tyrosin $18,2\\%$ leuxin $15\\%$ axit glutamic $4,7\\%$ acginin $1,2\\%$ alinin $0,2\\%$ lysin và $0,4\\%$ glycocol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T960"
+      }
+    }
+  ]
+}

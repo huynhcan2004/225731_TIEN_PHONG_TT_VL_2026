@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_DON_TRANG_HE_MO",
+  "source": {
+    "source_id": "CT_VT_VN_T220",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "220"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "CN_QUY_KINH_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "CN_QUY_KINH_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc đơn trăng 1/10 có tác dụng ức chế sự phát triển của các vi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "DL_DIET_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc đơn trăng 1/5 có tác dụng diệt trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_TRANG_HE_MO",
+      "to": "DL_DIET_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc đơn trăng 1/2 có tác dụng diệt trùng rất mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T220"
+      }
+    }
+  ],
+  "metadata": {}
+}

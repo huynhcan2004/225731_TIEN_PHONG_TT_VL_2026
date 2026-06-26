@@ -1,0 +1,157 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_CAM",
+    "ten_raw": "Hoàng cầm",
+    "ten_khoa_hoc": "Scutellaria baicalensis Georg.",
+    "ho_thuc_vat": "Hoa môi Lamiaceae (Labiatae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "phan_bo": "Trung Quốc (Hắc Long Giang, Liêu Ninh, Hà Bắc, Hà Nam, Vân Nam, Nội Mông). Mọc hoang cả ở Liên Xô cũ",
+      "thu_hai": "Mùa xuân và thu thu hoạch lấy rễ",
+      "che_bien_tho": "Đào về cắt bỏ rễ con, rửa sạch đất cát, phơi hơi khô, cạo bỏ vỏ mỏng, phơi hoặc sấy khô"
+    },
+    "display_name": "Hoàng cầm"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T326",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "326"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_CAN",
+          "K_DAN",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "tả phế hỏa, thanh thấp nhiệt"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoàng cầm là một loại cỏ sống dai, cao $20-50cm$, có rễ phình to thành hình chùy, mặt ngoài màu vàng sẫm bẻ ra có màu vàng. Thân mọc đứng, vuông, phân nhánh, nhẵn hoặc có lông ngắn. Lá mọc đối, cuống rất ngắn, hoặc không cuống; phiến lá hình mác hẹp, hơi đầu tù, mép nguyên, dài $1,5-4cm$, rộng $3-8mm$ hoặc $1cm$, mặt trên màu xanh sẫm, mặt dưới xanh nhạt. Hoa mọc thành bông ở đầu cành, màu lam tím. Cánh hoa gồm 2 môi, 4 nhị (2 nhị lớn dài hơn tràng) màu vàng, bầu có 4 ngăn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tả phế hỏa, thanh thấp nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "HC_SCUTELARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng cầm có tinh dầu, các dẫn xuất flavon: $Scutelarin$ (hay woogonin) $C_{21}H_{18}O_{12}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOANG_CAM",
+      "to": "HC_BAICALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng cầm có tinh dầu, các dẫn xuất flavon: $Scutelarin$ (hay woogonin) $C_{21}H_{18}O_{12}$ và $baicalin$ $C_{21}H_{20}O_{11}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T326"
+      }
+    }
+  ]
+}

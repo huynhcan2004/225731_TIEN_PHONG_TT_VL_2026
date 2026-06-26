@@ -1,0 +1,111 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CHEO",
+    "ten_raw": "Cây chẹo",
+    "display_name": "Vị thuốc Chẹo",
+    "ten_khoa_hoc": "$Engelhardtia chrysolepis Hance; Engelhardtia wallichiana Lindi$",
+    "ho_thuc_vat": "$Họ Hồ đào Juglandaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây chẹo mọc hoang khắp các vùng rừng núi nước ta cả Trung Bộ và Bắc Bộ. Còn mọc ở Malaixia, Lào, miền tây nam Trung Quốc."
+    },
+    "canonical_name": "Vị thuốc Chẹo"
+  },
+  "nodes": [
+    {
+      "id": "BT_DUOC_CA_CHEO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Dược ca chẹo",
+        "aliases": [
+          "dược ca chẹo",
+          "duoc ca cheo",
+          "duoccacheo"
+        ],
+        "search_vector_hint": "Dược ca chẹo thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "VT_CHEO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Chẹo",
+        "aliases": [
+          "chẹo",
+          "cay cheo",
+          "cây chẹo",
+          "caycheo",
+          "cheo"
+        ],
+        "search_vector_hint": "Chẹo thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "không rõ",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "Không rõ",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "phan_bo": "Cây chẹo mọc hoang khắp các vùng rừng núi nước ta cả Trung Bộ và Bắc Bộ. Còn mọc ở Malaixia, Lào, miền tây nam Trung Quốc.",
+        "ten_khoa_hoc": "$Engelhardtia chrysolepis Hance; Engelhardtia wallichiana Lindi$",
+        "ho_thuc_vat": "$Họ Hồ đào Juglandaceae$",
+        "hinh_thai_chi_tiet": "Chẹo là một cây nhỡ cao chừng $8$m cành và cuống lá thường mền yếu. Lá kép lông chim nhẵn thường gồm $2$ đến $5$ đôi lá chét hình trứng dài, dai, có cuống, lá chét phía trên dài hơn, phiến lá chét dài $5$-$15$mm. Hoa đực mọc thành hình đuôi sóc, mọc từ cành của năm trước, hoa không cuống hay gần như không cuống, cụm hoa cái cũng mọc thành hình đuôi sóc ở phía trên hoa đực. Hoa có cuống. Quả mọc thành bông dài chừng $25$cm. Hạt được bao bọc bởi lá bắc có $3$ thùy ( Hình $245$ ).",
+        "thanh_phan_hoa_hoc": "['Chưa thấy có tài liệu nghiên cứu. Chỉ mới biết lá và vỏ có chất độc đối với cá.']",
+        "ghi_chu_bo_sung": "Cây chẹo mọc hoang khắp các vùng rừng núi nước ta cả Trung Bộ và Bắc Bộ. Còn mọc ở Malaixia, Lào, miền tây nam Trung Quốc."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T331",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "331"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chẹo là một cây nhỡ cao chừng $8$m cành và cuống lá thường mền yếu. Lá kép lông chim nhẵn thường gồm $2$ đến $5$ đôi lá chét hình trứng dài, dai, có cuống, lá chét phía trên dài hơn, phiến lá chét dài $5$-$15$mm. Hoa đực mọc thành hình đuôi sóc, mọc từ cành của năm trước, hoa không cuống hay gần như không cuống, cụm hoa cái cũng mọc thành hình đuôi sóc ở phía trên hoa đực. Hoa có cuống. Quả mọc thành bông dài chừng $25$cm. Hạt được bao bọc bởi lá bắc có $3$ thùy ( Hình $245$ ).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy có tài liệu nghiên cứu. Chỉ mới biết lá và vỏ có chất độc đối với cá."
+        ],
+        "ghi_chu_bo_sung": "Cây chẹo mọc hoang khắp các vùng rừng núi nước ta cả Trung Bộ và Bắc Bộ. Còn mọc ở Malaixia, Lào, miền tây nam Trung Quốc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_DUOC_CA_CHEO",
+      "to": "VT_CHEO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Vỏ và lá cây chẹo giã nát",
+        "vai_tro": "Chưa rõ",
+        "cach_dung": "Cho vào nước suối đã ngăn | Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Duốc cá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331",
+        "all_sources": [
+          "CT_VT_VN_T331"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 15.0,
+      "reliability_c_score": 0.85,
+      "total_confidence_sum": 1.7
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

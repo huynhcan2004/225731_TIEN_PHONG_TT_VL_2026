@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "id": "VT_RUM_NAO",
+    "canonical_name": "Rùm nao",
+    "ten_khoa_hoc": "Mallotus philippinensis (Lam.) Muell. Arg.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae",
+    "properties": {
+      "bo_phan_dung": "Hạch, lông và vỏ cây",
+      "thu_hai": "tháng 4-1962",
+      "lieu_dung_chung": "Trẻ em ngày uống $2g$ bột chia làm $2$ lần uống, mỗi lần cách nhau nửa giờ. Người lớn: Ngày uống $6-12g$ cũng chia làm hai lần uống, mỗi lần cách nhau nửa giờ.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_RUM_NAO",
+      "to": "HC_ROTLERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính trong hạch và lỗng rùm nao là một chất màu kết tinh hình phiến mỏng. Anderson gọi chất này là $rotlerin$."
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "HC_MALOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Perkin gọi là $malotoxin$."
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "HC_KAMALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Merck gọi là $kamalin$."
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "B_DAY_DA_BUNG_PHU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc uống"
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "S_SAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Trẻ em ngày uống $2g$ bột chia làm $2$ lần uống, mỗi lần cách nhau nửa giờ. Người lớn: Ngày uống $6-12g$ cũng chia làm hai lần uống, mỗi lần cách nhau nửa giờ.",
+        "cach_dung": "uống"
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "DL_CHUA_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "dùng hạch và lông của cây này với tên Kamala làm thuốc chữa sán. Ưu điểm của nó là nó có tác dụng tẩy luôn, dễ uống, không gây nôn mửa."
+      }
+    },
+    {
+      "from": "VT_RUM_NAO",
+      "to": "DL_TAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng tẩy luôn"
+      }
+    }
+  ]
+}

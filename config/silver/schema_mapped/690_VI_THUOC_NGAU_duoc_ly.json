@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_NGAU",
+  "source": {
+    "source_id": "CT_VT_VN_T690",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "690"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "CN_LUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lương huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGAU",
+      "to": "VI_LANH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính lạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T690"
+      }
+    }
+  ],
+  "metadata": {}
+}

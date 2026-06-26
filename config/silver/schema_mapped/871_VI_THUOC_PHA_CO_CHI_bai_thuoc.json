@@ -1,0 +1,143 @@
+{
+  "entity_hub": "VI_THUOC_PHA_CO_CHI",
+  "source": {
+    "source_id": "CT_VT_VN_T871",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "871"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_XUONG_PHA_CO_CHI_QX",
+      "to": "VI_THUOC_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phá cố chỉ là vị thuốc chính.",
+        "cach_dung": "Ngày uống $5-10g$ cao.",
+        "ghi_chu": "Quả xộp thái nhỏ nấu với nước, lọc bỏ bã, cô đặc thành cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_PHA_CO_CHI_QX",
+      "to": "B_DAU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa các chứng đau xương, đau người của người già",
+        "cach_dung": "Ngày uống $5-10g$ cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_PHA_CO_CHI_QX",
+      "to": "B_DAU_NGUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa các chứng đau xương, đau người của người già",
+        "cach_dung": "Ngày uống $5-10g$ cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DAU_XUONG_PHA_CO_CHI_QX",
+      "to": "VI_THUOC_PHA_CO_CHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "còn làm thuốc bổ, thuốc điều kinh, giúp sự tiêu hóa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "VI_THUOC_PHA_CO_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phá cố chỉ (cành lá) kết hợp đậu đen giúp bổ thận, cố tinh.",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này.",
+        "ghi_chu": "Cành lá phơi khô $100g$, đậu đen $50g$, $250ml$ rượu ngâm vào trong 10 ngày lọc lấy rượu mà uống. Khi uống có thể pha thêm đường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "VT_DAU_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phá cố chỉ (cành lá) kết hợp đậu đen giúp bổ thận, cố tinh.",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này.",
+        "ghi_chu": "Cành lá phơi khô $100g$, đậu đen $50g$, $250ml$ rượu ngâm vào trong 10 ngày lọc lấy rượu mà uống. Khi uống có thể pha thêm đường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau lưng, đau người, di tinh, liệt dương",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "B_LIET_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau lưng, đau người, di tinh, liệt dương",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "B_DAU_LUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau lưng, đau người, di tinh, liệt dương",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    },
+    {
+      "from": "BT_DI_TINH_PHA_CO_CHI_DD",
+      "to": "B_DAU_NGUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau lưng, đau người, di tinh, liệt dương",
+        "cach_dung": "Ngày uống $10-30ml$ rượu này."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T871"
+      }
+    }
+  ],
+  "metadata": {}
+}

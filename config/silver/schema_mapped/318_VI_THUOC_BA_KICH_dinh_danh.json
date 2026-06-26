@@ -1,0 +1,115 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BA_KICH",
+    "ten_raw": "Cây ba kích",
+    "ten_khoa_hoc": "Morinda ofcinalis How.; Morinda offcinalis",
+    "ho_thuc_vat": "họ Cà phê Rubiaceae",
+    "variants": [
+      "ba kích thiên",
+      "cây Ruột gà",
+      "chẩu phóng xì (Hải Ninh)",
+      "thao tẩy cáy",
+      "ba kích nhục",
+      "liên châu ba kích"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T318",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "318"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hơi ôn",
+        "quy_kinh": [
+          "K_THAN"
+        ],
+        "cong_nang": "ôn thận trợ dương, mạnh gân cốt, khử phong thấp"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây loại thảo, sống lâu năm, thân leo, lá mọc đối, cứng nhọn, dài $6$-$14cm$, rộng $2,5$-$6cm$, hình mác, non có màu xanh, về già có màu trắng mốc. Hoa lúc đầu trắng, sau vàng, $2$-$10$ cánh hoa, $4$ nhị. Quả hình cầu, khi chín màu đỏ.",
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ ba kích chủ yếu có chất anthraglucozit, rất ít tinh dầu, chất đường, nhựa và axít hữu cơ. Rễ tươi có vitamin C (Đỗ Tất Lợi và Võ Hữu Đức, 1961). Theo các tài liệu cũ, chỉ có vitamin C, nhưng ba kích khô không có vitamin C."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào thận kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "HC_ANTHRAGLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ ba kích chủ yếu có chất anthraglucozit, rất ít tinh dầu, chất đường, nhựa và axít hữu cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_KICH",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ tươi có vitamin C (Đỗ Tất Lợi và Võ Hữu Đức, 1961)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T318"
+      }
+    }
+  ]
+}

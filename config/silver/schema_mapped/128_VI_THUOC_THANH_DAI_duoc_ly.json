@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_THANH_DAI",
+  "source": {
+    "source_id": "CT_VT_VN_T128",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "128"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_DAI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh đại hay chàm [...] làm thuốc chữa sốt giải độc, viêm hạch hạnh nhân, cam tẩu mã, viêm lợi chảy máu v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_DAI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh đại hay chàm [...] làm thuốc chữa sốt giải độc, viêm hạch hạnh nhân, cam tẩu mã, viêm lợi chảy máu v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T128"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,805 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XUONG_HO",
+    "ten_raw": "Xương hổ",
+    "ten_khoa_hoc": "Panthera tigris L.",
+    "ho_thuc_vat": "Mèo Felidae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Toàn bộ xương hổ",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Lọc bỏ hết gân thịt hoặc dùng xương đó nấu thành cao hổ cốt",
+      "lieu_dung_chung": "Liều dùng trung bình của xương là $10-30$g dưới dạng thuốc sắc, thuốc bột hay ngâm rượu. Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Xương hổ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_XUONG_HO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Xuong Ho"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "HC_CANXI_PHOTPHAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi Photphat"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "HC_NITOT_TOAN_PHAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nitot Toan Phan"
+      }
+    },
+    {
+      "id": "HC_AXIT_AMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Amin"
+      }
+    },
+    {
+      "id": "HC_CLO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Clo"
+      }
+    },
+    {
+      "id": "HC_ASEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Asen"
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi"
+      }
+    },
+    {
+      "id": "HC_PHOTPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Photpho"
+      }
+    },
+    {
+      "id": "BT_YEU_XUONG_VIEM_XUONG_XUONG_HO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Yeu Xuong Viem Xuong Xuong Ho"
+      }
+    },
+    {
+      "id": "VT_RUOU_TOT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Ruou Tot"
+      }
+    },
+    {
+      "id": "B_YEU_XUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Yeu Xuong"
+      }
+    },
+    {
+      "id": "B_VIEM_XUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Xuong"
+      }
+    },
+    {
+      "id": "BT_YEU_XUONG_VIEM_XUONG_CAO_HO_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Yeu Xuong Viem Xuong Cao Ho Cot"
+      }
+    },
+    {
+      "id": "VT_RUOU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Ruou"
+      }
+    },
+    {
+      "id": "BT_DAU_NHUC_CAO_HO_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Nhuc Cao Ho Cot"
+      }
+    },
+    {
+      "id": "VT_THIEN_NIEN_KIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Thien Nien Kien"
+      }
+    },
+    {
+      "id": "VT_COT_TOAI_BO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cot Toai Bo"
+      }
+    },
+    {
+      "id": "VT_DO_TRONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Do Trong"
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Nhuc"
+      }
+    },
+    {
+      "id": "BT_BOI_DUONG_CAO_HO_COT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Boi Duong Cao Ho Cot"
+      }
+    },
+    {
+      "id": "VT_GA_GIO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Ga Gio"
+      }
+    },
+    {
+      "id": "VT_RUOU_NHO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Ruou Nho"
+      }
+    },
+    {
+      "id": "S_DAU_XUONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Xuong"
+      }
+    },
+    {
+      "id": "S_TE_THAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Te Thap"
+      }
+    },
+    {
+      "id": "S_DI_LAI_KHO_KHAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Di Lai Kho Khan"
+      }
+    },
+    {
+      "id": "S_CAM_GIO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Cam Gio"
+      }
+    },
+    {
+      "id": "B_DIEN_CUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dien Cuong"
+      }
+    },
+    {
+      "id": "S_GAN_COT_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Gan Cot Dau Nhuc"
+      }
+    },
+    {
+      "id": "S_CHAN_TAY_CO_QUAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chan Tay Co Quap"
+      }
+    },
+    {
+      "id": "B_MOI_OM_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Moi Om Day"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong"
+      }
+    },
+    {
+      "id": "CN_MANH_GAN_COT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Manh Gan Cot"
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tran Kinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T996",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "996"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Toàn bộ xương hổ đều tốt, nhưng xương 4 chân và xương đầu được coi quý hơn cả, đặc biệt xương cánh chân trước được coi là không thể thiếu được, một là vì tỷ lệ những xương đó chiếm phân chủ yếu, hai là vì xương cánh chân trước (bumerus) có một lỗ hổng đặc biệt gọi là mắt phượng có thể dùng để phân biệt thực giả. Ví dụ trong một bộ xương hổ nặng hơn $6kg$ thì: Xương đầu nặng $1kg$ chiếm $15\\%$ toàn bộ trọng lượng bộ xương. Xương 4 chân nặng $3,390kg$ chiếm $52\\%$. Xương sống (kể cả xương cổ) nặng $0.900kg$ chiếm $14\\%$. Xương sườn (13 đôi) nặng $0,355kg$ chiếm $5,5\\%$ (không có xương ức). Xương chậu nặng $0,355kg$ (cả 2 mảnh) chiếm $5,5\\%$. Xương bả vai nặng $0,260kg$ chiếm $4\\%$. Xương đuôi nặng $0,146kg$ (kể cả xương cùng) chiếm $2,2\\%$. 2 xương bánh chè nặng $0,039kg$ chiếm $0,45\\%$. Người ta dùng nguyên xương hổ đã lọc bỏ hết gân thịt hoặc dùng xương đó nấu thành cao hổ cốt mà dùng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong xương hổ có `$canxi photphat$` và `$protit$`. Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Xương hổ có tính hơi ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Xương hổ có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Xương hổ vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Xương hổ vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_CANXI_PHOTPHAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xương hổ có `$canxi photphat$` và `$protit$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xương hổ có `$canxi photphat$` và `$protit$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_NITOT_TOAN_PHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_CLO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_ASEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao hổ cốt nguyên chất có `$nitơ toàn phần$`, `$axit amin$`, `$clo tính bằng axit clohydric$`, `$asen$`, `$canxi$`, `$photpho tính bằng axit photphoric$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "BT_YEU_XUONG_VIEM_XUONG_XUONG_HO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$200$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XUONG_HO",
+      "to": "VT_RUOU_TOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$700$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XUONG_HO",
+      "to": "B_YEU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $4$ lần. Mỗi lần $10-15$ml rượu này, uống sau bữa cơm",
+        "cach_dung": "Ngâm trong vòng $10-15$ ngày lọc lấy rượu. Thêm vào bã $300$ml rượu nữa. Lại ngâm $10$ ngày nữa. Lọc, trộn đều hai mẻ rượu đó với nhau, thêm rượu nữa vào cho đủ $100$ml.",
+        "ghi_chu": "Thêm rượu nữa vào cho đủ $100$ml"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_XUONG_HO",
+      "to": "B_VIEM_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $4$ lần. Mỗi lần $10-15$ml rượu này, uống sau bữa cơm",
+        "cach_dung": "Ngâm trong vòng $10-15$ ngày lọc lấy rượu. Thêm vào bã $300$ml rượu nữa. Lại ngâm $10$ ngày nữa. Lọc, trộn đều hai mẻ rượu đó với nhau, thêm rượu nữa vào cho đủ $100$ml.",
+        "ghi_chu": "Thêm rượu nữa vào cho đủ $100$ml"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "BT_YEU_XUONG_VIEM_XUONG_CAO_HO_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$40-60$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CAO_HO_COT",
+      "to": "VT_RUOU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CAO_HO_COT",
+      "to": "B_YEU_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Trước khi ăn cơm hâm nóng mà uống mỗi ngày dùng $2$ lần, mỗi lần $10-15$ml",
+        "cach_dung": "Ngâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_YEU_XUONG_VIEM_XUONG_CAO_HO_COT",
+      "to": "B_VIEM_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Trước khi ăn cơm hâm nóng mà uống mỗi ngày dùng $2$ lần, mỗi lần $10-15$ml",
+        "cach_dung": "Ngâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "BT_DAU_NHUC_CAO_HO_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4-6$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_HO_COT",
+      "to": "VT_THIEN_NIEN_KIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_HO_COT",
+      "to": "VT_COT_TOAI_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_HO_COT",
+      "to": "VT_DO_TRONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_HO_COT",
+      "to": "VT_RUOU_TOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_CAO_HO_COT",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày $2$ lần, mỗi lần $15$ml trước bữa ăn",
+        "cach_dung": "Ngâm trong $10-15$ ngày. Lọc lấy rượu để uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "BT_BOI_DUONG_CAO_HO_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10-20$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_BOI_DUONG_CAO_HO_COT",
+      "to": "VT_GA_GIO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "BT_BOI_DUONG_CAO_HO_COT",
+      "to": "VT_RUOU_NHO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_DAU_XUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_DI_LAI_KHO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu. | Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_CAM_GIO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "B_DIEN_CUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nếu dùng cao mỗi ngày dùng $4-6$g hay hơn.",
+        "cach_dung": "Dùng phối hợp với nhiều vị thuốc khác. Dùng dưới dạng thuốc sắc, thuốc bột hay ngâm rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_GAN_COT_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "S_CHAN_TAY_CO_QUAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "BT_BOI_BO_CAO_HO_COT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Chưa rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "B_MOI_OM_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khu phong làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_HO",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T996"
+      }
+    }
+  ]
+}

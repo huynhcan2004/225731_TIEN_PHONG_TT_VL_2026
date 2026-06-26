@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RUOT_GA",
+    "ten_raw": "Ruột gà",
+    "ten_khoa_hoc": "Hibiscus esculentus L.; Albelmoschus esculentus Wight et Arm.",
+    "ho_thuc_vat": "Bông Malvaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả non, hạt, rễ và lá."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T776",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "776"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thuộc thảo, sống hằng năm, thân có lỏng dài và cứng. Lá hình tim, răng cưa to thô nhưng không vượt quá nửa giữa của phiến lá. Lông trên lá dài và nằm rạp, 5 gân chính nổi rõ, cuống lá dài $15$-$18cm$. Hoa màu vàng, ở giữa có màu đỏ tía, mọc ở kẽ lá, cuống hoa to. Tiểu đài $8$-$10$, tràng 5. Nhị nhiều đính nhau thành ống. Quả hình thoi, dài $10cm$ hay hơn, phía cuống cụt, hình 5 cạnh, với 10 rãnh dọc trên mặt quả. Hạt hình cầu màu xám nhạt, mặt nhẵn",
+        "thanh_phan_hoa_hoc": [
+          "Quả non chứa $4$ đến $16\\%$ chất hydrat cacbon gồm chủ yếu tinh bột và đường.",
+          "Hạt chứa $15$ đến $22\\%$ chất dầu béo lỏng, thành phần chủ yếu của dầu là panmitin và stearin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RUOT_GA",
+      "to": "HC_HYDRAT_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả non chứa $4$ đến $16\\%$ chất hydrat cacbon gồm chủ yếu tinh bột và đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T776"
+      }
+    },
+    {
+      "from": "VI_THUOC_RUOT_GA",
+      "to": "HC_PANMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt chứa $15$ đến $22\\%$ chất dầu béo lỏng, thành phần chủ yếu của dầu là panmitin và stearin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T776"
+      }
+    },
+    {
+      "from": "VI_THUOC_RUOT_GA",
+      "to": "HC_STEARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt chứa $15$ đến $22\\%$ chất dầu béo lỏng, thành phần chủ yếu của dầu là panmitin và stearin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T776"
+      }
+    }
+  ]
+}

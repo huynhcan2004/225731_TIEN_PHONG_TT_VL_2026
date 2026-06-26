@@ -1,0 +1,173 @@
+{
+  "entity_hub": "VI_THUOC_COM_CHAY",
+  "source": {
+    "source_id": "CT_VT_VN_T272",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "272"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOC_MAU_COM_CHAY_C",
+      "to": "VI_THUOC_COM_CHAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Quả làm thuốc lọc máu, thông tiểu và nhuận tràng",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOC_MAU_COM_CHAY_C",
+      "to": "B_NHUAN_TRANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả làm thuốc lọc máu, thông tiểu và nhuận tràng",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOC_MAU_COM_CHAY_C",
+      "to": "B_THONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả làm thuốc lọc máu, thông tiểu và nhuận tràng",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOC_MAU_COM_CHAY_C",
+      "to": "B_LOC_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả làm thuốc lọc máu, thông tiểu và nhuận tràng",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_COM_CHAY_C",
+      "to": "VI_THUOC_COM_CHAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Hoa được dùng làm thuốc lợi tiểu, làm ra mồ hôi",
+        "cach_dung": "Dạng thuốc sắc, thuốc pha hay thuốc xông",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_COM_CHAY_C",
+      "to": "B_LOI_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa được dùng làm thuốc lợi tiểu, làm ra mồ hôi",
+        "cach_dung": "Dạng thuốc sắc, thuốc pha hay thuốc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_COM_CHAY_C",
+      "to": "S_RA_MO_HOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa được dùng làm thuốc lợi tiểu, làm ra mồ hôi",
+        "cach_dung": "Dạng thuốc sắc, thuốc pha hay thuốc xông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LY_COM_CHAY_C",
+      "to": "VI_THUOC_COM_CHAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Quả Cơm cháy ngâm rượu",
+        "cach_dung": "Uống làm thuốc nhuận, tẩy độc cơ thể và thấp khớp",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_LY_COM_CHAY_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả Cơm cháy ngâm rượu",
+        "cach_dung": "Uống làm thuốc nhuận, tẩy độc cơ thể và thấp khớp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_NHUAN_TRANG_COM_CHAY_C",
+      "to": "VI_THUOC_COM_CHAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "mo_ta_chi_tiet": "Vỏ làm thuốc nhuận và thông tiểu",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_NHUAN_TRANG_COM_CHAY_C",
+      "to": "B_NHUAN_TRANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ làm thuốc nhuận và thông tiểu",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    },
+    {
+      "from": "BT_NHUAN_TRANG_COM_CHAY_C",
+      "to": "B_THONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ làm thuốc nhuận và thông tiểu",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T272"
+      }
+    }
+  ],
+  "metadata": {}
+}

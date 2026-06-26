@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAO_RUNG",
+    "ten_raw": "Táo rừng",
+    "ten_khoa_hoc": "Rhamnus crenatus Sieb và Zucc.; Rhamnus crenatus",
+    "ho_thuc_vat": "Táo ta Rhamnaceae",
+    "variants": [
+      "Táo ta"
+    ],
+    "properties": {
+      "phan_bo": "Cây mọc hoang dại ở những vùng đồi núi nơi dãi nắng hay ven rừng.",
+      "thu_hai": "Người ta dùng lá và rễ.",
+      "che_bien_tho": "Rễ đào về rửa sạch đất, bóc lấy vỏ, thái nhỏ phơi hay sấy khô. Lá thường dùng tươi."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T164",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "164"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao 1 đến $8m$. Cành mềm nhẵn. Lá mọc so le, hình trứng, đáy lá thuôn, đầu lá hơi nhọn, gân lá nổi rõ ở mặt dưới, mép lá hơi có răng cưa, trông giống lá táo ăn. Hoa nhỏ, lưỡng tính, màu trắng vàng, mọc thành chùm tán ở kẽ lá. Quả như quả táo ta nhưng nhỏ hơn và dẹt hơn. Mùa hoa quả: tháng 5-7 ( Hình 107 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAO_RUNG",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ và lá có những chất cho phản ứng dương tính với những thuốc thử ancaloit, flavonozit và saponin, (Vũ Ngọc Lộ, Lê Đức Trường 1970)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_RUNG",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ và lá có những chất cho phản ứng dương tính với những thuốc thử ancaloit, flavonozit và saponin, (Vũ Ngọc Lộ, Lê Đức Trường 1970)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAO_RUNG",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ và lá có những chất cho phản ứng dương tính với những thuốc thử ancaloit, flavonozit và saponin, (Vũ Ngọc Lộ, Lê Đức Trường 1970)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    }
+  ]
+}

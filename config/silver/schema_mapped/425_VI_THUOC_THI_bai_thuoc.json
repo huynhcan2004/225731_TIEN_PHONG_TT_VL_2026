@@ -1,0 +1,146 @@
+{
+  "entity_hub": "VI_THUOC_THI",
+  "source": {
+    "source_id": "CT_VT_VN_T425",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "425"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KHONG_TRUNG_TIEN_THI_L",
+      "to": "VI_THUOC_THI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá thị có tác dụng thông tiện.",
+        "cach_dung": "Sắc với nước và lấy đúng $100ml$. Mỗi ngày cho uống $10$-$20$-$30ml$, đồng thời lấy bông tẩm nước sắc này đắp vào rốn.",
+        "ghi_chu": "Phơi khô $100g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_KHONG_TRUNG_TIEN_THI_L",
+      "to": "B_KHONG_TRUNG_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh không trung tiện được sau khi mổ.",
+        "cach_dung": "Sắc uống và đắp vào rốn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_GAY_TRUNG_TIEN_THI_L",
+      "to": "VI_THUOC_THI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá thị có tác dụng thông tiện.",
+        "cach_dung": "Cho hút.",
+        "ghi_chu": "Phơi khô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_GAY_TRUNG_TIEN_THI_L",
+      "to": "S_TRUNG_TIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Gây đánh trung tiện.",
+        "cach_dung": "Cho hút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_THI_L",
+      "to": "VI_THUOC_THI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá thị có tác dụng tiêu viêm, giảm sưng.",
+        "cach_dung": "Giã đắp vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_THI_L",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt.",
+        "cach_dung": "Giã đắp vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_GIUN_KIM_THI_T",
+      "to": "VI_THUOC_THI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thịt quả thị có tác dụng tẩy giun.",
+        "cach_dung": "Ăn nhiều vào lúc đói."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_GIUN_KIM_THI_T",
+      "to": "B_GIUN_KIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun kim.",
+        "cach_dung": "Ăn nhiều vào lúc đói."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_PHONG_DOI_GIOI_LEO_THI_V",
+      "to": "VI_THUOC_THI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ quả thị có tác dụng giảm đau, tiêu viêm.",
+        "cach_dung": "Bôi lên.",
+        "ghi_chu": "Vỏ quả thị phơi khô đốt thành than"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "BT_PHONG_DOI_GIOI_LEO_THI_V",
+      "to": "B_ZONA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Các nơi phồng do con giời leo gây ra.",
+        "cach_dung": "Bôi lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    }
+  ],
+  "metadata": {}
+}

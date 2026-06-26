@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TICH_DUONG",
+    "ten_raw": "Tích dương",
+    "ten_khoa_hoc": "Cynomorium cocineum L.",
+    "ho_thuc_vat": "Tích dương Cynomoriaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Đây là một vị thuốc ít dùng nhưng lại được sử dụng chữa bệnh yếu sinh lý, sinh dục và còn hoàn toàn phải nhập. Qua sự phân bố cây này ở các tỉnh Trung Quốc (Tân Cương, Thanh Hải, Nội Mông Cổ, Cam Túc...) chúng tôi cho rằng ít hy vọng tìm thấy có mọc ở Việt Nam.",
+      "thu_hai": "Tại những\nđịa phương có tích dương, người ta thu hoạch\nvào hai mùa thu, xuân thu được chất lượng thuốc\ntốt nhất.",
+      "che_bien_tho": "Có nơi thu hái về phơi hay sấy khô ngay,\ncó nơi thái mỏng rồi mới phơi hay sấy khô."
+    },
+    "display_name": "Tích dương"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T951",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "951"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hơi ôn",
+        "quy_kinh": [],
+        "cong_nang": "bổ thận, hoạt trường mạnh lưng gối",
+        "kieng_ky_dac_biet": "dùng trong trường hợp nam bị liệt dương, phụ nữ bị vô sinh, huyết khô, đại tiện táo bón, lưng gối yếu mỏi"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tích dương là một loại cây sống ký sinh, có thân mẫm, màu nâu đỏ, phần thân mọc ở dưới đất ngắn, thỏ, phần mọc phía trên mặt đất cao $20$-$35cm$, đường kính từ $3$-$6cm$ (Hình 707) thường thấy mọc ký sinh trên rễ của cây Nitraria schoberi L. thuộc họ Tật lê Zygophyllaceae."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TICH_DUONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T951"
+      }
+    },
+    {
+      "from": "VI_THUOC_TICH_DUONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T951"
+      }
+    },
+    {
+      "from": "VI_THUOC_TICH_DUONG",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng bổ thận, hoạt trường mạnh lưng gối, dùng trong trường hợp nam bị liệt dương, phụ nữ bị vô sinh, huyết khô, đại tiện táo bón, lưng gối yếu mỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T951"
+      }
+    }
+  ]
+}

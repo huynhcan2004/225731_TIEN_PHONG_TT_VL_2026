@@ -1,0 +1,200 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI_HOANG",
+    "ten_raw": "Đại hoàng",
+    "ten_khoa_hoc": "Rheum sp.; Rheum palmatum L.; Rheum tanguticum Maxim. ex Regel (Rheum palmatum L. var. tanguticum Maxim.); Rheum officinale Baill.",
+    "ho_thuc_vat": "Rau răm Polygonaceae",
+    "variants": [
+      "xuyên đại hoàng",
+      "tướng quân"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T470",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "470"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_CAN",
+          "K_TAM_BAO",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây được dụng đại hoàng (Rheum officinale Baill.) cũng là một cây sống lâu năm, nhưng thấp hơn, chỉ cao chừng $1,50m$. Lá mọc so le có cuống dài; phiến lá hình trứng phía cuống hình tim, đường kính $40-70cm$, phiến không chia thuỳ mà chỉ cắt sâu chừng $1/4$. Hoa màu xanh nhạt hay vàng trắng nhạt",
+        "thanh_phan_hoa_hoc": [
+          "Trong đại hoàng có hai loại hoạt chất tác dụng trái ngược nhau.",
+          "1. Loại hoạt chất có tính chất thu liễm-là hợp chất có tanin (theotannoglucozit).",
+          "2. Loại hoạt chất có tác dụng tẩy: Rheoanthraglucozit.",
+          "Thành phần chủ yếu trong các rheotanoglucozit là glucogalin. Khi thuỷ phân, glucogalin sẽ cho axit galic và glucoza. Ngoài ra còn có axit galic, catechin và tetrarin. Khi tetrarin chịu tác dụng của axit loãng sẽ cho glucozareosmin (rheosmin), axit xinamic và axit galic.",
+          "Trong các reoantraglucozit, chúng ta thấy các chất chủ yếu sau đây: - Cryzophanol (chrysophanol) C₁HO₁ - Aloe-emodin C₁₁O '15' '10' - Rein (rhein) CHÃO 15 - Emođin hay rheum emođin CHOOS - Emodin-monometyl-ête CHOS 12 Tỷ lệ các antraglucozit toàn bộ trong đại hoàng vào chùng $2-4,5$%, trong đó một phần ở trạng thái tự do, một phần ở trạng thái kết hợp.",
+          "Theo Wasicky và Heinz thì trong đại hoàng tươi chủ yếu có antraglucozit ở dạng kết hợp mà không có ở dạng tự do.",
+          "Tuy nhiên, theo 1. Kroeber (1923), tác dụng tẩy của đại hoàng không phụ thuộc hoàn toàn vào tỷ lệ antraglucozit thấp mà vẫn tác dụng tẩy mạnh hoặc có loại đã lấy bớt antraglucozit đi rồi mà tác dụng vẫn còn."
+        ],
+        "cach_dung_bao_che": "Thường hái thân rễ của những cây đã sống trên 3 năm. Đào vào các tháng 9-10. Đào về rửa sạch đất cát, cắt bỏ phần trên mặt đất, rễ nhỏ, сао vỏ ngoài, củ to quá có thể bổ hai hay tư mà phơi cho dễ, dùng lạt xâu treo trong thềm nhà để cho khô dần hoặc có thể sấy nhẹ cho khô. Sau khi khô là dùng được (nếu dùng trong nước) hoặc cạo bỏ vỏ ngoài rồi đánh bóng nếu để xuất."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh tâm bào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_CHRYSOPHANOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại hoàng có các anthraglycosid: $chrysophanol$, $emodin$, $aloe-emodin$, $rhein$, $physcion$ và glucosid của chúng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_EMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại hoàng có các anthraglycosid: $chrysophanol$, $emodin$, $aloe-emodin$, $rhein$, $physcion$ và glucosid của chúng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_ALOE_EMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại hoàng có các anthraglycosid: $chrysophanol$, $emodin$, $aloe-emodin$, $rhein$, $physcion$ và glucosid của chúng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_RHEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại hoàng có các anthraglycosid: $chrysophanol$, $emodin$, $aloe-emodin$, $rhein$, $physcion$ và glucosid của chúng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_PHYSCION",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại hoàng có các anthraglycosid: $chrysophanol$, $emodin$, $aloe-emodin$, $rhein$, $physcion$ và glucosid của chúng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_HOANG",
+      "to": "HC_EMODIN_MONOMETYL_ETE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "- Emodin-monometyl-ête CHOS 12"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T470"
+      }
+    }
+  ]
+}

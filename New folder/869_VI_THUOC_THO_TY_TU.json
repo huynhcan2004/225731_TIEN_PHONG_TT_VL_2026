@@ -1,0 +1,827 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THO_TY_TU",
+    "ten_raw": "Thỏ ty tử",
+    "ten_khoa_hoc": "Cuscuta sinensis Lamk.; Cuscuta hygrophilae Pears., C. hyalina Wight.; Cassytha filiformis L.",
+    "ho_thuc_vat": "Bìm bìm (Convolvulaceae); Long não (Lauraceae)",
+    "variants": [
+      "dây tơ hồng",
+      "cây tơ hồng"
+    ],
+    "properties": {
+      "bo_phan_dung": "dây",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Không có thông tin",
+      "lieu_dung_chung": "Ngày uống $8-16g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Khắp nơi ở nước ta"
+    },
+    "display_name": "Thỏ ty tử"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_THO_TY_TU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Tho Ty Tu"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "HC_CUSCUTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Cuscutin"
+      }
+    },
+    {
+      "id": "HC_LAUROTETANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Laurotetanin"
+      }
+    },
+    {
+      "id": "B_LIET_DUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Liet Duong"
+      }
+    },
+    {
+      "id": "B_DI_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Tinh"
+      }
+    },
+    {
+      "id": "B_DAU_LUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Lung"
+      }
+    },
+    {
+      "id": "B_MOI_GOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Moi Goi"
+      }
+    },
+    {
+      "id": "B_TAI_U",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tai U"
+      }
+    },
+    {
+      "id": "B_MAT_MO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mat Mo"
+      }
+    },
+    {
+      "id": "B_SOT_KHAT_NUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Khat Nuoc"
+      }
+    },
+    {
+      "id": "BT_BO_CO_TINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bo Co Tinh"
+      }
+    },
+    {
+      "id": "VT_NGU_VI_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Ngu Vi Tu"
+      }
+    },
+    {
+      "id": "VT_XA_TIEN_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Xa Tien Tu"
+      }
+    },
+    {
+      "id": "VT_KHOI_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Khoi Tu"
+      }
+    },
+    {
+      "id": "VT_PHUC_BON_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Phuc Bon Tu"
+      }
+    },
+    {
+      "id": "B_BO_CO_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bo Co Tinh"
+      }
+    },
+    {
+      "id": "BT_DI_DAI_DEM_TY_TU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Di Dai Dem Ty Tu"
+      }
+    },
+    {
+      "id": "VT_KIM_ANH_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Kim Anh Tu"
+      }
+    },
+    {
+      "id": "B_DI_DAI_DEM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Dai Dem"
+      }
+    },
+    {
+      "id": "BT_DI_MONG_TINH_DAY_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Di Mong Tinh Day To Hong"
+      }
+    },
+    {
+      "id": "B_DI_MONG_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Mong Tinh"
+      }
+    },
+    {
+      "id": "BT_LO_SAI_DAY_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Lo Sai Day To Hong"
+      }
+    },
+    {
+      "id": "B_LO_SAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lo Sai"
+      }
+    },
+    {
+      "id": "BT_LAU_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Lau Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "B_LAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lau"
+      }
+    },
+    {
+      "id": "BT_VET_LO_LOET_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Vet Lo Loet Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "B_VET_LO_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Lo Loet"
+      }
+    },
+    {
+      "id": "BT_SOT_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "BT_THUOC_BO_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thuoc Bo Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "BT_THUOC_HO_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thuoc Ho Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "BT_THUOC_LOC_MAU_DAY_VA_HAT_TO_HONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thuoc Loc Mau Day Va Hat To Hong"
+      }
+    },
+    {
+      "id": "CN_BO_CAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Can"
+      }
+    },
+    {
+      "id": "CN_BO_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Than"
+      }
+    },
+    {
+      "id": "CN_ICH_TINH_TUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ich Tinh Tuy"
+      }
+    },
+    {
+      "id": "CN_MANH_GAN_COT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Manh Gan Cot"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T869",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "869"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây tơ hồng hay dây tơ hồng là một loại dây ký sinh cuốn trên các cây khác, thân thành sợi màu vàng hay đỏ nâu nhạt, không có lá. Lá biến thành vẩy, cây có rễ mút để hút các thức ăn từ cây chủ. Hoa ít thấy, hình cầu màu trắng nhạt, gần như không có cuống, tụ thành 10-20 hoa một. Quả hình cầu, chiều ngang rộng hơn chiều cao, rộng độ $3mm$, nứt từ dưới lên. Hạt 2 đến 4, hình trứng, đỉnh dẹt, dài chứng $2mm$ (Hình 651). Tại miền Bắc hay gặp nó ký sinh trên cây cúc tần Pluchea indica thuộc họ Cúc Asteraceae (Compositae).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt thỏ ty tử người ta mới thấy có một chất nhựa, tính chất glucozit gọi là $cuscutin$. Hoạt chất khác chưa rõ."
+        ],
+        "lieu_dung_tong_quat": "Không đề cập",
+        "ghi_chu_bo_sung": "Không đề cập",
+        "cach_dung_bao_che": "Không đề cập"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "HC_CUSCUTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "ap_dung_cho_loai": "null",
+        "mo_ta_chi_tiet": "Trong hạt thỏ ty tử người ta mới thấy có một chất nhựa, tính chất glucozit gọi là $cuscutin$."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "HC_LAUROTETANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "ap_dung_cho_loai": "null",
+        "mo_ta_chi_tiet": "$laurotetanin$"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_LIET_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_DAU_LUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_MOI_GOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_TAI_U",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_MAT_MO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "B_SOT_KHAT_NUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "dùng lâu đẹp nhân sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Thuốc bổ cố tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "VT_NGU_VI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Thuốc bổ cố tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "VT_XA_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Thuốc bổ cố tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "VT_KHOI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Thần",
+        "ghi_chu": "Thuốc bổ cố tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "VT_PHUC_BON_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Thuốc bổ cố tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_BO_CO_TINH",
+      "to": "B_BO_CO_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "mỗi lần uống $4g$",
+        "cach_dung": "Các vị tán nhỏ trộn với mật ong, làm thành viên bằng hạt ngô"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_DAI_DEM_TY_TU",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$7g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Đi đái đêm, di tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_DAI_DEM_TY_TU",
+      "to": "VT_PHUC_BON_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Đi đái đêm, di tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_DAI_DEM_TY_TU",
+      "to": "VT_KIM_ANH_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Thần",
+        "ghi_chu": "Đi đái đêm, di tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_DAI_DEM_TY_TU",
+      "to": "B_DI_DAI_DEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc còn $100ml$. Lọc bỏ bã. Chia 2,3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_DAI_DEM_TY_TU",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc còn $100ml$. Lọc bỏ bã. Chia 2,3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_MONG_TINH_DAY_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Di mộng tinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_DI_MONG_TINH_DAY_TO_HONG",
+      "to": "B_DI_MONG_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hái về phơi khô sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_LO_SAI_DAY_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Lở sài (gourme)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_LO_SAI_DAY_TO_HONG",
+      "to": "B_LO_SAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hái về phơi khô sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_LAU_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Lậu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_LAU_DAY_VA_HAT_TO_HONG",
+      "to": "B_LAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_VET_LO_LOET_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Vết lở loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_VET_LO_LOET_DAY_VA_HAT_TO_HONG",
+      "to": "B_VET_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Đắp ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_SOT_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Sốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_SOT_DAY_VA_HAT_TO_HONG",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_THUOC_BO_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Thuốc bổ, thuốc họ, thuốc lọc máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_THUOC_HO_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Thuốc bổ, thuốc họ, thuốc lọc máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "BT_THUOC_LOC_MAU_DAY_VA_HAT_TO_HONG",
+      "to": "VI_THUOC_THO_TY_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "ghi_chu": "Thuốc bổ, thuốc họ, thuốc lọc máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "CN_BO_CAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "CN_ICH_TINH_TUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích tinh tủy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    },
+    {
+      "from": "VI_THUOC_THO_TY_TU",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mạnh gân cốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T869"
+      }
+    }
+  ]
+}

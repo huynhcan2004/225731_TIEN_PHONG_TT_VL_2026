@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KY_TU",
+    "ten_raw": "Kỷ tử",
+    "ten_khoa_hoc": "Lycium sinense Mill.; Lycium barbarum L.",
+    "ho_thuc_vat": "Cà Solanaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "thu_hai": "Mùa quả: tháng 7-10.",
+      "che_bien_tho": "Không có thông tin",
+      "phan_bo": "Cây của Trung Quốc được nhập trồng ở nhiều nước để lấy quả và lá làm thuốc. Tại Việt Nam, kỷ tử được trồng ở một số tỉnh đồng bằng và vùng núi mát như Sa Pa, Tam Đảo, Đà Lạt."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T865",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "865"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_PHE",
+          "K_THAN"
+        ],
+        "cong_nang": "bổ tỳ vị, chỉ tả, bổ phế thận, sinh tân chỉ khát, bình suyễn, sáp tinh"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cao $0,50$-$1,50m$, có khi hơn. Cành mảnh, dài, thường có gai ngắn. Lá mọc so le, đôi khi mọc đối, hình mác dài, hẹp, gốc hơi thuôn, đầu hơi tù, dài $3$-$8cm$, rộng $5$-$15mm$. Hoa nhỏ, màu tím nhạt, mọc đơn độc hoặc $2$-$3$ cái ở kẽ lá. Đài hình chuông, có $3$-$4$ thùy nhỏ. Tràng hình ống, phía trên chia $5$ thùy gần bằng nhau. Nhị $5$, chỉ nhị có lông ở gốc. Bầu hình trứng, $2$ ngăn. Quả mọng, hình trứng, dài $12$-$15mm$, đường kính $5$-$8mm$, màu đỏ da cam, chứa $20$-$40$ hạt nhỏ (Hình 649). [CT_VT_VN_T867]: Cây khởi tử là một loại cây nhỏ, cao $0,5$-$1,5m$ cành nhỏ, tỉnh thoảng có gai ngắn mọc ở kẽ lá, dài $5cm$. Lá mọc so le một số mọc vòng tại một điểm. Cuống lá ngắn $2$-$6mm$. Phiến lá hình mác, đầu lá và phía cuống của lá đều hẹp, hơi nhọn, dài $2$-$6cm$, rộng $0,6$-$2,5cm$, mép lá nguyên. Hoa nhỏ mọc đơn độc ở kẽ lá hoặc có một số hoa mọc tụ lại. Cánh hoa màu tím đỏ. Quả mọng hình trứng dài $0,5$-$2cm$, đường kính $4$-$8mm$. Khi chín có màu đỏ sẫm hoặc vàng đỏ. Hạt nhiều, hình thận, dẹt, dài $2$-$2,5mm$. Mùa hoa: tháng $6$-$9$, mùa quả: tháng $7$-$10$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tỳ"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    },
+    {
+      "from": "VI_THUOC_KY_TU",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng mạnh bổ tỳ vị, chỉ tả, bổ phế thận, sinh tân chỉ khát, bình suyễn, sáp tinh."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T865"
+      }
+    }
+  ]
+}

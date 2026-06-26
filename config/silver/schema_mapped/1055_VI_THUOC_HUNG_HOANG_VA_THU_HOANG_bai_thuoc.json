@@ -1,0 +1,163 @@
+{
+  "entity_hub": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+  "source": {
+    "source_id": "CT_VT_VN_T1055",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1055"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_DAM_PHAN_M",
+      "to": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đảm phàn kết hợp với mẫu lệ giúp làm khô, sát khuẩn, giảm ngứa, trị hắc lào, lang ben.",
+        "cach_dung": "Lấy bột xát vào nơi hắc lào, lang ben.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_DAM_PHAN_M",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đảm phàn kết hợp với mẫu lệ giúp làm khô, sát khuẩn, giảm ngứa, trị hắc lào, lang ben.",
+        "cach_dung": "Lấy bột xát vào nơi hắc lào, lang ben.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HOI_NACH_DAM_PHAN_P",
+      "to": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đảm phàn kết hợp với phèn chua và gừng giúp sát khuẩn, khử mùi hôi nách.",
+        "cach_dung": "Rửa sạch nách và bôi vào, thấy nóng qua thì nghỉ, vài ngày lại bôi một lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HOI_NACH_DAM_PHAN_P",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đảm phàn kết hợp với phèn chua và gừng giúp sát khuẩn, khử mùi hôi nách.",
+        "cach_dung": "Rửa sạch nách và bôi vào, thấy nóng qua thì nghỉ, vài ngày lại bôi một lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HOI_NACH_DAM_PHAN_P",
+      "to": "VT_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Đảm phàn kết hợp với phèn chua và gừng giúp sát khuẩn, khử mùi hôi nách.",
+        "cach_dung": "Rửa sạch nách và bôi vào, thấy nóng qua thì nghỉ, vài ngày lại bôi một lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_MOM_LUOI_LO_DAM_PHAN_D",
+      "to": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đảm phàn có tác dụng sát khuẩn, làm se, giúp trị mồm, lưỡi lở.",
+        "cach_dung": "Bôi vào",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_DAM_PHAN_M",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào, lang ben",
+        "cach_dung": "Lấy bột này xát vào nơi hắc lào, lang ben"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_DAM_PHAN_M",
+      "to": "B_LANG_BEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào, lang ben",
+        "cach_dung": "Lấy bột này xát vào nơi hắc lào, lang ben"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_HOI_NACH_DAM_PHAN_P",
+      "to": "B_HOI_NACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hôi nách",
+        "cach_dung": "Rửa sạch nách và bôi vào, thấy nóng qua thì nghỉ, vài ngày lại bởi một lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_MOM_LUOI_LO_DAM_PHAN_D",
+      "to": "B_LO_MOM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồm, lưỡi lở",
+        "cach_dung": "Bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "BT_MOM_LUOI_LO_DAM_PHAN_D",
+      "to": "B_LO_LUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồm, lưỡi lở",
+        "cach_dung": "Bôi vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    }
+  ],
+  "metadata": {}
+}

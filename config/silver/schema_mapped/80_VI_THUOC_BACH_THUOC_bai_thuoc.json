@@ -1,0 +1,196 @@
+{
+  "entity_hub": "VI_THUOC_BACH_THUOC",
+  "source": {
+    "source_id": "CT_VT_VN_T80",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "80"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THUOC_DUOC_CAM_THAO_T",
+      "to": "VT_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc Thược dược cam thảo thang kết hợp Thược dược và Cam thảo giúp giảm đau, thư cân, hòa hoãn.",
+        "cach_dung": "Sắc còn $100ml$, chia 2 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_THUOC_DUOC_CAM_THAO_T",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Thược dược cam thảo thang kết hợp Thược dược và Cam thảo giúp giảm đau, thư cân, hòa hoãn.",
+        "cach_dung": "Sắc còn $100ml$, chia 2 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_THUOC_DUOC_CAM_THAO_T",
+      "to": "B_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa 2 chân và đầu gối đau nhức không co duỗi được.",
+        "cach_dung": "Sắc còn $100ml$, chia 2 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_THUOC_DUOC_CAM_THAO_T",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng.",
+        "cach_dung": "Sắc còn $100ml$, chia 2 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc Quế chi gia linh truật kết hợp các vị thuốc giúp điều hòa khí huyết, giảm đau đầu, hoa mắt.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "B_DAU_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đầu nhức.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "BT_QUE_CHI_GIA_LINH_TRUAT_QTDPBSC",
+      "to": "S_HOA_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt hoa.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    }
+  ],
+  "metadata": {}
+}

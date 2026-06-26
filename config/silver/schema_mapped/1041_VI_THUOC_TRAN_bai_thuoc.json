@@ -1,0 +1,121 @@
+{
+  "entity_hub": "VI_THUOC_TRAN",
+  "source": {
+    "source_id": "CT_VT_VN_T1041",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1041"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_NHUC_XUONG_TRAN_C",
+      "to": "VI_THUOC_TRAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$5-10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính.",
+        "mo_ta_chi_tiet": "Cao trăn.",
+        "cach_dung": "Hấp nóng với rượu, hoặc uống lẫn với một số vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_TRAN_C",
+      "to": "B_DAU_NHUC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức xương, đặc biệt đau cột sống",
+        "cach_dung": "Hấp nóng với rượu, hoặc uống lẫn với một số vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_HOA_MAT_CHOANG_VANG_TRAN_M",
+      "to": "VI_THUOC_TRAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính.",
+        "mo_ta_chi_tiet": "Máu trăn.",
+        "cach_dung": "Pha dưới dạng rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_HOA_MAT_CHOANG_VANG_TRAN_M",
+      "to": "S_HOA_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa mắt",
+        "cach_dung": "Pha dưới dạng rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_HOA_MAT_CHOANG_VANG_TRAN_M",
+      "to": "S_CHOANG_VANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Choáng váng",
+        "cach_dung": "Pha dưới dạng rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_HOA_MAT_CHOANG_VANG_TRAN_M",
+      "to": "S_MOI_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mỏi lưng",
+        "cach_dung": "Pha dưới dạng rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_RAU_TOC_MO_NGUOC_TRAN_M",
+      "to": "VI_THUOC_TRAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính.",
+        "mo_ta_chi_tiet": "Mỡ trăn",
+        "cach_dung": "Bôi lên da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    },
+    {
+      "from": "BT_RAU_TOC_MO_NGUOC_TRAN_M",
+      "to": "S_RAU_TOC_MOC_NGUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm râu tóc không mọc ra ngoài mà lại mọc ngược vào trong",
+        "cach_dung": "Bôi lên da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1041"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,776 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CO_TRANH",
+    "ten_raw": "Cỏ tranh",
+    "ten_khoa_hoc": "$Imperata cylindrica Beauv.$",
+    "ho_thuc_vat": "$Lúa Poaceae (Gramineae)$",
+    "variants": [
+      "bạch mao"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Liều dùng $10$-$40$g dưới dạng thuốc sắc",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "khắp nơi trong nước ta"
+    },
+    "display_name": "Vị thuốc Cỏ tranh",
+    "canonical_name": "Vị thuốc Cỏ tranh"
+  },
+  "nodes": [
+    {
+      "id": "BT_CHE_LOI_TIU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Chè lợi tiểu",
+        "aliases": [
+          "chè lợi tiểu",
+          "cheloitieu",
+          "che loi tieu"
+        ],
+        "search_vector_hint": "Bài thuốc Chè lợi tiểu thuộc nhóm Bài thuốc, thường liên quan đến điều trị các vấn đề tiểu tiện."
+      }
+    },
+    {
+      "id": "BT_DAI_RA_MAU_CO_TRANH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đại ra máu cỏ tranh",
+        "aliases": [
+          "dairamaucotranh",
+          "đại ra máu cỏ tranh",
+          "dai ra mau co tranh"
+        ],
+        "search_vector_hint": "Bài thuốc Đại ra máu cỏ tranh thuộc nhóm Bài thuốc, thường liên quan đến cầm máu và thanh nhiệt."
+      }
+    },
+    {
+      "id": "BT_PHOI_NONG_HEN_CO_CU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Phổi nóng hen co cư",
+        "aliases": [
+          "phổi nóng hen co cư",
+          "phoinonghencocu",
+          "phoi nong hen co cu"
+        ],
+        "search_vector_hint": "Bài thuốc Phổi nóng hen co cư thuộc nhóm Bài thuốc, thường liên quan đến điều trị các bệnh lý hô hấp."
+      }
+    },
+    {
+      "id": "B_NIU_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Niu Huyet",
+        "aliases": [
+          "niu huyet",
+          "niuhuyet"
+        ],
+        "search_vector_hint": "Bệnh Niu Huyet thuộc nhóm Bệnh, thường liên quan đến các vấn đề sức khỏe cụ thể."
+      }
+    },
+    {
+      "id": "B_SOT_NONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt nóng",
+        "aliases": [
+          "sotcao",
+          "sotnong",
+          "sot nong",
+          "sốt cao",
+          "sot cao",
+          "sốt nóng"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt nóng thuộc nhóm Triệu chứng, thường liên quan đến phản ứng của cơ thể với nhiễm trùng."
+      }
+    },
+    {
+      "id": "B_THO_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Bệnh Thổ huyết thuộc nhóm bệnh xuất huyết, thường liên quan đến tổn thương đường tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu tiện",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu tiện",
+          "loi tieu tien",
+          "loi nieu",
+          "loitieutien"
+        ],
+        "search_vector_hint": "Công năng Lợi tiểu tiện thuộc nhóm Công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "CN_TIEU_U_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu ứ huyết",
+        "aliases": [
+          "tan huyết",
+          "tieuuhuyet",
+          "tieu u huyet",
+          "tiêu ứ huyết",
+          "phá huyết",
+          "tan huyet",
+          "tanhuyet",
+          "phahuyet",
+          "pha huyet"
+        ],
+        "search_vector_hint": "Công năng Tiêu ứ huyết thuộc nhóm Công năng, thường liên quan đến làm tan máu đông và giảm sưng."
+      }
+    },
+    {
+      "id": "CN_TRU_PHUC_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phục nhiệt",
+        "aliases": [
+          "tru phuc nhiet",
+          "trừ phục nhiệt",
+          "truphucnhiet"
+        ],
+        "search_vector_hint": "Công năng Trừ phục nhiệt thuộc nhóm Công năng, thường liên quan đến loại bỏ nhiệt ẩn sâu trong cơ thể."
+      }
+    },
+    {
+      "id": "HC_AXIT_HUU_CO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit hữu cơ",
+        "aliases": [
+          "axit hữu cơ",
+          "axithuuco",
+          "axit huu co"
+        ],
+        "search_vector_hint": "Axit hữu cơ thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_FRUCTOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Fructoza",
+        "aliases": [
+          "fructoza"
+        ],
+        "search_vector_hint": "Hoạt chất Fructoza thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_GLUCOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glucoza",
+        "aliases": [
+          "glucoza"
+        ],
+        "search_vector_hint": "Hoạt chất Glucoza thuộc nhóm Hoạt chất, thường liên quan đến đường đơn và quá trình trao đổi chất."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Khát nước",
+        "aliases": [
+          "haonuoc",
+          "khatnuoc",
+          "háo nước",
+          "khat nuoc",
+          "hao nuoc",
+          "khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Khát nước thuộc nhóm triệu chứng, thường liên quan đến mất nước hoặc bệnh lý nội tiết."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BACH_MAO_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch mao căn",
+        "aliases": [
+          "bachmaocan",
+          "bạch mao căn",
+          "bach mao can"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch mao căn thuộc nhóm Vị thuốc, thường liên quan đến lợi tiểu và thanh nhiệt."
+      }
+    },
+    {
+      "id": "VT_CO_TRANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cỏ tranh",
+        "aliases": [
+          "bachmaocan",
+          "cỏ tranh",
+          "bạch mao căn",
+          "co tranh",
+          "bach mao can",
+          "cotranh"
+        ],
+        "search_vector_hint": "Vị thuốc Cỏ tranh thuộc nhóm Vị thuốc, thường liên quan đến lợi tiểu và thanh nhiệt.",
+        "bo_phan_dung": "rễ",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Liều dùng $10$-$40$g dưới dạng thuốc sắc",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "khắp nơi trong nước ta",
+        "ten_khoa_hoc": "$Imperata cylindrica Beauv.$",
+        "ho_thuc_vat": "$Lúa Poaceae (Gramineae)$",
+        "hinh_thai_chi_tiet": "Cây cỏ tranh là một loại cỏ sống dai, thân rễ khỏe chắc. Thân cao $30$-$90$cm, lá hẹp dài $15$-$30$cm, rộng $3$-$6$mm, gân lá ở giữa phát triển, ráp ở mặt trên, nhẵn ở mặt dưới, mép lá sắc. Cụm hoa hình chùy nhưng hình bắp dài $5$-$20$cm màu trắng bạc, bông nhỏ phủ đầy lông nhỏ mềm, rất dài (Hình 160, Hm 10,3).",
+        "thanh_phan_hoa_hoc": "['Trong thân rễ có $glucoza$, $fructoza$ và $axit hữu cơ$.']",
+        "ghi_chu_bo_sung": "Lá non dùng cho gia súc ăn, lá già dùng lợp nhà."
+      }
+    },
+    {
+      "id": "VT_HOA_CUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoa cúc",
+        "aliases": [
+          "hoa cúc",
+          "cuchoa",
+          "cuc hoa",
+          "hoa cuc",
+          "cúc hoa",
+          "hoacuc"
+        ],
+        "search_vector_hint": "Vị thuốc Hoa cúc thuộc nhóm Vị thuốc, thường liên quan đến thanh nhiệt và giải độc."
+      }
+    },
+    {
+      "id": "VT_KHUONG_THAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khương thần",
+        "aliases": [
+          "khuongthan",
+          "khương thần",
+          "khuong than"
+        ],
+        "search_vector_hint": "Vị thuốc Khương thần thuộc nhóm Vị thuốc, thường liên quan đến các vấn đề về phong thấp và đau nhức."
+      }
+    },
+    {
+      "id": "VT_RAU_NGO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Rau ngổ",
+        "aliases": [
+          "rau ngo",
+          "rau ngổ",
+          "raungo"
+        ],
+        "search_vector_hint": "Vị thuốc Rau ngổ thuộc nhóm Vị thuốc, thường liên quan đến các vấn đề tiêu hóa và tiết niệu."
+      }
+    },
+    {
+      "id": "VT_SINH_MAO_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh mao căn",
+        "aliases": [
+          "sinh mao căn",
+          "sinh mao can",
+          "sinhmaocan"
+        ],
+        "search_vector_hint": "Vị thuốc Sinh mao căn thuộc nhóm Vị thuốc, thường liên quan đến các vấn đề về tóc và da đầu."
+      }
+    },
+    {
+      "id": "VT_XA_TIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xa tiền",
+        "aliases": [
+          "made",
+          "mã đề",
+          "xa tien",
+          "xa tiền",
+          "ma de",
+          "xatien"
+        ],
+        "search_vector_hint": "Vị thuốc Xa tiền thuộc nhóm Vị thuốc, thường liên quan đến lợi tiểu và thanh phế."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "219"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "trừ phục nhiệt, tiêu ứ huyết, lợi tiểu tiện"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cỏ tranh là một loại cỏ sống dai, thân rễ khỏe chắc. Thân cao $30$-$90$cm, lá hẹp dài $15$-$30$cm, rộng $3$-$6$mm, gân lá ở giữa phát triển, ráp ở mặt trên, nhẵn ở mặt dưới, mép lá sắc. Cụm hoa hình chùy nhưng hình bắp dài $5$-$20$cm màu trắng bạc, bông nhỏ phủ đầy lông nhỏ mềm, rất dài (Hình 160, Hm 10,3).",
+        "thanh_phan_hoa_hoc": [
+          "Trong thân rễ có $glucoza$, $fructoza$ và $axit hữu cơ$."
+        ],
+        "ghi_chu_bo_sung": "Lá non dùng cho gia súc ăn, lá già dùng lợp nhà."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CO_TRANH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Bạch mao căn có vị ngọt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bạch mao căn có tính hàn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào ba kinh Tâm"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào ba kinh Tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào ba kinh Vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân rễ có $glucoza$, $fructoza$ và $axit hữu cơ$.",
+        "ghi_chu": "trong thân rễ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "HC_FRUCTOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân rễ có $glucoza$, $fructoza$ và $axit hữu cơ$.",
+        "ghi_chu": "trong thân rễ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "HC_AXIT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân rễ có $glucoza$, $fructoza$ và $axit hữu cơ$.",
+        "ghi_chu": "trong thân rễ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "B_SOT_NONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10$-$40$g",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Thông tiểu tiện và tẩy độc cơ thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10$-$40$g",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Thông tiểu tiện và tẩy độc cơ thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "B_NIU_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10$-$40$g",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Thông tiểu tiện và tẩy độc cơ thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10$-$40$g",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Thông tiểu tiện và tẩy độc cơ thể"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHE_LOI_TIU",
+      "to": "VT_RAU_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40$",
+        "vai_tro": "Quân",
+        "cach_dung": "Thái nhỏ, trộn đều. Mỗi lần cân $50$g pha thành $0,75$lít chia uống trong ngày. Trẻ em $6$-$14$ tuổi dùng $25$g pha với $350$ml",
+        "ghi_chu": "Chè lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHE_LOI_TIU",
+      "to": "VT_XA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$25$",
+        "vai_tro": "Tá",
+        "cach_dung": "Thái nhỏ, trộn đều. Mỗi lần cân $50$g pha thành $0,75$lít chia uống trong ngày. Trẻ em $6$-$14$ tuổi dùng $25$g pha với $350$ml",
+        "ghi_chu": "Chè lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHE_LOI_TIU",
+      "to": "VT_CO_TRANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30$",
+        "vai_tro": "Thần",
+        "cach_dung": "Thái nhỏ, trộn đều. Mỗi lần cân $50$g pha thành $0,75$lít chia uống trong ngày. Trẻ em $6$-$14$ tuổi dùng $25$g pha với $350$ml",
+        "ghi_chu": "Chè lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHE_LOI_TIU",
+      "to": "VT_HOA_CUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5$",
+        "vai_tro": "Sứ",
+        "cach_dung": "Thái nhỏ, trộn đều. Mỗi lần cân $50$g pha thành $0,75$lít chia uống trong ngày. Trẻ em $6$-$14$ tuổi dùng $25$g pha với $350$ml",
+        "ghi_chu": "Chè lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHOI_NONG_HEN_CO_CU",
+      "to": "VT_SINH_MAO_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "cach_dung": "Sắc uống lúc còn nóng vào sau bữa ăn",
+        "ghi_chu": "Như thần thang (chữa phổi nóng, hen cò cử)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_RA_MAU_CO_TRANH",
+      "to": "VT_BACH_MAO_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Ma căn thang (chữa đái ra máu)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_RA_MAU_CO_TRANH",
+      "to": "VT_KHUONG_THAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Ma căn thang (chữa đái ra máu)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "CN_TRU_PHUC_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phục nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "CN_TIEU_U_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu ứ huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_TRANH",
+      "to": "CN_LOI_TIEU_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T219",
+        "all_sources": [
+          "CT_VT_VN_T219"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

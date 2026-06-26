@@ -1,0 +1,100 @@
+{
+  "entity_hub": "VI_THUOC_KIM_TIEN_THAO",
+  "source": {
+    "source_id": "CT_VT_VN_T282",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "282"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "VI_THUOC_KIM_TIEN_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kim tiền thảo là vị thuốc chính.",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "B_SOI_TUI_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh sỏi túi mật",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh sỏi thận",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "B_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh bàng quang",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh phù thũng",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "B_BENH_VE_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh về thận",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    },
+    {
+      "from": "BT_SOI_TUI_MAT_KIM_TIEN_THAO_K",
+      "to": "S_KHO_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh khó tiêu",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T282"
+      }
+    }
+  ],
+  "metadata": {}
+}

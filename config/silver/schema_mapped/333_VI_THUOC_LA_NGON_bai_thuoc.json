@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_LA_NGON",
+  "source": {
+    "source_id": "CT_VT_VN_T333",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "333"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DONG_KINH_LA_NGON_R",
+      "to": "VI_THUOC_LA_NGON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$ rễ (liều chung)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_LA_NGON_R",
+      "to": "B_DONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa bệnh động kinh",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LA_NGON_R",
+      "to": "VI_THUOC_LA_NGON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$ rễ (liều chung)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_LA_NGON_R",
+      "to": "S_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "giảm đau",
+        "cach_dung": "Sắc uống (liều chung)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333"
+      }
+    }
+  ],
+  "metadata": {}
+}

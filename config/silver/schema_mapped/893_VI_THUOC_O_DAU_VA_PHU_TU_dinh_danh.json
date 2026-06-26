@@ -1,0 +1,259 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_DAU_VA_PHU_TU",
+    "ten_raw": "Ô đầu và phụ từ",
+    "ten_khoa_hoc": "Aconitum napellus L.; Aconitum sinense Paxt.; Aconitum carmichaeli Debx.",
+    "ho_thuc_vat": "Mao lương (Ranunculaceae)",
+    "variants": [
+      "Âu ô đầu",
+      "ô đầu",
+      "phụ tử"
+    ],
+    "properties": {
+      "bo_phan_dung": "Rễ củ",
+      "thu_hai": "[CT_VT_VN_T895]: Quả thu hoạch vào tháng 7-8",
+      "che_bien_tho": "Cách chế biến khác nhau mà ô đầu rất độc, thường chỉ dùng để xoa bóp bên ngoài, còn phụ tử ít độc hơn có thể dùng uống trong với liều khá cao."
+    },
+    "display_name": "Ô đầu và phụ từ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T893",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "893"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Đại nhiệt",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TAM",
+          "K_TY",
+          "K_PHE",
+          "K_THAN",
+          "K_TAM_BAO",
+          "K_BANG_QUANG",
+          "K_VI",
+          "K_DAI_TRANG",
+          "K_TIEU_TRANG",
+          "K_DAN",
+          "K_TAM_TIEU"
+        ],
+        "cong_nang": "Hồi dương cứu nghịch, bổ hỏa, trợ dương, trục phong hàn, thấp tà; ô đầu sưu phong, táo thấp khứ hàn; phụ tử dùng chữa mồ hôi toát ra nhiều quá, vong dương (mất dương), chân tay quờ quạng, bụng quặn đau, dương hư, sợ lạnh, mồ hôi trộm, ngực bụng lạnh đau, tả lỵ lâu ngày, phong hàn thấp tỳ (tê bại), đau nhức thận dương không đủ, cước khí, thủy thũng, mọi chứng trầm hàn cố lãnh. Ô đầu dùng chữa phong hàn thấp tỳ, các khớp sưng đau, chân tay co quắp, bán thân bất toại (liệt nửa người), đại hàn sinh đau bụng, âm thư lâu ngày không vỡ mủ, vết loét lâu ngày không liền miệng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Âu ô đầu là một loại cỏ mọc khỏe, có rễ phình to thành củ, thân thường ít cành, $1$ xẻ chân vịt, gần như lá ngải cứu, mặt trên màu xanh thẫm, mặt dưới màu nhạt hơn, nhấm lá sẽ thấy vị nhạt sau như bị kiến đốt nhè nhẹ. Hoa mọc thành chùm, màu xanh thẫm đôi khi hơi tím nhạt, hoặc trắng, có đài hoa phía sau khum thành hình như cái mũ. Mùa nực rễ cái sẽ phình thành hình củ giống như củ đậu, phía trên mang thân cây mọc trong năm, ta thường gọi củ mang thân cây này là củ mẹ. Nơi gần cổ rễ mọc ra một nhánh nối liền củ mẹ nói trên với một củ cũng hình củ đậu, nhưng mẫm hơn, trắng hơn, ta thường gọi là củ con (củ phụ). Trên đầu củ con này có một búp mang lá ngầm (Hình $668$).",
+        "thanh_phan_hoa_hoc": [
+          "Trong âu ở đầu có $3$ ancaloit chính: $aconitin$, $aconin$ và $benzoylaconin$. $Aconitin$ độc nhất, chiếm $9/10$ tổng số ancaloit trong củ. Thủy phân, $CHNO + 2H₂O.CH COOH + CH¸COOH + CH_NO,$ 47 34° $aconitin$ 11 9 $CHS - CH₂$ $HO$ a.axetic a.benzoic $OCHS$ $HO$ $OCO C₂H₂$ $OH$ $OOC-CH3$ $OCH3$ $OCH3$. $aconitin$ (theo Wiesner $1963$)"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính đại nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "K_TAM_TIEU",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "HC_ACONITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong âu ở đầu có $3$ ancaloit chính: $aconitin$, $aconin$ và $benzoylaconin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "HC_ACONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong âu ở đầu có $3$ ancaloit chính: $aconitin$, $aconin$ và $benzoylaconin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VA_PHU_TU",
+      "to": "HC_BENZOYLACONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong âu ở đầu có $3$ ancaloit chính: $aconitin$, $aconin$ và $benzoylaconin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T893"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_DONG_NU",
+    "ten_raw": "Bạch đồng nữ",
+    "ten_khoa_hoc": "Clerodendron fragrans Vent.; Clerodendron squamatum L.; Clerodendron infortunatum L.",
+    "ho_thuc_vat": "Cỏ roi ngựa (Verbenaceae)",
+    "variants": [
+      "mò đỏ",
+      "xích đồng nam",
+      "xích đồng nữ"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá",
+      "phan_bo": "Cây nhỏ cao chừng $1m$ đến $1,5m$. Lá rộng hình trứng, dài $10-20cm$, rộng $8-18cm$",
+      "thu_hai": "Thường hái lá vào quanh năm, tốt nhất vào lúc cây đang và sắp ra hoa.",
+      "che_bien_tho": "Hái về phơi hay sấy khô, không phải chế biến gì đặc biệt. Có thể dùng rễ: Đào rễ về rửa sạch, phơi hay sấy khô. Khi dùng thái mỏng sắc uống."
+    },
+    "display_name": "Bạch đồng nữ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T52",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "52"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "1. Thứ hoa trắng gọi là bạch đồng nữ, mà trắng, tên khoa học là Clerodendron squamatum L. cùng họ. Lá màu nhạt hơn cây trên; mỏng hơn, răng cưa nhỏ thanh hơn; hoa mọc thưa không thành hình mâm xôi như cây trên, màu hoa hơi giống màu mỡ gà. 2. Thứ hoa có màu đỏ gọi là mò đỏ, xích đồng nam Clerodendron infortunatum L. (cũng có người gọi là xích đồng nữ cùng họ Cỏ roi ngựa Verbenaceae). Rất giống cây Clerodendron squamatum L. Chỉ khác là hoa đỏ."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_DONG_NU",
+      "to": "HC_ORIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "ngoài ra còn ancaloit như orixin CHON"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T52"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_DONG_NU",
+      "to": "HC_ORIXIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "orixidin C,,HON"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T52"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_DONG_NU",
+      "to": "HC_ISO_ORIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "iso-orixin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T52"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_DONG_NU",
+      "to": "HC_KOKUSAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "kokusagin C,H,NO"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T52"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_DONG_NU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T52"
+      }
+    }
+  ]
+}

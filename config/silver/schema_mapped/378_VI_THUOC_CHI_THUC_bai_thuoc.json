@@ -1,0 +1,307 @@
+{
+  "entity_hub": "VI_THUOC_CHI_THUC",
+  "source": {
+    "source_id": "CT_VT_VN_T378",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "378"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NGUC_BUNG_DAY_TRUONG_CHI_THUC_C",
+      "to": "VT_Chi_thực",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chỉ thực giúp điều trị ngực bụng đầy trướng.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_NGUC_BUNG_DAY_TRUONG_CHI_THUC_C",
+      "to": "B_Ngực_bụng_đầy_trướng",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngực bụng đầy trướng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_NGUC_BUNG_DAY_TRUONG_CHI_THUC_C",
+      "to": "S_Khó_tiêu",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khó tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_NGUC_BUNG_DAY_TRUONG_CHI_THUC_C",
+      "to": "S_Táo_bón",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_LY_CHI_THUC_C",
+      "to": "S_Lỵ_ra_máu_mũi",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu mũi",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CHI_THUC_DAI_H",
+      "to": "VT_Chi_thực",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$800g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chỉ thực và Đại hoàng giúp điều trị táo bón.",
+        "cach_dung": "Ngày uống $12-20$ viên với nước nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CHI_THUC_DAI_H",
+      "to": "VT_Đại_hoàng",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$200g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chỉ thực và Đại hoàng giúp điều trị táo bón.",
+        "cach_dung": "Ngày uống $12-20$ viên với nước nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CHI_THUC_DAI_H",
+      "to": "B_Táo_bón",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngực bụng đầy trướng, táo bón",
+        "cach_dung": "Ngày uống $12-20$ viên với nước nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DA_DAY_KEM_CHI_THUC_B",
+      "to": "VT_Chi_thực",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chi thực và Bạch truật giúp điều trị dạ dày và gan kém hoạt động.",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DA_DAY_KEM_CHI_THUC_B",
+      "to": "VT_Bạch_truật",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chi thực và Bạch truật giúp điều trị dạ dày và gan kém hoạt động.",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DA_DAY_KEM_CHI_THUC_B",
+      "to": "B_Dạ_dày",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp dạ dày và gan kém hoạt động, không đi ỉa được",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DA_DAY_KEM_CHI_THUC_B",
+      "to": "B_Gan",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp dạ dày và gan kém hoạt động, không đi ỉa được",
+        "cach_dung": "Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_LY_TRE_CON_CHI_XAC_C",
+      "to": "VT_Chỉ_xác",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chỉ xác giúp điều trị lỵ ở trẻ con.",
+        "cach_dung": "Mỗi ngày cho uống 2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_LY_TRE_CON_CHI_XAC_C",
+      "to": "B_Lỵ",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bài thuốc chữa trẻ con đi lỵ, ăn uống thất thường",
+        "cach_dung": "Mỗi ngày cho uống 2 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_B",
+      "to": "VT_Chi_thực",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chi thực và Bồ kết giúp điều trị đại tiện khó khăn.",
+        "cach_dung": "Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_B",
+      "to": "VT_Bồ_kết",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chi thực và Bồ kết giúp điều trị đại tiện khó khăn.",
+        "cach_dung": "Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_DAI_TIEN_KHO_KHAN_CHI_B",
+      "to": "S_Đại_tiện_khó_khăn",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đại tiện khó khăn",
+        "cach_dung": "Mỗi ngày uống 10 viên vào buổi tối, trước khi đi ngủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_HO_CHI_THUC_C",
+      "to": "VT_Chi_thực",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chi thực và Chỉ xác giúp điều trị ho, hen, đờm xuyễn.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_HO_CHI_THUC_C",
+      "to": "VT_Chỉ_xác",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chi thực và Chỉ xác giúp điều trị ho, hen, đờm xuyễn.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_HO_CHI_THUC_C",
+      "to": "S_Ho",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, hen, đờm xuyễn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_HO_CHI_THUC_C",
+      "to": "S_Hen",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, hen, đờm xuyễn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "BT_HO_CHI_THUC_C",
+      "to": "S_Đờm_xuyễn",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, hen, đờm xuyễn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    }
+  ],
+  "metadata": {}
+}

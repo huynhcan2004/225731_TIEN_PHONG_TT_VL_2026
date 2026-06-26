@@ -1,0 +1,213 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RONG_MO",
+    "ten_raw": "Rong mỡ",
+    "ten_khoa_hoc": "Sargassum fusiforme (Harv). Setch.; Sargassum pallidum (Tum. C. Ag.); Sargassum sp.",
+    "ho_thuc_vat": "Rong mơ Sargassaceae",
+    "variants": [
+      "Rau mơ",
+      "dương thế thái-Sangassum fusiforme (Harv). Setch.",
+      "Hải khảo tử-Sargassum pallidum (Tum. C. Ag.)"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn tảo rửa sạch phơi hay sấy khô",
+      "phan_bo": "các loại tảo sống ở biển"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T157",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "157"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Mặn (Hàm)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI",
+          "K_THAN"
+        ],
+        "cong_nang": "tiêu đờm, làm mềm chất rắn, tiết nhiệt lợi thủy",
+        "kieng_ky_dac_biet": "Người tỳ vị hư hàn, có thấp trệ không dùng. Tác dụng ngược với cam thảo."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Rong mơ là các loại tảo sống ở biển. Tảo rong cấu tạo bởi sợi phân nhánh non như “thân” màu nâu, mang những bộ phận mỏng và dẹt non như “lá” kích thước thay đổi tùy theo loài Sargas- sum fusiforme dài $7$-$40$ $cm$, loài Sargassum pallidum dài $30$-$100$ $cm$, đường kính “thân” loài S. fusiforme chỉ đạt $2$-$4mm$, trong khi loài S. pallidum đạt $2cm$. “Lá” có khi hình trụ dài $3,5$-$7cm$ (S fusiforme) hay vừa hình sợi, vừa hình phiến lá (S .pallidum) dài tới $25$ $cm$, rộng $2$-$2,5cm$, có mép răng cưa thô, trên mặt có những điểm đen. Rải rác trên toàn tảo có những bộ phận hình dạng giống “quả” thực ra đó chỉ là những “phao” trong chứa đầy không khí giúp cho tảo đứng thẳng trong nước biển. Phao có kích thước to nhỏ tùy theo loài. Có loài chỉ nhỏ bằng hạt gạo, có loài phao to bằng hạt tiêu. Có khi hình thoi (dương thể thái) ở đầu “thân”, có khi ở nách “lá” và hình cầu (Spallidum). Ngoài mặt phao cũng có những chấm đen ( Hình 101 ).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T158]: Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali), $1$-$2%$ lipit, $4$-$5%$ prôtit và rất nhiều algin hay axit alginic."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh ... vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh ... và thân"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng tiêu đờm, làm mềm chất rắn, tiết nhiệt lợi thủy"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_IOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_ASEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_LIPIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali), $1$-$2%$ lipit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali), $1$-$2%$ lipit, $4$-$5%$ prôtit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_ALGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali), $1$-$2%$ lipit, $4$-$5%$ prôtit và rất nhiều algin hay axit alginic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    },
+    {
+      "from": "VI_THUOC_RONG_MO",
+      "to": "HC_AXIT_ALGINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rong mơ có từ $10$-$15%$ muối vô cơ (trong đó có rất nhiều iốt $0,3$ đến $0,8%$, asen, kali), $1$-$2%$ lipit, $4$-$5%$ prôtit và rất nhiều algin hay axit alginic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T157"
+      }
+    }
+  ]
+}

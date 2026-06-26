@@ -1,0 +1,149 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HOI_NUI",
+    "ten_raw": "Hồi núi",
+    "ten_khoa_hoc": "$Illicium griffithii Hook. f. et Thoms.$",
+    "ho_thuc_vat": "$Họ Hồi (Illiciaceae)$",
+    "variants": [],
+    "properties": {
+      "muc_do_doc": "Không độc",
+      "bo_phan_dung": "string",
+      "phan_bo": "string",
+      "thu_hai": "string",
+      "che_bien_tho": "string",
+      "lieu_dung_chung": "string",
+      "trieu_chung_ngo_doc": "string"
+    },
+    "display_name": "Vị thuốc Hồi núi",
+    "canonical_name": "Vị thuốc Hồi núi"
+  },
+  "nodes": [
+    {
+      "id": "B_NGO_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ngộ độc",
+        "aliases": [
+          "ngodoc",
+          "ngộ độc",
+          "ngo doc"
+        ],
+        "search_vector_hint": "Bệnh Ngộ độc thuộc nhóm bệnh, thường liên quan đến tác động của chất độc."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "VT_HOI_NUI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hồi núi",
+        "aliases": [
+          "hoinui",
+          "hồi núi",
+          "hoi nui"
+        ],
+        "search_vector_hint": "Hồi núi thuộc nhóm vị thuốc.",
+        "muc_do_doc": "Không độc",
+        "bo_phan_dung": "string",
+        "phan_bo": "string",
+        "thu_hai": "string",
+        "che_bien_tho": "string",
+        "lieu_dung_chung": "string",
+        "trieu_chung_ngo_doc": "string",
+        "ten_khoa_hoc": "$Illicium griffithii Hook. f. et Thoms.$",
+        "ho_thuc_vat": "$Họ Hồi (Illiciaceae)$",
+        "hinh_thai_chi_tiet": "Hồi núi là một loại cây cao $8-15m$. Lá hình bầu dục, không rụng, dai, nhẵn, phiến lá nguyên, dài $6-8cm$, rộng $2,5-3cm$, tập trung thành từng cụm $4$ $5$ lá một giống như mọc thành vòng giả, cuống lá dài $8-10cm$. Hoa màu đỏ hồng rất đẹp, mọc đơn độc ở kẽ lá. Quả gồm nhiều đại mọc tỏa theo hình nan hoa, hai bên dẹt, lá noãn cụt ở phía gốc, đầu có mỏ hẹp và dài bằng lá noãn đầu cong lên giống như chiếc liềm (Hình $251$).",
+        "thanh_phan_hoa_hoc": "['Trong quả và lá cây hồi núi có tinh dầu: Mùi tinh dầu có phần giống mùi hồi, nhưng có phần giống hạt tiêu.', 'Chưa thấy tài liệu nghiên cứu sâu hơn.']",
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T338",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "338"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hồi núi là một loại cây cao $8-15m$. Lá hình bầu dục, không rụng, dai, nhẵn, phiến lá nguyên, dài $6-8cm$, rộng $2,5-3cm$, tập trung thành từng cụm $4$ $5$ lá một giống như mọc thành vòng giả, cuống lá dài $8-10cm$. Hoa màu đỏ hồng rất đẹp, mọc đơn độc ở kẽ lá. Quả gồm nhiều đại mọc tỏa theo hình nan hoa, hai bên dẹt, lá noãn cụt ở phía gốc, đầu có mỏ hẹp và dài bằng lá noãn đầu cong lên giống như chiếc liềm (Hình $251$).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả và lá cây hồi núi có tinh dầu: Mùi tinh dầu có phần giống mùi hồi, nhưng có phần giống hạt tiêu.",
+          "Chưa thấy tài liệu nghiên cứu sâu hơn."
+        ],
+        "lieu_dung_tong_quat": "string",
+        "ghi_chu_bo_sung": "string",
+        "cach_dung_bao_che": "string"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HOI_NUI",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "loai_remedy": "Chưa rõ",
+        "loai_che_pham": "Chưa rõ",
+        "doi_tuong_thu_huong": "string",
+        "ap_dung_cho_loai": "null",
+        "lieu_luong": "string",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "string",
+        "mo_ta_chi_tiet": "Trong quả và lá cây hồi núi có tinh dầu: Mùi tinh dầu có phần giống mùi hồi, nhưng có phần giống hạt tiêu.",
+        "ghi_chu": "string"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T338",
+        "all_sources": [
+          "CT_VT_VN_T338"
+        ]
+      }
+    },
+    {
+      "from": "VT_HOI_NUI",
+      "to": "B_NGO_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng (do dùng nhầm)",
+        "ghi_chu": "Quả hồi núi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T338",
+        "all_sources": [
+          "CT_VT_VN_T338"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 19.5,
+      "reliability_c_score": 0.8167,
+      "total_confidence_sum": 2.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

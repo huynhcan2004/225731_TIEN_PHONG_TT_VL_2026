@@ -1,0 +1,514 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LO_CAM_THACH",
+    "ten_raw": "Lô cam thạch",
+    "ten_khoa_hoc": "$Calamina (Smithsonitum).$",
+    "ho_thuc_vat": "$Chưa rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chưa rõ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "tùy theo vết loét",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "Mỏ kẽm vùng Tuyên Quang ở nước ta có lỗ cam thạch."
+    },
+    "display_name": "Vị thuốc Lô cam thạch",
+    "canonical_name": "Vị thuốc Lô cam thạch"
+  },
+  "nodes": [
+    {
+      "id": "BT_AM_NGUA_CAM_THACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Am Ngựa Cam Thạch",
+        "aliases": [
+          "am ngua cam thach",
+          "amnguacamthach",
+          "am ngựa cam thạch"
+        ],
+        "search_vector_hint": "Bài thuốc Am Ngựa Cam Thạch thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh ở vùng kín."
+      }
+    },
+    {
+      "id": "BT_MUN_NHOT_LO_CAM_THACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mụn nhọt Lô cam thạch",
+        "aliases": [
+          "munnhotlocamthach",
+          "mụn nhọt lô cam thạch",
+          "mun nhot lo cam thach"
+        ],
+        "search_vector_hint": "Bài thuốc Mụn nhọt Lô cam thạch thuộc nhóm bài thuốc, thường liên quan đến điều trị mụn nhọt."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vết loét",
+        "aliases": [
+          "vet loet",
+          "vết loét",
+          "vetloet"
+        ],
+        "search_vector_hint": "Bệnh Vết loét thuộc nhóm bệnh, thường liên quan đến tổn thương trên da hoặc niêm mạc."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_SANG_MAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sáng mắt",
+        "aliases": [
+          "sáng mắt",
+          "sangmat",
+          "sang mat"
+        ],
+        "search_vector_hint": "Công năng Sáng mắt thuộc nhóm công năng, thường liên quan đến cải thiện thị lực."
+      }
+    },
+    {
+      "id": "CN_SINH_DA_NON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh da non",
+        "aliases": [
+          "sinhdanon",
+          "sinh da non"
+        ],
+        "search_vector_hint": "Công năng Sinh da non thuộc nhóm công năng, thường liên quan đến tái tạo da."
+      }
+    },
+    {
+      "id": "CN_TAN_MANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan màng",
+        "aliases": [
+          "tan màng",
+          "tanmang",
+          "tan mang"
+        ],
+        "search_vector_hint": "Công năng Tan màng thuộc nhóm công năng, thường liên quan đến làm tan các màng xơ."
+      }
+    },
+    {
+      "id": "CN_TIEU_THUNG_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu thũng độc",
+        "aliases": [
+          "tieuthungdoc",
+          "tieu thung doc",
+          "tiêu thũng độc"
+        ],
+        "search_vector_hint": "Công năng Tiêu thũng độc thuộc nhóm công năng, thường liên quan đến giải độc và giảm sưng."
+      }
+    },
+    {
+      "id": "S_AM_NGUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Âm ngứa",
+        "aliases": [
+          "ngua vung kin",
+          "ngứa âm đạo",
+          "ngứa vùng kín",
+          "am ngua",
+          "amngua",
+          "ngua am dao",
+          "âm ngứa",
+          "nguaamdao",
+          "nguavungkin"
+        ],
+        "search_vector_hint": "Triệu chứng Âm ngứa thuộc nhóm triệu chứng, thường liên quan đến bệnh phụ khoa."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BANG_PHIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Băng phiến",
+        "aliases": [
+          "long nao huong",
+          "long não hương",
+          "bangphien",
+          "longnaohuong",
+          "bang phien",
+          "băng phiến"
+        ],
+        "search_vector_hint": "Băng phiến thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_HOANG_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng liên",
+        "aliases": [
+          "hoàng liên",
+          "hoang lien",
+          "hoanglien"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng liên thuộc nhóm vị thuốc, thường liên quan đến tính kháng khuẩn."
+      }
+    },
+    {
+      "id": "VT_LO_CAM_THACH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lô cam thạch",
+        "aliases": [
+          "lo cam thach",
+          "locamthach",
+          "lô cam thạch"
+        ],
+        "search_vector_hint": "Vị thuốc Lô cam thạch thuộc nhóm vị thuốc, thường liên quan đến khoáng vật.",
+        "bo_phan_dung": "chưa rõ",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "tùy theo vết loét",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "Mỏ kẽm vùng Tuyên Quang ở nước ta có lỗ cam thạch.",
+        "ten_khoa_hoc": "$Calamina (Smithsonitum).$",
+        "ho_thuc_vat": "$Chưa rõ$",
+        "hinh_thai_chi_tiet": "Lo cam thạch là những cục to nhỏ không đều, màu trắng xám hay hơi xanh, chất hơi xốp, khi nếm có vị không rõ rệt, dính vào lưỡi."
+      }
+    },
+    {
+      "id": "VT_MAU_LE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mẫu lệ",
+        "aliases": [
+          "maule",
+          "mẫu lệ",
+          "mau le"
+        ],
+        "search_vector_hint": "Vị thuốc Mẫu lệ thuộc nhóm vị thuốc, thường liên quan đến trị các bệnh lý về xương khớp."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1060"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Lo cam thạch là những cục to nhỏ không đều, màu trắng xám hay hơi xanh, chất hơi xốp, khi nếm có vị không rõ rệt, dính vào lưỡi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "lô cam thạch có vị ngọt, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "lô cam thạch có vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_LO_CAM_THACH",
+      "to": "VT_LO_CAM_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$300g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_LO_CAM_THACH",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$160g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_LO_CAM_THACH",
+      "to": "VT_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_LO_CAM_THACH",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AM_NGUA_CAM_THACH",
+      "to": "VT_LO_CAM_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AM_NGUA_CAM_THACH",
+      "to": "VT_MAU_LE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AM_NGUA_CAM_THACH",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AM_NGUA_CAM_THACH",
+      "to": "S_AM_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "CN_TIEU_THUNG_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thũng độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "CN_SINH_DA_NON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm cho lên da non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "CN_SANG_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sáng mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LO_CAM_THACH",
+      "to": "CN_TAN_MANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tan màng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1060",
+        "all_sources": [
+          "CT_VT_VN_T1060"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 29.5,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

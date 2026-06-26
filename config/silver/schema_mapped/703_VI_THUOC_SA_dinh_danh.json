@@ -1,0 +1,89 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SA",
+    "ten_raw": "Sả",
+    "ten_khoa_hoc": "Semen Sojae praeparatum.",
+    "ho_thuc_vat": "",
+    "variants": [
+      "Đậu sự",
+      "đạm đậu sị"
+    ],
+    "properties": {
+      "bo_phan_dung": "Đậu đen chế biến và phơi hay sấy khô"
+    },
+    "display_name": "Sả"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T703",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "703"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T704]: Trong đậu sị có thành phần của đậu đen (xem vị này) ngoài ra khi cho lên men thêm một số men. Nhưng chưa thấy có tài liệu nghiên cứu sâu hơn."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SA",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "VI_THUOC_SA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    }
+  ]
+}

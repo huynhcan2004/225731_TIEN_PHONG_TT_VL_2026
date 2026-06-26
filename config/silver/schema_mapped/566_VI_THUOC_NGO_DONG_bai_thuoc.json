@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_NGO_DONG",
+  "source": {
+    "source_id": "CT_VT_VN_T566",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "566"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NGO_DOC_THUC_AN_SON_TU_CDNTXCSXM",
+      "to": "VI_THUOC_NGO_DONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa ngộ độc thức ăn với nhiều vị thuốc hỗ trợ giải độc, thanh nhiệt, sát trùng.",
+        "cach_dung": "Mỗi lần dùng $1$ đến $2g$, ngày uống $1$ đến $2$ lần, dùng nước nóng chiều thuốc.",
+        "ghi_chu": "Chế thành thuốc đỉnh hay thuốc viên, mỗi đỉnh hay viên $2$ hoặc $4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_THUC_AN_SON_TU_CDNTXCSXM",
+      "to": "B_NGO_DOC_THUC_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngộ độc thức ăn, nôn hay ỉa được là khỏi.",
+        "cach_dung": "Mỗi lần dùng $1$ đến $2g$, ngày uống $1$ đến $2$ lần, dùng nước nóng chiều thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T566"
+      }
+    }
+  ],
+  "metadata": {}
+}

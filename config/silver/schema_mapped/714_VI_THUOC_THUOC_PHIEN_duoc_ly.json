@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_THUOC_PHIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T714",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "714"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc phiện là một vị thuốc giảm đau rất mạnh, dùng trong những trường hợp đau không thể chịu đựng được như ung thư, đau dây thần kinh, đau do sỏi thận, sỏi mật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "DL_GIAM_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc phiện còn làm giảm ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUOC_PHIEN",
+      "to": "DL_TRI_IA_CHAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc phiện còn chữa ỉa chảy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714"
+      }
+    }
+  ],
+  "metadata": {}
+}

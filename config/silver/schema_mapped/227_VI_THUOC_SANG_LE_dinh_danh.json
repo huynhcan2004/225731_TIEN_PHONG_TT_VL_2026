@@ -1,0 +1,144 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SANG_LE",
+    "ten_raw": "Săng lẻ",
+    "ten_khoa_hoc": "Lagerstroemia calyculata Kurz; Lagerstroemia angustifolia Pierre ex.Lan.",
+    "ho_thuc_vat": "Tử vi (Lythraceae)",
+    "variants": [
+      "bằng lang",
+      "bằng lăng (miền Nam)",
+      "kwer (dân tộc Ma, Tây Nguyên)",
+      "thao lao",
+      "truon (Rađê, Tây Nguyên)",
+      "bằng lăng nước",
+      "bằng lăng ổi",
+      "bằng lăng chèo",
+      "bằng lăng tía",
+      "bằng lăng trắng"
+    ],
+    "properties": {
+      "phan_bo": "Mọc hoang dại hầu như ở khắc nước ta nhưng nhiều nhất ở Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên, Gia Lai, Kontum, Đắc Lắc. Còn thấy mọc ở Lào, Campuchia, Thái Lan, Miến Điện, Ấn Độ."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T227",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "227"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây gỗ cao $30-35m$, thân gỗ có đường kính $40-80cm$, cành mảnh khảnh, có lông mềm màu hung, lông hình sao, có ở ngọn, sau nhẵn và hình trụ. Lá mũi mác, thuôn dài, hẹp dần, tù ở gốc, dài $7-14cm$, rộng $20-50mm$ dai, lúc đầu có lông hình sao, sau không lông ở phía trên, có nhiều lộng mềm hơn ở mặt dưới, gần phụ $10-13$ đôi. Cụm hoa mọc ở đỉnh với $6-8$ hoa, nụ hình nón ngược hay trái xoan, đài hình chuông, rất nhiều lông mềm, 6 thùy hình ba cạnh, cánh hoa 6, hình mắt chim, nhị có nhiều gần bằng nhau, nhị bầu xù xì có $5-6$ ô, quả nang hình trứng dài $12mm$, tụt vào trong dài tới $1/3$ (Hình 155 ).",
+        "thanh_phan_hoa_hoc": [
+          "Hoàng Như Mai (1983) đã phân tích thấy: Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol. Trong đó tanin catechic và gallic chiếm $30,5\\%$ chủ yếu là tanin catechic $23\\%$, tanin gallic $7\\%$. Axit hữu cơ biểu thị bằng axit malic $4,22\\%$, tổng số đường $14,2\\%$ trong đó đường khử $13,2\\%$, saccaroza $0,95\\%$, chất nhầy $2,76\\%$, gôm $3\\%$, pectin $2,81\\%$. Trong lá và hoa cũng có những chất như trong vỏ thân nhưng với tỷ lệ thấp hơn: tanin catechic và gallic $5,42\\%$ trong đó tanin catechic chiếm $76\\%$, tanin gallic $24\\%$, axit hữu cơ $2,83\\%$ (lá), đường $5,8\\%$ trong đó đường khử $5,2\\%$, saccaroza $0,57\\%$, chỉ số bọt dưới 100, nhưng gồm chất nhầy trong lá cao hơn trong vỏ thân: Chất nhầy $3,25\\%$, gồm $3,7\\%$, pectin $6,51\\%$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_FLAVONOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_AXIT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol. Axit hữu cơ biểu thị bằng axit malic $4,22\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol. Trong đó tanin catechic và gallic chiếm $30,5\\%$ chủ yếu là tanin catechic $23\\%$, tanin gallic $7\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_CUMARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_STEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân có ancaloit, flavonoit, axit hữu cơ, tanin, saponin, cumarin và sterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_SACCHAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "tổng số đường $14,2\\%$ trong đó đường khử $13,2\\%$, saccaroza $0,95\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG_LE",
+      "to": "HC_PECTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "pectin $2,81\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T227"
+      }
+    }
+  ]
+}

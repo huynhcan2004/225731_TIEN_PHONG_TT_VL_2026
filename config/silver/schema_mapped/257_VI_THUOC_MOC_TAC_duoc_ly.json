@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_MOC_TAC",
+  "source": {
+    "source_id": "CT_VT_VN_T257",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "257"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOC_TAC",
+      "to": "CN_GIAI_CO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giải cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T257"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_TAC",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T257"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_TAC",
+      "to": "CN_TAN_MANG_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tan màng mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T257"
+      }
+    }
+  ],
+  "metadata": {}
+}

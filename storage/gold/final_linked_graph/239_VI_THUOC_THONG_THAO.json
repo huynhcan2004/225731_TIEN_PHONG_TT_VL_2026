@@ -1,0 +1,646 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THONG_THAO",
+    "ten_raw": "Cây thông thảo",
+    "ten_khoa_hoc": "$Tetrapanax papyrifera (Hook) Koch; Aralia papyrifera Hook.; Terrapanax papyrifera$",
+    "ho_thuc_vat": "$Họ Nhân sâm (Araliaceae)$",
+    "variants": [
+      "Thông thảo"
+    ],
+    "properties": {
+      "bo_phan_dung": "lõi thân",
+      "thu_hai": "có thể thu hoạch quanh năm.",
+      "che_bien_tho": "đầu và chia thành từng đoạn dài $50-60cm$. dùng que tròn kích thước vừa bằng lõi mà đẩy lõi ra phơi nắng cho khô. nếu gặp mưa thì treo trong nhà, chỗ thoáng gió, không dùng than sấy vì bị biến chất.",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Vị thuốc Thông thảo",
+    "canonical_name": "Vị thuốc Thông thảo"
+  },
+  "nodes": [
+    {
+      "id": "BT_IT_SUA_THONG_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ít sữa Thông thảo",
+        "aliases": [
+          "itsuathongthao",
+          "ít sữa thông thảo",
+          "it sua thong thao"
+        ],
+        "search_vector_hint": "Bài thuốc Ít sữa Thông thảo thuộc nhóm bài thuốc, thường liên quan đến tăng tiết sữa."
+      }
+    },
+    {
+      "id": "B_IT_SUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ít sữa",
+        "aliases": [
+          "itsua",
+          "thieusua",
+          "mat sua",
+          "ít sữa",
+          "matsua",
+          "thieu sua",
+          "thiếu sữa",
+          "mất sữa",
+          "it sua"
+        ],
+        "search_vector_hint": "Bệnh Ít sữa thuộc nhóm bệnh, thường liên quan đến phụ nữ sau sinh."
+      }
+    },
+    {
+      "id": "B_THUY_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thủy thũng",
+        "aliases": [
+          "phù",
+          "thủy thũng",
+          "phu",
+          "thuythung",
+          "thuy thung"
+        ],
+        "search_vector_hint": "Bệnh Thủy thũng thuộc nhóm Bệnh, thường liên quan đến tình trạng tích tụ dịch trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_HA_SUA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hạ sữa",
+        "aliases": [
+          "hạ sữa",
+          "hasua",
+          "ha sua"
+        ],
+        "search_vector_hint": "Công năng Hạ sữa thuộc nhóm công năng, thường liên quan đến giảm tiết sữa."
+      }
+    },
+    {
+      "id": "CN_LOI_SUA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi sữa",
+        "aliases": [
+          "lợi sữa",
+          "loisua",
+          "loi sua"
+        ],
+        "search_vector_hint": "Công năng Lợi sữa thuộc nhóm Công năng, thường liên quan đến khả năng tăng tiết sữa."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Lợi tiểu thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_THAP_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh thấp nhiệt",
+        "aliases": [
+          "thanh thap nhiet",
+          "thanhthapnhiet",
+          "thanh thấp nhiệt"
+        ],
+        "search_vector_hint": "Công năng Thanh thấp nhiệt thuộc nhóm công năng, thường liên quan đến thanh nhiệt và trừ thấp."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_GIAM_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Giảm sốt",
+        "aliases": [
+          "giảm sốt",
+          "giamsot",
+          "giam sot"
+        ],
+        "search_vector_hint": "Triệu chứng Giảm sốt thuộc nhóm triệu chứng, thường liên quan đến hạ nhiệt độ cơ thể."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_SOT_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt khát nước",
+        "aliases": [
+          "sotvakhat",
+          "sot va khat",
+          "sotkhatnuoc",
+          "sốt và khát",
+          "sot khat nuoc",
+          "sốt khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt khát nước thuộc nhóm triệu chứng, thường liên quan đến tình trạng mất nước khi sốt."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_GAO_NEP",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cám gạo nếp",
+        "aliases": [
+          "camgaonep",
+          "cám gạo nếp",
+          "cam gao nep"
+        ],
+        "search_vector_hint": "Vị thuốc Cám gạo nếp thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc dân gian."
+      }
+    },
+    {
+      "id": "VT_HAT_BONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hạt bông",
+        "aliases": [
+          "hatbong",
+          "hat bong",
+          "hạt bông"
+        ],
+        "search_vector_hint": "Vị thuốc Hạt bông thuộc nhóm vị thuốc, thường liên quan đến điều trị các bệnh phụ khoa."
+      }
+    },
+    {
+      "id": "VT_THONG_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thông thảo",
+        "aliases": [
+          "thongthao",
+          "thong thao",
+          "thông thảo"
+        ],
+        "search_vector_hint": "Vị thuốc Thông thảo thuộc nhóm vị thuốc, thường liên quan đến lợi tiểu và thông sữa.",
+        "bo_phan_dung": "lõi thân",
+        "thu_hai": "có thể thu hoạch quanh năm.",
+        "che_bien_tho": "đầu và chia thành từng đoạn dài $50-60cm$. dùng que tròn kích thước vừa bằng lõi mà đẩy lõi ra phơi nắng cho khô. nếu gặp mưa thì treo trong nhà, chỗ thoáng gió, không dùng than sấy vì bị biến chất.",
+        "lieu_dung_chung": "Không đề cập",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "ten_khoa_hoc": "$Tetrapanax papyrifera (Hook) Koch; Aralia papyrifera Hook.; Terrapanax papyrifera$",
+        "ho_thuc_vat": "$Họ Nhân sâm (Araliaceae)$",
+        "hinh_thai_chi_tiet": "Thông thảo là một cây nhỏ thường cao $3m$ có khi có thể tới $6m$. Thân cứng nhưng dòn. Giữa thân có lõi trắng xốp, cây càng già, lõi càng đặc và chắc hơn. Lá to chia thành nhiều thùy có khi cắt sâu, mép có răng cưa to, cuống lá dài $30cm$, đường kính làm có lõi mềm, phiến lá dài $30cm$ đến $90cm$: Hoa màu trắng hình cầu, cụm hoa hình tán tụ thành chùm. Quả dẹt gần hình cầu (Hình 166, Hm 49,2 ). Đầu và chia thành từng đoạn dài $50-60cm$. Dùng que tròn kích thước vừa bằng lõi mà đẩy lõi ra phơi nắng cho khô. Nếu gặp mưa thì treo trong nhà, chỗ thoáng gió, không dùng than sấy vì bị biến chất. Có thể thu hoạch quanh năm.",
+        "lieu_dung_tong_quat": "Không tìm thấy thông tin.",
+        "ghi_chu_bo_sung": "Không tìm thấy thông tin.",
+        "cach_dung_bao_che": "Không tìm thấy thông tin."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NHAT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Nhat",
+        "aliases": [
+          "nhat",
+          "nhật"
+        ],
+        "search_vector_hint": "Vị Nhật thuộc nhóm vị thuốc, thường liên quan đến hương vị của dược liệu."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "239"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NHAT_DAM",
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_VI",
+          "K_PHE"
+        ],
+        "cong_nang": "lợi tiểu, thanh thấp nhiệt, hạ sữa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thông thảo là một cây nhỏ thường cao $3m$ có khi có thể tới $6m$. Thân cứng nhưng dòn. Giữa thân có lõi trắng xốp, cây càng già, lõi càng đặc và chắc hơn. Lá to chia thành nhiều thùy có khi cắt sâu, mép có răng cưa to, cuống lá dài $30cm$, đường kính làm có lõi mềm, phiến lá dài $30cm$ đến $90cm$: Hoa màu trắng hình cầu, cụm hoa hình tán tụ thành chùm. Quả dẹt gần hình cầu (Hình 166, Hm 49,2 ). Đầu và chia thành từng đoạn dài $50-60cm$. Dùng que tròn kích thước vừa bằng lõi mà đẩy lõi ra phơi nắng cho khô. Nếu gặp mưa thì treo trong nhà, chỗ thoáng gió, không dùng than sấy vì bị biến chất. Có thể thu hoạch quanh năm.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Không tìm thấy thông tin.",
+        "ghi_chu_bo_sung": "Không tìm thấy thông tin.",
+        "cach_dung_bao_che": "Không tìm thấy thông tin."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THONG_THAO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "V_NHAT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị nhạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "B_IT_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "S_GIAM_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "S_SOT_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "CN_LOI_SUA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IT_SUA_THONG_THAO",
+      "to": "VT_THONG_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "Đơn thuốc lợi sữa - Ít sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IT_SUA_THONG_THAO",
+      "to": "VT_CAM_GAO_NEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "Đơn thuốc lợi sữa - Ít sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IT_SUA_THONG_THAO",
+      "to": "VT_HAT_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Tá",
+        "cach_dung": "Nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "Đơn thuốc lợi sữa - Ít sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IT_SUA_THONG_THAO",
+      "to": "B_IT_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "Đơn thuốc lợi sữa - Ít sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "CN_THANH_THAP_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thấp nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THONG_THAO",
+      "to": "CN_HA_SUA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ sữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T239",
+        "all_sources": [
+          "CT_VT_VN_T239"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 49.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

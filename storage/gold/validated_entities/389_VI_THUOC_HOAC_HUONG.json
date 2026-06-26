@@ -1,0 +1,838 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOAC_HUONG",
+    "ten_raw": "Hoặc hương",
+    "ten_khoa_hoc": "$Pogostemon cablin (Blanco) Benth.; Agastache rugosa (Fisch. et Mey) O. Kuntze Pogostemon cablin (Blanco) Benth. (Pogostemon patchouly Pellet)$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+    "variants": [
+      "quảng hoắc hương"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 6-12$g$ dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Cây hoắc hương được trồng nhiều nơi ở miền Bắc nước ta, chủ yếu lấy lá và cành làm thuốc. Nhiều nhất tại vùng Kim Sơn (Hà Nam), Hưng Yên. Tại Hà Nội, vườn thuốc Văn Điển có trồng thử. Thường trồng bằng giam cành, vì cây không có hoa quả. Tại các nước khác tại vùng nhiệt đới châu Á và châu Phi, hoắc hương được trồng rất qui mô để lấy lá cất tinh dầu. Những nước sản xuất hoắc hương nhiều nhất hiện nay là Ấn Độ, Malaixia, Philippin, Mangat, Indônêxya."
+    },
+    "display_name": "Hoắc hương",
+    "canonical_name": "Hoặc hương"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_HOAC_HUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hoac Huong"
+      }
+    },
+    {
+      "id": "HC_CON_PATCHOULI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Con Patchouli"
+      }
+    },
+    {
+      "id": "HC_CHAT_ANDEHYT_XINAMIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Andehyt Xinamic"
+      }
+    },
+    {
+      "id": "HC_ANDEHYT_BENZOIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Andehyt Benzoic"
+      }
+    },
+    {
+      "id": "HC_EUGENIOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Eugeniola"
+      }
+    },
+    {
+      "id": "HC_CADINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Cadinen"
+      }
+    },
+    {
+      "id": "HC_SESQUITECPEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sesquitecpen"
+      }
+    },
+    {
+      "id": "HC_AZULEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Azulen"
+      }
+    },
+    {
+      "id": "HC_A_BUNESINE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "A Bunesine"
+      }
+    },
+    {
+      "id": "HC_A_GUAIENE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "A Guaiene"
+      }
+    },
+    {
+      "id": "S_SOI_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Soi Bung"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "S_DI_NGOAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Di Ngoai"
+      }
+    },
+    {
+      "id": "S_HOI_MIENG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Hoi Mieng"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhuc Dau"
+      }
+    },
+    {
+      "id": "S_DAU_DON",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Don"
+      }
+    },
+    {
+      "id": "S_CAM_CUM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Cam Cum"
+      }
+    },
+    {
+      "id": "BT_DI_NGOAI_CHINH_KHI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Di Ngoai Chinh Khi"
+      }
+    },
+    {
+      "id": "VI_THUOC_TO_DIEP",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "To Diep"
+      }
+    },
+    {
+      "id": "VI_THUOC_THUONG_TRUAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Thuong Truat"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "VI_THUOC_TRAN_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Tran Bi"
+      }
+    },
+    {
+      "id": "VI_THUOC_DAI_TAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Dai Tao"
+      }
+    },
+    {
+      "id": "VI_THUOC_HAU_PHAC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Hau Phac"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHUC_LINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Phuc Linh"
+      }
+    },
+    {
+      "id": "BT_SOI_BUNG_HOAC_HUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Soi Bung Hoac Huong"
+      }
+    },
+    {
+      "id": "VI_THUOC_THACH_XUONG_BO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Thach Xuong Bo"
+      }
+    },
+    {
+      "id": "VI_THUOC_HOA_CAY_DAI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Hoa Cay Dai"
+      }
+    },
+    {
+      "id": "VI_THUOC_VO_BUOI_DAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vo Buoi Dao"
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu"
+      }
+    },
+    {
+      "id": "CN_AN_KHONG_NGON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Khong Ngon"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "389"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoắc hương là một cây cỏ sống lâu năm, thân có phân nhánh, cao chừng $30cm$ đến $60cm$. Trên thận có lông. Lá vò có mùi thơm. Lá có cuống ngắn, phiến lá hình trứng hay hình thuẫn, dài chừng $5-10cm$, rộng $2,5-7cm$, mép có răng cưa to, mặt dưới nhiều lông hơn. Hoa màu hồng tím nhạt mọc thành bông ở kẽ lá hay đầu cành. Tuy nhiên cây trồng ở Việt Nam hầu như không thấy có hoa và kết quả. Ngoài loài hoắc hương kể trên, người ta còn dùng loài hoắc hương Agastache rugosa (Fisch. et Mey.) O. Kuntze, cùng họ. Đó là một loại cỏ sống hàng năm, cao chừng $40-100cm$. Lá hình trứng dài $2-8cm$, rộng $1-5cm$, đầu lá nhọn phía cuống Cây thảo sống dai, cao $30-60cm$, có khi tới $1m$. Thân vuông màu nâu nhạt hay hơi tím. Lá mọc đối, hình trứng, mép khía răng cưa, dài $5-10cm$, rộng $2,5-5cm$, mặt hơi nhăn, có lông mịn, gân nổi rõ; cuống lá dài $1-3cm$. Hoa nhỏ màu trắng hay hơi tím, mọc thành bông ở ngọn cành hay ở kẽ lá. Quả nhỏ. Toàn cây có mùi thơm đặc biệt. Hoắc hương còn có tên là quảng hoắc hương, tên khoa học là Pogostemon heyneanus Benth. Cây nhỏ hơn, cao chừng $30cm$. Lá nhỏ hơn, dài $4-8cm$, rộng $2-4cm$, hình trứng hơi hình tim, cuống dài $1-4cm$, mép có răng cưa thô, to. Hoa mọc thành vòng quanh thân ở đầu cành hay kẽ lá. Cánh hoa màu tím hay màu trắng Mùa hoa tháng 6-7; mùa quả tháng 10-11. Cây này cũng có mọc ở nước ta nhưng ít phổ biến hơn loài trên.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá hoắc hương khô có chứa $0,5-0,6\\%$ tinh dầu. Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen. Long não patchouli là một rượu bậc 3, kết tinh dưới dạng tinh thể hình lục lăng, có khi kết tinh ngay trong tinh dầu. Trong tinh dầu cất từ lá cây mọc ở Hà Nội (Nguyễn Xuân Dũng và cộng sự, J. Ess. Oil Res. 2,99-100, March-April, 1989) đã thấy cồn patchouli chiếm $32-38\\%$. Ngoài ra còn 10 thành phần khác được phát hiện trong đó có a-bunesine và a-guaiene. Hoạt chất khác chưa rõ"
+        ],
+        "cach_dung_bao_che": "cành và lá phơi hay sấy khô hoặc toàn cây (trừ rễ) phơi hay sấy khô"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_CON_PATCHOULI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen.",
+        "ghi_chu": "cồn patchouli còn gọi là long não patchouli"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_CHAT_ANDEHYT_XINAMIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_ANDEHYT_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_EUGENIOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_CADINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_SESQUITECPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_AZULEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu hoắc hương là cồn patchouli, còn gọi là long não patchouli, chat andehyt xinamic, andehyt benzoic, eugeniola, cadinen, sesquitecpen và azulen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_A_BUNESINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn 10 thành phần khác được phát hiện trong đó có a-bunesine và a-guaiene."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "HC_A_GUAIENE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn 10 thành phần khác được phát hiện trong đó có a-bunesine và a-guaiene."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "CN_AN_KHONG_NGON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_SOI_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_HOI_MIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác.",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_DAU_DON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOAC_HUONG",
+      "to": "S_CAM_CUM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "dưới dạng thuốc sắc hay thuốc bột, dùng riêng hay phối hợp với vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_HOAC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_TO_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Thần",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "4 quả",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DI_NGOAI_CHINH_KHI",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "Hoắc hương chính khí hay kiện tì chi tả tán"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "VI_THUOC_HOAC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "VI_THUOC_THACH_XUONG_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "VI_THUOC_HOA_CAY_DAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "VI_THUOC_VO_BUOI_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOI_BUNG_HOAC_HUONG",
+      "to": "S_SOI_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T389",
+        "all_sources": [
+          "CT_VT_VN_T389"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 56.0,
+      "reliability_c_score": 0.7556,
+      "total_confidence_sum": 27.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

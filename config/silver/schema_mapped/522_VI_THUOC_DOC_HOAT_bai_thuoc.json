@@ -1,0 +1,256 @@
+{
+  "entity_hub": "VI_THUOC_DOC_HOAT",
+  "source": {
+    "source_id": "CT_VT_VN_T522",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "522"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_NHUC_XUONG_DOC_HOAT_D",
+      "to": "VI_THUOC_DOC_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Độc hoạt được sử dụng đơn lẻ để điều trị đau nhức xương khớp.",
+        "cach_dung": "Ngày dùng $10$ đến $30g$ dưới dạng thuốc sắc hay ngâm rượu uống",
+        "ghi_chu": "CT_VT_VN_T523"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DOC_HOAT_D",
+      "to": "B_DAU_NHUC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức xương, đau nhức đầu, tê thấp",
+        "cach_dung": "Ngày dùng $10$ đến $30g$ dưới dạng thuốc sắc hay ngâm rượu uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DOC_HOAT_D",
+      "to": "S_DAU_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức xương, đau nhức đầu, tê thấp",
+        "cach_dung": "Ngày dùng $10$ đến $30g$ dưới dạng thuốc sắc hay ngâm rượu uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DOC_HOAT_D",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức xương, đau nhức đầu, tê thấp",
+        "cach_dung": "Ngày dùng $10$ đến $30g$ dưới dạng thuốc sắc hay ngâm rượu uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_DOC_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_CAT_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_NHAN_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_CAN_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_PHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "VI_THUOC_DAU_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc khu phong trừ thấp, bổ khí huyết, giảm đau.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T526"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "BT_CAC_KHOP_XUONG_DAU_NHUC_DDPPTNHKCPD",
+      "to": "B_DAU_NHUC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa các khớp xương đau nhức",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_CO_SUA_NHO_LA",
+  "source": {
+    "source_id": "CT_VT_VN_T214",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "214"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_CO_SUA_NHO_LA_C",
+      "to": "VI_THUOC_CO_SUA_NHO_LA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15g$ đến $20g$ (có thể dùng tới $50g$)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_LY_CO_SUA_NHO_LA_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_LY_CO_SUA_NHO_LA_C",
+      "to": "VI_THUOC_CO_SUA_NHO_LA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$100-150g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_LY_CO_SUA_NHO_LA_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_HOI_CHUNG_LY_CO_SUA_NHO_LA_CH",
+      "to": "VI_THUOC_CO_SUA_NHO_LA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cỏ sữa lớn lá phối hợp với vị hoàng đằng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_HOI_CHUNG_LY_CO_SUA_NHO_LA_CH",
+      "to": "VI_THUOC_HOANG_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cỏ sữa lớn lá phối hợp với vị hoàng đằng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    },
+    {
+      "from": "BT_HOI_CHUNG_LY_CO_SUA_NHO_LA_CH",
+      "to": "B_HOI_CHUNG_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hội chứng ly",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T214"
+      }
+    }
+  ],
+  "metadata": {}
+}

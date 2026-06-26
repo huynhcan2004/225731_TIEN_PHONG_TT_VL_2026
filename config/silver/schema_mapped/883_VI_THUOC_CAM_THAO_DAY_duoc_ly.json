@@ -1,0 +1,112 @@
+{
+  "entity_hub": "VI_THUOC_CAM_THAO_DAY",
+  "source": {
+    "source_id": "CT_VT_VN_T883",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "883"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CN_BO_TY_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ tỳ vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CN_NHUAN_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CN_DIEU_HOA_CAC_VI_THUOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều hòa các vị thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "DL_DOI_KHANG_CO_TRON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng tiêu giật (spasmolytique) đối với cơ trơn ống tiêu hóa. Kết quả thí nghiệm so sánh tác dụng của nước cam thảo với papaverin clohydrat là $1/450$ và $1/3.100$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "DL_NOI_TIET_TO_DUC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cam thảo có chất tác dụng như nội tiết tố dục tính đối với âm đạo chuột bạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "DL_TIEU_VIEM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng tiêu viêm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,55 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SONG_RAN",
+    "ten_raw": "Cây sóng rắn",
+    "ten_khoa_hoc": "Adenanthera pavonina L.",
+    "ho_thuc_vat": "Trinh nữ (Mimosaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T886",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "886"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cay này là một cây to, cao chừng $20m$. Lá 2 lần kép lông chim, cuống chung to khỏe, dài $40cm$ hay hơn. Lá chét 6 đôi và một lá chét tận cùng, kích thước không giống nhau tùy theo mọc ở cao hay ở thấp. Cụm hoa mọc thành bông dài $15mm$. Quả hình liềm dài $15-20cm$, rộng $15mm$ khi mở ra, thì vặn vào nhau như lò xo. Hạt nhìn thấu kính, 2 mặt phình lên, mầu đỏ bóng. Mùa hoa: tháng 2-3, mùa quả: tháng 6-7.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt cây này có khoảng $25\\%$ dầu, $30\\%$ chất protit."
+        ],
+        "cach_dung_bao_che": "Tại các nước khác người ta dùng hạt làm thuốc, ở Giava, giã hạt đắp lên mụn nhọt để cho chóng vỡ mủ, chữa nhức đầu tê thấp. Tại Ấn Độ và Malaixia lá sắc uống chữa tê thấp, gỗ làm thuốc bổ. Tại Cămpuchia vỏ cây dùng chữa lỵ, với tên vẻ cây chan trey, mon trey."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt cây này có khoảng $25\\%$ dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    },
+    {
+      "from": "VI_THUOC_SONG_RAN",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt cây này có khoảng $30\\%$ chất protit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T886"
+      }
+    }
+  ]
+}

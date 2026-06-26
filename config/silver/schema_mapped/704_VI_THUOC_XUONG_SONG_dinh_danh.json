@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XUONG_SONG",
+    "ten_raw": "Xương sông",
+    "ten_khoa_hoc": "Eryngium foetidum L.; Blumea myriocephala DC.; Conyza lanceolaria Roxb. Gorteria setosa Lour.; Fluggea virosa (Roxb.Ex Willd) Baill. (Fluggea microcarpa Blume)",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae); Cúc Asteraceae (Compositae); Thầu dầu Euphorbiaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "khắp nơi ở nước ta",
+      "thu_hai": "hái tươi",
+      "che_bien_tho": "phơi khô trong mát"
+    },
+    "display_name": "Xương sông"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T704",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "704"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ mọc hằng năm, nhẵn, thân đơn độc, chia cành ở đầu ngọn, cao $0,15$ đến $0,50m$. Lá ở gốc mọc thành hoa thị, mỏng, hình mác thuôn dài, mép có răng cưa, răng hơi có gai. Lá trên thân nhiều răng cưa hơn, gai sắc hơn, xẻ 3 đến 7 thùy. Cụm hoa hình đầu hình bầu dục, hay hình trụ, tổng bao gồm 5-7, lá bắc hình mác hẹp, mỗi bên có 1-2 răng, trên đầu có một gai nhọn. Quả hình cầu hơi dẹt, đường kính $2mm$ (Hình 529).",
+        "thanh_phan_hoa_hoc": [
+          "Toàn cây có tình dầu. Thành phần tinh dầu chưa thấy được nghiên cứu."
+        ],
+        "ghi_chu_bo_sung": "mọc ở các nước nhiệt đới và á nhiệt đới khác. Người ta cho rằng cây này nguồn gốc ở châu Mỹ. Một số nơi trồng để làm rau ăn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XUONG_SONG",
+      "to": "HC_METHYLTHYMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá xương sông Việt Nam có $0,24\\%$ tinh dầu với thành phần chủ yếu là methylthymol ($94,96\\%$), ngoài ra còn p. cymen ($3,28\\%$), limonen ($0,12\\%$) v.v.."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_SONG",
+      "to": "HC_P_CYMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá xương sông Việt Nam có $0,24\\%$ tinh dầu với thành phần chủ yếu là methylthymol ($94,96\\%$), ngoài ra còn p. cymen ($3,28\\%$), limonen ($0,12\\%$) v.v.."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUONG_SONG",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá xương sông Việt Nam có $0,24\\%$ tinh dầu với thành phần chủ yếu là methylthymol ($94,96\\%$), ngoài ra còn p. cymen ($3,28\\%$), limonen ($0,12\\%$) v.v.."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    }
+  ]
+}

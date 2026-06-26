@@ -1,0 +1,106 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_DAI_HOA_TRANG",
+    "ten_raw": "Cà dại hoa trắng",
+    "ten_khoa_hoc": "$Solanum torvum Swartz.$",
+    "ho_thuc_vat": "$họ Cà Solanaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "mùa hoa quả: tháng 4-7.",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Mọc hoang dại ở khắp nơi, tại những bãi trống, ven đường."
+    },
+    "display_name": "Cà dại hoa trắng",
+    "canonical_name": "Cà dại hoa trắng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_DAI_HOA_TRANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Dai Hoa Trang"
+      }
+    },
+    {
+      "id": "HC_SOLASONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Solasonin"
+      }
+    },
+    {
+      "id": "B_NUT_NE_CHAN_TAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Nut Ne Chan Tay"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T559",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "559"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cao 2-3m, thân ít gai, trên phủ nhiều lông hình sao mang nhiều cành mềm, có lông. Lá mọc so le, hình trứng, không đều và lệch ở phía dưới, phiến lá dài 8-20cm, rộng 6-18cm, chia thùy nông, cuống lá dài 1,5-10cm. Hoa trắng, mặt ngoài có lông, mọc thành chùm nhiều nhánh ở kẽ lá. Quả hình cầu, đường kính 12-15mm, nhẵn khi chín có màu vàng. Hạt hình đĩa, có những đường nhăn nhỏ, đường kính 1,5-2mm. Mùa hoa quả: tháng 4-7.",
+        "thanh_phan_hoa_hoc": [
+          "Quả chứa một lượng nhỏ sitosterol, một dầu béo và một ancaloit gần như `$solasonin$`"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TRANG",
+      "to": "HC_SOLASONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa một lượng nhỏ sitosterol, một dầu béo và một ancaloit gần như `$solasonin$`",
+        "ghi_chu": "Ancaloit gần như `$solasonin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559",
+        "all_sources": [
+          "CT_VT_VN_T559"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_DAI_HOA_TRANG",
+      "to": "B_NUT_NE_CHAN_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Quả còn xanh giã nát lấy nước bôi",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm. Nơi sâu bọ đốt, nước ăn chân tay đều dùng được. CT_VT_VN_T559"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559",
+        "all_sources": [
+          "CT_VT_VN_T559"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 19.5,
+      "reliability_c_score": 0.8167,
+      "total_confidence_sum": 2.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

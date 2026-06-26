@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAI_CHUA",
+    "ten_raw": "Tai chua",
+    "ten_khoa_hoc": "Garcinia pedunculata Roxb.; G. cowa Roxb.",
+    "ho_thuc_vat": "Bứa Clusiaceae (Guttiferae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Mọc hoang tại nhiều khu rừng miền Bắc nước\nta, nhiều nhất ở Phú Thọ, Yên Bái, Lào Cai, Hòa\nBình, Tuyên Quang, Hà Giang, Bắc Cạn, Thái\nNguyên, Cao Bằng, Lạng Sơn.",
+      "che_bien_tho": "Thường hái về bỏ hạt, thái thành từng miếng\nmỏng phơi hay sấy khô, có màu đen nâu nhạt,\nhơi mềm."
+    },
+    "display_name": "Tai chua"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T436",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "436"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ mọc thẳng, thân thường có nhiều u lồi. Cành nhiều và mảnh, thường nằm ngang, đầu hơi rủ xuống. Lá hình trứng ngược, đầu lá tù, đuôi lá hình nêm, dài $7$-$17cm$, rộng $2,5$-$6cm$, gân lá rõ ở cả hai mặt, đường gân phụ nối liền với nhau ở mép. Cuống lá mảnh, dài gần $2cm$. Cụm hoa đực có $3$-$8$ hoa xếp hình tán, hoa có cuống dài lam, đài 4, tràng 4 cánh dày, nhị xếp thành một khối, chỉ nhị ngắn. Hoa lưỡng tính đơn lẻ, hay tụ thành 2-3 hoa mọc nách lá, gần không cuống, nhị họp thành 4 bó, mỗi bó 1-8, bao phấn 4 ô. Bầu thượng 6-9 ô, đầu nhị xẻ 4-8 thùy hình nêm. Quả mập hình cầu dẹt, trên có những múi nổi rõ ( Hình 322 ).",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu trong tai chua là axit xitric, ngoài ra còn có một số axit tactric và axit malic. Hàm lượng axit tính theo axit xitric lên tới $32\\%$ trong quả khô.",
+          "M. Haim de Balzac, A. Parveaud và J. Rollang (1928, Bull Agence Gén Colonies, số 231) đã nghiên cứu kỹ và kết luận tại chua là một nguồn axit xitric quan trọng.",
+          "Trong tai chua có một chất gây nôn mửa. Một số nơi dùng hạt tai chua nướng ăn thơm ngon, nhưng hay gây nôn mửa."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAI_CHUA",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tai chua là axit xitric, ngoài ra còn có một số axit tactric và axit malic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T436"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAI_CHUA",
+      "to": "HC_AXIT_TACTRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tai chua là axit xitric, ngoài ra còn có một số axit tactric và axit malic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T436"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAI_CHUA",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tai chua là axit xitric, ngoài ra còn có một số axit tactric và axit malic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T436"
+      }
+    }
+  ]
+}

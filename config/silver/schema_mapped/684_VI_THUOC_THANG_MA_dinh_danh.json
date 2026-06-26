@@ -1,0 +1,180 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THANG_MA",
+    "ten_raw": "Thăng ma",
+    "ten_khoa_hoc": "Ligusticum brachylobum; Ledebouriella seseloides; Seseli delavayi Siler divaricatum",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T684",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "684"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_BANG_QUANG",
+          "K_CAN",
+          "K_PHE",
+          "K_TY",
+          "K_VI"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "A. Mô tả cây Cày xuyên phòng phong (Ligusticum brachylobum) là một cây sống lâu năm cao tới $1$m. Từ gốc ra những lá có cuống dài $10-15$cm, phía dưới cuống phát triển thành bẹ ôm lấy thân. Lá $2-3$ lần xẻ lông chim. Cụm hoa hình tán kép gồm $25-30$ tán nhỏ, dài ngắn không đều, dài từ $5-$ $8$cm, mỗi tán nhỏ mang $25-30$ hoa màu trắng. Quả kép gồm $2$ phần quả, hình trứng dẹt không có lông, trên lưng có sống chạy dọc, giữa sống có $3$ ống tinh dầu, mặt tiếp xúc có $5-6$ ống tinh dầu, hai bên mép phát triển thành cánh ( Hình 515). Cây phòng phong hay thiên phòng phong (Ledebouriella seseloides) cũng là một cây sống lâu năm, cao $0,3-0,8$m, lá mọc so le, có cuống dài, phía dưới cũng phát triển thành bẹ ôm vào thân, phiến lá xẻ lông chim $2-3$ lần trông giống lá ngải cứu. Cụm hoa hình tán kép, mỗi tán kép có $5-7$ tán nhỏ, cuống tán nhỏ không đều nhau. Mỗi tán nhỏ có $4-9$ hoa nhỏ màu trắng. Quả kép gồm $2$ phân quả, hai quả dính nhau trông như hình chuông; trên lưng quả có sống chạy dọc, giữa sống có một ống tinh dầu, mặt tiếp xúc giữa $2$ phân quả có $1$ ống tinh dầu ( Hình 516). Cây vân phòng phong hay phòng phong lá tre-trúc điệp phòng phong (Seseli delavayi) là một cây sống lâu năm cao $0,3-0,5$m, lá kép $2-3$ lần xẻ lông chim có cuống dài, thùy lá giống lá tre dài $7-10$cm, rộng $2-4$cm, mép nguyên. Cụm hoa hình tán kép gồm $5-8$ tán nhỏ, mỗi tán nhỏ gồm $10-20$ hoa nhỏ có cuống dài ngắn không đều. Hoa màu trắng. Quả hình trứng dài màu tím nâu, trên lưng phân quả có sống chạy dọc, giữa sống quả có $3$ ống tinh dầu, ở mặt tiếp xúc giữa $2$ phân quả có $5$ ống tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "C. Thành phần hoá học Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất manit, những chất có tính chất phenola với độ chảy $92°C$, glucozit đắng và các chất đường.",
+          "Theo Ư Đạt Vọng, trong loại phòng phong (Siler divaricatum) có $0,05\\%$ tinh dầu.",
+          "Các loại phòng phong khác chưa thấy có tài liệu nghiên cứu."
+        ],
+        "lieu_dung_tong_quat": "Vào hai mùa xuân, thu, đào lấy rễ , cắt bỏ phần trên, phơi hay sấy khô là được."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 5 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "HC_MANIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất manit, những chất có tính chất phenola với độ chảy $92°C$, glucozit đắng và các chất đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "HC_PHENOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất manit, những chất có tính chất phenola với độ chảy $92°C$, glucozit đắng và các chất đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phòng phong (Ledebouriella seseloides) người ta đã thấy có các chất manit, những chất có tính chất phenola với độ chảy $92°C$, glucozit đắng và các chất đường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANG_MA",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Ư Đạt Vọng, trong loại phòng phong (Siler divaricatum) có $0,05\\%$ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T684"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_SANG",
+  "source": {
+    "source_id": "CT_VT_VN_T165",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "165"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SANG",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàn the được dùng làm thuốc uống trong chữa sốt nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T165"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG",
+      "to": "DL_LONG_DAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hàn the được dùng làm thuốc uống trong chữa ho có đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T165"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG",
+      "to": "DL_TRI_VET_THUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài giã nát đắp vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T165"
+      }
+    },
+    {
+      "from": "VI_THUOC_SANG",
+      "to": "DL_TRI_VET_LOET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài giã nát đắp vết loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T165"
+      }
+    }
+  ],
+  "metadata": {}
+}

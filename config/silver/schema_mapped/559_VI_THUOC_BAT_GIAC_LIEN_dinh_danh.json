@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAT_GIAC_LIEN",
+    "ten_raw": "Bát giác liên",
+    "ten_khoa_hoc": "Solanum torvum Swartz.; Lantana camara",
+    "ho_thuc_vat": "Cà Solanaceae (Solanaceae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Mọc hoang dại ở khắp nơi, tại những bãi trống, ven đường.",
+      "thu_hai": "Người ta dùng rễ thu hái quanh năm.",
+      "che_bien_tho": "Đào về rửa sạch, thái mỏng phơi hay sấy khô. Người ta còn dùng quả hái khi chưa chín hẳn."
+    },
+    "display_name": "Bát giác liên"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T559",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "559"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cao $2$-$3m$, thân ít gai, trên phủ nhiều lông hình sao mang nhiều cành mềm, có lông. Lá mọc so le, hình trứng, không đều và lệch ở phía dưới, phiến lá dài $8$-$20cm$, rộng $6$-$18cm$, chia thùy nông, cuống lá dài $1,5$-$10cm$. Hoa trắng, mặt ngoài có lông, mọc thành chùm nhiều nhánh ở kẽ lá. Quả hình cầu, đường kính $12$-$15mm$, nhẵn khi chín có màu vàng. Hạt hình đĩa, có những đường nhăn nhỏ, đường kính $1,5$-$2mm$. Mùa hoa quả: tháng 4-7 ( Hình 422).",
+        "thanh_phan_hoa_hoc": [
+          "Quả chứa một lượng nhỏ sitosterol, một dầu béo và một ancaloit gần như $solasonin$ (theo Krishnamurti G. V. et T. R. Seshadri, 1949, J Sci. Industr. Res. Part. B, Inde, 8: 97-99)."
+        ],
+        "cach_dung_bao_che": "Người ta dùng rễ thu hái quanh năm. Đào về rửa sạch, thái mỏng phơi hay sấy khô. Người ta còn dùng quả hái khi chưa chín hẳn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAT_GIAC_LIEN",
+      "to": "HC_SITOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa một lượng nhỏ sitosterol, một dầu béo và một ancaloit gần như $solasonin$ (theo Krishnamurti G. V. et T. R. Seshadri, 1949, J Sci. Industr. Res. Part. B, Inde, 8: 97-99)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAT_GIAC_LIEN",
+      "to": "HC_SOLASONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa một lượng nhỏ sitosterol, một dầu béo và một ancaloit gần như $solasonin$ (theo Krishnamurti G. V. et T. R. Seshadri, 1949, J Sci. Industr. Res. Part. B, Inde, 8: 97-99)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAT_GIAC_LIEN",
+      "to": "HC_LANTANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1943 Low đã chiết được từ cây bông ổi một chất gọi là lantanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T559"
+      }
+    }
+  ]
+}

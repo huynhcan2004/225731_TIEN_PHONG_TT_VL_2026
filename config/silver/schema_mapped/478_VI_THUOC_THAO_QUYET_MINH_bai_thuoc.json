@@ -1,0 +1,147 @@
+{
+  "entity_hub": "VI_THUOC_THAO_QUYET_MINH",
+  "source": {
+    "source_id": "CT_VT_VN_T478",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "478"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_THAO_QUYET_MINH_T",
+      "to": "VI_THUOC_THAO_QUYET_MINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thảo quyết minh trị hắc lào.",
+        "cach_dung": "Lấy nước ngâm bôi lên các chỗ hắc lào đã rửa sạch.",
+        "ghi_chu": "Ngâm trong $10$ ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_THAO_QUYET_MINH_T",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào",
+        "cach_dung": "Lấy nước ngâm bôi lên các chỗ hắc lào đã rửa sạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_THAO_QUYET_MINH_LTH",
+      "to": "VI_THUOC_THAO_QUYET_MINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thảo quyết minh phối hợp với long đờm thảo và hoàng bá để chữa đau mắt và cao huyết áp.",
+        "cach_dung": "Chia $3$ lần uống trong ngày.",
+        "ghi_chu": "Sắc còn $150ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_THAO_QUYET_MINH_LTH",
+      "to": "VI_THUOC_LONG_DOM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thảo quyết minh phối hợp với long đờm thảo và hoàng bá để chữa đau mắt và cao huyết áp.",
+        "cach_dung": "Chia $3$ lần uống trong ngày.",
+        "ghi_chu": "Sắc còn $150ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_THAO_QUYET_MINH_LTH",
+      "to": "VI_THUOC_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thảo quyết minh phối hợp với long đờm thảo và hoàng bá để chữa đau mắt và cao huyết áp.",
+        "cach_dung": "Chia $3$ lần uống trong ngày.",
+        "ghi_chu": "Sắc còn $150ml$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_THAO_QUYET_MINH_LTH",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau mắt",
+        "cach_dung": "Chia $3$ lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_THAO_QUYET_MINH_LTH",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa cao huyết áp",
+        "cach_dung": "Chia $3$ lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_CAO_HUYET_AP_THAO_QUYET_MINH_T",
+      "to": "VI_THUOC_THAO_QUYET_MINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thảo quyết minh rang pha nước uống thay nước chè dùng cho người không chịu được nước chè, cao huyết áp, mất ngủ.",
+        "cach_dung": "Dùng pha nước uống thay nước chè."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_CAO_HUYET_AP_THAO_QUYET_MINH_T",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "cao huyết áp",
+        "cach_dung": "Dùng pha nước uống thay nước chè."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    },
+    {
+      "from": "BT_CAO_HUYET_AP_THAO_QUYET_MINH_T",
+      "to": "B_MAT_NGU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "mất ngủ",
+        "cach_dung": "Dùng pha nước uống thay nước chè."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T478"
+      }
+    }
+  ],
+  "metadata": {}
+}

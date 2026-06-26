@@ -1,0 +1,112 @@
+{
+  "entity_hub": "VI_THUOC_CAI_CUC",
+  "source": {
+    "source_id": "CT_VT_VN_T770",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "770"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thanh nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "CN_TAN_KET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tán kết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "CN_NHUAN_PHOI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "nhuận phổi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tiêu đờm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều khoảng $4mg/kg$ trên mèo sẽ sinh hiện tượng huyết áp hạ lâu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "DL_UC_CHE_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều khoảng $4mg/kg$ trên mèo sẽ sinh hiện tượng ức chế hô hấp trong một thời gian ngắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "DL_CO_BOP_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với nồng độ $1/167.000$ đến $1/50.000$ sẽ gây hiện tượng co bóp đối với tử cung của chuột bạch lấy riêng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "DL_UC_CHE_RUOT_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "với liều $1/100.000$ có tác dụng ức chế đối với ruột non của thỏ tách riêng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAI_CUC",
+      "to": "DL_TANG_DUONG_HUYET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều từ $7,5-16m/kg$ trên thỏ nhà sẽ sinh ra chứng đường huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T770"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,61 @@
+{
+  "entity_hub": "VI_THUOC_MUOP_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T749",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "749"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEN_CHI_VIEN_CHI_VC",
+      "to": "VI_THUOC_MUOP_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm Viễn chí và Cam thảo.",
+        "mo_ta_chi_tiet": "Viễn chí $4g$, cam thảo $6g$, nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "CT_VT_VN_T749"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "BT_VIEN_CHI_VIEN_CHI_VC",
+      "to": "VI_THUOC_VIEN_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm Viễn chí và Cam thảo.",
+        "mo_ta_chi_tiet": "Viễn chí $4g$, cam thảo $6g$, nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "CT_VT_VN_T749"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    },
+    {
+      "from": "BT_VIEN_CHI_VIEN_CHI_VC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm Viễn chí và Cam thảo.",
+        "mo_ta_chi_tiet": "Viễn chí $4g$, cam thảo $6g$, nước $600ml$. Sắc còn $200ml$. Chia 3 lần uống trong ngày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "CT_VT_VN_T749"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T749"
+      }
+    }
+  ],
+  "metadata": {}
+}

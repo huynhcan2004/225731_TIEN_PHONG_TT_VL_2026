@@ -1,0 +1,146 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHANH_TRUONG",
+    "ten_raw": "Chanh trường",
+    "ten_khoa_hoc": "$Solanum spirale Roxb.$",
+    "ho_thuc_vat": "$Cà Solanaceae (Solanaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá khô",
+      "thu_hai": "tháng 1-4",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày dùng 6 đến $12$g lá khô dưới dạng thuốc sắc. Quả được dùng làm gia vị.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang dại và được trồng ở một số vùng miền núi để lấy quả làm gia vị."
+    },
+    "display_name": "Chanh trường",
+    "canonical_name": "Chanh trường"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_BUNG_CHANH_TRUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Bung Chanh Truong"
+      }
+    },
+    {
+      "id": "VI_THUOC_CHANH_TRUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Chanh Truong"
+      }
+    },
+    {
+      "id": "BT_PHU_THUNG_CHANH_TRUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Phu Thung Chanh Truong"
+      }
+    },
+    {
+      "id": "B_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "B_PHU_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phu Thung"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T270",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "270"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, có thể cao tới $2-3m$, thân có cạnh, nhẵn. Lá mọc so le, nguyên, phiến lá kéo dài đến tận cuống, mép lá uốn lượn, đầu lá nhọn, dài $6-15cm$, rộng $5-8cm$, cuống lá dài $2-3cm$, trên có rãnh. Hoa màu trắng, mọc thành chùm ở kẽ lá, có cuống dài. Quả hình cầu, nhẵn, đường kính $7-8mm$, khi chín có màu đỏ. Hạt dẹt, có góc cạnh, đỉnh có vết lõm, đường kính $2-3mm$. Mùa hoa quả: tháng $1-4$"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_DAU_BUNG_CHANH_TRUONG",
+      "to": "VI_THUOC_CHANH_TRUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T270"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T270",
+        "all_sources": [
+          "CT_VT_VN_T270"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_CHANH_TRUONG",
+      "to": "VI_THUOC_CHANH_TRUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Dạng thuốc sắc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T270"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T270",
+        "all_sources": [
+          "CT_VT_VN_T270"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_CHANH_TRUONG",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T270",
+        "all_sources": [
+          "CT_VT_VN_T270"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THUNG_CHANH_TRUONG",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T270",
+        "all_sources": [
+          "CT_VT_VN_T270"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 18.0,
+      "reliability_c_score": 0.79,
+      "total_confidence_sum": 3.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

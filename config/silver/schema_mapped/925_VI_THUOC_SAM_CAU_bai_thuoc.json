@@ -1,0 +1,139 @@
+{
+  "entity_hub": "VI_THUOC_SAM_CAU",
+  "source": {
+    "source_id": "CT_VT_VN_T925",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "925"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MIENG_KHO_SAM_CAU_DO",
+      "to": "VI_THUOC_SAM_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị miệng khô, cổ đau sau sốt.",
+        "cach_dung": "Ngậm trong nhiều ngày.",
+        "ghi_chu": "Không rõ liều lượng các vị thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_MIENG_KHO_SAM_CAU_DO",
+      "to": "VI_THUOC_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị miệng khô, cổ đau sau sốt.",
+        "cach_dung": "Ngậm trong nhiều ngày.",
+        "ghi_chu": "Không rõ liều lượng các vị thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_MIENG_KHO_SAM_CAU_DO",
+      "to": "VI_THUOC_O_MAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị miệng khô, cổ đau sau sốt.",
+        "cach_dung": "Ngậm trong nhiều ngày.",
+        "ghi_chu": "Không rõ liều lượng các vị thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_MIENG_KHO_SAM_CAU_DO",
+      "to": "B_MIENG_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "miệng khô, cổ đau, hay ngủ sau khi sốt khỏi",
+        "cach_dung": "Ngậm trong nhiều ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_SAM_CAU_D",
+      "to": "VI_THUOC_SAM_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc trị đau bụng cho phụ nữ có thai.",
+        "cach_dung": "Đốt ra than cho uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_SAM_CAU_D",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ có thai hay đau bụng",
+        "cach_dung": "Đốt ra than cho uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_SAM_CAU_DH",
+      "to": "VI_THUOC_SAM_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị cam tẩu mã cho trẻ con.",
+        "cach_dung": "Sát vào răng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_SAM_CAU_DH",
+      "to": "VI_THUOC_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị cam tẩu mã cho trẻ con.",
+        "cach_dung": "Sát vào răng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    },
+    {
+      "from": "BT_CAM_TAU_MA_SAM_CAU_DH",
+      "to": "B_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con cam tẩu mã",
+        "cach_dung": "Sát vào răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925"
+      }
+    }
+  ],
+  "metadata": {}
+}

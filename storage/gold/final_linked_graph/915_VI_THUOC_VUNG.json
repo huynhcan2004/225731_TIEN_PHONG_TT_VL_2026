@@ -1,0 +1,870 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_VUNG",
+    "ten_raw": "Vừng",
+    "ten_khoa_hoc": "$Sesamum orientale L.; Sesamum indicum Dc.; Sesamum lutrum Retz.$",
+    "ho_thuc_vat": "$họ Vừng Pedaliaceae$",
+    "variants": [
+      "mè",
+      "du tử miêu",
+      "cự thắng tử",
+      "chi ma",
+      "bắc chỉ ma",
+      "hồ ma"
+    ],
+    "properties": {
+      "bo_phan_dung": "hạt",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày uống $10$ đến $25ml$ làm thuốc bổ, muốn nhuộm và tẩy, tăng liều lên tới $40$ đến $60g$. Vùng đen: Ngày có thể dùng $12$ đến $25g$ dưới dạng thuốc viên, thuốc bột hay thuốc cao.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Khắp nơi trong nước ta, Cămpuchia, Lào, Ân Độ, Trung Quốc, Nhật Bản, Tiểu Á, miền nam Liên xô cũ, Rumani, Hy Lạp"
+    },
+    "display_name": "Vị thuốc Vừng",
+    "canonical_name": "Vị thuốc Vừng"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAO_HUYET_AP_VUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cao huyết áp vững",
+        "aliases": [
+          "cao huyet ap vung",
+          "caohuyetapvung",
+          "cao huyết áp vững"
+        ],
+        "search_vector_hint": "Cao huyết áp vững thuộc nhóm bài thuốc, thường liên quan đến điều trị cao huyết áp."
+      }
+    },
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cao huyết áp",
+        "aliases": [
+          "caohuyetap",
+          "tanghuyetap",
+          "tăng huyết áp",
+          "cao huyet ap",
+          "tang huyet ap",
+          "cao huyết áp"
+        ],
+        "search_vector_hint": "Cao huyết áp thuộc nhóm Bệnh, thường liên quan đến tim mạch."
+      }
+    },
+    {
+      "id": "B_TAO_BON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Táo bón",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon"
+        ],
+        "search_vector_hint": "Bệnh Táo bón thuộc nhóm bệnh, thường liên quan đến khó khăn trong việc đại tiện."
+      }
+    },
+    {
+      "id": "CN_BEN_GAN_COT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bền gân cốt",
+        "aliases": [
+          "bengancot",
+          "ben gan cot",
+          "bền gân cốt"
+        ],
+        "search_vector_hint": "Công năng Bền gân cốt thuộc nhóm công năng, thường liên quan đến tăng cường sức khỏe gân cốt."
+      }
+    },
+    {
+      "id": "CN_BO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ",
+        "aliases": [
+          "bổ",
+          "bo"
+        ],
+        "search_vector_hint": "Công năng Bổ thuộc nhóm công năng, thường liên quan đến tăng cường sức khỏe."
+      }
+    },
+    {
+      "id": "CN_BO_NGU_TANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ ngũ tạng",
+        "aliases": [
+          "bổ ngũ tạng",
+          "bongutang",
+          "bo ngu tang"
+        ],
+        "search_vector_hint": "Bổ ngũ tạng thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_BO_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ thận",
+        "aliases": [
+          "bổ thận",
+          "bo than",
+          "bothan"
+        ],
+        "search_vector_hint": "Công năng Bổ thận thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng của thận."
+      }
+    },
+    {
+      "id": "CN_DAY_TUY_NAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dầy tủy não",
+        "aliases": [
+          "dầy tủy não",
+          "day tuy nao",
+          "daytuynao"
+        ],
+        "search_vector_hint": "Công năng Dầy tủy não thuộc nhóm công năng, thường liên quan đến bổ tủy, ích não."
+      }
+    },
+    {
+      "id": "CN_ICH_GAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích can",
+        "aliases": [
+          "ichcan",
+          "ích can",
+          "ich can"
+        ],
+        "search_vector_hint": "Công năng Ích can thuộc nhóm công năng, thường liên quan đến bổ dưỡng chức năng gan."
+      }
+    },
+    {
+      "id": "CN_ICH_KHI_LUC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích khí lực",
+        "aliases": [
+          "ich khi luc",
+          "ichkhiluc",
+          "ích khí lực"
+        ],
+        "search_vector_hint": "Công năng Ích khí lực thuộc nhóm công năng, thường liên quan đến tăng cường khí lực."
+      }
+    },
+    {
+      "id": "CN_LOI_SUA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi sữa",
+        "aliases": [
+          "lợi sữa",
+          "loisua",
+          "loi sua"
+        ],
+        "search_vector_hint": "Công năng Lợi sữa thuộc nhóm Công năng, thường liên quan đến khả năng tăng tiết sữa."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TAO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận táo",
+        "aliases": [
+          "nhuận táo",
+          "nhuantao",
+          "nhuan tao"
+        ],
+        "search_vector_hint": "Nhuận táo thuộc nhóm công năng, thường liên quan đến làm ẩm, giảm khô."
+      }
+    },
+    {
+      "id": "CN_NHUAN_TRANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nhuận tràng",
+        "aliases": [
+          "nhuận tràng",
+          "nhuan trang",
+          "nhuantrang"
+        ],
+        "search_vector_hint": "Công năng Nhuận tràng thuộc nhóm công năng tiêu hóa, thường liên quan đến làm mềm phân."
+      }
+    },
+    {
+      "id": "CN_NUOI_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Nuôi huyết",
+        "aliases": [
+          "nuoihuyet",
+          "nuôi huyết",
+          "dưỡng huyết",
+          "nuoi huyet",
+          "duonghuyet",
+          "duong huyet"
+        ],
+        "search_vector_hint": "Công năng Nuôi huyết thuộc nhóm công năng, thường liên quan đến bổ sung và tăng cường chất lượng huyết."
+      }
+    },
+    {
+      "id": "CN_SANG_TAI_MAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Sang tai, mờ mắt",
+        "aliases": [
+          "sang tai, mờ mắt",
+          "sang tai, mo mat",
+          "sangtai,momat"
+        ],
+        "search_vector_hint": "Sang tai, mờ mắt thuộc nhóm triệu chứng, thường liên quan đến suy giảm thị lực và thính giác."
+      }
+    },
+    {
+      "id": "CN_TU_DUONG_CUONG_TRANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tư dưỡng cường tráng",
+        "aliases": [
+          "tuduongcuongtrang",
+          "tư dưỡng cường tráng",
+          "tu duong cuong trang"
+        ],
+        "search_vector_hint": "Công năng Tư dưỡng cường tráng thuộc nhóm công năng, thường liên quan đến bồi bổ cơ thể."
+      }
+    },
+    {
+      "id": "DL_TRU_SAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Trừ sâu",
+        "aliases": [
+          "trừ sâu",
+          "trusau",
+          "tru sau"
+        ],
+        "search_vector_hint": "Trừ sâu thuộc nhóm dược lý."
+      }
+    },
+    {
+      "id": "HC_SESAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sesamin",
+        "aliases": [
+          "sesamin"
+        ],
+        "search_vector_hint": "Sesamin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_SESAMOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sesamol",
+        "aliases": [
+          "sesamol"
+        ],
+        "search_vector_hint": "Hoạt chất Sesamol thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "S_CAN_SUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Cạn sữa",
+        "aliases": [
+          "itsua",
+          "mat sua",
+          "ít sữa",
+          "matsua",
+          "cạn sữa",
+          "can sua",
+          "it sua",
+          "cansua",
+          "mất sữa"
+        ],
+        "search_vector_hint": "Triệu chứng Cạn sữa thuộc nhóm triệu chứng, thường liên quan đến phụ nữ sau sinh."
+      }
+    },
+    {
+      "id": "S_XICH_BACH_LY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kinh Xích bạch ly",
+        "aliases": [
+          "xích bạch ly",
+          "xichbachly",
+          "xich bach ly"
+        ],
+        "search_vector_hint": "Kinh Xích bạch ly thuộc nhóm kinh mạch."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_VUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Vừng",
+        "aliases": [
+          "vung",
+          "mè",
+          "vừng",
+          "me"
+        ],
+        "search_vector_hint": "Vị thuốc Vừng thuộc nhóm vị thuốc, thường liên quan đến bổ dưỡng và nhuận tràng.",
+        "bo_phan_dung": "hạt",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày uống $10$ đến $25ml$ làm thuốc bổ, muốn nhuộm và tẩy, tăng liều lên tới $40$ đến $60g$. Vùng đen: Ngày có thể dùng $12$ đến $25g$ dưới dạng thuốc viên, thuốc bột hay thuốc cao.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Khắp nơi trong nước ta, Cămpuchia, Lào, Ân Độ, Trung Quốc, Nhật Bản, Tiểu Á, miền nam Liên xô cũ, Rumani, Hy Lạp",
+        "ten_khoa_hoc": "$Sesamum orientale L.; Sesamum indicum Dc.; Sesamum lutrum Retz.$",
+        "ho_thuc_vat": "$họ Vừng Pedaliaceae$",
+        "hinh_thai_chi_tiet": "Cây vừng là một loại cỏ nhỏ, thân có nhiều lồng, cao chừng $0,6m$, sống hằng năm. Lá mọc đối, đơn, không có lá kèm, nguyên, có cuống. Hoa trắng mọc đơn độc ở kẽ lá, lưỡng tính, không đều, có cuống ngắn. Đài hơi hợp ở gốc. Tràng hình ống loe ra thành hai môi, môi dưới gồm 3 thùy, mỗi trên 2 thùy, 4 nhị, 2 to, 2 nhỏ, 2 lá noãn, đầu nhụy có 2 nuốm, bầu có vách giả chia thành 4 ô, mỗi ô chứa một dãy dọc nhiều noãn. Quả nang dài, 4 ô mở thành 4 mảnh. Nhiều hạt nhỏ màu vàng hay nâu đen. Lá mầm chứa nhiều dầu (Hình 679).",
+        "thanh_phan_hoa_hoc": "['Trong hạt vùng có từ $40-55\\\\%$ dầu, có khi lên tới $60\\\\%$. Ngoài ra còn chừng $5-6\\\\%$ nước, $20-22\\\\%$ chất protein, $5\\\\%$ tro, trong đó có $1,7mg$ đồng, $1\\\\%$ canxi oxalat, $6,3-8,8\\\\%$ chất không có nitơ, pentozan, lexitin, phytin và cholin. Dầu vừng chứa khoảng $12-16\\\\%$ axit đặc ($7,7\\\\%$ axit panmitic, $4,6\\\\%$ axit stearic, $0,4\\\\%$ axit arachidic), $75-80\\\\%$ axit lỏng (trong đó có $48\\\\%$ axit oleic, $30\\\\%$ axit linolic và, $0,04\\\\%$ axit capa. $Sesamin$ $Sesamol$, $Sesamin$']",
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Vừng đen hay vàng đều dùng làm thuốc được, nhưng thường chỉ hay dùng vừng đen. Còn dầu thì ép từ vừng đen hay vàng đều dùng được. Muốn phát hiện có dầu vùng trong một hỗn hợp dầu hay muốn xem một chất dầu có phải là dầu vừng hay không, người ta thường tiến hành phản ứng Baudouin như sau: Lấy $2ml$ dầu, thêm $1ml$ dùng dịch $1\\%$ (theo thể tích) axit clohydric có pha fucfurol, để yên 5 phút, nếu thấy xuất hiện màu đỏ là có dầu vùng. Phản ứng này giúp ta phát hiện chừng $0,5-5\\%$ dầu vùng trong hỗn hợp, màu đỏ do $sesamol$ tác dụng trên fucfurol.",
+        "cach_dung_bao_che": "Không tìm thấy"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "915"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_BINH",
+        "quy_kinh": [
+          "K_THAN",
+          "K_PHE",
+          "K_CAN",
+          "K_TY"
+        ],
+        "cong_nang": "bổ, nhuận tràng, lợi sữa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây vừng là một loại cỏ nhỏ, thân có nhiều lồng, cao chừng $0,6m$, sống hằng năm. Lá mọc đối, đơn, không có lá kèm, nguyên, có cuống. Hoa trắng mọc đơn độc ở kẽ lá, lưỡng tính, không đều, có cuống ngắn. Đài hơi hợp ở gốc. Tràng hình ống loe ra thành hai môi, môi dưới gồm 3 thùy, mỗi trên 2 thùy, 4 nhị, 2 to, 2 nhỏ, 2 lá noãn, đầu nhụy có 2 nuốm, bầu có vách giả chia thành 4 ô, mỗi ô chứa một dãy dọc nhiều noãn. Quả nang dài, 4 ô mở thành 4 mảnh. Nhiều hạt nhỏ màu vàng hay nâu đen. Lá mầm chứa nhiều dầu (Hình 679).",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt vùng có từ $40-55\\%$ dầu, có khi lên tới $60\\%$. Ngoài ra còn chừng $5-6\\%$ nước, $20-22\\%$ chất protein, $5\\%$ tro, trong đó có $1,7mg$ đồng, $1\\%$ canxi oxalat, $6,3-8,8\\%$ chất không có nitơ, pentozan, lexitin, phytin và cholin. Dầu vừng chứa khoảng $12-16\\%$ axit đặc ($7,7\\%$ axit panmitic, $4,6\\%$ axit stearic, $0,4\\%$ axit arachidic), $75-80\\%$ axit lỏng (trong đó có $48\\%$ axit oleic, $30\\%$ axit linolic và, $0,04\\%$ axit capa. $Sesamin$ $Sesamol$, $Sesamin$"
+        ],
+        "lieu_dung_tong_quat": "Không tìm thấy",
+        "ghi_chu_bo_sung": "Vừng đen hay vàng đều dùng làm thuốc được, nhưng thường chỉ hay dùng vừng đen. Còn dầu thì ép từ vừng đen hay vàng đều dùng được. Muốn phát hiện có dầu vùng trong một hỗn hợp dầu hay muốn xem một chất dầu có phải là dầu vừng hay không, người ta thường tiến hành phản ứng Baudouin như sau: Lấy $2ml$ dầu, thêm $1ml$ dùng dịch $1\\%$ (theo thể tích) axit clohydric có pha fucfurol, để yên 5 phút, nếu thấy xuất hiện màu đỏ là có dầu vùng. Phản ứng này giúp ta phát hiện chừng $0,5-5\\%$ dầu vùng trong hỗn hợp, màu đỏ do $sesamol$ tác dụng trên fucfurol.",
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_VUNG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừng có vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừng tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "HC_SESAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Sesamin$ $Sesamol$, $Sesamin$",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "HC_SESAMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Sesamin$ $Sesamol$, $Sesamin$",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAO_HUYET_AP_VUNG",
+      "to": "VT_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống 3 lần, mỗi lần uống $10$g",
+        "cach_dung": "dùng mật viên thành viên bằng hạt ngô",
+        "ghi_chu": "chữa bệnh cao huyết áp, mạch máu bị xơ cứng, bị cảm mà bán thân bất toại, táo bón"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống 3 lần, mỗi lần uống $10$g",
+        "cach_dung": "dùng mật viên thành viên bằng hạt ngô",
+        "ghi_chu": "chữa bệnh cao huyết áp, mạch máu bị xơ cứng, bị cảm mà bán thân bất toại, táo bón"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "S_CAN_SUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ăn hằng ngày",
+        "cach_dung": "Vừng đen sao qua, giã nhỏ cho thêm ít muối",
+        "ghi_chu": "chữa phụ nữ cạn sữa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "S_XICH_BACH_LY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Dầu vùng $5$ hay $10$g tùy theo tuổi",
+        "cach_dung": "hòa với mật ong. Cho uống",
+        "ghi_chu": "Trẻ con bị xích bạch lỵ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_BO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừng là một vị thuốc bổ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_NHUAN_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừng là một vị thuốc nhuận tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_LOI_SUA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vừng là một vị thuốc lợi sữa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_ICH_GAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng ích gan."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng bổ thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_NUOI_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng nuôi huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng nhuận táo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_TU_DUONG_CUONG_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Là thuốc tư dưỡng cường tráng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_BO_NGU_TANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ ngũ tạng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_ICH_KHI_LUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích khí lực."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_DAY_TUY_NAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đầy tủy não."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_BEN_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bền gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "CN_SANG_TAI_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sáng tai mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_VUNG",
+      "to": "DL_TRU_SAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi kết hợp chất sesamin hay dầu vừng với thuốc trừ sâu pyretrin, người ta thấy với tỷ lệ thêm chừng $5\\%$ dầu vừng thì hiệu lực trừ sâu của pyretrin tăng lên rõ rệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T915",
+        "all_sources": [
+          "CT_VT_VN_T915"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7571,
+      "total_confidence_sum": 21.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

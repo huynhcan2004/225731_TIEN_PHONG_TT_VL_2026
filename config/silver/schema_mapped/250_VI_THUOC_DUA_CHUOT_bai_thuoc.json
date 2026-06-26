@@ -1,0 +1,217 @@
+{
+  "entity_hub": "VI_THUOC_DUA_CHUOT",
+  "source": {
+    "source_id": "CT_VT_VN_T250",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "250"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SUNG_DAU_CO_HONG_DUA_C",
+      "to": "VI_THUOC_DUA_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "1 quả",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dưa chuột có tính mát giúp thanh nhiệt, giảm sưng đau cổ họng. Mang tiêu giúp tả hỏa, thông tiện, dẫn nhiệt độc ra ngoài.",
+        "mo_ta_chi_tiet": "Chọn một quả dưa chuột già, bỏ hết hột. Thêm mang tiêu vào cho đầy ruột quả.",
+        "cach_dung": "Trộn đều phơi trong mát cho khô. Ngậm từng ít một"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_CO_HONG_DUA_C",
+      "to": "VT_MANG_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dưa chuột có tính mát giúp thanh nhiệt, giảm sưng đau cổ họng. Mang tiêu giúp tả hỏa, thông tiện, dẫn nhiệt độc ra ngoài.",
+        "mo_ta_chi_tiet": "Thêm mang tiêu vào cho đầy ruột quả",
+        "cach_dung": "Trộn đều phơi trong mát cho khô. Ngậm từng ít một"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_CO_HONG_DUA_C",
+      "to": "B_SUNG_DAU_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cổ họng sưng đau",
+        "cach_dung": "Trộn đều phơi trong mát cho khô. Ngậm từng ít một"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_PHU_NE_DUA_CHUOT_D",
+      "to": "VI_THUOC_DUA_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "1 quả",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dưa chuột giúp lợi tiểu, tiêu phù. Dấm chua giúp hoạt huyết, tăng cường tác dụng tiêu phù.",
+        "mo_ta_chi_tiet": "Lấy một quả dưa chuột già chín, loại bỏ hạt, thêm một ít dấm chua",
+        "cach_dung": "Nấu chín nhừ. Cho ăn lúc bụng đói"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_PHU_NE_DUA_CHUOT_D",
+      "to": "VT_DAM_GIAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Một ít",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dưa chuột giúp lợi tiểu, tiêu phù. Dấm chua giúp hoạt huyết, tăng cường tác dụng tiêu phù.",
+        "mo_ta_chi_tiet": "Thêm một ít dấm chua",
+        "cach_dung": "Nấu chín nhừ. Cho ăn lúc bụng đói"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_PHU_NE_DUA_CHUOT_D",
+      "to": "B_PHU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bụng chướng, chân tay phù nề",
+        "cach_dung": "Nấu chín nhừ. Cho ăn lúc bụng đói"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "BT_NE_MOI_DUA_C",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dưa chuột có tính mát, giúp làm dịu và giảm nẻ môi.",
+        "mo_ta_chi_tiet": "Dùng miếng dưa chuột tươi",
+        "cach_dung": "Sát lên nơi môi bị nẻ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_NE_MOI_DUA_C",
+      "to": "VI_THUOC_DUA_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dưa chuột có tính mát, giúp làm dịu và giảm nẻ môi.",
+        "mo_ta_chi_tiet": "Dùng miếng dưa chuột tươi",
+        "cach_dung": "Sát lên nơi môi bị nẻ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_NE_MOI_DUA_C",
+      "to": "S_NE_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nẻ môi",
+        "cach_dung": "Sát lên nơi môi bị nẻ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "BT_MAN_DO_DA_DUA_C",
+      "relation_type": "CO_TRONG_BAI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dưa chuột có tính mát giúp làm dịu da bị mẩn đỏ.",
+        "mo_ta_chi_tiet": "Dùng nước ép dưa chuột",
+        "cach_dung": "Bôi lên nhiều lần trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_MAN_DO_DA_DUA_C",
+      "to": "VI_THUOC_DUA_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dưa chuột có tính mát giúp làm dịu da bị mẩn đỏ.",
+        "mo_ta_chi_tiet": "Dùng nước ép dưa chuột",
+        "cach_dung": "Bôi lên nhiều lần trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_MAN_DO_DA_DUA_C",
+      "to": "S_DA_MAN_DO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Da bị mẩn đỏ",
+        "cach_dung": "Bôi lên nhiều lần trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_PHONG_LUA_DUA_C",
+      "to": "VI_THUOC_DUA_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$3$ quả",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dưa chuột có tính mát giúp thanh nhiệt, giảm đau rát do phỏng.",
+        "mo_ta_chi_tiet": "3 quả dưa chuột hái vào ngày 5 tháng 5 âm lịch (mùa hè) bỏ vào bình chát kín",
+        "cach_dung": "Khi bị bỏng, lấy nước trong bình dưa chuột mà bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "BT_PHONG_LUA_DUA_C",
+      "to": "B_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phỏng lửa chưa phồng da",
+        "cach_dung": "Khi bị bỏng, lấy nước trong bình dưa chuột mà bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    }
+  ],
+  "metadata": {}
+}

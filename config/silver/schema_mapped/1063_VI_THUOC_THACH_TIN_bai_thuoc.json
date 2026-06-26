@@ -1,0 +1,74 @@
+{
+  "entity_hub": "VI_THUOC_THACH_TIN",
+  "source": {
+    "source_id": "CT_VT_VN_T1063",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1063"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO_TTN",
+      "to": "VI_THUOC_THACH_TIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc chữa sốt cao mê sảng.",
+        "mo_ta_chi_tiet": "Bạch hổ thang chữa sốt cao mê sảng (đơn thuốc có kinh nghiệm của Trương Trọng Cảnh)",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T1064"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO_TTN",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$16g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Thạch cao là thành phần chính trong bài thuốc Bạch hổ thang.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO_TTN",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Tri mẫu là một thành phần trong bài thuốc Bạch hổ thang.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_ME_SANG_THACH_CAO_TTN",
+      "to": "VT_NGANH_ME",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Ngạnh mễ là một thành phần trong bài thuốc Bạch hổ thang.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1063"
+      }
+    }
+  ],
+  "metadata": {}
+}

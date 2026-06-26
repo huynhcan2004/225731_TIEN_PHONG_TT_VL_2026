@@ -1,0 +1,151 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THACH_VI",
+    "ten_raw": "Thạch vĩ",
+    "ten_khoa_hoc": "Pyrrhosia lingua (Thunb.) Farwell; Pyrrhosia sheareri (Bar.) Ching; Pyrrhosia petiolosa (Christ) Ching; Pyrrhosia pekinensis (C. Chr) Ching",
+    "ho_thuc_vat": "Dương xỉ Polypodiaceae",
+    "variants": [
+      "thạch bì",
+      "thạch lan",
+      "phi đao kiếm",
+      "kim tinh thảo"
+    ],
+    "properties": {
+      "phan_bo": "Cây thạch vĩ mọc hoang ở khắp nơi trong nước ta; thường hay gặp mọc bám trên các cây to hoặc trên các bức tường cũ nát. Còn thấy mọc cả ở Trung Quốc (Phúc Kiến, Đài Loan, Triết Giang, Giang Tô, An Huy, Hoa Nam), Nhật Bản.",
+      "thu_hai": "Người ta dùng lá, toàn cây hay thân rễ tươi hay phơi khô. Có thể thu hái quanh năm."
+    },
+    "display_name": "Thạch vĩ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T264",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "264"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_BANG_QUANG"
+        ],
+        "cong_nang": "lợi tiểu, thông làm, thanh thấp nhiệt"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thạch vĩ là một loại dương xỉ nhỏ, có thân rễ nằm ngang, dài tới $0,50m$, dày vào khoảng $4mm$, có nhiều nhánh phân chia theo lối đơn túc. Trên thân rễ có nhiều vẩy to, ở mặt dưới từng quãng có nhiều rễ hình sợi, phân nhánh mọc đối. Lá có hai loại; Lá bất thụ và lá hữu thụ. Lá hữu thụ có cuống dài tới $9cm$, phiến lá hình lưỡi mác rộng, dài $11-13cm$, rộng $2-3cm$. Mặt trên nhẵn màu xanh lục, mặt dưới màu nâu nhạt có nhiều ổ tử nang phủ khắp trừ trên gần giữa. Nhìn qua kính hiển vi, ta sẽ thấy ổ tử nang cấu tạo bởi một đám tử nang phân cách nhau bởi những lỏng hình sao có cuống dài. Các lá bất thụ có cuống ngắn hơn, độ $5cm$, với phiển lá hình trái xoan hơi hình mác, dài khoảng $9-11cm$, rộng $3-4cm$. Mặt trên màu lục nhạt, mặt dưới màu lục nâu, gân lá hình lông chim. Cả hai mặt đều nhẫn ( Hình 185 ).",
+        "thanh_phan_hoa_hoc": [
+          "Sơ bộ nghiên cứu vị thuốc, thấy có phytosterol, tanin thuộc loại pyrocatechic, những đường khử ôxy, các chất béo và các chất vô cơ (G. Herman, 1. Ciulei và Vũ Văn Chuyên, 1960).",
+          "[CT_VT_VN_T265]: Năm 1958, Viện nghiên cứu y học Bắc Kinh (hệ dược) có nghiên cứu vị thạch vĩ Pyrrhosia sheareri thì thấy trong thạch vĩ có chừng $0,83\\%$ $saponozit$, chất $tanin$, $anthraglucozit$ và phản ứng $flavonozit$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh phế và bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh phế và bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện nghiên cứu y học Bắc Kinh (hệ dược) có nghiên cứu vị thạch vĩ Pyrrhosia sheareri thì thấy trong thạch vĩ có chừng $0,83\\%$ $saponozit$, chất $tanin$, $anthraglucozit$ và phản ứng $flavonozit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện nghiên cứu y học Bắc Kinh (hệ dược) có nghiên cứu vị thạch vĩ Pyrrhosia sheareri thì thấy trong thạch vĩ có chừng $0,83\\%$ $saponozit$, chất $tanin$, $anthraglucozit$ và phản ứng $flavonozit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "HC_ANTHRAGLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện nghiên cứu y học Bắc Kinh (hệ dược) có nghiên cứu vị thạch vĩ Pyrrhosia sheareri thì thấy trong thạch vĩ có chừng $0,83\\%$ $saponozit$, chất $tanin$, $anthraglucozit$ và phản ứng $flavonozit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_VI",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện nghiên cứu y học Bắc Kinh (hệ dược) có nghiên cứu vị thạch vĩ Pyrrhosia sheareri thì thấy trong thạch vĩ có chừng $0,83\\%$ $saponozit$, chất $tanin$, $anthraglucozit$ và phản ứng $flavonozit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T264"
+      }
+    }
+  ]
+}

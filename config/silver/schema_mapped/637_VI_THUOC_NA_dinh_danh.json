@@ -1,0 +1,199 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NA",
+    "ten_raw": "Na",
+    "ten_khoa_hoc": "Annona squamosa L.",
+    "ho_thuc_vat": "Na Annonaceae",
+    "variants": [
+      "sa lê",
+      "mãng cầu",
+      "mãng cầu giai",
+      "mãng cầu ta",
+      "phan lệ chi"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá, hạt và quả."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T637",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "637"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN",
+          "K_THAN",
+          "K_TAM_BAO"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là sa lê, mãng cầu, mãng cầu giai, mãng cầu ta, phan lệ chi."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm bào"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện y học Bắc Kinh phân tích thấy trong mẫu đơn bì Tứ Xuyên có $5,66%$ glucozit, $0,4%$ ancaloit, $12,54%$ saponin. Trong quát đơn bì có $3,58%$ glucozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_PAEONOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mẫu đơn bì tươi có một glucozit, khi chất glucozit này tiếp xúc với một chất men có trong vỏ cây này, sẽ cho glucoza và $paeonola$ là một chất phenola C,H,O,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_AXIT_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit benzoic, phytosterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_PHYTOSTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit benzoic, phytosterol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện y học Bắc Kinh phân tích thấy trong mẫu đơn bì Tứ Xuyên có $5,66%$ glucozit, $0,4%$ ancaloit, $12,54%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    },
+    {
+      "from": "VI_THUOC_NA",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, Viện y học Bắc Kinh phân tích thấy trong mẫu đơn bì Tứ Xuyên có $5,66%$ glucozit, $0,4%$ ancaloit, $12,54%$ saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T637"
+      }
+    }
+  ]
+}

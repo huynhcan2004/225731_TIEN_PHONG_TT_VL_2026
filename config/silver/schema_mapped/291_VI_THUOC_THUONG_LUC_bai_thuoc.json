@@ -1,0 +1,93 @@
+{
+  "entity_hub": "VI_THUOC_THUONG_LUC",
+  "source": {
+    "source_id": "CT_VT_VN_T291",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "291"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TRONG_BUNG_CO_HON_CUNG_THUONG_LUC_T",
+      "to": "VI_THUOC_THUONG_LUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thương lục là vị thuốc duy nhất.",
+        "cach_dung": "Giã rễ thương lục tươi, vắt lấy nước tẩm vào bông. Lấy bông đắp lên bụng, hễ thấy lạnh lại thay. Đắp liên tiếp cho đến khi khỏi.",
+        "ghi_chu": "Không uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    },
+    {
+      "from": "BT_TRONG_BUNG_CO_HON_CUNG_THUONG_LUC_T",
+      "to": "B_TRONG_BUNG_CO_HON_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng trong bụng có hòn cứng, đau đớn.",
+        "cach_dung": "Giã rễ thương lục tươi, vắt lấy nước tẩm vào bông. Lấy bông đắp lên bụng, hễ thấy lạnh lại thay. Đắp liên tiếp cho đến khi khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    },
+    {
+      "from": "BT_DAU_CO_HONG_THUONG_LUC_T",
+      "to": "VI_THUOC_THUONG_LUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thương lục là vị thuốc duy nhất.",
+        "cach_dung": "Dùng nướng nóng, bọc vải chườm vào cổ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    },
+    {
+      "from": "BT_DAU_CO_HONG_THUONG_LUC_T",
+      "to": "B_DAU_CO_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng đau cổ họng.",
+        "cach_dung": "Dùng nướng nóng, bọc vải chườm vào cổ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_THUONG_LUC_P",
+      "to": "VI_THUOC_THUONG_LUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thương lục là vị thuốc duy nhất.",
+        "cach_dung": "Dùng uống",
+        "ghi_chu": "Liều dùng $3-4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_THUONG_LUC_P",
+      "to": "B_BENH_NGOAI_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa một số bệnh ngoài da.",
+        "cach_dung": "Dùng uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T291"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,132 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TU_UYEN",
+    "ten_raw": "Tử uyển",
+    "ten_khoa_hoc": "Aster tataricus L. f.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây mọc hoang ở những nơi ẩm thấp, dọc\nbờ sông suối, ruộng bỏ hoang ở các tỉnh miền\nnúi và trung du Bắc bộ như Cao Bằng, Lạng Sơn,\nBắc Thái, Hà Tây, Vĩnh Phú, Hà Bắc.",
+      "thu_hai": "Người ta đào rễ vào mùa thu đông, rửa sạch\nđất cát, phơi khô hay sấy khô."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T753",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "753"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây hồng là một cây nhỡ cao chừng $5$-$6m$, có thể tới $10m$ nhiều cành. Lá mọc so le, có cuống ngắn, dài không quá $1cm$. Phiến lá thuôn hình trứng, dài $7$-$14cm$, rộng $4$-$8cm$, mép nguyên hay hơi lượn sóng. Tháng 6 ra hoa màu vàng trắng nhạt. Cây đực, cây cái riêng biệt hoặc có khi hoa đực, hoa cái có trên cùng một cây. Hoa đực mọc từng $2$-$3$ cái một thành hình tán, hoa cái mọc đơn độc. Tháng $9$-$10$ ra quả khi chín có màu vàng hay đỏ thẫm (Hình 568).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tai hồng có các chất tanin đặc biệt bao gồm axit tritecpenic (độ chảy $82°C$), axit ursolic, oleanolic và axit betulinic.",
+          "Trong quả hồng xanh có chất tanin làm cho quả hồng có vị rất chát, khi chín vị chát hầu như mất đi. Khi đó lượng đường có chừng $13$-$19$ % dưới dạng glucoza, sacaroza và fructoza, $1,15$-$ 1,60$% chất protein."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo các tác giả Nhật Bản, trong rễ tử uyển có chất saponin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "HC_AXIT_TRITECPENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tai hồng có các chất tanin đặc biệt bao gồm axit tritecpenic (độ chảy $82°C$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "HC_AXIT_URSOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tai hồng có các chất tanin đặc biệt bao gồm axit ursolic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "HC_OLEANOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tai hồng có các chất tanin đặc biệt bao gồm oleanolic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    },
+    {
+      "from": "VI_THUOC_TU_UYEN",
+      "to": "HC_AXIT_BETULINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tai hồng có các chất tanin đặc biệt bao gồm axit betulinic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T753"
+      }
+    }
+  ]
+}

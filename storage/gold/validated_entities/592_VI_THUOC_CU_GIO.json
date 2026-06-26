@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CU_GIO",
+    "ten_raw": "Củ gió",
+    "ten_khoa_hoc": "$Tinospora capillipes Gagnep.$",
+    "ho_thuc_vat": "$Tiết dê Menispermaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Ngày uống $6$-$12$g dưới dạng thuốc sắc. Dùng ngoài giã nát đắp lên nơi viêm tấy sưng đau, không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây mọc hoang dại ở những vùng núi cao ẩm, nơi dâm mát."
+    },
+    "display_name": "Củ gió",
+    "canonical_name": "Củ gió"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CU_GIO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cu Gio"
+      }
+    },
+    {
+      "id": "HC_PALMATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Palmatin"
+      }
+    },
+    {
+      "id": "HC_COLUMBIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Columbin"
+      }
+    },
+    {
+      "id": "B_UNG_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ung Thung"
+      }
+    },
+    {
+      "id": "B_SANG_DOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sang Doc"
+      }
+    },
+    {
+      "id": "CN_CO_HONG_SUNG_DAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Hong Sung Dau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "592"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dây leo sống lâu năm, thường xuyên xanh tươi. Rễ rất dài, từng đoạn phình lên thành củ mập hình tròn hay hình thận, vỏ ngoài màu vàng nâu, thịt trong màu trắng, vị đắng. Lá mọc so le, hình mác, có cuống dài, gốc lá hình mũi tên, phiến lá dài $6$-$13cm$, rộng $5$-$9cm$. Hoa nhỏ màu xanh mọc thành chùm ở kẽ lá, cuống hoa chung dài $6$-$9cm$, cuống hoa đực dài $2$-$5cm$. Quả hình cầu, màu hồng",
+        "thanh_phan_hoa_hoc": [
+          "Trong củ gió có $palmatin$ và $columbin$"
+        ],
+        "ghi_chu_bo_sung": "Mùa hoa tháng 3-5, mùa quả tháng 9-11."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CU_GIO",
+      "to": "HC_PALMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ gió có $palmatin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "all_sources": [
+          "CT_VT_VN_T592"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CU_GIO",
+      "to": "HC_COLUMBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ gió có $columbin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "all_sources": [
+          "CT_VT_VN_T592"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CU_GIO",
+      "to": "CN_CO_HONG_SUNG_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Ngày uống $6-12g$ dưới dạng thuốc sắc",
+        "cach_dung": "dưới dạng thuốc sắc",
+        "ghi_chu": "họ nhiệt mất tiếng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "all_sources": [
+          "CT_VT_VN_T592"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CU_GIO",
+      "to": "B_UNG_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "không kể liều lượng",
+        "cach_dung": "Dùng ngoài giã nát đắp lên nơi viêm tấy sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "all_sources": [
+          "CT_VT_VN_T592"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CU_GIO",
+      "to": "B_SANG_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "không kể liều lượng",
+        "cach_dung": "Dùng ngoài giã nát đắp lên nơi viêm tấy sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T592",
+        "all_sources": [
+          "CT_VT_VN_T592"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 26.0,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

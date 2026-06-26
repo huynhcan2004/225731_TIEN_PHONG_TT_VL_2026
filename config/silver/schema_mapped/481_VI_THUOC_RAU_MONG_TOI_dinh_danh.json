@@ -1,0 +1,117 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_MONG_TOI",
+    "ten_raw": "Rau mồng tơi",
+    "ten_khoa_hoc": "Basella rubra L. (Basella alba L.)",
+    "ho_thuc_vat": "Mồng tơi (Basellaceae)",
+    "variants": [
+      "Mồng tơi"
+    ],
+    "properties": {
+      "phan_bo": "Cây này nguồn gốc ở các nước nhiệt đới của châu Á và châu Phi. Tại Việt Nam, cây này mọc hoang và được trồng cho leo hàng rào để lấy rau ăn."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T481",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "481"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "cong_nang": "hoạt trung, tán nhiệt, lợi đại tiểu trường"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mồng tơi là một dây leo, sống hằng năm hay hai năm. Thân mọc cuốn, dài $1,50$-$2m$. Thân có phân nhánh, màu xanh nhạt hoặc tím nhạt. Lá mọc so le, đơn, nguyên, mẫm, có cuống, phiến lá hình trứng, đầu nhọn, phía cuống bằng hay hơi hẹp lại, dài $3$-$12cm$, rộng $2$-$6cm$. Cụm hoa hình bông mọc ở kẽ lá, nhỏ, màu trắng hay tím đỏ nhạt. Những bông ở phía trên dài và gầy hơn. Quả mọng, nhỏ hình cầu hay hình trứng, dài chừng $5$-$5mm$, màu tím đen khi chín."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "rau mồng tơi có vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "rau mồng tơi có vị chua hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Read (1936), trong rau mồng tơi có vitamin A, vitamin B, chất saponin, chất nhầy và chất sắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Read (1936), trong rau mồng tơi có vitamin A, vitamin B, chất saponin, chất nhầy và chất sắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Read (1936), trong rau mồng tơi có vitamin A, vitamin B, chất saponin, chất nhầy và chất sắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "HC_CHAT_NHAY",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Read (1936), trong rau mồng tơi có vitamin A, vitamin B, chất saponin, chất nhầy và chất sắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MONG_TOI",
+      "to": "HC_CHAT_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Read (1936), trong rau mồng tơi có vitamin A, vitamin B, chất saponin, chất nhầy và chất sắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T481"
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "entity_hub": "VI_THUOC_DAI_PHONG_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T141",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "141"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HUI_DAI_PHONG_TU_D",
+      "to": "VI_THUOC_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có đại phong tử.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LAO_PHOI_DAI_PHONG_TU_D",
+      "to": "VI_THUOC_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có đại phong tử.",
+        "cach_dung": "Dùng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_DAI_PHONG_TU_DK",
+      "to": "VI_THUOC_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đại phong tử kết hợp với khinh phấn và dầu vừng để trị ghẻ lở, giang mai.",
+        "cach_dung": "Giã nhỏ đại phong tử, thêm khinh phấn, cuối cùng thêm dầu vừng vào làm thành thuốc mỡ bôi lên những vết ghẻ lở, lở loét đã rửa sạch.",
+        "ghi_chu": "Đại phong tử thiêu tồn tính $10g$, khinh phấn $0,5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_DAI_PHONG_TU_DK",
+      "to": "VT_KHINH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đại phong tử kết hợp với khinh phấn và dầu vừng để trị ghẻ lở, giang mai.",
+        "cach_dung": "Giã nhỏ đại phong tử, thêm khinh phấn, cuối cùng thêm dầu vừng vào làm thành thuốc mỡ bôi lên những vết ghẻ lở, lở loét đã rửa sạch.",
+        "ghi_chu": "Đại phong tử thiêu tồn tính $10g$, khinh phấn $0,5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LOET_HUI_DAI_PHONG_TU_DK",
+      "to": "VI_THUOC_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu đại phong tử kết hợp với khổ sâm để trị vết loét hủi.",
+        "cach_dung": "Thêm rượu viên bằng hạt ngô, mỗi ngày uống 50 viên vào lúc đói, dùng rượu hâm nóng để chiêu thuốc. Nơi lở loét thì dùng nước sắc khổ sâm để rửa.",
+        "ghi_chu": "Dầu đại phong tử $40g$, khổ sâm tán nhỏ $120g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LOET_HUI_DAI_PHONG_TU_DK",
+      "to": "VT_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu đại phong tử kết hợp với khổ sâm để trị vết loét hủi.",
+        "cach_dung": "Thêm rượu viên bằng hạt ngô, mỗi ngày uống 50 viên vào lúc đói, dùng rượu hâm nóng để chiêu thuốc. Nơi lở loét thì dùng nước sắc khổ sâm để rửa.",
+        "ghi_chu": "Dầu đại phong tử $40g$, khổ sâm tán nhỏ $120g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_MUI_DO_DAI_PHONG_TU_DHH",
+      "to": "VI_THUOC_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đại phong tử kết hợp với hạt hồ đào và thủy ngân để trị bệnh mũi đỏ.",
+        "cach_dung": "Trộn đều, cho tất cả vào miếng vải mịn, có chuôi cầm. Cầm chuôi vải xát mạnh vào mũi. Mỗi ngày xát ba lần, xát liền trong ba ngày lại nghỉ một ngày. Làm đều như vậy nhanh thì nửa tháng, lâu thì một tháng rưỡi sẽ thấy kết quả.",
+        "ghi_chu": "Đại phong tử $30$ hạt, bóc bỏ vỏ giã nhỏ, hạt hồ đào $15$ hạt giã nhỏ trộn đều với đại phong tử. Thêm $4g$ thủy ngân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_MUI_DO_DAI_PHONG_TU_DHH",
+      "to": "VT_HAT_HO_DAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đại phong tử kết hợp với hạt hồ đào và thủy ngân để trị bệnh mũi đỏ.",
+        "cach_dung": "Trộn đều, cho tất cả vào miếng vải mịn, có chuôi cầm. Cầm chuôi vải xát mạnh vào mũi. Mỗi ngày xát ba lần, xát liền trong ba ngày lại nghỉ một ngày. Làm đều như vậy nhanh thì nửa tháng, lâu thì một tháng rưỡi sẽ thấy kết quả.",
+        "ghi_chu": "Đại phong tử $30$ hạt, bóc bỏ vỏ giã nhỏ, hạt hồ đào $15$ hạt giã nhỏ trộn đều với đại phong tử. Thêm $4g$ thủy ngân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_MUI_DO_DAI_PHONG_TU_DHH",
+      "to": "VT_THUY_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Đại phong tử kết hợp với hạt hồ đào và thủy ngân để trị bệnh mũi đỏ.",
+        "cach_dung": "Trộn đều, cho tất cả vào miếng vải mịn, có chuôi cầm. Cầm chuôi vải xát mạnh vào mũi. Mỗi ngày xát ba lần, xát liền trong ba ngày lại nghỉ một ngày. Làm đều như vậy nhanh thì nửa tháng, lâu thì một tháng rưỡi sẽ thấy kết quả.",
+        "ghi_chu": "Đại phong tử $30$ hạt, bóc bỏ vỏ giã nhỏ, hạt hồ đào $15$ hạt giã nhỏ trộn đều với đại phong tử. Thêm $4g$ thủy ngân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_HUI_DAI_PHONG_TU_D",
+      "to": "B_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hủi",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LAO_PHOI_DAI_PHONG_TU_D",
+      "to": "B_LAO_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lao phổi",
+        "cach_dung": "Dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LAO_PHOI_DAI_PHONG_TU_D",
+      "to": "B_LAO_THANH_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lao thanh quản",
+        "cach_dung": "Dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_DAI_PHONG_TU_DK",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ghẻ lở",
+        "cach_dung": "Giã nhỏ đại phong tử, thêm khinh phấn, cuối cùng thêm dầu vừng vào làm thành thuốc mỡ bôi lên những vết ghẻ lở, lở loét đã rửa sạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_DAI_PHONG_TU_DK",
+      "to": "B_GIANG_MAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa giang mai",
+        "cach_dung": "Giã nhỏ đại phong tử, thêm khinh phấn, cuối cùng thêm dầu vừng vào làm thành thuốc mỡ bôi lên những vết ghẻ lở, lở loét đã rửa sạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_LOET_HUI_DAI_PHONG_TU_DK",
+      "to": "B_LOET_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết loét hủi",
+        "cach_dung": "Thêm rượu viên bằng hạt ngô, mỗi ngày uống 50 viên vào lúc đói, dùng rượu hâm nóng để chiêu thuốc. Nơi lở loét thì dùng nước sắc khổ sâm để rửa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "BT_MUI_DO_DAI_PHONG_TU_DHH",
+      "to": "B_MUI_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh mũi đỏ",
+        "cach_dung": "Trộn đều, cho tất cả vào miếng vải mịn, có chuôi cầm. Cầm chuôi vải xát mạnh vào mũi. Mỗi ngày xát ba lần, xát liền trong ba ngày lại nghỉ một ngày. Làm đều như vậy nhanh thì nửa tháng, lâu thì một tháng rưỡi sẽ thấy kết quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,103 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CON_BO",
+    "ten_raw": "Côn bố",
+    "ten_khoa_hoc": "Laminaria japonica; Cyperus malaccensis",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [
+      "hải đới",
+      "nga chưởng thái"
+    ],
+    "properties": {
+      "bo_phan_dung": "Tảo",
+      "che_bien_tho": "Vị thuốc cuộn khúc lại thành cuộn hoặc bó ;lại thành từng bó tùy theo loại tảo mà vị thuốc có màu nâu xanh hay đen nâu, mặt ngoài thường phủ một ít tinh thể muối.",
+      "phan_bo": "Liêu Ninh, Sơn Đông, Phúc Kiến"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T271",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "271"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "cong_nang": "Làm mềm các chỗ cứng rắn, tích tụ (nhuyễn kiên), lợi thủy"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn bố Laminaria japonica là một loại tảo dẹt, màu nâu, có những móc để bám vào tảng đá ngoài biển, một bộ phận hình trụ nom như thân và một bộ phận dẹt và dài nom như lá. Bộ phận giống như lá của côn bố dài khoảng $60cm$, rộng $5-6cm$, giữa dày, mép mỏng thành hình lượn sóng. Phần lá dẹt của nga chưởng thái dài rộng khoảng $15-30cm$, dày $1,5-2mm$, hai cánh xẻ như lông chim, thùy hình lưỡi dài, mép có răng cưa nhỏ. Vị thuốc cuộn khúc lại thành cuộn hoặc bó ;lại thành từng bó tùy theo loại tảo mà vị thuốc có màu nâu xanh hay đen nâu, mặt ngoài thường phủ một ít tinh thể muối, mùi tanh, vị mặn.",
+        "thanh_phan_hoa_hoc": [
+          ". Trong côn bố có tới $60\\%$ hydrat cacbon, trong hydrat cacbon thành phần chủ yếu là anging lactozan và pentozan. Ngoài ra còn chứa vitamin, protit và một ít chất béo. Tro toàn phần $14\\%$ trong đó có iot, kali, sắt, canxi,",
+          "Algin (do Stanfort tìm ra từ năm 1880) gồm chủ yếu là muối natri của axit anginic (C,H,O),",
+          "Axit anginic lại là một axit polymannuronic gồm nhiều đơn vị axit D-manuronic dưới dạng Pyranoza liên kết với nhau ở 1-4."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CON_BO",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T271"
+      }
+    },
+    {
+      "from": "VI_THUOC_CON_BO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn hoạt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T271"
+      }
+    },
+    {
+      "from": "VI_THUOC_CON_BO",
+      "to": "HC_HYDRAT_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong côn bố có tới $60\\%$ hydrat cacbon, trong hydrat cacbon thành phần chủ yếu là anging lactozan và pentozan."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T271"
+      }
+    },
+    {
+      "from": "VI_THUOC_CON_BO",
+      "to": "HC_ALGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Algin (do Stanfort tìm ra từ năm 1880) gồm chủ yếu là muối natri của axit anginic (C,H,O),"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T271"
+      }
+    },
+    {
+      "from": "VI_THUOC_CON_BO",
+      "to": "HC_AXIT_ANGINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit anginic lại là một axit polymannuronic gồm nhiều đơn vị axit D-manuronic dưới dạng Pyranoza liên kết với nhau ở 1-4."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T271"
+      }
+    }
+  ]
+}

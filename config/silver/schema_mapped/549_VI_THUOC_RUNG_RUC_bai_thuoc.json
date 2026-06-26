@@ -1,0 +1,97 @@
+{
+  "entity_hub": "VI_THUOC_RUNG_RUC",
+  "source": {
+    "source_id": "CT_VT_VN_T549",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "549"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHUA_RO_RUNG_RUC_R",
+      "to": "VI_THUOC_RUNG_RUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ Rung rúc.",
+        "mo_ta_chi_tiet": "dùng dưới dạng thuốc sắc",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_RUNG_RUC_R",
+      "to": "VI_THUOC_RUNG_RUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ Rung rúc.",
+        "mo_ta_chi_tiet": "Ngâm rượu",
+        "cach_dung": "Chia làm nhiều lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_RUNG_RUC_R",
+      "to": "B_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đau nhức",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_RUNG_RUC_R",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mất ngủ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_RUNG_RUC_R",
+      "to": "VI_THUOC_RUNG_RUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ Rung rúc.",
+        "mo_ta_chi_tiet": "Rễ lá và hạt Rung rúc dùng ngâm rượu",
+        "cach_dung": "Ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_RUNG_RUC_R",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau và sâu răng",
+        "cach_dung": "Ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T549"
+      }
+    }
+  ],
+  "metadata": {}
+}

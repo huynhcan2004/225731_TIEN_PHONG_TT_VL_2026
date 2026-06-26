@@ -1,0 +1,279 @@
+{
+  "entity_hub": "VI_THUOC_CHOC_GAI",
+  "source": {
+    "source_id": "CT_VT_VN_T772",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "772"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc Chóc gai được sử dụng đơn lẻ để chữa ho.",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc",
+        "ghi_chu": "Có thể dùng chống nôn và tẩy nhẹ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HO_CHOC_GAI_C",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HEN_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc Chóc gai được sử dụng đơn lẻ để chữa hen.",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc",
+        "ghi_chu": "Có thể dùng chống nôn và tẩy nhẹ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HEN_CHOC_GAI_C",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_SOT_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc Chóc gai được sử dụng đơn lẻ để chữa sốt.",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc",
+        "ghi_chu": "Có thể dùng chống nôn và tẩy nhẹ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_SOT_CHOC_GAI_C",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Vị thuốc Chóc gai được sử dụng đơn lẻ để lợi tiểu.",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc",
+        "ghi_chu": "Có thể dùng chống nôn và tẩy nhẹ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_LOI_TIEU_CHOC_GAI_C",
+      "to": "S_LOI_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "lợi tiểu",
+        "cach_dung": "Ngày uống $6-12g$ dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_CHOC_GAI_H",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Hạt cà dại hoa tím rang cháy được sử dụng để chữa đau răng và sâu răng.",
+        "cach_dung": "Hứng khói này vào miệng. Than hạt còn lại giã nhỏ xát lên lợi nơi đau răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_CHOC_GAI_H",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng và sâu răng",
+        "cach_dung": "Hứng khói này vào miệng. Than hạt còn lại giã nhỏ xát lên lợi nơi đau răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_CHOC_GAI_H",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng và sâu răng",
+        "cach_dung": "Hứng khói này vào miệng. Than hạt còn lại giã nhỏ xát lên lợi nơi đau răng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Cải cúc được sử dụng để chữa đau mắt, nhức đầu kinh niên, thổ huyết.",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_CHOC_GAI_C",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "cải cúc chữa đau mắt",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_KINH_NIEN_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Cải cúc được sử dụng để chữa đau mắt, nhức đầu kinh niên, thổ huyết.",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_KINH_NIEN_CHOC_GAI_C",
+      "to": "B_DAU_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "cải cúc chữa nhức đầu kinh niên",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_CHOC_GAI_C",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Cải cúc được sử dụng để chữa đau mắt, nhức đầu kinh niên, thổ huyết.",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_CHOC_GAI_C",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "cải cúc chữa thổ huyết",
+        "cach_dung": "Mỗi ngày uống $10-16g$ dưới dạng thuốc pha hay thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HO_TRE_EM_CAI_LDU",
+      "to": "VI_THUOC_CHOC_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Lá cải cúc, đường trắng kết hợp giúp chữa ho cho trẻ em.",
+        "cach_dung": "Cho vào chén con, cho vào nồi cơm hấp cho tiết nước ra. Chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "Ít đường trắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HO_TRE_EM_CAI_LDU",
+      "to": "VT_DUONG_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đường trắng giúp dẫn thuốc, điều vị, giảm ho.",
+        "cach_dung": "Cho vào chén con, cho vào nồi cơm hấp cho tiết nước ra. Chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "Ít đường trắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    },
+    {
+      "from": "BT_HO_TRE_EM_CAI_LDU",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho cho trẻ em",
+        "cach_dung": "Cho vào chén con, cho vào nồi cơm hấp cho tiết nước ra. Chia làm nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T772"
+      }
+    }
+  ],
+  "metadata": {}
+}

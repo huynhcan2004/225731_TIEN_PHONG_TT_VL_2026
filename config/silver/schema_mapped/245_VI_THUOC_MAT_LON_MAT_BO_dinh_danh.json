@@ -1,0 +1,160 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAT_LON_MAT_BO",
+    "ten_raw": "Mật lợn, mật bò",
+    "display_name": "Mật lợn, mật bò",
+    "properties": {}
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T245",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "245"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat). Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_NATRI_GLYCOCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_NATRI_TAUROCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_BILIRUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat). Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_BILIVECDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_CHOLESTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat). Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_AXIT_TAURODESOXYCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_MUOI_CHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat). Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_GLYCODESOXYCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cao mật bò chế như trên có hỗn hợp natri glycocholat và natri taurocholat, sắc tố mật biliru- bin và bilivecdin, cholesterol, axit taurodesoxycholat (hay taurochenodesoxycholat) và một số muối mật khác như muối cholat và glycodesoxycholat (hay glycochenodesoxycholat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_HYODESOXYCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_GLYCOCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_TAUROCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_LON_MAT_BO",
+      "to": "HC_TAURODESOXYCHOLAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mật lợn chủ yếu gồm các muỗi cholat như hyodesoxycholat, glycocholat, glycodesoxycholat (hay glycochenodesoxycholat), taurocholat, taurodesoxycholat cholesterol, và một số (hay taurochenodesoxycholat) sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T245"
+      }
+    }
+  ]
+}

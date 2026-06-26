@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HONG_DAU_KHAU",
+    "ten_raw": "Hồng đậu khấu",
+    "ten_khoa_hoc": "Alpinia galanga Willd.",
+    "ho_thuc_vat": "họ Gừng (Zingiberaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": "Hồng đậu khấu"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T419",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "419"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "cong_nang": "táo thấp, tán hàn, tiêu thực, giải tửu độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Xem vị cao lương khương và hình 306, 307.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hồng đậu khấu có tinh dầu, tinh bột và chất protit, các chất khác chưa rõ."
+        ],
+        "cach_dung_bao_che": "Vào tháng 9-10 khi quá gần chín hái về phơi hay sấy khô. Khi dùng phải bóc bỏ vỏ."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HONG_DAU_KHAU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay, ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T419"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DAU_KHAU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay, ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T419"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DAU_KHAU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hồng đậu khấu có tinh dầu, tinh bột và chất protit, các chất khác chưa rõ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T419"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DAU_KHAU",
+      "to": "HC_TINH_BOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hồng đậu khấu có tinh dầu, tinh bột và chất protit, các chất khác chưa rõ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T419"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_DAU_KHAU",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hồng đậu khấu có tinh dầu, tinh bột và chất protit, các chất khác chưa rõ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T419"
+      }
+    }
+  ]
+}

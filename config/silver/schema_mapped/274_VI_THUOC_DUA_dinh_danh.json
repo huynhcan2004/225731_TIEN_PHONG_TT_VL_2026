@@ -1,0 +1,62 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUA",
+    "ten_raw": "Dứa",
+    "ten_khoa_hoc": "Ananas sativa Liun. (Ananas sativa L.); Ananas sativa Cocos nucifera L.",
+    "ho_thuc_vat": "Dứa Bromeliaceae; Cau (Arecaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T274",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "274"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây dừa là một cây thân cột cao tới $15$-$20m$, thân đơn độc, gốc hơi phình to, mang nhiều vết sẹo do lá rụng để lại. Lá kép lông chim dài $2$-$4m$, cuống rất to và khỏe. Các lá chét hẹp dài $50$-$70cm$. Cụm hoa lớn mọc ở kẽ lá, gồm nhiều hoa đực và một vài hoa cái. Quả hạch lớn có vỏ ngoài hóa sợi, chứa một hạt. Hạt có vỏ cứng, bên trong chứa một lớp cơm dừa màu trắng, dày $1$-$2cm$, bao quanh một khoang chứa đầy nước dừa (Hình 696)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "HC_BROMELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tất cả các bộ phận của cây dứa (thân, lá, quả) đều chứa bromelin, nhiều nhất tập trung ở thân dứa (phần lõi trắng của chồi) cao gấp 8-20 lần so với ở quả, dứa tây chứa nhiều bromelin hơn dứa ta."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "HC_THEOBROMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các ancaloit với đại diện chủ yếu là theobromin (dimetyl-3-7 dioxy 2-6 purin) 1-2%. kèm theo một ít cafein (0,05-0,3%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA",
+      "to": "HC_CAFEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các ancaloit với đại diện chủ yếu là theobromin (dimetyl-3-7 dioxy 2-6 purin) 1-2%. kèm theo một ít cafein (0,05-0,3%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    }
+  ]
+}

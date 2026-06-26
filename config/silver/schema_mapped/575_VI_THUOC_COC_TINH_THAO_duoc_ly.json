@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_COC_TINH_THAO",
+  "source": {
+    "source_id": "CT_VT_VN_T575",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "575"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "CN_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    },
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "CN_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    },
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh Can và Phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    },
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh Can và Phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    },
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cốc tinh thảo có tác dụng kháng sinh đối với một số vi trùng. Tác dụng này có lẽ do chất saponin có trong cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    },
+    {
+      "from": "VI_THUOC_COC_TINH_THAO",
+      "to": "DL_UC_CHE_NAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc Cốc tinh thảo có tác dụng ức chế đối với một số nấm gây bệnh ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T575"
+      }
+    }
+  ],
+  "metadata": {}
+}

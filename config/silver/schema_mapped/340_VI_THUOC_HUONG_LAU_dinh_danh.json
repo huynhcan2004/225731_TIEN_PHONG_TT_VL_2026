@@ -1,0 +1,157 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HUONG_LAU",
+    "ten_raw": "Hương lâu",
+    "ten_khoa_hoc": "Vetiveria zizanioides (Linn.) Nash.; Andropogon squarrosus Hack.; Milleria sp.",
+    "ho_thuc_vat": "Lúa Poaceae (Gramineae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây mọc hoang dại trên các đồi hoang khô nơi\nnhiều nắng, trơ đất đá, xen lẫn cây bụi thấp. Được\ntrồng để khai thác tại nhiều nước như Ấn Độ,\nIndônêxya.\nTại Việt Nam, chỉ mới thấy trồng từ lâu đời ở Tiền Hải tỉnh Thái Bình.",
+      "thu_hai": "Trồng vào tháng 2, thu hái\nvào tháng 12 và rải rác trong năm, nhưng chủ yếu\nvào tháng 12.",
+      "che_bien_tho": "Trước đây, nhân dân mới chỉ thu hái rễ, cuộn\nthành từng bó nhỏ, 5-6 gói nhỏ buộc lại thành gói\nlớn hơn, mỗi gói nặng chừng $30g$, đem bán tại các\nchợ để nấu nước gội đầu cho thơm và để làm hương\nthơm."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T340",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "340"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ sống lâu năm, thân rễ dày, dài, có mùi thơm. Thân cao $1,5m$ đến $2m$ hay hơn, mọc thẳng đứng, dài $40-90cm$, rộng $4-10mm$, nhẵn, mép nháp. Cụm hoa là chùy tận cùng, thẳng, dài $20-30cm$, cuống chung lớn, phân nhánh nhiều. Bỗng nhỏ không cuống lưỡng tính, dẹt, bông nhỏ có cuống là bông đực. Quả hơi dẹt.",
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ hương bài có 2 đến 3% tinh dầu, nhưng nếu cất kéo hơi nước bình thường chỉ thu được từ 0,34 đến dưới 1% do tinh dầu rất sánh, tỷ trọng xấp xỉ tỷ trọng của nước, độ sôi lại cao. Cho nên cần cắt nhỏ, ngâm rễ một đêm trước khi cất thì năng suất cao hơn. Tinh dầu hương bài rất thơm, bền mùi, sánh. Tùy theo từng vùng trồng và tổ chức cất, tinh dầu có tính chất hơi khác nhau. Trên đây là một số tính chất của tinh dầu hương bài cất ở mấy nơi. Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$. Có hai dạng $vetivon$ và kiến trúc cấu tạo của $vetivon$ đã được Peau Naves và Perrotet xác định vào năm 1940-1941. Có tác giả nghiên cứu thấy trong tinh dầu hương bài có 2 $vetiven$ (gồm 2 và 3 vòng), 2 $vetivenol$ (gồm 2 và 3 vòng), ancol metylic, furfurol, các axit vetivenic và axit benzoic dưới dạng este của vetivenol."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIVERON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIRON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIVEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_AXIT_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIVEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tinh dầu gồm các xeton: $vetiveron$ và $vetiron$ hay $vetivon$, các rượu $vetirol$ và $vetiverol$, một ít axit benzoic, các sesquitecpen: $vetiven$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_VETIVENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nghiên cứu thấy trong tinh dầu hương bài có 2 $vetiven$ (gồm 2 và 3 vòng), 2 $vetivenol$ (gồm 2 và 3 vòng), ancol metylic, furfurol, các axit vetivenic và axit benzoic dưới dạng este của vetivenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_ANCOL_METYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nghiên cứu thấy trong tinh dầu hương bài có 2 $vetiven$ (gồm 2 và 3 vòng), 2 $vetivenol$ (gồm 2 và 3 vòng), ancol metylic, furfurol, các axit vetivenic và axit benzoic dưới dạng este của vetivenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_FURFURROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nghiên cứu thấy trong tinh dầu hương bài có 2 $vetiven$ (gồm 2 và 3 vòng), 2 $vetivenol$ (gồm 2 và 3 vòng), ancol metylic, furfurol, các axit vetivenic và axit benzoic dưới dạng este của vetivenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    },
+    {
+      "from": "VI_THUOC_HUONG_LAU",
+      "to": "HC_AXIT_VETIVENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nghiên cứu thấy trong tinh dầu hương bài có 2 $vetiven$ (gồm 2 và 3 vòng), 2 $vetivenol$ (gồm 2 và 3 vòng), ancol metylic, furfurol, các axit vetivenic và axit benzoic dưới dạng este của vetivenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T340"
+      }
+    }
+  ]
+}

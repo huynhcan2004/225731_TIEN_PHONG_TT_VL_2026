@@ -1,0 +1,105 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGUU_HOANG",
+    "ten_raw": "Ngưu hoàng",
+    "ten_khoa_hoc": "Calculus Bovis (Bezoar); Calculus Bovis artificialis (Bezoar artificialis)",
+    "ho_thuc_vat": "Trâu bò Bovidae",
+    "variants": [
+      "Ngưu hoàng thiên nhiên",
+      "Ngưu hoàng tổng hợp"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T813",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "813"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Mặn (Hàm)",
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_PHE"
+        ],
+        "cong_nang": "tán phong nhiệt, giải kinh tuyên phế, thấu đậu chẩn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tuỳ theo trình độ kết sạn, ngưu hoàng to nhỏ không nhất định, lớn có thể bằng quả trứng gà, nhỏ bằng hòn cuội hoặc như viên sạn. Khi cắt ngang trông thấy như gồm nhiều lớp dính chặt vào nhau có màu vàng nâu hoặc nâu đỏ. Cần gói kín, để trong lọ màu dưới đáy có gạo rang hoặc với cục ( Hình 618).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Hiện nay vì mới phát hiện nên chưa có kinh nghiệm để phân biệt con trâu bò nào có ngưu hoàng: Những người mổ trâu bò ở Hà Nội nhận thấy trâu bò vùng Vĩnh Linh đưa ra thường hay có. Theo các tài liệu những con trâu bò già, gầy yếu, mắt lờ đờ, khi đi đầu hay quay nghiêng, đứng hoặc nằm thường hay thở khò khè như bị hen thường là trâu bò có ngưu hoàng. Tốt nhất là khi mổ trâu bò, lấy túi mật thì nắn túi và ống mật hễ thấy có cục rắn cứng thì nên sớm rạch túi mật ra, lọc qua rây, lấy mật riêng và ngưu hoàng riêng. Nếu để lâu, dịch mật ngấm vào ngưu hoàng sẽ làm ngưu hoàng bị đen, phẩm chất kém. Sau khi lấy ngưu hoàng chú ý dùng vải mềm hay gạc sạch gạt bỏ các màng nhầy dính xung quanh, dùng thông thảo hoặc bấc đèn đang tâm thảo (xem vị này) hoặc bông bọc lại, ngoài cùng bọc một lớp vải thưa, buộc cẩn thận. Cho vào hộp kín trong có vôi cục chưa tôi hoặc gạo rang hay silicagien để hút ẩm. Chú ý hợp phải kín thì khả năng hút ẩm của vôi hay gạo rang mới thể hiện tốt. Nhất thiết không phơi nắng hay sấy lửa hoặc để ở chỗ có gió mạnh vì sức nóng ánh sáng mặt trời hoặc gió mạnh làm ngưu hoàng nứt vỡ, sẫm lại, phẩm chất sẽ kém. Mùa thu hoạch quanh nām."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGUU_HOANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGUU_HOANG",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGUU_HOANG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGUU_HOANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    },
+    {
+      "from": "VI_THUOC_NGUU_HOANG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T813"
+      }
+    }
+  ]
+}

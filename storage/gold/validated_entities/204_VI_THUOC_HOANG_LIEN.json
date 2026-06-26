@@ -1,0 +1,841 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOANG_LIEN",
+    "ten_raw": "Hoàng liên",
+    "ten_khoa_hoc": "$Coptis quinquesecta; Coptis sinensis Franch; Coptis teeta Wall.; Coptis teetoides C. Y. Cheng$",
+    "ho_thuc_vat": "$Mao lương (Ranunculaceae)$",
+    "variants": [
+      "hoàng mù",
+      "hoàng mộc"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "phơi khô",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Tán bột chế thành thuốc viên $0,50$g. Chữa lỵ: Cả lỵ amip và lỵ khuẩn đều có tác dụng. Ngày uống $3-6$g chia làm $3$ lần uống. Thời gian điều trị $7-15$ ngày. Nếu lỵ có sốt, sau $2,3$ ngày đầu giảm sốt, sau $5$ ngày phân hết trùng lỵ.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây hoàng liên mọc hoang ở các vùng núi cao ’$1.500-2.000m$ tại Lào Cai (Sapa), dãy núi Hoàng Liên Sơn, khu Tây Bắc."
+    },
+    "display_name": "Hoàng liên",
+    "canonical_name": "Hoàng liên"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_HOANG_LIEN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hoang Lien"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_DAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Dan"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Dai Trang"
+      }
+    },
+    {
+      "id": "HC_BECBERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Becberin"
+      }
+    },
+    {
+      "id": "HC_PANMATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Panmatin"
+      }
+    },
+    {
+      "id": "HC_COPTISIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Coptisin"
+      }
+    },
+    {
+      "id": "HC_WORENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Worenin"
+      }
+    },
+    {
+      "id": "HC_COLUMBAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Columbamin"
+      }
+    },
+    {
+      "id": "B_VIEM_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Da Day"
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Ruot"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    },
+    {
+      "id": "B_LY_AMIP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly Amip"
+      }
+    },
+    {
+      "id": "B_LY_KHUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly Khuan"
+      }
+    },
+    {
+      "id": "CN_TA_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ta Hoa"
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tao Thap"
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Giai Doc"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_TRI_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Ly"
+      }
+    },
+    {
+      "id": "CN_TRI_TA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Ta"
+      }
+    },
+    {
+      "id": "CN_THANH_TAM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Tam"
+      }
+    },
+    {
+      "id": "CN_TRI_XUAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Xuat Huyet"
+      }
+    },
+    {
+      "id": "CN_TRI_TIEU_KHAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Tieu Khat"
+      }
+    },
+    {
+      "id": "CN_TRI_DAU_MAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Dau Mat"
+      }
+    },
+    {
+      "id": "CN_TRI_LOET_MIENG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Loet Mieng"
+      }
+    },
+    {
+      "id": "DL_KANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Khuan"
+      }
+    },
+    {
+      "id": "DL_KANG_KY_SINH_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Ky Sinh Trung"
+      }
+    },
+    {
+      "id": "DL_HO_TRO_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ho Tro Tieu Hoa"
+      }
+    },
+    {
+      "id": "DL_GIAN_CO_THAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Gian Co That"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Ho Hap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "204"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoàng liên là một loại cây cỏ nhỏ, sống lâu năm, cao độ $20-35cm$. Lá mọc so le từ thân rễ, có cuống dài. Phiến lá gồm $3-5$ lá chét. Mỗi lá chét lại chia thành nhiều thùy, mép có răng cưa to. Đầu mùa xuân sinh trục mang hoa dài chừng $10cm$. Đầu trục có $3-4$ hoa màu trắng, nhiều lá noãn rời nhau ( Hình 130, 131)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên có tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên quy vào kinh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên quy vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên quy vào kinh đởm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên quy vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Hoàng liên quy vào kinh đại tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_BECBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoàng liền có chừng $7\\%$ ancaloit toàn phần trong đó chủ yếu là chất `$becbérin$`",
+        "ghi_chu": "7\\% ancaloit toàn phần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_PANMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất `$panmatin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_COPTISIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất `$coptisin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_WORENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất `$worenin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "HC_COLUMBAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất `$columbamin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "CT_VT_VN_T205"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "CT_VT_VN_T205"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không có",
+        "ghi_chu": "CT_VT_VN_T205"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "B_LY_AMIP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$3-6g$",
+        "cach_dung": "Ngày uống $3-6g$ chia làm 3 lần uống. Thời gian điều trị 7-15 ngày. Nếu lỵ có sốt, sau 2,3 ngày đầu giảm sốt, sau 5 ngày phân hết trùng lỵ",
+        "ghi_chu": "CT_VT_VN_T206"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "B_LY_KHUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$3-6g$",
+        "cach_dung": "Ngày uống $3-6g$ chia làm 3 lần uống. Thời gian điều trị 7-15 ngày. Nếu lỵ có sốt, sau 2,3 ngày đầu giảm sốt, sau 5 ngày phân hết trùng lỵ",
+        "ghi_chu": "CT_VT_VN_T206"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc. | Chữa ngộ độc do ba đậu, khinh phấn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tả lỵ. | Chữa lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tả lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_THANH_TAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tâm phiền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_XUAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn ra máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_TIEU_KHAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu khát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_DAU_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau mắt đỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "CN_TRI_LOET_MIENG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét miệng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_KANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng đối với trùng $Staphyloccus$ $aureus$ với $Streptococ$ $hemolytique$, trực trùng ho gà, thương hàn, phó thương hàn, lỵ, lao.",
+        "ghi_chu": "Thí nghiệm của D.V. Lebedev."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_KANG_KY_SINH_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Không có tác dụng đối với trùng sốt rét nhưng tác dụng rõ rệt với trùng $Leishmania$ $tropica$ và $Leishmania$ $espundia$ (gây ra các bệnh mụn bouton d’orient và leishmaniose bresilienne)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giúp sự tiêu hóa, chữa viêm dạ dày và ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_GIAN_CO_THAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất becberin tăng tạm thời trương lực (tonus) và sự co bóp của ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng giảm huyết áp và xỉu đối với hệ tim mạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ kích thích sự hô hấp, liều cao làm cho hô hấp kém có thể đi tới ngạt do tê liệt trung tâm hô hấp, tim vẫn tiếp tục đập."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HOANG_LIEN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Becberin ít độc: $0,1g$ cho $1$ $kg$ thân thể. Bài tiết rất mau, một phần qua nước tiểu, một phần phá hủy trong cơ thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T204",
+        "all_sources": [
+          "CT_VT_VN_T204"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 77.5,
+      "reliability_c_score": 0.7556,
+      "total_confidence_sum": 27.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

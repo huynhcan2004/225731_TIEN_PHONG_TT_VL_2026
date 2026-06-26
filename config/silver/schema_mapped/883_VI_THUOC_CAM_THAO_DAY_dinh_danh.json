@@ -1,0 +1,268 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CAM_THAO_DAY",
+    "ten_raw": "Cam thảo dây",
+    "ten_khoa_hoc": "Centella asiatica (L.) Urban; Abrus precatorius L.",
+    "ho_thuc_vat": "Hoa tán (Apiaceae); Cánh bướm (Fabaceae)",
+    "variants": [
+      "Rau má",
+      "Dây cam thảo"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "che_bien_tho": "Nướng"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T883",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "883"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TAM",
+          "K_TY",
+          "K_PHE",
+          "K_THAN",
+          "K_TAM_BAO",
+          "K_BANG_QUANG",
+          "K_VI",
+          "K_DAI_TRANG",
+          "K_TIEU_TRANG",
+          "K_DAN",
+          "K_TAM_TIEU"
+        ],
+        "cong_nang": "Bổ tỳ vị, nhuận phế, thanh nhiệt giải độc, điều hòa các vị thuốc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dây cam thảo là một loại dây leo, cành gầy nhỏ, thân có nhiều xơ. Lá kép hình lông chim, cả cuống dài $15$-$24cm$, gồm $8$-$20$ đôi lá chét, cuống chung ngắn, cuống lá chét càng ngắn hơn, phiến lá chét hơi hình chữ nhật dài $5$-$20mm$, rộng $3$-$8mm$. Hoa màu hồng mọc thành chùm nhỏ ở kẽ lá hay đầu cành. Cánh hoa hình cánh bướm. Quả thon dài $5cm$, rộng $12$-$15mm$, dày $7$-$8mm$, mặt có lông ngắn. hạt từ $3$ đến $7$, hình trứng, vỏ rất cứng, bóng, màu đỏ với một điểm đen lớn quanh tễ (Hình 662, Hm 36,1).",
+        "thanh_phan_hoa_hoc": [
+          "Rễ và lá dây cam thảo chứa một chất ngọt tương tự như glyxyrizin có trong rễ cam thảo"
+        ],
+        "ghi_chu_bo_sung": "Dây cam thảo mọc hoang và được trồng ở khắp nơi. Tại Hà Nội người ta bán thành từng bó dây và lá cam thảo. Rễ của dây cam thảo ít thấy ở thị trường. Hạt ít thấy bán hơn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "K_TAM_TIEU",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 12 đường kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CONG_NANG_BO_TY_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng bổ tỳ vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CONG_NANG_NHUAN_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng nhuận phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CONG_NANG_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh nhiệt giải độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "CONG_NANG_DIEU_HOA_CAC_VI_THUOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng điều hòa các vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAM_THAO_DAY",
+      "to": "HC_GLYXYRIZIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ và lá dây cam thảo chứa một chất ngọt tương tự như glyxyrizin có trong rễ cam thảo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    }
+  ]
+}

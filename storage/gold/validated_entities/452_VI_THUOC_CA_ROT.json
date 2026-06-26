@@ -1,0 +1,372 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_ROT",
+    "ten_raw": "Cà rốt",
+    "ten_khoa_hoc": "$Daucus carota L.; Daucus maximus L$",
+    "ho_thuc_vat": "$Hoa tán Umbelliferae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ trụ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Pháp, khắp các nước phương tây và phương đông"
+    },
+    "display_name": "Cà rốt",
+    "canonical_name": "Cà rốt"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_ROT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Rot"
+      }
+    },
+    {
+      "id": "HC_CAROTEN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Caroten A"
+      }
+    },
+    {
+      "id": "HC_CAROTEN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Caroten B"
+      }
+    },
+    {
+      "id": "HC_ASPARAGIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Asparagin"
+      }
+    },
+    {
+      "id": "HC_PANMITIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Panmitic"
+      }
+    },
+    {
+      "id": "HC_OLEIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Oleic"
+      }
+    },
+    {
+      "id": "HC_SACAROZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sacaroza"
+      }
+    },
+    {
+      "id": "HC_GLUCOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Glucoza"
+      }
+    },
+    {
+      "id": "HC_PINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pinen"
+      }
+    },
+    {
+      "id": "HC_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Limonen"
+      }
+    },
+    {
+      "id": "HC_DAUCOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Daucola"
+      }
+    },
+    {
+      "id": "BT_IA_CHAY_CA_ROT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ia Chay Ca Rot"
+      }
+    },
+    {
+      "id": "B_IA_CHAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ia Chay"
+      }
+    },
+    {
+      "id": "B_DIEU_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dieu Kinh"
+      }
+    },
+    {
+      "id": "CN_THONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thong Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "452"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cà rốt là một cây sống hai năm, có rễ trụ nhẵn hay có lông. Lá mọc so le, không có lá kèm, bẹ khá phát triển, phiến lá xẻ lông chim, càng gần phía đầu càng hẹp. Hoa hợp thành tán kép, tán nhỏ mang hoa trắng hồng hay tía, lá bắc của tổng bao cũng xẻ lông chim, lá bắc của tiểu bao đơn hay xẻ ba. Đế hoa khum lõm. Lá đài nhỏ ba cạnh, cánh tràng, mọc so le. Trong tán thì ở giữa bất thụ, màu tía, còn hoa khác thì màu trắng hay hồng. Quả bế, mỗi đôi gồm hai nửa (phân liệt quả) mỗi nửa dài $2$-$3mm$, hình trứng, hai phân liệt quả dính với nhau ở mặt giáp nhau, sống phụ có phủ đầy sợi tương ứng với các ống bài tiết giả. Hạt có phối nhũ sừng. Rễ trụ, hình dáng thay đổi tuỳ theo loại. Theo nghiên cứu của Beille thì cây cà rốt mọc hoang không có củ. Loại hiện nay chúng ta trồng là một loại lai của hai loài Daucus carota L. và Daucus maximus L (Hình 338 )."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_CAROTEN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ cà rốt có một chất sterol, các photphatit (lexitin), các hợp chất pectin, chất màu có tinh thể rất quan trọng bao gồm $caroten a$ và $B$, các men pectaza, oxydaza, các enzym."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_CAROTEN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ cà rốt có một chất sterol, các photphatit (lexitin), các hợp chất pectin, chất màu có tinh thể rất quan trọng bao gồm $caroten a$ và $B$, các men pectaza, oxydaza, các enzym."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_ASPARAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thành phần chất đạm người ta xác định được $asparagin$, trong thành phần chất béo các axit $panmitic$ và $oleic$; trong thành phần gluxit người ta xác định $sacaroza$, $glucoza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_PANMITIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thành phần chất đạm người ta xác định được $asparagin$, trong thành phần chất béo các axit $panmitic$ và $oleic$; trong thành phần gluxit người ta xác định $sacaroza$, $glucoza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_OLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thành phần chất đạm người ta xác định được $asparagin$, trong thành phần chất béo các axit $panmitic$ và $oleic$; trong thành phần gluxit người ta xác định $sacaroza$, $glucoza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thành phần chất đạm người ta xác định được $asparagin$, trong thành phần chất béo các axit $panmitic$ và $oleic$; trong thành phần gluxit người ta xác định $sacaroza$, $glucoza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thành phần chất đạm người ta xác định được $asparagin$, trong thành phần chất béo các axit $panmitic$ và $oleic$; trong thành phần gluxit người ta xác định $sacaroza$, $glucoza$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ và quả có chứa tinh dầu với hàm lượng $0,8$-$1,6$\\%; trong tinh dầu thành phần chủ yếu là $pinen$, $limonen$, $daucola$ và một glycol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ và quả có chứa tinh dầu với hàm lượng $0,8$-$1,6$\\%; trong tinh dầu thành phần chủ yếu là $pinen$, $limonen$, $daucola$ và một glycol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "HC_DAUCOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ và quả có chứa tinh dầu với hàm lượng $0,8$-$1,6$\\%; trong tinh dầu thành phần chủ yếu là $pinen$, $limonen$, $daucola$ và một glycol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IA_CHAY_CA_ROT",
+      "to": "VI_THUOC_CA_ROT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$50g$ (bột khô) hoặc $500g$ (tươi)",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_IA_CHAY_CA_ROT",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$100-150ml$/kg thể trọng mỗi ngày",
+        "cach_dung": "Đun sôi với 1 lít nước được súp cà rốt. Chia làm 6 bữa ăn, nếu truyền hoặc uống nước thì bớt lượng tương đương súp cà rốt. Những ngày sau cho ăn kèm với sữa mẹ hay sữa bò với lượng súp cà rốt giảm dần, thường thời gian điều trị 4 ngày chia như sau: Ngày đầu cho ăn súp cà rốt $100\\%$, ngày thứ hai ăn súp cà rốt $80\\%$, sữa mẹ hay sữa bò $20\\%$, ngày thứ ba ăn súp cà rốt $60\\%$, sữa mẹ hay sữa bò $40\\%$, ngày thứ tư ăn súp cà rốt $40\\%$, sữa mẹ hay sữa bò $60\\%$.",
+        "ghi_chu": "Dùng cho trẻ em"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "CN_THONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Dùng quả cà rốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CA_ROT",
+      "to": "B_DIEU_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Dùng quả cà rốt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T452",
+        "all_sources": [
+          "CT_VT_VN_T452"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 35.0,
+      "reliability_c_score": 0.7633,
+      "total_confidence_sum": 11.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

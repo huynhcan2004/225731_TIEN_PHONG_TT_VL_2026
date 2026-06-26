@@ -1,0 +1,122 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HUNG_CHANH",
+    "ten_raw": "Húng chanh",
+    "ten_khoa_hoc": "$Coleus aromaticus Benth.; Coleus crassifolius Benth.$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "lieu_dung_chung": "[CT_VT_VN_T726]: Thường dùng tươi với liều $10-16$g một ngày.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây húng chanh có nguồn gốc ở đảo Moluques, được trồng khắp nơi ở Việt Nam để lấy lá"
+    },
+    "display_name": "Húng chanh",
+    "canonical_name": "Húng chanh"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_HUNG_CHANH",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hung Chanh"
+      }
+    },
+    {
+      "id": "HC_CACVAROLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Cacvarola"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "DL_KANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Sinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T725",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "725"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Húng chanh là một loại cỏ, gốc hoá gỗ có thể cao $25-75cm$. Thân mọc đứng, có lông. Lá có cuống, mọc đối, rộng, hình bầu dục, dày, trông như mọng nước. Lá dài $7-10cm$, rộng $4-6cm$, mép khía tai bèo, mặt trên có lông đơn, đầu mang hạch, trong, bóng; mặt dưới lá nhiều lông bài tiết hơn, gân nổi rõ. Hoa màu tía, nhỏ, mọc thành hoa tự, tận cùng dài gồm các vòng hoa mọc sít nhau gồm $20-30$ hoa."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HUNG_CHANH",
+      "to": "HC_CACVAROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là chất $cacvacrola$.",
+        "ghi_chu": "cacvarola"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T725",
+        "all_sources": [
+          "CT_VT_VN_T725"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HUNG_CHANH",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "5-7 lá",
+        "cach_dung": "Rửa sạch ngâm nước muối. Sau đó nhai và ngậm.",
+        "ghi_chu": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T725",
+        "all_sources": [
+          "CT_VT_VN_T725"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HUNG_CHANH",
+      "to": "DL_KANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu húng chanh có tác dụng kháng sinh mạnh đối với vi trùng Staphyllococcus 209 P. Salmonella typhi, Shigella flexneri-Shigella sonnei, Shigella dysenteria (Shiga) Subtilis, Coli pathogène, Coli bothesda Streptococcus, Pneumococcus, Diphieri và Bordet Gengou."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T725",
+        "all_sources": [
+          "CT_VT_VN_T725"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 24.5,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

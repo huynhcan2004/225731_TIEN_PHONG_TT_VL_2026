@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_SAU_DAU_RUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T194",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "194"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAU_DAU_RUNG",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp (làm khô cái ẩm ướt)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T194"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU_DAU_RUNG",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T194"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU_DAU_RUNG",
+      "to": "DL_DIET_AMIP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt khổ sảm (nha đảm tử) có tác dụng diệt amip ở dạng hoạt động."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T194"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU_DAU_RUNG",
+      "to": "DL_UC_CHE_TE_BAO_UNG_THU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dịch chiết cồn có tính chất ức chế trên các tế bào ung thư trong ống nghiệm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T194"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU_DAU_RUNG",
+      "to": "DL_CHUA_LY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt khổ sâm tỏ ra có tác dụng chữa lỵ amip cấp tính rất tốt, so sánh tác dụng như êmêtin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T194"
+      }
+    }
+  ],
+  "metadata": {}
+}

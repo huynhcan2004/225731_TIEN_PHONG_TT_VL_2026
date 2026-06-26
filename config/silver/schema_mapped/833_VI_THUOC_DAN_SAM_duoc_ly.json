@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_DAN_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T833",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "833"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAN_SAM",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y dùng sa sâm làm thuốc chữa sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAN_SAM",
+      "to": "CN_DUONG_AM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y dùng sa sâm làm thuốc chữa miệng khô, khát nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAN_SAM",
+      "to": "CN_TRI_HO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y dùng sa sâm làm thuốc chữa phổi nóng mà ho, ho ra máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T833"
+      }
+    }
+  ],
+  "metadata": {}
+}

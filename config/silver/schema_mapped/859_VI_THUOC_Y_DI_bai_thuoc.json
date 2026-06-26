@@ -1,0 +1,160 @@
+{
+  "entity_hub": "VI_THUOC_Y_DI",
+  "source": {
+    "source_id": "CT_VT_VN_T859",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "859"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_Y_DI",
+      "to": "B_TI_VI_HU_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tì vị hư nhược",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "VT_Y_DI",
+      "to": "B_PHẾ_HU_SINH_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phế hư sinh họ",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "VT_Y_DI",
+      "to": "B_TIEU_KHAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu khát",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_TI_VI_HU_NHUOC_Y_DI_Y",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị tì vị hư nhược.",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_PHE_HU_SINH_HO_Y_DI_Y",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị phế hư sinh ho.",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_TIEU_KHAT_Y_DI_Y",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính điều trị tiêu khát.",
+        "cach_dung": "Sắc hoặc thuốc bột, dùng riêng hoặc phối hợp với các vị khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_YEU_HO_LAO_LUC_HOANG_T",
+      "to": "VT_HOANG_TINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$15g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hoàng tinh bổ khí, dưỡng vị, sinh tân, ích thận.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_YEU_HO_LAO_LUC_HOANG_T",
+      "to": "VT_Y_DI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ý dĩ kiện tỳ, bổ phế, thanh nhiệt, trừ thấp.",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_YEU_HO_LAO_LUC_HOANG_T",
+      "to": "B_YEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc bổ dùng cho người yếu",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_YEU_HO_LAO_LUC_HOANG_T",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc bổ dùng cho người ho",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    },
+    {
+      "from": "BT_YEU_HO_LAO_LUC_HOANG_T",
+      "to": "B_LAO_LUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đơn thuốc bổ dùng cho người lao lục",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T859"
+      }
+    }
+  ],
+  "metadata": {}
+}

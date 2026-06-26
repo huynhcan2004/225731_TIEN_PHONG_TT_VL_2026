@@ -1,0 +1,234 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NHOT_TAY",
+    "ten_raw": "Cây nhót tây",
+    "ten_khoa_hoc": "Eriobotrya japonica (Thunb.) Lindl.; Eriobotrya japonica Lindl.",
+    "ho_thuc_vat": "Hoa hồng Rosaceae",
+    "variants": [
+      "nhốt tây",
+      "phì phà (Cao Bằng)"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá, quả",
+      "phan_bo": "Cao Bằng",
+      "thu_hai": "mùa xuân hay mùa hạ",
+      "che_bien_tho": "dùng tươi hay phơi khô dùng dần"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T732",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "732"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI"
+        ],
+        "cong_nang": "thanh phế hoà vị, giáng khí hoá đờm"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "loại cỏ sống lâu năm, thân rễ ngắn, dày, rễ chùm, lá hẹp dài mọc từ gốc, dài $30cm$, rộng $4-7mm$ cọng mang hoa thường ngắn hơn lá, hoa màu hơi tím, hợp thành xim $3-5$ hoa. Quả mọng, màu xanh tím."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_TACTRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có axit tactric"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có axit xitric"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có axit malic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_OLEANOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có axit oleanolic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có vitamin C"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có tanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá nhót tây người ta thấy có saponin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "vitamin B, chừng $2,8mg$ trong $1g$ lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_URSOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tì bà diệp có axit ursolic C,HgOg"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AXIT_OLEANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tì bà diệp có axit oleanic"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_CARYOPHYLLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tì bà diệp có caryophylin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_AMYDALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có amyđalin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "VI_THUOC_NHOT_TAY",
+      "to": "HC_HCN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có amyđalin và HCN."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUYEN_HO_SACH",
+    "ten_raw": "Duyên hồ sách",
+    "ten_khoa_hoc": "Corydalis ambigua Ch. et Schl.; Corydalis ambigua Cham. et Schlecht. (C. bulbosa Pers.)",
+    "ho_thuc_vat": "Thuốc phiện Papaveraceae",
+    "variants": [
+      "Đông bắc duyên hồ sách",
+      "Sơn duyên hồ sách"
+    ],
+    "properties": {
+      "bo_phan_dung": "Rễ củ",
+      "thu_hai": "Thu hái về rửa sạch, phơi hay sấy khô.",
+      "che_bien_tho": "Trước khi dùng phải sao tẩm: Muốn có tác dụng hành huyết thì chế với rượu, muốn có tác dụng cầm máu thì tẩm dấm trước khi sao, muốn có tác dụng điều huyết thì sao không, muốn có tác dụng phá huyết thì dùng sống.",
+      "phan_bo": "Lạng Sơn, Cao Bằng, Bắc Kạn, Hà Giang, Lào Cai, Vĩnh Phú, Hà Tây, Hoà Bình, Hà Nội. Còn mọc ở nhiều nước khác như Trung Quốc, Triều Tiên, Nhật Bản."
+    },
+    "display_name": "Duyên hồ sách"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T85",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "85"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN",
+          "K_TY"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Duyên hồ sách là một loại cây thảo sống lâu năm, có thân củ hình cầu hơi dẹt, đường kính $1$-$2cm$. Lá mọc so le, chia thành nhiều thùy sâu, không lông. Hoa màu hồng, trắng hay hơi tím, mọc thành chùm ở ngọn thân. Quả nang chứa nhiều hạt nhỏ màu đen bóng. Mùa hoa vào tháng 4-5, mùa quả vào tháng 6-7.",
+        "thanh_phan_hoa_hoc": [
+          "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $corydalin$, $corydalis$, $tetrahydro palmatin$, $berberin$, $protopin$, $coptisin$, $stachydrin$, $leonurin$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "có tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_CORYDALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ Duyên hồ sách, người ta chiết được các ancaloit nhu $corydalin$ C₂₂H₂₇NO₄"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_DEHYDROCORYDALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ Duyên hồ sách, người ta chiết được các ancaloit nhu $dehydrocorydalin$ C₂₁H₂₁NO₄"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_PROTOPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ Duyên hồ sách, người ta chiết được các ancaloit nhu $protopin$ (C₂₀H₁₉NO₅)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_CORYBULBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ Duyên hồ sách, người ta chiết được các ancaloit nhu $corybulbin$ (C₂₁H₂₃NO₄)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_CORYDALIS",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $corydalis$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_TETRAHYDRO_PALMATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $tetrahydro palmatin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_BERBERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $berberin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_COPTISIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $coptisin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_STACHYDRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $stachydrin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUYEN_HO_SACH",
+      "to": "HC_LEONURIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong củ Duyên hồ sách có các ancaloit chủ yếu là: $leonurin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T85"
+      }
+    }
+  ]
+}

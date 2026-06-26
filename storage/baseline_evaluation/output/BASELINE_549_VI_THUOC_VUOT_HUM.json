@@ -1,0 +1,62 @@
+{
+  "entity": {
+    "id": "VT_VUOT_HUM",
+    "canonical_name": "Vượt hum",
+    "ten_khoa_hoc": "Caesalpinia minax Hance.",
+    "ho_thuc_vat": "Caesalpiniaceae",
+    "properties": {
+      "bo_phan_dung": "Rễ, lá và hạt",
+      "thu_hai": "gần như quanh năm",
+      "che_bien_tho": "Dùng tươi hay phơi hoặc sấy khô.",
+      "lieu_dung_chung": "Ngày dùng $10-20g$. Chia làm nhiều lần",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_VUOT_HUM",
+      "to": "HC_CHAT_DANG",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có chứa một chất rất đắng."
+      }
+    },
+    {
+      "from": "VT_VUOT_HUM",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Ngâm rượu uống"
+      }
+    },
+    {
+      "from": "VT_VUOT_HUM",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Ngâm rượu uống"
+      }
+    },
+    {
+      "from": "VT_VUOT_HUM",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Ngâm rượu ngậm"
+      }
+    },
+    {
+      "from": "VT_VUOT_HUM",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Ngâm rượu ngậm"
+      }
+    }
+  ]
+}

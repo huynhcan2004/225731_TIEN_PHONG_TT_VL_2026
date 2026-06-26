@@ -1,0 +1,733 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_KHI",
+    "ten_raw": "Khỉ",
+    "ten_khoa_hoc": "$Macaca sp.$",
+    "ho_thuc_vat": "$họ Khi Cercopithecidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "cao xương khỉ, sỏi mật của khỉ (hầu táo)",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Cao xương khỉ: Liều dùng hằng ngày là $5$ đến $10g$ cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Ngày dùng sỏi mật với liều $0,20$ đến $0,30g$ dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "rừng núi nước ta nhiều nhất là những vùng núi đá vôi"
+    },
+    "display_name": "Vị thuốc Khí",
+    "canonical_name": "Vị thuốc Khí"
+  },
+  "nodes": [
+    {
+      "id": "B_SOI_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sỏi mật",
+        "aliases": [
+          "soimat",
+          "soi mat",
+          "sỏi mật"
+        ],
+        "search_vector_hint": "Bệnh Sỏi mật thuộc nhóm bệnh về gan mật, thường liên quan đến sự hình thành sỏi trong túi mật."
+      }
+    },
+    {
+      "id": "B_THIEU_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thiếu máu",
+        "aliases": [
+          "ban huyet",
+          "thieumau",
+          "thiếu máu",
+          "huyết hư",
+          "bần huyết",
+          "thieu mau",
+          "banhuyet",
+          "huyet hu",
+          "huyethu"
+        ],
+        "search_vector_hint": "Thiếu máu thuộc nhóm Bệnh, thường liên quan đến giảm số lượng hồng cầu hoặc huyết sắc tố."
+      }
+    },
+    {
+      "id": "CN_DINH_SUYEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Định suyễn",
+        "aliases": [
+          "dinhsuyen",
+          "định suyễn",
+          "dinh suyen"
+        ],
+        "search_vector_hint": "Định suyễn thuộc nhóm công năng, thường liên quan đến điều trị hen suyễn."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt trấn kinh",
+        "aliases": [
+          "thanh nhiệt trấn kinh",
+          "thanh nhiet tran kinh",
+          "thanhnhiettrankinh"
+        ],
+        "search_vector_hint": "Thanh nhiệt trấn kinh thuộc nhóm công năng, thường liên quan đến điều trị sốt cao co giật."
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu đờm",
+        "aliases": [
+          "tiêu đờm",
+          "tieu dom",
+          "hoa dam",
+          "tieudom",
+          "hoadam",
+          "khudam",
+          "khử đàm",
+          "khu dam",
+          "hóa đàm"
+        ],
+        "search_vector_hint": "Công năng Tiêu đờm thuộc nhóm Công năng, thường liên quan đến làm giảm lượng đờm trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_TIEU_THUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng tiêu thũng",
+        "aliases": [
+          "tieuthung",
+          "tieuphu",
+          "tiêu thũng",
+          "tiêu phù",
+          "tieu thung",
+          "tieu phu"
+        ],
+        "search_vector_hint": "Công năng tiêu thũng thuộc nhóm công năng, thường liên quan đến giảm sưng phù."
+      }
+    },
+    {
+      "id": "CN_TRAN_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trấn kinh",
+        "aliases": [
+          "tran kinh",
+          "trankinh",
+          "trấn kinh"
+        ],
+        "search_vector_hint": "Công năng Trấn kinh thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_DINH_SUYEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Định suyễn",
+        "aliases": [
+          "hen suyễn",
+          "định suyễn",
+          "dinh suyen",
+          "khó thở",
+          "khotho",
+          "dinhsuyen",
+          "kho tho",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Định suyễn thuộc nhóm triệu chứng, thường liên quan đến bệnh hen phế quản."
+      }
+    },
+    {
+      "id": "S_DO_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đổ mồ hôi trộm",
+        "aliases": [
+          "đạo hãn",
+          "tự hãn",
+          "daohan",
+          "do mo hoi trom",
+          "tu han",
+          "domohoitrom",
+          "dao han",
+          "tuhan",
+          "đổ mồ hôi trộm"
+        ],
+        "search_vector_hint": "Đổ mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến âm hư, khí hư."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "S_KEM_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ngủ",
+        "aliases": [
+          "mat ngu",
+          "khó ngủ",
+          "kém ngủ",
+          "matngu",
+          "kem ngu",
+          "kho ngu",
+          "khongu",
+          "kemngu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Kém ngủ thuộc nhóm triệu chứng, thường liên quan đến suy nhược thần kinh."
+      }
+    },
+    {
+      "id": "S_VANG_VOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vàng vọt",
+        "aliases": [
+          "vangvot",
+          "vàng vọt",
+          "vang vot"
+        ],
+        "search_vector_hint": "Triệu chứng Vàng vọt thuộc nhóm triệu chứng, thường liên quan đến các bệnh về gan mật."
+      }
+    },
+    {
+      "id": "S_XANH_XAO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Xanh xao",
+        "aliases": [
+          "xanh xao",
+          "xanhxao"
+        ],
+        "search_vector_hint": "Triệu chứng Xanh xao thuộc nhóm triệu chứng, thường liên quan đến tình trạng thiếu máu."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Tính Vị hàn thuộc nhóm tính vị, thường liên quan đến cảm giác lạnh và tác dụng làm mát."
+      }
+    },
+    {
+      "id": "VT_KHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Khí",
+        "aliases": [
+          "khí",
+          "khi"
+        ],
+        "search_vector_hint": "Vị thuốc Khí thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền.",
+        "bo_phan_dung": "cao xương khỉ, sỏi mật của khỉ (hầu táo)",
+        "lieu_dung_chung": "Cao xương khỉ: Liều dùng hằng ngày là $5$ đến $10g$ cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Ngày dùng sỏi mật với liều $0,20$ đến $0,30g$ dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "rừng núi nước ta nhiều nhất là những vùng núi đá vôi",
+        "ten_khoa_hoc": "$Macaca sp.$",
+        "ho_thuc_vat": "$họ Khi Cercopithecidae$",
+        "hinh_thai_chi_tiet": "Ở nước ta có nhiều loài khỉ dùng làm thuốc nhưng phổ biến nhất có loài khi nhỏ Macaca mulatta Zimmermann hay Macacus rhesus thuộc bộ khỉ mũi dưới hay bọn khỉ mũi hẹp (Catarrhini). Loài này sống trên cây, có chân tay thích nghi để cầm nắm, có ngón cái chụm được với ngón khác. Đầu hơi tròn, to, có bộ não phát triển, nét mặt dễ thay đổi, hai lỗ mũi gần nhau và nhìn xuống dưới, có túi má, răng 32 chiếc, có chai ở mông, đuôi ngắn chỉ bằng nửa mình, mặt không có lông, toàn thân có lông màu vàng nâu ngắn. Phía bụng có lông màu nhạt hơn (Hình 731, Hm 58,2).",
+        "cach_dung_bao_che": "Tại nước ta từ xưa đến nay thường chỉ biết lấy xương hay toàn con nấu cao, việc chế biến nấu cao giống như nấu cao hổ cốt hay nấu cao ban long (xem các vị này). Tại Trung Quốc người ta hay lấy sỏi mật, cách lấy cũng như lấy sỏi mật của trâu bò (xem vị ngưu hoàng) lấy xong gói vào bông hay giấy bản, cho vào hộp kín có vòi cục để hút nước."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "999"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO",
+          "V_MAN_HAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_CAN",
+          "K_DAN"
+        ],
+        "cong_nang": "thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta có nhiều loài khỉ dùng làm thuốc nhưng phổ biến nhất có loài khi nhỏ Macaca mulatta Zimmermann hay Macacus rhesus thuộc bộ khỉ mũi dưới hay bọn khỉ mũi hẹp (Catarrhini). Loài này sống trên cây, có chân tay thích nghi để cầm nắm, có ngón cái chụm được với ngón khác. Đầu hơi tròn, to, có bộ não phát triển, nét mặt dễ thay đổi, hai lỗ mũi gần nhau và nhìn xuống dưới, có túi má, răng 32 chiếc, có chai ở mông, đuôi ngắn chỉ bằng nửa mình, mặt không có lông, toàn thân có lông màu vàng nâu ngắn. Phía bụng có lông màu nhạt hơn (Hình 731, Hm 58,2).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Tại nước ta từ xưa đến nay thường chỉ biết lấy xương hay toàn con nấu cao, việc chế biến nấu cao giống như nấu cao hổ cốt hay nấu cao ban long (xem các vị này). Tại Trung Quốc người ta hay lấy sỏi mật, cách lấy cũng như lấy sỏi mật của trâu bò (xem vị ngưu hoàng) lấy xong gói vào bông hay giấy bản, cho vào hộp kín có vòi cục để hút nước."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_KHI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Sỏi mật của khỉ (hầu táo) được đông y coi là tính lạnh (hàn)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Sỏi mật của khỉ (hầu táo) được đông y coi là vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Sỏi mật của khỉ (hầu táo) được đông y coi là vị hơi mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào các kinh gan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "B_THIEU_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_KEM_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_XANH_XAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_VANG_VOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_DO_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cắt thành từng miếng nhỏ ngậm cho tan dần trong miệng hoặc thêm mật ong vào cho ngọt dễ ăn hơn. Có thể ngâm rượu uống",
+        "ghi_chu": "Thiếu máu, kém ăn, kém ngủ, xanh xao, vàng vọt, hay đổ mồ hôi trộm | Cao xương khỉ $5-10g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "B_SOI_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_THANH_NHIET_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000",
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000",
+        "mo_ta_chi_tiet": "Tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000",
+        "mo_ta_chi_tiet": "Tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "S_DINH_SUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dưới hình thức thuốc bột hay phối hợp với các vị khác mà uống",
+        "ghi_chu": "Thanh nhiệt trấn kinh, giải độc, tiêu thũng, tiêu đờm định suyễn | Sỏi mật của khỉ (hầu táo) $0,20-0,30g$ | [Nguồn]: CT_VT_VN_T1000"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_KHI",
+      "to": "CN_DINH_SUYEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Định suyễn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T999",
+        "all_sources": [
+          "CT_VT_VN_T999"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 52.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

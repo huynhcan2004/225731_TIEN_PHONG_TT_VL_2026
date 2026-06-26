@@ -1,0 +1,150 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DOC_HOAT",
+    "ten_raw": "Độc hoạt",
+    "ten_khoa_hoc": "Cissus modeccoides Planch.; Cissus vitiginea Lour. (non L.) C. triloba Merr., Callicarpa triloba Lour.; Reynoutria japonica Houtt., Polygonum cuspidatum Sieb et Zucc. Polygonum reynoutria Makino.; Angelica, Heracleum và Peucedanum; Angelica laxiflora Diels; Angelica megaphylla Diels; Angelica pubescens Maxim; Heracleum hemsleyanum Michx; Heracleum lanatum Michx; Aralia cordata Thunb",
+    "ho_thuc_vat": "Nho Vitaceae; Rau răm Polygonaceae; Hoa tán Apiaceae (Umbelliferae); Ngũ gia bì",
+    "variants": [
+      "Dây chìa vôi",
+      "Cốt khí",
+      "Xuyên độc hoạt",
+      "Hương độc hoạt",
+      "Mao đương quy",
+      "Ngưu vĩ độc hoạt",
+      "Độc hoạt đuôi trâu",
+      "Độc hoạt lông mềm",
+      "Nhuyễn mao độc hoạt",
+      "Cửu nhỡn độc hoạt",
+      "Độc hoạt 9 mắt",
+      "Thổ đương quy",
+      "Cây hương độc hoạt",
+      "Mao đương quy=đương quy có lông",
+      "Cây ngưu vĩ độc hoạt=độc hoạt đuôi trâu",
+      "Cây cửu nhỡn độc hoạt=độc hoạt chín mắt"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ và rễ",
+      "phan_bo": "vùng Hồ Bắc, Tứ Xuyên",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": "Độc hoạt"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T522",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "522"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ],
+        "cong_nang": "đuổi phong hàn, khử thấp, hết đau, chuyên dùng trong những trường hợp phong hàn, các khớp xương và lưng gối đau nhức bất kể đau lâu hay mới đâu, đau đầu, đau răng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cốt khí là một cây nhỏ sống lâu năm, thân mọc thẳng, thường cao $0,50-1m$ nhưng đặc biệt có nơi cao tới $2m$. Thân không có lông, trên thân và cành thường có những đốm màu tím hồng. Lá mọc so le có cuống ngắn. Phiến lá hình trứng, rộng, đầu tiên hơi thắt nhọn, phía cuống hoặc hơi phẳng hoặc hẹp lại, mép nguyên, dài $5-12cm$, rộng $3,5-8cm$, mặt trên màu xanh nâu đậm mặt dưới màu nhạt hơn. Cuống dài $1-3cm$. Bé chìa ngắn. Hoa mọc thành chùm ở kẽ lá, mang rất nhiều hoa nhỏ. Cánh hoa màu trắng. Hoa khác gốc. Hoa đực có 8 nhị: Hoa cái có bầu hình trứng với 3 cạnh, 3 núm. Quả khô, 3 cạnh, màu nâu đỏ ( Hình 389 ).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "HC_OSTOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong độc hoạt hay hương độc hoạt (Angel- ica pubescens Maxin. ) có $ostol$, $bergapten$, $angelol$ và $angelical$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "HC_BERGAPTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong độc hoạt hay hương độc hoạt (Angel- ica pubescens Maxin. ) có $ostol$, $bergapten$, $angelol$ và $angelical$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "HC_ANGELOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong độc hoạt hay hương độc hoạt (Angel- ica pubescens Maxin. ) có $ostol$, $bergapten$, $angelol$ và $angelical$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "HC_ANGELICAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong độc hoạt hay hương độc hoạt (Angel- ica pubescens Maxin. ) có $ostol$, $bergapten$, $angelol$ và $angelical$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    }
+  ]
+}

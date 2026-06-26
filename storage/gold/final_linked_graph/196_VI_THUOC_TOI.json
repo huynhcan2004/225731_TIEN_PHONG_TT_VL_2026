@@ -1,0 +1,733 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TOI",
+    "ten_raw": "Tỏi",
+    "display_name": "Vị thuốc Tỏi",
+    "ten_khoa_hoc": "$Bulbus Allii$",
+    "ho_thuc_vat": "$Hành (Alliaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "củ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "canonical_name": "Vị thuốc Tỏi"
+  },
+  "nodes": [
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cao huyết áp",
+        "aliases": [
+          "caohuyetap",
+          "tanghuyetap",
+          "tăng huyết áp",
+          "cao huyet ap",
+          "tang huyet ap",
+          "cao huyết áp"
+        ],
+        "search_vector_hint": "Cao huyết áp thuộc nhóm Bệnh, thường liên quan đến tim mạch."
+      }
+    },
+    {
+      "id": "B_GIUN_KIM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Giun kim",
+        "aliases": [
+          "giunkim",
+          "giun kim"
+        ],
+        "search_vector_hint": "Bệnh Giun kim thuộc nhóm bệnh, thường liên quan đến nhiễm ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_HO_GA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho gà",
+        "aliases": [
+          "ho gà",
+          "ho ga",
+          "hoga"
+        ],
+        "search_vector_hint": "Ho gà thuộc nhóm bệnh, thường liên quan đến bệnh nhiễm trùng đường hô hấp."
+      }
+    },
+    {
+      "id": "B_LY_AMIP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ amip",
+        "aliases": [
+          "lyamip",
+          "lỵ amip",
+          "amip",
+          "ly amip"
+        ],
+        "search_vector_hint": "Lỵ amip thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng đường ruột do amip."
+      }
+    },
+    {
+      "id": "B_LY_TRUC_TRUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ trực trùng",
+        "aliases": [
+          "lytructrung",
+          "nhiemkhuanshigella",
+          "nhiem khuan shigella",
+          "lỵ trực trùng",
+          "nhiễm khuẩn shigella",
+          "ly truc trung"
+        ],
+        "search_vector_hint": "Lỵ trực trùng thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng đường ruột do vi khuẩn Shigella."
+      }
+    },
+    {
+      "id": "B_RET_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rét can",
+        "aliases": [
+          "rét can",
+          "retcan",
+          "ret can"
+        ],
+        "search_vector_hint": "Bệnh Rét can thuộc nhóm bệnh, thường liên quan đến các triệu chứng sốt rét kéo dài."
+      }
+    },
+    {
+      "id": "B_VET_THUONG_CO_MU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vết thương có mủ",
+        "aliases": [
+          "vetthuongcomu",
+          "vet thuong co mu",
+          "vết thương có mủ",
+          "nhiễm trùng vết thương",
+          "nhiemtrungvetthuong",
+          "nhiem trung vet thuong"
+        ],
+        "search_vector_hint": "Vết thương có mủ thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng da."
+      }
+    },
+    {
+      "id": "B_VIEM_PHE_QUAN_MAN_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm phế quản mạn tính",
+        "aliases": [
+          "viêm phổi mãn",
+          "viêm phế quản mạn tính",
+          "viemphequanmantinh",
+          "viem phoi man",
+          "viemphoiman",
+          "viem phe quan man tinh"
+        ],
+        "search_vector_hint": "Viêm phế quản mạn tính thuộc nhóm bệnh, thường liên quan đến đường hô hấp."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt giải độc",
+        "aliases": [
+          "thanhnhietgiaidoc",
+          "thanh nhiet giai doc",
+          "thanh nhiệt giải độc"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt giải độc thuộc nhóm công năng, thường liên quan đến làm mát và loại bỏ độc tố."
+      }
+    },
+    {
+      "id": "CN_TRU_TRUNG_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ trúng tích",
+        "aliases": [
+          "tru trung tich",
+          "trừ trúng tích",
+          "trutrungtich"
+        ],
+        "search_vector_hint": "Công năng Trừ trúng tích thuộc nhóm công năng, thường liên quan đến điều trị các bệnh do nhiễm trùng."
+      }
+    },
+    {
+      "id": "DL_KHANG_AMIP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng amip",
+        "aliases": [
+          "khangamip",
+          "kháng amip",
+          "khang amip"
+        ],
+        "search_vector_hint": "Kháng amip thuộc nhóm Công năng, thường liên quan đến điều trị nhiễm trùng amip."
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "diệt khuẩn",
+          "chongvikhuan",
+          "diet khuan",
+          "kháng khuẩn",
+          "dietkhuan",
+          "chống vi khuẩn",
+          "khang khuan",
+          "khangkhuan",
+          "chong vi khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm Công năng, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "DL_KHANG_LY_TRUC_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kháng lỵ trực tràng",
+        "aliases": [
+          "khang ly truc trang",
+          "kháng lỵ trực tràng",
+          "khanglytructrang"
+        ],
+        "search_vector_hint": "Dược lý Kháng lỵ trực tràng thuộc nhóm dược lý, thường liên quan đến khả năng chống lại bệnh lỵ."
+      }
+    },
+    {
+      "id": "HC_ALIIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Aliin",
+        "aliases": [
+          "aliin"
+        ],
+        "search_vector_hint": "Aliin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_ALINAZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Alinaza",
+        "aliases": [
+          "alinaza"
+        ],
+        "search_vector_hint": "Alinaza thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_ALIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Alixin",
+        "aliases": [
+          "alixin"
+        ],
+        "search_vector_hint": "Alixin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_TOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tỏi",
+        "aliases": [
+          "toi",
+          "tỏi"
+        ],
+        "search_vector_hint": "Tỏi thuộc nhóm Vị thuốc.",
+        "bo_phan_dung": "củ",
+        "muc_do_doc": "Có độc",
+        "ten_khoa_hoc": "$Bulbus Allii$",
+        "ho_thuc_vat": "$Hành (Alliaceae)$",
+        "hinh_thai_chi_tiet": "Ta dùng củ tỏi (Bulbus Allii) là dò của cây tỏi mà ta vẫn dùng làm gia vị (Hình 125, Hm 41,3).",
+        "thanh_phan_hoa_hoc": "['Trong tỏi có một ít iốt và tinh dầu ($100kg$ tỏi chứa chừng $60g$ đến $200g$ tinh dầu). Thành phần chủ yếu của tỏi là một chất kháng sinh `$alixin$` CHOS, một hợp chất sunfua có tác dụng diệt vi khuẩn rất mạnh đối với vi trùng Staphyllococcus, thương hàn, phó thương hàn, lỵ, vì trùng tả, trực khuẩn sinh bệnh bạch hầu, vi khuẩn thối.', 'Trong tỏi không có chất `$alixin$` ngay mà có chất `$aliin$`, một thứ axit amin; chất `$aliin$` chịu tác dụng của men `$alinaza$` cũng có trong tỏi mới cho chất `$alixin$`.', 'Chất `$alixin$` tinh khiết, là một chất dầu không màu, hòa tan trong cồn, benzen, ête, vào dịch nước thì không ổn định, dễ thủy phân. Độ thủy phân chừng $2,5\\\\%$, có mùi vị như tỏi và có tính kích thích da như tỏi, `$aliin$` không có mùi hôi của tỏi.', 'Chất `$alixin$` bị nhiệt sẽ chóng mất tác dụng, gặp kiềm cũng bị mất tác dụng, axit nhẹ ít bị ảnh hưởng.']"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "196"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_VI",
+          "K_CAN"
+        ],
+        "cong_nang": "thanh nhiệt giải độc, sát trùng, chữa băng đới, trùng tích, huyết lỵ. Tẩy uế, thông khiếu, tiêu nhọt, hạch ở phổi, tiêu đờm, đầy chướng, đại tiểu tiện khó khăn, tả lỵ"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ta dùng củ tỏi (Bulbus Allii) là dò của cây tỏi mà ta vẫn dùng làm gia vị (Hình 125, Hm 41,3).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tỏi có một ít iốt và tinh dầu ($100kg$ tỏi chứa chừng $60g$ đến $200g$ tinh dầu). Thành phần chủ yếu của tỏi là một chất kháng sinh `$alixin$` CHOS, một hợp chất sunfua có tác dụng diệt vi khuẩn rất mạnh đối với vi trùng Staphyllococcus, thương hàn, phó thương hàn, lỵ, vì trùng tả, trực khuẩn sinh bệnh bạch hầu, vi khuẩn thối.",
+          "Trong tỏi không có chất `$alixin$` ngay mà có chất `$aliin$`, một thứ axit amin; chất `$aliin$` chịu tác dụng của men `$alinaza$` cũng có trong tỏi mới cho chất `$alixin$`.",
+          "Chất `$alixin$` tinh khiết, là một chất dầu không màu, hòa tan trong cồn, benzen, ête, vào dịch nước thì không ổn định, dễ thủy phân. Độ thủy phân chừng $2,5\\%$, có mùi vị như tỏi và có tính kích thích da như tỏi, `$aliin$` không có mùi hôi của tỏi.",
+          "Chất `$alixin$` bị nhiệt sẽ chóng mất tác dụng, gặp kiềm cũng bị mất tác dụng, axit nhẹ ít bị ảnh hưởng."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TOI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      }
+    },
+    {
+      "from": "VT_TOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      }
+    },
+    {
+      "from": "VT_TOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      }
+    },
+    {
+      "from": "VT_TOI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      }
+    },
+    {
+      "from": "VT_TOI",
+      "to": "HC_ALIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tỏi là một chất kháng sinh `$alixin$` CHOS, một hợp chất sunfua có tác dụng diệt vi khuẩn rất mạnh đối với vi trùng Staphyllococcus, thương hàn, phó thương hàn, lỵ, vì trùng tả, trực khuẩn sinh bệnh bạch hầu, vi khuẩn thối.",
+        "ghi_chu": "CHOS"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "HC_ALIIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tỏi không có chất `$alixin$` ngay mà có chất `$aliin$`, một thứ axit amin; chất `$aliin$` chịu tác dụng của men `$alinaza$` cũng có trong tỏi mới cho chất `$alixin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "HC_ALINAZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tỏi không có chất `$alixin$` ngay mà có chất `$aliin$`, một thứ axit amin; chất `$aliin$` chịu tác dụng của men `$alinaza$` cũng có trong tỏi mới cho chất `$alixin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_LY_AMIP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tỏi giã nát ngâm với nước sôi để nguội với tỷ lệ $5\\%$ hoặc $10\\%$. Ngâm 1-2 giờ lọc qua gạc (không cần tiệt trùng, ngày pha 1 lần) thụt giữ. Một hai ngày đầu, thụt dung dịch $5\\%$ ($100ml$) sau đó dùng dung dịch $10\\%$. Mỗi ngày thụt một lần, có thể đồng thời uống $6g$ tỏi chia làm 3 lần uống trong ngày. Thời gian điều trị 5-7 ngày.",
+        "ghi_chu": "Kết quả rất rõ rệt. CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tỏi giã nát ngâm với nước sôi để nguội với tỷ lệ $5\\%$ hoặc $10\\%$. Ngâm 1-2 giờ lọc qua gạc (không cần tiệt trùng, ngày pha 1 lần) thụt giữ. Một hai ngày đầu, thụt dung dịch $5\\%$ ($100ml$) sau đó dùng dung dịch $10\\%$. Mỗi ngày thụt một lần, có thể đồng thời uống $6g$ tỏi chia làm 3 lần uống trong ngày. Thời gian điều trị 5-7 ngày.",
+        "ghi_chu": "Kết quả rất rõ rệt. CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_VET_THUONG_CO_MU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nước tỏi $10\\%$",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_GIUN_KIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nước tỏi $10\\%$, lòng đỏ trứng gà",
+        "cach_dung": "Thụt phối hợp",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_VIEM_PHE_QUAN_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nước tỏi $10\\%$",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_HO_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nước tỏi $10\\%$",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Nước tỏi $10\\%$ | Cồn tỏi $1/5$ với cồn $60°$",
+        "cach_dung": "Chỉ định lâm sàng | Ngày uống 20-50 giọt chia làm 2-3 lần uống. Nếu dùng quá liều, huyết áp sẽ tăng.",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "B_RET_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Củ tỏi",
+        "cach_dung": "Giã nát xát vào nơi rết cắn",
+        "ghi_chu": "CT_VT_VN_T197"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "CN_TRU_TRUNG_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trùng tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa băng đới, huyết lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tỏi pha loãng 1/$85.000$-1/$125.000$ ức chế sinh trưởng các trùng Staphylococccus, Streptococcus, trùng thương hàn, phó thương hàn, trực trùng lỵ.",
+        "ghi_chu": "Thí nghiệm trong ống nghiệm, tác dụng diệt khuẩn của alixin rất mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "DL_KHANG_AMIP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước tỏi $5\\%$ ức chế rất mau sự hoạt động của trùng amip: Amip co lại thành khối tròn. Trong phân của người bị lỵ amip, sau khi dùng tỏi, thì trùng amip mất hết năng lực sinh sản.",
+        "ghi_chu": "Dùng tỏi chữa lỵ amip kết quả khỏi đạt tới $80\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TOI",
+      "to": "DL_KHANG_LY_TRUC_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước tỏi $3\\%$ đủ diệt các trực trùng lỵ và trực trùng gây bệnh đường ruột. Dùng tỏi chữa lỵ trực trùng kết quả khỏi đạt tới $85\\%$ không kém dùng sunfaguanidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "all_sources": [
+          "CT_VT_VN_T196"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 76.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LUC_PHAN",
+    "ten_raw": "Lục phần",
+    "ten_khoa_hoc": "Dens Draconis (Fossilia Dentis Mastodi)",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1059",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1059"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "dễ tả rời ra.",
+        "thanh_phan_hoa_hoc": [
+          "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị sáp"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_CA2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_PO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_FE3",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_FE2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_A13",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_MG2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_SO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    },
+    {
+      "from": "VI_THUOC_LUC_PHAN",
+      "to": "HC_CI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược của Viện y học Bắc Kinh đã nghiên cứu phân tích loại long cốt tiêu thụ trên thị trường Bắc Kinh thấy có rất nhiều Ca2+,CO, PO*, một lượng nhỏ Fe3+, Fe2+, A1³+, Mg2+ và SO, CI"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1059"
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "entity_hub": "VI_THUOC_LA_DUA",
+  "source": {
+    "source_id": "CT_VT_VN_T919",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "919"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_YEU_MET_RE_CAY_CONG_CONG_LR",
+      "to": "VI_THUOC_LA_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc bổ sử dụng rễ cây công cộng (lá dứa) kết hợp với lỗ hội và rượu để tăng cường tác dụng bồi bổ, giúp người bệnh phục hồi sức khỏe.",
+        "cach_dung": "Ngày dùng $4$ đến $16g$ rượu.",
+        "ghi_chu": "CT_VT_VN_T920 (trang 920)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_RE_CAY_CONG_CONG_LR",
+      "to": "VT_LO_HOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lỗ hội hỗ trợ rễ cây công cộng (lá dứa) trong việc bồi bổ cơ thể, tăng cường sức khỏe.",
+        "cach_dung": "Ngày dùng $4$ đến $16g$ rượu.",
+        "ghi_chu": "CT_VT_VN_T920 (trang 920)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_RE_CAY_CONG_CONG_LR",
+      "to": "B_YEU_MET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong những trường hợp yếu mệt, kém ăn.",
+        "cach_dung": "Ngày dùng $4$ đến $16g$ rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_RE_CAY_CONG_CONG_LR",
+      "to": "B_KEM_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong những trường hợp yếu mệt, kém ăn.",
+        "cach_dung": "Ngày dùng $4$ đến $16g$ rượu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_TOAN_CAY_CVH",
+      "to": "VI_THUOC_LA_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc hãm sử dụng toàn cây công cộng (lá dứa) kết hợp với vỏ cam và hạt mùi để tăng cường tác dụng điều trị.",
+        "cach_dung": "Mỗi lần uống $45$ đến $60g$ nước hãm này. Ngày uống hai hay ba lần.",
+        "ghi_chu": "CT_VT_VN_T920 (trang 920)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_TOAN_CAY_CVH",
+      "to": "VT_VO_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Vỏ cam hỗ trợ toàn cây công cộng (lá dứa) trong việc điều trị bệnh.",
+        "cach_dung": "Mỗi lần uống $45$ đến $60g$ nước hãm này. Ngày uống hai hay ba lần.",
+        "ghi_chu": "CT_VT_VN_T920 (trang 920)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_TOAN_CAY_CVH",
+      "to": "VT_HAT_MUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hạt mùi hỗ trợ toàn cây công cộng (lá dứa) và vỏ cam trong việc điều trị bệnh.",
+        "cach_dung": "Mỗi lần uống $45$ đến $60g$ nước hãm này. Ngày uống hai hay ba lần.",
+        "ghi_chu": "CT_VT_VN_T920 (trang 920)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "BT_YEU_MET_TOAN_CAY_CVH",
+      "to": "B_YEU_MET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngày dùng $4$ đến $16g$ rượu này trong những trường hợp yếu mệt, kém ăn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,305 @@
+{
+  "entity_hub": "VI_THUOC_TO_MANH",
+  "source": {
+    "source_id": "CT_VT_VN_T558",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "558"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VET_THUONG_PHAN_MEM_MOQ_M",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "mo_ta_chi_tiet": "Bài thuốc chỉ dùng lá mỏ quạ tươi.",
+        "cach_dung": "Rửa sạch, bỏ cọng, giã nhỏ đắp vào vết thương. Nếu vết thương xuyên thủng thì phải đắp cả hai bên, băng lại. Mỗi ngày rửa và thay băng một lần.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PHAN_MEM_MOQ_M",
+      "to": "B_VET_THUONG_PHAN_MEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương phần mềm",
+        "cach_dung": "Rửa sạch, bỏ cọng, giã nhỏ đắp vào vết thương. Nếu vết thương xuyên thủng thì phải đắp cả hai bên, băng lại. Mỗi ngày rửa và thay băng một lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_LA_TRAU_PP",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Lá trầu có tính sát trùng, phèn phi giúp làm se vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá trầu và phèn phi để rửa vết thương.",
+        "cach_dung": "Nấu sôi để nguội thêm phèn phi, hoà tan, lọc và dùng rửa vết thương.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_LA_TRAU_PP",
+      "to": "VT_LA_TRAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá trầu có tính sát trùng, phèn phi giúp làm se vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá trầu và phèn phi để rửa vết thương.",
+        "cach_dung": "Nấu sôi để nguội thêm phèn phi, hoà tan, lọc và dùng rửa vết thương.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_LA_TRAU_PP",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc rửa vết thương",
+        "cach_dung": "Nấu sôi để nguội thêm phèn phi, hoà tan, lọc và dùng rửa vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAM_LIEN_DA_MOQ",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mỏ quạ và thòng bong giúp làm lành vết thương, kích thích lên da non.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá mỏ quạ và lá thòng bong để đắp lên vết thương giúp chóng liền da.",
+        "cach_dung": "Giã lẫn cả hai thứ đắp lên vết thương, mỗi ngày rửa.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAM_LIEN_DA_MOQ",
+      "to": "VT_THONG_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mỏ quạ và thòng bong giúp làm lành vết thương, kích thích lên da non.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá mỏ quạ và lá thòng bong để đắp lên vết thương giúp chóng liền da.",
+        "cach_dung": "Giã lẫn cả hai thứ đắp lên vết thương, mỗi ngày rửa.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAM_LIEN_DA_MOQ",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết thương tiến triển tốt nhưng lâu đầy thịt",
+        "cach_dung": "Giã lẫn cả hai thứ đắp lên vết thương, mỗi ngày rửa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAN_CAN_MTH",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mỏ quạ, thòng bong, hàn the giúp giải độc, giảm đau, làm lành vết thương do rắn cắn.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá mỏ quạ, lá thòng bong, lá hàn the để chữa vết thương rắn cắn.",
+        "cach_dung": "Cứ 3 ngày mới thay bằng một lần để vết thương chóng lên da non.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAN_CAN_MTH",
+      "to": "VT_THONG_BONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mỏ quạ, thòng bong, hàn the giúp giải độc, giảm đau, làm lành vết thương do rắn cắn.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá mỏ quạ, lá thòng bong, lá hàn the để chữa vết thương rắn cắn.",
+        "cach_dung": "Cứ 3 ngày mới thay bằng một lần để vết thương chóng lên da non.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAN_CAN_MTH",
+      "to": "VT_HAN_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mỏ quạ, thòng bong, hàn the giúp giải độc, giảm đau, làm lành vết thương do rắn cắn.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng lá mỏ quạ, lá thòng bong, lá hàn the để chữa vết thương rắn cắn.",
+        "cach_dung": "Cứ 3 ngày mới thay bằng một lần để vết thương chóng lên da non.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_RAN_CAN_MTH",
+      "to": "B_VET_THUONG_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương rắn cắn",
+        "cach_dung": "Cứ 3 ngày mới thay bằng một lần để vết thương chóng lên da non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PPC",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phấn cây cau, phấn cây chè, ô long vĩ, phèn phi giúp sát khuẩn, làm khô và lành vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng phấn cây cau, phấn cây chè, ô long vĩ, phèn phi để rắc lên vết thương.",
+        "cach_dung": "Sau 2-3 lần thay băng bằng 3 vị trên thì rắc lên vết thương thuốc bột chế bằng phấn cây cau (sao khô) $20g$, phấn cây chè (sao khô) $16g$, ô long vĩ (bồ hóng) $8g$, phèn phi $4g$. Các vị tán mịn, trộn đều rắc lên vết thương rồi để yên cho vết thương đóng vẩy và róc thì thôi.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PPC",
+      "to": "VT_PHAN_CAY_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phấn cây cau, phấn cây chè, ô long vĩ, phèn phi giúp sát khuẩn, làm khô và lành vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng phấn cây cau, phấn cây chè, ô long vĩ, phèn phi để rắc lên vết thương.",
+        "cach_dung": "Sau 2-3 lần thay băng bằng 3 vị trên thì rắc lên vết thương thuốc bột chế bằng phấn cây cau (sao khô) $20g$, phấn cây chè (sao khô) $16g$, ô long vĩ (bồ hóng) $8g$, phèn phi $4g$. Các vị tán mịn, trộn đều rắc lên vết thương rồi để yên cho vết thương đóng vẩy và róc thì thôi.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PPC",
+      "to": "VT_PHAN_CAY_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phấn cây cau, phấn cây chè, ô long vĩ, phèn phi giúp sát khuẩn, làm khô và lành vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng phấn cây cau, phấn cây chè, ô long vĩ, phèn phi để rắc lên vết thương.",
+        "cach_dung": "Sau 2-3 lần thay băng bằng 3 vị trên thì rắc lên vết thương thuốc bột chế bằng phấn cây cau (sao khô) $20g$, phấn cây chè (sao khô) $16g$, ô long vĩ (bồ hóng) $8g$, phèn phi $4g$. Các vị tán mịn, trộn đều rắc lên vết thương rồi để yên cho vết thương đóng vẩy và róc thì thôi.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PPC",
+      "to": "VT_O_LONG_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phấn cây cau, phấn cây chè, ô long vĩ, phèn phi giúp sát khuẩn, làm khô và lành vết thương.",
+        "mo_ta_chi_tiet": "Bài thuốc dùng phấn cây cau, phấn cây chè, ô long vĩ, phèn phi để rắc lên vết thương.",
+        "cach_dung": "Sau 2-3 lần thay băng bằng 3 vị trên thì rắc lên vết thương thuốc bột chế bằng phấn cây cau (sao khô) $20g$, phấn cây chè (sao khô) $16g$, ô long vĩ (bồ hóng) $8g$, phèn phi $4g$. Các vị tán mịn, trộn đều rắc lên vết thương rồi để yên cho vết thương đóng vẩy và róc thì thôi.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_PPC",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương",
+        "cach_dung": "Sau 2-3 lần thay băng bằng 3 vị trên thì rắc lên vết thương thuốc bột chế bằng phấn cây cau (sao khô) $20g$, phấn cây chè (sao khô) $16g$, ô long vĩ (bồ hóng) $8g$, phèn phi $4g$. Các vị tán mịn, trộn đều rắc lên vết thương rồi để yên cho vết thương đóng vẩy và róc thì thôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_UU_TICH_KINH_BE_TO_MANH_R",
+      "to": "VI_THUOC_TO_MANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "mo_ta_chi_tiet": "Bài thuốc chỉ dùng rễ tơ mành.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_UU_TICH_KINH_BE_TO_MANH_R",
+      "to": "B_UU_TICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ứ tích lâu năm, bị đánh bị thương",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    },
+    {
+      "from": "BT_UU_TICH_KINH_BE_TO_MANH_R",
+      "to": "B_KINH_BE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ kinh bế",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T558"
+      }
+    }
+  ],
+  "metadata": {}
+}

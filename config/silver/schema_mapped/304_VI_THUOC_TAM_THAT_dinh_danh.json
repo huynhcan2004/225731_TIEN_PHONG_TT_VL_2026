@@ -1,0 +1,151 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAM_THAT",
+    "ten_raw": "Cây tam thất",
+    "ten_khoa_hoc": "Panax Pseudo-ginseng (Burk).F.H.Chen.",
+    "ho_thuc_vat": "Ngũ gia bì Araliaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "phan_bo": "Hà Giang (Đồng Văn), Lào Cai (Mường Khương, Bát Xát, Phà Lùng), Cao Bằng",
+      "thu_hai": "Sau 3 đến 7 năm mới bắt đầu thu hoạch.",
+      "che_bien_tho": "Sau khi rửa sạch bùn đất, cắt bỏ rễ con, đem phơi nắng cho hơi héo, đem lăn, vò cho mềm, lại phơi nắng và vò hoặc lãn; làm như vậy từ 3 đến 5 lần mới phơi cho khô hẳn."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T304",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "304"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI"
+        ],
+        "cong_nang": "hành ứ, cầm máu, tiêu thũng",
+        "kieng_ky_dac_biet": ""
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tam thất là một loại cỏ nhỏ, sống lâu năm. Lá mọc vòng 3-4 lá một, cuống lá dài $3-6cm$, mỗi cuống lá mang từ 3-7 lá chét hình mác dài, mép lá có răng cưa nhỏ, cuống lá chét dài $0,6-1,2cm$. Cụm hoa hình tán mọc ở đầu cành mang hoa. Có hoa đơn tính, có hoa lưỡng tính, cùng tồn tại. Lá đài 5, màu xanh. Cánh hoa 5, màu xanh nhạt. Nhị 5. Bầu hạ hai ngàn. Quả mọng hình thận, khi chín có màu đỏ, trong có hai hạt hình cầu."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng hành ứ, cầm máu, tiêu thũng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "HC_ARASAPONIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1937-1941, hai tác giả Trung Quốc Triệu Thừa Cổ và Chu Nhiệm Hoàng đã nghiên cứu và lấy được từ tam thất hai chất saponin: $Arasaponin A$ và $arasaponin B$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "HC_ARASAPONIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1937-1941, hai tác giả Trung Quốc Triệu Thừa Cổ và Chu Nhiệm Hoàng đã nghiên cứu và lấy được từ tam thất hai chất saponin: $Arasaponin A$ và $arasaponin B$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_THAT",
+      "to": "HC_SAPONIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1950, Hứa Thực Phương chiết được từ tam thất ba chất saponin: $Saponin A . CHO$, tan trong rượu amylic nóng và một saponin không tan trong rượu amylic nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T304"
+      }
+    }
+  ]
+}

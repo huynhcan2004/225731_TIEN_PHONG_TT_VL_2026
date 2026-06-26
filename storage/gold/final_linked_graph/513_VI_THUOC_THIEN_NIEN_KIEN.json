@@ -1,0 +1,958 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THIEN_NIEN_KIEN",
+    "ten_raw": "Thiên niên kiện",
+    "ten_khoa_hoc": "$Homalomena aromatica (Roxb). Schott (Calla aromatica Roxb); Homalomena occulta (lowa) Schott$",
+    "ho_thuc_vat": "$họ Ráy Araceae$",
+    "variants": [
+      "sơn thục",
+      "ráy hương"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "phơi hay sấy khô",
+      "lieu_dung_chung": "Ngày dùng $5-10g$ dưới dạng thuốc sắc hoặc ngâm rượu. Ngày dùng $8-12g$ dưới dạng thuốc sắc, thuốc cao hoặc ngâm rượu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "các miền rừng núi của ta"
+    },
+    "display_name": "Vị thuốc Thiên niên kiện",
+    "canonical_name": "Vị thuốc Thiên niên kiện"
+  },
+  "nodes": [
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAU_KHOP_XUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau khớp xương",
+        "aliases": [
+          "daukhopxuong",
+          "thoai hoa khop",
+          "đau khớp xương",
+          "thoái hóa khớp",
+          "thoaihoakhop",
+          "dau khop xuong",
+          "viem khop",
+          "viemkhop",
+          "viêm khớp"
+        ],
+        "search_vector_hint": "Bệnh Đau khớp xương thuộc nhóm Bệnh, thường liên quan đến hệ vận động."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức",
+        "aliases": [
+          "daumoi",
+          "dau moi",
+          "đau mỏi",
+          "dau nhuc",
+          "daunhuc",
+          "đau nhức"
+        ],
+        "search_vector_hint": "Đau nhức thuộc nhóm bệnh, thường liên quan đến cảm giác đau ở các cơ và khớp."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_CAC_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức các khớp",
+        "aliases": [
+          "daunhuccackhop",
+          "dau moi khop",
+          "viem da khop",
+          "viemdakhop",
+          "đau mỏi khớp",
+          "daumoikhop",
+          "viêm đa khớp",
+          "dau nhuc cac khop",
+          "đau nhức các khớp"
+        ],
+        "search_vector_hint": "Bệnh Đau nhức các khớp thuộc nhóm Bệnh, thường liên quan đến viêm khớp dạng thấp."
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_GAN_COT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau nhức gân cốt",
+        "aliases": [
+          "daunhucgancot",
+          "dau nhuc gan cot",
+          "đau nhức gân cốt"
+        ],
+        "search_vector_hint": "Bệnh Đau nhức gân cốt thuộc nhóm bệnh, thường liên quan đến hệ vận động."
+      }
+    },
+    {
+      "id": "B_KHOP_XUONG_DAU_NHUC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Khớp xương đau nhức",
+        "aliases": [
+          "dau nhuc xuong khop",
+          "daunhucxuongkhop",
+          "khớp xương đau nhức",
+          "khop xuong dau nhuc",
+          "khopxuongdaunhuc",
+          "đau nhức xương khớp"
+        ],
+        "search_vector_hint": "Bệnh Khớp xương đau nhức thuộc nhóm Bệnh, thường liên quan đến viêm khớp."
+      }
+    },
+    {
+      "id": "B_PHONG_THAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phong thấp",
+        "aliases": [
+          "phong thap",
+          "phong thấp",
+          "phongthap"
+        ],
+        "search_vector_hint": "Phong thấp thuộc nhóm bệnh, thường liên quan đến đau nhức xương khớp."
+      }
+    },
+    {
+      "id": "CN_CO_QUAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Co quắp",
+        "aliases": [
+          "co rut",
+          "chuotrut",
+          "chuot rut",
+          "co quắp",
+          "chuột rút",
+          "co quap",
+          "corut",
+          "co rút",
+          "coquap"
+        ],
+        "search_vector_hint": "Triệu chứng Co quắp thuộc nhóm triệu chứng, thường liên quan đến sự co cơ không tự chủ."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong thấp",
+        "aliases": [
+          "khu phong thap",
+          "trừ phong thấp",
+          "tru phong thap",
+          "truphongthap",
+          "khu phong thấp",
+          "khuphongthap"
+        ],
+        "search_vector_hint": "Công năng Khu phong thấp thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh từ bên ngoài."
+      }
+    },
+    {
+      "id": "CN_KICH_THICH_TIEU_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Kích thích tiêu hóa",
+        "aliases": [
+          "kich thich tieu hoa",
+          "kichthichtieuhoa",
+          "kích thích tiêu hóa"
+        ],
+        "search_vector_hint": "Công năng Kích thích tiêu hóa thuộc nhóm công năng, thường liên quan đến hỗ trợ chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_MANH_GAN_COT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Mạnh Gân Cốt",
+        "aliases": [
+          "manh gan cot",
+          "mạnh gân cốt",
+          "manhgancot"
+        ],
+        "search_vector_hint": "Công năng Mạnh Gân Cốt thuộc nhóm công năng, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "DL_CHUA_BENH_NGOAI_DA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Chữa bệnh ngoài da",
+        "aliases": [
+          "chua benh ngoai da",
+          "chữa bệnh ngoài da",
+          "chuabenhngoaida"
+        ],
+        "search_vector_hint": "Công năng Chữa bệnh ngoài da thuộc nhóm công năng, thường liên quan đến điều trị các bệnh lý da liễu."
+      }
+    },
+    {
+      "id": "DL_DIET_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Diệt trùng",
+        "aliases": [
+          "diệt trùng",
+          "diettrung",
+          "diet trung"
+        ],
+        "search_vector_hint": "Diệt trùng thuộc nhóm dược lý."
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU_NHUC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Giảm đau nhức",
+        "aliases": [
+          "giảm đau nhức",
+          "chỉ thống",
+          "giamdaunhuc",
+          "chi thong",
+          "chithong",
+          "giam dau nhuc"
+        ],
+        "search_vector_hint": "Công năng Giảm đau nhức thuộc nhóm công năng, thường liên quan đến làm giảm cảm giác đau."
+      }
+    },
+    {
+      "id": "HC_ANDEHYT_PROPIONIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Andehyt Propionic",
+        "aliases": [
+          "andehyt propionic",
+          "andehytpropionic"
+        ],
+        "search_vector_hint": "Hoạt chất Andehyt Propionic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXETANDEHYT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axetandehyt",
+        "aliases": [
+          "axetandehyt"
+        ],
+        "search_vector_hint": "Hoạt chất Axetandehyt thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Limonen",
+        "aliases": [
+          "limonen"
+        ],
+        "search_vector_hint": "Limonen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_LINALOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Linalola",
+        "aliases": [
+          "linalola"
+        ],
+        "search_vector_hint": "Hoạt chất Linalola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_LINALYL_AXETAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Linalyl axetat",
+        "aliases": [
+          "linalyl axetat",
+          "linalylaxetat"
+        ],
+        "search_vector_hint": "Hoạt chất Linalyl axetat thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_O_TECPINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất O-Tecpinen",
+        "aliases": [
+          "o-tecpinen"
+        ],
+        "search_vector_hint": "Hoạt chất O-Tecpinen thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_SABINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sabinen",
+        "aliases": [
+          "sabinen"
+        ],
+        "search_vector_hint": "Sabinen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_TECPINEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tecpineola",
+        "aliases": [
+          "tecpineola"
+        ],
+        "search_vector_hint": "Hoạt chất Tecpineola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_TE_DAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kinh Tế đại",
+        "aliases": [
+          "tedai",
+          "tế đại",
+          "te dai"
+        ],
+        "search_vector_hint": "Kinh Tế đại thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc."
+      }
+    },
+    {
+      "id": "S_TE_THAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tê thấp",
+        "aliases": [
+          "tethap",
+          "te thap",
+          "tê thấp"
+        ],
+        "search_vector_hint": "Tê thấp thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_THIEN_NIEN_KIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thiên niên kiện",
+        "aliases": [
+          "thien nien kien",
+          "thiennienkien",
+          "thiên niên kiện"
+        ],
+        "search_vector_hint": "Vị thuốc Thiên niên kiện thuộc nhóm vị thuốc, thường liên quan đến điều trị đau nhức xương khớp.",
+        "bo_phan_dung": "thân rễ",
+        "che_bien_tho": "phơi hay sấy khô",
+        "lieu_dung_chung": "Ngày dùng $5-10g$ dưới dạng thuốc sắc hoặc ngâm rượu. Ngày dùng $8-12g$ dưới dạng thuốc sắc, thuốc cao hoặc ngâm rượu.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "các miền rừng núi của ta",
+        "ten_khoa_hoc": "$Homalomena aromatica (Roxb). Schott (Calla aromatica Roxb); Homalomena occulta (lowa) Schott$",
+        "ho_thuc_vat": "$họ Ráy Araceae$",
+        "hinh_thai_chi_tiet": "Cây thiên niên kiện còn có nhiều tên khác nhau: sơn thục, ráy hương. Tên khoa học Homalomena occulta (Lour.) Schott. (Homalomena aromatica Hort.). Cây sống lâu năm, thân rễ mập, bò ngang. Lá mọc từ thân rễ, có cuống dài 20-30cm. Phiến lá hình tim, phía dưới chia thành hai thuỳ tròn, dài 15-20cm, rộng 10-15cm, mép nguyên, mặt bóng, gân nổi rõ. Cụm hoa là một bông mo ngắn hơn cuống lá. Quả mọng chứa 1 hạt.",
+        "cach_dung_bao_che": "Có khi dùng tươi. Có khi ngâm rượu."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "513"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thiên niên kiện còn có nhiều tên khác nhau: sơn thục, ráy hương. Tên khoa học Homalomena occulta (Lour.) Schott. (Homalomena aromatica Hort.). Cây sống lâu năm, thân rễ mập, bò ngang. Lá mọc từ thân rễ, có cuống dài 20-30cm. Phiến lá hình tim, phía dưới chia thành hai thuỳ tròn, dài 15-20cm, rộng 10-15cm, mép nguyên, mặt bóng, gân nổi rõ. Cụm hoa là một bông mo ngắn hơn cuống lá. Quả mọng chứa 1 hạt.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Có khi dùng tươi. Có khi ngâm rượu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_LINALOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_TECPINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_LINALYL_AXETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_SABINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_O_TECPINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_AXETANDEHYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "HC_ANDEHYT_PROPIONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có chừng $40\\%$ $linalola$, một ít $tecpineola$ và chừng $2\\%$ este tính theo $linalyl axetat$, ngoài ra còn $sabinen$, $limonen$, $o tecpinen$, $axetandehyt$, $andehyt propionic$.",
+        "ghi_chu": "tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_PHONG_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_KHOP_XUONG_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "CN_CO_QUAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "S_TE_DAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "S_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm | Ngâm rượu uống",
+        "ghi_chu": "CT_VT_VN_T514 | CT_VT_VN_T515"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_DAU_NHUC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_DAU_KHOP_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "CN_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T514"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_DAU_NHUC_CAC_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$8-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T515"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "B_DAU_NHUC_GAN_COT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngâm rượu uống",
+        "ghi_chu": "CT_VT_VN_T515"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "CN_KHU_PHONG_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử phong thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "CN_MANH_GAN_COT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mạnh gân cốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "DL_DIET_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1937, Viện vi trùng Hà Nội đã nghiên cứu tác dụng diệt trùng của thiên niên kiện đối với một số vi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "DL_CHUA_BENH_NGOAI_DA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1962, Bệnh viện Nam Định dùng cồn chiết thiên niên kiện chữa bệnh ngoài da (eczema, hắc lào) đạt kết quả tốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THIEN_NIEN_KIEN",
+      "to": "DL_GIAM_DAU_NHUC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1963, bệnh viện Việt Trì dùng thiên niên kiện chữa đau nhức các khớp cũng có kết quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T513",
+        "all_sources": [
+          "CT_VT_VN_T513"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 71.5,
+      "reliability_c_score": 0.7565,
+      "total_confidence_sum": 23.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

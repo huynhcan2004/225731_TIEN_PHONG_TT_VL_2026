@@ -1,0 +1,987 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAC_HA",
+    "ten_raw": "Bạc hà",
+    "ten_khoa_hoc": "$Mentha arvensis L.; Mentha haplocalyx Briq. (nhóm Mentha arvensis); Mentha piperita L.$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceace (Labiatae)$",
+    "variants": [
+      "bạc hà nam"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Mọc hoang và được trồng tại nhiều vùng ở Việt Nam, cả ở đồng bằng và miền núi. Đã phát hiện mọc hoang nhiều ở Sapa (Lào Cai), Tam Đảo (Vĩnh Phúc), Ba Vì (Hà Tây), Bắc Cạn, Sơn La."
+    },
+    "display_name": "Bạc hà",
+    "canonical_name": "Bạc hà"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BAC_HA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bac Ha"
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Luong"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "HC_MENTOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Mentola"
+      }
+    },
+    {
+      "id": "HC_MENTOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Mentol"
+      }
+    },
+    {
+      "id": "HC_MENTON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Menton"
+      }
+    },
+    {
+      "id": "HC_PINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pinen"
+      }
+    },
+    {
+      "id": "HC_ESTE_AXETAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Este Axetat"
+      }
+    },
+    {
+      "id": "HC_BUTYRAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Butyrat"
+      }
+    },
+    {
+      "id": "HC_IZOVALERIANAT_MENTOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Izovalerianat Mentola"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU_BAC_HA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau Bac Ha"
+      }
+    },
+    {
+      "id": "HC_FLAVONOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Flavonozit"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "S_DI_NGOAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Di Ngoai"
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kem An"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "B_CAM_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Sot"
+      }
+    },
+    {
+      "id": "S_DAU_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Dau"
+      }
+    },
+    {
+      "id": "S_NGAT_MUI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngat Mui"
+      }
+    },
+    {
+      "id": "B_LOET_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Loet Da Day"
+      }
+    },
+    {
+      "id": "BT_CAM_MAO_BAC_HA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Cam Mao Bac Ha"
+      }
+    },
+    {
+      "id": "VI_THUOC_KINH_GIOI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Kinh Gioi"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHONG_PHONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Phong Phong"
+      }
+    },
+    {
+      "id": "VI_THUOC_BACH_CHI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bach Chi"
+      }
+    },
+    {
+      "id": "VI_THUOC_HANH_HOA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hanh Hoa"
+      }
+    },
+    {
+      "id": "CN_TAN_PHONG_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tan Phong Nhiet"
+      }
+    },
+    {
+      "id": "CN_RA_MO_HOI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ra Mo Hoi"
+      }
+    },
+    {
+      "id": "CN_GIAM_UAT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Giam Uat"
+      }
+    },
+    {
+      "id": "CN_THANH_LUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Luong"
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Dau"
+      }
+    },
+    {
+      "id": "DL_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Sat Trung"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Ho Hap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tim"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_HA_NHIET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Nhiet"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Than Kinh"
+      }
+    },
+    {
+      "id": "DL_NGAN_MEN_RUOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ngan Men Ruot"
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "612"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Lương",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN"
+        ],
+        "cong_nang": "tán phong nhiệt, ra mồ hôi, giảm uất, làm thuốc thanh lương dùng chữa cảm nắng (trúng thử), đau bụng, bụng đầy, chứng ăn không tiêu"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bạc hà Mentha arvensis L. còn có tên là bạc hà nam là một loại cỏ sống lâu năm, cao từ $10$ đến $60$-$70cm$, có thể cao tới $1m$, thân vuông mọc đứng hay hơi bò, có khi phân nhánh, trên thận có nhiều lông. Lá mọc đối, cuống dài từ $2$ đến $10mm$, phiến lá hình trứng hay thon dài, rộng $2$-$3cm$, dài $3$-$7cm$, mép có răng cưa, mặt trên và mặt dưới đều có lông che chở và lòng bài tiết. Hoa mọc vòng ở kẽ lá, cánh hoa hình môi màu tím hay hồng nhạt có khi màu trắng. Ít khi thấy có quả và hạt.",
+        "thanh_phan_hoa_hoc": [
+          "Mentola",
+          "Mentol",
+          "menton",
+          "este axetat",
+          "butyrat",
+          "izovalerianat mentola"
+        ],
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Không có thông tin",
+        "cach_dung_bao_che": "Không có thông tin"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Bạc hà có tính mát"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Bạc hà có vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Bạc hà quy vào kinh phế"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Bạc hà quy vào kinh can"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_MENTOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Mentola$ có trong tinh dầu với tỷ lệ 40-50\\%, loài của Trung Quốc và Nhật Bản có thể lên tới 70-90\\%.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_MENTOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Mentola$ ở trong tinh dầu chủ yếu ở trạng thái tự do nhưng một phần ở dạng $Mentol$",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_MENTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tỉnh dầu tỷ lệ mentol thường thấp hơn $40$-$65\\%$, menton $6$-$18\\%$, ngoài ra còn các este axetat, butyrat và izovalerianat mentola.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu tỷ lệ mentol là $70$-$90\\%$, menton là $10$-$20\\%$, ngoài ra còn pinen, nói chung gần như loài của Trung Quốc.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_ESTE_AXETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tỉnh dầu tỷ lệ mentol thường thấp hơn $40$-$65\\%$, menton $6$-$18\\%$, ngoài ra còn các este axetat, butyrat và izovalerianat mentola.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_BUTYRAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tỉnh dầu tỷ lệ mentol thường thấp hơn $40$-$65\\%$, menton $6$-$18\\%$, ngoài ra còn các este axetat, butyrat và izovalerianat mentola.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_IZOVALERIANAT_MENTOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tỉnh dầu tỷ lệ mentol thường thấp hơn $40$-$65\\%$, menton $6$-$18\\%$, ngoài ra còn các este axetat, butyrat và izovalerianat mentola.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_TINH_DAU_BAC_HA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chủ yếu trong bạc hà là tinh dầu bạc hà.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài tinh dầu, trong cây bạc hà còn có các flavonozit.",
+        "ghi_chu": "Không có thông tin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$ | $6$g",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá | Nước sôi đỏ vào chờ $20$ phút, uống lúc đang nóng",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "S_DAU_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "S_NGAT_MUI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dùng làm cho thuốc thơm dễ uống, làm ra mồ hôi, hạ sốt, giúp cho sự tiêu hoá",
+        "ghi_chu": "Lá và toàn cây; Tinh dầu và mentola: $0,02-0,2$ml/liều, $0,06-0,6$ml/ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Theo Lesieur và J. Meyer: làm giảm bài tiết dịch vị và giảm đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "VI_THUOC_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "VI_THUOC_KINH_GIOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "VI_THUOC_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "VI_THUOC_HANH_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_BAC_HA",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "CN_TAN_PHONG_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán phong nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "CN_RA_MO_HOI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ra mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "CN_GIAM_UAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giảm uất."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "CN_THANH_LUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc thanh lương dùng chữa cảm nắng (trúng thử), đau bụng, bụng đầy, chứng ăn không tiêu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu bạc hà và mentola bốc hơi rất nhanh, gây cảm giác mát và tê tại chỗ, dùng trong một số trường hợp đau dây thần kinh.",
+        "ghi_chu": "Tác dụng tại chỗ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng sát trùng mạnh thường dùng trong một số trường hợp ngứa của một số bệnh ngoài da, bệnh về tai mũi họng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu bạc hà và mentola bôi mũi hay bối trong cổ họng có thể gây hiện tượng ức chế có thể tới ngừng thở.",
+        "ghi_chu": "Đặc biệt ở trẻ con ít tuổi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu bạc hà và mentola bôi mũi hay bối trong cổ họng có thể gây hiện tượng ức chế có thể tới ngừng tim ngừng đập hoàn toàn.",
+        "ghi_chu": "Đặc biệt ở trẻ con ít tuổi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Một số trường hợp chết do nhỏ mũi $1$ giọt dầu mentola $1\\%$ hoặc bôi vào niêm mạc mũi một ít thuốc mở có mentola.",
+        "ghi_chu": "Đặc biệt ở trẻ con ít tuổi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống với liều rất nhỏ có thể gây hưng phấn, xúc tiến sự bài tiết của tuyến mồ hôi, làm cho nhiệt độ cơ thể hạ thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều lớn, có tác dụng kích thích tuỷ sống, gây tê liệt phản xạ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAC_HA",
+      "to": "DL_NGAN_MEN_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều lớn, có tác dụng ngăn sự lên men quá bình thường trong ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T612",
+        "all_sources": [
+          "CT_VT_VN_T612"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 83.5,
+      "reliability_c_score": 0.7549,
+      "total_confidence_sum": 30.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

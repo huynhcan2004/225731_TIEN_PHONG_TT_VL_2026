@@ -1,0 +1,343 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI",
+    "ten_raw": "Cây đại",
+    "ten_khoa_hoc": "$Plumeria acutifolia Poir. (P. acuminata Roxb, P. obtusa Lour.); Plumiera acuminata Ait. (P. rubra L. var. acuminata (Ait.) Bailey)$",
+    "ho_thuc_vat": "$Trúc đào Apocynaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "khắp nơi ở Việt Nam"
+    },
+    "display_name": "Cây đại",
+    "canonical_name": "Cây đại"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DAI",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dai"
+      }
+    },
+    {
+      "id": "HC_AGONIADIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Agoniadin"
+      }
+    },
+    {
+      "id": "HC_AXIT_PLUMERIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Plumeric"
+      }
+    },
+    {
+      "id": "B_HUYET_HUU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Huyet Huu"
+      }
+    },
+    {
+      "id": "B_SA_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sa Khop"
+      }
+    },
+    {
+      "id": "B_BONG_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bong Gan"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_TRAI_CHAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Trai Chan"
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Loet"
+      }
+    },
+    {
+      "id": "B_THUNG_NUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thung Nuoc"
+      }
+    },
+    {
+      "id": "DL_KHANG_SINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Sinh"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "462"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây đại là một cây nhỡ, cao $3-7m$, cành mẫm, to. Lá mọc so le sít nhau, thường tập trung ở đầu cành; lá dày, nguyên, dài $15-35cm$, rộng $5-10cm$ hai đầu đều hẹp nhọn, mặt nhẵn bóng, gần giữa nổi rõ. Hoa màu trắng, rất thơm, mặt trong ở phía dưới màu vàng dài $4-5cm$. Quả đại dài hình trụ, dài $12cm$. Mùa hoa ở miền Bắc tháng $4-8$ Đại là một cây to, cao $15-20m$, thân mập, nhiều cành, mềm, vỏ xám trắng. Lá mọc so le, thường tập trung ở đầu cành, hình mác dài $20-40cm$, rộng $7-15cm$, đầu nhọn, gốc thuôn, nhẵn, gân nổi rõ. Hoa to, trắng, họng vàng, rất thơm, cánh hoa dầy, hơi tù. Quả ít thấy, quả gồm hai đại dài $15-20cm$. Hạt có cánh mỏng.",
+        "thanh_phan_hoa_hoc": [
+          "Trong vỏ thân, Peckolt và Geuther đã tìm thấy một glucozit gọi là `$agoniadin$` $Agoniadin$",
+          "Oudman còn chiết được từ nhựa cây một axit gọi là axit plumeric."
+        ],
+        "cach_dung_bao_che": "Vỏ thân đẽo về sao vàng mà dùng, có khi phơi khô để dành. Vỏ rễ cũng dùng như vỏ thân. Hoa đại hái về, phơi khô. Ngoài ra còn dùng nụ hoa và lá tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "HC_AGONIADIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ thân, Peckolt và Geuther đã tìm thấy một glucozit gọi là `$agoniadin$` $Agoniadin$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "HC_AXIT_PLUMERIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Oudman còn chiết được từ nhựa cây một axit gọi là axit plumeric.",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_HUYET_HUU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$ một ngày",
+        "cach_dung": "dưới dạng thuốc sắc với $200ml$ nước, chia làm nhiều lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_SA_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã dán và đắp vào những nơi bị bệnh",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_BONG_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã dán và đắp vào những nơi bị bệnh",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã dán và đắp vào những nơi bị bệnh",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_TRAI_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dùng như vỏ thân, nhưng với liều thấp hơn",
+        "cach_dung": "Dùng như vỏ thân, nhưng với liều thấp hơn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dùng như vỏ thân, nhưng với liều thấp hơn",
+        "cach_dung": "Dùng như vỏ thân, nhưng với liều thấp hơn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "B_THUNG_NUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Sắc $5-10g$ vỏ trong $200ml$ | Dùng với liều $0,50-0,80g$ dưới dạng nhũ dịch",
+        "cach_dung": "Sắc $5-10g$ vỏ trong $200ml$ | Dùng với liều $0,50-0,80g$ dưới dạng nhũ dịch",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T463"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Funvoplumierin chiết xuất từ cây hoa đại có tác dụng ức chế sự lớn lên của một số giống Mycobacterium tuberculosis.",
+        "ghi_chu": "Chiết xuất năm 1952"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoa đại (dạng nước sắc $10-20\\%$, $100\\%$) có tác dụng hạ huyết áp (thí nghiệm trên thỏ, chó). Hoa khô có tác dụng mạnh hơn hoa tươi. | Tác dụng hạ huyết áp xuất hiện nhanh và tương đối bền vững.",
+        "ghi_chu": "Nghiên cứu năm 1962"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_DAI",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Độ độc của hoa đại cũng ít hơn Rauvolfia verticillata."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T462",
+        "all_sources": [
+          "CT_VT_VN_T462"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.5,
+      "reliability_c_score": 0.7654,
+      "total_confidence_sum": 9.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

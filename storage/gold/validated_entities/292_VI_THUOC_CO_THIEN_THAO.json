@@ -1,0 +1,226 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CO_THIEN_THAO",
+    "ten_raw": "Cô thiên thảo",
+    "ten_khoa_hoc": "$Anisomeles ovata R. Br.; Orthosiphon ovatus Benth.$",
+    "ho_thuc_vat": "$Hoa môi Lamiaceae (Labiatae)$",
+    "variants": [
+      "cây cứt lợn",
+      "kiếm",
+      "san nga"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Mọc hoang dại ở khắp nơi trong nước ta. Còn mọc ở nhiều nước nhiệt đới châu Á. Còn thấy ở Ấn Độ, Malaixia, Inđônêxia, Philippin."
+    },
+    "display_name": "Cô thiên thảo",
+    "canonical_name": "Cô thiên thảo"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CO_THIEN_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Co Thien Thao"
+      }
+    },
+    {
+      "id": "HC_OVATODIOLIDE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ovatodiolide"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "B_SOT_CON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Con"
+      }
+    },
+    {
+      "id": "B_THAP_KHOP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thap Khop"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    },
+    {
+      "id": "DL_BAI_TIET_MAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Bai Tiet Mat"
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Khuan"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "292"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ thiên thảo cao $0,75$ đến $1,25mm$. Thân vuông, có lông nhất là ở ngọn. Lá mọc đối, có cuống rõ, phiến hình bầu dục, có lông ở cả hai mặt, dài $7-15cm$, rộng $3-6cm$. Hoa màu hồng hay hơi tía mọc thành vòng nhiều hoa sít nhau ở kẽ lá. Hoa không cuống, đài hình chuông, 5 răng. Quả bế tư, nhẵn",
+        "thanh_phan_hoa_hoc": [
+          "Từ 1963, Hồ Đắc Ấn và cộng sự (1963, Bull. Soc Chim. Fr. 1192) đã chiết được từ lá cỏ thiên thảo một chất có tinh thể độ chảy $148-150°$, đặt tên là `$ovatodiolide$`.",
+          "Năm 1965, H. Immer và cộng sự (Tetrahedron 21, 211, 7-2131) đã xác định chất `$ovatodiolide$` có một nhân vòng tới 14 cacbon, 4 nối kép và là một dilacton:"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "HC_OVATODIOLIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ 1963, Hồ Đắc Ấn và cộng sự (1963, Bull. Soc Chim. Fr. 1192) đã chiết được từ lá cỏ thiên thảo một chất có tinh thể độ chảy $148-150°$, đặt tên là `$ovatodiolide$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T293"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "B_SOT_CON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng",
+        "ghi_chu": "CT_VT_VN_T293"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Xoa bóp",
+        "ghi_chu": "CT_VT_VN_T293"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc cô thiên thảo có tác dụng lợi tiểu rõ rệt trên chó và thỏ. Tác dụng lợi tiểu này không kèm theo sự kích thích. Tác dụng lợi tiểu của cô thiên thảo có thể so sánh với tác dụng của cafein và theophyllin.",
+        "ghi_chu": "Tác dụng lợi tiểu của ovatodiolide yếu hơn tác dụng lợi tiểu của toàn cây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "DL_BAI_TIET_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho chuột uống $ovatodiolide$ với liều cao ($250mg$ đến $750mg/kg$) có tác dụng kích thích sự bài tiết mật của các tế bào gan (choleretique), hàm lượng nước trong mật không thay đổi chứng tỏ $ovatodiolide$ có tác dụng kích thích.",
+        "ghi_chu": "$Ovatodiolide$ có tác dụng kích thích sự bài tiết mật, nhưng tác dụng này không phải là tác dụng kích thích tiết mật thực sự."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_THIEN_THAO",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "$Ovatodiolide$ có tác dụng ức chế sự phát triển của một số vi trùng g + và g – nhưng tác dụng này không ổn định."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T292",
+        "all_sources": [
+          "CT_VT_VN_T292"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 42.5,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

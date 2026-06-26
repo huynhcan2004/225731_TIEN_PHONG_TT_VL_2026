@@ -1,0 +1,193 @@
+{
+  "entity_hub": "VI_THUOC_KHA_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T442",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "442"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_XICH_BACH_LY_K",
+      "to": "VI_THUOC_KHA_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Kha tử có tác dụng chữa lỵ.",
+        "cach_dung": "Nếu lỵ ra máu thì dùng nước sắc cam thảo mà chiêu thuốc, nếu lỵ ra mũi khổng, dùng nước sắc cam thảo trích.",
+        "ghi_chu": "6 quả để sống, 6 quả nướng bỏ hạt, sao vàng và tán nhỏ. Dùng $12$ quả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_HO_KHA_TU_DS",
+      "to": "VI_THUOC_KHA_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kha tử kết hợp với đảng sâm giúp trị ho lâu ngày.",
+        "cach_dung": "Sắc với $400ml$ nước cô đặc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Dùng $4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_HO_KHA_TU_DS",
+      "to": "VT_DANG_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đảng sâm hỗ trợ kha tử trị ho.",
+        "cach_dung": "Sắc với $400ml$ nước cô đặc còn $200ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Dùng $4g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_LY_KHA_TU_K",
+      "to": "VI_THUOC_KHA_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Kha tử có tác dụng chữa lỵ kinh niên.",
+        "cach_dung": "Dưới dạng thuốc sắc, thuốc viên.",
+        "ghi_chu": "Liều chung $3-6g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_XICH_BACH_LY_K",
+      "to": "B_XICH_BACH_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa xích bạch lỵ",
+        "cach_dung": "Nếu lỵ ra máu thì dùng nước sắc cam thảo mà chiêu thuốc, nếu lỵ ra mũi khổng, dùng nước sắc cam thảo trích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_HO_KHA_TU_DS",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho lâu ngày",
+        "cach_dung": "Sắc với $400ml$ nước cô đặc còn $200ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "BT_LY_KHA_TU_K",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ kinh niên",
+        "cach_dung": "Dưới dạng thuốc sắc, thuốc viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "B_DI_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa di tinh",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "B_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mồ hôi trộm",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "B_TRI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa trĩ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "B_LOI_DOM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa lòi dom",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "B_XICH_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa xích bạch đới",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "S_DI_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa đi ỉa lỏng lâu ngày",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHA_TU",
+      "to": "S_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa họ mất tiếng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T442"
+      }
+    }
+  ],
+  "metadata": {}
+}

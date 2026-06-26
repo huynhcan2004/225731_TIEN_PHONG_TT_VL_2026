@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MUI_TAY",
+    "ten_raw": "Mùi tây",
+    "ten_khoa_hoc": "Petroselinum sativum Hoff.; Carum petroselinum Benth. et Hoof. f.",
+    "ho_thuc_vat": "Hoa tán Umbelliferae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả, rễ và lá",
+      "phan_bo": "Mùi tây vốn không có trong nước ta, mà do di thực, không rõ từ bao giờ, dùng làm rau ăn."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T290",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "290"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ sống hai năm, cao $0,20-0,80m$, rễ phát triển thành củ hình trụ, đầu hình nón, Thân có rễ dọc. Lá bóng, có cuống dài thường hình ba cạnh, 2 đến 3 lần xẻ thành thùy với 3 thùy nhỏ, mép có răng cưa. Hoa màu lục vàng nhạt, họp thành tán kép. Quả nhỏ hình cầu. Khi vò, toàn cây tỏa mùi thơm dễ chịu ( Hình 213 ).",
+        "thanh_phan_hoa_hoc": [
+          "Quả (thường gọi nhầm là hạt) chứa $20\\%$ chất béo (gọi là bơ-beurre de persil) với thành phần chủ yếu là một axit béo không no gọi là một axit petroselinic (C ). Ngoài ra còn những chất sau đây:",
+          "Một heterozit flavonic gọi là apiin hay apiozit, thủy phân cho apioza (pentoza với chuỗi nhánh), và apigenin (trihydroxy 5-7-4' flavon).",
+          "$2,5$ đến $6\\%$ tinh dầu với thành phần thay đổi tùy theo thứ mùi tây. Từ 1964, Stahl đã nghiên cứu và phân ra ba nòi hóa học chính của loài mùi tây là: Nòi chứa chủ yếu chất $apiol$",
+          "Nòi này chủ yếu gốc ở Đức. Nòi với thành phần chủ yếu là myristin (demetoxy 2 apiol) từ $55$ đến $85\\%$. Nòi này chủ yếu gặp ở Pháp. Nội với thành phần chủ yếu là alyl-tetrametoxybenzen ($50-60\\%$) nòi này ít phổ cập hơn.",
+          "Ngoài những thành phần chủ yếu trên đây, chiếm khoảng $80\\%$ tinh dầu và đều là dẫn xuất của phenylpropan tinh dầu mùi tây còn chứa những cacbua tecpenic khác.",
+          "Lá mùi tây chứa chừng $0,08\\%$ tinh dầu. caro tin, vitamin C, luteolin và apigenin.",
+          "Rễ chứa apigenin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_AXIT_PETROSELINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả (thường gọi nhầm là hạt) chứa $20\\%$ chất béo (gọi là bơ-beurre de persil) với thành phần chủ yếu là một axit béo không no gọi là một axit petroselinic (C )."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_APIIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một heterozit flavonic gọi là apiin hay apiozit, thủy phân cho apioza (pentoza với chuỗi nhánh), và apigenin (trihydroxy 5-7-4' flavon)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_APIGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một heterozit flavonic gọi là apiin hay apiozit, thủy phân cho apioza (pentoza với chuỗi nhánh), và apigenin (trihydroxy 5-7-4' flavon)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_APIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ 1964, Stahl đã nghiên cứu và phân ra ba nòi hóa học chính của loài mùi tây là: Nòi chứa chủ yếu chất $apiol$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_MYRISTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nòi với thành phần chủ yếu là myristin (demetoxy 2 apiol) từ $55$ đến $85\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_ALLYL_TETRAMETOXYBENZEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nội với thành phần chủ yếu là alyl-tetrametoxybenzen ($50-60\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_CAROTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá mùi tây chứa chừng $0,08\\%$ tinh dầu. caro tin, vitamin C, luteolin và apigenin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá mùi tây chứa chừng $0,08\\%$ tinh dầu. caro tin, vitamin C, luteolin và apigenin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    },
+    {
+      "from": "VI_THUOC_MUI_TAY",
+      "to": "HC_LUTEOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá mùi tây chứa chừng $0,08\\%$ tinh dầu. caro tin, vitamin C, luteolin và apigenin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T290"
+      }
+    }
+  ]
+}

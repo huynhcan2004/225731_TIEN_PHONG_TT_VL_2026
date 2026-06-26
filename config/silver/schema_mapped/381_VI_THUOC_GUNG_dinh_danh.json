@@ -1,0 +1,210 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GUNG",
+    "ten_raw": "Gừng",
+    "ten_khoa_hoc": "Zingiber offcinale Rosc.",
+    "ho_thuc_vat": "họ Gừng Zingiberaceae",
+    "variants": [
+      "Khương",
+      "Sinh khương",
+      "Can khương",
+      "Bào khương"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "che_bien_tho": "Sinh khương là củ (thân rễ) tươi.\nCan khương là thân rễ phơi khô."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T381",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "381"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "phát biểu tán hàn, ôn trung, làm hết nôn, tiêu đờm, hành thủy giải độc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Gừng là một loại cây nhỏ, sống lâu năm, cao $0,60$ đến $1m$. Thân rễ mẫm lên thành củ, lâu dần thành xơ. Lá mọc so le, không cuống, có bẹ, hình mác dài $15$ đến $20cm$, rộng chừng $2cm$, mặt bóng nhẵn, gân giữa hơi trắng nhạt, và có mùi thơm. Trục hoa xuất phát từ gốc, dài tới $20cm$, cụm hoa thành bông mọc sít nhau, hoa dài $5cm$, rộng $2-3cm$, lá bắc hình trứng, dài $2,5cm$, mép lưng màu vàng, đài hoa dài chừng $1cm$, có $3$ răng ngắn, $3$ cành hoa dài chừng $2cm$, màu vàng xanh, mép cánh hoa màu tím, nhị cũng tím. Loài gừng trồng ít ra hoa ( Hình 275, Hm 43,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong gừng có từ $2-3%$ tinh dầu. Ngoài ra còn có chất nhựa dầu ($5%$), chất béo ($3,7%$), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$. Tình dầu gừng có tỷ trọng $0,878$, tả tuyền, năng suất quay cực -25° ở -5°C, độ sôi $155-300$. Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$. Nhựa gồm một nhựa trung tính, hai nhựa axit. $Zingerola$ là một chất lỏng sánh, màu vàng không mùi, vị rất cay, độ sôi ở $18mm$ thủy ngân là $235-240°C$. Bản thân chất này không đơn thuần, khi cùng đun sôi với Ba (OH), sẽ bị phân giải cho những chất andehyt bay hơi, những chất cay có tinh thể gọi là $zingeron$ C.,H,O, và một chất ở thể dầu gọi là shogaola.",
+          "Shogaola có độ sôi $201-203°C$.",
+          "Zingeron có tinh thể, độ sôi $40-41C$, vị rất cay.",
+          "Căn cứ vào sự hiểu biết hiện nay về cấu tạo hóa học, những chất có cấu tạo trên đây, trong đó n lớn hơn $1$ thì đều có vị cay như các chất trong gừng.",
+          "Do những công thức trên, chúng ta hiểu được tại sao khi ngâm gừng lâu với một dung dịch 5/ KOH, thì sẽ mất hết tính chất cay."
+        ],
+        "cach_dung_bao_che": "Tùy theo tươi hay khô, vị thuốc mang tên khác nhau:"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGERON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu ($5%$), chất béo ($3,7%$), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu ($5%$), chất béo ($3,7%$), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_SHOGAOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất nhựa dầu ($5%$), chất béo ($3,7%$), tinh bột và các chất cay như $zingeron$, $zingerola$ và $shogaola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_CAMPHEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_PHELANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_ZINGIBEREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_XITRALA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_BOCNEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    },
+    {
+      "from": "VI_THUOC_GUNG",
+      "to": "HC_GERANIOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có ở $camphen$, $B$ $phelandren$, một cacbua: $zingiberen$ C,H,, một rượu sesquitecpen, một ít $xitrala$ $bocneola$ và $geraniola$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T381"
+      }
+    }
+  ]
+}

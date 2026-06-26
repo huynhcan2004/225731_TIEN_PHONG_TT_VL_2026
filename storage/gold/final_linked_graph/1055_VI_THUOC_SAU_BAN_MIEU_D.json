@@ -1,0 +1,699 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_SAU_BAN_MIEU_D",
+    "ten_raw": "Sâu ban miêu",
+    "ten_khoa_hoc": "$Lytta vesicatoria Fabr.$",
+    "ho_thuc_vat": "$họ Ban miêu Meloidae$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Liều uống là $0,50$ đến $2,50g$.",
+      "muc_do_doc": "Có độc",
+      "phan_bo": "null"
+    },
+    "display_name": "Vị thuốc Ban miêu",
+    "canonical_name": "Vị thuốc Ban miêu"
+  },
+  "nodes": [
+    {
+      "id": "BT_HAC_LAO_LANG_BEN_SAU_BAN_MIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Hắc lào lang ben sâu ban miêu",
+        "aliases": [
+          "haclaolangbensaubanmieu",
+          "hắc lào lang ben sâu ban miêu",
+          "hac lao lang ben sau ban mieu"
+        ],
+        "search_vector_hint": "Hắc lào lang ben sâu ban miêu thuộc nhóm Bài thuốc, thường liên quan đến điều trị các bệnh ngoài da."
+      }
+    },
+    {
+      "id": "BT_HOI_NACH_SAU_BAN_MIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Hôi nách sâu ban miêu",
+        "aliases": [
+          "hoi nach sau ban mieu",
+          "hoinachsaubanmieu",
+          "hôi nách sâu ban miêu"
+        ],
+        "search_vector_hint": "Hôi nách sâu ban miêu thuộc nhóm Bài thuốc, thường liên quan đến điều trị hôi nách."
+      }
+    },
+    {
+      "id": "BT_MOM_LUOI_LO_SAU_BAN_MIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mồm lưỡi lở sâu ban miêu",
+        "aliases": [
+          "mồm lưỡi lở sâu ban miêu",
+          "momluoilosaubanmieu",
+          "mom luoi lo sau ban mieu"
+        ],
+        "search_vector_hint": "Mồm lưỡi lở sâu ban miêu thuộc nhóm Bài thuốc, thường liên quan đến điều trị viêm loét miệng."
+      }
+    },
+    {
+      "id": "B_BENH_O_CO_HONG_HAU_TY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh ở cổ họng hầu tý",
+        "aliases": [
+          "o co hong hau ty",
+          "ocohonghauty",
+          "ở cổ họng hầu tý"
+        ],
+        "search_vector_hint": "Bệnh ở cổ họng hầu tý thuộc nhóm Bệnh, thường liên quan đến các vấn đề về viêm nhiễm hoặc tổn thương."
+      }
+    },
+    {
+      "id": "B_CAM_MUI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cảm mũi",
+        "aliases": [
+          "cam mui",
+          "viemmuidiung",
+          "viem mui di ung",
+          "viêm mũi dị ứng",
+          "sổ mũi",
+          "cảm mũi",
+          "somui",
+          "cammui",
+          "so mui"
+        ],
+        "search_vector_hint": "Cảm mũi thuộc nhóm Bệnh, thường liên quan đến các triệu chứng hắt hơi, sổ mũi do dị ứng."
+      }
+    },
+    {
+      "id": "B_DAU_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau mắt",
+        "aliases": [
+          "dau mat",
+          "viemketmac",
+          "đau mắt",
+          "viêm kết mạc",
+          "daumat",
+          "viem ket mac"
+        ],
+        "search_vector_hint": "Đau mắt thuộc nhóm Bệnh, thường liên quan đến các vấn đề về viêm nhiễm hoặc tổn thương ở mắt."
+      }
+    },
+    {
+      "id": "B_HAC_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hắc lào",
+        "aliases": [
+          "hắc lào",
+          "haclao",
+          "hac lao"
+        ],
+        "search_vector_hint": "Bệnh Hắc lào thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do nấm."
+      }
+    },
+    {
+      "id": "B_HOI_NACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hôi nách",
+        "aliases": [
+          "viem tuyen mo hoi nach",
+          "hôi nách",
+          "viêm tuyến mồ hôi nách",
+          "hoinach",
+          "viemtuyenmohoinach",
+          "hoi nach"
+        ],
+        "search_vector_hint": "Hôi nách thuộc nhóm Bệnh, thường liên quan đến mùi khó chịu do tuyến mồ hôi tiết ra."
+      }
+    },
+    {
+      "id": "B_LANG_BEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lang ben",
+        "aliases": [
+          "langben",
+          "lang ben"
+        ],
+        "search_vector_hint": "Lang ben thuộc nhóm Bệnh, thường liên quan đến nhiễm nấm da gây mất sắc tố."
+      }
+    },
+    {
+      "id": "B_MOM_LUOI_LO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mồm lưỡi lở",
+        "aliases": [
+          "mom luoi lo",
+          "viêm loét miệng",
+          "momluoilo",
+          "mồm lưỡi lở",
+          "viem loet mieng",
+          "viemloetmieng"
+        ],
+        "search_vector_hint": "Mồm lưỡi lở thuộc nhóm Bệnh, thường liên quan đến các vết loét trong miệng gây đau đớn."
+      }
+    },
+    {
+      "id": "B_MUI_MOC_THIT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mũi mọc thịt",
+        "aliases": [
+          "polyp mui",
+          "polyp mũi",
+          "mũi mọc thịt",
+          "polypmui",
+          "mui moc thit",
+          "muimocthit"
+        ],
+        "search_vector_hint": "Mũi mọc thịt thuộc nhóm Bệnh, thường liên quan đến sự phát triển bất thường của mô trong mũi."
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Răng cắn",
+        "aliases": [
+          "rang can",
+          "răng cắn",
+          "rangcan"
+        ],
+        "search_vector_hint": "Bệnh Răng cắn thuộc nhóm bệnh, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "B_SAU_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sâu răng",
+        "aliases": [
+          "sau rang",
+          "saurang",
+          "sâu răng"
+        ],
+        "search_vector_hint": "Sâu răng thuộc nhóm Bệnh, thường liên quan đến tổn thương men răng do vi khuẩn."
+      }
+    },
+    {
+      "id": "CN_GAY_NON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Gây nôn",
+        "aliases": [
+          "gay non",
+          "gây nôn",
+          "gaynon"
+        ],
+        "search_vector_hint": "Gây nôn thuộc nhóm Công năng, thường liên quan đến khả năng kích thích phản xạ nôn."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "HC_DONG_SUNFAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Đồng sulfat",
+        "aliases": [
+          "dong sulfat",
+          "dongsulfat",
+          "đồng sulfat"
+        ],
+        "search_vector_hint": "Đồng sulfat thuộc nhóm Hoạt chất, thường liên quan đến các ứng dụng trong y học và nông nghiệp."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_SAU_BAN_MIEU_D",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ban miêu",
+        "aliases": [
+          "saubanmieu",
+          "ban miêu",
+          "sâu ban miêu",
+          "sau ban mieu",
+          "ban mieu",
+          "banmieu"
+        ],
+        "search_vector_hint": "Ban miêu thuộc nhóm Vị thuốc, thường liên quan đến điều trị mụn nhọt, lở loét.",
+        "lieu_dung_chung": "Liều uống là $0,50$ đến $2,50g$.",
+        "muc_do_doc": "Có độc",
+        "phan_bo": "null",
+        "ten_khoa_hoc": "$Lytta vesicatoria Fabr.$",
+        "ho_thuc_vat": "$họ Ban miêu Meloidae$",
+        "hinh_thai_chi_tiet": "Tên sâu ban miêu được dùng để chỉ nhiều thứ sâu có tính chất gây rộp da giống nhau, và đều được dùng làm thuốc. Sau đây là một số chính: Sau Cantharis vesicatoria là một thứ sâu nhỏ, có cánh cứng, màu xanh lục biếc, dài từ $15$-$20mm$, ngang $4$-$6mm$. Đầu hình tim có một rãnh mờ, chất cứng dễ vỡ, màu xanh da trời, vị tanh mùi đồng gây nôn."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1055"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_CHUA_TOAN"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tên sâu ban miêu được dùng để chỉ nhiều thứ sâu có tính chất gây rộp da giống nhau, và đều được dùng làm thuốc. Sau đây là một số chính: Sau Cantharis vesicatoria là một thứ sâu nhỏ, có cánh cứng, màu xanh lục biếc, dài từ $15$-$20mm$, ngang $4$-$6mm$. Đầu hình tim có một rãnh mờ, chất cứng dễ vỡ, màu xanh da trời, vị tanh mùi đồng gây nôn."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "đảm phàn vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "đảm phàn vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "HC_DONG_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$đồng sunfat$",
+        "ghi_chu": "null"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_BENH_O_CO_HONG_HAU_TY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_SAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_MUI_MOC_THIT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_CAM_MUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_HOI_NACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đảm phàn | Tán nhỏ hòa với phèn chua và nước gừng, rửa sạch nách và bôi vào, thấy nóng qua thì nghỉ, vài ngày lại bôi một lần",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAC_LAO_LANG_BEN_SAU_BAN_MIEU",
+      "to": "VT_SAU_BAN_MIEU_D",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Hai phần",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tán nhỏ, lấy bột này xát vào nơi hắc lào, lang ben"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_LANG_BEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tán nhỏ, lấy bột này xát vào nơi hắc lào, lang ben"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HOI_NACH_SAU_BAN_MIEU",
+      "to": "VT_SAU_BAN_MIEU_D",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Nửa sống, nửa chín",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MOM_LUOI_LO_SAU_BAN_MIEU",
+      "to": "VT_SAU_BAN_MIEU_D",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "B_MOM_LUOI_LO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Cho vào mảnh nồi đồng nung thật đỏ, lấy ra để nguội trong vòng một ngày, tán nhỏ bôi vào, chỉ bôi rất ít vì có độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "CN_GAY_NON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng gây nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU_D",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hơi có độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "all_sources": [
+          "CT_VT_VN_T1055"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 62.0,
+      "reliability_c_score": 0.7591,
+      "total_confidence_sum": 16.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

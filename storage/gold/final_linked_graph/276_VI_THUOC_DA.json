@@ -1,0 +1,634 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DA",
+    "ten_raw": "Cây đa",
+    "ten_khoa_hoc": "$Ficus elastica Roxb; Ficus religiosa L; Ficus macrophylla; Ficus benghalensis L$",
+    "ho_thuc_vat": "$Dâu tằm Moraceae$",
+    "variants": [
+      "đa búp đỏ",
+      "bồ đề (đom pur)",
+      "cây đề",
+      "đa nhiều rễ",
+      "đa tròn lá"
+    ],
+    "properties": {
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Thường được trồng khắp nơi lấy bóng mát.",
+      "thu_hai": "người ta dùng tua rễ mọc từ cành rủ xuống.",
+      "che_bien_tho": "dùng toàn rễ nghĩa là cả lõi và rễ. tươi hay sao cho khô đều được. không phải chế biến gì khác."
+    },
+    "display_name": "Vị thuốc Đa",
+    "canonical_name": "Vị thuốc Đa"
+  },
+  "nodes": [
+    {
+      "id": "BT_CO_TRUONG_RE_DA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cổ trướng rễ đa",
+        "aliases": [
+          "cổ trướng rễ đa",
+          "cotruongreda",
+          "co truong re da"
+        ],
+        "search_vector_hint": "Bài thuốc Cổ trướng rễ đa thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh cổ trướng."
+      }
+    },
+    {
+      "id": "BT_THO_TA_BO_DE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Thổ tả bổ đê",
+        "aliases": [
+          "thotabode",
+          "tho ta bo de",
+          "thổ tả bổ đê"
+        ],
+        "search_vector_hint": "Bài thuốc Thổ tả bổ đê thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh tiêu chảy."
+      }
+    },
+    {
+      "id": "B_DI_NGOAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Di ngoại",
+        "aliases": [
+          "dingoai",
+          "di ngoai",
+          "di ngoại"
+        ],
+        "search_vector_hint": "Bệnh Di ngoại thuộc nhóm bệnh sản phụ khoa, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_THAY_VO_KHI_AN_TRAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thấy vó khi ăn trầu",
+        "aliases": [
+          "thay vo khi an trau",
+          "thayvokhiantrau",
+          "thấy vó khi ăn trầu"
+        ],
+        "search_vector_hint": "Bệnh Thấy vó khi ăn trầu thuộc nhóm bệnh, thường liên quan đến các triệu chứng đặc biệt khi ăn trầu."
+      }
+    },
+    {
+      "id": "B_THO_TA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thổ tả",
+        "aliases": [
+          "tho ta",
+          "thổ tả",
+          "thota"
+        ],
+        "search_vector_hint": "Thổ tả thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "B_XO_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Xơ gan",
+        "aliases": [
+          "xơ gan",
+          "xogan",
+          "xo gan"
+        ],
+        "search_vector_hint": "Bệnh Xơ gan thuộc nhóm bệnh, thường liên quan đến tổn thương gan mãn tính."
+      }
+    },
+    {
+      "id": "CN_CO_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cổ trướng",
+        "aliases": [
+          "co truong",
+          "cổ trướng",
+          "cotruong"
+        ],
+        "search_vector_hint": "Công năng Cổ trướng thuộc nhóm Công năng, thường liên quan đến điều trị bệnh cổ trướng."
+      }
+    },
+    {
+      "id": "DL_BAI_TIET_ION",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Bài tiết ion",
+        "aliases": [
+          "bài tiết ion",
+          "baitietion",
+          "bai tiet ion"
+        ],
+        "search_vector_hint": "Công năng Bài tiết ion thuộc nhóm công năng, thường liên quan đến cân bằng điện giải."
+      }
+    },
+    {
+      "id": "DL_CO_BOP_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Co bóp tim",
+        "aliases": [
+          "co bop tim",
+          "coboptim",
+          "co bóp tim"
+        ],
+        "search_vector_hint": "Công năng Co bóp tim thuộc nhóm công năng, thường liên quan đến hoạt động của tim mạch."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hạ huyết áp",
+        "aliases": [
+          "hạ huyết áp",
+          "ha huyet ap",
+          "hahuyetap"
+        ],
+        "search_vector_hint": "Dược lý Hạ huyết áp thuộc nhóm dược lý, thường liên quan đến khả năng làm giảm huyết áp."
+      }
+    },
+    {
+      "id": "DL_LOI_NIEU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Công năng Lợi tiểu thuộc nhóm công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "HC_AXIT_AMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Amin",
+        "aliases": [
+          "axit amin",
+          "axitamin"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Amin thuộc nhóm Hoạt chất, thường liên quan đến cấu tạo protein."
+      }
+    },
+    {
+      "id": "HC_CAO_SU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cao Su",
+        "aliases": [
+          "cao su",
+          "caosu"
+        ],
+        "search_vector_hint": "Hoạt chất Cao Su thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_DA_PHENOL_DAN_XUAT_FLAVON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Da Phenol Dẫn Xuất Flavon",
+        "aliases": [
+          "da phenol dẫn xuất flavon",
+          "da phenol dan xuat flavon",
+          "daphenoldanxuatflavon"
+        ],
+        "search_vector_hint": "Hoạt chất Da Phenol Dẫn Xuất Flavon thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_MUOI_KALI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Muối kali",
+        "aliases": [
+          "muối kali",
+          "muoi kali",
+          "muoikali"
+        ],
+        "search_vector_hint": "Hoạt chất Muối kali thuộc nhóm Hoạt chất, thường liên quan đến cân bằng điện giải."
+      }
+    },
+    {
+      "id": "HC_MUOI_NATRI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Muối Natri",
+        "aliases": [
+          "muối natri",
+          "muoinatri",
+          "muoi natri"
+        ],
+        "search_vector_hint": "Muối Natri thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_NHUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Nhựa",
+        "aliases": [
+          "nhựa",
+          "nhua"
+        ],
+        "search_vector_hint": "Nhựa thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "VT_DA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đa",
+        "aliases": [
+          "đa",
+          "da"
+        ],
+        "search_vector_hint": "Vị thuốc Đa thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc trong y học cổ truyền.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Thường được trồng khắp nơi lấy bóng mát.",
+        "thu_hai": "người ta dùng tua rễ mọc từ cành rủ xuống.",
+        "che_bien_tho": "dùng toàn rễ nghĩa là cả lõi và rễ. tươi hay sao cho khô đều được. không phải chế biến gì khác.",
+        "ten_khoa_hoc": "$Ficus elastica Roxb; Ficus religiosa L; Ficus macrophylla; Ficus benghalensis L$",
+        "ho_thuc_vat": "$Dâu tằm Moraceae$",
+        "hinh_thai_chi_tiet": "Nhiều loài đa được dùng Cây đa búp đỏ (Ficus elastica Roxb) là cây gỗ to, cao, thân nhiều nhánh. Lá hình bầu dục, hơi dài, to dày, gân phụ nổi rõ. Búp đỏ của cây đa là lá kèm sớm rụng bao bọc lấy chồi tận cùng và khi lá nở ra thì rụng xuống. Toàn cây có nhựa mủ chứa chất cao su, trong tế bào lá có chứa tinh thể canxi cacbonat gọi là nang thạch. Cây đa bồ đề còn gọi là cây đề (Ficus religiosa L.) cũng là cây to, rễ phụ từ các cành to mọc đêm xuống dưới đất, có cuống lá mảnh, có lá hình thoi, hơi giống hình tim ở phía gốc, thu hẹp thành như một cái đuôi ở phía ngọn. Thường trồng lấy bóng mát ở đình chùa. Đa nhiều rễ (Ficus macrophylla) có lá to hơn, nhiều rễ, đa tròn lá (Ficus benghalensis) có lá hơi tròn.",
+        "thanh_phan_hoa_hoc": "['những đa phenol dẫn xuất của flavon', 'axit amin', 'tanin', 'muối kali', 'natri', 'nhựa', 'cao su']"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "276"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhiều loài đa được dùng Cây đa búp đỏ (Ficus elastica Roxb) là cây gỗ to, cao, thân nhiều nhánh. Lá hình bầu dục, hơi dài, to dày, gân phụ nổi rõ. Búp đỏ của cây đa là lá kèm sớm rụng bao bọc lấy chồi tận cùng và khi lá nở ra thì rụng xuống. Toàn cây có nhựa mủ chứa chất cao su, trong tế bào lá có chứa tinh thể canxi cacbonat gọi là nang thạch. Cây đa bồ đề còn gọi là cây đề (Ficus religiosa L.) cũng là cây to, rễ phụ từ các cành to mọc đêm xuống dưới đất, có cuống lá mảnh, có lá hình thoi, hơi giống hình tim ở phía gốc, thu hẹp thành như một cái đuôi ở phía ngọn. Thường trồng lấy bóng mát ở đình chùa. Đa nhiều rễ (Ficus macrophylla) có lá to hơn, nhiều rễ, đa tròn lá (Ficus benghalensis) có lá hơi tròn.",
+        "thanh_phan_hoa_hoc": [
+          "những đa phenol dẫn xuất của flavon",
+          "axit amin",
+          "tanin",
+          "muối kali",
+          "natri",
+          "nhựa",
+          "cao su"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DA",
+      "to": "HC_DA_PHENOL_DAN_XUAT_FLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri.",
+        "ghi_chu": "tua rễ đa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri.",
+        "ghi_chu": "tua rễ đa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri.",
+        "ghi_chu": "tua rễ đa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_MUOI_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri.",
+        "ghi_chu": "tua rễ đa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_MUOI_NATRI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tua rễ đa có những đa phenol dẫn xuất của flavon, một ít axit amin một ít tanin và muối kali, natri.",
+        "ghi_chu": "tua rễ đa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_NHUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đa bồ đề có $85\\%$ nhựa $12\\%$ cao su.",
+        "ghi_chu": "đa bồ đề"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "HC_CAO_SU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đa bồ đề có $85\\%$ nhựa $12\\%$ cao su.",
+        "ghi_chu": "đa bồ đề"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_TRUONG_RE_DA",
+      "to": "VT_DA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$100-150g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_TRUONG_RE_DA",
+      "to": "B_XO_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Sắc uống, dùng liền trong vòng $7-10$ ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CO_TRUONG_RE_DA",
+      "to": "CN_CO_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Sắc uống, dùng liền trong vòng $7-10$ ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "B_THAY_VO_KHI_AN_TRAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thay vỏ khi ăn trầu",
+        "ghi_chu": "Vỏ và cành thân cây đa bồ đề. Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_TA_BO_DE",
+      "to": "VT_DA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Lá đa bồ đề tươi",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_TA_BO_DE",
+      "to": "B_DI_NGOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dịch ép lá tươi trộn đường, cách hai giờ uống một thìa cà phê cho tới khi thấy hết nôn, mửa, và đi ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_TA_BO_DE",
+      "to": "B_THO_TA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Dịch ép lá tươi trộn đường, cách hai giờ uống một thìa cà phê cho tới khi thấy hết nôn, mửa, và đi ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "DL_LOI_NIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tua rễ đa tươi 100$\\%$ tiêm tĩnh mạch $2ml/kg$ thể trọng làm tăng tiết niệu $316,66\\%$ so với thỏ chỉ uống nước lã ấm và tiết niệu bình thường hoặc $142\\%$ so với lô thỏ đối chứng tiêm nước muối sinh lý với liều lượng tương đương $2ml/kg$. Uống cũng có tác dụng lợi niệu: $138\\%$.",
+        "cach_dung": "Tiêm tĩnh mạch, Uống",
+        "ghi_chu": "Thí nghiệm trên thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "DL_BAI_TIET_ION",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tua rễ đa tươi có tác dụng làm tăng bài tiết ion kali và ion natri trong nước tiểu.",
+        "ghi_chu": "Thí nghiệm trên thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tua rễ đa tươi có tác dụng làm giảm huyết áp nhẹ và thoáng qua trên mèo, không ảnh hưởng đến huyết áp của chó, thỏ.",
+        "ghi_chu": "Thí nghiệm trên mèo, chó, thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "DL_CO_BOP_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tua rễ đa tươi làm tăng co bóp tim ếch cô lập, với liều cao làm tăng trương lực và co bóp các cơ nhẵn của tử cung và ruột.",
+        "ghi_chu": "Thí nghiệm trên ếch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch tua rễ đa uống ít độc, thỏ uống với liều $30g/kg$, trong 5 ngày liền không có những biến đổi rõ rệt về thể trạng toàn thân. Riêng số bạch cầu hơi tăng.",
+        "ghi_chu": "Thí nghiệm trên thỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T276",
+        "all_sources": [
+          "CT_VT_VN_T276"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 58.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

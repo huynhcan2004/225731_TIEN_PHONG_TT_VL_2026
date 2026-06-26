@@ -1,0 +1,131 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DO_TRONG",
+    "ten_raw": "Đồ trọng",
+    "ten_khoa_hoc": "Eucommia ulmoides Oliv.",
+    "ho_thuc_vat": "Đỗ Trọng Eucommiaceae (Eucommiaceae)",
+    "variants": [
+      "nam đỗ trọng"
+    ],
+    "properties": {
+      "bo_phan_dung": "Vỏ",
+      "thu_hai": "Vào mùa hạ, bóc vỏ ở những cây có đường kính to",
+      "che_bien_tho": "ép cho phẳng, xếp thành đống, chờ 6-7 ngày cho đổ mồ hôi, mặt trong có màu đen nâu bấy giờ mới đem phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T324",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "324"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ],
+        "cong_nang": "bổ can, thận, mạnh gân cốt, an thai",
+        "kieng_ky_dac_biet": ""
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đỗ Trọng là một cây to hay nhỏ, có thể cao tới $10m$, $20m$, luôn luôn xanh tươi. Liên Xô cũ đã biến cây này thành cây nhỏ cao $3$-$3,5m$ để tiện cho việc thu hoạch; lá mọc so le, hình trứng rộng, đầu lá nhọn, gốc lá tròn, mép lá có răng cưa, khi đứt lá làm 2-3 mảnh sẽ thấy những sợi nhựa trắng như tơ giữa các mảnh lá đó liền nhau, phiến lá rộng $3,5$-$6,5cm$, dài $6$-$13cm$. Cuống lá ngắn $1$-$1,5cm$. Hoa đơn tính. Hoa đực, hoa cái khác gốc; không có bao hoa. Quả hình thoi dài $3cm$, rộng $1cm$ dẹt, đầu quả xẻ làm 2 thành hình chữ V.",
+        "thanh_phan_hoa_hoc": [
+          "- Theo J. Parkin (1921) trong đỗ trọng có $5\\%$ độ ẩm; $2,5\\%$ tro; $70\\%$ nhựa và $22,5\\%$ gutta pecka. Tuy nhiên chất gutta pecka này có tính chất đàn hồi kém gutta pecka thật, việc chiết xuất lại khó khăn, hiệu suất thu được chỉ $2\\%$ trong khi chiết xuất ở các cây khác có gutta pecka hiệu suất thu được cao gấp 2-3 lần.",
+          "- Từ sau đại chiến lần thứ 2, Liên Xô cũ trồng rất nhiều ở vùng Capcadơ để lấy chất gutta pecka. Theo sự nghiên cứu của các nhà bác học Liên Xô cũ trong vỏ cây đỗ trọng có $3$-$7\\%$ chất có tính chất của gutta pecka, trong lá có $2\\%$, trong quả $27,34\\%$. Ở nhiệt độ $45$-$70°$, chất gutta pecka của đỗ trọng có tính chất dẻo rất cao, khả năng chịu nước biển và độ cách điện cũng cao do đó dùng làm vật cách điện và để bọc dày điện ngầm dưới biển.",
+          "Ngoài chất như gutta pecka, trong đỗ trọng có chứa chất màu, chất anbumin, chất béo, tinh dầu và muối vô cơ.",
+          "Trong lá có tanin và nhựa. Không có ancaloit.",
+          "Dù sao, hoạt chất cũng chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị hơi cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "HC_GUTTA_PECKA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo J. Parkin (1921) trong đỗ trọng có $5\\%$ độ ẩm; $2,5\\%$ tro; $70\\%$ nhựa và $22,5\\%$ gutta pecka."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    },
+    {
+      "from": "VI_THUOC_DO_TRONG",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có tanin và nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T324"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THI",
+    "ten_raw": "Thị",
+    "ten_khoa_hoc": "Diospyros decandra Lour.; Diospyros mollis Griff.",
+    "ho_thuc_vat": "họ Thị Ebenaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Được trồng ở khắp nơi ở Việt Nam, chủ yếu để lấy quả ăn.",
+      "thu_hai": "Quả hái về vào các tháng 8-9.",
+      "che_bien_tho": "Ngoài ra người ta còn dùng lá tươi hay phơi khô\nlàm thuốc. Không có chế biến gì đặc biệt."
+    },
+    "display_name": "Thị"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T425",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "425"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thị là một cây gỗ, cao tới $5$-$6m$. Lá mọc so le, phiến lá hình trứng thuôn, dài $5$-$8cm$, rộng $2$-$4cm$, dai, cuống dài $6$-$9mm$, có phủ lông. Hoa đa tính, họp thành xim, màu trắng. Đài hợp ở gốc $4$ răng, cả hai mặt đều có lông. Tràng hợp, $4$ rằng, nhị $8$-$14$. Nhụy có $2$ vòi. Quả tròn hơi dẹp, đường kính $3$-$5cm$, có $6$-$8$ ngăn, khi chín màu vàng, mang đài tồn tại. Hạt cứng, dẹt, dài $3cm$, phôi sừng. Mùi thơm hay khó chịu tùy theo người thích hay không thích ( Hình $312$ ). [CT_VT_VN_T427]: khi người ta đốt vỏ quả thị thành than, trộn với than của cuống chiếu (chiếu trải giường nằm) và đinh hương tán nhỏ thổi vào các lỗ rò ở hậu môn.",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Năm $1953$, Nguyễn Bá Tước có nghiên cứu quả maklua hay mạc nưa hay mạc luua (Campuchia), mọc ở Lào, Cămpuchia, Thái Lan, Miến Điện. Nhân dân Cămpuchia dùng hạt tẩy giun."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thịt quả thị: Theo kết quả phân tích của Peirier ($1932$) có $86,20\\%$ nước; $0,16\\%$ chất béo; $0,67\\%$ chất protit; $12\\%$ gluxit; $0,33\\%$ tanin; $0,47\\%$ xenluloza; $0,50\\%$ tro."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    },
+    {
+      "from": "VI_THUOC_THI",
+      "to": "HC_DIOSPYROQUINON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài diospyroquinon ra, còn tanin ($1\\%$ tanin catechic sterol, axit hữu cơ, men (invectin và emunsin không có oxydaza, peroxydaza, không c alcaloit và flavon. Ngoài tác dụng trên giun còn có tác dụng kháng sinh nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T425"
+      }
+    }
+  ]
+}

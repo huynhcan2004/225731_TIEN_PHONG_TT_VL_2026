@@ -1,0 +1,134 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAM_XUAN",
+    "ten_raw": "Tầm xuân",
+    "ten_khoa_hoc": "Rosa laevigata Michx.",
+    "ho_thuc_vat": "Hoa hồng Rosaceae",
+    "variants": [
+      "thích lê tử",
+      "đường quân tử",
+      "Kim anh tử"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả giả hay đế hoa chín phơi hay sấy khô hoặc loại bỏ hết quả thực",
+      "phan_bo": "một số tỉnh miền núi biên giới như Cao Bằng, Lạng Sơn, tại đây một số người trồng làm hàng rào vì cây có nhiều gai. Còn thấy ở Trung Quốc (Quảng Đông, Quảng Tây, Phúc Kiến, Hà Nam, Giang Tô, Triết Giang, Hồ Nam, Hồ Bắc, Tứ Xuyên)."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T909",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "909"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây kim anh là một loại cây mềm, mọc thành bụi, xen lẫn với những cây khác như sim, tre v.v... Cây có thể mọc dài tới $10m$. Thân cây có đường kính tới $2cm$, thân và cành đều có gai mọc cúp xuống phía gốc như cây hoa hồng. Mỗi mẩu thân thường có 1-2 cành vươn ra rất dài, có thể tới 2-3m. Lá có lá kèm và gồm 3 lá chét. Lá chét hình trứng, 2 đầu nhọn, mép có răng cưa, lá chét giữa dài và rộng hơn. Đừng nhầm với cây tầm xuân có số lá chét nhiều hơn (5-7). Hoa màu trắng, đơn độc, mọc ở đầu cành, khi nở có đường kính rộng tới 5-8cm, nhị màu vàng. Đế hoa lớn, hình chén có gai nhỏ, nhọn, cuống hoa dài $1,5-3cm$. Lá đài 5, tràng cũng có 5 cánh, nở vào cuối xuân sang hạ (các tháng 2, 3), quả chín vào các tháng 8, 9, 10. Quả giả (thực ra đó là đế hoa) tươi có màu vàng đỏ bóng, cứng hình cái chén, dài $1,5-2cm$ có cuống dài $2-3cm$, phía trên còn sót lại 3-5 lá đài bao vây nhị và vòi hơi nổi phồng lên ngoài mặt có nhiều gai. Khi khô có màu nâu đỏ sẫm hay nhạt, sau khi chế biến, trên mặt có những vết sẹo của gai đã rụng đi. Trong “quả” có rất nhiều lông và “hạt” (thực ra đây mới là quả) hình thon, dẹt, dài $6-7mm$, màu vàng nâu nhạt có góc rất cứng. Có hạt có cuống, có hạt không có cuống (Hình 675, Hm 22,2).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T910]: Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa.",
+          "Kim anh tử là một nguồn vitamin C, khá lớn, tỉ lệ hơn $1\\%$. Định lương vitamin C trong quả giả kim anh ở Lạng Sơn, chúng tôi thấy $1.360mg$ trong $100g$ (Đỗ Tất Lợi và Nguyễn Xuân Thu, 1957).",
+          "Trong quả (ta gọi nhầm là hạt) có chất glucozit độc, do đó khi dùng ta vẫn phải bỏ hạt đi.",
+          "Năm 1958, hệ dược thuộc Viện y học Bắc Kinh có định lượng thấy trong kim anh có tới $17,12\\%$ saponozit (Theo Trung dược chí Bắc Kinh, 1959)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua, chát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_AXIT_XITRIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cùi quả giả kim anh có axit xitric axit malic, nhiều tanin và titamin C, ngoài ra còn đường glucoza, nhựa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả (ta gọi nhầm là hạt) có chất glucozit độc, do đó khi dùng ta vẫn phải bỏ hạt đi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_XUAN",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược thuộc Viện y học Bắc Kinh có định lượng thấy trong kim anh có tới $17,12\\%$ saponozit (Theo Trung dược chí Bắc Kinh, 1959)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T909"
+      }
+    }
+  ]
+}

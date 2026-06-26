@@ -1,0 +1,120 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAU_DO_NHO",
+    "ten_raw": "Đậu đò nhỏ",
+    "ten_khoa_hoc": "Phaseolus angularis Wight.",
+    "ho_thuc_vat": "Cánh buάm Fabaceae (Papilionaceae).",
+    "variants": [
+      "xích tiểu đậu",
+      "mao sài xích",
+      "mễ xích",
+      "mao sài mễ",
+      "phan xích đậu"
+    ],
+    "properties": {
+      "bo_phan_dung": "Hạt",
+      "thu_hai": "Vào mùa thu khi quả chín người ta hải lấy quả đem về đập lấy hạt.",
+      "che_bien_tho": "Khi dùng phơi hay sấy khô, tán nhỏ.",
+      "phan_bo": "Đậu đỏ chủ yếu mọc ở những vùng miền Bắc Trung Quốc như Hà Bắc, Liêu Ninh, Sơn Đông."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T278",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "278"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là xích tiểu đậu, mao sài xích, mễ xích. Cây loại thảo sống hằng năm, dài $1,5-2m$. Lá kép gồm ba lá chét, lá chét đôi khi lại chia thành ba thùy cắt nông, mặt dưới nhiều lông trắng dài. Mùa hạ ở nách lá mọc hoa màu vàng hình bướm. Quả nhỏ và dài trên mặt có lông, trong chứa hạt nhỏ. Hạt hình bầu dục, hai đầu hơi dẹt, dài $2mm$, đường kính $1,5mm$ vỏ màu đỏ nâu, hay tía nâu trơn bóng nơi rốn ở phía bên hạt màu trắng vàng, hơi lồi lên, bóc vỏ đi thì nhân trong màu vàng lục, chất cứng dòn ( Hình 201 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong đậu đỏ nhỏ có chất protit; chất béo, gluxit, canxi, photpho, sắt, vitamin B và một số chất khác."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo, gluxit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo, gluxit, canxi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo, gluxit, canxi, photpho"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo, gluxit, canxi, photpho, sắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_DO_NHO",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đậu đỏ nhỏ có chất béo, gluxit, canxi, photpho, sắt, vitamin B"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T278"
+      }
+    }
+  ]
+}

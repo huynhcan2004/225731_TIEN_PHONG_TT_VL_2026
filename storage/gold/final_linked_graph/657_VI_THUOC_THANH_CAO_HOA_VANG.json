@@ -1,0 +1,602 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THANH_CAO_HOA_VANG",
+    "ten_raw": "Thanh cao hoa vàng",
+    "ten_khoa_hoc": "$Artemisia annua L.$",
+    "ho_thuc_vat": "$Cúc Asteriaceae (Compositae)$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Ngày dùng từ $6-12g$ dưới dạng thuốc sắc hay thuốc viên.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Thanh cao hoa vàng",
+    "canonical_name": "Vị thuốc Thanh cao hoa vàng"
+  },
+  "nodes": [
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cảm mạo",
+        "aliases": [
+          "camcum",
+          "cam mao",
+          "sổ mũi",
+          "cảm mạo",
+          "somui",
+          "so mui",
+          "cammao",
+          "cảm cúm",
+          "cam cum"
+        ],
+        "search_vector_hint": "Bệnh Cảm mạo thuộc nhóm bệnh, thường liên quan đến hệ hô hấp."
+      }
+    },
+    {
+      "id": "B_COT_TRUNG_LAO_NHIET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cốt蒸勞熱",
+        "aliases": [
+          "cốt蒸勞熱",
+          "cot蒸勞熱"
+        ],
+        "search_vector_hint": "Bệnh Cốt蒸勞熱 thuộc nhóm bệnh, thường liên quan đến chứng cốt trưng."
+      }
+    },
+    {
+      "id": "B_LO_NGUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lở ngứa",
+        "aliases": [
+          "longua",
+          "lở ngứa",
+          "lo ngua"
+        ],
+        "search_vector_hint": "Lở ngứa thuộc nhóm bệnh, thường liên quan đến da liễu và dị ứng."
+      }
+    },
+    {
+      "id": "B_ROI_LOAN_TIEU_HOA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rối loạn tiêu hóa",
+        "aliases": [
+          "an khong tieu",
+          "khó tiêu",
+          "khotieu",
+          "roiloantieuhoa",
+          "roi loan tieu hoa",
+          "rối loạn tiêu hóa",
+          "ankhongtieu",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Rối loạn tiêu hóa thuộc nhóm bệnh tiêu hóa, thường liên quan đến chức năng dạ dày, ruột."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_SOT_CAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt cao",
+        "aliases": [
+          "nhiet do cao",
+          "sotcao",
+          "nhiệt độ cao",
+          "sot tren 39 do",
+          "nhietdocao",
+          "sottren39do",
+          "sốt trên 39 độ",
+          "sốt cao",
+          "sot cao"
+        ],
+        "search_vector_hint": "Bệnh Sốt cao thuộc nhóm bệnh, thường liên quan đến tình trạng tăng thân nhiệt."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "DL_CHUA_SOT_RET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Chữa sốt rét",
+        "aliases": [
+          "chữa sốt rét",
+          "chua sot ret",
+          "chuasotret"
+        ],
+        "search_vector_hint": "Dược lý Chữa sốt rét thuộc nhóm dược lý, thường liên quan đến điều trị sốt rét."
+      }
+    },
+    {
+      "id": "HC_1_8_CINEOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất 1 8 Cineol",
+        "aliases": [
+          "18cineol",
+          "1 8 cineol"
+        ],
+        "search_vector_hint": "Hoạt chất 1 8 Cineol thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_ARTEMISININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Artemisinin",
+        "aliases": [
+          "artemisinin"
+        ],
+        "search_vector_hint": "Hoạt chất Artemisinin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_CAMPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Campho",
+        "aliases": [
+          "campho"
+        ],
+        "search_vector_hint": "Campho thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_DAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dan",
+        "aliases": [
+          "dom",
+          "đởm"
+        ],
+        "search_vector_hint": "Kinh Đởm thuộc nhóm kinh mạch, thường liên quan đến sự vận hành của khí huyết."
+      }
+    },
+    {
+      "id": "S_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi trộm",
+        "aliases": [
+          "domohoibandem",
+          "mo hoi trom",
+          "mồ hôi trộm",
+          "đổ mồ hôi ban đêm",
+          "mohoitrom",
+          "do mo hoi ban dem"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến rối loạn thần kinh thực vật."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_THANH_CAO_HOA_VANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thanh cao hoa vàng",
+        "aliases": [
+          "thanh cao hoa vang",
+          "thanhcaohoavang",
+          "thanh cao hoa vàng"
+        ],
+        "search_vector_hint": "Vị thuốc Thanh cao hoa vàng thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt, giải độc.",
+        "lieu_dung_chung": "Ngày dùng từ $6-12g$ dưới dạng thuốc sắc hay thuốc viên.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Artemisia annua L.$",
+        "ho_thuc_vat": "$Cúc Asteriaceae (Compositae)$",
+        "hinh_thai_chi_tiet": "Cây sống lâu năm. Cao từ $1,5-2m$. Lá xẻ lông chim 2 lần, thành phiến hẹp, phủ lông mềm. Có mùi thơm. Cụm hoa hình cầu hợp thành một chùy kép. Hoa màu vàng nhạt, mỗi cụm hoa gồm 6 hoa: Giữa là hoa lưỡng tính, xung quanh là hoa cái. Quả bế hình trứng, dài $1mm$. Mặt vỏ có tuyến chứa tinh dầu. Phân biệt: cây thanh cao hoa vàng thật thì chỉ về mùa thu lá mới vàng, còn trước đó có màu lục."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "657"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sống lâu năm. Cao từ $1,5-2m$. Lá xẻ lông chim 2 lần, thành phiến hẹp, phủ lông mềm. Có mùi thơm. Cụm hoa hình cầu hợp thành một chùy kép. Hoa màu vàng nhạt, mỗi cụm hoa gồm 6 hoa: Giữa là hoa lưỡng tính, xung quanh là hoa cái. Quả bế hình trứng, dài $1mm$. Mặt vỏ có tuyến chứa tinh dầu. Phân biệt: cây thanh cao hoa vàng thật thì chỉ về mùa thu lá mới vàng, còn trước đó có màu lục."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn (lạnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng (khổ)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào hai kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào hai kinh ... và đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khoảng $0,6\\%$ tinh dầu gồm $campho$ ($23,75\\%$), $1-8 cineol$ ($15,44\\%$)...",
+        "ghi_chu": "Hàm lượng campho là $23,75\\%$ trong $0,6\\%$ tinh dầu của Thanh cao hoa vàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "HC_1_8_CINEOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khoảng $0,6\\%$ tinh dầu gồm $campho$ ($23,75\\%$), $1-8 cineol$ ($15,44\\%$)...",
+        "ghi_chu": "Hàm lượng 1-8 cineol là $15,44\\%$ trong $0,6\\%$ tinh dầu của Thanh cao hoa vàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "HC_ARTEMISININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Đặc biệt chứa hoạt chất $artemisinin$ với tỷ lệ $0,3$ đến $0,5\\%$ có tác dụng chữa sốt rét mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phơi hay sấy khô làm thuốc",
+        "ghi_chu": "Lá, hoa và toàn bộ phận trên mặt đất [Thanh cao hoa vàng]. CT_VT_VN_T658"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phơi hay sấy khô làm thuốc | Dưới dạng thuốc viên.",
+        "ghi_chu": "Lá, hoa và toàn bộ phận trên mặt đất [Thanh cao hoa vàng]. CT_VT_VN_T658 | $Artemisinin$ chiết từ Thanh cao hoa vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phơi hay sấy khô làm thuốc",
+        "ghi_chu": "Lá, hoa và toàn bộ phận trên mặt đất [Thanh cao hoa vàng]. CT_VT_VN_T658"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phơi hay sấy khô làm thuốc",
+        "ghi_chu": "Lá, hoa và toàn bộ phận trên mặt đất [Thanh cao hoa vàng]. CT_VT_VN_T658"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Phơi hay sấy khô làm thuốc",
+        "ghi_chu": "Lá, hoa và toàn bộ phận trên mặt đất [Thanh cao hoa vàng]. CT_VT_VN_T658"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_COT_TRUNG_LAO_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Dùng riêng hay phối hợp vị khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Dùng riêng hay phối hợp vị khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng riêng hay phối hợp vị khác. | Dưới dạng thuốc viên.",
+        "ghi_chu": "$Artemisinin$ chiết từ Thanh cao hoa vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "B_LO_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Dùng riêng hay phối hợp vị khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thư tịch uế, trừ phục nhiệt ở âm phận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO_HOA_VANG",
+      "to": "DL_CHUA_SOT_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng $artemisinin$ chiết từ thanh cao hoa vàng chữa sốt rét cho kết quả tốt đối với cả Plasmodium vivax và P. falciparum, kể cả các chủng kháng thuốc. Liều dùng $300-400mg$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T657",
+        "all_sources": [
+          "CT_VT_VN_T657"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 45.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

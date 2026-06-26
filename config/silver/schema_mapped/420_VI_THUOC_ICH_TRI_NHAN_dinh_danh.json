@@ -1,0 +1,141 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_ICH_TRI_NHAN",
+    "ten_raw": "Ích trí nhân",
+    "ten_khoa_hoc": "Alpinia oxyphylla Miq.",
+    "ho_thuc_vat": "họ Gừng Zingiberaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "phan_bo": "Quảng Đông, đảo Hải Nam",
+      "thu_hai": "tháng 7-8 hái quả về khi màu quả từ xanh chuyển sang hồng",
+      "che_bien_tho": "phơi hay sấy khô. Phơi khô chất lượng tốt hơn. Khi dùng loại bỏ vỏ quả."
+    },
+    "display_name": "Ích trí nhân"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "420"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_THAN",
+          "K_VI"
+        ],
+        "cong_nang": "làm ấm thận, vị, cầm đi ỉa lỏng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ích trí là một loại cỏ sống lâu năm, cao $1,5-2m$, toàn cây có vị cay. Lá hình mác dài $17-33cm$, rộng $3-6cm$. Cụm hoa hình chùm mọc ở đầu cành. Hoa màu trắng có đốm tím. Quả hình cầu, đường kính $1,5cm$, khi chín có màu vàng xanh, hạt nhiều cạnh, màu nâu đen (Hình 308 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong ích trí nhân có chừng $0,7%$ tinh dầu. Thành phần chủ yếu của tinh dầu là tecpen $C₁0H16$' sesquitecpen $CH24$ và sesquitecpenancola.",
+          "Năm 1958, hệ dược thuộc Viện y học Bắc Kinh đã thấy trong ích trí nhân có chừng $1,71%$ chất saponin."
+        ],
+        "ghi_chu_bo_sung": "Hình 308. Ích trí"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ích trí nhân có chừng $0,7%$ tinh dầu."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_TEC_PEN_C10H16",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là tecpen $C₁0H16$' sesquitecpen $CH24$ và sesquitecpenancola."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_SESQUITE_CPEN_CH24",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là tecpen $C₁0H16$' sesquitecpen $CH24$ và sesquitecpenancola."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược thuộc Viện y học Bắc Kinh đã thấy trong ích trí nhân có chừng $1,71%$ chất saponin."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T420"
+      }
+    }
+  ]
+}

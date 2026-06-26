@@ -1,0 +1,174 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAU_PHAC",
+    "ten_raw": "Hậu phác",
+    "ten_khoa_hoc": "Magnolia offcinalis Rehd. et Wils.; Magnolia offcinalis var. biloba Rehd, et Wils.; Magnolia hypoleuca Sieb, et Zucc.",
+    "ho_thuc_vat": "Mộc lan (Magnoliaceae)",
+    "variants": [
+      "Cortex Magnoliae"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T387",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "387"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "chủ trị bệnh đầy bụng, ăn uống không tiêu, đau bụng, nôn mửa, đại tiện bí, táo.",
+        "kieng_ky_dac_biet": "người tỳ vị như nhược, chân nguyên bất túc, phụ nữ có thai không dùng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây hậu phác chính thức (Magnolia offcinalis Rehd. ct Wils.) là một cây to, cao từ $7-15m$, vỏ thân tím nâu. Lá mọc so le, cuống to, mập dài từ $2,4- 4,4cm$, không lông, phiến lá hình trứng thuôn, dài $22-40cm$, rộng từ $10-20cm$, đầu hơi nhọn, phía cuống hẹp lại. Hoa màu trắng, thơm, đường kính có thể tới $12cm$, cuống hoa to thô. Quả kép (gồm nhiều đại rời), hình trứng dài từ $9-12cm$, dường kính từ $5-6,5cm$. Thứ hậu phác Magnolia cfficinalis var. biloba Rehd. et Wils, rất giống loài trên, chỉ khác ở đầu lá hõm xuống chia làm hai thùy",
+        "thanh_phan_hoa_hoc": [
+          "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là $magnolola$ C,H,g 0 độ cháy $103º$, chất tetrahydromagnolola độ chảy $14405$ và chất $isomagnolola$ C, H, O, có độ chảy $1435$. Ngoài ra còn có chừng $1\\%$tinh dầu, thành phần chủ yếu là machilola C,H, 0. Năm 1951 và 1952, Masao và Tomita đã chiết được từ một loại hậu phác Nhật Bản. (Magnolia obovata Thunb.) một chất có tinh thể gọi là magnocurarin C,H,O.1/4H,O, có độ chảy 200."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tỳ, vị và đại trường"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tỳ, vị và đại trường"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tỳ, vị và đại trường"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "HC_MAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là $magnolola$ C,H,g 0 độ cháy $103º$, chất"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "HC_TETRAHYDROMAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là $magnolola$ C,H,g 0 độ cháy $103º$, chất tetrahydromagnolola độ chảy $14405$ và chất"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "HC_ISOMAGNOLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hậu phác của Trung Quốc, người ta lấy ra được chừng $5\\%$ phennol gọi là $magnolola$ C,H,g 0 độ cháy $103º$, chất tetrahydromagnolola độ chảy $14405$ và chất $isomagnolola$ C, H, O, có độ chảy $1435$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "HC_MACHILOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chừng $1\\%$tinh dầu, thành phần chủ yếu là machilola C,H, 0."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAU_PHAC",
+      "to": "HC_MAGNOCURARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1951 và 1952, Masao và Tomita đã chiết được từ một loại hậu phác Nhật Bản. (Magnolia obovata Thunb.) một chất có tinh thể gọi là magnocurarin C,H,O.1/4H,O, có độ chảy 200."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T387"
+      }
+    }
+  ]
+}

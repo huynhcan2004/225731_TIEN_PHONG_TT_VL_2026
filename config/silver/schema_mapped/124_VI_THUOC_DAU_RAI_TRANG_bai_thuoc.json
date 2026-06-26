@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_DAU_RAI_TRANG",
+  "source": {
+    "source_id": "CT_VT_VN_T124",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "124"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LAU_DAU_RAI_TRANG_D",
+      "to": "VI_THUOC_DAU_RAI_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$2-4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu rái trắng là vị thuốc chính.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_LAU_DAU_RAI_TRANG_D",
+      "to": "B_LAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh lậu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_DAU_RAI_TRANG_D",
+      "to": "VI_THUOC_DAU_RAI_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu rái trắng là vị thuốc chính.",
+        "cach_dung": "Đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_DAU_RAI_TRANG_D",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các vết loét",
+        "cach_dung": "Đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_BIENG_AN_DAU_RAI_TRANG_CD",
+      "to": "VI_THUOC_DAU_RAI_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dầu rái trắng kết hợp với gỗ vang giúp kích thích tiêu hóa, tăng cường hấp thu.",
+        "cach_dung": "Ngâm nước tiểu vài ngày rồi cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_BIENG_AN_DAU_RAI_TRANG_CD",
+      "to": "VT_GO_VANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu rái trắng kết hợp với gỗ vang giúp kích thích tiêu hóa, tăng cường hấp thu.",
+        "cach_dung": "Ngâm nước tiểu vài ngày rồi cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    },
+    {
+      "from": "BT_BIENG_AN_DAU_RAI_TRANG_CD",
+      "to": "B_BIENG_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho bò ngựa biếng ăn",
+        "cach_dung": "Ngâm nước tiểu vài ngày rồi cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T124"
+      }
+    }
+  ],
+  "metadata": {}
+}

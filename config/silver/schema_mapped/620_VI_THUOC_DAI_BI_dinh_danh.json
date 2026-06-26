@@ -1,0 +1,61 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI_BI",
+    "ten_raw": "Đại bi",
+    "ten_khoa_hoc": "Blumea balsamifera (L.) DC. (Conyza balsamifera L.); Chrysanthemum sinense Sabine; Chrysanthemum morifolium Ramat; Chrysanthemum indicum Lour. (non L.)",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [
+      "từ bi",
+      "Cây cúc hoa trắng",
+      "Chrysanthemum sinense",
+      "Cây cúc hoa vàng",
+      "Chrysanthemum indicum"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá",
+      "che_bien_tho": "Vò lá ta sẽ thấy mùi thơm dễ chịu của băng phiến.",
+      "phan_bo": "Mọc hoang ở khắp nơi trong nước ta. Còn mọc ở Ấn Độ, Malaixia, Inđônêxia, Philippin."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T620",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "620"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây cúc hoa trắng-Chrysanthemum sinense là một cây sống hai năm hay sống dai, thân mọc thẳng đứng, có thể cao $0,5-1,4m$, toàn thân có lòng trắng mềm. Lá mọc so le, cuống dài $1-2,5cm$, có lông trắng, phiến lá hình trứng hay hơi thuôn hai đầu tù, dài $3,5-5cm$, rộng $3-4cm$, chia thành 3-5 thuỳ mép có răng cưa và lượn sóng, mặt dưới nhiều lông màu trắng mốc. Cụm hoa hình đầu, màu trắng hay hơi tía ở phía ngoài, vàng ở giữa, mọc ở đầu cành hay kẽ lá ( Hình 470). Cây cúc hoa vàng-Chrysanthemum indicum là một cây mọc thẳng đứng cao chừng $90cm$. Phiến lá hình 3 cạnh tròn, thuỳ xẻ sâu. Cụm hoa hình cầu, đường kính nhỏ hơn loài hoa cúc nói trên, thường chỉ độ từ $1-1,5cm$ (loài trên đo được $2,5-5cm$). Hoa trong và ngoài đều màu vàng (Hình 471, Hm 17,4 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_BI",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu có d. $bocneola$ 1. $campho$, $xineola$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T620"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_BI",
+      "to": "HC_XINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu có d. $bocneola$ 1. $campho$, $xineola$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T620"
+      }
+    }
+  ]
+}

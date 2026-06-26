@@ -1,0 +1,41 @@
+{
+  "entity_hub": "VI_THUOC_HOI_NUI",
+  "source": {
+    "source_id": "CT_VT_VN_T338",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "338"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NGO_DOC_HOI_NUI_H",
+      "to": "VI_THUOC_HOI_NUI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồi núi dùng trị ngộ độc do dùng nhầm.",
+        "mo_ta_chi_tiet": "Hồi núi trị ngộ độc do dùng nhầm.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T338"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_HOI_NUI_H",
+      "to": "B_NGO_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngộ độc do dùng nhầm quả hồi núi.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T338"
+      }
+    }
+  ],
+  "metadata": {}
+}

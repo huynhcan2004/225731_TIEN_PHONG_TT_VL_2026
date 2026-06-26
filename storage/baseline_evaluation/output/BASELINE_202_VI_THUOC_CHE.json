@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "id": "VT_CHE",
+    "canonical_name": "Chè",
+    "ten_khoa_hoc": "Camellia sinensis O.Ktze (Thea chinensis Seem.)",
+    "ho_thuc_vat": "Chè (Theaceae)",
+    "properties": {
+      "bo_phan_dung": "búp và lá chè non (Folium Theae)",
+      "thu_hai": "mùa xuân: Hải búp và lá non.",
+      "che_bien_tho": "sao cho khô giống như cách chế chè hương để pha nước uống của nhân dân. Không dùng chè đen hay chè mạn là những loại chè đã cho lên men rồi mới phơi hay sấy khô.",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CHE",
+      "to": "HC_TAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có chứa tới $20%$ $tamin$ là một chất có tác dụng làm săn da, sát khuẩn mạnh."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_CAFEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn $cafein$ với tỷ lệ $1,5-5%$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_VITAMIN_B1",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một số $vitamin B_1$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_VITAMIN_B2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một số $vitamin B_2$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và $C$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_CATECHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Đặc biệt $tanin$ trong chè có tác dụng như một $vitamin P$ vì đây là hỗn hợp của các $catechin$ và dẫn xuất của $catechin$ có cấu trúc hóa học của $vitamin P$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_DAN_XUAT_CATECHIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và dẫn xuất của $catechin$ có cấu trúc hóa học của $vitamin P$."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "HC_VITAMIN_P",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Đặc biệt $tanin$ trong chè có tác dụng như một $vitamin P$ vì đây là hỗn hợp của các $catechin$ và dẫn xuất của $catechin$ có cấu trúc hóa học của $vitamin P$."
+      }
+    },
+    {
+      "from": "BT_LY_CHE_HUONG_CAM_THAO",
+      "to": "VT_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$100g$"
+      }
+    },
+    {
+      "from": "BT_LY_CHE_HUONG_CAM_THAO",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$"
+      }
+    },
+    {
+      "from": "BT_LY_CHE_HUONG_CAM_THAO",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày dùng $4$ lần, mỗi lần $5-10ml$. Mỗi lần điều trị cần $3$ đến $5$ ngày.",
+        "cach_dung": "Lấy chè và cam thảo đỏ nước vào cho ngập. Đun sôi trong nửa giờ, lọc. Bã còn lại thêm nước cho xâm xấp và đun sôi trong nửa giờ nữa. Lọc. Hợp cả hai nước lại. Cô đặc cho đến khi còn đúng $100ml$. Thêm natri benzoat $0,30g$ hoặc cho thêm $0,03g$ nipagin vào để bảo quản. Có thể không cho cam thảo hoặc natri benzoat hay nipagin cũng được, nhưng không ngọt và không để lâu được."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi ngày thụt $1-2$ lần, mỗi lần $100ml$.",
+        "cach_dung": "Sắc trong nửa giờ, rồi lọc."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "DL_LAM_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tamin là một chất có tác dụng làm săn da."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "DL_SAT_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "tamin là một chất có tác dụng sát khuẩn mạnh."
+      }
+    },
+    {
+      "from": "VT_CHE",
+      "to": "DL_HOAT_TINH_VITAMIN_P",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "$tanin$ trong chè có tác dụng như một $vitamin P$."
+      }
+    }
+  ]
+}

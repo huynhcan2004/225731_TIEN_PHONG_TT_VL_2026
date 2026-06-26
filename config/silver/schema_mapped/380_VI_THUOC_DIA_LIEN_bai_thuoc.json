@@ -1,0 +1,133 @@
+{
+  "entity_hub": "VI_THUOC_DIA_LIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T380",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "380"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_RANG_DIA_LIEN_D",
+      "to": "VI_THUOC_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa liền có tác dụng giảm đau, thường được dùng để chữa đau răng.",
+        "cach_dung": "Ngâm rượu dùng xoa bóp",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_DAU_RANG_DIA_LIEN_D",
+      "to": "B_DAU_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau răng",
+        "cach_dung": "Ngâm rượu dùng xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_LIEN_D",
+      "to": "VI_THUOC_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa liền có tính ấm, giúp giảm đau bụng do lạnh.",
+        "cach_dung": "Xông hoặc xoa bóp",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_DIA_LIEN_D",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngực bụng lạnh đau",
+        "cach_dung": "Xông hoặc xoa bóp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN_DQ",
+      "to": "VI_THUOC_DIA_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Địa liền giúp tiêu hóa, quế chi làm ấm bụng, giảm đau.",
+        "cach_dung": "Uống",
+        "ghi_chu": "2g"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN_DQ",
+      "to": "VI_THUOC_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Địa liền giúp tiêu hóa, quế chi làm ấm bụng, giảm đau.",
+        "cach_dung": "Uống",
+        "ghi_chu": "$1g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN_DQ",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "ăn uống không tiêu",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1g$ bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN_DQ",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "đau dạ dày",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1g$ bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DIA_LIEN_DQ",
+      "to": "B_DAU_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "đau thần kinh",
+        "cach_dung": "Hai vị tán nhỏ chia làm 3 lần uống trong một ngày, mỗi lần $0,5$ hay $1g$ bột"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T380"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,130 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAM",
+    "ten_raw": "Cây mắm",
+    "ten_khoa_hoc": "$Avicennia marina Vieth var. alha Bakhuiz; Avicennia marina Vierh var. rumphiana Bakhuiz; Avicennia tomentosa$",
+    "ho_thuc_vat": "$Cỏ roi ngựa Verbenaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ thở",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Cây sống vùng nước mặn hay nước lợ, gặp ở cả hai miền nước ta, thường là cây tiên phong cố định bãi lầy, ưa sáng, chịu mặn giỏi, được trồng hoặc mọc tự nhiên."
+    },
+    "display_name": "Cây mắm",
+    "canonical_name": "Cây mắm"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mam"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "B_HUI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hui"
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Vet Loet"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T574",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "574"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ hay cây gỗ lớn, thường phân cành nhiều ở gốc, cao 5-25m. Những cành non lúc đầu phủ lông tơ trắng hay xám sau đó nhẫn bóng, có nhiều lỗ bì. Rễ thở hình dùi, mọc nổi trên bùn. Lá thuôn hình thuẫn-mũi mác dài 4-12cm, rộng 2-6cm, mặt trên nhẵn bóng, mặt dưới phủ lông, và mờ. Cả hai mặt đều có tuyến muối thừa. Hoa vàng hay vàng cam, mọc thành thùy ở ngọn cành gồm nhiều xim dài 3-15cm. Quả nang hình trứng dài 3-4cm, rộng 1,5-2cm, đỉnh nhọn, màu vàng lục ( Hình 438). Mắm den-Avicennia marina Vierh var-rumphiana Bakhuiz là cây bụi hoặc cây nhỡ, ít khi là cây to. Các cành khúc khuỷu, lá hình trái xoan ngược, tròn đầu, thuôn dần ở gốc, mặt trên nhẵn, hoa đen khi lá rụng, mặt dưới có nhiều lỏng hình đe màu trắng. Hoa giống như hoa loài trên.",
+        "thanh_phan_hoa_hoc": [
+          "Kết quả phân tích mắm Avicennia tomentosa của một tác giả khác cho thấy tro $7,96\\%$ (chủ yếu có natri, kali, sắt, cacbonat), tinh dầu $0,6\\%$, nhựa $2\\%$, $tanin$ $17\\%$, chất đường $11\\%$, không thấy có $ancaloit$, rất ít $glucozit$. Một chất màu đỏ chuyển thành đỏ xim trong môi trường kiềm và vàng rồi kết tủa trong môi trường axit."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAM",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Kết quả phân tích mắm Avicennia tomentosa của một tác giả khác cho thấy tro $7,96\\%$ (chủ yếu có natri, kali, sắt, cacbonat), tinh dầu $0,6\\%$, nhựa $2\\%$, $tanin$ $17\\%$, chất đường $11\\%$, không thấy có $ancaloit$, rất ít $glucozit$.",
+        "ghi_chu": "trong Avicennia tomentosa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T574",
+        "all_sources": [
+          "CT_VT_VN_T574"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAM",
+      "to": "B_HUI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "6 đến 8$g$ dưới dạng thuốc viên",
+        "cach_dung": "Có thể dùng vỏ mắm ngâm rượu uống.",
+        "ghi_chu": "Cao mềm ngày cho uống từ 6 đến 8$g$ dưới dạng thuốc viên, có thể dùng vỏ mắm ngâm rượu uống. | [Nguồn]: CT_VT_VN_T575"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T574",
+        "all_sources": [
+          "CT_VT_VN_T574"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAM",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Cao lỏng mắm 50$\\%$ pha với nước 50$\\%$",
+        "cach_dung": "Đắp lên vết loét",
+        "ghi_chu": "Cao lỏng mắm 50$\\%$ pha với nước 50$\\%$ | Đắp lên vết loét | [Nguồn]: CT_VT_VN_T575"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T574",
+        "all_sources": [
+          "CT_VT_VN_T574"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 21.0,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

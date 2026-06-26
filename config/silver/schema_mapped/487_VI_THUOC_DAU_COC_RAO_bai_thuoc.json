@@ -1,0 +1,341 @@
+{
+  "entity_hub": "VI_THUOC_DAU_COC_RAO",
+  "source": {
+    "source_id": "CT_VT_VN_T487",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "487"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAY_DAU_COC_RAO_D",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-7g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc sử dụng dầu đậu cọc rào để gây tẩy.",
+        "mo_ta_chi_tiet": "Dầu đậu cọc rào (liều thấp) có tác dụng tẩy mạnh.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TAY_DAU_COC_RAO_D",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu đậu cọc rào (liều thấp) có tác dụng tẩy mạnh.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TAY_NHAN_DAU_COC_RAO_N",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Ba nhân",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhân đậu cọc rào có tác dụng tẩy rất mạnh.",
+        "mo_ta_chi_tiet": "Ba nhân đậu cọc rào trộn với sữa gây tẩy rất mạnh.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TAY_NHAN_DAU_COC_RAO_N",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ba nhân đậu cọc rào trộn với sữa gây tẩy rất mạnh.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TAY_HAT_DAU_COC_RAO_H",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt đậu cọc rào rang, tán thành bột ngâm trong rượu có tác dụng tẩy.",
+        "mo_ta_chi_tiet": "Hạt đậu cọc rào rang, tán thành bột ngâm trong rượu có tác dụng tẩy.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TAY_HAT_DAU_COC_RAO_H",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt đậu cọc rào rang, tán thành bột ngâm trong rượu có tác dụng tẩy.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_DAU_COC_RAO_D",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sử dụng dầu đậu cọc rào để làm ra thai.",
+        "mo_ta_chi_tiet": "Dầu đậu cọc rào có thể làm ra thai.",
+        "cach_dung": "Uống hoặc xoa vào bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_LAM_RA_THAI_DAU_COC_RAO_D",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sử dụng dầu đậu cọc rào để làm ra thai.",
+        "mo_ta_chi_tiet": "Dầu đậu cọc rào có thể làm ra thai.",
+        "cach_dung": "Uống hoặc xoa vào bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_DAU_COC_RAO_N",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhựa mủ đậu cọc rào được dùng để bôi lên vết thương.",
+        "mo_ta_chi_tiet": "Nhựa mủ đậu cọc rào bôi lên vết thương hay vết loét, khi khô sẽ thành một màng che như kiểu màng collodion.",
+        "cach_dung": "Bôi lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_DAU_COC_RAO_N",
+      "to": "S_VET_THUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đậu cọc rào bôi lên vết thương hay vết loét, khi khô sẽ thành một màng che như kiểu màng collodion.",
+        "cach_dung": "Bôi lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_DAU_COC_RAO_N",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhựa mủ đậu cọc rào được dùng để bôi lên vết loét.",
+        "mo_ta_chi_tiet": "Nhựa mủ đậu cọc rào bôi lên vết thương hay vết loét, khi khô sẽ thành một màng che như kiểu màng collodion.",
+        "cach_dung": "Bôi lên vết loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_DAU_COC_RAO_N",
+      "to": "S_VET_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa mủ đậu cọc rào bôi lên vết thương hay vết loét, khi khô sẽ thành một màng che như kiểu màng collodion.",
+        "cach_dung": "Bôi lên vết loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_DANH_LUOI_DAU_COC_RAO_N",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhựa mủ đậu cọc rào được dùng để đánh lưỡi cho người ốm.",
+        "mo_ta_chi_tiet": "Nhựa mủ đậu cọc rào chấm vào miếng gạc, rồi dùng gạc này để đánh lưỡi.",
+        "cach_dung": "Đánh lưỡi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_GAY_TAY_TRE_EM_DAU_COC_RAO_L",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá đậu cọc rào giã nát có tác dụng gây tẩy cho trẻ em.",
+        "mo_ta_chi_tiet": "Lá đậu cọc rào giã nát có tác dụng gây tẩy cho trẻ em.",
+        "cach_dung": "Đắp lên bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_GAY_TAY_TRE_EM_DAU_COC_RAO_L",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá đậu cọc rào giã nát có tác dụng gây tẩy cho trẻ em.",
+        "cach_dung": "Đắp lên bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_DAU_COC_RAO_L",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá đậu cọc rào được dùng để chữa thấp khớp.",
+        "mo_ta_chi_tiet": "Lá đậu cọc rào có tác dụng chữa thấp khớp.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_THAP_KHOP_DAU_COC_RAO_L",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá đậu cọc rào có tác dụng chữa thấp khớp.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_GHE_DAU_COC_RAO_L",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Lá đậu cọc rào được dùng để chữa ghẻ.",
+        "mo_ta_chi_tiet": "Lá đậu cọc rào có tác dụng chữa ghẻ.",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_GHE_DAU_COC_RAO_L",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá đậu cọc rào có tác dụng chữa ghẻ.",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_DAU_COC_RAO_R",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ đậu cọc rào được dùng để chữa tê liệt, bại liệt.",
+        "mo_ta_chi_tiet": "Rễ đậu cọc rào có tác dụng chữa tê liệt, bại liệt.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_TE_LIET_DAU_COC_RAO_R",
+      "to": "B_TE_LIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ đậu cọc rào có tác dụng chữa tê liệt, bại liệt.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_BAI_LIET_DAU_COC_RAO_R",
+      "to": "VI_THUOC_DAU_COC_RAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ đậu cọc rào được dùng để chữa tê liệt, bại liệt.",
+        "mo_ta_chi_tiet": "Rễ đậu cọc rào có tác dụng chữa tê liệt, bại liệt.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    },
+    {
+      "from": "BT_BAI_LIET_DAU_COC_RAO_R",
+      "to": "B_BAI_LIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ đậu cọc rào có tác dụng chữa tê liệt, bại liệt.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T487"
+      }
+    }
+  ],
+  "metadata": {}
+}

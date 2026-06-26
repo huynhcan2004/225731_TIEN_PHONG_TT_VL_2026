@@ -1,0 +1,261 @@
+{
+  "entity_hub": "VI_THUOC_DOI_MOI",
+  "source": {
+    "source_id": "CT_VT_VN_T1036",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1036"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "VI_THUOC_DOI_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc để điều trị sốt rét dai dẳng.",
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "VT_SUNG_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt rét.",
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt rét.",
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt rét.",
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Điều hòa các vị thuốc.",
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "VI_THUOC_DOI_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc kết hợp các vị thuốc để điều trị kinh giản, sốt cao, co giật ở trẻ con.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "VT_SUNG_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt cao, co giật.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "VT_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt cao, co giật.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "VT_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hỗ trợ điều trị sốt cao, co giật.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Dẫn thuốc, tăng tác dụng.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_DOI_MOI_D",
+      "to": "VI_THUOC_DOI_MOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị mắt có màng, mắt mờ.",
+        "mo_ta_chi_tiet": "Chữa mắt có màng, mắt mờ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_DAI_DANG_DOI_MOI_MSTC",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt rét dai dẳng",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "B_KINH_GIAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "S_SOT_CAO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_DOI_MOI_STXCT",
+      "to": "S_CO_GIAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, co giật",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 3 lần, mỗi lần $2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_DOI_MOI_D",
+      "to": "B_BENH_VE_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt có màng, mắt mờ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_DOI_MOI_D",
+      "to": "S_MAT_MO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt có màng, mắt mờ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    }
+  ],
+  "metadata": {}
+}

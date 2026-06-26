@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_CAO_BAN",
+  "source": {
+    "source_id": "CT_VT_VN_T110",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "110"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực tán phong, hàn, thấp tà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Táo thấp, chữa ung nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TRI_DAU_NHUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng nhức óc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TRI_NHUC_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chứng âm hộ lạnh, sưng đau nhức, nhức đầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CN_TRI_GAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng gội đầu cho sạch gầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CO_VI_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAO_BAN",
+      "to": "CO_TINH_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T110"
+      }
+    }
+  ],
+  "metadata": {}
+}

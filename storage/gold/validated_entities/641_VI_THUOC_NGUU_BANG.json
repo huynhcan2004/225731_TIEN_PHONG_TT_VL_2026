@@ -1,0 +1,936 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGUU_BANG",
+    "ten_raw": "Ngưu bàng",
+    "ten_khoa_hoc": "$Arctium lappa L.$",
+    "ho_thuc_vat": "$họ Cúc Asteraceae (Compositae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Ngày dùng $6$-$10g$ dưới dạng thuốc sắc, dùng riêng hay phối hợp với các vị khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây ngưu bàng mới di thực từ Trung Quốc sang ta từ năm 1959. Ngay tại Trung Quốc, nguồn cung cấp chủ yếu cũng do trồng mà có chứ rất ít thu thập ở những cây mọc hoang. Trong đợt điều tra dược liệu Lào Cai tháng 7-1967, đoàn điều tra đã thấy ở vùng cao huyện Bát Xát có cây ngưu bàng mọc hoang."
+    },
+    "display_name": "Ngưu bàng",
+    "canonical_name": "Ngưu bàng"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NGUU_BANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Nguu Bang"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "HC_ACTIIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Actiin"
+      }
+    },
+    {
+      "id": "HC_LAPPIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Lappin"
+      }
+    },
+    {
+      "id": "HC_ACTIGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Actigenin"
+      }
+    },
+    {
+      "id": "HC_INULIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Inulin"
+      }
+    },
+    {
+      "id": "HC_GLUCOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Glucoza"
+      }
+    },
+    {
+      "id": "B_DUONG_TIEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Duong Tien"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_SUNG_VU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sung Vu"
+      }
+    },
+    {
+      "id": "B_VIEM_PHOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Phoi"
+      }
+    },
+    {
+      "id": "B_VIEM_TAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Tai"
+      }
+    },
+    {
+      "id": "B_TRANG_NHAC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Trang Nhac"
+      }
+    },
+    {
+      "id": "B_SOI_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi Dau"
+      }
+    },
+    {
+      "id": "BT_DAU_CHAN_NGUU_BANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Chan Nguu Bang"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAT_CANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cat Canh"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Cam Thao"
+      }
+    },
+    {
+      "id": "B_DAU_CHAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Chan"
+      }
+    },
+    {
+      "id": "BT_BOT_NGUU_BANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bot Nguu Bang"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "B_THUY_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thuy Thung"
+      }
+    },
+    {
+      "id": "S_CHAN_TAY_PHU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chan Tay Phu"
+      }
+    },
+    {
+      "id": "VI_THUOC_KINH_GIOI_TUE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Kinh Gioi Tue"
+      }
+    },
+    {
+      "id": "B_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau"
+      }
+    },
+    {
+      "id": "S_NONG_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nong Sot"
+      }
+    },
+    {
+      "id": "BT_PHU_THAN_NGUU_BANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Phu Than Nguu Bang"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHU_BINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Phu Binh"
+      }
+    },
+    {
+      "id": "B_PHU_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Phu Than"
+      }
+    },
+    {
+      "id": "CN_TAN_PHONG_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tan Phong Nhiet"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet Giai Doc"
+      }
+    },
+    {
+      "id": "CN_TUYEN_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tuyen Phe"
+      }
+    },
+    {
+      "id": "CN_THAU_CHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thau Chan"
+      }
+    },
+    {
+      "id": "CN_CO_HONG_TAC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Hong Tac"
+      }
+    },
+    {
+      "id": "CN_CO_HONG_SUNG_DAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Hong Sung Dau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "641"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI"
+        ],
+        "cong_nang": "tán phong nhiệt, thanh nhiệt giải độc; tuyên phế, thấu chẩn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngưu bàng là một cây sống hằng năm hay hai năm, cao chừng $1m$ đến $1,5m$. Phía trên phân nhiều cành. Lá mọc thành hoa thị ở gốc và mọc so le ở trên thân. Lá to rộng, hình tim, đường kính tới $40-50cm$, cuống lá dài, mặt dưới lá mang nhiều lông trắng. Cụm hoa hình đầu, mọc ở đầu cành, đường kính $2-4cm$. Cánh hoa màu hơi tím. Quả bể, màu xám nâu, hơi cong. Mùa hoa tháng 6-7, mùa quả tháng 7-8 ( Hình 488, Hm 55,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả ngưu bàng (gọi nhầm là hạt) người ta đã chiết xuất được $25-30\\%$ chất béo và một chất glucozit gọi là $actiin$ . Ngoài ra còn chất $lappin$ (ancaloit).",
+          "Khi thuỷ phân chất $actiin$ (arctiin) bằng axit nhẹ, ta sẽ được chất $actigenin$ và glucoza.",
+          "Trong chất béo thành phần chủ yếu gồm các glyxerit của các axit panmitic, stearic và oleic.",
+          "Trong rễ ngưu bàng có tới $57\\%$ inulin (có khi tới $70\\%$), $5-6\\%$ glucoza, một ít chất béo ($0,40\\%$), chất nhầy, chất đắng, nhựa và muối kaki (nitrat và cacbonat).",
+          "Trong lá có men oxydaza rất mạnh."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "ngưu bàng có vị cay, đắng, tính hành"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "ngưu bàng có vị cay, đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "ngưu bàng có vị cay, đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh phế và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "HC_ACTIIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả ngưu bàng (gọi nhầm là hạt) người ta đã chiết xuất được $25-30\\%$ chất béo và một chất glucozit gọi là $actiin$ ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "HC_LAPPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chất $lappin$ (ancaloit)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "HC_ACTIGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi thuỷ phân chất $actiin$ (arctiin) bằng axit nhẹ, ta sẽ được chất $actigenin$ và glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ ngưu bàng có tới $57\\%$ inulin (có khi tới $70\\%$), $5-6\\%$ glucoza, một ít chất béo ($0,40\\%$), chất nhầy, chất đắng, nhựa và muối kaki (nitrat và cacbonat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ ngưu bàng có tới $57\\%$ inulin (có khi tới $70\\%$), $5-6\\%$ glucoza, một ít chất béo ($0,40\\%$), chất nhầy, chất đắng, nhựa và muối kaki (nitrat và cacbonat)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_DUONG_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cao rễ ngưu bàng có tác dụng hạ glucoza trong máu",
+        "ghi_chu": "Đái ra đường (Đường tiện). CT_VT_VN_T642"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm | Có tác dụng chóng vỡ và khỏi",
+        "ghi_chu": "Cuống và thân cây ngưu bàng | Quả ngưu bàng. Mụn nhọt đang nung mủ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_SUNG_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "CN_CO_HONG_SUNG_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_VIEM_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_VIEM_TAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Có tác dụng chóng vỡ và khỏi",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "B_SOI_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Có tác dụng làm cho chóng khỏi",
+        "ghi_chu": "Quả ngưu bàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_CHAN_NGUU_BANG",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Ngưu bàng tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_CHAN_NGUU_BANG",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_CHAN_NGUU_BANG",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_CHAN_NGUU_BANG",
+      "to": "B_DAU_CHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc uống trong ngày",
+        "ghi_chu": "Đậu chẩn mọc trong cổ họng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Ngày uống $8g$ bột này, chia làm 3 lần uống; dùng nước nóng chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Ngày uống $8g$ bột này, chia làm 3 lần uống; dùng nước nóng chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "S_CHAN_TAY_PHU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Ngày uống $8g$ bột này, chia làm 3 lần uống; dùng nước nóng chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Ngưu bàng (sao)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "VI_THUOC_KINH_GIOI_TUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "B_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc với nước $200ml$ còn $50ml$ cho uống. Nếu đậu mọc rồi vẫn uống được. Nếu đại tiện lợi chớ dùng",
+        "ghi_chu": "Trẻ con lên đậu mọc không thuận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "S_NONG_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Sắc với nước $200ml$ còn $50ml$ cho uống. Nếu đậu mọc rồi vẫn uống được. Nếu đại tiện lợi chớ dùng",
+        "ghi_chu": "Trẻ con lên đậu mọc không thuận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BOT_NGUU_BANG",
+      "to": "CN_CO_HONG_TAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Sắc với nước $200ml$ còn $50ml$ cho uống. Nếu đậu mọc rồi vẫn uống được. Nếu đại tiện lợi chớ dùng",
+        "ghi_chu": "Trẻ con lên đậu mọc không thuận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THAN_NGUU_BANG",
+      "to": "VI_THUOC_NGUU_BANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Ngưu bàng tử (nửa sao, nửa sống)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THAN_NGUU_BANG",
+      "to": "VI_THUOC_PHU_BINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Phù bình (sao khô)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHU_THAN_NGUU_BANG",
+      "to": "B_PHU_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tất cả tán nhỏ. Ngày uống 3 lần, mỗi lần uống $5g$, dùng nước nóng chiêu thuốc (kinh nghiệm của Diệp Quyết Tuyền)",
+        "ghi_chu": "Phù thận cấp tính"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "CN_TAN_PHONG_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc ngưu bàng có công năng tán phong nhiệt theo y học cổ truyền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc ngưu bàng có công năng thanh nhiệt giải độc theo y học cổ truyền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "CN_TUYEN_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc ngưu bàng có công năng tuyên phế theo y học cổ truyền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGUU_BANG",
+      "to": "CN_THAU_CHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc ngưu bàng có công năng thấu chẩn theo y học cổ truyền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T641",
+        "all_sources": [
+          "CT_VT_VN_T641"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 70.0,
+      "reliability_c_score": 0.7551,
+      "total_confidence_sum": 29.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

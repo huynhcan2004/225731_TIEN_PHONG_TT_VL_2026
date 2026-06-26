@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_DIEU_NHUOM",
+  "source": {
+    "source_id": "CT_VT_VN_T218",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "218"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_DIEU_NHUOM_D",
+      "to": "VI_THUOC_DIEU_NHUOM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20-30g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Điều nhuộm là vị thuốc chính trong bài thuốc chữa lỵ.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T218"
+      }
+    },
+    {
+      "from": "BT_LY_DIEU_NHUOM_D",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T218"
+      }
+    },
+    {
+      "from": "BT_SOT_DIEU_NHUOM_D",
+      "to": "VI_THUOC_DIEU_NHUOM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Tùy ý",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Điều nhuộm là vị thuốc chính trong bài thuốc chữa sốt.",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T218"
+      }
+    },
+    {
+      "from": "BT_SOT_DIEU_NHUOM_D",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Nấu nước tắm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T218"
+      }
+    }
+  ],
+  "metadata": {}
+}

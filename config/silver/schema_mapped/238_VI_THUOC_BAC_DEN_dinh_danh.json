@@ -1,0 +1,107 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAC_DEN",
+    "ten_raw": "Bắc đèn",
+    "ten_khoa_hoc": "Juncus effusus L. var. decipiens Buch.; Juncus effusus",
+    "ho_thuc_vat": "họ Bấc Juncaceae",
+    "variants": [
+      "đăng tâm thảo",
+      "đăng tâm",
+      "bấc đến"
+    ],
+    "properties": {
+      "bo_phan_dung": "ruột phơi khô của thân cây bắc đèn (Đăng tâm thảo Medulla Junci caulis)",
+      "phan_bo": "Mọc hoang và được trồng ở những nơi ẩm ướt ở nước ta (Nam Định, Hà Nam...).",
+      "thu_hai": "Mùa thu cắt toàn cây về",
+      "che_bien_tho": "rạch dọc để lấy lõi riêng ra, bó thành từng bó, phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "238"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_PHE",
+          "K_TIEU_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bấc là một loại cỏ sống lâu năm, thân tròn cứng, mọc thành cụm dày cao độ $35$-$100cm$, đường kính của thân chừng $1$-$2mm$, mặt ngoài thân có màu xanh nhạt, có vạch dọc. Ruột (lõi) cây bấc cấu tạo bởi những tế bào hình ngôi sao để hở ra nhiều lỗ khuyết lớn. Lá bị giảm rất nhiều, chỉ còn lại bẹ ở gốc thân. Hoa đều, lưỡng tính, mọc thành vòng. Bao hoa khô xác (Hình 165).",
+        "thanh_phan_hoa_hoc": [
+          "Hoạt chất chưa rõ."
+        ],
+        "cach_dung_bao_che": "Mùa thu cắt toàn cây về, rạch dọc để lấy lõi riêng ra, bó thành từng bó, phơi khô mà dùng, còn gọi là đăng tâm thảo hay đăng tâm hoặc bấc đến để làm bấc đèn dầu ta hay để làm thuốc."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAC_DEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_DEN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_DEN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_DEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAC_DEN",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tiểu trường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238"
+      }
+    }
+  ]
+}

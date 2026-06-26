@@ -1,0 +1,745 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_GAI",
+    "ten_raw": "Cây gai",
+    "ten_khoa_hoc": "$Boehmeria nivea (L) Gaud. ; Urtica nivea L.$",
+    "ho_thuc_vat": "$Họ Gai (Urticaceae)$",
+    "variants": [
+      "cây mà lá ta vẫn dùng làm bánh gai ăn và sợi để dệt làm lưới đánh cá"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Cây gai",
+    "canonical_name": "Vị thuốc Cây gai"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_BUNG_CAY_GAI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau bụng Cây gai",
+        "aliases": [
+          "daubungcaygai",
+          "dau bung cay gai",
+          "đau bụng cây gai"
+        ],
+        "search_vector_hint": "Bài thuốc Đau bụng Cây gai thuộc nhóm Bài thuốc, thường liên quan đến điều trị đau bụng."
+      }
+    },
+    {
+      "id": "BT_SA_DA_CON_CAY_GAI",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Sa dạ con Cây gai",
+        "aliases": [
+          "sa dạ con cây gai",
+          "sadaconcaygai",
+          "sa da con cay gai"
+        ],
+        "search_vector_hint": "Bài thuốc Sa dạ con Cây gai thuộc nhóm Bài thuốc, thường liên quan đến điều trị sa dạ con."
+      }
+    },
+    {
+      "id": "B_RA_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ra huyết",
+        "aliases": [
+          "rahuyet",
+          "ra huyết",
+          "ra huyet"
+        ],
+        "search_vector_hint": "Bệnh Ra huyết thuộc nhóm Bệnh, thường liên quan đến xuất huyết."
+      }
+    },
+    {
+      "id": "B_SA_DA_CON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sa dạ con",
+        "aliases": [
+          "sa da con",
+          "sadacon",
+          "sa dạ con"
+        ],
+        "search_vector_hint": "Bệnh Sa dạ con thuộc nhóm Bệnh, thường liên quan đến sản phụ khoa."
+      }
+    },
+    {
+      "id": "B_VIEM_TU_CUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm tử cung",
+        "aliases": [
+          "viemtucung",
+          "viêm tử cung",
+          "viem tu cung"
+        ],
+        "search_vector_hint": "Bệnh Viêm tử cung thuộc nhóm Bệnh, thường liên quan đến phụ khoa."
+      }
+    },
+    {
+      "id": "CN_LOI_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi đờm",
+        "aliases": [
+          "tiêu đờm",
+          "tieu dom",
+          "tieudom",
+          "khu dom",
+          "khử đờm",
+          "lợi đờm",
+          "khudom",
+          "loidom",
+          "loi dom"
+        ],
+        "search_vector_hint": "Lợi đờm thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "CN_TAN_U",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tan ứ",
+        "aliases": [
+          "pha u",
+          "tan u",
+          "phau",
+          "tan ứ",
+          "tanu",
+          "phá ứ"
+        ],
+        "search_vector_hint": "Tan ứ thuộc nhóm Công năng, thường liên quan đến khả năng làm tan các khối tụ máu."
+      }
+    },
+    {
+      "id": "CN_TA_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả nhiệt",
+        "aliases": [
+          "thanh nhiệt",
+          "tanhiet",
+          "tả nhiệt",
+          "thanhnhiet",
+          "thanh nhiet",
+          "ta nhiet"
+        ],
+        "search_vector_hint": "Công năng Tả nhiệt thuộc nhóm Công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông tiện",
+        "aliases": [
+          "nhuan trang",
+          "thông tiện",
+          "nhuận tràng",
+          "nhuantrang",
+          "thongtien",
+          "thong tien"
+        ],
+        "search_vector_hint": "Công năng Thông tiện thuộc nhóm công năng, thường liên quan đến điều hòa tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TIEU_RA_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu ra máu",
+        "aliases": [
+          "tieuramau",
+          "dai ra mau",
+          "tieu ra mau",
+          "tieu huyet",
+          "tiểu ra máu",
+          "đái ra máu",
+          "tiểu huyết",
+          "dairamau",
+          "tieuhuyet"
+        ],
+        "search_vector_hint": "Tiểu ra máu thuộc nhóm triệu chứng, thường liên quan đến bệnh thận, tiết niệu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_DUC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiểu tiện đục",
+        "aliases": [
+          "tieutienduc",
+          "tieu tien duc",
+          "tiểu tiện đục"
+        ],
+        "search_vector_hint": "Tiểu tiện đục thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "DL_CHONG_VI_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Chống vi trùng",
+        "aliases": [
+          "chong vi trung",
+          "chongvitrung",
+          "chống vi trùng"
+        ],
+        "search_vector_hint": "Chống vi trùng thuộc nhóm Dược lý, thường liên quan đến khả năng ức chế vi sinh vật."
+      }
+    },
+    {
+      "id": "DL_DIET_NAM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Diệt nấm",
+        "aliases": [
+          "dietnam",
+          "diệt nấm",
+          "diet nam"
+        ],
+        "search_vector_hint": "Diệt nấm thuộc nhóm Dược lý, thường liên quan đến tác dụng của thuốc."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_BAI_TIET_MAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích bài tiết mật",
+        "aliases": [
+          "kích thích bài tiết mật",
+          "kich thich bai tiet mat",
+          "kichthichbaitietmat"
+        ],
+        "search_vector_hint": "Kích thích bài tiết mật thuộc nhóm Dược lý, thường liên quan đến tác dụng của thuốc."
+      }
+    },
+    {
+      "id": "DL_UC_CHE_PEPSIN_TRYPSIN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Ức chế Pepsin Trypsin",
+        "aliases": [
+          "uc che pepsin trypsin",
+          "ức chế pepsin trypsin",
+          "ucchepepsintrypsin"
+        ],
+        "search_vector_hint": "Ức chế Pepsin Trypsin thuộc nhóm Dược lý, thường liên quan đến tác dụng sinh hóa của vị thuốc."
+      }
+    },
+    {
+      "id": "HC_AXIT_CAFEITANIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Cafeitanic",
+        "aliases": [
+          "axit cafeitanic",
+          "axitcafeitanic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Cafeitanic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_AXIT_CLOROGENIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Clorogenic",
+        "aliases": [
+          "axit clorogenic",
+          "axitclorogenic"
+        ],
+        "search_vector_hint": "Axit Clorogenic thuộc nhóm Hoạt chất, thường liên quan đến tính chống oxy hóa."
+      }
+    },
+    {
+      "id": "HC_AXIT_QUINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Quinic",
+        "aliases": [
+          "axit quinic",
+          "axitquinic"
+        ],
+        "search_vector_hint": "Axit Quinic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NUOC_VANG_DO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nước vàng đỏ",
+        "aliases": [
+          "nuocvangdo",
+          "nuoc vang do",
+          "nước vàng đỏ"
+        ],
+        "search_vector_hint": "Triệu chứng Nước vàng đỏ thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_GAI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cây gai",
+        "aliases": [
+          "caygai",
+          "cay gai",
+          "cây gai"
+        ],
+        "search_vector_hint": "Vị thuốc Cây gai thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền.",
+        "bo_phan_dung": "lá",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Boehmeria nivea (L) Gaud. ; Urtica nivea L.$",
+        "ho_thuc_vat": "$Họ Gai (Urticaceae)$",
+        "hinh_thai_chi_tiet": "Cây gai nói đây là cây mà lá ta vẫn dùng làm bánh gai ăn và sợi để dệt làm lưới đánh cá. Cây sống lâu năm, có thể cao tới 1,5-2m. Lá lớn, mọc so le, hình tim, dài 7-15cm, rộng 4-8cm mép có răng cưa, đáy lá hình tim hay hơi tròn, mặt dưới trắng vì có nhiều lòng trắng, mặt trên có màu lục sẫm, đáp, có 3 gần từ cuống phát ra. Hoa đơn tính cùng gốc. Hoa đực có 4 lá đài và 4 nhị. Hoa cái có đài hợp chia làm 3 răng. Quả bế mang đài tồn tại (Hình 13, Hm 5,3).",
+        "lieu_dung_tong_quat": "Người ta dùng củ gai (Radix Boehmeriae) là rễ phơi hay sấy khô của cây gai."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "57"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HAN"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây gai nói đây là cây mà lá ta vẫn dùng làm bánh gai ăn và sợi để dệt làm lưới đánh cá. Cây sống lâu năm, có thể cao tới 1,5-2m. Lá lớn, mọc so le, hình tim, dài 7-15cm, rộng 4-8cm mép có răng cưa, đáy lá hình tim hay hơi tròn, mặt dưới trắng vì có nhiều lòng trắng, mặt trên có màu lục sẫm, đáp, có 3 gần từ cuống phát ra. Hoa đơn tính cùng gốc. Hoa đực có 4 lá đài và 4 nhị. Hoa cái có đài hợp chia làm 3 răng. Quả bế mang đài tồn tại (Hình 13, Hm 5,3).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Người ta dùng củ gai (Radix Boehmeriae) là rễ phơi hay sấy khô của cây gai."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_GAI",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      }
+    },
+    {
+      "from": "VT_GAI",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      }
+    },
+    {
+      "from": "VT_GAI",
+      "to": "HC_AXIT_CLOROGENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới thấy có `$axit clorogenic$` là một loại tanin, do sự kết hợp của `$axit cafeitanic$` và `$axit quinic$`.",
+        "ghi_chu": "là một loại tanin, do sự kết hợp của `$axit cafeitanic$` và `$axit quinic$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "HC_AXIT_CAFEITANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới thấy có `$axit clorogenic$` là một loại tanin, do sự kết hợp của `$axit cafeitanic$` và `$axit quinic$`.",
+        "ghi_chu": "là thành phần của `$axit clorogenic$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "HC_AXIT_QUINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới thấy có `$axit clorogenic$` là một loại tanin, do sự kết hợp của `$axit cafeitanic$` và `$axit quinic$`.",
+        "ghi_chu": "là thành phần của `$axit clorogenic$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_CAY_GAI",
+      "to": "VT_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$30g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_CAY_GAI",
+      "to": "B_RA_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với $600ml$ nước, cô làm $200ml$ chia làm 3 lần uống trong ngày. Chỉ 1-2 ngày là có kết quả, không nên kéo dài",
+        "ghi_chu": "đang có thai ra huyết và đau bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_CAY_GAI",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với $600ml$ nước, cô làm $200ml$ chia làm 3 lần uống trong ngày. Chỉ 1-2 ngày là có kết quả, không nên kéo dài",
+        "ghi_chu": "đang có thai ra huyết và đau bụng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SA_DA_CON_CAY_GAI",
+      "to": "VT_GAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SA_DA_CON_CAY_GAI",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống 3-4 ngày, chú ý theo dõi",
+        "ghi_chu": "Bệnh phụ nữ có thai đau bụng, nước vàng đỏ vẫn chảy rỉ, sa dạ con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SA_DA_CON_CAY_GAI",
+      "to": "B_SA_DA_CON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống 3-4 ngày, chú ý theo dõi",
+        "ghi_chu": "Bệnh phụ nữ có thai đau bụng, nước vàng đỏ vẫn chảy rỉ, sa dạ con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SA_DA_CON_CAY_GAI",
+      "to": "S_NUOC_VANG_DO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống 3-4 ngày, chú ý theo dõi",
+        "ghi_chu": "Bệnh phụ nữ có thai đau bụng, nước vàng đỏ vẫn chảy rỉ, sa dạ con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "B_VIEM_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-30g$",
+        "cach_dung": "sắc với nước uống",
+        "ghi_chu": "Lợi tiểu, tiểu tiện đục, đi tiểu ra máu, viêm tử cung, lòi dom không co lên được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_LOI_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$10-30g$",
+        "cach_dung": "sắc với nước uống",
+        "ghi_chu": "Lợi tiểu, tiểu tiện đục, đi tiểu ra máu, viêm tử cung, lòi dom không co lên được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_TIEU_RA_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$10-30g$",
+        "cach_dung": "sắc với nước uống",
+        "ghi_chu": "Lợi tiểu, tiểu tiện đục, đi tiểu ra máu, viêm tử cung, lòi dom không co lên được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_TIEU_TIEN_DUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$10-30g$",
+        "cach_dung": "sắc với nước uống",
+        "ghi_chu": "Lợi tiểu, tiểu tiện đục, đi tiểu ra máu, viêm tử cung, lòi dom không co lên được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_TA_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_TAN_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "CN_THONG_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "DL_KICH_THICH_BAI_TIET_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng kích thích sự bài tiết mật trong tổ chức gan (choleretique)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "DL_UC_CHE_PEPSIN_TRYPSIN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có khả năng ức chế tác dụng của pepsin và trypsin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "DL_DIET_NAM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng diệt nấm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_GAI",
+      "to": "DL_CHONG_VI_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng chống vi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T57",
+        "all_sources": [
+          "CT_VT_VN_T57"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 73.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

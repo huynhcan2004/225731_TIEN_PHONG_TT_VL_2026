@@ -1,0 +1,158 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_COI_XAY",
+    "ten_raw": "Cây cối xay",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T616",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "616"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_VI",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "phát biểu khử phong, thẩm thấp, hoạt huyết bài nùng sinh cơ, giảm đau"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "được chừng $0,43$% một chất gọi là angelicotoxin, một chất nhựa màu vàng, vị đắng có tính chất kích thích; ngoài ra còn có $0,2$% chất $byakangelixin$ C₁₇H₁₆O₅, $0,2$% chất $byakangelicola$ C₁₆H₁₈O₆ axit angelic CH₃COOH và tinh dầu. bằng. Hoạt chất khác trong bạch chỉ chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh đại tràng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng phát biểu khử phong, thẩm thấp, hoạt huyết bài nùng sinh cơ, giảm đau"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "HC_ANGELICOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "được chừng $0,43$% một chất gọi là angelicotoxin, một chất nhựa màu vàng, vị đắng có tính chất kích thích"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "HC_BYAKANGELIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "ngoài ra còn có $0,2$% chất $byakangelixin$ C₁₇H₁₆O₅"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "HC_BYAKANGELICOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "ngoài ra còn có $0,2$% chất $byakangelicola$ C₁₆H₁₈O₆"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    },
+    {
+      "from": "VI_THUOC_COI_XAY",
+      "to": "HC_AXIT_ANGELIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "axit angelic CH₃COOH và tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T616"
+      }
+    }
+  ]
+}

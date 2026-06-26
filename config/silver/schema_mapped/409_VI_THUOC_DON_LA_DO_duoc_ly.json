@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_DON_LA_DO",
+  "source": {
+    "source_id": "CT_VT_VN_T409",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "409"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DON_LA_DO",
+      "to": "CN_THAN_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa, dị ứng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    },
+    {
+      "from": "VI_THUOC_DON_LA_DO",
+      "to": "CN_TRI_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T409"
+      }
+    }
+  ],
+  "metadata": {}
+}

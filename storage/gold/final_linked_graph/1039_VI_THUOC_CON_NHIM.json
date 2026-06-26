@@ -1,0 +1,545 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CON_NHIM",
+    "ten_raw": "Con nhím",
+    "ten_khoa_hoc": "$Hystrix hodgsoni Gray$",
+    "ho_thuc_vat": "$Nhím Hystricidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "dạ dày nhím",
+      "lieu_dung_chung": "Hiện nay vẫn dùng theo kinh nghiệm cổ với liều 6 đến $16$g dưới dạng thuốc bột hay sắc uống.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "miền rừng núi nước ta",
+      "thu_hai": "quanh năm",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": "Vị thuốc Con nhím",
+    "canonical_name": "Vị thuốc Con nhím"
+  },
+  "nodes": [
+    {
+      "id": "BT_LOI_DOM_CHAY_MAU_CON_NHIM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Lòi dom chảy máu con nhím",
+        "aliases": [
+          "loi dom chay mau con nhim",
+          "loidomchaymauconnhim",
+          "lòi dom chảy máu con nhím"
+        ],
+        "search_vector_hint": "Bài thuốc Lòi dom chảy máu con nhím thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh trĩ."
+      }
+    },
+    {
+      "id": "BT_THUY_THUNG_CO_TRUONG_HOANG_DAN_CON_NHIM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Thủy thũng cổ trướng hoàng đản con nhím",
+        "aliases": [
+          "thuy thung co truong hoang dan con nhim",
+          "thủy thũng cổ trướng hoàng đản con nhím",
+          "thuythungcotruonghoangdanconnhim"
+        ],
+        "search_vector_hint": "Bài thuốc Thủy thũng cổ trướng hoàng đản con nhím thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh phù, cổ trướng, vàng da."
+      }
+    },
+    {
+      "id": "B_HOANG_DAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hoàng đản",
+        "aliases": [
+          "vangda",
+          "vang da",
+          "hoang dan",
+          "hoangdan",
+          "vàng da",
+          "hoàng đản"
+        ],
+        "search_vector_hint": "Bệnh Hoàng đản thuộc nhóm Bệnh, thường liên quan đến rối loạn chức năng gan."
+      }
+    },
+    {
+      "id": "B_THUY_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thủy thũng",
+        "aliases": [
+          "phù",
+          "thủy thũng",
+          "phu",
+          "thuythung",
+          "thuy thung"
+        ],
+        "search_vector_hint": "Bệnh Thủy thũng thuộc nhóm Bệnh, thường liên quan đến tình trạng tích tụ dịch trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_CO_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cổ trướng",
+        "aliases": [
+          "co truong",
+          "cổ trướng",
+          "cotruong"
+        ],
+        "search_vector_hint": "Công năng Cổ trướng thuộc nhóm Công năng, thường liên quan đến điều trị bệnh cổ trướng."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_HET_DAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hết đau",
+        "aliases": [
+          "chỉ thống",
+          "chi thong",
+          "hết đau",
+          "hetdau",
+          "chithong",
+          "het dau"
+        ],
+        "search_vector_hint": "Công năng Hết đau thuộc nhóm Công năng, thường liên quan đến giảm đau."
+      }
+    },
+    {
+      "id": "CN_LOI_DOM_CHAY_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Lỗi đờm chảy máu",
+        "aliases": [
+          "loi dom chay mau",
+          "loidomchaymau",
+          "lỗi đờm chảy máu"
+        ],
+        "search_vector_hint": "Triệu chứng Lỗi đờm chảy máu thuộc nhóm triệu chứng, thường liên quan đến bệnh lý đường hô hấp."
+      }
+    },
+    {
+      "id": "CN_LUONG_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lương huyết",
+        "aliases": [
+          "thanhhuyet",
+          "lương huyết",
+          "luong huyet",
+          "thanh huyet",
+          "luonghuyet",
+          "thanh huyết"
+        ],
+        "search_vector_hint": "Công năng Lương huyết thuộc nhóm Công năng, thường liên quan đến làm mát máu."
+      }
+    },
+    {
+      "id": "CN_TRI_LAU_RA_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị lỵ ra huyết",
+        "aliases": [
+          "trilyrahuyet",
+          "tri ly ra huyet",
+          "trị lỵ ra huyết"
+        ],
+        "search_vector_hint": "Công năng Trị lỵ ra huyết thuộc nhóm Công năng, thường liên quan đến điều trị bệnh lỵ."
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dai Trang",
+        "aliases": [
+          "dai trang",
+          "daitrang",
+          "đại tràng"
+        ],
+        "search_vector_hint": "Kinh Đại tràng thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_CON_NHIM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Con nhím",
+        "aliases": [
+          "con nhím",
+          "connhim",
+          "con nhim"
+        ],
+        "search_vector_hint": "Vị thuốc Con nhím thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc cổ truyền.",
+        "bo_phan_dung": "dạ dày nhím",
+        "lieu_dung_chung": "Hiện nay vẫn dùng theo kinh nghiệm cổ với liều 6 đến $16$g dưới dạng thuốc bột hay sắc uống.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "miền rừng núi nước ta",
+        "thu_hai": "quanh năm",
+        "che_bien_tho": "phơi hay sấy khô",
+        "ten_khoa_hoc": "$Hystrix hodgsoni Gray$",
+        "ho_thuc_vat": "$Nhím Hystricidae$",
+        "hinh_thai_chi_tiet": "Nhím là loài thú lớn nhất trong bộ Gậm nhấm (Rodentia) vào tuổi trưởng thành (2 đến 2,5 tuổi) nặng tới $14-15kg$, lúc mới sinh ra nặng $350-540g$, hai tháng tuổi nặng $2,5-3kg$, một năm đạt $9-10kg$. Đặc điểm của nhím là có bộ da mọc tua tủa những lông trâm cứng, dài nhọn. nguy hiểm, nhím chỉ dựng lông cứng và giật lùi để xông vào kẻ địch (Hình 763).",
+        "lieu_dung_tong_quat": "Khi dùng sao cát hay sao với hoạt thạch cho nở phồng lên rồi lấy dạ dày nhím sắc thuốc hoặc tán bột mà uống."
+      }
+    },
+    {
+      "id": "VT_HOA_HOE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoa hòe",
+        "aliases": [
+          "hoahoe",
+          "hoa hoe",
+          "hoa hòe",
+          "hoe hoa",
+          "hoehoa",
+          "hòe hoa"
+        ],
+        "search_vector_hint": "Vị thuốc Hoa hòe thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh trĩ, cầm máu."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1039"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nhím là loài thú lớn nhất trong bộ Gậm nhấm (Rodentia) vào tuổi trưởng thành (2 đến 2,5 tuổi) nặng tới $14-15kg$, lúc mới sinh ra nặng $350-540g$, hai tháng tuổi nặng $2,5-3kg$, một năm đạt $9-10kg$. Đặc điểm của nhím là có bộ da mọc tua tủa những lông trâm cứng, dài nhọn. nguy hiểm, nhím chỉ dựng lông cứng và giật lùi để xông vào kẻ địch (Hình 763).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Khi dùng sao cát hay sao với hoạt thạch cho nở phồng lên rồi lấy dạ dày nhím sắc thuốc hoặc tán bột mà uống."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CON_NHIM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "dạ dày nhím có vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "dạ dày nhím có vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "dạ dày nhím có tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOI_DOM_CHAY_MAU_CON_NHIM",
+      "to": "VT_CON_NHIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$3-6g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOI_DOM_CHAY_MAU_CON_NHIM",
+      "to": "VT_HOA_HOE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOI_DOM_CHAY_MAU_CON_NHIM",
+      "to": "CN_LOI_DOM_CHAY_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Liều trên chia làm 3 lần uống trong ngày",
+        "cach_dung": "Thêm $100ml$ nước sắc kỹ rồi dùng nước sắc hoa hòe này chiêu dạ dày nhím đã sao và tán bột.",
+        "ghi_chu": "Dạ dày nhím sao phồng (với hoạt thạch rồi rây bỏ hoạt thạch). Chia 3 lần uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THUY_THUNG_CO_TRUONG_HOANG_DAN_CON_NHIM",
+      "to": "VT_CON_NHIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THUY_THUNG_CO_TRUONG_HOANG_DAN_CON_NHIM",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi lần uống $8g$ hòa rượu uống",
+        "cach_dung": "Dạ dày nhím đốt tồn tính",
+        "ghi_chu": "kinh nghiệm trong sách cổ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THUY_THUNG_CO_TRUONG_HOANG_DAN_CON_NHIM",
+      "to": "CN_CO_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Mỗi lần uống $8g$ hòa rượu uống",
+        "cach_dung": "Dạ dày nhím đốt tồn tính",
+        "ghi_chu": "kinh nghiệm trong sách cổ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THUY_THUNG_CO_TRUONG_HOANG_DAN_CON_NHIM",
+      "to": "B_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi lần uống $8g$ hòa rượu uống",
+        "cach_dung": "Dạ dày nhím đốt tồn tính",
+        "ghi_chu": "kinh nghiệm trong sách cổ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "CN_LUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ dạ dày nhím có tác dụng lương huyết (mát máu)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ dạ dày nhím có tác dụng giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "CN_HET_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ dạ dày nhím có tác dụng làm hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CON_NHIM",
+      "to": "CN_TRI_LAU_RA_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ dạ dày nhím có tác dụng trị trĩ lậu ra huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1039",
+        "all_sources": [
+          "CT_VT_VN_T1039"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.0,
+      "reliability_c_score": 0.7618,
+      "total_confidence_sum": 12.95
+    },
+    "validator_pass_score": 85,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

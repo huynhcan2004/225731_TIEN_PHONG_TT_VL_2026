@@ -1,0 +1,120 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DANG_SAM",
+    "ten_raw": "Đảng sâm",
+    "ten_khoa_hoc": "Codonopsis javanica (Blume) Hook. f. et Thoms.; Codonopsis sp.; Codonopsis pllosula; Codonopsis tangshen Oliv.",
+    "ho_thuc_vat": "Hoa chuông Campanulaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Rễ",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "phan_bo": "Cây mọc hoang ở vùng rừng núi ẩm, có độ cao\n$1000-1600m$ ở các tỉnh Lạng Sơn, Cao Bằng, Lào Cai,\nYên Bái, Lai Châu, Sơn La, Hà Tây, Hoà Bình, Thanh\nHóa, Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa\nThiên-Huế, Kon Tum, Gia Lai, Lâm Đồng."
+    },
+    "display_name": "Đảng sâm"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T826",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "826"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TY",
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đảng sâm là một loại cỏ sống lâu năm. Rễ hình trụ dài, đường kính có thể đạt $1-1,7cm$. Đầu rễ phát triển to, trên có nhiều vết sẹo của thân cũ, phía dưới có khi phân nhánh, mặt ngoài màu vàng nhạt, trên có các vết nhăn dọc và ngang. Thân mọc bò hay leo, phân nhánh nhiều, phía dưới hơi có lông, phía ngọn nhẵn, lá mọc đối, (ở Việt Nam lá phần nhiều mọc đối) so le hoặc có khi gần như mọc vòng. Cuống lá dài $0,5-4cm$, phiến lá hình tim hoặc hình trứng dài $1-7cm$, rộng $0,8-5,5cm$, đầu tù hoặc nhọn, đáy là hình tim mép nguyên hoặc hơi lượn sóng, hoặc có răng cưa (Việt Nam) mặt trên lá màu xanh nhạt, mặt dưới trắng. Hoa mọc đơn độc ở kẽ lá. Có 5 lá dài, tràng hoa hình chuông, màu vàng nhạt chia 5 thuỳ, 5 nhị, bầu có 5 ngăn. Quả nang, phía trên có 1 núm nhỏ hình nón, khi chín có màu tím đỏ. Mùa hoa nở: tháng 7-8. Mùa quả tháng 9-10 (Hình 623, Hm 32,4). Loài Codonopsis pllosula có lá gần như lá đảng sâm của ta mô tả ở trên, nhưng mép lá nguyên, hoa cũng như vậy, bầu chỉ có 3 ngăn. Loài Codonopsis tangshen Oliv. có lá dài hơn, cuống lá cũng dài hơn. Bầu cũng 3 ngăn."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Rễ Đảng sâm chứa saponin, đường, tinh bột, $inulin$, các acid amin và các nguyên tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "HC_MAJONNOZIT_R2",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Cũng là lần đầu tiên trên thế giới, người ta chiết được một hàm lượng lớn majonnozit R2 và ocotillol saponin trong cùng một loại Panax (chỉ riêng hai chất này đã chiếm $4,34\\%$ ) gấp 43 lần hàm lượng majonozit và ocotillol saponin cao nhất có trong cây Panax."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    },
+    {
+      "from": "VI_THUOC_DANG_SAM",
+      "to": "HC_OCOTILLOL_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Cũng là lần đầu tiên trên thế giới, người ta chiết được một hàm lượng lớn majonnozit R2 và ocotillol saponin trong cùng một loại Panax (chỉ riêng hai chất này đã chiếm $4,34\\%$ ) gấp 43 lần hàm lượng majonozit và ocotillol saponin cao nhất có trong cây Panax."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T826"
+      }
+    }
+  ]
+}

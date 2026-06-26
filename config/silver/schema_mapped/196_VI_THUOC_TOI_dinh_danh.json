@@ -1,0 +1,114 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TOI",
+    "ten_raw": "Tỏi",
+    "ten_khoa_hoc": "Allium sativum L.",
+    "ho_thuc_vat": "Họ Hành Alliaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "củ tỏi (Bulbus Allii)",
+      "che_bien_tho": "dò của cây tỏi mà ta vẫn dùng làm gia vị"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T196",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "196"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_VI"
+        ],
+        "cong_nang": "thanh nhiệt giải độc, sát trùng, chữa băng đới, trùng tích, huyết lỵ. Tẩy uế, thông khiếu, tiêu nhọt, hạch ở phổi, tiêu đờm, đầy chướng, đại tiểu tiện khó khăn, tả lỵ"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ta dùng củ tỏi (Bulbus Allii) là dò của cây tỏi mà ta vẫn dùng làm gia vị (Hình 125, Hm 41,3).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tỏi có một ít iốt và tinh dầu ($100kg$ tỏi chứa chừng $60g$ đến $200g$ tinh dầu). Thành phần chủ yếu của tỏi là một chất kháng sinh $alixin$ CHOS, một hợp chất sunfua có tác dụng diệt vi khuẩn rất mạnh đối với vi trùng Staphyllococcus, thương hàn, phó thương hàn, lỵ, vì trùng tả, trực khuẩn sinh bệnh bạch hầu, vi khuẩn thối.",
+          "Trong tỏi không có chất alixin ngay mà có chất aliin, một thứ axit amin; chất aliin chịu tác dụng của men alinaza cũng có trong tỏi mới cho chất alixin.",
+          "Chất alixin tinh khiết, là một chất dầu không màu, hòa tan trong cồn, benzen, ête, vào dịch nước thì không ổn định, dễ thủy phân. Độ thủy phân chừng $2,5$%, có mùi vị như tỏi và có tính kích thích da như tỏi, aliin không có mùi hôi của tỏi.",
+          "Chất alixin bị nhiệt sẽ chóng mất tác dụng, gặp kiềm cũng bị mất tác dụng, axit nhẹ ít bị ảnh hưởng."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh ... và vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "HC_ALIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tỏi có một ít iốt và tinh dầu ($100kg$ tỏi chứa chừng $60g$ đến $200g$ tinh dầu). Thành phần chủ yếu của tỏi là một chất kháng sinh $alixin$ CHOS, một hợp chất sunfua có tác dụng diệt vi khuẩn rất mạnh đối với vi trùng Staphyllococcus, thương hàn, phó thương hàn, lỵ, vì trùng tả, trực khuẩn sinh bệnh bạch hầu, vi khuẩn thối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOI",
+      "to": "HC_ALIIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tỏi không có chất alixin ngay mà có chất aliin, một thứ axit amin; chất aliin chịu tác dụng của men alinaza cũng có trong tỏi mới cho chất alixin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T196"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "entity_hub": "VI_THUOC_DAU_CHIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T277",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "277"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_DAU_CHIEU_D",
+      "to": "VI_THUOC_DAU_CHIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ Đậu chiều.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T277"
+      }
+    },
+    {
+      "from": "BT_SOT_DAU_CHIEU_D",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt giải độc",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T277"
+      }
+    },
+    {
+      "from": "BT_SOT_DAU_CHIEU_D",
+      "to": "B_DAI_DEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái đêm",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T277"
+      }
+    },
+    {
+      "from": "BT_SOT_DAU_CHIEU_D",
+      "to": "S_TIEU_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiêu thũng",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T277"
+      }
+    }
+  ],
+  "metadata": {}
+}

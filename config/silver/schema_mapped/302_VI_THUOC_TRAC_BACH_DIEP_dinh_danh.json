@@ -1,0 +1,236 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRAC_BACH_DIEP",
+    "ten_raw": "Cây trắc bách diệp",
+    "ten_khoa_hoc": "Thuja orientalis L. (Biota orientalis Endl.)",
+    "ho_thuc_vat": "Trắc bách Cupressaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Cây được trồng ở khắp nơi để làm cảnh và làm thuốc. Còn mọc ở Trung Quốc, Liên Xô cũ (vùng Capcazơ).",
+      "thu_hai": "Lá có thể hái quanh năm, nhưng tốt nhất vào tháng 9-11, hái cả cành, cắt bỏ cành to, phơi khô trong mát.\nHạt trắc bách diệp: Hái vào mùa thu, đông, phơi khô, xát bỏ vẩy ngoài, lấy nhân phơi khô.",
+      "che_bien_tho": "Ta dùng cành và lá phơi hay sấy khô (Folium et Ramulus Biotae) của cây trắc bách diệp."
+    },
+    "display_name": "Cây trắc bách diệp"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T302",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "302"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_PHE",
+          "K_CAN",
+          "K_DAI_TRANG"
+        ],
+        "cong_nang": "lương huyết, cầm máu, thanh huyết phận thấp nhiệt",
+        "kieng_ky_dac_biet": "không thấp nhiệt cấm dùng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trắc bách diệp là một cây có thể cao tới $6$-$8m$. Thân phân nhánh nhiều trong những mặt thẳng đứng làm cho cây có dáng đặc biệt. Lá mọc đối, dẹp hình vẩy. Nón hình trứng $6$-$8$ vẩy dày. Hạt hình trứng, không có cạnh, màu nâu sẫm, có một sẹo rộng màu nhạt hơn ở phía dưới. Mùa hoa tháng $4$. Mùa quả tháng $9$-$10$ (Hình $224$, Hm $44,2$).",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá và cành có tinh dầu và chất nhựa. Trong tinh dầu có pinen, cariophylen. Có tài liệu nói có vitamin C. Theo sự phân tích của Phòng hóa học thực vật Viện nghiên cứu khoa học y học Trung Quốc (Bắc Kinh), trắc bách diệp có phản ứng của glucozit chữa tim. Trong lá trắc bạch diệp có những chất sau đây: 1. Tinh dầu với thành phần chủ yếu gồm fenchon $CH_{10}O$, campho. 2. Các hợp chất flavon: quexetin, myrixetin $CHO$ (Phytochemistry $1970, 9, 575$), hinokiflavon $CH₁O$ amentoflavon $C₂HO$ (Pelter và cộng sự-Phytochemistry $1970, 9, 1897$). 3. Phần sáp sau khi xà phòng hóa sẽ được $81\\%$ axit hữu cơ trong đó chủ yếu gồm những axit juniperic $C_{32}H_{60}O_3$, axit sabinic $C_{12}H_{24}O_2$, và $17\\%$ hexadecane-$1, 16$-diol. Các axit hữu cơ ở dang estolide. Trong hạt trắc bách diệp có chất béo và $0,64\\%$ saponozit (Viện y học Bắc Kinh $1958$)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng, chát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, can, đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, can, đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, can, đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có pinen, cariophylen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_CARIOPHYLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có pinen, cariophylen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_FENCHON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu với thành phần chủ yếu gồm fenchon $CH_{10}O$, campho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu với thành phần chủ yếu gồm fenchon $CH_{10}O$, campho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_QUEXETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các hợp chất flavon: quexetin, myrixetin $CHO$ (Phytochemistry $1970, 9, 575$), hinokiflavon $CH₁O$ amentoflavon $C₂HO$ (Pelter và cộng sự-Phytochemistry $1970, 9, 1897$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_MYRIXETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các hợp chất flavon: quexetin, myrixetin $CHO$ (Phytochemistry $1970, 9, 575$), hinokiflavon $CH₁O$ amentoflavon $C₂HO$ (Pelter và cộng sự-Phytochemistry $1970, 9, 1897$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_HINOKIFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các hợp chất flavon: quexetin, myrixetin $CHO$ (Phytochemistry $1970, 9, 575$), hinokiflavon $CH₁O$ amentoflavon $C₂HO$ (Pelter và cộng sự-Phytochemistry $1970, 9, 1897$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_AMENTOFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các hợp chất flavon: quexetin, myrixetin $CHO$ (Phytochemistry $1970, 9, 575$), hinokiflavon $CH₁O$ amentoflavon $C₂HO$ (Pelter và cộng sự-Phytochemistry $1970, 9, 1897$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_AXITJUNIPERIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần sáp sau khi xà phòng hóa sẽ được $81\\%$ axit hữu cơ trong đó chủ yếu gồm những axit juniperic $C_{32}H_{60}O_3$, axit sabinic $C_{12}H_{24}O_2$, và $17\\%$ hexadecane-$1, 16$-diol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_AXITSABINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần sáp sau khi xà phòng hóa sẽ được $81\\%$ axit hữu cơ trong đó chủ yếu gồm những axit juniperic $C_{32}H_{60}O_3$, axit sabinic $C_{12}H_{24}O_2$, và $17\\%$ hexadecane-$1, 16$-diol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_HEXADECANE_1_16_DIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Phần sáp sau khi xà phòng hóa sẽ được $81\\%$ axit hữu cơ trong đó chủ yếu gồm những axit juniperic $C_{32}H_{60}O_3$, axit sabinic $C_{12}H_{24}O_2$, và $17\\%$ hexadecane-$1, 16$-diol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAC_BACH_DIEP",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt trắc bách diệp có chất béo và $0,64\\%$ saponozit (Viện y học Bắc Kinh $1958$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T302"
+      }
+    }
+  ]
+}

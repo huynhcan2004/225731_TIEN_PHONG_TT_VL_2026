@@ -1,0 +1,936 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THACH_SUNG",
+    "ten_raw": "Thạch sùng",
+    "ten_khoa_hoc": "$Hemidactylus frenatus Schlegel$",
+    "ho_thuc_vat": "$Tắc kè Gekkonidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "tất cả những con có màu trắng bắt được trên tường và trần nhà",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Mỗi ngày 1 hay 2 con.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Con thạch sùng sống hoang khắp nơi ở những vùng nhiệt đới. Miền nam Trung Quốc cũng có và cũng được dùng làm thuốc."
+    },
+    "display_name": "Vị thuốc Thạch sùng",
+    "canonical_name": "Vị thuốc Thạch sùng"
+  },
+  "nodes": [
+    {
+      "id": "B_BAN_THAN_BAT_TOAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bán thân bất toại",
+        "aliases": [
+          "liet nua nguoi",
+          "lietnuanguoi",
+          "banthanbattoai",
+          "ban than bat toai",
+          "liệt nửa người",
+          "bán thân bất toại"
+        ],
+        "search_vector_hint": "Bán thân bất toại thuộc nhóm bệnh, thường liên quan đến liệt một bên cơ thể."
+      }
+    },
+    {
+      "id": "B_BENH_VE_DA_DAY_VA_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh về dạ dày và ruột",
+        "aliases": [
+          "vedadayvaruot",
+          "ve da day va ruot",
+          "bệnh tiêu hóa",
+          "về dạ dày và ruột",
+          "benhtieuhoa",
+          "benh tieu hoa"
+        ],
+        "search_vector_hint": "Bệnh về dạ dày và ruột thuộc nhóm bệnh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAU_THAN_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau thần kinh",
+        "aliases": [
+          "đau thần kinh",
+          "dau than kinh",
+          "đau dây thần kinh",
+          "daudaythankinh",
+          "dau day than kinh",
+          "dauthankinh"
+        ],
+        "search_vector_hint": "Bệnh Đau thần kinh thuộc nhóm bệnh, thường liên quan đến tổn thương hoặc rối loạn chức năng dây thần kinh."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_NHUC_DAU_KINH_NIEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Nhức đầu kinh niên",
+        "aliases": [
+          "nhức đầu kinh niên",
+          "nhucdaukinhnien",
+          "daudaumantinh",
+          "nhuc dau kinh nien",
+          "dau dau man tinh",
+          "đau đầu mãn tính"
+        ],
+        "search_vector_hint": "Bệnh Nhức đầu kinh niên thuộc nhóm bệnh, thường liên quan đến tình trạng đau đầu kéo dài và tái phát."
+      }
+    },
+    {
+      "id": "B_THAN_KINH_SUY_NHUOC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thần kinh suy nhược",
+        "aliases": [
+          "suynhuocthankinh",
+          "thankinhsuynhuoc",
+          "thần kinh suy nhược",
+          "than kinh suy nhuoc",
+          "suy nhược thần kinh",
+          "suy nhuoc than kinh"
+        ],
+        "search_vector_hint": "Bệnh Thần kinh suy nhược thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng thần kinh."
+      }
+    },
+    {
+      "id": "B_TRANG_NHAC_LAO_HACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tràng nhạc (Lao hạch)",
+        "aliases": [
+          "trangnhac(laohach)",
+          "tràng nhạc (lao hạch)",
+          "laohach",
+          "lao hach",
+          "trang nhac (lao hach)",
+          "lao hạch"
+        ],
+        "search_vector_hint": "Bệnh Tràng nhạc (Lao hạch) thuộc nhóm bệnh, thường liên quan đến hệ bạch huyết."
+      }
+    },
+    {
+      "id": "B_VIEM_KHOP_MAN_TINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm khớp mạn tính",
+        "aliases": [
+          "viemkhopmantinh",
+          "viêm khớp mãn tính",
+          "viêm khớp mạn tính",
+          "viem khop man tinh"
+        ],
+        "search_vector_hint": "Bệnh Viêm khớp mạn tính thuộc nhóm bệnh, thường liên quan đến tình trạng viêm kéo dài ở khớp."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong thấp",
+        "aliases": [
+          "khu phong thap",
+          "trừ phong thấp",
+          "tru phong thap",
+          "truphongthap",
+          "khu phong thấp",
+          "khuphongthap"
+        ],
+        "search_vector_hint": "Công năng Khu phong thấp thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh từ bên ngoài."
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA_KEM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiêu hóa kém",
+        "aliases": [
+          "an khong tieu",
+          "tiêu hóa kém",
+          "khó tiêu",
+          "khotieu",
+          "tieu hoa kem",
+          "ankhongtieu",
+          "tieuhoakem",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Triệu chứng Tiêu hóa kém thuộc nhóm triệu chứng tiêu hóa, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TIEU_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu tích",
+        "aliases": [
+          "tieutich",
+          "tieu tich",
+          "tiêu tích"
+        ],
+        "search_vector_hint": "Công năng Tiêu tích thuộc nhóm công năng, thường liên quan đến làm tan các khối tích tụ."
+      }
+    },
+    {
+      "id": "CN_TRI_CAM_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị cam tích",
+        "aliases": [
+          "trị cam tích",
+          "tricamtich",
+          "tri cam tich"
+        ],
+        "search_vector_hint": "Công năng Trị cam tích thuộc nhóm công năng, thường liên quan đến điều trị bệnh cam tích ở trẻ em."
+      }
+    },
+    {
+      "id": "CN_TRI_KINH_GIAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị kinh giản",
+        "aliases": [
+          "trị kinh giản",
+          "trikinhgian",
+          "tri kinh gian"
+        ],
+        "search_vector_hint": "Công năng Trị kinh giản thuộc nhóm công năng, thường liên quan đến điều trị chứng kinh giản."
+      }
+    },
+    {
+      "id": "CN_TRI_TRANG_NHAC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Trĩ tràng nhạc",
+        "aliases": [
+          "tri trang nhac",
+          "trĩ tràng nhạc",
+          "tritrangnhac"
+        ],
+        "search_vector_hint": "Triệu chứng Trĩ tràng nhạc thuộc nhóm triệu chứng tiêu hóa, thường liên quan đến bệnh lý đường ruột."
+      }
+    },
+    {
+      "id": "CN_TRU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phong",
+        "aliases": [
+          "truphong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Trừ phong thuộc nhóm công năng, thường liên quan đến loại bỏ yếu tố gây bệnh từ bên ngoài."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "HC_CARDIOLIPIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cardiolipin",
+        "aliases": [
+          "cardiolipin"
+        ],
+        "search_vector_hint": "Hoạt chất Cardiolipin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_LEXITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Lexitin",
+        "aliases": [
+          "lexitin"
+        ],
+        "search_vector_hint": "Hoạt chất Lexitin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_LYZOLEXITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Lyzolexitin",
+        "aliases": [
+          "lyzolexitin"
+        ],
+        "search_vector_hint": "Hoạt chất Lyzolexitin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PHOTPHATIDYLINONTOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Photphatidylinontola",
+        "aliases": [
+          "photphatidylinontola"
+        ],
+        "search_vector_hint": "Hoạt chất Photphatidylinontola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PHOTPHATIDYL_SERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Photphatidyl Serin",
+        "aliases": [
+          "photphatidylserin",
+          "photphatidyl serin"
+        ],
+        "search_vector_hint": "Hoạt chất Photphatidyl Serin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_SPHINGOMYELIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sphingomyelin",
+        "aliases": [
+          "sphingomyelin"
+        ],
+        "search_vector_hint": "Hoạt chất Sphingomyelin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_XEPHALIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xephalin",
+        "aliases": [
+          "xephalin"
+        ],
+        "search_vector_hint": "Hoạt chất Xephalin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_THACH_SUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch sùng",
+        "aliases": [
+          "thạch sùng",
+          "thach sung",
+          "thachsung"
+        ],
+        "search_vector_hint": "Vị thuốc Thạch sùng thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền.",
+        "bo_phan_dung": "tất cả những con có màu trắng bắt được trên tường và trần nhà",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Mỗi ngày 1 hay 2 con.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Con thạch sùng sống hoang khắp nơi ở những vùng nhiệt đới. Miền nam Trung Quốc cũng có và cũng được dùng làm thuốc.",
+        "ten_khoa_hoc": "$Hemidactylus frenatus Schlegel$",
+        "ho_thuc_vat": "$Tắc kè Gekkonidae$",
+        "hinh_thai_chi_tiet": "Thạch sùng có nhiều loại. Người ta thường dùng tất cả những con có màu trắng bắt được trên tường và trần nhà. Thông thường nhất có con thạch sùng Hemidactylus frenatus Schlegel. Con này toàn thân (cả đuôi) dài chừng 8-12cm, trọng giống con tắc kè hay con thằn lằn nhưng nhỏ hơn, mắt dọc, lưỡi dài hay thè ra khỏi miệng để bắt những con sâu bọ nhỏ như ruồi, muỗi, nhện mà ăn. Thân nhẵn hay hơi có vảy rất nhỏ; lưng màu tro hay tro vàng, bụng màu trắng hay vàng trắng 4 chân có những màng dính để bám chắc trên tường mà đi; đuôi dài có thể đứt rồi lại mọc lại sau một thời gian (Hình 747).",
+        "thanh_phan_hoa_hoc": "['Năm 1970, Trần Huyền Trân đã chiết được từ thạch sùng một loại chất béo với tỷ lệ $11,92\\\\%$ trong con non, $15,38\\\\%$ trong con đực trưởng thành và $15,97\\\\%$ trong con cái trưởng thành. Chất béo này có chỉ số tốt 61. Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$lexitin$`, `$lyzolexitin$`, `$sphin- gomyelin$` và `$xephalin$`, `$cardiolipin$`, `$photphatidyl serin$` và `$photphatidylinontola$`. So sánh bản sắc ký của chất béo chiết ở thạch sùng với chất béo chiết ở tắc kè thì thấy hai loại chất béo này cho những vết ở những Rf rất giống nhau. Tác giả đã đi đến kết luận hy vọng có thể dùng thạch sùng thay cho tắc kè trong một số trường hợp và trên thực tế nhân dân cũng đã dùng tắc kè và thạch sùng để điều trị một số bệnh tương tự (Luận án tốt nghiệp dược sĩ cao cấp, 1970, Hà Nội).']"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1022"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_MAN_HAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thạch sùng có nhiều loại. Người ta thường dùng tất cả những con có màu trắng bắt được trên tường và trần nhà. Thông thường nhất có con thạch sùng Hemidactylus frenatus Schlegel. Con này toàn thân (cả đuôi) dài chừng 8-12cm, trọng giống con tắc kè hay con thằn lằn nhưng nhỏ hơn, mắt dọc, lưỡi dài hay thè ra khỏi miệng để bắt những con sâu bọ nhỏ như ruồi, muỗi, nhện mà ăn. Thân nhẵn hay hơi có vảy rất nhỏ; lưng màu tro hay tro vàng, bụng màu trắng hay vàng trắng 4 chân có những màng dính để bám chắc trên tường mà đi; đuôi dài có thể đứt rồi lại mọc lại sau một thời gian (Hình 747).",
+        "thanh_phan_hoa_hoc": [
+          "Năm 1970, Trần Huyền Trân đã chiết được từ thạch sùng một loại chất béo với tỷ lệ $11,92\\%$ trong con non, $15,38\\%$ trong con đực trưởng thành và $15,97\\%$ trong con cái trưởng thành. Chất béo này có chỉ số tốt 61. Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$lexitin$`, `$lyzolexitin$`, `$sphin- gomyelin$` và `$xephalin$`, `$cardiolipin$`, `$photphatidyl serin$` và `$photphatidylinontola$`. So sánh bản sắc ký của chất béo chiết ở thạch sùng với chất béo chiết ở tắc kè thì thấy hai loại chất béo này cho những vết ở những Rf rất giống nhau. Tác giả đã đi đến kết luận hy vọng có thể dùng thạch sùng thay cho tắc kè trong một số trường hợp và trên thực tế nhân dân cũng đã dùng tắc kè và thạch sùng để điều trị một số bệnh tương tự (Luận án tốt nghiệp dược sĩ cao cấp, 1970, Hà Nội)."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_LEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$lexitin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_LYZOLEXITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$lyzolexitin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_SPHINGOMYELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$sphin- gomyelin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_XEPHALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$xephalin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_CARDIOLIPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$cardiolipin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_PHOTPHATIDYL_SERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$photphatidyl serin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "HC_PHOTPHATIDYLINONTOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng so sánh với mẫu, đã thấy trong chất béo có `$photphatidylinontola$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_TRANG_NHAC_LAO_HACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bắt thạch sùng cho vào chuối mà nuốt sống",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_THAN_KINH_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_BENH_VE_DA_DAY_VA_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TIEU_HOA_KEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_VIEM_KHOP_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_DAU_THAN_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "B_NHUC_DAU_KINH_NIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống",
+        "ghi_chu": "Thạch sùng (phơi hay sấy khô tán bột)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TRU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phong. | Trúng phong (cảm gió)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_KHU_PHONG_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau các khớp xương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TIEU_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu hòn cục (báng)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TRI_CAM_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị cam ly trẻ con."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TRI_KINH_GIAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kinh giản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_TRI_TRANG_NHAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tràng nhạc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Rắn rết cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THACH_SUNG",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hơi có độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1022",
+        "all_sources": [
+          "CT_VT_VN_T1022"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 73.5,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

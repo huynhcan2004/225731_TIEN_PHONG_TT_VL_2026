@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_MANG_TIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T463",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "463"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "CN_TIEU_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "CN_TA_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "CN_NHUAN_TAO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận táo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "CN_NHUYEN_RAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm mềm chất rắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ion $SO_4$ có phân tử lớn khó qua màng ruột nằm lại trong ruột và hút nước ở các tổ chức tới ruột làm loãng phân trong ruột do đó làm cho đại tiện dễ dàng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "DL_KICH_THICH_BAI_TIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Muối natri sunfat có tác dụng kích thích sự bài tiết của ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_TIEU",
+      "to": "DL_UC_CHE_CO_BOP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ức chế hiện tượng chống co bóp bình thường của ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T463"
+      }
+    }
+  ],
+  "metadata": {}
+}

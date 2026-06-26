@@ -1,0 +1,55 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BUA",
+    "ten_raw": "Bứa",
+    "ten_khoa_hoc": "Garcinia oblongifolia Champ.",
+    "ho_thuc_vat": "Măng cụt Clusiaceae (Guttiferae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T140",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "140"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây gỗ cao $10-15m$. Cành và nhánh dài và mảnh mọc xòe ngang. Vỏ cây màu xám tro. Lá mọc đối, mép nguyên, nhẵn bóng, có nhiều điểm mờ. Hoa màu vàng, có cả hoa đực và hoa lưỡng tính. Hoa đực có 4 lá đài, 5 cành hoa. Hoa lưỡng tính có 4 lá đài, 4 cảnh hoa, rất nhiều nhị. Bầu 6-10 ở. Quả mọng, hình cầu có nhiều rãnh dọc. Vỏ quả dày, màu vàng ở ngoài, phía trong hơi đỏ, vị chua, 6-10 hạt, có nhiều múi mọng nước, ăn được ( Hình 85 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả bứa có axit hữu cơ, vitamin C ($100g$ có $61mg$ vitamin C). Trong vỏ có flavonozit."
+        ],
+        "lieu_dung_tong_quat": "Thường người ta hái quả chín về ăn và nấu canh. Làm thuốc người ta dùng vỏ quả tươi hay phơi hoặc sấy khô. Mùa thu hái vỏ gần như quanh năm."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BUA",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả bứa có axit hữu cơ, vitamin C ($100g$ có $61mg$ vitamin C)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T140"
+      }
+    },
+    {
+      "from": "VI_THUOC_BUA",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ có flavonozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T140"
+      }
+    }
+  ]
+}

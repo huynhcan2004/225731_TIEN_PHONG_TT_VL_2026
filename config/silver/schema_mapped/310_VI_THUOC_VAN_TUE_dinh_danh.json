@@ -1,0 +1,192 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VAN_TUE",
+    "ten_raw": "Vạn tuế",
+    "ten_khoa_hoc": "Cycas revoluta Thunb.",
+    "ho_thuc_vat": "Tuế Cycadaceae",
+    "variants": [
+      "thiết thụ",
+      "phong mao tùng",
+      "phong mao tiêu"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá tươi hay phơi khô, hạt",
+      "phan_bo": "trồng làm cảnh ở các đình chùa nước ta. Còn mọc và được trồng ở nhiều nước nhiệt đới.",
+      "thu_hai": "quanh năm (lá), hạ và thu (hạt)",
+      "che_bien_tho": "tươi hay phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T310",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "310"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là thiết thụ, phong mao tùng, phong mao tiêu. Thân hình trụ, cao $2$-$3m$, lá mọc thành vòng, dài tới $2m$, hình lông chim, cuống lá có gai, lá chét dài $15$-$18cm$, rộng $6mm$, nhỏ hơn về phía gốc và phía ngọn, gần mọc đối, nguyên, nhẵn, hình sợi chỉ, mũi có gai đơn, mép cuốn lại, có gân lời. Nón đực hẹp, dài $218cm$, rộng $4cm$, nhị thưa, hơi lợp, hình mũi mác hẹp, dài $30cm$, rộng $6$-$8mm$, gần hình lòng thuyền, ở phía trên mang bao phấn dọc theo mép. Nón cái gồm những lá noãn dài tới $20cm$, có lông màu trắng hơi vàng, có phần không sinh sản rộng chia thành nhiều đài hẹp có ngọn cong và mũi nhọn cứng; noãn có lỏng. Hạt hình trái xoan dẹt, thoạt tiên có lông rồi nhẵn, màu da cam, dài $3cm$ ( Hình 230)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_SOSETUFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $sosetsuflavon$ C31H20O10, (H2O) độ chảy $263$-$264°C$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_HINOKIFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $hinokiflavon$ C30H20O10 2-3, 295 dihydrohinokiflavon C, HO, amentoflavon"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_AMENTOFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có $hinokiflavon$ C30H20O10 2-3, 295 dihydrohinokiflavon C, HO, amentoflavon"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_CYCASIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_D",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_E",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_F",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_NEOCYCASIN_G",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có $cycasin$, $neocycasin A$, $B$, $C$, $D$, $E$, $F$, $G$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_MACROZAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có một lượng nhỏ $macrozamin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_CHOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $cholin$, $trigonellin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    },
+    {
+      "from": "VI_THUOC_VAN_TUE",
+      "to": "HC_TRIGONELLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $cholin$, $trigonellin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T310"
+      }
+    }
+  ]
+}

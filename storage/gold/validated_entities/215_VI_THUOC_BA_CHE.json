@@ -1,0 +1,107 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BA_CHE",
+    "ten_raw": "Ba chẽ",
+    "ten_khoa_hoc": "$Desmodium cephalotes Wall.$",
+    "ho_thuc_vat": "$Cánh buóm Fabaceae (Papilionaceae)$",
+    "variants": [
+      "Desmodium cephalotes"
+    ],
+    "properties": {
+      "bo_phan_dung": "cây",
+      "thu_hai": "hè và thu",
+      "che_bien_tho": "cắt cây về làm phân xanh hoặc làm củi đun",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Ba chẽ là một cây mọc hoang ở nhiều nơi"
+    },
+    "display_name": "Ba chẽ",
+    "canonical_name": "Ba chẽ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BA_CHE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ba Che"
+      }
+    },
+    {
+      "id": "B_KIET_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kiet Ly"
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Can"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T215",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "215"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ sống lâu năm, thân nhỏ, có nhiều cành. Thường cao $0,5-0,60m$ nhưng cũng có thể cao tới $1,50m$. Lá gồm ba lá chét hình bầu dục với lá kèm nhỏ. Đường gần mặt trên lõm. Mặt dưới lồi, mặt dưới lá phủ một lớp lông tơ trắng trông hơi lấp lánh, đặc biệt các lá non ở ngọn có phủ lớp lông tơ nhiều hơn. Hoa nhỏ màu trắng, mọc thành chùm đơn ở kẽ lá. Quả giáp, hạt hình thận. Mùa hoa quả: Hè và thu.",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Bộ phận dùng là lá"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BA_CHE",
+      "to": "B_KIET_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-50g$",
+        "cach_dung": "Thêm nước vào, đun sôi kỹ (sôi chừng 15 phút đến nửa giờ). Chia hai ba lần uống trong ngày. Uống liên tục từ 3 đến 5 ngày tùy theo bệnh nặng nhẹ",
+        "ghi_chu": "CT_VT_VN_T216"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T215",
+        "all_sources": [
+          "CT_VT_VN_T215"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BA_CHE",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lá ba chẽ tươi giã nát hay nhai nát. Nuốt nước, bã còn lại đắp lên nơi rắn cắn",
+        "ghi_chu": "CT_VT_VN_T216"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T215",
+        "all_sources": [
+          "CT_VT_VN_T215"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 23.0,
+      "reliability_c_score": 0.8167,
+      "total_confidence_sum": 2.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

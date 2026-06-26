@@ -4,15 +4,15 @@ Chức năng: Điểm khởi tạo trung tâm của ứng dụng FastAPI.
 Nhiệm vụ:
 - Cấu hình ứng dụng (FastAPI instance).
 - Thiết lập Middleware (CORS, Security).
-- Đăng ký các Router thành phần (Auth, Chatbot, Base).
+- Đăng ký các Router thành phần (Auth, Chatbot, Payment, Base).
 - Quản lý sự kiện khởi động và đóng ứng dụng.
 """
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
-from app.routers import chatbot, base # base là router chứa health check
-
+from app.routers import auth, chatbot, payment, base, webhook
+from app.routers import admin
 def create_app() -> FastAPI:
     """
     Hàm khởi tạo ứng dụng (Factory Pattern).
@@ -38,30 +38,44 @@ def create_app() -> FastAPI:
         allow_headers=["*"],  # Cho phép các Header tùy chỉnh (như X-API-KEY, Authorization)
     )
 
+    # Phục vụ ảnh upload tĩnh (như Logo)
+    from fastapi.staticfiles import StaticFiles
+    import os
+    os.makedirs("uploads", exist_ok=True)
+    app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
+
     # 3. ĐĂNG KÝ CÁC ROUTER (API ROUTES)
-    # Tách biệt các nhóm chức năng để dễ quản lý và mở rộng
+    # Đã loại bỏ hoàn toàn prefix="/api/v1" theo thống nhất của huynh.
     
-    # Nhóm API cơ bản (Health check, welcome)
+    # Nhóm API cơ bản (Health check)
     app.include_router(base.router)
     
-    # Nhóm API Chatbot (Nơi xử lý chính của dự án)
+    # Nhóm API chức năng chính (Auth, Chat, Thanh toán)
+    # Đường dẫn sẽ trực tiếp là: /auth/..., /chatbot/..., /payment/...
+    app.include_router(auth.router)
     app.include_router(chatbot.router)
-
-    # Các router sẽ làm sau (Auth, Payment, File Upload)
-    # app.include_router(auth.router)
-    # app.include_router(file_upload.router)
-
+    app.include_router(payment.router)
+    app.include_router(webhook.router)
+    
+    app.include_router(admin.router)
     # 4. QUẢN LÝ VÒNG ĐỜI (LIFESPAN EVENTS)
     @app.on_event("startup")
     async def startup_event():
         """Thực hiện các tác vụ khi server bắt đầu chạy."""
-        print(f"🚀 [System] {settings.PROJECT_NAME} đang khởi động...")
-        print(f"📡 [Endpoint] Tài liệu API: http://localhost:8000/docs")
+        try:
+            print(f"[System] {settings.PROJECT_NAME} đang khởi động...")
+            print(f"[Endpoint] Tài liệu API: http://localhost:8000/docs")
+            print(f"[Payment] API Nạp tiền đã sẵn sàng tại: /payment/create")
+        except Exception:
+            pass
 
     @app.on_event("shutdown")
     async def shutdown_event():
         """Thực hiện các tác vụ dọn dẹp khi server tắt."""
-        print(f"🛑 [System] {settings.PROJECT_NAME} đang đóng kết nối...")
+        try:
+            print(f"[System] {settings.PROJECT_NAME} đang đóng kết nối...")
+        except Exception:
+            pass
 
     return app
 

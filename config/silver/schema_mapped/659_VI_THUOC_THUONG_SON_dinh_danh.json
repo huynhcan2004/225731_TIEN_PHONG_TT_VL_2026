@@ -1,0 +1,63 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUONG_SON",
+    "ten_raw": "Thường sơn",
+    "ten_khoa_hoc": "Artemisia apiacea Hance; Baeckea frutescens L.; Dichroa febrifuga Lour.",
+    "ho_thuc_vat": "Cúc Artemisia (Compositae); Sim Myrtaceae; Thường sơn Saxifragaceae",
+    "variants": [
+      "thảo cao",
+      "hương cao",
+      "thanh hao",
+      "Thanh cao (Herba Artemisiae apiaceae)",
+      "Vị Thường sơn (Radix Dichroae)",
+      "Lá và cành phơi hay sấy khô (Folium Dichroae)",
+      "thục tất"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ phơi hay sấy khô; lá và cành phơi hay sấy khô",
+      "phan_bo": "núi Thường Sơn",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": "Thường sơn"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "659"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thường sơn cho ta các vị thuốc sau đây: Vị Thường sơn (Radix Dichroae) là rễ phơi hay sấy khô của cây thường sơn. Lá và cành phơi hay sấy khô (Folium Dichroae) được gọi là thục tất. Trên thực tế ở Việt Nam người ta ít dùng rễ hoặc dùng cả rễ và lá đều gọi là thường sơn. Chữ Dichroa có nghĩa là 2 màu, febrifuga có nghĩa là đuổi sốt, vì cây và lá thường sơn có 2 màu tím đỏ và xanh lại có tác dụng chữa sốt do đó có tên này. Tên thường sơn vì có ở núi Thường Sơn, đất Thường sơn là một loại cây nhỡ cao 1-2m, thân rỗng, dễ gẫy, vỏ ngoài nhẵn màu tím. Lá mọc đối, hình mác hai đầu nhọn, dài $13-20cm$, rộng $35-90mm$, mép có răng cưa mặt trên xanh, mặt dưới tím đỏ, gân tím đỏ, không có lông hoặc hơi có lông. Hoa nhỏ màu xanh lam hay hồng, mọc thành chùm nhiều hoa mọc ở kẽ lá hay đầu cành. Quả mọng, khi chín màu xanh lam, đường kính $5mm$, một ngăn, hạt nhiều nhỏ hình lê có mang ở mặt, dài không đầy $1mm$ ( Hình 500, Hm 35,4)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_FEBRIFUGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$0,15$-$0,19$% là $febrifugin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUONG_SON",
+      "to": "HC_ISOFEBRIFUGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$0,1$% $isofebrifugin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_TIA_TO",
+  "source": {
+    "source_id": "CT_VT_VN_T663",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "663"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TIA_TO",
+      "to": "CN_THANH_NHIET_HANH_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt hành thuỷ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIA_TO",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Huyết áp hạ xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    },
+    {
+      "from": "VI_THUOC_TIA_TO",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Phân tiết dạ dày và ruột tăng cường, nhu động cũng tăng cường, niêm mạc dạ dày và ruột xuất huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T663"
+      }
+    }
+  ],
+  "metadata": {}
+}

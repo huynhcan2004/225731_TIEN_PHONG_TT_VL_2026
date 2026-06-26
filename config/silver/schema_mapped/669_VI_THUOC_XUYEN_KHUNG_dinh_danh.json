@@ -1,0 +1,99 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XUYEN_KHUNG",
+    "ten_raw": "Xuyên khung",
+    "ten_khoa_hoc": "Belamcanda sinensis (L) DC. (Pardanthus sinensis Ker., Ixia sinensis Murr.); Ligusticum wallichii Franch.",
+    "ho_thuc_vat": "Lay ơn Iridaceae; Hoa Tán Apiaceae (Umelliferae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Củ",
+      "thu_hai": "Cây trồng sau hai năm mới bắt đầu thu hoạch.",
+      "che_bien_tho": "Củ đào về, cắt bỏ cọng và rễ nhỏ, rũ sạch đất cát, phơi khô chỗ thoáng gió, nếu sấy, phải sấy ở nhiệt độ thấp cho khỏi bay mất nhiều tinh dau."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T669",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "669"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Xuyên khung là một cây thuộc thảo, sống lâu năm, thân mọc thẳng trong ruột rỗng, mặt ngoài có đường gân dọc nổi rõ. Lá mọc so le, kép 3 lần, cuống lá dài $9$-$17cm$, phía dưới ôm lấy thân, 3 đến 5 đôi lá chét, cuống lá chét dài, phiến lá chét rách sâu, khi vò có mùi thơm. Hoa họp thành tán kép, cuống tán phụ ngắn chừng $1cm$, hoa nhỏ, màu trắng. Song bế quả, hình trứng ( Hình 506)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_BELAMCANDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ $C_{22}H_{22}O_{12}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_TECTORIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong xạ can, người ta đã chiết ra được một chất glucozit gọi là $belamcandin$ $C_{22}H_{22}O_{12}$ và $tectoridin$ $CHO‚‚$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_IRIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$ $C_{27}H_{30}O_{14}$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_SHEKANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả còn tìm thấy một glucozit khác gọi là $iridin$ $C_{27}H_{30}O_{14}$, và $shekanin$ (xạ can tố) với hiệu suất $0,05\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_AXIT_FERULIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một axit C,H,O, với tỷ lệ chừng $0,02$ gần giống axit ferulic trong a nguỳ (Ferula asa-foetida L. thuộc họ Umbelliferae)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    },
+    {
+      "from": "VI_THUOC_XUYEN_KHUNG",
+      "to": "HC_CNIDIUM_LACTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu xuyên khung, người ta đã xác định được một chất lacton rất giống chất cnidium lacton đã tìm thấy trong một loại khung khác Cnidium offcinale Makino (xem ở dưới)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T669"
+      }
+    }
+  ]
+}

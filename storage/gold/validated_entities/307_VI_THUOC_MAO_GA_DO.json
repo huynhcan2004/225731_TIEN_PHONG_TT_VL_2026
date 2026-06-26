@@ -1,0 +1,358 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAO_GA_DO",
+    "ten_raw": "Cây mào gà đỏ",
+    "ten_khoa_hoc": "$Celosia cristata L.; Celosia argentea var. cristata (L.) O.Kuntze.$",
+    "ho_thuc_vat": "$Họ Dền (Amaranthaceae)$",
+    "variants": [
+      "Kê quan hoa"
+    ],
+    "properties": {
+      "lieu_dung_chung": "Thường dùng như thanh tương tử.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "[CT_VT_VN_T308]: Còn gọi là oa đề khôi, nhọ nồi."
+    },
+    "display_name": "Cây mào gà đỏ",
+    "canonical_name": "Cây mào gà đỏ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MAO_GA_DO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mao Ga Do"
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Luong"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "HC_CHAT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Beo"
+      }
+    },
+    {
+      "id": "S_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ra Mau"
+      }
+    },
+    {
+      "id": "B_DA_DAY_RUOT_CHAY_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Da Day Ruot Chay Mau"
+      }
+    },
+    {
+      "id": "B_TU_CUNG_XUAT_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tu Cung Xuat Huyet"
+      }
+    },
+    {
+      "id": "B_LY_RA_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly Ra Mau"
+      }
+    },
+    {
+      "id": "B_IA_RA_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ia Ra Mau"
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_DAI_NGAY_KHONG_HET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kinh Nguyet Dai Ngay Khong Het"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Cam Mau"
+      }
+    },
+    {
+      "id": "CN_LOI_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Loi Dom"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "307"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mào gà đỏ là một loại cỏ sống lâu năm, cao từ $30cm$ đến $1,5m$ hoặc hơn. Thân đứng, có cành nhẵn. Lá có cuống, phiến lá nguyên hình trứng đầu lá nhọn, phía gốc to rộng hơn lá cây mào gà trắng, Hoa đỏ, vàng hoặc trắng, cuống rất ngắn, mọc thành bông gần như không cuống hình vai với mép loe ra nhăn nheo. Quả hình trứng hay hình cầu. Hạt to hơn hạt mào gà trắng Hình 227. Mào gà đỏ",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt có chất béo, các chất khác chưa rõ."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Kê quan hoa vị ngọt, tính lương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Kê quan hoa vị ngọt, tính lương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và đại trường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt có chất béo, các chất khác chưa rõ.",
+        "ghi_chu": "các chất khác chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "CN_LOI_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Ngày uống $8-15$g.",
+        "cach_dung": "Sắc cả hoa và hạt mà uống. Có thể phơi khô, tán nhỏ chế thành thuốc viên. Chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "S_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $8-15$g.",
+        "cach_dung": "Sắc cả hoa và hạt mà uống. Có thể phơi khô, tán nhỏ chế thành thuốc viên. Chia làm nhiều lần uống trong ngày.",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "B_DA_DAY_RUOT_CHAY_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hoa mào gà đỏ khô $10$g (nếu dùng tươi dùng $25-30$g)",
+        "cach_dung": "Sấy khô, tán nhỏ. Chia làm nhiều lần uống trong ngày. Mỗi lần uống $1-2$g (kinh nghiệm nhân dân).",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "B_TU_CUNG_XUAT_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hoa mào gà đỏ khô $10$g (nếu dùng tươi dùng $25-30$g)",
+        "cach_dung": "Sấy khô, tán nhỏ. Chia làm nhiều lần uống trong ngày. Mỗi lần uống $1-2$g (kinh nghiệm nhân dân).",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "B_LY_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hoa mào gà đỏ khô $10$g (nếu dùng tươi dùng $25-30$g)",
+        "cach_dung": "Sấy khô, tán nhỏ. Chia làm nhiều lần uống trong ngày. Mỗi lần uống $1-2$g (kinh nghiệm nhân dân).",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "B_IA_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hoa mào gà đỏ khô $10$g (nếu dùng tươi dùng $25-30$g)",
+        "cach_dung": "Sấy khô, tán nhỏ. Chia làm nhiều lần uống trong ngày. Mỗi lần uống $1-2$g (kinh nghiệm nhân dân).",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "B_KINH_NGUYET_DAI_NGAY_KHONG_HET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Hoa mào gà đỏ khô $10$g (nếu dùng tươi dùng $25-30$g)",
+        "cach_dung": "Sấy khô, tán nhỏ. Chia làm nhiều lần uống trong ngày. Mỗi lần uống $1-2$g (kinh nghiệm nhân dân).",
+        "ghi_chu": "CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_DO",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T307",
+        "all_sources": [
+          "CT_VT_VN_T307"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 38.0,
+      "reliability_c_score": 0.7643,
+      "total_confidence_sum": 10.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

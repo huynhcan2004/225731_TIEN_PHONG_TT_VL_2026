@@ -1,0 +1,94 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MONG_LUNG_RONG",
+    "ten_raw": "Móng lưng rồng",
+    "ten_khoa_hoc": "Selaginella tamariscina (Beauv.) Spring",
+    "ho_thuc_vat": "Quyển bá Selaginellaceae",
+    "variants": [
+      "cây chân vịt",
+      "hồi sinh thảo",
+      "kiến thủy hoàn dương",
+      "trường sinh thảo",
+      "cải tử hoàn hồn thảo"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "phan_bo": "ven biển Nha Trang, Phan Rang, Đà Nẵng",
+      "thu_hai": "Thu hái toàn cây, cắt bỏ rễ con, dùng tươi hay phơi hoặc sấy khô, có khi sao toàn tính (thành than nhưng không thành tro) mà dùng.",
+      "che_bien_tho": "dùng tươi hay phơi hoặc sấy khô, có khi sao toàn tính (thành than nhưng không thành tro) mà dùng."
+    },
+    "display_name": "Móng lưng rồng"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T284",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "284"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Lương",
+        "kieng_ky_dac_biet": "phụ nữ có thai không dùng được"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thân mọc thành bởi, có khi kết bện với các giá rễ thành một gốc cao đến $10cm$, nom như thân kép. Cành bên của thân cũng mọc thành búi dài $5-12cm$, phân nhánh rẽ đôi mở ra trên đất. Lá nhỏ hình giáo hay ba cạnh, thuôn xếp lợp lên nhau, ôm lấy cành có dạng như cây liễu bách (từ đó có tên loài là tamariscina có nghĩa là dạng liễu bách Tamarix). Cây chịu được khô hạn. Khi khô ráo cành lá xếp lại cuộn tròn vào trong trông như chân vịt do đó có tên cây chân vịt. Khi gặp ẩm ướt, cành lại mọc vươn ra ngoài từ đó có tên hồi sinh thảo (cỏ sống trở lại) hay kiến thủy hoàn dương (gặp nước sống trở lại) từ đó gọi chệch ra trường sinh thảo (cỏ sống lâu), cải tử hoàn hồn thảo.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá móng lưng rồng có những hợp chất flavon như apigenin CHÃO, CH2O amentoflavon C3 HO (Arthur H. R.-Symposium on Phytochemistry, 1964, 236)."
+        ],
+        "ghi_chu_bo_sung": "Công đắng, tính lạnh và sáp, dùng tươi có tác dụng"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MONG_LUNG_RONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "VI_THUOC_MONG_LUNG_RONG",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "VI_THUOC_MONG_LUNG_RONG",
+      "to": "HC_APIGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá móng lưng rồng có những hợp chất flavon như apigenin CHÃO, CH2O amentoflavon C3 HO (Arthur H. R.-Symposium on Phytochemistry, 1964, 236)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    },
+    {
+      "from": "VI_THUOC_MONG_LUNG_RONG",
+      "to": "HC_AMENTOFLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá móng lưng rồng có những hợp chất flavon như apigenin CHÃO, CH2O amentoflavon C3 HO (Arthur H. R.-Symposium on Phytochemistry, 1964, 236)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T284"
+      }
+    }
+  ]
+}

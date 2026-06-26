@@ -1,0 +1,492 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NUOC_TIEU",
+    "ten_raw": "Nước tiểu",
+    "ten_khoa_hoc": "$Urina Hominis.$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [
+      "đồng tiện",
+      "nhân niệu",
+      "luân hồi tửu",
+      "hoàn nguyên thang"
+    ],
+    "properties": {
+      "bo_phan_dung": "nước tiểu",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống $100$ đến $200ml$, lúc đang còn ấm.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Nước tiểu",
+    "canonical_name": "Nước tiểu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NUOC_TIEU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Nuoc Tieu"
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Man"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "HC_URE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ure"
+      }
+    },
+    {
+      "id": "HC_AXIT_URIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Uric"
+      }
+    },
+    {
+      "id": "HC_AXIT_HIPURIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Hipuric"
+      }
+    },
+    {
+      "id": "HC_CREATININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Creatinin"
+      }
+    },
+    {
+      "id": "HC_KIEM_PURIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Kiem Puric"
+      }
+    },
+    {
+      "id": "HC_AXIT_AMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Amin"
+      }
+    },
+    {
+      "id": "HC_AXIT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Beo"
+      }
+    },
+    {
+      "id": "BT_CHAY_MAU_NUOC_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Chay Mau Nuoc Tieu"
+      }
+    },
+    {
+      "id": "S_SUNG_MONG_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sung Mong Rang"
+      }
+    },
+    {
+      "id": "S_CHAY_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay Mau"
+      }
+    },
+    {
+      "id": "BT_THO_HUYET_NUOC_TIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Tho Huyet Nuoc Tieu"
+      }
+    },
+    {
+      "id": "B_GAY_YEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Gay Yeu"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tho Huyet"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tien"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "990"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong nước tiểu có những chất như `$urê$`, `$axit uric$`, `$axit hipuric$`, `$creatinin$`, `$kiềm puric$`, `$axit amin$`, `$axit béo$`, các chất nội tiết (hocmon), vitamin và các men..."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo y học cổ truyền, nước tiểu vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo y học cổ truyền, nước tiểu tính hàn (lạnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_URE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$urê$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_AXIT_URIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$axit uric$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_AXIT_HIPURIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$axit hipuric$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_CREATININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$creatinin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_KIEM_PURIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$kiềm puric$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$axit amin$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "HC_AXIT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước tiểu có những chất như `$axit béo$`"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_NUOC_TIEU",
+      "to": "VI_THUOC_NUOC_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_NUOC_TIEU",
+      "to": "S_SUNG_MONG_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Ngậm",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAY_MAU_NUOC_TIEU",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Ngậm",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_HUYET_NUOC_TIEU",
+      "to": "VI_THUOC_NUOC_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$200ml$",
+        "vai_tro": "Chưa rõ",
+        "cach_dung": "Uống nóng ấm liên tiếp trong 1 tháng",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_HUYET_NUOC_TIEU",
+      "to": "B_GAY_YEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Uống nóng ấm liên tiếp trong 1 tháng",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_HUYET_NUOC_TIEU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Uống nóng ấm liên tiếp trong 1 tháng",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_HUYET_NUOC_TIEU",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Uống nóng ấm liên tiếp trong 1 tháng",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THO_HUYET_NUOC_TIEU",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Uống nóng ấm liên tiếp trong 1 tháng",
+        "ghi_chu": "CT_VT_VN_T991"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn, tính hàn (lạnh)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NUOC_TIEU",
+      "to": "DL_LOI_TIEN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Urê có tác dụng lợi tiểu. Nước tiểu có tác dụng chống phù nề cho phụ nữ sau khi sinh nở."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990",
+        "all_sources": [
+          "CT_VT_VN_T990"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 51.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:56"
+  }
+}

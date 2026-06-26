@@ -1,0 +1,196 @@
+{
+  "entity_hub": "VI_THUOC_BA_DAU",
+  "source": {
+    "source_id": "CT_VT_VN_T464",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "464"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_NIEM_MAC_DA_DAY_CAP_TINH_BA_B",
+      "to": "VI_THUOC_BA_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ba đậu phối hợp với cát cánh, bối mẫu giúp điều trị viêm niêm mạc dạ dày cấp tính, giảm đau bụng.",
+        "cach_dung": "Mỗi lần uống $0,20g$, dùng nước ấm mà chiêu.",
+        "ghi_chu": "Tất cả tán bột, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_VIEM_NIEM_MAC_DA_DAY_CAP_TINH_BA_B",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cát cánh hỗ trợ ba đậu trong điều trị viêm niêm mạc dạ dày cấp tính.",
+        "cach_dung": "Mỗi lần uống $0,20g$, dùng nước ấm mà chiêu.",
+        "ghi_chu": "Tất cả tán bột, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_VIEM_NIEM_MAC_DA_DAY_CAP_TINH_BA_B",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bối mẫu hỗ trợ ba đậu trong điều trị viêm niêm mạc dạ dày cấp tính.",
+        "cach_dung": "Mỗi lần uống $0,20g$, dùng nước ấm mà chiêu.",
+        "ghi_chu": "Tất cả tán bột, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_VIEM_NIEM_MAC_DA_DAY_CAP_TINH_BA_B",
+      "to": "B_VIEM_NIEM_MAC_DA_DAY_CAP_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bệnh viêm niêm mạc dạ dày cấp tính, đau bụng",
+        "cach_dung": "Mỗi lần uống $0,20g$, dùng nước ấm mà chiêu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_BA_DAU_BNTD",
+      "to": "VI_THUOC_BA_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ba đậu phối hợp với nhục quế, trầm hương, đinh hương giúp điều trị đau bụng do viêm dạ dày.",
+        "cach_dung": "Mỗi lần dùng $0,50g$ đến $1g$, dùng nước chiêu thuốc.",
+        "ghi_chu": "Tất cả tán nhỏ, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_BA_DAU_BNTD",
+      "to": "VI_THUOC_NHUC_QUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nhục quế hỗ trợ ba đậu trong điều trị đau bụng do viêm dạ dày.",
+        "cach_dung": "Mỗi lần dùng $0,50g$ đến $1g$, dùng nước chiêu thuốc.",
+        "ghi_chu": "Tất cả tán nhỏ, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_BA_DAU_BNTD",
+      "to": "VI_THUOC_TRAM_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Trầm hương hỗ trợ ba đậu trong điều trị đau bụng do viêm dạ dày.",
+        "cach_dung": "Mỗi lần dùng $0,50g$ đến $1g$, dùng nước chiêu thuốc.",
+        "ghi_chu": "Tất cả tán nhỏ, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_BA_DAU_BNTD",
+      "to": "VI_THUOC_DINH_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đinh hương hỗ trợ ba đậu trong điều trị đau bụng do viêm dạ dày.",
+        "cach_dung": "Mỗi lần dùng $0,50g$ đến $1g$, dùng nước chiêu thuốc.",
+        "ghi_chu": "Tất cả tán nhỏ, trộn đều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_BA_DAU_BNTD",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "dau bụng viêm dạ dày",
+        "cach_dung": "Mỗi lần dùng $0,50g$ đến $1g$, dùng nước chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_BA_DAU_H",
+      "to": "VI_THUOC_BA_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ba đậu phối hợp với hạnh nhân giúp lợi tiểu, chữa thủy thũng.",
+        "cach_dung": "Ngày 3 đến 6 viện. Uống đến khi lợi tiểu, đi ngoài nhuận thì thôi.",
+        "ghi_chu": "Chế thành viên bằng hạt đậu xanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_BA_DAU_H",
+      "to": "VI_THUOC_HANH_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hạnh nhân hỗ trợ ba đậu trong điều trị thủy thũng.",
+        "cach_dung": "Ngày 3 đến 6 viện. Uống đến khi lợi tiểu, đi ngoài nhuận thì thôi.",
+        "ghi_chu": "Chế thành viên bằng hạt đậu xanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_THUY_THUNG_BA_DAU_H",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thủy thũng",
+        "cach_dung": "Ngày 3 đến 6 viện. Uống đến khi lợi tiểu, đi ngoài nhuận thì thôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_BA_DAU_B",
+      "to": "VI_THUOC_BA_DAU",
+      "relation_type": "KIENG_KY_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "ngộ độc do ba đậu",
+        "cach_dung": "Uống nước hoàng liên, nước đậu đũa, nước lạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,170 @@
+{
+  "entity_hub": "VI_THUOC_NHOT_TAY",
+  "source": {
+    "source_id": "CT_VT_VN_T732",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "732"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_NHOT_TAY_N",
+      "to": "VI_THUOC_NHOT_TAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhót tây là vị thuốc duy nhất.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_HO_NHOT_TAY_N",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_NHOT_TAY_N",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_VIEM_HONG_NHOT_TAY_N",
+      "to": "B_VIEM_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm họng",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_NHOT_TAY_N",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_NON_RA_MAU_NHOT_TAY_N",
+      "to": "S_NON_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn ra máu",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHI_QUAN_MAN_TINH_TKC",
+      "to": "VT_TI_BA_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tì bà diệp giúp thanh phế, chỉ khái; Khoản đông hoa giúp nhuận phế, hạ khí; Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Lau sạch hết lông"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHI_QUAN_MAN_TINH_TKC",
+      "to": "VT_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Tì bà diệp giúp thanh phế, chỉ khái; Khoản đông hoa giúp nhuận phế, hạ khí; Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHI_QUAN_MAN_TINH_TKC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Tì bà diệp giúp thanh phế, chỉ khái; Khoản đông hoa giúp nhuận phế, hạ khí; Cam thảo giúp điều hòa các vị thuốc.",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_VIEM_KHI_QUAN_MAN_TINH_TKC",
+      "to": "B_VIEM_KHI_QUAN_MAN_TINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, viêm khí quản mãn tính",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_DO_MAU_CAM_T",
+      "to": "VT_TI_BA_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tì bà diệp là vị thuốc duy nhất.",
+        "cach_dung": "Uống bột",
+        "ghi_chu": "Lau sạch lông, sao vàng, tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    },
+    {
+      "from": "BT_DO_MAU_CAM_T",
+      "to": "S_DO_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đổ máu cam",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$ bột, chiêu bằng nước chè."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T732"
+      }
+    }
+  ],
+  "metadata": {}
+}

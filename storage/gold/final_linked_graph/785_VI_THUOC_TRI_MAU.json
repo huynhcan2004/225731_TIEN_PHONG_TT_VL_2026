@@ -1,0 +1,872 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TRI_MAU",
+    "ten_raw": "Tri mẫu",
+    "ten_khoa_hoc": "$Anemarrhena aspheloides Bunge$",
+    "ho_thuc_vat": "$Họ Hành Alliaceae (Liliaceae)$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Ngày dùng 4 đến 10$g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Tri mẫu",
+    "canonical_name": "Vị thuốc Tri mẫu"
+  },
+  "nodes": [
+    {
+      "id": "BT_BUNG_TRUONG_TO_TRI_MAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Bụng trướng tố trị máu",
+        "aliases": [
+          "bụng trướng tố trị máu",
+          "bungtruongtotrimau",
+          "bung truong to tri mau"
+        ],
+        "search_vector_hint": "Bài thuốc Bụng trướng tố trị máu thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "BT_DONG_THAI_TRI_MAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Động thai trị máu",
+        "aliases": [
+          "động thai trị máu",
+          "dong thai tri mau",
+          "dongthaitrimau"
+        ],
+        "search_vector_hint": "Bài thuốc Động thai trị máu thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Dương vật cương trị máu",
+        "aliases": [
+          "duong vat cuong tri mau",
+          "duongvatcuongtrimau",
+          "dương vật cương trị máu"
+        ],
+        "search_vector_hint": "Bài thuốc Dương vật cương trị máu thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "BT_VIEM_PHOI_TRI_MAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Viêm phổi trị máu",
+        "aliases": [
+          "viemphoitrimau",
+          "viem phoi tri mau",
+          "viêm phổi trị máu"
+        ],
+        "search_vector_hint": "Bài thuốc Viêm phổi trị máu thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "B_BUNG_TRUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bụng trướng",
+        "aliases": [
+          "truong bung",
+          "trướng bụng",
+          "bungtruong",
+          "bụng trướng",
+          "bungdayhoi",
+          "bung day hoi",
+          "truongbung",
+          "bung truong",
+          "bụng đầy hơi"
+        ],
+        "search_vector_hint": "Bụng trướng thuộc nhóm bệnh tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DONG_THAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Động thai",
+        "aliases": [
+          "dongthai",
+          "doa say thai",
+          "dọa sảy thai",
+          "động thai",
+          "doasaythai",
+          "dong thai"
+        ],
+        "search_vector_hint": "Bệnh Động thai thuộc nhóm bệnh, thường liên quan đến thai kỳ."
+      }
+    },
+    {
+      "id": "B_DUONG_VAT_CUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Dương vật cương",
+        "aliases": [
+          "dương vật cương",
+          "cuongduong",
+          "chung duong vat cuong cung",
+          "cuong duong",
+          "duong vat cuong",
+          "cương dương",
+          "chungduongvatcuongcung",
+          "chứng dương vật cương cứng",
+          "duongvatcuong"
+        ],
+        "search_vector_hint": "Bệnh Dương vật cương thuộc nhóm Bệnh, thường liên quan đến vấn đề sinh lý nam."
+      }
+    },
+    {
+      "id": "B_HAC_LAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hắc lào",
+        "aliases": [
+          "hắc lào",
+          "haclao",
+          "hac lao"
+        ],
+        "search_vector_hint": "Bệnh Hắc lào thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do nấm."
+      }
+    },
+    {
+      "id": "B_VIEM_PHOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm phổi",
+        "aliases": [
+          "viemphoi",
+          "viêm phổi",
+          "viem phoi"
+        ],
+        "search_vector_hint": "Bệnh Viêm phổi thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng đường hô hấp."
+      }
+    },
+    {
+      "id": "CN_BO_THUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ Thủy",
+        "aliases": [
+          "bothuy",
+          "bổ thủy",
+          "bo thuy"
+        ],
+        "search_vector_hint": "Bổ Thủy thuộc nhóm công năng, thường liên quan đến bổ sung tân dịch, tư âm."
+      }
+    },
+    {
+      "id": "CN_HA_THUY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hạ Thủy",
+        "aliases": [
+          "hathuy",
+          "hạ thủy",
+          "ha thuy"
+        ],
+        "search_vector_hint": "Hạ Thủy thuộc nhóm công năng, thường liên quan đến điều trị chứng thận âm hư."
+      }
+    },
+    {
+      "id": "CN_ICH_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích Khí",
+        "aliases": [
+          "ich khi",
+          "bokhi",
+          "bo khi",
+          "ích khí",
+          "bổ khí",
+          "ichkhi"
+        ],
+        "search_vector_hint": "Ích Khí thuộc nhóm công năng, thường liên quan đến tăng cường khí lực."
+      }
+    },
+    {
+      "id": "CN_TA_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả hỏa",
+        "aliases": [
+          "tahoa",
+          "ta hoa",
+          "tả hỏa"
+        ],
+        "search_vector_hint": "Công năng Tả hỏa thuộc nhóm công năng, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "CN_TU_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tư thận",
+        "aliases": [
+          "tuthan",
+          "tư thận",
+          "tu than"
+        ],
+        "search_vector_hint": "Công năng Tư thận thuộc nhóm Công năng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_ASPHONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Asphonin",
+        "aliases": [
+          "asphonin"
+        ],
+        "search_vector_hint": "Hoạt chất Asphonin thuộc nhóm Hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_HOANG_BA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng bá",
+        "aliases": [
+          "hoang ba",
+          "hoangba",
+          "hoàng bá"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng bá thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_MACH_MON_DONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mạch môn đông",
+        "aliases": [
+          "mach mon dong",
+          "mach dong",
+          "toc dong",
+          "machmondong",
+          "mạch môn đông",
+          "tốc đông",
+          "machdong",
+          "tocdong",
+          "mạch đông"
+        ],
+        "search_vector_hint": "Vị thuốc Mạch môn đông thuộc nhóm vị thuốc, thường dùng trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_MOC_THONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mộc thông",
+        "aliases": [
+          "mộc thông",
+          "moc thong",
+          "mocthong"
+        ],
+        "search_vector_hint": "Vị thuốc Mộc thông thuộc nhóm vị thuốc, thường liên quan đến lợi tiểu, thông kinh."
+      }
+    },
+    {
+      "id": "VT_SINH_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh Thao",
+        "aliases": [
+          "sinh thao",
+          "sinhthao"
+        ],
+        "search_vector_hint": "Vị thuốc Sinh Thao thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh."
+      }
+    },
+    {
+      "id": "VT_TANG_BACH_BI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tang bạch bì",
+        "aliases": [
+          "tang bach bi",
+          "tang bạch bì",
+          "tangbachbi"
+        ],
+        "search_vector_hint": "Vị thuốc Tang bạch bì thuộc nhóm vị thuốc, thường liên quan đến trị ho, hạ sốt."
+      }
+    },
+    {
+      "id": "VT_THIEN_MON_DONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thiên môn đông",
+        "aliases": [
+          "thienmondong",
+          "thiên môn đông",
+          "thien mon dong"
+        ],
+        "search_vector_hint": "Thiên môn đông thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_TRI_MAU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Tri mẫu",
+        "aliases": [
+          "trimau",
+          "tri mẫu",
+          "tri mau"
+        ],
+        "search_vector_hint": "Tri mẫu thuộc nhóm Vị thuốc, thường liên quan đến thanh nhiệt giáng hỏa.",
+        "lieu_dung_chung": "Ngày dùng 4 đến 10$g$ dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Anemarrhena aspheloides Bunge$",
+        "ho_thuc_vat": "$Họ Hành Alliaceae (Liliaceae)$",
+        "hinh_thai_chi_tiet": "Tri mẫu là một loại cỏ sống lâu năm, thân rễ chạy ngang. Lá mọc vòng, dài khoảng $20-30cm$, hẹp, đầu nhọn, phía dưới ôm vào nhau. Mùa hạ, ra cành mang hoa. Cao chừng $60-90cm$. Cụm hoa thành bông hoa nhỏ, màu trắng (Hình 597).",
+        "thanh_phan_hoa_hoc": "['Trong tri mẫu có một chất saponin gọi là $asphonin$. Ngoài ra còn một chất có tinh thể chưa xác định.']"
+      }
+    },
+    {
+      "id": "VT_XA_TIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xa tiền",
+        "aliases": [
+          "made",
+          "mã đề",
+          "xa tien",
+          "xa tiền",
+          "ma de",
+          "xatien"
+        ],
+        "search_vector_hint": "Vị thuốc Xa tiền thuộc nhóm Vị thuốc, thường liên quan đến lợi tiểu và thanh phế."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "785"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_THAN",
+          "K_TY",
+          "K_PHE"
+        ],
+        "cong_nang": "tu thận, bổ thuỷ, tả hoả, chữa tiêu khát, hạ thuỷ, ích khí"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tri mẫu là một loại cỏ sống lâu năm, thân rễ chạy ngang. Lá mọc vòng, dài khoảng $20-30cm$, hẹp, đầu nhọn, phía dưới ôm vào nhau. Mùa hạ, ra cành mang hoa. Cao chừng $60-90cm$. Cụm hoa thành bông hoa nhỏ, màu trắng (Hình 597).",
+        "thanh_phan_hoa_hoc": [
+          "Trong tri mẫu có một chất saponin gọi là $asphonin$. Ngoài ra còn một chất có tinh thể chưa xác định."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TRI_MAU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Tri mẫu có tính lạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Tri mẫu có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Tri mẫu quy vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Tri mẫu quy vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Tri mẫu quy vào kinh phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "HC_ASPHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tri mẫu có một chất saponin gọi là $asphonin$.",
+        "ghi_chu": "saponin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BUNG_TRUONG_TO_TRI_MAU",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tri mẫu, đan sâm, độc hoạt, hải tảo, quỉ vũ tiến...",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "theo Thiên Kim ngoại đài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BUNG_TRUONG_TO_TRI_MAU",
+      "to": "B_BUNG_TRUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_MAU",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_MAU",
+      "to": "VT_TANG_BACH_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_MAU",
+      "to": "VT_MACH_MON_DONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_PHOI_TRI_MAU",
+      "to": "B_VIEM_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_XA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_THIEN_MON_DONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "VT_SINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUONG_VAT_CUONG_TRI_MAU",
+      "to": "B_DUONG_VAT_CUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DONG_THAI_TRI_MAU",
+      "to": "VT_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$80g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Tán nhỏ, viên với mật bằng hạt ngô, mỗi ngày uống $20$ viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DONG_THAI_TRI_MAU",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Mài với dấm, bôi lên.",
+        "ghi_chu": "dùng ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "CN_TU_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tu thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "CN_BO_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ thuỷ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "CN_TA_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả hoả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "CN_HA_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạ thuỷ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRI_MAU",
+      "to": "CN_ICH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T785",
+        "all_sources": [
+          "CT_VT_VN_T785"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 50.5,
+      "reliability_c_score": 0.7571,
+      "total_confidence_sum": 21.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

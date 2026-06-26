@@ -1,0 +1,733 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_BACH_CAP",
+    "ten_raw": "Bạch cập",
+    "ten_khoa_hoc": "$Bletilla striata (Thunb.) Reichb.$",
+    "ho_thuc_vat": "$Lan Orchidaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "phơi hay sấy khô",
+      "lieu_dung_chung": "Ngày dùng từ 4 đến $12g$ dưới dạng thuốc bột hay thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Vị thuốc Bạch cập",
+    "canonical_name": "Vị thuốc Bạch cập"
+  },
+  "nodes": [
+    {
+      "id": "BT_VET_THUONG_DO_DAM_CHEM_BACH_CAP",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bệnh Vết thương do đâm chém Bạch cập",
+        "aliases": [
+          "vet thuong do dam chem bach cap",
+          "vetthuongdodamchembachcap",
+          "vết thương do đâm chém bạch cập"
+        ],
+        "search_vector_hint": "Bệnh Vết thương do đâm chém Bạch cập thuộc nhóm bệnh, thường liên quan đến vết thương hở."
+      }
+    },
+    {
+      "id": "B_BONG_LUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bỏng lửa",
+        "aliases": [
+          "bong lua",
+          "bonglua",
+          "bỏng lửa"
+        ],
+        "search_vector_hint": "Bệnh Bỏng lửa thuộc nhóm bệnh, thường liên quan đến tổn thương da do nhiệt."
+      }
+    },
+    {
+      "id": "B_DAU_MAT_DO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau mắt đỏ",
+        "aliases": [
+          "daumatdo",
+          "dau mat do",
+          "viemketmac",
+          "viêm kết mạc",
+          "đau mắt đỏ",
+          "viem ket mac"
+        ],
+        "search_vector_hint": "Bệnh Đau mắt đỏ thuộc nhóm bệnh, thường liên quan đến viêm nhiễm ở mắt."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT_SUNG_TAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt sưng tấy",
+        "aliases": [
+          "viêm da mủ",
+          "munnhotsungtay",
+          "mun mu",
+          "mụn mủ",
+          "mụn nhọt sưng tấy",
+          "viem da mu",
+          "munmu",
+          "viemdamu",
+          "mun nhot sung tay"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt sưng tấy thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da."
+      }
+    },
+    {
+      "id": "B_VET_THUONG_DO_DAM_CHEM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vết thương do đâm chém",
+        "aliases": [
+          "vetthuongdodamchem",
+          "vết thương do đâm chém",
+          "vet thuong do dam chem"
+        ],
+        "search_vector_hint": "Bệnh Vết thương do đâm chém thuộc nhóm bệnh, thường liên quan đến tổn thương da."
+      }
+    },
+    {
+      "id": "CN_BO_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ phế",
+        "aliases": [
+          "bo phe",
+          "bổ phế",
+          "bophe"
+        ],
+        "search_vector_hint": "Công năng Bổ phế thuộc nhóm công năng, thường liên quan đến tăng cường chức năng phổi."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_HOA_U",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hóa ứ",
+        "aliases": [
+          "hoa u",
+          "tan u",
+          "hóa ứ",
+          "hoau",
+          "tan ứ",
+          "tanu"
+        ],
+        "search_vector_hint": "Công năng Hóa ứ thuộc nhóm công năng, thường liên quan đến làm tan máu đông."
+      }
+    },
+    {
+      "id": "CN_SINH_CO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sinh cơ",
+        "aliases": [
+          "sinh cơ",
+          "sinhco",
+          "sinh co"
+        ],
+        "search_vector_hint": "Công năng Sinh cơ thuộc nhóm công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_CHAT_NHAY",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chất nhầy",
+        "aliases": [
+          "chat nhay",
+          "chất nhầy",
+          "chatnhay"
+        ],
+        "search_vector_hint": "Hoạt chất Chất nhầy thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_GLYCOGEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Glycogen",
+        "aliases": [
+          "glycogen"
+        ],
+        "search_vector_hint": "Hoạt chất Glycogen thuộc nhóm hoạt chất, thường liên quan đến dự trữ năng lượng trong cơ thể."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_CHAY_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Chảy máu cam thuộc nhóm Triệu chứng, thường liên quan đến tổn thương mạch máu ở mũi."
+      }
+    },
+    {
+      "id": "S_DO_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đỏ màu cam",
+        "aliases": [
+          "đỏ màu cam",
+          "do mau cam",
+          "domaucam"
+        ],
+        "search_vector_hint": "Đỏ màu cam thuộc nhóm triệu chứng, thường liên quan đến thay đổi sắc tố da."
+      }
+    },
+    {
+      "id": "S_HO_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho ra máu",
+        "aliases": [
+          "ho ra mau",
+          "ho ra máu",
+          "horamau"
+        ],
+        "search_vector_hint": "Triệu chứng Ho ra máu thuộc nhóm triệu chứng, thường liên quan đến bệnh lý hô hấp."
+      }
+    },
+    {
+      "id": "S_LY_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ly ra máu",
+        "aliases": [
+          "ly ra mau",
+          "lyramau",
+          "ly ra máu"
+        ],
+        "search_vector_hint": "Triệu chứng Ly ra máu thuộc nhóm triệu chứng, thường liên quan đến xuất huyết."
+      }
+    },
+    {
+      "id": "S_NON_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn ra máu",
+        "aliases": [
+          "nôn ra máu",
+          "nonramau",
+          "non ra mau"
+        ],
+        "search_vector_hint": "Nôn ra máu thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Thổ huyết thuộc nhóm Triệu chứng, thường liên quan đến xuất huyết đường tiêu hóa."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_BACH_CAP",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạch cập",
+        "aliases": [
+          "bachcap",
+          "bạch cập",
+          "bach cap"
+        ],
+        "search_vector_hint": "Vị thuốc Bạch cập thuộc nhóm vị thuốc, thường liên quan đến cầm máu, liền sẹo.",
+        "bo_phan_dung": "thân rễ",
+        "che_bien_tho": "phơi hay sấy khô",
+        "lieu_dung_chung": "Ngày dùng từ 4 đến $12g$ dưới dạng thuốc bột hay thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Bletilla striata (Thunb.) Reichb.$",
+        "ho_thuc_vat": "$Lan Orchidaceae$",
+        "hinh_thai_chi_tiet": "Bạch cập là một loại cây thảo, sống lâu năm, mọc hoang và được trồng ở những vùng đất ẩm, mát, có thân rễ, có vẩy. Lá mọc từ rễ lên, chừng 3 đến 5 lá hình mác dài từ $18$-$40cm$, rộng $2,5$-$5cm$, trên có nhiều nếp nhăn dọc. Vào đầu mùa hạ, ở đầu cành nở hoa rất đẹp màu đỏ tía. Quả hình thoi 6 cạnh ( Hình 577).",
+        "thanh_phan_hoa_hoc": "['Trong vị bạch cập có $55\\\\%$ chất nhầy, một ít tinh dầu và glycogen.']",
+        "cach_dung_bao_che": "Thân rễ bạch cập thu hái vào các tháng 2, tháng 8 ở những cây đã mọc được 2-3 năm, bỏ vảy và rễ con, rửa sạch, sấy nhỏ lửa cho khô hoặc để khô cứng mà dùng."
+      }
+    },
+    {
+      "id": "VT_THACH_CAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thạch cao",
+        "aliases": [
+          "thạch cao",
+          "thachcao",
+          "thach cao"
+        ],
+        "search_vector_hint": "Vị thuốc Thạch cao thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "766"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_BINH",
+        "quy_kinh": [
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bạch cập là một loại cây thảo, sống lâu năm, mọc hoang và được trồng ở những vùng đất ẩm, mát, có thân rễ, có vẩy. Lá mọc từ rễ lên, chừng 3 đến 5 lá hình mác dài từ $18$-$40cm$, rộng $2,5$-$5cm$, trên có nhiều nếp nhăn dọc. Vào đầu mùa hạ, ở đầu cành nở hoa rất đẹp màu đỏ tía. Quả hình thoi 6 cạnh ( Hình 577).",
+        "thanh_phan_hoa_hoc": [
+          "Trong vị bạch cập có $55\\%$ chất nhầy, một ít tinh dầu và glycogen."
+        ],
+        "cach_dung_bao_che": "Thân rễ bạch cập thu hái vào các tháng 2, tháng 8 ở những cây đã mọc được 2-3 năm, bỏ vảy và rễ con, rửa sạch, sấy nhỏ lửa cho khô hoặc để khô cứng mà dùng."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_BACH_CAP",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào phế kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "HC_CHAT_NHAY",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vị bạch cập có $55\\%$ chất nhầy, một ít tinh dầu và glycogen.",
+        "ghi_chu": "55\\%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vị bạch cập có $55\\%$ chất nhầy, một ít tinh dầu và glycogen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "HC_GLYCOGEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vị bạch cập có $55\\%$ chất nhầy, một ít tinh dầu và glycogen."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $10-15g$",
+        "cach_dung": "Uống với nước cơm hay nước cháo.",
+        "ghi_chu": "Bạch cập tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_DO_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $1$ đến $3g$",
+        "cach_dung": "Hoà với nước, đắp lên sống mũi và uống.",
+        "ghi_chu": "Bạch cập tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "B_BONG_LUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hoà với dầu vừng bôi lên | Dùng ngoài đắp lên",
+        "ghi_chu": "Bạch cập tán nhỏ | Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_THUONG_DO_DAM_CHEM_BACH_CAP",
+      "to": "VT_BACH_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_THUONG_DO_DAM_CHEM_BACH_CAP",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VET_THUONG_DO_DAM_CHEM_BACH_CAP",
+      "to": "B_VET_THUONG_DO_DAM_CHEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hai vị tán nhỏ, trộn đều, rắc lên vết thương rất chóng hàn miệng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_NON_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "S_LY_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "B_DAU_MAT_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "B_MUN_NHOT_SUNG_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp lên",
+        "ghi_chu": "Dùng theo kinh nghiệm cổ của nhân dân, làm thuốc cầm máu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "CN_BO_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "CN_SINH_CO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sinh cơ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "CN_HOA_U",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoá ứ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BACH_CAP",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T766",
+        "all_sources": [
+          "CT_VT_VN_T766"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 64.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

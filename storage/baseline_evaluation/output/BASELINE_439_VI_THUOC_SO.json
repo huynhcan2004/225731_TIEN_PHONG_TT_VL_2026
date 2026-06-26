@@ -1,0 +1,92 @@
+{
+  "entity": {
+    "id": "VT_SO",
+    "canonical_name": "Sổ",
+    "ten_khoa_hoc": "Dillenia indica L.",
+    "ho_thuc_vat": "Họ Sổ Dilleniaceae.",
+    "properties": {
+      "bo_phan_dung": "Lá, quả",
+      "thu_hai": "Mùa thu hái lá gần như quanh năm.",
+      "che_bien_tho": "Hái lá về dùng tươi hay phơi, sấy khô hoặc sao cho khô thơm mà dùng.",
+      "lieu_dung_chung": "Ngày dùng $10-20g$ lá dưới dạng thuốc sắc hay nấu thành cao.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_SO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tanin, glucoza và axit malic."
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tanin, glucoza và axit malic."
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tanin, glucoza và axit malic."
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "B_GIAI_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc",
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dạng thuốc sắc hay nấu thành cao"
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dạng thuốc sắc hay nấu thành cao"
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dạng thuốc sắc hay nấu thành cao"
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "S_PHU_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dạng thuốc sắc hay nấu thành cao"
+      }
+    },
+    {
+      "from": "VT_SO",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đầy bụng",
+        "lieu_luong": "$10-20g$",
+        "cach_dung": "Dạng thuốc sắc hay nấu thành cao"
+      }
+    }
+  ]
+}

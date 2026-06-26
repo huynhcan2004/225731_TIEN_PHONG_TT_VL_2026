@@ -1,0 +1,662 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_BAC_DEN",
+    "ten_raw": "Bắc đèn",
+    "ten_khoa_hoc": "$Juncus effusus L. var. decipiens Buch.; Juncus effusus$",
+    "ho_thuc_vat": "$họ Bấc Juncaceae$",
+    "variants": [
+      "đăng tâm thảo",
+      "đăng tâm",
+      "bấc đến"
+    ],
+    "properties": {
+      "bo_phan_dung": "ruột (lõi) cây bấc",
+      "lieu_dung_chung": "Ngày dùng $1$-$2$g dưới dạng thuốc sắc hoặc thuốc bột.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Mọc hoang và được trồng ở những nơi ẩm ướt ở nước ta (Nam Định, Hà Nam...)",
+      "thu_hai": "mùa thu cắt toàn cây về, rạch dọc để lấy lõi riêng ra, bó thành từng bó",
+      "che_bien_tho": "phơi khô",
+      "trieu_chung_ngo_doc": "Chưa rõ"
+    },
+    "display_name": "Vị thuốc Bạc đen",
+    "canonical_name": "Vị thuốc Bạc đen"
+  },
+  "nodes": [
+    {
+      "id": "BT_MAT_NGU_BAC_DEN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mất ngủ Bạc đen",
+        "aliases": [
+          "matngubacden",
+          "mất ngủ bạc đen",
+          "mat ngu bac den"
+        ],
+        "search_vector_hint": "Bài thuốc Mất ngủ Bạc đen thuộc nhóm bài thuốc, thường liên quan đến điều trị mất ngủ."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_PHU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phù",
+        "aliases": [
+          "phù",
+          "phu"
+        ],
+        "search_vector_hint": "Phù thuộc nhóm bệnh, thường liên quan đến các vấn đề sức khỏe."
+      }
+    },
+    {
+      "id": "B_VIEM_CO_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm cổ họng",
+        "aliases": [
+          "viêm họng",
+          "viêm cổ họng",
+          "viem co hong",
+          "viem hong",
+          "viemhong",
+          "viemcohong"
+        ],
+        "search_vector_hint": "Bệnh Viêm cổ họng thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường hô hấp trên."
+      }
+    },
+    {
+      "id": "CN_AN_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "trantinh",
+          "an than",
+          "trấn tĩnh",
+          "an thần",
+          "anthan",
+          "tran tinh"
+        ],
+        "search_vector_hint": "An thần thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_GIANG_TAM_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giáng tâm hỏa",
+        "aliases": [
+          "giangtamhoa",
+          "giáng tâm hỏa",
+          "giang tam hoa"
+        ],
+        "search_vector_hint": "Công năng Giáng tâm hỏa thuộc nhóm công năng, thường liên quan đến việc làm giảm hỏa nhiệt ở tim."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu tiện",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu tiện",
+          "loi tieu tien",
+          "loi nieu",
+          "loitieutien"
+        ],
+        "search_vector_hint": "Công năng Lợi tiểu tiện thuộc nhóm Công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "CN_THANH_PHE_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh phế nhiệt",
+        "aliases": [
+          "thanh phe nhiet",
+          "thanh phế nhiệt",
+          "thanhphenhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh phế nhiệt thuộc nhóm công năng, thường liên quan đến làm mát phổi và giảm nhiệt."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEU_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thông tiểu tiện",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "thông tiểu tiện",
+          "loi nieu",
+          "thongtieutien",
+          "thong tieu tien"
+        ],
+        "search_vector_hint": "Công năng Thông tiểu tiện thuộc nhóm Công năng, thường liên quan đến hệ tiết niệu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_MAT_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mất ngủ",
+        "aliases": [
+          "trằn trọc",
+          "mat ngu",
+          "khó ngủ",
+          "tran troc",
+          "matngu",
+          "kho ngu",
+          "trantroc",
+          "khongu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Mất ngủ thuộc nhóm Triệu chứng, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_TAM_PHIEN_MAT_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tầm phiền mất ngủ",
+        "aliases": [
+          "matngudoloau",
+          "mat ngu do lo au",
+          "khó ngủ",
+          "tamphienmatngu",
+          "tam phien mat ngu",
+          "kho ngu",
+          "tầm phiền mất ngủ",
+          "khongu",
+          "mất ngủ do lo âu"
+        ],
+        "search_vector_hint": "Triệu chứng Tầm phiền mất ngủ thuộc nhóm triệu chứng, thường liên quan đến rối loạn giấc ngủ."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_BAC_DEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bạc đen",
+        "aliases": [
+          "bac den",
+          "bạc đen",
+          "bacden"
+        ],
+        "search_vector_hint": "Vị thuốc Bạc đen thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc y học cổ truyền.",
+        "bo_phan_dung": "ruột (lõi) cây bấc",
+        "lieu_dung_chung": "Ngày dùng $1$-$2$g dưới dạng thuốc sắc hoặc thuốc bột.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Mọc hoang và được trồng ở những nơi ẩm ướt ở nước ta (Nam Định, Hà Nam...)",
+        "thu_hai": "mùa thu cắt toàn cây về, rạch dọc để lấy lõi riêng ra, bó thành từng bó",
+        "che_bien_tho": "phơi khô",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "ten_khoa_hoc": "$Juncus effusus L. var. decipiens Buch.; Juncus effusus$",
+        "ho_thuc_vat": "$họ Bấc Juncaceae$",
+        "hinh_thai_chi_tiet": "Cây bấc là một loại cỏ sống lâu năm, thân tròn cứng, mọc thành cụm dày cao độ $35-100cm$, đường kính của thân chừng $1-2mm$, mặt ngoài thân có màu xanh nhạt, có vạch dọc. Ruột (lõi) cây bấc cấu tạo bởi những tế bào hình ngôi sao để hở ra nhiều lỗ khuyết lớn. Lá bị giảm rất nhiều, chỉ còn lại bẹ ở gốc thân. Hoa đều, lưỡng tính, mọc thành vòng. Bao hoa khô xác (Hình 165).",
+        "thanh_phan_hoa_hoc": "['Hoạt chất chưa rõ.']",
+        "lieu_dung_tong_quat": "Chưa rõ",
+        "ghi_chu_bo_sung": "Chưa rõ",
+        "cach_dung_bao_che": "Đăng tâm thảo (Medulla Junci caulis) là ruột phơi khô của thân cây bấc đèn."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "238"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_TAM",
+          "K_TIEU_TRANG",
+          "K_PHE"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bấc là một loại cỏ sống lâu năm, thân tròn cứng, mọc thành cụm dày cao độ $35-100cm$, đường kính của thân chừng $1-2mm$, mặt ngoài thân có màu xanh nhạt, có vạch dọc. Ruột (lõi) cây bấc cấu tạo bởi những tế bào hình ngôi sao để hở ra nhiều lỗ khuyết lớn. Lá bị giảm rất nhiều, chỉ còn lại bẹ ở gốc thân. Hoa đều, lưỡng tính, mọc thành vòng. Bao hoa khô xác (Hình 165).",
+        "thanh_phan_hoa_hoc": [
+          "Hoạt chất chưa rõ."
+        ],
+        "lieu_dung_tong_quat": "Chưa rõ",
+        "ghi_chu_bo_sung": "Chưa rõ",
+        "cach_dung_bao_che": "Đăng tâm thảo (Medulla Junci caulis) là ruột phơi khô của thân cây bấc đèn."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_BAC_DEN",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "S_TAM_PHIEN_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_THONG_TIEU_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_AN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "B_VIEM_CO_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc với nước",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_BAC_DEN",
+      "to": "VT_BAC_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_BAC_DEN",
+      "to": "B_PHU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Sắc với nước, uống thay nước chè trong ngày làm thuốc lợi tiểu",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MAT_NGU_BAC_DEN",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Sắc với nước, uống thay nước chè trong ngày làm thuốc lợi tiểu",
+        "ghi_chu": "CT_VT_VN_T239"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_GIANG_TAM_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính hàn, vào ba kinh tâm, phế và tiểu trường. Có tác dụng giáng tâm hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_THANH_PHE_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính hàn, vào ba kinh tâm, phế và tiểu trường. Có tác dụng thanh phế nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_BAC_DEN",
+      "to": "CN_LOI_TIEU_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt, tính hàn, vào ba kinh tâm, phế và tiểu trường. Có tác dụng lợi tiểu trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T238",
+        "all_sources": [
+          "CT_VT_VN_T238"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 52.0,
+      "reliability_c_score": 0.76,
+      "total_confidence_sum": 15.2
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

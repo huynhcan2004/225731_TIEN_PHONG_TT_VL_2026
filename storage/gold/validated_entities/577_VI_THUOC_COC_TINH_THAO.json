@@ -1,0 +1,296 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_COC_TINH_THAO",
+    "ten_raw": "Cốc tỉnh thảo",
+    "ten_khoa_hoc": "$Eriocaulon sexangulare L.$",
+    "ho_thuc_vat": "$Cốc tinh thảo Eriocaulaceae$",
+    "variants": [
+      "cỏ đuôi công",
+      "cây cốc tinh",
+      "cỏ dùi trống"
+    ],
+    "properties": {
+      "bo_phan_dung": "chưa rõ",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Ngày dùng $6$-$10$g dưới dạng thuốc bột hay thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "chưa rõ",
+      "phan_bo": "những nơi ẩm thấp tại nhiều tỉnh miền Bắc nước ta. Nhiều nhất tại các tỉnh Bắc Giang, Thái Nguyên và Lạng Sơn."
+    },
+    "display_name": "Cốc tỉnh thảo",
+    "canonical_name": "Cốc tỉnh thảo"
+  },
+  "nodes": [
+    {
+      "id": "BT_VIEM_GIAC_MAC_TINH_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Viem Giac Mac Tinh Thao"
+      }
+    },
+    {
+      "id": "VI_THUOC_COC_TINH_THAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Coc Tinh Thao"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHONG_PHONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Phong Phong"
+      }
+    },
+    {
+      "id": "B_VIEM_KET_MAC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Ket Mac"
+      }
+    },
+    {
+      "id": "B_VIEM_GIAC_MAC",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Giac Mac"
+      }
+    },
+    {
+      "id": "BT_THIEN_DAU_THONG_COC_TINH_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Thien Dau Thong Coc Tinh Thao"
+      }
+    },
+    {
+      "id": "B_THIEN_DAU_THONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thien Dau Thong"
+      }
+    },
+    {
+      "id": "BT_NHUC_DAU_COC_TINH_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Nhuc Dau Coc Tinh Thao"
+      }
+    },
+    {
+      "id": "VI_THUOC_DIA_LONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Dia Long"
+      }
+    },
+    {
+      "id": "VI_THUOC_NHI_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Nhi Huong"
+      }
+    },
+    {
+      "id": "B_NHUC_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Nhuc Dau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "577"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là cỏ đuôi công, cây cốc tinh, cỏ dùi trống.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy có tài liệu nghiên cứu"
+        ],
+        "cach_dung_bao_che": "Nếu chỉ dùng hoa bỏ cán đi thì gọi là cổ tinh châu."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_VIEM_GIAC_MAC_TINH_THAO",
+      "to": "VI_THUOC_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_GIAC_MAC_TINH_THAO",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_GIAC_MAC_TINH_THAO",
+      "to": "B_VIEM_KET_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_GIAC_MAC_TINH_THAO",
+      "to": "B_VIEM_GIAC_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_COC_TINH_THAO",
+      "to": "VI_THUOC_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_COC_TINH_THAO",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_COC_TINH_THAO",
+      "to": "VI_THUOC_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_COC_TINH_THAO",
+      "to": "VI_THUOC_DIA_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_COC_TINH_THAO",
+      "to": "VI_THUOC_NHI_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NHUC_DAU_COC_TINH_THAO",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577",
+        "all_sources": [
+          "CT_VT_VN_T577"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 26.0,
+      "reliability_c_score": 0.7682,
+      "total_confidence_sum": 8.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

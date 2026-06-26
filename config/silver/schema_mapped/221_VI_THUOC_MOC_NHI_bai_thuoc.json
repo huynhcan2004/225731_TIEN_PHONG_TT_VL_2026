@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_MOC_NHI",
+  "source": {
+    "source_id": "CT_VT_VN_T221",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "221"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_MOC_NHI_M",
+      "to": "VI_THUOC_MOC_NHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc nhĩ là vị thuốc chính trong bài thuốc chữa lỵ.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày.",
+        "ghi_chu": "Không có thông tin đặc biệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_MOC_NHI_M",
+      "to": "VI_THUOC_MOC_NHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc nhĩ là vị thuốc chính trong bài thuốc chữa táo bón.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày.",
+        "ghi_chu": "Không có thông tin đặc biệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_RONG_HUYET_MOC_NHI_M",
+      "to": "VI_THUOC_MOC_NHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc nhĩ là vị thuốc chính trong bài thuốc chữa rong huyết.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày.",
+        "ghi_chu": "Không có thông tin đặc biệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_LY_MOC_NHI_M",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mộc nhĩ được dùng làm thuốc chữa lỵ.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_MOC_NHI_M",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mộc nhĩ được dùng làm thuốc chữa táo bón.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "BT_RONG_HUYET_MOC_NHI_M",
+      "to": "B_RONG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mộc nhĩ được dùng làm thuốc chữa rong huyết.",
+        "cach_dung": "Dưới dạng thuốc bột (sao cháy, tán bột), chia làm nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    }
+  ],
+  "metadata": {}
+}

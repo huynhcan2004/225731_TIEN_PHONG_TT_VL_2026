@@ -1,0 +1,97 @@
+{
+  "entity_hub": "VI_THUOC_DUA",
+  "source": {
+    "source_id": "CT_VT_VN_T274",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "274"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TIEN_KHO_DAI_RA_SOI_SAN_DUA_D",
+      "to": "VI_THUOC_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dứa có tác dụng lợi tiểu, giúp làm tan và đào thải sỏi sạn.",
+        "mo_ta_chi_tiet": "Rễ cây dứa dùng làm thuốc lợi tiểu.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T275"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "BT_TIEN_KHO_DAI_RA_SOI_SAN_DUA_D",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn, đái ra sỏi sạn.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_DUA_D",
+      "to": "VI_THUOC_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dịch ép lá và quả dứa chưa chín có tác dụng tẩy nhuận tràng.",
+        "mo_ta_chi_tiet": "Dịch ép lá và quả chưa chín dùng làm thuốc tẩy nhuận tràng.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T275"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_DUA_D",
+      "to": "S_TAO_BON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc tẩy nhuận tràng.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "BT_SOT_DUA_N",
+      "to": "VI_THUOC_DUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nõn dứa có tác dụng hạ sốt.",
+        "mo_ta_chi_tiet": "Nõn dứa dùng chữa sốt.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát lấy nước uống",
+        "ghi_chu": "CT_VT_VN_T275"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    },
+    {
+      "from": "BT_SOT_DUA_N",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T274"
+      }
+    }
+  ],
+  "metadata": {}
+}

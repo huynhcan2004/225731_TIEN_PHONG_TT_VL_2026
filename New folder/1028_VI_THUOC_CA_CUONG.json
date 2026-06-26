@@ -1,0 +1,135 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_CUONG",
+    "ten_raw": "Cà cuống",
+    "ten_khoa_hoc": "Belostoma indica Vitalis (Lethocerus indicus Lep.); Belostoma indica",
+    "ho_thuc_vat": "Không có",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Không đề cập",
+      "thu_hai": "Không đề cập",
+      "che_bien_tho": "Không đề cập",
+      "lieu_dung_chung": "Trong nhân dân thường dùng dầu cà cuống với liều rất nhỏ khi ăn những thức ăn nhiều mỡ, thịt như bánh cuốn, bún thang.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Cà cuống"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_CUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Cuong"
+      }
+    },
+    {
+      "id": "HC_HEXANOL_AXETAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hexanol Axetat"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Than Kinh"
+      }
+    },
+    {
+      "id": "DL_HUNG_PHAN_BO_PHAN_SINH_DUC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Hung Phan Bo Phan Sinh Duc"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1028",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1028"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cà cuống là một loại côn trùng khi non gần giống như con dãn, mình dài $7$-$8cm$, rộng $3cm$, màu nâu xám, có nhiều vạch đen, đầu nhỏ, với hai mắt tròn và to, miệng là một ngòi nhọn hút thức ăn. Ngực dài bằng $1/3$ thân, có $6$ chân dài, khỏe. Bụng vàng nhạt, có lông mịn, ở phía trên có một bộ cánh mỏng nửa mềm nửa cứng. Khi mổ cà cuống, ta sẽ thấy cà cuống có một bộ máy tiêu hóa dài khoảng $45cm$, gồm một ống đầu trên nhỏ là cuống họng, đầu dưới phình to chứa một thứ nước có mùi hội. Sát ngay bầu chứa nước này là $2$ ngòi nhọn mà con cà cuống có thể thò ra thụt vào được. Nếu lấy tay rút mạnh $2$ ngòi này thì cả bộ tiêu hóa của cà cuống có thể bị lòi ra ngoài. Ở dưới ngực, ngay gần phía lưng có hai ống nhỏ gọi là bọng cà cuống. Mỗi bọng dài $2$-$3cm$, rộng $2$-$3mm$, màu trắng, trong chứa một chất lỏng thơm, đó chính là tinh dầu cà cuống. Nhưng chỉ có con đực mới có tuyến này phát triển (Hình 751).",
+        "thanh_phan_hoa_hoc": [
+          "Dầu cà cuống là một hexanol axetat có công thức thô là $CH_3O COCH_3$, cấu trúc của chất thơm này là một trans A 2-hexen-loxetat."
+        ],
+        "lieu_dung_tong_quat": "Trung bình một con cho $0,02ml$, $1.000$ con đực mới thu được chừng $20ml$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_CUONG",
+      "to": "HC_HEXANOL_AXETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu cà cuống là một hexanol axetat có công thức thô là $CH_3O COCH_3$, cấu trúc của chất thơm này là một trans A 2-hexen-loxetat.",
+        "ghi_chu": "công thức thô là $CH_3O COCH_3$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1028"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_CUONG",
+      "to": "BT_THUC_AN_NHIEU_MO_THIT_CA_CUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Rất nhỏ",
+        "vai_tro": "Chưa rõ",
+        "cach_dung": "Dùng dầu cà cuống với liều rất nhỏ khi ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1028"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_CUONG",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng Cà cuống với liều cao có thể gây ngộ độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1028"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_CUONG",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng Cà cuống với liều nhỏ thì có tác dụng kích thích thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1028"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_CUONG",
+      "to": "DL_HUNG_PHAN_BO_PHAN_SINH_DUC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng Cà cuống với liều nhỏ thì có tác dụng hưng phấn bộ phận sinh dục."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1028"
+      }
+    }
+  ]
+}

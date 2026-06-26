@@ -1,0 +1,229 @@
+{
+  "entity_hub": "VI_THUOC_NHOI",
+  "source": {
+    "source_id": "CT_VT_VN_T76",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "76"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_IA_CHAY_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị ỉa chảy.",
+        "cach_dung": "Sắc với $200ml$ nước, uống thay nước.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_NHOI_N",
+      "to": "B_IA_CHAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ỉa chảy",
+        "cach_dung": "Sắc với $200ml$ nước, uống thay nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_TRUNG_ROI_AM_DAO_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị khí hư do trùng roi âm đạo.",
+        "cach_dung": "Nấu với nước nhiều lần; lọc lấy nước cô đặc còn $50 ml$; bôi vào âm đạo",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_TRUNG_ROI_AM_DAO_NHOI_N",
+      "to": "B_VIEM_AM_DAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khí hư do trùng roi âm đạo (Trichomonas vaginalis)",
+        "cach_dung": "Nấu với nước nhiều lần; lọc lấy nước cô đặc còn $50 ml$; bôi vào âm đạo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_SOT_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị sốt, lỵ, ho ra máu, bạch đới, khí hư.",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_SOT_NHOI_N",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_LY_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị sốt, lỵ, ho ra máu, bạch đới, khí hư.",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_LY_NHOI_N",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị sốt, lỵ, ho ra máu, bạch đới, khí hư.",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_HO_RA_MAU_NHOI_N",
+      "to": "S_HO_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho ra máu",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_BACH_DAI_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị sốt, lỵ, ho ra máu, bạch đới, khí hư.",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_BACH_DAI_NHOI_N",
+      "to": "B_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị sốt, lỵ, ho ra máu, bạch đới, khí hư.",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_NHOI_N",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khí hư",
+        "cach_dung": "Giã vắt lấy nước uống hoặc sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_NHOI_N",
+      "to": "VI_THUOC_NHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhôi là vị thuốc chính để điều trị mụn nhọt.",
+        "cach_dung": "Giã đắp lên mụn nhọt.",
+        "ghi_chu": "Không có ghi chú đặc biệt nào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_NHOI_N",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Giã đắp lên mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T76"
+      }
+    }
+  ],
+  "metadata": {}
+}

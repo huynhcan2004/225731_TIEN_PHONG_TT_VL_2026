@@ -1,0 +1,200 @@
+{
+  "entity_hub": "VI_THUOC_BAM_BAM",
+  "source": {
+    "source_id": "CT_VT_VN_T693",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "693"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAM_GOI_BAM_BAM_V",
+      "to": "VI_THUOC_BÀM_BÀM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị để làm sạch và chăm sóc tóc, da.",
+        "cach_dung": "Ngâm vỏ cây bàm bàm vào nước để tạo nước tắm hoặc gội đầu.",
+        "ghi_chu": "Vỏ cây hải về cắt thành từng mảnh, đập nát, phơi hay sấy khô. Khi dùng ngâm vào nước sẽ được một thứ nước màu nâu đỏ, dùng tắm hay gội đầu. Gỗ tuy chứa ít saponin hơn nhưng cũng dùng được. Hạt gần chín phơi khô cũng dùng thay vỏ và gỗ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "VI_THUOC_BÀM_BÀM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bàm bàm kết hợp với găng trâu và lá chanh giúp hạ sốt, giảm co giật ở trẻ em.",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió.",
+        "ghi_chu": "Phối hợp với lá găng trâu, lá chanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "VT_GANG_TRAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bàm bàm kết hợp với găng trâu và lá chanh giúp hạ sốt, giảm co giật ở trẻ em.",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió.",
+        "ghi_chu": "Phối hợp với lá bàm bàm, lá chanh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "VT_CHANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bàm bàm kết hợp với găng trâu và lá chanh giúp hạ sốt, giảm co giật ở trẻ em.",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió.",
+        "ghi_chu": "Phối hợp với lá bàm bàm, lá găng trâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "B_SỐT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nóng, sốt, sài giật trẻ em",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "B_SÀI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nóng, sốt, sài giật trẻ em",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_NONG_SOT_SAI_GIAT_BAM_BAM_LGL",
+      "to": "S_GIẬT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nóng, sốt, sài giật trẻ em",
+        "cach_dung": "Giã nhỏ, xát khắp người trẻ em như kiểu đánh gió."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_GHE_BAM_BAM_V",
+      "to": "VI_THUOC_BÀM_BÀM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị để trị ghẻ.",
+        "cach_dung": "Giã nát ngâm nước, dùng nước ấy tắm ghẻ, bã vỏ thì xát lên người vào những nơi ghẻ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_GHE_BAM_BAM_V",
+      "to": "B_GHẺ",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ghẻ",
+        "cach_dung": "Giã nát ngâm nước, dùng nước ấy tắm ghẻ, bã vỏ thì xát lên người vào những nơi ghẻ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAM_BAM_H",
+      "to": "VI_THUOC_BÀM_BÀM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị để sơ cứu vết rắn cắn.",
+        "cach_dung": "Đặt hạt bàm bàm lên vết rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BAM_BAM_H",
+      "to": "B_RẮN_CẮN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết rắn cắn",
+        "cach_dung": "Đặt lên vết rắn cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_LOI_TIEU_BAM_BAM_T",
+      "to": "VI_THUOC_BÀM_BÀM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dùng độc vị để hạ sốt và lợi tiểu.",
+        "cach_dung": "Ngày dùng",
+        "ghi_chu": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_LOI_TIEU_BAM_BAM_T",
+      "to": "B_SỐT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, lợi tiểu",
+        "cach_dung": "Ngày dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    },
+    {
+      "from": "BT_SOT_LOI_TIEU_BAM_BAM_T",
+      "to": "S_LỢI_TIỂU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt, lợi tiểu",
+        "cach_dung": "Ngày dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T693"
+      }
+    }
+  ],
+  "metadata": {}
+}

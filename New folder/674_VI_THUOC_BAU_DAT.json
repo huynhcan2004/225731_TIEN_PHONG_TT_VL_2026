@@ -1,0 +1,241 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAU_DAT",
+    "ten_raw": "Bầu đất",
+    "ten_khoa_hoc": "Gynura sarmentosa DC.; Gynura finlaysoniana DC.; Cacalia cylindriflora Wall.; Cacalia procumbens Lour.; Sonchus volubilis Rumph.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Lá",
+      "thu_hai": "Không rõ",
+      "che_bien_tho": "Không rõ",
+      "lieu_dung_chung": "Ngày dùng $30-40$g hay hơn dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Cây bầu đất được trồng và mọc hoang ở nhiều nơi trong nước ta, từ Nam đến Bắc, miền núi cũng như miền xuôi."
+    },
+    "display_name": "Bầu đất"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BAU_DAT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bau Dat"
+      }
+    },
+    {
+      "id": "B_SOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Soi"
+      }
+    },
+    {
+      "id": "B_SCACLATIN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Scaclatin"
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_KHONG_DEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kinh Nguyet Khong Deu"
+      }
+    },
+    {
+      "id": "B_THIEU_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Thieu Mau"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    },
+    {
+      "id": "B_BENH_VE_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Ve Than"
+      }
+    },
+    {
+      "id": "B_DAU_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Mat"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T674",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "674"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bầu đất là một loại cỏ có nhiều cành, thân rất nhẫn, trong như mọng nước. Lá hình trứng tròn hay tù ở đáy lá, nhọn ở đầu, hơi có răng nhỏ ở mép, dài $3$-$8cm$, rộng $0,5$-$1,5cm$, rất nhẵn, mọng nước, cuống ngắn. Phiến lá trên mặt màu xanh thầm trông như đen, mặt dưới màu đỏ tím, do đó có tên; Thiên hắc, nghĩa là trời (ý nói mặt trên) có màu đen, địa hồng nghĩa là mặt dưới màu hồng. Cụm hoa hình đầu màu vàng cam, mọc thành ngù kép, lá bắc ngoài hình sợi, dài $6mm$, lá bắc phía trong $8$-$12$ chiếc, dài $15mm$, hơi khô xác ở mép. Quả bế hình trụ, nhẵn, có $10$ sống.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "BT_SO_T",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_SOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_SCACLATIN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "BT_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "BT_THIEU_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_THIEU_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "BT_LY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "BT_BENH_VE_THAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_BENH_VE_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    },
+    {
+      "from": "VI_THUOC_BAU_DAT",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vài hạt muối",
+        "cach_dung": "Lá rửa sạch, thêm vài hạt muối, giã nhỏ đắp lên mắt đau",
+        "ghi_chu": "Chỉ định lâm sàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T674"
+      }
+    }
+  ]
+}

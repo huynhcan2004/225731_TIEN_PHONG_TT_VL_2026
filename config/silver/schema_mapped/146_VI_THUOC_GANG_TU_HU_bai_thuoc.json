@@ -1,0 +1,52 @@
+{
+  "entity_hub": "VI_THUOC_GANG_TU_HU",
+  "source": {
+    "source_id": "CT_VT_VN_T146",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "146"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_GANG_TU_HU_G",
+      "to": "VI_THUOC_GANG_TU_HU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc trị mụn nhọt.",
+        "cach_dung": "Bỏ đất, tán quả thành bột rắc quanh nơi loét.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T146"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_GANG_TU_HU_G",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, lở loét.",
+        "cach_dung": "Bỏ đất, tán quả thành bột rắc quanh nơi loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T146"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_GANG_TU_HU_G",
+      "to": "S_LO_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, lở loét.",
+        "cach_dung": "Bỏ đất, tán quả thành bột rắc quanh nơi loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T146"
+      }
+    }
+  ],
+  "metadata": {}
+}

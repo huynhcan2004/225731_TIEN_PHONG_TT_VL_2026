@@ -1,0 +1,246 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BO_MAY",
+    "ten_raw": "Bọ mẩy",
+    "ten_khoa_hoc": "$Clerodendron cyrtophyllum Turcz. (Clerodendron amplius Hance, Clerodendron formosanum Maxim., Cordia venosa Hemsl.)$",
+    "ho_thuc_vat": "$Cỏ roi ngựa Verbenaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Ngày dùng từ $10$ đến $15g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Chưa rõ"
+    },
+    "display_name": "Bọ mẩy",
+    "canonical_name": "Bọ mẩy"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BO_MAY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bo May"
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ancaloit"
+      }
+    },
+    {
+      "id": "S_CHONG_LAI_SUC_SAU_SINH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chong Lai Suc Sau Sinh"
+      }
+    },
+    {
+      "id": "B_SOT_PHAT_BAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Phat Ban"
+      }
+    },
+    {
+      "id": "B_VIEM_AMYDAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Amydan"
+      }
+    },
+    {
+      "id": "B_VIEM_HONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Hong"
+      }
+    },
+    {
+      "id": "B_LY_TRUC_TRUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly Truc Trung"
+      }
+    },
+    {
+      "id": "S_CHONG_LAI_SUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chong Lai Suc"
+      }
+    },
+    {
+      "id": "CN_AN_NGON_MIENG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Ngon Mieng"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "82"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cành tròn, lúc non có lông sau nhẵn. Lá hình mác đầu nhọn, phía cuống cũng nhọn, hay hơi tròn, hai mặt đều nhẵn, màu xanh lục sẫm, dài $5$-$13cm$, rộng $3$-$7cm$, gần nổi rõ ở mặt dưới. Cụm hoa hình ngù chùy, nhẵn, mang những nhánh hoa thưa, màu trắng, đôi khi màu hồng. Đài và tràng hoa có lông. Nhị thòi dài gấp $2ống$ hoa. Nhụy có vòi dài bằng hay gần bằng nhị, núm xẻ hai. Quả nhỏ bọc trong đài",
+        "thanh_phan_hoa_hoc": [
+          "Sơ bộ chúng tôi thấy có $ancaloit$."
+        ],
+        "lieu_dung_tong_quat": "Thường hái toàn cây, bỏ rễ đem về phơi hay sấy khô mà dùng. Không phải chế biến gì, hoặc chỉ sao vàng cho thơm.",
+        "cach_dung_bao_che": "Không phải chế biến gì, hoặc chỉ sao vàng cho thơm."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ chúng tôi thấy có $ancaloit$.",
+        "ghi_chu": "Sơ bộ chúng tôi thấy có $ancaloit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "CN_AN_NGON_MIENG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$10-15g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống | Nấu canh ăn",
+        "ghi_chu": "sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "S_CHONG_LAI_SUC_SAU_SINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-15g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "sao vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "B_SOT_PHAT_BAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân tỉnh Hồ Nam Trung Quốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "B_VIEM_AMYDAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân tỉnh Hồ Nam Trung Quốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "B_VIEM_HONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân tỉnh Hồ Nam Trung Quốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân tỉnh Hồ Nam Trung Quốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "S_CHONG_LAI_SUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nấu canh ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "all_sources": [
+          "CT_VT_VN_T82"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 29.0,
+      "reliability_c_score": 0.7722,
+      "total_confidence_sum": 6.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HOT_MAT",
+    "ten_raw": "Cây hột mát",
+    "ten_khoa_hoc": "$Antheroporum pierrei Gagnep.$",
+    "ho_thuc_vat": "$Cánh bướm Fabaceae (Papilionaceae)$",
+    "variants": [
+      "cây xa",
+      "thàn mát"
+    ],
+    "properties": {
+      "bo_phan_dung": "không dùng uống",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Dùng ngoài để duốc cá, không dùng uống",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Vị thuốc Hột mát",
+    "canonical_name": "Vị thuốc Hột mát"
+  },
+  "nodes": [
+    {
+      "id": "BT_DUOC_CA_HOT_MAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Dược cá hột mát",
+        "aliases": [
+          "dược cá hột mát",
+          "duoc ca hot mat",
+          "duoccahotmat"
+        ],
+        "search_vector_hint": "Dược cá hột mát thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "BT_TRU_SAU_BO_HOA_MAU_HOT_MAT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Trừ sâu bọ hoa màu hột mát",
+        "aliases": [
+          "trusaubohoamauhotmat",
+          "tru sau bo hoa mau hot mat",
+          "trừ sâu bọ hoa màu hột mát"
+        ],
+        "search_vector_hint": "Trừ sâu bọ hoa màu hột mát thuộc nhóm bài thuốc."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "HC_ROTENON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Rotenon",
+        "aliases": [
+          "rotenon"
+        ],
+        "search_vector_hint": "Rotenon thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "VT_HOT_MAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hột mát",
+        "aliases": [
+          "hot mat",
+          "hotmat",
+          "hột mát"
+        ],
+        "search_vector_hint": "Hột mát thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "không dùng uống",
+        "lieu_dung_chung": "Dùng ngoài để duốc cá, không dùng uống",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Antheroporum pierrei Gagnep.$",
+        "ho_thuc_vat": "$Cánh bướm Fabaceae (Papilionaceae)$",
+        "hinh_thai_chi_tiet": "Cây to, cao từ $8-24m$[cite: 6]. Lá kép lông chim gồm 5-7 hoặc 9 lá chét mọc đối; phiến lá chét dai, nhẵn, dài $7-11cm$, rộng $3-4cm$; cuống chung dài $9-12cm$[cite: 6]. Cụm hoa mọc thành chùm ở kẽ lá hoặc đầu cành, hoa màu hồng hay tím nhạt[cite: 6]. Quả giáp dài $6cm$, rộng $3,5cm$, không cuống. Mỗi quả có 1 hạt hình trứng dài $16mm$, rộng $14mm$, dày $8-10mm$, màu đỏ nâu, bóng (Hình 247)[cite: 6].",
+        "thanh_phan_hoa_hoc": "['Trong hột có chất dầu, gôm, nhựa độc đối với cá, một ít $rotenon$; một chất tinh thể lăng trụ chảy ở $257°C$; một chất tinh thể hình kim màu vàng chảy ở $195°C$; một saponin trung tính độc và một saponin axit[cite: 6].']",
+        "lieu_dung_tong_quat": "string"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "333"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to, cao từ $8-24m$[cite: 6]. Lá kép lông chim gồm 5-7 hoặc 9 lá chét mọc đối; phiến lá chét dai, nhẵn, dài $7-11cm$, rộng $3-4cm$; cuống chung dài $9-12cm$[cite: 6]. Cụm hoa mọc thành chùm ở kẽ lá hoặc đầu cành, hoa màu hồng hay tím nhạt[cite: 6]. Quả giáp dài $6cm$, rộng $3,5cm$, không cuống. Mỗi quả có 1 hạt hình trứng dài $16mm$, rộng $14mm$, dày $8-10mm$, màu đỏ nâu, bóng (Hình 247)[cite: 6].",
+        "thanh_phan_hoa_hoc": [
+          "Trong hột có chất dầu, gôm, nhựa độc đối với cá, một ít $rotenon$; một chất tinh thể lăng trụ chảy ở $257°C$; một chất tinh thể hình kim màu vàng chảy ở $195°C$; một saponin trung tính độc và một saponin axit[cite: 6]."
+        ],
+        "lieu_dung_tong_quat": "string"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HOT_MAT",
+      "to": "HC_ROTENON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hột có chất dầu, gôm, nhựa độc đối với cá, một ít $rotenon$; một chất tinh thể lăng trụ chảy ở $257°C$; một chất tinh thể hình kim màu vàng chảy ở $195°C$; một saponin trung tính độc và một saponin axit[cite: 6].",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "all_sources": [
+          "CT_VT_VN_T333"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOT_MAT",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hột có chất dầu, gôm, nhựa độc đối với cá, một ít $rotenon$; một chất tinh thể lăng trụ chảy ở $257°C$; một chất tinh thể hình kim màu vàng chảy ở $195°C$; một saponin trung tính độc và một saponin axit[cite: 6].",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "all_sources": [
+          "CT_VT_VN_T333"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DUOC_CA_HOT_MAT",
+      "to": "VT_HOT_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Hạt hột mát tán nhỏ",
+        "vai_tro": "Quân",
+        "mo_ta_chi_tiet": "Cho xuống nước làm cá say"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "all_sources": [
+          "CT_VT_VN_T333"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRU_SAU_BO_HOA_MAU_HOT_MAT",
+      "to": "VT_HOT_MAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Hạt hột mát",
+        "vai_tro": "Chưa rõ",
+        "mo_ta_chi_tiet": "Nghiên cứu làm thuốc trừ sâu bọ hại hoa màu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "all_sources": [
+          "CT_VT_VN_T333"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOT_MAT",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bột hột mát làm cá bị say rồi chết; chất độc tập trung chủ yếu trong lá mầm, không có trong vỏ hạt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T333",
+        "all_sources": [
+          "CT_VT_VN_T333"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 31.0,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

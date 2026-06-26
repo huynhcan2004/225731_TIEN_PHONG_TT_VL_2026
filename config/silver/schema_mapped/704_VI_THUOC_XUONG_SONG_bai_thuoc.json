@@ -1,0 +1,211 @@
+{
+  "entity_hub": "VI_THUOC_XUONG_SONG",
+  "source": {
+    "source_id": "CT_VT_VN_T704",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "704"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_MAO_AN_UONG_KHONG_TIEU_MTCN",
+      "to": "VI_THUOC_XUONG_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Xương sông phối hợp với Mùi tàu và Cam thảo nam giúp chữa cảm mạo và hỗ trợ tiêu hóa.",
+        "cach_dung": "Uống lúc nóng, chia 3 lần trong ngày.",
+        "ghi_chu": "Không rõ liều lượng Xương sông, Mùi tàu khô $10g$, cam thảo nam $6g$, nước $300ml$, đun sôi, giữ sôi trong 15 phút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_AN_UONG_KHONG_TIEU_MTCN",
+      "to": "VT_MUI_TAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mùi tàu hỗ trợ Xương sông trong việc chữa cảm mạo và giúp tiêu hóa.",
+        "cach_dung": "Uống lúc nóng, chia 3 lần trong ngày.",
+        "ghi_chu": "Mùi tàu khô $10g$, Xương sông không rõ liều lượng, cam thảo nam $6g$, nước $300ml$, đun sôi, giữ sôi trong 15 phút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_AN_UONG_KHONG_TIEU_MTCN",
+      "to": "VT_CAM_THAO_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo nam giúp điều hòa các vị thuốc và tăng cường tác dụng chữa cảm mạo, hỗ trợ tiêu hóa.",
+        "cach_dung": "Uống lúc nóng, chia 3 lần trong ngày.",
+        "ghi_chu": "Cam thảo nam $6g$, Xương sông không rõ liều lượng, Mùi tàu khô $10g$, nước $300ml$, đun sôi, giữ sôi trong 15 phút."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_AN_UONG_KHONG_TIEU_MTCN",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo, ăn uống không tiêu",
+        "cach_dung": "Uống lúc nóng, chia 3 lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_MAO_AN_UONG_KHONG_TIEU_MTCN",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm mạo, ăn uống không tiêu",
+        "cach_dung": "Uống lúc nóng, chia 3 lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_XUONG_SONG_XS",
+      "to": "VI_THUOC_XUONG_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Xương sông.",
+        "cach_dung": "Sắc, hãm uống",
+        "ghi_chu": "Liều chung $15-20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_XUONG_SONG_XS",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt",
+        "cach_dung": "Sắc, hãm uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_HO_SUYEN_XUONG_SONG_XS",
+      "to": "VI_THUOC_XUONG_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Xương sông.",
+        "cach_dung": "Sắc, hãm uống",
+        "ghi_chu": "Liều chung $15-20g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_HO_SUYEN_XUONG_SONG_XS",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, suyễn, nôn mửa, đầy bụng",
+        "cach_dung": "Sắc, hãm uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_HO_SUYEN_XUONG_SONG_XS",
+      "to": "S_SUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, suyễn, nôn mửa, đầy bụng",
+        "cach_dung": "Sắc, hãm uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_HO_SUYEN_XUONG_SONG_XS",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, suyễn, nôn mửa, đầy bụng",
+        "cach_dung": "Sắc, hãm uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_HO_SUYEN_XUONG_SONG_XS",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, suyễn, nôn mửa, đầy bụng",
+        "cach_dung": "Sắc, hãm uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_SONG_XS",
+      "to": "VI_THUOC_XUONG_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương Xương sông.",
+        "cach_dung": "Chườm lên chỗ đau",
+        "ghi_chu": "Lá Xương sông giã nát, xào nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_SONG_XS",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức, thấp khớp",
+        "cach_dung": "Chườm lên chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_SONG_XS",
+      "to": "B_THAP_KHOP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau nhức, thấp khớp",
+        "cach_dung": "Chườm lên chỗ đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,596 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_BO",
+    "ten_raw": "Cây bách bộ",
+    "ten_khoa_hoc": "$Stemona tuberosa Lour.$",
+    "ho_thuc_vat": "$Bách bộ Stemonaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ củ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Chữa giun: Ngày uống $7$-$10$g, dưới dạng thuốc sắc. Uống vào sáng sớm lúc đói, uống $5$ ngày liền, sau đó tẩy.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "khắp nơi trong nước ta: Hà Tây, Hoà Bình, Bắc Cạn, Thái Nguyên"
+    },
+    "display_name": "Cây bách bộ",
+    "canonical_name": "Cây bách bộ"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BACH_BO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bach Bo"
+      }
+    },
+    {
+      "id": "HC_STEMONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Stemonin"
+      }
+    },
+    {
+      "id": "HC_TUBERSTEMONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tuberstemonin"
+      }
+    },
+    {
+      "id": "HC_STEMONIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Stemonidin"
+      }
+    },
+    {
+      "id": "HC_PAIPUNIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Paipunin"
+      }
+    },
+    {
+      "id": "HC_SINOSTEMONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sinostemonin"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_LAO_HACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Lao Hach"
+      }
+    },
+    {
+      "id": "B_GIUN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Giun"
+      }
+    },
+    {
+      "id": "B_DIET_RUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Ruoi"
+      }
+    },
+    {
+      "id": "B_DIET_BO_GAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Bo Gay"
+      }
+    },
+    {
+      "id": "B_DIET_DOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Doi"
+      }
+    },
+    {
+      "id": "B_DIET_MUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Muoi"
+      }
+    },
+    {
+      "id": "B_DIET_BO_CHO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Bo Cho"
+      }
+    },
+    {
+      "id": "B_DIET_RAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Diet Ran"
+      }
+    },
+    {
+      "id": "BT_GIUN_KIM_BACH_BO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Giun Kim Bach Bo"
+      }
+    },
+    {
+      "id": "B_GIUN_KIM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Giun Kim"
+      }
+    },
+    {
+      "id": "DL_GIAM_HUNG_PHAN_TRUNG_KHU_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Hung Phan Trung Khu Ho Hap"
+      }
+    },
+    {
+      "id": "DL_CHUA_LAO_HACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chua Lao Hach"
+      }
+    },
+    {
+      "id": "DL_DIET_GIUN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Diet Giun"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    },
+    {
+      "id": "DL_DIET_CON_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Diet Con Trung"
+      }
+    },
+    {
+      "id": "DL_SAT_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Sat Khuan"
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Khuan"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "175"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bách bộ là một thứ cây leo, dài 6-8m, có khi hơn. Thân nhỏ nhẵn. Lá thường mọc đối có cuống, hình trái tim. Trên mặt lá, ngoài gân chính có 6-8 gân phụ chạy dọc từ cuống lá đến đầu lá, có những gân ngang nhỏ và rõ. Cụm hoa mọc ở kẽ lá gồm 1-2 hoa, lớn, màu vàng đỏ. Bao hoa gồm bốn phiến, 2 phiến ngoài dài $4cm$, rộng $5mm$, 2 phiến trong rộng hơn. Nhị 4, có tua ngắn. Quả nang có 4 hạt (Hình 114, Hm 8,2). Rễ củ gồm 10 đến 20 hoặc 30 củ, có khi tới 100 củ dài 15-20cm, đường kính 1,5-2cm. Màu trắng vàng, vị ngọt, sau rất đắng.",
+        "thanh_phan_hoa_hoc": [
+          "Ngoài các chất như gluxit ($2,3\\%$), lipit ($0,83\\%$), protit ($9\\%$), các a xít hữu cơ v.v.. trong rễ bách bộ người ta đã lấy ra được nhiều ancalôit. Chủ yếu là $stemonin$ ($0,18\\%$), có tinh thể hình kim, mềm rất nhẹ, không mùi, vị đắng.",
+          "Ngoài ra, còn có các ancaloit khác như $tuberstemonin$, $stemonidin$, $paipunin$ và $sinostemonin$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "HC_STEMONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là $stemonin$ ($0,18\\%$), có tinh thể hình kim, mềm rất nhẹ, không mùi, vị đắng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "HC_TUBERSTEMONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, còn có các ancaloit khác như $tuberstemonin$, $stemonidin$, $paipunin$ và $sinostemonin$.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "HC_STEMONIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, còn có các ancaloit khác như $tuberstemonin$, $stemonidin$, $paipunin$ và $sinostemonin$.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "HC_PAIPUNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, còn có các ancaloit khác như $tuberstemonin$, $stemonidin$, $paipunin$ và $sinostemonin$.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "HC_SINOSTEMONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, còn có các ancaloit khác như $tuberstemonin$, $stemonidin$, $paipunin$ và $sinostemonin$.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giảm tính hưng phấn của trung khu hô hấp, ức chế phản xạ ho",
+        "ghi_chu": "Hoạt chất Stemonin có tác dụng giảm ho. [Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_LAO_HACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thí nghiệm lâm sàng cho kết quả tốt",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$0,15\\%$ Stemonin",
+        "cach_dung": "Ngâm giun, gây tê liệt sau 5-10 phút, có thể hồi phục nếu lấy ra kịp thời",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_RUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước sắc bách bộ, thêm đường. Ruồi ăn phải chết tới $60\\%$ | Đốt hơ lấy khói",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_BO_GAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Dung dịch bách bộ $1/20$",
+        "cach_dung": "Giết chết $100\\%$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Bột bách bộ",
+        "cach_dung": "Rắc vào hố phân. Dòi chết $100\\%$",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_MUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt hơ lấy khói",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_BO_CHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt hơ lấy khói",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "B_DIET_RAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đốt hơ lấy khói",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T176"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GIUN_KIM_BACH_BO",
+      "to": "VI_THUOC_BACH_BO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$ (hoặc bách bộ khô $20g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc sôi nửa giờ, cô còn $30ml$. Thụt giữ $20$ phút.",
+        "ghi_chu": "Điều trị $10-12$ ngày, khỏi $63\\%$ trên $133$ người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_GIUN_KIM_BACH_BO",
+      "to": "B_GIUN_KIM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_GIAM_HUNG_PHAN_TRUNG_KHU_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Stemomin có tác dụng làm giảm tính hưng phấn của trung khu hô hấp của động vật, có tác dụng ức chế phản xạ của họ, do đó có tác dụng chữa họ.",
+        "ghi_chu": "Thí nghiệm trên động vật."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_CHUA_LAO_HACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Bác sĩ Diệp Đình Thiện (Trung Quốc) đã thí nghiệm dùng bách bộ chữa bệnh lao hạch thu được kết quả tốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_DIET_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngâm con giun vào dung dịch $0,15\\%$ stemonin, con giun sẽ tê liệt sau 5-10 phút. Nếu kịp thời lấy con giun ra khỏi dung dịch, con giun sẽ tỉnh lại. | Cao nước bách bộ, uống với liều 3 thìa cà phê một lần, giun ra rất nhiều.",
+        "ghi_chu": "Thí nghiệm trên giun."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm dung dịch stemonin sunfat ($3mg$) vào ếch nặng $25g$ con ếch có thể tê bại, sau 12 giờ lại bình phục.",
+        "ghi_chu": "Thí nghiệm trên ếch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_DIET_CON_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng dung dịch bách bộ 1/10 trong rượu $70°$ ngâm hay phun vào con rận, con rận sẽ chết sau một phút. Nếu ngâm rệp, con vật sẽ chết màu chóng hơn.",
+        "ghi_chu": "Thí nghiệm trên rận, rệp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_SAT_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lebedev (Liên Xô, 1950) đã chứng minh tác dụng sát khuẩn của bách bộ đối với khuẩn ở ruột già."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_BO",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Lưu Quốc Thanh (Trung Quốc) nhận thấy bách bộ có tác dụng kháng sinh đối với vi trùng bệnh lỵ, bệnh phó thương hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T175",
+        "all_sources": [
+          "CT_VT_VN_T175"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 60.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

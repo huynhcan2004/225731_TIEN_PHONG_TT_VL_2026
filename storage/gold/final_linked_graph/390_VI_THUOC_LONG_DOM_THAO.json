@@ -1,0 +1,843 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LONG_DOM_THAO",
+    "ten_raw": "Long đờm thảo",
+    "ten_khoa_hoc": "$Gentiana scabra Bunge; Gentiana lutea L.$",
+    "ho_thuc_vat": "$Long đởm (Gentianaceae)$",
+    "variants": [
+      "Long dom tháo (Gentiana hay Radix Gentianae)"
+    ],
+    "properties": {
+      "bo_phan_dung": "thân rễ và rễ",
+      "thu_hai": "mùa hoa tháng 9-10, mùa quả tháng 10",
+      "che_bien_tho": "phơi hay sấy khô",
+      "lieu_dung_chung": "Liều dùng hàng ngày $2-3g$ dưới dạng thuốc sắc hoặc thuốc rượu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": ""
+    },
+    "display_name": "Vị thuốc Long đờm thảo",
+    "canonical_name": "Vị thuốc Long đờm thảo"
+  },
+  "nodes": [
+    {
+      "id": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Long Đởm Thảo Giúp Tiêu Hóa",
+        "aliases": [
+          "long đởm thảo giúp tiêu hóa",
+          "long dom thao giup tieu hoa",
+          "longdomthaogiuptieuhoa"
+        ],
+        "search_vector_hint": "Bài thuốc Long Đởm Thảo Giúp Tiêu Hóa thuộc nhóm bài thuốc, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "BT_TIEU_HOA_DOM_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tiêu Hóa Đởm Thảo",
+        "aliases": [
+          "tiêu hóa đởm thảo",
+          "tieuhoadomthao",
+          "tieu hoa dom thao"
+        ],
+        "search_vector_hint": "Bài thuốc Tiêu Hóa Đởm Thảo thuộc nhóm bài thuốc, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ăn uống không tiêu",
+        "aliases": [
+          "ăn uống không tiêu",
+          "an uong khong tieu",
+          "anuongkhongtieu"
+        ],
+        "search_vector_hint": "Công năng Ăn uống không tiêu thuộc nhóm Công năng, thường liên quan đến hỗ trợ tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TA_CAN_DAM_THUC_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tả Can Đởm Thực Hỏa",
+        "aliases": [
+          "tả can đởm thực hỏa",
+          "ta can dom thuc hoa",
+          "tacandomthuchoa"
+        ],
+        "search_vector_hint": "Công năng Tả Can Đởm Thực Hỏa thuộc nhóm công năng, thường liên quan đến điều trị chứng can đởm hỏa vượng."
+      }
+    },
+    {
+      "id": "CN_THANH_HA_TIEU_THAP_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh Hạ Tiêu Thấp Nhiệt",
+        "aliases": [
+          "thanhhatieuthapnhiet",
+          "thanh ha tieu thap nhiet",
+          "thanh hạ tiêu thấp nhiệt"
+        ],
+        "search_vector_hint": "Công năng Thanh Hạ Tiêu Thấp Nhiệt thuộc nhóm công năng, thường liên quan đến thanh nhiệt, trừ thấp."
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu hóa",
+        "aliases": [
+          "tieuhoa",
+          "tiêu hóa",
+          "tieu hoa"
+        ],
+        "search_vector_hint": "Công năng Tiêu hóa thuộc nhóm công năng, thường liên quan đến chức năng của hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_GIAM_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giảm tiêu hóa",
+        "aliases": [
+          "giam tieu hoa",
+          "giamtieuhoa",
+          "giảm tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Giảm tiêu hóa thuộc nhóm dược lý, thường liên quan đến tác động lên hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích tiêu hóa",
+        "aliases": [
+          "kich thich tieu hoa",
+          "kichthichtieuhoa",
+          "kích thích tiêu hóa"
+        ],
+        "search_vector_hint": "Dược lý Kích thích tiêu hóa thuộc nhóm dược lý tiêu hóa, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_TANG_BAI_TIET_DICH_VI",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng bài tiết dịch vị",
+        "aliases": [
+          "tangbaitietdichvi",
+          "tăng bài tiết dịch vị",
+          "tang bai tiet dich vi"
+        ],
+        "search_vector_hint": "Dược lý Tăng bài tiết dịch vị thuộc nhóm dược lý, thường liên quan đến chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_GENTIANOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Gentianoza",
+        "aliases": [
+          "gentianoza"
+        ],
+        "search_vector_hint": "Gentianoza thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_GENTIOGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Gentiogenin",
+        "aliases": [
+          "gentiogenin"
+        ],
+        "search_vector_hint": "Hoạt chất Gentiogenin thuộc nhóm hoạt chất, thường liên quan đến các hợp chất hóa học trong dược liệu."
+      }
+    },
+    {
+      "id": "HC_GENTIOPICRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Gentiopicrin",
+        "aliases": [
+          "gentiopicrin"
+        ],
+        "search_vector_hint": "Gentiopicrin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_DAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dan",
+        "aliases": [
+          "dom",
+          "đởm"
+        ],
+        "search_vector_hint": "Kinh Đởm thuộc nhóm kinh mạch, thường liên quan đến sự vận hành của khí huyết."
+      }
+    },
+    {
+      "id": "S_DAY_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đầy bụng",
+        "aliases": [
+          "daybung",
+          "chuong bung",
+          "đầy bụng",
+          "bungtruong",
+          "bụng trướng",
+          "day bung",
+          "chướng bụng",
+          "bung truong",
+          "chuongbung"
+        ],
+        "search_vector_hint": "Triệu chứng Đầy bụng thuộc nhóm triệu chứng, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_LONG_DOM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Long đờm thảo",
+        "aliases": [
+          "longdomthao",
+          "long đờm thảo",
+          "long dom thao"
+        ],
+        "search_vector_hint": "Vị thuốc Long đờm thảo thuộc nhóm Vị thuốc, thường liên quan đến thành phần dược liệu.",
+        "bo_phan_dung": "thân rễ và rễ",
+        "thu_hai": "mùa hoa tháng 9-10, mùa quả tháng 10",
+        "che_bien_tho": "phơi hay sấy khô",
+        "lieu_dung_chung": "Liều dùng hàng ngày $2-3g$ dưới dạng thuốc sắc hoặc thuốc rượu.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Gentiana scabra Bunge; Gentiana lutea L.$",
+        "ho_thuc_vat": "$Long đởm (Gentianaceae)$",
+        "hinh_thai_chi_tiet": "Long dom tháo (Gentiana hay Radix Gentianae) là thân rễ và rễ phơi hay sấy khô của cây long đởm Cây long đởm lá một loại cỏ sống lâu năm, cao 35-60cm. Thân rễ ngắn, rễ nhiều, đường kính 2-3mm, vỏ ngoài màu vàng nhạt. Thân mọc đúng, đơn độc hay 2-3 cành, đốt thường ngắn so với chiều dài của lá. Lá mọc đối, không cuống, lá phía dưới thân nhỏ, phía trên to rộng hơn, dài từ 3-8cm, rộng từ $0,4-3cm$. Hoa hình chuông màu lam nhạt hay sẫm, mọc thành chùm không cuống ở đầu cành hoặc ở kẽ những lá phía trên. Mùa hoa tháng 9-10, mùa quả tháng 10 (Hình 281) Ngoài vị long đởm kể trên, trong đông y còn dùng nhiều loại long đởm khác, những vị thuốc gần giống và gồm những rễ nhỏ. Nhưng trong tây y lại dùng một loại khác (Gentiana lutea L.) có hoa màu vàng, rễ to hơn, thái thành từng miếng mỏng, có người dịch nhầm là khổ sâm vì là vị thuốc bổ mà lại đắng. Tất cả những cây này đều chưa thấy ở nước ta.",
+        "thanh_phan_hoa_hoc": "['[CT_VT_VN_T391]: Trong long đởm có một glucozit đắng chừng $2\\\\%$ gọi là $gentiopicrin$ và một chất đường gọi là $gentianoza$ chừng $4\\\\%$. Thủy phân $gentiopicrin$ ta sẽ được $gentiogenin$ và glucoza. $Gentianoza$ gồm hai phân tử glucoza và một phân tử fructoza.']"
+      }
+    },
+    {
+      "id": "VT_VI_DAI_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Dai Hoang"
+      }
+    },
+    {
+      "id": "VT_VI_HOANG_BA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Hoang Ba"
+      }
+    },
+    {
+      "id": "VT_VI_HOI_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Hoi Huong"
+      }
+    },
+    {
+      "id": "VT_VI_KE_NOI_KIM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Ke Noi Kim"
+      }
+    },
+    {
+      "id": "VT_VI_QUE_CHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Que Chi"
+      }
+    },
+    {
+      "id": "VT_VI_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Sinh Khuong"
+      }
+    },
+    {
+      "id": "VT_VI_SON_TRA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Son Tra"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "390"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_DAN",
+          "K_BANG_QUANG",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Long dom tháo (Gentiana hay Radix Gentianae) là thân rễ và rễ phơi hay sấy khô của cây long đởm Cây long đởm lá một loại cỏ sống lâu năm, cao 35-60cm. Thân rễ ngắn, rễ nhiều, đường kính 2-3mm, vỏ ngoài màu vàng nhạt. Thân mọc đúng, đơn độc hay 2-3 cành, đốt thường ngắn so với chiều dài của lá. Lá mọc đối, không cuống, lá phía dưới thân nhỏ, phía trên to rộng hơn, dài từ 3-8cm, rộng từ $0,4-3cm$. Hoa hình chuông màu lam nhạt hay sẫm, mọc thành chùm không cuống ở đầu cành hoặc ở kẽ những lá phía trên. Mùa hoa tháng 9-10, mùa quả tháng 10 (Hình 281) Ngoài vị long đởm kể trên, trong đông y còn dùng nhiều loại long đởm khác, những vị thuốc gần giống và gồm những rễ nhỏ. Nhưng trong tây y lại dùng một loại khác (Gentiana lutea L.) có hoa màu vàng, rễ to hơn, thái thành từng miếng mỏng, có người dịch nhầm là khổ sâm vì là vị thuốc bổ mà lại đắng. Tất cả những cây này đều chưa thấy ở nước ta.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T391]: Trong long đởm có một glucozit đắng chừng $2\\%$ gọi là $gentiopicrin$ và một chất đường gọi là $gentianoza$ chừng $4\\%$. Thủy phân $gentiopicrin$ ta sẽ được $gentiogenin$ và glucoza. $Gentianoza$ gồm hai phân tử glucoza và một phân tử fructoza."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "long đởm vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "long đởm tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "HC_GENTIOPICRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong long đởm có một glucozit đắng chừng $2\\%$ gọi là $gentiopicrin$ và một chất đường gọi là $gentianoza$ chừng $4\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "HC_GENTIANOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong long đởm có một glucozit đắng chừng $2\\%$ gọi là $gentiopicrin$ và một chất đường gọi là $gentianoza$ chừng $4\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "HC_GENTIOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thủy phân $gentiopicrin$ ta sẽ được $gentiogenin$ và glucoza."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_HOA_DOM_THAO",
+      "to": "VT_LONG_DOM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_HOA_DOM_THAO",
+      "to": "VT_VI_DAI_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_HOA_DOM_THAO",
+      "to": "VT_VI_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_HOA_DOM_THAO",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_HOA_DOM_THAO",
+      "to": "CN_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_LONG_DOM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,5$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,5$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,3$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,3$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_HOI_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,3$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_KE_NOI_KIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$0,6$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "VT_VI_SON_TRA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LONG_DOM_THAO_GIUP_TIEU_HOA",
+      "to": "CN_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chia 3 lần uống trong ngày",
+        "ghi_chu": "theo Hoà hán được dụng nghiệm phương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chia 3 lần uống trong ngày",
+        "ghi_chu": "theo Hoà hán được dụng nghiệm phương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chia 3 lần uống trong ngày",
+        "ghi_chu": "theo Hoà hán được dụng nghiệm phương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "CN_TA_CAN_DAM_THUC_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tả can đởm thực hoả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "CN_THANH_HA_TIEU_THAP_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh hạ tiêu thấp nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "DL_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống ít (nửa giờ trước bữa ăn) có tác dụng kích thích sự bài tiết dịch tiêu hoá, làm khoẻ dạ dày.",
+        "ghi_chu": "Theo Ebeling"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "DL_GIAM_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống sau khi ăn cơm hay uống quá nhiều, lại làm cho tiêu hoá kém sút, nhức đầu, hoa mắt, mặt đỏ.",
+        "ghi_chu": "Theo Ebeling"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LONG_DOM_THAO",
+      "to": "DL_TANG_BAI_TIET_DICH_VI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho chó uống long đờm thảo sự bài tiết dịch vị tăng tiến và lượng axit tự do cũng tăng hơn.",
+        "ghi_chu": "Theo Nội điền trang thái lang (Nhật Bản, 1938). Nghiên cứu trên dạ dày nhỏ của chó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T390",
+        "all_sources": [
+          "CT_VT_VN_T390"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 67.0,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

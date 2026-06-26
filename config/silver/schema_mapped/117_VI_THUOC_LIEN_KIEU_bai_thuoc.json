@@ -1,0 +1,199 @@
+{
+  "entity_hub": "VI_THUOC_LIEN_KIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T117",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "117"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TRANG_NHAC_LIEN_KIEU_VL",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Liên kiều giúp thanh nhiệt giải độc, vùng đen ngưng giúp hoạt huyết tán ứ, phối hợp để điều trị tràng nhạc.",
+        "cach_dung": "Tán nhỏ, ngày uống 3 lần, mỗi lần $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_LIEN_KIEU_VL",
+      "to": "VI_THUOC_VUNG_DEN_NGUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Liên kiều giúp thanh nhiệt giải độc, vùng đen ngưng giúp hoạt huyết tán ứ, phối hợp để điều trị tràng nhạc.",
+        "cach_dung": "Tán nhỏ, ngày uống 3 lần, mỗi lần $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_LIEN_KIEU_VL",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tràng nhạc và ổ gà (viêm hạch ở nách)",
+        "cach_dung": "Tán nhỏ, ngày uống 3 lần, mỗi lần $4g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TIEO_THUNG_LIEN_KIEU_HLHC",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$8g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Liên kiều thanh nhiệt giải độc, kết hợp các vị thuốc khác để tăng cường tiêu thũng bài nùng.",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TIEO_THUNG_LIEN_KIEU_HLHC",
+      "to": "VI_THUOC_HA_KHO_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hạ khô thảo giúp thanh nhiệt giải độc, kết hợp liên kiều để tăng cường tiêu thũng bài nùng.",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TIEO_THUNG_LIEN_KIEU_HLHC",
+      "to": "VI_THUOC_HAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hải tảo giúp nh软坚散结, kết hợp liên kiều để tăng cường tiêu thũng bài nùng.",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TIEO_THUNG_LIEN_KIEU_HLHC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, kết hợp liên kiều để tăng cường tiêu thũng bài nùng.",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_TIEO_THUNG_LIEN_KIEU_HLHC",
+      "to": "S_TIEO_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "tiêu thũng, bài nùng (tiêu mủ)",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU_BKG",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Liên kiều thanh nhiệt giải độc, kết hợp các vị thuốc khác để điều trị sưng vú.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU_BKG",
+      "to": "VI_THUOC_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bồ công anh giúp thanh nhiệt giải độc, tiêu viêm, kết hợp liên kiều để điều trị sưng vú.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU_BKG",
+      "to": "VI_THUOC_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Kim ngân hoa giúp thanh nhiệt giải độc, kháng viêm, kết hợp liên kiều để điều trị sưng vú.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU_BKG",
+      "to": "VI_THUOC_GAI_BO_KET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$3g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Gai bồ kết giúp tiêu viêm, giảm sưng, kết hợp liên kiều để điều trị sưng vú.",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU_BKG",
+      "to": "S_SUNG_VU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sưng vú",
+        "cach_dung": "Sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    }
+  ],
+  "metadata": {}
+}

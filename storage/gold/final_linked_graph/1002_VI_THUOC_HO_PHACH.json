@@ -1,0 +1,821 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HO_PHACH",
+    "ten_raw": "Hổ phách",
+    "ten_khoa_hoc": "$Amber, Fossil resin, Succinum, Succinum ex carbone.$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không đề cập",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 1 đến $3g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Vị thuốc Hổ phách",
+    "canonical_name": "Vị thuốc Hổ phách"
+  },
+  "nodes": [
+    {
+      "id": "B_MUN_NHOT_LAU_LANH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt lâu lành",
+        "aliases": [
+          "munnhotkholanh",
+          "mụn nhọt lâu lành",
+          "mun nhot lau lanh",
+          "mụn nhọt khó lành",
+          "munnhotlaulanh",
+          "munnhotmantinh",
+          "mụn nhọt mãn tính",
+          "mun nhot man tinh",
+          "mun nhot kho lanh"
+        ],
+        "search_vector_hint": "Mụn nhọt lâu lành thuộc nhóm Bệnh, thường liên quan đến da liễu."
+      }
+    },
+    {
+      "id": "CN_AN_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "trantinh",
+          "an than",
+          "trấn tĩnh",
+          "an thần",
+          "anthan",
+          "tran tinh"
+        ],
+        "search_vector_hint": "An thần thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_DINH_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Định kinh",
+        "aliases": [
+          "định kinh",
+          "dinh kinh",
+          "dieukinh",
+          "dieu kinh",
+          "dinhkinh",
+          "điều kinh"
+        ],
+        "search_vector_hint": "Định kinh thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Lợi tiểu thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_TAN_U_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tán ứ huyết",
+        "aliases": [
+          "khuu",
+          "khứ ứ",
+          "khu u",
+          "tan u huyet",
+          "phá huyết",
+          "tanuhuyet",
+          "phahuyet",
+          "pha huyet",
+          "tán ứ huyết"
+        ],
+        "search_vector_hint": "Tán ứ huyết thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_RA_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiểu tiện ra huyết",
+        "aliases": [
+          "nieuhuyet",
+          "tieu tien ra huyet",
+          "tiểu tiện ra huyết",
+          "nieu huyet",
+          "niệu huyết",
+          "tieutienrahuyet"
+        ],
+        "search_vector_hint": "Tiểu tiện ra huyết thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "HC_AXIT_SUCOXYABIETIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Sucoxyabietic",
+        "aliases": [
+          "axit sucoxyabietic",
+          "axitsucoxyabietic"
+        ],
+        "search_vector_hint": "Axit Sucoxyabietic thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_SUCXINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Sucxinic",
+        "aliases": [
+          "axitsucxinic",
+          "axit sucxinic"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Sucxinic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_SUCXINOABIETOLIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Sucxinoabietolic",
+        "aliases": [
+          "axitsucxinoabietolic",
+          "axit sucxinoabietolic"
+        ],
+        "search_vector_hint": "Axit Sucxinoabietolic thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_SUCXINOXYNVIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Sucxinoxynvic",
+        "aliases": [
+          "axitsucxinoxynvic",
+          "axit sucxinoxynvic"
+        ],
+        "search_vector_hint": "Axit Sucxinoxynvic thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_BOCNEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Bocneola",
+        "aliases": [
+          "bocneola"
+        ],
+        "search_vector_hint": "Bocneola thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SUCXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sucxin",
+        "aliases": [
+          "sucxin"
+        ],
+        "search_vector_hint": "Hoạt chất Sucxin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SUCXINOABIET_LA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sucxinoabiet La",
+        "aliases": [
+          "sucxinoabietla",
+          "sucxinoabiet la"
+        ],
+        "search_vector_hint": "Sucxinoabiet La thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SUCXINORESINOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sucxinoresinola",
+        "aliases": [
+          "sucxinoresinola"
+        ],
+        "search_vector_hint": "Sucxinoresinola thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SUCXINO_RESIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sucxino Resin",
+        "aliases": [
+          "sucxinoresin",
+          "sucxino resin"
+        ],
+        "search_vector_hint": "Sucxino Resin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_HOI_HOP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hồi hộp",
+        "aliases": [
+          "tim đập nhanh",
+          "hồi hộp",
+          "tim dap nhanh",
+          "hoihop",
+          "timdapnhanh",
+          "danh trong nguc",
+          "đánh trống ngực",
+          "hoi hop",
+          "danhtrongnguc"
+        ],
+        "search_vector_hint": "Hồi hộp thuộc nhóm Triệu chứng, thường liên quan đến tim mạch."
+      }
+    },
+    {
+      "id": "S_MAT_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mất ngủ",
+        "aliases": [
+          "trằn trọc",
+          "mat ngu",
+          "khó ngủ",
+          "tran troc",
+          "matngu",
+          "kho ngu",
+          "trantroc",
+          "khongu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Mất ngủ thuộc nhóm Triệu chứng, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "S_NGU_HAY_ME_SO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ngủ hay mê sảng",
+        "aliases": [
+          "mong mi",
+          "nguhaymo",
+          "ngủ hay mơ",
+          "ngu hay mo",
+          "mộng mị",
+          "ngu hay me sang",
+          "mongmi",
+          "ngủ hay mê sảng",
+          "nguhaymesang"
+        ],
+        "search_vector_hint": "Ngủ hay mê sảng thuộc nhóm Triệu chứng, thường liên quan đến giấc ngủ."
+      }
+    },
+    {
+      "id": "S_TAM_THAN_BAT_DINH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Tâm thần bất định",
+        "aliases": [
+          "tamthanbatdinh",
+          "tâm thần bất định",
+          "tam than bat dinh"
+        ],
+        "search_vector_hint": "Tâm thần bất định thuộc nhóm Triệu chứng."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Vị bình thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_HO_PHACH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hổ phách",
+        "aliases": [
+          "hophach",
+          "ho phach",
+          "hổ phách"
+        ],
+        "search_vector_hint": "Vị thuốc Hổ phách thuộc nhóm vị thuốc, thường liên quan đến...",
+        "bo_phan_dung": "không đề cập",
+        "thu_hai": "không đề cập",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày dùng 1 đến $3g$.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "ten_khoa_hoc": "$Amber, Fossil resin, Succinum, Succinum ex carbone.$",
+        "ho_thuc_vat": "$Không có$",
+        "hinh_thai_chi_tiet": "Hổ phách là những cục to nhỏ không đều, màu vàng hay vàng đỏ, thường ngoài cùng phủ một lớp mờ, rất cứng rắn, khi vỡ vết vỡ tròn nhẵn, mờ hay trong mờ, không có vị gì, khi xát cục hổ phách vào vải hay miếng len cho nóng lên thì hổ phách sinh ra điện. Cục hổ phách có thể nặng tới $10kg$. Không tan trong nước, tan một phần trong cồn, ête và clorofoc.",
+        "thanh_phan_hoa_hoc": "['Trong hổ phách có rất ít tinh dầu. Khi cất khô, người ta sẽ được axit sucxinic. Ngoài ra thành phần chủ yếu của hổ phách là 3 chất nhựa: a, B và Y. Nhựa y còn gọi là sucxin (succin) không tan trong cồn và chiếm $70\\\\%$ trọng lượng của hổ phách. Sucxin chứa sucxino-resin, không xà phòng hóa được và phần xà phòng hóa được thành axit sucxinic và sucxinoresinola. Trong phần tan trong cồn, người ta lấy được axit sucoxyabietic và axit sucxinoabie-tolic. Axit sucxinoabietolic là một cte axit, khi xà phòng hóa sẽ cho axit sucxinoxynvic, sucxinoabiet la và bocneola.']",
+        "lieu_dung_tong_quat": "string"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1002"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hổ phách là những cục to nhỏ không đều, màu vàng hay vàng đỏ, thường ngoài cùng phủ một lớp mờ, rất cứng rắn, khi vỡ vết vỡ tròn nhẵn, mờ hay trong mờ, không có vị gì, khi xát cục hổ phách vào vải hay miếng len cho nóng lên thì hổ phách sinh ra điện. Cục hổ phách có thể nặng tới $10kg$. Không tan trong nước, tan một phần trong cồn, ête và clorofoc.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hổ phách có rất ít tinh dầu. Khi cất khô, người ta sẽ được axit sucxinic. Ngoài ra thành phần chủ yếu của hổ phách là 3 chất nhựa: a, B và Y. Nhựa y còn gọi là sucxin (succin) không tan trong cồn và chiếm $70\\%$ trọng lượng của hổ phách. Sucxin chứa sucxino-resin, không xà phòng hóa được và phần xà phòng hóa được thành axit sucxinic và sucxinoresinola. Trong phần tan trong cồn, người ta lấy được axit sucoxyabietic và axit sucxinoabie-tolic. Axit sucxinoabietolic là một cte axit, khi xà phòng hóa sẽ cho axit sucxinoxynvic, sucxinoabiet la và bocneola."
+        ],
+        "lieu_dung_tong_quat": "string"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HO_PHACH",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y coi hổ phách có tính bình | Tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y coi hổ phách có vị ngọt (cam) | Vị ngọt (cam)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh tâm | Vào kinh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh can | Vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh phế | Vào kinh phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 4 kinh bàng quang | Vào kinh bàng quang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_AXIT_SUCXINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi cất khô, người ta sẽ được axit sucxinic.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_SUCXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhựa y còn gọi là sucxin (succin) không tan trong cồn và chiếm $70\\%$ trọng lượng của hổ phách.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_SUCXINO_RESIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sucxin chứa sucxino-resin, không xà phòng hóa được và phần xà phòng hóa được thành axit sucxinic và sucxinoresinola.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_SUCXINORESINOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sucxin chứa sucxino-resin, không xà phòng hóa được và phần xà phòng hóa được thành axit sucxinic và sucxinoresinola.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_AXIT_SUCOXYABIETIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phần tan trong cồn, người ta lấy được axit sucoxyabietic và axit sucxinoabie-tolic.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_AXIT_SUCXINOABIETOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong phần tan trong cồn, người ta lấy được axit sucoxyabietic và axit sucxinoabie-tolic.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_AXIT_SUCXINOXYNVIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit sucxinoabietolic là một cte axit, khi xà phòng hóa sẽ cho axit sucxinoxynvic, sucxinoabiet la và bocneola.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_SUCXINOABIET_LA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit sucxinoabietolic là một cte axit, khi xà phòng hóa sẽ cho axit sucxinoxynvic, sucxinoabiet la và bocneola.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "HC_BOCNEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit sucxinoabietolic là một cte axit, khi xà phòng hóa sẽ cho axit sucxinoxynvic, sucxinoabiet la và bocneola.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "S_TAM_THAN_BAT_DINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "S_HOI_HOP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "S_NGU_HAY_ME_SO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "CN_TIEU_TIEN_RA_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "B_MUN_NHOT_LAU_LANH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T1002"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "CN_AN_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "An thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "CN_DINH_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Định kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HO_PHACH",
+      "to": "CN_TAN_U_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán ứ huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1002",
+        "all_sources": [
+          "CT_VT_VN_T1002"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.5,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

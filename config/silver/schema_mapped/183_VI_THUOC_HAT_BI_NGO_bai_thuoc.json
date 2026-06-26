@@ -1,0 +1,136 @@
+{
+  "entity_hub": "VI_THUOC_HAT_BI_NGO",
+  "source": {
+    "source_id": "CT_VT_VN_T183",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "183"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SAN_HAT_BI_NGO_M",
+      "to": "VI_THUOC_HAT_BI_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$100g$ (người lớn), $30g$ (trẻ 3-4 tuổi), $50g$ (trẻ 5-7 tuổi), $75g$ (trẻ 7-10 tuổi)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt bí ngô là thành phần duy nhất.",
+        "cach_dung": "Bóc hết vỏ cứng, để nguyên màng xanh, giã nhỏ, thêm $50-100g$ mật hay xirô hoặc đường trộn đều, ăn vào lúc đói trong 1 giờ, nằm nghỉ, 3 giờ sau uống thuốc tẩy muối, đi ngoài trong chậu nước ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_SAN_HAT_BI_NGO_M",
+      "to": "B_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sán",
+        "cach_dung": "Bóc hết vỏ cứng, để nguyên màng xanh, giã nhỏ, thêm $50-100g$ mật hay xirô hoặc đường trộn đều, ăn vào lúc đói trong 1 giờ, nằm nghỉ, 3 giờ sau uống thuốc tẩy muối, đi ngoài trong chậu nước ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_H",
+      "to": "VI_THUOC_HAT_BI_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$300g$ (người lớn), $50-70g$ (trẻ con dưới 5 tuổi), $100g$ (5-7 tuổi), $150g$ (7-10 tuổi)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt bí ngô là thành phần duy nhất.",
+        "cach_dung": "Giã hay xay nhỏ, thêm hai thể tích nước, đun nhỏ lửa hoặc đun cách thủy trong 2 giờ, lọc qua gạc, bỏ lớp dầu. Uống hết trong 20-30 phút lúc đói, 2 giờ sau uống thuốc tẩy muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_H",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun",
+        "cach_dung": "Giã hay xay nhỏ, thêm hai thể tích nước, đun nhỏ lửa hoặc đun cách thủy trong 2 giờ, lọc qua gạc, bỏ lớp dầu. Uống hết trong 20-30 phút lúc đói, 2 giờ sau uống thuốc tẩy muối."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_N",
+      "to": "VI_THUOC_HAT_BI_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$60-80g$ (người lớn), $30-40g$ (trẻ con)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt bí ngô là thành phần duy nhất.",
+        "cach_dung": "Thêm nước, trộn đều, uống hết trong 15-20 phút, sau đó dùng thuốc tẩy như trên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_N",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun",
+        "cach_dung": "Thêm nước, trộn đều, uống hết trong 15-20 phút, sau đó dùng thuốc tẩy như trên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_HCA",
+      "to": "VI_THUOC_HAT_BI_NGO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$60-120g$ (cả vỏ) hoặc $40-100g$ (bỏ vỏ)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hạt bí ngô kết hợp với hạt cau giúp tăng hiệu quả trị giun.",
+        "cach_dung": "Sáng sớm lúc đói bụng ăn hạt bí ngô. Hai giờ sau uống nước sắc hạt cau. Nửa giờ sau uống thuốc tẩy ($30g$ magiê sunfat). Nằm nghỉ, đợi buồn đi ngoài, ỉa vào chậu nước ấm, nhúng cả mông vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_HCA",
+      "to": "VI_THUOC_HAT_CAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$30g$ (trẻ con 10 tuổi trở xuống), $50-60g$ (phụ nữ và đàn ông bé nhỏ), $80g$ (người lớn)",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hạt bí ngô kết hợp với hạt cau giúp tăng hiệu quả trị giun.",
+        "cach_dung": "Hai giờ sau uống nước sắc hạt cau (hạt cau đun với $500ml$ nước, sắc cạn còn $150-200ml$, nhỏ dung dịch gelatin $2,5\\%$ đến hết kết tủa để loại tanin, để lắng gạn và lọc, đun còn $150-200ml$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    },
+    {
+      "from": "BT_GIUN_HAT_BI_NGO_HCA",
+      "to": "B_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun",
+        "cach_dung": "Sáng sớm lúc đói bụng ăn hạt bí ngô. Hai giờ sau uống nước sắc hạt cau. Nửa giờ sau uống thuốc tẩy ($30g$ magiê sunfat). Nằm nghỉ, đợi buồn đi ngoài, ỉa vào chậu nước ấm, nhúng cả mông vào."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T183"
+      }
+    }
+  ],
+  "metadata": {}
+}

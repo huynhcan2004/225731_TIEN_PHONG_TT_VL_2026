@@ -1,0 +1,122 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DIEM_SINH",
+    "ten_raw": "Diêm sinh",
+    "ten_khoa_hoc": "Sulfur",
+    "ho_thuc_vat": "Không có",
+    "variants": [],
+    "properties": {},
+    "display_name": "Diêm sinh"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1052",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1052"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_TAM",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Diêm sinh là một nguyên tố có sẵn trong thiên nhiên hay do chế từ những hợp chất có lưu hoàng trong thiên nhiên mà được. Tùy theo nguồn gốc và cách chế biến khác nhau, lưu hoàng có khi là một thứ bột màu vàng, không mùi, có khi là những cục to không đều, màu vàng tươi, hơi có mùi đặc biệt, không tan trong nước, trong rượu và ête, tan nhiều hơn trong dầu. Khi đốt lên cháy với ánh lửa xanh và tỏa ra mùi khét khó thở.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu của diêm sinh là chất sunfua nguyên chất, tùy theo nguồn gốc và cách chế tạo, có thể có những tạp chất như đất, vôi, asen, sắt v.v..."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ôn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tâm và thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh tâm và thận"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của diêm sinh là chất sunfua nguyên chất, tùy theo nguồn gốc và cách chế tạo, có thể có những tạp chất như đất, vôi, asen, sắt v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "HC_ASEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của diêm sinh là chất sunfua nguyên chất, tùy theo nguồn gốc và cách chế tạo, có thể có những tạp chất như đất, vôi, asen, sắt v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIEM_SINH",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của diêm sinh là chất sunfua nguyên chất, tùy theo nguồn gốc và cách chế tạo, có thể có những tạp chất như đất, vôi, asen, sắt v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1052"
+      }
+    }
+  ]
+}

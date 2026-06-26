@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_NUC_NAC",
+  "source": {
+    "source_id": "CT_VT_VN_T741",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "741"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NUC_NAC",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính lạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T741"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUC_NAC",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh vị, đại tràng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T741"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUC_NAC",
+      "to": "CN_THANH_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T741"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUC_NAC",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cồn và nước sắc núc nác đều có tác dụng ức chế sự phát triển của các vi trùng ngoài da như Staphylococcus aureus, Bacillus subtilis, Escherichia coli, Salmonella typhi, Shigella flexneri, Sarcina lutea, nấm Candida albicans và Tricophyton."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T741"
+      }
+    },
+    {
+      "from": "VI_THUOC_NUC_NAC",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước ép tươi của họ có tính chất kháng sinh rất cao đối với nhiều loại vi trùng: Staphyllococcus ($1cm$), Salmonella typhi ($1cm$), Sh.Flexneri và Subtilis ($0,8cm$), Coli pathogéne và Coli bethesda ($0,6cm$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T741"
+      }
+    }
+  ],
+  "metadata": {}
+}

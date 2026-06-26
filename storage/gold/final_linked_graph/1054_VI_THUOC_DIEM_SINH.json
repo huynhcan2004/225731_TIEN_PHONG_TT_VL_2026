@@ -1,0 +1,743 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DIEM_SINH",
+    "ten_raw": "Diêm sinh",
+    "ten_khoa_hoc": "$Sulfur$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có",
+      "thu_hai": "không có",
+      "che_bien_tho": "không có",
+      "lieu_dung_chung": "Ngày dùng 2 đến $3$g dưới dạng bột hay viên.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có"
+    },
+    "display_name": "Vị thuốc Diêm sinh",
+    "canonical_name": "Vị thuốc Diêm sinh"
+  },
+  "nodes": [
+    {
+      "id": "BT_MUN_NHOT_DIEM_SINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc mụn nhọt điểm sinh",
+        "aliases": [
+          "munnhotdiemsinh",
+          "mụn nhọt điểm sinh",
+          "mun nhot diem sinh"
+        ],
+        "search_vector_hint": "Bài thuốc mụn nhọt điểm sinh thuộc nhóm bài thuốc, thường liên quan đến điều trị mụn nhọt."
+      }
+    },
+    {
+      "id": "BT_MUN_TRUNG_CA_DO_DIEM_SINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc mụn trứng cá đỏ điểm sinh",
+        "aliases": [
+          "mun trung ca do diem sinh",
+          "mụn trứng cá đỏ điểm sinh",
+          "muntrungcadodiemsinh"
+        ],
+        "search_vector_hint": "Bài thuốc mụn trứng cá đỏ điểm sinh thuộc nhóm bài thuốc, thường liên quan đến điều trị mụn trứng cá đỏ."
+      }
+    },
+    {
+      "id": "BT_TAO_BON_DIEM_SINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc táo bón điểm sinh",
+        "aliases": [
+          "taobondiemsinh",
+          "táo bón điểm sinh",
+          "tao bon diem sinh"
+        ],
+        "search_vector_hint": "Bài thuốc táo bón điểm sinh thuộc nhóm bài thuốc, thường liên quan đến điều trị táo bón."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_MUN_TRUNG_CA_DO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn trứng cá đỏ",
+        "aliases": [
+          "muntrungcado",
+          "mụn trứng cá đỏ",
+          "rosacea",
+          "mun trung ca do"
+        ],
+        "search_vector_hint": "Bệnh Mụn trứng cá đỏ thuộc nhóm bệnh, thường liên quan đến viêm da mãn tính."
+      }
+    },
+    {
+      "id": "B_TAO_BON",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Táo bón",
+        "aliases": [
+          "tao bon",
+          "táo bón",
+          "taobon"
+        ],
+        "search_vector_hint": "Bệnh Táo bón thuộc nhóm bệnh, thường liên quan đến khó khăn trong việc đại tiện."
+      }
+    },
+    {
+      "id": "CN_BO_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ hóa",
+        "aliases": [
+          "bo hoa",
+          "bohoa",
+          "bổ hóa"
+        ],
+        "search_vector_hint": "Bổ hóa thuộc nhóm Công năng, thường liên quan đến tăng cường chức năng tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TRANG_DUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tráng dương",
+        "aliases": [
+          "tráng dương",
+          "trangduong",
+          "trang duong"
+        ],
+        "search_vector_hint": "Tráng dương thuộc nhóm công năng, thường liên quan đến tăng cường sinh lực nam giới."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_NHUAN_TRANG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Nhuận tràng",
+        "aliases": [
+          "nhuận tràng",
+          "nhuan trang",
+          "nhuantrang"
+        ],
+        "search_vector_hint": "Nhuận tràng thuộc nhóm Dược lý, thường liên quan đến khả năng làm mềm phân và dễ tiêu hóa."
+      }
+    },
+    {
+      "id": "DL_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Sát trùng",
+        "aliases": [
+          "sát trùng",
+          "sattrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Sát trùng thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt vi sinh vật."
+      }
+    },
+    {
+      "id": "DL_TRU_GIUN_SAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Trừ giun sán",
+        "aliases": [
+          "trugiunsan",
+          "tru giun san",
+          "trừ giun sán"
+        ],
+        "search_vector_hint": "Trừ giun sán thuộc nhóm Dược lý, thường liên quan đến khả năng loại bỏ ký sinh trùng đường ruột."
+      }
+    },
+    {
+      "id": "HC_SUNFUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sunfua",
+        "aliases": [
+          "sunfua"
+        ],
+        "search_vector_hint": "Hoạt chất Sunfua thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_BAN_HA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Bán hạ",
+        "aliases": [
+          "ban ha",
+          "bán hạ",
+          "banha"
+        ],
+        "search_vector_hint": "Vị thuốc Bán hạ thuộc nhóm vị thuốc, thường liên quan đến trị ho, hóa đờm."
+      }
+    },
+    {
+      "id": "VT_DAI_PHONG_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đại phong tử",
+        "aliases": [
+          "đại phong tử",
+          "daiphongtu",
+          "dai phong tu"
+        ],
+        "search_vector_hint": "Vị thuốc Đại phong tử thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh phong."
+      }
+    },
+    {
+      "id": "VT_DIEM_SINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Diêm sinh",
+        "aliases": [
+          "diem sinh",
+          "diêm sinh",
+          "diemsinh"
+        ],
+        "search_vector_hint": "Vị thuốc Diêm sinh thuộc nhóm vị thuốc, thường liên quan đến sát trùng, giải độc.",
+        "bo_phan_dung": "không có",
+        "thu_hai": "không có",
+        "che_bien_tho": "không có",
+        "lieu_dung_chung": "Ngày dùng 2 đến $3$g dưới dạng bột hay viên.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Không có",
+        "ten_khoa_hoc": "$Sulfur$",
+        "ho_thuc_vat": "$Không có$",
+        "hinh_thai_chi_tiet": "Nguyên tố có sẵn trong thiên nhiên. Dạng bột hoặc cục màu vàng tươi, mùi đặc biệt, không tan trong nước/rượu. Cháy với lửa xanh tạo mùi khét khó thở.",
+        "thanh_phan_hoa_hoc": "['Thành phần chủ yếu là $sunfua$ nguyên chất. Có thể lẫn tạp chất asen, sắt, đất.']",
+        "cach_dung_bao_che": "Chế từ khoáng vật lưu hoàng thiên nhiên. Dùng trong thuốc súng và kỹ nghệ hóa học."
+      }
+    },
+    {
+      "id": "VT_KINH_PHAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Kinh phấn",
+        "aliases": [
+          "kinhphan",
+          "kinh phấn",
+          "kinh phan"
+        ],
+        "search_vector_hint": "Vị thuốc Kinh phấn thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh ngoài da."
+      }
+    },
+    {
+      "id": "VT_PHEN_PHI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phèn phi",
+        "aliases": [
+          "phèn phi",
+          "phenphi",
+          "phen phi"
+        ],
+        "search_vector_hint": "Vị thuốc Phèn phi thuộc nhóm vị thuốc, thường liên quan đến sát trùng, cầm máu."
+      }
+    },
+    {
+      "id": "VT_SA_SANG_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xà sàng tử",
+        "aliases": [
+          "xasangtu",
+          "xa sang tu",
+          "xà sàng tử"
+        ],
+        "search_vector_hint": "Vị thuốc Xà sàng tử thuộc nhóm vị thuốc, thường liên quan đến trị ngứa, ghẻ lở."
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1053"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nguyên tố có sẵn trong thiên nhiên. Dạng bột hoặc cục màu vàng tươi, mùi đặc biệt, không tan trong nước/rượu. Cháy với lửa xanh tạo mùi khét khó thở.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu là $sunfua$ nguyên chất. Có thể lẫn tạp chất asen, sắt, đất."
+        ],
+        "cach_dung_bao_che": "Chế từ khoáng vật lưu hoàng thiên nhiên. Dùng trong thuốc súng và kỹ nghệ hóa học."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Diêm sinh có tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Diêm sinh có vị chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Diêm sinh quy vào kinh tâm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị thuốc Diêm sinh quy vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu là $sunfua$ nguyên chất.",
+        "ghi_chu": "Sunfua là tên gọi khác của sulfur (lưu huỳnh). Cần tạo thêm node HC_SULFUR và quan hệ đồng nhất."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAO_BON_DIEM_SINH",
+      "to": "VT_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$100g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAO_BON_DIEM_SINH",
+      "to": "VT_BAN_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$60g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAO_BON_DIEM_SINH",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Tán nhỏ, làm viên bằng hạt đậu xanh. Ngày uống 10-20 viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_DIEM_SINH",
+      "to": "VT_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_DIEM_SINH",
+      "to": "VT_DAI_PHONG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_DIEM_SINH",
+      "to": "VT_SA_SANG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_NHOT_DIEM_SINH",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Giã nhỏ, thêm dầu vừng bôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_TRUNG_CA_DO_DIEM_SINH",
+      "to": "VT_DIEM_SINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$25g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_TRUNG_CA_DO_DIEM_SINH",
+      "to": "VT_KINH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_TRUNG_CA_DO_DIEM_SINH",
+      "to": "VT_PHEN_PHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUN_TRUNG_CA_DO_DIEM_SINH",
+      "to": "B_MUN_TRUNG_CA_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Lắc đều, bôi nhiều lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "CN_BO_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "CN_TRANG_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tráng dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "DL_TRU_GIUN_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ giun sán."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "DL_NHUAN_TRANG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhuận tràng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DIEM_SINH",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1053",
+        "all_sources": [
+          "CT_VT_VN_T1053"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 43.5,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

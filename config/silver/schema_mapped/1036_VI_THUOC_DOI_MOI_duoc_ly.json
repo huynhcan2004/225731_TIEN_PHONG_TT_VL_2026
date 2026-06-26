@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_DOI_MOI",
+  "source": {
+    "source_id": "CT_VT_VN_T1036",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1036"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DOI_MOI",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mai đồi mồi có tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOI_MOI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mai đồi mồi không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1036"
+      }
+    }
+  ],
+  "metadata": {}
+}

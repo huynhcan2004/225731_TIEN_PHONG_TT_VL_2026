@@ -1,0 +1,127 @@
+{
+  "entity_hub": "VI_THUOC_PHAN_NGUOI",
+  "source": {
+    "source_id": "CT_VT_VN_T990",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "990"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SUNG_MONG_RANG_CHAY_MAU_PHAN_NGUOI_P",
+      "to": "VT_PHAN_NGUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Ngậm",
+        "ghi_chu": "Thánh huệ phương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUNG_MONG_RANG_CHAY_MAU_PHAN_NGUOI_P",
+      "to": "S_SUNG_MONG_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sưng mộng răng chảy máu",
+        "cach_dung": "Ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "VT_PHAN_NGUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng",
+        "ghi_chu": "Đồng tiện còn nóng ấm $200ml$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "B_SUY_NHUOC_SAU_SINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ, gầy yếu, ho, sốt, thổ huyết",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "S_GAY_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ, gầy yếu, ho, sốt, thổ huyết",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ, gầy yếu, ho, sốt, thổ huyết",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ, gầy yếu, ho, sốt, thổ huyết",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_SAU_SINH_PHAN_NGUOI_P",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi đẻ, gầy yếu, ho, sốt, thổ huyết",
+        "cach_dung": "Ngày uống. Liên tiếp uống trong một tháng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    },
+    {
+      "from": "VT_PHAN_NGUOI",
+      "to": "VT_PHAN_NGUOI",
+      "relation_type": "PHOI_HOP_VOI",
+      "properties": {
+        "mo_ta_chi_tiet": "Phối hợp với nhiều vị thuốc khác mà uống",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T990"
+      }
+    }
+  ],
+  "metadata": {}
+}

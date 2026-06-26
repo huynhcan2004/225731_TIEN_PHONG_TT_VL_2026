@@ -1,0 +1,71 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_MOI",
+    "ten_raw": "Ô môi",
+    "ten_khoa_hoc": "Mirica sapida Wall.; Myrica rubra",
+    "ho_thuc_vat": "Họ chưa rõ (chưa rõ)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ thân và vỏ rễ"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T924",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "924"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "vỏ thân và vỏ rễ dùng dưới dạng sắc để chữa vết loét ngoài da, hoặc ngộ độc do thạch tín. Tại Ấn Độ, Nhật Bản người ta dùng những cây to để làm nguyên liệu tanin, nhuộm màu vàng, duốc cá.",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu. Sơ bộ nghiên cứu thấy trong quả xanh có axit hữu cơ, tanin, vitamin C, trong quả chín có đường, sắc tố anthoxyan.",
+          "Vỏ cây chứa myrixetin C,H,O,, myrixitrin C, HoOz (Lưu Mê Đạt Phu và cộng sự-Hòa hán được dụng thực vật 1959, 353) và $11\\%$ tanin (Trung dược chỉ 1961, 1295, 1055)",
+          "Quả chứa $7-10\\%$ đường, $0,5-1\\%$ axit hữu cơ và rất ít myrixetin (Lun Mê Đạt Phu-như trên)",
+          "Myrixetin R=H Myrixitrin = R= rhamnoza"
+        ],
+        "lieu_dung_tong_quat": "Như trên đã nói chỉ mới thấy ở Quảng Bình người ta thu mua một số rất ít quả chín để dùng trong nước và xuất khẩu. Cần chú ý sử dụng tốt hơn một tài nguyên rất sẵn ở nước ta, đặc biệt ở Quảng Bình và Vĩnh Linh."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_MOI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây chứa myrixetin C,H,O,, myrixitrin C, HoOz (Lưu Mê Đạt Phu và cộng sự-Hòa hán được dụng thực vật 1959, 353) và $11\\%$ tanin (Trung dược chỉ 1961, 1295, 1055)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_MOI",
+      "to": "HC_MYRIXETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây chứa myrixetin C,H,O,, myrixitrin C, HoOz (Lưu Mê Đạt Phu và cộng sự-Hòa hán được dụng thực vật 1959, 353) và $11\\%$ tanin (Trung dược chỉ 1961, 1295, 1055)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_MOI",
+      "to": "HC_MYRIXITRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây chứa myrixetin C,H,O,, myrixitrin C, HoOz (Lưu Mê Đạt Phu và cộng sự-Hòa hán được dụng thực vật 1959, 353) và $11\\%$ tanin (Trung dược chỉ 1961, 1295, 1055)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T924"
+      }
+    }
+  ]
+}

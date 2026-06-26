@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHI",
+    "ten_raw": "Khỉ",
+    "ten_khoa_hoc": "Panthera pardus",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {},
+    "display_name": "Khỉ"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T997",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "997"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Hơi ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hình 730, Con báo",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "null"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHI",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T997"
+      }
+    }
+  ]
+}

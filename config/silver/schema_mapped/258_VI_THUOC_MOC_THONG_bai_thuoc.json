@@ -1,0 +1,425 @@
+{
+  "entity_hub": "VI_THUOC_MOC_THONG",
+  "source": {
+    "source_id": "CT_VT_VN_T258",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "258"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc lợi tiểu, thanh nhiệt để điều trị chứng khó tiểu tiện.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phục linh giúp kiện tỳ, lợi thấp, hỗ trợ điều trị tiểu khó.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VT_TRACH_TA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Trạch tả giúp thanh nhiệt, lợi thủy, hỗ trợ điều trị tiểu khó.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VT_DANG_TAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đăng tâm giúp thanh nhiệt, lợi thủy, thông lâm.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VT_XA_TIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xa tiền giúp thanh nhiệt, lợi thủy, thông lâm.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "VT_CHU_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chư linh giúp lợi thủy, thẩm thấp, hỗ trợ điều trị tiểu khó.",
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KHO_TIEU_TIEN_MOC_THONG_PMTDXC",
+      "to": "B_TIEU_TIEN_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khó tiểu tiện hay tiểu tiện đau buốt",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$. Chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc thanh nhiệt, lương huyết, lợi tiểu để điều trị tiểu tiện ra huyết.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VT_NGUU_TAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngưu tất giúp hoạt huyết, thông kinh, dẫn huyết đi xuống.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VT_SINH_DIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sinh địa giúp thanh nhiệt, lương huyết, chỉ huyết.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VT_THIEN_MON_DONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên môn đông giúp thanh nhiệt, dưỡng âm, nhuận táo.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng bá giúp thanh nhiệt, táo thấp, giải độc.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, dẫn thuốc vào kinh.",
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_RA_HUYET_MOC_THONG_MNSHTH",
+      "to": "B_XUAT_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiểu tiện ra huyết",
+        "cach_dung": "nước $600ml$, sắc còn $200ml$, chia nhiều lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_DE_TIEU_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương mộc thông.",
+        "mo_ta_chi_tiet": "Chữa dễ tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_DE_TIEU_MOC_THONG_M",
+      "to": "B_DE_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa dễ tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương mộc thông.",
+        "mo_ta_chi_tiet": "Thông tiểu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_MOC_THONG_M",
+      "to": "B_TIEU_KHONG_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_LOI_SUA_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương mộc thông.",
+        "mo_ta_chi_tiet": "Lợi sữa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_LOI_SUA_MOC_THONG_M",
+      "to": "B_IT_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi sữa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc thông dùng đơn độc hoặc phối hợp để chữa phù thũng.",
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_MOC_THONG_M",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc thông dùng đơn độc hoặc phối hợp để chữa tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_MOC_THONG_M",
+      "to": "B_TIEU_TIEN_KHO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_THIEU_SUA_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc thông dùng đơn độc hoặc phối hợp để chữa thiếu sữa.",
+        "mo_ta_chi_tiet": "Chữa thiếu sữa",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_THIEU_SUA_MOC_THONG_M",
+      "to": "B_IT_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thiếu sữa",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_BE_MOC_THONG_M",
+      "to": "VI_THUOC_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mộc thông dùng đơn độc hoặc phối hợp để chữa kinh nguyệt bế.",
+        "mo_ta_chi_tiet": "Chữa kinh nguyệt bế",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_BE_MOC_THONG_M",
+      "to": "B_KINH_BE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh nguyệt bế",
+        "cach_dung": "Dùng riêng hay phối hợp với các vị thuốc khác"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T258"
+      }
+    }
+  ],
+  "metadata": {}
+}

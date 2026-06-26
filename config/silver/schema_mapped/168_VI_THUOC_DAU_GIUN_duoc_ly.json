@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_DAU_GIUN",
+  "source": {
+    "source_id": "CT_VT_VN_T168",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "168"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_GIUN",
+      "to": "CN_TRU_GIUN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ascaridol là một chất độc đối với giun, có tác dụng làm tê liệt thần kinh của giun. Tác dụng diệt giun của dầu giun mạnh hơn thymol và betanaphtol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_GIUN",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu có tác dụng hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_GIUN",
+      "to": "DL_DOI_VOI_GIUN_DUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun có tác dụng đối với giun đũa, giun mỏ nhưng không tác dụng đối với sán và giun kim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_GIUN",
+      "to": "DL_KANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu giun có tác dụng kháng sinh đối với nhiều vi trùng và nấm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T168"
+      }
+    }
+  ],
+  "metadata": {}
+}

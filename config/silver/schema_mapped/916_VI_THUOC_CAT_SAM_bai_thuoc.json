@@ -1,0 +1,129 @@
+{
+  "entity_hub": "VI_THUOC_CAT_SAM",
+  "source": {
+    "source_id": "CT_VT_VN_T916",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "916"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "VI_THUOC_CAT_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$ (tươi $40-80g$)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát sâm là vị thuốc chính trong bài thuốc trị ho khan.",
+        "mo_ta_chi_tiet": "Chữa ho khan, sốt nóng về chiều, mồ hôi trộm, đau ngực, khát nước, kém ăn",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_HO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho khan",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_SOT_NONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt nóng về chiều",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mồ hôi trộm",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_DAU_NGUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau ngực",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khát nước",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_CAT_SAM_C",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kém ăn",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_SAN_PHU_THIEU_SUA_CAT_SAM_C",
+      "to": "VI_THUOC_CAT_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$12-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát sâm là vị thuốc chính trong bài thuốc trị thiếu sữa ở sản phụ.",
+        "mo_ta_chi_tiet": "Chữa sản phụ thiếu sữa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    },
+    {
+      "from": "BT_SAN_PHU_THIEU_SUA_CAT_SAM_C",
+      "to": "B_THIEU_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sản phụ thiếu sữa",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T916"
+      }
+    }
+  ],
+  "metadata": {}
+}

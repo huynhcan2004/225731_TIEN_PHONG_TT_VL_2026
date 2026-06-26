@@ -1,0 +1,79 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAI_PHUC_BI",
+    "ten_raw": "Đại phúc bì",
+    "ten_khoa_hoc": "Pericarpium Arecae",
+    "ho_thuc_vat": "Cau (Areca)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "vỏ ngoài và vỏ giữa phơi hay sấy khô của quả cau",
+      "che_bien_tho": "Thường các mảnh vỏ này được đập làm hai mà phơi cho chóng khô."
+    },
+    "display_name": "Đại phúc bì"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T233",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "233"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đại phúc bì (Pericarpium Arecae) là vỏ ngoài và vỏ giữa phơi hay sấy khô của quả cau (xem cây cau ở trên) ( Hình 158 ). Thường các mảnh vỏ này được đập làm hai mà phơi cho chóng khô.",
+        "thanh_phan_hoa_hoc": [
+          "Trong đại phúc bì có những ancaloit trong hạt cau như arecolin, arecaidin, guvacolin và guvaxin vv... nhưng tỷ lệ rất thấp."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_ARECOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như arecolin, arecaidin, guvacolin và guvaxin vv... nhưng tỷ lệ rất thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_ARECAIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như arecolin, arecaidin, guvacolin và guvaxin vv... nhưng tỷ lệ rất thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_GUVACOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như arecolin, arecaidin, guvacolin và guvaxin vv... nhưng tỷ lệ rất thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHUC_BI",
+      "to": "HC_GUVAXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại phúc bì có những ancaloit trong hạt cau như arecolin, arecaidin, guvacolin và guvaxin vv... nhưng tỷ lệ rất thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T233"
+      }
+    }
+  ]
+}

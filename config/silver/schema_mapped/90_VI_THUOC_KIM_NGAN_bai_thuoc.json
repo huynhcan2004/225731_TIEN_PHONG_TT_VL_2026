@@ -1,0 +1,351 @@
+{
+  "entity_hub": "VI_THUOC_KIM_NGAN",
+  "source": {
+    "source_id": "CT_VT_VN_T90",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "90"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_K",
+      "to": "VI_THUOC_KIM_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kim ngân là vị thuốc chính để chữa mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Nếu là hoa dùng $6g$, nếu là cành và lá dùng $12g$, nước $100ml$, thêm đường $4g$. Sắc còn $10ml$. Người lớn: ngày uống 2 đến 4 liều; trẻ em từ 1 đến 2 liều."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_K",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_K",
+      "to": "S_MANG_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mẩn ngứa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_K",
+      "to": "S_DI_UNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa một số trường hợp dị ứng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_KEDAU_K",
+      "to": "VI_THUOC_KIM_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kim ngân và ké đầu ngựa phối hợp để tăng cường công dụng chữa mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Kim ngân $6g$ (nếu là hoa) hoặc $12g$ (nếu là cành và lá), Ké đầu ngựa $3g$. Cùng một liều dùng như bài thuốc K1."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_KEDAU_K",
+      "to": "VT_KE_DAU_NGUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Kim ngân và ké đầu ngựa phối hợp để tăng cường công dụng chữa mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Ké đầu ngựa $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_KEDAU_K",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_KEDAU_K",
+      "to": "S_MANG_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mẩn ngứa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_KEDAU_K",
+      "to": "S_DI_UNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa một số trường hợp dị ứng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_HOA_KIM_NGAN_C",
+      "to": "VI_THUOC_KIM_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Kim ngân và cam thảo phối hợp để thanh nhiệt giải độc, chữa mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hoa kim ngân $6g$, cam thảo $3g$, nước $200ml$. Sắc còn $100ml$, chia 2 hay 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_HOA_KIM_NGAN_C",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Kim ngân và cam thảo phối hợp để thanh nhiệt giải độc, chữa mụn nhọt, mẩn ngứa.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Cam thảo $3g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_HOA_KIM_NGAN_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_HOA_KIM_NGAN_C",
+      "to": "S_MANG_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa mẩn ngứa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_MANG_NGUA_HOA_KIM_NGAN_C",
+      "to": "S_THONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thông tiểu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VI_THUOC_KIM_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Liên kiều $40g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_KINH_GIOI_TUE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Kinh giới tuệ $16g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Cát cánh $24g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_DAM_DAU_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Đạm đậu sị $20g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Bạc hà $24g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_NGUU_BANG_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Ngưu bàng tử $24g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "VT_DAM_TRUC_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc kinh nghiệm từ cổ dùng hoa kim ngân phối hợp với các vị thuốc khác để chữa mụn nhọt, sốt, cảm.",
+        "cach_dung": "Ngày uống 1-2 lần, mỗi lần uống $12g$ bột.",
+        "ghi_chu": "Đạm trúc diệp $16g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "thường dùng chữa mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thường dùng chữa sốt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NGAN_KIEU_TAN",
+      "to": "S_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thường dùng chữa cảm",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    }
+  ],
+  "metadata": {}
+}

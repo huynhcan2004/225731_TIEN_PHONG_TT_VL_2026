@@ -1,0 +1,139 @@
+{
+  "entity_hub": "VI_THUOC_DE",
+  "source": {
+    "source_id": "CT_VT_VN_T1034",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1034"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SUY_NHUOC_DE_DSN",
+      "to": "VI_THUOC_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bồi bổ khí huyết, tăng cường dinh dưỡng cho phụ nữ sau sinh.",
+        "cach_dung": "Nấu chín kỹ, chia làm hai lần ăn trong ngày",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_DE_DSN",
+      "to": "VT_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ huyết, hoạt huyết.",
+        "cach_dung": "Nấu chín kỹ, chia làm hai lần ăn trong ngày",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_DE_DSN",
+      "to": "VT_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ấm tỳ vị, giảm nôn.",
+        "cach_dung": "Nấu chín kỹ, chia làm hai lần ăn trong ngày",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_SUY_NHUOC_DE_DSN",
+      "to": "B_SUY_NHUOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ sau khi đẻ xong suy yếu, gầy còm, kém ăn, ít sữa",
+        "cach_dung": "Nấu chín kỹ, chia làm hai lần ăn trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_AN_DAT_DE_D",
+      "to": "VI_THUOC_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ tỳ vị, kiện vận.",
+        "cach_dung": "Nấu kỹ lấy nước cho uống",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_AN_DAT_DE_D",
+      "to": "B_AN_DAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con hay ăn đất",
+        "cach_dung": "Nấu kỹ lấy nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DE_HDG",
+      "to": "VI_THUOC_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bổ can thận, mạnh gân cốt.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DE_HDG",
+      "to": "VT_HOAI_SON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ tỳ, ích khí.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T1036"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "BT_DAU_NHUC_XUONG_DE_HDG",
+      "to": "B_DAU_NHUC_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau nhức xương",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_THANH_NGAM",
+  "source": {
+    "source_id": "CT_VT_VN_T440",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "440"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "CN_KICH_THICH_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kích thích tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "CN_DIEU_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "DL_KEM_AN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng trong những trường hợp kém ăn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "DL_DAU_BUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau bụng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "DL_DAU_LUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đau ngang lưng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGAM",
+      "to": "DL_MET_MOI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mệt nhọc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T440"
+      }
+    }
+  ],
+  "metadata": {}
+}

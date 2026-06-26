@@ -1,0 +1,73 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_COT_KHI",
+    "ten_raw": "Cốt khí",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T524",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "524"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Trong rễ cây này có antraglucozit chủ yếu là émodin hay rheum emodin C₁₅H₁₀O₅, emodin monometyl ête C₁₆H₁₂O₅, dưới dạng tự do và kết hợp. Ngoài ra còn có chất polygonin C₂₀H₁₆O₈ và tanin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_COT_KHI",
+      "to": "HC_EMODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ cây này có antraglucozit chủ yếu là émodin hay rheum emodin C₁₅H₁₀O₅, emodin monometyl ête C₁₆H₁₂O₅, dưới dạng tự do và kết hợp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T524"
+      }
+    },
+    {
+      "from": "VI_THUOC_COT_KHI",
+      "to": "HC_EMODIN_MONOMETYL_ETE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ cây này có antraglucozit chủ yếu là émodin hay rheum emodin C₁₅H₁₀O₅, emodin monometyl ête C₁₆H₁₂O₅, dưới dạng tự do và kết hợp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T524"
+      }
+    },
+    {
+      "from": "VI_THUOC_COT_KHI",
+      "to": "HC_POLYGONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất polygonin C₂₀H₁₆O₈ và tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T524"
+      }
+    },
+    {
+      "from": "VI_THUOC_COT_KHI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có chất polygonin C₂₀H₁₆O₈ và tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T524"
+      }
+    }
+  ]
+}

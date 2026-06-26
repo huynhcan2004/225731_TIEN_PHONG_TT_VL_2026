@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_SEN_CAN",
+  "source": {
+    "source_id": "CT_VT_VN_T787",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "787"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "DL_GAY_NON_MUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho chó, mèo uống hoặc tiêm dưới da $narcissin$ liều lớn gây nôn mửa, ỉa chảy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T787"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "DL_GAY_TANG_TIET_NUOC_BOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho chó, mèo uống hoặc tiêm dưới da $narcissin$ liều nhỏ gây chảy nước bọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T787"
+      }
+    }
+  ],
+  "metadata": {}
+}

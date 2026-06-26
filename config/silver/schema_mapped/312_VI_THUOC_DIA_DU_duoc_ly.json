@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_DIA_DU",
+  "source": {
+    "source_id": "CT_VT_VN_T312",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "312"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có tính hơi hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "CN_LIEM_PHOI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có vị chua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có tác dụng kháng khuẩn (E. coli, lỵ trực trùng v.v…)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "DL_CAM_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có tác dụng hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    },
+    {
+      "from": "VI_THUOC_DIA_DU",
+      "to": "DL_CHONG_BONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Địa du có tác dụng chống bỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T312"
+      }
+    }
+  ],
+  "metadata": {}
+}

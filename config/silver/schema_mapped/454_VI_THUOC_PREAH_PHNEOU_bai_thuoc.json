@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_PREAH_PHNEOU",
+  "source": {
+    "source_id": "CT_VT_VN_T454",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "454"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_IA_LONG_PREAH_PHNEOU_P",
+      "to": "VI_THUOC_PREAH_PHNEOU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20g-40g$ cao lỏng, hoặc $13g$ cao khô hay $50-100g$ cồn thuốc ($1/5$)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Preah phneou là vị thuốc chính.",
+        "cach_dung": "Thường chế khi dùng, vì dạng xirô chế bằng cao nước preah phneou rất dễ lên men mốc. Có thể chế thành dạng viên nén hay viên hoàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454"
+      }
+    },
+    {
+      "from": "BT_IA_LONG_PREAH_PHNEOU_P",
+      "to": "B_IA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng, và lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454"
+      }
+    },
+    {
+      "from": "BT_LY_PREAH_PHNEOU_P",
+      "to": "VI_THUOC_PREAH_PHNEOU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20g-40g$ cao lỏng, hoặc $13g$ cao khô hay $50-100g$ cồn thuốc ($1/5$)",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Preah phneou là vị thuốc chính.",
+        "cach_dung": "Thường chế khi dùng, vì dạng xirô chế bằng cao nước preah phneou rất dễ lên men mốc. Có thể chế thành dạng viên nén hay viên hoàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454"
+      }
+    },
+    {
+      "from": "BT_LY_PREAH_PHNEOU_P",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng, và lỵ",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T454"
+      }
+    }
+  ],
+  "metadata": {}
+}

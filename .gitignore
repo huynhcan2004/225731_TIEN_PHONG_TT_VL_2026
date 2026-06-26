@@ -20,3 +20,34 @@ logs/
 .vscode/
 .idea/
 yhct-knowledge-graph.json
+
+# CSDL SQLite cục bộ
+yhct_database.db
+
+# Node.js & React Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Flutter Mobile App
+mobile_app/.dart_tool/
+mobile_app/build/
+mobile_app/.flutter-plugins-dependencies
+mobile_app/*.iml
+*.iml
+
+# Các file dữ liệu lớn & Cache (Tránh lỗi GitHub vượt 100MB)
+config/checkpoints/
+storage/raw/
+storage/silver1/
+storage/gold/
+storage/quarantine/
+storage/baseline_evaluation/
+uploads/
+
+# Google Client Secrets (Bảo mật Google OAuth)
+client_secret_*.json
+
+
+

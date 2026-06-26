@@ -1,0 +1,101 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DINH_LANG",
+    "ten_raw": "Đinh lăng",
+    "ten_khoa_hoc": "Polyscias fruticosa (L.) Harms; Panax fruticosum L; Nothopanax fruticosum (L.) Miq.; Tieghemopanax fruticosus (L.) R. Vig.",
+    "ho_thuc_vat": "Ngũ gia bì Araliaceae",
+    "variants": [
+      "cây gỏi cá"
+    ],
+    "properties": {
+      "bo_phan_dung": "Rễ",
+      "phan_bo": "là một loại cây nhỏ, thân nhẵn, không có gai, thường cao $0,8$ đến $1,5m$. Lá kép",
+      "thu_hai": "phơi hoặc sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T843",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "843"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao $0,5-1,2m$. Rễ hình trụ, vỏ ngoài màu vàng lá kép lông chim lẻ, mọc so le, gồm $5-10$ đôi lá chét. Lá chét hình mác dài $2-4,5cm$, rộng $7-16mm$. Hoa mọc thành chùm dài $10-$ $20cm$. Hoa màu vàng trắng. Quả giáp dài $5-12cm$, đường kính $5-8mm$, đầu có mỏ dài chứa $3-7$ hạt, gần hình cầu, màu đen (Hình 634). [CT_VT_VN_T845]: Đinh lăng còn gọi là cây gỏi cá (vì nhân dân thường lấy lá để ăn gỏi cá, nhưng tên đinh lăng phổ biến hơn) là một loại cây nhỏ, thân nhẵn, không có gai, thường cao $0,8$ đến $1,5m$. Lá kép"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_MATRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ khổ sâm, người ta đã nghiên cứu thấy các chất như: $2,5\\%$ chất ancaloit có tên $matrin$ C₁₅H₂₄NO₂"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    },
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_SOPHOCACPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ khổ sâm, người ta đã nghiên cứu thấy các chất như: $2,5\\%$ chất ancaloit có tên $sophocacpin$ CH₂₄N₂O.H₂O"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    },
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_OXYMATRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ khổ sâm, người ta đã nghiên cứu thấy các chất như: $2,5\\%$ chất ancaloit có tên $oxymatrin$ C₁₅H₂₂O₃N₂H₂O."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    },
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_XYTISIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra trong rễ còn có chất $xytisin$ C₁₁H₁₄ON₂."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    },
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá khổ sâm có chứa $47mg\\%$ vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    },
+    {
+      "from": "VI_THUOC_DINH_LANG",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có $0,12\\%$ tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T843"
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHE_RUNG",
+    "ten_raw": "Khế rừng",
+    "ten_khoa_hoc": "$Rourea microphylla Planch.$",
+    "ho_thuc_vat": "$Khế rừng (Connaraceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "[CT_VT_VN_T289]: Ngày dùng $10$-$20g$ dưới dạng thuốc sắc. Dùng ngoài không kể liều lượng để giã đắp lên những nơi viêm tấy, chảy máu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Khế rừng mọc rất phổ biến trong các rừng của nước ta, khi chưa có quả lá cây gần như lá cây khế do đó có tên này. Thường mọc ở những khu vực dãi nắng."
+    },
+    "display_name": "Khế rừng",
+    "canonical_name": "Khế rừng"
+  },
+  "nodes": [
+    {
+      "id": "BT_KEM_AN_KHE_RUNG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Kem An Khe Rung"
+      }
+    },
+    {
+      "id": "VI_THUOC_KHE_RUNG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Khe Rung"
+      }
+    },
+    {
+      "id": "B_KEM_AN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kem An"
+      }
+    },
+    {
+      "id": "B_TIEN_KHO_KHAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tien Kho Khan"
+      }
+    },
+    {
+      "id": "S_VET_THUONG_CHAY_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Vet Thuong Chay Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T288",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "288"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây bụi, nhỏ, thân cứng, màu nâu xám. Lá kép lông chim lẻ gồm 5-6 đôi lá chét nhỏ, mặt trên bóng. Lá non màu hồng đỏ rất đẹp, trông xa như đám cháy do đó có tên cây cháy nhà. Hoa màu trắng, 5 cánh hoa, 10 nhị, 5 lá noãn. Quả nhỏ, cong. Mùa hoa quả: tháng 6-8 (Hình 211).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Nhân dân lấy vỏ thân, thân và lá để làm thuốc.",
+        "cach_dung_bao_che": "Dùng tươi hay khô. Thường dùng tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_KEM_AN_KHE_RUNG",
+      "to": "VI_THUOC_KHE_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Đun sôi giữ sôi trong nửa giờ, chia làm ba lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T289"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288",
+        "all_sources": [
+          "CT_VT_VN_T288"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_KEM_AN_KHE_RUNG",
+      "to": "B_KEM_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T289"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288",
+        "all_sources": [
+          "CT_VT_VN_T288"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHE_RUNG",
+      "to": "B_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "cach_dung": "Lá khế rừng sao thơm, thêm nước vào đun sôi. Chia làm ba lần uống trong ngày",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T289"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288",
+        "all_sources": [
+          "CT_VT_VN_T288"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHE_RUNG",
+      "to": "S_VET_THUONG_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Lá khế rừng rửa sạch, giã nát. Đắp lên nơi đau",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T289"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288",
+        "all_sources": [
+          "CT_VT_VN_T288"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 19.5,
+      "reliability_c_score": 0.79,
+      "total_confidence_sum": 3.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

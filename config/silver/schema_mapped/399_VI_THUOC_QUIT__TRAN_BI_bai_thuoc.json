@@ -1,0 +1,139 @@
+{
+  "entity_hub": "VI_THUOC_QUIT_TRAN_BI",
+  "source": {
+    "source_id": "CT_VT_VN_T399",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "399"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "VI_THUOC_QUIT__TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc giúp sự tiêu hoá, phối hợp các vị thuốc có tác dụng kiện tỳ, thanh nhiệt, trừ thấp.",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc giúp sự tiêu hoá, phối hợp các vị thuốc có tác dụng kiện tỳ, thanh nhiệt, trừ thấp.",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc giúp sự tiêu hoá, phối hợp các vị thuốc có tác dụng kiện tỳ, thanh nhiệt, trừ thấp.",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "VT_DANG_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc giúp sự tiêu hoá, phối hợp các vị thuốc có tác dụng kiện tỳ, thanh nhiệt, trừ thấp.",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc giúp sự tiêu hoá, phối hợp các vị thuốc có tác dụng kiện tỳ, thanh nhiệt, trừ thấp.",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_TIEU_HOA_TRAN_BI_THTDC",
+      "to": "B_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc giúp sự tiêu hoá",
+        "cach_dung": "Tất cả tán bột, trộn đều. Chia ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_HO_MAT_TIENG_TRAN_BI_T",
+      "to": "VI_THUOC_QUIT__TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trần bì có tác dụng trị ho, mất tiếng.",
+        "cach_dung": "Sắc với $200ml$ nước, còn $100ml$ cho thêm đường vào cho đủ ngọt, nhấp uống dần trong ngày.",
+        "ghi_chu": "Không rõ ràng, cần tham khảo ý kiến thầy thuốc trước khi dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_HO_MAT_TIENG_TRAN_BI_T",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho mất tiếng",
+        "cach_dung": "Sắc với $200ml$ nước, còn $100ml$ cho thêm đường vào cho đủ ngọt, nhấp uống dần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    },
+    {
+      "from": "BT_HO_MAT_TIENG_TRAN_BI_T",
+      "to": "S_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho mất tiếng",
+        "cach_dung": "Sắc với $200ml$ nước, còn $100ml$ cho thêm đường vào cho đủ ngọt, nhấp uống dần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T399"
+      }
+    }
+  ],
+  "metadata": {}
+}

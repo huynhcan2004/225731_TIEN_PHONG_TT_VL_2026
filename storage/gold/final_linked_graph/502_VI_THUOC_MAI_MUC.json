@@ -1,0 +1,661 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_MAI_MUC",
+    "ten_raw": "Mai mực",
+    "ten_khoa_hoc": "$Sepia esculenta Hoyle; Sepia andreana Steen-Strup$",
+    "ho_thuc_vat": "$Cá mực Sepiidae$",
+    "variants": [
+      "hải phiêu tiêu",
+      "mai cá mực",
+      "ô tặc cốt"
+    ],
+    "properties": {
+      "bo_phan_dung": "không có thông tin",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống $4$ đến $8g$ dưới dạng thuốc bột hay thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Khánh Hoà, Quảng Ninh, Hải Phòng, Nghệ An, Hà Tĩnh, Thanh Hoá"
+    },
+    "display_name": "Vị thuốc Mai mực",
+    "canonical_name": "Vị thuốc Mai mực"
+  },
+  "nodes": [
+    {
+      "id": "BT_LOET_AM_HO_MAI_MUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Loét âm hộ Mai mực",
+        "aliases": [
+          "loét âm hộ mai mực",
+          "loet am ho mai muc",
+          "loetamhomaimuc"
+        ],
+        "search_vector_hint": "Loét âm hộ Mai mực thuộc nhóm bài thuốc, thường liên quan đến điều trị loét âm hộ."
+      }
+    },
+    {
+      "id": "BT_TAI_CO_MU_MAI_MUC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tai có mủ Mai mực",
+        "aliases": [
+          "tai có mủ mai mực",
+          "tai co mu mai muc",
+          "taicomumaimuc"
+        ],
+        "search_vector_hint": "Tai có mủ Mai mực thuộc nhóm bài thuốc, thường liên quan đến điều trị viêm tai có mủ."
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau dạ dày",
+        "aliases": [
+          "dau da day",
+          "đau bao tử",
+          "dau bao tu",
+          "daubaotu",
+          "daudaday",
+          "đau dạ dày"
+        ],
+        "search_vector_hint": "Bệnh Đau dạ dày thuộc nhóm Bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "B_LOET_AM_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Loét Am Ho",
+        "aliases": [
+          "loetamho",
+          "loét am ho",
+          "loet am ho"
+        ],
+        "search_vector_hint": "Bệnh Loét Am Ho thuộc nhóm Bệnh, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "B_MO_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mờ mắt",
+        "aliases": [
+          "mo mat",
+          "mờ mắt",
+          "momat"
+        ],
+        "search_vector_hint": "Mờ mắt thuộc nhóm bệnh, thường liên quan đến suy giảm thị lực."
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cầm máu",
+        "aliases": [
+          "chihuyet",
+          "cam mau",
+          "cầm máu",
+          "chi huyet",
+          "chỉ huyết",
+          "cammau"
+        ],
+        "search_vector_hint": "Công năng Cầm máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hoạt huyết",
+        "aliases": [
+          "hanh huyet",
+          "hoạt huyết",
+          "hành huyết",
+          "hoat huyet",
+          "hoathuyet",
+          "hanhhuyet"
+        ],
+        "search_vector_hint": "Công năng Hoạt huyết thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_KHU_HAN_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu Hàn Thấp",
+        "aliases": [
+          "khu hàn thấp",
+          "khu han thap",
+          "khuhanthap"
+        ],
+        "search_vector_hint": "Công năng Khu Hàn Thấp thuộc nhóm Công năng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "HC_CANXI_CACBONAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi Cacbonat",
+        "aliases": [
+          "canxicacbonat",
+          "canxi cacbonat"
+        ],
+        "search_vector_hint": "Canxi Cacbonat thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CANXI_PHOTPHAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Canxi Photphat",
+        "aliases": [
+          "canxi photphat",
+          "canxiphotphat"
+        ],
+        "search_vector_hint": "Canxi Photphat thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_NATRI_CLORUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Natri clorua",
+        "aliases": [
+          "natriclorua",
+          "natri clorua"
+        ],
+        "search_vector_hint": "Natri clorua thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_TAI_CO_MU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng tai có mủ",
+        "aliases": [
+          "tai co mu",
+          "tai có mủ",
+          "taicomu"
+        ],
+        "search_vector_hint": "Triệu chứng tai có mủ thuộc nhóm triệu chứng tai, mũi, họng, thường liên quan đến nhiễm trùng."
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Thổ huyết thuộc nhóm Triệu chứng, thường liên quan đến xuất huyết đường tiêu hóa."
+      }
+    },
+    {
+      "id": "S_VET_THUONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Vết thương",
+        "aliases": [
+          "vet thuong",
+          "vetthuong",
+          "vết thương"
+        ],
+        "search_vector_hint": "Triệu chứng Vết thương thuộc nhóm Triệu chứng, thường liên quan đến tổn thương da."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_MAI_MUC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mai mực",
+        "aliases": [
+          "o tac cot",
+          "mai mực",
+          "ô tặc cốt",
+          "otaccot",
+          "maimuc",
+          "mai muc"
+        ],
+        "search_vector_hint": "Mai mực thuộc nhóm vị thuốc, thường liên quan đến cầm máu, giảm axit.",
+        "lieu_dung_chung": "Ngày uống $4$ đến $8g$ dưới dạng thuốc bột hay thuốc viên.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Khánh Hoà, Quảng Ninh, Hải Phòng, Nghệ An, Hà Tĩnh, Thanh Hoá",
+        "ten_khoa_hoc": "$Sepia esculenta Hoyle; Sepia andreana Steen-Strup$",
+        "ho_thuc_vat": "$Cá mực Sepiidae$",
+        "hinh_thai_chi_tiet": "Ở nước ta có nhiều loại mực: Mực ống, mực nang, mực cơm v.v... Mực là một động vật sống ở vùng nước có độ mặn cao, vùng đáy có cát pha bùn, nhất là vùng đáy hình lòng chảo lõm xuống giữa 2 cồn cát. Mực thường sống từng đàn ở tầng nước đáy, khi kiếm mồi mới nổi lên tầng nước trên. Hầu hết khi bơi lội trong nước, mắt mực lồi ra, màu da luôn luôn thay đổi theo màu nước để dễ lẩn tránh và bắt mồi. Lúc nguy biến thì mực bơi giật lùi và phun mực ra, làm cho nước vùng đó đen lại, kẻ địch loá mắt, rồi tìm cách lẩn trốn. Mực rất thích ánh sáng và màu trắng, khi thấy ánh sáng, mực tập trung rất đông. Mực rất thích ăn các loại trứng cá, tôm cá con và những động vật nhỏ khác trong nước.",
+        "thanh_phan_hoa_hoc": "['Trong mai mực có các muối canxi cacbonat, canxi photphat, muối natri clorua, các chất hữu cơ và chất keo.']"
+      }
+    },
+    {
+      "id": "VT_TRUNG_GA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Trứng gà",
+        "aliases": [
+          "trungga",
+          "trung ga",
+          "trứng gà"
+        ],
+        "search_vector_hint": "Vị thuốc Trứng gà thuộc nhóm vị thuốc, thường liên quan đến bổ dưỡng, tăng cường sức khỏe."
+      }
+    },
+    {
+      "id": "VT_XA_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Xạ hương",
+        "aliases": [
+          "xạ hương",
+          "xahuong",
+          "xa huong"
+        ],
+        "search_vector_hint": "Xạ hương thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "V_MAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Man",
+        "aliases": [
+          "man",
+          "mạn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạn thuộc nhóm vị thuốc, thường liên quan đến y học cổ truyền."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "502"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta có nhiều loại mực: Mực ống, mực nang, mực cơm v.v... Mực là một động vật sống ở vùng nước có độ mặn cao, vùng đáy có cát pha bùn, nhất là vùng đáy hình lòng chảo lõm xuống giữa 2 cồn cát. Mực thường sống từng đàn ở tầng nước đáy, khi kiếm mồi mới nổi lên tầng nước trên. Hầu hết khi bơi lội trong nước, mắt mực lồi ra, màu da luôn luôn thay đổi theo màu nước để dễ lẩn tránh và bắt mồi. Lúc nguy biến thì mực bơi giật lùi và phun mực ra, làm cho nước vùng đó đen lại, kẻ địch loá mắt, rồi tìm cách lẩn trốn. Mực rất thích ánh sáng và màu trắng, khi thấy ánh sáng, mực tập trung rất đông. Mực rất thích ăn các loại trứng cá, tôm cá con và những động vật nhỏ khác trong nước.",
+        "thanh_phan_hoa_hoc": [
+          "Trong mai mực có các muối canxi cacbonat, canxi photphat, muối natri clorua, các chất hữu cơ và chất keo."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_MAI_MUC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vị mặn, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "ô tặc cốt vị mặn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh can và thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "HC_CANXI_CACBONAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mai mực có các muối canxi cacbonat, canxi photphat, muối natri clorua, các chất hữu cơ và chất keo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "HC_CANXI_PHOTPHAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mai mực có các muối canxi cacbonat, canxi photphat, muối natri clorua, các chất hữu cơ và chất keo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "HC_NATRI_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong mai mực có các muối canxi cacbonat, canxi photphat, muối natri clorua, các chất hữu cơ và chất keo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Đau dạ dày thừa nước chua, loét dạ dày chảy máu, họ lao lực, trẻ con chậm lớn, băng huyết. Chỉ định lâm sàng (không ghi rõ liều). CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "B_MO_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Mờ mắt, tai chảy mủ. Chỉ định lâm sàng (không ghi rõ liều). CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "S_VET_THUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài, rắc lên vết thương để cầm máu",
+        "ghi_chu": "Vết thương. Ô tặc cốt (tán bột). CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$1$ đến $2g$",
+        "cach_dung": "Ngày uống 4 đến 5 lần, mỗi lần 1 đến $2g$, uống với nước cơm hay nước sắc bạch cập ($10$ hay $20g$ bạch cập sắc với $300ml$ nước) để chiêu thuốc",
+        "ghi_chu": "Thổ huyết. Ô tặc cốt tán thật nhỏ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAI_CO_MU_MAI_MUC",
+      "to": "VT_MAI_MUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "vai_tro": "Quân",
+        "ghi_chu": "Tai có mủ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAI_CO_MU_MAI_MUC",
+      "to": "VT_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$0,4g$",
+        "vai_tro": "Tá",
+        "ghi_chu": "Tai có mủ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TAI_CO_MU_MAI_MUC",
+      "to": "S_TAI_CO_MU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Tán thật nhỏ, lấy bông bọc vào đầu tăm chấm thuốc ngoáy vào tai",
+        "ghi_chu": "Tai có mủ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOET_AM_HO_MAI_MUC",
+      "to": "VT_MAI_MUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân",
+        "ghi_chu": "Phụ nữ bị loét âm hộ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOET_AM_HO_MAI_MUC",
+      "to": "VT_TRUNG_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá",
+        "ghi_chu": "Phụ nữ bị loét âm hộ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_LOET_AM_HO_MAI_MUC",
+      "to": "B_LOET_AM_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Trộn với lòng đỏ trứng gà bôi vào vết lở loét đã rửa sạch",
+        "ghi_chu": "Phụ nữ bị loét âm hộ. CT_VT_VN_T503"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông huyết mạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "CN_KHU_HAN_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khứ hàn thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_MAI_MUC",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T502",
+        "all_sources": [
+          "CT_VT_VN_T502"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 44.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

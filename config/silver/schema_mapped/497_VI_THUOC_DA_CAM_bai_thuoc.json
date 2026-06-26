@@ -1,0 +1,154 @@
+{
+  "entity_hub": "VI_THUOC_DA_CAM",
+  "source": {
+    "source_id": "CT_VT_VN_T497",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "497"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM_D",
+      "to": "VI_THUOC_DA_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dạ cẩm là vị thuốc chính.",
+        "cach_dung": "Thêm nước vào sắc, thêm đường cho đủ ngọt, chia 2 hay 3 lần uống trong ngày. Uống trước khi ăn hay vào lúc đau.",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_DA_CAM_D",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau dạ dày",
+        "cach_dung": "Uống trước khi ăn hay vào lúc đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_CAO_DA_CAM",
+      "to": "VI_THUOC_DA_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dạ cẩm là vị thuốc chính kết hợp với đường và mật ong.",
+        "cach_dung": "Ngày uống 2 đến 3 lần, trước khi ăn hoặc khi đau, mỗi lần uống 1 thìa to (tương ứng 10-15g).",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_CAO_DA_CAM",
+      "to": "VT_DUONG_KINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đường kính giúp tăng vị ngọt, dễ uống.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_CAO_DA_CAM",
+      "to": "VT_MAT_ONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật ong giúp tăng vị ngọt, dễ uống và có tác dụng nhuận tràng.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_CAO_DA_CAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cao dạ cẩm chữa đau dạ dày",
+        "cach_dung": "Ngày uống 2 đến 3 lần, trước khi ăn hoặc khi đau, mỗi lần uống 1 thìa to (tương ứng 10-15g)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_COM_DA_CAM",
+      "to": "VI_THUOC_DA_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dạ cẩm là vị thuốc chính.",
+        "cach_dung": "Ngày uống 2 lần trước khi ăn hoặc khi đang đau; mỗi lần dùng 10 đến 15g, trẻ em dưới 18 tuổi từ 5 đến 10g.",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_COM_DA_CAM",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cam thảo giúp điều hòa các vị thuốc, giảm tác dụng phụ.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_COM_DA_CAM",
+      "to": "VT_DUONG_KINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đường kính giúp tăng vị ngọt, dễ uống.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T500"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    },
+    {
+      "from": "BT_COM_DA_CAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Cốm dạ cẩm chữa đau dạ dày",
+        "cach_dung": "Ngày uống 2 lần trước khi ăn hoặc khi đang đau; mỗi lần dùng 10 đến 15g, trẻ em dưới 18 tuổi từ 5 đến 10g."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T497"
+      }
+    }
+  ],
+  "metadata": {}
+}

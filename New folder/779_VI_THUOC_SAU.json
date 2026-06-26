@@ -1,0 +1,220 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SAU",
+    "ten_raw": "Sấu",
+    "ten_khoa_hoc": "Dracontomelum duperreanum Pierre.",
+    "ho_thuc_vat": "Đào lộn hột (Amacardiaceae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "phần thịt quả",
+      "thu_hai": "tháng 7-9",
+      "che_bien_tho": "Không",
+      "lieu_dung_chung": "Ngày uống từ $4$ đến $6g$ phần thịt quả.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không",
+      "phan_bo": "Cây mọc hoang và hay được trồng lấy bóng mát, lấy quả và gỗ."
+    },
+    "display_name": "Sấu"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_SAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Sau"
+      }
+    },
+    {
+      "id": "HC_AXIT_HUU_CO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Huu Co"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "HC_GLUXIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Gluxit"
+      }
+    },
+    {
+      "id": "HC_XENLULOZA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Xenluloza"
+      }
+    },
+    {
+      "id": "HC_CANXI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Canxi"
+      }
+    },
+    {
+      "id": "HC_P",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "P"
+      }
+    },
+    {
+      "id": "HC_SAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sat"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_C",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin C"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T779",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "779"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to có thể cao tới 30m hay hơn nữa. Lá kép lông chim lẻ, mọc cách. Hoa mọc thành xim. Hoa đều, lưỡng tính có 5 lá đài, 5 cánh, 10 nhị, 5 lá noãn làm thành một bầu 5 ô với 5 vòi nhuỵ. Quả hạch, vị chua. Mùa quả: tháng 7-9 (Hình 591).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_AXIT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_XENLULOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_P",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả sấu chín có: $axit hữu cơ$, $protit$, $gluxit$, $xenluloza$, $canxi$, $P$, $sắt$ và $vitamin C$.",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | Ngày uống từ $4$ đến $6g$",
+        "cach_dung": "Ngậm quả sấu với ít muối, hay sắc quả sấu với nước, thêm đường cho đủ ngọt mà uống | Thịt quả sấu",
+        "ghi_chu": "CT_VT_VN_T779"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T779"
+      }
+    }
+  ]
+}

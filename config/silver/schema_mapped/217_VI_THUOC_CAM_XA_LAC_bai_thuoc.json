@@ -1,0 +1,41 @@
+{
+  "entity_hub": "VI_THUOC_CAM_XA_LAC",
+  "source": {
+    "source_id": "CT_VT_VN_T217",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "217"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_CAM_XA_LAC_C",
+      "to": "VI_THUOC_CAM_XA_LAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$5-10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc",
+        "ghi_chu": "Ngày dùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T217"
+      }
+    },
+    {
+      "from": "BT_LY_CAM_XA_LAC_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Dùng dưới dạng thuốc sắc, ngày dùng $5-10g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T217"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,68 @@
+{
+  "entity_hub": "VI_THUOC_CANH_KIEN_DO",
+  "source": {
+    "source_id": "CT_VT_VN_T686",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "686"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CANH_KIEN_DO",
+      "to": "CN_THANG_THANH_GIANG_TROC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đưa cái trong lên trên, hạ chất đục xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_DO",
+      "to": "CN_TAN_PHONG_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán phong giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_DO",
+      "to": "DL_GIAM_DAU_HIEU_TRUNG_DOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ximitin tiêm tĩnh mạch cho chuột với liều $100mg$ cho chuột $10g$ vẫn không thấy hiện tượng trúng độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_DO",
+      "to": "DL_KICH_THICH_DA_DAY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Người uống quá liều thì có hiện tượng bắp thịt mềm sỉu, đầu váng mắt hoa, mạch và hơi thở giảm xuống, dạ dày bị kích thích đến gây nôn mửa kịch liệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686"
+      }
+    },
+    {
+      "from": "VI_THUOC_CANH_KIEN_DO",
+      "to": "DL_SUY_NHUOC_PHAT_CUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nếu quá liều nhiều quá thì choáng váng, nhức đầu, suy nhược và phát cuồng nhẹ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T686"
+      }
+    }
+  ],
+  "metadata": {}
+}

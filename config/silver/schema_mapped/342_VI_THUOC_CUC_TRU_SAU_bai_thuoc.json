@@ -1,0 +1,124 @@
+{
+  "entity_hub": "VI_THUOC_CUC_TRU_SAU",
+  "source": {
+    "source_id": "CT_VT_VN_T342",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "342"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SAU_BO_CUC_TRU_SAU_H",
+      "to": "VI_THUOC_CUC_TRU_SAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc trừ sâu kết hợp xà phòng và dầu vừng để tăng khả năng diệt sâu bọ.",
+        "cach_dung": "Phun lên những cây bị sâu bọ phá hoại.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_SAU_BO_CUC_TRU_SAU_H",
+      "to": "VT_XA_PHONG_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xà phòng đen giúp hòa tan và tăng khả năng bám dính của cúc trừ sâu trên cây.",
+        "cach_dung": "Phun lên những cây bị sâu bọ phá hoại.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_SAU_BO_CUC_TRU_SAU_H",
+      "to": "VT_DAU_VUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dầu vừng tăng cường tác dụng diệt sâu bọ.",
+        "cach_dung": "Phun lên những cây bị sâu bọ phá hoại.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_MUOI_CUC_TRU_SAU_HTL",
+      "to": "VI_THUOC_CUC_TRU_SAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc trừ sâu là thành phần chính để diệt muỗi.",
+        "cach_dung": "Phối hợp 0,1 đến 0,4$\\%$ bột cúc trừ sâu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_SAU_CUC_TRU_SAU_H",
+      "to": "VI_THUOC_CUC_TRU_SAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc trừ sâu có tác dụng diệt sâu.",
+        "cach_dung": "Pha vào $3$ lít nước, đun cho hơi nóng rồi phun lên nơi có sâu.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_SAU_BO_CUC_TRU_SAU_H",
+      "to": "B_SAU_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ sâu bọ",
+        "cach_dung": "Phun lên những cây bị sâu bọ phá hoại."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_MUOI_CUC_TRU_SAU_HTL",
+      "to": "B_MUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ muỗi",
+        "cach_dung": "Phối hợp 0,1 đến 0,4$\\%$ bột cúc trừ sâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    },
+    {
+      "from": "BT_SAU_CUC_TRU_SAU_H",
+      "to": "B_SAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ sâu",
+        "cach_dung": "Pha vào $3$ lít nước, đun cho hơi nóng rồi phun lên nơi có sâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T342"
+      }
+    }
+  ],
+  "metadata": {}
+}

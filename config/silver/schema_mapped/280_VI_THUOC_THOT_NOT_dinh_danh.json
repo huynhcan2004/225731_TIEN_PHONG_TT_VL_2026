@@ -1,0 +1,47 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THOT_NOT",
+    "ten_raw": "Thốt nốt",
+    "ten_khoa_hoc": "Borassus flabellifer L.; Pholidocarpus tunicatus H. Wendl.",
+    "ho_thuc_vat": "Dừa Palmaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "cuống cụm hoa, đường thốt nốt là dịch chảy từ cụm hoa, cây non, rễ",
+      "phan_bo": "Cây thốt nốt trồng phổ biến ở miền Nam nhiều nhất từ Tây Ninh đến Đồng Tháp, Kiên Giang. Ngoài ra còn thấy trồng ở Campuchia, Lào. Tại Campuchia người ta trồng thốt nốt ở quanh nhà, góc vườn, dọc đường đi. Cây chịu cả khô hạn và úng ngập."
+    },
+    "display_name": "Thốt nốt"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T280",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "280"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thân cột, chia thành từng khoanh, có thể cao tới $30m$, trên ngọn có $1$ tán lá xòe rộng. Lá có cuống dài, mặt lá màu xanh đậm, bóng mỡ trông tựa tàu lá cọ. Cụm hoa là những bông mo, đực, cái khác gốc. Bỗng mo đực to hơn, phân nhánh nhiều hơn. Quả thốt nốt to, tròn như quả dừa, nhưng bên trong đặc, trong suốt thường chứa ba nhân cứng, dẹt, đầu có một lỗ thủng ( Hình $204$ ).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T281]: Trong nước chảy từ bông mo thốt nốt chứa rất nhiều đường sacaroza (từ $10$ đến $15$\\%)."
+        ],
+        "cach_dung_bao_che": "Khi thốt nốt ra hoa, vào chiều tối, người ta buộc ống vào đầu cụm hoa, sau khi đã cắt một đoạn đầu hoa, bằng đốt ngón tay. Để suốt một đêm, thu được chừng một lít nước thốt nốt. Nước thốt nốt lấy ban đêm ít chua, vị ngọt rất thơm, ủ với men nhẹ được thứ rượu nhẹ như bia, dùng men nặng hơn sẽ được rượu nặng. Cây thốt nốt đã lấy nước thì không cho quả nữa. Quả thốt nốt non ăn mát như thạch. Quả già có màu vàng thơm, mùi mít chín, nếu giã ra lọc sẽ được thứ bột dẻo, trắng như bột nếp. Nhiều nơi đợi quả già, giã lấy bột làm bánh tôm, bánh ú hoặc nấu chè."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THOT_NOT",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong nước chảy từ bông mo thốt nốt chứa rất nhiều đường sacaroza (từ $10$ đến $15$\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T280"
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "entity_hub": "VI_THUOC_CHI_CU",
+  "source": {
+    "source_id": "CT_VT_VN_T816",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "816"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAY_TRUONG_CHI_CU_C",
+      "to": "VI_THUOC_CHI_CU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chỉ cụ được dùng đơn độc để chữa đầy trướng, khó tiêu.",
+        "mo_ta_chi_tiet": "Chữa ngực bụng đầy trướng, khó tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_DAY_TRUONG_CHI_CU_C",
+      "to": "B_DAY_TRUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngực bụng đầy trướng, khó tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_DAY_TRUONG_CHI_CU_C",
+      "to": "S_KHO_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngực bụng đầy trướng, khó tiêu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_CHI_CU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc phức hợp gồm nhiều vị thuốc có tác dụng thanh nhiệt giải độc, trấn kinh an thần, thường dùng trong các chứng bệnh nhiệt độc.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_NGUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngưu hoàng có tác dụng thanh nhiệt giải độc, khai khiếu tỉnh thần, là vị thuốc chủ trị trong bài.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_UAT_KIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Uất kim giúp hoạt huyết hóa ứ, thanh nhiệt lương huyết, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_TE_GIAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Thần",
+        "phoi_ngu_logic": "Tê giác có tác dụng thanh nhiệt giải độc, lương huyết chỉ huyết, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng liên có tác dụng thanh nhiệt táo thấp, tả hỏa giải độc, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_HOANG_CAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoàng cầm có tác dụng thanh nhiệt táo thấp, tả hỏa giải độc, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_SON_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Sơn chi (dành dành) có tác dụng thanh nhiệt tả hỏa, lương huyết giải độc, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_CHU_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chu sa có tác dụng trấn kinh an thần, giải độc, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_HUNG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $40g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hùng hoàng có tác dụng giải độc sát trùng, trừ đờm, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_XA_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $10g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Xạ hương có tác dụng khai khiếu tỉnh thần, hoạt huyết thông kinh, dẫn các vị thuốc khác phát huy tác dụng.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_BANG_PHIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "mỗi vị $10g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Băng phiến có tác dụng thanh nhiệt giải độc, khai khiếu tỉnh thần, dẫn các vị thuốc khác phát huy tác dụng.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "VI_THUOC_TRAN_CHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Trân châu có tác dụng trấn kinh an thần, giải độc, hỗ trợ điều trị viêm não.",
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    },
+    {
+      "from": "BT_VIEM_NAO_NGUU_HOANG_NUUTXHBTXTB",
+      "to": "B_VIEM_NAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh viêm não (encephalite B.)",
+        "cach_dung": "Tất cả tán nhỏ, dùng mật viên thành viên, mỗi viên nặng $4g$. Bảo quản trong viên sáp. Mỗi lần uống $1$ viên. Bệnh nặng thể thực có thể uống thêm. Trong ngày có thể uống tới $3$ viên. Trẻ con giảm liều xuống một nửa. Phụ nữ có thai không dùng được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T816"
+      }
+    }
+  ],
+  "metadata": {}
+}

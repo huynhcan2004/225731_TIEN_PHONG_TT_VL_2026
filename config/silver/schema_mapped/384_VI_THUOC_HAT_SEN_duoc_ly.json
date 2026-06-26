@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_HAT_SEN",
+  "source": {
+    "source_id": "CT_VT_VN_T384",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "384"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TRUC_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trục thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TRO_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trợ hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_SAT_HOI_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát hồi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Giúp sự tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "DL_TRI_GIUN_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun sán."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384"
+      }
+    }
+  ],
+  "metadata": {}
+}

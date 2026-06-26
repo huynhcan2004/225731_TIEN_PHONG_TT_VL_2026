@@ -1,0 +1,80 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_AU_O_DAU",
+    "ten_raw": "Âu ở đầu",
+    "ten_khoa_hoc": "Nasturtium offcinale R. Br. (Rorippa nasturtium aquaticum Hayek)",
+    "ho_thuc_vat": "Cải Brassicaceae (Cruciferae)",
+    "variants": [
+      "Cải xoong"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây tươi"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T892",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "892"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thuộc thảo sống lâu năm, ưa sống ở những nơi nước trong, chảy nhẹ nhưng chảy luôn. Thân dài $10$-$40cm$, thân bò có mọc rễ, màu xanh lục. Lá mọc so le, kép lòng chim, gồm $1$-$4$ đôi lá chét. Lá chét hình trứng, không đều, nguyên hay hơi khía tai bèo. Hoa nhỏ trắng mọc thành chùm ở đầu cành. Quả giác nghĩa là một thứ quả khô, khi chín nứt bởi $4$ đường dọc thành hai mảnh vỏ, để vách giả cũ của bầu mang hạt lại ở giữa. Giác có cuống ngắn, ở đầu có mỏ ngắn, trong giác có nhiều hạt. Toàn cây có mùi đặc biệt, nhưng mùi chỉ xuất hiện khi vờ; vị hơi đắng và hắc. Mùa rau ăn: Đồng xuân. Mùa hoa tháng $4$-$5$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cải xoong có chất đắng, chất sắt, phốtpho, iốt ($1mg$ trong $100g$) vitamin C và một glucozit gọi là nasturtiozit khi vò hay giã nát. Chất nasturtiozit tiếp xúc với men myrosin ở những tế bào khác sẽ cho chất senevol phenyl etylic làm cho vị thuốc có mùi đặc biệt và có tác dụng chữa ho. Tỷ lệ tinh dầu khoảng $0,05\\%$."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_AU_O_DAU",
+      "to": "HC_IOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cải xoong có chất đắng, chất sắt, phốtpho, iốt ($1mg$ trong $100g$) vitamin C và một glucozit gọi là nasturtiozit khi vò hay giã nát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T892"
+      }
+    },
+    {
+      "from": "VI_THUOC_AU_O_DAU",
+      "to": "HC_NASTURTIOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cải xoong có chất đắng, chất sắt, phốtpho, iốt ($1mg$ trong $100g$) vitamin C và một glucozit gọi là nasturtiozit khi vò hay giã nát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T892"
+      }
+    },
+    {
+      "from": "VI_THUOC_AU_O_DAU",
+      "to": "HC_SENEVOL_PHENYL_ETYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất nasturtiozit tiếp xúc với men myrosin ở những tế bào khác sẽ cho chất senevol phenyl etylic làm cho vị thuốc có mùi đặc biệt và có tác dụng chữa ho."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T892"
+      }
+    },
+    {
+      "from": "VI_THUOC_AU_O_DAU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ tinh dầu khoảng $0,05\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T892"
+      }
+    }
+  ]
+}

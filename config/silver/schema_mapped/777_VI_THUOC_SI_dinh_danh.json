@@ -1,0 +1,86 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SI",
+    "ten_raw": "Cây si",
+    "ten_khoa_hoc": "Elaeagnus latifolia; Elaeganus angustifolia",
+    "ho_thuc_vat": "Không rõ",
+    "variants": [
+      "Cây Nhót"
+    ],
+    "properties": {},
+    "display_name": "Cây si"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T777",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "777"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hình 589. Cây Nhót - Elaeagnus latifolia tanin, saponozit, polyphenol. Mới đây từ một loại nhót Elaeganus angustifolia, Nikolaeva A. F. đã chiết được hai chất ancaloit một là dihydroharman $C_{11}H_{12}N_2$ và 2-metyl 1,2,3,4 tetrahydro ß cacbolin $C_{12}H_{14}N_2$ (theo Khimia prirod. soed., 1970, 5: 638)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hình 589. Cây Nhót - Elaeagnus latifolia tanin, saponozit, polyphenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "VI_THUOC_SI",
+      "to": "HC_SAPONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hình 589. Cây Nhót - Elaeagnus latifolia tanin, saponozit, polyphenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "VI_THUOC_SI",
+      "to": "HC_POLYPHENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hình 589. Cây Nhót - Elaeagnus latifolia tanin, saponozit, polyphenol."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "VI_THUOC_SI",
+      "to": "HC_DIHYDROHARMAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới đây từ một loại nhót Elaeganus angustifolia, Nikolaeva A. F. đã chiết được hai chất ancaloit một là dihydroharman $C_{11}H_{12}N_2$ và 2-metyl 1,2,3,4 tetrahydro ß cacbolin $C_{12}H_{14}N_2$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    },
+    {
+      "from": "VI_THUOC_SI",
+      "to": "HC_2_METYL_1_2_3_4_TETRAHYDRO_B_CACBOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới đây từ một loại nhót Elaeganus angustifolia, Nikolaeva A. F. đã chiết được hai chất ancaloit một là dihydroharman $C_{11}H_{12}N_2$ và 2-metyl 1,2,3,4 tetrahydro ß cacbolin $C_{12}H_{14}N_2$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T777"
+      }
+    }
+  ]
+}

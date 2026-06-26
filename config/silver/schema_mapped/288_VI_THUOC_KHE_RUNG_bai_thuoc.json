@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_KHE_RUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T288",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "288"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KEM_AN_KHE_RUNG_K",
+      "to": "VI_THUOC_KHE_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản sử dụng khế rừng để hỗ trợ tiêu hóa và tăng cường sức khỏe cho phụ nữ sau sinh.",
+        "cach_dung": "Đun sôi $10g$ thân khế rừng với $200ml$ nước trong nửa giờ, chia làm ba lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    },
+    {
+      "from": "BT_KEM_AN_KHE_RUNG_K",
+      "to": "B_KEM_AN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phụ nữ sau khi sinh nở, kém ăn",
+        "cach_dung": "Đun sôi $10g$ thân khế rừng với $200ml$ nước trong nửa giờ, chia làm ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_KHE_RUNG_K",
+      "to": "VI_THUOC_KHE_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản sử dụng lá khế rừng để lợi tiểu.",
+        "cach_dung": "Sao thơm $20g$ lá khế rừng, thêm nước vào đun sôi, chia làm ba lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_KHE_RUNG_K",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn, nước tiểu vàng",
+        "cach_dung": "Sao thơm $20g$ lá khế rừng, thêm nước vào đun sôi, chia làm ba lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAY_MAU_KHE_RUNG_K",
+      "to": "VI_THUOC_KHE_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản sử dụng lá khế rừng để cầm máu vết thương.",
+        "cach_dung": "Lá khế rừng rửa sạch, giã nát đắp lên nơi đau.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAY_MAU_KHE_RUNG_K",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết thương chảy máu",
+        "cach_dung": "Lá khế rừng rửa sạch, giã nát đắp lên nơi đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T288"
+      }
+    }
+  ],
+  "metadata": {}
+}

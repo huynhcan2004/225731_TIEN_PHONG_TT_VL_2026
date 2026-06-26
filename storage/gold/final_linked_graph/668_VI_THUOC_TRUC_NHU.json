@@ -1,0 +1,870 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_TRUC_NHU",
+    "ten_raw": "Trúc như",
+    "ten_khoa_hoc": "$Bambusa sp.; Bambusa blumeana Sch.; Bambusa multiplex Roeusch.; Phyllostachys nigra var. henonis Miff.) Staffa. ex Rendle$",
+    "ho_thuc_vat": "$Họ Tre (Poaceae)$",
+    "variants": [
+      "trúc diệp quyển tâm (búp tre)"
+    ],
+    "properties": {
+      "bo_phan_dung": "lớp ở dưới vỏ cây tre",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "cạo lấy lớp ở dưới vỏ",
+      "lieu_dung_chung": "Ngày dùng $10$ đến $20g$ dưới dạng thuốc sắc. Dùng riêng hay phối hợp với các vị thuốc khác.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "mọc hoang và được trồng"
+    },
+    "display_name": "Vị thuốc Trúc như",
+    "canonical_name": "Vị thuốc Trúc như"
+  },
+  "nodes": [
+    {
+      "id": "B_DONG_THAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Động thai",
+        "aliases": [
+          "dongthai",
+          "doa say thai",
+          "dọa sảy thai",
+          "động thai",
+          "doasaythai",
+          "dong thai"
+        ],
+        "search_vector_hint": "Bệnh Động thai thuộc nhóm bệnh, thường liên quan đến thai kỳ."
+      }
+    },
+    {
+      "id": "B_KINH_NGUYET_RA_MAI_KHONG_NGUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Kinh nguyệt ra mãi không ngừng",
+        "aliases": [
+          "rongkinhkeodai",
+          "kinhnguyetramaikhongngung",
+          "rong kinh keo dai",
+          "kinh nguyệt ra mãi không ngừng",
+          "rong kinh kéo dài",
+          "kinh nguyet ra mai khong ngung"
+        ],
+        "search_vector_hint": "Kinh nguyệt ra mãi không ngừng thuộc nhóm bệnh, thường liên quan đến rối loạn kinh nguyệt."
+      }
+    },
+    {
+      "id": "B_PHU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phù",
+        "aliases": [
+          "phù",
+          "phu"
+        ],
+        "search_vector_hint": "Phù thuộc nhóm bệnh, thường liên quan đến các vấn đề sức khỏe."
+      }
+    },
+    {
+      "id": "B_VIEM_NHIEM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm nhiễm",
+        "aliases": [
+          "viem nhiem",
+          "viemnhiem",
+          "viêm nhiễm"
+        ],
+        "search_vector_hint": "Viêm nhiễm thuộc nhóm bệnh, thường liên quan đến phản ứng của cơ thể với tác nhân gây hại."
+      }
+    },
+    {
+      "id": "CN_AN_THAI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng An thai",
+        "aliases": [
+          "an thai",
+          "anthai"
+        ],
+        "search_vector_hint": "Công năng An thai thuộc nhóm công năng, thường liên quan đến phụ nữ mang thai."
+      }
+    },
+    {
+      "id": "CN_LUONG_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lương huyết",
+        "aliases": [
+          "thanhhuyet",
+          "lương huyết",
+          "luong huyet",
+          "thanh huyet",
+          "luonghuyet",
+          "thanh huyết"
+        ],
+        "search_vector_hint": "Công năng Lương huyết thuộc nhóm Công năng, thường liên quan đến làm mát máu."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_TRI_NON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trị nôn",
+        "aliases": [
+          "chiau",
+          "tri non",
+          "trị nôn",
+          "trinon",
+          "chỉ ẩu",
+          "chi au"
+        ],
+        "search_vector_hint": "Trị nôn thuộc nhóm công năng, thường liên quan đến giảm hoặc ngăn chặn nôn mửa."
+      }
+    },
+    {
+      "id": "CN_TRU_PHIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ phiền",
+        "aliases": [
+          "trừ phiền",
+          "truphien",
+          "tru phien"
+        ],
+        "search_vector_hint": "Trừ phiền thuộc nhóm Công năng, thường liên quan đến giảm bồn chồn."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_BANG_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Băng huyết",
+        "aliases": [
+          "banghuyet",
+          "băng huyết",
+          "bang huyet"
+        ],
+        "search_vector_hint": "Băng huyết thuộc nhóm Triệu chứng."
+      }
+    },
+    {
+      "id": "S_BUON_BUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Bồn bực",
+        "aliases": [
+          "bồn bực",
+          "bon buc",
+          "bonbuc"
+        ],
+        "search_vector_hint": "Bồn bực thuộc nhóm triệu chứng, thường liên quan đến trạng thái lo lắng và không yên."
+      }
+    },
+    {
+      "id": "S_CHAY_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Chảy máu cam thuộc nhóm Triệu chứng, thường liên quan đến tổn thương mạch máu ở mũi."
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Triệu chứng Ho thuộc nhóm triệu chứng, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "S_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Khát nước",
+        "aliases": [
+          "haonuoc",
+          "khatnuoc",
+          "háo nước",
+          "khat nuoc",
+          "hao nuoc",
+          "khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Khát nước thuộc nhóm triệu chứng, thường liên quan đến mất nước hoặc bệnh lý nội tiết."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "S_NON_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn ra máu",
+        "aliases": [
+          "nôn ra máu",
+          "nonramau",
+          "non ra mau"
+        ],
+        "search_vector_hint": "Nôn ra máu thuộc nhóm triệu chứng."
+      }
+    },
+    {
+      "id": "S_PHIEN_NHIET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Phiền nhiệt",
+        "aliases": [
+          "phien nhiet",
+          "phiền nhiệt",
+          "phiennhiet"
+        ],
+        "search_vector_hint": "Phiền nhiệt thuộc nhóm triệu chứng, thường liên quan đến cảm giác bứt rứt khó chịu do nhiệt."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_SUYEN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Suyễn",
+        "aliases": [
+          "hen suyễn",
+          "suyễn",
+          "suyen",
+          "hensuyen",
+          "hen suyen"
+        ],
+        "search_vector_hint": "Suyễn thuộc nhóm triệu chứng, thường liên quan đến khó thở và thở khò khè."
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Thổ huyết",
+        "aliases": [
+          "nôn ra máu",
+          "thohuyet",
+          "non ra mau",
+          "thổ huyết",
+          "nonramau",
+          "tho huyet"
+        ],
+        "search_vector_hint": "Thổ huyết thuộc nhóm Triệu chứng, thường liên quan đến xuất huyết đường tiêu hóa."
+      }
+    },
+    {
+      "id": "S_TRE_CON_KINH_PHONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Trẻ con kinh phong",
+        "aliases": [
+          "co giật ở trẻ em",
+          "tre con kinh phong",
+          "treconkinhphong",
+          "cogiatotreem",
+          "trẻ con kinh phong",
+          "co giat o tre em"
+        ],
+        "search_vector_hint": "Trẻ con kinh phong thuộc nhóm triệu chứng, thường liên quan đến co giật ở trẻ nhỏ."
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Luong",
+        "aliases": [
+          "lương",
+          "luong"
+        ],
+        "search_vector_hint": "Tính Lương thuộc nhóm tính, thường liên quan đến tác dụng làm mát và giảm nhiệt."
+      }
+    },
+    {
+      "id": "VT_TRUC_NHU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Trúc như",
+        "aliases": [
+          "trucnhu",
+          "truc nhu",
+          "trúc như"
+        ],
+        "search_vector_hint": "Trúc như thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt và hóa đờm.",
+        "bo_phan_dung": "lớp ở dưới vỏ cây tre",
+        "che_bien_tho": "cạo lấy lớp ở dưới vỏ",
+        "lieu_dung_chung": "Ngày dùng $10$ đến $20g$ dưới dạng thuốc sắc. Dùng riêng hay phối hợp với các vị thuốc khác.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "mọc hoang và được trồng",
+        "ten_khoa_hoc": "$Bambusa sp.; Bambusa blumeana Sch.; Bambusa multiplex Roeusch.; Phyllostachys nigra var. henonis Miff.) Staffa. ex Rendle$",
+        "ho_thuc_vat": "$Họ Tre (Poaceae)$",
+        "hinh_thai_chi_tiet": "Cây tre là một cây có thân rễ ngầm, sống lâu, mọc ra những chồi gọi là măng ăn được. Thân ra hoá mộc có thể cao tới $10-18m$, ít phân nhánh, rồng trừ ở các mấu. Mỗi cây có chừng $30$ đốt hay hơn. Lá có cuống dài chừng $5mm$, phiến lá hình mác dài $7-16cm$, rộng $1-2cm$, mép nguyên, trên có gân song song, màu xanh nhạt. Cây tre cả đời chỉ ra hoa kết quả một lần. Hoa có $6$ nhị. Sau khi ra hoa kết quả cây sẽ chết. Cho nên nhiều người thấy cây tre nhà mình ra hoa thì cho là độc. Sự thực đó chỉ là một hiện tượng sinh lý bình thường của cây tre. Tre vầu có nhiều loại như tre la ngà Bambusa blumeana Sch., cây hóp Bambusa multiplex Roeusch. v.v... đều là cây tre. Tại Trung Quốc, người ta dùng một loại vầu gọi là Phyllostachys nigra var. henonis Miff.) Staffa. ex Rendle thuộc cùng họ rồi cạo lấy lớp ở dưới gọi là nhị thanh trúc như được coi là tốt nhất; sau lớp này có thể cạo lớp trắng vàng thành dải nữa nhưng người ta cho là chất lượng kém hơn.",
+        "lieu_dung_tong_quat": "null",
+        "ghi_chu_bo_sung": "null",
+        "cach_dung_bao_che": "null"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "668"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_NGOT_CAM"
+        ],
+        "tinh": "T_HOI_HAN",
+        "quy_kinh": [
+          "K_VI",
+          "K_PHE",
+          "K_CAN"
+        ],
+        "cong_nang": "Thanh nhiệt, lương huyết, trừ phiền, hết nôn, an thai."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây tre là một cây có thân rễ ngầm, sống lâu, mọc ra những chồi gọi là măng ăn được. Thân ra hoá mộc có thể cao tới $10-18m$, ít phân nhánh, rồng trừ ở các mấu. Mỗi cây có chừng $30$ đốt hay hơn. Lá có cuống dài chừng $5mm$, phiến lá hình mác dài $7-16cm$, rộng $1-2cm$, mép nguyên, trên có gân song song, màu xanh nhạt. Cây tre cả đời chỉ ra hoa kết quả một lần. Hoa có $6$ nhị. Sau khi ra hoa kết quả cây sẽ chết. Cho nên nhiều người thấy cây tre nhà mình ra hoa thì cho là độc. Sự thực đó chỉ là một hiện tượng sinh lý bình thường của cây tre. Tre vầu có nhiều loại như tre la ngà Bambusa blumeana Sch., cây hóp Bambusa multiplex Roeusch. v.v... đều là cây tre. Tại Trung Quốc, người ta dùng một loại vầu gọi là Phyllostachys nigra var. henonis Miff.) Staffa. ex Rendle thuộc cùng họ rồi cạo lấy lớp ở dưới gọi là nhị thanh trúc như được coi là tốt nhất; sau lớp này có thể cạo lớp trắng vàng thành dải nữa nhưng người ta cho là chất lượng kém hơn.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "null",
+        "ghi_chu_bo_sung": "null",
+        "cach_dung_bao_che": "null"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Trúc như vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trúc như tính hơi lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trúc như vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trúc như vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trúc như vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ | Tẩm nước gừng sao",
+        "ghi_chu": "Vị nhiệt sinh nôn mửa | Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_PHIEN_NHIET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Thượng tiêu phiền nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_BANG_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tẩm nước gừng sao",
+        "ghi_chu": "Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tẩm nước gừng sao",
+        "ghi_chu": "Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_NON_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tẩm nước gừng sao",
+        "ghi_chu": "Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_BUON_BUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tẩm nước gừng sao",
+        "ghi_chu": "Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tẩm nước gừng sao | Không ghi rõ",
+        "ghi_chu": "Sốt, buồn bực, nôn mửa, nôn ra máu, chảy máu cam, băng huyết | Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_TRE_CON_KINH_PHONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_SUYEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không ghi rõ",
+        "ghi_chu": "Sốt khát nước, ho, suyễn, thổ huyết, trẻ con kinh phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "B_KINH_NGUYET_RA_MAI_KHONG_NGUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "cach_dung": "Dùng nước nóng chiêu thuốc",
+        "ghi_chu": "Trúc như sao qua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "B_PHU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-50g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Cảm, phù"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "B_VIEM_NHIEM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$30-50g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Còn dùng rửa vết thương, trị viêm nhiễm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "CN_LUONG_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lương huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "CN_TRU_PHIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ phiền."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "CN_TRI_NON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hết nôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_TRUC_NHU",
+      "to": "CN_AN_THAI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "An thai."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T668",
+        "all_sources": [
+          "CT_VT_VN_T668"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 55.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "entity_hub": "VI_THUOC_LU_LU_DUC",
+  "source": {
+    "source_id": "CT_VT_VN_T155",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "155"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GAN_PHAT_TRIEN_TO_LU_L",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Dùng làm thuốc thông tiểu và sổ nước",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T155"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_GAN_PHAT_TRIEN_TO_LU_L",
+      "to": "B_GAN_TO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gan phát triển to",
+        "cach_dung": "Dùng làm thuốc thông tiểu và sổ nước"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_LU_L",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Dùng liều nhỏ",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T155"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_BENH_NGOAI_DA_LU_L",
+      "to": "B_VAY_NEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh ngoài da, nhất là bệnh vẩy nến",
+        "cach_dung": "Dùng liều nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_RE_C",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T156"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_RE_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, mẩn ngứa",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_RE_C",
+      "to": "S_MAN_NGUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt, mẩn ngứa",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_TAY_RE_C",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T156"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_TAY_RE_C",
+      "to": "B_TAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tẩy",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_GIAN_SAN_RE_C",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Dùng làm thuốc",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T156"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_GIAN_SAN_RE_C",
+      "to": "B_GIAN_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gian sán",
+        "cach_dung": "Dùng làm thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_LY_RE_C",
+      "to": "VI_THUOC_LU_LU_DUC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Chưa rõ",
+        "cach_dung": "Ngày dùng $8$ đến $16g$ dưới dạng thuốc sắc",
+        "ghi_chu": "Chưa rõ, xem thêm CT_VT_VN_T156"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    },
+    {
+      "from": "BT_LY_RE_C",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Ngày dùng $8$ đến $16g$ dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T155"
+      }
+    }
+  ],
+  "metadata": {}
+}

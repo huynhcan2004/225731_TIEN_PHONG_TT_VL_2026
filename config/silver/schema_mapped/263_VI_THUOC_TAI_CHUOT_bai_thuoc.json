@@ -1,0 +1,52 @@
+{
+  "entity_hub": "VI_THUOC_TAI_CHUOT",
+  "source": {
+    "source_id": "CT_VT_VN_T263",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "263"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_ONG_TIEU_TIEN_TAI_CHUOT_T",
+      "to": "VI_THUOC_TAI_CHUOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn trị để điều trị viêm ống tiểu tiện và bạch đới.",
+        "cach_dung": "Dùng sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T263"
+      }
+    },
+    {
+      "from": "BT_VIEM_ONG_TIEU_TIEN_TAI_CHUOT_T",
+      "to": "B_VIEM_ONG_TIEU_TIEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những trường hợp viêm ống tiểu tiện",
+        "cach_dung": "Dùng sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T263"
+      }
+    },
+    {
+      "from": "BT_VIEM_ONG_TIEU_TIEN_TAI_CHUOT_T",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những trường hợp bạch đới",
+        "cach_dung": "Dùng sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T263"
+      }
+    }
+  ],
+  "metadata": {}
+}

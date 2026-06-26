@@ -1,0 +1,180 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_NGOT",
+    "ten_raw": "Cây rau ngót",
+    "ten_khoa_hoc": "Sauropus androgynus (L) Merr.; Phyllanthus elegans Wall.; Meliantha suavis Pierre",
+    "ho_thuc_vat": "họ Thầu dầu Euphorbiaceae; họ Opiliaceae",
+    "variants": [
+      "bồ ngót",
+      "bù ngót",
+      "hắc diện thần (Trung Quốc)"
+    ],
+    "properties": {},
+    "display_name": "Cây rau ngót"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "67"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, nhẵn, có thể cao tới $1,50-2m$. Có nhiều cành mọc thẳng. Vì người ta hái lá luôn cho nên thường chỉ thấp $0,90-1m$. Vỏ thân cây màu xanh lục, sau màu nâu nhạt. Lá mọc so le, dài $4-6cm$, rộng $15-30mm$ cuống rất ngắn $1-$ $2mm$ có 2 lá kèm nhỏ, phiến lá nguyên hình trứng dài hoặc bầu dục, mép nguyên, (Hình 20). hoa cái ở trên. Quả nang hình cầu, hạt có vân nhỏ ( Hm 3,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "Hoạt chất làm thuốc chưa rõ. Chỉ mới biết trong rau nót có $5,3\\%$ protit, $3,4\\%$ gluxit, $2,4\\%$ tro trong đó chủ yếu là canxi ($169mg\\%$), photpho ($64,5mg\\%$), vitamin C ($185mg\\%$). Rau ngót có nhiều axit amin cần thiết: trong $100g$ rau ngót có $0,16g$ lysin, $0,13g$ metionin, $0,05g$ tryp- tophan, $0,25g$ phenylalanin, $0,34g$ treonin, $0,17g$ valin, $0,24g$ leuxin và $0,17$ izoleuxin. Trong cây rau sắng rất gần với rau ngót có hàm lượng protit cao hơn ($6,5\\%$), trong đó thành phần axit amin cần thiết trong $100g$ rau có $0,23g$ lysin, $0.19g$ : metionin, $0,08g$ tryptophan, $0,25g$ phenylalanin, $0,45g$ treonin, $0,22g$ valin, $0,26g$ leuxin, $0,23g$ izoleuxin."
+        ],
+        "cach_dung_bao_che": "Mọc hoang và được trồng khắp nơi ở Việt Nam để lấy lá nấu canh. Khi làm thuốc thường chọn những cây rau ngót đã sống 2 năm trở lên. Hái lá tươi về dùng ngay."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết trong rau nót có $5,3\\%$ protit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ mới biết trong rau nót có $3,4\\%$ gluxit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "tro trong đó chủ yếu là canxi ($169mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "photpho ($64,5mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "vitamin C ($185mg\\%$)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_LYSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,16g$ lysin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_METIONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,13g$ metionin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_TRYPTOPHAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,05g$ tryp- tophan"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_PHENYLALANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,25g$ phenylalanin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_TREONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,34g$ treonin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_VALIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,17g$ valin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_LEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót có $0,24g$ leuxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "HC_IZOLEUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong $100g$ rau ngót và $0,17$ izoleuxin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67"
+      }
+    }
+  ]
+}

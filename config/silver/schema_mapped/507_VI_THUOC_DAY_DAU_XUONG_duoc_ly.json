@@ -1,0 +1,101 @@
+{
+  "entity_hub": "VI_THUOC_DAY_DAU_XUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T507",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "507"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "khu phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CN_TRU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "trừ thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CN_THU_CAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thư cân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CN_HOAT_LAC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "hoạt lạc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "dịch ép lá tươi có tác dụng lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dịch chiết dây đau xương có tác dụng hạ nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CO_VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "CO_TINH_MAT",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    }
+  ],
+  "metadata": {}
+}

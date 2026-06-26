@@ -1,0 +1,209 @@
+{
+  "entity_hub": "VI_THUOC_BAC_THAU",
+  "source": {
+    "source_id": "CT_VT_VN_T138",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "138"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GAY_XUONG_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau tươi giã nát có tác dụng giảm đau, kháng viêm, giúp liền xương.",
+        "mo_ta_chi_tiet": "Giã nát Bạc thau tươi đắp lên",
+        "cach_dung": "Đắp ngoài da",
+        "ghi_chu": "Tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_BAC_THAU_B",
+      "to": "B_GAY_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa gãy xương",
+        "cach_dung": "Đắp ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau tươi giã nát có tác dụng kháng viêm, giảm sưng, hút mủ, giúp lên da non.",
+        "mo_ta_chi_tiet": "Giã nát Bạc thau tươi đắp lên",
+        "cach_dung": "Đắp ngoài da",
+        "ghi_chu": "Tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_BAC_THAU_B",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Đắp ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_HO_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau có tác dụng trị ho.",
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_HO_BAC_THAU_B",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau có tác dụng điều kinh.",
+        "mo_ta_chi_tiet": "Điều kinh",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_BAC_THAU_B",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều kinh",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_KHAC_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau có tác dụng chữa bạch đới khí hư.",
+        "mo_ta_chi_tiet": "Chữa bạch đới khí hư",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_BACH_DOI_KHAC_BAC_THAU_B",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới khí hư",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau có tác dụng thông tiểu.",
+        "mo_ta_chi_tiet": "Thông tiểu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_THONG_TIEU_BAC_THAU_B",
+      "to": "S_TIEU_IT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_HO_TRE_CON_BAC_THAU_B",
+      "to": "VI_THUOC_BAC_THAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bạc thau có tác dụng trị ho ở trẻ con.",
+        "mo_ta_chi_tiet": "Chữa ho trẻ con",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    },
+    {
+      "from": "BT_HO_TRE_CON_BAC_THAU_B",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho trẻ con",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T138"
+      }
+    }
+  ],
+  "metadata": {}
+}

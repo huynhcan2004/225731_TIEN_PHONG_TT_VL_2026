@@ -1,0 +1,94 @@
+{
+  "entity_hub": "VI_THUOC_XICH_THUOC",
+  "source": {
+    "source_id": "CT_VT_VN_T81",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "81"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CHAY_MAU_CAM_XICH_THUOC_X",
+      "to": "VI_THUOC_XICH_THUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc duy nhất.",
+        "cach_dung": "Uống $6-8g$ mỗi lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "BT_CHAY_MAU_CAM_XICH_THUOC_X",
+      "to": "B_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa chảy máu cam.",
+        "cach_dung": "Uống $6-8g$ mỗi lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BACH_DOI_XICH_THUOC_XH",
+      "to": "VI_THUOC_XICH_THUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Xích thược và Hương phụ phối hợp để điều trị băng huyết, bạch đới.",
+        "cach_dung": "Uống $6-8g$ mỗi lần, ngày 2 lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BACH_DOI_XICH_THUOC_XH",
+      "to": "VT_HUONG_PHU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Xích thược và Hương phụ phối hợp để điều trị băng huyết, bạch đới.",
+        "cach_dung": "Uống $6-8g$ mỗi lần, ngày 2 lần.",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BACH_DOI_XICH_THUOC_XH",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa băng huyết.",
+        "cach_dung": "Uống $6-8g$ mỗi lần, ngày 2 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BACH_DOI_XICH_THUOC_XH",
+      "to": "B_BACH_DOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bạch đới.",
+        "cach_dung": "Uống $6-8g$ mỗi lần, ngày 2 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    }
+  ],
+  "metadata": {}
+}

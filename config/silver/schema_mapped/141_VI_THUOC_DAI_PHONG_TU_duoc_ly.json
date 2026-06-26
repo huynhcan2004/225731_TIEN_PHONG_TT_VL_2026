@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_DAI_PHONG_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T141",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "141"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAI_PHONG_TU",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng làm khô ẩm ướt (táo thấp)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHONG_TU",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng sát trùng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHONG_TU",
+      "to": "DL_KICH_UNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dầu đại phong tử có tác dụng kích ứng: bôi lên da thì nơi da bôi dầu bị đỏ và có khi mọng nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAI_PHONG_TU",
+      "to": "DL_DIET_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "những dầu có các axit béo trong đại phong tử dù pha loãng vẫn còn tác dụng đối với vi trùng không chịu axit, vẫn còn tác dụng sát trùng rất mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T141"
+      }
+    }
+  ],
+  "metadata": {}
+}

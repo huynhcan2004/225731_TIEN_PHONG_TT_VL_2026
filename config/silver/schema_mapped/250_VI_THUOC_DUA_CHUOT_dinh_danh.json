@@ -1,0 +1,113 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUA_CHUOT",
+    "ten_raw": "Dưa chuột",
+    "ten_khoa_hoc": "Cucumis sativus L.",
+    "ho_thuc_vat": "họ Bí Cucurbitaceae",
+    "variants": [
+      "hổ qua",
+      "hoàng qua"
+    ],
+    "properties": {},
+    "display_name": "Dưa chuột"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T250",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "250"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [],
+        "cong_nang": "thanh nhiệt, giải phiền, lợi thủy đạo"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc bò, toàn thân có lông. Thân có nhiều cành, có góc. Lá mang cuống, phiến có từ 3-5 thùy hình hơi ba cạnh, mép có lông đứng. Hoa đơn tính, màu vàng, mọc 2-3 ở nách lá. Quả hình thuôn dài, hình trụ hay hơi ba cạnh, nhẫn hoặc hơi có bướu nhỏ, có thể dài $10$-$36cm$. Màu lục hay lục vàng nhạt, vàng hay vàng nâu. Hạt nhiều, hình trứng, trắng, dai, bóng ( Hình 171).",
+        "thanh_phan_hoa_hoc": [
+          "Dưa chuột chứa tới $95$-$97%$ nước, $0,8%$ protit, $3%$ gluxit, $0,7%$ xenluloz, $0,50%$ tro, trong đó $23mg%$ can xi, $27mg%$ P, $1mg%$ Fe. Dưa chuột còn chứa vitamin A (caroten) với tỷ lệ $0,30mg%$, vitamin B1 $0,03mg%$, B2 với tỷ lệ $0,04mg%$, vitamin PP $0,1mg%$ và vitamin C $5mg%$, (Băng thành phần hóa học thức ăn Việt nam-NXB y học, 1972). Sách “Bí mật và đức tính của cây thuốc” (Se- crets et vertus des plantes médicinales-Selection du Readerl’s Digest, 1977) còn ghi thêm: “ngoài vitamin A và C, trong dưa chuột còn chứa một lượng quan trọng sắt, mangan, iot và thiamin”. Vỏ dưa chuột có vị đắng do chứa colocynthine. Hạt dưa chuột chứa một ancaloit gọi là hy- poxanthine có tác dụng trừ giun."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn (lạnh)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "tác dụng thanh nhiệt, giải phiền, lợi thủy đạo (tiêu nước)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "HC_COLOCYNTHINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ dưa chuột có vị đắng do chứa colocynthine."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_CHUOT",
+      "to": "HC_HYPOXANTHINE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt dưa chuột chứa một ancaloit gọi là hy- poxanthine có tác dụng trừ giun."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T250"
+      }
+    }
+  ]
+}

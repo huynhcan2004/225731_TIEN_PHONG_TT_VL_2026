@@ -1,0 +1,548 @@
+{
+  "entity_hub": "VI_THUOC_THIEN_TRUC_HOANG",
+  "source": {
+    "source_id": "CT_VT_VN_T815",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "815"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_T",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn phương chủ trị sốt cao.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng, kinh giản, trẻ con co giật.",
+        "cach_dung": "Dùng riêng hoặc phối hợp với các vị thuốc khác.",
+        "ghi_chu": "CT_VT_VN_T815"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_T",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng, kinh giản, trẻ con co giật.",
+        "cach_dung": "Dùng riêng hoặc phối hợp với các vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_T",
+      "to": "S_CO_GIAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng, kinh giản, trẻ con co giật.",
+        "cach_dung": "Dùng riêng hoặc phối hợp với các vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_THIEN_TRUC_HOANG_TB",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với bạc hà giúp thanh nhiệt, giải độc, trị kinh giản.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, mê man, nói nhảm.",
+        "cach_dung": "Uống với nước sắc bạc hà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_THIEN_TRUC_HOANG_TB",
+      "to": "VI_THUOC_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với bạc hà giúp thanh nhiệt, giải độc, trị kinh giản.",
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, mê man, nói nhảm.",
+        "cach_dung": "Uống với nước sắc bạc hà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_THIEN_TRUC_HOANG_TB",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, mê man, nói nhảm.",
+        "cach_dung": "Uống với nước sắc bạc hà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_THIEN_TRUC_HOANG_TB",
+      "to": "S_KINH_GIAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con kinh giản, sốt cao, mê man, nói nhảm.",
+        "cach_dung": "Uống với nước sắc bạc hà."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với thạch cao, tri mẫu, cam thảo, bạc hà giúp thanh nhiệt, giải độc, trị sốt cao, mê sảng.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "VI_THUOC_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với thạch cao, tri mẫu, cam thảo, bạc hà giúp thanh nhiệt, giải độc, trị sốt cao, mê sảng.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "VI_THUOC_TRI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với thạch cao, tri mẫu, cam thảo, bạc hà giúp thanh nhiệt, giải độc, trị sốt cao, mê sảng.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "VI_THUOC_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với thạch cao, tri mẫu, cam thảo, bạc hà giúp thanh nhiệt, giải độc, trị sốt cao, mê sảng.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "VI_THUOC_BAC_HA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với thạch cao, tri mẫu, cam thảo, bạc hà giúp thanh nhiệt, giải độc, trị sốt cao, mê sảng.",
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TTBC",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt cao, mê sảng.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_CAM_KHAU_THIEN_TRUC_HOANG_TU",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với uất kim giúp khai khiếu, hoạt huyết, trị cấm khẩu.",
+        "mo_ta_chi_tiet": "Chữa cấm khẩu, răng nghiến chặt.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_CAM_KHAU_THIEN_TRUC_HOANG_TU",
+      "to": "VI_THUOC_UAT_KIM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với uất kim giúp khai khiếu, hoạt huyết, trị cấm khẩu.",
+        "mo_ta_chi_tiet": "Chữa cấm khẩu, răng nghiến chặt.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_CAM_KHAU_THIEN_TRUC_HOANG_TU",
+      "to": "B_CAM_KHAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cấm khẩu, răng nghiến chặt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DOM_TAC_NGHEN_THIEN_TRUC_HOANG_T",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn phương trị đờm tắc nghẽn.",
+        "mo_ta_chi_tiet": "Chữa đờm tắc nghẽn ở cổ họng.",
+        "cach_dung": "Tán nhỏ, thổi vào họng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DOM_TAC_NGHEN_THIEN_TRUC_HOANG_T",
+      "to": "S_DOM_TAC_NGHEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đờm tắc nghẽn ở cổ họng.",
+        "cach_dung": "Tán nhỏ, thổi vào họng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_THIEN_TRUC_HOANG_TC",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với câu đằng, toàn yết giúp trấn kinh, trị động kinh.",
+        "mo_ta_chi_tiet": "Chữa trẻ con động kinh.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_THIEN_TRUC_HOANG_TC",
+      "to": "VI_THUOC_CAU_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với câu đằng, toàn yết giúp trấn kinh, trị động kinh.",
+        "mo_ta_chi_tiet": "Chữa trẻ con động kinh.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_THIEN_TRUC_HOANG_TC",
+      "to": "VI_THUOC_TOAN_YET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với câu đằng, toàn yết giúp trấn kinh, trị động kinh.",
+        "mo_ta_chi_tiet": "Chữa trẻ con động kinh.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_THIEN_TRUC_HOANG_TC",
+      "to": "B_DONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con động kinh.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TD",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với đăng tâm giúp thanh nhiệt, giải độc, trị sốt cao, co giật.",
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt cao, co giật.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TD",
+      "to": "VI_THUOC_DANG_TAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với đăng tâm giúp thanh nhiệt, giải độc, trị sốt cao, co giật.",
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt cao, co giật.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TD",
+      "to": "B_SOT_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt cao, co giật.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_CAO_THIEN_TRUC_HOANG_TD",
+      "to": "S_CO_GIAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt cao, co giật.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_THIEN_TRUC_HOANG_T",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn phương trị sốt, khóc đêm.",
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt, khóc đêm.",
+        "cach_dung": "Sắc với $1$ bát nước, còn nửa bát cho uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_SOT_THIEN_TRUC_HOANG_T",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con sốt, khóc đêm.",
+        "cach_dung": "Sắc với $1$ bát nước, còn nửa bát cho uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THIEN_TRUC_HOANG_THB",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với hoạt thạch, bồ hoàng giúp lợi tiểu, trị tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THIEN_TRUC_HOANG_THB",
+      "to": "VI_THUOC_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với hoạt thạch, bồ hoàng giúp lợi tiểu, trị tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THIEN_TRUC_HOANG_THB",
+      "to": "VI_THUOC_BO_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thiên trúc hoàng phối hợp với hoạt thạch, bồ hoàng giúp lợi tiểu, trị tiểu tiện khó khăn.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn.",
+        "cach_dung": "Sắc uống.",
+        "ghi_chu": "Hm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THIEN_TRUC_HOANG_THB",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_THIEN_TRUC_HOANG_T",
+      "to": "VI_THUOC_THIEN_TRUC_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc đơn phương trị mắt có màng.",
+        "mo_ta_chi_tiet": "Chữa mắt có màng.",
+        "cach_dung": "Tán nhỏ, thổi vào mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "BT_MAT_CO_MANG_THIEN_TRUC_HOANG_T",
+      "to": "B_MAT_CO_MANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt có màng.",
+        "cach_dung": "Tán nhỏ, thổi vào mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "B_PHONG_NHIET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa phong nhiệt, tiêu đờm, trấn kinh, an thần.",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "S_TIEU_DOM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa phong nhiệt, tiêu đờm, trấn kinh, an thần.",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "S_TRAN_KINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa phong nhiệt, tiêu đờm, trấn kinh, an thần.",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIEN_TRUC_HOANG",
+      "to": "S_AN_THAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa phong nhiệt, tiêu đờm, trấn kinh, an thần.",
+        "cach_dung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T815"
+      }
+    }
+  ],
+  "metadata": {}
+}

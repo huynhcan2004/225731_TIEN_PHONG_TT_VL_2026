@@ -1,0 +1,285 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_ICH_TRI_NHAN",
+    "ten_raw": "Ích trí nhân",
+    "ten_khoa_hoc": "$Alpinia oxyphylla Miq.$",
+    "ho_thuc_vat": "$Gừng Zingiberaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "khô. phơi khô chất lượng tốt hơn.",
+      "che_bien_tho": "khi dùng loại bỏ vỏ quả.",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin"
+    },
+    "display_name": "Ích trí nhân",
+    "canonical_name": "Ích trí nhân"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_ICH_TRI_NHAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ich Tri Nhan"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    },
+    {
+      "id": "BT_DAI_TIEN_NHIEU_ICH_TRI_NHAN",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dai Tien Nhieu Ich Tri Nhan"
+      }
+    },
+    {
+      "id": "S_DAI_TIEN_NHIEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dai Tien Nhieu"
+      }
+    },
+    {
+      "id": "CN_BO_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Than"
+      }
+    },
+    {
+      "id": "CN_BO_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Bo Vi"
+      }
+    },
+    {
+      "id": "CN_CAM_IA_LONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Cam Ia Long"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "420"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ích trí là một loại cỏ sống lâu năm, cao 1,5-2m, toàn cây có vị cay. Lá hình mác dài 17-33cm, rộng 3-6cm. Cụm hoa hình chùm mọc ở đầu cành. Hoa màu trắng có đốm tím. Quả hình cầu, đường kính 1,5cm, khi chín có màu vàng xanh, hạt nhiều cạnh, màu nâu đen (Hình 308 ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong ích trí nhân có chừng $0,7\\%$ tinh dầu. Thành phần chủ yếu của tinh dầu là tecpen sesquitecpen và sesquitecpenancola. Năm 1958, hệ dược thuộc Viện y học Bắc Kinh đã thấy trong ích trí nhân có chừng $1,71\\%$ chất $saponin$."
+        ],
+        "lieu_dung_tong_quat": "khô. Phơi khô chất lượng tốt hơn. Khi dùng loại bỏ vỏ quả.",
+        "cach_dung_bao_che": "Vào tháng 7-8 hái quả về khi màu quả từ xanh chuyển sang hồng, phơi hay sấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Ấm thận"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ích trí nhân có chừng $0,7\\%$ tinh dầu.",
+        "ghi_chu": "Thành phần chủ yếu của tinh dầu là tecpen sesquitecpen và sesquitecpenancola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1958, hệ dược thuộc Viện y học Bắc Kinh đã thấy trong ích trí nhân có chừng $1,71\\%$ chất $saponin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_TIEN_NHIEU_ICH_TRI_NHAN",
+      "to": "VI_THUOC_ICH_TRI_NHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc với $200ml$ nước, uống trước khi đi ngủ",
+        "ghi_chu": "Thêm vài hạt muối"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAI_TIEN_NHIEU_ICH_TRI_NHAN",
+      "to": "S_DAI_TIEN_NHIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Sắc với $200ml$ nước, uống trước khi đi ngủ",
+        "ghi_chu": "Thêm vài hạt muối"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_BO_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ấm thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_BO_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ dạ dày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_ICH_TRI_NHAN",
+      "to": "CN_CAM_IA_LONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm đi ỉa lỏng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T420",
+        "all_sources": [
+          "CT_VT_VN_T420"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 28.5,
+      "reliability_c_score": 0.7682,
+      "total_confidence_sum": 8.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

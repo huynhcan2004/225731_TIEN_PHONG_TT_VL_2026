@@ -1,0 +1,157 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CO_BINH",
+    "ten_raw": "Cây cổ bình",
+    "ten_khoa_hoc": "Crinum asiaticum L.",
+    "ho_thuc_vat": "họ Amaryllidaceae",
+    "variants": [
+      "tỏi lơi",
+      "co bình (Thái)",
+      "màn kinh (Tày)"
+    ],
+    "properties": {
+      "phan_bo": "Cây mọc hoang và được trồng ở khắp nơi\ntrong nước ta để làm cảnh và làm thuốc. Còn\nthấy mọc ở các nước vùng nhiệt đới và cận nhiệt\nđới châu Á.",
+      "thu_hai": "Người ta dùng lá tươi quanh năm.",
+      "che_bien_tho": "Thường\ndùng tươi."
+    },
+    "display_name": "Cây cổ bình"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T712",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "712"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Lương"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thảo sống lâu năm, có thân hành to như củ hành tây, đường kính $10$-$12cm$. Lá mọc từ gốc, hình dải, dài $0,60$-$1m$, rộng $5$-$10cm$, mép nguyên hơi uốn lượn. Cán hoa dài $0,60$-$1m$, mang một tán gồm $12$-$30$ hoa màu trắng, thơm. Quả nang gần hình cầu, đường kính $3$-$4cm$, chứa $1$-$2$ hạt.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_CRININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_CRINIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_CRINAFOLIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_LYCORIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_AMBELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có các alcaloid là crinin, crinidin, crinafolin, lycorin và ambelin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T713]: Vỏ thân chứa $28$-$29,36\\%$ tanin, $2,25\\%$ lupeol, $3,75\\%$ d-Leucodelphinidin (C. A., 1958, 52, 20455 b)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_LUPEOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T713]: Vỏ thân chứa $28$-$29,36\\%$ tanin, $2,25\\%$ lupeol, $3,75\\%$ d-Leucodelphinidin (C. A., 1958, 52, 20455 b)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    },
+    {
+      "from": "VI_THUOC_CO_BINH",
+      "to": "HC_D_LEUCODELPHINIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T713]: Vỏ thân chứa $28$-$29,36\\%$ tanin, $2,25\\%$ lupeol, $3,75\\%$ d-Leucodelphinidin (C. A., 1958, 52, 20455 b)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T712"
+      }
+    }
+  ]
+}

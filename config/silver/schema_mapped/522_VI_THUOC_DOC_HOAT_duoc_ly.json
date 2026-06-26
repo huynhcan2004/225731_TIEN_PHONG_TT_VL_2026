@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_DOC_HOAT",
+  "source": {
+    "source_id": "CT_VT_VN_T522",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "522"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "CN_KHU_PHONG_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đuổi phong hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "CN_KHU_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    },
+    {
+      "from": "VI_THUOC_DOC_HOAT",
+      "to": "CN_HET_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T522"
+      }
+    }
+  ],
+  "metadata": {}
+}

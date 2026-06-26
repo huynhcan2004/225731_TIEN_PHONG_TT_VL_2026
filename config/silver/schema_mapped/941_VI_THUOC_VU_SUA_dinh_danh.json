@@ -1,0 +1,76 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_VU_SUA",
+    "ten_raw": "Vũ sữa",
+    "ten_khoa_hoc": "Cola sp.; Cola nitida; Cola verticillata Stapf.; Cola acuminata Schott et Endl.; Cola ballayi Cornu; Cola verticillata P. Beauv.",
+    "ho_thuc_vat": "Họ Côla (Cola sp.)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T941",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "941"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Những cây côla thường là những cây cao $1-15m$, lá nguyên, hình trứng dài thuôn, nhọn dài $15-25cm$, rộng $6-10cm$ (đối với loài Cola nitida), cuống lá phình ở dưới, lá mọc đơn độc (trong loài Cola nitida, nhưng mọc vòng trong loài Cola verticillata Stapf.). Cụm hoa là những chùm nhỏ, kép hoặc gồm toàn hoa đực, hoặc gồm hoa đực và hoa lưỡng tính. Không có tràng mà chỉ có 5 lá đài trắng điểm tía, 10 nhị đực xếp thành hai hàng, nhụy hình trứng gồm 5-6 lá noãn. Quả gồm 2 đến 6 đại hóa gỗ họp thành hình sao quanh cuống. Mỗi đại dài $8-12cm$, rộng $4-8cm$, có sống ở lưng và rãnh ở phía bụng. Mặt quả xù xì thành những u. Mỗi quả chứa $5-10$ hạt to, xếp thành hai hàng, hơi 4 cạnh, bị biến dạng do ép vào nhau, màu trắng, hồng hay đỏ nhạt khi còn tươi. Trong loài Cola nitida chỉ có 2 lá mầm to, trong loài Cola acuminata Schott et Endl., Cola ballayi Cornu, Cola verticillata P. Beauv. các lá mầm được chia thành 4, thành 6, người ta gọi - đó là cola “quart” (quart là 1/4). Còn loại cola chỉ có 2 lá mầm thì gọi là cola “demi” (demi là nửa) (Hình 699).",
+        "thanh_phan_hoa_hoc": [
+          "Hạt côla chứa từ 10 đến 12% nước, 2 đến 4 chất vô cơ, 40% tinh bột, một ít đường khử, chất nhầy, 1 đến 2% chất béo, một ít betain. Khi quả còn tươi, có một ít sắc tố antoxyan làm cho hạt có màu, khi khô thì không còn. Người ta cho rằng hoạt chất của côla gồm hai nhóm: 1. Nhóm các tanoit (5-10%) tìm thấy vào cuối thế kỷ 18. Năm 1906 và 1910, Goris đã chiết được chất kolatin và kolatein. Năm 1930, Freudenberg đã xác định là những chất d.catechola và I. epicatechola. Trong hạt tươi chứa nhiều và ở dạng kết hợp với cafein. Trong quá trình bảo quản, các catechola bị ôxy hóa và trùng hiệp hóa để cho chất màu đỏ côla (rouge de cola) không tan trong nước. 2. Nhóm các ancaloit dẫn xuất của purin gồm caferin (trimetyl 1,3,7 dioxy 2-6 purin) từ 1,5 đến 2,5%, kèm theo một ít theobro-min 3-7"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_TANOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhóm các tanoit ($5-10$\\%) tìm thấy vào cuối thế kỷ 18."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T941"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_CAFEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt tươi chứa nhiều và ở dạng kết hợp với cafein."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T941"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_CAFERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhóm các ancaloit dẫn xuất của purin gồm caferin (trimetyl 1,3,7 dioxy 2-6 purin) từ $1,5$ đến $2,5$\\%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T941"
+      }
+    },
+    {
+      "from": "VI_THUOC_VU_SUA",
+      "to": "HC_THEOBROMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "kèm theo một ít theobro-min 3-7"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T941"
+      }
+    }
+  ]
+}

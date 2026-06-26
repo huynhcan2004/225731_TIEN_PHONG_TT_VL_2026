@@ -1,0 +1,223 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BAN_LONG_SAM",
+    "ten_raw": "Bàn long sâm",
+    "ten_khoa_hoc": "$Spiranthes sinensis (Pers) Ames; Spiranthes australis Lindl$",
+    "ho_thuc_vat": "$Lan Orchidaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ củ mầm",
+      "thu_hai": "mùa hè",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Mọc ở khắp những đồng cỏ miền núi ở Việt Nam. Có mọc cả ở Trung Quốc, châu Úc."
+    },
+    "display_name": "Bàn long sâm",
+    "canonical_name": "Bàn long sâm"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BAN_LONG_SAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ban Long Sam"
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC_CO_THE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Suy Nhuoc Co The"
+      }
+    },
+    {
+      "id": "S_THO_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tho Huyet"
+      }
+    },
+    {
+      "id": "B_BENH_VE_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Benh Ve Than"
+      }
+    },
+    {
+      "id": "S_KHONG_MUON_AN_UONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Khong Muon An Uong"
+      }
+    },
+    {
+      "id": "S_MIENG_DAY_DAI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mieng Day Dai"
+      }
+    },
+    {
+      "id": "S_NOI_NANG_KHO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Noi Nang Kho"
+      }
+    },
+    {
+      "id": "S_THO_KHO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Tho Kho"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "847"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Loại cỏ sống lâu năm. Thân rễ ngắn, có những rễ củ mầm mọc toả từ gốc ra. Thân nhỏ nhưng dài, cao tới $15$-$45cm$. Lá mọc từ gốc, hình lưỡi mác hẹp và dài, dài ngắn không đều, dài nhất có thể tới $15cm$. Những lá phía trên thường thoái hoá, chỉ còn như bẹ ôm lấy thân. Hoa mọc thành bông, xoắn ốc, dài $5$-$10cm$ màu trắng phớt hồng hoặc đỏ. Quả hơi hình trứng có lông mịn. Mùa hoa vào mùa hè"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "B_SUY_NHUOC_CO_THE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng như sâm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "S_THO_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng như sâm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "B_BENH_VE_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng như sâm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "S_KHONG_MUON_AN_UONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân Trung Quốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "S_MIENG_DAY_DAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân Trung Quốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "S_NOI_NANG_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân Trung Quốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BAN_LONG_SAM",
+      "to": "S_THO_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm của nhân dân Trung Quốc",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T848"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T847",
+        "all_sources": [
+          "CT_VT_VN_T847"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 25.5,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

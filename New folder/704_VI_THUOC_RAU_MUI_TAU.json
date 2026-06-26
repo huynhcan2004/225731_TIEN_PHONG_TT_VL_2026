@@ -1,0 +1,122 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_MUI_TAU",
+    "ten_raw": "Rau mùi tàu",
+    "ten_khoa_hoc": "Eryngium foetidum L.",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Ngày uống $10-16g$ dưới dạng thuốc hãm. Chia làm nhiều lần uống trong ngày.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây mọc hoang khắp nơi ở nước ta, còn thấy Rau mùi tàu mọc hoang và được trồng ở khắp nơi trong nước ta. Còn mọc ở các nước nhiệt đới và á nhiệt đới khác.",
+      "che_bien_tho": "Thường người ta hái tươi về dùng. Một số nơi hái về phơi khô trong mát dùng dần."
+    },
+    "display_name": "Rau mùi tàu"
+  },
+  "nodes": [
+    {
+      "id": "BT_AN_UONG_KHONG_TIEU_MUI_TAU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu Mui Tau"
+      }
+    },
+    {
+      "id": "VI_THUOC_RAU_MUI_TAU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Rau Mui Tau"
+      }
+    },
+    {
+      "id": "VI_THUOC_CAM_THAO_NAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Cam Thao Nam"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "S_AN_UONG_KHONG_TIEU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T704",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "704"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ mọc hằng năm, nhẵn, thân đơn độc, chia cành ở đầu ngọn, cao 0,15 đến 0,50m. Lá ở gốc mọc thành hoa thị, mỏng, hình mác thuôn dài, mép có răng cưa, răng hơi có gai. Lá trên thân nhiều răng cưa hơn, gai sắc hơn, xẻ 3 đến 7 thùy. Cụm hoa hình đầu hình bầu dục, hay hình trụ, tổng bao gồm 5-7, lá bắc hình mác hẹp, mỗi bên có 1-2 răng, trên đầu có một gai nhọn. Quả hình cầu hơi dẹt, đường kính $2mm$."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MUI_TAU",
+      "to": "VI_THUOC_RAU_MUI_TAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MUI_TAU",
+      "to": "VI_THUOC_CAM_THAO_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MUI_TAU",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Nước $300ml$. Đun sôi. Giữ sôi trong 15 phút. Chia 3 lần uống trong ngày. Uống lúc nóng",
+        "ghi_chu": "CT_VT_VN_T705"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_MUI_TAU",
+      "to": "S_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "cach_dung": "Nước $300ml$. Đun sôi. Giữ sôi trong 15 phút. Chia 3 lần uống trong ngày. Uống lúc nóng",
+        "ghi_chu": "CT_VT_VN_T705"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T704"
+      }
+    }
+  ]
+}

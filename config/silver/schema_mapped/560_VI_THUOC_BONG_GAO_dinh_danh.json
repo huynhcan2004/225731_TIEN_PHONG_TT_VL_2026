@@ -1,0 +1,47 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BONG_GAO",
+    "ten_raw": "Bông gạo",
+    "ten_khoa_hoc": "Hiptage madablota Gaertn; Hiptage benghalensis (1.) Kurz.",
+    "ho_thuc_vat": "Mãng rô Malpighiaceae",
+    "variants": [
+      "Tơ mành",
+      "dây chỉ",
+      "mạng nhện"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T560",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "560"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tơ mành là một loại cây mọc thành bụi có cành vươn dài, dựa vào cây khác, có lỏng mịn. Lá mọc đối, hình thuôn dài, phiến lá dài $9$-$10cm$, rộng $2,5$-$5cm$, hai mặt đều có lông, gốc gân chính có hai hạch, cuống lá dài $5$-$6mm$. Hoa trắng, mọc thành chùm ở kẽ lá. Quả có ba cánh nhẫn hơi có lông. Thân và lá khi bẻ ra có những sợi mành như chỉ (do đó có tên tơ mành hay dây chỉ, hay mạng nhện) ( Hình 424).",
+        "thanh_phan_hoa_hoc": [
+          "Theo Gorter (1920. Bull. Jard. Bot. Buitenzorg, ser. 3,2: 187) trong vỏ cây tơ mành có một chất glucozit gọi là hiptagin. Khi tác dụng chất kiềm loãng hay axit lên, hiptagin sẽ giải phóng axit xyanhydric."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG_GAO",
+      "to": "HC_HIPTAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong vỏ cây tơ mành có một chất glucozit gọi là hiptagin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T560"
+      }
+    }
+  ]
+}

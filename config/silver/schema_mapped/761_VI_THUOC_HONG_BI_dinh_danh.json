@@ -1,0 +1,96 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HONG_BI",
+    "ten_raw": "Hồng bì",
+    "ten_khoa_hoc": "Clausena lansium (Lour.) Skeels; Clausena wampi (Blanco) Oliv.",
+    "ho_thuc_vat": "Họ Hồng bì (Rutaceae)",
+    "variants": [],
+    "properties": {
+      "phan_bo": "Hồng bì mọc hoang và được trồng khắp nơi\nở nước ta. Còn thấy ở các nước nhiệt đới châu Á.",
+      "thu_hai": "Người ta dùng lá tươi hay khô, vỏ thân, vỏ rễ và\nhạt."
+    },
+    "display_name": "Hồng bì"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T761",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "761"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ cao $5$-$10m$. Lá kép lông chim lẻ, lá chét $7$-$11$, hình trứng hay bầu dục, dài $6$-$10cm$, rộng $2$-$4cm$, gốc tròn hay hơi nhọn, đầu nhọn, mép khía răng, mặt trên nhẵn, mặt dưới có lông, cuống ngắn. Cụm hoa hình chuỳ ở ngọn hay ở nách lá, hoa nhỏ màu trắng. Quả hình trứng hay hình cầu, đường kính $1,5$-$2cm$, màu vàng nhạt, có lông, có $2$-$3$ hạt. Mùa hoa tháng $3$-$5$, mùa quả tháng $7$-$9$.",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá hồng bì có tinh dầu. Thành phần chủ yếu của tinh dầu là anetola (C10H12O) và chavicola (C9H10O)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HONG_BI",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T761"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_BI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T761"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_BI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T761"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_BI",
+      "to": "HC_ANETOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là anetola (C10H12O) và chavicola (C9H10O)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T761"
+      }
+    },
+    {
+      "from": "VI_THUOC_HONG_BI",
+      "to": "HC_CHAVICOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là anetola (C10H12O) và chavicola (C9H10O)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T761"
+      }
+    }
+  ]
+}

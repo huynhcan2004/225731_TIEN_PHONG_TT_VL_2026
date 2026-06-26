@@ -1,0 +1,508 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HAT_SEN",
+    "ten_raw": "Hạt sẻn",
+    "ten_khoa_hoc": "$Zanthoxylum nitidum DC. (Fagara piperita Lour.); Zanthoxylum schinifolium Sieb. et Zucc.; Zanthoxylum simulans Hance (Zanthoxylum bungei Planch.)$",
+    "ho_thuc_vat": "$Cam Rutaceae$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Ngày dùng $3$-$5$g dưới dạng thuốc sắc. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Có độc",
+      "phan_bo": "khắp nơi ở nước ta, nhiều nhất tại các tỉnh miền núi như Phú Thọ, Lào Cai, Yên Bái, Bắc Cạn, Thái Nguyên, Lạng Sơn, Cao Bằng, Hà Tĩnh, Nghệ An, Hòa Bình, Hà Tây. Còn mọc ở Trung Quốc (Hải Nam, Đài Loan, Quảng Đông, Quảng Tây).",
+      "thu_hai": "đến mùa thu, quả chín, hái cả cành về, cắt lấy quả phơi khô.",
+      "che_bien_tho": "khi nhấm quả thấy vị đắng, nóng và thơm. bề ngoài vị thuốc trông rất đặc biệt: quả tách thành 3 mảnh cứng, trong mỗi mảnh có một hạt đen bóng, cứng. nhấm hạt có mùi thơm như chanh."
+    },
+    "display_name": "Hạt sẻn",
+    "canonical_name": "Hạt sẻn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_HAT_SEN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hat Sen"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "HC_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Limonen"
+      }
+    },
+    {
+      "id": "HC_GERANIAL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Geranial"
+      }
+    },
+    {
+      "id": "HC_NERAL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Neral"
+      }
+    },
+    {
+      "id": "HC_LINALOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Linalol"
+      }
+    },
+    {
+      "id": "HC_ESTRAGOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Estragola"
+      }
+    },
+    {
+      "id": "HC_BECGATEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Becgaten"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "CN_TAN_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tan Han"
+      }
+    },
+    {
+      "id": "CN_TRUC_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Truc Thap"
+      }
+    },
+    {
+      "id": "CN_ON_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "On Trung"
+      }
+    },
+    {
+      "id": "CN_TRO_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tro Hoa"
+      }
+    },
+    {
+      "id": "CN_SAT_HOI_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Sat Hoi Trung"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "384"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sưng có nhiều cành dài $1$-$2m$, có thể dài tới $15m$, đường kính thân có thể tới $15cm$, cành màu đỏ nhạt, trên cành và cuống lá có những gai ngắn, dẹt, quay về phía dưới. Lá kép lông chim lẻ, có 2 đến 3 đôi lá chét mọc đối. Mặt dưới và mặt trên của gân chính đều có gai, do đó đã có tên lưỡng diện chậm (hai mặt có gai). Hoa mọc thành chùm hay chùm xim đơm (glomérule) riêng lẻ hay tập trung ở kẽ lá. Quả có 1 đến 5 mảnh vỏ, thường là 2 3 tụ họp ở quanh trục, mặt ngoài nhăn nheo, mặt trong nhẵn. Mỗi vỏ cứng có một hạt cứng, đen bóng ( Hình 277, Hm 17,3 )."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$limonen$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_GERANIAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$geranial$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_NERAL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$neral$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_LINALOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$linalol$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_ESTRAGOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$estragola$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "HC_BECGATEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$becgaten$",
+        "ghi_chu": "CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ mới dùng trong phạm vi nhân dân",
+        "ghi_chu": "Bụng lạnh đau, thổ tả, tẩy giun | Quả [tên cây] | [Nguồn]: CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$4-8g$",
+        "cach_dung": "Dạng thuốc sắc hay ngâm rượu",
+        "ghi_chu": "Sốt, ra mồ hôi, sốt rét kinh niên, tê thấp | Rễ [tên cây] | [Nguồn]: CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm gia vị thay hồ tiêu",
+        "ghi_chu": "Ho, hen | Quả [tên cây] | [Nguồn]: CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm gia vị thay hồ tiêu",
+        "ghi_chu": "Ho, hen | Quả [tên cây] | [Nguồn]: CT_VT_VN_T385"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn, có độc, vào 3 kinh phế, tỳ và thận. Có tác dụng tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TRUC_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn, có độc, vào 3 kinh phế, tỳ và thận. Có tác dụng trục thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_ON_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn, có độc, vào 3 kinh phế, tỳ và thận. Có tác dụng ôn trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_TRO_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn, có độc, vào 3 kinh phế, tỳ và thận. Có tác dụng trợ hỏa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HAT_SEN",
+      "to": "CN_SAT_HOI_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính ôn, có độc, vào 3 kinh phế, tỳ và thận. Có tác dụng sát hồi trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T384",
+        "all_sources": [
+          "CT_VT_VN_T384"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.0,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "entity_hub": "VI_THUOC_PHONG_PHONG",
+  "source": {
+    "source_id": "CT_VT_VN_T681",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "681"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT_KL",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trừ thấp, lợi tiểu, chữa phù thũng.",
+        "cach_dung": "Dùng rượu hâm nóng lên mà chiêu thuốc.",
+        "ghi_chu": "Không rõ ràng về vai trò của từng vị thuốc trong bài thuốc này. Cần thêm thông tin để xác định vai trò chính xác của Phòng phong trong bài thuốc này. Liều lượng của Phòng phong không được chỉ định rõ ràng trong bài thuốc này, cần tham khảo thêm thông tin để bổ sung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT_KL",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trừ thấp, lợi tiểu, chữa phù thũng.",
+        "cach_dung": "Dùng rượu hâm nóng lên mà chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $6-8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT_KL",
+      "to": "VT_LA_BAC_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc gồm các vị thuốc có tác dụng trừ thấp, lợi tiểu, chữa phù thũng.",
+        "cach_dung": "Dùng rượu hâm nóng lên mà chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $6-8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_KHUONG_HOAT_KL",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa người có thai bị phù thũng",
+        "cach_dung": "Mỗi lần uống $6$ đến $8g$. Ngày thứ $1$ uống $1$ lần, ngày thứ $2$ uống $2$ lần, ngày thứ $3$ uống $3$ lần là đủ. Dùng rượu hâm nóng lên mà chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "VI_THUOC_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng chữa cảm, chân tay co quắp, tẻ dại mất tiếng.",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "Không rõ ràng về vai trò của từng vị thuốc trong bài thuốc này. Cần thêm thông tin để xác định vai trò chính xác của Phòng phong trong bài thuốc này. Liều lượng của Phòng phong không được chỉ định rõ ràng trong bài thuốc này, cần tham khảo thêm thông tin để bổ sung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "VT_KHUONG_HOAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc có tác dụng chữa cảm, chân tay co quắp, tẻ dại mất tiếng.",
+        "cach_dung": "Dùng rượu chiêu thuốc.",
+        "ghi_chu": "Liều lượng: $8-12g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "B_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm nói ngọng, chân tay co quắp, tẻ dại mất tiếng",
+        "cach_dung": "Mỗi lần cho uống $8$ đến $12g$, dùng rượu chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "S_NOI_NGONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm nói ngọng, chân tay co quắp, tẻ dại mất tiếng",
+        "cach_dung": "Mỗi lần cho uống $8$ đến $12g$, dùng rượu chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "S_CHAN_TAY_CO_QUAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm nói ngọng, chân tay co quắp, tẻ dại mất tiếng",
+        "cach_dung": "Mỗi lần cho uống $8$ đến $12g$, dùng rượu chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    },
+    {
+      "from": "BT_CAM_KHUONG_HOAT_K",
+      "to": "S_TE_DAI_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm nói ngọng, chân tay co quắp, tẻ dại mất tiếng",
+        "cach_dung": "Mỗi lần cho uống $8$ đến $12g$, dùng rượu chiêu thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T681"
+      }
+    }
+  ],
+  "metadata": {}
+}

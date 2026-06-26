@@ -1,0 +1,549 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_DOC_DUOC",
+    "ten_raw": "Cây cà độc dược",
+    "ten_khoa_hoc": "Datura metel L.",
+    "ho_thuc_vat": "Cà Solanaceae (Solanaceae)",
+    "variants": [
+      "cây cà độc dược với hao trắng thân xanh, cành xanh (Datura metel L. forma alba)",
+      "cây cà độc dược với hoa đốm tím, cành và thân tím (Datura metel L. forma violacea)",
+      "dạng lai của hai dạng trên"
+    ],
+    "properties": {
+      "bo_phan_dung": "Toàn cây",
+      "thu_hai": "Không có thông tin",
+      "che_bien_tho": "Không có thông tin",
+      "lieu_dung_chung": "Nếu thấy triệu chứng ngộ độc phải thôi ngay.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang và được trồng khắp nơi ở Việt Nam, Cămpuchia, Lào để làm cảnh và làm thuốc. Thường mọc hoang ở những nơi đất hoang, đất mùn, hơi ẩm. Nhiều nhất ở Vĩnh Phúc, Phú Thọ, Thanh Hóa, Nghệ An, Hà Tĩnh."
+    },
+    "display_name": "Cây cà độc dược"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_DOC_DUOC",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Doc Duoc"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "HC_HYOXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hyoxin"
+      }
+    },
+    {
+      "id": "HC_SCOPOLAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Scopolamin"
+      }
+    },
+    {
+      "id": "HC_HYOXYAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hyoxyamin"
+      }
+    },
+    {
+      "id": "HC_ATROPIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Atropin"
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_HEN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hen"
+      }
+    },
+    {
+      "id": "B_DA_TE_DAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Da Te Dai"
+      }
+    },
+    {
+      "id": "B_CUOC_KHI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cuoc Khi"
+      }
+    },
+    {
+      "id": "B_KINH_SO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Kinh So"
+      }
+    },
+    {
+      "id": "B_LOET_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Loet Da Day"
+      }
+    },
+    {
+      "id": "B_NON_MUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Non Mua"
+      }
+    },
+    {
+      "id": "B_SAY_SONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Say Song"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "BT_HEN_CA_DOC_DUOC",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Hen Ca Doc Duoc"
+      }
+    },
+    {
+      "id": "VT_KALI_NITRAT",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Kali Nitrat"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong Thap"
+      }
+    },
+    {
+      "id": "CN_TRI_HEN_XUYEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tri Hen Xuyen"
+      }
+    },
+    {
+      "id": "DL_GIAN_CO_VONG_MAT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Gian Co Vong Mat"
+      }
+    },
+    {
+      "id": "DL_TANG_NHAN_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tang Nhan Ap"
+      }
+    },
+    {
+      "id": "DL_GIAM_TIET_DICH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Tiet Dich"
+      }
+    },
+    {
+      "id": "DL_GIAN_KHI_DAO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Gian Khi Dao"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    },
+    {
+      "id": "DL_AN_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "An Than"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T717",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "717"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta có 3 loại cà độc dược: Cây cà độc dược với hao trắng thân xanh, cành xanh (Datura metel L. forma alba), cây cà độc dược với hoa đốm tím, cành và thân tím (Datura metel L. forma violacea) và dạng lai của hai dạng trên. Các dạng cà độc dược đều là những cây loại cỏ nhỏ, mọc hàng năm, cao từ $1$-$2m$. Toàn thân gần như nhẵn, có nhiều bì khổng. Cành non và các bộ phận non có nhiều lông tơ ngắn. Thân cây có màu xanh, hoặc màu tím, tùy theo dạng. Lá đơn, mọc cách, nhưng gần đầu cành trông như mọc đối hay mọc vòng. Phiến lá hình trứng dài $9$-$10cm$, rộng từ $4$-$9 cm$, ngọn lá nhọn, phía đáy lá hơi hẹp lại. Hai bên của đáy lá không đều nhau. Mép lá ít khi nguyên, thường lượn sóng hay hơi xẻ răng cưa (độ $3–4$ răng cưa). Mặt lá màu xanh xám, mặt dưới màu xanh nhạt, gân chính và phụ màu xanh, hoặc tím tùy theo dạng. Cuống lá dài $4$-$8cm$. Mặt lá lúc non có nhiều lông, sau rụng dần. Hoa đơn mọc ở kẽ lá, cuống lá dài $1$-$2cm$. Khi hoa héo, một phần còn lại trưởng thành với quả giống hình cái mâm. Loại hoa tím có đốm tím ở trên. Quả hình cầu mặt ngoài có gai, đường kính chừng $3cm$, khi non có màu xanh, khi chín có màu nâu. Quả khi già, nứt theo $3$-$4$ đường hay nứt lung tung ở phía trên. Hạt rất nhiều, hình trứng, dẹt, màu vàng đen, dài $3$-$5mm$, dày $1mm$. Ở cạnh có những vân nổi lên (Hình 542).",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$, ngoài ra còn có $hyoxyamin$ và $atropin$."
+        ],
+        "ghi_chu_bo_sung": "Còn gọi là mạn đà la. Tên mạn đà la do tiếng Trung Quốc phiên âm tên chữ Phạn (Ấn Độ) của cây có nghĩa là cây có màu sắc sặc sỡ.",
+        "cach_dung_bao_che": "Lá cây khi sắp và đang ra hoa (từ tháng 4-5-6 đến hết tháng 9-10). Hoa hái vào các tháng 8-9-10."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "HC_HYOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$, ngoài ra còn có $hyoxyamin$ và $atropin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "HC_SCOPOLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$, ngoài ra còn có $hyoxyamin$ và $atropin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "HC_HYOXYAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$, ngoài ra còn có $hyoxyamin$ và $atropin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "HC_ATROPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá, hoa, hạt và rễ cà độc dược có chứa chất $hyoxin$ hay $scopolamin$, ngoài ra còn có $hyoxyamin$ và $atropin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Cuộn thành thuốc lá hút",
+        "ghi_chu": "Ho do hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | Ngày hút $1-1,5$g",
+        "cach_dung": "Cuộn thành thuốc lá hút | Cho vào giấy cuộn thành điếu thuốc lá. Ngày hút $1-1,5$g vào lúc có cơn hen",
+        "ghi_chu": "Ho do hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_DA_TE_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng rửa",
+        "ghi_chu": "Hàn thấp, cước khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_CUOC_KHI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng rửa",
+        "ghi_chu": "Hàn thấp, cước khí"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_KINH_SO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống trong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "ngày $1-1,5$g",
+        "cach_dung": "Dùng dưới hình thức bột lá hay bột hoa, hoặc dùng lá hay dùng hoa phơi khô, thái nhỏ để hút như thuốc lá-liều hút: ngày $1-1,5$g. Còn dùng dưới hình thức rượu $1/10$ ( ngày dùng $0,5-3$g rượu cho người lớn, $0,10$g=V giọt cho trẻ em)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "ngày $1-1,5$g",
+        "cach_dung": "Dùng dưới hình thức bột lá hay bột hoa, hoặc dùng lá hay dùng hoa phơi khô, thái nhỏ để hút như thuốc lá-liều hút: ngày $1-1,5$g. Còn dùng dưới hình thức rượu $1/10$ ( ngày dùng $0,5-3$g rượu cho người lớn, $0,10$g=V giọt cho trẻ em)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_SAY_SONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "ngày $1-1,5$g",
+        "cach_dung": "Dùng dưới hình thức bột lá hay bột hoa, hoặc dùng lá hay dùng hoa phơi khô, thái nhỏ để hút như thuốc lá-liều hút: ngày $1-1,5$g. Còn dùng dưới hình thức rượu $1/10$ ( ngày dùng $0,5-3$g rượu cho người lớn, $0,10$g=V giọt cho trẻ em)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài đắp mụn nhọt cho khỏi đau nhức"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HEN_CA_DOC_DUOC",
+      "to": "VI_THUOC_CA_DOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1phần$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HEN_CA_DOC_DUOC",
+      "to": "VT_KALI_NITRAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1phần$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "BT_HEN_CA_DOC_DUOC",
+      "to": "B_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày hút $1-1,5$g",
+        "cach_dung": "Cho vào giấy cuộn thành điếu thuốc lá. Ngày hút $1-1,5$g vào lúc có cơn hen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "CN_KHU_PHONG_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khử phong thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "CN_TRI_HEN_XUYEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen xuyễn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_GIAN_CO_VONG_MAT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Atropin làm cơ vòng của mắt dãn ra, nên đồng tử dãn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_TANG_NHAN_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhãn cầu dẹt lại, áp lực mắt tăng lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_GIAM_TIET_DICH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sự tiết nước bọt, mồ hôi, dịch vị, dịch ruột ngừng lại."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_GIAN_KHI_DAO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm nở khí đạo khi khí đạo bị co thắt và phó giao cảm bị kích thích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều độc atropin tác động lên não làm say có khi phát điên, hô hấp tăng, sốt, cuối cùng thần kinh trung ương bị ức chế và tê liệt. | Khác với atropin, là khi ngộ độc thì hyoxin ức chế thần kinh nhiều hơn là kích thích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_DOC_DUOC",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hyoxin được dùng ở khoa thần kinh để chữa cơn co giật của bệnh Pakinxon, phối hợp với atrpin để chống say phi cơ hoặc tàu thủy, làm thuốc dịu thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T717"
+      }
+    }
+  ]
+}

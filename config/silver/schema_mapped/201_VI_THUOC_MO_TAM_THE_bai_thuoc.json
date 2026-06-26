@@ -1,0 +1,138 @@
+{
+  "entity_hub": "VI_THUOC_MO_TAM_THE",
+  "source": {
+    "source_id": "CT_VT_VN_T201",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "201"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_TRUC_TRUNG_MO_TAM_THE_MT",
+      "to": "VI_THUOC_MO_TAM_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mơ tam thể kết hợp với trứng gà giúp kiện tỳ, thanh nhiệt, giải độc, hỗ trợ điều trị lỵ trực trùng.",
+        "mo_ta_chi_tiet": "Lá mơ tam thể trộn với trứng gà.",
+        "cach_dung": "Bọc lá chuối nướng hoặc rán, ngày ăn $2-3$ lần trong $5-8$ ngày.",
+        "ghi_chu": "Thời gian điều trị trung bình $7$ ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_MO_TAM_THE_MT",
+      "to": "VT_TRUNG_GA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mơ tam thể kết hợp với trứng gà giúp kiện tỳ, thanh nhiệt, giải độc, hỗ trợ điều trị lỵ trực trùng.",
+        "mo_ta_chi_tiet": "Trộn với trứng gà.",
+        "cach_dung": "Bọc lá chuối nướng hoặc rán, ngày ăn $2-3$ lần trong $5-8$ ngày.",
+        "ghi_chu": "Thời gian điều trị trung bình $7$ ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_LY_TRUC_TRUNG_MO_TAM_THE_MT",
+      "to": "B_LY_TRUC_TRUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ trực trùng Shiga.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_MO_TAM_THE_MT",
+      "to": "VI_THUOC_MO_TAM_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mơ tam thể có tác dụng khu phong trừ thấp, được dùng để chữa tê thấp.",
+        "mo_ta_chi_tiet": "Cây này để uống trong và xoa bóp.",
+        "cach_dung": "Nước sắc cho thêm đường, gừng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_TE_THAP_MO_TAM_THE_MT",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tê thấp.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_SOI_THAN_MO_TAM_THE_MT",
+      "to": "VI_THUOC_MO_TAM_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mơ tam thể có tác dụng lợi tiểu, được dùng để chữa sỏi thận, bí tiểu tiện.",
+        "mo_ta_chi_tiet": "Nước sắc của lá.",
+        "cach_dung": "Uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_SOI_THAN_MO_TAM_THE_MT",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh sỏi thận, bí tiểu tiện.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_BI_TIEN_MO_TAM_THE_MT",
+      "to": "VI_THUOC_MO_TAM_THE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mơ tam thể có tác dụng lợi tiểu, được dùng để chữa sỏi thận, bí tiểu tiện.",
+        "mo_ta_chi_tiet": "Nước sắc của lá.",
+        "cach_dung": "Uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    },
+    {
+      "from": "BT_BI_TIEN_MO_TAM_THE_MT",
+      "to": "S_BI_TIEN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bệnh sỏi thận, bí tiểu tiện.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T201"
+      }
+    }
+  ],
+  "metadata": {}
+}

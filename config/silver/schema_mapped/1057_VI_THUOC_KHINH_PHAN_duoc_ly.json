@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_KHINH_PHAN",
+  "source": {
+    "source_id": "CT_VT_VN_T1057",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1057"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "CN_THAN_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "DL_TRI_MUN_NHOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y thường dùng bôi ngoài chữa mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "DL_TRI_GHE_LO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y thường dùng bôi ngoài chữa ghẻ lở."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "DL_TRI_RAN_RET_CAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đông y thường dùng bôi ngoài chữa rắn rết cắn, nhất là rắn độc cắn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHINH_PHAN",
+      "to": "DL_TRI_SOT_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống trong chủ yếu chữa sốt rét lâu năm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057"
+      }
+    }
+  ],
+  "metadata": {}
+}

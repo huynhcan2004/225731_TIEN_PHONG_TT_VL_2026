@@ -1,0 +1,148 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TOC_ROI_L",
+    "ten_raw": "Tóc rối L",
+    "ten_khoa_hoc": "Homo sapiens L.; Corium Elephatis; Manis pentadactyla L.",
+    "ho_thuc_vat": "Người Hominidae; Tê tê Manidae",
+    "variants": [
+      "Tóc người",
+      "Tượng bì",
+      "Tê tê"
+    ],
+    "properties": {
+      "bo_phan_dung": "Tóc rối",
+      "che_bien_tho": "cạo sạch lông phơi khô (da con voi)"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1023",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1023"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tượng bì là da con voi cạo sạch lông phơi khô.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Da voi nói ở đây có thể là loài voi ở châu Á Elephas maximus L. hoặc loài voi châu Phi Elephas africanus capensis đều thuộc họ Voi Elephantidae. Cả hai con đều là những con vật to lớn, sống ở những vùng nhiệt đới chỉ khác nhau ở chỗ voi châu Á thì có tai nhỏ hơn, lưng cong vòng lên còn voi châu Phi có tai to phủ lên hai bên bả vai, lưng cong võng xuống (Hình $748$)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "HC_XYATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tóc có thành phần chủ yếu là chất xyatin là một axit amin có công thức: COOH-CH(NH)-CH-S-S-CH2-CH(NH2)-COOH hay disunfua diamino-diaxit; xystin là một monopeptit thường thấy ở móng chân, len, lông, tóc, sừng V.V..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "HC_XYSTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tóc có thành phần chủ yếu là chất xyatin là một axit amin có công thức: COOH-CH(NH)-CH-S-S-CH2-CH(NH2)-COOH hay disunfua diamino-diaxit; xystin là một monopeptit thường thấy ở móng chân, len, lông, tóc, sừng V.V..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "HC_XYSTEIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chúng ta biết xystin và xystein có nhiều liên quan với nhau vì công thức của xystein là CH,SH-CH(NH2)-COOH."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài xystin, trong tóc còn có chất béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    },
+    {
+      "from": "VI_THUOC_TOC_ROI_L",
+      "to": "HC_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong huyết dư thán chủ yếu có cacbon."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1023"
+      }
+    }
+  ]
+}

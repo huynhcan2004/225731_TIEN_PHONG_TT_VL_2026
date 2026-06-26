@@ -1,0 +1,142 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_TRUAT",
+    "ten_raw": "Bạch truật",
+    "ten_khoa_hoc": "Atractylodes macrocephala Koidz.; Atractylis macrocephala (Koidz) Hand. Mazz.; Atractylis ovata Thunb.",
+    "ho_thuc_vat": "họ Cúc Compositae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T406",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "406"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hơi ôn",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "kiện vị, hòa trung, táo thấp, hóa đờm, lợi tiểu, làm hết mồ hôi, an thai",
+        "kieng_ky_dac_biet": "tỳ hư trướng mãn hung cách phiền muộn, tiết tả, thủy thũng, đàm ẩm, trị hãn (mồ hôi trộm), thai khí không yên"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bạch truật là một cây mọc lâu năm, cao tới $80cm$. Rễ phát triển thành củ to và mẫm. Lá mọc so le, dai. Lá ở phía dưới thân có cuống dài, phiến lá chia làm 3 thùy rõ rệt, cắt sâu, trông gần như lá riêng, lá ở ngọn không chia thùy, cuống ngắn, mép phiến lá có răng cưa đều và nhọn. Cụm hoa hình đầu, lớn, tổng bao hình chuông, phiến tổng bao gồm 7 lớp trông như ngói lợp. Tràng hoa hình ống phía dưới màu trắng, phía trên màu tím đỏ, chia làm 5 thùy hình, sợi dài, 5 nhị (trong những hoa cái ở phía ngoài của cụm hoa có nhị thoái hóa). Bầu nhụy có phủ lông trắng, ở đỉnh mang một chùm lông dài mượt (dùng để phát tán quả nhờ gió) (Hình 293, Hm 6,1 ).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Khi dùng người ta còn sao hoặc sao với đất màu vàng gọi là sao hoàng thổ, hoặc sao không cho đến màu vàng đen, có thể sao với cám: $6kg$ bạch truật thì dùng $400g$ cám. Phun một ít rượu rồi sao cho hơi nóng, cho bạch truật đã thái mỏng vào, đảo cho đến khi có màu vàng thì rây bỏ cám, lấy bạch truật. Lối sao sau cùng này ít thấy áp dụng ở Việt Nam, nhưng Trung Quốc hay dùng và gọi là phù bì sao bạch truật."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong bạch truật có tinh dầu ($1,4$\\%), nhưng thành phần hoạt chất chưa rõ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "HC_ATRACTYLOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói rằng trong bạch truật có atractylola C,H,O và atractylon CHO, vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "HC_ATRACTYLON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói rằng trong bạch truật có atractylola C,H,O và atractylon CHO, vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_TRUAT",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói rằng trong bạch truật có atractylola C,H,O và atractylon CHO, vitamin A."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T406"
+      }
+    }
+  ]
+}

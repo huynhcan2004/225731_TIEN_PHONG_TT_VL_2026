@@ -1,0 +1,132 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BANG_HOA",
+    "ten_raw": "Bạng hoa",
+    "ten_khoa_hoc": "$Rhoeo discolor (L’Hérit) Hance (Tradescantia discolor L'Herit)$",
+    "ho_thuc_vat": "$Thài lài (Commelinaceae)$",
+    "variants": [
+      "cây sò huyết",
+      "bang"
+    ],
+    "properties": {
+      "bo_phan_dung": "hoa tươi",
+      "thu_hai": "mùa hoa kéo dài từ mùa xuân đến mùa thu",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng $40-80g$ hoa tươi sắc uống hoặc giã vắt lấy nước mà uống.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Cây này mọc hoang và được trồng ở khắp nơi trong nước ta để làm cảnh vì cây tím đẹp, cụm hoa hình đặc biệt, màu dịu dàng đẹp mắt."
+    },
+    "display_name": "Bạng hoa",
+    "canonical_name": "Bạng hoa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BANG_HOA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bang Hoa"
+      }
+    },
+    {
+      "id": "B_HO_RA_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho Ra Mau"
+      }
+    },
+    {
+      "id": "B_DI_NGOAI_RA_MAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Ngoai Ra Mau"
+      }
+    },
+    {
+      "id": "S_CHAY_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T874",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "874"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây sò huyết là một loại cỏ sống dai, cao tới $50cm$, thân thô ngắn, hoặc không có thân lá mọc như ngói lợp, phiến lá dài $20-30cm$, rộng $4-6cm$, mép nguyên đầu nhọn, trông hơi mọng nước, mặt dưới màu tím sẫm. Cụm hoa mọc ở kẽ lá, có tổng bao màu tím nhạt trông giống hình con sò, do đó có tên cây sò huyết, tên Trung Quốc: bang cũng là sò. Mặt trong bao hoa màu xanh nhạt. Cụm hoa gồm nhiều hoa màu trắng. Cuống cụm hoa mọng nước. Mùa hoa kéo dài từ mùa xuân đến mùa thu",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Ngoài ra, suốt mùa hoa, người ta hái hoa phơi khô để làm thuốc. Nhưng nhiều người cho dùng tươi mới tốt."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BANG_HOA",
+      "to": "B_HO_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$ hoa tươi",
+        "cach_dung": "Sắc uống hoặc giã vắt lấy nước mà uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T874",
+        "all_sources": [
+          "CT_VT_VN_T874"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG_HOA",
+      "to": "B_DI_NGOAI_RA_MAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40-80g$ hoa tươi",
+        "cach_dung": "Sắc uống hoặc giã vắt lấy nước mà uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T874",
+        "all_sources": [
+          "CT_VT_VN_T874"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BANG_HOA",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$40-80g$ hoa tươi",
+        "cach_dung": "Sắc uống hoặc giã vắt lấy nước mà uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T874"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T874",
+        "all_sources": [
+          "CT_VT_VN_T874"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 24.5,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

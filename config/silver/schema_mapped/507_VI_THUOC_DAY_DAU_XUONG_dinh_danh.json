@@ -1,0 +1,90 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAY_DAU_XUONG",
+    "ten_raw": "Dây đau xương",
+    "ten_khoa_hoc": "Cibotium barometz (L.) J. Sm.; Tinospora sinensis (Lour.) Merr. (Tinospora tomentosa Miers)",
+    "ho_thuc_vat": "Lông cu ly Dicksoniaceae; Tiết dê Menispermaceae",
+    "variants": [
+      "dây đau xương"
+    ],
+    "properties": {
+      "bo_phan_dung": "[CT_VT_VN_T508]: Dây leo bằng thân quấn",
+      "phan_bo": "[CT_VT_VN_T508]: Dây leo bằng thân quấn, có nhiều cành khẳng khiu, hơi có lông. Lá mọc so le, hình tim, dài $8-12cm$, rộng $6-10cm$, gốc lá hình tim, đầu nhọn, mặt dưới hơi có lông, cuống lá dài $6-8cm$ hơi phình lên ở gốc. Cụm hoa hình chùm dài $10-20cm$ mang nhiều hoa nhỏ màu vàng lục nhạt. Quả hạch hình cầu, đường kính $6-8mm$, khi chín có màu đỏ.",
+      "thu_hai": "quanh năm, nhưng tốt nhất vào mùa thu đông",
+      "che_bien_tho": "thái mỏng phơi hay sấy khô"
+    },
+    "display_name": "Dây đau xương"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T507",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "507"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Lương",
+        "cong_nang": "khu phong, trừ thấp, thư cân, hoạt lạc"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Dây leo bằng thân quấn, có nhiều cành khẳng khiu, hơi có lông. Lá mọc so le, hình tim, dài $8$-$12cm$, rộng $6$-$10cm$, gốc lá hình tim, đầu nhọn, mặt dưới hơi có lông, cuống lá dài $6$-$8cm$ hơi phình lên ở gốc. Cụm hoa hình chùm dài $10$-$20cm$ mang nhiều hoa nhỏ màu vàng lục nhạt. Quả hạch hình cầu, đường kính $6$-$8mm$, khi chín có màu đỏ.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần hoá học: Chưa thấy nghiên cứu. Sơ bộ thấy có alcaloid, saponin, chất đắng."
+        ],
+        "cach_dung_bao_che": "Người ta dùng thân và rễ dây đau xương thái mỏng phơi hay sấy khô để dùng. Có khi người ta dùng lá tươi."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "HC_ALCALOID",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ thấy có alcaloid, saponin, chất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAY_DAU_XUONG",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ thấy có alcaloid, saponin, chất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T507"
+      }
+    }
+  ]
+}

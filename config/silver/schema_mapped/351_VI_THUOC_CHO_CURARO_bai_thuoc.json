@@ -1,0 +1,175 @@
+{
+  "entity_hub": "VI_THUOC_CHO_CURARO",
+  "source": {
+    "source_id": "CT_VT_VN_T351",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "351"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_UON_VAN_VI_THUOC_CHO_CURARO_C",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ cây cho curaro.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_UON_VAN_VI_THUOC_CHO_CURARO_C",
+      "to": "B_UON_VAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Uốn ván, động kinh, ngộ độc do mã tiền hay stricnin.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_VI_THUOC_CHO_CURARO_C",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ cây cho curaro.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_DONG_KINH_VI_THUOC_CHO_CURARO_C",
+      "to": "B_DONG_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Uốn ván, động kinh, ngộ độc do mã tiền hay stricnin.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_VI_THUOC_CHO_CURARO_C",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương từ cây cho curaro.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_VI_THUOC_CHO_CURARO_C",
+      "to": "B_NGO_DOC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Uốn ván, động kinh, ngộ độc do mã tiền hay stricnin.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_GAY_ME_VI_THUOC_CHO_CURARO_D",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bổ trợ cho gây mê.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_GAY_ME_VI_THUOC_CHO_CURARO_D",
+      "to": "B_GAY_ME",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ trợ cho gây mê.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_PHAU_THUAT_VI_THUOC_CHO_CURARO_D",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dùng trong phẫu thuật bụng, chấn thương cần tránh sốc, những người yếu mệt, có tuổi hay suy mòn.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_PHAU_THUAT_VI_THUOC_CHO_CURARO_D",
+      "to": "B_PHAU_THUAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phẫu thuật bụng, chấn thượng cần tránh sốc, những người yếu mệt, có tuổi hay suy mòn.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_CHAN_THUONG_VI_THUOC_CHO_CURARO_D",
+      "to": "VI_THUOC_CHO_CURARO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Dùng trong phẫu thuật bụng, chấn thương cần tránh sốc, những người yếu mệt, có tuổi hay suy mòn.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    },
+    {
+      "from": "BT_CHAN_THUONG_VI_THUOC_CHO_CURARO_D",
+      "to": "B_CHAN_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Phẫu thuật bụng, chấn thượng cần tránh sốc, những người yếu mệt, có tuổi hay suy mòn.",
+        "cach_dung": "tiêm bắp d-tobocurarơ $10-20mg$ hoặc $10-15mg$ tiêm mạch"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T351"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,76 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TUNG_HUONG",
+    "ten_raw": "Tùng hương",
+    "ten_khoa_hoc": "Resina Pini-Colophonium; Pinus massoniana",
+    "ho_thuc_vat": "Thông",
+    "variants": [],
+    "properties": {},
+    "display_name": "Tùng hương"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T161",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "161"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thông là một loại cây to, cao tới $20$-$30m$ đường kính thân có thể tới $2m$, thân thẳng vỏ xù xì, nứt nẻ. Lá hình kim bao giờ cũng xanh tươi, chỉ có một gân nhỏ, mọc tụ hai hay ba lá, tùy theo loài. “Hoa” là những khối hình nón gần như không cuống.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T163]: Trong tùng hương thành phần chủ yếu là anhydrit abietic, và một ít axit abietic, tất cả khoảng $80\\%$. Ngoài ra còn một ít recsen, một ít tinh dầu (khoảng $0,5\\%$) và một ít chất đắng."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TUNG_HUONG",
+      "to": "HC_ANHYDRITABIETIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T163]: Trong tùng hương thành phần chủ yếu là anhydrit abietic, và một ít axit abietic, tất cả khoảng $80\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T161"
+      }
+    },
+    {
+      "from": "VI_THUOC_TUNG_HUONG",
+      "to": "HC_AXITABIETIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T163]: Trong tùng hương thành phần chủ yếu là anhydrit abietic, và một ít axit abietic, tất cả khoảng $80\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T161"
+      }
+    },
+    {
+      "from": "VI_THUOC_TUNG_HUONG",
+      "to": "HC_RECSEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T163]: Ngoài ra còn một ít recsen, một ít tinh dầu (khoảng $0,5\\%$) và một ít chất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T161"
+      }
+    },
+    {
+      "from": "VI_THUOC_TUNG_HUONG",
+      "to": "HC_TINHDAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "[CT_VT_VN_T163]: Ngoài ra còn một ít recsen, một ít tinh dầu (khoảng $0,5\\%$) và một ít chất đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T161"
+      }
+    }
+  ]
+}

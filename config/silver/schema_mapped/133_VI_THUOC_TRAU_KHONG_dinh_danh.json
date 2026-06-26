@@ -1,0 +1,156 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TRAU_KHONG",
+    "ten_raw": "Trầu không",
+    "ten_khoa_hoc": "Piper betle L.; Piper siriboa L.",
+    "ho_thuc_vat": "Họ Hồ tiêu Piperaceae",
+    "variants": [
+      "Lá trầu không"
+    ],
+    "properties": {
+      "bo_phan_dung": "Lá",
+      "phan_bo": "Toàn cây có tinh dầu thơm.",
+      "thu_hai": "Hái lá quanh năm, nhưng tốt nhất vào các tháng 8-9.",
+      "che_bien_tho": "Làm thuốc người ta cũng dùng lá trầu không\nhái như đối với lá dùng ăn trầu."
+    },
+    "display_name": "Trầu không"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T133",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "133"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "cong_nang": "trừ phong thấp, tiêu viêm, sát trùng, kích thích tiêu hóa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Trầu không là một loại cây mọc leo, thân nhắn. Lá mọc so le, cuống có bẹ, dài $1,5-3,5cm$, phiến lá hình trái xoan, dài $10-13cm$, rộng $4,5-$ $9cm$, phía cuống hình tim (đối với những lá phía gốc) đầu lá nhọn, khi soi lên thấy rất nhiều điểm chứa tinh dầu rất nhỏ, gần lá thường 5. Hoa khác gốc mọc thành bông. Quả mọng không có vòi sót lại",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá trầu không có $0,8-1,8$%, có khi đến $2,4$% tinh dầu tỷ trọng $0,958-1,057$ thơm mùi creozot (củi đốt), vị nóng. Trong tinh dầu người ta đã xác định có hai chất phenol là betel-phenol (đồng phân với chất eugenol chavibetol CH,,O, và chavicol), kèm theo một số hợp chất phenolic khác.",
+          "Hoạt chất khác chưa rõ."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay nồng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_CHAVICOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_BETELPHENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_CHAVIBETOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_EUGENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%, eugenol, methyl eugenol, p-cymol $4,5$%, caryophyllen $7,5$%, α và β pinen $4,4$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_METHYL_EUGENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%, eugenol, methyl eugenol, p-cymol $4,5$%, caryophyllen $7,5$%, α và β pinen $4,4$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_P_CYMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%, eugenol, methyl eugenol, p-cymol $4,5$%, caryophyllen $7,5$%, α và β pinen $4,4$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_CARYOPHYLLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%, eugenol, methyl eugenol, p-cymol $4,5$%, caryophyllen $7,5$%, α và β pinen $4,4$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "VI_THUOC_TRAU_KHONG",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu trầu không là các phenol: Chavicol $43,9$%, betelphenol, chavibetol $14,6$%, eugenol, methyl eugenol, p-cymol $4,5$%, caryophyllen $7,5$%, α và β pinen $4,4$%"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    }
+  ]
+}

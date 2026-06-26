@@ -1,0 +1,119 @@
+{
+  "entity_hub": "VI_THUOC_BEO_CAI",
+  "source": {
+    "source_id": "CT_VT_VN_T107",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "107"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MAN_NGUA_BEO_CAI_B",
+      "to": "VI_THUOC_BEO_CAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị mẩn ngứa.",
+        "cach_dung": "Sắc với nước uống hằng ngày.",
+        "ghi_chu": "Dùng trong $2-3$ ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_MAN_NGUA_BEO_CAI_B",
+      "to": "B_MAN_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mẩn ngứa",
+        "cach_dung": "Sắc với nước uống hằng ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_ECZEMA_BEO_CAI_B",
+      "to": "VI_THUOC_BEO_CAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị eczema.",
+        "cach_dung": "Đắp cả nước lẫn cái lên chỗ bị eczema.",
+        "ghi_chu": "Số lượng tùy theo nơi chữa to hay nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_ECZEMA_BEO_CAI_B",
+      "to": "B_ECZEMA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng chữa eczêma",
+        "cach_dung": "Đắp cả nước lẫn cái lên chỗ bị eczema."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_HEN_XUYEN_BEO_CAI_B",
+      "to": "VI_THUOC_BEO_CAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị hen xuyễn.",
+        "cach_dung": "Vắt lấy nước, thêm nước lọc vào và xirô chanh cho vừa đủ ngọt và đủ $100ml$. Ngày có thể uống $2$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_HEN_XUYEN_BEO_CAI_B",
+      "to": "B_HEN_XUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen xuyễn",
+        "cach_dung": "Vắt lấy nước, thêm nước lọc vào và xirô chanh cho vừa đủ ngọt và đủ $100ml$. Ngày có thể uống $2$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_MUN_RO_LOANG_VONG_BEO_CAI_B",
+      "to": "VI_THUOC_BEO_CAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị mụn rộp loang vòng.",
+        "cach_dung": "Rửa sạch vết loét bằng nước sắc bèo cái, rắc lên đấy bèo cái đã đốt thành tro."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    },
+    {
+      "from": "BT_MUN_RO_LOANG_VONG_BEO_CAI_B",
+      "to": "B_MUN_RO_LOANG_VONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn rộp loang vòng",
+        "cach_dung": "Rửa sạch vết loét bằng nước sắc bèo cái, rắc lên đấy bèo cái đã đốt thành tro."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T107"
+      }
+    }
+  ],
+  "metadata": {}
+}

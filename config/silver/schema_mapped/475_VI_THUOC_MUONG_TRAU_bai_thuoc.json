@@ -1,0 +1,97 @@
+{
+  "entity_hub": "VI_THUOC_MUONG_TRAU",
+  "source": {
+    "source_id": "CT_VT_VN_T475",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "475"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_M",
+      "to": "VI_THUOC_MUONG_TRAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Muồng trâu có tác dụng kháng nấm, giúp điều trị hắc lào.",
+        "cach_dung": "Rửa sạch nơi bị bệnh, giã nát lá muồng trâu xát vào. Chỉ một hai lần là khỏi.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_M",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào",
+        "cach_dung": "Rửa sạch nơi bị bệnh, giã nát lá muồng trâu xát vào. Chỉ một hai lần là khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_CNM",
+      "to": "VI_THUOC_MUONG_TRAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Muồng trâu kết hợp chanh và muối giúp tăng cường khả năng kháng khuẩn, kháng nấm, giảm viêm, hỗ trợ điều trị hắc lào.",
+        "cach_dung": "Giã lá với nước ép chanh quả và ít muối mà dùng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_CNM",
+      "to": "VT_CHANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Chanh có tính acid giúp sát khuẩn, làm sạch vùng da bị bệnh.",
+        "cach_dung": "Giã lá với nước ép chanh quả và ít muối mà dùng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_CNM",
+      "to": "VT_MUOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Muối có tính sát khuẩn, giúp làm sạch và giảm viêm nhiễm.",
+        "cach_dung": "Giã lá với nước ép chanh quả và ít muối mà dùng.",
+        "ghi_chu": "Không có"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_MUONG_TRAU_CNM",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào",
+        "cach_dung": "Giã lá với nước ép chanh quả và ít muối mà dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T475"
+      }
+    }
+  ],
+  "metadata": {}
+}

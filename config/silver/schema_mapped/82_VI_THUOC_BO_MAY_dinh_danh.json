@@ -1,0 +1,53 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BO_MAY",
+    "ten_raw": "Bọ mẩy",
+    "ten_khoa_hoc": "Clerodendron cyrtophyllum Turcz. ; Clerodendron amplius Hance ; Clerodendron formosanum Maxim. ; Cordia venosa Hemsl.",
+    "ho_thuc_vat": "Cỏ roi ngựa Verbenaceae",
+    "variants": [
+      "đại thanh",
+      "đắng cay",
+      "mẩy kỳ cáy",
+      "thanh thảo tâm",
+      "bọ nẹt"
+    ],
+    "properties": {
+      "phan_bo": "Mọc hoang khắp nơi trong nước ta. Còn mọc\nở Lào, Cămpuchia, Trung Quốc. Hay ưa đồi đất\nđỏ.",
+      "thu_hai": "Thường hái toàn cây, bỏ rễ đem về phơi hay\nsấy khô mà dùng.",
+      "che_bien_tho": "Không phải chế biến gì, hoặc\nchỉ sao vàng cho thơm."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T82",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "82"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, cành tròn, lúc non có lông sau nhẵn. Lá hình mác đầu nhọn, phía cuống cũng nhọn, hay hơi tròn, hai mặt đều nhẵn, màu xanh lục sẫm, dài $5$-$13cm$, rộng $3$-$7cm$, gần nổi rõ ở mặt dưới. Cụm hoa hình ngù chùy, nhẵn, mang những nhánh hoa thưa, màu trắng, đôi khi màu hồng. Đài và tràng hoa có lông. Nhị thòi dài gấp 2 ống hoa. Nhụy có vòi dài bằng hay gần bằng nhị, núm xẻ hai. Quả nhỏ bọc trong đài",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu. Sơ bộ chúng tôi thấy có ancaloit."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BO_MAY",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ chúng tôi thấy có ancaloit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T82"
+      }
+    }
+  ]
+}

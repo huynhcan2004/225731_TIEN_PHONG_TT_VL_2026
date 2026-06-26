@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC_SAM_BO_CHINH",
+  "source": {
+    "source_id": "CT_VT_VN_T828",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "828"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "CN_BO_TRUNG_ICH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ trung ích khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "CN_SINH_TAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sinh tân."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "CN_CHI_KHAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chỉ khát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm mạch máu dung dịch đảng sâm 20% (chiết xuất bằng nước và bằng rượu) cho thỏ và chó đánh mê, đều thấy hạ huyết áp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "DL_ANH_HUONG_HUYET_CAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm dưới da dung dịch đảng sâm 20% ($4ml/1kg$ thể trọng) hoặc cho uống (mỗi ngày $20g$) đều thấy hồng cầu tăng lên, bạch cầu giảm xuống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "DL_ANH_HUONG_HUYET_DUONG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm đảng sâm vào con thỏ bình thường thấy lượng huyết đường tăng lên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAM_BO_CHINH",
+      "to": "DL_UC_CHE_CAO_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đảng sâm còn có tác dụng ức chế hiện tượng cao huyết áp do adrenalin gây ra."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T828"
+      }
+    }
+  ],
+  "metadata": {}
+}

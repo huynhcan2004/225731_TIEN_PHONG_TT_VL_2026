@@ -1,0 +1,908 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HANH",
+    "ten_raw": "Hành",
+    "ten_khoa_hoc": "$Allium fistulosum L.$",
+    "ho_thuc_vat": "$Họ Hành Alliaceae$",
+    "variants": [
+      "hành hoa",
+      "đại thông",
+      "thông bạch",
+      "tứ quý thông",
+      "hom búa",
+      "thái bá",
+      "lộc thai",
+      "hoa sự thảo",
+      "khtim",
+      "ciboule",
+      "cive"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá, thân hành",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Mỗi lần có thể dùng với liều $30$ đến $60g$ dưới hình thức thuốc sắc hay giã nát ép lấy nước mà uống. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "khắp nơi trong nước ta"
+    },
+    "display_name": "Hành",
+    "canonical_name": "Hành"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_HANH",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hanh"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Binh"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "HC_AXIT_MALIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Malic"
+      }
+    },
+    {
+      "id": "HC_PHYTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Phytin"
+      }
+    },
+    {
+      "id": "HC_ALYSUNFIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Alysunfit"
+      }
+    },
+    {
+      "id": "HC_ALIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Alixin"
+      }
+    },
+    {
+      "id": "S_DAU_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Rang"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Ret"
+      }
+    },
+    {
+      "id": "B_NGOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam"
+      }
+    },
+    {
+      "id": "S_NHUC_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Nhuc Dau"
+      }
+    },
+    {
+      "id": "S_MAT_MAY_PHU_THUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mat May Phu Thung"
+      }
+    },
+    {
+      "id": "BT_MUI_NGAT_MAO_HANH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Mui Ngat Mao Hanh"
+      }
+    },
+    {
+      "id": "VI_THUOC_DAM_DAU_SI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Dam Dau Si"
+      }
+    },
+    {
+      "id": "VI_THUOC_SINH_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Sinh Khuong"
+      }
+    },
+    {
+      "id": "VI_THUOC_CHE_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Che Huong"
+      }
+    },
+    {
+      "id": "B_CAM_MAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cam Mao"
+      }
+    },
+    {
+      "id": "S_DAU_NHUC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Nhuc"
+      }
+    },
+    {
+      "id": "S_MUI_NGAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mui Ngat"
+      }
+    },
+    {
+      "id": "BT_CAM_MAO_HANH_2",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Cam Mao Hanh 2"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_DONG_THAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dong Thai"
+      }
+    },
+    {
+      "id": "CN_PHAT_BIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Phat Bieu"
+      }
+    },
+    {
+      "id": "CN_HOA_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hoa Trung"
+      }
+    },
+    {
+      "id": "CN_THONG_DUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thong Duong"
+      }
+    },
+    {
+      "id": "CN_HOAT_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Hoat Huyet"
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Khang Khuan"
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kich Thich Than Kinh"
+      }
+    },
+    {
+      "id": "DL_TANG_BAI_TIET_DICH_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tang Bai Tiet Dich Tieu Hoa"
+      }
+    },
+    {
+      "id": "DL_SAT_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Sat Khuan"
+      }
+    },
+    {
+      "id": "CN_NGU_TANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ngu Tang"
+      }
+    },
+    {
+      "id": "CN_THAI_KY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thai Ky"
+      }
+    },
+    {
+      "id": "CN_CO_CONG_NANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Co Cong Nang"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "626"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hành lá một loại cỏ sống lâu năm, có mùi đặc biệt. Lá gồm 5-6 lá, hình trụ rỗng, dài $30-50cm$, đường kính $4-8mm$, phía giữa phình lên đầu thuôn nhọn. Cụm hoa mọc trên một cán mang hoa hình trụ, rỗng, cụm hoa hình xim ngấn thành hình tán giả, nhưng cuống tán giả ngắn đến nỗi cụm hoa trông giống hình cầu. Bao hoa gồm 2 vòng, mỗi vòng gồm 3 cánh, 3 lá đài màu trắng 6 nhị, chỉ nhị phình ở gốc, không có răng, bao phấn hình chữ T, 2 ngăn, dài $1mm$, một nhuỵ, bầu thượng, 3 ngăn, mỗi ngăn có nhiều noãn. Quả nang, hình tròn đường kính chừng $6mm$, hạt hình 3 cạnh, màu đen ( Hình 476, Hm 42,3 ). Hành là một loại cỏ sống lâu năm, có thân hành trắng, hình trụ, phía dưới hơi phình ra. Lá hình trụ rỗng, dài $20-50cm$, phía dưới ôm lấy nhau thành một cái cổ hành giả. Cán hoa hình trụ, rỗng, dài bằng lá hay hơn. Cụm hoa hình cầu mang nhiều hoa nhỏ màu trắng. Quả nang nhỏ chứa nhiều hạt nhỏ màu đen. Toàn cây có mùi đặc biệt.",
+        "thanh_phan_hoa_hoc": [
+          "Trong hành có axit malic, phytin và chất $alylsunfit$. Có tác giả nói trong hành có tinh dầu, trong tinh dầu chủ yếu có chất kháng sinh $alixin$."
+        ],
+        "ghi_chu_bo_sung": "Thông là rỗng, bạch là trắng; vì dọc cây hành (lá) thì rỗng, dò hành (“củ”) có màu trắng, do đó có tên này.",
+        "cach_dung_bao_che": "Hành được trồng ở khắp nơi trong nước ta để làm gia vị và làm thuốc. Thường dùng tươi."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành có tính bình."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành quy vào kinh phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hành quy vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_AXIT_MALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hành có axit malic, phytin và chất $alylsunfit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_PHYTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hành có axit malic, phytin và chất $alylsunfit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_ALYSUNFIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hành có axit malic, phytin và chất $alylsunfit$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "HC_ALIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói trong hành có tinh dầu, trong tinh dầu chủ yếu có chất kháng sinh $alixin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "S_DAU_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "B_NGOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "S_MAT_MAY_PHU_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sắc uống lấy nước",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_THAI_KY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_CO_CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_NGU_TANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Chỉ định lâm sàng (không ghi rõ liều)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T627"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "VI_THUOC_HANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$30g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "VI_THUOC_DAM_DAU_SI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "VI_THUOC_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "VI_THUOC_CHE_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $300ml$, đun sôi, gạn bỏ bã, uống khi còn đang nóng, uống xong đắp chặn kín cho ra mồ hôi",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "S_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $300ml$, đun sôi, gạn bỏ bã, uống khi còn đang nóng, uống xong đắp chặn kín cho ra mồ hôi",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MUI_NGAT_MAO_HANH",
+      "to": "S_MUI_NGAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Nước $300ml$, đun sôi, gạn bỏ bã, uống khi còn đang nóng, uống xong đắp chặn kín cho ra mồ hôi",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_HANH_2",
+      "to": "VI_THUOC_HANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$60g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_HANH_2",
+      "to": "VI_THUOC_SINH_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_MAO_HANH_2",
+      "to": "B_CAM_MAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Hai thứ giã nát, thêm một cốc nước thật sôi vào, dùng hơi xông vào miệng và mũi, ngày làm mấy lần, không cần cho uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nát, trộn với mật, đắp lên mụn, hễ ngòi ra thì dùng dấm mà rửa mụn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$60g$",
+        "cach_dung": "Thêm một bát nước, sắc kỹ lọc bỏ bã, cho uống",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T628"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_PHAT_BIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực phát biểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_HOA_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoà trung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_THONG_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất $alixin$ có tác dụng diệt khuẩn rất mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "DL_KICH_THICH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng kích thích thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "DL_TANG_BAI_TIET_DICH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm tăng sự bài tiết dịch tiêu hoá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_HANH",
+      "to": "DL_SAT_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu hành có tác dụng sát khuẩn mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T626",
+        "all_sources": [
+          "CT_VT_VN_T626"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 82.0,
+      "reliability_c_score": 0.7553,
+      "total_confidence_sum": 28.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

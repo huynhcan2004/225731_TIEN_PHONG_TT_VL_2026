@@ -1,0 +1,163 @@
+{
+  "entity_hub": "VI_THUOC_BOI_MAU",
+  "source": {
+    "source_id": "CT_VT_VN_T767",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "767"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THO_HUYET_BACH_CAP_B",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "10-15g",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch cập có tác dụng cầm máu, thường được dùng để chữa thổ huyết.",
+        "cach_dung": "Uống với nước cơm hay nước cháo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_THO_HUYET_BACH_CAP_B",
+      "to": "B_THO_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thổ huyết",
+        "cach_dung": "Uống với nước cơm hay nước cháo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_DO_MAU_CAM_BACH_CAP_B",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "1 đến 3g",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch cập có tác dụng cầm máu, thường được dùng để chữa chảy máu cam.",
+        "cach_dung": "Hoà với nước, đắp lên sống mũi và uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_DO_MAU_CAM_BACH_CAP_B",
+      "to": "B_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đổ máu cam",
+        "cach_dung": "Hoà với nước, đắp lên sống mũi và uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_BONG_LUA_BACH_CAP_B",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch cập có tác dụng sinh cơ, liền sẹo, thường được dùng để chữa bỏng.",
+        "cach_dung": "Hoà với dầu vừng bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_BONG_LUA_BACH_CAP_B",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bỏng lửa",
+        "cach_dung": "Hoà với dầu vừng bôi lên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BACH_CAP_T",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch cập có tác dụng cầm máu, sinh cơ. Thạch cao giúp thanh nhiệt, giải độc, sinh cơ.",
+        "cach_dung": "Hai vị tán nhỏ, trộn đều, rắc lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BACH_CAP_T",
+      "to": "VT_THACH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thạch cao giúp thanh nhiệt, giải độc, sinh cơ.",
+        "cach_dung": "Hai vị tán nhỏ, trộn đều, rắc lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_BACH_CAP_T",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vết thương do đâm chém",
+        "cach_dung": "Hai vị tán nhỏ, trộn đều, rắc lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_BOI_MAU_B",
+      "to": "VI_THUOC_BOI_MAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bối mẫu có tác dụng thanh nhiệt, nhuận phế, chỉ khái, hóa đàm, thường được dùng để chữa ho.",
+        "cach_dung": "Sắc kỹ. Chia hai ba lần uống trong ngày. Nên uống lúc thuốc còn nóng. Uống liên tục trong 5-7 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    },
+    {
+      "from": "BT_HO_KHAN_BOI_MAU_B",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho khan, rát cổ, hoặc ho có đờm",
+        "cach_dung": "Sắc kỹ. Chia hai ba lần uống trong ngày. Nên uống lúc thuốc còn nóng. Uống liên tục trong 5-7 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T767"
+      }
+    }
+  ],
+  "metadata": {}
+}

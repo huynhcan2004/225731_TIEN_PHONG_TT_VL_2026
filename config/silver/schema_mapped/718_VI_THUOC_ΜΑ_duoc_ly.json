@@ -1,0 +1,90 @@
+{
+  "entity_hub": "VI_THUOC",
+  "source": {
+    "source_id": "CT_VT_VN_T718",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "718"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "CN_GIAM_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "giảm đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "CN_CHAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "chấn kinh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "DL_GIAN_DONG_TU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "dãn đồng tử"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "DL_GIAM_BAI_TIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "giảm bài tiết (nước bọt...)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "DL_TIM_DAP_NHANH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "làm tim đập nhanh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "DL_GIAM_KICH_THICH_VO_NAO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "giảm tính kích thích của vỏ não dẫn đến các tác dụng làm dịu và gây ngủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    },
+    {
+      "from": "VI_THUOC_ΜΑ",
+      "to": "DL_KHANG_LAO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng đối với vi trùng lao Mycobacterium tuberculosis"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T718"
+      }
+    }
+  ],
+  "metadata": {}
+}

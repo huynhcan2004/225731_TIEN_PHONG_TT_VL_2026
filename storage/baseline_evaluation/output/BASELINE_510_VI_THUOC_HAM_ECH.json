@@ -1,0 +1,128 @@
+{
+  "entity": {
+    "id": "VT_HAM_ECH",
+    "canonical_name": "Hàm ếch",
+    "ten_khoa_hoc": "Saururus sinensis Baill.; Saururus loureiri Decne.",
+    "ho_thuc_vat": "Họ Lá giấp (Saururaceae)",
+    "properties": {
+      "bo_phan_dung": "Toàn cây hay chỉ hải lá",
+      "thu_hai": "Hải vào lúc cây đang ra hoa",
+      "che_bien_tho": "Thường dùng tươi",
+      "lieu_dung_chung": "Liều dùng hằng ngày: $10-20g$ tươi.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_HAM_ECH",
+      "to": "HC_METYL_N_NONYLXETON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có thành phần chủ yếu là metyl-n-nonylxeton."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "HC_QUEXITRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá còn chứa $quexitrin$."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "HC_HYPERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá còn chứa $hyperin$."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "HC_IZOQUEXITROZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá còn chứa $izoquexitrozit$."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-20g$ tươi",
+        "cach_dung": "Sắc uống hằng ngày"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "S_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$ tươi",
+        "cach_dung": "Sắc uống hằng ngày"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "B_DA_DAY_VA_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-20g$ tươi",
+        "cach_dung": "Sắc uống hằng ngày"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "S_LO_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$10-20g$ tươi",
+        "cach_dung": "Sắc uống hằng ngày"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "B_CUOC_KHI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-20g$ tươi",
+        "cach_dung": "Sắc uống hằng ngày"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "S_MUN_NHOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Lá hàm ếch",
+        "cach_dung": "Giã nhỏ đắp ngoài"
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "DL_UC_CHE_VI_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch cây hàm ếch $50%$ có tác dụng ức chế vi trùng Staphylococ và vi trùng thương hàn."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "DL_UC_CHE_STAPHYLOCOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch cây hàm ếch $50%$ có tác dụng ức chế vi trùng Staphylococ."
+      }
+    },
+    {
+      "from": "VT_HAM_ECH",
+      "to": "DL_UC_CHE_VI_TRUNG_THUONG_HAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch cây hàm ếch $50%$ có tác dụng ức chế vi trùng thương hàn."
+      }
+    }
+  ]
+}

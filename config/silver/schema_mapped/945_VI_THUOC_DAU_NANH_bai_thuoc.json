@@ -1,0 +1,289 @@
+{
+  "entity_hub": "VI_THUOC_DAU_NANH",
+  "source": {
+    "source_id": "CT_VT_VN_T945",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "945"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "VI_THUOC_DAU_NANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-40g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị huyết áp cao.",
+        "mo_ta_chi_tiet": "Chữa huyết áp cao, nóng trong bàng quang, đái buốt, viêm thận, phù thũng, vàng da, đái đường, say rượu, cảm sốt, phiền khát.",
+        "cach_dung": "Sắc với nửa lít nước, đun sôi 15 phút, uống thay nước trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa huyết áp cao.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_VIEM_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nóng trong bàng quang, viêm thận.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "S_DAI_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái buốt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vàng da.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_DAI_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đái đường.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_SAY_RUOU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa say rượu.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_DAU_NANH_V",
+      "to": "S_PHIEN_KHAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phiền khát.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_DAU_NANH_N",
+      "to": "VI_THUOC_DAU_NANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương cầm máu.",
+        "mo_ta_chi_tiet": "Cầm máu sau khi đẻ hay sau khi bị đọa thai.",
+        "cach_dung": "Uống nước ép rễ dưa hấu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_MAU_DAU_NANH_N",
+      "to": "S_XUAT_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu sau khi đẻ hay sau khi bị đọa thai.",
+        "cach_dung": "Uống nước ép."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_DAU_NANH_V",
+      "to": "VI_THUOC_DAU_NANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị ỉa chảy.",
+        "mo_ta_chi_tiet": "Chữa đi ỉa chảy.",
+        "cach_dung": "Sắc còn $300ml$, chia 3-4 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_IA_CHAY_DAU_NANH_V",
+      "to": "S_TIEU_CHAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa chảy.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "VI_THUOC_DAU_NANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Giải biểu, thanh nhiệt.",
+        "mo_ta_chi_tiet": "Chữa cảm sốt, đầu váng, mắt hoa, nhiều mồ hôi.",
+        "cach_dung": "Đun sôi, giữ sôi 15 phút. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "VT_KIM_NGAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thanh nhiệt giải độc, hỗ trợ điều trị cảm sốt.",
+        "mo_ta_chi_tiet": "Chữa cảm sốt, đầu váng, mắt hoa, nhiều mồ hôi.",
+        "cach_dung": "Đun sôi, giữ sôi 15 phút. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "VT_TRUC_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thanh nhiệt, lợi tiểu, giúp hạ sốt.",
+        "mo_ta_chi_tiet": "Chữa cảm sốt, đầu váng, mắt hoa, nhiều mồ hôi.",
+        "cach_dung": "Đun sôi, giữ sôi 15 phút. Chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "B_CAM_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm sốt.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "S_DAU_VANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đầu váng.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "S_HOA_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt hoa.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DAU_NANH_TKT",
+      "to": "S_NHIEU_MO_HOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhiều mồ hôi.",
+        "cach_dung": "Sắc uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T945"
+      }
+    }
+  ],
+  "metadata": {}
+}

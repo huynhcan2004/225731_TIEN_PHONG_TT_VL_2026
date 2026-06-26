@@ -1,0 +1,376 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_NGHE",
+    "ten_raw": "Cây nghể",
+    "ten_khoa_hoc": "$Polygonum hydropiper L.; Persicaria hydropiper (L.) Spoch.$",
+    "ho_thuc_vat": "$Rau răm (Polygonaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "[CT_VT_VN_T299]: Liều dùng cao lỏng: $30$-$40$ giọt. Ngày uống $3$-$4$ lần.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Cây nghể",
+    "canonical_name": "Cây nghể"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_NGHE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Nghe"
+      }
+    },
+    {
+      "id": "HC_RAMNAZIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ramnazin"
+      }
+    },
+    {
+      "id": "HC_ISORAMNETIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Isoramnetin"
+      }
+    },
+    {
+      "id": "HC_RUTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rutin"
+      }
+    },
+    {
+      "id": "HC_HYPERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hyperin"
+      }
+    },
+    {
+      "id": "HC_PECSICARIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pecsicarin"
+      }
+    },
+    {
+      "id": "BT_RAN_CAN_NGHE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ran Can Nghe"
+      }
+    },
+    {
+      "id": "VI_THUOC_PHEN_DEN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Phen Den"
+      }
+    },
+    {
+      "id": "VI_THUOC_THUOC_LAO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Thuoc Lao"
+      }
+    },
+    {
+      "id": "VI_THUOC_HONG_HOANG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Hong Hoang"
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ran Can"
+      }
+    },
+    {
+      "id": "DL_CO_BOP_TU_CUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Co Bop Tu Cung"
+      }
+    },
+    {
+      "id": "DL_GIAM_THAM_MAO_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Tham Mao Mach"
+      }
+    },
+    {
+      "id": "DL_TANG_CHI_U_DUNG_MAO_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tang Chi U Dung Mao Mach"
+      }
+    },
+    {
+      "id": "DL_CAM_MAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Cam Mau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "298"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Nghể là một loại cỏ mọc hoang, sống hằng năm, có thể cao tới $70$-$80cm$, có nhiều cành. Lá hình mác, có cuống ngắn, dài $4$-$6cm$, rộng $10$-$13mm$. Những lá trên nhỏ và hẹp hơn. Be chìa mỏng và phát triển. Hoa đỏ mọc thành bông ở đầu cành hay kẽ lá. Bao hoa $4$, nhị $6$. Toàn cây có vị cay nóng, thơm. Khi khô vị sẽ mất đi.",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+        ],
+        "cach_dung_bao_che": "Khi cây đang ra hoa, hái toàn cây về phơi trong mát."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "HC_RAMNAZIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "HC_ISORAMNETIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "HC_RUTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "HC_HYPERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "HC_PECSICARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chứa các chất oxymetylanthraquinon và $2$-$2,5\\%$ dẫn xuất flavon: $ramnazin$, $isoramnetin$ và $rutin$, axit polygonic, $hyperin$, chất $pecsicarin$, chất $pecsicarin-7-metyleste$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE",
+      "to": "VI_THUOC_NGHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$25$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE",
+      "to": "VI_THUOC_PHEN_DEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$25$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE",
+      "to": "VI_THUOC_THUOC_LAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Một điếu (viên tròn bằng hạt ngô)",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE",
+      "to": "VI_THUOC_HONG_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Một cục bằng hạt đậu xanh",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_RAN_CAN_NGHE",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "cach_dung": "Cả $4$ vị giã nhỏ. Thêm một bát nước đun sôi để nguội, lọc lấy nước, cho vài hạt muối vào rồi uống. Chia làm $3$ lần trong ngày. Bã đắp vào nơi rắn cắn. Thời gian điều trị chừng $3$ ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "DL_CO_BOP_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây nghể có chất $polygopiperin$ có tác dụng giúp sự co bóp tử cung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "DL_GIAM_THAM_MAO_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dẫn xuất flavon $rutin$ có tác dụng giảm sự thấm mao mạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "DL_TANG_CHI_U_DUNG_MAO_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dẫn xuất flavon $rutin$ có tác dụng tăng sức chịu đựng của mao mạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_NGHE",
+      "to": "DL_CAM_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng dưới hình thức cao lỏng, thuốc pha làm thuốc săn, cầm máu, dùng trong những trường hợp băng huyết trong sản khoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T298",
+        "all_sources": [
+          "CT_VT_VN_T298"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 46.5,
+      "reliability_c_score": 0.7633,
+      "total_confidence_sum": 11.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

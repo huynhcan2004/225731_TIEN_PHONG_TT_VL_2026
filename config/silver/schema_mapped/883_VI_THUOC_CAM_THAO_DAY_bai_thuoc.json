@@ -1,0 +1,357 @@
+{
+  "entity_hub": "VI_THUOC_CAM_THAO_DAY",
+  "source": {
+    "source_id": "CT_VT_VN_T883",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "883"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOET_DA_DAY_CAM_THAO_C",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$3-4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng giảm đau, chống viêm, bảo vệ niêm mạc dạ dày.",
+        "cach_dung": "Chia làm 3 lần uống trong ngày",
+        "ghi_chu": "Uống luôn 7-14 ngày. Sau đó nghỉ vài ngày để tránh hiện tượng phù nề, nặng mặt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAM_THAO_C",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét dạ dày và ruột",
+        "cach_dung": "Chia làm 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_ADDISON_CAM_THAO_C",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15ml$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng tăng cường chức năng vỏ thượng thận, giúp điều trị bệnh Addison.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Có thể tăng tới $45-60ml$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_ADDISON_CAM_THAO_C",
+      "to": "B_ADDISON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh Ađidon (Addison ’s)",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_ADDISON_CAM_THAO_C",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "PHOI_HOP_VOI",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp để tăng hiệu quả điều trị và giảm tác dụng phụ của coctison.",
+        "mo_ta_chi_tiet": "Dùng phối hợp với coctison thì có thể giảm được lượng coetison",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_HO_CAT_CANH_C",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phối hợp để tăng hiệu quả điều trị ho.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_HO_CAT_CANH_C",
+      "to": "VI_THUOC_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cát cánh có tác dụng tuyên phế, trừ đờm, giảm ho.",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_HO_CAT_CANH_C",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,03g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng giảm đau, chống viêm, bảo vệ niêm mạc dạ dày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Cao cam thảo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,10g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cam thảo có tác dụng giảm đau, chống viêm, bảo vệ niêm mạc dạ dày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Bột cam thảo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_NATRI_BICACBONAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,15g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Natri bicacbonat có tác dụng trung hòa acid dịch vị, giảm đau dạ dày.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_MAGIE_CACBONAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,20g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Magie cacbonat có tác dụng trung hòa acid dịch vị, giảm đau dạ dày.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_BITMUTNITRAT_BASIC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,05g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bitmutnitrat basic có tác dụng bảo vệ niêm mạc dạ dày.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "VI_THUOC_DAI_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$0,02g$",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Đại hoàng có tác dụng tả nhiệt, thông tiện, giúp giảm áp lực trong ổ bụng.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_DAU_DA_DAY_CAM_CAO_B",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa loét dạ dày",
+        "cach_dung": "Ngày uống 2-3 lần, mỗi lần 2-4 viên"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAM_HAI",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "2 phần",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng giảm đau, chống viêm, bảo vệ niêm mạc dạ dày.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Cao cam thảo"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAM_HAI",
+      "to": "VI_THUOC_NUOC_CAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "1 phần",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Nước cất làm dung môi hòa tan cao cam thảo.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_LOET_DA_DAY_CAM_HAI",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Loét dạ dày",
+        "cach_dung": "Ngày uống 3 lần, mỗi lần 1 thìa nhỏ. Không uống lâu quá 3 tuần lē"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_SOT_DIEN_CUONG_CAM_T",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng thanh nhiệt giải độc, điều hòa các vị thuốc.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_SOT_DIEN_CUONG_CAM_T",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sốt quá hóa điện cuồng, trúng độc",
+        "cach_dung": "Cho vào đầy một ống tre đã cạo hết lớp tinh tre bên ngoài. Bịt kín hai đầu bằng nhựa thông. Đến mùa đông cắm cả ống tre đó vào một hố phân người, cho đến ngày lập xuân lấy ra rửa sạch, bổ ống tre lấy cam thảo phơi khô tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DIEN_CAM",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-2g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng thanh nhiệt giải độc, điều hòa các vị thuốc.",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_CAM_SOT_DIEN_CAM",
+      "to": "S_CAM_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cảm sốt quá hóa điên cuồng, trúng độc, bị mụn nhọt",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CAM_CAO",
+      "to": "VI_THUOC_CAM_THAO_DAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-2$ thìa con",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam thảo có tác dụng thanh nhiệt giải độc, giảm viêm.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Cao cam thảo mền"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CAM_CAO",
+      "to": "S_MUN_NHOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Các chứng mụn nhọt, ngộ độc",
+        "cach_dung": "Ngày uống $1-2$ thìa con"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T883"
+      }
+    }
+  ],
+  "metadata": {}
+}

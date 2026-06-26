@@ -1,0 +1,193 @@
+{
+  "entity_hub": "VI_THUOC_THACH_SUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T1020",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1020"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "VI_THUOC_THACH_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch sùng trị hen suyễn, phối hợp Bán hạ chế, Quế chi, Ma hoàng để hóa đàm, ôn phế, bình suyễn. Phèn chua phi giúp liễm phế, giảm ho.",
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "VT_BAN_HA_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bán hạ chế giúp táo thấp hóa đàm, giáng nghịch chỉ ẩu.",
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "VT_QUE_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Quế chi giúp ôn ấm kinh lạc, thông dương khí, tán hàn trừ thấp.",
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "VT_MA_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ma hoàng giúp phát hãn giải biểu, tuyên phế bình suyễn, lợi thủy tiêu thũng.",
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "VT_PHEN_CHUA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phèn chua phi giúp giải độc, sát trùng, cầm máu, trừ đờm.",
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_THACH_SUNG_BQMP",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen suyễn lâu năm",
+        "cach_dung": "Tất cả tán nhỏ, trộn đều, ngày uống 2 lần, mỗi lần 1 thìa cà phê nhỏ trước bữa ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_THACH_SUNG_HT",
+      "to": "VI_THUOC_THACH_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "1 con",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch sùng và hạt chanh giúp tiêu tích, kiện tỳ, thường dùng cho trẻ em cam tích.",
+        "mo_ta_chi_tiet": "Chữa trẻ con cam tích, gầy còm, bụng ỏng đít beo",
+        "cach_dung": "Hai thứ giã nhỏ, gói vào vải màn, vắt lấy nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_THACH_SUNG_HT",
+      "to": "VT_HAT_CHANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "20-30 hạt",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thạch sùng và hạt chanh giúp tiêu tích, kiện tỳ, thường dùng cho trẻ em cam tích.",
+        "mo_ta_chi_tiet": "Chữa trẻ con cam tích, gầy còm, bụng ỏng đít beo",
+        "cach_dung": "Hai thứ giã nhỏ, gói vào vải màn, vắt lấy nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_CAM_TICH_THACH_SUNG_HT",
+      "to": "B_CAM_TICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con cam tích, gầy còm, bụng ỏng đít beo",
+        "cach_dung": "Hai thứ giã nhỏ, gói vào vải màn, vắt lấy nước cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THACH_SUNG_BH",
+      "to": "VI_THUOC_THACH_SUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "1 con",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thạch sùng lợi thủy, thông lâm, phối hợp hoạt thạch tăng cường tác dụng.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Hai thứ tán nhỏ, hòa với nước cơm mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THACH_SUNG_BH",
+      "to": "VT_BOT_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Hoạt thạch thanh nhiệt, lợi thủy, thông lâm.",
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Hai thứ tán nhỏ, hòa với nước cơm mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_THACH_SUNG_BH",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Hai thứ tán nhỏ, hòa với nước cơm mà uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1020"
+      }
+    }
+  ],
+  "metadata": {}
+}

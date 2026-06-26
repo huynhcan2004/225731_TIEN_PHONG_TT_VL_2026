@@ -1,0 +1,236 @@
+{
+  "entity": {
+    "id": "VT_CON_BO",
+    "canonical_name": "Côn bố",
+    "ten_khoa_hoc": "Laminaria japonica. Areschong; Ecklonia kurome Oskam; Undaria pinnatifida (Harv.). Suring; Laminaria cloustonii Le Jolis; Laminaria digitata Lamouroux (L. flexicaulis Le Jolis); Laminaria saccharina Lamx",
+    "ho_thuc_vat": "Côn bố (Laminariaceae); Tảo có cánh (Alariaceae)",
+    "properties": {
+      "bo_phan_dung": "toàn cây khô",
+      "thu_hai": "hai mùa hạ và thu",
+      "che_bien_tho": "rửa sạch bớt nước mặn và tạp chất rồi phơi khô",
+      "lieu_dung_chung": "Ngày dùng $4$ đến $12g$ dưới dạng thuốc sắc hay thuốc bột.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CON_BO",
+      "to": "V_MAN",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị mặn"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn hoạt"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "CN_NHUYEN_KIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng làm mềm các chỗ cứng rắn, tích tụ (nhuyễn kiên)"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "CN_LOI_THUY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "lợi thủy"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_HYDRAT_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong côn bố có tới $60%$ hydrat cacbon, trong hydrat cacbon thành phần chủ yếu là `$anging lactozan$` và `$pentozan$`."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_ANGING_LACTOZAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hydrat cacbon thành phần chủ yếu là `$anging lactozan$`"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_PENTOZAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong hydrat cacbon thành phần chủ yếu là `$pentozan$`."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_VITAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chứa vitamin"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "protit"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một ít chất béo"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_IOT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tro toàn phần $14%$ trong đó có iot"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "kali"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "sắt"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_CANXI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "canxi"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_ALGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "`$Algin$` (do Stanfort tìm ra từ năm 1880) gồm chủ yếu là muối natri của `$axit anginic$` (`$C,H,O$`)."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_AXIT_ANGINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "muối natri của `$axit anginic$` (`$C,H,O$`), Axit anginic lại là một axit polymannuronic gồm nhiều đơn vị axit D-manuronic dưới dạng Pyranoza liên kết với nhau ở $1-4$."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_AXIT_POLYMANNURONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit anginic lại là một axit polymannuronic gồm nhiều đơn vị axit D-manuronic dưới dạng Pyranoza liên kết với nhau ở $1-4$."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "HC_AXIT_D_MANURONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Axit anginic lại là một axit polymannuronic gồm nhiều đơn vị axit D-manuronic dưới dạng Pyranoza liên kết với nhau ở $1-4$."
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tràng nhạc",
+        "lieu_luong": "$4-12g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay thuốc bột"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "B_BUOU_CO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "bướu cổ",
+        "lieu_luong": "$4-12g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay thuốc bột"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "S_THUY_THUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thủy thũng",
+        "lieu_luong": "$4-12g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay thuốc bột"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "S_TICH_TU_HON_CUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "tích tụ (hòn cục)",
+        "lieu_luong": "$4-12g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay thuốc bột"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "S_DAU_SUNG_DICH_HOAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "đau sưng dịch hoàn",
+        "lieu_luong": "$4-12g$",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay thuốc bột"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "B_THIEU_IOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thiếu iốt"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "CN_NHUAN_TRANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng như vị thạch làm thuốc nhuận tràng do tác động cơ học"
+      }
+    },
+    {
+      "from": "VT_CON_BO",
+      "to": "DL_NONG_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "lấy bộ phận nom như thân của còn bố đem tiện thành từng thỏi hình trụ như bút chì, rồi phơi khô tiệt trùng, đóng trong những ống thủy tinh gắn kín dùng trong khoa sản để nong tử cung. Khi gặp nước, hút nước tăng thể tích tới $7-8$ lần."
+      }
+    }
+  ]
+}

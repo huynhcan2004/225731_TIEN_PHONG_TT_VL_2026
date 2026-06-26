@@ -1,0 +1,77 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LONG_NHA_THAO",
+    "ten_raw": "Long nha thảo",
+    "ten_khoa_hoc": "Agrimonia nepalensis D. Don (Agrimonia eupatoria auct. non L.)",
+    "ho_thuc_vat": "Hoa hồng Rosaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T300",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "300"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Loại cỏ cao $0,5-1,5m$, toàn thân có vạch dọc và mang lông trắng, nhiều cành. Thân rễ mọc ngang, đường kính có thể đạt tới $1cm$. Lá mọc so le, kép, dìa lẻ, lá chét hình trứng dài, mép có răng cưa to. Cạnh những lá chét to có nhiều lá chét nhỏ. Lá chét to dài chừng $6cm$, rộng chừng $2,5cm$, lá chét nhỏ có khi chỉ dài $5mm$. Cả hai mặt lá đều mang nhiều lông. Hoa nhỏ mọc thành chùm mọc ở đầu cành hoặc kẽ lá. Cánh hoa màu vàng. Quả gồm 2-3 quả bế bọc xung quanh bởi đế hoa có đài ở mép trên. Toàn bộ có nhiều gai.",
+        "thanh_phan_hoa_hoc": [
+          "Nhiều người nghiên cứu, nhưng báo cáo chưa thống nhất. 1. Có tài liệu cũ nói trong long nha thảo có tanin, có phản ứng phloroglucotanoit, rất ít tính dầu, không có ancaloit, không có glucozit, không có chất béo, có sterol và một đường. 2. Năm 1939-1940 và 1950 Ngô Văn Thùy và Cừu Tác Lâm đã nghiên cứu lấy ở long nha thảo một chất màu đỏ nâu gọi là agrimonim (có C, H, N, O) và nhiều axit tanic. 3. Năm 1958, theo báo Hóa học thế giới (1- 7-1958), các tác giả Hứa Thực Phương và Lưu Tinh Giai đã chiết xuất từ long nha thảo được các chất sau đây: a) Chất agrimonin A có tinh thể màu trắng, độ chảy $288-290°$, công thức thô tạm định là C,H,O,, có tính chất một sterol; b) Chất agrimonin B tinh thể màu trắng, độ 14 19 chảy $235°$, công thức thô tạm định là C,H,O, có tính chất một axit nhân vòng; 10 c) Chất agrimonin C đun tới $340°$ thì bị phân giải, có tính chất phenol; d) Một chất axit là một chất bột, vô định hình, màu nâu hòa tan trong dung dịch kiềm rồi sấy khô tức là chất lưu hành trên thị trường với tên long nha thảo tố. Cả 4 chất trên thử được lý đều không thấy tác dụng cầm máu."
+        ],
+        "lieu_dung_tong_quat": "Cây mọc hoang ở miền Bắc Việt Nam (quanh thị xã Cao Bằng, Lạng Sơn), chưa được khai thác ở nước ta. Tại các nước khác cũng có: Châu Âu, Trung Quốc, Nhật Bản, Triều Tiên. Thu hái: Thường nở hoa vào mùa hạ. Cây hái vào mùa thu. Phơi khô trong mát."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LONG_NHA_THAO",
+      "to": "HC_AGRIMONIM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1939-1940 và 1950 Ngô Văn Thùy và Cừu Tác Lâm đã nghiên cứu lấy ở long nha thảo một chất màu đỏ nâu gọi là agrimonim (có C, H, N, O) và nhiều axit tanic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T300"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NHA_THAO",
+      "to": "HC_AGRIMONIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất agrimonin A có tinh thể màu trắng, độ chảy $288-290°$, công thức thô tạm định là C,H,O,, có tính chất một sterol"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T300"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NHA_THAO",
+      "to": "HC_AGRIMONIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất agrimonin B tinh thể màu trắng, độ 14 19 chảy $235°$, công thức thô tạm định là C,H,O, có tính chất một axit nhân vòng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T300"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NHA_THAO",
+      "to": "HC_AGRIMONIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất agrimonin C đun tới $340°$ thì bị phân giải, có tính chất phenol"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T300"
+      }
+    }
+  ]
+}

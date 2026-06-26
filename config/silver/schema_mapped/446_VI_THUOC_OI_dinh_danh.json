@@ -1,0 +1,97 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_OI",
+    "ten_raw": "Cây ổi",
+    "ten_khoa_hoc": "Psidium guyjava L. (P. pomiferum\nL. Psidium Pyriferum L.)",
+    "ho_thuc_vat": "Sim Myrtaceae",
+    "variants": [
+      "ổi"
+    ],
+    "properties": {
+      "bo_phan_dung": "Búp non, lá non, quả, vỏ rễ và vỏ thân",
+      "phan_bo": "miền nhiệt đới châu Mỹ, khắp miền nhiệt đới châu Á, châu Phi, nhiều vùng núi miền Bắc",
+      "thu_hai": "Dùng tươi hay phơi hoặc sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T446",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "446"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ối là một cây nhỡ, cao chừng $3$-$5m$, cành nhỏ thì vuông cạnh. Lá mọc đối có cuống ngắn, hình bầu dục, nhẵn hoặc hơi có lông ở mặt trên, mặt dưới có lômng mịm, phiến nguyên, khi soi lên có thấy túi tinh dầu trong. Hoa màu trắng, mọc đơn độc ở kẽ lá. Quả là một quả mọng có vỏ quả giữa dày, hình dáng thay đổi tùy theo loài; ở đầu quả có sẹo của đài tồn tại. Rất nhiều hạt, hình thận, không đều, màu hơi hung (Hình 330).",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả ổi có chứa pectin và vitamin C. Lượng vitamin thay đổi tùy theo bộ phận của quả và tùy theo loài, thường tập trung nhiều nhất ở vỏ ngoà sau đến phía ngoài của vỏ quả giữa.",
+          "Trong lá và búp non chứa $7$-$10%$ một loại tanin pyrogalic, axit psiditanic, chừng $3%$ nhựa và rất ít tinh dầu ($0,36%$).",
+          "Có tác giả thấy trong thân và là một chất tritecpenic (Arthur H. R. et W. Hui, 1952).",
+          "Trong hạt có $14%$ chất dầu đặc sánh, mùi thơm $15%$ chất protein và $13%$ tinh bột."
+        ],
+        "cach_dung_bao_che": "Dùng tươi hay phơi hoặc sấy khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_OI",
+      "to": "HC_PECTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả ổi có chứa pectin và vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T446"
+      }
+    },
+    {
+      "from": "VI_THUOC_OI",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong quả ổi có chứa pectin và vitamin C."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T446"
+      }
+    },
+    {
+      "from": "VI_THUOC_OI",
+      "to": "HC_TANIN_PYROGALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá và búp non chứa $7$-$10%$ một loại tanin pyrogalic, axit psiditanic, chừng $3%$ nhựa và rất ít tinh dầu ($0,36%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T446"
+      }
+    },
+    {
+      "from": "VI_THUOC_OI",
+      "to": "HC_AXIT_PSIDITANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá và búp non chứa $7$-$10%$ một loại tanin pyrogalic, axit psiditanic, chừng $3%$ nhựa và rất ít tinh dầu ($0,36%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T446"
+      }
+    },
+    {
+      "from": "VI_THUOC_OI",
+      "to": "HC_TRITECPENIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả thấy trong thân và là một chất tritecpenic (Arthur H. R. et W. Hui, 1952)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T446"
+      }
+    }
+  ]
+}

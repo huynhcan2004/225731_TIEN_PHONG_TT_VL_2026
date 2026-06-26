@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_TOA_DUONG",
+  "source": {
+    "source_id": "CT_VT_VN_T929",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "929"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LY_TOA_DUONG_T",
+      "to": "VI_THUOC_TOA_DUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$4-10g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị lỵ.",
+        "cach_dung": "Dưới dạng thuốc sắc hay ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T929"
+      }
+    },
+    {
+      "from": "BT_LY_TOA_DUONG_T",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Dưới dạng thuốc sắc hay ngâm rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T929"
+      }
+    }
+  ],
+  "metadata": {}
+}

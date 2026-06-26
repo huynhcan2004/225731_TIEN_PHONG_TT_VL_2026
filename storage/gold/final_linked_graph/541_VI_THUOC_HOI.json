@@ -1,0 +1,766 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HOI",
+    "ten_raw": "Hồi",
+    "ten_khoa_hoc": "$Illicium verum Hook.f.$",
+    "ho_thuc_vat": "$họ Hồi (Illiciaceae)$",
+    "variants": [
+      "mác hồi",
+      "mác chác"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá, cuống, hoa và quả",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Mỗi ngày dùng $4$ đến $8$g dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây hồi đặc biệt chỉ mọc trong một khu vực nhỏ chiếm khoảng 5.000km ở tỉnh Cao Bằng, Lạng Sơn, một số ít ở hai tỉnh Quảng Tây và Quảng Đông (Trung Quốc) giáp giới Việt Nam. Một số nơi khác cũng có trồng nhưng không đáng kể như Hà Giang, Tuyên Quang, Bắc Cạn, Thái Nguyên."
+    },
+    "display_name": "Vị thuốc Hồi",
+    "canonical_name": "Vị thuốc Hồi"
+  },
+  "nodes": [
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_KHAI_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khai vị",
+        "aliases": [
+          "kien ty khai vi",
+          "khaivi",
+          "khai vị",
+          "kiện tỳ khai vị",
+          "khai vi",
+          "kientykhaivi"
+        ],
+        "search_vector_hint": "Công năng Khai vị thuộc nhóm Công năng, thường liên quan đến việc kích thích tiêu hóa và tăng cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "CN_KHU_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu hàn",
+        "aliases": [
+          "khuhan",
+          "khu han",
+          "khu hàn"
+        ],
+        "search_vector_hint": "Khu hàn thuộc nhóm công năng, thường liên quan đến loại bỏ khí hàn."
+      }
+    },
+    {
+      "id": "CN_KIEN_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Kiện tỳ",
+        "aliases": [
+          "kiện tỳ",
+          "kienty",
+          "kien ty"
+        ],
+        "search_vector_hint": "Công năng Kiện tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA_KEM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiêu hóa kém",
+        "aliases": [
+          "an khong tieu",
+          "tiêu hóa kém",
+          "khó tiêu",
+          "khotieu",
+          "tieu hoa kem",
+          "ankhongtieu",
+          "tieuhoakem",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Triệu chứng Tiêu hóa kém thuộc nhóm triệu chứng tiêu hóa, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "HC_ANETHOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Anethol",
+        "aliases": [
+          "anethol"
+        ],
+        "search_vector_hint": "Anethol thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_CAMPEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Campen",
+        "aliases": [
+          "campen"
+        ],
+        "search_vector_hint": "Campen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_DIPENTEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Dipenten",
+        "aliases": [
+          "dipenten"
+        ],
+        "search_vector_hint": "Dipenten thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_ESTRAGOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Estragol",
+        "aliases": [
+          "estragol"
+        ],
+        "search_vector_hint": "Estragol thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_ESTRAGOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Estragola",
+        "aliases": [
+          "estragola"
+        ],
+        "search_vector_hint": "Hoạt chất Estragola thuộc nhóm phenylpropanoid, thường liên quan đến thành phần tinh dầu."
+      }
+    },
+    {
+      "id": "HC_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Limonen",
+        "aliases": [
+          "limonen"
+        ],
+        "search_vector_hint": "Limonen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_METHYLEUGENOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Methyleugenol",
+        "aliases": [
+          "methyleugenol"
+        ],
+        "search_vector_hint": "Methyleugenol thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Pinen",
+        "aliases": [
+          "pinen"
+        ],
+        "search_vector_hint": "Pinen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "HC_SAFROLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Safrola",
+        "aliases": [
+          "safrola"
+        ],
+        "search_vector_hint": "Safrola thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TECPEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tecpen",
+        "aliases": [
+          "tecpen"
+        ],
+        "search_vector_hint": "Tecpen thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_TECPINEOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tecpineola",
+        "aliases": [
+          "tecpineola"
+        ],
+        "search_vector_hint": "Hoạt chất Tecpineola thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_NHUC_TE_THAP",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau nhức tê thấp",
+        "aliases": [
+          "đau nhức tê thấp",
+          "daunhuctethap",
+          "dau nhuc te thap"
+        ],
+        "search_vector_hint": "Đau nhức tê thấp thuộc nhóm triệu chứng, thường liên quan đến bệnh lý xương khớp."
+      }
+    },
+    {
+      "id": "S_NON_MUA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nôn mửa",
+        "aliases": [
+          "nonmua",
+          "buồn nôn",
+          "buon non",
+          "non mua",
+          "nôn mửa",
+          "buonnon"
+        ],
+        "search_vector_hint": "Nôn mửa thuộc nhóm Triệu chứng, thường liên quan đến rối loạn tiêu hóa hoặc ngộ độc."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_HOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hồi",
+        "aliases": [
+          "bat giac hoi huong",
+          "hoi",
+          "hồi",
+          "batgiachoihuong",
+          "dai hoi",
+          "bát giác hồi hương",
+          "đại hồi",
+          "daihoi"
+        ],
+        "search_vector_hint": "Hồi thuộc nhóm Vị thuốc, thường liên quan đến dược liệu.",
+        "bo_phan_dung": "lá, cuống, hoa và quả",
+        "lieu_dung_chung": "Mỗi ngày dùng $4$ đến $8$g dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cây hồi đặc biệt chỉ mọc trong một khu vực nhỏ chiếm khoảng 5.000km ở tỉnh Cao Bằng, Lạng Sơn, một số ít ở hai tỉnh Quảng Tây và Quảng Đông (Trung Quốc) giáp giới Việt Nam. Một số nơi khác cũng có trồng nhưng không đáng kể như Hà Giang, Tuyên Quang, Bắc Cạn, Thái Nguyên.",
+        "ten_khoa_hoc": "$Illicium verum Hook.f.$",
+        "ho_thuc_vat": "$họ Hồi (Illiciaceae)$",
+        "hinh_thai_chi_tiet": "Hồi là một cây nhỡ cao 2-6m, hình dáng toàn cây thon hình quả trám, xanh tốt quanh năm, thân mọc thẳng, cành dễ gẫy. Lá mọc gần thành chùm 3-4 lá ở đầu cành, có cuống, phiến lá nguyên, dài 8-12cm, rộng 3-4cm, dòn, vò nát có mùi thơm. Hoa khá to, mọc đơn độc ở kẽ lá, cánh hoa màu trắng ở phía ngoài, hồng thắm ở mặt trong. Quả hồi (nhân dân vẫn gọi nhầm là hoa hồi) tiếng Thổ là mác hồi hay mác chác gồm 6-8 đại (cánh), có khi tới 12-13 đại xếp thành hình ngôi sao, đường kính trung bình $2,5-3cm$, dày $6-10mm$. Tươi có màu xanh, khi chín khô cứng thì có màu nâu hồng. Trên mỗi đại sẽ nứt làm hai, để lộ một hạt màu nâu nhạt, nhẵn bóng. Lá, cuống, hoa và quả đều chứa tinh dầu.",
+        "thanh_phan_hoa_hoc": "['Trong quả hồi ngoài các chất như chất nhầy, đường, chủ yếu chứa tinh dầu từ $3-3,5\\\\%$ (tươi) hoặc $9-10\\\\%$ hay hơn (khô). Trong tinh dầu có $80-90\\\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...']",
+        "ghi_chu_bo_sung": "Trước đây người ta thường lẫn nó với cây hồi Nhật Bản Illicium anisatum Lour, có chất độc, hoặc cây hồi núi Illicium griffithii (xem cây này) cũng có chất độc. Hồi hái vào hai vụ tháng 7-8 (hồi mùa) và II-12 (hồi chiêm). Ngoài hai vụ chính, còn một vụ lép rụng sớm vào tháng 3. Hồi hái về phơi nắng cho khô hẳn. Dùng cất tinh dầu hay tiêu thụ nguyên quả làm thuốc. Mỗi cây, hàng năm cho từ $80-100kg$ quả tươi và như vậy luôn trong 40-50 năm. Thường một năm được mùa, một năm kém. Trên thị trường người ta chia hồi thành ba loại. Loại 1: có 8 cánh to đều nhau, màu nâu đỏ (hồi đại hồng). Loại 2: có 1 cánh trở lên bị lép, màu nâu đen. Loại 3: có 3 cánh trở lên bị lép, màu nâu đen. Loại hồi xô gồm lẫn lộn cả 3 loại trên."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "541"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_THAN",
+          "K_TY",
+          "K_VI",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hồi là một cây nhỡ cao 2-6m, hình dáng toàn cây thon hình quả trám, xanh tốt quanh năm, thân mọc thẳng, cành dễ gẫy. Lá mọc gần thành chùm 3-4 lá ở đầu cành, có cuống, phiến lá nguyên, dài 8-12cm, rộng 3-4cm, dòn, vò nát có mùi thơm. Hoa khá to, mọc đơn độc ở kẽ lá, cánh hoa màu trắng ở phía ngoài, hồng thắm ở mặt trong. Quả hồi (nhân dân vẫn gọi nhầm là hoa hồi) tiếng Thổ là mác hồi hay mác chác gồm 6-8 đại (cánh), có khi tới 12-13 đại xếp thành hình ngôi sao, đường kính trung bình $2,5-3cm$, dày $6-10mm$. Tươi có màu xanh, khi chín khô cứng thì có màu nâu hồng. Trên mỗi đại sẽ nứt làm hai, để lộ một hạt màu nâu nhạt, nhẵn bóng. Lá, cuống, hoa và quả đều chứa tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả hồi ngoài các chất như chất nhầy, đường, chủ yếu chứa tinh dầu từ $3-3,5\\%$ (tươi) hoặc $9-10\\%$ hay hơn (khô). Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v..."
+        ],
+        "ghi_chu_bo_sung": "Trước đây người ta thường lẫn nó với cây hồi Nhật Bản Illicium anisatum Lour, có chất độc, hoặc cây hồi núi Illicium griffithii (xem cây này) cũng có chất độc. Hồi hái vào hai vụ tháng 7-8 (hồi mùa) và II-12 (hồi chiêm). Ngoài hai vụ chính, còn một vụ lép rụng sớm vào tháng 3. Hồi hái về phơi nắng cho khô hẳn. Dùng cất tinh dầu hay tiêu thụ nguyên quả làm thuốc. Mỗi cây, hàng năm cho từ $80-100kg$ quả tươi và như vậy luôn trong 40-50 năm. Thường một năm được mùa, một năm kém. Trên thị trường người ta chia hồi thành ba loại. Loại 1: có 8 cánh to đều nhau, màu nâu đỏ (hồi đại hồng). Loại 2: có 1 cánh trở lên bị lép, màu nâu đen. Loại 3: có 3 cánh trở lên bị lép, màu nâu đen. Loại hồi xô gồm lẫn lộn cả 3 loại trên."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HOI",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi có vị cay."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi có tính ôn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi vào kinh can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi vào kinh thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi vào kinh tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Hồi vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_ANETHOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_TECPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_DIPENTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_ESTRAGOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_SAFROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_TECPINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $80-90\\%$ $anethol$, còn lại là $tecpen$, $pinen$, $dipenten$, $limonen$, $estragola$, $safrola$, $tecpineola$ v.v...",
+        "ghi_chu": "Đại hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_ESTRAGOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$anethol$, $estragol$, $metyleugenol$, andehyt và axeton anisic, camphen.",
+        "ghi_chu": "Tiểu hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_METHYLEUGENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$anethol$, $estragol$, $metyleugenol$, andehyt và axeton anisic, camphen.",
+        "ghi_chu": "Tiểu hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "HC_CAMPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$anethol$, $estragol$, $metyleugenol$, andehyt và axeton anisic, camphen.",
+        "ghi_chu": "Tiểu hồi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "CN_TIEU_HOA_KEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T542"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ",
+        "ghi_chu": "CT_VT_VN_T542"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "S_DAU_NHUC_TE_THAP",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngâm rượu xoa bóp",
+        "ghi_chu": "CT_VT_VN_T542"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "CN_KHU_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Đuổi hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "CN_KIEN_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "CN_KHAI_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Khai vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOI",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc của thịt cá."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T541",
+        "all_sources": [
+          "CT_VT_VN_T541"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 58.0,
+      "reliability_c_score": 0.758,
+      "total_confidence_sum": 18.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

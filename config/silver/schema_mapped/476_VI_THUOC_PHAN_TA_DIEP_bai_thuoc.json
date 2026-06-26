@@ -1,0 +1,65 @@
+{
+  "entity_hub": "VI_THUOC_PHAN_TA_DIEP",
+  "source": {
+    "source_id": "CT_VT_VN_T476",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "476"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_PHAN_TA_DIEP_P",
+      "to": "VI_THUOC_PHAN_TA_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$1-2g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phan tả diệp là vị thuốc duy nhất trong bài thuốc.",
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu, bụng ngực đầy trướng, táo bón",
+        "cach_dung": "Sắc hay pha uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_PHAN_TA_DIEP_P",
+      "to": "B_AN_UONG_KHONG_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ăn uống không tiêu",
+        "cach_dung": "Sắc hay pha uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_PHAN_TA_DIEP_P",
+      "to": "S_DAY_TRUONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bụng ngực đầy trướng",
+        "cach_dung": "Sắc hay pha uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_PHAN_TA_DIEP_P",
+      "to": "B_TAO_BON",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Sắc hay pha uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T476"
+      }
+    }
+  ],
+  "metadata": {}
+}

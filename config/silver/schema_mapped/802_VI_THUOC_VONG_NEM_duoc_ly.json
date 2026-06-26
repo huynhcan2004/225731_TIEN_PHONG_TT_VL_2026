@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_VONG_NEM",
+  "source": {
+    "source_id": "CT_VT_VN_T802",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "802"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "CN_THANH_TAM_KHU_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng thanh tâm khử nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "VI_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "có vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    },
+    {
+      "from": "VI_THUOC_VONG_NEM",
+      "to": "VI_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T802"
+      }
+    }
+  ],
+  "metadata": {}
+}

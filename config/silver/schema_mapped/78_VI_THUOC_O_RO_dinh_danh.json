@@ -1,0 +1,135 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_RO",
+    "ten_raw": "Ô rô",
+    "ten_khoa_hoc": "Circus japonicus. (DC.) Maxim; Cnicus japonicum DC.; Acanthus ilicifolius L.",
+    "ho_thuc_vat": "Cúc Asteraceae (Compositae); Ô rô Acanthaceae",
+    "variants": [],
+    "properties": {
+      "phan_bo": "khắp miền bắc và miền trung nước ta. Còn mọc ở Trung Quốc (Quảng Đông, Quảng Tây, Quí Châu, Vân Nam v.v...), Nhật Bản.",
+      "thu_hai": "Mùa hạ và mùa thu, đang lúc hoa nở thì hái toàn cây, phơi khô mà dùng. Hái vào mùa thu người ta cho là tốt hơn. Nếu dùng rễ, nên hái vào mùa thu rễ sẽ to hơn; đào rễ về cắt bỏ rễ con. rửa sạch đất phơi khô.",
+      "che_bien_tho": "phơi khô"
+    },
+    "display_name": "Ô rô"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T78",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "78"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Lương",
+        "quy_kinh": [],
+        "cong_nang": "chữa thổ huyết, máu cam, tiểu tiện ra máu, bị đánh hay ngã mà chảy máu bằng đới; còn có tác dụng làm mát huyết, tiêu thũng, thông sữa"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ô rô là một loại cỏ sống lâu năm, rễ hình thoi dài, có nhiều rễ phụ, thân cao $58-100cm$ hay hơn; thân màu xanh, có nhiều rãnh dọc, nhiều lông. Lá ở góc dài $20-40cm$ hay hơn, rộng $5-10cm$, hai lần xẻ lông chim, thành thùy, mặt trên nhẵn, mép có gai dài, lá ở thân không cuống, chia thùy. Càng lên trên càng nhỏ và chia đơn giản hơn. Cụm hoa hình đầu mọc ở kẽ lá hay đầu cành, đường kính chừng $3-5cm$. Lá bắc hẹp nhọn, không đều, lá ngoài ngắn và rất nhọn, lá bắc trong có đầu mềm hơn, tất cả đều ít lông, có gân chính giữa nổi rõ. Cánh hoa màu tím đỏ. Quả thuôn dài $4mm$, nhẵn, hơi dẹt. Mùa hoa vào các tháng 5-7, mùa quả vào các tháng 5-9 ( Hình 27 ).",
+        "thanh_phan_hoa_hoc": [
+          "Chưa thấy tài liệu nghiên cứu đối với vị đại kế. Tuy nhiên ở một loài khác (Cirsiu marvense Scop.) người ta chiết từ toàn cây được một loại glucozit gọi là tiliaxin, một men gọi là labenzym, tinh dầu, một ancaloit có trạng thái lỏng, nhựa, inulin và glucozit sinh axit xyanhydric (Theo Wehmer, 1931. Die Pflanzenstoffe Bd. II)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cam (ngọt)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị khổ (đắng)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "lương (mát)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "HC_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên ở một loài khác (Cirsiu marvense Scop.) người ta chiết từ toàn cây được một loại glucozit gọi là tiliaxin, một men gọi là labenzym, tinh dầu, một ancaloit có trạng thái lỏng, nhựa, inulin và glucozit sinh axit xyanhydric (Theo Wehmer, 1931. Die Pflanzenstoffe Bd. II)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên ở một loài khác (Cirsiu marvense Scop.) người ta chiết từ toàn cây được một loại glucozit gọi là tiliaxin, một men gọi là labenzym, tinh dầu, một ancaloit có trạng thái lỏng, nhựa, inulin và glucozit sinh axit xyanhydric (Theo Wehmer, 1931. Die Pflanzenstoffe Bd. II)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên ở một loài khác (Cirsiu marvense Scop.) người ta chiết từ toàn cây được một loại glucozit gọi là tiliaxin, một men gọi là labenzym, tinh dầu, một ancaloit có trạng thái lỏng, nhựa, inulin và glucozit sinh axit xyanhydric (Theo Wehmer, 1931. Die Pflanzenstoffe Bd. II)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "HC_INULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên ở một loài khác (Cirsiu marvense Scop.) người ta chiết từ toàn cây được một loại glucozit gọi là tiliaxin, một men gọi là labenzym, tinh dầu, một ancaloit có trạng thái lỏng, nhựa, inulin và glucozit sinh axit xyanhydric (Theo Wehmer, 1931. Die Pflanzenstoffe Bd. II)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_RO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có nhiều chất nhầy, tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T78"
+      }
+    }
+  ]
+}

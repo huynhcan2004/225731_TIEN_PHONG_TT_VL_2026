@@ -1,0 +1,28 @@
+{
+  "entity_hub": "VI_THUOC_CO_TRANH",
+  "source": {
+    "source_id": "CT_VT_VN_T234",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "234"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THONG_TIEU_CO_TRANH_C",
+      "to": "VI_THUOC_CO_TRANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vị thuốc chính trong bài thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234"
+      }
+    }
+  ],
+  "metadata": {}
+}

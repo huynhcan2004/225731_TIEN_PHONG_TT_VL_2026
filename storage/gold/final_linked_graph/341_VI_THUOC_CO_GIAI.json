@@ -1,0 +1,134 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CO_GIAI",
+    "ten_raw": "Cổ giải",
+    "ten_khoa_hoc": "$Milletia sp$",
+    "ho_thuc_vat": "$Cánh bướm Fabaceae (Papilionaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Vị thuốc Cổ giải",
+    "canonical_name": "Vị thuốc Cổ giải"
+  },
+  "nodes": [
+    {
+      "id": "B_DIET_RUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Điệt ruồi",
+        "aliases": [
+          "diet ruoi",
+          "dietruoi",
+          "điệt ruồi"
+        ],
+        "search_vector_hint": "Bệnh Điệt ruồi thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da."
+      }
+    },
+    {
+      "id": "HC_ROTENON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Rotenon",
+        "aliases": [
+          "rotenon"
+        ],
+        "search_vector_hint": "Rotenon thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "VT_CO_GIAI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cổ giải",
+        "aliases": [
+          "co giai",
+          "cổ giải",
+          "cogiai"
+        ],
+        "search_vector_hint": "Vị thuốc Cổ giải thuộc nhóm Vị thuốc, thường liên quan đến dược liệu.",
+        "bo_phan_dung": "không rõ",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "Không rõ",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "ten_khoa_hoc": "$Milletia sp$",
+        "ho_thuc_vat": "$Cánh bướm Fabaceae (Papilionaceae)$",
+        "hinh_thai_chi_tiet": "Cổ giải là một loại cây gỗ lớn, cao từ $10$-$12m$, tán cây xum xuê nhiều cành, nhiều lá. Thân cây to, tròn, đường kính có thể tới $30$-$40cm$, mọc thẳng, màu nâu xanh thẫm, có nhiều nốt sần của lỗ bì thành những điểm hơi trắng bạc. Vỏ cây rất dễ bóc, để lộ lớp gỗ màu trắng. Lá mọc cách, kép lồng chim, rìa lẻ với $5$-$9$ lá chét, đôi khi chỉ có $3$ lá chét (cây nhỏ). Lá chét dài $5$-$7cm$, rộng $2$-$3cm$. Lá chét có cuống ngắn $5$-$7mm$. Hoa mọc thành chùm, màu trắng vàng. Quả giáp hình mã tấu, đầu nhọn. Vỏ quả có lông màu vàng nâu nhạt, mịn ( Hình 254 ).",
+        "thanh_phan_hoa_hoc": "['Có thể có chất $rotenon$. Nhưng phản ứng chưa rõ rệt.']"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T341",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "341"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cổ giải là một loại cây gỗ lớn, cao từ $10$-$12m$, tán cây xum xuê nhiều cành, nhiều lá. Thân cây to, tròn, đường kính có thể tới $30$-$40cm$, mọc thẳng, màu nâu xanh thẫm, có nhiều nốt sần của lỗ bì thành những điểm hơi trắng bạc. Vỏ cây rất dễ bóc, để lộ lớp gỗ màu trắng. Lá mọc cách, kép lồng chim, rìa lẻ với $5$-$9$ lá chét, đôi khi chỉ có $3$ lá chét (cây nhỏ). Lá chét dài $5$-$7cm$, rộng $2$-$3cm$. Lá chét có cuống ngắn $5$-$7mm$. Hoa mọc thành chùm, màu trắng vàng. Quả giáp hình mã tấu, đầu nhọn. Vỏ quả có lông màu vàng nâu nhạt, mịn ( Hình 254 ).",
+        "thanh_phan_hoa_hoc": [
+          "Có thể có chất $rotenon$. Nhưng phản ứng chưa rõ rệt."
+        ],
+        "lieu_dung_tong_quat": "",
+        "ghi_chu_bo_sung": "",
+        "cach_dung_bao_che": ""
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CO_GIAI",
+      "to": "HC_ROTENON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có thể có chất $rotenon$.",
+        "ghi_chu": "Nhưng phản ứng chưa rõ rệt."
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T341",
+        "all_sources": [
+          "CT_VT_VN_T341"
+        ]
+      }
+    },
+    {
+      "from": "VT_CO_GIAI",
+      "to": "B_DIET_RUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Vỏ thân cây cổ giải tươi hay khô giã nát",
+        "cach_dung": "Thêm ít nước cơm hay cháo. Để vào nơi ruồi hay bay qua. Ruồi ăn phải nước cháo có chất vỏ cổ giải sẽ chết ngay tại chỗ. Để lâu vỏ bị khô, tác dụng có bị giảm sút",
+        "ghi_chu": "CT_VT_VN_T342"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T341",
+        "all_sources": [
+          "CT_VT_VN_T341"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 19.5,
+      "reliability_c_score": 0.8167,
+      "total_confidence_sum": 2.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

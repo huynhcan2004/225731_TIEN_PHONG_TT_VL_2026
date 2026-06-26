@@ -1,0 +1,51 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THANH_NGANH",
+    "ten_raw": "Thành ngạnh",
+    "ten_khoa_hoc": "Cratoxylon prunifolium Dyer (Cratoxylon pruniflorum Kurtz)",
+    "ho_thuc_vat": "Ban Hypericaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": "Thành ngạnh"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T423",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "423"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ có gai ở gốc (để tự nhiên cây có thể cao to, cho gỗ), cành non có lông tơ, dần dần trở nên nhẵn và có màu tro. Thân phía ngọn có màu đỏ do lông tơ màu đỏ (đỏ ngọn). Lá hình mác dài $12$-$13cm$, rộng $35$-$40mm$, mọc đối, cuống ngắn $3$-$5mm$, mặt gân chính đỏ đến $1/3$, lá non gân lá và lá có màu đỏ đến quá nửa. Hoa mọc trên những cành ngắn có lông màu tía. Quả nang, dài $15mm$, rộng $7$-$8mm$. Hạt hình trứng dài $6mm$, rộng $3mm$ ( Hình 310 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THANH_NGANH",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1995, Nguyễn Liêm và cộng sự (Học viện quân y) đã xác định sự có mặt của tanin và flavonoid trong lá thành ngạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T423"
+      }
+    },
+    {
+      "from": "VI_THUOC_THANH_NGANH",
+      "to": "HC_FLAVONOID",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1995, Nguyễn Liêm và cộng sự (Học viện quân y) đã xác định sự có mặt của tanin và flavonoid trong lá thành ngạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T423"
+      }
+    }
+  ]
+}

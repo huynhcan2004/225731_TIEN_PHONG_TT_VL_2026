@@ -1,0 +1,69 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LO_CAM_THACH",
+    "ten_raw": "Lô cam thạch",
+    "ten_khoa_hoc": "Calomelas",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1058",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1058"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Lương"
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu của khinh phấn là thủy ngân clorua."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LO_CAM_THACH",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1058"
+      }
+    },
+    {
+      "from": "VI_THUOC_LO_CAM_THACH",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1058"
+      }
+    },
+    {
+      "from": "VI_THUOC_LO_CAM_THACH",
+      "to": "HC_THUY_NGAN_CLORUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của khinh phấn là thủy ngân clorua."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1058"
+      }
+    }
+  ]
+}

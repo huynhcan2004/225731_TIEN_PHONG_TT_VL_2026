@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_MIA",
+  "source": {
+    "source_id": "CT_VT_VN_T281",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "281"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "CN_BO_DUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía có tác dụng bổ dưỡng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía có tác dụng tiêu đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA",
+      "to": "CN_GIAI_KHAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước mía có tác dụng hết khát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T281"
+      }
+    }
+  ],
+  "metadata": {}
+}

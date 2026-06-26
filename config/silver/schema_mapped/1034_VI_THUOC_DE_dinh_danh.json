@@ -1,0 +1,119 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DE",
+    "ten_raw": "Dê",
+    "ten_khoa_hoc": "Capra sp.",
+    "ho_thuc_vat": "Sừng rỗng Bovidae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Thịt dê"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1034",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1034"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Nhiệt",
+        "quy_kinh": [
+          "K_TY",
+          "K_VI",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ở nước ta hiện nay có ba giống dê chính: dê Việt Nam, dê Ấn Độ và dê Mông Cổ. Gốc giống dê nuôi vốn là giống dê núi Capra prisca, sau giống dê này được thuần hóa, lai tạp với nhiều giống dê khác như dê núi Ấn Độ Capra aegagrus. Dê Việt Nam chưa rõ nguồn gốc ở đâu, có hình vóc nhỏ, chỉ cao chừng $50cm$, mình dẹp, chân nhỏ, lông nhiều màu sắc, tai đứng, sừng hơi cong nhọn đưa về phía sau, dài từ $8$ đến $15cm$, thỉnh thoảng có con sừng nhú hơi cong về phía trước. Dê đực mình ngắn, vạm vỡ, to hơn dê cái, đầu cổ và sống lưng có lông dài cứng, chùm râu cằm rậm, sừng dài, khi già có thể xoắn lại. Dê cái trong đều đặn, hiền hậu. Dê Ấn Độ do người Pháp và Ấn Độ mang vào nước ta vào đầu thế kỷ 20, đã thích nghi với khí hậu nước ta. Dê Ấn Độ có thân dài và cao 80- $90cm$, trông mảnh khảnh, mắt thường lồi lên, tai to và rủ xuống, sừng ngắn hay không có sừng. Long màu sẫm đen hoặc xám nhạt, vú to. Dê Mông Cổ mới nhập vào nước ta khoảng vài chục năm gần đây. Mình vừa phải, to hơn dê ta nhưng nhỏ hơn dễ Ấn Độ. Tại thẳng và mảnh, sừng dài, thẳng, hơi chếch về phía sau. Lông có màu trắng đen. Đặc biệt lông có hai thứ: lông thô dài cứng thò ra bên ngoài, lông tơ ngắn mềm ở bên trong có thể dùng làm len (Hình 759).",
+        "cach_dung_bao_che": "Hầu như tất cả các bộ phận của con dê (thịt dê, tiết dê, gan, dạ dày, tinh hoàn ...) được dùng làm thuốc. Gần đây có nơi nấu cao dê hoặc chỉ dùng xương, hoặc dùng cả thịt lẫn xương (chỉ bỏ ruột gan) để nấu cao dê toàn tính."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DE",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính rất nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào ba kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Viện vệ sinh dịch tễ Hà Nội (1972) trong $100g$ thịt dê có $17,5\\%$ protit, $40\\%$ lipit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    },
+    {
+      "from": "VI_THUOC_DE",
+      "to": "HC_LIPIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Viện vệ sinh dịch tễ Hà Nội (1972) trong $100g$ thịt dê có $17,5\\%$ protit, $40\\%$ lipit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1034"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "entity_hub": "VI_THUOC_HO_VI",
+  "source": {
+    "source_id": "CT_VT_VN_T773",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "773"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_CAM_CUM_HO_VI_H",
+      "to": "VI_THUOC_HO_VI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 16g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Hồ vĩ là vị thuốc chính trong bài thuốc trị cảm cúm, sốt, ho, sốt tiểu tiện ra máu.",
+        "cach_dung": "Dưới dạng thuốc sắc hay thuốc hãm, cho người và cho ngựa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HO_VI_H",
+      "to": "B_CAM_CUM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cảm cúm",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HO_VI_H",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HO_VI_H",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    },
+    {
+      "from": "BT_CAM_CUM_HO_VI_H",
+      "to": "S_TIEU_TIEN_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt tiểu tiện ra máu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T773"
+      }
+    }
+  ],
+  "metadata": {}
+}

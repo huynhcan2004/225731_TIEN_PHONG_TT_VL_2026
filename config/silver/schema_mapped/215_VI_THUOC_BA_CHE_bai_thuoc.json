@@ -1,0 +1,57 @@
+{
+  "entity_hub": "VI_THUOC_BA_CHE",
+  "source": {
+    "source_id": "CT_VT_VN_T215",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "215"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KIET_LY_BA_CHE_B",
+      "to": "VT_BA_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$30 den 50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ba chẽ là vị thuốc chính để điều trị kiết lỵ.",
+        "mo_ta_chi_tiet": "30 đến 50g lá Ba chẽ",
+        "cach_dung": "thêm nước vào, đun sôi kỹ (sôi chừng 15 phút đến nửa giờ). Chia hai ba lần uống trong ngày. Uống liên tục từ 3 đến 5 ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T215"
+      }
+    },
+    {
+      "from": "BT_KIET_LY_BA_CHE_B",
+      "to": "B_KIET_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "kiết lỵ",
+        "cach_dung": "thêm nước vào, đun sôi kỹ (sôi chừng 15 phút đến nửa giờ). Chia hai ba lần uống trong ngày. Uống liên tục từ 3 đến 5 ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T215"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_BA_CHE_B",
+      "to": "VT_BA_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Ba chẽ được dùng ngoài da để trị rắn cắn.",
+        "mo_ta_chi_tiet": "Lá ba chẽ tươi",
+        "cach_dung": "giã nát hay nhai nát, nuốt nước, bã còn lại đắp lên nơi rắn cắn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T215"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,222 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MIA_DO",
+    "ten_raw": "Mía dò",
+    "ten_khoa_hoc": "$Costus speciosus Smith; Costus loureiri Horan.; Amomum hirsutum Lamk.; Amomum arboreum Lour.$",
+    "ho_thuc_vat": "$Gừng Zingiberaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "thân rễ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng $10$-$20$g, dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập"
+    },
+    "display_name": "Mía dò",
+    "canonical_name": "Mía dò"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MIA_DO",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Mia Do"
+      }
+    },
+    {
+      "id": "HC_DIOSGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Diosgenin"
+      }
+    },
+    {
+      "id": "HC_TIGOGENIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tigogenin"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    },
+    {
+      "id": "B_DAU_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Mat"
+      }
+    },
+    {
+      "id": "B_DAU_TAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Tai"
+      }
+    },
+    {
+      "id": "S_RA_MO_HOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ra Mo Hoi"
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "585"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Loại cỏ cao chừng $50-60cm$, thân mềm, có thân rễ phát triển thành củ, lá xoè ra, hình mác, phía đáy lá tròn, đầu phiến nhọn, nhẵn, dài $15-20cm$, rộng $6-7cm$, cuống ngắn. Cụm hoa mọc thành bông ở đầu cành, không cuống, hình trứng, mọc rất sít, lá bắc xếp cặp đôi không đối xứng, màu đỏ, có lông dài và hơi nhọn, tràng hình phễu, phiến chia thành $3$ phần đều, môi rất lớn, màu hồng hay trắng, dài và rộng $4-8cm$: Quả nang dài $13mm$, nhiều hạt nhẵn, màu đen, bóng, dài $3mm$ (Hình $448$, Hm $15,2$ ).",
+        "thanh_phan_hoa_hoc": [
+          "Thân rễ chứa tới $77-87\\%$ nước: Trong thân rễ khô có $5,5\\%$ nước, $0,75\\%$ chất tan trong ête, $6,75\\%$ chất anbuminoit, $66,65\\%$ hydrat cacbon, $10,65\\%$ xơ, và $9,70\\%$ tro. Năm $1970$, từ rễ cái khô của củ chóc, Pandey V. B và B. Dasgupsta đã chiết được $2,12\\%$ $diosgenin$ tinh khiết. Ngoài ra còn có $tigogenin$ và một số $saponin$ khác (C. A., $1971, 74$ ($11$)50513t)",
+          "[CT_VT_VN_T586]: Cây mọc hoang ở khắp nơi trong nước ta, miền núi cũng như đồng bằng, thường ưa những nơi ẩm thấp, còn thấy mọc ở Malaixia, Ấn Độ, Tân Ghinê. Có nơi trồng để lấy thân rễ ăn. Người ta thường dùng búp non hay cành non nướng rồi vắt lấy nước làm thuốc."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_DIOSGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm $1970$, từ rễ cái khô của củ chóc, Pandey V. B và B. Dasgupsta đã chiết được $2,12\\%$ $diosgenin$ tinh khiết.",
+        "ghi_chu": "Hàm lượng diosgenin chiết xuất từ rễ cái khô của củ chóc là $2,12\\%$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_TIGOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $tigogenin$ và một số $saponin$ khác (C. A., $1971, 74$ ($11$)50513t)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $tigogenin$ và một số $saponin$ khác (C. A., $1971, 74$ ($11$)50513t)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngọn hay cành non Mía Dò nướng nóng vắt lấy nước nhỏ vào mắt",
+        "ghi_chu": "CT_VT_VN_T586"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "B_DAU_TAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngọn hay cành non Mía Dò nướng nóng vắt lấy nước nhỏ vào tai",
+        "ghi_chu": "CT_VT_VN_T586"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "S_RA_MO_HOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thân rễ Mía Dò uống làm thuốc mát",
+        "ghi_chu": "CT_VT_VN_T586"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Thân rễ Mía Dò uống làm thuốc mát",
+        "ghi_chu": "CT_VT_VN_T586"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T585",
+        "all_sources": [
+          "CT_VT_VN_T585"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.0,
+      "reliability_c_score": 0.775,
+      "total_confidence_sum": 6.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

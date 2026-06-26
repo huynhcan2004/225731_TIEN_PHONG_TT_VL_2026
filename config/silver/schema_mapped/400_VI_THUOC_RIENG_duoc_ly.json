@@ -1,0 +1,82 @@
+{
+  "entity_hub": "VI_THUOC_RIENG",
+  "source": {
+    "source_id": "CT_VT_VN_T400",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "400"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "CN_ON_TRUNG_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ôn trung tán hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "CN_HET_DAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hết đau."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "CN_TIEU_THUC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thực."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "CO_VI_CAY",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "CO_TINH_ON",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "TY",
+      "relation_type": "QUY_KINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    },
+    {
+      "from": "VI_THUOC_RIENG",
+      "to": "VI",
+      "relation_type": "QUY_KINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T400"
+      }
+    }
+  ],
+  "metadata": {}
+}

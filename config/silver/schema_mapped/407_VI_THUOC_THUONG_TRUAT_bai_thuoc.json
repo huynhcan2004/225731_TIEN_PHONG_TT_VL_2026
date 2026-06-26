@@ -1,0 +1,177 @@
+{
+  "entity_hub": "VI_THUOC_THUONG_TRUAT",
+  "source": {
+    "source_id": "CT_VT_VN_T407",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "407"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "VT_THUONG_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thương truật kiện tỳ vị, táo thấp; Hậu phác hành khí, hóa thấp; Trần bì lý khí kiện tỳ; Cam thảo điều hòa các vị thuốc.",
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột, nôn mửa, đi tả, đầy bụng không tiêu, đau bụng.",
+        "cach_dung": "Các vị tán thành bột, trộn đều, mỗi lần dùng $9g$ bột này, dùng nước gừng hoặc nước nóng thường mà chiêu thuốc. Ngày uống 3 lần.",
+        "ghi_chu": "CT_VT_VN_T408"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "VT_HAU_PHAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thương truật kiện tỳ vị, táo thấp; Hậu phác hành khí, hóa thấp; Trần bì lý khí kiện tỳ; Cam thảo điều hòa các vị thuốc.",
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột, nôn mửa, đi tả, đầy bụng không tiêu, đau bụng.",
+        "cach_dung": "Các vị tán thành bột, trộn đều, mỗi lần dùng $9g$ bột này, dùng nước gừng hoặc nước nóng thường mà chiêu thuốc. Ngày uống 3 lần.",
+        "ghi_chu": "CT_VT_VN_T408"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "VT_TRAN_BI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Thương truật kiện tỳ vị, táo thấp; Hậu phác hành khí, hóa thấp; Trần bì lý khí kiện tỳ; Cam thảo điều hòa các vị thuốc.",
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột, nôn mửa, đi tả, đầy bụng không tiêu, đau bụng.",
+        "cach_dung": "Các vị tán thành bột, trộn đều, mỗi lần dùng $9g$ bột này, dùng nước gừng hoặc nước nóng thường mà chiêu thuốc. Ngày uống 3 lần.",
+        "ghi_chu": "CT_VT_VN_T408"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Thương truật kiện tỳ vị, táo thấp; Hậu phác hành khí, hóa thấp; Trần bì lý khí kiện tỳ; Cam thảo điều hòa các vị thuốc.",
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột, nôn mửa, đi tả, đầy bụng không tiêu, đau bụng.",
+        "cach_dung": "Các vị tán thành bột, trộn đều, mỗi lần dùng $9g$ bột này, dùng nước gừng hoặc nước nóng thường mà chiêu thuốc. Ngày uống 3 lần.",
+        "ghi_chu": "CT_VT_VN_T408"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "B_VIEM_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cấp tính, mãn tính viêm dạ dày và ruột",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "S_DI_TA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi tả",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đầy bụng không tiêu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_VIEM_DA_DAY_THUONG_TRUAT_HTTC",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau bụng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_DI_IA_BACH_TRUAT_B",
+      "to": "VT_BACH_TRUAT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bạch truật kiện tỳ, táo thấp, chỉ tả.",
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng",
+        "cach_dung": "Cho vào nồi đất hay đồ sành sắt tráng men, nấu cho cạn còn $393$",
+        "ghi_chu": "CT_VT_VN_T408"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    },
+    {
+      "from": "BT_DI_IA_BACH_TRUAT_B",
+      "to": "S_DI_IA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ỉa lỏng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T407"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,154 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHO_SAM",
+    "ten_raw": "Khổ sâm",
+    "ten_khoa_hoc": "$Sophora flavescens; Croton tonkinensis Gagnep$",
+    "ho_thuc_vat": "$Thầu dầu Euphorbiaceae$",
+    "variants": [
+      "Hạt khổ sâm",
+      "Lá của cây khổ sâm",
+      "Rễ cây dã hòe",
+      "hòe mọc hoang"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá, rễ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Nếu dùng riêng thường dùng với liều $24$-$40$g (lá khô sao vàng), thêm $600$ml nước ($3$ bát), sắc còn $1$ bát ($200$ml), chia $2$ hay $3$ lần uống trong ngày, $15$ phút đến nửa giờ trước khi ăn cơm. Để ăn ngon cơm, giúp sự tiêu hoá.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "[CT_VT_VN_T843]: Tà dùng lá phơi khô của cây khổ sâm."
+    },
+    "display_name": "Khổ sâm",
+    "canonical_name": "Khổ sâm"
+  },
+  "nodes": [
+    {
+      "id": "BT_DAU_DA_DAY_KHO_SAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Dau Da Day Kho Sam"
+      }
+    },
+    {
+      "id": "VI_THUOC_KHO_SAM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Kho Sam"
+      }
+    },
+    {
+      "id": "VI_THUOC_LA_KHOI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "La Khoi"
+      }
+    },
+    {
+      "id": "VI_THUOC_BO_CONG_ANH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Bo Cong Anh"
+      }
+    },
+    {
+      "id": "B_DAU_DA_DAY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Da Day"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T842",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "842"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ cao độ $0,7-1m$. Lá mọc cách hay gần như mọc đối, có khi mọc thành vòng giả gồm $3-6$ lá. Lá hình mũi mác, mép nguyên dài $5-10cm$, rộng $1-3cm$. Cả hai mặt lá đều có nhiều lông hình khiên óng ánh (kiểu lông ở lá cây nhót) nhưng mặt dưới nhiều hơn ở mặt trên. Khi phơi khô, mặt lá dưới có màu trắng bạc, mặt trên có màu nâu đen. Cụm hoa mọc ở kẽ lá hay đầu cành, lưỡng tính hay đơn tính. Hoa đực có 5 lá đài, 12 nhị, hoa cái có 5 lá đài, 3 vòi nhị. Quả gồm 3 mảnh vỏ, màu hung hung đỏ (Hình 633, Hm 14,2).",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Tà dùng lá phơi khô của cây khổ sâm."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_DAU_DA_DAY_KHO_SAM",
+      "to": "VI_THUOC_KHO_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T842",
+        "all_sources": [
+          "CT_VT_VN_T842"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_KHO_SAM",
+      "to": "VI_THUOC_LA_KHOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$50g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T842",
+        "all_sources": [
+          "CT_VT_VN_T842"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_KHO_SAM",
+      "to": "VI_THUOC_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T842",
+        "all_sources": [
+          "CT_VT_VN_T842"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_DA_DAY_KHO_SAM",
+      "to": "B_DAU_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $600ml$. Sắc đặc và cô còn chừng $200ml$ chia làm 2 hay 3 lần uống trong ngày. Uống liên tục trong 10 ngày, lại nghỉ 3 ngày. Cứ như vậy cho đến khi khỏi đau, uống thêm một tuần nữa. Có người thêm vào đơn thuốc trên 3 lát gừng sống đối với người hay đi ỉa lỏng.",
+        "ghi_chu": "CT_VT_VN_T843"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T842",
+        "all_sources": [
+          "CT_VT_VN_T842"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 21.5,
+      "reliability_c_score": 0.79,
+      "total_confidence_sum": 3.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

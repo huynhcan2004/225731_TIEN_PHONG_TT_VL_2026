@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_PHUONG_NHON_THAO",
+  "source": {
+    "source_id": "CT_VT_VN_T221",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "221"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHUONG_NHON_THAO",
+      "to": "CN_TRI_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây được dùng chữa lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHUONG_NHON_THAO",
+      "to": "CN_TRI_TIA_CHAY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ cây được dùng chữa ỉa chảy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T221"
+      }
+    }
+  ],
+  "metadata": {}
+}

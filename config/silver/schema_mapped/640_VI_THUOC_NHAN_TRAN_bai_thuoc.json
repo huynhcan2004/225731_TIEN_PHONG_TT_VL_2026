@@ -1,0 +1,105 @@
+{
+  "entity_hub": "VI_THUOC_NHAN_TRAN",
+  "source": {
+    "source_id": "CT_VT_VN_T640",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "640"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_GAN_NHAN_TRAN_N",
+      "to": "VI_THUOC_NHAN_TRAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhân trần là vị thuốc chính trong bài thuốc này.",
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do viêm gan virus, vàng da sau khi đẻ, vàng da do sốt rét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_NHAN_TRAN_N",
+      "to": "B_VIEM_GAN_VIRUS",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do viêm gan virus",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_NHAN_TRAN_N",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do viêm gan virus, vàng da sau khi đẻ, vàng da do sốt rét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_NHAN_TRAN_N",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da sau khi đẻ",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_VIEM_GAN_NHAN_TRAN_N",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do sốt rét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_NHAN_TRAN_N",
+      "to": "VI_THUOC_NHAN_TRAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10-20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Nhân trần là vị thuốc chính trong bài thuốc này.",
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do sốt rét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    },
+    {
+      "from": "BT_SOT_RET_NHAN_TRAN_N",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa các bệnh vàng da do sốt rét",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T640"
+      }
+    }
+  ],
+  "metadata": {}
+}

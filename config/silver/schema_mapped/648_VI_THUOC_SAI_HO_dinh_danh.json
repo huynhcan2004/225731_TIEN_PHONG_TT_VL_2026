@@ -1,0 +1,164 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SAI_HO",
+    "ten_raw": "Sài hồ",
+    "ten_khoa_hoc": "Bupleurum falcatum L.; Bupleurum sinense DC.",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "che_bien_tho": "Sài hồ là một cây sống lâu năm, cao 45-70cm, rễ nhỏ, hình trụ, phân nhánh hoặc không phân nhánh."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T648",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "648"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Bình",
+        "quy_kinh": [
+          "K_TAM_BAO",
+          "K_CAN",
+          "K_DAN",
+          "K_TAM_TIEU"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sài hồ là một cây sống lâu năm, cao $0,40-0,70m$. Thân mọc thẳng, hơi có cạnh, nhẵn. Lá mọc so le, hơi hình mác, dài $3-7cm$, rộng $3-10mm$, có 3-5 gân chính dọc theo chiều dài của lá, mép lá nguyên, hơi răn reo. Hoa mọc thành tán kép, nhỏ, màu vàng. Quả nhỏ, nhẵn. (Hình 493)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "K_TAM_BAO",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 6 kinh tâm bào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 6 kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 6 kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "K_TAM_TIEU",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 6 kinh tam tiêu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sài hồ chứa saponin ($0,6-1%$), tinh dầu ($0,5%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sài hồ chứa saponin ($0,6-1%$), tinh dầu ($0,5%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "HC_BUPLEURUMLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong sài hồ có chừng $0,50%$ chất saponin, một chất rượu gọi là $bupleurumola$ $C_{37}H_{64}O_2$, độ chảy $163-164°C$, $phytosterola$ $C_{20}H_{30}O_{16}$, và một ít tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "HC_PHYTOSTEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong sài hồ có chừng $0,50%$ chất saponin, một chất rượu gọi là $bupleurumola$ $C_{37}H_{64}O_2$, độ chảy $163-164°C$, $phytosterola$ $C_{20}H_{30}O_{16}$, và một ít tinh dầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAI_HO",
+      "to": "HC_RUTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân và lá có chứa $rutin$ $C_{30}H_{48}O_2$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T648"
+      }
+    }
+  ]
+}

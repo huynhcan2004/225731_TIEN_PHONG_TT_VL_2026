@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_GAI_TAM_XOONG",
+    "ten_raw": "Gai tầm xoọng",
+    "ten_khoa_hoc": "Centipeda minima (L.) A. Br. et Aschers.; Myriogyne minuta Less.; Centipeda orbicularis Lour.",
+    "ho_thuc_vat": "Cúc Asteraceae(Compositae)",
+    "variants": [
+      "Cóc mẳn"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T764",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "764"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cóc mẳn là một loại cỏ nhỏ mềm, mọc bò lan trên mặt đất ẩm, phân rất nhiều cành, ở ngọn có lông mịn trắng, nhưng toàn thân trông nhẫn bóng, lá đơn mọc so le, hơi hình 3 cạnh, đầu tù, phía cuống hẹp lại, mép có 2 răng cưa, có khi 1 hay 3, dài $10$-$18mm$, rộng $6$-$10mm$, gần chính hơi nổi ở mặt dưới lá, gân phụ không rõ, không có cuống. Cụm hoa hình đầu mọc ở nách lá, hoa cái gồm nhiều lớp, cánh hoa hình ống màu trắng, trên có răng cưa, hoa lưỡng tĩnh ít hơn, tràng hoa hình chuông có 4 răng hình trứng, rộng, màu hơi tím. Quả bế 4 cạnh, trên cạnh có lông mịn nhỏ. Mùa hoa: các tháng 2-5, mùa quả: các tháng 4-7.",
+        "thanh_phan_hoa_hoc": [
+          "Nói chung chưa thấy tài liệu nghiên cứu.",
+          "Theo Muller (Zeitz. Ast. Apot. Verein, 11-1-1878) trong cây có tinh dầu và một chất màu nâu nhạt hay vàng nhạt có vị đắng, ít tan trong nước lạnh, tan nhiều trong nước nóng, rất tan trong cồn. Muller gọi chất này là axit myriogynic.",
+          "Theo Dược học tạp chí (Nhật, 1970, 90, 846) trong toàn cây cóc mẳn có $taraxasterol$, $taraxasteril$ axetat, độ chảy $248$-$450°C$ và $Arnidiol$."
+        ],
+        "cach_dung_bao_che": "Không phải chế biến gì đặc biệt."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_GAI_TAM_XOONG",
+      "to": "HC_TARAXASTEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Dược học tạp chí (Nhật, 1970, 90, 846) trong toàn cây cóc mẳn có $taraxasterol$, $taraxasteril$ axetat, độ chảy $248$-$450°C$ và $Arnidiol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "VI_THUOC_GAI_TAM_XOONG",
+      "to": "HC_TARAXASTERIL_AXETAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Dược học tạp chí (Nhật, 1970, 90, 846) trong toàn cây cóc mẳn có $taraxasterol$, $taraxasteril$ axetat, độ chảy $248$-$450°C$ và $Arnidiol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    },
+    {
+      "from": "VI_THUOC_GAI_TAM_XOONG",
+      "to": "HC_ARNIDIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Dược học tạp chí (Nhật, 1970, 90, 846) trong toàn cây cóc mẳn có $taraxasterol$, $taraxasteril$ axetat, độ chảy $248$-$450°C$ và $Arnidiol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T764"
+      }
+    }
+  ]
+}

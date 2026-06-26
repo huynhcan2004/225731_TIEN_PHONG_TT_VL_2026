@@ -1,0 +1,202 @@
+{
+  "entity_hub": "VI_THUOC_KHOAN_DONG_HOA",
+  "source": {
+    "source_id": "CT_VT_VN_T792",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "792"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VANG_DA_NAP_AM_N",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_VANG_DA_NAP_AM_N",
+      "to": "B_VIEM_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vàng da do viêm gan",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_DAU_LOET_DA_DAY_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_DAU_LOET_DA_DAY_NAP_A",
+      "to": "B_LOET_DA_DAY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau do loét dạ dày, tá tràng",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_SOI_NIEU_QUAN_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_SOI_NIEU_QUAN_NAP_A",
+      "to": "B_SOI_NIEU_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sỏi niệu quản",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HUYET_AP_CAO_NAP_A",
+      "to": "B_HUYET_AP_CAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa huyết áp cao",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HO_CAM_MAO_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HO_CAM_MAO_NAP_A",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho do cảm mạo",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HO_GA_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_HO_GA_NAP_A",
+      "to": "B_HO_GA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho gà",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_NAP_A",
+      "to": "VI_THUOC_KHOAN_DONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc chỉ có một vị thuốc.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc, uống hàng ngày cho tới khi bệnh hết",
+        "ghi_chu": "CT_VT_VN_T793"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_NAP_A",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều trị các chứng phù thũng toàn thân",
+        "cach_dung": "Dùng dưới dạng thuốc sắc, uống hàng ngày cho tới khi bệnh hết"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T792"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,301 +1,203 @@
-"""
-╔══════════════════════════════════════════════════════════════════╗
-║  SMART GRAPH SANITY CHECKER (TRÌNH KIỂM DUYỆT ĐỒ THỊ THÔNG MINH) ║
-║  Chức năng: Quét toàn vẹn JSON, ép chuẩn Ontology, phát hiện     ║
-║  xung đột hai chiều, đứt gãy, trùng lặp và vòng lặp logic.       ║
-╚══════════════════════════════════════════════════════════════════╝
-"""
-
 import os
 import json
 import glob
+import re
+import sys
 from collections import defaultdict
 
-# --- IMPORT TỪ HỆ THỐNG MỚI ---
+# Đảm bảo import được settings từ thư mục gốc
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app.config import settings
 
-# ==========================================================
-# 1. CẤU HÌNH & TỪ ĐIỂN ONTOLOGY (SMART RULES)
-# ==========================================================
-# Cập nhật đường dẫn theo kiến trúc Medallion
+# ==========================================
+# CẤU HÌNH ĐƯỜNG DẪN từ settings
+# ==========================================
 INPUT_DIR = settings.DIR_GOLD_LINKED
-REPORT_FILE = settings.FILE_GRAPH_REPORT
+OUTPUT_DIR = settings.DIR_GOLD_LINKED
 
-os.makedirs(os.path.dirname(REPORT_FILE), exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# DANH SÁCH TIỀN TỐ CHUẨN (Sắp xếp từ dài xuống ngắn để bóc tách chính xác)
-KNOWN_PREFIXES = [
-    "VI_THUOC_", "BAI_THUOC_", "BT_", "VT_", 
-    "CN_", "HC_", "DL_", "B_", "S_", "V_", "T_", "K_", "G_"
-]
-
-# ĐỊNH NGHĨA CHIỀU MŨI TÊN CHUẨN MỰC (Tuyệt đối không được đi ngược)
-# Cấu trúc: "TÊN_QUAN_HỆ": ( [Tiền_tố_được_phép_của_FROM], [Tiền_tố_được_phép_của_TO] )
-SCHEMA_RULES = {
-    "BAO_GOM_VI_THUOC":     (("BT_", "BAI_THUOC_"), ("VT_", "VI_THUOC_")), 
-    "CHU_TRI_BENH":         (("BT_", "BAI_THUOC_", "VT_", "VI_THUOC_"), ("B_",)), 
-    "CHU_TRI_TRIEU_CHUNG":  (("BT_", "BAI_THUOC_", "VT_", "VI_THUOC_"), ("S_",)), 
-    "CO_TINH":              (("VT_", "VI_THUOC_"), ("T_",)), 
-    "CO_VI":                (("VT_", "VI_THUOC_"), ("V_",)), 
-    "QUY_KINH":             (("VT_", "VI_THUOC_"), ("K_",)), 
-    "CO_CONG_NANG":         (("VT_", "VI_THUOC_", "BT_", "BAI_THUOC_"), ("CN_",)), 
-    "CO_TAC_DUNG_DUOC_LY":  (("VT_", "VI_THUOC_"), ("DL_",)), 
-    "CO_CHUA_HOAT_CHAT":    (("VT_", "VI_THUOC_"), ("HC_",)), 
-    "KIENG_KY":             (("VT_", "VI_THUOC_", "BT_", "BAI_THUOC_"), ("G_", "B_", "VT_", "VI_THUOC_")), 
+# 1. TỪ ĐIỂN TRI THỨC (Bao phủ cả Thuần Việt & Hán Việt để không bị mất dữ liệu)
+KNOWN_TASTES = {
+    "CAY", "TAN", "CHUA", "TOAN", "DANG", "KHO", "DANG_KHO", 
+    "NGOT", "CAM", "MAN", "HAM", "NHAT", "DAM", "CHAT"
 }
 
-# ==========================================================
-# 2. CÁC HÀM THUẬT TOÁN LÕI (CORE ALGORITHMS)
-# ==========================================================
+KNOWN_NATURES = {
+    "HAN", "NHIET", "ON", "LUONG", "BINH", "AM", "LANH", 
+    "DAI_NHIET", "DAI_ON", "HOI_HAN", "HOI_ON", "VI_ON", "VI_HAN", "TRUNG_TINH"
+}
 
-def extract_prefix(entity_id):
-    """Trích xuất tiền tố chuẩn xác dựa trên danh sách KNOWN_PREFIXES."""
-    if not entity_id:
-        return ""
-    entity_id_upper = str(entity_id).upper()
-    for prefix in KNOWN_PREFIXES:
-        if entity_id_upper.startswith(prefix):
-            return prefix
-    # Nếu không thuộc danh sách chuẩn, thử tách bằng dấu '_' đầu tiên
-    if "_" in entity_id_upper:
-        return entity_id_upper.split("_")[0] + "_"
-    return "UNKNOWN_"
+KNOWN_MERIDIANS = {
+    "TAM", "CAN", "TY", "PHE", "THAN", "DOM", "DAN", "VI", 
+    "DAI_TRANG", "TIEU_TRANG", "BANG_QUANG", "TAM_BAO", "TAM_TIEU"
+}
 
-def check_cycles(relationships):
-    """DFS phát hiện vòng lặp logic (A -> B -> C -> A)."""
-    graph = defaultdict(list)
-    for rel in relationships:
-        if rel.get('from') and rel.get('to'):
-            graph[rel['from']].append(rel['to'])
-
-    visited = {}
-    path = []
-    cycles_found = []
-
-    def dfs(node):
-        visited[node] = 1 # Đang thăm
-        path.append(node)
-        
-        for neighbor in graph.get(node, []):
-            if visited.get(neighbor) == 1:
-                # Phát hiện vòng lặp
-                cycle_path = path[path.index(neighbor):] + [neighbor]
-                cycles_found.append(" 🔄 ".join(cycle_path))
-            elif visited.get(neighbor) != 2:
-                dfs(neighbor)
-                
-        visited[node] = 2 # Đã thăm xong
-        path.pop()
-
-    for node in list(graph.keys()):
-        if visited.get(node) != 2:
-            dfs(node)
-            
-    return cycles_found
-
-def check_bidirectional_conflicts(relationships):
-    """Phát hiện mâu thuẫn 2 chiều (A -> B và B -> A đồng thời)."""
-    edges = set()
-    conflicts = []
-    for rel in relationships:
-        u, v = rel.get("from"), rel.get("to")
-        if not u or not v: continue
-        
-        if (v, u) in edges:
-            conflicts.append(f"Xung đột hướng: {u} ↔ {v}")
-        edges.add((u, v))
-    return conflicts
-
-def check_duplicates(relationships):
-    """Phát hiện các quan hệ bị lặp lại hoàn toàn."""
-    seen = set()
-    dupes = []
-    for rel in relationships:
-        u, v, rtype = rel.get("from"), rel.get("to"), rel.get("relation_type") or rel.get("type")
-        if not u or not v or not rtype: continue
-        
-        edge_signature = (u, v, rtype)
-        if edge_signature in seen:
-            dupes.append(f"Trùng lặp quan hệ: {u} -[{rtype}]-> {v}")
-        seen.add(edge_signature)
-    return dupes
-
-# ==========================================================
-# 3. TRÌNH KIỂM DUYỆT CHÍNH (MAIN VALIDATOR)
-# ==========================================================
-
-def run_validator():
-    print("🕵️ Đang khởi động Trình Thanh tra Đồ thị Thông minh (Smart Graph Validator)...")
-    files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
+def clean_tinh_vi_kinh_id(raw_id):
+    """Hàm phẫu thuật ID: Xử lý từng trường hợp lỗi cụ thể (Case-by-case)"""
+    if not raw_id: return "UNKNOWN"
     
-    if not files:
-        print(f"❌ Không tìm thấy file nào trong thư mục {INPUT_DIR}")
-        return
+    # Làm sạch thô ban đầu
+    clean = str(raw_id).upper().strip().replace(" ", "_")
 
-    total_files = len(files)
-    error_report = defaultdict(list)
-    
-    stats = {
-        "files_passed": 0,
-        "files_with_errors": 0,
-        "total_orphans": 0,
-        "total_schema_violations": 0,
-        "total_cycles": 0,
-        "total_duplicates": 0,
-        "total_conflicts": 0,
-        "total_dangling": 0
+    # ---------------------------------------------------------
+    # TRƯỜNG HỢP 1: DIỆT TIỀN TỐ KÉP (T_T_, V_V_, K_K_)
+    # ---------------------------------------------------------
+    clean = re.sub(r'^T_T_', 'T_', clean)
+    clean = re.sub(r'^V_V_', 'V_', clean)
+    clean = re.sub(r'^K_K_', 'K_', clean)
+
+    # ---------------------------------------------------------
+    # TRƯỜNG HỢP 2: XÓA CÁC THỰC THỂ RÁC XÁC ĐỊNH (TRASH REMOVAL)
+    # ---------------------------------------------------------
+    # Bổ sung T_AN_THAN, T_HOAT, T_CO_TINH, V_CO_VI vào danh sách trảm
+    trash_ids = {
+        "T_KHONG_DOC", "V_KHONG_DOC", "T_AN_THAN", "V_AN_THAN", 
+        "T_KY_TU", "V_KY_TU", "T_THAO_QUA", "V_THAO_QUA", 
+        "T_HOAT", "V_HOAT", "T_TINH", "V_VI", "T_DUONG", "V_DUONG",
+        "T_CO_TINH", "V_CO_VI" # Rác rỗng từ log kiểm toán
     }
+    if clean in trash_ids:
+        return "UNKNOWN"
 
-    for path in files:
-        filename = os.path.basename(path)
-        with open(path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                error_report[filename].append("[Lỗi Cấu trúc] File JSON bị hỏng, không thể đọc.")
-                stats["files_with_errors"] += 1
-                continue
-            
-        hub_id = data.get("entity", {}).get("id", "")
-        nodes = data.get("nodes", [])
-        relationships = data.get("relationships", [])
-        
-        node_ids_in_list = {n.get("id") for n in nodes if n.get("id")}
-        node_ids_in_rels = set()
-        file_errors = []
+    # ---------------------------------------------------------
+    # TRƯỜNG HỢP 3: GỌT VỎ RÁC NỘI HÀM (VERBOSE PEELING)
+    # ---------------------------------------------------------
+    temp_core = clean
+    verbose_patterns = [
+        r'VI_CO_TINH_', r'VI_TINH_', r'CO_TINH_', r'TINH_',
+        r'VI_CO_VI_', r'CO_VI_', r'VI_VI_'
+    ]
+    
+    for pat in verbose_patterns:
+        temp_core = re.sub(r'^(T_|V_|K_)' + pat, r'\1', temp_core)
+        temp_core = re.sub(r'^' + pat, "", temp_core)
 
-        # ======================================================
-        # BƯỚC 1: KIỂM TRA MỐI QUAN HỆ & SCHEMA
-        # ======================================================
-        for rel in relationships:
-            from_id = rel.get("from", "")
-            to_id = rel.get("to", "")
-            rel_type = rel.get("relation_type") or rel.get("type", "")
-            
-            # Lỗi 1.0: Đứt gãy (Dangling Edge)
-            if not from_id or not to_id:
-                file_errors.append(f"[Đứt gãy/Dangling] Quan hệ '{rel_type}' bị thiếu ID nguồn (from) hoặc đích (to).")
-                stats["total_dangling"] += 1
-                continue
+    # Bảo vệ K_VI: Chỉ lột vỏ 'VI_' đơn lẻ nếu KHÔNG phải Kinh mạch
+    if not temp_core.startswith("K_"):
+        temp_core = re.sub(r'^(T_|V_)?VI_', r'\1', temp_core)
 
-            node_ids_in_rels.update([from_id, to_id])
+    # ---------------------------------------------------------
+    # TRƯỜNG HỢP 4: SỬA LỖI LẶP TỪ (STUTTERING FIX)
+    # ---------------------------------------------------------
+    # Sửa lỗi V_CAY_CAY -> V_CAY
+    temp_core = re.sub(r'^(.*)_\1$', r'\1', temp_core)
+
+    # ---------------------------------------------------------
+    # TRƯỜNG HỢP 5: XỬ LÝ ID HỖN HỢP & NẮN DÒNG (SURGICAL FIX)
+    # ---------------------------------------------------------
+    # Xử lý V_CAY_DANG -> Giữ lại vị đầu tiên để đưa về Node chuẩn
+    if "CAY_DANG" in temp_core: temp_core = temp_core.replace("CAY_DANG", "CAY")
+    if "TAN_KHO" in temp_core: temp_core = temp_core.replace("TAN_KHO", "TAN")
+    
+    # Xử lý T_CAY_ON -> T_ON (Vì CAY là vị, ON là tính)
+    if "CAY_ON" in temp_core: temp_core = temp_core.replace("CAY_ON", "ON")
+    if "TAN_ON" in temp_core: temp_core = temp_core.replace("TAN_ON", "ON")
+
+    # Sau khi xử lý hỗn hợp, lấy phần nhân thực sự
+    core_only = re.sub(r'^[TVK]_', "", temp_core)
+    if not core_only or core_only == "UNKNOWN": return "UNKNOWN"
+
+    # Sửa lỗi chéo nhãn (Ví dụ T_CAY -> V_CAY)
+    if core_only in KNOWN_TASTES:
+        return f"V_{core_only}"
+    if core_only in KNOWN_NATURES:
+        return f"T_{core_only}"
+    
+    # Bảo vệ Kinh mạch
+    if temp_core.startswith("K_"):
+        for m in KNOWN_MERIDIANS:
+            if m in temp_core: return f"K_{m}"
+        return temp_core
+
+    return temp_core
+
+def process_file(filepath):
+    filename = os.path.basename(filepath)
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # --- CHẶNG 1: PHẪU THUẬT RELATIONSHIPS ---
+        new_rels = {}
+        for rel in data.get("relationships", []):
+            rt = str(rel.get("relation_type", "")).upper()
+            to_id = str(rel.get("to", ""))
+            from_id = str(rel.get("from", ""))
             
-            # Lỗi 1.1: Self-loop (Tự trỏ vào chính mình)
-            if from_id == to_id:
-                file_errors.append(f"[Tự trỏ/Self-Loop] Node '{from_id}' tự trỏ vào chính nó qua quan hệ {rel_type}.")
-                stats["total_cycles"] += 1
+            # Chỉ can thiệp vào nhóm Tính, Vị, Kinh
+            if rt in ["CO_TINH", "CO_VI", "QUY_KINH"] or to_id.startswith(("T_", "V_", "K_")):
+                clean_to_id = clean_tinh_vi_kinh_id(to_id)
                 
-            # Lỗi 1.2: Sai quy tắc chiều (Schema Direction Violation)
-            if rel_type in SCHEMA_RULES:
-                allowed_from, allowed_to = SCHEMA_RULES[rel_type]
-                from_prefix = extract_prefix(from_id)
-                to_prefix = extract_prefix(to_id)
+                # Tiêu diệt nếu là UNKNOWN
+                if clean_to_id == "UNKNOWN":
+                    continue  
                 
-                if not any(from_prefix == p for p in allowed_from):
-                    file_errors.append(f"[Sai Logic Tác Nhân] '{from_id}' (Tiền tố {from_prefix}) không được làm Nguồn cho quan hệ {rel_type}. Chỉ cho phép: {allowed_from}")
-                    stats["total_schema_violations"] += 1
-                    
-                if not any(to_prefix == p for p in allowed_to):
-                    file_errors.append(f"[Sai Logic Đích Đến] '{to_id}' (Tiền tố {to_prefix}) không được làm Đích cho quan hệ {rel_type}. Chỉ cho phép: {allowed_to}")
-                    stats["total_schema_violations"] += 1
+                # Nắn lại Type quan hệ cho khớp với ID đích mới
+                if clean_to_id.startswith("T_"): rt = "CO_TINH"
+                elif clean_to_id.startswith("V_"): rt = "CO_VI"
+                elif clean_to_id.startswith("K_"): rt = "QUY_KINH"
+                
+                rel["to"] = clean_to_id
+                rel["relation_type"] = rt
+                
+            # Hợp nhất quan hệ trùng lặp (Deduplication)
+            edge_key = (from_id, rt, rel["to"])
+            if edge_key in new_rels:
+                existing = new_rels[edge_key]
+                d1 = existing.get("properties", {}).get("mo_ta_chi_tiet", "")
+                d2 = rel.get("properties", {}).get("mo_ta_chi_tiet", "")
+                if d2 and d2 not in d1:
+                    existing["properties"]["mo_ta_chi_tiet"] = f"{d1} | {d2}".strip(" | ")
             else:
-                file_errors.append(f"[Cảnh báo Schema] Quan hệ '{rel_type}' không nằm trong từ điển SCHEMA_RULES hợp lệ.")
-                stats["total_schema_violations"] += 1
+                new_rels[edge_key] = rel
 
-        # ======================================================
-        # BƯỚC 2: KIỂM TRA TÍNH TOÀN VẸN ĐỒ THỊ CAO CẤP
-        # ======================================================
+        data["relationships"] = list(new_rels.values())
+
+        # --- CHẶNG 2: PHẪU THUẬT NODES ---
+        active_ids = {r["from"] for r in data["relationships"]} | {r["to"] for r in data["relationships"]}
+        new_nodes = {}
         
-        # 2.1 Mâu thuẫn 2 chiều
-        conflicts = check_bidirectional_conflicts(relationships)
-        for conflict in conflicts:
-            file_errors.append(f"[Xung đột/Bidirectional] {conflict}")
-            stats["total_conflicts"] += 1
+        for node in data.get("nodes", []):
+            nid = str(node.get("id", ""))
+            if nid.startswith(("T_", "V_", "K_")):
+                clean_nid = clean_tinh_vi_kinh_id(nid)
+                if clean_nid == "UNKNOWN": continue
+                
+                node["id"] = clean_nid
+                # Tạo tên hiển thị (Canonical Name)
+                name = clean_nid.split("_", 1)[-1].replace("_", " ").title()
+                node["properties"]["canonical_name"] = name
+                
+                # Gán nhãn Neo4j chuẩn
+                if clean_nid.startswith(("T_", "V_")): node["label"] = "TinhVi"
+                elif clean_nid.startswith("K_"): node["label"] = "KinhMach"
+                nid = clean_nid
 
-        # 2.2 Trùng lặp quan hệ
-        dupes = check_duplicates(relationships)
-        for dupe in dupes:
-            file_errors.append(f"[Trùng lặp/Duplicate] {dupe}")
-            stats["total_duplicates"] += 1
+            if nid in active_ids:
+                new_nodes[nid] = node
 
-        # 2.3 Vòng lặp đa tầng
-        cycles = check_cycles(relationships)
-        for cycle in cycles:
-            file_errors.append(f"[Vòng lặp logic/Cycle] {cycle}")
-            stats["total_cycles"] += 1
+        # Bổ sung Node nếu mảng nodes bị thiếu nhưng relationships có dùng
+        for aid in active_ids:
+            if aid not in new_nodes and aid.startswith(("T_", "V_", "K_")):
+                lbl = "TinhVi" if aid.startswith(("T_", "V_")) else "KinhMach"
+                nm = aid.split("_", 1)[-1].replace("_", " ").title()
+                new_nodes[aid] = {"id": aid, "label": lbl, "properties": {"canonical_name": nm}}
 
-        # ======================================================
-        # BƯỚC 3: KIỂM TRA TÌNH TRẠNG CÔ LẬP
-        # ======================================================
-        
-        # 3.1 Node Mồ côi (Có khai báo nhưng không dùng)
-        orphans = node_ids_in_list - node_ids_in_rels
-        if hub_id in orphans:
-            # Hub node mồ côi là lỗi cực kỳ nghiêm trọng
-            file_errors.append(f"[CÔ LẬP TOÀN DIỆN] Node chính '{hub_id}' không có bất kỳ kết nối nào trong đồ thị!")
-            stats["total_orphans"] += 1
-            orphans.remove(hub_id)
-            
-        for orphan in orphans:
-            file_errors.append(f"[Node Thừa/Orphan] '{orphan}' được định nghĩa trong mảng 'nodes' nhưng không có cạnh nối.")
-            stats["total_orphans"] += 1
+        data["nodes"] = list(new_nodes.values())
 
-        # 3.2 Node Ma (Dùng nhưng không khai báo) - Tùy chọn, vì Graph DB thường tự tạo Node mới
-        ghosts = node_ids_in_rels - node_ids_in_list
-        if hub_id and hub_id not in node_ids_in_list:
-             file_errors.append(f"[Mất tích Hub] Node chính '{hub_id}' không được định nghĩa trong mảng 'nodes'!")
-             stats["total_schema_violations"] += 1
+        with open(os.path.join(OUTPUT_DIR, filename), "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
-        # ======================================================
-        # TỔNG KẾT FILE
-        # ======================================================
-        if file_errors:
-            error_report[filename] = file_errors
-            stats["files_with_errors"] += 1
-        else:
-            stats["files_passed"] += 1
+    except Exception as e:
+        print(f"💥 Lỗi tại file {filename}: {e}")
 
-    # ==========================================================
-    # 4. KẾT XUẤT BÁO CÁO (SMART REPORTING)
-    # ==========================================================
-    
-    report_content = []
-    report_content.append("="*70)
-    report_content.append(" BÁO CÁO KIỂM ĐỊNH TÍNH TOÀN VẸN ĐỒ THỊ (SMART SANITY CHECK) ".center(70))
-    report_content.append("="*70)
-    report_content.append(f"📍 Tổng số file quét: {total_files}")
-    report_content.append(f"✅ Số file SẠCH 100%: {stats['files_passed']}")
-    report_content.append(f"⚠️ Số file chứa LỖI:  {stats['files_with_errors']}")
-    report_content.append("-" * 70)
-    report_content.append(f"🔍 BÓC TÁCH CÁC LOẠI LỖI (ANOMALY BREAKDOWN):")
-    report_content.append(f"   - Vi phạm Logic Tiền tố / Schema: {stats['total_schema_violations']}")
-    report_content.append(f"   - Đứt gãy / Mất ID (Dangling):    {stats['total_dangling']}")
-    report_content.append(f"   - Node mồ côi / Không kết nối:    {stats['total_orphans']}")
-    report_content.append(f"   - Cạnh trùng lặp (Duplicates):    {stats['total_duplicates']}")
-    report_content.append(f"   - Xung đột 2 chiều (Conflicts):   {stats['total_conflicts']}")
-    report_content.append(f"   - Vòng lặp phi logic (Cycles):    {stats['total_cycles']}")
-    report_content.append("="*70 + "\n")
-
-    if error_report:
-        report_content.append("📌 DANH SÁCH FILE VÀ MÔ TẢ LỖI CHI TIẾT:\n")
-        for filename, errors in sorted(error_report.items()):
-            report_content.append(f"📁 [FILE] {filename}")
-            for err in set(errors): # Dùng set() để tránh in lặp lại cùng một lỗi trong 1 file
-                report_content.append(f"   ❌ {err}")
-            report_content.append("")
-    else:
-        report_content.append("🎉 TUYỆT VỜI! HỆ THỐNG ĐỒ THỊ CỦA BẠN ĐACT ĐỘ TINH KHIẾT TUYỆT ĐỐI KHÔNG CÒN RÁC.")
-
-    report_text = "\n".join(report_content)
-    
-    # In ra Terminal
-    print(report_text)
-    
-    # Ghi ra File
-    with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write(report_text)
-    
-    print(f"\n💾 Đã lưu báo cáo chi tiết tại: {REPORT_FILE}")
+def run():
+    files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
+    print(f"🚀 [DIAMOND_SURGICAL_FIXER_V4] Đang xử lý {len(files)} files...")
+    for f in files:
+        process_file(f)
+    print(f"✅ HOÀN TẤT! Đồ thị của huynh hiện đã đạt độ tinh khiết Diamond.")
 
 if __name__ == "__main__":
-    run_validator()
+    run()

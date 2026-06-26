@@ -1,0 +1,124 @@
+{
+  "entity_hub": "VI_THUOC_SA",
+  "source": {
+    "source_id": "CT_VT_VN_T703",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "703"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_DINH_DOC_SA_S",
+      "to": "VI_THUOC_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị mụn nhọt đinh độc.",
+        "cach_dung": "Đắp vào nơi sưng đau.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_DINH_DOC_SA_S",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mụn nhọt đinh độc",
+        "cach_dung": "Nấu đậu sự cho nhừ nát đắp vào nơi sưng đau. Chừng 3-4 lần thấy đỡ và khỏi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_LEN_DON_SA_S",
+      "to": "VI_THUOC_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị trẻ con lên đơn.",
+        "cach_dung": "Bôi lên nơi lở loét.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_LEN_DON_SA_S",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con lên đơn, chảy nước",
+        "cach_dung": "Đậu sị sao cho cháy có khói lên hết khói thì lấy ra tán nhỏ, hòa dầu vừng hay dầu lạc hoặc dầu thầu dầu hoặc mỡ lợn bôi lên nơi lở loét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_SA_T_KTPT",
+      "to": "VI_THUOC_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị hen suyễn khi trở trời.",
+        "cach_dung": "Uống trước khi đi ngủ.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_SA_T_KTPT",
+      "to": "VT_THACH_TIN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị hen suyễn khi trở trời.",
+        "cach_dung": "Uống trước khi đi ngủ.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_SA_T_KTPT",
+      "to": "VT_KHO_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc trị hen suyễn khi trở trời.",
+        "cach_dung": "Uống trước khi đi ngủ.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    },
+    {
+      "from": "BT_HEN_SUYEN_SA_T_KTPT",
+      "to": "B_HEN_SUYEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hen suyễn, khi nào trở trời mưa thì phát; ăn uống không được, nằm ngồi không yên",
+        "cach_dung": "Mỗi lần uống 7 đến 9 viên. Uống trước khi đi ngủ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T703"
+      }
+    }
+  ],
+  "metadata": {}
+}

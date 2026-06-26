@@ -1,0 +1,120 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHOAI_TAY",
+    "ten_raw": "Khoai tây",
+    "ten_khoa_hoc": "Solanum tuberosum L.",
+    "ho_thuc_vat": "Cà - Solanaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T540",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "540"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hồi là một cây nhỡ cao 2-6m, hình dáng toàn cây thon hình quả trám, xanh tốt quanh năm, thân mọc thẳng, cành dễ gẫy. Lá mọc gần thành chùm 3-4 lá ở đầu cành, có cuống, phiến lá nguyên, dài 8-12cm, rộng 3-4cm, dòn, vò nát có mùi thơm. Hoa khá to, mọc đơn độc ở kẽ lá, cánh hoa màu trắng ở phía ngoài, hồng thắm ở mặt trong. Quả hồi (nhân dân vẫn gọi nhầm là hoa hồi) tiếng Thổ là mác hồi hay mác chác gồm 6-8 đại (cánh), có khi tới 12-13 đại xếp thành hình ngôi sao, đường kính trung bình 2,5-3cm, dày 6-10mm. Tươi có màu xanh, khi chín khô cứng thì có màu nâu hồng. Trên mỗi đại sẽ nứt làm hai, để lộ một hạt màu nâu nhạt, nhẵn bóng. Lá, cuống, hoa và quả đều chứa tinh dầu.",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả hồi ngoài các chất như chất nhầy, đường, chủ yếu chứa tinh dầu từ 3-3,5% (tươi) hoặc 9-10% hay hơn (khô). Tinh dầu hồi là một chất lỏng không màu, hay vàng nhạt, tỷ trọng ở +15°C từ 0,980 đến 0,990, độ đông đặc từ 14- 18°C. Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_ANETHOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_TECPEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_PINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_DIPENTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_ESTRAGOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_SAFROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_TECPINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có 80-90% $anethol$, còn lại là tecpen, pinen, dipenten, limonen, estragola, safrola, tecpineola v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T540"
+      }
+    }
+  ]
+}

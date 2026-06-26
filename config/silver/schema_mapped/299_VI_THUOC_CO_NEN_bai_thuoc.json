@@ -1,0 +1,214 @@
+{
+  "entity_hub": "VI_THUOC_CO_NEN",
+  "source": {
+    "source_id": "CT_VT_VN_T299",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "299"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_BONG_CO_NEN_M",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ bông nến.",
+        "cach_dung": "Lấy bông nến đốt thành than, trộn với mỡ lợn bôi lên vết bỏng",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_BONG_CO_NEN_M",
+      "to": "B_BONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng chữa bỏng",
+        "cach_dung": "Lấy bông nến đốt thành than, trộn với mỡ lợn bôi lên vết bỏng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_CO_NEN_C",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ thân rễ cỏ nến.",
+        "cach_dung": "Lấy thân rễ tươi $20-40g$ giã vắt lấy nước uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_CO_NEN_C",
+      "to": "B_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu tiện khó khăn",
+        "cach_dung": "Lấy thân rễ tươi $20-40g$ giã vắt lấy nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_SOT_PHU_THUNG_CO_NEN_S",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ thân rễ cỏ nến.",
+        "cach_dung": "Lấy thân rễ $20-40g$ sắc uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_SOT_PHU_THUNG_CO_NEN_S",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Lấy thân rễ $20-40g$ sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_SOT_PHU_THUNG_CO_NEN_S",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "cach_dung": "Lấy thân rễ $20-40g$ sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_RONG_HUYET_CO_NEN_B",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ bông nến.",
+        "cach_dung": "Ngày uống $4-6g$",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_RONG_HUYET_CO_NEN_B",
+      "to": "B_RONG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rong huyết",
+        "cach_dung": "Ngày uống $4-6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_CO_NEN_B",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ bông nến.",
+        "cach_dung": "Ngày uống $4-6g$",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_CO_NEN_B",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa băng huyết",
+        "cach_dung": "Ngày uống $4-6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAY_MAU_CO_NEN_B",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ bông nến.",
+        "cach_dung": "Rắc lên vết thương",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_VET_THUONG_CHAY_MAU_CO_NEN_B",
+      "to": "S_CHAY_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết thương chảy máu",
+        "cach_dung": "Rắc lên vết thương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CO_NEN_B",
+      "to": "VI_THUOC_CO_NEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn thuốc từ bông nến.",
+        "cach_dung": "Trộn với dầu vừng bôi lên mụn nhọt",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CO_NEN_B",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Trộn với dầu vừng bôi lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T299"
+      }
+    }
+  ],
+  "metadata": {}
+}

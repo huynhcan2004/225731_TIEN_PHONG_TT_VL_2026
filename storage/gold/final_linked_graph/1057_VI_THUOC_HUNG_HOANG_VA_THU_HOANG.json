@@ -1,0 +1,790 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HUNG_HOANG_VA_THU_HOANG",
+    "ten_raw": "Hùng hoàng và Thư hoàng",
+    "ten_khoa_hoc": "$Realgar, Orpiment; Calomelas$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Liều dùng hàng ngày là $1,5$ đến $3g$ dưới hình thức thuốc bột hay thuốc viên. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "N/A"
+    },
+    "display_name": "Vị thuốc Hùng hoàng và Thư hoàng",
+    "canonical_name": "Vị thuốc Hùng hoàng và Thư hoàng"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAM_RANG_HUNG_HOANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cam răng Hùng hoàng",
+        "aliases": [
+          "cam rang hung hoang",
+          "cam răng hùng hoàng",
+          "camranghunghoang"
+        ],
+        "search_vector_hint": "Bài thuốc Cam răng Hùng hoàng thuộc nhóm Bài thuốc, thường liên quan đến điều trị cam răng."
+      }
+    },
+    {
+      "id": "BT_UNG_THU_TU_CUNG_HUNG_HOANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Ung thư tử cung Hùng hoàng",
+        "aliases": [
+          "ungthutucunghunghoang",
+          "ung thư tử cung hùng hoàng",
+          "ung thu tu cung hung hoang"
+        ],
+        "search_vector_hint": "Bài thuốc Ung thư tử cung Hùng hoàng thuộc nhóm Bài thuốc, thường liên quan đến hỗ trợ điều trị ung thư tử cung."
+      }
+    },
+    {
+      "id": "BT_VIEM_TAI_GIUA_HUNG_HOANG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Viêm tai giữa Hùng hoàng",
+        "aliases": [
+          "viemtaigiuahunghoang",
+          "viêm tai giữa hùng hoàng",
+          "viem tai giua hung hoang"
+        ],
+        "search_vector_hint": "Bài thuốc Viêm tai giữa Hùng hoàng thuộc nhóm Bài thuốc, thường liên quan đến điều trị viêm tai giữa."
+      }
+    },
+    {
+      "id": "B_CAM_RANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cam răng",
+        "aliases": [
+          "cam răng",
+          "cam rang",
+          "camrang"
+        ],
+        "search_vector_hint": "Bệnh Cam răng thuộc nhóm Bệnh, thường liên quan đến bệnh lý răng miệng ở trẻ em."
+      }
+    },
+    {
+      "id": "B_RAN_CAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Răng cắn",
+        "aliases": [
+          "rang can",
+          "răng cắn",
+          "rangcan"
+        ],
+        "search_vector_hint": "Bệnh Răng cắn thuộc nhóm bệnh, thường liên quan đến răng miệng."
+      }
+    },
+    {
+      "id": "B_UNG_THU_TU_CUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ung thư tử cung",
+        "aliases": [
+          "ung thu tu cung",
+          "ungthutucung",
+          "ung thư tử cung"
+        ],
+        "search_vector_hint": "Bệnh Ung thư tử cung thuộc nhóm Bệnh, thường liên quan đến khối u ác tính ở tử cung."
+      }
+    },
+    {
+      "id": "B_VIEM_TAI_GIUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm tai giữa",
+        "aliases": [
+          "viem tai giua",
+          "viêm tai giữa",
+          "viemtaigiua"
+        ],
+        "search_vector_hint": "Bệnh Viêm tai giữa thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng tai."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_TRU_DAM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ đàm",
+        "aliases": [
+          "tru dam",
+          "hoa dam",
+          "hoadam",
+          "khudam",
+          "trừ đàm",
+          "khử đàm",
+          "khu dam",
+          "hóa đàm",
+          "trudam"
+        ],
+        "search_vector_hint": "Công năng Trừ đàm thuộc nhóm Công năng, thường liên quan đến loại bỏ đờm."
+      }
+    },
+    {
+      "id": "DL_GIAI_DOC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Dược lý Giải độc thuộc nhóm Dược lý, thường liên quan đến khả năng loại bỏ chất độc."
+      }
+    },
+    {
+      "id": "DL_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Sát trùng",
+        "aliases": [
+          "sát trùng",
+          "sattrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Sát trùng thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt vi sinh vật."
+      }
+    },
+    {
+      "id": "HC_ASEN_SUNFUA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Asen Sunfua",
+        "aliases": [
+          "asensunfua",
+          "asen sunfua"
+        ],
+        "search_vector_hint": "Hoạt chất Asen Sunfua thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_RUNG_LONG_MAY",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Rụng lông mày",
+        "aliases": [
+          "rụng lông mày",
+          "runglongmay",
+          "rung long may"
+        ],
+        "search_vector_hint": "Triệu chứng Rụng lông mày thuộc nhóm Triệu chứng, thường liên quan đến các bệnh lý về da hoặc nội tiết."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hùng hoàng và Thư hoàng",
+        "aliases": [
+          "hung hoang va thu hoang",
+          "hunghoangvathuhoang",
+          "hùng hoàng và thư hoàng"
+        ],
+        "search_vector_hint": "Vị thuốc Hùng hoàng và Thư hoàng thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc cổ phương.",
+        "bo_phan_dung": "không rõ",
+        "thu_hai": "không rõ",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "Liều dùng hàng ngày là $1,5$ đến $3g$ dưới hình thức thuốc bột hay thuốc viên. Dùng ngoài không kể liều lượng.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "phan_bo": "N/A",
+        "ten_khoa_hoc": "$Realgar, Orpiment; Calomelas$",
+        "ho_thuc_vat": "$Không rõ$",
+        "hinh_thai_chi_tiet": "Hùng (Orpiment, Auripigment) đều là vị thuốc thường dùng trong đông y có chứa asen (thạch tín). Hùng là đực, hoàng là vàng vì hùng hoàng màu vàng, thường thấy ở núi về phía mặt trời mọc. Có khi đỏ trong thì gọi là hùng tinh. Thư là cái, hoàng là vàng vì thư hoàng màu vàng nhạt hơn, thường thấy ở núi phía mặt trời lặn (âm tính). Thực tế hùng hoàng có khi có màu đỏ, nền da cam, còn thư hoàng bao giờ cũng màu vàng. Hùng hoàng được bán dưới hình thức cục to nhỏ không đều nhau, màu vàng da cam hay hơi hồng. Không có mùi vị, tỷ trọng chừng $3,5$ dễ chảy và bốc hơi ở nhiệt độ $700$. Hòa tan trong dung dịch amoniāc, dung dịch không có màu. Khi ném vào than hồng hùng hoàng cho mùi tỏi và mùi sunfua.",
+        "thanh_phan_hoa_hoc": "['$asen sunfua$']",
+        "lieu_dung_tong_quat": "N/A",
+        "ghi_chu_bo_sung": "N/A",
+        "cach_dung_bao_che": "N/A"
+      }
+    },
+    {
+      "id": "VT_KIM_NGAN_HOA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Kim ngân hoa",
+        "aliases": [
+          "kim ngan hoa",
+          "kim ngân hoa",
+          "kimnganhoa"
+        ],
+        "search_vector_hint": "Kim ngân hoa thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_LUU_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lưu hoàng",
+        "aliases": [
+          "luu hoang",
+          "lưu hoàng",
+          "luuhoang"
+        ],
+        "search_vector_hint": "Vị thuốc Lưu hoàng thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc cổ phương."
+      }
+    },
+    {
+      "id": "VT_PHUC_LINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Phục linh",
+        "aliases": [
+          "phuc linh",
+          "phục linh",
+          "phuclinh"
+        ],
+        "search_vector_hint": "Vị thuốc Phục linh thuộc nhóm vị thuốc, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "VT_THU_HOANG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thư hoàng",
+        "aliases": [
+          "thư hoàng",
+          "thu hoang",
+          "thuhoang"
+        ],
+        "search_vector_hint": "Vị thuốc Thư hoàng thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc cổ phương."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1057"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_TAN",
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_CO_TINH_ON",
+        "quy_kinh": [
+          "K_VI",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hùng (Orpiment, Auripigment) đều là vị thuốc thường dùng trong đông y có chứa asen (thạch tín). Hùng là đực, hoàng là vàng vì hùng hoàng màu vàng, thường thấy ở núi về phía mặt trời mọc. Có khi đỏ trong thì gọi là hùng tinh. Thư là cái, hoàng là vàng vì thư hoàng màu vàng nhạt hơn, thường thấy ở núi phía mặt trời lặn (âm tính). Thực tế hùng hoàng có khi có màu đỏ, nền da cam, còn thư hoàng bao giờ cũng màu vàng. Hùng hoàng được bán dưới hình thức cục to nhỏ không đều nhau, màu vàng da cam hay hơi hồng. Không có mùi vị, tỷ trọng chừng $3,5$ dễ chảy và bốc hơi ở nhiệt độ $700$. Hòa tan trong dung dịch amoniāc, dung dịch không có màu. Khi ném vào than hồng hùng hoàng cho mùi tỏi và mùi sunfua.",
+        "thanh_phan_hoa_hoc": [
+          "$asen sunfua$"
+        ],
+        "lieu_dung_tong_quat": "N/A",
+        "ghi_chu_bo_sung": "N/A",
+        "cach_dung_bao_che": "N/A"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ hùng hoàng có vị đắng hơi cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ hùng hoàng có vị đắng hơi cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ hùng hoàng có vị đắng hơi cay, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ hùng hoàng có vị đắng hơi cay, tính ôn (có tác giả lại nói tính hàn) có độc, vào 2 kinh can và vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo tài liệu cổ hùng hoàng có vị đắng hơi cay, tính ôn (có tác giả lại nói tính hàn) có độc, vào 2 kinh can và vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, tính lạnh, không có độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "HC_ASEN_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$asen sunfua$",
+        "ghi_chu": "N/A"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      }
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "S_RUNG_LONG_MAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Hùng hoàng tán nhỏ, hòa với dấm bôi vào",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HUNG_HOANG",
+      "to": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HUNG_HOANG",
+      "to": "VT_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HUNG_HOANG",
+      "to": "VT_LUU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Tá",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_TAI_GIUA_HUNG_HOANG",
+      "to": "B_VIEM_TAI_GIUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tất cả tán nhỏ, thổi vào tai",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_RANG_HUNG_HOANG",
+      "to": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$7$",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_RANG_HUNG_HOANG",
+      "to": "B_CAM_RANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Cho mỗi hạt vào một quả táo đen đã bỏ nhân đi. Đem nướng cho cháy nhưng tồn tính (thành than, không thành tro), tán nhỏ, bôi vào chỗ đau (kinh nghiệm nhân dân)",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ lên vết cắn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_UNG_THU_TU_CUNG_HUNG_HOANG",
+      "to": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$0,40$ đến $0,80$",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_UNG_THU_TU_CUNG_HUNG_HOANG",
+      "to": "VT_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12-20$",
+        "vai_tro": "Tá",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_UNG_THU_TU_CUNG_HUNG_HOANG",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12-20$",
+        "vai_tro": "Tá",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_UNG_THU_TU_CUNG_HUNG_HOANG",
+      "to": "B_UNG_THU_TU_CUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Chế thành viên mỗi viên cân nặng $0,20$g. Mỗi tối uống $2$ lần sau bữa cơm, mỗi lần uống $3-7$ viên. Người yếu chỉ uống $3$ viên, người vừa phải $5$ viên, người khỏe $7$ viên. Tối đa $8-15$ viên",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T1058"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp, sát trùng, giải độc, chữa ghẻ, đau mắt, thịt mọc trong mũi, trừ nọc rắn, tràng nhạc, nọc giang mai, sốt rét, trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp, sát trùng, giải độc, chữa ghẻ, đau mắt, thịt mọc trong mũi, trừ nọc rắn, tràng nhạc, nọc giang mai, sốt rét, trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "CN_TRU_DAM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp, sát trùng, giải độc, chữa ghẻ, đau mắt, thịt mọc trong mũi, trừ nọc rắn, tràng nhạc, nọc giang mai, sốt rét, trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp, sát trùng, giải độc, chữa ghẻ, đau mắt, thịt mọc trong mũi, trừ nọc rắn, tràng nhạc, nọc giang mai, sốt rét, trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HUNG_HOANG_VA_THU_HOANG",
+      "to": "DL_GIAI_DOC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có năng lực thẩm thấp, sát trùng, giải độc, chữa ghẻ, đau mắt, thịt mọc trong mũi, trừ nọc rắn, tràng nhạc, nọc giang mai, sốt rét, trừ đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 60.5,
+      "reliability_c_score": 0.758,
+      "total_confidence_sum": 18.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

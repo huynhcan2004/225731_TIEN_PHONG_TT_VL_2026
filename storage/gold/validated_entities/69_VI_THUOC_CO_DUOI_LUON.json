@@ -1,0 +1,131 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CO_DUOI_LUON",
+    "ten_raw": "Cỏ đuôi lươn",
+    "ten_khoa_hoc": "$Philydrum lanuginosum Banks$",
+    "ho_thuc_vat": "$Họ Cỏ đuôi lươn (Philydrum lanuginosum)$",
+    "variants": [
+      "bồn bồn",
+      "điền thông"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Uống trong ngày dùng $10-15g$ dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Bắc Giang, Bắc Ninh, Quảnh Bình, Quảng Trị, Thừa Thiên, Nam Bộ, Trung Quốc, Ấn Độ"
+    },
+    "display_name": "Cỏ đuôi lươn",
+    "canonical_name": "Cỏ đuôi lươn"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CO_DUOI_LUON",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Co Duoi Luon"
+      }
+    },
+    {
+      "id": "B_HAU_SAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Hau San"
+      }
+    },
+    {
+      "id": "S_LO_LOET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Lo Loet"
+      }
+    },
+    {
+      "id": "S_SUNG_DAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Sung Dau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T69",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "69"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cỏ đuôi lươn là một loại cỏ mọc đứng, cao chừng $0,35-1,30m$. Trên thân có rất nhiều lông ngắn màu trắng, trông như len, nhiều nhất là ở phía dưới cụm hoa. Lá hình gươm, dài $8-70 cm$, rộng $4-10mm$, phía trên có vạch dọc, phía dưới có lông; lá ở gốc phủ lên nhau, có khi $4-5$ lá, dài và hẹp; lá trên thân nhỏ hơn, mọc so le. Cụm hoa mọc thành bông dài $2-5cm$. Lá bắc tồn tại như lá nhưng nhỏ có lông hoặc không có lông. Hoa mọc so le, không cuống. Đài $2$, tràng $2$, nhị $1$, bầu $3$ ngăn không rõ. Quả nang có lá bắc bao bọc, có lông mịn ( Hình $22$ ).",
+        "thanh_phan_hoa_hoc": [],
+        "ghi_chu_bo_sung": "Tên là cỏ đuôi lươn vì ngọn và cụm hoa giống đuôi con lươn. Tên điền thông được ghi trong Lĩnh nam thái dược lục (sách cổ)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CO_DUOI_LUON",
+      "to": "B_HAU_SAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "để cho phụ nữ dùng trước và sau khi sinh nở",
+        "ghi_chu": "(Tại các cửa hàng bán lá Hà Nội, người ta bán). CT_VT_VN_T70"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T69",
+        "all_sources": [
+          "CT_VT_VN_T69"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_DUOI_LUON",
+      "to": "S_LO_LOET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sát vào chỗ lở loét, rửa chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T69",
+        "all_sources": [
+          "CT_VT_VN_T69"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_CO_DUOI_LUON",
+      "to": "S_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sát vào chỗ lở loét, rửa chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T69",
+        "all_sources": [
+          "CT_VT_VN_T69"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 24.5,
+      "reliability_c_score": 0.8,
+      "total_confidence_sum": 3.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

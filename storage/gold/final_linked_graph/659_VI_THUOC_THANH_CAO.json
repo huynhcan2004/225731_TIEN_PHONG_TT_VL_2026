@@ -1,0 +1,878 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THANH_CAO",
+    "ten_raw": "Thanh cao",
+    "ten_khoa_hoc": "$Artemisia apiacea Hance$",
+    "ho_thuc_vat": "$họ Cúc (Compositae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "toàn thân",
+      "lieu_dung_chung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc. Có thể dùng tới liều $20g$ một ngày.",
+      "muc_do_doc": "Không độc"
+    },
+    "display_name": "Vị thuốc Thanh cao",
+    "canonical_name": "Vị thuốc Thanh cao"
+  },
+  "nodes": [
+    {
+      "id": "BT_MO_HOI_TROM_THANH_CAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Mồ hôi trộm Thanh cao",
+        "aliases": [
+          "mo hoi trom thanh cao",
+          "mohoitromthanhcao",
+          "mồ hôi trộm thanh cao"
+        ],
+        "search_vector_hint": "Bài thuốc Mồ hôi trộm Thanh cao thuộc nhóm bài thuốc, thường liên quan đến điều trị mồ hôi trộm."
+      }
+    },
+    {
+      "id": "B_BENH_PHOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phổi",
+        "aliases": [
+          "phổi",
+          "phoi",
+          "bệnh đường hô hấp",
+          "benh duong ho hap",
+          "benhduonghohap",
+          "viemphoi",
+          "viêm phổi",
+          "viem phoi"
+        ],
+        "search_vector_hint": "Bệnh Phổi thuộc nhóm bệnh, thường liên quan đến các vấn đề về hệ hô hấp."
+      }
+    },
+    {
+      "id": "B_LO_NGUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lở ngứa",
+        "aliases": [
+          "longua",
+          "lở ngứa",
+          "lo ngua"
+        ],
+        "search_vector_hint": "Lở ngứa thuộc nhóm bệnh, thường liên quan đến da liễu và dị ứng."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "B_THUONG_HAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thương hàn",
+        "aliases": [
+          "thuonghan",
+          "thương hàn",
+          "thuong han"
+        ],
+        "search_vector_hint": "Bệnh Thương hàn thuộc nhóm bệnh, thường liên quan đến nhiễm trùng."
+      }
+    },
+    {
+      "id": "B_VANG_DA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vàng da",
+        "aliases": [
+          "vang da",
+          "vangda",
+          "vàng da"
+        ],
+        "search_vector_hint": "Bệnh Vàng da thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng gan."
+      }
+    },
+    {
+      "id": "CN_THANH_THU_TICH_UE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh trừ tích 滞",
+        "aliases": [
+          "thanh tru tich 滞",
+          "thanh trừ tích 滞",
+          "thanhtrutich滞"
+        ],
+        "search_vector_hint": "Công năng Thanh trừ tích 滞 thuộc nhóm công năng, thường liên quan đến thanh nhiệt, giải độc."
+      }
+    },
+    {
+      "id": "CN_TRU_AM_PHAN_PHUC_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ âm分伏熱",
+        "aliases": [
+          "truam分伏熱",
+          "tru am分伏熱",
+          "trừ âm分伏熱"
+        ],
+        "search_vector_hint": "Công năng Trừ âm分伏熱 thuộc nhóm công năng, thường liên quan đến trừ âm, thanh nhiệt."
+      }
+    },
+    {
+      "id": "HC_ABROTANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Abrotanin",
+        "aliases": [
+          "abrotanin"
+        ],
+        "search_vector_hint": "Hoạt chất Abrotanin thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_DAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Dan",
+        "aliases": [
+          "dom",
+          "đởm"
+        ],
+        "search_vector_hint": "Kinh Đởm thuộc nhóm kinh mạch, thường liên quan đến sự vận hành của khí huyết."
+      }
+    },
+    {
+      "id": "S_CAM_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Chảy máu cam",
+        "aliases": [
+          "xuất huyết mũi",
+          "xuathuyetmui",
+          "chaymaucam",
+          "xuat huyet mui",
+          "chay mau cam",
+          "chảy máu cam"
+        ],
+        "search_vector_hint": "Chảy máu cam thuộc nhóm triệu chứng, thường liên quan đến vỡ mạch máu mũi."
+      }
+    },
+    {
+      "id": "S_DAI_TIEN_RA_HUYET",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đại tiện ra huyết",
+        "aliases": [
+          "dingoairamau",
+          "dai tien ra huyet",
+          "đại tiện ra huyết",
+          "phancomau",
+          "daitienrahuyet",
+          "đi ngoài ra máu",
+          "phan co mau",
+          "di ngoai ra mau",
+          "phân có máu"
+        ],
+        "search_vector_hint": "Triệu chứng Đại tiện ra huyết thuộc nhóm triệu chứng, thường liên quan đến xuất huyết tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DO_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đỏ màu cam",
+        "aliases": [
+          "đỏ màu cam",
+          "do mau cam",
+          "domaucam"
+        ],
+        "search_vector_hint": "Đỏ màu cam thuộc nhóm triệu chứng, thường liên quan đến thay đổi sắc tố da."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "S_MET_MOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mệt mỏi",
+        "aliases": [
+          "thieunangluong",
+          "thiếu năng lượng",
+          "uể oải",
+          "ue oai",
+          "thieu nang luong",
+          "met moi",
+          "metmoi",
+          "ueoai",
+          "mệt mỏi"
+        ],
+        "search_vector_hint": "Triệu chứng Mệt mỏi thuộc nhóm Triệu chứng, thường liên quan đến tình trạng thiếu năng lượng và uể oải."
+      }
+    },
+    {
+      "id": "S_MO_HOI_TROM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mồ hôi trộm",
+        "aliases": [
+          "domohoibandem",
+          "mo hoi trom",
+          "mồ hôi trộm",
+          "đổ mồ hôi ban đêm",
+          "mohoitrom",
+          "do mo hoi ban dem"
+        ],
+        "search_vector_hint": "Triệu chứng Mồ hôi trộm thuộc nhóm triệu chứng, thường liên quan đến rối loạn thần kinh thực vật."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_DANG_SAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đảng sâm",
+        "aliases": [
+          "dang sam",
+          "đảng sâm",
+          "dangsam"
+        ],
+        "search_vector_hint": "Vị thuốc Đảng sâm thuộc nhóm Vị thuốc, thường liên quan đến bổ khí, dưỡng huyết."
+      }
+    },
+    {
+      "id": "VT_GAO_SONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Gạo sống",
+        "aliases": [
+          "gaosong",
+          "gao song",
+          "gạo sống"
+        ],
+        "search_vector_hint": "Vị thuốc Gạo sống thuộc nhóm vị thuốc, thường liên quan đến kiện tỳ, chỉ tả."
+      }
+    },
+    {
+      "id": "VT_MACH_MON",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mạch môn",
+        "aliases": [
+          "machmon",
+          "mach mon",
+          "mạch môn"
+        ],
+        "search_vector_hint": "Vị thuốc Mạch môn thuộc nhóm Vị thuốc, thường liên quan đến dưỡng âm, nhuận phế."
+      }
+    },
+    {
+      "id": "VT_SINH_DIA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sinh địa",
+        "aliases": [
+          "sinh địa",
+          "sinh dia",
+          "sinhdia"
+        ],
+        "search_vector_hint": "Sinh địa thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền."
+      }
+    },
+    {
+      "id": "VT_THANH_CAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thanh cao",
+        "aliases": [
+          "thanh cao",
+          "thanhcao"
+        ],
+        "search_vector_hint": "Thanh cao thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt.",
+        "bo_phan_dung": "toàn thân",
+        "lieu_dung_chung": "Ngày dùng $6-12g$ dưới dạng thuốc sắc. Có thể dùng tới liều $20g$ một ngày.",
+        "muc_do_doc": "Không độc",
+        "ten_khoa_hoc": "$Artemisia apiacea Hance$",
+        "ho_thuc_vat": "$họ Cúc (Compositae)$",
+        "hinh_thai_chi_tiet": "Thanh cao là một loại cỏ mọc hằng năm hay hai năm, cao chừng $0,3-1,5m$, rất nhiều cành ngay từ giữa cây. Toàn thân có mùi thơm. Lá mọc so le, hai lần xẻ lông chim, phiến lá chét rất nhỏ, mép nguyên hoặc mỗi dìa có 1-3 chỗ rách nhỏ. Cuống lá ngắn và hẹp. Cụm hoa hình đầu, đường kính $6mm$, trông như một quả con. Xung quanh là hoa cái ở giữa là hoa lưỡng tính (Hình 498).",
+        "thanh_phan_hoa_hoc": "['Trong cây thanh cao có tinh dầu, chất đắng và một ancaloit gọi là $abrotanin$.']"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "659"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HAN",
+        "quy_kinh": [
+          "K_DAN",
+          "K_CAN"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thanh cao là một loại cỏ mọc hằng năm hay hai năm, cao chừng $0,3-1,5m$, rất nhiều cành ngay từ giữa cây. Toàn thân có mùi thơm. Lá mọc so le, hai lần xẻ lông chim, phiến lá chét rất nhỏ, mép nguyên hoặc mỗi dìa có 1-3 chỗ rách nhỏ. Cuống lá ngắn và hẹp. Cụm hoa hình đầu, đường kính $6mm$, trông như một quả con. Xung quanh là hoa cái ở giữa là hoa lưỡng tính (Hình 498).",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây thanh cao có tinh dầu, chất đắng và một ancaloit gọi là $abrotanin$."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THANH_CAO",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh cao vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh cao tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh cao vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh cao vào kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "HC_ABROTANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây thanh cao có tinh dầu, chất đắng và một ancaloit gọi là $abrotanin$.",
+        "ghi_chu": "là một ancaloit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$20g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Nước $2bát$ ($300ml$). Sắc uống | Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "cach_dung": "Nước $2bát$ ($300ml$). Sắc uống",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_BENH_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_THUONG_HAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_VANG_DA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "CT_VT_VN_T659"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_MET_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đun và cô đặc. Viên bằng hạt ngô. Trước khi đi ngủ hoặc lúc đói uống 10-20 viên.",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Đun và cô đặc. Viên bằng hạt ngô. Trước khi đi ngủ hoặc lúc đói uống 10-20 viên.",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "VT_THANH_CAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "VT_MACH_MON",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Thần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "VT_DANG_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$12g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "VT_SINH_DIA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "VT_GAO_SONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "B_THUONG_HAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "B_BENH_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_MO_HOI_TROM_THANH_CAO",
+      "to": "S_MO_HOI_TROM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_CAM_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_DO_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "S_DAI_TIEN_RA_HUYET",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài da có tính chất sát trùng",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "B_LO_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng ngoài da có tính chất sát trùng",
+        "ghi_chu": "CT_VT_VN_T660"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "CN_THANH_THU_TICH_UE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh thử tịch uế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANH_CAO",
+      "to": "CN_TRU_AM_PHAN_PHUC_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trừ âm phận phục nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T659",
+        "all_sources": [
+          "CT_VT_VN_T659"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

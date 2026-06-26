@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_CAU_DANG",
+  "source": {
+    "source_id": "CT_VT_VN_T320",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "320"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "CN_BINH_CAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bình can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "CN_TRAN_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ $rhynchophylin$ có tác dụng làm giãn mạch máu ngoại biên làm cho huyết áp hạ xuống rõ rệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "DL_GIA_N_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ $rhynchophylin$ làm dãn vi huyết quản."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    },
+    {
+      "from": "VI_THUOC_CAU_DANG",
+      "to": "DL_HUNG_PHAN_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều nhỏ $rhynchophylin$ có tác dụng hưng phấn trung khu hô hấp."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T320"
+      }
+    }
+  ],
+  "metadata": {}
+}

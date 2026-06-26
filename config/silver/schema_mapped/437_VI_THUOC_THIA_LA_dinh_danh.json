@@ -1,0 +1,201 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THIA_LA",
+    "ten_raw": "Thìa là",
+    "ten_khoa_hoc": "Anethum graveolens L.; Peucedanum graveolens Benth. et Hook.",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "variants": [
+      "rau thìa là",
+      "phăk si",
+      "aneth"
+    ],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "phan_bo": "khắp nơi ở nước ta",
+      "thu_hai": "Quả hái về phơi khô là được."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T437",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "437"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "cong_nang": "hòa vị, khai vị, kiện tỳ, tán hàn, giảm đau"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là rau thìa là, phăk si (Lào-Vientian), aneth (Pháp). Cỏ nhỏ mọc hằng năm, ít phân nhánh, thân nhẵn, cao $0,3$-$1m$, lá xẻ ba thành những phiến nhỏ hình sợi, và có mùi thơm dễ chịu, nhưng có người cho là khó chịu. Hoa màu vàng nhạt, mọc thành tán to thường gồm $10$ gọng không tổng bao và tiểu bao. Quả hình trúng, dài $3mm$, rộng $1,5mm$, dẹt ở lưng, phân liệt quả tách nhau dễ dàng, có $3$ sống dọc nổi",
+        "thanh_phan_hoa_hoc": [
+          "Trong quả thìa là có từ $3$-$4\\%$ tinh dầu. Tinh dầu không màu hay hơi vàng nhạt, tỷ trọng $0,900$-$0,915$, quay phải $+70°$-$+80°$. Thành phần chủ yếu trong tinh dầu là $d.limonen$, $phellandren$, $40$-$60\\%$ $d.cacvon$, một ít paraffin. Trong tinh dầu thì là của Ấn Độ còn chứa $dillapiol$. Theo Schimmel, tinh dầu thìa là của Tây Ban Nha cất từ toàn cây chỉ chứa có $20\\%$ cacvon, không có limonen, chỉ có phelandren."
+        ],
+        "cach_dung_bao_che": "Thìa là cho quả dùng làm thuốc."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính ấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tinh dầu là $d.limonen$, $phellandren$, $40$-$60\\%$ $d.cacvon$, một ít paraffin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_PHELLANDREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tinh dầu là $d.limonen$, $phellandren$, $40$-$60\\%$ $d.cacvon$, một ít paraffin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_CACVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu trong tinh dầu là $d.limonen$, $phellandren$, $40$-$60\\%$ $d.cacvon$, một ít paraffin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_DILLAPIOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu thì là của Ấn Độ còn chứa $dillapiol$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_CARVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là d. $carvon$ ($40$-$60\\%$) và d. $limonen$ ($30$-$40\\%$)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_DIHYDROCARVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có a phellandren, dihydrocarvon, eugenol, anethofuran, bergapten."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_EUGENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có a phellandren, dihydrocarvon, eugenol, anethofuran, bergapten."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_ANETHOFURAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có a phellandren, dihydrocarvon, eugenol, anethofuran, bergapten."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_BERGAPTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có a phellandren, dihydrocarvon, eugenol, anethofuran, bergapten."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_PARA_CYMOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có chứa $0,1$-$0,15\\%$ tinh dầu, thành phần chủ yếu là a phellandren, ngoài ra còn có limonen, para cymol, terpinolen, eugenol, acid isovalerianic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_TERPINOLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có chứa $0,1$-$0,15\\%$ tinh dầu, thành phần chủ yếu là a phellandren, ngoài ra còn có limonen, para cymol, terpinolen, eugenol, acid isovalerianic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    },
+    {
+      "from": "VI_THUOC_THIA_LA",
+      "to": "HC_ACID_ISOVALERIANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá tươi có chứa $0,1$-$0,15\\%$ tinh dầu, thành phần chủ yếu là a phellandren, ngoài ra còn có limonen, para cymol, terpinolen, eugenol, acid isovalerianic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T437"
+      }
+    }
+  ]
+}

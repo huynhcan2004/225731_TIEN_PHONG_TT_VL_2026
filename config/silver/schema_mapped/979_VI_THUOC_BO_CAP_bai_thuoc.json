@@ -1,0 +1,478 @@
+{
+  "entity_hub": "VI_THUOC_BO_CAP",
+  "source": {
+    "source_id": "CT_VT_VN_T979",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "979"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Câu đằng, Thuyền thoái, Cam thảo để điều trị kinh phong, co giật ở trẻ em.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "VT_CAU_DANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Câu đằng, Thuyền thoái, Cam thảo để điều trị kinh phong, co giật ở trẻ em.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "VT_THUYEN_THOAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Câu đằng, Thuyền thoái, Cam thảo để điều trị kinh phong, co giật ở trẻ em.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Câu đằng, Thuyền thoái, Cam thảo để điều trị kinh phong, co giật ở trẻ em.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "B_KINH_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh phong, co giật ở trẻ con",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_BO_CAP_BDB",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Địa long, Bạch giới tử để điều trị bán thân bất toại.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_BO_CAP_BDB",
+      "to": "VT_DIA_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Địa long, Bạch giới tử để điều trị bán thân bất toại.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_BO_CAP_BDB",
+      "to": "VT_BACH_GIOI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bọ cạp phối hợp với Địa long, Bạch giới tử để điều trị bán thân bất toại.",
+        "cach_dung": "Sắc uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_BO_CAP_BDB",
+      "to": "B_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bán thân bất toại",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_ZONA_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị zona.",
+        "cach_dung": "Bôi lên nơi bị bệnh",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_ZONA_BO_CAP_B",
+      "to": "B_ZONA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa zona",
+        "cach_dung": "Bôi lên nơi bị bệnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị kinh giản, co giật của trẻ em.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_GIAN_BO_CAP_B",
+      "to": "B_KINH_GIAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh giản, co giật của trẻ em",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KHOC_DEM_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị trẻ em khóc đêm.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KHOC_DEM_BO_CAP_B",
+      "to": "S_KHOC_DEM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ em khóc đêm",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_CAM_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị bị cảm.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_CAM_BO_CAP_B",
+      "to": "B_CAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bị cảm",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_MAT_TIENG_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị mất tiếng.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_MAT_TIENG_BO_CAP_B",
+      "to": "S_MAT_TIENG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mất tiếng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_XUAT_HUYET_NAO_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị xuất huyết não.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_XUAT_HUYET_NAO_BO_CAP_B",
+      "to": "B_XUAT_HUYET_NAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa xuất huyết não",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_CO_HONG_SUNG_DAU_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị cổ họng sưng đau.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_CO_HONG_SUNG_DAU_BO_CAP_B",
+      "to": "S_CO_HONG_SUNG_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa cổ họng sưng đau",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị con trai liệt dương.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_BO_CAP_B",
+      "to": "B_LIET_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa con trai liệt dương",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị con gái băng huyết.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_BANG_HUYET_BO_CAP_B",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa con gái băng huyết",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị khí hư trắng hay đỏ.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KHI_HU_BO_CAP_B",
+      "to": "B_KHI_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khí hư trắng hay đỏ",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_SAU_DE_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị đẻ xong đau bụng.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_DAU_BUNG_SAU_DE_BO_CAP_B",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đẻ xong đau bụng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_VET_DEN_SAM_BO_CAP_B",
+      "to": "VI_THUOC_BO_CAP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn phương trị những vết đen sạm trên mặt.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_VET_DEN_SAM_BO_CAP_B",
+      "to": "S_VET_DEN_SAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những vết đen sạm trên mặt",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    },
+    {
+      "from": "BT_KINH_PHONG_BO_CAP_BCT",
+      "to": "S_CO_GIAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa kinh phong, co giật ở trẻ con",
+        "cach_dung": "Sắc uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T979"
+      }
+    }
+  ],
+  "metadata": {}
+}

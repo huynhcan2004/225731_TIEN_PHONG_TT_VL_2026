@@ -1,0 +1,219 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CA_NOC",
+    "ten_raw": "Cá nóc",
+    "ten_khoa_hoc": "Tetrodon ocellatus",
+    "ho_thuc_vat": "Cá nóc Tetrodontidae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Không rõ",
+      "thu_hai": "Không rõ",
+      "che_bien_tho": "Không rõ",
+      "lieu_dung_chung": "Không rõ",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không rõ"
+    },
+    "display_name": "Cá nóc"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_CA_NOC",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ca Noc"
+      }
+    },
+    {
+      "id": "HC_CIGUATOXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ciguatoxin"
+      }
+    },
+    {
+      "id": "HC_CIGUATERIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ciguaterin"
+      }
+    },
+    {
+      "id": "HC_TETRODOTOXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tetrodotoxin"
+      }
+    },
+    {
+      "id": "S_NGO_DOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ngo Doc"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Than Kinh"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_HO_HAP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Ho Hap"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TUAN_HOAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh Tuan Hoan"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "DL_GIAM_DAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Dau"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1029",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1029"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cá nóc là tên dành cho nhiều loài cá khác nhau, có thân hình đặc biệt: thân ngắn, vảy kém phát triển, có răng gắn với nhau thành tấm, kém hoạt động, đặc biệt có bụng phình bầu ra. Khi tự vệ, cá nóc hay ngậm hơi lại, làm phồng mình như chiếc bong bóng, rồi ngửa bụng lên trời, lờ đờ trôi theo dòng nước, thỉnh thoảng chỉ hơi vẫy cái đuôi ngắn của nó. Nằm như vậy, cá không sợ giống gì hại nổi, vì mặt dưới lưng cá lởm chởm đầy gai, phía trên, răng cá vừa lớn, vừa sắc như dao, lại quằm vào một cái mỏ như mỏ chim vet.",
+        "thanh_phan_hoa_hoc": [
+          "$ciguatoxin$, $ciguaterin$, $tetrodotoxin$"
+        ],
+        "ghi_chu_bo_sung": "Một số gan cá nóc được dùng ép lấy dầu làm thuốc."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "HC_CIGUATOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ciguatoxin$, $ciguaterin$, $tetrodotoxin$",
+        "ghi_chu": "Một số gan cá nóc được dùng ép lấy dầu làm thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "HC_CIGUATERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ciguatoxin$, $ciguaterin$, $tetrodotoxin$",
+        "ghi_chu": "Một số gan cá nóc được dùng ép lấy dầu làm thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "HC_TETRODOTOXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$ciguatoxin$, $ciguaterin$, $tetrodotoxin$",
+        "ghi_chu": "Một số gan cá nóc được dùng ép lấy dầu làm thuốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "S_NGO_DOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Uống để giải độc.",
+        "ghi_chu": "Tại các bệnh viện, hiện nay cũng chưa có một thứ thuốc giải độc đặc hiệu đối với cá nóc, mà thường cứu chữa theo các triệu chứng ngộ độc. Nước dừa, nước hoa quả trám trắng có thể dùng để giải độc khi ngộ độc cá nóc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất độc cá nóc tác dụng trên thần kinh trung ương làm tê liệt cơ thể.",
+        "ghi_chu": "Tetradotoxin gây hiện tượng giảm hô hấp và phong bế cơ thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất độc cá nóc gây ngừng trệ sự hô hấp.",
+        "ghi_chu": "Tetradotoxin gây hiện tượng giảm hô hấp và phong bế cơ thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "DL_DOC_TINH_TUAN_HOAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất độc cá nóc gây ngừng trệ sự tuần hoàn.",
+        "ghi_chu": "Tetradotoxin gây hiện tượng giảm hô hấp và phong bế cơ thần kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêm $4$ $mg$ tetrodotoxin cho một con thỏ cân nặng $1$ $kg$ cũng đủ làm con thỏ chết ngay.",
+        "ghi_chu": "LD50 ở thỏ là $4$ $mg/kg$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    },
+    {
+      "from": "VI_THUOC_CA_NOC",
+      "to": "DL_GIAM_DAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều lượng rất nhỏ, tetradotoxin được dùng làm chất làm dịu ở giai đoạn cuối của ung thư."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1029"
+      }
+    }
+  ]
+}

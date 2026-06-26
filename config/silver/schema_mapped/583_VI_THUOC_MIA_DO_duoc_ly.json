@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_MIA_DO",
+  "source": {
+    "source_id": "CT_VT_VN_T583",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "583"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Làm thuốc mát."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "DL_HA_NHIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "DL_GIAI_BIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ra mồ hôi."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,472 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_SAU_BAN_MIEU",
+    "ten_raw": "Sâu ban miêu",
+    "ten_khoa_hoc": "$Lytta vesicatoria Fabr. (Cantharis vesicatoria De Geer)$",
+    "ho_thuc_vat": "$Sâu ban miêu Meloidae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "sâu",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Liều tối đa: $0,03$g/lần; $0,06$g/$24$ giờ. Cồn ban miêu $10\\%$: dùng theo giọt (VI-X giọt).",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Sống hoang dại khắp nơi, thường ở cây đậu."
+    },
+    "display_name": "Vị thuốc Sâu ban miêu",
+    "canonical_name": "Vị thuốc Sâu ban miêu"
+  },
+  "nodes": [
+    {
+      "id": "BT_DA_SAU_BAN_MIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc da sau ban miêu",
+        "aliases": [
+          "da sau ban mieu",
+          "dasaubanmieu",
+          "da sau ban miêu"
+        ],
+        "search_vector_hint": "Bài thuốc da sau ban miêu thuộc nhóm bài thuốc, thường liên quan đến điều trị tổn thương da do ban miêu."
+      }
+    },
+    {
+      "id": "BT_VIEM_THUONG_BI_THAN_SAU_BAN_MIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc viêm thượng bì thận sau ban miêu",
+        "aliases": [
+          "viem thuong bi than sau ban mieu",
+          "viemthuongbithansaubanmieu",
+          "viêm thượng bì thận sau ban miêu"
+        ],
+        "search_vector_hint": "Bài thuốc viêm thượng bì thận sau ban miêu thuộc nhóm bài thuốc, thường liên quan đến điều trị biến chứng sau khi dùng ban miêu."
+      }
+    },
+    {
+      "id": "B_VIEM_THUONG_BI_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm thượng bì thận",
+        "aliases": [
+          "viemthuongbithan",
+          "viem thuong bi than",
+          "viêm thượng bì thận"
+        ],
+        "search_vector_hint": "Bệnh Viêm thượng bì thận thuộc nhóm Bệnh, thường liên quan đến các vấn đề về thận và da."
+      }
+    },
+    {
+      "id": "CN_PHA_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng phá huyết",
+        "aliases": [
+          "phá huyết",
+          "phahuyet",
+          "pha huyet"
+        ],
+        "search_vector_hint": "Công năng phá huyết thuộc nhóm công năng, thường liên quan đến tác động mạnh lên hệ tuần hoàn."
+      }
+    },
+    {
+      "id": "CN_THONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng thông tiểu",
+        "aliases": [
+          "thongnieu",
+          "thongtieu",
+          "thong nieu",
+          "lợi niệu",
+          "loinieu",
+          "thong tieu",
+          "thông tiểu",
+          "loi nieu",
+          "thông niệu"
+        ],
+        "search_vector_hint": "Công năng thông tiểu thuộc nhóm công năng, thường liên quan đến tăng cường bài tiết nước tiểu."
+      }
+    },
+    {
+      "id": "CN_TIEU_THUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng tiêu thũng",
+        "aliases": [
+          "tieuthung",
+          "tieuphu",
+          "tiêu thũng",
+          "tiêu phù",
+          "tieu thung",
+          "tieu phu"
+        ],
+        "search_vector_hint": "Công năng tiêu thũng thuộc nhóm công năng, thường liên quan đến giảm sưng phù."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý độc tính thần",
+        "aliases": [
+          "độc tính thần",
+          "doctinhthan",
+          "doc tinh than"
+        ],
+        "search_vector_hint": "Dược lý độc tính thần thuộc nhóm dược lý, thường liên quan đến tác động độc hại lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_GAY_RO_DA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý gây rộp da",
+        "aliases": [
+          "gây rộp da",
+          "gayropda",
+          "gay rop da"
+        ],
+        "search_vector_hint": "Dược lý gây rộp da thuộc nhóm dược lý, thường liên quan đến tác dụng phụ trên da."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý kích thích",
+        "aliases": [
+          "kích thích",
+          "kichthich",
+          "kich thich"
+        ],
+        "search_vector_hint": "Dược lý kích thích thuộc nhóm dược lý, thường liên quan đến tăng cường hoạt động của cơ quan."
+      }
+    },
+    {
+      "id": "HC_CANTHARIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cantharidin",
+        "aliases": [
+          "cantharidin"
+        ],
+        "search_vector_hint": "Hoạt chất Cantharidin thuộc nhóm Hoạt chất, thường liên quan đến các hợp chất hóa học có hoạt tính sinh học."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_GAY_RO_DA",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Gay Ro Da"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_SAU_BAN_MIEU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Sâu ban miêu",
+        "aliases": [
+          "saubanmieu",
+          "sâu ban miêu",
+          "sau ban mieu"
+        ],
+        "search_vector_hint": "Vị thuốc Sâu ban miêu thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc có tính chất đặc biệt.",
+        "bo_phan_dung": "sâu",
+        "lieu_dung_chung": "Liều tối đa: $0,03$g/lần; $0,06$g/$24$ giờ. Cồn ban miêu $10\\%$: dùng theo giọt (VI-X giọt).",
+        "muc_do_doc": "Có độc",
+        "phan_bo": "Sống hoang dại khắp nơi, thường ở cây đậu.",
+        "ten_khoa_hoc": "$Lytta vesicatoria Fabr. (Cantharis vesicatoria De Geer)$",
+        "ho_thuc_vat": "$Sâu ban miêu Meloidae$",
+        "hinh_thai_chi_tiet": "Sâu nhỏ, có cánh cứng, màu xanh lục biếc, dài $15$-$20mm$, ngang $4$-$6mm$. Đầu hình tim có rãnh dọc, râu đen 11 đốt. Mùi hăng khó chịu. Ngoài ra còn có giống Mylabris thân đen có điểm vàng hoặc đỏ nhạt (Hình 773).",
+        "thanh_phan_hoa_hoc": "['Hoạt chất chính là $cantharidin$ (hàm lượng $0,4\\\\%$ đến $1,25\\\\%$) có tác dụng gây phồng da mạnh. Chất này nằm chủ yếu trong máu và bộ phận sinh dục của sâu.']",
+        "cach_dung_bao_che": "Khi dùng ngắt bỏ đầu, chân, cánh, ruột. Sao với gạo nếp để giảm độc."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1050"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sâu nhỏ, có cánh cứng, màu xanh lục biếc, dài $15$-$20mm$, ngang $4$-$6mm$. Đầu hình tim có rãnh dọc, râu đen 11 đốt. Mùi hăng khó chịu. Ngoài ra còn có giống Mylabris thân đen có điểm vàng hoặc đỏ nhạt (Hình 773).",
+        "thanh_phan_hoa_hoc": [
+          "Hoạt chất chính là $cantharidin$ (hàm lượng $0,4\\%$ đến $1,25\\%$) có tác dụng gây phồng da mạnh. Chất này nằm chủ yếu trong máu và bộ phận sinh dục của sâu."
+        ],
+        "cach_dung_bao_che": "Khi dùng ngắt bỏ đầu, chân, cánh, ruột. Sao với gạo nếp để giảm độc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "HC_CANTHARIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính là $cantharidin$ (hàm lượng $0,4\\%$ đến $1,25\\%$) có tác dụng gây phồng da mạnh.",
+        "ghi_chu": "nằm chủ yếu trong máu và bộ phận sinh dục của sâu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_THUONG_BI_THAN_SAU_BAN_MIEU",
+      "to": "VT_SAU_BAN_MIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "8-10 giọt",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "B_VIEM_THUONG_BI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "CN_THONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "mo_ta_chi_tiet": "Thông tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DA_SAU_BAN_MIEU",
+      "to": "VT_SAU_BAN_MIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Chuẩn hóa hiện đại",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "S_GAY_RO_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "CN_PHA_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Phá huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "CN_TIEU_THUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thũng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "DL_DOC_TINH_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cantharidin thấm qua da gây độc thận.",
+        "ghi_chu": "Độc tính trên thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "DL_KICH_THICH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Kích thích hệ tiết niệu và sinh dục."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_SAU_BAN_MIEU",
+      "to": "DL_GAY_RO_DA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Gây rộp da mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1050",
+        "all_sources": [
+          "CT_VT_VN_T1050"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 42.0,
+      "reliability_c_score": 0.7633,
+      "total_confidence_sum": 11.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

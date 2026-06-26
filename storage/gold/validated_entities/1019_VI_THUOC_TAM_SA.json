@@ -1,0 +1,567 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_TAM_SA",
+    "ten_raw": "Tàm sa",
+    "ten_khoa_hoc": "$Faeces Bombycum hoặc Exerementum Bombycis.$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "phân tằm",
+      "thu_hai": "không rõ",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Ngày dùng $6-12$g, có khi dùng tới $30$g dưới dạng thuốc sắc hay thuốc viên. Dùng ngoài không kể liều lượng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "Tất cả những nơi nuôi tằm"
+    },
+    "display_name": "Tàm sa",
+    "canonical_name": "Tàm sa"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_TAM_SA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Tam Sa"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Ty"
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Vi"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_A",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin A"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_B",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin B"
+      }
+    },
+    {
+      "id": "HC_CHAT_HUU_CO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Chat Huu Co"
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Protit"
+      }
+    },
+    {
+      "id": "HC_CLOROPHYL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Clorophyl"
+      }
+    },
+    {
+      "id": "HC_HETERAUXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Heterauxin"
+      }
+    },
+    {
+      "id": "HC_HISTIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Histidin"
+      }
+    },
+    {
+      "id": "BT_BAN_THAN_BAT_TOAI_TAM_SA",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ban Than Bat Toai Tam Sa"
+      }
+    },
+    {
+      "id": "B_BAN_THAN_BAT_TOAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ban Than Bat Toai"
+      }
+    },
+    {
+      "id": "B_BANG_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bang Huyet"
+      }
+    },
+    {
+      "id": "S_MIENG_KHO_KHAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mieng Kho Khat"
+      }
+    },
+    {
+      "id": "B_DI_DAI_RA_DUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Di Dai Ra Duong"
+      }
+    },
+    {
+      "id": "S_MIENG_KHAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Mieng Khat"
+      }
+    },
+    {
+      "id": "B_THO_TA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tho Ta"
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Khu Phong"
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tao Thap"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1019"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)",
+          "Cay (Tân)"
+        ],
+        "tinh": "Ôn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TY",
+          "K_VI"
+        ],
+        "cong_nang": "khứ phong táo thấp",
+        "kieng_ky_dac_biet": "Không rõ"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Phân tằm là những thỏi nhỏ dài chừng $3mm$, đường kính $2-3mm$, màu nâu đen, mặt không nhẵn, chất cúng nhưng dòn, hơi có mùi hôi.",
+        "thanh_phan_hoa_hoc": [
+          "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+        ],
+        "ghi_chu_bo_sung": "Tàm sa là phân tằm phơi khô."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị ngọt"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_VITAMIN_A",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin.",
+        "ghi_chu": "Phân tằm chứa Vitamin A và B"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_VITAMIN_B",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin.",
+        "ghi_chu": "Phân tằm chứa Vitamin A và B"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_CHAT_HUU_CO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_CLOROPHYL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_HETERAUXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "HC_HISTIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vitamin A và B, chất hữu cơ, protit, clorophyl, kích thích tố thực vật heterauxin và histidin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_TAM_SA",
+      "to": "VI_THUOC_TAM_SA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2$",
+        "vai_tro": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_BAN_THAN_BAT_TOAI_TAM_SA",
+      "to": "B_BAN_THAN_BAT_TOAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15$g",
+        "cach_dung": "Uống mỗi ngày, có thể dùng rượu chiêu thuốc",
+        "ghi_chu": "Tầm sa sao vàng tán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "S_MIENG_KHO_KHAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$40$g",
+        "cach_dung": "Nước $600$ml, sắc còn $300$ml, chia nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "B_DI_DAI_RA_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40$g",
+        "cach_dung": "Nước $600$ml, sắc còn $300$ml, chia nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "S_MIENG_KHAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$40$g",
+        "cach_dung": "Nước $600$ml, sắc còn $300$ml, chia nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "B_THO_TA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$40$g",
+        "cach_dung": "Nước $600$ml, sắc còn $300$ml, chia nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất phân tằm ghi trong các sách cổ là vị ngọt, cay, tính ôn, không độc, vào 3 kinh can, tỳ, vị, có tác dụng khứ phong táo thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_TAM_SA",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính chất phân tằm ghi trong các sách cổ là vị ngọt, cay, tính ôn, không độc, vào 3 kinh can, tỳ, vị, có tác dụng khứ phong táo thấp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1019",
+        "all_sources": [
+          "CT_VT_VN_T1019"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 63.0,
+      "reliability_c_score": 0.7587,
+      "total_confidence_sum": 17.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_KHOAI_TAY",
+    "ten_raw": "Khoai tây",
+    "ten_khoa_hoc": "$Solanum tuberosum L.$",
+    "ho_thuc_vat": "$Cà Solanaceae (Solanaceae)$",
+    "variants": [
+      "Solanum tuberosum"
+    ],
+    "properties": {
+      "bo_phan_dung": "củ",
+      "thu_hai": "không đề cập",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Không đề cập",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "có thể gây ra những trường hợp ngộ độc",
+      "phan_bo": "Nam Mỹ, Chilê, Pêru, châu Âu, Việt Nam"
+    },
+    "display_name": null,
+    "canonical_name": "Khoai tây"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_KHOAI_TAY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Khoai Tay"
+      }
+    },
+    {
+      "id": "HC_SOLANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Solanin"
+      }
+    },
+    {
+      "id": "HC_SOLANIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Solanidin"
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Bung"
+      }
+    },
+    {
+      "id": "S_DAU_VUNG_GAN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Dau Vung Gan"
+      }
+    },
+    {
+      "id": "B_DAU_NHUC_KHOP_XUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Nhuc Khop Xuong"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "542"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Thân thẳng cao $30$-$80cm$, mang lá kép xẻ lông chim, với lá chét to nhỏ khác nhau. Hoa mọc thành xim, màu tím hay trắng. Quả mọng hình cầu, xanh nhạt hay tím nhạt, chứa rất nhiều hạt nhỏ hình thận Trong toàn cây khoai tây chứa chất “$solanin$”, gồm các anbumin, pepton axit amin và nucleoproteit. Dựa vào hiện tượng nứt khi nấu người ta phân biệt ra khoai tây tương đối giàu protit khi nấu không bị nứt và khoai tây ít protit khi nấu bị nứt. Trong loại khoai tây này tỷ lệ hợp chất nitơ/tinh bột dưới $0,12$. Loại này được dùng để chế tinh bột khoai tây. Trong khoai tây còn chứa rất nhiều men: amylaza, sucraza, oxydaza.., vitamin B, B, C ($100g$ chứa $15mg$ vitamin C nằm chủ yếu trong lớp vỏ). Trong khoai tây chín và mới dỡ không có $solanin$. Nhưng trong củ khoai mà vỏ đã xanh (do để ngoài ánh sáng mặt trời) hay đã nẩy mầm, tỷ lệ $solanin$ có thể tới $0,02\\%$ do đó có thể gây ra những trường hợp ngộ độc. Khi cắt củ khoai tây để lâu ngoài trời, vết cắt bị đen nâu lại là do các vết của hợp chất polyphenol bị men polyphenoloxydaza trong cây tác động lên.",
+        "thanh_phan_hoa_hoc": [
+          "$Solanin$"
+        ],
+        "cach_dung_bao_che": "Không tìm thấy"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_SOLANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong toàn cây khoai tây chứa chất “$solanin$”, gồm các anbumin, pepton axit amin và nucleoproteit.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "all_sources": [
+          "CT_VT_VN_T542"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "HC_SOLANIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "một hỗn hợp glucoancaloit mà phần genin là chất solanidin, chất o $solanin$ là thành phần chính chiếm tới $95\\%$.",
+        "ghi_chu": "Không tìm thấy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "all_sources": [
+          "CT_VT_VN_T542"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc | $0,05$ đến $0,20$ g",
+        "cach_dung": "Dùng chất gây đau bụng đi ngoài ấy trong chữa bệnh | Dùng dưới hình thức thuốc viên, thuốc gói hay thuốc tiêm",
+        "ghi_chu": "Khoai tây mọc mầm gây đau bụng, đi ngoài. Dùng chất này để chữa bệnh (nguyên văn). Cần xem xét lại tính an toàn và hiệu quả của thông tin này. | Dùng $Solanin$ chiết xuất từ khoai tây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "all_sources": [
+          "CT_VT_VN_T542"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "S_DAU_VUNG_GAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$0,05$ đến $0,20$ g",
+        "cach_dung": "Dùng dưới hình thức thuốc viên, thuốc gói hay thuốc tiêm",
+        "ghi_chu": "Dùng $Solanin$ chiết xuất từ khoai tây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "all_sources": [
+          "CT_VT_VN_T542"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_KHOAI_TAY",
+      "to": "B_DAU_NHUC_KHOP_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$0,05$ đến $0,20$ g",
+        "cach_dung": "Dùng dưới hình thức thuốc viên, thuốc gói hay thuốc tiêm",
+        "ghi_chu": "Dùng $Solanin$ chiết xuất từ khoai tây."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "all_sources": [
+          "CT_VT_VN_T542"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 30.5,
+      "reliability_c_score": 0.7833,
+      "total_confidence_sum": 4.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

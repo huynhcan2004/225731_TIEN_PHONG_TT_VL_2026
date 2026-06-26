@@ -1,0 +1,662 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CO_BINH",
+    "ten_raw": "Cây cổ bình",
+    "ten_khoa_hoc": "$Desmodium trique-trum (L.) DC.$",
+    "ho_thuc_vat": "$Cánh buάm Fabaceae (Papilionaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không đề cập",
+      "thu_hai": "tháng 6-9.",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng $10-20$ g dưới dạng thuốc sắc.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Mọc hoang dại phổ biến trên các đồi cỏ và đồi sim mua khắp mọi nơi ở nước ta. Còn thấy ở Trung Quốc, Ấn Độ."
+    },
+    "display_name": "Vị thuốc Cỏ bình",
+    "canonical_name": "Vị thuốc Cỏ bình"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAM_TICH_CO_BINH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cam tích cỏ bình",
+        "aliases": [
+          "cam tich co binh",
+          "camtichcobinh",
+          "cam tích cỏ bình"
+        ],
+        "search_vector_hint": "Cam tích cỏ bình thuộc nhóm Bài thuốc, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_CAM_TICH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cam tích",
+        "aliases": [
+          "cam tích",
+          "camtich",
+          "cam tich"
+        ],
+        "search_vector_hint": "Cam tích thuộc nhóm bệnh, thường liên quan đến suy dinh dưỡng ở trẻ em."
+      }
+    },
+    {
+      "id": "B_PHE_UNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phế ung",
+        "aliases": [
+          "phe ung",
+          "pheung",
+          "phế ung"
+        ],
+        "search_vector_hint": "Phế ung thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng phổi."
+      }
+    },
+    {
+      "id": "B_THUY_THUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Thủy thũng",
+        "aliases": [
+          "phù",
+          "thủy thũng",
+          "phu",
+          "thuythung",
+          "thuy thung"
+        ],
+        "search_vector_hint": "Bệnh Thủy thũng thuộc nhóm Bệnh, thường liên quan đến tình trạng tích tụ dịch trong cơ thể."
+      }
+    },
+    {
+      "id": "B_VIEM_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm gan",
+        "aliases": [
+          "viêm gan",
+          "viemgan",
+          "viem gan"
+        ],
+        "search_vector_hint": "Bệnh Viêm gan thuộc nhóm bệnh, thường liên quan đến chức năng gan."
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm ruột",
+        "aliases": [
+          "viemruot",
+          "viem ruot",
+          "viêm ruột"
+        ],
+        "search_vector_hint": "Bệnh Viêm ruột thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường tiêu hóa."
+      }
+    },
+    {
+      "id": "B_VIEM_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm thận",
+        "aliases": [
+          "viêm thận",
+          "viem than",
+          "viemthan"
+        ],
+        "search_vector_hint": "Bệnh Viêm thận thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "CN_HOA_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hóa đờm",
+        "aliases": [
+          "hoa dom",
+          "hóa đờm",
+          "hoadom"
+        ],
+        "search_vector_hint": "Công năng Hóa đờm thuộc nhóm công năng, thường liên quan đến làm tan đờm."
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi tiểu",
+        "aliases": [
+          "loinieu",
+          "lợi niệu",
+          "lợi tiểu",
+          "loi nieu",
+          "loi tieu",
+          "loitieu"
+        ],
+        "search_vector_hint": "Lợi tiểu thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "CN_SAT_TRUNG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sát trùng",
+        "aliases": [
+          "sattrung",
+          "sát trùng",
+          "khu trung",
+          "khutrung",
+          "khử trùng",
+          "tiệt trùng",
+          "tiet trung",
+          "tiettrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Công năng Sát trùng thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt giải độc",
+        "aliases": [
+          "thanhnhietgiaidoc",
+          "thanh nhiet giai doc",
+          "thanh nhiệt giải độc"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt giải độc thuộc nhóm công năng, thường liên quan đến làm mát và loại bỏ độc tố."
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA_KEM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiêu hóa kém",
+        "aliases": [
+          "an khong tieu",
+          "tiêu hóa kém",
+          "khó tiêu",
+          "khotieu",
+          "tieu hoa kem",
+          "ankhongtieu",
+          "tieuhoakem",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Triệu chứng Tiêu hóa kém thuộc nhóm triệu chứng tiêu hóa, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_TIEU_TICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiêu tích",
+        "aliases": [
+          "tieutich",
+          "tieu tich",
+          "tiêu tích"
+        ],
+        "search_vector_hint": "Công năng Tiêu tích thuộc nhóm công năng, thường liên quan đến làm tan các khối tích tụ."
+      }
+    },
+    {
+      "id": "HC_CUMARIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cumarin",
+        "aliases": [
+          "cumarin"
+        ],
+        "search_vector_hint": "Hoạt chất Cumarin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "S_IA_LONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ỉa lỏng",
+        "aliases": [
+          "ỉa lỏng",
+          "ia long",
+          "đi ngoài phân lỏng",
+          "ialong",
+          "di ngoai phan long",
+          "dingoaiphanlong"
+        ],
+        "search_vector_hint": "Triệu chứng Ỉa lỏng thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Luong",
+        "aliases": [
+          "lương",
+          "luong"
+        ],
+        "search_vector_hint": "Tính Lương thuộc nhóm tính, thường liên quan đến tác dụng làm mát và giảm nhiệt."
+      }
+    },
+    {
+      "id": "VT_CO_BINH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cỏ bình",
+        "aliases": [
+          "cobinh",
+          "cỏ bình",
+          "co binh"
+        ],
+        "search_vector_hint": "Cỏ bình thuộc nhóm Vị thuốc, thường liên quan đến...",
+        "bo_phan_dung": "không đề cập",
+        "thu_hai": "tháng 6-9.",
+        "che_bien_tho": "không đề cập",
+        "lieu_dung_chung": "Ngày dùng $10-20$ g dưới dạng thuốc sắc.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không đề cập",
+        "phan_bo": "Mọc hoang dại phổ biến trên các đồi cỏ và đồi sim mua khắp mọi nơi ở nước ta. Còn thấy ở Trung Quốc, Ấn Độ.",
+        "ten_khoa_hoc": "$Desmodium trique-trum (L.) DC.$",
+        "ho_thuc_vat": "$Cánh buάm Fabaceae (Papilionaceae)$",
+        "hinh_thai_chi_tiet": "Cây nhỡ hóa gỗ ở gốc, cao $0,50-2m$. Thân cành ba cạnh, có vài lông cứng trên các cạnh. Lá một lá chét, có hai mũi nhọn cong thành hình kim ở gốc của lá chét, lá chét hình ba cạnh, dài, cụt, hình tim ở gốc, lá kèm hình ba cạnh nhọn, dạng vẩy. Cụm hoa ở nách hay ở ngọn thành chùm làm thành một chùy ở ngọn. Hoa màu hồng, xếp 1-2 cái một. Đài nhẵn chia 4 thùy. Cánh cờ hình mắt chim, cánh bên hình trái xoan ngược, cánh thìa nhỏ hình mỏ cong. Nhị một bó, bầu có lông mềm, quả thẳng có lông màu tro mềm hơi cong ở các mép, chia 6-8 đốt. Mùa hoa: Tháng 6-9.",
+        "thanh_phan_hoa_hoc": "['$cumarin$, hợp chất phenol axit hữu cơ và $tanin$']"
+      }
+    },
+    {
+      "id": "VT_VI_BACH_MAO_CAN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Bach Mao Can"
+      }
+    },
+    {
+      "id": "VT_VI_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vi Cam Thao"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "714"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "V_DANG_KHO"
+        ],
+        "tinh": "T_HOI_HAN",
+        "quy_kinh": [],
+        "cong_nang": "thanh nhiệt giải độc, lợi tiểu, hóa đờm, tiêu tích, sát trùng."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ hóa gỗ ở gốc, cao $0,50-2m$. Thân cành ba cạnh, có vài lông cứng trên các cạnh. Lá một lá chét, có hai mũi nhọn cong thành hình kim ở gốc của lá chét, lá chét hình ba cạnh, dài, cụt, hình tim ở gốc, lá kèm hình ba cạnh nhọn, dạng vẩy. Cụm hoa ở nách hay ở ngọn thành chùm làm thành một chùy ở ngọn. Hoa màu hồng, xếp 1-2 cái một. Đài nhẵn chia 4 thùy. Cánh cờ hình mắt chim, cánh bên hình trái xoan ngược, cánh thìa nhỏ hình mỏ cong. Nhị một bó, bầu có lông mềm, quả thẳng có lông màu tro mềm hơi cong ở các mép, chia 6-8 đốt. Mùa hoa: Tháng 6-9.",
+        "thanh_phan_hoa_hoc": [
+          "$cumarin$, hợp chất phenol axit hữu cơ và $tanin$"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CO_BINH",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi mát"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "HC_CUMARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$cumarin$, hợp chất phenol axit hữu cơ và $tanin$",
+        "ghi_chu": "trong thành phần hóa học của cây cổ bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$cumarin$, hợp chất phenol axit hữu cơ và $tanin$",
+        "ghi_chu": "trong thành phần hóa học của cây cổ bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TICH_CO_BINH",
+      "to": "VT_CO_BINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân",
+        "ghi_chu": "Tán bột cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TICH_CO_BINH",
+      "to": "VT_VI_BACH_MAO_CAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Tá",
+        "ghi_chu": "Tán bột cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TICH_CO_BINH",
+      "to": "VT_VI_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Sứ",
+        "ghi_chu": "Tán bột cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TICH_CO_BINH",
+      "to": "CN_TIEU_HOA_KEM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "Tán bột cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TICH_CO_BINH",
+      "to": "B_CAM_TICH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người",
+        "ghi_chu": "Tán bột cho uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "B_PHE_UNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$10-15$g",
+        "cach_dung": "dưới dạng thuốc sắc, dùng riêng hay phối hợp với xạ can, qua lâu",
+        "ghi_chu": "Ho có đờm xanh (mủ)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "B_VIEM_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "B_VIEM_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "B_THUY_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "S_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Không rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "CN_THANH_NHIET_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng thanh nhiệt giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng lợi tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "CN_HOA_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng hóa đờm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "CN_TIEU_TICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng tiêu tích."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CO_BINH",
+      "to": "CN_SAT_TRUNG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng sát trùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T714",
+        "all_sources": [
+          "CT_VT_VN_T714"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 53.5,
+      "reliability_c_score": 0.7595,
+      "total_confidence_sum": 15.95
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

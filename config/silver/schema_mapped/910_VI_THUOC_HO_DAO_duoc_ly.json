@@ -1,0 +1,35 @@
+{
+  "entity_hub": "VI_THUOC_HO_DAO",
+  "source": {
+    "source_id": "CT_VT_VN_T910",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "910"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HO_DAO",
+      "to": "CN_KIEN_TINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Kiện tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    },
+    {
+      "from": "VI_THUOC_HO_DAO",
+      "to": "CN_MANH_RUOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Mạnh ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T910"
+      }
+    }
+  ],
+  "metadata": {}
+}

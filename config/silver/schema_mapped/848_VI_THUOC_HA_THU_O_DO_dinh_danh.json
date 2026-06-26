@@ -1,0 +1,50 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HA_THU_O_DO",
+    "ten_raw": "Hà thủ ô đỏ",
+    "ten_khoa_hoc": "Polygonum multiflorum Thunb.; Fallopia multiflora, (Pteuropterus cordatus Turcz).",
+    "ho_thuc_vat": "Rau răm Polygonaceae",
+    "variants": [
+      "giao đằng",
+      "dạ hợp"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ củ",
+      "che_bien_tho": "phơi khô",
+      "phan_bo": "rừng núi, nhiều nhất ở các tỉnh Tây Bắc sau đến các tỉnh Thanh Hoá, Nghệ An, Hà Tĩnh, Lào Cai, Lai Châu, Tây Nguyễn. Có mọc ở Trung Quốc (Giang Tô, Quảng Đông, Tứ Xuyên, Hồ Bắc, Phúc Kiến), Nhật Bản.",
+      "thu_hai": "mùa thu hay mùa xuân, mùa thu tốt hơn"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T848",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "848"
+      },
+      "dac_tinh_yhct": {
+        "tinh": "Bình"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hà thủ ô đỏ (Radix Polygoni multiflori) là rễ củ phơi khô của cây hà thủ ô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HA_THU_O_DO",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T848"
+      }
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "entity": {
+    "id": "VT_CAO_BAN",
+    "canonical_name": "Bắc cảo bản",
+    "ten_khoa_hoc": "Ligusticum jeholense Nak. et Kitaga (Cnidium jeholense Nak. et Kitaga); Ligusticum sinense Oliv",
+    "ho_thuc_vat": "Hoa tán Apiaceae (Umbelliferae)",
+    "properties": {
+      "bo_phan_dung": "thân rễ và rễ",
+      "thu_hai": "Vào các tháng $4-10$",
+      "che_bien_tho": "đào lấy rễ và thân rễ, cắt bỏ phần trên mặt đất, rửa sạch đất cát, phơi khô",
+      "lieu_dung_chung": "Ngày dùng $3$ đến $6g$ dước dạng thuốc sắc; dùng ngoài không có liều lượng nhất định.",
+      "muc_do_doc": "Không độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_CAO_BAN",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, ôn, không độc"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay, ôn, không độc"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cảo bản của Trung Quốc chỉ mới biết có chứa tinh dầu."
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong một loại cảo bản của Nhật Bản có tên khoa học là Northosmymium japonicum Miq. cùng họ hoa tán (Umbelliferae) người ta đã thấy có chừng $1,3%$ tinh dầu",
+        "cach_dung": "Northosmymium japonicum Miq."
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "HC_NOTHOSNYROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "trong tinh dầu thành phần chủ yếu là `$nothosnyrola$` `$2-4 (CH,O),CH, CH=CH-CH,$`",
+        "cach_dung": "Northosmymium japonicum Miq."
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "HC_DIMETOXYALYLBENZOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "chất `$đimetoxyalylbenzola$`",
+        "cach_dung": "Northosmymium japonicum Miq."
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "HC_AXIT_PANMITINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "và một lượng nhỏ `$axit panmitinic$`.",
+        "cach_dung": "Northosmymium japonicum Miq."
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "CN_TAN_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có năng lực tán phong"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "CN_TAN_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có năng lực tán hàn"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "CN_TAN_THAP_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có năng lực tán thấp tà"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "S_NHUC_OC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa chứng nhức óc"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "là thuốc khu phong"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "táo thấp"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "S_UNG_NHOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa ung nhọt"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "S_AM_HO_LANH_SUNG_DAU_NHUC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thường dùng chữa chứng âm hộ lạnh, sưng đau nhức"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "nhức đầu"
+      }
+    },
+    {
+      "from": "VT_CAO_BAN",
+      "to": "S_GAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "còn dùng gội đầu cho sạch gầu"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_GHE_LO_CHOC_DAU",
+      "to": "VT_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "cach_dung": "Sắc nước dùng tắm và giặt quần áo"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_GHE_LO_CHOC_DAU",
+      "to": "S_GHE_LO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Trẻ con ghẻ lở",
+        "cach_dung": "Sắc nước dùng tắm và giặt quần áo"
+      }
+    },
+    {
+      "from": "BT_TRE_CON_GHE_LO_CHOC_DAU",
+      "to": "S_CHOC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chốc đầu",
+        "cach_dung": "Sắc nước dùng tắm và giặt quần áo"
+      }
+    },
+    {
+      "from": "BT_NHIEU_GAU",
+      "to": "VT_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "hai vị bằng nhau",
+        "cach_dung": "Tán nhỏ đem sát vào đầu, sáng hôm sau gội đầu, thì chóng hết gầu"
+      }
+    },
+    {
+      "from": "BT_NHIEU_GAU",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "hai vị bằng nhau",
+        "cach_dung": "Tán nhỏ đem sát vào đầu, sáng hôm sau gội đầu, thì chóng hết gầu"
+      }
+    },
+    {
+      "from": "BT_NHIEU_GAU",
+      "to": "S_GAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhiều gầu",
+        "cach_dung": "Tán nhỏ đem sát vào đầu, sáng hôm sau gội đầu, thì chóng hết gầu"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_CAO_BAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_PHONG_FONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_TE_TAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhức đầu",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_THIEN_DAU_THONG",
+      "to": "S_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "thiên đầu thống",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$ chia $3$ lần uống trong ngày, sau khi ăn cơm xong, uống lúc còn nóng"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_BONG",
+  "source": {
+    "source_id": "CT_VT_VN_T62",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "62"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BONG",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tính chất giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62"
+      }
+    },
+    {
+      "from": "VI_THUOC_BONG",
+      "to": "DL_CAM_MAU_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "làm thuốc cầm máu tử cung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T62"
+      }
+    }
+  ],
+  "metadata": {}
+}

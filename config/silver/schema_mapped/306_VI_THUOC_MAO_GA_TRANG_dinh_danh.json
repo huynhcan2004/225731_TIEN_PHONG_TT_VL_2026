@@ -1,0 +1,95 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAO_GA_TRANG",
+    "ten_raw": "Cây mào gà trắng",
+    "ten_khoa_hoc": "Celosia argentea L. (C.linearis Sw.)",
+    "ho_thuc_vat": "Giền (Amaranthaceae)",
+    "variants": [
+      "Thanh tương tử"
+    ],
+    "properties": {
+      "bo_phan_dung": "hạt chín",
+      "phan_bo": "phía đông Ấn Độ, Việt Nam",
+      "thu_hai": "tháng 9-10",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T306",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "306"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_CAN"
+        ],
+        "cong_nang": "khử phong nhiệt, thanh can hỏa, làm sáng mắt",
+        "kieng_ky_dac_biet": "Những người đồng tử mở rộng cấm dùng"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mào gà trắng là một loại cỏ mọc quanh năm, thân mọc thẳng, nhẵn, mang nhiều cành, cao $0,3$-$1m$ có thể tới $2m$. Lá mọc so le, hình mác, nguyên, đầu nhọn, gốc lá cũng hơi nhọn, dài $8$-$10cm$, rộng $2$-$4cm$. Vào mùa hạ và mùa thu ra hoa không có cuống, mọc thành bóng trắng hoặc hơi hồng, dài $3$-$10cm$, đồng trưởng. Quả nang, mở theo hình hộp, trong mang nhiều hạt. Hạt dẹt màu đen, hoặc nâu đỏ, mặt bóng, đường kính ước $1mm$. Khi nhìn qua kính lúp thấy mặt hạt có những vân và một điểm hôm là tễ. Vỏ dòn, dễ vỡ, không mùi, vị nhạt.",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "Ta dùng vị thanh tương tử (Semen Celosiae) là hạt chín phơi hay sấy khô của cây mào gà trắng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAO_GA_TRANG",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T306"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_TRANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "hơi hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T306"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_TRANG",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào can kinh"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T306"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAO_GA_TRANG",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Wehmer (1929, Die Pflanzenstofe), trong hạt mào gà trắng có chất béo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T306"
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_NGOT",
+    "ten_raw": "Cây rau ngót",
+    "ten_khoa_hoc": "$Sauropus androgynus (L) Merr.; Sauropus androgynus (L.) Merr. (Phyllanthus androgynus L.)$",
+    "ho_thuc_vat": "$Thầu dầu Euphorbiaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá",
+      "thu_hai": "null",
+      "che_bien_tho": "null",
+      "lieu_dung_chung": "null",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "null",
+      "phan_bo": "Mọc hoang và được trồng khắp nơi ở Việt Nam để lấy lá nấu canh."
+    },
+    "display_name": "Cây rau ngót",
+    "canonical_name": "Cây rau ngót"
+  },
+  "nodes": [
+    {
+      "id": "BT_SOT_NHAU_RAU_NGOT",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sot Nhau Rau Ngot"
+      }
+    },
+    {
+      "id": "VI_THUOC_RAU_NGOT",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Rau Ngot"
+      }
+    },
+    {
+      "id": "B_SOT_NHAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sot Nhau"
+      }
+    },
+    {
+      "id": "B_CHAM_KINH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cham Kinh"
+      }
+    },
+    {
+      "id": "B_TUA_LUOI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Tua Luoi"
+      }
+    },
+    {
+      "id": "S_HOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Hoc"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "67"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, nhẵn, có thể cao tới $1,50-2m$. Có nhiều cành mọc thẳng. Vì người ta hái lá luôn cho nên thường chỉ thấp $0,90-1m$. Vỏ thân cây màu xanh lục, sau màu nâu nhạt. Lá mọc so le, dài $4-6cm$, rộng $15-30mm$ cuống rất ngắn $1-2mm$ có 2 lá kèm nhỏ, phiến lá nguyên hình trứng dài hoặc bầu dục, mép nguyên Cây nhỏ, cao $1-2m$, thân nhẵn, hơi có cành. Lá mọc so le, hình trứng hay hình mác, dài $2-6cm$, rộng $1-3cm$, đầu nhọn, phía cuống hơi tròn, nhẵn, mặt dưới màu xanh nhạt. Hoa nhỏ, màu đỏ, hoa đực và hoa cái ở trên. Quả nang hình cầu, hạt có vân nhỏ (Hm 3,4).",
+        "thanh_phan_hoa_hoc": [],
+        "cach_dung_bao_che": "null"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "BT_SOT_NHAU_RAU_NGOT",
+      "to": "VI_THUOC_RAU_NGOT",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$40g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Rửa sạch giã nát. Thêm ít nước đã đun sôi để nguội vào. Vắt lấy chừng $100$ ml nước. Chia làm 2 lần uống, mỗi lần cách nhau 10 phút.",
+        "ghi_chu": "Sau chừng 15-20 phút nhau sẽ ra"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SOT_NHAU_RAU_NGOT",
+      "to": "B_SOT_NHAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Rửa sạch giã nát. Thêm ít nước đã đun sôi để nguội vào. Vắt lấy chừng $100$ ml nước. Chia làm 2 lần uống, mỗi lần cách nhau 10 phút.",
+        "ghi_chu": "Sau chừng 15-20 phút nhau sẽ ra"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "B_CHAM_KINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "Đỗ Tất Lợi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "B_SOT_NHAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nhỏ đắp vào gan bàn chân",
+        "ghi_chu": "Y học thực hành, tháng 2/$1960$ và 10/$1961$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "B_TUA_LUOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$5-10g$",
+        "cach_dung": "Giã lá rau ngót tươi độ $5-10g$. Vắt lấy nước. Thấm vào bông đánh lên lưỡi, lợi và vòm miệng trẻ em.",
+        "ghi_chu": "chỉ hai ngày sau là bú được"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_NGOT",
+      "to": "S_HOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã cây tươi, vắt lấy nước ngậm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T67",
+        "all_sources": [
+          "CT_VT_VN_T67"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 22.5,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

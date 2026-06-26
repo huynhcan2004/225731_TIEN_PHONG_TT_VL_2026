@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_LIEN_KIEU",
+  "source": {
+    "source_id": "CT_VT_VN_T117",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "117"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_THAN_KHACH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán khách nhiệt ở các kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_HOAT_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Liên kiều tán chư kinh huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "DL_KHANG_SINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch liên kiều có tác dụng kháng sinh đối với nhiều loại vi trùng. Độ pha loãng của dung dịch liên kiều 1:640 đối với trực trùng thương hàn, 1:640 đối với vi trùng lỵ Shiga, 1:800 đối với vi trùng lỵ Schmith, 1:400 đối với vi trùng lỵ Flexneri, 1:320 đối với vi trùng lỵ Sonnei, 1:160 đối với phó thương hàn A, 1:160 đối với phó thương hàn B, 1:800 đối với trực trùng Coli, 1:640 đối với vi trùng dịch hạch, 1:320 đối với tụ cầu, 1:800 đối với liên cầu tan huyết nhóm A, 1:800 đối với liên cầu tan huyết nhóm B, 1:160 đối với trực trùng bạch hầu, 1:164 đối với phế cầu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117"
+      }
+    }
+  ],
+  "metadata": {}
+}

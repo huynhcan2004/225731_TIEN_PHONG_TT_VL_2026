@@ -1,0 +1,66 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MIA_DO",
+    "ten_raw": "Mía dò",
+    "ten_khoa_hoc": "Costus speciosus",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T583",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "583"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "dài và hơi nhọn, tràng hình phễu, phiến chia thành 3 phần đều, môi rất lớn, màu hồng hay trắng, dài và rộng $4$-$8cm$: Quả nang dài $13mm$, nhiều hạt nhẵn, màu đen, bóng, dài $3mm$ (Hình 448, Hm 15,2 ).",
+        "thanh_phan_hoa_hoc": [
+          "Thân rễ chứa tới $77$-$87\\%$ nước: Trong thân rễ khô có $5,5\\%$ nước, $0,75\\%$ chất tan trong ête, $6,75\\%$ chất anbuminoit, $66,65\\%$ hydrat cacbon, $10,65\\%$ xơ, và $9,70\\%$ tro.",
+          "Năm 1970, từ rễ cái khô của củ chóc, Pandey V. B và B. Dasgupsta đã chiết được $2,12\\%$ $dios- genin$ tinh khiết. Ngoài ra còn có $tigogenin$ và một số saponin khác (C. A., 1971, 74 (11)50513t)"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_DIOSGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1970, từ rễ cái khô của củ chóc, Pandey V. B và B. Dasgupsta đã chiết được $2,12\\%$ $dios- genin$ tinh khiết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_TIGOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $tigogenin$ và một số saponin khác (C. A., 1971, 74 (11)50513t)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    },
+    {
+      "from": "VI_THUOC_MIA_DO",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn có $tigogenin$ và một số saponin khác (C. A., 1971, 74 (11)50513t)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T583"
+      }
+    }
+  ]
+}

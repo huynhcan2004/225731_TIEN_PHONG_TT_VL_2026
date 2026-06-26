@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_PHEN_DEN",
+  "source": {
+    "source_id": "CT_VT_VN_T565",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "565"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHEN_DEN",
+      "to": "DL_TRAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt vòng vang được dùng làm thuốc trấn kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_DEN",
+      "to": "DL_TRI_DI_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt vòng vang được dùng chữa di tinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHEN_DEN",
+      "to": "DL_LOI_TIEN_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Hạt vòng vang được dùng làm thuốc thông tiểu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T565"
+      }
+    }
+  ],
+  "metadata": {}
+}

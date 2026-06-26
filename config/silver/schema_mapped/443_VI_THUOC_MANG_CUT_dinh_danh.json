@@ -1,0 +1,53 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MANG_CUT",
+    "ten_raw": "Măng cụt",
+    "ten_khoa_hoc": "Garcinia mangostana L.; Mangostana garcinia Gaertn.",
+    "ho_thuc_vat": "họ Bứa Clusiaceae (Guttiferae)",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "áo hạt, vỏ quả"
+    },
+    "display_name": "Măng cụt"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T443",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "443"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Măng cụt là một loại cây to, có thể cao tới $20m$. Lá dày, dai, màu lục sẫm, hình thuôn dài $15-20cm$, rộng $7-10cm$. Đặc điểm của cây này là người ta mới chỉ thấy cây cái. Người ta cho rằng trong số những nhị lép (staminode) bao quanh bầu có thể có bao phấn chứa phấn hoa. Quả hình cầu, to bằng quả cam trung bình, vỏ ngoài màu đỏ sẫm, dầy cứng, phía dưới có lá đài, phía đỉnh có đầu nhụy. Trong quả có từ 6 đến 18 hạt, quanh hạt có áo hạt ăn được ( Hình 329 )."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MANG_CUT",
+      "to": "HC_TANNIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong vỏ quả có chứa từ $7-13\\%$ tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    },
+    {
+      "from": "VI_THUOC_MANG_CUT",
+      "to": "HC_MANGOSTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài tanin ra, trong vỏ quả măng cụt, theo W. Schmidt còn có chất nhựa và chất $mangostin$ (C,H,O,)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T443"
+      }
+    }
+  ]
+}

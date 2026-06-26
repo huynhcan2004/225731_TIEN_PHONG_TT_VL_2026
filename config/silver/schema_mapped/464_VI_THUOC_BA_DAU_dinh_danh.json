@@ -1,0 +1,204 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BA_DAU",
+    "ten_raw": "Ba đậu",
+    "ten_khoa_hoc": "Croton tiglium L.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Hạt",
+      "phan_bo": "Hà Giang, Tuyên Quang, Hoà Bình, Bắc Cạn, Thái Nguyên, Trung Bộ",
+      "thu_hai": "Tháng 8-9",
+      "che_bien_tho": "Phơi khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T464",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "464"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)"
+        ],
+        "tinh": "Nhiệt",
+        "quy_kinh": [
+          "K_VI",
+          "K_DAI_TRANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ba đậu là một cây nhỡ cao $3-6m$, cành nhẵn. Lá mọc so le, nguyên, hình trứng, đầu nhọn, mép có răng cưa nhỏ, dài $6-8cm$, rộng $4-5cm$, cuống nhỏ, dài $1-2cm$. Trông toàn thân cây thường thấy một số lá màu đỏ nâu làm cho cây dễ nhận. Hoa mọc thành chùm dài $10-20cm$, ở đầu cành, hoa cái ở phía dưới, hoa đực ở đỉnh, cuống nhỏ dài $1-3mm$. Quả nang, nhẵn, màu vàng nhạt, cao $2cm$, có 3 mảnh vỏ khi chín tách ra. Hạt hình trứng dài $10mm$, rộng $4-6mm$, ngoài có vỏ cứng, mờ, màu nâu xám (khác hạt thầu dầu bóng và có vân)",
+        "thanh_phan_hoa_hoc": [
+          "Trong hạt ba đậu có $30-50%$ dầu, $18%$ chất pro- tein, một glucozit gọi là crotonozit (2-oxy 6- aminopurin-ribozit), một anbumoza rất độc gọi là crotin, một ancaloit gần như chất rixinin trong hạt thầu dầu, men lipaza và một số axit amin như acginin, lyxin, v.v...",
+          "Dầu ba đậu lỏng sền sệt, hơi có huỳnh quang, vị cay nóng (rất độc) tỷ trọng ở $25°C$ là $0,935-0,950$, chỉ số xà phòng $102-118$, tan trong cùng một thể tích cồn cao độ, nhưng nếu thêm nhiều cồn quá thì hỗn hợp sẽ phân thành 2 lớp, thành phần gây đi ỉa sẽ tan trong tầng cồn.",
+          "Dầu này tan trong ête, sunfua cacbon, axit axetic.",
+          "Trong dầu ba đậu ngoài các glyxerit thường gặp như stearin, panmitin, còn có glyxerit của các axit crotonic và tiglic là những axit đặc biệt trong hạt ba đậu. Thành phần tẩy trong dầu ba đậu là chất nhựa croton resin tức là este của một cồn gọi là phocbola (phorbol) với những axit tiglic, và một số axit khác. Tỷ lệ hoạt chất tẩy này trong dầu chừng $2-3%$ (theo Flaschemtrager et Wigner, 1942, Hel. Chim. Acta 25: 569)",
+          "Chất mang tên crotin chính gồm 2 chất croton anbumin và croton-globulin là chất độc đối với nguyên sinh chất (protoplasma), đôi khi có tác dụng làm vón máu. Độ độc của nó bị sức nóng làm giảm bớt. Tính chất của nó cũng giống như chất rixin trong hạt thầu dầu."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 2 kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_CROTONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ba đậu có $30-50%$ dầu, $18%$ chất pro- tein, một glucozit gọi là crotonozit (2-oxy 6- aminopurin-ribozit), một anbumoza rất độc gọi là crotin, một ancaloit gần như chất rixinin trong hạt thầu dầu, men lipaza và một số axit amin như acginin, lyxin, v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_CROTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ba đậu có $30-50%$ dầu, $18%$ chất pro- tein, một glucozit gọi là crotonozit (2-oxy 6- aminopurin-ribozit), một anbumoza rất độc gọi là crotin, một ancaloit gần như chất rixinin trong hạt thầu dầu, men lipaza và một số axit amin như acginin, lyxin, v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_ACGININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ba đậu có $30-50%$ dầu, $18%$ chất pro- tein, một glucozit gọi là crotonozit (2-oxy 6- aminopurin-ribozit), một anbumoza rất độc gọi là crotin, một ancaloit gần như chất rixinin trong hạt thầu dầu, men lipaza và một số axit amin như acginin, lyxin, v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_LYXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hạt ba đậu có $30-50%$ dầu, $18%$ chất pro- tein, một glucozit gọi là crotonozit (2-oxy 6- aminopurin-ribozit), một anbumoza rất độc gọi là crotin, một ancaloit gần như chất rixinin trong hạt thầu dầu, men lipaza và một số axit amin như acginin, lyxin, v.v..."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_STEARYN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu ba đậu ngoài các glyxerit thường gặp như stearin, panmitin, còn có glyxerit của các axit crotonic và tiglic là những axit đặc biệt trong hạt ba đậu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_PANMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong dầu ba đậu ngoài các glyxerit thường gặp như stearin, panmitin, còn có glyxerit của các axit crotonic và tiglic là những axit đặc biệt trong hạt ba đậu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_CROTON_RESIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tẩy trong dầu ba đậu là chất nhựa croton resin tức là este của một cồn gọi là phocbola (phorbol) với những axit tiglic, và một số axit khác. Tỷ lệ hoạt chất tẩy này trong dầu chừng $2-3%$ (theo Flaschemtrager et Wigner, 1942, Hel. Chim. Acta 25: 569)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_PHORBOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tẩy trong dầu ba đậu là chất nhựa croton resin tức là este của một cồn gọi là phocbola (phorbol) với những axit tiglic, và một số axit khác. Tỷ lệ hoạt chất tẩy này trong dầu chừng $2-3%$ (theo Flaschemtrager et Wigner, 1942, Hel. Chim. Acta 25: 569)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_CROTON_ALBUMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất mang tên crotin chính gồm 2 chất croton anbumin và croton-globulin là chất độc đối với nguyên sinh chất (protoplasma), đôi khi có tác dụng làm vón máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    },
+    {
+      "from": "VI_THUOC_BA_DAU",
+      "to": "HC_CROTON_GLOBULIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất mang tên crotin chính gồm 2 chất croton anbumin và croton-globulin là chất độc đối với nguyên sinh chất (protoplasma), đôi khi có tác dụng làm vón máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T464"
+      }
+    }
+  ]
+}

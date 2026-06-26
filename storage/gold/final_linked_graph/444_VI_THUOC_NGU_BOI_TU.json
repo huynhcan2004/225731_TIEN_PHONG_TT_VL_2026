@@ -1,0 +1,943 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NGU_BOI_TU",
+    "ten_raw": "Ngũ bội tử",
+    "display_name": "Vị thuốc Ngũ bội tử",
+    "ten_khoa_hoc": "$Galla sinensis; Rhus semialata Murray (Rhus sinensis Mill.); Rhus semialata Roxb. var. roxburghii DC.; Quercus infectoria Oliv.$",
+    "ho_thuc_vat": "$Đào lộn hột Anacardiaceae; Giẻ Fagaceae$",
+    "variants": [
+      "Ngũ bội tử (galla sinensis)",
+      "cây muối",
+      "cây diêm phu mộc",
+      "sơn bút",
+      "ngũ bội nhập",
+      "ngũ bội tử của Thổ Nhĩ Kỳ-Galla Turcia"
+    ],
+    "properties": {
+      "bo_phan_dung": "những túi đặc biệt do nhộng của con sâu ngũ bội tử schlechtendalia sinensis bell gây ra trên những cuống lá và cành của cây muối hay cây diêm phu mộc",
+      "thu_hai": "mùa hoa các tháng 8-9, mùa quả tháng 10.",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Ngày uống $0,5$ đến $1$g, dưới dạng thuốc sắc hay thuốc bột. Dung dịch $5$-$10\\%$ dùng súc miệng để điều trị các vết loét trong miệng.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cao Bằng, Lạng Sơn (Nước Hai, Nguyên Bình, Sóc Giang), Hà Giang (Quảng Bạ). Lào Cai có một ít. Có thể một số vùng Tây Bắc gần biên giới Trung Việt cũng có. Tại nhiều nước khác như Nhật Bản, Trung Quốc (Quảng Đông, Quảng Tây, Vân Nam, Phúc Kiến vv...)"
+    },
+    "canonical_name": "Vị thuốc Ngũ bội tử"
+  },
+  "nodes": [
+    {
+      "id": "BT_TRE_CON_BI_TRO_NGU_BOI_TU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Trẻ con bị trớ ngủ Bối tử",
+        "aliases": [
+          "tre con bi tro ngu boi tu",
+          "treconbitronguboitu",
+          "trẻ con bị trớ ngủ bối tử"
+        ],
+        "search_vector_hint": "Bài thuốc Trẻ con bị trớ ngủ Bối tử thuộc nhóm bài thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "B_DAI_DAM",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đái dầm",
+        "aliases": [
+          "dai dam",
+          "đái són",
+          "tiểu dầm",
+          "dai son",
+          "đái dầm",
+          "daidam",
+          "tieu dam",
+          "daison",
+          "tieudam"
+        ],
+        "search_vector_hint": "Bệnh Đái dầm thuộc nhóm bệnh, thường liên quan đến rối loạn chức năng bàng quang."
+      }
+    },
+    {
+      "id": "B_DIA_LONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Địa long",
+        "aliases": [
+          "dia long",
+          "dialong",
+          "địa long"
+        ],
+        "search_vector_hint": "Địa long thuộc nhóm Bệnh, thường liên quan đến các vấn đề sức khỏe."
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ho",
+        "aliases": [
+          "ho"
+        ],
+        "search_vector_hint": "Bệnh Ho thuộc nhóm bệnh, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "B_HOANG_DAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Hoàng đản",
+        "aliases": [
+          "vangda",
+          "vang da",
+          "hoang dan",
+          "hoangdan",
+          "vàng da",
+          "hoàng đản"
+        ],
+        "search_vector_hint": "Bệnh Hoàng đản thuộc nhóm Bệnh, thường liên quan đến rối loạn chức năng gan."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_LY_XUAT_HUYET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ xuất huyết",
+        "aliases": [
+          "ly ra mau",
+          "lyramau",
+          "lyxuathuyet",
+          "lỵ ra máu",
+          "lỵ xuất huyết",
+          "ly xuat huyet"
+        ],
+        "search_vector_hint": "Bệnh Lỵ xuất huyết thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng đường ruột gây chảy máu."
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Mụn nhọt",
+        "aliases": [
+          "mun nhot",
+          "munnhot",
+          "mụn nhọt",
+          "mun mu",
+          "munmu",
+          "mụn mủ"
+        ],
+        "search_vector_hint": "Bệnh Mụn nhọt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng da do vi khuẩn."
+      }
+    },
+    {
+      "id": "B_PHE_HU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Phế hư",
+        "aliases": [
+          "phehu",
+          "phế hư",
+          "phe hu"
+        ],
+        "search_vector_hint": "Bệnh Phế hư thuộc nhóm Bệnh, thường liên quan đến suy giảm chức năng phổi."
+      }
+    },
+    {
+      "id": "B_TRE_CON_BI_TRO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Trẻ con bị trớ",
+        "aliases": [
+          "tre con bi tro",
+          "treconbitro",
+          "trẻ con bị trớ"
+        ],
+        "search_vector_hint": "Bệnh Trẻ con bị trớ thuộc nhóm bệnh, thường liên quan đến trẻ em."
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giải độc",
+        "aliases": [
+          "giaidoc",
+          "giải độc",
+          "giai doc"
+        ],
+        "search_vector_hint": "Giải độc thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "CN_GIANG_HOA_CHI_HUYET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Giáng hỏa chỉ huyết",
+        "aliases": [
+          "giang hoa chi huyet",
+          "gianghoachihuyet",
+          "giáng hỏa chỉ huyết"
+        ],
+        "search_vector_hint": "Công năng Giáng hỏa chỉ huyết thuộc nhóm Công năng, thường liên quan đến làm giảm hỏa nhiệt và cầm máu."
+      }
+    },
+    {
+      "id": "CN_LIEM_HAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Liễm hãn",
+        "aliases": [
+          "chỉ hãn",
+          "chihan",
+          "liem han",
+          "liemhan",
+          "liễm hãn",
+          "chi han"
+        ],
+        "search_vector_hint": "Công năng Liễm hãn thuộc nhóm công năng, thường liên quan đến điều trị chứng đổ mồ hôi."
+      }
+    },
+    {
+      "id": "CN_LIEM_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Liễm phế",
+        "aliases": [
+          "liem phe",
+          "liemphe",
+          "liễm phế"
+        ],
+        "search_vector_hint": "Công năng Liễm phế thuộc nhóm Công năng, thường liên quan đến thu liễm chức năng của phổi."
+      }
+    },
+    {
+      "id": "CN_LOI_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Lợi đờm",
+        "aliases": [
+          "tiêu đờm",
+          "tieu dom",
+          "tieudom",
+          "khu dom",
+          "khử đờm",
+          "lợi đờm",
+          "khudom",
+          "loidom",
+          "loi dom"
+        ],
+        "search_vector_hint": "Lợi đờm thuộc nhóm công năng, thường liên quan đến tác dụng của dược liệu."
+      }
+    },
+    {
+      "id": "CN_SAP_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Sáp trường",
+        "aliases": [
+          "sap truong",
+          "saptruong",
+          "sáp trường"
+        ],
+        "search_vector_hint": "Công năng Sáp trường thuộc nhóm Công năng, thường liên quan đến làm se niêm mạc ruột."
+      }
+    },
+    {
+      "id": "DL_CAM_MAU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Cầm máu",
+        "aliases": [
+          "cam mau",
+          "cầm máu",
+          "cammau"
+        ],
+        "search_vector_hint": "Dược lý Cầm máu thuộc nhóm dược lý, thường liên quan đến khả năng làm ngừng chảy máu."
+      }
+    },
+    {
+      "id": "DL_GAY_TE",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Gây tê",
+        "aliases": [
+          "gayte",
+          "gay te",
+          "gây tê"
+        ],
+        "search_vector_hint": "Dược lý Gây tê thuộc nhóm Dược lý, thường liên quan đến làm mất cảm giác tạm thời."
+      }
+    },
+    {
+      "id": "DL_GIAM_BAI_TIET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giảm bài tiết",
+        "aliases": [
+          "giảm bài tiết",
+          "giambaitiet",
+          "giam bai tiet"
+        ],
+        "search_vector_hint": "Dược lý Giảm bài tiết thuộc nhóm Dược lý, thường liên quan đến ức chế quá trình bài tiết dịch."
+      }
+    },
+    {
+      "id": "HC_AXIT_GALIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Galic",
+        "aliases": [
+          "axit galic",
+          "axitgalic"
+        ],
+        "search_vector_hint": "Axit Galic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_GALOTANIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Galotanic",
+        "aliases": [
+          "axit galotanic",
+          "axitgalotanic"
+        ],
+        "search_vector_hint": "Axit Galotanic thuộc nhóm hoạt chất, thường liên quan đến các nghiên cứu dược lý."
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tanin",
+        "aliases": [
+          "tanin"
+        ],
+        "search_vector_hint": "Hoạt chất Tanin thuộc nhóm hợp chất hóa học, thường liên quan đến dược tính của thực vật."
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Phe",
+        "aliases": [
+          "phe",
+          "phế"
+        ],
+        "search_vector_hint": "Kinh Phế thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NHIEU_MO_HOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhiều mồ hôi",
+        "aliases": [
+          "ranhieumohoi",
+          "nhieumohoi",
+          "do mo hoi nhieu",
+          "nhiều mồ hôi",
+          "domohoinhieu",
+          "nhieu mo hoi",
+          "ra nhieu mo hoi",
+          "đổ mồ hôi nhiều",
+          "ra nhiều mồ hôi"
+        ],
+        "search_vector_hint": "Triệu chứng Nhiều mồ hôi thuộc nhóm Triệu chứng, thường liên quan đến rối loạn điều tiết mồ hôi."
+      }
+    },
+    {
+      "id": "T_BINH",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Binh",
+        "aliases": [
+          "bình",
+          "binh"
+        ],
+        "search_vector_hint": "Tính bình thuộc nhóm tính vị."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_NGU_BOI_TU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngũ bội tử",
+        "aliases": [
+          "ngu boi tu",
+          "nguboitu",
+          "ngũ bội tử"
+        ],
+        "search_vector_hint": "Vị thuốc Ngũ bội tử thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền.",
+        "bo_phan_dung": "những túi đặc biệt do nhộng của con sâu ngũ bội tử schlechtendalia sinensis bell gây ra trên những cuống lá và cành của cây muối hay cây diêm phu mộc",
+        "thu_hai": "mùa hoa các tháng 8-9, mùa quả tháng 10.",
+        "lieu_dung_chung": "Ngày uống $0,5$ đến $1$g, dưới dạng thuốc sắc hay thuốc bột. Dung dịch $5$-$10\\%$ dùng súc miệng để điều trị các vết loét trong miệng.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Cao Bằng, Lạng Sơn (Nước Hai, Nguyên Bình, Sóc Giang), Hà Giang (Quảng Bạ). Lào Cai có một ít. Có thể một số vùng Tây Bắc gần biên giới Trung Việt cũng có. Tại nhiều nước khác như Nhật Bản, Trung Quốc (Quảng Đông, Quảng Tây, Vân Nam, Phúc Kiến vv...)",
+        "ten_khoa_hoc": "$Galla sinensis; Rhus semialata Murray (Rhus sinensis Mill.); Rhus semialata Roxb. var. roxburghii DC.; Quercus infectoria Oliv.$",
+        "ho_thuc_vat": "$Đào lộn hột Anacardiaceae; Giẻ Fagaceae$",
+        "hinh_thai_chi_tiet": "Cây muối là một cây nhỏ cao từ 2 đến 8m. Lá mọc so le, kép đìa lẻ, gồm 7 đến 14 lá chét. Cuống lá chung có đĩa như cánh, trên có những lông ngắn màu vàng nâu nhạt. Lá chét không cuống, hình trứng, mép có răng cưa to, thô, dài $5-14cm$, rộng $2,5-9cm$. Cụm hoa hình chùy mọc ở đầu cành, dài $20-30cm$. Hoa nhỏ, màu trắng sữa. Quả hạch màu vàng cam đỏ, một hạt. Mùa hoa các tháng 8-9, mùa quả tháng 10. [CT_VT_VN_T445]: Hình 331. Các dạng ngũ bội tử Một số nơi ở nước ta và Lào có loại cây gọi là sơn bút-Rhus semialata Roxb. var. roxburghii DC. cùng họ cũng hay bị một loại sâu cánh mềm (chưa xác định được tên khoa học) gây trên cành non những loại ngũ bội nhỏ hơn, chỉ bằng quả nho, thường rất bằng nhau, lúc đầu có màu đỏ, sau đen, thành dày khoảng $0,5mm$. Độ ẩm $16,00$\\%, tỷ lệ $tanin$ $5,75$\\% ít thấy dùng. Trong đông y hiện nay dùng cả ngũ bội nhập của Trung Quốc, cùng loại với ngũ bội tử của ta, cũng con sau đó và cũng sống trên một loài cây Rhus semialata Mill. Trước đây, ta vẫn phải nhập loại ngũ bội tử của Thổ Nhĩ Kỳ-Galla Turcia. Ngũ bội này do loài ong Cynips gallae tinctoriae Oliv. gay trên cành non của cây Quercus infectoria Oliv. thuộc họ Giẻ Fagaceae không thấy ở nước ta. Thành phần là Turkish galotanin chừng $50-70$\\%, cấu tạo hóa học của nó là tetragaloylglucoza.",
+        "thanh_phan_hoa_hoc": "['Ngũ bội tử của ta, có thành phần hóa học giống ngũ bội (tên vị thuốc). Ngũ bội tử Trung Quốc. Độ ẩm $13,47$\\\\%, chất tan vào nước gồm có $tanin$ $43,20$\\\\%, không $tanin$ $13,20$\\\\%, chất không tan $30,13$\\\\%. Trong khi đó ngũ bội tử Trung Quốc có độ ẩm $13,27$\\\\%, chất tan trong nước gồm $tanin$ $42,5$\\\\%, không $tanin$ $10$\\\\%, chất không tan $34,23$\\\\%. Nếu trừ độ ẩm đi rồi, tỷ lệ $tanin$ của ngũ bội tử Việt Nam là $50$\\\\%, loại tốt lên tới $60-70$\\\\%, có khi tới $80$\\\\%. $Tanin$ ngũ bội tử còn gọi là axit galotanic. Thành phần hóa học chủ yếu là penta m. digaloylglucoza trong đó một phân tử glucoza được kết hợp với $5phân$ tử axit đigalic, có khi một phần $tanin$ gồm một phân tử glucoza kết hợp với axit elagic hay axit galic. Ngoài $tanin$ ra, trong ngũ bội tử còn có axit galic tự do, $2-4$\\\\% chất béo, nhựa và tính bột. Khi chất $tanin$ của ngũ bội tử tác dụng lên feric clorua sẽ cho màu lam đen, nếu dùng thuốc thử Braemer (dung dịch natri tungstat và natri axetat $1g$ trong $10ml$ nước) sẽ có màu vàng nâu hay màu vàng.']"
+      }
+    },
+    {
+      "id": "V_CHUA",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Chua",
+        "aliases": [
+          "chua"
+        ],
+        "search_vector_hint": "Chua thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "444"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây muối là một cây nhỏ cao từ 2 đến 8m. Lá mọc so le, kép đìa lẻ, gồm 7 đến 14 lá chét. Cuống lá chung có đĩa như cánh, trên có những lông ngắn màu vàng nâu nhạt. Lá chét không cuống, hình trứng, mép có răng cưa to, thô, dài $5-14cm$, rộng $2,5-9cm$. Cụm hoa hình chùy mọc ở đầu cành, dài $20-30cm$. Hoa nhỏ, màu trắng sữa. Quả hạch màu vàng cam đỏ, một hạt. Mùa hoa các tháng 8-9, mùa quả tháng 10. [CT_VT_VN_T445]: Hình 331. Các dạng ngũ bội tử Một số nơi ở nước ta và Lào có loại cây gọi là sơn bút-Rhus semialata Roxb. var. roxburghii DC. cùng họ cũng hay bị một loại sâu cánh mềm (chưa xác định được tên khoa học) gây trên cành non những loại ngũ bội nhỏ hơn, chỉ bằng quả nho, thường rất bằng nhau, lúc đầu có màu đỏ, sau đen, thành dày khoảng $0,5mm$. Độ ẩm $16,00$\\%, tỷ lệ $tanin$ $5,75$\\% ít thấy dùng. Trong đông y hiện nay dùng cả ngũ bội nhập của Trung Quốc, cùng loại với ngũ bội tử của ta, cũng con sau đó và cũng sống trên một loài cây Rhus semialata Mill. Trước đây, ta vẫn phải nhập loại ngũ bội tử của Thổ Nhĩ Kỳ-Galla Turcia. Ngũ bội này do loài ong Cynips gallae tinctoriae Oliv. gay trên cành non của cây Quercus infectoria Oliv. thuộc họ Giẻ Fagaceae không thấy ở nước ta. Thành phần là Turkish galotanin chừng $50-70$\\%, cấu tạo hóa học của nó là tetragaloylglucoza.",
+        "thanh_phan_hoa_hoc": [
+          "Ngũ bội tử của ta, có thành phần hóa học giống ngũ bội (tên vị thuốc). Ngũ bội tử Trung Quốc. Độ ẩm $13,47$\\%, chất tan vào nước gồm có $tanin$ $43,20$\\%, không $tanin$ $13,20$\\%, chất không tan $30,13$\\%. Trong khi đó ngũ bội tử Trung Quốc có độ ẩm $13,27$\\%, chất tan trong nước gồm $tanin$ $42,5$\\%, không $tanin$ $10$\\%, chất không tan $34,23$\\%. Nếu trừ độ ẩm đi rồi, tỷ lệ $tanin$ của ngũ bội tử Việt Nam là $50$\\%, loại tốt lên tới $60-70$\\%, có khi tới $80$\\%. $Tanin$ ngũ bội tử còn gọi là axit galotanic. Thành phần hóa học chủ yếu là penta m. digaloylglucoza trong đó một phân tử glucoza được kết hợp với $5phân$ tử axit đigalic, có khi một phần $tanin$ gồm một phân tử glucoza kết hợp với axit elagic hay axit galic. Ngoài $tanin$ ra, trong ngũ bội tử còn có axit galic tự do, $2-4$\\% chất béo, nhựa và tính bột. Khi chất $tanin$ của ngũ bội tử tác dụng lên feric clorua sẽ cho màu lam đen, nếu dùng thuốc thử Braemer (dung dịch natri tungstat và natri axetat $1g$ trong $10ml$ nước) sẽ có màu vàng nâu hay màu vàng."
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, thận và đại trường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào 3 kinh phế, thận và đại trường"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "T_BINH",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính bình"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Độ ẩm $13,47$\\%, chất tan vào nước gồm có $tanin$ $43,20$\\%, không $tanin$ $13,20$\\%, chất không tan $30,13$\\%.",
+        "ghi_chu": "trong ngũ bội tử Trung Quốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "HC_AXIT_GALOTANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Tanin$ ngũ bội tử còn gọi là axit galotanic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "HC_AXIT_GALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài $tanin$ ra, trong ngũ bội tử còn có axit galic tự do, $2-4$\\% chất béo, nhựa và tính bột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngũ bội tử tán bột, thêm hồ vào, viên thành viên bằng hạt đậu xanh",
+        "cach_dung": "Ngày uống $15$-$20$ viên, dùng nước pha bạc hà mà uống thuốc",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_DIA_LONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngũ bội tử tán bột, thêm hồ vào, viên thành viên bằng hạt đậu xanh | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngày uống $15$-$20$ viên, dùng nước pha bạc hà mà uống thuốc | Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_DAI_DAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngũ bội tử giã nhỏ. Thêm nước cho dính",
+        "cach_dung": "Đắp vào rốn",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRE_CON_BI_TRO_NGU_BOI_TU",
+      "to": "VT_NGU_BOI_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRE_CON_BI_TRO_NGU_BOI_TU",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$20g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TRE_CON_BI_TRO_NGU_BOI_TU",
+      "to": "B_TRE_CON_BI_TRO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Mỗi lần dùng $2g$ bột này",
+        "cach_dung": "Dùng nước cơm hay nước cháo mà chiêu thuốc",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_PHE_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_LOI_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "S_NHIEU_MO_HOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_LY_XUAT_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "B_HOANG_DAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc thu liễm",
+        "ghi_chu": "CT_VT_VN_T446"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_LIEM_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Liễm phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_GIANG_HOA_CHI_HUYET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giáng hỏa chỉ huyết."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_LIEM_HAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Liễm hãn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "CN_SAP_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Sáp trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "DL_CAM_MAU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Do chất $tanin$ có tính chất làm tủa protit, tổ chức của da, niêm mạc, vết loét tiếp xúc với $tanin$ sẽ tủa và đanh lại, tạo thành một lớp cứng làm máu đông lại, ngừng chảy, do đó có tác dụng cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "DL_GIAM_BAI_TIET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tế bào của các hạch phân tiết cũng bị đông và làm giảm sự bài tiết các dịch, niêm mạc được khô ráo."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGU_BOI_TU",
+      "to": "DL_GAY_TE",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đầu dây thần kinh cũng bị cúng lại, do đó hơi có tác dụng gây tê."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T444",
+        "all_sources": [
+          "CT_VT_VN_T444"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 71.0,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "entity_hub": "VI_THUOC_MAT_MONG_HOA",
+  "source": {
+    "source_id": "CT_VT_VN_T576",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "576"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "khứ phong"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "thanh nhiệt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CN_SANG_MAT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "sáng mắt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CO_VI_CAY",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CO_VI_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "CO_TINH_ON",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "KINH_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_MONG_HOA",
+      "to": "KINH_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T576"
+      }
+    }
+  ],
+  "metadata": {}
+}

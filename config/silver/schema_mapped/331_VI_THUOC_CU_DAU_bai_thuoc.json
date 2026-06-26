@@ -1,0 +1,232 @@
+{
+  "entity_hub": "VI_THUOC_CU_DAU",
+  "source": {
+    "source_id": "CT_VT_VN_T331",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "331"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_REP_RAU_CU_DAU_H",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu có tác dụng trừ sâu bọ.",
+        "cach_dung": "Ngâm với nước một đêm, sau giã nhỏ, thêm nước với tỷ lệ $1,5\\%$ đến $2\\%$ hoặc $4\\%$ trộn đều rồi phun.",
+        "ghi_chu": "Nồng độ sử dụng: $1,5\\%$ đến $4\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_RUOU_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu giúp giải độc rượu.",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_NGO_DOC_RUOU_CU_DAU_C",
+      "to": "B_NGO_DOC_RUOU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ngộ độc rượu",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_SOT_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu giúp thanh nhiệt, giải khát.",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_SOT_CU_DAU_C",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa sốt",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_KHAT_NUOC_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu giúp thanh nhiệt, giải khát.",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_KHAT_NUOC_CU_DAU_C",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa khát nước",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu giúp nhuận tràng, giảm táo bón.",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TAO_BON_CU_DAU_C",
+      "to": "S_TAO_BON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa táo bón",
+        "cach_dung": "Giã nát vắt lấy nước uống hoặc ăn sống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TAN_NHANG_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu có tác dụng làm trắng da, giảm tàn nhang.",
+        "cach_dung": "Xát lên mặt nhiều lần trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TAN_NHANG_CU_DAU_C",
+      "to": "B_TAN_NHANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tàn nhang",
+        "cach_dung": "Xát lên mặt nhiều lần trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_CU_DAU_RS_CR",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu và rau sam giúp thanh nhiệt, giải độc, cầm máu.",
+        "cach_dung": "Giã nát vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_CU_DAU_RS_CR",
+      "to": "VI_THUOC_RAU_SAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Củ đậu và rau sam giúp thanh nhiệt, giải độc, cầm máu.",
+        "cach_dung": "Giã nát vắt lấy nước uống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_LY_RA_MAU_CU_DAU_RS_CR",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ ra máu",
+        "cach_dung": "Giã nát vắt lấy nước uống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TIEU_DUONG_CU_DAU_C",
+      "to": "VI_THUOC_CU_DAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Củ đậu giúp ổn định đường huyết.",
+        "cach_dung": "Ăn sống.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    },
+    {
+      "from": "BT_TIEU_DUONG_CU_DAU_C",
+      "to": "B_DAI_THAO_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa tiểu đường",
+        "cach_dung": "Ăn sống."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T331"
+      }
+    }
+  ],
+  "metadata": {}
+}

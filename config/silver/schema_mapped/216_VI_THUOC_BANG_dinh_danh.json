@@ -1,0 +1,76 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BANG",
+    "ten_raw": "Bàng",
+    "display_name": "Bàng",
+    "ten_khoa_hoc": "Terminalia catappa L.",
+    "ho_thuc_vat": "họ Bàng Combretaceae",
+    "variants": [
+      "quang lang",
+      "chambok barang",
+      "parcang prang (Cămpuchia)",
+      "badamier (Pháp)"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá, vỏ cây và hạt"
+    }
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T216",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "216"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bàng là một cây to, có thể cao tới $25m$, cành mọc vòng làm cho tán cây xòe ra như cái lọng. Lá to hình thìa, đầu tròn, mặt trên nhẵn, mặt dưới có lông hung nhạt phiến lá dài $20-30cm$, rộng $10-13cm$. Hoa nhiều mọc thành bông dài $15-20cm$, trên cán bông hoa có lông. Quả hình bầu dục, nhẵn dẹt với hai bên dìa hẹp, đầu hơi họn, dài $4cm$, rộng $3cm$, dày $15mm$, nhẵn, cơm màu vàng đỏ, có xơ. Hạch rộng $15mm$, hạt có nhân trắng chứa nhiều dầu. Mùa quả: Tháng 8- 10 ( Hình 142 ).",
+        "thanh_phan_hoa_hoc": [
+          "Lá và vỏ cây chứa tanin: vỏ thân chứa từ $25-35%$ tanin pyrogalic và tanin catechic. Vỏ cành chứa $11%$ tanin.",
+          "Nhân hạt chứa $50%$ dầu béo màu vàng nhạt hay lục nhạt, vị dễ chịu, giống như dầu hạnh nhân, ăn được. Tuy nhiên nhân chỉ chiếm $10%$ toàn quả cho nên cuối cùng toàn quả chỉ chứa chừng $5%$ dầu béo, việc tách nhận lại đòi hỏi nhiều công sức, chưa cơ giới hóa được cho nên đến nay việc khai thác dầu hạt bàng chưa được đặt ra. Một số tính chất của dầu nhân hạt bàng đã được nghiên cứu kết quả như sau: Tỷ trọng $0,917$, chỉ số khúc xạ ở $35°C$ là $1,4660$, độ đồng đặc $+1°C$, chỉ số axit $2,94$, chỉ số xà phòng $197,8$, chỉ số iốt $60,72$, phần không xà phòng hóa $0,38$, axit toàn phần tách được ở dạng đặc, màu vàng nhạt hay trắng, phần axit đặc chiếm tới $36%$.",
+          "Do chỉ số iốt thấp và do không cho phản ứng hexabromua cho nên người ta có thể kết luận dầu bàng không có glyxerit linoleic và thuộc loại dầu không khô."
+        ],
+        "lieu_dung_tong_quat": "Người ta thường dùng lá, vỏ cây và hạt.",
+        "cach_dung_bao_che": "Về mặt nguyên liệu cho dầu thì năng suất bàng thấp vì việc tách nhân bàng ra vất vả. Từ $100 g$ hạch khô chỉ tách được $23g$ nhân."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá và vỏ cây chứa tanin: vỏ thân chứa từ $25-35%$ tanin pyrogalic và tanin catechic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "HC_DAU_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân hạt chứa $50%$ dầu béo màu vàng nhạt hay lục nhạt, vị dễ chịu, giống như dầu hạnh nhân, ăn được."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    },
+    {
+      "from": "VI_THUOC_BANG",
+      "to": "HC_GLYXERIT_LINOLEIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Do chỉ số iốt thấp và do không cho phản ứng hexabromua cho nên người ta có thể kết luận dầu bàng không có glyxerit linoleic và thuộc loại dầu không khô."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T216"
+      }
+    }
+  ]
+}

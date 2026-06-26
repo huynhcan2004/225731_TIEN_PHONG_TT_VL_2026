@@ -1,0 +1,391 @@
+{
+  "entity_hub": "VI_THUOC_CUC_AO",
+  "source": {
+    "source_id": "CT_VT_VN_T577",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "577"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_DAU_MAT_CUC_AO_C",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ một vị thuốc duy nhất.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_DAU_MAT_CUC_AO_C",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những trường hợp đau mắt, nhức mắt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_MAT_CUC_AO_C",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ một vị thuốc duy nhất.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_MAT_CUC_AO_C",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa những trường hợp đau mắt, nhức mắt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CUC_AO_C",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Đơn thuốc từ một vị thuốc duy nhất.",
+        "cach_dung": "Theo chỉ định",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_CUC_AO_C",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu, sốt và thông tiểu tiện",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_COC_T",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc áo và phòng phong có tác dụng chữa viêm kết mạc, viêm giác mạc.",
+        "cach_dung": "Ngày uống 3 lần mỗi lần uống $1-2g$",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_COC_T",
+      "to": "VT_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc áo và phòng phong có tác dụng chữa viêm kết mạc, viêm giác mạc.",
+        "cach_dung": "Ngày uống 3 lần mỗi lần uống $1-2g$",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_COC_T",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc áo và phòng phong có tác dụng chữa viêm kết mạc, viêm giác mạc.",
+        "cach_dung": "Ngày uống 3 lần mỗi lần uống $1-2g$",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_VIEM_KET_MAC_COC_T",
+      "to": "B_VIEM_KET_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm kết mạc, viêm giác mạc",
+        "cach_dung": "Ngày uống 3 lần mỗi lần uống $1-2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_VIEM_GIAC_MAC_COC_T",
+      "to": "B_VIEM_GIAC_MAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm kết mạc, viêm giác mạc",
+        "cach_dung": "Ngày uống 3 lần mỗi lần uống $1-2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_COC_T",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc áo có tác dụng chữa thiên đầu thống.",
+        "cach_dung": "Tán nhỏ trộn với hồ dát vào nơi đau",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_COC_T",
+      "to": "VT_COC_TINH_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc áo có tác dụng chữa thiên đầu thống.",
+        "cach_dung": "Tán nhỏ trộn với hồ dát vào nơi đau",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_THIEN_DAU_THONG_COC_T",
+      "to": "B_THIEN_DAU_THONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thiên đầu thống",
+        "cach_dung": "Tán nhỏ trộn với hồ dát vào nơi đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_NHUC_LONG_MAY_CDN",
+      "to": "VI_THUOC_CUC_AO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cúc áo, địa long, nhí hương có tác dụng chữa nhức đầu, nhức lông mày.",
+        "cach_dung": "Các vị tán nhỏ mỗi lần lấy $4g$ đốt lấy khói hun vào lỗ mũi bên đau",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_NHUC_LONG_MAY_CDN",
+      "to": "VT_DIA_LONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc áo, địa long, nhí hương có tác dụng chữa nhức đầu, nhức lông mày.",
+        "cach_dung": "Các vị tán nhỏ mỗi lần lấy $4g$ đốt lấy khói hun vào lỗ mũi bên đau",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_NHUC_LONG_MAY_CDN",
+      "to": "VT_NHI_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cúc áo, địa long, nhí hương có tác dụng chữa nhức đầu, nhức lông mày.",
+        "cach_dung": "Các vị tán nhỏ mỗi lần lấy $4g$ đốt lấy khói hun vào lỗ mũi bên đau",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_NHUC_LONG_MAY_CDN",
+      "to": "B_NHUC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu, nhức lông mày",
+        "cach_dung": "Các vị tán nhỏ mỗi lần lấy $4g$ đốt lấy khói hun vào lỗ mũi bên đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_NHUC_DAU_NHUC_LONG_MAY_CDN",
+      "to": "S_NHUC_LONG_MAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nhức đầu, nhức lông mày",
+        "cach_dung": "Các vị tán nhỏ mỗi lần lấy $4g$ đốt lấy khói hun vào lỗ mũi bên đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_MAT_MONG_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_CAM_CUC_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_KINH_GIOI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_LONG_DAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_PHONG_PHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Sứ",
+        "phoi_ngu_logic": "Mật mông hoa, cam cúc hoa, kinh giới, long đởm, phòng phong, bạch chỉ, cam thảo có tác dụng chữa mắt sưng đỏ.",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    },
+    {
+      "from": "BT_MAT_SUNG_DO_MCLKBPC",
+      "to": "B_MAT_SUNG_DO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mắt sưng đỏ",
+        "cach_dung": "nước $200ml$ sắc còn $100ml$, chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T577"
+      }
+    }
+  ],
+  "metadata": {}
+}

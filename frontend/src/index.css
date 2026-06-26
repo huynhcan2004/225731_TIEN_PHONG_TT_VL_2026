@@ -1,0 +1,339 @@
+@import "tailwindcss";
+
+@theme {
+  /* Override emerald with deep herbal greens (Xanh dược liệu cổ truyền) */
+  --color-emerald-50: #f2faf6;
+  --color-emerald-100: #e1f5ec;
+  --color-emerald-200: #c0ebd4;
+  --color-emerald-300: #8edcba;
+  --color-emerald-400: #54c59a;
+  --color-emerald-500: #2ca97c;
+  --color-emerald-600: #1b8961;
+  --color-emerald-700: #146a4d;
+  --color-emerald-800: #0f543e;
+  --color-emerald-900: #0a4030;
+  --color-emerald-950: #042118;
+
+  /* Override amber with warm copper/bronze/gold (Vàng đồng, hổ phách cổ truyền) */
+  --color-amber-50: #faf8f2;
+  --color-amber-100: #f4edd9;
+  --color-amber-200: #e8d9b3;
+  --color-amber-300: #d6be85;
+  --color-amber-400: #c1a059;
+  --color-amber-500: #ab823b;
+  --color-amber-600: #906a2e;
+  --color-amber-700: #745224;
+  --color-amber-800: #5c401d;
+  --color-amber-900: #493217;
+  --color-amber-950: #291c0c;
+
+  /* Custom animations */
+  --animate-spin-slow: spin 16s linear infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #030705; /* Deep forest herbal black */
+  color: #f2faf6;
+}
+
+/* Custom Scrollbar styled for the Herbal-Cyber theme */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(4, 33, 24, 0.3);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(27, 137, 97, 0.3);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(193, 160, 89, 0.5); /* Bronze highlight on hover */
+}
+
+/* Glowing text and boxes representing digital energy running through herbal veins */
+.glow-herbal {
+  box-shadow: 0 0 15px rgba(27, 137, 97, 0.15);
+}
+
+.glow-bronze {
+  box-shadow: 0 0 15px rgba(193, 160, 89, 0.15);
+}
+
+.glow-text-herbal {
+  text-shadow: 0 0 8px rgba(84, 197, 154, 0.3);
+}
+
+.glow-text-bronze {
+  text-shadow: 0 0 8px rgba(193, 160, 89, 0.3);
+}
+
+/* ==========================================
+   Light Mode Rules for Radiant Sunrise Theme
+   ========================================== */
+body.light-theme {
+  color: #1e293b !important;
+  color-scheme: light;
+
+  /* Redefine emerald variables to dark teal/green colors in light mode */
+  --color-emerald-50: #0f543e !important;
+  --color-emerald-100: #0f766e !important;
+  --color-emerald-200: #0f766e !important;
+  --color-emerald-300: #0d9488 !important;
+  --color-emerald-400: #0d9488 !important;
+  --color-emerald-500: #0d9488 !important;
+  --color-emerald-600: #0f766e !important;
+  --color-emerald-700: #115e59 !important;
+  --color-emerald-800: #115e59 !important;
+  --color-emerald-900: #115e59 !important;
+  --color-emerald-950: #115e59 !important;
+
+  /* Redefine amber variables to dark amber/orange colors in light mode */
+  --color-amber-50: #92400e !important;
+  --color-amber-100: #b45309 !important;
+  --color-amber-200: #b45309 !important;
+  --color-amber-300: #d97706 !important;
+  --color-amber-400: #d97706 !important;
+  --color-amber-500: #b45309 !important;
+  --color-amber-600: #b45309 !important;
+  --color-amber-700: #78350f !important;
+  --color-amber-800: #78350f !important;
+  --color-amber-900: #78350f !important;
+  --color-amber-950: #78350f !important;
+
+  /* Redefine slate variables to dark colors in light mode */
+  --color-slate-50: #0f172a !important;
+  --color-slate-100: #1e293b !important;
+  --color-slate-200: #1e293b !important;
+  --color-slate-300: #334155 !important;
+  --color-slate-400: #475569 !important;
+  --color-slate-500: #64748b !important;
+}
+
+/* Base text overrides */
+body.light-theme .text-slate-100,
+body.light-theme .text-slate-200,
+body.light-theme .text-slate-300,
+body.light-theme .text-emerald-50,
+body.light-theme .text-emerald-50\/90,
+body.light-theme .text-white {
+  color: #0f172a !important; /* slate-900 */
+}
+
+body.light-theme .text-slate-400 {
+  color: #475569 !important; /* slate-600 */
+}
+
+body.light-theme .text-slate-500 {
+  color: #64748b !important; /* slate-50 */
+}
+
+body.light-theme .text-emerald-400,
+body.light-theme .text-emerald-300 {
+  color: #0d9488 !important; /* teal-600 */
+}
+
+body.light-theme .text-emerald-500\/50,
+body.light-theme .text-emerald-500\/60 {
+  color: #0f766e !important; /* teal-700 */
+}
+
+/* Override prose typography styles in light theme */
+body.light-theme .prose.prose-invert,
+body.light-theme .prose {
+  color: #1e293b !important;
+  --tw-prose-body: #1e293b !important;
+  --tw-prose-headings: #0f172a !important;
+  --tw-prose-lead: #475569 !important;
+  --tw-prose-links: #0f766e !important;
+  --tw-prose-bold: #0f172a !important;
+  --tw-prose-counters: #475569 !important;
+  --tw-prose-bullets: #0f766e !important;
+  --tw-prose-hr: #e2e8f0 !important;
+  --tw-prose-quotes: #0f172a !important;
+  --tw-prose-quote-borders: #cbd5e1 !important;
+  --tw-prose-captions: #475569 !important;
+  --tw-prose-code: #0f766e !important;
+  --tw-prose-pre-code: #0f172a !important;
+  --tw-prose-pre-bg: #f1f5f9 !important;
+  --tw-prose-th: #0f172a !important;
+  --tw-prose-td: #334155 !important;
+}
+
+body.light-theme .prose * {
+  color: inherit;
+}
+body.light-theme .prose strong,
+body.light-theme .prose h1,
+body.light-theme .prose h2,
+body.light-theme .prose h3,
+body.light-theme .prose h4 {
+  color: #0f172a !important;
+  font-weight: 700;
+}
+body.light-theme .prose code {
+  color: #0f766e !important;
+  background-color: #f1f5f9 !important;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+body.light-theme .prose pre {
+  background-color: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+}
+body.light-theme .prose pre code {
+  color: #1e293b !important;
+  background-color: transparent !important;
+  padding: 0;
+}
+body.light-theme .prose a {
+  color: #0d9488 !important;
+  text-decoration: underline;
+}
+
+/* Background panel overrides */
+body.light-theme .bg-\[\#0b1611\]\/90,
+body.light-theme .bg-\[\#060e0a\]\/90,
+body.light-theme .bg-\[\#050c08\]\/90,
+body.light-theme .bg-\[\#08150f\],
+body.light-theme .bg-\[\#08150f\]\/80,
+body.light-theme .bg-\[\#08150f\]\/60,
+body.light-theme .bg-\[\#08150f\]\/30,
+body.light-theme .bg-\[\#030705\]\/50 {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important; /* slate-300 */
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.02) !important;
+  color: #0f172a !important;
+}
+
+body.light-theme .bg-emerald-950\/10,
+body.light-theme .bg-emerald-950\/15,
+body.light-theme .bg-emerald-950\/20,
+body.light-theme .bg-emerald-950\/30,
+body.light-theme .bg-emerald-950\/40 {
+  background-color: #f1f5f9 !important; /* slate-100 */
+  color: #1e293b !important;
+  border-color: #e2e8f0 !important;
+}
+
+body.light-theme .bg-\[\#060e0a\] {
+  background-color: #f8fafc !important; /* slate-50 */
+  color: #0f172a !important;
+}
+
+body.light-theme .bg-\[\#060e0a\]\/40,
+body.light-theme .bg-\[\#060e0a\]\/50 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Background amber entity tag */
+body.light-theme .bg-amber-950\/40 {
+  background-color: #fef3c7 !important; /* amber-100 */
+  border-color: #fcd34d !important; /* amber-300 */
+  color: #b45309 !important; /* amber-700 */
+}
+
+/* Interactive elements background */
+body.light-theme .hover\:bg-\[\#0c2017\]\/80:hover {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+body.light-theme .hover\:bg-\[\#08150f\]:hover {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+body.light-theme .focus-within\:bg-\[\#08150f\]\/80:focus-within {
+  background-color: #ffffff !important;
+}
+
+/* Inputs & Form elements */
+body.light-theme input,
+body.light-theme select,
+body.light-theme textarea {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+body.light-theme input:focus,
+body.light-theme select:focus,
+body.light-theme textarea:focus {
+  border-color: #0d9488 !important; /* teal-600 */
+  background-color: #ffffff !important;
+}
+
+/* Table styling */
+body.light-theme table tr {
+  border-bottom-color: #e2e8f0 !important;
+}
+
+body.light-theme table tr:hover {
+  background-color: #f8fafc !important;
+}
+
+body.light-theme table thead tr {
+  background-color: #f1f5f9 !important;
+  border-bottom-color: #cbd5e1 !important;
+}
+
+/* Borders */
+body.light-theme .border-emerald-500\/10,
+body.light-theme .border-emerald-500\/20,
+body.light-theme .border-emerald-500\/25,
+body.light-theme .border-emerald-500\/15,
+body.light-theme .border-emerald-500\/5 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Sidebar navigation links */
+body.light-theme aside {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05) !important;
+}
+
+body.light-theme aside .text-emerald-500\/50 {
+  color: #475569 !important; /* slate-600 */
+}
+
+body.light-theme aside .hover\:bg-emerald-950\/20:hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+body.light-theme aside .bg-gradient-to-r {
+  color: #ffffff !important; /* Keep white for the active menu items gradient! */
+}
+
+body.light-theme aside .bg-gradient-to-r * {
+  color: #ffffff !important;
+}
+
+/* Dashboard / Info cards */
+body.light-theme .bg-slate-900\/50,
+body.light-theme .bg-slate-950\/20 {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}

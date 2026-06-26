@@ -1,0 +1,140 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_THUOC",
+    "ten_raw": "Bạch thược",
+    "ten_khoa_hoc": "Paeonia lactiflora Pall.; Paeonia albiflora Pall.",
+    "ho_thuc_vat": "Mao Lương (Ranunculaceae)",
+    "variants": [
+      "Thược dược",
+      "Bạch thược (Radix Paeoniae albae)"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "che_bien_tho": "phơi hay sấy khô",
+      "phan_bo": "Mọc hoang ở các tỉnh Hắc Long Giang, Cát Lâm, Hà Bắc, Liêu Ninh, Hà Nam, Sơn Đông, trong rừng, dưới những cây bụi hoặc những cây to.",
+      "thu_hai": "Đào rễ vào các tháng 8-10"
+    },
+    "display_name": "Bạch thược"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T80",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "80"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Hơi hàn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_TY",
+          "K_PHE"
+        ],
+        "cong_nang": "nhuận gan, làm hết đau, dưỡng huyết, liễm am, lợi tiểu"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bạch thược (Radix Paeoniae albae) là rễ phơi hay sấy khô của cây thược dược. Vì vị thuốc sắc trắng, do đó có tên như vậy. Bạch thược hay thược dược là một cây sống lâu năm, cao $50$-$80cm$, rễ củ to, thân mọc thẳng đứng, không có lông. Lá mọc so le, xẻ sâu thành $3$-$7$ thùy hình trứng dài $8$-$12cm$, rộng $2$-$4 cm$, mép nguyên, phía cuống hơi hồng. Hoa rất to mọc đơn độc, cánh hoa màu trắng. Mùa hoa ở Trung Quốc vào các tháng $5$-$7$, mùa quả vào các tháng $6$-$7$ (Hình $29$ ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong thược dược có tinh bột, tanin, caxi oxalat, một ít tinh dầu, axit benzoic, nhựa và chất béo, chất nhầy. Tỷ lệ axit benzoic, chừng $1,07$ %"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng nhuận gan, làm hết đau, dưỡng huyết, liễm am, lợi tiểu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    },
+    {
+      "from": "VI_THUOC_BACH_THUOC",
+      "to": "HC_AXIT_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tỷ lệ axit benzoic, chừng $1,07$ %"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T80"
+      }
+    }
+  ]
+}

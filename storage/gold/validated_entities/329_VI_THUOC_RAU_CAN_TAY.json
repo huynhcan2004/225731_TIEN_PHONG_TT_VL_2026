@@ -1,0 +1,261 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_CAN_TAY",
+    "ten_raw": "Rau cần tây",
+    "ten_khoa_hoc": "$Apium graveolens L.; Apium graveolens Apium graveolens L. var secalinum Alef.$",
+    "ho_thuc_vat": "$Hoa tán Apiaceae (Umbelliferae)$",
+    "variants": [
+      "Cần tây"
+    ],
+    "properties": {
+      "bo_phan_dung": "toàn cây",
+      "lieu_dung_chung": "Ngày dùng $40-80$g tươi dưới dạng ép lấy nước uống hay nấu sắc.",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "khắp nơi trong nước ta",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": "Rau cần tây",
+    "canonical_name": "Rau cần tây"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_RAU_CAN_TAY",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Rau Can Tay"
+      }
+    },
+    {
+      "id": "HC_D_LIMONEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "D Limonen"
+      }
+    },
+    {
+      "id": "HC_SILINEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Silinen"
+      }
+    },
+    {
+      "id": "HC_STINBEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Stinben"
+      }
+    },
+    {
+      "id": "HC_GIAIACOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Giaiacola"
+      }
+    },
+    {
+      "id": "HC_SEDANOLIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sedanolit"
+      }
+    },
+    {
+      "id": "HC_SEDANONIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sedanonic"
+      }
+    },
+    {
+      "id": "B_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Huyet Ap"
+      }
+    },
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cao Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "329"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cần tây là một loại cây thảo sống 1-2 năm. Thân mọc đứng cao $0,60-0,80m$, có rãnh dọc. Lá ở gốc có cuống dài, chia thành 3 thuỳ, mỗi thuỳ lại chia thành 3 lá chét có cuống; các lá ở thân phía trên có cuống ngắn hơn và ít chia thuỳ hơn. Hoa nhỏ màu trắng họp thành tán kép. Quả hình trứng, rất nhỏ. Toàn cây có mùi thơm đặc biệt.",
+        "lieu_dung_tong_quat": "Người ta dùng toàn cây tươi hay khô. Thường dùng tươi.",
+        "ghi_chu_bo_sung": "Cần tây được trồng ở khắp nơi trong nước ta để làm rau ăn. Còn được trồng ở nhiều nước trên thế giới."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_D_LIMONEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_SILINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_STINBEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_GIAIACOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_SEDANOLIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "HC_SEDANONIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu là những cacbua tecpen: $d.limonen$, $silinen$, một sesquitecpen $stinben$, $giaiacola$, những lacton: $Sedanolit$ và anhydrit $sedanonic$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "B_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Cả cây rau cần tây tươi",
+        "cach_dung": "Thái nhỏ, đun nước uống, chia làm nhiều lần uống trong ngày. Có thể dùng cây phơi khô trong mát.",
+        "ghi_chu": "Tác dụng hạ huyết áp có thể do tác dụng lợi tiểu của vị thuốc tạo nên. CT_VT_VN_T330"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$80g$",
+        "cach_dung": "Ép lấy nước uống mỗi ngày.",
+        "ghi_chu": "CT_VT_VN_T331"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_RAU_CAN_TAY",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cần tây có tác dụng hạ huyết áp (khi dùng với liều $80g$ tươi/ngày).",
+        "ghi_chu": "Liều dùng $80g$ tươi/ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T329",
+        "all_sources": [
+          "CT_VT_VN_T329"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 43.0,
+      "reliability_c_score": 0.77,
+      "total_confidence_sum": 7.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

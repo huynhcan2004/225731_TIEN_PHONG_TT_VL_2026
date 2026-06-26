@@ -1,0 +1,175 @@
+{
+  "entity_hub": "VI_THUOC_CAM_XUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T269",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "269"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_PHU_NE_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_PHU_NE_CAM_XUNG_C",
+      "to": "B_PHU_NE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa trẻ con bị phù nề, thũng trướng",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DAU_VU_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DAU_VU_CAM_XUNG_C",
+      "to": "B_DAU_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đau vú",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_HO_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_HO_CAM_XUNG_C",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DI_UNG_CAM_XUNG_C",
+      "to": "B_DI_UNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa dị ứng",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_NON_MUA_CAM_XUNG_C",
+      "to": "S_NON_MUA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa nôn mửa",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_CAM_XUNG_C",
+      "to": "VI_THUOC_CAM_XUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$10 den 20g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Cam xũng là vị thuốc chính.",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    },
+    {
+      "from": "BT_DI_NGOAI_CAM_XUNG_C",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa đi ngoài",
+        "cach_dung": "dưới dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T269"
+      }
+    }
+  ],
+  "metadata": {}
+}

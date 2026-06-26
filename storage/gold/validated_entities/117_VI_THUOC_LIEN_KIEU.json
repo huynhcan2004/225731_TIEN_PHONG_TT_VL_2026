@@ -1,0 +1,571 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LIEN_KIEU",
+    "ten_raw": "Liên kiều",
+    "ten_khoa_hoc": "$Forsythia suspensa Vahl$",
+    "ho_thuc_vat": "$Nhài (Oleacae)$",
+    "variants": [
+      "muscadier à suif"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "mùa quả: tháng 7-8",
+      "che_bien_tho": "không đề cập",
+      "lieu_dung_chung": "Ngày dùng 6-12$g$ (nếu dùng phối hợp với các vị thuốc khác) hoặc với liều 10-30$g$ (nếu dùng một vị này thôi).",
+      "muc_do_doc": "Không độc",
+      "phan_bo": "Trung Quốc (Sơn Tây, Hà Nam, Hà Bắc, Hồ Bắc, Cam Túc). Còn mọc ở Nhật bản.",
+      "trieu_chung_ngo_doc": "Chưa rõ"
+    },
+    "display_name": "Liên kiều",
+    "canonical_name": "Liên kiều"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_LIEN_KIEU",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Lien Kieu"
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Dang"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam"
+      }
+    },
+    {
+      "id": "K_DAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Dan"
+      }
+    },
+    {
+      "id": "K_TAM_TIEU",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam Tieu"
+      }
+    },
+    {
+      "id": "K_DAI_TRANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Dai Trang"
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Saponin"
+      }
+    },
+    {
+      "id": "HC_ANCALOIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Ancaloit"
+      }
+    },
+    {
+      "id": "HC_PHYLIRIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Phylirin"
+      }
+    },
+    {
+      "id": "HC_VITAMIN_P",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Vitamin P"
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tinh Dau"
+      }
+    },
+    {
+      "id": "BT_VIEM_HACH_NACH_LIEN_KIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Viem Hach Nach Lien Kieu"
+      }
+    },
+    {
+      "id": "B_VIEM_HACH_NACH",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Hach Nach"
+      }
+    },
+    {
+      "id": "BT_SUNG_VU_LIEN_KIEU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Sung Vu Lien Kieu"
+      }
+    },
+    {
+      "id": "VI_THUOC_BO_CONG_ANH",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bo Cong Anh"
+      }
+    },
+    {
+      "id": "VI_THUOC_KIM_NGAN_HOA",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Kim Ngan Hoa"
+      }
+    },
+    {
+      "id": "VI_THUOC_GAI_BO_KET",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Gai Bo Ket"
+      }
+    },
+    {
+      "id": "B_SUNG_VU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Sung Vu"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Giai Doc"
+      }
+    },
+    {
+      "id": "CN_THONG_TIEN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thong Tien"
+      }
+    },
+    {
+      "id": "CN_THONG_KINH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thong Kinh"
+      }
+    },
+    {
+      "id": "DL_KANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Khuan"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "117"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Liên kiều là một cây cao từ 2 đến 4m. Cành non gần như 4 cạnh có nhiều đốt; giữa các đốt thân rỗng, bì không rõ. Lá đơn mọc đối hoặc có khi mọc thành vòng 3 lá, cuống dài 0,80-2cm. Phiến lá hình trứng, dài 3-7cm, rộng 2-4cm, mép có răng cưa không đều, chất lá hơi dài. Hoa màu vàng tươi. Đài và tràng hình ống, trên xẻ thành 4 thuỳ. 2 nhị thấp hơn tràng. Nhuỵ có 2 nuốm. Quả khô, hình trứng dẹt, dài 1,5-2cm, rộng 0,5-1cm, hai bên có cạnh lồi, đầu nhọn, khi chín mở ra như mỏ chim, phía dưới có cuống hay chỉ còn sẹo. Vỏ ngoài màu nâu nhạt. Trong quả có nhiều hạt, nhưng phần lớn rơi vãi đi, chỉ còn sót lại một ít. Mùa hoa tại Trung Quốc: tháng 3-5; mùa quả: tháng 7-8 ( Hình 62, Hm 5,2 )."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hơi hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "K_DAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đởm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "K_TAM_TIEU",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tam tiêu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "K_DAI_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh đại tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo nghiên cứu sơ bộ của hệ dược học, Viện nghiên cứu y học Bắc Kinh thì trong thanh liên kiều có chừng $4,89\\%$ saponin và $0,20\\%$ ancaloit (Trung được chí - Bắc kinh 1959).",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_ANCALOIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo nghiên cứu sơ bộ của hệ dược học, Viện nghiên cứu y học Bắc Kinh thì trong thanh liên kiều có chừng $4,89\\%$ saponin và $0,20\\%$ ancaloit (Trung được chí - Bắc kinh 1959).",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_PHYLIRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là $phylirin$, saponin, vitamin P và tinh dầu.",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_VITAMIN_P",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là $phylirin$, saponin, vitamin P và tinh dầu.",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Tăng Quảng Phương (1936, Trung hoa y học tạp chí) thì trong liên kiều có một glucozit gọi là $phylirin$, saponin, vitamin P và tinh dầu.",
+        "ghi_chu": "Chưa rõ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_HACH_NACH_LIEN_KIEU",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "bằng nhau",
+        "vai_tro": "Quân",
+        "ghi_chu": "và vùng đen ngưng, khí tụ, lợi thuỷ đạo, sát trùng, chỉ thống, tiêu thũng, bài nùng (tiêu mủ)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_VIEM_HACH_NACH_LIEN_KIEU",
+      "to": "B_VIEM_HACH_NACH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU",
+      "to": "VI_THUOC_LIEN_KIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU",
+      "to": "VI_THUOC_BO_CONG_ANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU",
+      "to": "VI_THUOC_KIM_NGAN_HOA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU",
+      "to": "VI_THUOC_GAI_BO_KET",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$3g$",
+        "vai_tro": "Sứ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUNG_VU_LIEN_KIEU",
+      "to": "B_SUNG_VU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tán khách nhiệt ở các kinh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_THONG_TIEN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông tiểu tiện."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "CN_THONG_KINH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thông kinh nguyệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_LIEN_KIEU",
+      "to": "DL_KANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dung dịch liên kiều có tác dụng kháng sinh đối với liên cầu trùng (Streptococ) và tụ cầu trùng (Staphylococ). Nước sắc liên kiều pha loãng có tác dụng kháng sinh đối với nhiều loại vi trùng như trực trùng thương hàn (1:640), vi trùng lỵ Shiga - Schmith (1:640), Flexneri (1:800), Sonnei (1:400), phó thương hàn A (1:160), phó thương hàn B (1:160), trực trùng Coli (1:800), vi trùng dịch hạch (1:640), tụ cầu (1:320), liên cầu tan huyết nhóm A (1:800), liên cầu tan huyết nhóm B (1:800), trực trùng bạch hầu (1:800), phế cầu (1:160), trực trùng lao (1:64)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T117",
+        "all_sources": [
+          "CT_VT_VN_T117"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 51.0,
+      "reliability_c_score": 0.7583,
+      "total_confidence_sum": 18.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_hub": "VI_THUOC_TOI_DOC",
+  "source": {
+    "source_id": "CT_VT_VN_T346",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "346"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THONG_PHONG_TOI_DOC_T",
+      "to": "VT_TOI_DOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Tỏi độc được sử dụng đơn lẻ để điều trị thống phong.",
+        "cach_dung": "Uống $1,5g$ cồn hạt 1/10 một lần, $3g$ trong 24 giờ; hoặc $0,05g$ cao cồn nước một lần, $0,20g$ trong 24 giờ hoặc dùng $2mg$ conchixin một lần, $4mg$ trong 24 giờ.",
+        "ghi_chu": "Không nên dùng lâu sợ bị ngộ độc. Khi thấy có hiện tượng ỉa lỏng thì ngừng thuốc ngay. Thường chỉ dùng trong 4-5 ngày lại nghỉ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    },
+    {
+      "from": "BT_THONG_PHONG_TOI_DOC_T",
+      "to": "B_THONG_PHONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh thống phong, đối với những cơn đau.",
+        "cach_dung": "Uống $1,5g$ cồn hạt 1/10 một lần, $3g$ trong 24 giờ; hoặc $0,05g$ cao cồn nước một lần, $0,20g$ trong 24 giờ hoặc dùng $2mg$ conchixin một lần, $4mg$ trong 24 giờ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T346"
+      }
+    }
+  ],
+  "metadata": {}
+}

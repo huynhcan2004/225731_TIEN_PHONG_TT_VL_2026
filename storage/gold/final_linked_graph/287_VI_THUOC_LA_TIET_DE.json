@@ -1,0 +1,829 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_LA_TIET_DE",
+    "ten_raw": "Cây lá tiết dê",
+    "ten_khoa_hoc": "$Cissampelos pareira L.; Cissampelos convolvulacea Willd.; Cissampelos pareira L. var. hirsuta (Buch. Ham. ex DC.) Forman (Menispermum hirsutum Buch. Ham. ex DC.)$",
+    "ho_thuc_vat": "$Tiết dê Menispermaceae$",
+    "variants": [
+      "cây mối tròn",
+      "cây mối nám"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ, lá",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "[CT_VT_VN_T288]: Ngày dùng: Rễ $5$-$10$g dưới dạng thuốc sắc. Lá: Thường dùng tươi giã nát vắt lấy nước để đông lại mà uống. Ngày $40$-$100$g lá tươi.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "khắp nơi đồng bằng cũng như rừng núi trong toàn nước ta. Còn thấy mọc ở Ấn Độ, đảo Mactinic, phía đông châu Phi"
+    },
+    "display_name": "Vị thuốc Lá tiết dê",
+    "canonical_name": "Vị thuốc Lá tiết dê"
+  },
+  "nodes": [
+    {
+      "id": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Chậm tiêu đau bụng lá tiết dê",
+        "aliases": [
+          "chậm tiêu đau bụng lá tiết dê",
+          "chamtieudaubunglatietde",
+          "cham tieu dau bung la tiet de"
+        ],
+        "search_vector_hint": "Bài thuốc Chậm tiêu đau bụng lá tiết dê thuộc nhóm Bài thuốc, thường liên quan đến điều trị các chứng bệnh tiêu hóa."
+      }
+    },
+    {
+      "id": "B_CHAM_TIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Chậm tiêu",
+        "aliases": [
+          "chậm tiêu",
+          "khó tiêu",
+          "khotieu",
+          "chamtieu",
+          "cham tieu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Chậm tiêu thuộc nhóm Bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_SOI_BONG_DAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sỏi bàng quang",
+        "aliases": [
+          "soi bang quang",
+          "sỏi bàng quang",
+          "soibangquang"
+        ],
+        "search_vector_hint": "Bệnh Sỏi bàng quang thuộc nhóm Bệnh, thường liên quan đến đường tiết niệu."
+      }
+    },
+    {
+      "id": "B_SOI_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sỏi mật",
+        "aliases": [
+          "soimat",
+          "soi mat",
+          "sỏi mật"
+        ],
+        "search_vector_hint": "Bệnh Sỏi mật thuộc nhóm bệnh về gan mật, thường liên quan đến sự hình thành sỏi trong túi mật."
+      }
+    },
+    {
+      "id": "B_SOI_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sỏi thận",
+        "aliases": [
+          "soi than",
+          "sỏi thận",
+          "soithan"
+        ],
+        "search_vector_hint": "Bệnh Sỏi thận thuộc nhóm bệnh, thường liên quan đến sự hình thành các tinh thể trong thận."
+      }
+    },
+    {
+      "id": "B_TE_THAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tê thấp",
+        "aliases": [
+          "tethap",
+          "te thap",
+          "thấp khớp",
+          "thapkhop",
+          "thap khop",
+          "tê thấp"
+        ],
+        "search_vector_hint": "Bệnh Tê thấp thuộc nhóm Bệnh, thường liên quan đến các vấn đề về xương khớp và thần kinh."
+      }
+    },
+    {
+      "id": "B_VET_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Vết loét",
+        "aliases": [
+          "vet loet",
+          "vết loét",
+          "vetloet"
+        ],
+        "search_vector_hint": "Bệnh Vết loét thuộc nhóm bệnh, thường liên quan đến tổn thương trên da hoặc niêm mạc."
+      }
+    },
+    {
+      "id": "B_VIEM_BONG_DAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm bàng quang",
+        "aliases": [
+          "viembongdai",
+          "viêm bàng quang",
+          "viem bang quang",
+          "viembangquang",
+          "viêm bọng đái",
+          "viem bong dai"
+        ],
+        "search_vector_hint": "Bệnh Viêm bàng quang thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng đường tiết niệu dưới."
+      }
+    },
+    {
+      "id": "B_VIEM_THAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm thận",
+        "aliases": [
+          "viêm thận",
+          "viem than",
+          "viemthan"
+        ],
+        "search_vector_hint": "Bệnh Viêm thận thuộc nhóm bệnh."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "HC_CISAMPELIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cisampelin",
+        "aliases": [
+          "cisampelin"
+        ],
+        "search_vector_hint": "Hoạt chất Cisampelin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_DEYAMITIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Deyamitin",
+        "aliases": [
+          "deyamitin"
+        ],
+        "search_vector_hint": "Hoạt chất Deyamitin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_HAYATIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Hayatin",
+        "aliases": [
+          "hayatin"
+        ],
+        "search_vector_hint": "Hoạt chất Hayatin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_HAYATININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Hayatinin",
+        "aliases": [
+          "hayatinin"
+        ],
+        "search_vector_hint": "Hoạt chất Hayatinin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_QUEXITOL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quexitol",
+        "aliases": [
+          "quexitol"
+        ],
+        "search_vector_hint": "Hoạt chất Quexitol thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_STEROL",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Sterol",
+        "aliases": [
+          "sterol"
+        ],
+        "search_vector_hint": "Hoạt chất Sterol thuộc nhóm Hoạt chất, thường liên quan đến cấu trúc hóa học steroid."
+      }
+    },
+    {
+      "id": "S_DAU_BUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau bụng thuộc nhóm triệu chứng, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_BUOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau buốt",
+        "aliases": [
+          "dau buot",
+          "đau buốt",
+          "daubuot"
+        ],
+        "search_vector_hint": "Triệu chứng Đau buốt thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "S_RA_MAU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ra máu",
+        "aliases": [
+          "xuathuyet",
+          "ra mau",
+          "xuat huyet",
+          "xuất huyết",
+          "ramau",
+          "ra máu"
+        ],
+        "search_vector_hint": "Triệu chứng Ra máu thuộc nhóm Triệu chứng, thường liên quan đến tổn thương mạch máu."
+      }
+    },
+    {
+      "id": "S_SOT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Sốt",
+        "aliases": [
+          "sot",
+          "sốt"
+        ],
+        "search_vector_hint": "Triệu chứng Sốt thuộc nhóm triệu chứng, thường liên quan đến nhiễm trùng, viêm nhiễm."
+      }
+    },
+    {
+      "id": "S_TAO_BON",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Táo bón",
+        "aliases": [
+          "tao bon",
+          "bi dai tien",
+          "bidaitien",
+          "táo bón",
+          "taobon",
+          "bí đại tiện"
+        ],
+        "search_vector_hint": "Táo bón thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "VT_GUNG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Gừng",
+        "aliases": [
+          "gừng",
+          "gung"
+        ],
+        "search_vector_hint": "Gừng thuộc nhóm vị thuốc."
+      }
+    },
+    {
+      "id": "VT_HAT_TIEU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hạt tiêu",
+        "aliases": [
+          "hồ tiêu",
+          "hat tieu",
+          "hattieu",
+          "hotieu",
+          "ho tieu",
+          "hạt tiêu"
+        ],
+        "search_vector_hint": "Vị thuốc Hạt tiêu thuộc nhóm Vị thuốc, thường liên quan đến tính ấm, kích thích tiêu hóa."
+      }
+    },
+    {
+      "id": "VT_LA_TIET_DE",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Lá tiết dê",
+        "aliases": [
+          "la tiet de",
+          "lá tiết dê",
+          "latietde"
+        ],
+        "search_vector_hint": "Vị thuốc Lá tiết dê thuộc nhóm Vị thuốc, thường liên quan đến điều trị bệnh đường ruột.",
+        "bo_phan_dung": "rễ, lá",
+        "lieu_dung_chung": "[CT_VT_VN_T288]: Ngày dùng: Rễ $5$-$10$g dưới dạng thuốc sắc. Lá: Thường dùng tươi giã nát vắt lấy nước để đông lại mà uống. Ngày $40$-$100$g lá tươi.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "khắp nơi đồng bằng cũng như rừng núi trong toàn nước ta. Còn thấy mọc ở Ấn Độ, đảo Mactinic, phía đông châu Phi",
+        "ten_khoa_hoc": "$Cissampelos pareira L.; Cissampelos convolvulacea Willd.; Cissampelos pareira L. var. hirsuta (Buch. Ham. ex DC.) Forman (Menispermum hirsutum Buch. Ham. ex DC.)$",
+        "ho_thuc_vat": "$Tiết dê Menispermaceae$",
+        "hinh_thai_chi_tiet": "Tiết dê là một loại dây leo, thân và cành đều mang ít nhiều lông mịn. Lá hình tim, có khi mép hơi khía tai bèo, thường mềm; dài $2$-$5cm$, rộng $3$-$6cm$, có 5 gân chính, hai mặt đều có lỏng mịn. Cụm hoa đực mọc thành ngù lưỡng phân, có cuống, mọc đơn độc hay từng đôi ở kẽ các lá bắc hình lá. Cụm hoa cái mọc thành xim lưỡng phân, gần như không cuống ở kẽ các lá bắc hình thận hay hình tròn, nhỏ, mọc mau. Quả hạch hình cầu, dẹt, đường kính $5mm$ và có sẹo của vòi ở gốc, màu đỏ có lông. Hạch hình móng ngựa, giữa rỗng, có những mấu sần sùi, nhân có phôi nhũ và phôi cùng dạng ( Hình 210)."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "287"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Tiết dê là một loại dây leo, thân và cành đều mang ít nhiều lông mịn. Lá hình tim, có khi mép hơi khía tai bèo, thường mềm; dài $2$-$5cm$, rộng $3$-$6cm$, có 5 gân chính, hai mặt đều có lỏng mịn. Cụm hoa đực mọc thành ngù lưỡng phân, có cuống, mọc đơn độc hay từng đôi ở kẽ các lá bắc hình lá. Cụm hoa cái mọc thành xim lưỡng phân, gần như không cuống ở kẽ các lá bắc hình thận hay hình tròn, nhỏ, mọc mau. Quả hạch hình cầu, dẹt, đường kính $5mm$ và có sẹo của vòi ở gốc, màu đỏ có lông. Hạch hình móng ngựa, giữa rỗng, có những mấu sần sùi, nhân có phôi nhũ và phôi cùng dạng ( Hình 210)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_CISAMPELIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong rễ, Fluckiger đã chiết được một ancaloit có vị đắng gọi là $cisampelin$ hay $pelosin$ với tỷ lệ $0,5\\%$.",
+        "ghi_chu": "còn gọi là pelosin"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_DEYAMITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra Fluckiger còn lấy ra được một chất nữa, trung tính, kết tinh thành hình phiến nhỏ gọi là $deyamitin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_HAYATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1952, Bhattacharji S., Sharma V. N. và Dhar M. D. (J. Sci. Industr. Res. India) đã báo cáo chiết được từ rễ cây tiết dê một chất ancaloit gọi là `$hayatin$` và một ancaloit nữa gọi là `$hayatinin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_HAYATININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1952, Bhattacharji S., Sharma V. N. và Dhar M. D. (J. Sci. Industr. Res. India) đã báo cáo chiết được từ rễ cây tiết dê một chất ancaloit gọi là `$hayatin$` và một ancaloit nữa gọi là `$hayatinin$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_QUEXITOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1952, Bhattacharji S., Sharma V. N. và Dhar M. D. (J. Sci. Industr. Res. India) đã báo cáo chiết được từ rễ cây tiết dê một chất ancaloit gọi là `$hayatin$` và một ancaloit nữa gọi là `$hayatinin$`; ngoài ra còn chiết được `$quexitol$` và một `$sterol$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "HC_STEROL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1952, Bhattacharji S., Sharma V. N. và Dhar M. D. (J. Sci. Industr. Res. India) đã báo cáo chiết được từ rễ cây tiết dê một chất ancaloit gọi là `$hayatin$` và một ancaloit nữa gọi là `$hayatinin$`; ngoài ra còn chiết được `$quexitol$` và một `$sterol$`."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Lá tiết dê tươi $50g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vò nát hay giã nhỏ, thêm ít nước chín nguội, vắt lấy nước, để một chốc cho đông lại, có thể thêm đường cho dễ uống",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "S_SOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Lá tiết dê tươi $50g$ | Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Vò nát hay giã nhỏ, thêm ít nước chín nguội, vắt lấy nước, để một chốc cho đông lại, có thể thêm đường cho dễ uống",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Lá tiết dê tươi $50g$",
+        "cach_dung": "Vò nát hay giã nhỏ, thêm ít nước chín nguội, vắt lấy nước, để một chốc cho đông lại, có thể thêm đường cho dễ uống",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "to": "VT_LA_TIET_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$4$",
+        "vai_tro": "Quân",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "to": "VT_HAT_TIEU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$5$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "to": "VT_GUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6$",
+        "vai_tro": "Tá",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Ngày uống $0,20-0,30g$ thuốc này",
+        "cach_dung": "Tất cả trộn đều, thêm mật vào nhào thành bột nhão, viên thành viên",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CHAM_TIEU_DAU_BUNG_LA_TIET_DE",
+      "to": "B_CHAM_TIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Ngày uống $0,20-0,30g$ thuốc này",
+        "cach_dung": "Tất cả trộn đều, thêm mật vào nhào thành bột nhão, viên thành viên",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "S_TAO_BON",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "S_DAU_BUOT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "S_RA_MAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_SOI_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_SOI_BONG_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_VIEM_BONG_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_VIEM_THAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_SOI_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng giã nát đắp lên",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "B_TE_THAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "S_DAU_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "CT_VT_VN_T288"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_LA_TIET_DE",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Các ancaloit chiết được từ rễ cây tiết dê độc với chuột nhỏ với liều $50mg/kg$ thể trọng, gây dãn các cơ trơn và kích thích các trung tâm của tủy sống.",
+        "ghi_chu": "Độc tính được ghi nhận trên chuột nhỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T287",
+        "all_sources": [
+          "CT_VT_VN_T287"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

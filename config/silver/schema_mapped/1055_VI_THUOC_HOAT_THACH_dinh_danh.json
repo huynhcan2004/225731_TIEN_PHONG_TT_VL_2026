@@ -1,0 +1,96 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HOAT_THACH",
+    "ten_raw": "Hoạt thạch",
+    "ten_khoa_hoc": "Talcum",
+    "ho_thuc_vat": "Không có thông tin",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chất khoáng",
+      "che_bien_tho": "Hoạt thạch là một chất bột trắng mịn, sờ tron mát, không tan trong nước."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1055"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Ngọt (Cam)"
+        ],
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_VI",
+          "K_BANG_QUANG"
+        ]
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoạt thạch là một chất khoáng. Thành phần của nó là magiê silicat 3MgO. 4SiO, . H,O. Tỷ lệ MgO trong đó $31,7\\%$; SiO, là $63,5\\%$; nước · H,O là $4,8\\%$. Thường một bộ phận MgO có lẫn FeO, ngoài ra có lẫn ít Al,O,. Hoạt thạch là một chất bột trắng mịn, sờ tron mát, không tan trong nước. Tỷ trọng $2,5-2,8$, khó bị axit phá hủy."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HOAT_THACH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAT_THACH",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAT_THACH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAT_THACH",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    },
+    {
+      "from": "VI_THUOC_HOAT_THACH",
+      "to": "HC_MAGIESILICAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt thạch là một chất khoáng. Thành phần của nó là magiê silicat 3MgO. 4SiO, . H,O. Tỷ lệ MgO trong đó $31,7\\%$; SiO, là $63,5\\%$; nước · H,O là $4,8\\%$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    }
+  ]
+}

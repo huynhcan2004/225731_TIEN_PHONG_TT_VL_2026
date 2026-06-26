@@ -1,0 +1,155 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MOC_MEO_NUI",
+    "ten_raw": "Móc mèo núi",
+    "ten_khoa_hoc": "Phyllantus emblica Linn.",
+    "ho_thuc_vat": "Thầu dầu Euphorbiaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T711",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "711"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ cao $3$ m, phân nhiều cành, cành nhỏ mềm, có lông, dài $20$ cm. Lá xếp thành hai hãy trên các cành nhỏ trông giống như một lá kép lông chim, cuống lá rất ngắn. Lá kèm rất nhỏ hình ba cạnh Hoa nhỏ, đơn tính cùng gốc. Cụm hoa thành xim co mọc ở nách lá phía dưới của cành, với rất nhiều hoa đực, vài hoa cái. Quả hình cầu trước mọng, sau khô thành quả nang. Hạt hình ba cạnh, màu hồng nhạt. Mùa hoa: từ tháng $3$ đến tháng $11$ ( Hình $537$).",
+        "thanh_phan_hoa_hoc": [
+          "Quả chứa khoảng $45\\%$ tanin. Quả còn xanh chứa $30-35\\%$ tanin (Trung Quốc kinh tế thực vật chí, $1961$, $1178$). Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d). Ngoài ra còn axit $phyllemblic$ CHO (COOH),, $emblicol$ C,H,O,, (OCH,), (C. A. ,$1959$, $53$, $5416$), axit $muxic$ CHOq (C. A., $1962$, $56$, $15830$ C), rất nhiều vitamin C ($1-1,8g/100g$) (C. A., $1961$, $55$, $4815$ d).",
+          "Lá chứa tanin (lá non $23-28\\%$), ngoài ra còn $kaempferol$ 3-glucozit (Sumbra-manian S . S . et"
+        ],
+        "cach_dung_bao_che": "Rễ thu hái quanh năm, đào vể rửa sạch đất cát, phơi hay sấy khô. Quả thu hái vào mùa thu, đồ hơi nước rồi phơi hay sấy khô."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Quả chứa khoảng $45\\%$ tanin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_CORILAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_TERCHEBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_CHEBULIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_AXIT_GALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_AXIT_ELLAGIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần tanin gồm axit $corilagin$ C₂HO, $terchebin$ CH 30026, axit $chebulic$ CHO, axit galic, axit ellagic (C.A., $1966$, $64$, $3961$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_AXIT_PHYLLMBLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit $phyllemblic$ CHO (COOH),, $emblicol$ C,H,O,, (OCH,), (C. A. ,$1959$, $53$, $5416$), axit $muxic$ CHOq (C. A., $1962$, $56$, $15830$ C), rất nhiều vitamin C ($1-1,8g/100g$) (C. A., $1961$, $55$, $4815$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_EMBLICOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit $phyllemblic$ CHO (COOH),, $emblicol$ C,H,O,, (OCH,), (C. A. ,$1959$, $53$, $5416$), axit $muxic$ CHOq (C. A., $1962$, $56$, $15830$ C), rất nhiều vitamin C ($1-1,8g/100g$) (C. A., $1961$, $55$, $4815$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_AXIT_MUXIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit $phyllemblic$ CHO (COOH),, $emblicol$ C,H,O,, (OCH,), (C. A. ,$1959$, $53$, $5416$), axit $muxic$ CHOq (C. A., $1962$, $56$, $15830$ C), rất nhiều vitamin C ($1-1,8g/100g$) (C. A., $1961$, $55$, $4815$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn axit $phyllemblic$ CHO (COOH),, $emblicol$ C,H,O,, (OCH,), (C. A. ,$1959$, $53$, $5416$), axit $muxic$ CHOq (C. A., $1962$, $56$, $15830$ C), rất nhiều vitamin C ($1-1,8g/100g$) (C. A., $1961$, $55$, $4815$ d)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    },
+    {
+      "from": "VI_THUOC_MOC_MEO_NUI",
+      "to": "HC_KAEMPFEROL_3_GLUCOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá chứa tanin (lá non $23-28\\%$), ngoài ra còn $kaempferol$ 3-glucozit (Sumbra-manian S . S . et"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T711"
+      }
+    }
+  ]
+}

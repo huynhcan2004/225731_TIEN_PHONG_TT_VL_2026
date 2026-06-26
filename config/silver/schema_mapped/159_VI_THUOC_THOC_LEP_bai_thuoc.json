@@ -1,0 +1,184 @@
+{
+  "entity_hub": "VI_THUOC_THOC_LEP",
+  "source": {
+    "source_id": "CT_VT_VN_T159",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "159"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VET_LOET_VET_THUONG_THOC_LEP_T",
+      "to": "VI_THUOC_THOC_LEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, (tươi) vắt lấy nước uống. Dùng ngoài không kể liều lượng",
+        "ghi_chu": "tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VET_THUONG_THOC_LEP_T",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Những vết loét vết thương",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, (tươi) vắt lấy nước uống. Dùng ngoài không kể liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VET_THUONG_THOC_LEP_T",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "rắn cắn",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, (tươi) vắt lấy nước uống. Dùng ngoài không kể liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VET_THUONG_THOC_LEP_T",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "phù thũng",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, (tươi) vắt lấy nước uống. Dùng ngoài không kể liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_VET_THUONG_THOC_LEP_T",
+      "to": "S_LOI_TIEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "lợi tiểu",
+        "cach_dung": "Dưới dạng thuốc sắc hay giã nát, (tươi) vắt lấy nước uống. Dùng ngoài không kể liều lượng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_THOC_LEP_TC",
+      "to": "VI_THUOC_THOC_LEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Rễ thóc lép và lá cối xay phối hợp giúp tăng cường lợi tiểu, giảm phù thũng.",
+        "cach_dung": "Thêm $300ml$ nước. Đun sôi, giữ sôi 30 phút, chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_THOC_LEP_TC",
+      "to": "VT_COI_XAY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Rễ thóc lép và lá cối xay phối hợp giúp tăng cường lợi tiểu, giảm phù thũng.",
+        "cach_dung": "Thêm $300ml$ nước. Đun sôi, giữ sôi 30 phút, chia làm 3 lần uống trong ngày.",
+        "ghi_chu": "lá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_PHU_THUNG_THOC_LEP_TC",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phù thũng",
+        "cach_dung": "Thêm $300ml$ nước. Đun sôi, giữ sôi 30 phút, chia làm 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_THOC_LEP_T",
+      "to": "VI_THUOC_THOC_LEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Ngày dùng 2 lần.",
+        "ghi_chu": "tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_RAN_CAN_THOC_LEP_T",
+      "to": "B_RAN_CAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa rắn cắn",
+        "cach_dung": "Ngày dùng 2 lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_THOC_LEP_T",
+      "to": "VI_THUOC_THOC_LEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Đơn phương trị liệu.",
+        "cach_dung": "Dùng rửa vết loét, vết thương.",
+        "ghi_chu": "rễ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_THOC_LEP_T",
+      "to": "B_VET_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết loét.",
+        "cach_dung": "Dùng rửa vết loét, vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    },
+    {
+      "from": "BT_VET_LOET_THOC_LEP_T",
+      "to": "B_VET_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa vết loét.",
+        "cach_dung": "Dùng rửa vết loét, vết thương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T159"
+      }
+    }
+  ],
+  "metadata": {}
+}

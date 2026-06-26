@@ -1,0 +1,204 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_SEN_CAN",
+    "ten_raw": "Sen can",
+    "ten_khoa_hoc": "Tropaeolum majus L.",
+    "ho_thuc_vat": "Sen cạn Tropaeolacae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Lá, hoa",
+      "thu_hai": "Mùa hạ",
+      "che_bien_tho": "Không có thông tin",
+      "lieu_dung_chung": "Ngày uống $20$g.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Ở nước ta sen cạn chủ yếu mới thấy trồng làm cảnh."
+    },
+    "display_name": "Sen can"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_SEN_CAN",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Sen Can"
+      }
+    },
+    {
+      "id": "HC_GLUCOTROPEOLOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Glucotropeolozit"
+      }
+    },
+    {
+      "id": "HC_TROMALIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tromalit"
+      }
+    },
+    {
+      "id": "B_VIEM_BANG_QUANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Bang Quang"
+      }
+    },
+    {
+      "id": "B_VIEM_PHE_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Phe Quan"
+      }
+    },
+    {
+      "id": "B_VIEM_DUONG_TIET_NIEU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Duong Tiet Nieu"
+      }
+    },
+    {
+      "id": "B_VIEM_DUONG_HO_HAP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Duong Ho Hap"
+      }
+    },
+    {
+      "id": "DL_KANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Khuan"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T789",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "789"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Sen cạn là một loại cây leo, sống hằng năm. Lá không có lá kèm, mọc so le, có cuống dài. Phiến lá tròn, gân lá tỏa tròn. Mặt trên màu lục nhạt, mặt dưới màu nhạt hơn. Hoa mọc riêng lẻ ở kẽ lá, to, lưỡng tính không đều, 5 lá đài màu hơi vàng hình 3 cạnh. Lá dài sau mang một cựa hình trụ nón, cong ở đầu. Các cánh hoa xếp xen kẽ với các lá đài và khác nhau: 3 cái trước dài hơn và hẹp hơn, mang ở ranh giới giữa mỏng và phiến một lưỡi nhỏ rách mọc đứng. Bộ nhị bao giờ cũng giảm còn 8 nhị rời nhau. Bao phần 2 ô mở bằng một kẽ nứt dọc hướng trong. Bộ nhụy cấu tạo bởi 3 lá noãn. Bầu thường, vòi dài hình trụ, chia ở ngọn thành 3 đầu nhụy. Trong mỗi ô có 1 noãn đảo. Quả cấu tạo bởi 3 mảnh vỏ có thành dày xốp, khi chín sẽ tách rời khỏi trục. Hạt không nội nhũ. Mùa hoa: mùa hạ (Hình 601).",
+        "thanh_phan_hoa_hoc": [
+          "Toàn cây đều chứa những tế bào có myrosin và một glucozit chứa sunfua gọi là glucotropeolozit, đồng đẳng dưới của gluconasturtozit có tính cải soong, khi thủy phân cho tinh dầu izothioxyanat benzyl.",
+          "Năm 1956, Danneuberg, H. Stikl và cộng sự đã tìm thấy trong một cây cùng chi chất tromalit có tác dụng với vi khuẩn gram âm và gram dương."
+        ],
+        "cach_dung_bao_che": "Mùa thu quả chín, phơi khô, đập lấy hạt, phơi khô lần nữa mà dùng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "HC_GLUCOTROPEOLOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây đều chứa những tế bào có myrosin và một glucozit chứa sunfua gọi là glucotropeolozit, đồng đẳng dưới của gluconasturtozit có tính cải soong, khi thủy phân cho tinh dầu izothioxyanat benzyl.",
+        "ghi_chu": "đồng đẳng dưới của gluconasturtozit"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "HC_TROMALIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1956, Danneuberg, H. Stikl và cộng sự đã tìm thấy trong một cây cùng chi chất tromalit có tác dụng với vi khuẩn gram âm và gram dương."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "B_VIEM_BANG_QUANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T790"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "B_VIEM_PHE_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng theo kinh nghiệm",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T790"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "B_VIEM_DUONG_TIET_NIEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Uống $20g$",
+        "cach_dung": "Sen cạn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T790"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "B_VIEM_DUONG_HO_HAP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Uống $20g$",
+        "cach_dung": "Sen cạn",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T790"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "DL_KANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây có tác dụng kháng khuẩn, nhưng chất kháng khuẩn tập trung ở hạt, có tác dụng với nhiều vi khuẩn gram âm và gram dương. Chất kháng khuẩn là một loại dầu có mùi thơm đặc biệt màu hơi vàng, đồng đặc ở $4°C$, tan được trong nhiều dung môi hữu cơ như ete etylic, cồn etylic, axeton, dầu lạc. Chất chiết bằng ête etylic pha loãng $1/50$ cho vòng vô khuẩn lớn nhất ($65 mm$) đối với Streptococcus haemolyticus, S. uberis, vòng vô khuẩn $60 mm$ với Bacilus subtilis, $40 mm$ với Staphyllococcus aureus 209 P, Streptococcus L. X., $35 mm$ với Diplococcus pneumoniae và $30 mm$ với Corynebacterium diphteriae mitis, C. diphteriae gravis, Salmonella paratyphi, C. Shigella dysenteriae, Streptococcus souche A, Vibrio cholerae Ogawa, nhỏ hơn với một số vi khuẩn khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    },
+    {
+      "from": "VI_THUOC_SEN_CAN",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất tromalit của Danneuberg có độc tính rất thấp: $76-$107mg$/kg$ thể trọng (tiêm khoang bụng đối với chuột bạch) và $134mg/kg$ (nếu uống). Cho uống hằng ngày với liều $32 mg/kg$ liên tục trong 28 ngày không thấy có hiện tượng phụ nào.",
+        "ghi_chu": "Tromalit là một thành phần hóa học được chiết xuất từ Sen can."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T789"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_RAU_MEO",
+    "ten_raw": "Cây râu mèo",
+    "ten_khoa_hoc": "Orthosiphon stamineus Benth.",
+    "ho_thuc_vat": "Hoa môi Lamiaceae (Labiatae)",
+    "variants": [
+      "Orthosiphon stamineus"
+    ],
+    "properties": {
+      "bo_phan_dung": "lá râu mèo",
+      "phan_bo": "Mọc hoang và được trồng ở nước ta. Trồng bằng hạt hay dâm cành. Còn mọc ở Inđônêxia, Philipin."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T234",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "234"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây râu mèo-có tên như vậy vì nhị và nhụy của hoa thò ra giống râu con mèo. Cây nhỏ, sống lâu năm, cao $0,30$ hoặc $0,50$ đến $1m$. Thân cây có cạnh vuông, mang nhiều cành. Lá mọc đối, cặp lá trước mọc thành chữ thập đối với cặp lá sau. Cuống lá rất ngắn, chừng $2-5mm$. Cụm hoa tận cùng thẳng, mọc thành chùm, màu hoa lúc non thì trắng, sau ngả màu xanh tím. Hoa nở suốt mùa hè Hình 161. Râu mèo - Orthosiphon stamineus",
+        "thanh_phan_hoa_hoc": [
+          "Trong cây râu mèo có một glucozit đắng gọi là orthosiphonin, ít tan trong rượu, tan nhiều trong nước.",
+          "Ngoài ra còn một ít tinh dầu, một ít chất béo, tanin ($5-6$\\%), đường, và một tỷ lệ khá cao muối vô cơ trong đó chủ yếu là muối kali.",
+          "Có tác giả nói còn lấy được một chất saponin tritecpenic gọi là sapophonin. Chất này thủy phân sẽ được sapogenin, arabinoza và hexoza. Nhưng gần đây có người không công nhận chất này."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_ORTHOSIPHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong cây râu mèo có một glucozit đắng gọi là orthosiphonin, ít tan trong rượu, tan nhiều trong nước."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn một ít tinh dầu, một ít chất béo, tanin ($5-6$\\%), đường, và một tỷ lệ khá cao muối vô cơ trong đó chủ yếu là muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn một ít tinh dầu, một ít chất béo, tanin ($5-6$\\%), đường, và một tỷ lệ khá cao muối vô cơ trong đó chủ yếu là muối kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234"
+      }
+    },
+    {
+      "from": "VI_THUOC_RAU_MEO",
+      "to": "HC_SAPOPHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác giả nói còn lấy được một chất saponin tritecpenic gọi là sapophonin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T234"
+      }
+    }
+  ]
+}

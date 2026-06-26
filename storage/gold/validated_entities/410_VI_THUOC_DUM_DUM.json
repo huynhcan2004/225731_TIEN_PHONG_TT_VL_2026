@@ -1,0 +1,203 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUM_DUM",
+    "ten_raw": "Đùm đùm",
+    "ten_khoa_hoc": "$Rubus cochinchinenis Tratt.; Rubus fruticosus Lour; Rubus playfairii Hemsl.$",
+    "ho_thuc_vat": "$Hoa hồng Rosaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "thu_hai": "khi chín có màu đỏ hay đen nhạt",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Cây mọc hoang ở khắp miền rừng núi nước ta, thường ở ven rừng hay nơi đã phát quang."
+    },
+    "display_name": "Đùm đùm",
+    "canonical_name": "Đùm đùm"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_DUM_DUM",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Dum Dum"
+      }
+    },
+    {
+      "id": "HC_TANIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Tanin"
+      }
+    },
+    {
+      "id": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu Dum Dum"
+      }
+    },
+    {
+      "id": "B_DAU_GAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Gan"
+      }
+    },
+    {
+      "id": "S_DA_VANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Da Vang"
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Kem An"
+      }
+    },
+    {
+      "id": "CN_AN_UONG_KHONG_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "An Uong Khong Tieu"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "410"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỡ, rất nhiều cành, cành nhiều khi vươn dài tới vài mét. Cành có lông, trên có gai nhỏ, cong về phía gốc, phía dưới gai phình ra. Lá kép có 3 đến 5 lá chét có cuốn ngắn, lá chét giữa lớn hơn cả, mép có răng cưa, mặt trên nhẵn, mặt dưới có nhiều lông, cuống chung dài $3-6cm$, có gai. Hoa mọc thành chùy nhỏ ở đầu cành hay kẽ lá. Quả kép hình cầu, bọc trong lá đài, gồm nhiều quả hạch nhỏ. Khi chín có màu đỏ hay đen nhạt, ăn được ( Hình 296 ).",
+        "thanh_phan_hoa_hoc": [
+          "tanin"
+        ]
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUM_DUM",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ thấy có $tanin$.",
+        "ghi_chu": "Sơ bộ thấy có $tanin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "to": "VI_THUOC_DUM_DUM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$15-30g$",
+        "vai_tro": "Quân",
+        "cach_dung": "Sắc uống trước bữa cơm chính, chia 2-3 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T410"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "to": "B_DAU_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$15-30g$",
+        "cach_dung": "Sắc uống trước bữa cơm chính, chia 2-3 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T410"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "to": "S_DA_VANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$15-30g$",
+        "cach_dung": "Sắc uống trước bữa cơm chính, chia 2-3 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T410"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "$15-30g$",
+        "cach_dung": "Sắc uống trước bữa cơm chính, chia 2-3 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T410"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_AN_UONG_KHONG_TIEU_DUM_DUM",
+      "to": "CN_AN_UONG_KHONG_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$15-30g$",
+        "cach_dung": "Sắc uống trước bữa cơm chính, chia 2-3 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T410"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T410",
+        "all_sources": [
+          "CT_VT_VN_T410"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 24.5,
+      "reliability_c_score": 0.7786,
+      "total_confidence_sum": 5.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

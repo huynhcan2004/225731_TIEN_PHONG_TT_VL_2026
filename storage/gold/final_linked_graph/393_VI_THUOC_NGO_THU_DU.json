@@ -1,0 +1,944 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NGO_THU_DU",
+    "ten_raw": "Ngô thù du",
+    "ten_khoa_hoc": "$Evodia rutaecarpa (Juss) Benth.$",
+    "ho_thuc_vat": "$Không rõ$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không rõ",
+      "thu_hai": "vàng xanh, chưa tách ra thì hái lấy, đem phơi nắng cho tới khô. nếu gặp trời âm u thì có thể đem sấy cho khô.",
+      "che_bien_tho": "không rõ",
+      "lieu_dung_chung": "Ngày dùng $1$-$3$g dưới dạng bột hoặc $4$-$6$g dưới dạng thuốc sắc, chia $3$-$4$ lần uống trong ngày.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Không rõ",
+      "phan_bo": "nhiều nơi đều có, nhưng chỉ có loại thù du ở đất Ngô là tốt hơn cả"
+    },
+    "display_name": "Vị thuốc Ngô thù du",
+    "canonical_name": "Vị thuốc Ngô thù du"
+  },
+  "nodes": [
+    {
+      "id": "BT_NON_MUA_NGO_THU_DU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Non Mua Ngô thù du",
+        "aliases": [
+          "non mua ngô thù du",
+          "nonmuangothudu",
+          "non mua ngo thu du"
+        ],
+        "search_vector_hint": "Bài thuốc Non Mua Ngô thù du thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "BT_ROI_LOAN_TIEU_HOA_THU_DU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Rối loạn tiêu hóa Thù du",
+        "aliases": [
+          "rối loạn tiêu hóa thù du",
+          "roi loan tieu hoa thu du",
+          "roiloantieuhoathudu"
+        ],
+        "search_vector_hint": "Bài thuốc Rối loạn tiêu hóa Thù du thuộc nhóm Bài thuốc, thường liên quan đến điều trị bệnh trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_NGUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Ngứa",
+        "aliases": [
+          "ngứa",
+          "ngua"
+        ],
+        "search_vector_hint": "Bệnh Ngứa thuộc nhóm Bệnh, thường liên quan đến các triệu chứng và phương pháp điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_NON_MUA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Non Mua",
+        "aliases": [
+          "nonmua",
+          "non mua"
+        ],
+        "search_vector_hint": "Bệnh Non Mua thuộc nhóm Bệnh, thường liên quan đến các triệu chứng và phương pháp điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "B_ROI_LOAN_TIEU_HOA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Rối loạn tiêu hóa",
+        "aliases": [
+          "an khong tieu",
+          "khó tiêu",
+          "khotieu",
+          "roiloantieuhoa",
+          "roi loan tieu hoa",
+          "rối loạn tiêu hóa",
+          "ankhongtieu",
+          "ăn không tiêu",
+          "kho tieu"
+        ],
+        "search_vector_hint": "Bệnh Rối loạn tiêu hóa thuộc nhóm bệnh tiêu hóa, thường liên quan đến chức năng dạ dày, ruột."
+      }
+    },
+    {
+      "id": "CN_CO_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Cố độc",
+        "aliases": [
+          "cố độc",
+          "co doc",
+          "codoc"
+        ],
+        "search_vector_hint": "Công năng Cố độc thuộc nhóm Công năng, thường liên quan đến tính chất dược lý của vị thuốc."
+      }
+    },
+    {
+      "id": "CN_KHAU_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khẩu vị",
+        "aliases": [
+          "khau vi",
+          "khẩu vị",
+          "khauvi"
+        ],
+        "search_vector_hint": "Khẩu vị thuộc nhóm công năng, thường liên quan đến vị giác và cảm giác ngon miệng."
+      }
+    },
+    {
+      "id": "CN_ON",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ôn",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Công năng Ôn thuộc nhóm Công năng, thường liên quan đến tính chất dược lý của vị thuốc."
+      }
+    },
+    {
+      "id": "DL_CHONG_NON",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Chống nôn",
+        "aliases": [
+          "chong non",
+          "chongnon",
+          "chống nôn"
+        ],
+        "search_vector_hint": "Dược lý Chống nôn thuộc nhóm Dược lý, thường liên quan đến tác dụng dược lý của vị thuốc."
+      }
+    },
+    {
+      "id": "DL_CO_BOP_TU_CUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Co bóp tử cung",
+        "aliases": [
+          "co bóp tử cung",
+          "coboptucung",
+          "co bop tu cung"
+        ],
+        "search_vector_hint": "Dược lý Co bóp tử cung thuộc nhóm Dược lý, thường liên quan đến sản khoa."
+      }
+    },
+    {
+      "id": "DL_DIET_GIUN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Diệt giun",
+        "aliases": [
+          "diệt giun",
+          "dietgiun",
+          "diet giun"
+        ],
+        "search_vector_hint": "Dược lý Diệt giun thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt giun sán."
+      }
+    },
+    {
+      "id": "DL_HO_TRO_TIEU_HOA",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hỗ trợ tiêu hóa",
+        "aliases": [
+          "hotrotieuhoa",
+          "hỗ trợ tiêu hóa",
+          "ho tro tieu hoa"
+        ],
+        "search_vector_hint": "Dược lý Hỗ trợ tiêu hóa thuộc nhóm dược lý, thường liên quan đến..."
+      }
+    },
+    {
+      "id": "DL_KHANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Kháng khuẩn",
+        "aliases": [
+          "diệt khuẩn",
+          "chongvikhuan",
+          "diet khuan",
+          "kháng khuẩn",
+          "dietkhuan",
+          "chống vi khuẩn",
+          "khang khuan",
+          "khangkhuan",
+          "chong vi khuan"
+        ],
+        "search_vector_hint": "Công năng Kháng khuẩn thuộc nhóm Công năng, thường liên quan đến khả năng ức chế vi khuẩn."
+      }
+    },
+    {
+      "id": "HC_EVODEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Evoden",
+        "aliases": [
+          "evoden"
+        ],
+        "search_vector_hint": "Hoạt chất Evoden thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_EVODIAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Evodiamin",
+        "aliases": [
+          "evodiamin"
+        ],
+        "search_vector_hint": "Hoạt chất Evodiamin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_EVODIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Evodin",
+        "aliases": [
+          "evodin"
+        ],
+        "search_vector_hint": "Hoạt chất Evodin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_OBAKULACTON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Obakulacton",
+        "aliases": [
+          "obakulacton"
+        ],
+        "search_vector_hint": "Hoạt chất Obakulacton thuộc nhóm hoạt chất, thường liên quan đến dược lý."
+      }
+    },
+    {
+      "id": "HC_OXIMEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Oximen",
+        "aliases": [
+          "oximen"
+        ],
+        "search_vector_hint": "Hoạt chất Oximen thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_RUTAECACPIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Rutaecacpin",
+        "aliases": [
+          "rutaecacpin"
+        ],
+        "search_vector_hint": "Hoạt chất Rutaecacpin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_WUCHUYIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Wuchuyin",
+        "aliases": [
+          "wuchuyin"
+        ],
+        "search_vector_hint": "Hoạt chất Wuchuyin thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Can",
+        "aliases": [
+          "can"
+        ],
+        "search_vector_hint": "Kinh Can thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Than",
+        "aliases": [
+          "thận",
+          "than"
+        ],
+        "search_vector_hint": "Kinh Thận thuộc nhóm Kinh, thường liên quan đến hệ kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_NHUC_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Nhức răng",
+        "aliases": [
+          "nhuc rang",
+          "nhucrang",
+          "nhức răng"
+        ],
+        "search_vector_hint": "Triệu chứng Nhức răng thuộc nhóm Triệu chứng, thường liên quan đến các bệnh lý răng miệng."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_CAN_KHUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Can khương",
+        "aliases": [
+          "cankhuong",
+          "gungkho",
+          "can khuong",
+          "can khương",
+          "gừng khô",
+          "gung kho"
+        ],
+        "search_vector_hint": "Vị thuốc Can khương thuộc nhóm vị thuốc, thường liên quan đến ôn trung tán hàn."
+      }
+    },
+    {
+      "id": "VT_HOANG_LIEN",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng liên",
+        "aliases": [
+          "hoàng liên",
+          "hoang lien",
+          "hoanglien"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng liên thuộc nhóm vị thuốc, thường liên quan đến tính kháng khuẩn."
+      }
+    },
+    {
+      "id": "VT_MOC_HUONG",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Mộc Hương",
+        "aliases": [
+          "mộc hương",
+          "mochuong",
+          "moc huong"
+        ],
+        "search_vector_hint": "Vị thuốc Mộc Hương thuộc nhóm vị thuốc, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "VT_NGO_THU_DU",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ngô thù du",
+        "aliases": [
+          "ngô thù du",
+          "ngothudu",
+          "ngo thu du"
+        ],
+        "search_vector_hint": "Vị thuốc Ngô thù du thuộc nhóm Vị thuốc, thường liên quan đến các bài thuốc trong y học cổ truyền.",
+        "bo_phan_dung": "không rõ",
+        "thu_hai": "vàng xanh, chưa tách ra thì hái lấy, đem phơi nắng cho tới khô. nếu gặp trời âm u thì có thể đem sấy cho khô.",
+        "che_bien_tho": "không rõ",
+        "lieu_dung_chung": "Ngày dùng $1$-$3$g dưới dạng bột hoặc $4$-$6$g dưới dạng thuốc sắc, chia $3$-$4$ lần uống trong ngày.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Không rõ",
+        "phan_bo": "nhiều nơi đều có, nhưng chỉ có loại thù du ở đất Ngô là tốt hơn cả",
+        "ten_khoa_hoc": "$Evodia rutaecarpa (Juss) Benth.$",
+        "ho_thuc_vat": "$Không rõ$",
+        "hinh_thai_chi_tiet": "Ngô thù du là một cây nhỏ cao chừng 2,5-5m. Cành màu nâu hay tím nâu, khi còn non có mang lông mềm dài, khi già lông rụng đi, trên mặt cành có nhiều bì khổng. Lá mọc đối, kép lông chim, rìa lẻ. Cả cuống và lá dài độ 15-35cm, 2 đến 5 đôi lá chét, có cuống ngắn. Trên lá và cuống lá chét có mang lông mềm. Lá chét dài 5-15cm, rộng 2,5-5cm, đầu lá chét nhọn dài, mép nguyên, hai mặt đều có lông màu nâu mịn, mặt dưới nhiều hơn, soi lên ánh sáng sẽ thấy những điểm tinh dầu. Hoa đơn tính, đực cái khác gốc. Đa số những hoa nhỏ tụ thành tán hay đặc biệt thành chùm. Cuống hoa trông to thô, có nhiều lông màu nâu mềm. Hoa màu vàng trắng. Hoa cái lớn hơn hoa đực. Quả hình cầu dẹt, dài $3mm$, đường kính $6mm$, thường gồm 5 lá noãn. Khi chưa chín có màu xanh, khi chín có màu tím đỏ, trên mặt có những điểm tinh dầu, mỗi ô quả có một hạt hình trứng dài $5-6mm$, đường kính $4mm$ màu đen bóng. Mùa hoa tháng 6-8. Mùa quả tháng 9-10."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "393"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Ngô thù du là một cây nhỏ cao chừng 2,5-5m. Cành màu nâu hay tím nâu, khi còn non có mang lông mềm dài, khi già lông rụng đi, trên mặt cành có nhiều bì khổng. Lá mọc đối, kép lông chim, rìa lẻ. Cả cuống và lá dài độ 15-35cm, 2 đến 5 đôi lá chét, có cuống ngắn. Trên lá và cuống lá chét có mang lông mềm. Lá chét dài 5-15cm, rộng 2,5-5cm, đầu lá chét nhọn dài, mép nguyên, hai mặt đều có lông màu nâu mịn, mặt dưới nhiều hơn, soi lên ánh sáng sẽ thấy những điểm tinh dầu. Hoa đơn tính, đực cái khác gốc. Đa số những hoa nhỏ tụ thành tán hay đặc biệt thành chùm. Cuống hoa trông to thô, có nhiều lông màu nâu mềm. Hoa màu vàng trắng. Hoa cái lớn hơn hoa đực. Quả hình cầu dẹt, dài $3mm$, đường kính $6mm$, thường gồm 5 lá noãn. Khi chưa chín có màu xanh, khi chín có màu tím đỏ, trên mặt có những điểm tinh dầu, mỗi ô quả có một hạt hình trứng dài $5-6mm$, đường kính $4mm$ màu đen bóng. Mùa hoa tháng 6-8. Mùa quả tháng 9-10."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_EVODEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_EVODIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_OBAKULACTON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_OXIMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_EVODIAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_RUTAECACPIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "HC_WUCHUYIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong tinh dầu có $evoden$, $evodin$ hoặc $obakulacton$, $oximen$ và ba ancaloit: $evodiamin$, $rutaecacpin$ và $wuchuyin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU",
+      "to": "VT_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$5g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU",
+      "to": "VT_CAN_KHUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_NON_MUA_NGO_THU_DU",
+      "to": "B_NON_MUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Nước $300ml$, sắc còn $100ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "không ỉa"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_THU_DU",
+      "to": "VT_NGO_THU_DU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_THU_DU",
+      "to": "VT_MOC_HUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$2g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_THU_DU",
+      "to": "VT_HOANG_LIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_ROI_LOAN_TIEU_HOA_THU_DU",
+      "to": "B_ROI_LOAN_TIEU_HOA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Tất cả tán thành bột, trộn đều. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "B_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "không kể liều lượng",
+        "cach_dung": "Sắc nước mà rửa",
+        "ghi_chu": "Hạ bộ chảy nước ngứa ngáy"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "S_NHUC_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngâm rượu, ngậm vào một lúc lâu rồi nhổ đi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "CN_KHAU_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cay, đắng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "CN_ON",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "CN_CO_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hơi có độc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "DL_CHONG_NON",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống ngô thù du vào có tác dụng chống nôn mửa. Nếu dùng phối hợp với gừng thì tác dụng lại càng mạnh hơn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "DL_HO_TRO_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tác dụng giúp sự tiêu hoá, bổ dạ dày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "DL_CO_BOP_TU_CUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Rutamin có tác dụng co bóp tử cung."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "DL_DIET_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong ống nghiệm, ngô thù du có tác dụng diệt giun rõ rệt đối với giun lợn, giun đất và đỉa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NGO_THU_DU",
+      "to": "DL_KHANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngô thù du có tác dụng ức chế sinh trưởng một loại vi khuẩn ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T393",
+        "all_sources": [
+          "CT_VT_VN_T393"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 57.0,
+      "reliability_c_score": 0.7562,
+      "total_confidence_sum": 24.2
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

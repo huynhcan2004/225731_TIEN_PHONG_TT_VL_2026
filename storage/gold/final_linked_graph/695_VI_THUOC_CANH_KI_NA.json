@@ -1,0 +1,871 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_CANH_KI_NA",
+    "ten_raw": "Canh ki na",
+    "ten_khoa_hoc": "$Cinchona sp.; Cinchona succirubra, Cinchona ledgeriana, Cinchona cuccirubra Cinchona pellteriana Wedd.$",
+    "ho_thuc_vat": "$Cà phê (Rubiaceae)$",
+    "variants": [
+      "Canhkina",
+      "quinquina",
+      "Chinae-Cortex",
+      "Cortex Cinchonae"
+    ],
+    "properties": {
+      "bo_phan_dung": "vỏ thân, vỏ cành, vỏ rễ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Không có thông tin",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "Nam Mỹ"
+    },
+    "display_name": "Vị thuốc Canh ki na",
+    "canonical_name": "Vị thuốc Canh ki na"
+  },
+  "nodes": [
+    {
+      "id": "B_BO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Bò",
+        "aliases": [
+          "bò",
+          "bo"
+        ],
+        "search_vector_hint": "Bệnh Bò thuộc nhóm bệnh, thường liên quan đến da liễu."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_SOT_RET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt rét",
+        "aliases": [
+          "sot ret",
+          "malaria",
+          "sốt rét",
+          "sotret"
+        ],
+        "search_vector_hint": "Sốt rét thuộc nhóm bệnh, thường liên quan đến ký sinh trùng Plasmodium."
+      }
+    },
+    {
+      "id": "B_SOT_THUONG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt thường",
+        "aliases": [
+          "sốt thường",
+          "sotthuong",
+          "sot thuong"
+        ],
+        "search_vector_hint": "Bệnh Sốt thường thuộc nhóm bệnh, thường liên quan đến tình trạng sốt do nhiều nguyên nhân."
+      }
+    },
+    {
+      "id": "DL_AN_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "an than",
+          "anthan",
+          "an thần"
+        ],
+        "search_vector_hint": "Công năng An thần thuộc nhóm Công năng, thường liên quan đến làm dịu thần kinh."
+      }
+    },
+    {
+      "id": "DL_CHONG_NHIEM_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Chống nhiễm trùng",
+        "aliases": [
+          "chong nhiem trung",
+          "chống nhiễm trùng",
+          "chongnhiemtrung"
+        ],
+        "search_vector_hint": "Chống nhiễm trùng thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "DL_CHONG_RUNG_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Chống rung tim",
+        "aliases": [
+          "chongrungtim",
+          "chống rung tim",
+          "chong rung tim"
+        ],
+        "search_vector_hint": "Chống rung tim thuộc nhóm Công năng."
+      }
+    },
+    {
+      "id": "DL_CHUA_SOT_RET",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Chữa sốt rét",
+        "aliases": [
+          "chữa sốt rét",
+          "chua sot ret",
+          "chuasotret"
+        ],
+        "search_vector_hint": "Dược lý Chữa sốt rét thuộc nhóm dược lý, thường liên quan đến điều trị sốt rét."
+      }
+    },
+    {
+      "id": "DL_DIEU_HOA_NHIP_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Điều hòa nhịp tim",
+        "aliases": [
+          "điều hòa nhịp tim",
+          "dieuhoanhiptim",
+          "dieu hoa nhip tim"
+        ],
+        "search_vector_hint": "Dược lý Điều hòa nhịp tim thuộc nhóm dược lý."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_THAN_KINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính thần kinh",
+        "aliases": [
+          "doc tinh than kinh",
+          "doctinhthankinh",
+          "độc tính thần kinh"
+        ],
+        "search_vector_hint": "Dược lý Độc tính thần kinh thuộc nhóm dược lý, thường liên quan đến tác động tiêu cực lên hệ thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính tim",
+        "aliases": [
+          "doctinhtim",
+          "độc tính tim",
+          "doc tinh tim"
+        ],
+        "search_vector_hint": "Dược lý Độc tính tim thuộc nhóm Dược lý, thường liên quan đến tác động độc hại lên tim."
+      }
+    },
+    {
+      "id": "DL_HA_SOT",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Điều trị Hạ sốt",
+        "aliases": [
+          "dieutrihasot",
+          "dieu tri ha sot",
+          "điều trị hạ sốt"
+        ],
+        "search_vector_hint": "Điều trị Hạ sốt thuộc nhóm điều trị, thường liên quan đến các bệnh lý gây sốt."
+      }
+    },
+    {
+      "id": "DL_KICH_THICH_CO_TIM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Kích thích cơ tim",
+        "aliases": [
+          "kích thích cơ tim",
+          "kichthichcotim",
+          "kich thich co tim"
+        ],
+        "search_vector_hint": "Dược lý Kích thích cơ tim thuộc nhóm dược lý, thường liên quan đến bệnh tim mạch."
+      }
+    },
+    {
+      "id": "HC_ARIXIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Arixin",
+        "aliases": [
+          "arixin"
+        ],
+        "search_vector_hint": "Arixin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_QUINIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Axit Quinic",
+        "aliases": [
+          "axit quinic",
+          "axitquinic"
+        ],
+        "search_vector_hint": "Axit Quinic thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_AXIT_QUINOTANIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Quinotanic",
+        "aliases": [
+          "axitquinotanic",
+          "axit quinotanic"
+        ],
+        "search_vector_hint": "Axit Quinotanic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_AXIT_QUINOVIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Quinovic",
+        "aliases": [
+          "axit quinovic",
+          "axitquinovic"
+        ],
+        "search_vector_hint": "Axit Quinovic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CINCHOLA",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cinchola",
+        "aliases": [
+          "cinchola"
+        ],
+        "search_vector_hint": "Cinchola thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CINCHONIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cinchonidin",
+        "aliases": [
+          "cinchonidin"
+        ],
+        "search_vector_hint": "Cinchonidin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_CINCHONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Cinchonin",
+        "aliases": [
+          "cinchonin"
+        ],
+        "search_vector_hint": "Cinchonin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_IZOXINCHOPHYLAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Izoxinchophylamin",
+        "aliases": [
+          "izoxinchophylamin"
+        ],
+        "search_vector_hint": "Izoxinchophylamin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUINAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinamin",
+        "aliases": [
+          "quinamin"
+        ],
+        "search_vector_hint": "Quinamin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUINIDIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinidin",
+        "aliases": [
+          "quinidin"
+        ],
+        "search_vector_hint": "Quinidin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUININ",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinin",
+        "aliases": [
+          "quinin"
+        ],
+        "search_vector_hint": "Quinin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUINOTANIC",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinotanic",
+        "aliases": [
+          "quinotanic"
+        ],
+        "search_vector_hint": "Quinotanic thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUINOVIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinovin",
+        "aliases": [
+          "quinovin"
+        ],
+        "search_vector_hint": "Quinovin thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_QUINOVOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Quinovozit",
+        "aliases": [
+          "quinovozit"
+        ],
+        "search_vector_hint": "Quinovozit thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_XIN_CHOPHYLLAMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Xin Chophyllamin",
+        "aliases": [
+          "xin chophyllamin",
+          "xinchophyllamin"
+        ],
+        "search_vector_hint": "Xin Chophyllamin thuộc nhóm Hoạt chất."
+      }
+    },
+    {
+      "id": "VT_CANH_KI_NA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Canh ki na",
+        "aliases": [
+          "canhkina",
+          "canh ki na"
+        ],
+        "search_vector_hint": "Canh ki na thuộc nhóm vị thuốc.",
+        "bo_phan_dung": "vỏ thân, vỏ cành, vỏ rễ",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "Nam Mỹ",
+        "ten_khoa_hoc": "$Cinchona sp.; Cinchona succirubra, Cinchona ledgeriana, Cinchona cuccirubra Cinchona pellteriana Wedd.$",
+        "ho_thuc_vat": "$Cà phê (Rubiaceae)$",
+        "hinh_thai_chi_tiet": "Có khoảng 40 loài canhkina Cinchona. Canhkina là những cây nhỏ hay cây to có thể cao $15-20m$. Lá mọc đối, có cuống, với hai lá kèm thường sớm rụng. Phiến lá nguyên hình trứng, có gân lá hình lông chim. Trong một số loài như canhkina xám, ở góc gần chính và gân phụ có các túi nhỏ mang lông. Hoa mọc thành chùm xim tận cùng, hoa đều, mẫu 5, cánh hoa màu trắng hay hơi hồng, thường có mùi thơm dễ chịu. Đài có 5 răng, tràng hình ống, loe ở miệng, với 5 thuỳ, 5 nhị đính trên ống tràng. Trong nhiều loài có hoa với vòi nhị dài hoặc ngắn không đều. Bầu dưới, với hai ngăn mang nhiều noãn. Hạt nhiều, nhỏ, dẹt có dìa hơi có răng ( Hình 525)."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "695"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Có khoảng 40 loài canhkina Cinchona. Canhkina là những cây nhỏ hay cây to có thể cao $15-20m$. Lá mọc đối, có cuống, với hai lá kèm thường sớm rụng. Phiến lá nguyên hình trứng, có gân lá hình lông chim. Trong một số loài như canhkina xám, ở góc gần chính và gân phụ có các túi nhỏ mang lông. Hoa mọc thành chùm xim tận cùng, hoa đều, mẫu 5, cánh hoa màu trắng hay hơi hồng, thường có mùi thơm dễ chịu. Đài có 5 răng, tràng hình ống, loe ở miệng, với 5 thuỳ, 5 nhị đính trên ống tràng. Trong nhiều loài có hoa với vòi nhị dài hoặc ngắn không đều. Bầu dưới, với hai ngăn mang nhiều noãn. Hạt nhiều, nhỏ, dẹt có dìa hơi có răng ( Hình 525)."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUININ",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Về sau người ta chiết được từ vỏ cây canhkina chất $quinin$ (ký ninh) có vị đắng, có tác dụng chữa sốt rét giống như vỏ canhkina."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_CINCHOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ canhkina thường chứa từ 8 đến $10\\%$ nước, 4 đến $5\\%$ chất vô cơ, một ít tinh bột, chất gôm, một ít tinh dầu, các chất sterola ($cinchola$ được xác định là B sitosterol)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_AXIT_QUINIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ canhkina thường chứa từ 8 đến $10\\%$ nước, 4 đến $5\\%$ chất vô cơ, một ít tinh bột, chất gôm, một ít tinh dầu, các chất sterola ($cinchola$ được xác định là B sitosterol). Axit quinic (hexahydrotetrahydroxybenzoic)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_AXIT_QUINOTANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ canhkina thường chứa từ 8 đến $10\\%$ nước, 4 đến $5\\%$ chất vô cơ, một ít tinh bột, chất gôm, một ít tinh dầu, các chất sterola ($cinchola$ được xác định là B sitosterol). Axit quinic (hexahydrotetrahydroxybenzoic). Các tanin catechic (còn gọi là axit quinotanic) chiếm từ 3 đến $5\\%$ vỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUINOTANIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ canhkina thường chứa từ 8 đến $10\\%$ nước, 4 đến $5\\%$ chất vô cơ, một ít tinh bột, chất gôm, một ít tinh dầu, các chất sterola ($cinchola$ được xác định là B sitosterol). Axit quinic (hexahydrotetrahydroxybenzoic). Các tanin catechic (còn gọi là axit quinotanic) chiếm từ 3 đến $5\\%$ vỏ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUINOVIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một chất đắng gọi là $quinovin$, được Pelletier Chất quinovin còn gọi là quinovozit thuỷ phân bằng axit sẽ cho một đường là quinovoza (dezoxy 6-glucoza hay D-glucometyloza) và axit quinovic (tritecpen gồm 2 nhóm cacboxyl)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUINOVOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một chất đắng gọi là $quinovin$, được Pelletier Chất quinovin còn gọi là quinovozit thuỷ phân bằng axit sẽ cho một đường là quinovoza (dezoxy 6-glucoza hay D-glucometyloza) và axit quinovic (tritecpen gồm 2 nhóm cacboxyl)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_AXIT_QUINOVIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Một chất đắng gọi là $quinovin$, được Pelletier Chất quinovin còn gọi là quinovozit thuỷ phân bằng axit sẽ cho một đường là quinovoza (dezoxy 6-glucoza hay D-glucometyloza) và axit quinovic (tritecpen gồm 2 nhóm cacboxyl)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUINIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính của canhkina được coi là những ancaloit chiếm từ 3 đến $15\\%$ trong vỏ những cây canhkina trồng. Những ancaloit dẫn xuất của quinolein: Trong nhóm này có 4 ancaloit chính và thực tế lại là hai cặp đồng phân lập thể là cặp $quinin$ và $quinidin$, cặp $cinchonin$ và $cinchonidin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_CINCHONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính của canhkina được coi là những ancaloit chiếm từ 3 đến $15\\%$ trong vỏ những cây canhkina trồng. Những ancaloit dẫn xuất của quinolein: Trong nhóm này có 4 ancaloit chính và thực tế lại là hai cặp đồng phân lập thể là cặp $quinin$ và $quinidin$, cặp $cinchonin$ và $cinchonidin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_CINCHONIDIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt chất chính của canhkina được coi là những ancaloit chiếm từ 3 đến $15\\%$ trong vỏ những cây canhkina trồng. Những ancaloit dẫn xuất của quinolein: Trong nhóm này có 4 ancaloit chính và thực tế lại là hai cặp đồng phân lập thể là cặp $quinin$ và $quinidin$, cặp $cinchonin$ và $cinchonidin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_ARIXIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$arixin$, $quinamin$, $xin-chophyllamin$, $izoxinchophylamin$, $quinin$, $quinidin$, $cinchonin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_QUINAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$arixin$, $quinamin$, $xin-chophyllamin$, $izoxinchophylamin$, $quinin$, $quinidin$, $cinchonin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_XIN_CHOPHYLLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$arixin$, $quinamin$, $xin-chophyllamin$, $izoxinchophylamin$, $quinin$, $quinidin$, $cinchonin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "HC_IZOXINCHOPHYLAMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$arixin$, $quinamin$, $xin-chophyllamin$, $izoxinchophylamin$, $quinin$, $quinidin$, $cinchonin$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "B_SOT_RET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Ngâm trong rượu vang (rượu nho) và dùng với liều cao | Dùng làm thuốc chữa sốt rét, thuốc bổ và làm nguyên liệu để chế quinin | Dùng làm thuốc chữa sốt, sốt rét, thuốc bổ (thường dùng vỏ canhkina đỏ). Vì đắng cho nên thường làm dưới dạng cao rồi làm thành viên. Canhkina đỏ làm thuốc bổ dưới dạng rượu có pha thêm đường. Bột canhkina còn dùng rắc lên vết thương, vết loét.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T695 | [Nguồn]: CT_VT_VN_T700"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "B_SOT_THUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T696"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "B_BO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Chỉ định lâm sàng | Dùng làm thuốc chữa sốt, sốt rét, thuốc bổ (thường dùng vỏ canhkina đỏ). Vì đắng cho nên thường làm dưới dạng cao rồi làm thành viên. Canhkina đỏ làm thuốc bổ dưới dạng rượu có pha thêm đường. Bột canhkina còn dùng rắc lên vết thương, vết loét.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T696 | [Nguồn]: CT_VT_VN_T700"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng làm thuốc chữa sốt, sốt rét, thuốc bổ (thường dùng vỏ canhkina đỏ). Vì đắng cho nên thường làm dưới dạng cao rồi làm thành viên. Canhkina đỏ làm thuốc bổ dưới dạng rượu có pha thêm đường. Bột canhkina còn dùng rắc lên vết thương, vết loét.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T700"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_HA_SOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Quinin còn có tác dụng ức chết đối với những trung tân sinh nhiệt của những người sốt do đó quinin được dùng làm thuốc giảm sốt, nhưng đối với người bình thường thì quinin ở liều điều trị không có tác dụng làm hạ nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_CHUA_SOT_RET",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng chữa sốt và sốt rét của vỏ canh ki na là do các ancaloit chủ yếu là quinin. Quinin tác dụng chủ yếu lên các dạng vô tính (schizonte) và dạng non, ít tác dụng đối với các gamet. Vì vậy cần uống phòng quinin vào giữa hai cơn sốt rét."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_CHONG_NHIEM_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài tác dụng hạ sốt, chữa sốt rét, quinin còn có tác dụng chống nhiễm trùng, và chữa cúm, và hơi có tác dụng an thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài tác dụng hạ sốt, chữa sốt rét, quinin còn có tác dụng chống nhiễm trùng, và chữa cúm, và hơi có tác dụng an thần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_KICH_THICH_CO_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Quinidin có tác dụng kích thích cơ tim, dùng chống rung tim và điều hoà nhịp tim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_CHONG_RUNG_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Quinidin có tác dụng kích thích cơ tim, dùng chống rung tim và điều hoà nhịp tim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_DIEU_HOA_NHIP_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Quinidin có tác dụng kích thích cơ tim, dùng chống rung tim và điều hoà nhịp tim."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều cao, quinin là giản thần kinh trung ương do đó có thể gây những hiện tượng như ù tai, chóng mặt, hoa mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_DOC_TINH_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nó làm chậm nhịp tim, kích thích cơ trơn, quinin còn là một thứ thuốc dục đẻ, nhưng chỉ có tác dụng làm ra thai với liều cao."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_CANH_KI_NA",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Quinin hay gây cứng và loét nơi tiêm, kích ứng mặt trong mạch máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T695",
+        "all_sources": [
+          "CT_VT_VN_T695"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 56.0,
+      "reliability_c_score": 0.7567,
+      "total_confidence_sum": 22.7
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:54"
+  }
+}

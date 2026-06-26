@@ -1,0 +1,96 @@
+{
+  "entity_hub": "VI_THUOC_TAO_RUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T164",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "164"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_HAC_LAO_VO_R",
+      "to": "VI_THUOC_TAO_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Táo rừng được sử dụng đơn độc để trị hắc lào.",
+        "mo_ta_chi_tiet": "Vỏ rễ khô giã nát ngâm với rượu hoặc dấm.",
+        "cach_dung": "Bôi lên nơi hắc lào đã rửa sạch.",
+        "ghi_chu": "Ngâm với rượu 40$\\%$ với tỷ lệ 1 rễ, 3 rượu, hoặc với dấm tỷ lệ 1 vỏ rễ 2 dấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "BT_HAC_LAO_VO_R",
+      "to": "B_HAC_LAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa hắc lào.",
+        "cach_dung": "Bôi lên nơi hắc lào đã rửa sạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "BT_LO_NGUA_LA_T",
+      "to": "VI_THUOC_TAO_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Táo rừng được sử dụng đơn độc để trị lở ngứa.",
+        "mo_ta_chi_tiet": "Lá táo rừng tươi.",
+        "cach_dung": "Nấu nước tắm. Ngày một lần, liên tục trong 5 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "BT_LO_NGUA_LA_T",
+      "to": "B_LO_NGUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lở ngứa.",
+        "cach_dung": "Nấu nước tắm. Ngày một lần, liên tục trong 5 ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "BT_LANG_BEN_VO_R",
+      "to": "VI_THUOC_TAO_RUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Táo rừng được sử dụng đơn độc để trị lang ben.",
+        "mo_ta_chi_tiet": "Vỏ rễ khô giã nát ngâm với rượu hoặc dấm.",
+        "cach_dung": "Bôi lên nơi lang ben đã rửa sạch.",
+        "ghi_chu": "Ngâm với rượu 40$\\%$ với tỷ lệ 1 rễ, 3 rượu, hoặc với dấm tỷ lệ 1 vỏ rễ 2 dấm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    },
+    {
+      "from": "BT_LANG_BEN_VO_R",
+      "to": "B_LANG_BEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lang ben.",
+        "cach_dung": "Bôi lên nơi lang ben đã rửa sạch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T164"
+      }
+    }
+  ],
+  "metadata": {}
+}

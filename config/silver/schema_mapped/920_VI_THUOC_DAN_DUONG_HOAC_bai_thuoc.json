@@ -1,0 +1,109 @@
+{
+  "entity_hub": "VI_THUOC_DAN_DUONG_HOAC",
+  "source": {
+    "source_id": "CT_VT_VN_T920",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "920"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOI_SUA_DAN_DUONG_HOAC_D",
+      "to": "VI_THUOC_DAN_DUONG_HOAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-30g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dân dương hoắc giúp lợi sữa và bồi dưỡng cơ thể.",
+        "mo_ta_chi_tiet": "Lợi sữa, bồi dưỡng cho phụ nữ sau khi đẻ",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_LOI_SUA_DAN_DUONG_HOAC_D",
+      "to": "B_PHU_NU_SAU_SINH",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lợi sữa, bồi dưỡng cho phụ nữ sau khi đẻ",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_AN_THAN_DAU_DAU_DAN_DUONG_HOAC_D",
+      "to": "VI_THUOC_DAN_DUONG_HOAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$15-30g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Dân dương hoắc giúp an thần và giảm đau đầu.",
+        "mo_ta_chi_tiet": "An thần, chữa đau đầu khó ngủ",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_AN_THAN_DAU_DAU_DAN_DUONG_HOAC_D",
+      "to": "B_DAU_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "An thần, chữa đau đầu khó ngủ",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_AN_THAN_DAU_DAU_DAN_DUONG_HOAC_D",
+      "to": "S_KHO_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "An thần, chữa đau đầu khó ngủ",
+        "cach_dung": "Dạng thuốc sắc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_DAN_DUONG_HOAC_D",
+      "to": "VI_THUOC_DAN_DUONG_HOAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "Theo chỉ định",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Dân dương hoắc có tác dụng hỗ trợ điều trị gãy xương.",
+        "mo_ta_chi_tiet": "Gãy xương | Dân dương hoắc giã nát dùng riêng hay phối hợp với một số cây thuốc khác",
+        "cach_dung": "Bó"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_DAN_DUONG_HOAC_D",
+      "to": "B_GAY_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Gãy xương | Dân dương hoắc giã nát dùng riêng hay phối hợp với một số cây thuốc khác",
+        "cach_dung": "Bó"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T920"
+      }
+    }
+  ],
+  "metadata": {}
+}

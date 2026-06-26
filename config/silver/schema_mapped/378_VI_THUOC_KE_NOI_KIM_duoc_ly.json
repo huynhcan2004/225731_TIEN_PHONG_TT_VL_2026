@@ -1,0 +1,46 @@
+{
+  "entity_hub": "VI_THUOC_KE_NOI_KIM",
+  "source": {
+    "source_id": "CT_VT_VN_T378",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "378"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "CN_TIÊU_THỦY_CỐC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tiêu thủy cốc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "CN_LÝ_TỲ_VỊ",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Lý tỳ vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    },
+    {
+      "from": "VI_THUOC_KE_NOI_KIM",
+      "to": "DL_CHUA_MUN_NHOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Dùng ngoài chữa mụn nhọt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T378"
+      }
+    }
+  ],
+  "metadata": {}
+}

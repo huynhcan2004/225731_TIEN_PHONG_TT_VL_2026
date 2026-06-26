@@ -1,0 +1,833 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_NHAN_SAM_VIET_NAM",
+    "ten_raw": "Nhân sâm Việt Nam",
+    "ten_khoa_hoc": "$Panax vietnamensis Hà et Grushv.; Panax vietnamensis Hà et Grushv; Panax vietnamensis Ha et Grushv. (P. pseudo-ginseng Wall)$",
+    "ho_thuc_vat": "$Nhân sâm Araliaceae$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ củ",
+      "thu_hai": "không có thông tin",
+      "che_bien_tho": "không có thông tin",
+      "lieu_dung_chung": "Dùng riêng hay phối hợp với các vị thuốc cũng với liều $2-6g$ một ngày. Ngày dùng $1-3g$ dưới dạng thuốc sắc hoặc ngâm rượu.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có thông tin",
+      "phan_bo": "vùng núi cao thuộc tỉnh Kon Tum, Quảng Nam, Lâm Đồng"
+    },
+    "display_name": "Vị thuốc Nhân sâm Việt Nam",
+    "canonical_name": "Vị thuốc Nhân sâm Việt Nam"
+  },
+  "nodes": [
+    {
+      "id": "BT_PHOI_HOP_NHAN_SAM_VIET_NAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Phối hợp Nhân sâm Việt Nam",
+        "aliases": [
+          "phối hợp nhân sâm việt nam",
+          "phoihopnhansamvietnam",
+          "phoi hop nhan sam viet nam"
+        ],
+        "search_vector_hint": "Bài thuốc Phối hợp Nhân sâm Việt Nam thuộc nhóm bài thuốc, thường liên quan đến sử dụng nhân sâm Việt Nam kết hợp với các vị thuốc khác."
+      }
+    },
+    {
+      "id": "BT_SUY_NHUOC_CO_THE_NHAN_SAM_VIET_NAM",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Suy nhược cơ thể Nhân sâm Việt Nam",
+        "aliases": [
+          "suy nhược cơ thể nhân sâm việt nam",
+          "suynhuoccothenhansamvietnam",
+          "suy nhuoc co the nhan sam viet nam"
+        ],
+        "search_vector_hint": "Bài thuốc Suy nhược cơ thể Nhân sâm Việt Nam thuộc nhóm bài thuốc, thường liên quan đến điều trị suy nhược cơ thể bằng nhân sâm Việt Nam."
+      }
+    },
+    {
+      "id": "B_SUY_NHUOC_CO_THE",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Suy nhược cơ thể",
+        "aliases": [
+          "suynhuoc",
+          "suy nhược",
+          "suynhuoccothe",
+          "suy nhược cơ thể",
+          "metmoikeodai",
+          "suy nhuoc",
+          "suy nhuoc co the",
+          "met moi keo dai",
+          "mệt mỏi kéo dài"
+        ],
+        "search_vector_hint": "Bệnh Suy nhược cơ thể thuộc nhóm Bệnh, thường liên quan đến tình trạng sức khỏe suy giảm."
+      }
+    },
+    {
+      "id": "CN_KHU_PHONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Khu phong",
+        "aliases": [
+          "khuphong",
+          "truphong",
+          "khu phong",
+          "trừ phong",
+          "tru phong"
+        ],
+        "search_vector_hint": "Công năng Khu phong thuộc nhóm công năng, thường liên quan đến loại bỏ các yếu tố gây bệnh phong."
+      }
+    },
+    {
+      "id": "CN_TAO_THAP",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Táo thấp",
+        "aliases": [
+          "tao thap",
+          "táo thấp",
+          "taothap"
+        ],
+        "search_vector_hint": "Táo thấp thuộc nhóm công năng."
+      }
+    },
+    {
+      "id": "DL_AN_THAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng An thần",
+        "aliases": [
+          "an than",
+          "anthan",
+          "an thần"
+        ],
+        "search_vector_hint": "Công năng An thần thuộc nhóm Công năng, thường liên quan đến làm dịu thần kinh."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_GIAI_DOC_GAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Giải độc gan",
+        "aliases": [
+          "giai doc gan",
+          "giaidocgan",
+          "giải độc gan"
+        ],
+        "search_vector_hint": "Dược lý Giải độc gan thuộc nhóm dược lý, thường liên quan đến chức năng gan."
+      }
+    },
+    {
+      "id": "DL_HO_TRO_TIM_MACH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Hỗ trợ tim mạch",
+        "aliases": [
+          "hỗ trợ tim mạch",
+          "ho tro tim mach",
+          "hotrotimmach"
+        ],
+        "search_vector_hint": "Hỗ trợ tim mạch thuộc nhóm dược lý."
+      }
+    },
+    {
+      "id": "DL_MIEN_DICH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Công năng Miễn dịch",
+        "aliases": [
+          "mien dich",
+          "miendich",
+          "miễn dịch"
+        ],
+        "search_vector_hint": "Công năng Miễn dịch thuộc nhóm công năng chức năng, thường liên quan đến hệ miễn dịch."
+      }
+    },
+    {
+      "id": "DL_TANG_CUONG_SINH_LY",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng cường sinh lý",
+        "aliases": [
+          "tăng cường sinh lý",
+          "tang cuong sinh ly",
+          "tangcuongsinhly"
+        ],
+        "search_vector_hint": "Dược lý Tăng cường sinh lý thuộc nhóm dược lý, thường liên quan đến cải thiện chức năng sinh sản và tình dục."
+      }
+    },
+    {
+      "id": "DL_TANG_LUC",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Tăng lực",
+        "aliases": [
+          "tăng lực",
+          "tang luc",
+          "tangluc"
+        ],
+        "search_vector_hint": "Dược lý Tăng lực thuộc nhóm dược lý, thường liên quan đến tăng cường sức mạnh và năng lượng."
+      }
+    },
+    {
+      "id": "HC_AXIT_AMIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit Amin",
+        "aliases": [
+          "axit amin",
+          "axitamin"
+        ],
+        "search_vector_hint": "Hoạt chất Axit Amin thuộc nhóm Hoạt chất, thường liên quan đến cấu tạo protein."
+      }
+    },
+    {
+      "id": "HC_AXIT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Axit béo",
+        "aliases": [
+          "axit béo",
+          "axitbeo",
+          "axit beo"
+        ],
+        "search_vector_hint": "Hoạt chất Axit béo thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học."
+      }
+    },
+    {
+      "id": "HC_GLUXIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Gluxit",
+        "aliases": [
+          "gluxit"
+        ],
+        "search_vector_hint": "Hoạt chất Gluxit thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_POLYACETYLEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Polyacetylen",
+        "aliases": [
+          "polyacetylen"
+        ],
+        "search_vector_hint": "Hoạt chất Polyacetylen thuộc nhóm hoạt chất, thường liên quan đến các hợp chất hữu cơ có cấu trúc đặc biệt."
+      }
+    },
+    {
+      "id": "HC_SAPONIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin",
+        "aliases": [
+          "saponin"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin thuộc nhóm hoạt chất, thường liên quan đến tác dụng dược lý."
+      }
+    },
+    {
+      "id": "HC_SAPONIN_KIEU_DAMARANE",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin kiểu Damarane",
+        "aliases": [
+          "saponin kieu damarane",
+          "saponinkieudamarane",
+          "saponin kiểu damarane"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin kiểu Damarane thuộc nhóm hoạt chất, thường liên quan đến các hợp chất có hoạt tính sinh học."
+      }
+    },
+    {
+      "id": "HC_SAPONIN_TRITERPEN_TETRACYCLIC_DAMMARAN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Saponin Triterpen Tetracyclic Dammaran",
+        "aliases": [
+          "saponintriterpentetracyclicdammaran",
+          "saponin triterpen tetracyclic dammaran"
+        ],
+        "search_vector_hint": "Hoạt chất Saponin Triterpen Tetracyclic Dammaran thuộc nhóm hoạt chất, thường liên quan đến các hợp chất có hoạt tính sinh học."
+      }
+    },
+    {
+      "id": "HC_TINH_DAU",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Tinh dầu",
+        "aliases": [
+          "tinhdau",
+          "tinh dầu",
+          "tinh dau"
+        ],
+        "search_vector_hint": "Hoạt chất Tinh dầu thuộc nhóm Hoạt chất, thường liên quan đến thành phần hóa học của thực vật."
+      }
+    },
+    {
+      "id": "S_DAU_LUNG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau lưng",
+        "aliases": [
+          "dau lung",
+          "đau lưng",
+          "daulung"
+        ],
+        "search_vector_hint": "Triệu chứng Đau lưng thuộc nhóm triệu chứng, thường liên quan đến cột sống và cơ bắp."
+      }
+    },
+    {
+      "id": "S_DAU_MINH",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau mình",
+        "aliases": [
+          "dau minh",
+          "đau mình",
+          "dauminh"
+        ],
+        "search_vector_hint": "Đau mình thuộc nhóm triệu chứng, thường liên quan đến ngoại cảm, thấp nhiệt."
+      }
+    },
+    {
+      "id": "S_KEM_AN",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Kém ăn",
+        "aliases": [
+          "chanan",
+          "keman",
+          "ăn không ngon",
+          "ankhongngon",
+          "chán ăn",
+          "kem an",
+          "an khong ngon",
+          "chan an",
+          "kém ăn"
+        ],
+        "search_vector_hint": "Triệu chứng Kém ăn thuộc nhóm triệu chứng, thường liên quan đến sự suy giảm cảm giác thèm ăn."
+      }
+    },
+    {
+      "id": "S_MAT_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mất ngủ",
+        "aliases": [
+          "trằn trọc",
+          "mat ngu",
+          "khó ngủ",
+          "tran troc",
+          "matngu",
+          "kho ngu",
+          "trantroc",
+          "khongu",
+          "mất ngủ"
+        ],
+        "search_vector_hint": "Mất ngủ thuộc nhóm Triệu chứng, thường liên quan đến thần kinh."
+      }
+    },
+    {
+      "id": "S_MET_MOI",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Mệt mỏi",
+        "aliases": [
+          "thieunangluong",
+          "thiếu năng lượng",
+          "uể oải",
+          "ue oai",
+          "thieu nang luong",
+          "met moi",
+          "metmoi",
+          "ueoai",
+          "mệt mỏi"
+        ],
+        "search_vector_hint": "Triệu chứng Mệt mỏi thuộc nhóm Triệu chứng, thường liên quan đến tình trạng thiếu năng lượng và uể oải."
+      }
+    },
+    {
+      "id": "VT_NHAN_SAM_VIET_NAM",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Nhân sâm Việt Nam",
+        "aliases": [
+          "sam ngoc linh",
+          "sam k5",
+          "nhan sam viet nam",
+          "samngoclinh",
+          "nhân sâm việt nam",
+          "sâm k5",
+          "samk5",
+          "sâm ngọc linh",
+          "nhansamvietnam"
+        ],
+        "search_vector_hint": "Vị thuốc Nhân sâm Việt Nam thuộc nhóm vị thuốc, thường liên quan đến bồi bổ khí huyết và tăng cường sức khỏe.",
+        "bo_phan_dung": "rễ củ",
+        "lieu_dung_chung": "Dùng riêng hay phối hợp với các vị thuốc cũng với liều $2-6g$ một ngày. Ngày dùng $1-3g$ dưới dạng thuốc sắc hoặc ngâm rượu.",
+        "muc_do_doc": "Không độc",
+        "phan_bo": "vùng núi cao thuộc tỉnh Kon Tum, Quảng Nam, Lâm Đồng",
+        "ten_khoa_hoc": "$Panax vietnamensis Hà et Grushv.; Panax vietnamensis Hà et Grushv; Panax vietnamensis Ha et Grushv. (P. pseudo-ginseng Wall)$",
+        "ho_thuc_vat": "$Nhân sâm Araliaceae$",
+        "hinh_thai_chi_tiet": "Cây thân thảo, sống nhiều năm, cao đến $1m$. Thân rễ mập có dường kính $3,5cm$, không có rễ phụ dầy dự trữ, đôi khi ở một số cây phần cuối thân rễ có củ gần hình cầu, đường kính đến $5cm$. Đốt trên cùng của thân rễ tồn tại 1–4 thân. Thân nhân cao 40-80cm, rỗng, có 3 mặt hơi tròn có những rãnh nhỏ theo chiều dọc. Lá mọc vòng, thường có 4 (ít khi 3, 5, 6). Lá kép chân vịt có 5 (ít khi 6,7) lá chét, lá dài 7-12cm (ít khi 15cm). Lá chét trên cùng hình trứng ngược hoặc hình mũi mác, dài 8-14cm, rộng 3-5cm, đầu lá thường nhọn đột ngột, mũi nhọn kéo 1,5-2cm, góc lá hình nêm, mép lá có răng cưa nhỏ đều, gần bên 19 (ít khi 8-11) cặp dọc theo gần chính và gân bên ở mặt trên của lá chét có nhiều lông cứng dạng gai dài đến $3mm$, mặt dưới ít hơn. Cụm hoa dài $25 cm$, gấp 1,5-2 lần chiều dài của cuống lá, thường mang tán đơn độc ở tận cùng, đôi khi có thêm 1-4 tán phụ hoặc một hoa đơn độc. Tán hoa chính đường kính 2,5-4cm, có 50-120 hoa. Hoa mẫu vàng lục nhạt, đường kính hoa nở 34mm. Bầu 1 6, 1 vòi (chiếm $80\\%$ ) đôi khi có 2 ô, 2 vòi (chiếm $20\\%$). Quả khi chín màu đỏ, thường có một chấm đen ở trên đỉnh quả. Quả 1 hạt hình thân, quả 2 hạt có hình cầu hơi dẹt dài 7-10mm rộng 4-6mm",
+        "thanh_phan_hoa_hoc": "['Từ 1974 đến 1990, Nguyễn Thời Nham và cộng sự đã nghiên cứu nhân sâm Việt Nam, so sánh với nhân sâm Triều Tiên (Panax ginseng), nhân sâm Nhật Bản (Panax japonicus) và nhân sâm Hoa Kỳ (Panax quinquefollium). Kết quả có thể tóm tắt như sau: 1. Bằng sắc ký lớp mỏng (SKIM) đã phát hiện trong Panax Vietnamensis (PV) 15 vết saponin có giá trị Rf và mầu sắc tương ứng với 12 hợp chất saponin của Panax ginseng. Chi tiết hơn nữa trong PV có hàm lượng cao chất saponin kiểu damarane ($7,58\\\\%$), trong đó saponin thuộc diol và triol có tỷ lệ $3,32\\\\%$ và một lượng nhỏ saponin của axit oleanolic.']",
+        "ghi_chu_bo_sung": "Cây thảo sống nhiều năm, cao 0.5-1m. Thân khí sinh mọc thẳng đứng, màu lục hoặc hơi tím, không lông. Lá kép chân vịt mọc vòng 3-5 lá một. Lá chét giữa lớn hơn cả, dài 12-15cm, rộng 4-5cm, mép khía răng cưa. Các lá chét khác nhỏ hơn. Cụm hoa tán đơn độc mang nhiều hoa nhỏ màu trắng lục. Quả hạch hình cầu hơi dẹt, khi chín màu đỏ. Rễ củ mập, hình trụ hoặc hình thoi.",
+        "cach_dung_bao_che": "Sâm Việt Nam mọc hoang ở vùng núi cao thuộc tỉnh Kon Tum, Quảng Nam, Lâm Đồng. Sâm mọc dưới tán rừng ẩm, ở độ cao 1500-2000m. Bộ phận dùng là thân rễ và rễ củ. Thường thu hoạch các cây 3-5 năm tuổi. Có thể dùng tươi hoặc thái mỏng phơi hay sấy khô."
+      }
+    },
+    {
+      "id": "V_DANG",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Dang",
+        "aliases": [
+          "đắng",
+          "dang"
+        ],
+        "search_vector_hint": "Đắng thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "825"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây thân thảo, sống nhiều năm, cao đến $1m$. Thân rễ mập có dường kính $3,5cm$, không có rễ phụ dầy dự trữ, đôi khi ở một số cây phần cuối thân rễ có củ gần hình cầu, đường kính đến $5cm$. Đốt trên cùng của thân rễ tồn tại 1–4 thân. Thân nhân cao 40-80cm, rỗng, có 3 mặt hơi tròn có những rãnh nhỏ theo chiều dọc. Lá mọc vòng, thường có 4 (ít khi 3, 5, 6). Lá kép chân vịt có 5 (ít khi 6,7) lá chét, lá dài 7-12cm (ít khi 15cm). Lá chét trên cùng hình trứng ngược hoặc hình mũi mác, dài 8-14cm, rộng 3-5cm, đầu lá thường nhọn đột ngột, mũi nhọn kéo 1,5-2cm, góc lá hình nêm, mép lá có răng cưa nhỏ đều, gần bên 19 (ít khi 8-11) cặp dọc theo gần chính và gân bên ở mặt trên của lá chét có nhiều lông cứng dạng gai dài đến $3mm$, mặt dưới ít hơn. Cụm hoa dài $25 cm$, gấp 1,5-2 lần chiều dài của cuống lá, thường mang tán đơn độc ở tận cùng, đôi khi có thêm 1-4 tán phụ hoặc một hoa đơn độc. Tán hoa chính đường kính 2,5-4cm, có 50-120 hoa. Hoa mẫu vàng lục nhạt, đường kính hoa nở 34mm. Bầu 1 6, 1 vòi (chiếm $80\\%$ ) đôi khi có 2 ô, 2 vòi (chiếm $20\\%$). Quả khi chín màu đỏ, thường có một chấm đen ở trên đỉnh quả. Quả 1 hạt hình thân, quả 2 hạt có hình cầu hơi dẹt dài 7-10mm rộng 4-6mm",
+        "thanh_phan_hoa_hoc": [
+          "Từ 1974 đến 1990, Nguyễn Thời Nham và cộng sự đã nghiên cứu nhân sâm Việt Nam, so sánh với nhân sâm Triều Tiên (Panax ginseng), nhân sâm Nhật Bản (Panax japonicus) và nhân sâm Hoa Kỳ (Panax quinquefollium). Kết quả có thể tóm tắt như sau: 1. Bằng sắc ký lớp mỏng (SKIM) đã phát hiện trong Panax Vietnamensis (PV) 15 vết saponin có giá trị Rf và mầu sắc tương ứng với 12 hợp chất saponin của Panax ginseng. Chi tiết hơn nữa trong PV có hàm lượng cao chất saponin kiểu damarane ($7,58\\%$), trong đó saponin thuộc diol và triol có tỷ lệ $3,32\\%$ và một lượng nhỏ saponin của axit oleanolic."
+        ],
+        "ghi_chu_bo_sung": "Cây thảo sống nhiều năm, cao 0.5-1m. Thân khí sinh mọc thẳng đứng, màu lục hoặc hơi tím, không lông. Lá kép chân vịt mọc vòng 3-5 lá một. Lá chét giữa lớn hơn cả, dài 12-15cm, rộng 4-5cm, mép khía răng cưa. Các lá chét khác nhỏ hơn. Cụm hoa tán đơn độc mang nhiều hoa nhỏ màu trắng lục. Quả hạch hình cầu hơi dẹt, khi chín màu đỏ. Rễ củ mập, hình trụ hoặc hình thoi.",
+        "cach_dung_bao_che": "Sâm Việt Nam mọc hoang ở vùng núi cao thuộc tỉnh Kon Tum, Quảng Nam, Lâm Đồng. Sâm mọc dưới tán rừng ẩm, ở độ cao 1500-2000m. Bộ phận dùng là thân rễ và rễ củ. Thường thu hoạch các cây 3-5 năm tuổi. Có thể dùng tươi hoặc thái mỏng phơi hay sấy khô."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi nếm thì đầu tiên thấy đắng, sau vẫn thấy đắng, đắng (tiền khổ, hậu khổ, hậu khổ khổ)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_SAPONIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Bằng sắc ký lớp mỏng (SKIM) đã phát hiện trong Panax Vietnamensis (PV) 15 vết saponin có giá trị Rf và mầu sắc tương ứng với 12 hợp chất saponin của Panax ginseng.",
+        "ghi_chu": "Phát hiện bằng sắc ký lớp mỏng (SKIM)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_SAPONIN_KIEU_DAMARANE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chi tiết hơn nữa trong PV có hàm lượng cao chất saponin kiểu damarane ($7,58\\%$), trong đó saponin thuộc diol và triol có tỷ lệ $3,32\\%$ và một lượng nhỏ saponin của axit oleanolic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_POLYACETYLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những saponin nói trên, trong nhân sâm Việt Nam còn chứa các polyacetylen, axit béo, axit amin, gluxit, tinh dầu và một số yếu tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_AXIT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những saponin nói trên, trong nhân sâm Việt Nam còn chứa các polyacetylen, axit béo, axit amin, gluxit, tinh dầu và một số yếu tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những saponin nói trên, trong nhân sâm Việt Nam còn chứa các polyacetylen, axit béo, axit amin, gluxit, tinh dầu và một số yếu tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_GLUXIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những saponin nói trên, trong nhân sâm Việt Nam còn chứa các polyacetylen, axit béo, axit amin, gluxit, tinh dầu và một số yếu tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài những saponin nói trên, trong nhân sâm Việt Nam còn chứa các polyacetylen, axit béo, axit amin, gluxit, tinh dầu và một số yếu tố vi lượng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "HC_SAPONIN_TRITERPEN_TETRACYCLIC_DAMMARAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$Saponin triterpen tetracyclic dammaran$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_PHOI_HOP_NHAN_SAM_VIET_NAM",
+      "to": "VT_NHAN_SAM_VIET_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_SUY_NHUOC_CO_THE_NHAN_SAM_VIET_NAM",
+      "to": "VT_NHAN_SAM_VIET_NAM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1-3g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "B_SUY_NHUOC_CO_THE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "S_MET_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "S_KEM_AN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "S_MAT_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "S_DAU_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "S_DAU_MINH",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "CN_KHU_PHONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "CN_TAO_THAP",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Với liều $34g/kg$ thể trọng của bột chiết toàn phần rễ củ Nhân sâm Việt Nam và với liều $10,$6g$/kg$ thể trọng của saponin toàn phần của rễ củ Nhân sâm Việt Nam đều không gây trên súc vật thực nghiệm những triệu chứng nào ngộ độc cả."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_TANG_LUC",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng tăng lực, tăng sức bền của cơ thể hay gần tương đương với khi thí nghiệm với Nhân sâm Triều Tiên. | Tác dụng tăng lực, chống suy nhược tương tự như nhân sâm Triều Tiên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_HO_TRO_TIM_MACH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng trên hệ tim mạch hay gần tương đương với khi thí nghiệm với Nhân sâm Triều Tiên. Tuy nhiên Nhân sâm Việt Nam không gây tăng huyết áp như Nhân sâm Triều Tiên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_AN_THAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng trên hệ thần kinh trung ương hay gần tương đương với khi thí nghiệm với Nhân sâm Triều Tiên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_TANG_CUONG_SINH_LY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng trên nội tiết sinh dục hay gần tương đương với khi thí nghiệm với Nhân sâm Triều Tiên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_GIAI_DOC_GAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng bảo vệ tế bào gan và giải độc gan."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_NHAN_SAM_VIET_NAM",
+      "to": "DL_MIEN_DICH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tác dụng kích thích miễn dịch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T825",
+        "all_sources": [
+          "CT_VT_VN_T825"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 58.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LONG_NAO",
+    "ten_raw": "Long não",
+    "ten_khoa_hoc": "Cinnamomum camphora L. Nees. et Eberm. (Laurus camphora L.); Cinnamomum camphora",
+    "ho_thuc_vat": "họ Cam Rutaceae; họ Mã tiền Loganiaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T542",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "542"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây to cao $10$-$15m$ hay hơn tới $40$-$50m$, đường kính thân có thể đạt hơn $2m$, cành thưa nhẵn, lá mọc so le, hình bầu dục gần chính nổi rõ, hai bên có gân phụ nổi, tại góc gần phụ và gân chính có một hạch tuyến nổi, bóng; cuống lá dài $2,5$-$3,5cm$. Hoa nhỏ, mọc thành chùy ở kẽ, ngắn hơn lá. Quả hình cầu, to bằng hạt tiêu, phía dưới có cuống nhỏ hình chén. Tất cả các bộ phận của cây đều mang những tế bào chứa tinh dầu. Tuy nhiên có cây cho long não đặc biệt, có cây chỉ cho tinh dầu lỏng. Việc phân biệt hai cây long não cho long não đặc và cây long não chỉ cho tinh dầu rất khó nếu chỉ căn cứ vào hình thái thực vật. Hạt của cùng một cây cho long não đặc, khi trồng lại cho những cây cho long não đặc và những cây chỉ cho tinh dầu, giống như hạt của cùng một cây đu đủ cái khi trồng có thể cho khi thì là cây đu đủ đực khi thì là cây đu đủ cái (Hình 409, Hm 33,2)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của gỗ, lá và rễ long não là tinh dầu và long não tinh thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_LONG_NAO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của gỗ, lá và rễ long não là tinh dầu và long não tinh thể."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_XINEOLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não trắng (dùng chế xineola), tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_SAFROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não đỏ (chứa safrola, cacvacrola), tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_CACVACROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não đỏ (chứa safrola, cacvacrola), tinh dầu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_CADINEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não xanh (chứa cadinen, camphoren, azulen)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_CAMPHOREN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não xanh (chứa cadinen, camphoren, azulen)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    },
+    {
+      "from": "VI_THUOC_LONG_NAO",
+      "to": "HC_AZULEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu long não cất phân đoạn sẽ được tinh dầu long não xanh (chứa cadinen, camphoren, azulen)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T542"
+      }
+    }
+  ]
+}

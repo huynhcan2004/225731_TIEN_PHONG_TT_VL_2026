@@ -1,0 +1,111 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_LA_DUA",
+    "ten_raw": "Cây lá dứa",
+    "ten_khoa_hoc": "Andrographis paniculata (Burum. f.) Nees; Justicia paniculata Burm. f.",
+    "ho_thuc_vat": "Ô rô Acanthaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "rễ hay toàn cây phơi hoặc sấy khô. Có nơi chỉ dùng lá và cành mang lá",
+      "phan_bo": "Mọc hoang dại và được trồng ở nhiều tỉnh miền Bắc để làm thuốc. Còn mọc ở Ấn Độ, Giava, Malaixia, miền man Trung Quốc (Quảng Châu).",
+      "thu_hai": "Thu hái gần như quanh năm. Nhưng thường mùa hè dùng lá và phần trên mặt đất của cây, mùa thu đông dùng rễ và toàn cây.",
+      "che_bien_tho": "phơi hoặc sấy khô"
+    },
+    "display_name": "Cây lá dứa"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T919",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "919"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Đắng (Khổ)"
+        ],
+        "tinh": "Hàn",
+        "cong_nang": "thanh nhiệt, giải độc, tiêu thũng, chỉ thống"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây nhỏ, thuộc thảo, mọc thẳng đứng, cao từ $0,3$-$0,8m$, nhiều đốt, rất nhiều cành. Lá mọc đối, cuống ngắn, phiến lá hình trứng thuôn dài hay hơi hình mác, hai đầu nhọn, mặt nhẵn, dài $3$-$12cm$, rộng $1$-$3cm$, nguyên, mềm. Hoa màu trắng, điểm hồng, mọc thành chùm ở nách lá hay đầu cành, thành chùy. Quả dài, $15mm$, rộng $3,5mm$, hơi nhẵn. Hạt hình trụ, thuôn dài. Mùa hoa 9-10 (Hình 682, Hm 24,4).",
+        "thanh_phan_hoa_hoc": [
+          "Cây này được nghiên cứu ở Ấn Độ từ lâu.",
+          "Năm 1887, E. Pozzi đã cho biết trong cây có một tỷ lệ tanin khá cao tập trung ở vỏ thân, cành và vỏ rễ.",
+          "Năm 1949, Sen Gupta S. B., Banariée S. và D. Chakravarti đã chiết được từ cây công cộng $2,68\\%$ một chất glucozit đắng đặt tên là $androgaphiolide$ (Ind. J. Phanrm., 11, 1949, 77- 78).",
+          "Năm 1951, Kleipool và Koostermans ở Inđônêxia đã nghiên cứu cấu trúc chất này (Rec. Trav. Chim., 70, 1951, 1085-88).",
+          "Năm 1952, Kleipool còn phát hiện trong công cộng một chất không có vị đắng thuộc nhóm các chất lacton và đặt tên là $neoandrographiolide$ (Nature Gr. Br., 1952, 169, 33-34).",
+          "Năm 1952, Chakravarti Mrs D. và R. N. Chakravarti đã xác minh rằng $andrographiolide$ là một trihydroxylacton với một nhón hydroxyl bậc ba. Các tác giả này đã nghiên cứu cấu trúc và quang phổ hấp thụ và đã bác bỏ giả thuyết của Guhasircar và Hoktader (J. Ind. Chem. Soc. 16, 1939, 333) cho rằng trong androraphiolide có một nhóm methylendioxyl."
+        ],
+        "lieu_dung_tong_quat": "Không có dữ liệu",
+        "ghi_chu_bo_sung": "Không có dữ liệu",
+        "cach_dung_bao_che": "Không có dữ liệu"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị đắng"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "CONG_NANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "có tác dụng thanh nhiệt, giải độc, tiêu thũng, chỉ thống"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "HC_ANDROGAPHIOLIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1949, Sen Gupta S. B., Banariée S. và D. Chakravarti đã chiết được từ cây công cộng $2,68\\%$ một chất glucozit đắng đặt tên là $androgaphiolide$ (Ind. J. Phanrm., 11, 1949, 77- 78)."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    },
+    {
+      "from": "VI_THUOC_LA_DUA",
+      "to": "HC_NEOANDROGRAPHOLIOLIDE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Năm 1952, Kleipool còn phát hiện trong công cộng một chất không có vị đắng thuộc nhóm các chất lacton và đặt tên là $neoandrographiolide$ (Nature Gr. Br., 1952, 169, 33-34)."
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T919"
+      }
+    }
+  ]
+}

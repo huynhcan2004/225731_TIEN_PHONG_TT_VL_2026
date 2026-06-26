@@ -1,0 +1,122 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_PHU_DUNG",
+    "ten_raw": "Phù dung",
+    "ten_khoa_hoc": "Hibiscus mutabilis L.; Hibiscus sinensis Mill.",
+    "ho_thuc_vat": "Bông (Malvaceae)",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T123",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "123"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Phù dung là một cây nhỡ, có cành mang lông ngắn hình sao. Lá 5 cánh, phía cuống lá hình tim, mép có răng cưa, đường kính có thể đạt tới $15cm$, mặt dưới có nhiều lông hơn, 5 thuỳ hình 3 cạnh ngắn có 7 gân chính. Hoa lớn, đẹp, đơn Cây nhỡ hay cây gỗ nhỏ, cao $2-5m$, có lông hình sao. Lá mọc so le, hình tim, đường kính $10-20cm$, chia thuỳ nông, mép có răng cưa. Hoa rất to, mọc độc hoặc tụ nhiều hoa, khi mới nở vào buổi sáng, có màu trắng, chiều ngả màu hồng đỏ (do trong lá có chất anthoxyanozit). Quả hình cầu, có lông màu vàng nhạt. Hạt hình trúng, có nếp nhăn nhỏ mang lông dài ( Hình 67, Hm 11,4 ).",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T124]: Chưa thấy có tài liệu nghiên cứu. Sơ bộ, chúng tôi tìm thấy trong cánh hoa phù dung có anthoxyanozit. Trong lá như có một chất nhầy (Đỗ Tất Lợi, năm 1960). Trong hoa có queximeritrin C₂₇H₃₀O₁₆, một ít meratin C₂₇H₃₀O₁₇, (C. A. 1964, 60 11042h). Theo Lowry J. B. trong hoa có xyanidin-3 sambubiozit (Phytochemistry 1971, 10, 673 và C. A. 1974, 81, 10960 Z). Trong lá có flavon, hợp chất phenol, axit amin, đường khử (Quảng Châu thị dược phẩm thí nghiệm Sở: Nông thôn trung thảo dược chế tễ kỹ thuật; 1917, 237)."
+        ],
+        "lieu_dung_tong_quat": "Ta thường dùng hoa và lá tươi hoặc khô của cây phù dung để làm thuốc.",
+        "cach_dung_bao_che": "[CT_VT_VN_T124]: Cây phù dung mọc hoang và được trồng khắp nơi ở Việt Nam để làm cảnh. Còn được trồng tại các nước Trung Quốc, Philipin, Nhật Bản, Ấn Độ."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_ANTHOXYANOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Sơ bộ, chúng tôi tìm thấy trong cánh hoa phù dung có anthoxyanozit."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_QUEXIMERITRIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có queximeritrin C₂₇H₃₀O₁₆, một ít meratin C₂₇H₃₀O₁₇, (C. A. 1964, 60 11042h)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_MERATIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong hoa có queximeritrin C₂₇H₃₀O₁₆, một ít meratin C₂₇H₃₀O₁₇, (C. A. 1964, 60 11042h)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_XYANIDIN_3_SAMBUBIOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Theo Lowry J. B. trong hoa có xyanidin-3 sambubiozit (Phytochemistry 1971, 10, 673 và C. A. 1974, 81, 10960 Z)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_FLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có flavon, hợp chất phenol, axit amin, đường khử (Quảng Châu thị dược phẩm thí nghiệm Sở: Nông thôn trung thảo dược chế tễ kỹ thuật; 1917, 237)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_HOP_CHAT_PHENOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có flavon, hợp chất phenol, axit amin, đường khử (Quảng Châu thị dược phẩm thí nghiệm Sở: Nông thôn trung thảo dược chế tễ kỹ thuật; 1917, 237)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_AXIT_AMIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có flavon, hợp chất phenol, axit amin, đường khử (Quảng Châu thị dược phẩm thí nghiệm Sở: Nông thôn trung thảo dược chế tễ kỹ thuật; 1917, 237)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "VI_THUOC_PHU_DUNG",
+      "to": "HC_DUONG_KHU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá có flavon, hợp chất phenol, axit amin, đường khử (Quảng Châu thị dược phẩm thí nghiệm Sở: Nông thôn trung thảo dược chế tễ kỹ thuật; 1917, 237)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    }
+  ]
+}

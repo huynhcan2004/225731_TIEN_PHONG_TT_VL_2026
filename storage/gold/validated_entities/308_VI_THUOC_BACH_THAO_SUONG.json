@@ -1,0 +1,399 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_BACH_THAO_SUONG",
+    "ten_raw": "Bách thảo sương",
+    "ten_khoa_hoc": "$Pulvis Fumicarbonisatus$",
+    "ho_thuc_vat": "",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "chất mịn màu đen bám vào các đáy nồi, chảo đun bằng rơm rạ hay cỏ khô",
+      "thu_hai": "có thể thu hoạch quanh năm",
+      "che_bien_tho": "",
+      "lieu_dung_chung": "Ngày dùng $6$ đến $12g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "",
+      "phan_bo": "Bách thảo sương"
+    },
+    "display_name": "Bách thảo sương",
+    "canonical_name": "Bách thảo sương"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_BACH_THAO_SUONG",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Bach Thao Suong"
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "On"
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Cay"
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tam"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "HC_CACBON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Cacbon"
+      }
+    },
+    {
+      "id": "S_CHAY_MAU_CHAN_RANG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay Mau Chan Rang"
+      }
+    },
+    {
+      "id": "B_CHOC_DAU",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Choc Dau"
+      }
+    },
+    {
+      "id": "S_CHAY_MAU_CAM",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Chay Mau Cam"
+      }
+    },
+    {
+      "id": "B_DONG_THAI",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dong Thai"
+      }
+    },
+    {
+      "id": "CN_CAM_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Cam Mau"
+      }
+    },
+    {
+      "id": "CN_TIEU_HOA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Hoa"
+      }
+    },
+    {
+      "id": "CN_GIAI_DOC",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Giai Doc"
+      }
+    },
+    {
+      "id": "BT_CHOC_DAU_BACH_THAO_SUONG",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Choc Dau Bach Thao Suong"
+      }
+    },
+    {
+      "id": "CN_TA_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ta Ly"
+      }
+    },
+    {
+      "id": "T_CO_TINH_ON",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Co Tinh On"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "308"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Bách thảo sương là chất mịn màu đen bám vào các đáy nồi, chảo đun bằng rơm rạ hay cỏ khô. Có thể thu hoạch quanh năm. Nhọ nồi phải màu đen mịn, nhẹ, không có mùi vị gì khó chịu là tốt.",
+        "thanh_phan_hoa_hoc": [
+          "Chủ yếu là $cacbon$."
+        ],
+        "ghi_chu_bo_sung": "Bách thảo sương"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bách thảo sương vị cay, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Bách thảo sương vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào hai kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "HC_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Chủ yếu là $cacbon$.",
+        "ghi_chu": "Bách thảo sương"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "S_CHAY_MAU_CHAN_RANG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng bôi vào.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "BT_CHOC_DAU_BACH_THAO_SUONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "Không rõ",
+        "vai_tro": "Quân",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "B_CHOC_DAU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Trộn với mỡ lợn bôi vào nơi chốc đã rửa sạch.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "CN_TA_LY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "$8g$",
+        "cach_dung": "Uống với nước cháo nóng, ngày 2 lần",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "S_CHAY_MAU_CAM",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Tán bách thảo sương thổi vào mũi.",
+        "ghi_chu": "[Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "B_DONG_THAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "ghi_chu": "Chỉ định lâm sàng (không ghi rõ liều) | [Nguồn]: CT_VT_VN_T308"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "CN_CAM_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Cầm máu."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "CN_TIEU_HOA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giúp sự tiêu hóa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_BACH_THAO_SUONG",
+      "to": "T_CO_TINH_ON",
+      "relation_type": "CO_TINH",
+      "properties": {},
+      "source": {
+        "source_id": "CT_VT_VN_T308",
+        "all_sources": [
+          "CT_VT_VN_T308"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 27.0,
+      "reliability_c_score": 0.7625,
+      "total_confidence_sum": 12.2
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:53"
+  }
+}

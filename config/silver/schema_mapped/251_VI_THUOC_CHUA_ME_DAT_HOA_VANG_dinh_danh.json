@@ -1,0 +1,84 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_CHUA_ME_DAT_HOA_VANG",
+    "ten_raw": "Chua me đất hoa vàng",
+    "ten_khoa_hoc": "Oxalis corniculata L.; Oxalis repens Thunb; Oxalis javanica Blume",
+    "ho_thuc_vat": "Chua me đất Oxalidaceae",
+    "variants": [],
+    "properties": {},
+    "display_name": "Chua me đất hoa vàng"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T251",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "251"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Chua (Toan)"
+        ],
+        "tinh": "Hàn"
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Chua me đất hoa vàng là một loại cỏ mọc lan bò trên mặt đất, thân đỏ nhạt, hơi có lông. Lá có cuống dài, gầy, hơi có lông, gồm 3 lá chét gần như nhẵn, mềm, mỗi lá chét có một vết hõm trên đầu thành hình tim ngược. Hoa mọc thành tán gồm 2-3 hoa, có khi 4 hoa màu vàng, cuống hoa gầy dài chừng $1-2cm$. Đài 5, tràng 5, màu vàng, nhị 10, dài ngắn khác nhau, xếp thành hai vòng, bầu 5 ô, 5 vòi. Quả nang, dài gấp 5-6 lần chiều cao của đài còn tồn tại, mở bằng 5 van. Hạt hình trứng, màu nâu thẫm, dẹt, có bướu, mọc thành hàng rất đều. Mùa hoa: Các tháng 5-7 ( Hình 172 ).",
+        "thanh_phan_hoa_hoc": [
+          "Mới biết trong lá và thân chua me có axit oxalic, oxalat axit kali. Các hoạt chất khác chưa rõ."
+        ],
+        "cach_dung_bao_che": "Người ta dùng toàn cây hay chỉ dùng lá; thường dùng tươi, ít khi dùng phơi khô. Mùa thu hái tốt nhất vào các tháng 6-7."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_CHUA_ME_DAT_HOA_VANG",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "lạnh (hàn)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T251"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHUA_ME_DAT_HOA_VANG",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Chua (toan)"
+      },
+      "confidence_score": null,
+      "source": {
+        "source_id": "CT_VT_VN_T251"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHUA_ME_DAT_HOA_VANG",
+      "to": "HC_AXIT_OXALIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới biết trong lá và thân chua me có axit oxalic, oxalat axit kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T251"
+      }
+    },
+    {
+      "from": "VI_THUOC_CHUA_ME_DAT_HOA_VANG",
+      "to": "HC_OXALAT_AXIT_KALI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Mới biết trong lá và thân chua me có axit oxalic, oxalat axit kali."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T251"
+      }
+    }
+  ]
+}

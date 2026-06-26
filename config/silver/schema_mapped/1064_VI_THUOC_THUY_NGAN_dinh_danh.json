@@ -1,0 +1,126 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUY_NGAN",
+    "ten_raw": "Thủy ngân",
+    "ten_khoa_hoc": "Hydrargyrum",
+    "ho_thuc_vat": "",
+    "variants": [
+      "tín thạch",
+      "nhân ngôn",
+      "phê thạch",
+      "hồng phê",
+      "bạch phê",
+      "hồng tín thạch",
+      "bạch tín thạch",
+      "phê sương"
+    ],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1064",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1064"
+      },
+      "dac_tinh_yhct": {
+        "vi": [
+          "Cay (Tân)",
+          "Chua (Toan)"
+        ],
+        "tinh": "Nhiệt",
+        "cong_nang": "trừ đờm, chữa sốt rét, ăn hết những chỗ thịt thối nát. Còn có tác dụng bổ máu, chữa thiếu máu, vàng da."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là tín thạch, nhân ngôn, phê thạch, hồng phê, bạch phê. Thạch tín còn gọi chệch là nhân ngôn vì chữ tín gồm một bên chữ nhân, một bên chữ ngôn. Thường người ta dùng chữ thạch tín để chỉ chất As,O, thiên nhiên, thường có lẫn tạp chất. Trên thị trường người ta lại còn phân biệt ra thành: Hồng tín thạch hay hồng phê-Arsenicum rubrum. Bạch tín thạch hay bạch phê-Arsenicum album. Thường thạch phê hiếm hơn hồng phê. Nếu tinh chế hồng phê hay bạch phê bằng cách thăng hoa chúng ta sẽ được phê sương.",
+        "thanh_phan_hoa_hoc": [
+          "Thạch tín thiên nhiên hay thân hoa có các thành phần chủ yếu là As,O, tan trong nước, trong kiềm, cacbonat kiềm, axit, cồn etylic, thường lẫn tạp chất bao gồm sắt (Fe), sunfua (S) làm cho thạch tín có màu hồng. Độc sa có chừng $34,3%$ Fe; $46%$ asen; $19,7%$ sunfua, thường còn lẫn côban, niken, stibi. Một số rất ít độc sa có lẫn vàng. Hùng hoàng (xem vị này). Phê sương chỉ gồm có As,O, nguyên chất."
+        ],
+        "cach_dung_bao_che": "Thạch tín có nguồn gốc thiên nhiên hay do chế biến mà thành. Những nguyên liệu thiên nhiên của thạch tín là: I. Thân hoa (Arsenolite) có thành phần chủ yếu là As,O, có thể coi là thạch tín thiên nhiên nhưng rất ít. 2. Độc sa (Arsenopyrite) có thành phần chủ yếu là hợp chất có lẫn sắt, asen và sunfua AsFeS. 3. Hùng hoàng (Realgar) có thành phần chủ yếu là asen sunfua. Từ hai khoáng chất sau phải chế biến mới có được thạch tín. Thăng hoa thạch tín ta sẽ được phê sương là"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "V_CHUA",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị chua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn (lạnh)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "HC_FE",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Độc sa có chừng $34,3%$ Fe"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "HC_ASEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Độc sa có chừng $46%$ asen"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUY_NGAN",
+      "to": "HC_SUNFUA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Độc sa có chừng $19,7%$ sunfua"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1064"
+      }
+    }
+  ]
+}

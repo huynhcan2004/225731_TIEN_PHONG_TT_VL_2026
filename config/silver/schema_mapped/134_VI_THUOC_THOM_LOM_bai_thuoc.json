@@ -1,0 +1,67 @@
+{
+  "entity_hub": "VI_THUOC_THOM_LOM",
+  "source": {
+    "source_id": "CT_VT_VN_T134",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "134"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LOET_TAI_THOM_LOM_T",
+      "to": "VI_THUOC_THOM_LOM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thôm lồm có tác dụng chữa loét.",
+        "cach_dung": "Giã hay nhai nhỏ đắp lên nơi tai bị loét",
+        "ghi_chu": "Lá tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "BT_LOET_TAI_THOM_LOM_T",
+      "to": "B_LOET_TAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thồm lồm ăn tai, giã hay nhai nhỏ đắp lên nơi tai bị loét.",
+        "cach_dung": "Giã hay nhai nhỏ đắp lên nơi tai bị loét"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "BT_LY_THOM_LOM_T",
+      "to": "VI_THUOC_THOM_LOM",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Thôm lồm có tác dụng chữa lỵ.",
+        "cach_dung": "Sắc với nước uống",
+        "ghi_chu": "Sao với mật cho vàng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    },
+    {
+      "from": "BT_LY_THOM_LOM_T",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ.",
+        "cach_dung": "Sắc với nước uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T134"
+      }
+    }
+  ],
+  "metadata": {}
+}

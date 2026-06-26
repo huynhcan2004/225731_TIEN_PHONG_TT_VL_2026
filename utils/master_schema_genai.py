@@ -6,14 +6,13 @@ from google.genai import types
 RESPONSE_SCHEMA = types.Schema(
     type="OBJECT",
     properties={
-
         # =====================================================
         # 1️⃣ ENTITY CORE (THỰC THỂ CHÍNH TRONG BÀI VIẾT)
         # =====================================================
         "entity": types.Schema(
             type="OBJECT",
             properties={
-                "entity_type": types.Schema(
+                "entity_type": types.Schema(    
                     type="STRING",
                     enum=[
                         "VI_THUOC", "BAI_THUOC", "BENH_LY", 
@@ -36,7 +35,7 @@ RESPONSE_SCHEMA = types.Schema(
                 "variants": types.Schema(
                     type="ARRAY",
                     items=types.Schema(type="STRING"),
-                    description="Danh sách các tên gọi khác/biến thể"
+                    description="Danh sách các tên gọi khác/biến thể. Trả về mảng rỗng [] nếu không có."
                 ),
                 "properties": types.Schema( 
                     type="OBJECT",
@@ -44,7 +43,10 @@ RESPONSE_SCHEMA = types.Schema(
                         "bo_phan_dung": types.Schema(type="STRING"),
                         "phan_bo": types.Schema(type="STRING"),
                         "thu_hai": types.Schema(type="STRING", description="Thời gian và cách thu hái"),
-                        "che_bien_tho": types.Schema(type="STRING", description="Cách sơ chế, sấy, phơi ban đầu")
+                        "che_bien_tho": types.Schema(type="STRING", description="Cách sơ chế, sấy, phơi ban đầu"),
+                        "lieu_dung_chung": types.Schema(type="STRING", description="Số gam hoặc tỷ lệ dùng chung"),
+                        "muc_do_doc": types.Schema(type="STRING", description="Độ độc: Bảng A, Bảng B, Có độc, Không độc"),
+                        "trieu_chung_ngo_doc": types.Schema(type="STRING", description="Biểu hiện khi ngộ độc hoặc quá liều")
                     }
                 )
             },
@@ -56,7 +58,7 @@ RESPONSE_SCHEMA = types.Schema(
         # =====================================================
         "nodes": types.Schema(
             type="ARRAY",
-            description="Bắt buộc để mảng rỗng. Hệ thống sẽ tự quét relationships để sinh nodes sau.",
+            description="Bắt buộc để mảng rỗng []. Hệ thống sẽ tự quét relationships để sinh nodes sau.",
             items=types.Schema(
                 type="OBJECT",
                 properties={
@@ -88,6 +90,7 @@ RESPONSE_SCHEMA = types.Schema(
         # =====================================================
         "claims": types.Schema(
             type="ARRAY",
+            description="Danh sách các claim. Trả về mảng rỗng [] nếu không có dữ liệu trích xuất.",
             items=types.Schema(
                 type="OBJECT",
                 properties={
@@ -148,6 +151,7 @@ RESPONSE_SCHEMA = types.Schema(
         # =====================================================
         "relationships": types.Schema(
             type="ARRAY",
+            description="Danh sách các quan hệ. BẮT BUỘC trả về mảng rỗng [] nếu văn bản không có thông tin.",
             items=types.Schema(
                 type="OBJECT",
                 properties={
@@ -178,7 +182,20 @@ RESPONSE_SCHEMA = types.Schema(
                             "loai_remedy": types.Schema(
                                 type="STRING", 
                                 enum=["Đơn phương", "Đa phương", "Chưa rõ"],
-                                description="Phân loại bài thuốc (Chỉ dùng cho quan hệ BAO_GOM_VI_THUOC)"
+                                description="Phân loại bài thuốc"
+                            ),
+                            "loai_che_pham": types.Schema(
+                                type="STRING",
+                                enum=["Dân gian", "Cổ phương", "Chuẩn hóa hiện đại", "Chưa rõ"],
+                                description="Hình thức chế phẩm"
+                            ),
+                            "doi_tuong_thu_huong": types.Schema(
+                                type="STRING",
+                                description="Dùng cho Người hay Thú y (Trâu, Bò, Gà...). Mặc định là Người."
+                            ),
+                            "ap_dung_cho_loai": types.Schema(
+                                type="STRING",
+                                description="Phân loại tên loài thực vật cụ thể áp dụng (Nếu có nhiều loài)"
                             ),
                             "lieu_luong": types.Schema(type="STRING", description="Số gam hoặc tỷ lệ"),
                             "vai_tro": types.Schema(
@@ -186,17 +203,16 @@ RESPONSE_SCHEMA = types.Schema(
                                 enum=["Quân", "Thần", "Tá", "Sứ", "Chưa rõ"],
                                 description="Vai trò y lý trong bài thuốc"
                             ),
-                            "phoi_ngu_logic": types.Schema(
-                                type="STRING", 
-                                description="Giải thích sự tương tác/lý do phối hợp giữa các vị thuốc"
-                            ),
-                            "mo_ta_chi_tiet": types.Schema(type="STRING", description="Bằng chứng văn bản chi tiết cho quan hệ này"),
-                            "ghi_chu": types.Schema(type="STRING")
+                            "phoi_ngu_logic": types.Schema(type="STRING"),
+                            "mo_ta_chi_tiet": types.Schema(type="STRING"),
+                            "ghi_chu": types.Schema(type="STRING"),
+
                         }
                     ),
                     "confidence_score": types.Schema(type="NUMBER", nullable=True)
                 },
-                required=["from", "to", "relation_type", "source"]
+                # 🟢 ĐÃ FIX LỆCH PHA: Xóa "source" khỏi required để AI không bị mâu thuẫn với lệnh cấm trong Prompt
+                required=["from", "to", "relation_type"]
             )
         )
     },
@@ -205,38 +221,49 @@ RESPONSE_SCHEMA = types.Schema(
 
 # =====================================================
 # SCHEMA 2: SIÊU NHẸ - DÙNG CHO STAGE 3 & 4
-# Chỉ xuất đúng mảng quan hệ, Python sẽ lo phần còn lại
+# Được bọc trong OBJECT để tương thích với model_dump()
 # =====================================================
 STAGE34_SCHEMA = types.Schema(
-    type="ARRAY",
-    description="Chỉ xuất danh sách các quan hệ. KHÔNG bọc trong object nào khác.",
-    items=types.Schema(
-        type="OBJECT",
-        properties={
-            "from": types.Schema(type="STRING"),
-            "to": types.Schema(type="STRING"),
-            "relation_type": types.Schema(
-                type="STRING",
-                enum=[
-                    "THAN_PHAN_CUA", "BAO_GOM_VI_THUOC", "CO_TRONG_BAI_THUOC",
-                    "CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG", "LIEN_QUAN_TRIEU_CHUNG",
-                    "CO_CHUA_HOAT_CHAT", "CO_VI", "CO_TINH", "QUY_KINH",
-                    "KIENG_KY_BENH", "KIENG_KY_TRIEU_CHUNG", "KIENG_KY_CHO",
-                    "PHOI_HOP_VOI", "CO_CONG_NANG", "CO_TAC_DUNG_DUOC_LY", "THUOC_NHOM_BENH"
-                ]
-            ),
-            "properties": types.Schema(
+    # 🟢 ĐÃ FIX LỆCH PHA: Chuyển Root thành OBJECT để không làm crash code `hasattr(parsed, 'model_dump')`
+    type="OBJECT",
+    properties={
+        "relationships": types.Schema(
+            type="ARRAY",
+            description="Chỉ xuất danh sách các quan hệ. BẮT BUỘC trả về mảng rỗng [] nếu không tìm thấy.",
+            items=types.Schema(
                 type="OBJECT",
                 properties={
-                    "loai_remedy": types.Schema(type="STRING", enum=["Đơn phương", "Đa phương", "Chưa rõ"]),
-                    "lieu_luong": types.Schema(type="STRING"),
-                    "vai_tro": types.Schema(type="STRING", enum=["Quân", "Thần", "Tá", "Sứ", "Chưa rõ"]),
-                    "phoi_ngu_logic": types.Schema(type="STRING"),
-                    "mo_ta_chi_tiet": types.Schema(type="STRING"),
-                    "ghi_chu": types.Schema(type="STRING")
-                }
+                    "from": types.Schema(type="STRING"),
+                    "to": types.Schema(type="STRING"),
+                    "relation_type": types.Schema(
+                        type="STRING",
+                        enum=[
+                            "THAN_PHAN_CUA", "BAO_GOM_VI_THUOC", "CO_TRONG_BAI_THUOC",
+                            "CHU_TRI_BENH", "CHU_TRI_TRIEU_CHUNG", "LIEN_QUAN_TRIEU_CHUNG",
+                            "CO_CHUA_HOAT_CHAT", "CO_VI", "CO_TINH", "QUY_KINH",
+                            "KIENG_KY_BENH", "KIENG_KY_TRIEU_CHUNG", "KIENG_KY_CHO",
+                            "PHOI_HOP_VOI", "CO_CONG_NANG", "CO_TAC_DUNG_DUOC_LY", "THUOC_NHOM_BENH"
+                        ]
+                    ),
+                    "properties": types.Schema(
+                        type="OBJECT",
+                        properties={
+                            "loai_remedy": types.Schema(type="STRING", enum=["Đơn phương", "Đa phương", "Chưa rõ"]),
+                            "loai_che_pham": types.Schema(type="STRING", enum=["Dân gian", "Cổ phương", "Chuẩn hóa hiện đại", "Chưa rõ"]),
+                            "doi_tuong_thu_huong": types.Schema(type="STRING"),
+                            "ap_dung_cho_loai": types.Schema(type="STRING"),
+                            "lieu_luong": types.Schema(type="STRING"),
+                            "vai_tro": types.Schema(type="STRING", enum=["Quân", "Thần", "Tá", "Sứ", "Chưa rõ"]),
+                            "phoi_ngu_logic": types.Schema(type="STRING"),
+                            "mo_ta_chi_tiet": types.Schema(type="STRING"),
+                            "cach_dung": types.Schema(type="STRING"),
+                            "ghi_chu": types.Schema(type="STRING")
+                        }
+                    )
+                },
+                required=["from", "to", "relation_type"]
             )
-        },
-        required=["from", "to", "relation_type"]
-    )
+        )
+    },
+    required=["relationships"]
 )

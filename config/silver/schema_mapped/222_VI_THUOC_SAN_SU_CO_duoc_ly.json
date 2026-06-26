@@ -1,0 +1,79 @@
+{
+  "entity_hub": "VI_THUOC_SAN_SU_CO",
+  "source": {
+    "source_id": "CT_VT_VN_T222",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "222"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Thanh nhiệt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "CN_GIAI_DOC",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Giải độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "DL_CHUA_LI",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nhân dân thường dùng chữa lỵ, ỉa chảy dưới dạng thuốc sắc, với liều $3$ đến $6g$ ($2$ đến $3$ củ) trong một ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "DL_CHUA_TRUONG_BUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa trâu bò đầy trướng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "DL_CHUA_VIEM_RUOT",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa trâu bò viêm ruột."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    },
+    {
+      "from": "VI_THUOC_SAN_SU_CO",
+      "to": "DL_CHUA_TA_LY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Còn dùng chữa trâu bò tả lỵ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T222"
+      }
+    }
+  ],
+  "metadata": {}
+}

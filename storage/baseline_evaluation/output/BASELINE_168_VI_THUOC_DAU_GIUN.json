@@ -1,0 +1,216 @@
+{
+  "entity": {
+    "id": "VT_DAU_GIUN",
+    "canonical_name": "Cây dầu giun",
+    "ten_khoa_hoc": "Chenopodium ambrosioides L.; Chenopodium anthelminticum A. Gray.",
+    "ho_thuc_vat": "Rau muối Chenopodiaceae",
+    "properties": {
+      "bo_phan_dung": "Toàn cây và hạt",
+      "thu_hai": "Tháng 5, tháng 6 (hiệu suất cao nhất); Tháng 7 (thu hoạch); Trước khi quả chín, lúc khô ráo.",
+      "che_bien_tho": "Cây hái về phải cất ngay, vì để lâu tinh dầu bốc hơi và cây có thể bị thối. Nếu không cất tinh dầu kịp cần phơi trong mát, tránh chất thành đống.",
+      "lieu_dung_chung": "Ngày uống $30$ đến $50$ giọt chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả $30$ hay $50$ giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. Trẻ em tùy theo tuổi, uống $10$ đến $20$ giọt một ngày.",
+      "muc_do_doc": "Có độc"
+    }
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "T_NHIET",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun vị nóng."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "V_DANG",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun vị đắng."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_ATCARIDOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu của tinh dầu giun là $atcaridol$ (ít nhất phải có $65%$). Tinh dầu của hoa và hạt có chứa nhiều hơn (trong các tháng 5, 6, 7, 8 tỷ lệ có thể lên tới $75-85%$)."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_XIMEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra, còn chất $ximen$ ($22-35%$)."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_CAMPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "ít $campho$."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_DIMETYL_ETYLEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "cacbua khác, ít $campho$, $đimetyl etylen$."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_OXYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$oxyt$."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_AXIT_BUTYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$axit butylic$."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "HC_GLYCOL",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "$glycol$."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_NHIEM_GIUN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun.",
+        "lieu_luong": "30-50 giọt",
+        "cach_dung": "Chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả 30 hay 50 giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. Trẻ em tùy theo tuổi, uống 10 đến 20 giọt một ngày."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_NHIEM_GIUN_DUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun đũa.",
+        "lieu_luong": "30-50 giọt",
+        "cach_dung": "Chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả 30 hay 50 giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. Trẻ em tùy theo tuổi, uống 10 đến 20 giọt một ngày."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "B_NHIEM_GIUN_MO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Trị giun mỏ.",
+        "lieu_luong": "30-50 giọt",
+        "cach_dung": "Chia làm hai hay ba lần uống (nhỏ trên miếng đường) hai giờ sau khi uống hết tinh dầu, uống một liều thuốc tẩy muối magie sunfat hoặc uống cả 30 hay 50 giọt ngay một lần hòa tan trong $30ml$ dầu thầu dầu. Trẻ em tùy theo tuổi, uống 10 đến 20 giọt một ngày."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_SUY_YEU_TIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu độc ở liều tương đối thấp do tác dụng suy yếu đối với tim."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu còn có tác dụng hạ huyết áp."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_HAI_NHIP_THO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu hại đến nhịp thở."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_TIEU_HOA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều mạnh, nó làm ống tiêu hóa bị xót hay buồn nôn, nôn mửa."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_THAN_KINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Liều mạnh gây chóng mặt, ù tai, hoa mắt, lạnh đầu ngón chân ngón tay."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DOC_TINH_HO_HAP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cổ trường hợp chết với hiện tượng trung khu hô hấp bị tê liệt."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DIET_GIUN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nó rất độc đối với giun: $1$ dung dịch nước có $1/5.000$ trong lượng tinh dầu giun cũng đủ làm tê liệt giun đũa."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DIET_GIUN_NGUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Đối với giun của ngựa rất khó chữa mà cũng chỉ cần một liều $16$ đến $20ml$ để tiêu diệt hết."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DIET_GIUN_DUA",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun có tác dụng đối với giun đũa."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_DIET_GIUN_MO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun có tác dụng đối với giun mỏ."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_KHONG_TAC_DUNG_SAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun không tác dụng đối với sán."
+      }
+    },
+    {
+      "from": "VT_DAU_GIUN",
+      "to": "DL_KHONG_TAC_DUNG_GIUN_KIM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tinh dầu giun không tác dụng đối với giun kim."
+      }
+    }
+  ]
+}

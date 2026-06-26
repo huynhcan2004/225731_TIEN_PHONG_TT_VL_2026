@@ -1,0 +1,814 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_HOAT_THACH",
+    "ten_raw": "Hoạt thạch",
+    "ten_khoa_hoc": "$Talcum$",
+    "ho_thuc_vat": "$Không có$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "không có",
+      "thu_hai": "không có",
+      "che_bien_tho": "không có",
+      "lieu_dung_chung": "Dùng ngoài: Không có liều lượng. Dùng trong: Ngày $10$-$15g$ dưới dạng thuốc sắc hay thuốc bột, uống viên với liều $1$-$2g$.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không có"
+    },
+    "display_name": "Vị thuốc Hoạt thạch",
+    "canonical_name": "Vị thuốc Hoạt thạch"
+  },
+  "nodes": [
+    {
+      "id": "BT_TIEU_TIEN_DO_HOAT_THACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tiểu tiện đỏ Hoạt thạch",
+        "aliases": [
+          "tieutiendohoatthach",
+          "tieu tien do hoat thach",
+          "tiểu tiện đỏ hoạt thạch"
+        ],
+        "search_vector_hint": "Bài thuốc Tiểu tiện đỏ Hoạt thạch thuộc nhóm bài thuốc, thường liên quan đến điều trị các bệnh về tiết niệu."
+      }
+    },
+    {
+      "id": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Tiểu tiện khó khăn Hoạt thạch",
+        "aliases": [
+          "tiểu tiện khó khăn hoạt thạch",
+          "tieu tien kho khan hoat thach",
+          "tieutienkhokhanhoatthach"
+        ],
+        "search_vector_hint": "Bài thuốc Tiểu tiện khó khăn Hoạt thạch thuộc nhóm bài thuốc, thường liên quan đến điều trị các bệnh về tiết niệu."
+      }
+    },
+    {
+      "id": "B_DA_VANG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Da vàng",
+        "aliases": [
+          "da vàng",
+          "vangda",
+          "da vang",
+          "davang",
+          "vang da",
+          "vàng da"
+        ],
+        "search_vector_hint": "Bệnh Da vàng thuộc nhóm bệnh, thường liên quan đến các vấn đề về gan hoặc mật."
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Lỵ",
+        "aliases": [
+          "kiết lỵ",
+          "lỵ",
+          "ly",
+          "kiet ly",
+          "kietly"
+        ],
+        "search_vector_hint": "Bệnh Lỵ thuộc nhóm bệnh tiêu hóa, thường liên quan đến nhiễm trùng đường ruột."
+      }
+    },
+    {
+      "id": "B_SOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Sốt",
+        "aliases": [
+          "nongsot",
+          "sốt",
+          "sotnong",
+          "nong sot",
+          "nóng sốt",
+          "sot nong",
+          "sốt nóng",
+          "sot"
+        ],
+        "search_vector_hint": "Bệnh Sốt thuộc nhóm bệnh, thường liên quan đến nhiễm trùng hoặc viêm."
+      }
+    },
+    {
+      "id": "B_TA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Tả",
+        "aliases": [
+          "tieuchaycap",
+          "tả",
+          "ta",
+          "tieu chay cap",
+          "tiêu chảy cấp"
+        ],
+        "search_vector_hint": "Bệnh Tả thuộc nhóm bệnh, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "B_VIEM_NIEU_DAO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm niệu đạo",
+        "aliases": [
+          "viêm niệu đạo",
+          "viem nieu dao",
+          "viemnieudao"
+        ],
+        "search_vector_hint": "Bệnh Viêm niệu đạo thuộc nhóm bệnh, thường liên quan đến nhiễm trùng đường tiết niệu."
+      }
+    },
+    {
+      "id": "B_VIEM_RUOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Viêm ruột",
+        "aliases": [
+          "viemruot",
+          "viem ruot",
+          "viêm ruột"
+        ],
+        "search_vector_hint": "Bệnh Viêm ruột thuộc nhóm bệnh, thường liên quan đến viêm nhiễm đường tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_BANG_QUANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Kinh Bàng quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm Kinh, thường liên quan đến hệ thống kinh lạc trong cơ thể."
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_VI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Quy kinh Vị",
+        "aliases": [
+          "quy kinh vi",
+          "quykinhvi",
+          "quy kinh vị"
+        ],
+        "search_vector_hint": "Công năng Quy kinh Vị thuộc nhóm công năng, thường liên quan đến tác động lên kinh Vị."
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Thanh nhiệt",
+        "aliases": [
+          "giainhiet",
+          "thanh nhiệt",
+          "giai nhiet",
+          "thanhnhiet",
+          "giải nhiệt",
+          "thanh nhiet"
+        ],
+        "search_vector_hint": "Công năng Thanh nhiệt thuộc nhóm công năng, thường liên quan đến làm mát cơ thể."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_DAU_BUOT",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện đau buốt",
+        "aliases": [
+          "tieu buot",
+          "tiểu buốt",
+          "dai dau buot",
+          "tieubuot",
+          "daidaubuot",
+          "tiểu tiện đau buốt",
+          "đái đau buốt",
+          "tieutiendaubuot",
+          "tieu tien dau buot"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện đau buốt thuộc nhóm Triệu chứng, thường liên quan đến bệnh lý đường tiết niệu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_DO",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện đỏ",
+        "aliases": [
+          "tieutiendo",
+          "tieu tien do",
+          "tieuramau",
+          "dai ra mau",
+          "tieu ra mau",
+          "tiểu tiện đỏ",
+          "tiểu ra máu",
+          "đái ra máu",
+          "dairamau"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện đỏ thuộc nhóm Triệu chứng, thường liên quan đến tổn thương đường tiết niệu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_KHO_KHAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Triệu chứng Tiểu tiện khó khăn",
+        "aliases": [
+          "tiểu khó",
+          "tieu kho",
+          "đái khó",
+          "tieukho",
+          "tieutienkhokhan",
+          "tieu tien kho khan",
+          "dai kho",
+          "daikho",
+          "tiểu tiện khó khăn"
+        ],
+        "search_vector_hint": "Triệu chứng Tiểu tiện khó khăn thuộc nhóm Triệu chứng, thường liên quan đến bế tắc đường tiểu."
+      }
+    },
+    {
+      "id": "CN_TIEU_TIEN_RA_MAU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Tiểu tiện ra máu",
+        "aliases": [
+          "tieutienramau",
+          "tieu tien ra mau",
+          "tiểu tiện ra máu"
+        ],
+        "search_vector_hint": "Công năng Tiểu tiện ra máu thuộc nhóm công năng, thường liên quan đến điều trị trong y học cổ truyền."
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Bang Quang",
+        "aliases": [
+          "bàng quang",
+          "bang quang",
+          "bangquang"
+        ],
+        "search_vector_hint": "Kinh Bàng quang thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_IA_LONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Ỉa lỏng",
+        "aliases": [
+          "ỉa lỏng",
+          "ia long",
+          "đi ngoài phân lỏng",
+          "ialong",
+          "di ngoai phan long",
+          "dingoaiphanlong"
+        ],
+        "search_vector_hint": "Triệu chứng Ỉa lỏng thuộc nhóm triệu chứng, thường liên quan đến rối loạn tiêu hóa."
+      }
+    },
+    {
+      "id": "S_KHAT_NUOC",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Khát nước",
+        "aliases": [
+          "haonuoc",
+          "khatnuoc",
+          "háo nước",
+          "khat nuoc",
+          "hao nuoc",
+          "khát nước"
+        ],
+        "search_vector_hint": "Triệu chứng Khát nước thuộc nhóm triệu chứng, thường liên quan đến mất nước hoặc bệnh lý nội tiết."
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Han",
+        "aliases": [
+          "han",
+          "hàn"
+        ],
+        "search_vector_hint": "Hàn thuộc nhóm Tính."
+      }
+    },
+    {
+      "id": "VT_CAM_THAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Cam thảo",
+        "aliases": [
+          "cam thảo",
+          "camthao",
+          "cam thao"
+        ],
+        "search_vector_hint": "Vị thuốc Cam thảo thuộc nhóm vị thuốc, thường liên quan đến bổ khí, giải độc."
+      }
+    },
+    {
+      "id": "VT_HOANG_BA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng bá",
+        "aliases": [
+          "hoang ba",
+          "hoangba",
+          "hoàng bá"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng bá thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_HOAT_THACH",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoạt thạch",
+        "aliases": [
+          "hoatthach",
+          "hoạt thạch",
+          "hoat thach"
+        ],
+        "search_vector_hint": "Vị thuốc Hoạt thạch thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt và lợi thấp.",
+        "bo_phan_dung": "không có",
+        "thu_hai": "không có",
+        "che_bien_tho": "không có",
+        "lieu_dung_chung": "Dùng ngoài: Không có liều lượng. Dùng trong: Ngày $10$-$15g$ dưới dạng thuốc sắc hay thuốc bột, uống viên với liều $1$-$2g$.",
+        "muc_do_doc": "Không độc",
+        "trieu_chung_ngo_doc": "Không có",
+        "ten_khoa_hoc": "$Talcum$",
+        "ho_thuc_vat": "$Không có$",
+        "hinh_thai_chi_tiet": "Hoạt thạch là một chất bột trắng mịn, sờ trơn mát, không tan trong nước. Tỷ trọng $2,5$-$2,8$, khó bị axit phá hủy.",
+        "lieu_dung_tong_quat": "null"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1057"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoạt thạch là một chất bột trắng mịn, sờ trơn mát, không tan trong nước. Tỷ trọng $2,5$-$2,8$, khó bị axit phá hủy.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "null"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "vào kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_TA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_DA_VANG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "B_VIEM_NIEU_DAO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "CN_TIEU_TIEN_RA_MAU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "CN_TIEU_TIEN_DAU_BUOT",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Sốt, tả, lỵ, lợi tiểu tiện, sốt khát nước, viêm ruột, lỵ, da vàng (hoàng đản) tiểu tiện ra máu, viêm niệu đạo hay do có sỏi ở bàng quang mà tiểu tiện đau buốt",
+        "ghi_chu": "Chỉ định lâm sàng theo kinh nghiệm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_DO_HOAT_THACH",
+      "to": "VT_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_DO_HOAT_THACH",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$1g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_DO_HOAT_THACH",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Hai vị tán nhỏ, trộn đều. Dùng chữa sốt, đi tiểu khó khăn, đỏ. Ngày uống $4g$, dùng nước nóng mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_DO_HOAT_THACH",
+      "to": "CN_TIEU_TIEN_DO",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Hai vị tán nhỏ, trộn đều. Dùng chữa sốt, đi tiểu khó khăn, đỏ. Ngày uống $4g$, dùng nước nóng mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "VT_HOAT_THACH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "VT_CAM_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$2g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "B_VIEM_RUOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "cach_dung": "Các vị tán bột trộn đều. Gói thuốc thành 3 gói. Chia làm 3 lần uống trong ngày, mỗi lần một gói; dùng nước mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "S_IA_LONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Các vị tán bột trộn đều. Gói thuốc thành 3 gói. Chia làm 3 lần uống trong ngày, mỗi lần một gói; dùng nước mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "S_KHAT_NUOC",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Các vị tán bột trộn đều. Gói thuốc thành 3 gói. Chia làm 3 lần uống trong ngày, mỗi lần một gói; dùng nước mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_TIEU_TIEN_KHO_KHAN_HOAT_THACH",
+      "to": "CN_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Các vị tán bột trộn đều. Gói thuốc thành 3 gói. Chia làm 3 lần uống trong ngày, mỗi lần một gói; dùng nước mà chiêu thuốc"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt thạch có tính hàn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "CN_QUY_KINH_VI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt thạch vào kinh vị."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_HOAT_THACH",
+      "to": "CN_QUY_KINH_BANG_QUANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hoạt thạch vào kinh bàng quang."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1057",
+        "all_sources": [
+          "CT_VT_VN_T1057"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 44.0,
+      "reliability_c_score": 0.7574,
+      "total_confidence_sum": 20.45
+    },
+    "validator_pass_score": 100,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

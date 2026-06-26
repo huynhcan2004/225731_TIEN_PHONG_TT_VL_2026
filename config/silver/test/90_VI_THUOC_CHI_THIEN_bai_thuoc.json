@@ -1,0 +1,93 @@
+{
+  "entity_hub": "VI_THUOC_CHI_THIEN",
+  "source": {
+    "source_id": "CT_VT_VN_T90",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "90"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NHIET_CHI_THIEN_C",
+      "to": "VI_THUOC_CHI_THIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "$50g$",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chỉ thiên là vị thuốc duy nhất trong bài thuốc này.",
+        "mo_ta_chi_tiet": "sao vàng sắc với 3 bát (600ml) nước, cô đặc còn 200ml",
+        "cach_dung": "Chia làm nhiều lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NHIET_CHI_THIEN_C",
+      "to": "B_XUAT_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "những triệu chứng nhiệt như đổ máu cam, nôn ra máu",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NHIET_CHI_THIEN_C",
+      "to": "S_TIEU_TIEN_KHO_KHAN",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "tiểu tiện khó khăn",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_NHIET_CHI_THIEN_C",
+      "to": "S_SO_T",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "sốt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CHI_THIEN_C",
+      "to": "VI_THUOC_CHI_THIEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "lieu_luong": "tùy ý",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Chỉ thiên là vị thuốc duy nhất trong bài thuốc này.",
+        "mo_ta_chi_tiet": "Giã nát đắp lên mụn nhọt",
+        "cach_dung": "Đắp lên mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_CHI_THIEN_C",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "mụn nhọt",
+        "cach_dung": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T90"
+      }
+    }
+  ],
+  "metadata": {}
+}

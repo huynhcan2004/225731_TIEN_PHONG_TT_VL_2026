@@ -1,0 +1,145 @@
+{
+  "entity_hub": "VI_THUOC_SO",
+  "source": {
+    "source_id": "CT_VT_VN_T353",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "353"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_GHE_LO_DAU_S",
+      "to": "VI_THUOC_SO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sở được dùng để chữa ghẻ lở.",
+        "cach_dung": "Dùng ngoài",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_GHE_LO_DAU_S",
+      "to": "B_GHE",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ghẻ lở",
+        "cach_dung": "Dùng ngoài"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_LA_SNL",
+      "to": "VI_THUOC_SO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Lá sở và lá náng phối hợp giúp giảm đau, kháng viêm, hỗ trợ phục hồi xương gãy.",
+        "cach_dung": "Hai thứ giã nhỏ. Đắp và bó.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_LA_SNL",
+      "to": "VT_LA_NANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Lá sở và lá náng phối hợp giúp giảm đau, kháng viêm, hỗ trợ phục hồi xương gãy.",
+        "cach_dung": "Hai thứ giã nhỏ. Đắp và bó.",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_GAY_XUONG_LA_SNL",
+      "to": "B_GAY_XUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Bó gẫy xương",
+        "cach_dung": "Hai thứ giã nhỏ. Đắp và bó."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_HO_SO_PHU_THUNG_SO",
+      "to": "VI_THUOC_SO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Sở có tác dụng chữa ho, sốt, phù thũng, đầy bụng.",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay nấu thành cao",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_HO_SO_PHU_THUNG_SO",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, sốt, phù thũng, đầy bụng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay nấu thành cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_HO_SO_PHU_THUNG_SO",
+      "to": "B_SOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, sốt, phù thũng, đầy bụng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay nấu thành cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_HO_SO_PHU_THUNG_SO",
+      "to": "B_PHU_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, sốt, phù thũng, đầy bụng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay nấu thành cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    },
+    {
+      "from": "BT_HO_SO_PHU_THUNG_SO",
+      "to": "S_DAY_BUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho, sốt, phù thũng, đầy bụng",
+        "cach_dung": "Dùng dưới dạng thuốc sắc hay nấu thành cao"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T353"
+      }
+    }
+  ],
+  "metadata": {}
+}

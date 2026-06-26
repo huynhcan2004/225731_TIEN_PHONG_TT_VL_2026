@@ -1,0 +1,153 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DAU_RUOU",
+    "ten_raw": "Dâu rượu",
+    "ten_khoa_hoc": "Myrica rubra Sieb. et Zucc.; Pandanus amaryllifolia Roxb. (Panadanus odorus Ridl.)",
+    "ho_thuc_vat": "Dâu rượu Myricaceae; Dứa gai Pandanaceae",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "Quả",
+      "thu_hai": "Mùa quả 11-1"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T921",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "921"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây mọc thành bụi, có thể cao $1m$, đường kính thân $1-3cm$, phân nhánh. Lá hình mũi mác, nhắn, xếp thành hình máng, dài $40-50cm$, rộng $3-4 cm$, mép không gai, mặt dưới có màu nhạt, có nhiều gân cách nhau $1mm$, mùi thơm như mùi cơm nếp. Để khô càng thơm hơn. Chưa thấy cây ra hoa (Hình 684)."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_ICARIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân và lá có flavonozit gọi là icarin $C₁₂H₁₆O₇$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_ICARITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Khi thủy phân sẽ cho icaritin $C₂₁H₂₂O₁₁$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_DESOXYMETYLICARIIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân rễ chứa desoxymetylicariin và magnoflorin $CH₂ON$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_MAGNOFLORIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong thân rễ chứa desoxymetylicariin và magnoflorin $CH₂ON$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_TINH_DAU",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_ANCOLA_XERYLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_HEPTRIACONTAN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_PHYTOSTERLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_FLAVONOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_GLUCOZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    },
+    {
+      "from": "VI_THUOC_DAU_RUOU",
+      "to": "HC_FLAVON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá còn chứa tinh dầu, ancola xerylic, heptriacontan, phytosterla và một chất flavonozit $C₃₂H₁₂O₆$, có độ chảy $273,4°C$ thủy phân cho glucoza và flavon $C₂₁H₁₁O₆$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T921"
+      }
+    }
+  ]
+}

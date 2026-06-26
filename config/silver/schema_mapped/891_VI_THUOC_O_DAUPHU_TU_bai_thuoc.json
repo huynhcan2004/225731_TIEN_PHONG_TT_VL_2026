@@ -1,0 +1,229 @@
+{
+  "entity_hub": "VI_THUOC_O_DAUPHU_TU",
+  "source": {
+    "source_id": "CT_VT_VN_T891",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "891"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_THAN_HU_NGU_VI_TU_N",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản chỉ có Ngũ vị tử.",
+        "cach_dung": "Uống $30$ viên với cồn $70°$ tỷ lệ $1:3$, mỗi lần $20-30$ giọt, ngày uống $3$ lần.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_THAN_HU_NGU_VI_TU_N",
+      "to": "B_THAN_HU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa thận hư, tiểu tiện trắng đục, đau suốt hai bên sườn và lưng.",
+        "cach_dung": "Uống $30$ viên với cồn $70°$ tỷ lệ $1:3$, mỗi lần $20-30$ giọt, ngày uống $3$ lần."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_TANG_SUC_KHI_DE_NGU_VI_TU_N",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản chỉ có Ngũ vị tử.",
+        "cach_dung": "Uống $3$ lần mỗi lần $20$ đến $30$ giọt, mỗi lần cách nhau một giờ.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_TANG_SUC_KHI_DE_NGU_VI_TU_N",
+      "to": "S_SUC_KHOE_YEU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tăng sức khi đẻ.",
+        "cach_dung": "Uống $3$ lần mỗi lần $20$ đến $30$ giọt, mỗi lần cách nhau một giờ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_NGU_VI_TU_N",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản chỉ có Ngũ vị tử.",
+        "cach_dung": "Uống, chiêu bằng nước nóng.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_LIET_DUONG_NGU_VI_TU_N",
+      "to": "B_LIET_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa liệt dương.",
+        "cach_dung": "Uống, chiêu bằng nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_AM_MON_GIA_LANH_NGU_VI_TU_N",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc đơn giản chỉ có Ngũ vị tử.",
+        "cach_dung": "Dùng nước tiểu trộn làm thành viên bằng hạt ngô, để vào âm môn.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_AM_MON_GIA_LANH_NGU_VI_TU_N",
+      "to": "S_AM_DAO_LUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa phụ nữ âm môn giá lạnh.",
+        "cach_dung": "Dùng nước tiểu trộn làm thành viên bằng hạt ngô, để vào âm môn."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_PHOI_VIEM_NGU_VITU",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngũ vị tử trị ho lâu, phối hợp túc xác để tăng hiệu quả.",
+        "cach_dung": "Hai vị tán bột, luyện với kẹo mạch nha viên bằng quả táo mỗi lần ngậm một viên.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_PHOI_VIEM_NGU_VITU",
+      "to": "VT_TUC_XAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngũ vị tử trị ho lâu, phối hợp túc xác để tăng hiệu quả.",
+        "cach_dung": "Hai vị tán bột, luyện với kẹo mạch nha viên bằng quả táo mỗi lần ngậm một viên.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_PHOI_VIEM_NGU_VITU",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ lâu, phổi viêm.",
+        "cach_dung": "Hai vị tán bột, luyện với kẹo mạch nha viên bằng quả táo mỗi lần ngậm một viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_LAU_PHOI_VIEM_NGU_VITU",
+      "to": "B_VIEM_PHOI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa họ lâu, phổi viêm.",
+        "cach_dung": "Hai vị tán bột, luyện với kẹo mạch nha viên bằng quả táo mỗi lần ngậm một viên."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_DOM_NGU_VIB",
+      "to": "VI_THUOC_O_DAUPHU_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Ngũ vị tử trị ho đờm, phối hợp bạch phàn để tăng hiệu quả.",
+        "cach_dung": "Mỗi lần dùng $12g$, lấy phổi lợn nướng chín, chấm bột mà ăn, chiêu bằng nước nóng.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_DOM_NGU_VIB",
+      "to": "VT_BACH_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Ngũ vị tử trị ho đờm, phối hợp bạch phàn để tăng hiệu quả.",
+        "cach_dung": "Mỗi lần dùng $12g$, lấy phổi lợn nướng chín, chấm bột mà ăn, chiêu bằng nước nóng.",
+        "ghi_chu": "CT_VT_VN_T892"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_DOM_NGU_VIB",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho đờm và thở.",
+        "cach_dung": "Mỗi lần dùng $12g$, lấy phổi lợn nướng chín, chấm bột mà ăn, chiêu bằng nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    },
+    {
+      "from": "BT_HO_DOM_NGU_VIB",
+      "to": "S_XUAT_HUYET_DA",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa ho đờm và thở.",
+        "cach_dung": "Mỗi lần dùng $12g$, lấy phổi lợn nướng chín, chấm bột mà ăn, chiêu bằng nước nóng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T891"
+      }
+    }
+  ],
+  "metadata": {}
+}

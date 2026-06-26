@@ -1,0 +1,85 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_DUA_BA",
+    "ten_raw": "Dứa bà",
+    "ten_khoa_hoc": "Agave americana Lin; Agave sisalana Perr.; Agave fourecroydes Lem",
+    "ho_thuc_vat": "Thủy Tiên (Amaryllidaceae)",
+    "variants": [
+      "thùa",
+      "lưỡi lê",
+      "dứa Mỹ",
+      "nil pisey (Campuchia)",
+      "sisal",
+      "agave (Pháp)"
+    ],
+    "properties": {
+      "phan_bo": "Bắc và Trung Mỹ, nhưng hiện nay được phát triển trồng ở khắp những vùng khô cằn các nước nhiệt đới châu Á, châu Phi và châu Mỹ. Nổi tiếng nhất hiện nay là dứa bà trồng và khai thác tại các nước Tănganika, Kênya, Angola, Braxin, Méhicô...Ở nước ta dứa bà được trồng làm cảnh, làm hàng rào, một số nơi trồng lấy sợi, nhiều nhất tại các tỉnh Bắc Ninh, Bắc Giang, Hà Tây... Cây mọc rất tốt ở những đồi đất đỏ, khô cằn, cho nên ta có thể nghiên cứu cho trồng lớn tại những vùng đồi trọc hiện đang bỏ hoang tại nhiều tỉnh ở nước ta."
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T293",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "293"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là thùa, lưỡi lê, dứa Mỹ, nil pisey (Campuchia), sisal, agave (Pháp). Dứa bà là một loại cây sống dai do thân rễ, thân trên mặt đất ngắn, lá hình kiếm dài $1,2-1,5m$, quãng giữa rộng $13cm$, ngọn lá có gai to, nhọn, rắn, dài khoảng $1,5cm$. Gai ở mép lá có màu đen, bóng như sừng. Mỗi cây có khoảng 30-50 lá, mọng nước, mỗi lá có thể cần nặng $1,5kg$. Sau nhiều năm (10-15 năm) cây ra hoa. Hoa đính trên một trục lớn, thẳng đứng, mọc từ giữa vòng lá. Trục hoa cao $4-6cm$, có khi tới $10m$, trên có tới hàng nghìn hoa. Sau khi cây ra hoa thì cây lụi đi. Hoa màu xanh, nhị mọc thò ra ngoài ( Hình 216 ), Người ta đã thống kê thấy có khoảng 300 loài Agave, vào khoảng 60% số loài này có chứa hecogenin, nhưng những loài được khai thác vừa để lấy sợi vừa để chiết heocogenin là các loài Agave americana, Agave sisalana Perr., Agave fourecroydes Lem, đều nguồn gốc Mêhicô (Trung Mỹ).",
+        "thanh_phan_hoa_hoc": [
+          "Trong lá dứa bà có rất nhiều đường khử, sacaroza, chất nhầy, vitamin C và các saponozit, steroit trong đó thành phần chủ yếu là $hecogenin$ và $tigogenin$. Trong lá cây đã trưởng thành, theo Dawidar và Fayez (1961) có 0,17% $hecogenin$, trong lá cây đã trỗ hoa, hàm lượng có thể lên tới 0,23%, trong lá non và củ trên cán hoa có 0,07% $hecogenin$, nhưng hàm lượng $tigogenin$ lại nhiều hơn. $Hecogenin$ được Marker chiết lần đầu tiên từ cây Hectia texensis S. Wats thuộc họ Dứa (Bromeliaceae) vào năm 1943. Chỉ gần đây $hecogenin$ mới được khai thác từ dứa bà. Muốn chiết $hecogenin$ từ cao mềm hay từ bùn lắng ở dịch ép lá dứa bà, người ta thủy phân cao mềm hoặc bùn bằng axit. Sau đó người ta chiết $hecogenin$ và $tigogenin$ và các saponozit khác bằng heptan nóng hoặc bằng butanol bão hòa nước. Tinh chế ta sẽ được $hecogenin$ và $tigogenin$ tinh khiết. Năm 1974, Ngô Vân Thu và cộng sự (Dược học, 1974, 6, 4-7) đã chiết từ 50kg lá dứa bà thư hải ở vùng Thị Cầu (Bắc Ninh), chiết được 48g saponozit toàn phần và từ 48g saponozit toàn phần này chiết được 14,6 $hecogenin$ (tính ra là 0,03% trên nguyên liệu lá tươi)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_DUA_BA",
+      "to": "HC_HECOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá dứa bà có rất nhiều đường khử, sacaroza, chất nhầy, vitamin C và các saponozit, steroit trong đó thành phần chủ yếu là $hecogenin$ và $tigogenin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T293"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_BA",
+      "to": "HC_TIGOGENIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá dứa bà có rất nhiều đường khử, sacaroza, chất nhầy, vitamin C và các saponozit, steroit trong đó thành phần chủ yếu là $hecogenin$ và $tigogenin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T293"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_BA",
+      "to": "HC_SACAROZA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá dứa bà có rất nhiều đường khử, sacaroza, chất nhầy, vitamin C và các saponozit, steroit trong đó thành phần chủ yếu là $hecogenin$ và $tigogenin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T293"
+      }
+    },
+    {
+      "from": "VI_THUOC_DUA_BA",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá dứa bà có rất nhiều đường khử, sacaroza, chất nhầy, vitamin C và các saponozit, steroit trong đó thành phần chủ yếu là $hecogenin$ và $tigogenin$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T293"
+      }
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_THANG_DUOC",
+    "ten_raw": "Thăng dược",
+    "ten_khoa_hoc": "$Hydrargyrum oxydatum crudum$",
+    "ho_thuc_vat": "$Chưa rõ$",
+    "variants": [
+      "hồng thăng",
+      "hồng phấn",
+      "hồng thăng đơn",
+      "hoàng thăng",
+      "thăng đơn",
+      "tam tiêu đơn"
+    ],
+    "properties": {
+      "bo_phan_dung": "lớp phấn đỏ dày chừng $3mm$, có những đám óng ánh tinh thể",
+      "thu_hai": "chưa rõ",
+      "che_bien_tho": "chưa rõ",
+      "lieu_dung_chung": "Dùng ngoài không kể liều lượng. Thường rắc bột hoặc làm thuốc mỡ.",
+      "muc_do_doc": "Có độc",
+      "trieu_chung_ngo_doc": "Chưa rõ",
+      "phan_bo": "string"
+    },
+    "display_name": "Vị thuốc Thăng dược",
+    "canonical_name": "Vị thuốc Thăng dược"
+  },
+  "nodes": [
+    {
+      "id": "B_LOET",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Loét",
+        "aliases": [
+          "loét",
+          "loet"
+        ],
+        "search_vector_hint": "Bệnh Loét thuộc nhóm bệnh, thường liên quan đến tổn thương trên da hoặc niêm mạc."
+      }
+    },
+    {
+      "id": "B_TOET_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Toét mắt",
+        "aliases": [
+          "toet mat",
+          "toét mắt",
+          "toetmat",
+          "viemketmac",
+          "viêm kết mạc",
+          "viem ket mac"
+        ],
+        "search_vector_hint": "Bệnh Toét mắt thuộc nhóm bệnh, thường liên quan đến các bệnh về mắt."
+      }
+    },
+    {
+      "id": "CN_TRU_TA",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Trừ tà",
+        "aliases": [
+          "tru ta",
+          "trừ tà",
+          "truta"
+        ],
+        "search_vector_hint": "Công năng Trừ tà thuộc nhóm công năng, thường liên quan đến các phương pháp chữa bệnh cổ truyền."
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Độc tính",
+        "aliases": [
+          "độc tính",
+          "doc tinh",
+          "doctinh"
+        ],
+        "search_vector_hint": "Độc tính thuộc nhóm dược lý, thường liên quan đến khả năng gây hại cho cơ thể."
+      }
+    },
+    {
+      "id": "DL_SAT_TRUNG",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Dược lý Sát trùng",
+        "aliases": [
+          "sát trùng",
+          "sattrung",
+          "sat trung"
+        ],
+        "search_vector_hint": "Sát trùng thuộc nhóm Dược lý, thường liên quan đến khả năng tiêu diệt vi sinh vật."
+      }
+    },
+    {
+      "id": "HC_THUY_NGAN_OXYT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Thủy ngân oxyt",
+        "aliases": [
+          "thuynganoxyt",
+          "thủy ngân oxyt",
+          "thuy ngan oxyt"
+        ],
+        "search_vector_hint": "Hoạt chất Thủy ngân oxyt thuộc nhóm hoạt chất, thường liên quan đến các công dụng dược lý."
+      }
+    },
+    {
+      "id": "K_TAM",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Tam",
+        "aliases": [
+          "tâm",
+          "tam"
+        ],
+        "search_vector_hint": "Kinh Tâm thuộc nhóm kinh."
+      }
+    },
+    {
+      "id": "S_DAU_MAT",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau mắt",
+        "aliases": [
+          "dau mat",
+          "nhucmat",
+          "nhuc mat",
+          "đau mắt",
+          "daumat",
+          "nhức mắt"
+        ],
+        "search_vector_hint": "Đau mắt thuộc nhóm triệu chứng, thường liên quan đến bệnh lý về mắt."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_THANG_DUOC",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Thăng dược",
+        "aliases": [
+          "thang duoc",
+          "thangduoc",
+          "thăng dược"
+        ],
+        "search_vector_hint": "Vị thuốc Thăng dược thuộc nhóm vị thuốc, thường liên quan đến các bài thuốc cổ truyền.",
+        "bo_phan_dung": "lớp phấn đỏ dày chừng $3mm$, có những đám óng ánh tinh thể",
+        "thu_hai": "chưa rõ",
+        "che_bien_tho": "chưa rõ",
+        "lieu_dung_chung": "Dùng ngoài không kể liều lượng. Thường rắc bột hoặc làm thuốc mỡ.",
+        "muc_do_doc": "Có độc",
+        "trieu_chung_ngo_doc": "Chưa rõ",
+        "phan_bo": "string",
+        "ten_khoa_hoc": "$Hydrargyrum oxydatum crudum$",
+        "ho_thuc_vat": "$Chưa rõ$",
+        "hinh_thai_chi_tiet": "Còn gọi là hồng thăng, hồng phấn, hồng thăng đơn, hoàng thăng, thăng đơn, tam tiêu đơn. Là lớp phấn đỏ dày chừng $3mm$, có những đám óng ánh tinh thể.",
+        "thanh_phan_hoa_hoc": "['Thành phần chủ yếu là Thủy ngân oxyt ($HgO$).']",
+        "cach_dung_bao_che": "Chế từ Thủy ngân ($40g$), Diêm tiêu ($80g$), Minh phàn ($80g$). Trộn đều cho vào bát, úp bát khác lên buộc chặt, trát kín bằng xi măng. Đun lò than củi nhẹ trong 8 tiếng. Khi nguội, nạo lấy lớp phấn đỏ phủ trên mặt trong của bát trên gọi là hồng phấn hay hồng thăng."
+      }
+    },
+    {
+      "id": "V_CAY",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Cay",
+        "aliases": [
+          "cây",
+          "cay"
+        ],
+        "search_vector_hint": "Vị thuốc Cây thuộc nhóm vị thuốc, thường liên quan đến điều trị bệnh lý."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1066"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Còn gọi là hồng thăng, hồng phấn, hồng thăng đơn, hoàng thăng, thăng đơn, tam tiêu đơn. Là lớp phấn đỏ dày chừng $3mm$, có những đám óng ánh tinh thể.",
+        "thanh_phan_hoa_hoc": [
+          "Thành phần chủ yếu là Thủy ngân oxyt ($HgO$)."
+        ],
+        "cach_dung_bao_che": "Chế từ Thủy ngân ($40g$), Diêm tiêu ($80g$), Minh phàn ($80g$). Trộn đều cho vào bát, úp bát khác lên buộc chặt, trát kín bằng xi măng. Đun lò than củi nhẹ trong 8 tiếng. Khi nguội, nạo lấy lớp phấn đỏ phủ trên mặt trong của bát trên gọi là hồng phấn hay hồng thăng."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính nóng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "V_CAY",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Vị cay"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "K_TAM",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Quy kinh Tâm"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "HC_THUY_NGAN_OXYT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Thành phần chủ yếu là Thủy ngân oxyt ($HgO$).",
+        "ghi_chu": "string"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "B_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Bôi ngoài da.",
+        "ghi_chu": "ung thư sang độc, mụn nhọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "B_TOET_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng bột rắc lên vết loét hay thuốc mỡ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "S_DAU_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Dùng dưới dạng bột rắc lên vết loét hay thuốc mỡ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "CN_TRU_TA",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chuyên dùng cho ngoại khoa."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "DL_SAT_TRUNG",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Sát trùng mạnh, ăn mòn thịt thối, giúp vết thương mau lên da non."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_THANG_DUOC",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính nóng, có độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1066",
+        "all_sources": [
+          "CT_VT_VN_T1066"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 39.5,
+      "reliability_c_score": 0.7682,
+      "total_confidence_sum": 8.45
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}

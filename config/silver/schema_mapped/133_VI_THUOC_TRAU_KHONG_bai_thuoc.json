@@ -1,0 +1,64 @@
+{
+  "entity_hub": "VI_THUOC_TRAU_KHONG",
+  "source": {
+    "source_id": "CT_VT_VN_T133",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "133"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_LO_LOET_TRAU_KHONG_T",
+      "to": "VI_THUOC_TRAU_KHONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Trầu không có tính sát khuẩn, làm sạch vết thương, giúp vết loét nhanh lành.",
+        "cach_dung": "Cắt nhỏ lá trầu không, cho vào cốc, dội nước sôi, đợi 10-15 phút rồi dùng nước này rửa vết loét 2-3 lần/ngày. Có thể dùng lá trầu không đun với nước cho sôi kỹ để ấm mà dùng.",
+        "ghi_chu": "Nếu vết loét quá to, thì có thể dùng số lượng lá trầu không nhiều hơn. "
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_TRAU_KHONG_T",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Các vết lở loét",
+        "cach_dung": "Cắt nhỏ lá trầu không, cho vào cốc, dội nước sôi, đợi 10-15 phút rồi dùng nước này rửa vết loét 2-3 lần/ngày. Có thể dùng lá trầu không đun với nước cho sôi kỹ để ấm mà dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_TRAU_KHONG_T",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "mụn nhọt",
+        "cach_dung": "Cắt nhỏ lá trầu không, cho vào cốc, dội nước sôi, đợi 10-15 phút rồi dùng nước này rửa mụn nhọt 2-3 lần/ngày. Có thể dùng lá trầu không đun với nước cho sôi kỹ để ấm mà dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_TRAU_KHONG_T",
+      "to": "B_CHAM",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "vết chàm của trẻ em mới đẻ",
+        "cach_dung": "Cắt nhỏ lá trầu không, cho vào cốc, dội nước sôi, đợi 10-15 phút rồi dùng nước này rửa vết chàm 2-3 lần/ngày. Có thể dùng lá trầu không đun với nước cho sôi kỹ để ấm mà dùng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T133"
+      }
+    }
+  ],
+  "metadata": {}
+}

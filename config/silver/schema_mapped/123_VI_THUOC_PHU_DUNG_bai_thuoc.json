@@ -1,0 +1,95 @@
+{
+  "entity_hub": "VI_THUOC_PHU_DUNG",
+  "source": {
+    "source_id": "CT_VT_VN_T123",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "123"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_MUN_NHOT_PHU_DUNG_P",
+      "to": "VI_THUOC_PHU_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phù dung lá tươi giã đắp ngoài da.",
+        "mo_ta_chi_tiet": "Lá tươi và hoa tươi được nhân dân giã đắp mụn nhọt đang mưng mủ để hút mủ và làm cho đỡ đau",
+        "cach_dung": "Giã đắp ngoài da",
+        "ghi_chu": "lá tươi"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_PHU_DUNG_P",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Lá tươi và hoa tươi được nhân dân giã đắp mụn nhọt đang mưng mủ để hút mủ và làm cho đỡ đau",
+        "cach_dung": "Giã đắp ngoài da"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_PHU_DUNG_P",
+      "to": "VI_THUOC_PHU_DUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Phù dung phối hợp với nước chè giúp giảm sưng đau.",
+        "mo_ta_chi_tiet": "Có thể dùng lá hoặc hoa phơi khô tán nhỏ khi dùng thêm nước chè đặc, trộn đều thành một thứ bột nhão, đắp lên chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_PHU_DUNG_P",
+      "to": "VT_NUOC_CHE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Phù dung phối hợp với nước chè giúp giảm sưng đau.",
+        "mo_ta_chi_tiet": "Có thể dùng lá hoặc hoa phơi khô tán nhỏ khi dùng thêm nước chè đặc, trộn đều thành một thứ bột nhão, đắp lên chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_PHU_DUNG_P",
+      "to": "S_SUNG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có thể dùng lá hoặc hoa phơi khô tán nhỏ khi dùng thêm nước chè đặc, trộn đều thành một thứ bột nhão, đắp lên chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    },
+    {
+      "from": "BT_SUNG_DAU_PHU_DUNG_P",
+      "to": "S_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Có thể dùng lá hoặc hoa phơi khô tán nhỏ khi dùng thêm nước chè đặc, trộn đều thành một thứ bột nhão, đắp lên chỗ sưng đau",
+        "cach_dung": "Đắp lên chỗ sưng đau"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T123"
+      }
+    }
+  ],
+  "metadata": {}
+}

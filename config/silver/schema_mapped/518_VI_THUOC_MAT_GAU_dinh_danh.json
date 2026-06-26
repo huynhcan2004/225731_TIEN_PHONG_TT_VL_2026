@@ -1,0 +1,92 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MAT_GAU",
+    "ten_raw": "Mật gấu",
+    "ten_khoa_hoc": "Heliotropium indicum L.(Heliotropium anisophyllum P. de B.); Ursus sp.; Selenarctos thibetanus G. Cuvier; Ursus arctos lisiotus Gray",
+    "ho_thuc_vat": "Vòi voi Borraginaceae",
+    "variants": [
+      "Mật gấu (Fel Ursi)"
+    ],
+    "properties": {
+      "bo_phan_dung": "túi mật phơi hay sấy khô",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T518",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "518"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Mật gấu còn nguyên thường là những túi được ép bẹp, có cuống dài. Khi ép bẹp chiều rộng có thể tới $5$-$6cm$, chiều dài $14$-$15cm$, chiều dày $1$-$2mm$, một mép phẳng, một mép cong trong giống lưỡi dao. Khi cắt túi mật sẽ thấy ở trong có chất đen nhánh, giữa đám đen có những hạt lổn nhổn màu vàng óng ánh như hổ phách. Nếm sẽ thấy vị đắng, sau ngọt, dính lưỡi. Ngậm lâu sẽ tan hết trong miệng. Ngửi có khi có mùi khói do ở một số nơi đem phơi trên gác bếp. Đốt không cháy.",
+        "thanh_phan_hoa_hoc": [
+          "Trong mật gấu chủ yếu người ta đã phân tích được các chất sau đây: - Muối kim loại của các axit cholic. - Cholesterola. - Sắc tố mật như bilirubin. Các axit cholic trong mật gấu có axit cholic, axit cheno desoxycholic, axit urso desoxycholic. Axit urso desoxycholic là một axit đặc biệt chỉ có trong mật gấu, có độ chảy $202°C$, độ quay cực $+5707$. Nhờ những đặc điểm này ta có thể thí nghiệm phân biệt mật gấu thật hay giả."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MAT_GAU",
+      "to": "HC_AXIT_CHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có axit cholic, axit cheno desoxycholic, axit urso desoxycholic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T518"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_GAU",
+      "to": "HC_AXIT_CHENO_DESOXYCHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có axit cholic, axit cheno desoxycholic, axit urso desoxycholic."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T518"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_GAU",
+      "to": "HC_AXIT_URSO_DESOXYCHOLIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Các axit cholic trong mật gấu có axit cholic, axit cheno desoxycholic, axit urso desoxycholic. Axit urso desoxycholic là một axit đặc biệt chỉ có trong mật gấu, có độ chảy $202°C$, độ quay cực $+5707$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T518"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_GAU",
+      "to": "HC_CHOLESTEROLA",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "- Cholesterola."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T518"
+      }
+    },
+    {
+      "from": "VI_THUOC_MAT_GAU",
+      "to": "HC_BILIRUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "- Sắc tố mật như bilirubin."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T518"
+      }
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VT_DAI_TAO",
+    "ten_raw": "Đại táo",
+    "ten_khoa_hoc": "$Zizyphus sativa Mill.$",
+    "ho_thuc_vat": "$họ Táo Rhamnaceae (Rhamnaceae)$",
+    "variants": [],
+    "properties": {
+      "lieu_dung_chung": "Thường dùng hiện nay trong hầu hết các đơn thuốc, mỗi ngày cho uống từ 5 đến 10 quả làm thuốc bổ tỳ vị, nhuận phế, chữa họ, điều hòa khí huyết.",
+      "muc_do_doc": "Không độc",
+      "bo_phan_dung": "quả",
+      "phan_bo": "Hà Bắc, Hà Nam, Sơn Đông, Phúc Kiến, Thiềm Tây. Tứ Xuyên, Vân Nam"
+    },
+    "display_name": "Vị thuốc Đại táo",
+    "canonical_name": "Vị thuốc Đại táo"
+  },
+  "nodes": [
+    {
+      "id": "BT_CAM_TAU_MA_DAI_TAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Cam Tẩu Mã Đại Táo",
+        "aliases": [
+          "cam tẩu mã đại táo",
+          "cam tau ma dai tao",
+          "camtaumadaitao"
+        ],
+        "search_vector_hint": "Cam Tẩu Mã Đại Táo thuộc nhóm bài thuốc, thường liên quan đến các bài thuốc cổ phương."
+      }
+    },
+    {
+      "id": "BT_DAU_BUNG_DAI_TAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Đau bụng Đại Táo",
+        "aliases": [
+          "dau bung dai tao",
+          "daubungdaitao",
+          "đau bụng đại táo"
+        ],
+        "search_vector_hint": "Đau bụng Đại Táo thuộc nhóm bài thuốc, thường liên quan đến các bài thuốc cổ phương."
+      }
+    },
+    {
+      "id": "BT_HAY_NGU_DAI_TAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Bài thuốc Hay Ngu Đại Táo",
+        "aliases": [
+          "hay ngu dai tao",
+          "hay ngu đại táo",
+          "hayngudaitao"
+        ],
+        "search_vector_hint": "Hay Ngu Đại Táo thuộc nhóm bài thuốc, thường liên quan đến các bài thuốc cổ phương."
+      }
+    },
+    {
+      "id": "B_CAM_TAU_MA",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Cam tẩu mã",
+        "aliases": [
+          "cam tẩu mã",
+          "cam tau ma",
+          "viemloetmienghoaitu",
+          "viem loet mieng hoai tu",
+          "viêm loét miệng hoại tử",
+          "camtauma"
+        ],
+        "search_vector_hint": "Cam tẩu mã thuộc nhóm Bệnh, thường liên quan đến nhiễm trùng hoại tử ở miệng."
+      }
+    },
+    {
+      "id": "B_DAU_BUNG",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Bệnh Đau bụng",
+        "aliases": [
+          "đau bụng",
+          "dau bung",
+          "daubung"
+        ],
+        "search_vector_hint": "Bệnh Đau bụng thuộc nhóm bệnh, thường liên quan đến các vấn đề tiêu hóa."
+      }
+    },
+    {
+      "id": "CN_BO_TY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Bổ tỳ",
+        "aliases": [
+          "bo ty",
+          "bổ tỳ",
+          "boty"
+        ],
+        "search_vector_hint": "Công năng Bổ tỳ thuộc nhóm công năng, thường liên quan đến tăng cường chức năng tỳ vị."
+      }
+    },
+    {
+      "id": "CN_DIEU_HOA_DINH_VE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Điều hòa định vị",
+        "aliases": [
+          "dieuhoadinhvi",
+          "điều hòa định vị",
+          "dieu hoa dinh vi"
+        ],
+        "search_vector_hint": "Công năng Điều hòa định vị thuộc nhóm công năng, thường liên quan đến sự ổn định và cân bằng."
+      }
+    },
+    {
+      "id": "CN_DUONG_VI_SINH_TAN_DICH",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Dưỡng vị sinh tân dịch",
+        "aliases": [
+          "duong vi sinh tan dich",
+          "dưỡng vị sinh tân dịch",
+          "duongvisinhtandich"
+        ],
+        "search_vector_hint": "Công năng Dưỡng vị sinh tân dịch thuộc nhóm công năng, thường liên quan đến tiêu hóa và hấp thu."
+      }
+    },
+    {
+      "id": "CN_HOA_GIAI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Hòa giải",
+        "aliases": [
+          "hoagiai",
+          "hòa giải",
+          "hoa giai"
+        ],
+        "search_vector_hint": "Công năng Hòa giải thuộc nhóm công năng, thường liên quan đến việc giải độc và làm dịu."
+      }
+    },
+    {
+      "id": "CN_ICH_KHI",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Công năng Ích Khí",
+        "aliases": [
+          "ich khi",
+          "bokhi",
+          "bo khi",
+          "ích khí",
+          "bổ khí",
+          "ichkhi"
+        ],
+        "search_vector_hint": "Ích Khí thuộc nhóm công năng, thường liên quan đến tăng cường khí lực."
+      }
+    },
+    {
+      "id": "HC_CALCI",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Calci",
+        "aliases": [
+          "calci"
+        ],
+        "search_vector_hint": "Calci thuộc nhóm hoạt chất, thường liên quan đến khoáng chất và chức năng sinh lý."
+      }
+    },
+    {
+      "id": "HC_CAROTEN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Caroten",
+        "aliases": [
+          "caroten"
+        ],
+        "search_vector_hint": "Hoạt chất Caroten thuộc nhóm Hoạt chất, thường liên quan đến tiền chất của vitamin A và sắc tố thực vật."
+      }
+    },
+    {
+      "id": "HC_CHAT_BEO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Chất béo",
+        "aliases": [
+          "chatbeo",
+          "chất béo",
+          "chat beo"
+        ],
+        "search_vector_hint": "Hoạt chất Chất béo thuộc nhóm hoạt chất, thường liên quan đến thành phần dinh dưỡng."
+      }
+    },
+    {
+      "id": "HC_HYDRAT_CACBON",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hydrat Cacbon",
+        "aliases": [
+          "hydratcacbon",
+          "hydrat cacbon"
+        ],
+        "search_vector_hint": "Hydrat Cacbon thuộc nhóm Hoạt chất, thường liên quan đến hóa học."
+      }
+    },
+    {
+      "id": "HC_PHOTPHO",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Photpho",
+        "aliases": [
+          "photpho"
+        ],
+        "search_vector_hint": "Hoạt chất Photpho thuộc nhóm hoạt chất, thường liên quan đến thành phần hóa học của dược liệu."
+      }
+    },
+    {
+      "id": "HC_PROTIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Protit",
+        "aliases": [
+          "protit"
+        ],
+        "search_vector_hint": "Protit thuộc nhóm hoạt chất."
+      }
+    },
+    {
+      "id": "HC_SAT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Sắt",
+        "aliases": [
+          "sắt",
+          "sat"
+        ],
+        "search_vector_hint": "Sắt thuộc nhóm hoạt chất, thường liên quan đến y học cổ truyền."
+      }
+    },
+    {
+      "id": "HC_VITAMIN_C",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Hoạt chất Vitamin C",
+        "aliases": [
+          "vitamin c",
+          "vitaminc"
+        ],
+        "search_vector_hint": "Hoạt chất Vitamin C thuộc nhóm hoạt chất, thường liên quan đến tăng cường sức đề kháng."
+      }
+    },
+    {
+      "id": "K_TY",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Ty",
+        "aliases": [
+          "tỳ",
+          "ty"
+        ],
+        "search_vector_hint": "Kinh Tỳ thuộc nhóm kinh mạch, thường liên quan đến hệ thống kinh lạc."
+      }
+    },
+    {
+      "id": "K_VI",
+      "label": "KinhMach",
+      "properties": {
+        "canonical_name": "Vi",
+        "aliases": [
+          "vi",
+          "vị"
+        ],
+        "search_vector_hint": "Kinh Vị thuộc nhóm Kinh, thường liên quan đến hệ tiêu hóa."
+      }
+    },
+    {
+      "id": "S_DAU_HONG",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Đau họng",
+        "aliases": [
+          "đau họng",
+          "dauhong",
+          "dau hong"
+        ],
+        "search_vector_hint": "Triệu chứng Đau họng thuộc nhóm Triệu chứng, thường liên quan đến viêm nhiễm đường hô hấp trên."
+      }
+    },
+    {
+      "id": "S_HAY_NGU",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Hay ngủ",
+        "aliases": [
+          "buồn ngủ",
+          "ngủ gà",
+          "buon ngu",
+          "buonngu",
+          "hayngu",
+          "hay ngủ",
+          "nguga",
+          "hay ngu",
+          "ngu ga"
+        ],
+        "search_vector_hint": "Triệu chứng Hay ngủ thuộc nhóm triệu chứng, thường liên quan đến mệt mỏi hoặc thiếu ngủ."
+      }
+    },
+    {
+      "id": "S_MIENG_KHO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Triệu chứng Miệng khô",
+        "aliases": [
+          "miengkho",
+          "mieng kho",
+          "miệng khô"
+        ],
+        "search_vector_hint": "Triệu chứng Miệng khô thuộc nhóm triệu chứng, thường liên quan đến ..."
+      }
+    },
+    {
+      "id": "T_ON",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "On",
+        "aliases": [
+          "on",
+          "ôn"
+        ],
+        "search_vector_hint": "Tính Ôn thuộc nhóm tính, thường liên quan đến tác dụng làm ấm và tăng cường dương khí."
+      }
+    },
+    {
+      "id": "VT_DAI_TAO",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Đại táo",
+        "aliases": [
+          "đại táo",
+          "tao tau",
+          "taotau",
+          "dai tao",
+          "táo tàu",
+          "daitao"
+        ],
+        "search_vector_hint": "Vị thuốc Đại táo thuộc nhóm Vị thuốc, thường liên quan đến thành phần dược liệu.",
+        "lieu_dung_chung": "Thường dùng hiện nay trong hầu hết các đơn thuốc, mỗi ngày cho uống từ 5 đến 10 quả làm thuốc bổ tỳ vị, nhuận phế, chữa họ, điều hòa khí huyết.",
+        "muc_do_doc": "Không độc",
+        "bo_phan_dung": "quả",
+        "phan_bo": "Hà Bắc, Hà Nam, Sơn Đông, Phúc Kiến, Thiềm Tây. Tứ Xuyên, Vân Nam",
+        "ten_khoa_hoc": "$Zizyphus sativa Mill.$",
+        "ho_thuc_vat": "$họ Táo Rhamnaceae (Rhamnaceae)$",
+        "hinh_thai_chi_tiet": "Đại táo là một cây nhỡ hay cây to, có thể cao tới $10m$. Lá mọc so le, lá kèm thường có dạng thành gai. Cuống lá ngắn $0,5-1cm$, phiến lá hình trứng, đầu hẹp lại, dài $3-7cm$, rộng $2-3,5cm$, mép có răng cưa thổ, trên mặt rõ 3 gần chính, gân phụ cũng nổi rõ. Hoa nhỏ, mọc thành tán ở kẽ lá, mỗi tán gồm $7-8$ hoa. Cánh hoa màu vàng xanh nhạt. Đài, tràng và nhị đều 5. Quả hạch hình cầu hay hình trứng, khi non có màu nâu hoặc xanh nhạt, khi chín có màu đỏ sẫm. Vỏ quả mẫm vị ngọt. Mùa hoa tháng 4-5, mùa quả tháng 7-9.",
+        "thanh_phan_hoa_hoc": "['Trong đại táo có $3,3\\\\%$ protit, $0,4\\\\%$ chất béo, $73\\\\%$ hydrat cacbon, $0,061\\\\%$ canxi, $0,055\\\\%$ photpho, $0,0016\\\\%$ sắt, $0,00015\\\\%$ caroten, $0,012\\\\%$ vitamin C']",
+        "ghi_chu_bo_sung": "Đại táo là một vị thuốc rất phổ biến trong các đơn thuốc."
+      }
+    },
+    {
+      "id": "VT_HOANG_BA",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Hoàng bá",
+        "aliases": [
+          "hoang ba",
+          "hoangba",
+          "hoàng bá"
+        ],
+        "search_vector_hint": "Vị thuốc Hoàng bá thuộc nhóm vị thuốc, thường liên quan đến thanh nhiệt giải độc."
+      }
+    },
+    {
+      "id": "VT_O_MAI",
+      "label": "ViThuoc",
+      "properties": {
+        "canonical_name": "Vị thuốc Ô mai",
+        "aliases": [
+          "omai",
+          "o mai",
+          "ô mai"
+        ],
+        "search_vector_hint": "Vị thuốc Ô mai thuộc nhóm vị thuốc, thường liên quan đến tiêu hóa và hô hấp."
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "TinhVi",
+      "properties": {
+        "canonical_name": "Ngot",
+        "aliases": [
+          "ngọt",
+          "ngot"
+        ],
+        "search_vector_hint": "Vị ngọt thuộc nhóm tính vị."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "925"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Đại táo là một cây nhỡ hay cây to, có thể cao tới $10m$. Lá mọc so le, lá kèm thường có dạng thành gai. Cuống lá ngắn $0,5-1cm$, phiến lá hình trứng, đầu hẹp lại, dài $3-7cm$, rộng $2-3,5cm$, mép có răng cưa thổ, trên mặt rõ 3 gần chính, gân phụ cũng nổi rõ. Hoa nhỏ, mọc thành tán ở kẽ lá, mỗi tán gồm $7-8$ hoa. Cánh hoa màu vàng xanh nhạt. Đài, tràng và nhị đều 5. Quả hạch hình cầu hay hình trứng, khi non có màu nâu hoặc xanh nhạt, khi chín có màu đỏ sẫm. Vỏ quả mẫm vị ngọt. Mùa hoa tháng 4-5, mùa quả tháng 7-9.",
+        "thanh_phan_hoa_hoc": [
+          "Trong đại táo có $3,3\\%$ protit, $0,4\\%$ chất béo, $73\\%$ hydrat cacbon, $0,061\\%$ canxi, $0,055\\%$ photpho, $0,0016\\%$ sắt, $0,00015\\%$ caroten, $0,012\\%$ vitamin C"
+        ],
+        "ghi_chu_bo_sung": "Đại táo là một vị thuốc rất phổ biến trong các đơn thuốc."
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VT_DAI_TAO",
+      "to": "T_ON",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đại táo vị ngọt, tính ôn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Đại táo vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "K_TY",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đại táo vào hai kinh tỳ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "K_VI",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Đại táo vào hai kinh vị"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_PROTIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $3,3\\%$ protit",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_CHAT_BEO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,4\\%$ chất béo",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_HYDRAT_CACBON",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $73\\%$ hydrat cacbon",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_CALCI",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,061\\%$ canxi",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_PHOTPHO",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,055\\%$ photpho",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_SAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,0016\\%$ sắt",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_CAROTEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,00015\\%$ caroten",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "HC_VITAMIN_C",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đại táo có $0,012\\%$ vitamin C",
+        "ghi_chu": "NULL"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAY_NGU_DAI_TAO",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$20$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAY_NGU_DAI_TAO",
+      "to": "VT_O_MAI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$10$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAY_NGU_DAI_TAO",
+      "to": "S_MIENG_KHO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAY_NGU_DAI_TAO",
+      "to": "S_DAU_HONG",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_HAY_NGU_DAI_TAO",
+      "to": "S_HAY_NGU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_DAI_TAO",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$14$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_DAU_BUNG_DAI_TAO",
+      "to": "B_DAU_BUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TAU_MA_DAI_TAO",
+      "to": "VT_DAI_TAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$1$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TAU_MA_DAI_TAO",
+      "to": "VT_HOANG_BA",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_che_pham": "Dân gian",
+        "lieu_luong": "$6g$",
+        "vai_tro": "Tá"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "BT_CAM_TAU_MA_DAI_TAO",
+      "to": "B_CAM_TAU_MA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "doi_tuong_thu_huong": "Người"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "CN_BO_TY",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Bổ tỳ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "CN_ICH_KHI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Ích khí."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "CN_DUONG_VI_SINH_TAN_DICH",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Dưỡng vị sinh tân dịch."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "CN_DIEU_HOA_DINH_VE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Điều hòa doanh vệ."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VT_DAI_TAO",
+      "to": "CN_HOA_GIAI",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Hòa giải các vị thuốc khác."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T925",
+        "all_sources": [
+          "CT_VT_VN_T925"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 47.5,
+      "reliability_c_score": 0.7569,
+      "total_confidence_sum": 21.95
+    },
+    "validator_pass_score": 90,
+    "processed_at": "2026-04-19 08:41:55"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+    "ten_raw": "Hùng hoàng và Thư hoàng",
+    "ten_khoa_hoc": "Realgar, Orpiment",
+    "ho_thuc_vat": "Không rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T1055",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "1055"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "mờ, chất cứng dễ vỡ, màu xanh da trời, vị tanh mùi đồng gây nôn.",
+        "thanh_phan_hoa_hoc": [
+          "Trong đảm phàn, thành phần chủ yếu là đồng sunfat (CuSO. 5H,O). Khi cho đảm phàn vào ống nghiệm đốt nóng lên, nước sẽ bốc hơi đi, còn lại bột màu trắng, hơi có mùi SO,. Hòa tan trong nước sẽ có màu xanh, cho chiếc đinh vào dung dịch này đồng sẽ tách ra và phủ lên chiếc đinh."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_HUNG_HOANG_VA_THU_HOANG",
+      "to": "HC_DONG_SUNFAT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong đảm phàn, thành phần chủ yếu là đồng sunfat (CuSO. 5H,O)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1055"
+      }
+    }
+  ]
+}

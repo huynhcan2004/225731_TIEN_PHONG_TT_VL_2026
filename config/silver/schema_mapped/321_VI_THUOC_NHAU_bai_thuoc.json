@@ -1,0 +1,295 @@
+{
+  "entity_hub": "VI_THUOC_NHAU",
+  "source": {
+    "source_id": "CT_VT_VN_T321",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "321"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_NHUC_MOI_DAU_LUNG_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tác dụng giảm đau, kháng viêm, thường dùng trị nhức mỏi, đau lưng.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tính kháng khuẩn, tiêu viêm, giúp giảm sưng đau do mụn nhọt.",
+        "cach_dung": "Đắp",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tác dụng kháng khuẩn, giúp giảm các triệu chứng lỵ, đi ngoài.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tác dụng kháng khuẩn, giúp giảm các triệu chứng lỵ.",
+        "cach_dung": "Ăn",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tác dụng điều kinh, thường dùng trong các bài thuốc trị kinh nguyệt không đều.",
+        "cach_dung": "Ăn",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_NHUC_MOI_DAU_LUNG_NH",
+      "to": "B_DAU_LUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh nhức mỏi, đau lưng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_NHUC_MOI_DAU_LUNG_NH",
+      "to": "S_NHUC_MOI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa bệnh nhức mỏi, đau lưng",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_NH",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Đắp"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ, đi ngoài",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "S_DI_NGOAI",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ, đi ngoài",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "S_NHUC_DAU",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa những người hay nhức đầu chóng mặt",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "S_CHONG_MAT",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "chữa những người hay nhức đầu chóng mặt",
+        "cach_dung": "Uống"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_NH",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_KINH_NGUYET_KHONG_DEU",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_BANG_HUYET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_BACH_DAI",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_CAM_HEN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_THUNG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_DAU_GAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_KINH_NGUYET_KHONG_DEU_NH",
+      "to": "B_DAI_THAO_DUONG",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "điều kinh, trị băng huyết, bạch đới, ho, cảm hen, thũng, đau gân, đái đường (đái tháo)",
+        "cach_dung": "Ăn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    },
+    {
+      "from": "BT_LY_DI_NGOAI_NH",
+      "to": "VI_THUOC_NHAU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Nhàu có tác dụng hạ sốt, thường dùng trong các bài thuốc trị sốt.",
+        "cach_dung": "Uống",
+        "ghi_chu": "Theo chỉ định"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T321"
+      }
+    }
+  ],
+  "metadata": {}
+}

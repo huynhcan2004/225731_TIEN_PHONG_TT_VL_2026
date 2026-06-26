@@ -1,0 +1,130 @@
+{
+  "entity_hub": "VI_THUOC_CANH_KIEN_TRANG",
+  "source": {
+    "source_id": "CT_VT_VN_T744",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "744"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_VIEM_PHE_QUAN_MOC_HDU",
+      "to": "VI_THUOC_CANH_KIEN_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị viêm phế quản, ho lâu ngày.",
+        "mo_ta_chi_tiet": "Chữa viêm phế quản, họ lâu ngày",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T745"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHE_QUAN_MOC_HDU",
+      "to": "VT_MOC_HO_DIEP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$10g$",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc trị viêm phế quản, ho lâu ngày.",
+        "mo_ta_chi_tiet": "Chữa viêm phế quản, họ lâu ngày",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T745"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHE_QUAN_MOC_HDU",
+      "to": "VT_DUONG_PHEN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "$30g$",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Đường phèn giúp làm dịu cổ họng và tăng cường tác dụng của các vị thuốc khác.",
+        "mo_ta_chi_tiet": "Chữa viêm phế quản, họ lâu ngày",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày",
+        "ghi_chu": "CT_VT_VN_T745"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHE_QUAN_MOC_HDU",
+      "to": "B_VIEM_PHE_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm phế quản, họ lâu ngày",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_VIEM_PHE_QUAN_MOC_HDU",
+      "to": "S_HO_KEU_LAU_NGAY",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa viêm phế quản, họ lâu ngày",
+        "cach_dung": "Sắc còn $200ml$. Chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_VO_NUC_N",
+      "to": "VI_THUOC_CANH_KIEN_TRANG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Cánh kiến trắng giúp làm dịu vết loét và hỗ trợ quá trình phục hồi da.",
+        "mo_ta_chi_tiet": "Chữa lở loét do sơn ăn",
+        "cach_dung": "Dùng rượu này bôi vào nơi lở sơn. Ngày bôi 3-4 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_VO_NUC_N",
+      "to": "VT_VO_NUC_NAC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "lieu_luong": "số lượng tuỳ theo vết loét",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Vỏ núc nác có tác dụng kháng viêm, giảm đau và làm lành vết thương.",
+        "mo_ta_chi_tiet": "Chữa lở loét do sơn ăn",
+        "cach_dung": "Dùng rượu này bôi vào nơi lở sơn. Ngày bôi 3-4 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    },
+    {
+      "from": "BT_LO_LOET_VO_NUC_N",
+      "to": "B_LO_LOET",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lở loét do sơn ăn",
+        "cach_dung": "Dùng rượu này bôi vào nơi lở sơn. Ngày bôi 3-4 lần"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T744"
+      }
+    }
+  ],
+  "metadata": {}
+}

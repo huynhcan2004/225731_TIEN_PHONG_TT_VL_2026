@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_O_DAU_VIET_NAM",
+    "ten_raw": "Ô đầu Việt Nam",
+    "ten_khoa_hoc": "null",
+    "ho_thuc_vat": "null",
+    "variants": [],
+    "properties": {},
+    "display_name": "Ô đầu Việt Nam"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T896",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "896"
+      },
+      "dac_tinh_yhct": {
+        "kieng_ky_dac_biet": "Những người âm hư, dương thịnh, phụ nữ có thai không dùng được. Ô đầu không được dùng chung với bán hạ, quá lâu, bỗi mẫu bạch cập."
+      },
+      "mo_ta_theo_nguon": {
+        "thanh_phan_hoa_hoc": [
+          "Qua các tài liệu của Trung Quốc và Nhật Bản, trong ô đầu và phụ tử Trung Quốc cũng có những hoạt chất như âu ô đầu.",
+          "Sơ bộ nghiên cứu, chúng tôi cũng thấy như vậy, nhưng theo thứ tự từ nhiều đến ít như sau: Ô đầu, diêm phụ, hắc phụ, bạch phụ. Tuy nhiên chúng tôi tự hỏi, tại sao muốn giảm lượng ancaloit lại không dùng liều nhỏ cho khỏi lãng phí thuốc hoặc là trong phụ tử, ngoài aconitin ra còn có chất gì khác tác dụng chăng? Trong khi sắc phối hợp với những vị thuốc khác có gì thay đổi không? Đó là những vấn đề tồn tại trong thành phần hóa học của phụ tử.",
+          "Một số băn khoăn của chúng tôi gần đây đã được các nhà nghiên cứu Trung Quốc và Nhật Bản trả lời như sau: 1. Trong quá trình sắc thuốc (đun sôi và giữ sôi lâu) các ancaloit của phụ tử chế, tiếp tục bị phân hủy.",
+          "2. Khi sắc đơn thuốc “Tứ nghịch thang” (phụ tử được phối hợp với cam thảo và gừng) độc tính của phụ tử còn giảm nhiều hơn so với nước sắc phụ tử riêng biệt, hoặc khi sắc phụ tử riêng, gừng riêng và cam thảo riêng rồi mới trộn ba dịch sắc riêng ấy với nhau. Người ta cho rằng, khi sắc phối hợp ba vị phụ tử, gừng và cam thảo, ngoài sự phân hủy aconitin bởi nhiệt, có thể còn sự hóa hợp giữa axit glucuronic của cam thảo với những ancaloit trong phụ tử.",
+          "3. Đông y không sử dụng các ancaloit độc trong phụ thử mà dùng các chất gây tác dụng cường tim trong ô đầu, phụ tử. Có lẽ chất “hồi dương cứu nghịch” hay “khởi tử hồi sinh” nói trong đông y là nằm ở đây. Tại Nhật Bản, người ta đã chiết từ nước sắc phụ tử chất higranim có tác dụng cường tim rất mạnh. Higranim rất bền với nhiệt độ, với áp suất, trong môi trường nước axit hóa, ở nồng độ $10g$ vẫn có tác dụng cường tim. Sau khi hấp $110-115°C$ trong $40$ phút, hiệu lực cường tim chỉ giảm 2 lần, trong khi đó DL-50 giảm độc tới 200 lần (Trung thảo được học-Trung văn).",
+          "4. Tác dụng cường tim còn liên quan đến sự có mặt của ion Ca+ trong nước sắc đơn thuốc có phụ tử. Nguồn ion Cat này một phần có trong axit canxiphotphoaconitic trong phụ thử, một phần có trong nước muối, nước ót dùng chế phụ tử. Nước sắc phụ tử chế có tác dụng mạnh hơn nước sắc phụ tử sống (ô đầu) do nước sắc phụ tử chế có hàm lượng ion Ca* nhiều hơn. Nếu loại các ion Ca*2 khỏi nước sắc thì tác dụng cường tim cũng giảm đi khá nhiều (Trung dược hóa học, 832, Võ Xuân Minh-TCĐY 1983, 184)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "HC_ACONITIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tuy nhiên chúng tôi tự hỏi, tại sao muốn giảm lượng ancaloit lại không dùng liều nhỏ cho khỏi lãng phí thuốc hoặc là trong phụ tử, ngoài aconitin ra còn có chất gì khác tác dụng chăng?"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    },
+    {
+      "from": "VI_THUOC_O_DAU_VIET_NAM",
+      "to": "HC_HIGRANIM",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Tại Nhật Bản, người ta đã chiết từ nước sắc phụ tử chất higranim có tác dụng cường tim rất mạnh."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T896"
+      }
+    }
+  ]
+}

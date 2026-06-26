@@ -1,0 +1,279 @@
+{
+  "entity_hub": "VI_THUOC_BIM_BIP",
+  "source": {
+    "source_id": "CT_VT_VN_T1025",
+    "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+    "tac_gia": "Đỗ Tất Lợi",
+    "trang": "1025"
+  },
+  "nodes": [],
+  "relationships": [
+    {
+      "from": "BT_TAC_TIA_SUA_X",
+      "to": "VI_THUOC_BIM_BIP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc đơn giản sử dụng xuyên sơn giáp nướng để điều trị tắc tia sữa.",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$, có thể cùng uống với một ít rượu",
+        "ghi_chu": "Nướng xuyên sơn giáp lán nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_TAC_TIA_SUA_X",
+      "to": "B_TAC_TIA_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tắc tia sữa",
+        "cach_dung": "Ngày uống 2 lần, mỗi lần $4g$, có thể cùng uống với một ít rượu"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_VO_LOET_X",
+      "to": "VI_THUOC_BIM_BIP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đơn phương",
+        "vai_tro": "Chưa rõ",
+        "phoi_ngu_logic": "Bài thuốc đơn giản sử dụng xuyên sơn giáp đốt để điều trị tràng nhạc vỡ loét.",
+        "cach_dung": "Đắp vào",
+        "ghi_chu": "Đốt xuyên sơn giáp, nghiền nhỏ"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_TRANG_NHAC_VO_LOET_X",
+      "to": "B_TRANG_NHAC",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tràng nhạc vỡ loét",
+        "cach_dung": "Đắp vào"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VI_THUOC_BIM_BIP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày",
+        "ghi_chu": "Xuyên sơn giáp (sao vàng)"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_CAT_CANH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_THUOC_DUOC",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_MOC_THONG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_PHUC_LINH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_XUYEN_KHUNG",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "VT_THIEN_HOA_PHAN",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng bổ khí huyết, thông kinh hoạt lạc, lợi sữa.",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_THONG_SUA_XDTMPX",
+      "to": "B_THIEU_SUA",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Thuốc thông sữa",
+        "cach_dung": "Ngày cần dùng $50g$ hỗn hợp này, thêm $500ml$ nước, sắc còn $200ml$ chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "VI_THUOC_BIM_BIP",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Quân",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng thanh nhiệt giải độc, tiêu viêm giảm đau, thường dùng để điều trị mụn nhọt.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "$10g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "VT_BACH_CHI",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng thanh nhiệt giải độc, tiêu viêm giảm đau, thường dùng để điều trị mụn nhọt.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "$5g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "VT_TAO_GIAC_THICH",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng thanh nhiệt giải độc, tiêu viêm giảm đau, thường dùng để điều trị mụn nhọt.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "$8g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "VT_HOANG_KY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng thanh nhiệt giải độc, tiêu viêm giảm đau, thường dùng để điều trị mụn nhọt.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "$6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "VT_DUONG_QUY",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "loai_remedy": "Đa phương",
+        "vai_tro": "Tá",
+        "phoi_ngu_logic": "Bài thuốc phối hợp các vị thuốc có tác dụng thanh nhiệt giải độc, tiêu viêm giảm đau, thường dùng để điều trị mụn nhọt.",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày",
+        "ghi_chu": "$6g$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    },
+    {
+      "from": "BT_MUN_NHOT_XBDTHT",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa mụn nhọt",
+        "cach_dung": "Nước $600ml$, sắc còn $200ml$, chia 3 lần uống trong ngày"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T1025"
+      }
+    }
+  ],
+  "metadata": {}
+}

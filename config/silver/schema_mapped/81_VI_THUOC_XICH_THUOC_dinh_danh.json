@@ -1,0 +1,50 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_XICH_THUOC",
+    "ten_raw": "Xích thược",
+    "ten_khoa_hoc": "Radix Paeoniae rubrae; Paeonia veitchii Lynch; Paeonia lactiflora Pall.; Paeonia obovata Maxim.",
+    "ho_thuc_vat": "Thược dược (Paeoniaceae)",
+    "variants": [
+      "Xuyên xích thược"
+    ],
+    "properties": {
+      "bo_phan_dung": "rễ",
+      "thu_hai": "Vào các tháng 3-5 hay các tháng 5-10 đào về",
+      "che_bien_tho": "trừ bỏ thân rễ và rễ nhỏ, chia thành từng rễ to nhỏ riêng biệt, rửa sạch đất cát; phơi khô",
+      "phan_bo": "mọc hoang"
+    },
+    "display_name": "Xích thược"
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T81",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "81"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Xích thược Radix Paeoniae rubrae là rễ phơi hay sấy khô của 3 loài thược dược: 1. Thược dược (Paeonia lactiflora Pall.) đã mô tả ở trên. Nhưng là loài thược dược mọc hoang, củ nhỏ bé hơn dùng chế thành xích thược 2. Thảo thược dược (Paeonia obovata Maxim.). Cây này cũng mọc hoang, rễ phát triển thành củ có vỏ màu nâu đỏ ( Hình 30 ). [CT_VT_VN_T82]: Tất cả xích thược đều do cây mọc hoang cung cấp, Vào các tháng 3-5 hay các tháng 5-10 đào về, trừ bỏ thân rễ và rễ nhỏ, chia thành từng rễ to nhỏ riêng biệt, rửa sạch đất cát; phơi khô là được.",
+        "thanh_phan_hoa_hoc": [
+          "[CT_VT_VN_T82]: Như thược dược: Có tính bột, tanin, nhựa, chất nhầy, chất đường, sắc tố và axit benzoic. Tỷ lệ axit benzoic trong xích thược thấp hơn bạch thược ($0,92$\\%)."
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_XICH_THUOC",
+      "to": "HC_AXIT_BENZOIC",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Có tính bột, tanin, nhựa, chất nhầy, chất đường, sắc tố và axit benzoic. Tỷ lệ axit benzoic trong xích thược thấp hơn bạch thược ($0,92$\\%)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T81"
+      }
+    }
+  ]
+}

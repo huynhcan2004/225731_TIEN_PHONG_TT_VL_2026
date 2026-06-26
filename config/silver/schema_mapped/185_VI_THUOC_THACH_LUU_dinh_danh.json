@@ -1,0 +1,91 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THACH_LUU",
+    "ten_raw": "Cây thạch lựu",
+    "ten_khoa_hoc": "Punica granatum L.",
+    "ho_thuc_vat": "họ Lựu Punicaceae",
+    "variants": [
+      "Cây lựu"
+    ],
+    "properties": {
+      "bo_phan_dung": "quả",
+      "phan_bo": "Cây lựu là một cây thuộc mộc, cao chừng $3-4$m, cây nhỏ, có khi có gai. Lá dài, nhỏ, mềm mỏng, đơn, mép nguyên có khi mọc thành cụm nhưng thường mọc so le hoặc hơi mọc đối, cuống ngắn. Mùa hạ nở hoa màu đỏ tươi hoặc màu trắng (bạch lựu) hoặc mọc riêng lẻ hoặc từng xim có độ $3$ hoa.",
+      "thu_hai": "Vỏ bóc về phơi khô để dành. Dùng càng sớm càng tốt.",
+      "che_bien_tho": "phơi hay sấy khô"
+    },
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T185",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "185"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Cây lựu là một cây thuộc mộc, cao chừng $3-4m$, cây nhỏ, có khi có gai. Lá dài, nhỏ, mềm mỏng, đơn, mép nguyên có khi mọc thành cụm nhưng thường mọc so le hoặc hơi mọc đối, cuống ngắn. Mùa hạ nở hoa màu đỏ tươi hoặc màu trắng (bạch lựu) hoặc mọc riêng lẻ hoặc từng xim có độ 3 hoa. Quả to bằng nắm tay. Đầu quả còn $4-5$ lá đài tồn tại. Vỏ dày, ngoài da sắc lục, khi chín có màu vàng đỏ lốm đốm. Trong quả có 8 ngăn xếp thành hai tầng, tầng trên có 5 ngăn tầng dưới có 3. Các loại ngăn phân cách bởi các màng mỏng. hạt rất nhiều, hình 5 cạnh, sắc hồng trắng."
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THACH_LUU",
+      "to": "HC_TANIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Vỏ rễ, vỏ thân và vỏ cành có chứa chừng $22\\%$ tanin (axit galatanic hoặc digalic và axit punicotanic)."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T185"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_LUU",
+      "to": "HC_PELETIERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chứa các chất ancaloit: $Peletierin$ $CHON$ 15"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T185"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_LUU",
+      "to": "HC_ISOPELETIERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chứa các chất ancaloit: $Isopeletierin$ $CHON$ 15"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T185"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_LUU",
+      "to": "HC_METYLPELETIERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chứa các chất ancaloit: $Metylpeletierin$ $CH(CH,)ON$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T185"
+      }
+    },
+    {
+      "from": "VI_THUOC_THACH_LUU",
+      "to": "HC_PSEUDOPELETIERIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Ngoài ra còn chứa các chất ancaloit: $Pseudopeletierin$ $C,HON$"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T185"
+      }
+    }
+  ]
+}

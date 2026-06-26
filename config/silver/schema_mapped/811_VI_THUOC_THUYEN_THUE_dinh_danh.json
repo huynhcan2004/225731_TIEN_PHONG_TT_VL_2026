@@ -1,0 +1,59 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_THUYEN_THUE",
+    "ten_raw": "Thuyền thuế",
+    "ten_khoa_hoc": "Mimosa pudica",
+    "ho_thuc_vat": "Chưa rõ",
+    "variants": [],
+    "properties": {},
+    "display_name": null
+  },
+  "nodes": [],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T811",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "811"
+      },
+      "dac_tinh_yhct": {},
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Hoa màu tím đỏ, tụ thành hình đầu trái xoan. Quả giáp dài $2cm$, rộng $3mm$, tụ thành hình ngôi sao, ở phần giữa các hạt quả hẹp lại, có lông cứng ở mép. Hạt gần như hình trái xoan, dài $2mm$, rộng $1,5mm$ ( Hình 616).",
+        "thanh_phan_hoa_hoc": [
+          "Từ cây xấu hổ người ta đã lấy ra được một chất alcaloit gọi là $mimosin$ CHON,.",
+          "Chất $mimosin$ có độ chảy $231°C$ .=210 (H_O), cho muối đồng CHON,Cu.",
+          "Theo một số tác giả (R. Adams và J. Wibaut) thì $mimosin$ là đồng phân lập thể của leucenol một chất lấy được từ hạt keo dậu Leucaena glauca (xem vị này). Tuy nhiên $mimosin$ chưa phải là hoạt chất độc nhất.",
+          "Trong lá vào tháng 8, hàm lượng selen là $3.000 y/g$ và giảm dần đến tháng 12 chỉ còn $300 g$.",
+          "Trong quả vào tháng 8, hàm lượng selen là $290 /\\ng$ và sau đó tăng dần tới $1.560 V/g$ trong tháng 12.",
+          "Và tác giả nhận xét rằng lá cây xấu hổ có hàm lượng selen rất cao vào mùa hè rồi giảm nhanh, trong khi đó hàm lượng selen trong quả lại tăng ( Đàm Trung Bảo và cộng sự-1977, Hội nghị khoa học Trường Đại học được khoa Hà nội, 1974-1977)"
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_THUYEN_THUE",
+      "to": "HC_MIMOSIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Từ cây xấu hổ người ta đã lấy ra được một chất alcaloit gọi là $mimosin$ CHON,."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T811"
+      }
+    },
+    {
+      "from": "VI_THUOC_THUYEN_THUE",
+      "to": "HC_SELEN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Trong lá vào tháng 8, hàm lượng selen là $3.000 y/g$ và giảm dần đến tháng 12 chỉ còn $300 g$."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T811"
+      }
+    }
+  ]
+}

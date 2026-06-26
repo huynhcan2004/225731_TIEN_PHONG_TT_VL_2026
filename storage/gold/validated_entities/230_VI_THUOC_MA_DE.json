@@ -1,0 +1,937 @@
+{
+  "entity": {
+    "entity_type": "VI_THUOC",
+    "id": "VI_THUOC_MA_DE",
+    "ten_raw": "Mã đề",
+    "ten_khoa_hoc": "$Plantago asiatica L.; Plantago major L. var. asiatica Decaisne$",
+    "ho_thuc_vat": "$Mã đề (Plantaginaceae)$",
+    "variants": [],
+    "properties": {
+      "bo_phan_dung": "lá, hạt",
+      "thu_hai": "quanh năm",
+      "che_bien_tho": "sơ chế ban đầu không được đề cập cụ thể trong đoạn văn.",
+      "lieu_dung_chung": "Ngày dùng 6 đến $12$ g dưới dạng thuốc sắc. Dùng ngoài không kể liều lượng. Ngày dùng $6-12$g dưới dạng thuốc sắc, thuốc bột hay thuốc viên.",
+      "muc_do_doc": "Không độc",
+      "trieu_chung_ngo_doc": "Không đề cập",
+      "phan_bo": "Mọc hoang và được trồng tại nhiều nơi ở khắp nước ta, từ vùng thấp đến vùng cao (Sa Pa, Lào Cai). Còn mọc ở nhiều nước châu Á, châu Âu và châu Mỹ."
+    },
+    "display_name": "Mã đề",
+    "canonical_name": "Mã đề"
+  },
+  "nodes": [
+    {
+      "id": "VI_THUOC_MA_DE",
+      "label": "ThucThe",
+      "properties": {
+        "canonical_name": "Thuoc Ma De"
+      }
+    },
+    {
+      "id": "T_HAN",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Han"
+      }
+    },
+    {
+      "id": "V_NGOT",
+      "label": "Vi",
+      "properties": {
+        "canonical_name": "Ngot"
+      }
+    },
+    {
+      "id": "K_CAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Can"
+      }
+    },
+    {
+      "id": "K_THAN",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Than"
+      }
+    },
+    {
+      "id": "K_TIEU_TRANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Tieu Trang"
+      }
+    },
+    {
+      "id": "T_LUONG",
+      "label": "Tinh",
+      "properties": {
+        "canonical_name": "Luong"
+      }
+    },
+    {
+      "id": "K_BANG_QUANG",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Bang Quang"
+      }
+    },
+    {
+      "id": "K_PHE",
+      "label": "Kinh",
+      "properties": {
+        "canonical_name": "Phe"
+      }
+    },
+    {
+      "id": "HC_AUCUBIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Aucubin"
+      }
+    },
+    {
+      "id": "HC_RINANTIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Rinantin"
+      }
+    },
+    {
+      "id": "HC_AUCUBOZIT",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Aucubozit"
+      }
+    },
+    {
+      "id": "HC_PLANTAGIN",
+      "label": "HoatChat",
+      "properties": {
+        "canonical_name": "Plantagin"
+      }
+    },
+    {
+      "id": "B_CAO_HUYET_AP",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Cao Huyet Ap"
+      }
+    },
+    {
+      "id": "B_LY",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ly"
+      }
+    },
+    {
+      "id": "B_MUN_NHOT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Mun Nhot"
+      }
+    },
+    {
+      "id": "B_HO",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "B_VIEM_KHI_QUAN",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Viem Khi Quan"
+      }
+    },
+    {
+      "id": "B_DAU_MAT",
+      "label": "Benh",
+      "properties": {
+        "canonical_name": "Dau Mat"
+      }
+    },
+    {
+      "id": "S_HO",
+      "label": "TrieuChung",
+      "properties": {
+        "canonical_name": "Ho"
+      }
+    },
+    {
+      "id": "CN_THANH_NHIET",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Thanh Nhiet"
+      }
+    },
+    {
+      "id": "CN_LOI_TIEU",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_CAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Quy Kinh Can"
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_THAN",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Quy Kinh Than"
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_TIEU_TRUONG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Quy Kinh Tieu Truong"
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_BANG_QUANG",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Quy Kinh Bang Quang"
+      }
+    },
+    {
+      "id": "CN_QUY_KINH_PHE",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Quy Kinh Phe"
+      }
+    },
+    {
+      "id": "DL_LOI_TIEU",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Loi Tieu"
+      }
+    },
+    {
+      "id": "DL_GIAM_HO",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Giam Ho"
+      }
+    },
+    {
+      "id": "DL_DOI_KHA_NANG_MIEN_DICH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doi Kha Nang Mien Dich"
+      }
+    },
+    {
+      "id": "DL_KANG_KHUAN",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Kang Khuan"
+      }
+    },
+    {
+      "id": "DL_CHONG_VIEM",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Chong Viem"
+      }
+    },
+    {
+      "id": "DL_HA_HUYET_AP",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Ha Huyet Ap"
+      }
+    },
+    {
+      "id": "DL_TRI_LY",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Tri Ly"
+      }
+    },
+    {
+      "id": "DL_DOC_TINH",
+      "label": "DuocLy",
+      "properties": {
+        "canonical_name": "Doc Tinh"
+      }
+    },
+    {
+      "id": "BT_HO_TIEU_DOM_XA_TIEN_THAO",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ho Tieu Dom Xa Tien Thao"
+      }
+    },
+    {
+      "id": "BT_LOI_TIEU_XA_TIEN_TU",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Loi Tieu Xa Tien Tu"
+      }
+    },
+    {
+      "id": "CN_TA_LY",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Ta Ly"
+      }
+    },
+    {
+      "id": "BT_HO_VIEM_KHI_QUAN_TA_LY_MAT_DO_DAU_MA_DE",
+      "label": "BaiThuoc",
+      "properties": {
+        "canonical_name": "Ho Viem Khi Quan Ta Ly Mat Do Dau Ma De"
+      }
+    },
+    {
+      "id": "CN_TIEU_DOM",
+      "label": "CongNang",
+      "properties": {
+        "canonical_name": "Tieu Dom"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "ten_sach": "Những cây thuốc và vị thuốc Việt Nam",
+        "tac_gia": "Đỗ Tất Lợi",
+        "trang": "230"
+      },
+      "dac_tinh_yhct": {
+        "tinh": "Hàn",
+        "quy_kinh": [
+          "K_CAN",
+          "K_THAN",
+          "K_TIEU_TRANG"
+        ],
+        "cong_nang": "Không được đề cập trong đoạn văn."
+      },
+      "mo_ta_theo_nguon": {
+        "hinh_thai_chi_tiet": "Aucubin kết tinh với một phân tử nước, đun nóng ở $120°C$ thì mất nước. Độ chảy $180°C$. Tan trong nước ($36,5\\%$ nước $20°C$), tan trong cồn $95°$ ($1,1\\%$), trong cồn metylic ($13,8\\%$), không tan trong ête và clorofoc, (a)D: $-1665$ (khan) hay $-179°1$. Axit loãng hay men emunsin thủy phân cho glucoza và aucubigenin C,H,O. Trong lá có chất nhầy, chất đắng, carotin, vitamin C, vitamin K, yếu tố T (có người gọi là vitamin T), axit xitric.",
+        "thanh_phan_hoa_hoc": [],
+        "lieu_dung_tong_quat": "Không có thông tin",
+        "ghi_chu_bo_sung": "Trong hạt chứa nhiều chất nhầy, axit plantenolic, adenin và cholin.",
+        "cach_dung_bao_che": "Không có thông tin"
+      },
+      "confidence_score": 0.95
+    }
+  ],
+  "relationships": [
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "T_HAN",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Mã đề tính hàn"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "V_NGOT",
+      "relation_type": "CO_VI",
+      "properties": {
+        "mo_ta_chi_tiet": "Mã đề vị ngọt"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "K_CAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh can"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "K_THAN",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh thận"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "K_TIEU_TRANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh tiểu tràng"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "T_LUONG",
+      "relation_type": "CO_TINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính lạnh"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "K_BANG_QUANG",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh bàng quang"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "K_PHE",
+      "relation_type": "QUY_KINH",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào kinh phế"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "HC_AUCUBIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây chứa một glucozit gọi là $aucubin$ $Aucubin$ hay $rinantin$, $aucubozit$, $plantagin$",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "HC_RINANTIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây chứa một glucozit gọi là $aucubin$ $Aucubin$ hay $rinantin$, $aucubozit$, $plantagin$",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "HC_AUCUBOZIT",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây chứa một glucozit gọi là $aucubin$ $Aucubin$ hay $rinantin$, $aucubozit$, $plantagin$",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "HC_PLANTAGIN",
+      "relation_type": "CO_CHUA_HOAT_CHAT",
+      "properties": {
+        "mo_ta_chi_tiet": "Toàn cây chứa một glucozit gọi là $aucubin$ $Aucubin$ hay $rinantin$, $aucubozit$, $plantagin$",
+        "ghi_chu": "Không có thông tin"
+      },
+      "confidence_score": 0.75,
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      }
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_CAO_HUYET_AP",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$20-30g$",
+        "cach_dung": "Sắc kỹ chia 3 lần uống trong ngày",
+        "ghi_chu": "Cây mã đề tươi, non. CT_VT_VN_T231"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_LY",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "$60-120ml$",
+        "cach_dung": "Chế thành thuốc sắc $100\\%$, ngày uống 3 lần, mỗi lần $60-120ml$ nước sắc $100\\%$. Có thể uống tới $200ml$ mỗi lần. Thời gian điều trị 7-10 ngày, có thể kéo dài 1 tháng",
+        "ghi_chu": "Lá mã đề tươi. CT_VT_VN_T231"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_MUN_NHOT",
+      "relation_type": "CHU_TRI_BENH",
+      "properties": {
+        "lieu_luong": "Tham khảo liều dùng chung của vị thuốc",
+        "cach_dung": "Giã nát đắp ngoài",
+        "ghi_chu": "Lá tươi. CT_VT_VN_T231"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "BT_HO_VIEM_KHI_QUAN_TA_LY_MAT_DO_DAU_MA_DE",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$6-12g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_HO",
+      "relation_type": "CHU_TRI_BENH",
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75,
+      "properties": {}
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_VIEM_KHI_QUAN",
+      "relation_type": "CHU_TRI_BENH",
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75,
+      "properties": {}
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_TA_LY",
+      "relation_type": "CO_CONG_NANG",
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75,
+      "properties": {}
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "B_DAU_MAT",
+      "relation_type": "CHU_TRI_BENH",
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75,
+      "properties": {}
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "BT_LOI_TIEU_XA_TIEN_TU",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_LOI_TIEU",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Sắc và giữ sôi trong nửa giờ. Chia 3 lần uống trong ngày",
+        "ghi_chu": "Xa tiền tử (hạt mã đề) $10g$, cam thảo $2g$, nước $600ml$ ($3bát$). CT_VT_VN_T232",
+        "mo_ta_chi_tiet": "Vị ngọt, tính lạnh, vào các kinh thận, bàng quang, can và phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "BT_HO_TIEU_DOM_XA_TIEN_THAO",
+      "relation_type": "BAO_GOM_VI_THUOC",
+      "properties": {
+        "lieu_luong": "$10g$",
+        "vai_tro": "Quân"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "S_HO",
+      "relation_type": "CHU_TRI_TRIEU_CHUNG",
+      "properties": {
+        "cach_dung": "Đun sôi trong nửa giờ. Chia 3 lần uống trong ngày. Nếu không có cam thảo, thì có thể thay bằng đường cho đủ ngọt mà uống",
+        "ghi_chu": "Xa tiền thảo (cây mã đề) $10g$, cam thảo $2g$, cát cánh $2g$, nước $400ml$. CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_TIEU_DOM",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "cach_dung": "Đun sôi trong nửa giờ. Chia 3 lần uống trong ngày. Nếu không có cam thảo, thì có thể thay bằng đường cho đủ ngọt mà uống",
+        "ghi_chu": "Xa tiền thảo (cây mã đề) $10g$, cam thảo $2g$, cát cánh $2g$, nước $400ml$. CT_VT_VN_T232"
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_THANH_NHIET",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Tính hàn, vị ngọt, không độc."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_QUY_KINH_CAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, thận và tiểu trường; vào các kinh thận, bàng quang, can và phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_QUY_KINH_THAN",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, thận và tiểu trường; vào các kinh thận, bàng quang, can và phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_QUY_KINH_TIEU_TRUONG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào 3 kinh can, thận và tiểu trường."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_QUY_KINH_BANG_QUANG",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh thận, bàng quang, can và phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "CN_QUY_KINH_PHE",
+      "relation_type": "CO_CONG_NANG",
+      "properties": {
+        "mo_ta_chi_tiet": "Vào các kinh thận, bàng quang, can và phế."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_LOI_TIEU",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Uống nước sắc mã đề, lượng nước tiểu tăng, trong nước tiểu lượng urê, axit uric và muối đều tăng (thí nghiệm trên thỏ, chó và người ). Nước sắc mã đề với liều $10g/kg$ thể trọng làm tăng thể tích nước tiểu thải ra trong 24 giờ của chó thí nghiệm. Tác dụng lợi tiểu kéo dài được 6 giờ liền sau khi uống thuốc.",
+        "ghi_chu": "Thí nghiệm trên thỏ, chó và người."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_GIAM_HO",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc mã đề có tác dụng trừ đờm, tác dụng này kéo dài 6-7giờ, mạnh nhất sau khi uống 3 đến 6 giờ. Kết quả chữa ho, trừ đờm trên lâm sàng phù hợp với kết quả thì nghiệm trong phòng thí nghiệm. Tác dụng chữa ho này không trở ngại đến sự tiêu hóa và cũng không có tác dụng phá huyết. Cho nên tác dụng chữa họ của mã đề không giống những thuốc chữa họ chứa saponozit, nhưng tác dụng chữa họ giống nhau.",
+        "ghi_chu": "Kết quả trên lâm sàng phù hợp với thí nghiệm."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_DOI_KHA_NANG_MIEN_DICH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chất plantagin có tác dụng hưng phấn thần kinh bài tiết, làm tăng sự bài tiết niêm dịch của phế quản và cũng của ống tiêu hóa; tác dụng trên trung khu hô hấp làm cho hơi thở sâu và từ từ. | Để lá mã đề trong tối và lạnh kiểu chế thuốc Filatov trong vài ngày có thể sinh chất biostimulin, chế thành thuốc tiêm, tiêm dưới da có thể chữa các bệnh mụn nhọt, viêm cổ họng, mắt."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_KANG_KHUAN",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Nước sắc mã đề (toàn cây $1ml=1g$ mã đề) có tác dụng ức chế đối với một số vi trùng bệnh ngoài da."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_CHONG_VIEM",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Mã đề tán bột chế thành thuốc dầu đắp lên mụn nhọt đỡ nung mủ, đỡ bị viêm tấy."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_HA_HUYET_AP",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Trên lâm sàng, mã đề còn được dùng chữa cao huyết áp có kết quả, ngày hải $20-30g$ cây mã đề tươi, non, thêm nước vào sắc kỹ chia 3 lần uống trong ngày."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_TRI_LY",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Chữa lỵ cấp tính và mãn tính: Lá mã đề tươi chế thành thuốc sắc $100\\%$, ngày uống 3 lần, mỗi lần $60-120ml$ nước sắc $100\\%$ nói trên. Có thể uống tới $200ml$ mỗi lần. Thời gian điều trị 7-10 ngày, có thể kéo dài 1 tháng."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    },
+    {
+      "from": "VI_THUOC_MA_DE",
+      "to": "DL_DOC_TINH",
+      "relation_type": "CO_TAC_DUNG_DUOC_LY",
+      "properties": {
+        "mo_ta_chi_tiet": "Cho uống aucubin không thấy có triệu chứng độc. Mã đề không độc. Dùng với liều cao ($20g/kg$ thể trọng) cũng không thấy có ảnh hưởng gì đến chức phận của thận."
+      },
+      "source": {
+        "source_id": "CT_VT_VN_T230",
+        "all_sources": [
+          "CT_VT_VN_T230"
+        ]
+      },
+      "confidence_score": 0.75
+    }
+  ],
+  "metadata": {
+    "scientific_metrics": {
+      "data_richness_index": 77.5,
+      "reliability_c_score": 0.755,
+      "total_confidence_sum": 30.2
+    },
+    "validator_pass_score": 95,
+    "processed_at": "2026-04-19 08:41:52"
+  }
+}
