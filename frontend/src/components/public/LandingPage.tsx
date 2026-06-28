@@ -21,7 +21,7 @@ import {
 const LandingPage: React.FC = () => {
   const { user } = useAuth();
   const { siteTitle, siteLogo } = useSiteSettings();
-  const { language, setLanguage, t } = useLanguageTheme();
+  const { language, setLanguage, currentBg, t } = useLanguageTheme();
 
   const renderLogo = (className = "w-6 h-6") => {
     if (siteLogo) {
@@ -72,16 +72,16 @@ const LandingPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white overflow-x-hidden">
+    <div className="min-h-screen text-slate-100 font-sans selection:bg-emerald-500 selection:text-white overflow-x-hidden transition-colors duration-300" style={{ backgroundColor: currentBg.bodyBg }}>
       {/* Background decoration */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 animate-pulse" />
       <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/5 rounded-full blur-3xl -z-10" />
 
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800 shadow-sm">
+      <header className="sticky top-0 z-50 backdrop-blur-md border-b border-emerald-500/10 shadow-sm transition-colors duration-300" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-[#2c4a3e] rounded-xl flex items-center justify-center shadow-lg shadow-emerald-950/30">
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg border border-emerald-500/10" style={{ backgroundColor: currentBg.bodyBg }}>
               {renderLogo("w-5.5 h-5.5")}
             </div>
             <div>
@@ -105,7 +105,7 @@ const LandingPage: React.FC = () => {
             {/* Language Toggle */}
             <button
               onClick={() => setLanguage(language === 'vi' ? 'en' : 'vi')}
-              className="flex items-center gap-1.5 bg-slate-850 hover:bg-slate-800 py-1.5 px-3 rounded-full border border-slate-700 text-xs font-bold text-emerald-400 transition-all cursor-pointer shadow-sm hover:shadow-md"
+              className="flex items-center gap-1.5 bg-emerald-950/20 hover:bg-emerald-950/40 py-1.5 px-3 rounded-full border border-emerald-500/10 hover:border-emerald-500/30 text-xs font-bold text-emerald-400 transition-all cursor-pointer shadow-sm hover:shadow-md"
             >
               <span>{language === 'vi' ? '🇻🇳 VI' : '🇬🇧 EN'}</span>
             </button>
@@ -150,7 +150,7 @@ const LandingPage: React.FC = () => {
             
             <Link 
               to="/privacy-policy" 
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-slate-800 hover:bg-slate-750 text-slate-200 font-bold rounded-2xl border border-slate-700 transition-all duration-200 cursor-pointer text-sm"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-950/10 hover:bg-emerald-950/20 text-slate-200 font-bold rounded-2xl border border-emerald-500/10 transition-all duration-200 cursor-pointer text-sm"
             >
               <span>{t('landingPolicyBtn')}</span>
               <HelpCircle className="w-4 h-4" />
@@ -160,14 +160,14 @@ const LandingPage: React.FC = () => {
 
         {/* Hero Interactive Graph Graphics */}
         <div className="lg:w-1/2 flex items-center justify-center relative select-none">
-          <div className="w-80 h-80 sm:w-[450px] sm:h-[450px] rounded-full bg-emerald-950/20 border-2 border-dashed border-emerald-500/10 flex items-center justify-center animate-spin duration-100000">
+          <div className="w-80 h-80 sm:w-[450px] sm:h-[450px] rounded-full bg-emerald-500/5 border-2 border-dashed border-emerald-500/10 flex items-center justify-center animate-spin duration-100000">
             {/* Dynamic CSS Connecting Graph Network Graphic */}
             <div className="absolute w-[80%] h-[80%] rounded-full border border-teal-500/10" />
             <div className="absolute w-[60%] h-[60%] rounded-full border border-emerald-500/10 animate-reverseSpin" />
           </div>
 
           {/* Floating Graph Nodes */}
-          <div className="absolute w-24 h-24 sm:w-28 sm:h-28 bg-[#0f2e24]/80 backdrop-blur-md rounded-2xl border border-emerald-500/20 flex flex-col items-center justify-center shadow-2xl p-3 animate-bounce shadow-emerald-950/40">
+          <div className="absolute w-24 h-24 sm:w-28 sm:h-28 rounded-2xl border border-emerald-500/20 flex flex-col items-center justify-center shadow-2xl p-3 animate-bounce shadow-emerald-950/40" style={{ backgroundColor: currentBg.panelBg }}>
             <div className="w-8 h-8 rounded-lg bg-emerald-500/15 text-emerald-400 flex items-center justify-center mb-1">
               <Database className="w-4 h-4" />
             </div>
@@ -175,14 +175,14 @@ const LandingPage: React.FC = () => {
             <span className="text-[9px] text-slate-400 mt-0.5 font-medium">10,000+ Nodes</span>
           </div>
 
-          <div className="absolute top-8 right-8 w-20 h-20 bg-slate-800/80 backdrop-blur-md rounded-2xl border border-slate-700 flex flex-col items-center justify-center shadow-xl p-2.5 hover:scale-105 transition-all">
+          <div className="absolute top-8 right-8 w-20 h-20 backdrop-blur-md rounded-2xl border border-emerald-500/10 flex flex-col items-center justify-center shadow-xl p-2.5 hover:scale-105 transition-all" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
             <span className="text-[9px] font-black text-emerald-400 uppercase">GraphRAG</span>
             <span className="text-[8px] text-slate-400 text-center leading-tight mt-1">
               {language === 'vi' ? 'Đối sánh thực thể thực tế' : 'Entity cross-referencing'}
             </span>
           </div>
 
-          <div className="absolute bottom-8 left-8 w-24 h-24 bg-slate-800/80 backdrop-blur-md rounded-2xl border border-slate-700 flex flex-col items-center justify-center shadow-xl p-2.5 hover:scale-105 transition-all">
+          <div className="absolute bottom-8 left-8 w-24 h-24 backdrop-blur-md rounded-2xl border border-emerald-500/10 flex flex-col items-center justify-center shadow-xl p-2.5 hover:scale-105 transition-all" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
             <Coins className="w-5 h-5 text-amber-400 mb-1" />
             <span className="text-[8px] font-black text-amber-400 uppercase">
               {language === 'vi' ? 'Đối Soát Ví' : 'Wallet Sync'}
@@ -195,7 +195,7 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Features Grid Section */}
-      <section className="bg-slate-950/40 border-y border-slate-800/60 py-24">
+      <section className="border-y border-emerald-500/10 py-24 transition-colors duration-300" style={{ backgroundColor: currentBg.bodyBg === '#ffffff' || currentBg.isLight ? 'rgba(0,0,0,0.015)' : 'rgba(0,0,0,0.15)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <h2 className="text-xs font-bold text-emerald-400 uppercase tracking-widest">{t('landingFeatureBadge')}</h2>
@@ -211,7 +211,7 @@ const LandingPage: React.FC = () => {
             {features.map((feat, index) => {
               const Icon = feat.icon;
               return (
-                <div key={index} className="p-8 bg-slate-900 border border-slate-800 hover:border-emerald-500/20 rounded-3xl transition-all duration-200 hover:-translate-y-1 shadow-md hover:shadow-emerald-950/20 flex gap-5 items-start">
+                <div key={index} className="p-8 border border-emerald-500/10 hover:border-emerald-500/30 rounded-3xl transition-all duration-200 hover:-translate-y-1 shadow-md hover:shadow-emerald-950/10 flex gap-5 items-start transition-colors duration-300" style={{ backgroundColor: currentBg.panelBg }}>
                   <div className="p-3 bg-[#2c4a3e]/30 text-emerald-400 rounded-xl shadow-inner shrink-0">
                     <Icon className="w-6 h-6" />
                   </div>
@@ -239,7 +239,7 @@ const LandingPage: React.FC = () => {
           <div className="hidden md:block absolute top-1/2 left-20 right-20 h-0.5 bg-gradient-to-r from-emerald-500/20 via-teal-500/20 to-emerald-500/20 -translate-y-12 -z-10" />
 
           {steps.map((step, index) => (
-            <div key={index} className="p-8 bg-slate-900/60 border border-slate-800/80 rounded-3xl shadow-sm text-center space-y-4 hover:border-slate-750 transition-all relative">
+            <div key={index} className="p-8 border border-emerald-500/10 rounded-3xl shadow-sm text-center space-y-4 hover:border-emerald-500/20 transition-all relative transition-colors duration-300" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
               <span className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-slate-950 border-2 border-emerald-500 rounded-full flex items-center justify-center font-black text-emerald-400 text-sm">
                 {step.num}
               </span>
@@ -254,7 +254,7 @@ const LandingPage: React.FC = () => {
 
       {/* Dynamic CTA Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
-        <div className="bg-gradient-to-br from-[#0f2e24] via-slate-900 to-[#122642] p-8 sm:p-12 rounded-[2.5rem] border border-emerald-500/10 text-center space-y-6 relative overflow-hidden shadow-2xl">
+        <div className="p-8 sm:p-12 rounded-[2.5rem] border border-emerald-500/10 text-center space-y-6 relative overflow-hidden shadow-2xl transition-all duration-300" style={{ backgroundImage: `linear-gradient(135deg, ${currentBg.panelBg}, ${currentBg.bodyBg})` }}>
           <div className="absolute top-0 right-0 w-80 h-80 bg-emerald-500/5 rounded-full blur-2xl -z-10" />
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
             {t('landingCtaTitle')}
@@ -275,10 +275,10 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-950 text-slate-500 py-12 border-t border-slate-900">
+      <footer className="text-slate-500 py-12 border-t border-emerald-500/10 transition-colors duration-300" style={{ backgroundColor: currentBg.bodyBg === '#ffffff' || currentBg.isLight ? 'rgba(0,0,0,0.02)' : 'rgba(0,0,0,0.2)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-[#2c4a3e] rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center border border-emerald-500/10" style={{ backgroundColor: currentBg.panelBg }}>
               {renderLogo("w-4.5 h-4.5")}
             </div>
             <div>
