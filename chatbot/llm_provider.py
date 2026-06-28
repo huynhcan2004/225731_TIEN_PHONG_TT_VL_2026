@@ -73,7 +73,7 @@ async def generate_ai_response(system_prompt, user_prompt, temperature=0.0, mode
                         "generationConfig": {
                             "temperature": temperature,
                             "topP": 0.9,
-                            "maxOutputTokens": 2048
+                            "maxOutputTokens": 8192
                         }
                     }
                     if system_prompt:
@@ -167,8 +167,9 @@ async def generate_ai_response(system_prompt, user_prompt, temperature=0.0, mode
                         "model": model_name,
                         "messages": messages,
                         "temperature": temperature,
-                        "max_tokens": 2048
+                        "max_tokens": 4096
                     }
+
 
                     async with httpx.AsyncClient() as client:
                         response = await client.post(
