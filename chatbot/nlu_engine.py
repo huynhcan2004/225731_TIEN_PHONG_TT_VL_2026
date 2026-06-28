@@ -398,13 +398,14 @@ async def summarize_answer(user_query, intent, graph_data, k1="", k2="", model_n
         print(f"📍 [{record.get('ChuThe')}] -> [{record.get('QuanHe')}] -> [{record.get('DoiTuong')}] | Nguồn: {source}")
     print("-" * 50 + "\n")
 
-    # =====================================================================
-    # SẮP XẾP VÀ PHÂN XÔ DỮ LIỆU (CONTEXT BUCKETIZING)
-    # =====================================================================
     graph_data.sort(key=lambda x: x.get('sort_weight', 0), reverse=True)
+
+    # Giới hạn lấy tối đa 5 kết quả y văn chất lượng nhất để tránh quá tải thông tin và tối ưu hóa token
+    graph_data = graph_data[:5]
 
     exact_matches = []
     related_matches = []
+
 
     # Tách dữ liệu thành 2 xô (Buckets) để LLM dễ dàng phân biệt
     for record in graph_data:
