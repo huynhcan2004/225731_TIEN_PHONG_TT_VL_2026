@@ -61,8 +61,8 @@ class YHCTChatService:
         try:
             # In thông tin gỡ lỗi ra CMD
             print("\n" + "="*60)
-            print(f"🤖 [CHATBOT QUERY] Đang sử dụng mô hình AI: '{self.model_name}'")
-            print(f"💬 [CHATBOT QUERY] Câu hỏi người dùng: '{user_query}' | Lang: '{lang}'")
+            print(f"[CHATBOT QUERY] Đang sử dụng mô hình AI: '{self.model_name}'")
+            print(f"[CHATBOT QUERY] Câu hỏi người dùng: '{user_query}' | Lang: '{lang}'")
             print("="*60 + "\n")
 
             # --- BƯỚC 1: PHÂN TÍCH NGỮ NGHĨA (NLU) ---
@@ -165,7 +165,7 @@ class YHCTChatService:
 
         except Exception as system_error:
             # Xử lý lỗi ngoại lệ toàn cục để tránh sụp đổ ứng dụng
-            print(f"💥 [Critical System Error]: {str(system_error)}")
+            print(f"[Critical System Error]: {str(system_error)}")
             return {
                 "answer": f"Hệ thống gặp sự cố không mong muốn: {str(system_error)}",
                 "status": "critical_error",
@@ -178,4 +178,4 @@ class YHCTChatService:
         """
         from chatbot.nlu_engine import QUERY_CACHE
         QUERY_CACHE.clear()
-        print("🧹 [Service] Đã làm sạch bộ nhớ đệm truy vấn.")
+        print("[Service] Đã làm sạch bộ nhớ đệm truy vấn.")

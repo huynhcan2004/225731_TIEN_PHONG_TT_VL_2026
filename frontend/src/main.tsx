@@ -23,20 +23,47 @@ const targetApiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 window.fetch = function(input, init) {
   const apiBaseUrl = localStorage.getItem('api_base_url');
   let url = typeof input === 'string' ? input : (input as Request).url;
+  let finalInput = input;
   
   if (apiBaseUrl && url && url.startsWith(targetApiUrl)) {
     const newUrl = url.replace(targetApiUrl, apiBaseUrl);
     console.log(`[Fetch Proxy] Redirecting request from ${url} to ${newUrl}`);
-    
+    url = newUrl;
     if (typeof input === 'string') {
-      return originalFetch(newUrl, init);
+      finalInput = newUrl;
     } else {
-      const newRequest = new Request(newUrl, input as Request);
-      return originalFetch(newRequest, init);
+      finalInput = new Request(newUrl, input as Request);
     }
   }
-  return originalFetch(input, init);
+
+  // Inject ngrok bypass header to prevent browser warning page blocking cross-origin API calls
+  if (url && (url.includes('ngrok-free.app') || url.includes('ngrok-free.dev'))) {
+    init = init || {};
+    init.headers = init.headers || {};
+    
+    if (finalInput instanceof Request) {
+      try {
+        finalInput.headers.set('ngrok-skip-browser-warning', 'true');
+      } catch (e) {
+        // Safe fallback
+      }
+    }
+    
+    if (init.headers instanceof Headers) {
+      init.headers.set('ngrok-skip-browser-warning', 'true');
+    } else if (Array.isArray(init.headers)) {
+      init.headers.push(['ngrok-skip-browser-warning', 'true']);
+    } else {
+      init.headers = {
+        ...init.headers,
+        'ngrok-skip-browser-warning': 'true'
+      };
+    }
+  }
+  
+  return originalFetch(finalInput, init);
 };
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
