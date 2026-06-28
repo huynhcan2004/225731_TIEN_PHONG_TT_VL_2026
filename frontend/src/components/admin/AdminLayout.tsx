@@ -42,10 +42,22 @@ export const AdminLayout = () => {
                  style={{ backgroundImage: 'radial-gradient(#10b981 1px, transparent 1px)', backgroundSize: '32px 32px' }}>
             </div>
 
+            {/* Overlay on mobile when sidebar is open */}
+            {isSidebarOpen && (
+                <div 
+                    className="fixed inset-0 bg-black/60 z-30 md:hidden backdrop-blur-sm transition-all duration-300" 
+                    onClick={() => setSidebarOpen(false)}
+                />
+            )}
+
             {/* --- SIDEBAR --- */}
             <aside 
-                className={`backdrop-blur-md text-white transition-all duration-300 ease-in-out flex flex-col shadow-2xl z-20 border-r border-emerald-500/10
-                ${isSidebarOpen ? 'w-64' : 'w-20'} relative z-10`}
+                className={`
+                    fixed inset-y-0 left-0 z-40 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+                    md:relative md:translate-x-0 transition-all duration-300 ease-in-out
+                    ${isSidebarOpen ? 'w-64' : 'md:w-20 w-64'}
+                    backdrop-blur-md text-white flex flex-col shadow-2xl border-r border-emerald-500/10
+                `}
                 style={{ backgroundColor: currentBg.panelBg }}
             >
                 <div className="flex items-center justify-center h-20 border-b border-emerald-500/10">
@@ -70,6 +82,7 @@ export const AdminLayout = () => {
                     {/* Nút quay lại màn hình Chat (Ai cũng thấy) */}
                     <NavLink
                         to="/chat"
+                        onClick={() => setSidebarOpen(false)}
                         className="flex items-center px-3 py-3 mb-4 rounded-xl text-emerald-400/70 hover:bg-emerald-950/20 hover:text-emerald-300 transition-all border border-emerald-500/10 group"
                     >
                         <MessageSquare className="w-5 h-5 flex-shrink-0" />
@@ -84,6 +97,7 @@ export const AdminLayout = () => {
                             key={item.path}
                             to={item.path}
                             end={item.path === '/admin'} 
+                            onClick={() => setSidebarOpen(false)}
                             className={({ isActive }) =>
                                 `flex items-center px-3 py-3 rounded-xl transition-all duration-200 group relative overflow-hidden border
                                 ${isActive 
@@ -176,7 +190,7 @@ export const AdminLayout = () => {
                 </header>
 
                 {/* Dynamic Content (Outlet) */}
-                <div className="flex-1 overflow-auto p-8 relative scroll-smooth custom-scrollbar">
+                <div className="flex-1 overflow-auto p-4 sm:p-8 relative scroll-smooth custom-scrollbar">
                     <div className="relative z-10 max-w-7xl mx-auto">
                         <Outlet />
                     </div>
