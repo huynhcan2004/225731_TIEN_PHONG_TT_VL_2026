@@ -13,6 +13,7 @@ import {
 } from '../../data/yhctKnowledge';
 import { useLanguageTheme, BG_THEMES, BgColor } from '../../context/LanguageThemeContext';
 import { useSiteSettings } from '../../context/SiteSettingsContext';
+import { isMobileApp } from '../../utils/mobile';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -464,6 +465,41 @@ const ChatView: React.FC = () => {
           </div>
         </div>
 
+        {/* Thông tin tài khoản & Cài đặt nhanh ở đáy Sidebar */}
+        <div className="p-4 border-t border-emerald-500/10 bg-[#08150f]/20 flex flex-col gap-3">
+          <div className="flex items-center gap-3">
+            <div className="relative group cursor-pointer shrink-0" onClick={() => fileInputRef.current?.click()} title={language === 'vi' ? 'Đổi ảnh đại diện' : 'Change avatar'}>
+              <img 
+                src={user?.avatar_url || 'https://via.placeholder.com/40'} 
+                className="w-9 h-9 rounded-full border border-emerald-500/20 object-cover hover:border-emerald-400/40 transition-colors" 
+                alt="Avatar" 
+              />
+              <div className="absolute inset-0 bg-black/40 rounded-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
+                <Camera size={10} className="text-white animate-pulse" />
+              </div>
+            </div>
+            <div className="flex-1 min-w-0 text-left">
+              <p className="text-xs font-black text-slate-200 truncate">{user?.username || user?.email?.split('@')[0]}</p>
+              <p className="text-[9px] text-slate-500 truncate">{user?.email}</p>
+            </div>
+          </div>
+          <div className="flex items-center justify-between mt-1">
+            <button 
+              onClick={() => setLanguage(language === 'vi' ? 'en' : 'vi')} 
+              className="text-xs font-bold text-emerald-400 bg-emerald-950/45 border border-emerald-500/25 py-1.5 px-3 rounded-xl hover:bg-emerald-900/35 transition-colors cursor-pointer"
+            >
+              {language === 'vi' ? '🇻🇳 VI / EN' : '🇬🇧 EN / VI'}
+            </button>
+            <button 
+              onClick={handleLogout} 
+              className="text-xs font-bold text-rose-400 bg-rose-950/20 border border-rose-500/15 py-1.5 px-3 rounded-xl hover:bg-rose-900/35 transition-all cursor-pointer flex items-center gap-1.5"
+            >
+              <LogOut size={12} />
+              <span>{t('logout')}</span>
+            </button>
+          </div>
+        </div>
+
         {/* Chân thanh bên chứa các liên kết chính sách dịch thuật */}
         <div className="p-4 border-t border-emerald-500/10 bg-[#08150f]/30 flex flex-wrap gap-x-2 gap-y-1.5 justify-center text-[10px] text-slate-400 font-bold">
           <a href="/privacy-policy" className="hover:text-emerald-400 transition-colors">{t('privacy')}</a>
@@ -500,13 +536,15 @@ const ChatView: React.FC = () => {
           </div>
           
           <div className="flex items-center gap-3 sm:gap-4">
-            {/* Nút chuyển đổi ngôn ngữ */}
-            <button 
-              onClick={() => setLanguage(language === 'vi' ? 'en' : 'vi')} 
-              className="flex items-center gap-1.5 bg-emerald-950/20 hover:bg-[#08150f] py-1.5 px-3 rounded-full border border-emerald-500/10 hover:border-emerald-500/30 text-xs font-bold text-emerald-300 transition-all cursor-pointer shadow-sm hover:shadow-md"
-            >
-              <span>{language === 'vi' ? '🇻🇳 VI' : '🇬🇧 EN'}</span>
-            </button>
+            {/* Nút chuyển đổi ngôn ngữ - Ẩn trên Mobile App */}
+            {!isMobileApp() && (
+              <button 
+                onClick={() => setLanguage(language === 'vi' ? 'en' : 'vi')} 
+                className="flex items-center gap-1.5 bg-emerald-950/20 hover:bg-[#08150f] py-1.5 px-3 rounded-full border border-emerald-500/10 hover:border-emerald-500/30 text-xs font-bold text-emerald-300 transition-all cursor-pointer shadow-sm hover:shadow-md"
+              >
+                <span>{language === 'vi' ? '🇻🇳 VI' : '🇬🇧 EN'}</span>
+              </button>
+            )}
 
             <div 
               onClick={() => setIsBillingModalOpen(true)}
@@ -523,28 +561,35 @@ const ChatView: React.FC = () => {
               </div>
             </div>
             
-            <div className="relative group cursor-pointer" onClick={() => fileInputRef.current?.click()} title={language === 'vi' ? 'Đổi ảnh đại diện' : 'Change avatar'}>
-              <img 
-                src={user?.avatar_url || 'https://via.placeholder.com/40'} 
-                className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-2 border-emerald-500/20 shadow-md object-cover ring-2 ring-emerald-500/10 group-hover:ring-emerald-400/40 transition-all duration-300" 
-                alt="Avatar" 
-              />
-              <div className="absolute inset-0 bg-black/40 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <Camera size={12} className="text-white animate-pulse" />
-              </div>
-              <input 
-                type="file" 
-                ref={fileInputRef} 
-                className="hidden" 
-                accept="image/*" 
-                onChange={handleAvatarChange} 
-              />
-            </div>
+            {/* Ảnh đại diện & Nút đăng xuất - Ẩn trên Mobile App (được hiển thị đầy đủ trong Sidebar) */}
+            {!isMobileApp() && (
+              <>
+                <div className="relative group cursor-pointer" onClick={() => fileInputRef.current?.click()} title={language === 'vi' ? 'Đổi ảnh đại diện' : 'Change avatar'}>
+                  <img 
+                    src={user?.avatar_url || 'https://via.placeholder.com/40'} 
+                    className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border-2 border-emerald-500/20 shadow-md object-cover ring-2 ring-emerald-500/10 group-hover:ring-emerald-400/40 transition-all duration-300" 
+                    alt="Avatar" 
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Camera size={12} className="text-white animate-pulse" />
+                  </div>
+                </div>
+                
+                <button onClick={handleLogout} className="text-xs font-bold text-slate-400 hover:text-rose-400 transition-colors flex items-center gap-1.5 bg-emerald-950/20 hover:bg-rose-950/30 py-1.5 px-3 rounded-full border border-emerald-500/10 hover:border-rose-500/20">
+                  <LogOut size={12} />
+                  <span className="hidden sm:inline">{t('logout')}</span>
+                </button>
+              </>
+            )}
             
-            <button onClick={handleLogout} className="text-xs font-bold text-slate-400 hover:text-rose-400 transition-colors flex items-center gap-1.5 bg-emerald-950/20 hover:bg-rose-950/30 py-1.5 px-3 rounded-full border border-emerald-500/10 hover:border-rose-500/20">
-              <LogOut size={12} />
-              <span className="hidden sm:inline">{t('logout')}</span>
-            </button>
+            {/* Input file ẩn luôn luôn render để có thể kích hoạt upload avatar từ sidebar trên mobile */}
+            <input 
+              type="file" 
+              ref={fileInputRef} 
+              className="hidden" 
+              accept="image/*" 
+              onChange={handleAvatarChange} 
+            />
           </div>
         </header>
 
@@ -625,14 +670,13 @@ const ChatView: React.FC = () => {
         </div>
 
         {/* ✨ WIDGET CÀI ĐẶT FLOATING (GÓC DƯỚI PHẢI) */}
-        <div className="absolute bottom-[88px] right-4 md:absolute md:bottom-24 md:right-6 z-40 flex flex-col items-end">
+        <div className="absolute bottom-[72px] sm:bottom-24 right-4 md:absolute md:bottom-24 md:right-6 z-40 flex flex-col items-end">
           {showSettingsMenu && (
             <div className="mb-3 w-56 backdrop-blur-md rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.5)] border border-emerald-500/15 overflow-hidden animate-slideUp origin-bottom-right" style={{ backgroundColor: currentBg.panelBg + 'f2' }}>
               <div className="p-3 border-b border-emerald-500/10 bg-[#08150f]/80 flex justify-between items-center">
                 <span className="text-[9px] font-black text-slate-500 uppercase tracking-widest">{t('options')}</span>
               </div>
               
-              {/* Bộ cấu hình đổi màu nền YHCT */}
               <div className="p-3 border-b border-emerald-500/10 bg-[#08150f]/30">
                 <span className="text-[9px] font-black text-slate-500 uppercase tracking-widest">{t('changeBg')}</span>
                 <div className="grid grid-cols-2 gap-1.5 mt-2">
@@ -698,27 +742,27 @@ const ChatView: React.FC = () => {
         {currentGraph.nodes.length > 0 && (
            <button 
               onClick={openGraphExplorer}
-              className="absolute bottom-[92px] right-20 md:bottom-24 md:right-24 z-20 p-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-500 text-white rounded-full shadow-lg hover:from-emerald-700 hover:to-amber-600 active:scale-95 transition-all border border-emerald-400/20 cursor-pointer"
+              className="absolute bottom-[76px] sm:bottom-24 right-20 md:bottom-24 md:right-24 z-20 p-3.5 bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-500 text-white rounded-full shadow-lg hover:from-emerald-700 hover:to-amber-600 active:scale-95 transition-all border border-emerald-400/20 cursor-pointer"
               title={t('graphTitle') || "Xem bản đồ tri thức"}
             >
               <Network size={20} />
            </button>
         )}
 
-        <div className="w-full shrink-0 box-border m-0 p-4 border-t border-emerald-500/10 z-20 backdrop-blur-sm" style={{ backgroundColor: currentBg.panelBg + 'd9' }}>
-          <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto relative flex items-center border border-emerald-500/15 focus-within:border-emerald-400 focus-within:ring-2 focus-within:ring-emerald-400/10 focus-within:bg-[#08150f]/80 rounded-2xl shadow-xl transition-all duration-300 p-1.5 pl-3 pr-2" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
+        <div className="w-full shrink-0 box-border m-0 p-2.5 sm:p-4 border-t border-emerald-500/10 z-20 backdrop-blur-sm" style={{ backgroundColor: currentBg.panelBg + 'd9' }}>
+          <form onSubmit={handleSendMessage} className="max-w-4xl mx-auto relative flex items-center border border-emerald-500/15 focus-within:border-emerald-400 focus-within:ring-2 focus-within:ring-emerald-400/10 focus-within:bg-[#08150f]/80 rounded-2xl shadow-xl transition-all duration-300 p-1 sm:p-1.5 pl-3 pr-1.5 sm:pr-2" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
             <input
               ref={inputRef}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder={t('placeholderChat')}
-              className="flex-1 py-3 bg-transparent outline-none text-sm sm:text-base text-emerald-50 placeholder-emerald-700/60 pl-1"
+              className="flex-1 py-2.5 sm:py-3 bg-transparent outline-none text-sm sm:text-base text-emerald-50 placeholder-emerald-700/60 pl-1"
               disabled={isLoading}
             />
             <button 
               type="submit"
               disabled={isLoading || !input.trim()}
-              className="px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white rounded-xl font-bold text-sm shadow-md shadow-emerald-500/10 hover:shadow-[0_0_15px_rgba(16,185,129,0.25)] hover:-translate-y-0.5 active:translate-y-0 disabled:bg-slate-900 disabled:text-slate-600 disabled:shadow-none disabled:-translate-y-0 transition-all duration-200 flex items-center gap-1.5 border border-emerald-400/15 cursor-pointer"
+              className="px-4 py-2 sm:px-5 sm:py-2.5 bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white rounded-xl font-bold text-sm shadow-md shadow-emerald-500/10 hover:shadow-[0_0_15px_rgba(16,185,129,0.25)] hover:-translate-y-0.5 active:translate-y-0 disabled:bg-slate-900 disabled:text-slate-600 disabled:shadow-none disabled:-translate-y-0 transition-all duration-200 flex items-center gap-1.5 border border-emerald-400/15 cursor-pointer"
             >
               <span>{t('send')}</span>
               <Send size={14} />
