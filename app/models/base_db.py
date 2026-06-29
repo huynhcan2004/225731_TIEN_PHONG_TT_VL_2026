@@ -833,6 +833,12 @@ class DatabaseManager:
                 row = cursor.fetchone()
                 if row is None:
                     cursor.execute("INSERT INTO system_settings (key, value) VALUES (?, ?)", (key, def_val))
+                elif key == "root_admin_email" and def_val and row[0] != def_val:
+                    # Nếu admin_email trong .env thay đổi, ta cập nhật trực tiếp vào database để tránh lệch cấu hình
+                    cursor.execute("UPDATE system_settings SET value = ? WHERE key = ?", (def_val, key))
+                    # Đồng thời thăng chức cho email mới này lên admin trong bảng users nếu user đã tồn tại
+                    cursor.execute("UPDATE users SET role = 'admin' WHERE email = ?", (def_val,))
+                    print(f"[DB Sync] Updated root_admin_email in database to match .env: {def_val}")
             conn.commit()
 
             # Load tất cả settings từ DB lên để đồng bộ ra RAM/Env/Cache
