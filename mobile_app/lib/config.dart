@@ -6,7 +6,7 @@
 class AppConfig {
   // ── BASE URLs ──────────────────────────────────────────────
   /// URL backend FastAPI (không có dấu / ở cuối)
-  static const String apiBaseUrl = "https://nutmeg-frisk-saloon.ngrok-free.dev"; 
+  static const String apiBaseUrl = "http://localhost:8000";
 
 
   /// URL frontend web (không có dấu / ở cuối)
