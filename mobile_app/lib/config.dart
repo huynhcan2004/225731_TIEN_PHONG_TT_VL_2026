@@ -6,7 +6,8 @@
 class AppConfig {
   // ── BASE URLs ──────────────────────────────────────────────
   /// URL backend FastAPI (không có dấu / ở cuối)
-  static const String apiBaseUrl = "https://yhct-backend-m0lz.onrender.com"; 
+  static const String apiBaseUrl = "https://nutmeg-frisk-saloon.ngrok-free.dev"; 
+
 
   /// URL frontend web (không có dấu / ở cuối)
   static const String webBaseUrl = "https://225731-tien-phong-tt-vl-2026.vercel.app";
