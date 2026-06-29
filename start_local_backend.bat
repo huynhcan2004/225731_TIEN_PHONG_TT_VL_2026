@@ -13,18 +13,13 @@ start "FastAPI Backend" cmd /k "set "PYTHONUTF8=1" && set "PYTHONIOENCODING=utf-
 :: Doi 2 giay de backend bat len truoc
 timeout /t 2 /nobreak > nul
 
-:: 2. Mo cua so CMD moi de chay ngrok Tunnel
-echo [2/2] Dang ket noi ngrok Tunnel...
-:: Neu ban da co domain co dinh free cua ngrok, hay bo dau :: o dong duoi va sua lai domain cua ban:
+:: 2. Mo cua so CMD moi de chay ngrok Tunnel (Đã tắt theo yêu cầu chạy local hoàn toàn)
+echo [2/2] Ngrok Tunnel đã được tắt. Chỉ chạy Backend cục bộ...
 :: start "ngrok Tunnel" cmd /k "ngrok http --domain=YOUR_DOMAIN.ngrok-free.app 8000"
-:: Con day la lenh mac dinh chay ngrok cap link ngau nhien:
-start "ngrok Tunnel" cmd /k "ngrok http 8000"
+:: start "ngrok Tunnel" cmd /k "ngrok http 8000"
 
 echo.
 echo ========================================================
-echo DA KHOI CHAY XONG CA HAI TIEN TRINH!
-echo.
-echo * Hay kiem tra CUA SO "ngrok Tunnel" de lay link public moi.
-echo * Dung link do de cap nhat len Vercel va Google Cloud Console.
+echo ĐÃ KHỞI CHẠY XONG TIẾN TRÌNH BACKEND CỤC BỘ!
 echo ========================================================
 pause

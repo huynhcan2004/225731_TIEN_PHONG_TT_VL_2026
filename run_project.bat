@@ -20,15 +20,13 @@ start "Frontend - Port 5173" cmd /k "cd frontend && npm run dev -- --host"
 :: 4. Cho 2 giay de Frontend len mo cong hop le
 timeout /t 2 /nobreak > nul
 
-:: 5. Khoi chay Ngrok trong cua so moi de quat link ra Internet
-echo [*] Dang bat duong ham Ngrok cho Frontend...   
-start "Ngrok Tunnel - Port 5173" cmd /k "ngrok http 5173"
+:: 5. Khoi chay Ngrok trong cua so moi de quat link ra Internet (Đã tắt theo yêu cầu chạy local hoàn toàn)
+echo [*] Ngrok Tunnel đã được tắt.
 
 echo ------------------------------------------------------
-echo [THANH CONG] Toan bo he thong 3 chang ngu lam dang chay!
+echo [THANH CONG] Toàn bộ hệ thống Backend & Frontend cục bộ đang chạy!
 echo - Backend FastAPI: http://localhost:8000
-echo - Frontend Vite   : http://localhost:5173 (Va mang LAN)
-echo - Ngrok Tunnel   : Xem link "Forwarding" o cua so Ngrok moi mo
+echo - Frontend Vite   : http://localhost:5173
 echo ------------------------------------------------------
-echo Nhan phim bat ky de dong cua so thong bao nay (Cac terminal con lai van chay).
+echo Nhấn phím bất kỳ để đóng cửa sổ thông báo này.
 pause > nul
