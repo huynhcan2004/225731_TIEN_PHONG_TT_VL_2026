@@ -24,7 +24,7 @@ timeout /t 2 /nobreak > nul
 echo [*] Ngrok Tunnel đã được tắt.
 
 echo ------------------------------------------------------
-echo [THANH CONG] Toàn bộ hệ thống Backend & Frontend cục bộ đang chạy!
+echo [THANH CONG] Toàn bộ hệ thống Backend và Frontend cục bộ đang chạy!
 echo - Backend FastAPI: http://localhost:8000
 echo - Frontend Vite   : http://localhost:5173
 echo ------------------------------------------------------
