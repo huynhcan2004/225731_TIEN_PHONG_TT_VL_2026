@@ -8,6 +8,7 @@ import { Toaster } from 'react-hot-toast'
 import { AuthProvider } from './context/AuthContext'
 import { LanguageThemeProvider } from './context/LanguageThemeContext'
 import { SiteSettingsProvider } from './context/SiteSettingsContext'
+import { isMobileApp } from './utils/mobile'
 
 // Parse api_base_url from query parameters if present, and save to localStorage
 const urlParams = new URLSearchParams(window.location.search);
@@ -25,7 +26,7 @@ window.fetch = function(input, init) {
   let url = typeof input === 'string' ? input : (input as Request).url;
   let finalInput = input;
   
-  if (apiBaseUrl && url && url.startsWith(targetApiUrl)) {
+  if (isMobileApp() && apiBaseUrl && url && url.startsWith(targetApiUrl)) {
     const newUrl = url.replace(targetApiUrl, apiBaseUrl);
     console.log(`[Fetch Proxy] Redirecting request from ${url} to ${newUrl}`);
     url = newUrl;
