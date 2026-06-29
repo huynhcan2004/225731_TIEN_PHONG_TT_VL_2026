@@ -73,9 +73,13 @@ const LandingPage: React.FC = () => {
 
   return (
     <div className="min-h-screen text-slate-100 font-sans selection:bg-emerald-500 selection:text-white overflow-x-hidden transition-colors duration-300" style={{ backgroundColor: currentBg.bodyBg }}>
-      {/* Background decoration */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 animate-pulse" />
-      <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/5 rounded-full blur-3xl -z-10" />
+      {/* Background decoration - Ẩn trên giao diện trắng để tránh bị xanh lè dơ bẩn */}
+      {!currentBg.isLight && (
+        <>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 animate-pulse" />
+          <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px] bg-teal-500/5 rounded-full blur-3xl -z-10" />
+        </>
+      )}
 
       {/* Header */}
       <header className="sticky top-0 z-50 backdrop-blur-md border-b border-emerald-500/10 shadow-sm transition-colors duration-300" style={{ backgroundColor: currentBg.panelBg + 'cc' }}>
@@ -112,10 +116,10 @@ const LandingPage: React.FC = () => {
 
             <Link 
               to={user ? "/chat" : "/login"} 
-              className="flex items-center gap-1.5 px-4.5 py-2 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-xl transition-all duration-200 shadow-md shadow-emerald-950/20 hover:scale-[1.02]"
+              className="flex items-center gap-1.5 px-4.5 py-2 text-xs font-bold text-white no-light-override bg-emerald-600 hover:bg-emerald-500 rounded-xl transition-all duration-200 shadow-md shadow-emerald-950/20 hover:scale-[1.02]"
             >
-              <span>{user ? t('landingChatBtn') : t('landingLoginBtn')}</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <span className="no-light-override">{user ? t('landingChatBtn') : t('landingLoginBtn')}</span>
+              <ArrowRight className="w-3.5 h-3.5 no-light-override" />
             </Link>
           </div>
         </div>
@@ -142,10 +146,10 @@ const LandingPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center gap-4 pt-4 justify-center lg:justify-start">
             <Link 
               to={user ? "/chat" : "/login"} 
-              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-2xl shadow-lg shadow-emerald-900/30 hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5 cursor-pointer text-sm"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white no-light-override font-bold rounded-2xl shadow-lg shadow-emerald-900/30 hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5 cursor-pointer text-sm"
             >
-              <span>{t('landingStartBtn')}</span>
-              <MessageSquare className="w-4 h-4" />
+              <span className="no-light-override">{t('landingStartBtn')}</span>
+              <MessageSquare className="w-4 h-4 no-light-override" />
             </Link>
             
             <Link 
@@ -265,10 +269,10 @@ const LandingPage: React.FC = () => {
           <div className="pt-2">
             <Link 
               to={user ? "/chat" : "/login"} 
-              className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-2xl shadow-lg transition-all duration-200 hover:-translate-y-0.5 text-sm cursor-pointer"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white no-light-override font-bold rounded-2xl shadow-lg transition-all duration-200 hover:-translate-y-0.5 text-sm cursor-pointer"
             >
-              <span>{t('landingCtaBtn')}</span>
-              <ArrowRight className="w-4 h-4" />
+              <span className="no-light-override">{t('landingCtaBtn')}</span>
+              <ArrowRight className="w-4 h-4 no-light-override" />
             </Link>
           </div>
         </div>
