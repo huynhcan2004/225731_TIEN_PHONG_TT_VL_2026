@@ -14,7 +14,7 @@ if __name__ == "__main__":
     # Chỉ bật reload khi ở môi trường phát triển (development)
     is_dev = os.getenv("APP_ENV", "development").lower() == "development"
     # Lấy cổng PORT từ biến môi trường tự động gán bởi server (Render/Railway), mặc định 63064 ở local
-    port = int(os.getenv("PORT", 8000))
+    port = int(os.getenv("PORT", 63064))
     uvicorn.run(
         "app.main:app", 
         host="0.0.0.0", 

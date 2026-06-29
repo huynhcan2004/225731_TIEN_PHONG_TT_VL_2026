@@ -6,7 +6,7 @@
 class AppConfig {
   // ── BASE URLs ──────────────────────────────────────────────
   /// URL backend FastAPI (không có dấu / ở cuối)
-  static const String apiBaseUrl = "http://localhost:8000";
+  static const String apiBaseUrl = "http://localhost:63064";
 
 
   /// URL frontend web (không có dấu / ở cuối)
