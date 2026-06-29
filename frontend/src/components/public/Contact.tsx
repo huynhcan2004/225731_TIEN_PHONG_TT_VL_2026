@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/contact`, {
+      const res = await fetch(`${API_URL}/admin/docs/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

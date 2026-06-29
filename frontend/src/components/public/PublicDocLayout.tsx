@@ -122,7 +122,7 @@ const PublicDocLayout: React.FC<PublicDocLayoutProps> = ({ children }) => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/sidebar`, {
+      const res = await fetch(`${API_URL}/admin/docs/sidebar`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -15,7 +15,7 @@ export const AdminDashboard = () => {
                 const token = localStorage.getItem('access_token'); 
                 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
                 
-                const response = await fetch(`${API_URL}/api/admin/dashboard-stats?days=${daysRange}`, {
+                const response = await fetch(`${API_URL}/admin/dashboard-stats?days=${daysRange}`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 

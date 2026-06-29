@@ -36,7 +36,7 @@ export const UserList = () => {
         try {
             const token = localStorage.getItem('access_token');
             const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-            const res = await fetch(`${API_URL}/api/admin/users`, {
+            const res = await fetch(`${API_URL}/admin/users`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             if (res.ok) {
@@ -68,7 +68,7 @@ export const UserList = () => {
         try {
             const token = localStorage.getItem('access_token');
             const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-            const res = await fetch(`${API_URL}/api/admin/users/role-by-email`, {
+            const res = await fetch(`${API_URL}/admin/users/role-by-email`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -116,7 +116,7 @@ export const UserList = () => {
         try {
             const token = localStorage.getItem('access_token');
             const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-            const res = await fetch(`${API_URL}/api/admin/users/add-tokens`, {
+            const res = await fetch(`${API_URL}/admin/users/add-tokens`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,

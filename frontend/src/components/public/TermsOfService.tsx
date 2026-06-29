@@ -49,7 +49,7 @@ const TermsOfService: React.FC = () => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/terms-of-service`, {
+      const res = await fetch(`${API_URL}/admin/docs/terms-of-service`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -74,7 +74,7 @@ const Support: React.FC = () => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/support`, {
+      const res = await fetch(`${API_URL}/admin/docs/support`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

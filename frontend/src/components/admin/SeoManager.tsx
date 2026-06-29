@@ -30,7 +30,7 @@ const SeoManager: React.FC = () => {
       const formDataPayload = new FormData();
       formDataPayload.append('file', file);
 
-      const res = await fetch(`${API_URL}/api/admin/upload-logo`, {
+      const res = await fetch(`${API_URL}/admin/upload-logo`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -68,7 +68,7 @@ const SeoManager: React.FC = () => {
       try {
         const token = localStorage.getItem('access_token');
         const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-        const res = await fetch(`${API_URL}/api/admin/settings`, {
+        const res = await fetch(`${API_URL}/admin/settings`, {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         if (res.ok) {
@@ -99,7 +99,7 @@ const SeoManager: React.FC = () => {
       const token = localStorage.getItem('access_token');
       const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
       
-      const response = await fetch(`${API_URL}/api/admin/settings/update`, {
+      const response = await fetch(`${API_URL}/admin/settings/update`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

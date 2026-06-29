@@ -48,14 +48,14 @@ def create_app() -> FastAPI:
     # Đã loại bỏ hoàn toàn prefix="/api/v1" theo thống nhất của huynh.
     
     # Nhóm API cơ bản (Health check)
-    app.include_router(base.router)
+    app.include_router(base.router, prefix="/api")
     
     # Nhóm API chức năng chính (Auth, Chat, Thanh toán)
-    # Đường dẫn sẽ trực tiếp là: /auth/..., /chatbot/..., /payment/...
-    app.include_router(auth.router)
-    app.include_router(chatbot.router)
-    app.include_router(payment.router)
-    app.include_router(webhook.router)
+    # Đường dẫn sẽ là: /api/auth/..., /api/chatbot/..., /api/payment/...
+    app.include_router(auth.router, prefix="/api")
+    app.include_router(chatbot.router, prefix="/api")
+    app.include_router(payment.router, prefix="/api")
+    app.include_router(webhook.router, prefix="/api")
     
     app.include_router(admin.router)
     # 4. QUẢN LÝ VÒNG ĐỜI (LIFESPAN EVENTS)

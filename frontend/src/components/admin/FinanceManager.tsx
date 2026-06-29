@@ -34,7 +34,7 @@ export const FinanceManager = () => {
                 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
                 
                 // Sử dụng đúng prefix /api/admin từ backend
-                const res = await fetch(`${API_URL}/api/admin/payments`, {
+                const res = await fetch(`${API_URL}/admin/payments`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 

@@ -71,7 +71,7 @@ const DataDeletion: React.FC = () => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/data-deletion`, {
+      const res = await fetch(`${API_URL}/admin/docs/data-deletion`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -31,7 +31,7 @@ export const AiSettings = () => {
                 const token = localStorage.getItem('access_token');
                 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
                 
-                const res = await fetch(`${API_URL}/api/admin/settings`, {
+                const res = await fetch(`${API_URL}/admin/settings`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 
@@ -65,7 +65,7 @@ export const AiSettings = () => {
                 ? configToSave
                 : config;
             
-            const res = await fetch(`${API_URL}/api/admin/settings/update`, {
+            const res = await fetch(`${API_URL}/admin/settings/update`, {
                 method: 'POST',
                 headers: { 
                     'Authorization': `Bearer ${token}`,

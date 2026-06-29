@@ -49,7 +49,7 @@ const PrivacyPolicy: React.FC = () => {
     setSaving(true);
     const token = localStorage.getItem('access_token');
     try {
-      const res = await fetch(`${API_URL}/api/admin/docs/privacy-policy`, {
+      const res = await fetch(`${API_URL}/admin/docs/privacy-policy`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
